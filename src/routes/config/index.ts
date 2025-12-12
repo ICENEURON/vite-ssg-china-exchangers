@@ -17,6 +17,7 @@ import NotFoundPage from "../../pages/404"
 import BlogIndex from "../../pages/blogs"
 import BlogPost from "../../pages/blogs/post"
 
+import ComponentsPage from "../../pages/components"
 
 export type Auth = "public" | "private"
 export type NavGroup = "none" | "public" | "guest" | "auth"
@@ -38,6 +39,7 @@ const allRoutes: RouteDef[] = [
     { path: "/", element: HomePage, auth: "public", nav: "none" },
     { path: "/about", element: AboutPage, auth: "public", nav: "public", label: "About", translationKey: "navigation.menu.about" },
     { path: "/docs", element: DocsPage, auth: "public", nav: "public", label: "Docs", translationKey: "navigation.menu.docs" },
+    { path: "/components", element: ComponentsPage, auth: "public", nav: "public", label: "Components", translationKey: "navigation.menu.components" },
 
     // Blog routes
     ...(enableBlog ? [

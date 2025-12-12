@@ -3,16 +3,23 @@ import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft } from 'lucide-react'
 import { Button } from '../../components/ui/button'
 import { Head } from 'vite-react-ssg'
+import { useCurrentLanguage, addLanguageToPath } from '../../utils/language-routing'
 
 export default function BlogPost() {
     const { slug } = useParams()
-    const post = posts.find(p => p.slug === slug)
+    const currentLanguage = useCurrentLanguage();
+
+    // Find post that matches slug and current language
+    const post = posts.find(p => p.slug === slug && p.lang === currentLanguage)
+
+    // Back link should respect current language
+    const backLink = addLanguageToPath('/blog', currentLanguage);
 
     if (!post) return (
         <div className="container py-20 mx-auto text-center">
             <h1 className="text-2xl font-bold mb-4">Post not found</h1>
             <Button asChild>
-                <Link to="/blog">Back to Blog</Link>
+                <Link to={backLink}>Back to Blog</Link>
             </Button>
         </div>
     )
@@ -26,7 +33,7 @@ export default function BlogPost() {
             </Head>
             <div className="mb-8">
                 <Button variant="ghost" asChild className="pl-0 hover:bg-transparent hover:text-primary">
-                    <Link to="/blog" className="flex items-center gap-2">
+                    <Link to={backLink} className="flex items-center gap-2">
                         <ArrowLeft className="w-4 h-4" />
                         Back to Blog
                     </Link>

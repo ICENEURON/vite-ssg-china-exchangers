@@ -1,5 +1,39 @@
 [
   {
+    "title": "Velite 入门指南",
+    "slug": "getting-started-with-velite",
+    "date": "2024-03-20T00:00:00.000Z",
+    "excerpt": "学习如何在 Vite 项目中集成 Velite 以实现类型安全的内容管理。",
+    "content": "<h1>Velite 入门指南</h1>\n<p>Velite 是一个强大的工具，用于在 Vite 项目中管理内容。它可以将 Markdown、MDX、YAML 和 JSON 文件转换为类型安全的数据，您可以直接将其导入到应用程序中。</p>\n<h2>安装</h2>\n<p>要开始使用，请安装 Velite：</p>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292eff;--shiki-dark:#F8F8F2;--shiki-light-bg:#ffffff;--shiki-dark-bg:#282A36\" tabindex=\"0\" data-language=\"bash\" data-theme=\"min-light dracula\"><code data-language=\"bash\" data-theme=\"min-light dracula\" style=\"display: grid;\"><span data-line=\"\"><span style=\"--shiki-light:#6F42C1;--shiki-dark:#50FA7B\">pnpm</span><span style=\"--shiki-light:#2B5581;--shiki-dark:#F1FA8C\"> add</span><span style=\"--shiki-light:#2B5581;--shiki-dark:#BD93F9\"> -D</span><span style=\"--shiki-light:#2B5581;--shiki-dark:#F1FA8C\"> velite</span></span></code></pre></figure>\n<h2>配置</h2>\n<p>在项目根目录下创建一个 <code>velite.config.ts</code> 文件：</p>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292eff;--shiki-dark:#F8F8F2;--shiki-light-bg:#ffffff;--shiki-dark-bg:#282A36\" tabindex=\"0\" data-language=\"ts\" data-theme=\"min-light dracula\"><code data-language=\"ts\" data-theme=\"min-light dracula\" style=\"display: grid;\"><span data-line=\"\"><span style=\"--shiki-light:#D32F2F;--shiki-dark:#FF79C6\">import</span><span style=\"--shiki-light:#24292EFF;--shiki-dark:#F8F8F2\"> { defineConfig</span><span style=\"--shiki-light:#212121;--shiki-dark:#F8F8F2\">,</span><span style=\"--shiki-light:#24292EFF;--shiki-dark:#F8F8F2\"> defineCollection</span><span style=\"--shiki-light:#212121;--shiki-dark:#F8F8F2\">,</span><span style=\"--shiki-light:#24292EFF;--shiki-dark:#F8F8F2\"> s } </span><span style=\"--shiki-light:#D32F2F;--shiki-dark:#FF79C6\">from</span><span style=\"--shiki-light:#22863A;--shiki-dark:#E9F284\"> '</span><span style=\"--shiki-light:#22863A;--shiki-dark:#F1FA8C\">velite</span><span style=\"--shiki-light:#22863A;--shiki-dark:#E9F284\">'</span></span>\n<span data-line=\"\"> </span>\n<span data-line=\"\"><span style=\"--shiki-light:#D32F2F;--shiki-dark:#FF79C6\">export</span><span style=\"--shiki-light:#D32F2F;--shiki-dark:#FF79C6\"> default</span><span style=\"--shiki-light:#6F42C1;--shiki-dark:#50FA7B\"> defineConfig</span><span style=\"--shiki-light:#24292EFF;--shiki-dark:#F8F8F2\">({</span></span>\n<span data-line=\"\"><span style=\"--shiki-light:#C2C3C5;--shiki-dark:#6272A4\">  // ... 配置</span></span>\n<span data-line=\"\"><span style=\"--shiki-light:#24292EFF;--shiki-dark:#F8F8F2\">})</span></span></code></pre></figure>\n<h2>用法</h2>\n<p>直接导入您的内容：</p>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292eff;--shiki-dark:#F8F8F2;--shiki-light-bg:#ffffff;--shiki-dark-bg:#282A36\" tabindex=\"0\" data-language=\"ts\" data-theme=\"min-light dracula\"><code data-language=\"ts\" data-theme=\"min-light dracula\" style=\"display: grid;\"><span data-line=\"\"><span style=\"--shiki-light:#D32F2F;--shiki-dark:#FF79C6\">import</span><span style=\"--shiki-light:#24292EFF;--shiki-dark:#F8F8F2\"> { posts } </span><span style=\"--shiki-light:#D32F2F;--shiki-dark:#FF79C6\">from</span><span style=\"--shiki-light:#22863A;--shiki-dark:#E9F284\"> '</span><span style=\"--shiki-light:#22863A;--shiki-dark:#F1FA8C\">.velite</span><span style=\"--shiki-light:#22863A;--shiki-dark:#E9F284\">'</span></span></code></pre></figure>\n<p>享受类型安全的内容带来的便利吧！</p>",
+    "metaTitle": "Velite 教程：Vite 的类型安全内容管理",
+    "metaDescription": "在 Vite 项目中配置 Velite 管理 Markdown 内容的分步指南。",
+    "keywords": [
+      "Velite",
+      "Vite",
+      "内容管理",
+      "TypeScript"
+    ],
+    "lang": "zh",
+    "permalink": "/zh/blog/getting-started-with-velite"
+  },
+  {
+    "title": "Velite 入門ガイド",
+    "slug": "getting-started-with-velite",
+    "date": "2024-03-20T00:00:00.000Z",
+    "excerpt": "Vite プロジェクトに Velite を統合して、タイプセーフなコンテンツ管理を実現する方法を学びます。",
+    "content": "<h1>Velite 入門ガイド</h1>\n<p>Velite は、Vite プロジェクトでコンテンツを管理するための強力なツールです。Markdown、MDX、YAML、JSON ファイルをタイプセーフなデータに変換し、アプリケーションに直接インポートできます。</p>\n<h2>インストール</h2>\n<p>開始するには、Velite をインストールします。</p>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292eff;--shiki-dark:#F8F8F2;--shiki-light-bg:#ffffff;--shiki-dark-bg:#282A36\" tabindex=\"0\" data-language=\"bash\" data-theme=\"min-light dracula\"><code data-language=\"bash\" data-theme=\"min-light dracula\" style=\"display: grid;\"><span data-line=\"\"><span style=\"--shiki-light:#6F42C1;--shiki-dark:#50FA7B\">pnpm</span><span style=\"--shiki-light:#2B5581;--shiki-dark:#F1FA8C\"> add</span><span style=\"--shiki-light:#2B5581;--shiki-dark:#BD93F9\"> -D</span><span style=\"--shiki-light:#2B5581;--shiki-dark:#F1FA8C\"> velite</span></span></code></pre></figure>\n<h2>設定</h2>\n<p>プロジェクトのルートに <code>velite.config.ts</code> ファイルを作成します。</p>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292eff;--shiki-dark:#F8F8F2;--shiki-light-bg:#ffffff;--shiki-dark-bg:#282A36\" tabindex=\"0\" data-language=\"ts\" data-theme=\"min-light dracula\"><code data-language=\"ts\" data-theme=\"min-light dracula\" style=\"display: grid;\"><span data-line=\"\"><span style=\"--shiki-light:#D32F2F;--shiki-dark:#FF79C6\">import</span><span style=\"--shiki-light:#24292EFF;--shiki-dark:#F8F8F2\"> { defineConfig</span><span style=\"--shiki-light:#212121;--shiki-dark:#F8F8F2\">,</span><span style=\"--shiki-light:#24292EFF;--shiki-dark:#F8F8F2\"> defineCollection</span><span style=\"--shiki-light:#212121;--shiki-dark:#F8F8F2\">,</span><span style=\"--shiki-light:#24292EFF;--shiki-dark:#F8F8F2\"> s } </span><span style=\"--shiki-light:#D32F2F;--shiki-dark:#FF79C6\">from</span><span style=\"--shiki-light:#22863A;--shiki-dark:#E9F284\"> '</span><span style=\"--shiki-light:#22863A;--shiki-dark:#F1FA8C\">velite</span><span style=\"--shiki-light:#22863A;--shiki-dark:#E9F284\">'</span></span>\n<span data-line=\"\"> </span>\n<span data-line=\"\"><span style=\"--shiki-light:#D32F2F;--shiki-dark:#FF79C6\">export</span><span style=\"--shiki-light:#D32F2F;--shiki-dark:#FF79C6\"> default</span><span style=\"--shiki-light:#6F42C1;--shiki-dark:#50FA7B\"> defineConfig</span><span style=\"--shiki-light:#24292EFF;--shiki-dark:#F8F8F2\">({</span></span>\n<span data-line=\"\"><span style=\"--shiki-light:#C2C3C5;--shiki-dark:#6272A4\">  // ... 設定</span></span>\n<span data-line=\"\"><span style=\"--shiki-light:#24292EFF;--shiki-dark:#F8F8F2\">})</span></span></code></pre></figure>\n<h2>使い方</h2>\n<p>コンテンツを直接インポートします。</p>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292eff;--shiki-dark:#F8F8F2;--shiki-light-bg:#ffffff;--shiki-dark-bg:#282A36\" tabindex=\"0\" data-language=\"ts\" data-theme=\"min-light dracula\"><code data-language=\"ts\" data-theme=\"min-light dracula\" style=\"display: grid;\"><span data-line=\"\"><span style=\"--shiki-light:#D32F2F;--shiki-dark:#FF79C6\">import</span><span style=\"--shiki-light:#24292EFF;--shiki-dark:#F8F8F2\"> { posts } </span><span style=\"--shiki-light:#D32F2F;--shiki-dark:#FF79C6\">from</span><span style=\"--shiki-light:#22863A;--shiki-dark:#E9F284\"> '</span><span style=\"--shiki-light:#22863A;--shiki-dark:#F1FA8C\">.velite</span><span style=\"--shiki-light:#22863A;--shiki-dark:#E9F284\">'</span></span></code></pre></figure>\n<p>タイプセーフなコンテンツをお楽しみください！</p>",
+    "metaTitle": "Velite チュートリアル: Vite 用のタイプセーフなコンテンツ",
+    "metaDescription": "Vite プロジェクトで Markdown コンテンツを管理するための Velite のセットアップに関するステップバイステップガイド。",
+    "keywords": [
+      "Velite",
+      "Vite",
+      "コンテンツ管理",
+      "TypeScript"
+    ],
+    "lang": "ja",
+    "permalink": "/ja/blog/getting-started-with-velite"
+  },
+  {
     "title": "Advanced TypeScript Patterns for Scalable Applications",
     "slug": "advanced-typescript-patterns",
     "date": "2024-03-25T00:00:00.000Z",
@@ -13,6 +47,7 @@
       "Web Development",
       "Scalability"
     ],
+    "lang": "en",
     "permalink": "/blog/advanced-typescript-patterns"
   },
   {
@@ -29,6 +64,7 @@
       "Content Management",
       "TypeScript"
     ],
+    "lang": "en",
     "permalink": "/blog/getting-started-with-velite"
   },
   {
@@ -45,6 +81,7 @@
       "Frontend",
       "JavaScript"
     ],
+    "lang": "en",
     "permalink": "/blog/mastering-react-hooks"
   }
 ]

@@ -17,6 +17,7 @@ import {
     NavigationMenuLink,
     NavigationMenuList,
 } from "../ui/navigation-menu";
+import { NavPopup, ListItem } from "./nav-popup";
 
 export function Navigation() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -100,6 +101,96 @@ export function Navigation() {
                                         ? t(route.translationKey)
                                         : route.label;
                                     const isActive = isActiveLink(route.path);
+
+                                    // Docs Menu
+                                    if (route.path === '/docs') {
+                                        return (
+                                            <NavPopup key={route.path} label={label || ''} isActive={isActive} className="right-0">
+                                                <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+                                                    <li className="row-span-3">
+                                                        <NavigationMenuLink asChild>
+                                                            <Link
+                                                                className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b p-6 no-underline outline-none focus:shadow-md"
+                                                                to={getLocalizedPath("/docs")}
+                                                            >
+                                                                <div className="mb-2 mt-4 text-lg font-medium">
+                                                                    Documentation
+                                                                </div>
+                                                                <p className="text-sm leading-tight text-muted-foreground">
+                                                                    Complete guides and API references for building amazing applications.
+                                                                </p>
+                                                            </Link>
+                                                        </NavigationMenuLink>
+                                                    </li>
+                                                    <ListItem href={getLocalizedPath("/docs")} title="Getting Started">
+                                                        Learn how to set up and configure your project.
+                                                    </ListItem>
+                                                    <ListItem href={getLocalizedPath("/docs") + "#installation"} title="Installation">
+                                                        Step-by-step installation guide and requirements.
+                                                    </ListItem>
+                                                    <ListItem href={getLocalizedPath("/docs") + "#api"} title="API Reference">
+                                                        Complete API documentation and examples.
+                                                    </ListItem>
+                                                </ul>
+                                            </NavPopup>
+                                        );
+                                    }
+
+                                    // Components Menu
+                                    if (route.path === '/components') {
+                                        return (
+                                            <NavPopup key={route.path} label={label || ''} isActive={isActive} className="right-0">
+                                                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                                                    <ListItem href={getLocalizedPath("/components")} title="All Components">
+                                                        Complete showcase of all available UI components.
+                                                    </ListItem>
+                                                    <ListItem href={getLocalizedPath("/components") + "#badge"} title="Badge">
+                                                        Display labels, status indicators, and small pieces of information.
+                                                    </ListItem>
+                                                    <ListItem href={getLocalizedPath("/components") + "#accordion"} title="Accordion">
+                                                        Collapsible content areas for organizing information.
+                                                    </ListItem>
+                                                    <ListItem href={getLocalizedPath("/components") + "#card"} title="Card">
+                                                        Flexible containers for grouping and organizing content.
+                                                    </ListItem>
+                                                    <ListItem href={getLocalizedPath("/components") + "#carousel"} title="Carousel">
+                                                        Interactive slideshows for cycling through elements.
+                                                    </ListItem>
+                                                    <ListItem href={getLocalizedPath("/components") + "#tabs"} title="Tabs">
+                                                        Organize content into separate views that users can switch between.
+                                                    </ListItem>
+                                                    <ListItem href={getLocalizedPath("/components") + "#table"} title="Table">
+                                                        Display structured data in rows and columns.
+                                                    </ListItem>
+                                                </ul>
+                                            </NavPopup>
+                                        );
+                                    }
+
+                                    // About Menu
+                                    if (route.path === '/about') {
+                                        return (
+                                            <NavPopup key={route.path} label={label || ''} isActive={isActive} className="right-0">
+                                                <ul className="grid w-[300px] gap-3 p-3">
+                                                    <ListItem href={getLocalizedPath("/about")} title="Technology Stack">
+                                                        Learn about our modern development stack and tools.
+                                                    </ListItem>
+                                                    <ListItem href={getLocalizedPath("/about") + "#team"} title="Our Team">
+                                                        Meet the people behind this amazing project.
+                                                    </ListItem>
+                                                    <ListItem href={getLocalizedPath("/about") + "#mission"} title="Mission">
+                                                        Our vision and goals for the future of development.
+                                                    </ListItem>
+                                                    <ListItem href={getLocalizedPath("/about") + "#features"} title="Features">
+                                                        Explore all the amazing features we offer.
+                                                    </ListItem>
+                                                    <ListItem href={getLocalizedPath("/about") + "#contact"} title="Contact">
+                                                        Get in touch with our team for support or questions.
+                                                    </ListItem>
+                                                </ul>
+                                            </NavPopup>
+                                        );
+                                    }
 
                                     return (
                                         <NavigationMenuItem key={route.path}>

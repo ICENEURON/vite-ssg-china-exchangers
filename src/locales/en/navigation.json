@@ -11,7 +11,8 @@
     "login": "Login",
     "signup": "Sign Up",
     "dashboard": "Dashboard",
-    "logout": "Logout"
+    "logout": "Logout",
+    "components": "Components"
   },
   "breadcrumb": {
     "home": "Home",

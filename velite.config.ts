@@ -8,16 +8,42 @@ const posts = defineCollection({
     schema: s
         .object({
             title: s.string().max(99), // Zod schema for validation
-            slug: s.slug('posts'), // validate format, unique in posts collection
+            slug: s.path(), // will be computed from file path
             date: s.isodate(), // validate ISO date
             excerpt: s.string().max(200).optional(),
             content: s.markdown(), // transform markdown to html
             metaTitle: s.string().optional(),
             metaDescription: s.string().optional(),
-            keywords: s.array(s.string()).optional()
+            keywords: s.array(s.string()).optional(),
+            // hidden field, used for internal logic
+            lang: s.string().optional(),
         })
-        // more additional fields (computed fields)
-        .transform(data => ({ ...data, permalink: `/blog/${data.slug}` }))
+        .transform(data => {
+            // path is like "posts/en/hello-world.md" or "posts/en/hello-world"
+            // we want to extract "en" as lang, and "hello-world" as slug
+
+            // Note: data.slug from s.path() gives the relative path without extension
+            // e.g. "posts/en/hello-world"
+
+            const parts = data.slug.split('/');
+            // parts[0] is 'posts'
+            // parts[1] is lang (e.g., 'en', 'zh')
+            // parts[2] is actual slug (file name)
+
+            const lang = parts.length >= 3 ? parts[1] : 'en';
+            const realSlug = parts.length >= 3 ? parts[parts.length - 1] : parts[parts.length - 1]; // Fallback
+
+            const permalink = lang === 'en'
+                ? `/blog/${realSlug}`
+                : `/${lang}/blog/${realSlug}`;
+
+            return {
+                ...data,
+                slug: realSlug,
+                lang,
+                permalink
+            };
+        })
 })
 
 export default defineConfig({
