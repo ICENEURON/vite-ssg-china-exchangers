@@ -30,6 +30,14 @@ export function Navigation() {
     const authEnvValue = import.meta.env.VITE_ENABLE_AUTH;
     const enableAuth = authEnvValue === "true";
 
+    // 检查主题切换标志
+    const themeEnvValue = import.meta.env.VITE_ENABLE_THEME_TOGGLE;
+    const enableThemeToggle = themeEnvValue === "true";
+
+    // 检查语言切换标志
+    const languageEnvValue = import.meta.env.VITE_ENABLE_LANGUAGE_TOGGLE;
+    const enableLanguageToggle = languageEnvValue === "true";
+
     // 点击菜单外自动关闭
     useEffect(() => {
         if (!isMobileMenuOpen) return;
@@ -110,8 +118,8 @@ export function Navigation() {
                                 })}
                             </NavigationMenuList>
                         </NavigationMenu>
-                        <ThemeToggle />
-                        <LanguageToggle />
+                        {enableThemeToggle && <ThemeToggle />}
+                        {enableLanguageToggle && <LanguageToggle />}
                     </div>
 
                     {/* 移动端导航 */}
@@ -132,8 +140,8 @@ export function Navigation() {
                                 <Menu className="h-4 w-4" />
                             )}
                         </Button>
-                        <ThemeToggle />
-                        <LanguageToggle />
+                        {enableThemeToggle && <ThemeToggle />}
+                        {enableLanguageToggle && <LanguageToggle />}
                     </div>
                 </div>
             </header>

@@ -30,12 +30,21 @@ export type RouteDef = {
     translationKey?: string
 }
 
-export const ROUTES: RouteDef[] = [
+
+const blogEnvValue = import.meta.env.VITE_ENABLE_BLOG;
+const enableBlog = blogEnvValue === "true";
+
+const allRoutes: RouteDef[] = [
     { path: "/", element: HomePage, auth: "public", nav: "none" },
     { path: "/about", element: AboutPage, auth: "public", nav: "public", label: "About", translationKey: "navigation.menu.about" },
     { path: "/docs", element: DocsPage, auth: "public", nav: "public", label: "Docs", translationKey: "navigation.menu.docs" },
-    { path: "/blog", element: BlogIndex, auth: "public", nav: "public", label: "Blog", translationKey: "navigation.menu.blog" },
-    { path: "/blog/:slug", element: BlogPost, auth: "public", nav: "none" },
+
+    // Blog routes
+    ...(enableBlog ? [
+        { path: "/blog", element: BlogIndex, auth: "public", nav: "public", label: "Blog", translationKey: "navigation.menu.blog" },
+        { path: "/blog/:slug", element: BlogPost, auth: "public", nav: "none" },
+    ] as RouteDef[] : []),
+
     { path: "/history", element: HistoryPage, auth: "public", nav: "public", label: "History", translationKey: "navigation.menu.history" },
     { path: "/faq", element: FaqPage, auth: "public", nav: "public", label: "FAQ", translationKey: "navigation.menu.faq" },
 
@@ -47,3 +56,5 @@ export const ROUTES: RouteDef[] = [
     { path: "/privacy", element: PrivacyPage, auth: "public", nav: "none", label: "Privacy", translationKey: "navigation.menu.privacy" },
     { path: "*", element: NotFoundPage, auth: "public", nav: "none", label: "NotFound" },
 ]
+
+export const ROUTES = allRoutes;
