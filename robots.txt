@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aussiepennystocks.com/sitemap.xml

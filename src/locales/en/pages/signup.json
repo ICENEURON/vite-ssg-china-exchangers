@@ -1,0 +1,38 @@
+{
+  "title": "Create Your Account",
+  "meta": {
+    "description": "Join our community and get access to exclusive resources for React, Vite, TailwindCSS, and Shadcn UI development.",
+    "keywords": "signup, register, account, react, vite, tailwindcss, shadcn, community"
+  },
+  "og": {
+    "title": "Sign Up - React + Vite + TailwindCSS + Shadcn",
+    "description": "Create your account and start building amazing web applications with modern tools."
+  },
+  "hero": {
+    "title": "Join Our Community",
+    "subtitle": "Create an account to access exclusive resources and interactive examples of our technology stack."
+  },
+  "form": {
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "create_account": "Create account",
+    "creating": "Creating account...",
+    "have_account": "Already have an account?",
+    "signin_link": "Sign in here"
+  },
+  "benefits": {
+    "title": "Why join us?",
+    "items": [
+      "Access to premium components",
+      "Exclusive tutorials and guides",
+      "Community support and discussions",
+      "Early access to new features",
+      "Downloadable project templates"
+    ]
+  },
+  "messages": {
+    "success_message": "Account created successfully! Please check your email to confirm your registration.",
+    "welcome": "Welcome to the community!"
+  }
+}

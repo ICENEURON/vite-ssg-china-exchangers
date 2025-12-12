@@ -1,0 +1,49 @@
+{
+  "title": "關於我們的技術棧",
+  "meta": {
+    "description": "了解我們的現代網頁開發技術棧，包含 React、Vite、TailwindCSS 和 Shadcn UI 組件，用於構建快速、美觀且易於訪問的應用程式。",
+    "keywords": "react, vite, tailwindcss, shadcn, typescript, 現代網頁開發, 組件庫, UI設計"
+  },
+  "og": {
+    "title": "關於我們的技術棧 - React + Vite + TailwindCSS + Shadcn",
+    "description": "探索使用 React、Vite、TailwindCSS 和 Shadcn UI 組件進行現代網頁開發的強大功能。"
+  },
+  "mission": {
+    "title": "我們的使命",
+    "description": "透過使用 React、Vite、TailwindCSS 和 Shadcn UI 組件創建快速、美觀且易於訪問的應用程式，展示現代網頁開發工具的強大功能。"
+  },
+  "technologies": {
+    "title": "我們的技術棧",
+    "react": {
+      "title": "React 18+",
+      "description": "業界領先的 JavaScript 函式庫，用於構建用戶介面，具有現代 hooks、並發功能和出色的開發體驗。"
+    },
+    "vite": {
+      "title": "Vite",
+      "description": "閃電般快速的構建工具和開發伺服器，提供即時熱模組替換和優化的生產構建。"
+    },
+    "tailwindcss": {
+      "title": "TailwindCSS", 
+      "description": "實用優先的 CSS 框架，能夠透過一致的設計系統和響應式佈局實現快速 UI 開發。"
+    },
+    "shadcn": {
+      "title": "Shadcn UI",
+      "description": "基於 Radix UI 原語構建並使用 TailwindCSS 樣式化的現代、易於訪問且可定製的 React 組件庫。"
+    }
+  },
+  "features": {
+    "title": "主要功能",
+    "performance": "透過樹搖和程式碼分割優化效能",
+    "typescript": "完整的 TypeScript 支援，實現型別安全開發",
+    "ssg": "靜態網站生成，改善 SEO 和載入速度",
+    "responsive": "使用 TailwindCSS 的行動優先響應式設計",
+    "accessibility": "符合 WCAG 標準的組件，具有適當的 ARIA 屬性",
+    "dark_mode": "內建暗色模式支援，具有系統偏好檢測"
+  },
+  "contact": {
+    "title": "開始使用",
+    "description": "準備好使用我們的技術棧構建出色的應用程式了嗎？",
+    "github": "在 GitHub 上查看我們的程式碼",
+    "docs": "閱讀我們的綜合文檔"
+  }
+}

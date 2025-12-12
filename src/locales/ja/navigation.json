@@ -1,0 +1,25 @@
+{
+  "menu": {
+    "home": "ホーム",
+    "about": "技術スタックについて",
+    "docs": "ドキュメント",
+    "terms": "利用規約",
+    "privacy": "プライバシー",
+    "components": "コンポーネント",
+    "examples": "例",
+    "login": "ログイン",
+    "signup": "新規登録",
+    "dashboard": "ダッシュボード",
+    "logout": "ログアウト"
+  },
+  "breadcrumb": {
+    "home": "ホーム",
+    "current_page": "現在のページ"
+  },
+  "sections": {
+    "technologies": "技術",
+    "getting_started": "はじめに",
+    "resources": "リソース",
+    "community": "コミュニティ"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "title": "文檔 - React + Vite + TailwindCSS + Shadcn",
+  "meta": {
+    "description": "使用 React、Vite、TailwindCSS 和 Shadcn UI 構建現代網頁應用程式的完整文檔。全面的指南、教程和最佳實踐。",
+    "keywords": "文檔, 指南, react, vite, tailwindcss, shadcn, typescript, 教程, 網頁開發"
+  },
+  "og": {
+    "title": "文檔 - React + Vite + TailwindCSS + Shadcn",
+    "description": "透過我們涵蓋 React、Vite、TailwindCSS 和 Shadcn UI 的全面文檔，掌握現代網頁開發。"
+  },
+  "hero": {
+    "title": "完整開發指南",
+    "subtitle": "掌握 React + Vite + TailwindCSS + Shadcn",
+    "description": "全面的文檔幫助您使用我們的現代技術棧構建出色的網頁應用程式。"
+  },
+  "sections": {
+    "getting_started": {
+      "title": "快速開始",
+      "description": "快速設定指南，讓您在幾分鐘內啟動並運行",
+      "topics": [
+        "安裝與設定",
+        "項目結構",
+        "開發流程",
+        "環境配置"
+      ]
+    },
+    "react_guide": {
+      "title": "React 開發",
+      "description": "在我們的技術棧中進行 React 開發的最佳實踐",
+      "topics": [
+        "組件架構",
+        "Hooks 和狀態管理",
+        "性能優化",
+        "測試策略"
+      ]
+    },
+    "vite_tooling": {
+      "title": "Vite 構建工具",
+      "description": "利用 Vite 的強大功能進行開發和生產",
+      "topics": [
+        "開發服務器",
+        "構建優化",
+        "插件配置",
+        "資源處理"
+      ]
+    },
+    "styling": {
+      "title": "使用 TailwindCSS 樣式",
+      "description": "掌握 TailwindCSS 的實用優先 CSS",
+      "topics": [
+        "實用類",
+        "響應式設計",
+        "自定義主題",
+        "組件樣式"
+      ]
+    },
+    "components": {
+      "title": "Shadcn UI 組件",
+      "description": "使用易於訪問的組件構建美麗的 UI",
+      "topics": [
+        "組件庫",
+        "自定義指南",
+        "無障礙功能",
+        "主題配置"
+      ]
+    },
+    "deployment": {
+      "title": "部署與生產",
+      "description": "自信地部署您的應用程式",
+      "topics": [
+        "構建流程",
+        "靜態網站生成",
+        "性能優化",
+        "託管選項"
+      ]
+    }
+  },
+  "quick_links": {
+    "title": "快速連結",
+    "react_docs": "React 文檔",
+    "vite_docs": "Vite 文檔", 
+    "tailwind_docs": "TailwindCSS 文檔",
+    "shadcn_docs": "Shadcn UI 文檔",
+    "github_repo": "GitHub 存儲庫",
+    "examples": "程式碼範例"
+  },
+  "resources": {
+    "title": "其他資源",
+    "tutorials": "視頻教程",
+    "examples": "範例項目",
+    "community": "社區論壇",
+    "blog": "開發博客",
+    "changelog": "發布說明",
+    "support": "獲得支援"
+  }
+}

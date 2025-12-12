@@ -1,0 +1,44 @@
+{
+  "technologies": {
+    "title": "技術",
+    "links": {
+      "react": "React",
+      "vite": "Vite", 
+      "tailwindcss": "TailwindCSS",
+      "shadcn": "Shadcn UI"
+    }
+  },
+  "resources": {
+    "title": "資源",
+    "links": {
+      "documentation": "文檔",
+      "components": "組件",
+      "examples": "示例",
+      "github": "GitHub"
+    }
+  },
+  "guides": {
+    "title": "指南",
+    "links": {
+      "getting_started": "快速開始",
+      "customization": "自定義",
+      "deployment": "部署",
+      "best_practices": "最佳實踐"
+    }
+  },
+  "community": {
+    "title": "社群",
+    "links": {
+      "discord": "Discord",
+      "twitter": "Twitter",
+      "github": "GitHub",
+      "discussions": "討論"
+    }
+  },
+  "legal": {
+    "copyright": "© {{year}} 現代網頁技術棧。保留所有權利。",
+    "terms": "服務條款",
+    "privacy_policy": "隱私政策"
+  },
+  "tagline": "使用 React + Vite + TailwindCSS + Shadcn 的現代網頁開發"
+}

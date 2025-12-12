@@ -1,0 +1,16 @@
+{
+  "links": {
+    "items": {
+      "history": "History",
+      "docs": "Documentation",
+      "about": "About",
+      "faq": "FAQ"
+    }
+  },
+  "legal": {
+    "copyright": "© {{year}} Aussie Penny Stocks. All rights reserved.",
+    "terms": "Terms & Disclaimer",
+    "privacy_policy": "Privacy Policy"
+  },
+  "tagline": "Australian penny stocks & small caps - research only, not financial advice."
+}

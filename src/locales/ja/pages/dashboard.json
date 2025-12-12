@@ -1,0 +1,46 @@
+{
+  "title": "開発ダッシュボード",
+  "meta": {
+    "description": "React、Vite、TailwindCSS、Shadcn UIコンポーネントの実際の動作を示すパーソナル開発ダッシュボード。",
+    "keywords": "ダッシュボード, react, vite, tailwindcss, shadcn, 開発, コンポーネント, ui"
+  },
+  "og": {
+    "title": "開発ダッシュボード - React + Vite + TailwindCSS + Shadcn",
+    "description": "モダンWeb開発ツールの力を実証するインタラクティブダッシュボード。"
+  },
+  "welcome": {
+    "title": "ダッシュボードへようこそ",
+    "subtitle": "{{email}} としてサインイン中",
+    "description": "このインタラクティブダッシュボードを通じて、技術スタックの機能を探索しましょう。"
+  },
+  "sections": {
+    "components": {
+      "title": "UIコンポーネントショーケース",
+      "description": "Shadcn UIコンポーネントのインタラクティブな例"
+    },
+    "performance": {
+      "title": "パフォーマンス指標",
+      "description": "リアルタイムアプリケーションパフォーマンスインジケーター"
+    },
+    "development": {
+      "title": "開発ツール",
+      "description": "開発に役立つツールとユーティリティ"
+    },
+    "theming": {
+      "title": "テーマ設定",
+      "description": "アプリケーションの外観をカスタマイズ"
+    }
+  },
+  "stats": {
+    "components": "50+ コンポーネント",
+    "themes": "ライト&ダークモード",
+    "responsive": "完全レスポンシブ",
+    "accessible": "WCAG準拠"
+  },
+  "actions": {
+    "sign_out": "サインアウト",
+    "view_code": "ソースコードを表示",
+    "download": "プロジェクトをダウンロード",
+    "customize": "テーマをカスタマイズ"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "title": "創建您的帳戶",
+  "meta": {
+    "description": "加入我們的社群，獲得 React、Vite、TailwindCSS 和 Shadcn UI 開發的獨家資源。",
+    "keywords": "註冊, 帳戶, react, vite, tailwindcss, shadcn, 社群"
+  },
+  "og": {
+    "title": "註冊 - React + Vite + TailwindCSS + Shadcn",
+    "description": "創建您的帳戶，開始使用現代工具構建出色的網頁應用程式。"
+  },
+  "hero": {
+    "title": "加入我們的社群",
+    "subtitle": "創建帳戶以訪問獨家資源和我們技術棧的互動範例。"
+  },
+  "form": {
+    "email": "電子郵件",
+    "password": "密碼",
+    "confirm_password": "確認密碼",
+    "create_account": "創建帳戶",
+    "creating": "創建帳戶中...",
+    "have_account": "已有帳戶？",
+    "signin_link": "在此登入"
+  },
+  "benefits": {
+    "title": "為什麼加入我們？",
+    "items": [
+      "訪問高級組件",
+      "獨家教程和指南",
+      "社群支援和討論",
+      "新功能的早期訪問",
+      "可下載的項目模板"
+    ]
+  },
+  "messages": {
+    "success_message": "帳戶創建成功！請檢查您的電子郵件以確認註冊。",
+    "welcome": "歡迎加入社群！"
+  }
+}

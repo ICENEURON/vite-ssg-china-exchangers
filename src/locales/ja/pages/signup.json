@@ -1,0 +1,38 @@
+{
+  "title": "アカウントを作成",
+  "meta": {
+    "description": "コミュニティに参加して、React、Vite、TailwindCSS、Shadcn UI開発のための独占的なリソースにアクセスしましょう。",
+    "keywords": "サインアップ, 登録, アカウント, react, vite, tailwindcss, shadcn, コミュニティ"
+  },
+  "og": {
+    "title": "サインアップ - React + Vite + TailwindCSS + Shadcn",
+    "description": "アカウントを作成して、モダンツールで素晴らしいWebアプリケーションの構築を始めましょう。"
+  },
+  "hero": {
+    "title": "コミュニティに参加",
+    "subtitle": "アカウントを作成して、独占的なリソースと技術スタックのインタラクティブな例にアクセスしましょう。"
+  },
+  "form": {
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "confirm_password": "パスワード確認",
+    "create_account": "アカウント作成",
+    "creating": "アカウント作成中...",
+    "have_account": "既にアカウントをお持ちですか？",
+    "signin_link": "こちらでサインイン"
+  },
+  "benefits": {
+    "title": "なぜ参加するのか？",
+    "items": [
+      "プレミアムコンポーネントへのアクセス",
+      "独占的なチュートリアルとガイド",
+      "コミュニティサポートとディスカッション",
+      "新機能への早期アクセス",
+      "ダウンロード可能なプロジェクトテンプレート"
+    ]
+  },
+  "messages": {
+    "success_message": "アカウントが正常に作成されました！登録を確認するためにメールをご確認ください。",
+    "welcome": "コミュニティへようこそ！"
+  }
+}

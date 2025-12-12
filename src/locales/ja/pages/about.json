@@ -1,0 +1,49 @@
+{
+  "title": "私たちの技術スタックについて",
+  "meta": {
+    "description": "高速で美しくアクセシブルなアプリケーションを構築するためのReact、Vite、TailwindCSS、Shadcn UIコンポーネントを含むモダンWeb開発スタックについて学びます。",
+    "keywords": "react, vite, tailwindcss, shadcn, typescript, モダンWeb開発, コンポーネントライブラリ, UI設計"
+  },
+  "og": {
+    "title": "私たちの技術スタックについて - React + Vite + TailwindCSS + Shadcn",
+    "description": "React、Vite、TailwindCSS、Shadcn UIコンポーネントを使ったモダンWeb開発の力を発見してください。"
+  },
+  "mission": {
+    "title": "私たちの使命",
+    "description": "React、Vite、TailwindCSS、Shadcn UIコンポーネントを使って高速で美しく、アクセシブルなアプリケーションを作成することで、モダンWeb開発ツールの力を示すことです。"
+  },
+  "technologies": {
+    "title": "私たちの技術スタック",
+    "react": {
+      "title": "React 18+",
+      "description": "モダンフック、並行機能、優れた開発体験を持つユーザーインターフェース構築のための業界をリードするJavaScriptライブラリ。"
+    },
+    "vite": {
+      "title": "Vite",
+      "description": "瞬時のホットモジュール置換と最適化された本番ビルドを提供する超高速ビルドツールと開発サーバー。"
+    },
+    "tailwindcss": {
+      "title": "TailwindCSS", 
+      "description": "一貫したデザインシステムとレスポンシブレイアウトによる高速UI開発を可能にするユーティリティファーストのCSSフレームワーク。"
+    },
+    "shadcn": {
+      "title": "Shadcn UI",
+      "description": "Radix UIプリミティブの上に構築され、TailwindCSSでスタイル化されたモダンでアクセシブル、カスタマイズ可能なReactコンポーネントライブラリ。"
+    }
+  },
+  "features": {
+    "title": "主要機能",
+    "performance": "ツリーシェイキングとコード分割による最適化されたパフォーマンス",
+    "typescript": "型安全な開発のための完全なTypeScriptサポート",
+    "ssg": "SEOとロード速度向上のための静的サイト生成",
+    "responsive": "TailwindCSSによるモバイルファーストレスポンシブデザイン",
+    "accessibility": "適切なARIA属性を持つWCAG準拠コンポーネント",
+    "dark_mode": "システム設定検出機能付きの組み込みダークモードサポート"
+  },
+  "contact": {
+    "title": "始めましょう",
+    "description": "私たちの技術スタックで素晴らしいアプリケーションを構築する準備はできていますか？",
+    "github": "GitHubでコードを見る",
+    "docs": "包括的なドキュメントを読む"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "docs": "Documentation",
+    "history": "History",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "login": "Login",
+    "signup": "Sign Up",
+    "dashboard": "Dashboard",
+    "logout": "Logout"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "current_page": "Current Page"
+  },
+  "sections": {
+    "technologies": "Technologies",
+    "getting_started": "Getting Started",
+    "resources": "Resources",
+    "community": "Community"
+  }
+}

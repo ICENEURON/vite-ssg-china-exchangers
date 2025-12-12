@@ -1,0 +1,41 @@
+{
+  "title": "Privacy Policy – ASX Small Cap Watchlist",
+  "meta": {
+    "description": "Privacy policy for this educational ASX small cap watchlist website, explaining what limited data is collected, how cookies and analytics work, and how advertising may be used.",
+    "keywords": "ASX small cap privacy policy, stock watchlist privacy, cookies, analytics, Google Ads, data protection"
+  },
+  "hero": {
+    "title": "Privacy Policy",
+    "subtitle": "This page explains what limited information is collected on this site, how it may be used, and how cookies and analytics work."
+  },
+  "sections": {
+    "introduction": {
+      "title": "1. Introduction",
+      "content": "This website is a personal project focused on ASX small cap research and education. It is not a trading platform and does not currently offer login, account creation or personalised portfolios. This privacy policy explains what limited information may be collected when you visit the site, how that information is used, and the choices you have."
+    },
+    "collection": {
+      "title": "2. Information We Collect",
+      "content": "The site is designed to collect as little personal information as reasonably possible. In normal use, you are not asked to enter your name, address or other identifying details. However, standard web server logs and analytics tools may automatically collect technical information such as your IP address, browser type, device type, pages visited, referring URLs and approximate location. If you contact the author directly (for example, by email) or if simple forms are added in future, any details you choose to provide will be collected along with the content of your message."
+    },
+    "usage": {
+      "title": "3. How Your Information Is Used",
+      "content": "Information collected via logs and analytics is used to understand how the site is being accessed and to improve content, layout and performance. Aggregate statistics—for example, which pages are read most often or what devices are commonly used—help guide future updates. If you voluntarily provide contact details, they may be used to respond to your enquiry or, with your consent, to send occasional updates if such a feature is introduced. Your information is not used to make automated investment decisions or to build trading profiles about you."
+    },
+    "sharing": {
+      "title": "4. Sharing and Third-Party Services",
+      "content": "This site may use third-party services such as analytics providers (for example, Google Analytics) and advertising networks (for example, Google Ads / AdSense). These services may set their own cookies or tracking technologies in your browser and may collect usage data in accordance with their own privacy policies. Apart from these standard third-party tools, your information is not sold, rented or traded to other parties. Data may be disclosed if required by law, to comply with legal processes or to protect the rights, property or safety of the author or other users."
+    },
+    "security": {
+      "title": "5. Data Security",
+      "content": "Reasonable measures are taken to protect the limited data that may be collected, including the use of reputable hosting providers and standard security practices. However, no method of transmission over the internet or method of electronic storage is completely secure. As a result, absolute security cannot be guaranteed. You should take your own precautions when browsing the web, such as using up-to-date software and being careful about the information you choose to share online."
+    },
+    "cookies": {
+      "title": "6. Cookies and Tracking Technologies",
+      "content": "This site may use cookies and similar technologies to support basic functionality, analytics and advertising. Cookies are small text files stored on your device. They can help remember simple preferences, measure traffic and show more relevant ads. You can usually control cookies through your browser settings, including blocking or deleting them, but doing so may affect how some websites function. By continuing to use this site, you consent to the use of cookies and third-party tracking technologies as described in this policy and in the privacy policies of the relevant providers (such as Google)."
+    },
+    "contact": {
+      "title": "7. Contact and Changes to This Policy",
+      "content": "Because this is a personal project, there is no large support team or call centre behind the site. If you have questions about this privacy policy, data usage or cookies, you can get in touch using the contact details provided on the site or via any listed social or email link. This policy may be updated from time to time to reflect changes in the site’s features, analytics tools or legal requirements. Any updates will be posted on this page, and your continued use of the site after changes are published will mean you accept the revised policy."
+    }
+  }
+}

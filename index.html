@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>%VITE_SITE_TITLE%</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="canonical" href=%VITE_SITE_URL% />
+    <script>
+      window.__ENV__ = {
+        SUPPORTED_LANGUAGES: '__VITE_SUPPORTED_LANGUAGES__',
+        DEFAULT_LANGUAGE: '__VITE_DEFAULT_LANGUAGE__'
+      };
+    </script>
+    <script src="/init.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0XEYZ344YF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-0XEYZ344YF');
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

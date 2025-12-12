@@ -1,0 +1,96 @@
+{
+  "title": "ドキュメント - React + Vite + TailwindCSS + Shadcn",
+  "meta": {
+    "description": "React、Vite、TailwindCSS、Shadcn UIを使ったモダンWebアプリケーション構築のための完全なドキュメント。包括的なガイド、チュートリアル、ベストプラクティス。",
+    "keywords": "ドキュメント, 文書, react, vite, tailwindcss, shadcn, typescript, ガイド, チュートリアル, Web開発"
+  },
+  "og": {
+    "title": "ドキュメント - React + Vite + TailwindCSS + Shadcn",
+    "description": "React、Vite、TailwindCSS、Shadcn UIを網羅した包括的なドキュメントでモダンWeb開発をマスターしよう。"
+  },
+  "hero": {
+    "title": "完全な開発ガイド",
+    "subtitle": "React + Vite + TailwindCSS + Shadcn をマスター",
+    "description": "モダンな技術スタックで素晴らしいWebアプリケーションを構築するための包括的なドキュメント。"
+  },
+  "sections": {
+    "getting_started": {
+      "title": "はじめに",
+      "description": "数分で立ち上げて実行するためのクイックセットアップガイド",
+      "topics": [
+        "インストールとセットアップ",
+        "プロジェクト構造",
+        "開発ワークフロー",
+        "環境設定"
+      ]
+    },
+    "react_guide": {
+      "title": "React 開発",
+      "description": "我々のスタックでのReact開発のベストプラクティス",
+      "topics": [
+        "コンポーネントアーキテクチャ",
+        "フック&状態管理",
+        "パフォーマンス最適化",
+        "テスト戦略"
+      ]
+    },
+    "vite_tooling": {
+      "title": "Vite ビルドツール",
+      "description": "開発と本番環境でViteの強力な機能を活用",
+      "topics": [
+        "開発サーバー",
+        "ビルド最適化",
+        "プラグイン設定",
+        "アセット処理"
+      ]
+    },
+    "styling": {
+      "title": "TailwindCSS でのスタイリング",
+      "description": "TailwindCSS でユーティリティファーストCSSをマスター",
+      "topics": [
+        "ユーティリティクラス",
+        "レスポンシブデザイン",
+        "カスタムテーマ",
+        "コンポーネントスタイリング"
+      ]
+    },
+    "components": {
+      "title": "Shadcn UI コンポーネント",
+      "description": "アクセシブルなコンポーネントで美しいUIを構築",
+      "topics": [
+        "コンポーネントライブラリ",
+        "カスタマイゼーションガイド",
+        "アクセシビリティ機能",
+        "テーマ設定"
+      ]
+    },
+    "deployment": {
+      "title": "デプロイメント＆本番",
+      "description": "自信を持ってアプリケーションをデプロイ",
+      "topics": [
+        "ビルドプロセス",
+        "静的サイト生成",
+        "パフォーマンス最適化",
+        "ホスティングオプション"
+      ]
+    }
+  },
+  "quick_links": {
+    "title": "クイックリンク",
+    "react_docs": "React ドキュメント",
+    "vite_docs": "Vite ドキュメント", 
+    "tailwind_docs": "TailwindCSS ドキュメント",
+    "shadcn_docs": "Shadcn UI ドキュメント",
+    "github_repo": "GitHub リポジトリ",
+    "examples": "コード例"
+  },
+  "resources": {
+    "title": "追加リソース",
+    "tutorials": "ビデオチュートリアル",
+    "examples": "サンプルプロジェクト",
+    "community": "コミュニティフォーラム",
+    "blog": "開発ブログ",
+    "changelog": "リリースノート",
+    "support": "サポートを受ける"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "title": "開發儀表板",
+  "meta": {
+    "description": "您的個人開發儀表板，展示 React、Vite、TailwindCSS 和 Shadcn UI 組件的實際應用。",
+    "keywords": "儀表板, react, vite, tailwindcss, shadcn, 開發, 組件, ui"
+  },
+  "og": {
+    "title": "開發儀表板 - React + Vite + TailwindCSS + Shadcn",
+    "description": "展示現代網頁開發工具強大功能的互動式儀表板。"
+  },
+  "welcome": {
+    "title": "歡迎來到您的儀表板",
+    "subtitle": "已登入為 {{email}}",
+    "description": "透過此互動式儀表板探索我們技術棧的功能。"
+  },
+  "sections": {
+    "components": {
+      "title": "UI 組件展示",
+      "description": "Shadcn UI 組件的互動範例"
+    },
+    "performance": {
+      "title": "性能指標",
+      "description": "即時應用程式性能指標"
+    },
+    "development": {
+      "title": "開發工具",
+      "description": "實用的開發工具和實用程式"
+    },
+    "theming": {
+      "title": "主題配置",
+      "description": "自定義應用程式外觀"
+    }
+  },
+  "stats": {
+    "components": "50+ 組件",
+    "themes": "淺色和深色模式",
+    "responsive": "完全響應式",
+    "accessible": "符合 WCAG 標準"
+  },
+  "actions": {
+    "sign_out": "登出",
+    "view_code": "查看原始碼",
+    "download": "下載項目",
+    "customize": "自定義主題"
+  }
+}

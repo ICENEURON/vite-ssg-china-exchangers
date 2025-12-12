@@ -1,0 +1,80 @@
+{
+  "title": "How I Analyse ASX Small Cap Fundamentals",
+  "meta": {
+    "description": "Documentation of the fundamental analysis approach used for ASX small cap stocks on this site, focusing on financial statements, competitive strength, industry dynamics and the path to profit.",
+    "keywords": "ASX small cap fundamentals, stock analysis, financial statements, competitive advantage, industry analysis, profitability, long-term investing"
+  },
+  "hero": {
+    "title": "Documentation: Fundamental Framework",
+    "subtitle": "How I look at ASX small caps before they enter the weekly list.",
+    "intro": "This page explains the simple, fundamentals-first framework I use when reviewing ASX small cap companies. The focus is on the business: financial statements, competitive strength, industry dynamics and the path to sustainable profit — not on short-term price moves."
+  },
+  "overview": {
+    "title": "Why Start With Fundamentals?",
+    "paragraphs": [
+      "Small cap share prices can move sharply on hype, rumours and short-term news. That noise is hard to predict and even harder to rely on.",
+      "Instead of chasing every spike, I start with the basics: how the company makes money, what shape its financial statements are in, how strong its position is against competitors and whether there is a credible way to turn growth into lasting profit and cash flow.",
+      "If the underlying business does not make sense, the share price story usually does not last. That is why every company that appears on the weekly watchlist has first passed a simple fundamentals check like the one described on this page."
+    ]
+  },
+  "carousel": {
+    "title": "Four Fundamental Lenses",
+    "subtitle": "When I review an ASX small cap, I cycle through these four lenses before it can even qualify for the weekly list.",
+    "slides": [
+      {
+        "id": "financials",
+        "title": "1. Financial Statements",
+        "subtitle": "Income, cash flow and the balance sheet.",
+        "bullets": [
+          "Look at revenue over several periods: is it growing, flat or shrinking?",
+          "Check gross margins and operating costs to see whether scale could improve profitability.",
+          "Compare reported profit to operating cash flow – is the business generating real cash?",
+          "Review cash balance, debt and burn rate to understand how much time the company has."
+        ]
+      },
+      {
+        "id": "competitive",
+        "title": "2. Competitive Strength",
+        "subtitle": "Why this business, not its competitors?",
+        "bullets": [
+          "Clarify who the real customers are and how concentrated they might be.",
+          "Ask what problem the company solves and whether the value proposition is concrete or vague.",
+          "Look for switching costs, integration effort or regulation that makes customers sticky.",
+          "Consider whether the company can defend its pricing or if it is stuck in a race to the bottom."
+        ]
+      },
+      {
+        "id": "industry",
+        "title": "3. Industry and Market",
+        "subtitle": "The environment around the company.",
+        "bullets": [
+          "Check whether the market is expanding, stable or shrinking over the next 5–10 years.",
+          "Think about cyclicality: how sensitive is the business to rates, sentiment or commodity prices?",
+          "Watch for regulatory changes or new technologies that could reshape the playing field.",
+          "Ask if the company is likely to gain, keep or lose share as the industry evolves."
+        ]
+      },
+      {
+        "id": "profit",
+        "title": "4. Profit & Cash Flow Path",
+        "subtitle": "From growth story to real returns.",
+        "bullets": [
+          "For early-stage names, accept that profits may be small or negative today.",
+          "Look at unit economics where available: customer acquisition cost, margins and retention.",
+          "Ask how much extra capital is required before the business could fund itself.",
+          "Sketch a simple picture of what sustainable free cash flow could look like at maturity."
+        ]
+      }
+    ]
+  },
+  "process": {
+    "title": "Putting It Together: A Simple Flow",
+    "steps": [
+      "Read the latest annual and half-year reports, investor presentations and key announcements.",
+      "Write down in plain language how the business makes money and who pays the bills.",
+      "Review the financial statements with an eye on cash, debt, dilution and basic unit economics.",
+      "Think about competition and industry structure: is there any real edge or tailwind?",
+      "Only then decide whether the company is interesting enough to appear on the weekly watchlist."
+    ]
+  }
+}

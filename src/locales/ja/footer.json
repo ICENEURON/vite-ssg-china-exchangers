@@ -1,0 +1,44 @@
+{
+  "technologies": {
+    "title": "技術",
+    "links": {
+      "react": "React",
+      "vite": "Vite", 
+      "tailwindcss": "TailwindCSS",
+      "shadcn": "Shadcn UI"
+    }
+  },
+  "resources": {
+    "title": "リソース",
+    "links": {
+      "documentation": "ドキュメント",
+      "components": "コンポーネント",
+      "examples": "例",
+      "github": "GitHub"
+    }
+  },
+  "guides": {
+    "title": "ガイド",
+    "links": {
+      "getting_started": "はじめに",
+      "customization": "カスタマイズ",
+      "deployment": "デプロイ",
+      "best_practices": "ベストプラクティス"
+    }
+  },
+  "community": {
+    "title": "コミュニティ",
+    "links": {
+      "discord": "Discord",
+      "twitter": "Twitter",
+      "github": "GitHub",
+      "discussions": "議論"
+    }
+  },
+  "legal": {
+    "copyright": "© {{year}} モダンWebテックスタック。すべての権利を保有。",
+    "terms": "利用規約",
+    "privacy_policy": "プライバシーポリシー"
+  },
+  "tagline": "React + Vite + TailwindCSS + Shadcn を使ったモダンWeb開発"
+}

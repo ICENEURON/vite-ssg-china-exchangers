@@ -1,0 +1,109 @@
+{
+  "title": "React + Vite + TailwindCSS + Shadcn - モダンWeb開発",
+  "meta": {
+    "description": "React 18、Vite、TailwindCSS、Shadcn UIを使ったモダンWeb開発の力を発見してください。最高の開発体験で、高速で美しく、アクセシブルなアプリケーションを構築します。",
+    "keywords": "react, vite, tailwindcss, shadcn, typescript, モダンWeb開発, コンポーネントライブラリ, UI設計, 静的サイト生成"
+  },
+  "og": {
+    "title": "React + Vite + TailwindCSS + Shadcn - モダンWeb開発",
+    "description": "React、Vite、TailwindCSS、Shadcn UIコンポーネントを特徴とする強力な技術スタックでWeb開発の未来を体験してください。"
+  },
+  "hero": {
+    "title": "モダンWeb開発スタック",
+    "subtitle": "React + Vite + TailwindCSS + Shadcn UI",
+    "description1": "慎重にキュレーションされた技術スタックによるモダンWeb開発の力を体験してください。",
+    "description2": "業界をリードするツールとベストプラクティスで、超高速で美しく、アクセシブルなアプリケーションを構築します。",
+    "cta_primary": "機能を探索",
+    "cta_secondary": "ドキュメントを見る"
+  },
+  "technologies": {
+    "title": "強力な技術の連携",
+    "react": {
+      "title": "React 18+",
+      "description": "インタラクティブなユーザーインターフェースを構築するためのフック、並行機能、サーバーコンポーネントを備えたモダンReact。",
+      "features": ["コンポーネントベースアーキテクチャ", "仮想DOM最適化", "豊富なエコシステム", "優秀なツール"]
+    },
+    "vite": {
+      "title": "Viteビルドツール",
+      "description": "インスタントサーバー起動と超高速HMRを備えた次世代フロントエンドツール。",
+      "features": ["インスタント開発サーバー", "最適化されたビルド", "プラグインエコシステム", "ESモジュールネイティブ"]
+    },
+    "tailwindcss": {
+      "title": "TailwindCSS",
+      "description": "カスタムユーザーインターフェースを素早く構築するためのユーティリティファーストCSSフレームワーク。",
+      "features": ["ユーティリティファーストアプローチ", "レスポンシブデザイン", "カスタムデザインシステム", "JITコンパイレーション"]
+    },
+    "shadcn": {
+      "title": "Shadcn UI",
+      "description": "Radix UIプリミティブの上に構築された美しくアクセシブルなReactコンポーネント。",
+      "features": ["アクセシブルコンポーネント", "カスタマイズ可能なテーマ", "TypeScriptサポート", "コピー&ペースト対応"]
+    }
+  },
+  "features": {
+    "title": "このスタックを選ぶ理由",
+    "items": [
+      {
+        "title": "超高速",
+        "description": "ViteのインスタントHMRと最適化されたビルドが最高の開発体験を保証"
+      },
+      {
+        "title": "型安全",
+        "description": "すべてのツールでの完全なTypeScriptサポートにより、自信を持ったエラーフリーな開発"
+      },
+      {
+        "title": "美しいUI",
+        "description": "TailwindCSSを使ったShadcn UIコンポーネントが素晴らしくアクセシブルなインターフェースを提供"
+      },
+      {
+        "title": "SEO最適化",
+        "description": "静的サイト生成とメタタグ最適化により優秀な検索ランキングを実現"
+      },
+      {
+        "title": "開発者体験",
+        "description": "モダンツール、ホットリロード、優秀なデバッグ機能"
+      },
+      {
+        "title": "プロダクション対応",
+        "description": "最適化されたビルド、ツリーシェイキング、パフォーマンス監視を含む"
+      }
+    ]
+  },
+  "getting_started": {
+    "title": "数分で開始",
+    "steps": [
+      {
+        "title": "依存関係をインストール",
+        "description": "npm install または pnpm install",
+        "code": "pnpm install"
+      },
+      {
+        "title": "開発を開始",
+        "description": "開発サーバーを実行",
+        "code": "pnpm dev"
+      },
+      {
+        "title": "プロダクション向けビルド",
+        "description": "最適化された静的ファイルを生成",
+        "code": "pnpm build"
+      }
+    ]
+  },
+  "faq": {
+    "title": "よくある質問",
+    "items": [
+      {
+        "question": "なぜこの特定の技術の組み合わせなのか？",
+        "answer": "これらのツールの相乗効果を慎重に選択しました：コンポーネントアーキテクチャのReact、開発速度のVite、スタイリング効率のTailwindCSS、アクセシブルコンポーネントのShadcn。"
+      },
+      {
+        "question": "これはプロダクションアプリケーションに適していますか？",
+        "answer": "もちろんです！このスタックは実戦でテストされ、何千ものプロダクションアプリケーションで使用されています。最適化、SEO機能、パフォーマンス監視が含まれています。"
+      },
+      {
+        "question": "コンポーネントをカスタマイズする方法は？",
+        "answer": "Shadcnコンポーネントはコピーしてカスタマイズできるように設計されています。コードを所有し、デザイン要件に合わせてコンポーネントを変更できます。"
+      }
+    ]
+  },
+  "currentTime": "現在の時刻：{{time}}"
+}

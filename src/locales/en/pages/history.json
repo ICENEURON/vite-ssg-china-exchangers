@@ -1,0 +1,316 @@
+{
+  "title": "History of Weekly ASX Small Cap Watchlists",
+  "meta": {
+    "description": "A historical record of the weekly ASX small cap watchlists published on this site since October 2025, including past stock codes, scores and short notes. Educational only, not financial advice.",
+    "keywords": "ASX small cap history, past stock picks, weekly watchlist archive, investment research log, Australian small cap stocks"
+  },
+  "hero": {
+    "title": "History of ASX Small Cap Picks",
+    "subtitle": "From October 2025 onwards - a transparent archive of previous weekly watchlists."
+  },
+  "table": {
+    "columns": {
+      "code": "Code",
+      "name": "Company",
+      "score": "Score at review",
+      "link": "Link",
+      "thesis": "Reason at the time"
+    },
+    "emptyState": "No entries recorded for this week yet. New history will be added over time."
+  },
+  "weeks": [
+    {
+      "id": "2025-10-w01",
+      "label": "October 2025",
+      "dateRange": "29 Sep - 5 Oct",
+      "picks": [
+        {
+          "code": "APX",
+          "name": "Appen Limited",
+          "priceAtPick": "$0.85",
+          "score": "7.0 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Legacy AI data-labeling business in deep turnaround; very cheap versus its history but still facing structural demand risks, so position sizing is key."
+        },
+        {
+          "code": "TGN",
+          "name": "Tungsten Mining NL",
+          "priceAtPick": "$0.08",
+          "score": "6.8 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Developer of Australian tungsten assets leveraged to the critical-minerals theme, with rising volume and a break away from the $0.07–0.08 base."
+        }
+      ]
+    },
+    {
+      "id": "2025-10-w02",
+      "label": "October 2025",
+      "dateRange": "6 Oct - 12 Oct",
+      "picks": [
+        {
+          "code": "GL1",
+          "name": "Global Lithium Resources Limited",
+          "priceAtPick": "$0.40",
+          "score": "7.1 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "WA lithium developer with multiple projects where the share price has based out around $0.40, giving leveraged upside if lithium sentiment stabilises."
+        },
+        {
+          "code": "CC9",
+          "name": "Chariot Corporation Ltd",
+          "priceAtPick": "$0.22",
+          "score": "6.9 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "US-focused lithium explorer with aggressive project pipeline; upside is tied to discovery success but near-term returns are highly sensitive to news flow."
+        }
+      ]
+    },
+    {
+      "id": "2025-10-w03",
+      "label": "October 2025",
+      "dateRange": "13 Oct - 19 Oct",
+      "picks": [
+        {
+          "code": "GL1",
+          "name": "Global Lithium Resources Limited",
+          "priceAtPick": "$0.45",
+          "score": "7.3 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Mid-October buying around $0.45 suggests accumulation ahead of drilling and study updates, but the name still sits firmly in the high-beta resources bucket."
+        },
+        {
+          "code": "WC8",
+          "name": "Wildcat Resources Limited",
+          "priceAtPick": "$0.22",
+          "score": "6.7 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Pilbara lithium explorer with active drilling; price action is choppy but liquidity is strong and any material resource upgrade could be a major catalyst."
+        }
+      ]
+    },
+    {
+      "id": "2025-10-w04",
+      "label": "October 2025",
+      "dateRange": "20 Oct - 26 Oct",
+      "picks": [
+        {
+          "code": "WC8",
+          "name": "Wildcat Resources Limited",
+          "priceAtPick": "$0.22",
+          "score": "6.9 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Sustained volume around $0.20–0.22 keeps it on the radar as a higher-risk lithium momentum name with meaningful upside if project quality is confirmed."
+        },
+        {
+          "code": "EMD",
+          "name": "Emyria Limited",
+          "priceAtPick": "$0.06",
+          "score": "6.3 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Small-cap biotech building a psychedelic-assisted therapy pipeline; late-October trading saw heavy volume, but outcomes remain binary around clinical and funding milestones."
+        }
+      ]
+    },
+    {
+      "id": "2025-11-w01",
+      "label": "November 2025",
+      "dateRange": "27 Oct - 2 Nov",
+      "picks": [
+        {
+          "code": "IXR",
+          "name": "Ionic Rare Earths Limited",
+          "priceAtPick": "$0.017",
+          "score": "7.4 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Heavy rare earths developer with a pilot plant in operation; geopolitical tailwinds for non-Chinese supply chains support the long-term thesis despite short-term price weakness."
+        },
+        {
+          "code": "WC8",
+          "name": "Wildcat Resources Limited",
+          "priceAtPick": "$0.22",
+          "score": "6.8 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Continuing to track this lithium explorer as drilling defines the scale of the system; volatility remains high but the risk/reward at these levels is attractive for aggressive accounts."
+        },
+        {
+          "code": "BOT",
+          "name": "Botanix Pharmaceuticals",
+          "priceAtPick": "$0.30",
+          "score": "7.5 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Dermatology-focused biotech approaching key regulatory milestones; commercialisation execution will be the next major catalyst for a re-rate."
+        }
+      ]
+    },
+    {
+      "id": "2025-11-w02",
+      "label": "November 2025",
+      "dateRange": "3 Nov - 9 Nov",
+      "picks": [
+        {
+          "code": "PNR",
+          "name": "Pantoro Limited",
+          "priceAtPick": "$0.08",
+          "score": "7.2 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Gold producer ramping up operations at Norseman; high gold prices provide a strong tailwind if operational stability can be maintained."
+        },
+        {
+          "code": "VR1",
+          "name": "Vection Technologies",
+          "priceAtPick": "$0.03",
+          "score": "6.5 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "XR and spatial computing play with growing enterprise revenue; still speculative but the tech stack is maturing and finding real-world industrial use cases."
+        }
+      ]
+    },
+    {
+      "id": "2025-11-w03",
+      "label": "November 2025",
+      "dateRange": "10 Nov - 16 Nov",
+      "picks": [
+        {
+          "code": "LRS",
+          "name": "Latin Resources Limited",
+          "priceAtPick": "$0.17",
+          "score": "7.3 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Brazilian lithium developer with a large resource base; M&A activity in the sector highlights the strategic value of hard-rock assets despite current market sentiment."
+        },
+        {
+          "code": "IMU",
+          "name": "Imugene Limited",
+          "priceAtPick": "$0.05",
+          "score": "6.9 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Clinical-stage immuno-oncology with a broad pipeline; news flow from multiple trials provides catalysts, though funding and clinical risk remain the primary considerations."
+        },
+        {
+          "code": "NXS",
+          "name": "Next Science Limited",
+          "priceAtPick": "$0.10",
+          "score": "6.7 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Medical technology company addressing biofilm-based infections; revenue growth is the key metric to watch as they scale commercial operations in the US."
+        }
+      ]
+    },
+    {
+      "id": "2025-11-w04",
+      "label": "November 2025",
+      "dateRange": "17 Nov - 23 Nov",
+      "picks": [
+        {
+          "code": "COS",
+          "name": "COSOL Limited",
+          "priceAtPick": "$0.41",
+          "score": "8.1 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Sticky, mission-critical asset-management software and services with recurring revenue across asset-intensive industries, plus bolt-on acquisitions that support steady compounding."
+        },
+        {
+          "code": "GL1",
+          "name": "Global Lithium Resources Limited",
+          "priceAtPick": "$0.57",
+          "score": "7.2 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Advanced multi-project lithium developer with significant WA assets offers leveraged exposure to any medium-term lithium price recovery, albeit with execution and capital-cycle risk."
+        }
+      ]
+    },
+    {
+      "id": "2025-11-w05",
+      "label": "November 2025",
+      "dateRange": "24 Nov - 30 Nov",
+      "picks": [
+        {
+          "code": "M7T",
+          "name": "Mach7 Technologies",
+          "priceAtPick": "$0.42",
+          "score": "8.2 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Enterprise imaging software provider with strong recurring revenue growth and recent major contract wins. The shift to profitability lowers risk while retaining upside from global expansion."
+        },
+        {
+          "code": "BLG",
+          "name": "BluGlass Limited",
+          "priceAtPick": "$0.012",
+          "score": "7.6 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Unique GaN laser manufacturer transitioning from R&D to commercial production. Recent orders from tier-1 customers suggest the technology is gaining traction."
+        },
+        {
+          "code": "RAD",
+          "name": "Radiopharm Theranostics",
+          "priceAtPick": "$0.022",
+          "score": "7.3 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Clinical-stage radiopharmaceutical developer with a diverse pipeline and significant recent funding ($40m). High risk/reward play on targeted cancer therapies."
+        }
+      ]
+    },
+    {
+      "id": "2025-12-w01",
+      "label": "December 2025",
+      "dateRange": "1 Dec - 7 Dec",
+      "picks": [
+        {
+          "code": "COS",
+          "name": "COSOL Limited",
+          "priceAtPick": "$0.42",
+          "score": "8.0 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Profitable, dividend-paying software small cap. COSOL provides mission-critical asset management software to mining and utility giants. It offers a rare mix of defensive earnings quality and growth potential in the small-cap sector."
+        },
+        {
+          "code": "IXR",
+          "name": "Ionic Rare Earths",
+          "priceAtPick": "$0.014",
+          "score": "7.5 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Deep value at current levels. The Makuutu project remains a strategic geopolitical asset for heavy rare earths, and their UK magnet recycling pilot plant offers a unique, near-term commercialisation angle."
+        },
+        {
+          "code": "4DS",
+          "name": "4DS Memory",
+          "priceAtPick": "$0.012",
+          "score": "7.1 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "A high-risk, high-reward 'penny stock' in the semiconductor space. Their Interface Switching ReRAM technology promises immense speed and efficiency gains. It is a binary bet: if the tech is validated by partners like Western Digital, the upside is significant."
+        }
+      ]
+    },
+    {
+      "id": "2025-12-w02",
+      "label": "December 2025",
+      "dateRange": "8 Dec - 14 Dec",
+      "picks": [
+        {
+          "code": "WC8",
+          "name": "Wildcat Resources",
+          "priceAtPick": "$0.28",
+          "score": "7.8 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Lithium explorer focused on the Tabba Tabba project. While the lithium sector remains volatile, aggressive drilling and potential for resource growth keep it as a high-beta play for risk-tolerant investors."
+        },
+        {
+          "code": "M7T",
+          "name": "Mach7 Technologies",
+          "priceAtPick": "$0.50",
+          "score": "8.2 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Enterprise imaging software provider with strong recurring revenue growth. Recent contract wins and a shift towards profitability de-risk the investment case, while global expansion offers significant upside."
+        },
+        {
+          "code": "LDX",
+          "name": "Lumos Diagnostics",
+          "priceAtPick": "$0.03",
+          "score": "7.5 / 10",
+          "link": "https://www.asx.com.au/markets/company/",
+          "thesis": "Point-of-care diagnostics developer (FebriDx) with growing US distribution. Regulatory approvals and commercial rollout are key catalysts, though cash burn remains a risk factor to watch."
+        }
+      ]
+    }
+  ]
+}

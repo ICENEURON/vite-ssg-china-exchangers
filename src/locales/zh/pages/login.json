@@ -1,0 +1,33 @@
+{
+  "title": "登入您的帳戶",
+  "meta": {
+    "description": "登入以訪問您的個人儀表板，探索 React、Vite、TailwindCSS 和 Shadcn UI 組件。",
+    "keywords": "登入, 認證, react, 儀表板, 帳戶"
+  },
+  "og": {
+    "title": "登入 - React + Vite + TailwindCSS + Shadcn",
+    "description": "訪問您的開發儀表板，探索現代網頁技術。"
+  },
+  "hero": {
+    "title": "歡迎回來",
+    "subtitle": "登入以訪問您的開發儀表板並探索我們的技術棧。"
+  },
+  "form": {
+    "email": "電子郵件",
+    "password": "密碼",
+    "signin": "登入",
+    "signing_in": "登入中...",
+    "forgot_password": "忘記密碼？",
+    "no_account": "還沒有帳戶？",
+    "signup_link": "在此註冊"
+  },
+  "benefits": {
+    "title": "您將獲得的功能：",
+    "items": [
+      "互動式組件展示",
+      "即時程式碼範例",
+      "性能指標",
+      "自定義工具"
+    ]
+  }
+}

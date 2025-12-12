@@ -1,0 +1,37 @@
+{
+  "title": "Terms of Use – ASX Small Cap Watchlist",
+  "meta": {
+    "description": "Terms of use for this educational ASX small cap watchlist website. Please read these terms carefully before relying on any content.",
+    "keywords": "ASX small cap terms of use, stock watchlist terms, educational investing site, no financial advice, legal notice"
+  },
+  "hero": {
+    "title": "Terms of Use",
+    "subtitle": "Please read these terms carefully. This is an educational ASX small cap watchlist, not financial advice or a recommendation service."
+  },
+  "sections": {
+    "acceptance": {
+      "title": "1. Acceptance of Terms",
+      "content": "By accessing or using this website in any way, you acknowledge that you have read, understood and agree to be bound by these Terms of Use. If you do not agree with these terms, you should not access, browse or use this site. Your continued use of the website after any updates to these terms constitutes acceptance of the revised terms."
+    },
+    "usePolicy": {
+      "title": "2. Permitted Use of the Site",
+      "content": "This website is provided for personal, non-commercial and educational use only. You may browse the watchlist, read commentary and use the information as a starting point for your own independent research. You agree not to use this site to provide investment, financial, tax or legal advice to others, and not to copy, scrape or systematically download content for commercial use, automated trading systems or competing services."
+    },
+    "privacy": {
+      "title": "3. Privacy and Data",
+      "content": "This site is intended to collect minimal personal information. However, standard web server logs and basic analytics tools may record data such as your IP address, browser type and pages visited. Any optional contact details you choose to provide (for example, if a mailing list or feedback form is added in the future) will be used only for the stated purpose. For more detail, please refer to the separate Privacy Policy page, which explains how data is collected, stored and used."
+    },
+    "disclaimers": {
+      "title": "4. No Advice and General Disclaimers",
+      "content": "All content on this website is provided on an “as is” and “as available” basis for general information and educational purposes only. The site does not hold an Australian Financial Services Licence (AFSL), and nothing here is financial advice, investment advice, or a recommendation to buy, hold or sell any security. The opinions expressed may change without notice and may be incomplete, inaccurate or out of date. You must not rely on this site as a primary or sole source of information when making investment decisions."
+    },
+    "limitation": {
+      "title": "5. Limitation of Liability",
+      "content": "To the fullest extent permitted by law, the author and any contributors to this website will not be liable for any loss, damage, cost or expense of any kind, whether direct, indirect, consequential or otherwise, arising out of or in connection with your access to or use of this site or any content on it. This includes, without limitation, losses resulting from investment decisions, market movements, technical errors, interruptions, omissions, data inaccuracies or third-party links. You are solely responsible for your own investment decisions and for obtaining independent professional advice where needed."
+    },
+    "changes": {
+      "title": "6. Changes to These Terms",
+      "content": "These Terms of Use may be updated or revised from time to time without prior notice. Changes take effect when they are posted on this page. It is your responsibility to review the terms periodically to stay informed about any updates. Your continued use of the website after changes are published will be taken as acceptance of the revised terms."
+    }
+  }
+}

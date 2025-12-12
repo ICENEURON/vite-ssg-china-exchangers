@@ -1,0 +1,33 @@
+{
+  "title": "Sign In to Your Account",
+  "meta": {
+    "description": "Sign in to access your personal dashboard and explore React, Vite, TailwindCSS, and Shadcn UI components.",
+    "keywords": "login, signin, authentication, react, dashboard, account"
+  },
+  "og": {
+    "title": "Sign In - React + Vite + TailwindCSS + Shadcn",
+    "description": "Access your development dashboard and explore modern web technologies."
+  },
+  "hero": {
+    "title": "Welcome Back",
+    "subtitle": "Sign in to access your development dashboard and explore our technology stack."
+  },
+  "form": {
+    "email": "Email",
+    "password": "Password",
+    "signin": "Sign in",
+    "signing_in": "Signing in...",
+    "forgot_password": "Forgot your password?",
+    "no_account": "Don't have an account?",
+    "signup_link": "Sign up here"
+  },
+  "benefits": {
+    "title": "What you'll get access to:",
+    "items": [
+      "Interactive component showcase",
+      "Live code examples",
+      "Performance metrics",
+      "Customization tools"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "title": "About This ASX Small Cap Watchlist Project",
+  "meta": {
+    "description": "Why this ASX small cap watchlist exists, how it focuses on long-term fundamentals with AI-assisted research, and why nothing here is financial advice.",
+    "keywords": "about ASX small cap watchlist, ASX investing, fundamental analysis, AI research tools, long-term investing, not financial advice"
+  },
+  "hero": {
+    "title": "About This Project",
+    "subtitle": "A fundamentals-first, AI-assisted look at ASX small caps.",
+    "intro1": "This website is a personal research project focused on the future of ASX small cap companies. Instead of guessing short-term price moves, it concentrates on how these businesses earn money, whether their balance sheets can survive, and how they might create sustainable cash flow over time.",
+    "intro2": "Each week, three companies are added to a simple watchlist so their progress can be tracked and reviewed. The goal is to learn, document decisions and improve judgement – not to provide stock tips or personalised investment advice."
+  },
+  "sections": {
+    "whatThisIs": {
+      "title": "What This Site Is",
+      "paragraphs": [
+        "This site is a structured notebook for ASX small cap investing. It records how one person thinks about smaller, riskier companies on the Australian market, with a clear bias toward fundamentals and long-term potential rather than day-to-day price action.",
+        "Every week, three companies are highlighted because their business models, financial statements or industry positioning look worth watching. Writing down the thesis, risks and simple scores creates a history that can be reviewed later: what worked, what failed and why.",
+        "By keeping everything text-based and transparent, the project also becomes easier for search engines to understand and for other investors to read, critique and learn from. It is less about finding the perfect stock and more about building a repeatable, honest process."
+      ]
+    },
+    "whatThisIsNot": {
+      "title": "What This Site Is Not",
+      "items": [
+        "It is not a stock recommendation service or a list of trades to copy.",
+        "It is not a promise of market-beating returns or downside protection.",
+        "It is not a shortcut that replaces reading company reports, announcements and risk disclosures yourself.",
+        "It is not personalised financial advice and does not take your objectives, time horizon or risk tolerance into account."
+      ]
+    },
+    "approach": {
+      "title": "How I Think About ASX Small Caps and the Future",
+      "paragraphs": [
+        "ASX small caps sit at the noisy end of the market: they can fall quickly, but they can also benefit disproportionately from real business progress over many years. That is why the focus here is on the future of the company, not just where the share price has been.",
+        "The starting point is always fundamentals. How does the business make money? Are revenues recurring or one-off? What do margins, cash flow and the balance sheet say about survival risk and reinvestment potential? Is there a believable path from today’s numbers to meaningful free cash flow later on?",
+        "Only after those questions are addressed do valuation and sentiment come into play. If the story and the numbers do not roughly line up, or if the downside risk looks overwhelming compared with the upside, the company is unlikely to appear on the weekly watchlist at all."
+      ]
+    },
+    "aiUsage": {
+      "title": "How AI Helps (and Where It Stops)",
+      "paragraphs": [
+        "AI tools are used to speed up the boring parts of research, not to automatically pick stocks. They help scan long annual reports, pull out key sections on risks, cash flow and dilution, and summarise industry commentary into something that is easier to review.",
+        "When new announcements come out, AI can highlight what has actually changed: revenue trends, guidance updates, capital raises or shifts in strategy. That makes it easier to track how the original thesis is holding up over time without reading everything from scratch.",
+        "However, the final call about whether a company is interesting, how it should be scored and whether it belongs on the watchlist is always made by a human. AI can miss nuance, over-simplify complex situations or get facts wrong, so all important details are checked against primary sources such as company filings and ASX announcements."
+      ]
+    },
+    "audience": {
+      "title": "Who This Is For",
+      "paragraphs": [
+        "First and foremost, this project exists for the author, as a way to practise long-term, fundamentals-first thinking about ASX small caps and to keep a record that can be audited later – both the good calls and the bad ones.",
+        "It may also be useful for investors who want to see how a process that mixes human judgement with AI tools can look in real life: reading reports, checking numbers, tracking theses over time and being honest when something stops working.",
+        "If you are looking for quick tips, rapid-fire trades or guaranteed outcomes, this site will feel too slow and too cautious. If you are curious about business quality, risk, and how to use AI to support – not replace – your own thinking, you may find parts of it helpful."
+      ]
+    }
+  }
+}
