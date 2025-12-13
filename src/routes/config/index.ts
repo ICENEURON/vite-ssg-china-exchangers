@@ -25,12 +25,14 @@ import BlogPost from "../../pages/industry-news/post"
 
 export type Auth = "public" | "private"
 export type NavGroup = "none" | "public" | "guest" | "auth"
+export type MobileGroup = "none" | "public" | "guest" | "auth"
 
 export type RouteDef = {
     path: string
     element: ComponentType
     auth: Auth
     nav: NavGroup
+    mobile: MobileGroup
     label?: string
     translationKey?: string
 }
@@ -40,33 +42,33 @@ const blogEnvValue = import.meta.env.VITE_ENABLE_BLOG;
 const enableBlog = blogEnvValue === "true";
 
 const allRoutes: RouteDef[] = [
-    { path: "/", element: HomePage, auth: "public", nav: "none" },
+    { path: "/", element: HomePage, auth: "public", nav: "none", mobile: "none" },
 
-    { path: "/manufacturers", element: ManufacturersPage, auth: "public", nav: "public", label: "For Buyers", translationKey: "navigation.menu.for_buyers_label" },
-    { path: "/rfq", element: FaqPage, auth: "public", nav: "none", label: "RFQ", translationKey: "navigation.menu.rfq" },
-    { path: "/products", element: ProductsPage, auth: "public", nav: "none", label: "Products", translationKey: "navigation.menu.products" },
+    { path: "/manufacturers", element: ManufacturersPage, auth: "public", nav: "public", mobile: "public", label: "Manufacturers", translationKey: "navigation.menu.manufacturers" },
+    { path: "/rfq", element: FaqPage, auth: "public", nav: "none", mobile: "public", label: "RFQ", translationKey: "navigation.menu.rfq" },
+    { path: "/products", element: ProductsPage, auth: "public", nav: "none", mobile: "public", label: "Products", translationKey: "navigation.menu.products" },
 
-    { path: "/claim-your-profile", element: DocsPage, auth: "public", nav: "public", label: "Docs", translationKey: "navigation.menu.for_manufacturers_label" },
+    { path: "/claim-your-profile", element: DocsPage, auth: "public", nav: "public", mobile: "public", label: "Claim Your Profile", translationKey: "navigation.menu.profile" },
 
-    { path: "/content-marketing-services", element: ContentMarketingServicesPage, auth: "public", nav: "none", label: "Content Marketing" },
+    { path: "/content-marketing-services", element: ContentMarketingServicesPage, auth: "public", nav: "none", mobile: "public", label: "Content Marketing", translationKey: "navigation.menu.content_marketing_services" },
 
-    { path: "/about", element: AboutPage, auth: "public", nav: "public", label: "About", translationKey: "navigation.menu.about" },
+    { path: "/about", element: AboutPage, auth: "public", nav: "public", mobile: "public", label: "About", translationKey: "navigation.menu.about" },
 
-    // { path: "/components", element: ComponentsPage, auth: "public", nav: "public", label: "Components", translationKey: "navigation.menu.components" },
+    // { path: "/components", element: ComponentsPage, auth: "public", nav: "public", mobile: "public", label: "Components", translationKey: "navigation.menu.components" },
 
     // Blog routes
     ...(enableBlog ? [
-        { path: "/industry-news", element: BlogIndex, auth: "public", nav: "public", label: "Industry News", translationKey: "navigation.menu.industry-news" },
-        { path: "/industry-news/:slug", element: BlogPost, auth: "public", nav: "none" },
+        { path: "/industry-news", element: BlogIndex, auth: "public", nav: "public", mobile: "public", label: "Industry News", translationKey: "navigation.menu.industry-news" },
+        { path: "/industry-news/:slug", element: BlogPost, auth: "public", nav: "none", mobile: "none" },
     ] as RouteDef[] : []),
 
-    { path: "/login", element: LoginPage, auth: "public", nav: "guest", label: "Login", translationKey: "navigation.menu.login" },
-    { path: "/signup", element: SignUpPage, auth: "public", nav: "guest", label: "Sign up", translationKey: "navigation.menu.signup" },
-    { path: "/dashboard", element: DashboardPage, auth: "private", nav: "auth", label: "Dashboard", translationKey: "navigation.menu.dashboard" },
+    { path: "/login", element: LoginPage, auth: "public", nav: "guest", mobile: "guest", label: "Login", translationKey: "navigation.menu.login" },
+    { path: "/signup", element: SignUpPage, auth: "public", nav: "guest", mobile: "guest", label: "Sign up", translationKey: "navigation.menu.signup" },
+    { path: "/dashboard", element: DashboardPage, auth: "private", nav: "auth", mobile: "auth", label: "Dashboard", translationKey: "navigation.menu.dashboard" },
 
-    { path: "/terms", element: TermsPage, auth: "public", nav: "none", label: "Terms", translationKey: "navigation.menu.terms" },
-    { path: "/privacy", element: PrivacyPage, auth: "public", nav: "none", label: "Privacy", translationKey: "navigation.menu.privacy" },
-    { path: "*", element: NotFoundPage, auth: "public", nav: "none", label: "NotFound" },
+    { path: "/terms", element: TermsPage, auth: "public", nav: "none", mobile: "none", label: "Terms", translationKey: "navigation.menu.terms" },
+    { path: "/privacy", element: PrivacyPage, auth: "public", nav: "none", mobile: "none", label: "Privacy", translationKey: "navigation.menu.privacy" },
+    { path: "*", element: NotFoundPage, auth: "public", nav: "none", mobile: "none", label: "NotFound" },
 ]
 
 export const ROUTES = allRoutes;

@@ -60,11 +60,24 @@ export function Navigation() {
     const guestItems = ROUTES.filter((r) => r.nav === "guest");
     const authItems = ROUTES.filter((r) => r.nav === "auth");
 
+    const mobilePublicItems = ROUTES.filter((r) => r.mobile === "public");
+    const mobileGuestItems = ROUTES.filter((r) => r.mobile === "guest");
+    const mobileAuthItems = ROUTES.filter((r) => r.mobile === "auth");
+
     const items = enableAuth
         ? user
             ? [...publicItems, ...authItems]
             : [...publicItems, ...guestItems]
         : publicItems;
+
+    const mobileItems = enableAuth
+        ? user
+            ? [...mobilePublicItems, ...mobileAuthItems]
+            : [...mobilePublicItems, ...mobileGuestItems]
+        : mobilePublicItems;
+
+    const leftItems = publicItems;
+    const rightItems = enableAuth ? (user ? authItems : guestItems) : [];
 
     const getLocalizedPath = (path: string) => {
         return addLanguageToPath(path, currentLanguage);
@@ -84,84 +97,97 @@ export function Navigation() {
         );
     };
 
+    const renderNavItems = (routes: typeof ROUTES) => {
+        return routes.map((route) => {
+            const label = route.translationKey
+                ? t(route.translationKey)
+                : route.label;
+            const isActive = isActiveLink(route.path);
+
+            // Manufacturers
+            if (route.path === '/manufacturers') {
+                return (
+                    <NavPopup key={'route.path'} label={'For Buyers'} isActive={isActive} className="left-0">
+                        <ul className="grid gap-3 p-2 w-[450px] lg:grid-cols-[.75fr_1fr]">
+                            <li className="row-span-3">
+                                <NavigationMenuLink asChild className="py-4">
+                                    <Link
+                                        className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-start bg-gradient-to-b no-underline outline-none focus:shadow-md hover:text-foreground"
+                                        to={getLocalizedPath("/manufacturers")}
+                                    >
+                                        <div className="text-lg font-medium">
+                                            {t('navigation.menu.manufacturers')}
+                                        </div>
+                                        <p className="text-sm leading-tight text-muted-foreground">
+                                            {t('navigation.menu.manufacturers_details')}
+                                        </p>
+                                    </Link>
+                                </NavigationMenuLink>
+                            </li>
+                            <ListItem href={getLocalizedPath("/rfq")} title={t('navigation.menu.rfq')} className="py-4">
+                                {t('navigation.menu.rfq_details')}
+                            </ListItem>
+                            <ListItem href={getLocalizedPath("/products")} title={t('navigation.menu.products')} className="py-4">
+                                {t('navigation.menu.products_details')}
+                            </ListItem>
+                        </ul>
+                    </NavPopup>
+                );
+            }
+
+            // Components Menu
+            if (route.path === '/claim-your-profile') {
+                return (
+                    <NavPopup key={route.path} label={'For Manufacturers'} isActive={isActive} className="left-0">
+                        <ul className="grid w-[250px] gap-3 p-2">
+                            <ListItem href={getLocalizedPath("/claim-your-profile")} title={t('navigation.menu.profile')} className="pt-5">
+                            </ListItem>
+                            <ListItem href={getLocalizedPath("/content-marketing-services")} title={t('navigation.menu.content_marketing_services')} className="pt-5">
+                            </ListItem>
+                        </ul>
+                    </NavPopup>
+                );
+            }
+
+            return (
+                <NavigationMenuItem key={route.path}>
+                    <NavigationMenuLink
+                        asChild
+                        className={
+                            isActive
+                                ? "border-b-2 border-accent text-foreground hover:text-foreground whitespace-nowrap"
+                                : "border-b-2 border-transparent text-foreground hover:bg-accent/40 hover:text-foreground whitespace-nowrap"
+                        }
+                    >
+                        <Link to={getLocalizedPath(route.path)}>{label}</Link>
+                    </NavigationMenuLink>
+                </NavigationMenuItem>
+            );
+        });
+    };
+
     return (
         <>
             <header className="fixed top-0 left-0 right-0 z-50 bg-card">
                 <div className="container mx-auto flex h-20 items-center px-4 md:px-6 max-w-8xl">
-                    <Link to={getLocalizedPath("/")} className="font-semibold text-lg">
+                    <Link to={getLocalizedPath("/")} className="font-semibold text-lg mr-6">
                         {t('navigation.logo')}
                     </Link>
 
-                    {/* 桌面导航 */}
+                    {/* Left Navigation (Desktop) */}
+                    <div className="hidden xl:flex items-center gap-2">
+                        <NavigationMenu viewport={false}>
+                            <NavigationMenuList>
+                                {renderNavItems(leftItems)}
+                            </NavigationMenuList>
+                        </NavigationMenu>
+                    </div>
+
+                    {/* Right Navigation (Desktop) */}
                     <div className="ml-auto hidden xl:flex items-center gap-2">
                         <NavigationMenu viewport={false}>
                             <NavigationMenuList>
-                                {items.map((route) => {
-                                    const label = route.translationKey
-                                        ? t(route.translationKey)
-                                        : route.label;
-                                    const isActive = isActiveLink(route.path);
-
-                                    // Manufacturers
-                                    if (route.path === '/manufacturers') {
-                                        return (
-                                            <NavPopup key={route.path} label={label || ''} isActive={isActive} className="left-0">
-                                                <ul className="grid gap-3 p-2 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                                                    <li className="row-span-3">
-                                                        <NavigationMenuLink asChild className="py-4">
-                                                            <Link
-                                                                className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-end bg-gradient-to-b no-underline outline-none focus:shadow-md hover:text-foreground"
-                                                                to={getLocalizedPath("/manufacturers")}
-                                                            >
-                                                                <div className="text-lg font-medium">
-                                                                    {t('navigation.menu.manufacturers')}
-                                                                </div>
-                                                                <p className="text-sm leading-tight text-muted-foreground">
-                                                                    {t('navigation.menu.manufacturers_details')}
-                                                                </p>
-                                                            </Link>
-                                                        </NavigationMenuLink>
-                                                    </li>
-                                                    <ListItem href={getLocalizedPath("/rfq")} title={t('navigation.menu.rfq')} className="py-4">
-                                                        {t('navigation.menu.rfq_details')}
-                                                    </ListItem>
-                                                    <ListItem href={getLocalizedPath("/products")} title={t('navigation.menu.products')} className="py-4">
-                                                        {t('navigation.menu.products_details')}
-                                                    </ListItem>
-                                                </ul>
-                                            </NavPopup>
-                                        );
-                                    }
-
-                                    // Components Menu
-                                    if (route.path === '/claim-your-profile') {
-                                        return (
-                                            <NavPopup key={route.path} label={label || ''} isActive={isActive} className="left-0">
-                                                <ul className="grid w-[200px] gap-3 p-2">
-                                                    <ListItem href={getLocalizedPath("/claim-your-profile")} title={t('navigation.menu.profile')} className="pt-5">
-                                                    </ListItem>
-                                                    <ListItem href={getLocalizedPath("/content-marketing-services")} title={t('navigation.menu.content_marketing_services')} className="pt-5">
-                                                    </ListItem>
-                                                </ul>
-                                            </NavPopup>
-                                        );
-                                    }
-
-                                    return (
-                                        <NavigationMenuItem key={route.path}>
-                                            <NavigationMenuLink
-                                                asChild
-                                                className={
-                                                    isActive
-                                                        ? "border-b-2 border-accent text-foreground hover:text-foreground whitespace-nowrap"
-                                                        : "border-b-2 border-transparent text-foreground hover:bg-accent/40 hover:text-foreground whitespace-nowrap"
-                                                }
-                                            >
-                                                <Link to={getLocalizedPath(route.path)}>{label}</Link>
-                                            </NavigationMenuLink>
-                                        </NavigationMenuItem>
-                                    );
-                                })}
+                                {renderNavItems(rightItems)}
                             </NavigationMenuList>
                         </NavigationMenu>
                         {enableThemeToggle && <ThemeToggle />}
@@ -199,7 +225,7 @@ export function Navigation() {
                     className="xl:hidden bg-card border-t border-b fixed top-20 left-0 right-0 z-40"
                 >
                     <nav className="px-6 py-4 space-y-2">
-                        {items.map((route) => {
+                        {mobileItems.map((route) => {
                             const isActive = isActiveLink(route.path);
                             const label = route.translationKey
                                 ? t(route.translationKey)
