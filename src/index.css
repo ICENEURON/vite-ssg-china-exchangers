@@ -223,25 +223,25 @@
   --pink-900: #831843;
   
   /* 浅色主题 - 层次结构配色 */
-  --background: #f4f9fe;
-  --foreground: #0f172a;
-  --card: #e3ecf5;
-  --card-foreground: #0f172a;
-  --popover: #e8e5e5;
-  --popover-foreground: #0f172a;
-  --primary: #1e40af;
-  --primary-foreground: #f4f9fe;
-  --secondary: #e2e8f0;
-  --secondary-foreground: #475569;
-  --muted: #f1f5f9;
-  --muted-foreground: #475569;
-  --accent: #1e40af;
-  --accent-foreground: #0f172a;
-  --destructive: #dc2626;
-  --destructive-foreground: #f4f9fe;
-  --border: #cbd5e1;
-  --input: #f8fafc;
-  --ring: #1e40af;
+  --background: #f4f9fe; /* Page 背景色 */
+  --foreground: #0f172a; /* Page 文字色 */
+  --card: #697f96; /* 导航栏&卡片色 */
+  --card-foreground: #0f172a; /* 导航栏&卡片文字色 */
+  --popover: #697f96; /* 弹出框背景色 */
+  --popover-foreground: #0f172a; /* 弹出框文字色 */
+  --primary: #1e40af; /* 主色调 */
+  --primary-foreground: #f4f9fe; /* 主色调文字色 */
+  --secondary: #f0e2ef; /* 次色调 (Button, Tab, Badge) */
+  --secondary-foreground: #475569; /* 次色调文字色 (Button, Tab, Badge) */
+  --muted: #f1f8f9; /* 副背景色 (Nav Background Link) */
+  --muted-foreground: #475569; /* 副文字色 */
+  --accent: #1e40af; /* 鉴赏色调 */
+  --accent-foreground: #eff1f6; /* 鉴赏色调文字色 */
+  --destructive: #dc2626; /* 毁色调 */
+  --destructive-foreground: #f4f9fe; /* 毁色调文字色 */
+  --border: #cbd5e1; /* 边框色 */
+  --input: #f8fafc; /* 暂时没有使用 */
+  --ring: #1e40af; /* Focus 焦点的颜色 */
 }
 
 .dark {

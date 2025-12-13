@@ -49,8 +49,8 @@ export function NavPopup({ label, isActive, children, className }: NavPopupProps
                 hasContent
                 className={
                     isActive
-                        ? "bg-accent hover:bg-accent data-[state=open]:bg-accent"
-                        : "hover:bg-accent/40 data-[state=open]:bg-accent/40"
+                        ? "bg-transparent border-b-2 border-accent rounded-none text-accent-foreground data-[state=open]:bg-transparent whitespace-nowrap"
+                        : "border-b-2 border-transparent hover:bg-accent/40 whitespace-nowrap"
                 }
                 onClick={(e) => e.preventDefault()}
             >

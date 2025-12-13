@@ -56,7 +56,7 @@ const Footer = () => {
 
   return (
     <footer className={cn("bg-card border-t")}>
-      <div className="container mx-auto px-4 md:px-6 pt-12 pb-6 max-w-6xl">
+      <div className="container mx-auto px-4 md:px-6 pt-12 pb-6 max-w-8xl">
         <div className="grid gap-8 md:grid-cols-2">
           {/* 左侧：Logo + 描述 */}
           <div>

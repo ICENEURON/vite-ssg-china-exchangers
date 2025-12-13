@@ -87,7 +87,7 @@ export function Navigation() {
     return (
         <>
             <header className="fixed top-0 left-0 right-0 z-50 bg-card">
-                <div className="container mx-auto flex h-20 items-center px-4 md:px-6 max-w-6xl">
+                <div className="container mx-auto flex h-20 items-center px-4 md:px-6 max-w-8xl">
                     <Link to={getLocalizedPath("/")} className="font-semibold text-lg">
                         Aussie Penny Stocks
                     </Link>
@@ -102,6 +102,31 @@ export function Navigation() {
                                         : route.label;
                                     const isActive = isActiveLink(route.path);
 
+                                    // About Menu
+                                    if (route.path === '/about') {
+                                        return (
+                                            <NavPopup key={route.path} label={label || ''} isActive={isActive} className="right-0">
+                                                <ul className="grid w-[300px] gap-3 p-3">
+                                                    <ListItem href={getLocalizedPath("/terms")} title="Technology Stack">
+                                                        {t('navigation.menu.terms')}
+                                                    </ListItem>
+                                                    {/* <ListItem href={getLocalizedPath("/about") + "#team"} title="Our Team">
+                                                        Meet the people behind this amazing project.
+                                                    </ListItem>
+                                                    <ListItem href={getLocalizedPath("/about") + "#mission"} title="Mission">
+                                                        Our vision and goals for the future of development.
+                                                    </ListItem>
+                                                    <ListItem href={getLocalizedPath("/about") + "#features"} title="Features">
+                                                        Explore all the amazing features we offer.
+                                                    </ListItem>
+                                                    <ListItem href={getLocalizedPath("/about") + "#contact"} title="Contact">
+                                                        Get in touch with our team for support or questions.
+                                                    </ListItem> */}
+                                                </ul>
+                                            </NavPopup>
+                                        );
+                                    }
+
                                     // Docs Menu
                                     if (route.path === '/docs') {
                                         return (
@@ -111,26 +136,26 @@ export function Navigation() {
                                                         <NavigationMenuLink asChild>
                                                             <Link
                                                                 className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b p-6 no-underline outline-none focus:shadow-md"
-                                                                to={getLocalizedPath("/docs")}
+                                                                to={getLocalizedPath("/terms")}
                                                             >
                                                                 <div className="mb-2 mt-4 text-lg font-medium">
-                                                                    Documentation
+                                                                    {t('navigation.menu.terms')}
                                                                 </div>
                                                                 <p className="text-sm leading-tight text-muted-foreground">
-                                                                    Complete guides and API references for building amazing applications.
+                                                                    {t('navigation.menu.terms')}
                                                                 </p>
                                                             </Link>
                                                         </NavigationMenuLink>
                                                     </li>
                                                     <ListItem href={getLocalizedPath("/docs")} title="Getting Started">
-                                                        Learn how to set up and configure your project.
+                                                        {t('navigation.menu.docs')}
                                                     </ListItem>
-                                                    <ListItem href={getLocalizedPath("/docs") + "#installation"} title="Installation">
+                                                    {/* <ListItem href={getLocalizedPath("/docs") + "#installation"} title="Installation">
                                                         Step-by-step installation guide and requirements.
                                                     </ListItem>
                                                     <ListItem href={getLocalizedPath("/docs") + "#api"} title="API Reference">
                                                         Complete API documentation and examples.
-                                                    </ListItem>
+                                                    </ListItem> */}
                                                 </ul>
                                             </NavPopup>
                                         );
@@ -142,9 +167,9 @@ export function Navigation() {
                                             <NavPopup key={route.path} label={label || ''} isActive={isActive} className="right-0">
                                                 <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                                                     <ListItem href={getLocalizedPath("/components")} title="All Components">
-                                                        Complete showcase of all available UI components.
+                                                        {t('navigation.menu.components')}
                                                     </ListItem>
-                                                    <ListItem href={getLocalizedPath("/components") + "#badge"} title="Badge">
+                                                    {/* <ListItem href={getLocalizedPath("/components") + "#badge"} title="Badge">
                                                         Display labels, status indicators, and small pieces of information.
                                                     </ListItem>
                                                     <ListItem href={getLocalizedPath("/components") + "#accordion"} title="Accordion">
@@ -161,32 +186,7 @@ export function Navigation() {
                                                     </ListItem>
                                                     <ListItem href={getLocalizedPath("/components") + "#table"} title="Table">
                                                         Display structured data in rows and columns.
-                                                    </ListItem>
-                                                </ul>
-                                            </NavPopup>
-                                        );
-                                    }
-
-                                    // About Menu
-                                    if (route.path === '/about') {
-                                        return (
-                                            <NavPopup key={route.path} label={label || ''} isActive={isActive} className="right-0">
-                                                <ul className="grid w-[300px] gap-3 p-3">
-                                                    <ListItem href={getLocalizedPath("/about")} title="Technology Stack">
-                                                        Learn about our modern development stack and tools.
-                                                    </ListItem>
-                                                    <ListItem href={getLocalizedPath("/about") + "#team"} title="Our Team">
-                                                        Meet the people behind this amazing project.
-                                                    </ListItem>
-                                                    <ListItem href={getLocalizedPath("/about") + "#mission"} title="Mission">
-                                                        Our vision and goals for the future of development.
-                                                    </ListItem>
-                                                    <ListItem href={getLocalizedPath("/about") + "#features"} title="Features">
-                                                        Explore all the amazing features we offer.
-                                                    </ListItem>
-                                                    <ListItem href={getLocalizedPath("/about") + "#contact"} title="Contact">
-                                                        Get in touch with our team for support or questions.
-                                                    </ListItem>
+                                                    </ListItem> */}
                                                 </ul>
                                             </NavPopup>
                                         );
@@ -198,8 +198,8 @@ export function Navigation() {
                                                 asChild
                                                 className={
                                                     isActive
-                                                        ? "bg-accent hover:bg-accent"
-                                                        : "hover:bg-accent/40"
+                                                        ? "bg-transparent border-b-2 border-accent rounded-none text-accent-foreground whitespace-nowrap"
+                                                        : "border-b-2 border-transparent hover:bg-accent/40 whitespace-nowrap"
                                                 }
                                             >
                                                 <Link to={getLocalizedPath(route.path)}>{label}</Link>

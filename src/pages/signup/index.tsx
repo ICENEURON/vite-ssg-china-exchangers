@@ -51,14 +51,26 @@ export default function SignUpPage() {
       </Head>
 
       <div className="min-h-[60vh] flex items-center justify-center">
-        <div className="w-full space-y-8">
-          {/* Hero Section */}
-          <div className="text-center">
-            <h1 className="text-3xl font-bold">{t('pages.signup.hero.title')}</h1>
-            <p className="mt-2 text-muted-foreground">
-              {t('pages.signup.hero.subtitle')}
-            </p>
-          </div>
+        <div className="w-full max-w-5xl space-y-8">
+
+          {/* Hero */}
+          <section className="pt-12 pb-6 px-4">
+            <div className="grid mx-auto max-w-5xl text-center gap-6">
+              <h1 className="gradient-text mb-4">{t("pages.signup.hero.title")}</h1>
+              <h4 className="text-xl md:text-2xl text-foreground mb-2">
+                {t("pages.signup.hero.subtitle")}
+              </h4>
+              {/* <p className="text-lg text-muted-foreground">
+                {t("pages.home.hero.description")}
+              </p> */}
+
+              {/* <div className="m-4 flex flex-col items-center justify-center gap-4 sm:flex-row">
+                <Button size="lg" asChild>
+                  <a href="/docs">{t("pages.home.hero.cta_secondary")}</a>
+                </Button>
+              </div> */}
+            </div>
+          </section>
 
           {/* Signup Form */}
           <div className="bg-card p-8 rounded-lg border">
@@ -128,10 +140,10 @@ export default function SignUpPage() {
           <div className="bg-muted p-6 rounded-lg">
             <h3 className="font-semibold mb-3">{t('pages.signup.benefits.title')}</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              {Array.isArray(t('pages.signup.benefits.items', { returnObjects: true })) 
+              {Array.isArray(t('pages.signup.benefits.items', { returnObjects: true }))
                 ? (t('pages.signup.benefits.items', { returnObjects: true }) as string[]).map((item, index) => (
-                    <li key={index}>• {item}</li>
-                  ))
+                  <li key={index}>• {item}</li>
+                ))
                 : null
               }
             </ul>
