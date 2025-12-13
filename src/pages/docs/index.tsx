@@ -85,7 +85,7 @@ export default function DocsPage() {
                 {Array.isArray(slides) &&
                   slides.map((slide, index) => (
                     <CarouselItem key={index}>
-                      <div className="bg-card text-card-foreground flex flex-col gap-6 rounded-lg py-8 shadow-sm border h-full select-none">
+                      <div className="bg-card text-card-foreground flex flex-col gap-6 py-8 shadow-sm border h-full select-none">
                         <div className="grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-8 pb-3 border-b">
                           <div className="leading-none pb-1 text-xl font-semibold">
                             {slide.title}
@@ -126,7 +126,7 @@ export default function DocsPage() {
               processSteps.map((step, index) => (
                 <li
                   key={index}
-                  className="flex gap-4 p-4 bg-muted/50 rounded-lg border border-border/50"
+                  className="flex gap-4 p-4 bg-muted/50 border border-border/50"
                 >
                   <span className="font-semibold text-primary shrink-0">{index + 1}.</span>
                   <span className="flex items-center">{step}</span>

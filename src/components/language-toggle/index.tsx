@@ -55,7 +55,7 @@ export function LanguageToggle() {
       </Button>
 
       {isOpen && (
-        <div className="absolute right-0 mt-2 p-2 z-50 min-w-[120px] bg-card border border-border rounded-none shadow flex flex-col gap-2">
+        <div className="absolute right-0 mt-2 p-2 z-50 min-w-[120px] bg-card border border-border shadow flex flex-col gap-2">
           {Object.entries(languageConfigs).map(([code, { name, flag }]) => (
             <Button
               key={code}
@@ -63,7 +63,7 @@ export function LanguageToggle() {
               size="sm"
               onClick={() => handleLanguageChange(code as Language)}
               type="button"
-              className="w-full px-3 py-2 text-left hover:bg-accent/40 hover:text-foreground flex items-center gap-2 text-sm transition-colors h-auto justify-start focus:bg-accent/70 focus:text-foreground"
+              className="w-full px-3 py-2 text-left hover:bg-accent/40 hover:text-foreground flex items-center gap-2 text-sm transition-colors h-auto justify-start focus:bg-accent/70 focus:text-foreground rounded-none"
             >
               <span>{flag}</span>
               <span>{name}</span>

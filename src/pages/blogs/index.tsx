@@ -28,7 +28,7 @@ export default function BlogsPage() {
                     <div className="grid gap-6">
                         {filteredPosts.length > 0 ? (
                             filteredPosts.map(post => (
-                                <div key={post.slug} className="border rounded-lg overflow-hidden hover:shadow-md transition-shadow flex flex-col lg:flex-row h-full bg-card">
+                                <div key={post.slug} className="border overflow-hidden hover:shadow-md transition-shadow flex flex-col lg:flex-row h-full bg-card">
                                     {post.cover && (
                                         <div className="w-full h-48 lg:w-72 lg:h-auto overflow-hidden border-b lg:border-b-0 lg:border-r shrink-0">
                                             <img

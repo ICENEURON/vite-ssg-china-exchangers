@@ -8,7 +8,8 @@ const posts = defineCollection({
     schema: s
         .object({
             title: s.string().max(99), // Zod schema for validation
-            slug: s.path(), // will be computed from file path
+            filePath: s.path(), // will be computed from file path
+            slug: s.string().optional(), // allow frontmatter slug overwrite
             date: s.isodate(), // validate ISO date
             excerpt: s.string().max(200).optional(),
             content: s.markdown(), // transform markdown to html
@@ -23,16 +24,17 @@ const posts = defineCollection({
             // path is like "posts/en/hello-world.md" or "posts/en/hello-world"
             // we want to extract "en" as lang, and "hello-world" as slug
 
-            // Note: data.slug from s.path() gives the relative path without extension
+            // Note: data.filePath from s.path() gives the relative path without extension
             // e.g. "posts/en/hello-world"
 
-            const parts = data.slug.split('/');
+            const parts = data.filePath.split('/');
             // parts[0] is 'posts'
             // parts[1] is lang (e.g., 'en', 'zh')
             // parts[2] is actual slug (file name)
 
             const lang = parts.length >= 3 ? parts[1] : 'en';
-            const realSlug = parts.length >= 3 ? parts[parts.length - 1] : parts[parts.length - 1]; // Fallback
+            // Use frontmatter slug if available, otherwise fallback to filename
+            const realSlug = data.slug || (parts.length >= 3 ? parts[parts.length - 1] : parts[parts.length - 1]);
 
             const permalink = lang === 'en'
                 ? `/blog/${realSlug}`

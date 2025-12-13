@@ -1,6 +1,7 @@
 [
   {
     "title": "Advanced TypeScript Patterns for Scalable Applications",
+    "filePath": "posts/en/advanced-typescript-patterns",
     "slug": "advanced-typescript-patterns",
     "date": "2024-03-25T00:00:00.000Z",
     "excerpt": "Dive deep into advanced TypeScript features like Conditional Types, Mapped Types, and Utility Types to write more robust and maintainable code.",
@@ -19,6 +20,7 @@
   },
   {
     "title": "Getting Started with Velite",
+    "filePath": "posts/en/getting-started-with-velite",
     "slug": "getting-started-with-velite",
     "date": "2024-03-20T00:00:00.000Z",
     "excerpt": "Learn how to integrate Velite into your Vite project for type-safe content management.",
@@ -37,6 +39,7 @@
   },
   {
     "title": "Mastering React Hooks",
+    "filePath": "posts/en/mastering-react-hooks",
     "slug": "mastering-react-hooks",
     "date": "2024-03-22T00:00:00.000Z",
     "excerpt": "A deep dive into essential React Hooks like useState, useEffect, and useMemo.",
@@ -55,6 +58,7 @@
   },
   {
     "title": "Velite 入門ガイド",
+    "filePath": "posts/ja/getting-started-with-velite",
     "slug": "getting-started-with-velite",
     "date": "2024-03-20T00:00:00.000Z",
     "excerpt": "Vite プロジェクトに Velite を統合して、タイプセーフなコンテンツ管理を実現する方法を学びます。",
@@ -73,6 +77,7 @@
   },
   {
     "title": "Velite 入门指南",
+    "filePath": "posts/zh/getting-started-with-velite",
     "slug": "getting-started-with-velite",
     "date": "2024-03-20T00:00:00.000Z",
     "excerpt": "学习如何在 Vite 项目中集成 Velite 以实现类型安全的内容管理。",

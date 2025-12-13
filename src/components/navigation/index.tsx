@@ -135,7 +135,7 @@ export function Navigation() {
                                                     <li className="row-span-3">
                                                         <NavigationMenuLink asChild className="py-4">
                                                             <Link
-                                                                className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b no-underline outline-none focus:shadow-md hover:text-foreground"
+                                                                className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-end bg-gradient-to-b no-underline outline-none focus:shadow-md hover:text-foreground"
                                                                 to={getLocalizedPath("/terms")}
                                                             >
                                                                 <div className="text-lg font-medium">
@@ -198,7 +198,7 @@ export function Navigation() {
                                                 asChild
                                                 className={
                                                     isActive
-                                                        ? "border-b-2 border-accent rounded-none text-foreground hover:text-foreground whitespace-nowrap"
+                                                        ? "border-b-2 border-accent text-foreground hover:text-foreground whitespace-nowrap"
                                                         : "border-b-2 border-transparent text-foreground hover:bg-accent/40 hover:text-foreground whitespace-nowrap"
                                                 }
                                             >
@@ -253,7 +253,7 @@ export function Navigation() {
                                 <Link
                                     key={route.path}
                                     to={getLocalizedPath(route.path)}
-                                    className={`block px-3 py-2 rounded-md text-sm transition-colors ${isActive ? "bg-accent/40 text-accent" : "hover:bg-accent/20 text-foreground"
+                                    className={`block px-3 py-2 text-sm transition-colors ${isActive ? "bg-accent/40 text-accent" : "hover:bg-accent/20 text-foreground"
                                         }`}
                                     onClick={() => setIsMobileMenuOpen(false)}
                                 >
