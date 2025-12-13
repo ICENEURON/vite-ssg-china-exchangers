@@ -6,6 +6,7 @@ excerpt: Learn how to integrate Velite into your Vite project for type-safe cont
 metaTitle: "Velite Tutorial: Type-Safe Content for Vite"
 metaDescription: "A step-by-step guide to setting up Velite for managing markdown content in Vite projects."
 keywords: ["Velite", "Vite", "Content Management", "TypeScript"]
+cover: /static/content_posts_image/getting-started-with-velite/cover.png
 ---
 
 # Getting Started with Velite

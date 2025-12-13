@@ -6,6 +6,7 @@ excerpt: 学习如何在 Vite 项目中集成 Velite 以实现类型安全的内
 metaTitle: "Velite 教程：Vite 的类型安全内容管理"
 metaDescription: "在 Vite 项目中配置 Velite 管理 Markdown 内容的分步指南。"
 keywords: ["Velite", "Vite", "内容管理", "TypeScript"]
+cover: /static/content_posts_image/getting-started-with-velite/cover.png
 ---
 
 # Velite 入门指南

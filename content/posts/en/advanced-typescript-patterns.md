@@ -5,7 +5,8 @@ date: 2024-03-25
 excerpt: Dive deep into advanced TypeScript features like Conditional Types, Mapped Types, and Utility Types to write more robust and maintainable code.
 metaTitle: "Mastering Advanced TypeScript Patterns - 2024 Guide"
 metaDescription: "Learn how to use TypeScript's advanced features including Conditional Types, Mapped Types, and Template Literal Types to build scalable applications."
-keywords: ["TypeScript", "Advanced Patterns", "Web Development", "Scalability"]
+keywords: ["TypeScript", "Advanced", "Generics", "Utility Types"]
+cover: /static/content_posts_image/advanced-typescript-patterns/cover.png
 ---
 
 ## 1. Conditional Types

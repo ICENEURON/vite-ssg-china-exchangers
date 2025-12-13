@@ -28,17 +28,30 @@ export default function BlogsPage() {
                     <div className="grid gap-6">
                         {filteredPosts.length > 0 ? (
                             filteredPosts.map(post => (
-                                <div key={post.slug} className="border rounded-lg p-6 hover:shadow-md transition-shadow">
-                                    <h2 className="font-semibold mb-4">
-                                        <Link to={post.permalink} className="hover:underline">{post.title}</Link>
-                                    </h2>
-                                    <div className="text-muted-foreground text-sm mb-4">
-                                        {new Date(post.date).toLocaleDateString('en-CA')}
-                                    </div>
-                                    <div className="text-muted-foreground text-sm mb-4">
-                                        {post.excerpt && (
-                                            <p className="text-muted-foreground">{post.excerpt}</p>
-                                        )}
+                                <div key={post.slug} className="border rounded-lg overflow-hidden hover:shadow-md transition-shadow flex flex-col lg:flex-row h-full bg-card">
+                                    {post.cover && (
+                                        <div className="w-full h-48 lg:w-72 lg:h-auto overflow-hidden border-b lg:border-b-0 lg:border-r shrink-0">
+                                            <img
+                                                src={post.cover}
+                                                alt={post.title}
+                                                className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
+                                            />
+                                        </div>
+                                    )}
+                                    <div className="p-6 flex flex-col flex-1">
+                                        <h3 className="font-semibold mb-3 text-xl leading-tight">
+                                            <Link to={post.permalink} className="hover:underline hover:text-primary transition-colors">
+                                                {post.title}
+                                            </Link>
+                                        </h3>
+                                        <div className="text-muted-foreground text-xs mb-3">
+                                            {new Date(post.date).toLocaleDateString('en-CA')}
+                                        </div>
+                                        <div className="text-muted-foreground text-sm line-clamp-3">
+                                            {post.excerpt && (
+                                                <p>{post.excerpt}</p>
+                                            )}
+                                        </div>
                                     </div>
                                 </div>
                             ))

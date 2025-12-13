@@ -41,12 +41,21 @@ export default function BlogPost() {
             </div>
 
             <article className="prose dark:prose-invert lg:prose-xl max-w-none">
-                <div className="mb-8 not-prose border-b pb-8">
-                    <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-4">{post.title}</h1>
+                <div className="not-prose">
+                    <h2 className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-4">{post.title}</h2>
                     <time className="text-muted-foreground block text-sm">
                         {new Date(post.date).toLocaleDateString('en-CA')}
                     </time>
                 </div>
+                {post.cover && (
+                    <div>
+                        <img
+                            src={post.cover}
+                            alt={post.title}
+                            className="w-full max-h-[400px] object-cover"
+                        />
+                    </div>
+                )}
                 <div dangerouslySetInnerHTML={{ __html: post.content }} />
             </article>
         </div>

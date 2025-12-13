@@ -15,6 +15,7 @@ const posts = defineCollection({
             metaTitle: s.string().optional(),
             metaDescription: s.string().optional(),
             keywords: s.array(s.string()).optional(),
+            cover: s.string().optional(),
             // hidden field, used for internal logic
             lang: s.string().optional(),
         })

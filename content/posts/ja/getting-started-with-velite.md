@@ -6,6 +6,7 @@ excerpt: Vite プロジェクトに Velite を統合して、タイプセーフ�
 metaTitle: "Velite チュートリアル: Vite 用のタイプセーフなコンテンツ"
 metaDescription: "Vite プロジェクトで Markdown コンテンツを管理するための Velite のセットアップに関するステップバイステップガイド。"
 keywords: ["Velite", "Vite", "コンテンツ管理", "TypeScript"]
+cover: /static/content_posts_image/getting-started-with-velite/cover.png
 ---
 
 # Velite 入門ガイド

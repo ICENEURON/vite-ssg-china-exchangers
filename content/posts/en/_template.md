@@ -6,6 +6,7 @@ excerpt: "A brief summary of your post for the blog index page."
 metaTitle: "SEO Optimized Title (Optional)"
 metaDescription: "SEO Optimized Description (Optional)"
 keywords: ["Keyword1", "Keyword2"]
+cover: /static/content_posts_image/cover.png
 ---
 
 # Your Post Title

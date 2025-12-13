@@ -6,6 +6,7 @@ excerpt: A deep dive into essential React Hooks like useState, useEffect, and us
 metaTitle: "Mastering React Hooks: useState, useEffect, useMemo"
 metaDescription: "Deep dive into essential React Hooks and how to use them effectively in your applications."
 keywords: ["React", "Hooks", "Frontend", "JavaScript"]
+cover: /static/content_posts_image/mastering-react-hooks/cover.png
 ---
 
 # Mastering React Hooks
