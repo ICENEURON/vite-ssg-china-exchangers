@@ -23,19 +23,19 @@
         "title": "Vite + React",
         "description": "Lightning-fast HMR and build performance with the latest React 18 features.",
         "icon": "Zap",
-        "link": "/docs"
+        "link": "/claim-your-profile"
       },
       {
         "title": "TypeScript",
         "description": "Built-in type safety for better developer experience and fewer runtime errors.",
         "icon": "Shield",
-        "link": "/docs"
+        "link": "/claim-your-profile"
       },
       {
         "title": "Tailwind CSS",
         "description": "Utility-first CSS framework for rapid UI development and easy customization.",
         "icon": "Palette",
-        "link": "/docs"
+        "link": "/claim-your-profile"
       }
     ]
   },
@@ -45,7 +45,7 @@
       "content": [
         "Starting a new project often involves spending hours configuring build tools, linters, and libraries. This starter template aims to solve that problem by providing a solid foundation with sensible defaults.",
         "We've verified that all tools work seamlessly together, so you can focus on building your product instead of fighting with configuration files.",
-        "Whether you're building a landing page, a dashboard, or a blog, this template scales with your needs."
+        "Whether you're building a landing page, a dashboard, or a industry-news, this template scales with your needs."
       ]
     },
     "gettingStarted": {

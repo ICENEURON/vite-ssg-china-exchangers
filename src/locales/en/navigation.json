@@ -1,18 +1,25 @@
 {
   "menu": {
     "home": "Home",
+    "for_buyers_label": "For Buyers",
+    "manufacturers": "Manufacturers",
+    "manufacturers_details": "Manufacturers List",
+    "rfq": "Smart RFQ Builder",
+    "rfq_details": "Request for Quotation List",
+    "products": "Products",
+    "products_details": "Products List",
+    "for_manufacturers_label": "For Manufacturers",
+    "profile": "Claim your profile",
+    "content_marketing_services": "Content Marketing Services",
     "about": "About",
-    "docs": "Documentation",
-    "history": "History",
-    "faq": "FAQ",
-    "blog": "Blog",
-    "terms": "Terms",
-    "privacy": "Privacy",
+    "industry-news": "Industry News",
     "login": "Login",
     "signup": "Sign Up",
     "dashboard": "Dashboard",
     "logout": "Logout",
-    "components": "Components"
+    "components": "Components",
+    "terms": "Terms",
+    "privacy": "Privacy"
   },
   "breadcrumb": {
     "home": "Home",

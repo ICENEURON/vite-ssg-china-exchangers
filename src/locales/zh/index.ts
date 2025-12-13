@@ -1,7 +1,7 @@
 import navigation from './navigation.json';
 import footer from './footer.json';
 import home from './pages/home.json';
-import docs from './pages/docs.json';
+import profile from './pages/claim-your-profile.json';
 import login from './pages/login.json';
 import signup from './pages/signup.json';
 import about from './pages/about.json';
@@ -15,7 +15,7 @@ export default {
   footer,
   pages: {
     home,
-    docs,
+    profile,
     login,
     signup,
     about,

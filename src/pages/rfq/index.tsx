@@ -22,21 +22,21 @@ type FaqGroup = {
 export default function FaqPage() {
   const { t } = useTranslation('translation')
 
-  const groups = t('pages.faq.groups', {
+  const groups = t('pages.rfq.groups', {
     returnObjects: true,
   }) as FaqGroup[]
 
   return (
     <>
       <Head>
-        <title>{t('pages.faq.title')}</title>
+        <title>{t('pages.rfq.title')}</title>
         <meta
           name="description"
-          content={t('pages.faq.meta.description')}
+          content={t('pages.rfq.meta.description')}
         />
         <meta
           name="keywords"
-          content={t('pages.faq.meta.keywords')}
+          content={t('pages.rfq.meta.keywords')}
         />
       </Head>
 
@@ -44,26 +44,26 @@ export default function FaqPage() {
       <section className="py-12 px-4 flex flex-col items-center">
         <div className="grid text-center gap-6 mx-auto max-w-5xl">
           <h1 className="gradient-text mb-4">
-            {t('pages.faq.hero.title')}
+            {t('pages.rfq.hero.title')}
           </h1>
           <p className="text-xl">
-            {t('pages.faq.hero.subtitle')}
+            {t('pages.rfq.hero.subtitle')}
           </p>
           <p className="text-lg">
-            {t('pages.faq.hero.intro1')}
+            {t('pages.rfq.hero.intro1')}
           </p>
           <p className="text-lg mb-6">
-            {t('pages.faq.hero.intro2')}
+            {t('pages.rfq.hero.intro2')}
           </p>
         </div>
         <Badge
           className="mb-4 text-sm uppercase"
         >
-          {t('pages.faq.hero.eyebrow')}
+          {t('pages.rfq.hero.eyebrow')}
         </Badge>
       </section>
 
-      {/* FAQ groups */}
+      {/* RFQ groups */}
       <section className="pt-6 pb-12">
         <div className="container mx-auto max-w-5xl px-4 space-y-10">
           {Array.isArray(groups) &&

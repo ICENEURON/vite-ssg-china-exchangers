@@ -19,37 +19,37 @@ type Slide = {
 export default function DocsPage() {
   const { t } = useTranslation('translation')
 
-  const overviewParagraphs = t('pages.docs.overview.paragraphs', {
+  const overviewParagraphs = t('pages.profile.overview.paragraphs', {
     returnObjects: true,
   }) as string[]
 
-  const slides = t('pages.docs.carousel.slides', {
+  const slides = t('pages.profile.carousel.slides', {
     returnObjects: true,
   }) as Slide[]
 
-  const processSteps = t('pages.docs.process.steps', {
+  const processSteps = t('pages.profile.process.steps', {
     returnObjects: true,
   }) as string[]
 
   return (
     <>
       <Head>
-        <title>{t('pages.docs.title')}</title>
-        <meta name="description" content={t('pages.docs.meta.description')} />
-        <meta name="keywords" content={t('pages.docs.meta.keywords')} />
+        <title>{t('pages.profile.title')}</title>
+        <meta name="description" content={t('pages.profile.meta.description')} />
+        <meta name="keywords" content={t('pages.profile.meta.keywords')} />
       </Head>
 
       {/* Hero Section */}
       <section className="py-12 px-4">
         <div className="grid text-center gap-6 mx-auto max-w-5xl">
           <h1 className="gradient-text mb-4 text-4xl md:text-5xl font-bold">
-            {t('pages.docs.hero.title')}
+            {t('pages.profile.hero.title')}
           </h1>
           <h3 className="text-xl font-semibold">
-            {t('pages.docs.hero.subtitle')}
+            {t('pages.profile.hero.subtitle')}
           </h3>
           <p className="text-lg text-muted-foreground">
-            {t('pages.docs.hero.intro')}
+            {t('pages.profile.hero.intro')}
           </p>
         </div>
       </section>
@@ -58,7 +58,7 @@ export default function DocsPage() {
       <section className="py-12">
         <div className="container mx-auto max-w-4xl px-4">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            {t('pages.docs.overview.title')}
+            {t('pages.profile.overview.title')}
           </h2>
           <div className="space-y-3 text-sm md:text-base text-muted-foreground">
             {Array.isArray(overviewParagraphs) &&
@@ -72,10 +72,10 @@ export default function DocsPage() {
         <div className="container mx-auto max-w-5xl px-4">
           <div className="mb-6 text-center md:text-left">
             <h2 className="text-2xl md:text-3xl font-bold mb-2">
-              {t('pages.docs.carousel.title')}
+              {t('pages.profile.carousel.title')}
             </h2>
             <p className="text-sm md:text-base text-muted-foreground">
-              {t('pages.docs.carousel.subtitle')}
+              {t('pages.profile.carousel.subtitle')}
             </p>
           </div>
 
@@ -119,7 +119,7 @@ export default function DocsPage() {
       <section className="py-16">
         <div className="container mx-auto max-w-4xl px-4">
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
-            {t('pages.docs.process.title')}
+            {t('pages.profile.process.title')}
           </h2>
           <ol className="space-y-4 text-sm md:text-base max-w-3xl mx-auto">
             {Array.isArray(processSteps) &&

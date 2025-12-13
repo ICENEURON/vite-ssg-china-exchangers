@@ -18,29 +18,46 @@ const Footer = () => {
 
   const logo = {
     src: Logo,
-    alt: "Aussie Penny Stocks",
-    title: "Aussie Penny Stocks",
+    alt: t("footer.logo.alt"),
+    title: t("footer.logo.title"),
     url: addLanguageToPath("/", currentLanguage),
   };
 
-  // 四个主要页面（不含 Home）
-  const pages = [
-    {
-      key: "about",
-      url: addLanguageToPath("/about", currentLanguage),
-    },
-    {
-      key: "history",
-      url: addLanguageToPath("/history", currentLanguage),
-    },
-    {
-      key: "docs",
-      url: addLanguageToPath("/docs", currentLanguage),
-    },
-    {
-      key: "faq",
-      url: addLanguageToPath("/faq", currentLanguage),
-    },
+  const linkColumns = [
+    [
+      {
+        key: "manufacturers",
+        url: addLanguageToPath("/manufacturers", currentLanguage),
+      },
+      {
+        key: "rfq",
+        url: addLanguageToPath("/rfq", currentLanguage),
+      },
+      {
+        key: "products",
+        url: addLanguageToPath("/products", currentLanguage),
+      },
+    ],
+    [
+      {
+        key: "profile",
+        url: addLanguageToPath("/claim-your-profile", currentLanguage),
+      },
+      {
+        key: "content-marketing-services",
+        url: addLanguageToPath("/content-marketing-services", currentLanguage),
+      },
+    ],
+    [
+      {
+        key: "about",
+        url: addLanguageToPath("/about", currentLanguage),
+      },
+      {
+        key: "industry-news",
+        url: addLanguageToPath("/industry-news", currentLanguage),
+      },
+    ],
   ];
 
   const bottomLinks = [
@@ -57,7 +74,7 @@ const Footer = () => {
   return (
     <footer className={cn("bg-card")}>
       <div className="container mx-auto px-4 md:px-6 pt-12 pb-6 max-w-8xl">
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 lg:grid-cols-2">
           {/* 左侧：Logo + 描述 */}
           <div>
             <div className="flex items-center gap-2">
@@ -81,20 +98,24 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* 右侧：四个页面链接（两列，每列两个） */}
-          <div className="md:justify-self-end">
-            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-12 md:text-right">
-              {pages.map((page) => (
-                <li key={page.key}>
-                  <a
-                    href={page.url}
-                    className="text-muted-foreground hover:text-primary font-medium transition-colors duration-200"
-                  >
-                    {t(`footer.links.items.${page.key}`)}
-                  </a>
-                </li>
+          {/* 右侧：三个列链接 */}
+          <div className="justify-self-start lg:justify-self-end">
+            <div className="flex flex-col md:flex-row gap-8 md:gap-12 text-left">
+              {linkColumns.map((column, colIndex) => (
+                <ul key={colIndex} className="flex flex-col gap-4">
+                  {column.map((page) => (
+                    <li key={page.key}>
+                      <a
+                        href={page.url}
+                        className="text-muted-foreground hover:text-primary font-medium transition-colors duration-200"
+                      >
+                        {t(`footer.links.items.${page.key}`)}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
               ))}
-            </ul>
+            </div>
           </div>
         </div>
 

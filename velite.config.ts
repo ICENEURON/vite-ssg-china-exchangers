@@ -37,8 +37,8 @@ const posts = defineCollection({
             const realSlug = data.slug || (parts.length >= 3 ? parts[parts.length - 1] : parts[parts.length - 1]);
 
             const permalink = lang === 'en'
-                ? `/blog/${realSlug}`
-                : `/${lang}/blog/${realSlug}`;
+                ? `/industry-news/${realSlug}`
+                : `/${lang}/industry-news/${realSlug}`;
 
             return {
                 ...data,

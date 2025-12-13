@@ -65,7 +65,7 @@ export default function AboutPage() {
               </a>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <a href="/docs">
+              <a href="/claim-your-profile">
                 Read Documentation
               </a>
             </Button>

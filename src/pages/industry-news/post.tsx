@@ -13,7 +13,7 @@ export default function BlogPost() {
     const post = posts.find(p => p.slug === slug && p.lang === currentLanguage)
 
     // Back link should respect current language
-    const backLink = addLanguageToPath('/blog', currentLanguage);
+    const backLink = addLanguageToPath('/industry-news', currentLanguage);
 
     if (!post) return (
         <div className="container py-20 mx-auto text-center">

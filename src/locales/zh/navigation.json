@@ -2,8 +2,8 @@
   "menu": {
     "home": "首頁",
     "about": "關於技術棧",
-    "docs": "文檔",
-    "blog": "博客",
+    "profile": "文檔",
+    "industry-news": "博客",
     "terms": "條款",
     "privacy": "隱私",
     "components": "組件",

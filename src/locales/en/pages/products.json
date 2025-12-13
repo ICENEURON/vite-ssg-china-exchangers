@@ -1,0 +1,79 @@
+{
+  "title": "Changelog - React Vite SSG Starter",
+  "meta": {
+    "description": "Version history and changelog for the React Vite SSG Starter Template. Track new features, bug fixes, and updates.",
+    "keywords": "changelog, version history, updates, release notes"
+  },
+  "hero": {
+    "title": "Project Changelog",
+    "subtitle": "Track the evolution of the starter template."
+  },
+  "table": {
+    "columns": {
+      "type": "Type",
+      "description": "Description",
+      "author": "Author",
+      "link": "Commit",
+      "details": "Details"
+    },
+    "emptyState": "No changes recorded for this version."
+  },
+  "versions": [
+    {
+      "id": "v1.0.0",
+      "version": "v1.0.0",
+      "date": "December 2025",
+      "changes": [
+        {
+          "type": "feat",
+          "description": "Initial Release",
+          "author": "@antigravity",
+          "link": "https://github.com",
+          "details": "First public release of the React Vite SSG Starter template. Includes comprehensive documentation, i18n support, and a complete design system based on Shadcn UI."
+        }
+      ]
+    },
+    {
+      "id": "v0.9.0",
+      "version": "v0.9.0",
+      "date": "November 2025",
+      "changes": [
+        {
+          "type": "feat",
+          "description": "Added Internationalization",
+          "author": "@antigravity",
+          "link": "https://github.com",
+          "details": "Integrated i18next for full multi-language support. Added language toggle and translation files structure."
+        },
+        {
+          "type": "fix",
+          "description": "Fixed Dark Mode Flash",
+          "author": "@antigravity",
+          "link": "https://github.com",
+          "details": "Resolved an issue where the light theme would flash briefly on page load when dark mode was selected."
+        }
+      ]
+    },
+    {
+      "id": "v0.8.0",
+      "version": "v0.8.0",
+      "date": "October 2025",
+      "changes": [
+        {
+          "type": "feat",
+          "description": "Core Components",
+          "author": "@antigravity",
+          "link": "https://github.com",
+          "details": "Implemented core UI components using Radix UI primitives. Added Button, Card, and Navigation components."
+        },
+        {
+          "type": "chore",
+          "description": "Project Setup",
+          "author": "@antigravity",
+          "link": "https://github.com",
+          "details": "Initial repository setup with Vite, TypeScript, and Tailwind CSS configuration."
+        }
+      ]
+    }
+  ]
+}

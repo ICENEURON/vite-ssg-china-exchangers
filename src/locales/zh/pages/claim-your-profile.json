@@ -78,7 +78,7 @@
   "quick_links": {
     "title": "快速連結",
     "react_docs": "React 文檔",
-    "vite_docs": "Vite 文檔", 
+    "vite_docs": "Vite 文檔",
     "tailwind_docs": "TailwindCSS 文檔",
     "shadcn_docs": "Shadcn UI 文檔",
     "github_repo": "GitHub 存儲庫",
@@ -89,7 +89,7 @@
     "tutorials": "視頻教程",
     "examples": "範例項目",
     "community": "社區論壇",
-    "blog": "開發博客",
+    "industry-news": "開發博客",
     "changelog": "發布說明",
     "support": "獲得支援"
   }

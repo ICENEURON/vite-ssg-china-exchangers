@@ -1,8 +1,8 @@
 {
-  "title": "FAQ - React Vite SSG Starter",
+  "title": "RFQ - React Vite SSG Starter",
   "meta": {
     "description": "Frequently Asked Questions about the React Vite SSG Starter Template. Learn about features, licensing, and technical details.",
-    "keywords": "faq, react starter, helper, documentation, common questions"
+    "keywords": "rfq, react starter, helper, documentation, common questions"
   },
   "hero": {
     "eyebrow": "Questions & answers",

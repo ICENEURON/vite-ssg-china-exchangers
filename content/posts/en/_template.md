@@ -2,7 +2,7 @@
 title: "Your Post Title"
 slug: your-post-slug
 date: 2024-01-01
-excerpt: "A brief summary of your post for the blog index page."
+excerpt: "A brief summary of your post for the industry-news index page."
 metaTitle: "SEO Optimized Title (Optional)"
 metaDescription: "SEO Optimized Description (Optional)"
 keywords: ["Keyword1", "Keyword2"]

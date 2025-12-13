@@ -78,7 +78,7 @@
   "quick_links": {
     "title": "クイックリンク",
     "react_docs": "React ドキュメント",
-    "vite_docs": "Vite ドキュメント", 
+    "vite_docs": "Vite ドキュメント",
     "tailwind_docs": "TailwindCSS ドキュメント",
     "shadcn_docs": "Shadcn UI ドキュメント",
     "github_repo": "GitHub リポジトリ",
@@ -89,7 +89,7 @@
     "tutorials": "ビデオチュートリアル",
     "examples": "サンプルプロジェクト",
     "community": "コミュニティフォーラム",
-    "blog": "開発ブログ",
+    "industry-news": "開発ブログ",
     "changelog": "リリースノート",
     "support": "サポートを受ける"
   }

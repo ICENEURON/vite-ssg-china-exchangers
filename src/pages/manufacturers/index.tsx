@@ -19,31 +19,31 @@ type ChangelogItem = {
   details: string
 }
 
-type VersionHistory = {
+type VersionManufacturers = {
   id: string
   version: string
   date: string
   changes: ChangelogItem[]
 }
 
-export default function HistoryPage() {
+export default function ManufacturersPage() {
   const { t } = useTranslation('translation')
 
-  const versions = t('pages.history.versions', {
+  const versions = t('pages.manufacturers.versions', {
     returnObjects: true,
-  }) as VersionHistory[]
+  }) as VersionManufacturers[]
 
   return (
     <>
       <Head>
-        <title>{t('pages.history.title')}</title>
+        <title>{t('pages.manufacturers.title')}</title>
         <meta
           name="description"
-          content={t('pages.history.meta.description')}
+          content={t('pages.manufacturers.meta.description')}
         />
         <meta
           name="keywords"
-          content={t('pages.history.meta.keywords')}
+          content={t('pages.manufacturers.meta.keywords')}
         />
       </Head>
 
@@ -51,10 +51,10 @@ export default function HistoryPage() {
       <section className="py-12 px-4">
         <div className="grid text-center gap-6 mx-auto max-w-5xl">
           <h1 className="gradient-text mb-4">
-            {t('pages.history.hero.title')}
+            {t('pages.manufacturers.hero.title')}
           </h1>
           <p className="text-xl md:text-2xl mb-3">
-            {t('pages.history.hero.subtitle')}
+            {t('pages.manufacturers.hero.subtitle')}
           </p>
         </div>
       </section>
@@ -90,19 +90,19 @@ export default function HistoryPage() {
                     <TableHeader className="bg-muted/60">
                       <TableRow>
                         <TableHead className="px-4 py-3 font-medium">
-                          {t('pages.history.table.columns.type')}
+                          {t('pages.manufacturers.table.columns.type')}
                         </TableHead>
                         <TableHead className="px-4 py-3 font-medium">
-                          {t('pages.history.table.columns.description')}
+                          {t('pages.manufacturers.table.columns.description')}
                         </TableHead>
                         <TableHead className="px-4 py-3 font-medium">
-                          {t('pages.history.table.columns.author')}
+                          {t('pages.manufacturers.table.columns.author')}
                         </TableHead>
                         <TableHead className="px-4 py-3 font-medium">
-                          {t('pages.history.table.columns.link')}
+                          {t('pages.manufacturers.table.columns.link')}
                         </TableHead>
                         <TableHead className="px-4 py-3 font-medium hidden md:table-cell">
-                          {t('pages.history.table.columns.details')}
+                          {t('pages.manufacturers.table.columns.details')}
                         </TableHead>
                       </TableRow>
                     </TableHeader>
@@ -115,8 +115,8 @@ export default function HistoryPage() {
                           >
                             <TableCell className="px-4 py-3 font-mono text-xs md:text-sm">
                               <span className={`inline-flex items-center rounded-full px-2 py-1 text-xs font-medium ring-1 ring-inset ${change.type === 'feat' ? 'bg-green-50 text-green-700 ring-green-600/20 dark:bg-green-900/30 dark:text-green-400' :
-                                  change.type === 'fix' ? 'bg-red-50 text-red-700 ring-red-600/20 dark:bg-red-900/30 dark:text-red-400' :
-                                    'bg-gray-50 text-gray-600 ring-gray-500/10 dark:bg-gray-800 dark:text-gray-300'
+                                change.type === 'fix' ? 'bg-red-50 text-red-700 ring-red-600/20 dark:bg-red-900/30 dark:text-red-400' :
+                                  'bg-gray-50 text-gray-600 ring-gray-500/10 dark:bg-gray-800 dark:text-gray-300'
                                 }`}>
                                 {change.type}
                               </span>
@@ -155,7 +155,7 @@ export default function HistoryPage() {
                             className="px-4 py-6 text-center text-sm text-muted-foreground"
                             colSpan={5}
                           >
-                            {t('pages.history.table.emptyState')}
+                            {t('pages.manufacturers.table.emptyState')}
                           </TableCell>
                         </TableRow>
                       )}

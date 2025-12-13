@@ -1,9 +1,9 @@
 import navigation from './navigation.json';
 import footer from './footer.json';
 import home from './pages/home.json';
-import history from './pages/history.json';
-import faq from './pages/faq.json';
-import docs from './pages/docs.json';
+import manufacturers from './pages/manufacturers.json';
+import rfq from './pages/rfq.json';
+import profile from './pages/claim-your-profile.json';
 import login from './pages/login.json';
 import signup from './pages/signup.json';
 import about from './pages/about.json';
@@ -17,9 +17,9 @@ export default {
   footer,
   pages: {
     home,
-    history,
-    faq,
-    docs,
+    manufacturers,
+    rfq,
+    profile,
     login,
     signup,
     about,

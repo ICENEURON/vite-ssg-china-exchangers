@@ -21,22 +21,42 @@
     "react": {
       "title": "React 18+",
       "description": "具有 hooks、並發功能和服務器組件的現代 React，用於構建互動式用戶介面。",
-      "features": ["基於組件的架構", "虛擬 DOM 優化", "豐富的生態系統", "優秀的工具"]
+      "features": [
+        "基於組件的架構",
+        "虛擬 DOM 優化",
+        "豐富的生態系統",
+        "優秀的工具"
+      ]
     },
     "vite": {
       "title": "Vite 構建工具",
       "description": "下一代前端工具，具有即時服務器啟動和閃電般快速的 HMR。",
-      "features": ["即時開發服務器", "優化構建", "插件生態系統", "原生 ES 模塊"]
+      "features": [
+        "即時開發服務器",
+        "優化構建",
+        "插件生態系統",
+        "原生 ES 模塊"
+      ]
     },
     "tailwindcss": {
       "title": "TailwindCSS",
       "description": "實用優先的 CSS 框架，用於快速構建自訂用戶介面。",
-      "features": ["實用優先方法", "響應式設計", "自訂設計系統", "JIT 編譯"]
+      "features": [
+        "實用優先方法",
+        "響應式設計",
+        "自訂設計系統",
+        "JIT 編譯"
+      ]
     },
     "shadcn": {
       "title": "Shadcn UI",
       "description": "建立在 Radix UI 原語上的美觀且易於訪問的 React 組件。",
-      "features": ["易於訪問的組件", "可自訂主題", "TypeScript 支援", "複製粘貼即用"]
+      "features": [
+        "易於訪問的組件",
+        "可自訂主題",
+        "TypeScript 支援",
+        "複製粘貼即用"
+      ]
     }
   },
   "features": {
@@ -88,7 +108,7 @@
       }
     ]
   },
-  "faq": {
+  "rfq": {
     "title": "常見問題",
     "items": [
       {

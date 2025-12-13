@@ -58,7 +58,7 @@ export default defineConfig(({ mode }) => {
         }
         try {
           const posts = require('./.velite/posts.json')
-          const blogRoutes = posts.map((post: any) => `/blog/${post.slug}`)
+          const blogRoutes = posts.map((post: any) => `/industry-news/${post.slug}`)
           return [...staticRoutes, ...blogRoutes]
         } catch (e) {
           console.warn('Failed to load velite posts for SSG', e)

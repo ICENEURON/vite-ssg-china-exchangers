@@ -86,10 +86,10 @@ export default function HomePage() {
 
           <div className="mt-6 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button size="lg" asChild>
-              <a href="/docs/getting-started">{t("pages.home.hero.cta_primary")}</a>
+              <a href="/claim-your-profile/getting-started">{t("pages.home.hero.cta_primary")}</a>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <a href="/docs">{t("pages.home.hero.cta_secondary")}</a>
+              <a href="/claim-your-profile">{t("pages.home.hero.cta_secondary")}</a>
             </Button>
           </div>
         </div>
@@ -169,7 +169,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* FAQ Preview */}
+      {/* RFQ Preview */}
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto max-w-3xl px-4">
           <div className="mb-10 text-center">
@@ -181,7 +181,7 @@ export default function HomePage() {
           <Accordion type="single" collapsible className="w-full">
             {Array.isArray(faqItems) &&
               faqItems.map((item, index) => (
-                <AccordionItem key={index} value={`faq-${index}`}>
+                <AccordionItem key={index} value={`rfq-${index}`}>
                   <AccordionTrigger className="text-left text-lg">
                     {item.question}
                   </AccordionTrigger>
@@ -194,7 +194,7 @@ export default function HomePage() {
 
           <div className="mt-10 text-center">
             <Button variant="outline" size="lg" asChild>
-              <a href="/faq">{t("pages.home.faqPreview.cta_fullFaq")}</a>
+              <a href="/rfq">{t("pages.home.faqPreview.cta_fullFaq")}</a>
             </Button>
           </div>
         </div>
