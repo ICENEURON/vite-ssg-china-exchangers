@@ -41,4 +41,13 @@ Import your content directly:
 import { posts } from '.velite'
 ```
 
+<img src="/static/content_posts_image/getting-started-with-velite/image_1.png" alt="Resized to 300px width" width="500" />
+
+## Type Safety
+
+One of the biggest benefits is the automatic type generation.
+
+<!-- You can use standard HTML img tags to control size -->
+<img src="/static/content_posts_image/getting-started-with-velite/image_2.png" alt="Resized to 300px width" width="500" />
+
 Enjoy type-safe content!
