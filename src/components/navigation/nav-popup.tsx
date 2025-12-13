@@ -19,7 +19,7 @@ export const ListItem = React.forwardRef<
                     ref={ref}
                     to={href}
                     className={cn(
-                        "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+                        "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-foreground focus:bg-accent/70 focus:text-foreground",
                         className
                     )}
                     {...props}
@@ -49,8 +49,8 @@ export function NavPopup({ label, isActive, children, className }: NavPopupProps
                 hasContent
                 className={
                     isActive
-                        ? "bg-transparent border-b-2 border-accent rounded-none text-accent-foreground data-[state=open]:bg-transparent whitespace-nowrap"
-                        : "border-b-2 border-transparent hover:bg-accent/40 whitespace-nowrap"
+                        ? "border-b-2 border-accent rounded-none text-foreground hover:text-foreground data-[state=open]:text-foreground whitespace-nowrap"
+                        : "border-b-2 border-transparent text-foreground hover:bg-accent/40 hover:text-foreground data-[state=open]:text-foreground whitespace-nowrap"
                 }
                 onClick={(e) => e.preventDefault()}
             >

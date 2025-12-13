@@ -89,7 +89,7 @@ export function Navigation() {
             <header className="fixed top-0 left-0 right-0 z-50 bg-card">
                 <div className="container mx-auto flex h-20 items-center px-4 md:px-6 max-w-8xl">
                     <Link to={getLocalizedPath("/")} className="font-semibold text-lg">
-                        Aussie Penny Stocks
+                        {t('navigation.logo')}
                     </Link>
 
                     {/* 桌面导航 */}
@@ -135,7 +135,7 @@ export function Navigation() {
                                                     <li className="row-span-3">
                                                         <NavigationMenuLink asChild>
                                                             <Link
-                                                                className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b p-6 no-underline outline-none focus:shadow-md"
+                                                                className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b p-6 no-underline outline-none focus:shadow-md hover:text-foreground"
                                                                 to={getLocalizedPath("/terms")}
                                                             >
                                                                 <div className="mb-2 mt-4 text-lg font-medium">
@@ -198,8 +198,8 @@ export function Navigation() {
                                                 asChild
                                                 className={
                                                     isActive
-                                                        ? "bg-transparent border-b-2 border-accent rounded-none text-accent-foreground whitespace-nowrap"
-                                                        : "border-b-2 border-transparent hover:bg-accent/40 whitespace-nowrap"
+                                                        ? "border-b-2 border-accent rounded-none text-foreground hover:text-foreground whitespace-nowrap"
+                                                        : "border-b-2 border-transparent text-foreground hover:bg-accent/40 hover:text-foreground whitespace-nowrap"
                                                 }
                                             >
                                                 <Link to={getLocalizedPath(route.path)}>{label}</Link>
@@ -253,7 +253,7 @@ export function Navigation() {
                                 <Link
                                     key={route.path}
                                     to={getLocalizedPath(route.path)}
-                                    className={`block px-3 py-2 rounded-md text-sm transition-colors ${isActive ? "bg-accent" : "hover:bg-accent/40"
+                                    className={`block px-3 py-2 rounded-md text-sm transition-colors ${isActive ? "bg-accent/40 text-accent" : "hover:bg-accent/20 text-foreground"
                                         }`}
                                     onClick={() => setIsMobileMenuOpen(false)}
                                 >

@@ -12,6 +12,7 @@ export function ThemeToggle() {
       onClick={toggleTheme}
       suppressHydrationWarning
       aria-label="Toggle theme"
+      className="hover:text-foreground"
     >
       {theme === "dark" ? (
         <Sun className="h-4 w-4" />

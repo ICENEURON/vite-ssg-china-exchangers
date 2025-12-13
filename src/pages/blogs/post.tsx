@@ -32,7 +32,7 @@ export default function BlogPost() {
                 {post.keywords && <meta name="keywords" content={post.keywords.join(', ')} />}
             </Head>
             <div className="mb-8">
-                <Button variant="ghost" asChild className="pl-0 hover:bg-transparent hover:text-primary">
+                <Button variant="nonbackground" asChild className="pl-0 hover:text-primary">
                     <Link to={backLink} className="flex items-center gap-2">
                         <ArrowLeft className="w-4 h-4" />
                         Back to Blog
