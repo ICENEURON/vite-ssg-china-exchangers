@@ -7,27 +7,24 @@ import {
   CardTitle,
   CardContent,
 } from '../../components/ui/card'
+import { CheckCircle2 } from 'lucide-react'
 
 export default function AboutPage() {
   const { t } = useTranslation('translation')
 
-  const whatThisIsParagraphs = t('pages.about.sections.whatThisIs.paragraphs', {
+  const missionParagraphs = t('pages.about.sections.mission.paragraphs', {
     returnObjects: true,
   }) as string[]
 
-  const whatThisIsNotItems = t('pages.about.sections.whatThisIsNot.items', {
+  const techStackItems = t('pages.about.sections.techStack.items', {
     returnObjects: true,
   }) as string[]
 
-  const approachParagraphs = t('pages.about.sections.approach.paragraphs', {
+  const philosophyParagraphs = t('pages.about.sections.philosophy.paragraphs', {
     returnObjects: true,
   }) as string[]
 
-  const aiUsageParagraphs = t('pages.about.sections.aiUsage.paragraphs', {
-    returnObjects: true,
-  }) as string[]
-
-  const audienceParagraphs = t('pages.about.sections.audience.paragraphs', {
+  const communityParagraphs = t('pages.about.sections.community.paragraphs', {
     returnObjects: true,
   }) as string[]
 
@@ -51,101 +48,121 @@ export default function AboutPage() {
           <h1 className="gradient-text mb-4">
             {t('pages.about.hero.title')}
           </h1>
-          <p className="text-xl md:text-2xl mb-3">
+          <p className="text-xl md:text-2xl mb-3 font-semibold">
             {t('pages.about.hero.subtitle')}
           </p>
-          <p className="text-lg mb-2">
+          <p className="text-lg mb-2 max-w-3xl mx-auto">
             {t('pages.about.hero.intro1')}
           </p>
-          <p className="text-lg text-muted-foreground mb-6">
+          <p className="text-lg text-muted-foreground mb-6 max-w-3xl mx-auto">
             {t('pages.about.hero.intro2')}
           </p>
 
-          <div className="flex flex-wrap gap-3 flex justify-center">
+          <div className="flex flex-wrap gap-3 justify-center">
             <Button size="lg" asChild>
               <a href="/">
-                Back to weekly watchlist
+                Explore Features
               </a>
             </Button>
             <Button size="lg" variant="outline" asChild>
               <a href="/docs">
-                View analysis methodology
+                Read Documentation
               </a>
             </Button>
           </div>
         </div>
       </section>
 
-      {/* What this is / what this is not */}
-      <section className="py-12">
-        <div className="container mx-auto max-w-6xl px-4 grid gap-8 md:grid-cols-[1.5fr,1fr]">
-          <div>
+      {/* Mission */}
+      <section className="py-12 bg-muted/30">
+        <div className="container mx-auto max-w-4xl px-4">
+          <div className="text-center mb-8">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              {t('pages.about.sections.whatThisIs.title')}
+              {t('pages.about.sections.mission.title')}
             </h2>
-            <div className="space-y-3 text-sm md:text-base text-muted-foreground">
-              {Array.isArray(whatThisIsParagraphs) &&
-                whatThisIsParagraphs.map((p, index) => <p key={index}>{p}</p>)}
-            </div>
           </div>
+          <div className="space-y-4 text-center max-w-3xl mx-auto text-muted-foreground">
+            {Array.isArray(missionParagraphs) &&
+              missionParagraphs.map((p, index) => <p key={index}>{p}</p>)}
+          </div>
+        </div>
+      </section>
 
-          <Card className="self-start">
-            <CardHeader className="pb-3">
-              <CardTitle className="text-base md:text-lg">
-                {t('pages.about.sections.whatThisIsNot.title')}
+      {/* Tech Stack & Philosophy */}
+      <section className="py-16">
+        <div className="container mx-auto max-w-6xl px-4 grid gap-12 md:grid-cols-2">
+
+          {/* Tech Stack */}
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-2xl">
+                {t('pages.about.sections.techStack.title')}
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="space-y-2 text-xs md:text-sm text-muted-foreground">
-                {Array.isArray(whatThisIsNotItems) &&
-                  whatThisIsNotItems.map((item, index) => (
-                    <li key={index} className="flex gap-2">
-                      <span className="mt-1 h-1.5 w-1.5 rounded-full bg-primary/70" />
-                      <span>{item}</span>
-                    </li>
-                  ))}
+              <ul className="space-y-4">
+                {Array.isArray(techStackItems) &&
+                  techStackItems.map((item, index) => {
+                    // Simple markdown parser for bold text in JSON
+                    const parts = item.split('**');
+                    return (
+                      <li key={index} className="flex gap-3 items-start">
+                        <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 shrink-0" />
+                        <span className="text-sm md:text-base text-muted-foreground">
+                          {parts.length > 1 ? (
+                            <>
+                              <strong className="text-foreground font-semibold">{parts[1]}</strong>
+                              {parts[2]}
+                            </>
+                          ) : item}
+                        </span>
+                      </li>
+                    );
+                  })}
               </ul>
             </CardContent>
           </Card>
-        </div>
-      </section>
 
-      {/* Approach */}
-      <section className="py-12">
-        <div className="container mx-auto max-w-5xl px-4">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            {t('pages.about.sections.approach.title')}
-          </h2>
-          <div className="space-y-3 text-sm md:text-base text-muted-foreground">
-            {Array.isArray(approachParagraphs) &&
-              approachParagraphs.map((p, index) => <p key={index}>{p}</p>)}
+          {/* Philosophy */}
+          <div>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              {t('pages.about.sections.philosophy.title')}
+            </h2>
+            <div className="space-y-6 text-muted-foreground">
+              {Array.isArray(philosophyParagraphs) &&
+                philosophyParagraphs.map((p, index) => {
+                  const parts = p.split('**');
+                  return (
+                    <div key={index} className="pl-4 border-l-2 border-primary/20">
+                      {parts.length > 1 ? (
+                        <p>
+                          <strong className="text-foreground block mb-1">{parts[1]}</strong>
+                          {parts[2].replace(/^: /, '')}
+                        </p>
+                      ) : <p>{p}</p>}
+                    </div>
+                  )
+                })}
+            </div>
           </div>
         </div>
       </section>
 
-      {/* AI usage */}
-      <section className="py-12">
-        <div className="container mx-auto max-w-5xl px-4">
+      {/* Community */}
+      <section className="py-12 border-t">
+        <div className="container mx-auto max-w-4xl px-4 text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            {t('pages.about.sections.aiUsage.title')}
+            {t('pages.about.sections.community.title')}
           </h2>
-          <div className="space-y-3 text-sm md:text-base text-muted-foreground">
-            {Array.isArray(aiUsageParagraphs) &&
-              aiUsageParagraphs.map((p, index) => <p key={index}>{p}</p>)}
+          <div className="space-y-3 text-muted-foreground max-w-2xl mx-auto mb-8">
+            {Array.isArray(communityParagraphs) &&
+              communityParagraphs.map((p, index) => <p key={index}>{p}</p>)}
           </div>
-        </div>
-      </section>
-
-      {/* Audience */}
-      <section className="py-12">
-        <div className="container mx-auto max-w-5xl px-4">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            {t('pages.about.sections.audience.title')}
-          </h2>
-          <div className="space-y-3 text-sm md:text-base text-muted-foreground">
-            {Array.isArray(audienceParagraphs) &&
-              audienceParagraphs.map((p, index) => <p key={index}>{p}</p>)}
-          </div>
+          <Button variant="outline" size="lg" asChild>
+            <a href="https://github.com" target="_blank" rel="noreferrer">
+              View on GitHub
+            </a>
+          </Button>
         </div>
       </section>
 

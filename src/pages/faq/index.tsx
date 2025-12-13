@@ -56,11 +56,11 @@ export default function FaqPage() {
             {t('pages.faq.hero.intro2')}
           </p>
         </div>
-          <Badge
-            className="mb-4 text-sm uppercase"
-          >
-            {t('pages.faq.hero.eyebrow')}
-          </Badge>
+        <Badge
+          className="mb-4 text-sm uppercase"
+        >
+          {t('pages.faq.hero.eyebrow')}
+        </Badge>
       </section>
 
       {/* FAQ groups */}

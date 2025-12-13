@@ -1,83 +1,76 @@
 {
-  "title": "ASX Small Cap Stocks - Weekly Watchlist of 3 Ideas",
+  "title": "React Vite SSG Starter",
   "meta": {
-    "description": "Each week I highlight three ASX small cap stocks that look interesting from a long-term, research-focused perspective. Educational notes only - not financial advice.",
-    "keywords": "ASX small cap stocks, ASX penny stocks, ASX weekly watchlist, Australian stock market, low priced shares, stock ideas, investment research"
+    "description": "A modern, high-performance React starter template built with Vite, Tailwind CSS, and Shadcn UI. Features Static Site Generation (SSG) for optimal SEO and speed.",
+    "keywords": "react, vite, ssg, tailwind css, shadcn ui, starter template, typescript"
   },
   "og": {
-    "title": "ASX Small Cap Stocks - Weekly Watchlist",
-    "description": "A personal, research-focused weekly watchlist of three ASX small cap and low-priced stocks. High risk, educational only, not financial advice."
+    "title": "React Vite SSG Starter - Build Faster",
+    "description": "The ultimate starting point for your next React project. Production-ready, SEO-optimized, and packed with best practices."
   },
   "hero": {
-    "title": "ASX Small Cap Stock",
-    "subtitle": "Low price, high potential",
-    "description": "This website is a personal learning project focused on ASX small cap and penny stocks. Each week I publish a short watchlist of three companies that look interesting based on my own research and scoring model. The goal is not to provide stock tips. Instead, I want to document my thinking, review my decisions over time, and share a transparent framework for analysing risky but potentially rewarding small-cap companies.",
-    "cta_secondary": "Learn the scoring method"
+    "title": "Build Modern Web Apps",
+    "subtitle": "Fast, Accessible, Production-Ready",
+    "description": "Kickstart your next project with this opinionated starter template. Powered by React, Vite, and Tailwind CSS. Pre-configured with SSG, i18n, and a beautiful UI component library.",
+    "cta_primary": "Get Started",
+    "cta_secondary": "View Documentation"
   },
-  "thisWeek": {
-    "title": "This Week's ASX Small Cap Watchlist",
-    "subtitle": "Three small cap ideas to research further - not buy or sell calls.",
-    "asOfLabel": "Snapshot at the time of selection - always check the latest price and announcements.",
-    "columns": {
-      "risk": "Score"
-    },
-    "picks": [
+  "features": {
+    "title": "Features",
+    "subtitle": "Everything you need to build a modern web application.",
+    "items": [
       {
-        "name": "Wildcat Resources",
-        "score": "7.8 / 10",
-        "thesis": "Lithium explorer focused on the Tabba Tabba project. While the lithium sector remains volatile, aggressive drilling and potential for resource growth keep it as a high-beta play for risk-tolerant investors. (~$0.28)",
-        "link": "https://www.asx.com.au/markets/company/",
-        "tag": "WC8"
+        "title": "Vite + React",
+        "description": "Lightning-fast HMR and build performance with the latest React 18 features.",
+        "icon": "Zap",
+        "link": "/docs"
       },
       {
-        "name": "Mach7 Technologies",
-        "score": "8.2 / 10",
-        "thesis": "Enterprise imaging software provider with strong recurring revenue growth. Recent contract wins and a shift towards profitability de-risk the investment case, while global expansion offers significant upside. (~$0.50)",
-        "link": "https://www.asx.com.au/markets/company/",
-        "tag": "M7T"
+        "title": "TypeScript",
+        "description": "Built-in type safety for better developer experience and fewer runtime errors.",
+        "icon": "Shield",
+        "link": "/docs"
       },
       {
-        "name": "Lumos Diagnostics",
-        "score": "7.5 / 10",
-        "thesis": "Point-of-care diagnostics developer (FebriDx) with growing US distribution. Regulatory approvals and commercial rollout are key catalysts, though cash burn remains a risk factor to watch. (~$0.03)",
-        "link": "https://www.asx.com.au/markets/company/",
-        "tag": "LDX"
+        "title": "Tailwind CSS",
+        "description": "Utility-first CSS framework for rapid UI development and easy customization.",
+        "icon": "Palette",
+        "link": "/docs"
       }
-    ],
-    "emptyState": "This week's watchlist has not been published yet. Please check back soon for new ASX small cap ideas."
+    ]
   },
   "sections": {
-    "whatAreSmallCaps": {
-      "title": "What Are ASX Small Cap and Penny Stocks?",
+    "about": {
+      "title": "Why Use This Starter?",
       "content": [
-        "ASX small cap stocks are companies listed on the Australian Securities Exchange with relatively small market capitalisation. Many of them trade at lower share prices, which is why people often call them penny stocks or low-priced shares.",
-        "These businesses can be early-stage, rapidly growing or still trying to prove their business model. Because of their size, small caps are usually more volatile than large blue-chip companies. A single announcement, capital raise or contract win can move the share price dramatically in a short period of time.",
-        "This volatility is a double-edged sword. It can create the potential for outsized gains if a company executes well over many years. It can also lead to permanent capital loss if the business fails, dilutes shareholders heavily or never becomes sustainably profitable. That is why small caps demand careful research, realistic expectations and a strong tolerance for risk."
+        "Starting a new project often involves spending hours configuring build tools, linters, and libraries. This starter template aims to solve that problem by providing a solid foundation with sensible defaults.",
+        "We've verified that all tools work seamlessly together, so you can focus on building your product instead of fighting with configuration files.",
+        "Whether you're building a landing page, a dashboard, or a blog, this template scales with your needs."
       ]
     },
-    "howToUse": {
-      "title": "How to Use This Weekly Watchlist",
+    "gettingStarted": {
+      "title": "Getting Started",
       "content": [
-        "The ASX small cap watchlist is designed as a starting point for your own research, not as a list of buy or sell recommendations. Every company on the list carries significant risk, and you should assume that any of them could underperform or fail completely.",
-        "If you decide to look deeper into a company, read its latest annual and quarterly reports, review recent announcements, and think honestly about your own risk tolerance and time horizon. You may also want to speak with a licensed financial adviser before making any investment decisions.",
-        "Finally, remember that good process is more important than individual stock picks. The purpose of this project is to improve decision-making over time by writing things down, reviewing past ideas and learning from both successes and mistakes."
+        "Clone the repository and run `pnpm install` to install dependencies.",
+        "Start the development server with `pnpm dev`.",
+        "Build for production with `pnpm build`."
       ]
     }
   },
   "faqPreview": {
-    "title": "Quick FAQ",
+    "title": "Common Questions",
     "items": [
       {
-        "question": "Do you personally own any of the stocks you write about?",
-        "answer": "I may hold positions in some of the companies mentioned on this site. Because this is a personal learning project, you should always assume that my views may be biased and that I may change my mind at any time."
+        "question": "Is this free to use?",
+        "answer": "Yes, this template is completely open-source and free to use for both personal and commercial projects."
       },
       {
-        "question": "How long do you track each watchlist pick?",
-        "answer": "The watchlist is a snapshot at the time of selection. I do not provide live updates, target prices or exit signals. Historical picks are kept for learning and review, not as ongoing coverage."
+        "question": "How do I deploy this?",
+        "answer": "Since it uses SSG, you can deploy the `dist` folder to any static host like Vercel, Netlify, or GitHub Pages."
       },
       {
-        "question": "Is it safe to invest in ASX small cap stocks?",
-        "answer": "Small cap and penny stocks can be highly risky. Many companies will not succeed, and their share prices can fall significantly or go to zero. Never risk money you cannot afford to lose."
+        "question": "Can I switch to client-side rendering?",
+        "answer": "Yes, simply remove the SSG configuration in `vite.config.ts` and use standard React Router."
       }
     ],
     "cta_fullFaq": "View All FAQs"

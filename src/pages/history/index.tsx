@@ -9,29 +9,29 @@ import {
   TableCell,
 } from '../../components/ui/table'
 import { Button } from "../../components/ui/button";
+import { GitCommit, Tag } from 'lucide-react'
 
-type HistoryPick = {
-  code: string
-  name: string
-  score: string
+type ChangelogItem = {
+  type: string
+  description: string
+  author: string
   link: string
-  thesis: string
+  details: string
 }
 
-type HistoryWeek = {
+type VersionHistory = {
   id: string
-  label: string
-  dateRange: string
-  marketContext?: string
-  picks: HistoryPick[]
+  version: string
+  date: string
+  changes: ChangelogItem[]
 }
 
 export default function HistoryPage() {
   const { t } = useTranslation('translation')
 
-  const weeks = t('pages.history.weeks', {
+  const versions = t('pages.history.versions', {
     returnObjects: true,
-  }) as HistoryWeek[]
+  }) as VersionHistory[]
 
   return (
     <>
@@ -59,84 +59,93 @@ export default function HistoryPage() {
         </div>
       </section>
 
-      {/* Weeks + tables */}
+      {/* Versions + tables */}
       <section className="py-12">
         <div className="container mx-auto max-w-6xl px-4 space-y-10">
-          {Array.isArray(weeks) &&
-            weeks.map((week) => (
+          {Array.isArray(versions) &&
+            versions.map((version) => (
               <div
-                key={week.id}
+                key={version.id}
                 className="space-y-3 flex flex-col lg:flex-row gap-4"
               >
-                <div className="flex flex-col gap-2 min-w-[120px]">
-                  <h3>{week.label}</h3>
-                  <p className="text-xs text-muted-foreground">
-                    {week.dateRange}
+                <div className="flex flex-col gap-2 min-w-[140px]">
+                  <div className="flex items-center gap-2">
+                    <Tag className="w-4 h-4 text-primary" />
+                    <h3 className="font-bold text-lg">{version.version}</h3>
+                  </div>
+                  <p className="text-sm text-muted-foreground">
+                    {version.date}
                   </p>
                 </div>
 
-                <div className="overflow-x-auto rounded-lg border bg-background">
-                <Table className="min-w-full text-left text-sm table-fixed">
-                  <colgroup>
-                    <col className="w-[5%]" />
-                    <col className="w-[25%]" />
-                    <col className="w-[15%]" />
-                    <col className="w-[10%]" />
-                    <col className="w-[45%] hidden md:table-cell" />
-                  </colgroup>
-                  <TableHeader className="bg-muted/60">
-                    <TableRow>
-                      <TableHead className="px-4 py-3 font-medium">
-                        {t('pages.history.table.columns.code')}
-                      </TableHead>
-                      <TableHead className="px-4 py-3 font-medium">
-                        {t('pages.history.table.columns.name')}
-                      </TableHead>
-                      <TableHead className="px-4 py-3 font-medium">
-                        {t('pages.history.table.columns.score')}
-                      </TableHead>
-                      <TableHead className="px-4 py-3 font-medium">
-                        {t('pages.history.table.columns.link')}
-                      </TableHead>
-                      <TableHead className="px-4 py-3 font-medium hidden md:table-cell">
-                        {t('pages.history.table.columns.thesis')}
-                      </TableHead>
-                    </TableRow>
+                <div className="overflow-x-auto rounded-lg border bg-background flex-1">
+                  <Table className="min-w-full text-left text-sm table-fixed">
+                    <colgroup>
+                      <col className="w-[10%]" />
+                      <col className="w-[30%]" />
+                      <col className="w-[10%]" />
+                      <col className="w-[10%]" />
+                      <col className="w-[40%] hidden md:table-cell" />
+                    </colgroup>
+                    <TableHeader className="bg-muted/60">
+                      <TableRow>
+                        <TableHead className="px-4 py-3 font-medium">
+                          {t('pages.history.table.columns.type')}
+                        </TableHead>
+                        <TableHead className="px-4 py-3 font-medium">
+                          {t('pages.history.table.columns.description')}
+                        </TableHead>
+                        <TableHead className="px-4 py-3 font-medium">
+                          {t('pages.history.table.columns.author')}
+                        </TableHead>
+                        <TableHead className="px-4 py-3 font-medium">
+                          {t('pages.history.table.columns.link')}
+                        </TableHead>
+                        <TableHead className="px-4 py-3 font-medium hidden md:table-cell">
+                          {t('pages.history.table.columns.details')}
+                        </TableHead>
+                      </TableRow>
                     </TableHeader>
                     <TableBody>
-                      {Array.isArray(week.picks) && week.picks.length > 0 ? (
-                        week.picks.map((pick) => (
+                      {Array.isArray(version.changes) && version.changes.length > 0 ? (
+                        version.changes.map((change, idx) => (
                           <TableRow
-                            key={pick.code}
+                            key={idx}
                             className="last:border-b hover:bg-muted/40"
                           >
                             <TableCell className="px-4 py-3 font-mono text-xs md:text-sm">
-                              {pick.code}
+                              <span className={`inline-flex items-center rounded-full px-2 py-1 text-xs font-medium ring-1 ring-inset ${change.type === 'feat' ? 'bg-green-50 text-green-700 ring-green-600/20 dark:bg-green-900/30 dark:text-green-400' :
+                                  change.type === 'fix' ? 'bg-red-50 text-red-700 ring-red-600/20 dark:bg-red-900/30 dark:text-red-400' :
+                                    'bg-gray-50 text-gray-600 ring-gray-500/10 dark:bg-gray-800 dark:text-gray-300'
+                                }`}>
+                                {change.type}
+                              </span>
                             </TableCell>
-                            <TableCell className="px-4 py-3 text-xs md:text-sm">
-                              {pick.name}
+                            <TableCell className="px-4 py-3 text-xs md:text-sm font-semibold">
+                              {change.description}
                             </TableCell>
-                            <TableCell className="px-4 py-3 text-xs md:text-sm">
-                              {pick.score}
+                            <TableCell className="px-4 py-3 text-xs md:text-sm text-muted-foreground">
+                              {change.author}
                             </TableCell>
                             <TableCell className="px-4 py-3 text-xs md:text-sm">
                               <Button
-                                  asChild
-                                  size="sm"
-                                  variant="destructive"
-                                  className="whitespace-nowrap"
+                                asChild
+                                size="icon"
+                                variant="ghost"
+                                className="h-8 w-8"
+                              >
+                                <a
+                                  href={change.link}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  title="View Commit"
                                 >
-                                  <a
-                                    href={`${pick.link}${pick.code}`}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                  >
-                                    View
-                                  </a>
-                                </Button>
+                                  <GitCommit className="h-4 w-4" />
+                                </a>
+                              </Button>
                             </TableCell>
                             <TableCell className="px-4 py-3 text-xs text-muted-foreground hidden md:table-cell">
-                              {pick.thesis}
+                              {change.details}
                             </TableCell>
                           </TableRow>
                         ))
@@ -144,7 +153,7 @@ export default function HistoryPage() {
                         <TableRow>
                           <TableCell
                             className="px-4 py-6 text-center text-sm text-muted-foreground"
-                            colSpan={6}
+                            colSpan={5}
                           >
                             {t('pages.history.table.emptyState')}
                           </TableCell>

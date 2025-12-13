@@ -1,80 +1,80 @@
 {
-  "title": "How I Analyse ASX Small Cap Fundamentals",
+  "title": "Documentation - React Vite SSG Starter",
   "meta": {
-    "description": "Documentation of the fundamental analysis approach used for ASX small cap stocks on this site, focusing on financial statements, competitive strength, industry dynamics and the path to profit.",
-    "keywords": "ASX small cap fundamentals, stock analysis, financial statements, competitive advantage, industry analysis, profitability, long-term investing"
+    "description": "Documentation for the React Vite SSG Starter. Learn about the core concepts, project structure, and deployment workflow.",
+    "keywords": "react, vite, ssg, documentation, guide, deployment, architecture"
   },
   "hero": {
-    "title": "Documentation: Fundamental Framework",
-    "subtitle": "How I look at ASX small caps before they enter the weekly list.",
-    "intro": "This page explains the simple, fundamentals-first framework I use when reviewing ASX small cap companies. The focus is on the business: financial statements, competitive strength, industry dynamics and the path to sustainable profit — not on short-term price moves."
+    "title": "Documentation",
+    "subtitle": "Everything you need to know to build and deploy.",
+    "intro": "This documentation covers the core architectural concepts behind this starter template. From Static Site Generation (SSG) to the component library, we'll explain how the pieces fit together."
   },
   "overview": {
-    "title": "Why Start With Fundamentals?",
+    "title": "Project Overview",
     "paragraphs": [
-      "Small cap share prices can move sharply on hype, rumours and short-term news. That noise is hard to predict and even harder to rely on.",
-      "Instead of chasing every spike, I start with the basics: how the company makes money, what shape its financial statements are in, how strong its position is against competitors and whether there is a credible way to turn growth into lasting profit and cash flow.",
-      "If the underlying business does not make sense, the share price story usually does not last. That is why every company that appears on the weekly watchlist has first passed a simple fundamentals check like the one described on this page."
+      "This template is designed to provide a production-ready foundation for modern web applications. It leverages the speed of Vite with the SEO benefits of SSG.",
+      "The directory structure is organized by feature, making it easy to scale as your application grows. Components are built using Shadcn UI, providing a consistent and accessible design system out of the box.",
+      "Internationalization (i18n) is baked in from the start, allowing you to easily support multiple languages without significant refactoring later."
     ]
   },
   "carousel": {
-    "title": "Four Fundamental Lenses",
-    "subtitle": "When I review an ASX small cap, I cycle through these four lenses before it can even qualify for the weekly list.",
+    "title": "Core Concepts",
+    "subtitle": "Understanding the key technologies powering this template.",
     "slides": [
       {
-        "id": "financials",
-        "title": "1. Financial Statements",
-        "subtitle": "Income, cash flow and the balance sheet.",
+        "id": "ssg",
+        "title": "1. Static Site Generation",
+        "subtitle": "Pre-rendering for speed and SEO.",
         "bullets": [
-          "Look at revenue over several periods: is it growing, flat or shrinking?",
-          "Check gross margins and operating costs to see whether scale could improve profitability.",
-          "Compare reported profit to operating cash flow – is the business generating real cash?",
-          "Review cash balance, debt and burn rate to understand how much time the company has."
+          "Pages are generated at build time, resulting in static HTML files.",
+          "Fast Time-to-First-Byte (TTFB) since no server-side processing is needed.",
+          "Perfect for content-heavy sites, blogs, and marketing pages.",
+          "Can be hosted on any static file server or CDN."
         ]
       },
       {
-        "id": "competitive",
-        "title": "2. Competitive Strength",
-        "subtitle": "Why this business, not its competitors?",
+        "id": "react",
+        "title": "2. Modern React",
+        "subtitle": "Hooks, Components, and TypeScript.",
         "bullets": [
-          "Clarify who the real customers are and how concentrated they might be.",
-          "Ask what problem the company solves and whether the value proposition is concrete or vague.",
-          "Look for switching costs, integration effort or regulation that makes customers sticky.",
-          "Consider whether the company can defend its pricing or if it is stuck in a race to the bottom."
+          "Built with React 18, leveraging the latest hook patterns.",
+          "Strict TypeScript configuration ensures type safety across the codebase.",
+          "Component-driven development with a clear separation of concerns.",
+          "Optimized for performance with code-splitting and lazy loading."
         ]
       },
       {
-        "id": "industry",
-        "title": "3. Industry and Market",
-        "subtitle": "The environment around the company.",
+        "id": "styling",
+        "title": "3. Styling System",
+        "subtitle": "Tailwind CSS + Shadcn UI.",
         "bullets": [
-          "Check whether the market is expanding, stable or shrinking over the next 5–10 years.",
-          "Think about cyclicality: how sensitive is the business to rates, sentiment or commodity prices?",
-          "Watch for regulatory changes or new technologies that could reshape the playing field.",
-          "Ask if the company is likely to gain, keep or lose share as the industry evolves."
+          "Utility-first CSS via Tailwind for rapid styling without leaving HTML.",
+          "Shadcn UI provides accessible, unstyled components that you own.",
+          "Dark mode support is built-in and respects system preferences.",
+          "Easy customization via CSS variables and Tailwind config."
         ]
       },
       {
-        "id": "profit",
-        "title": "4. Profit & Cash Flow Path",
-        "subtitle": "From growth story to real returns.",
+        "id": "i18n",
+        "title": "4. Internationalization",
+        "subtitle": "i18next for global reach.",
         "bullets": [
-          "For early-stage names, accept that profits may be small or negative today.",
-          "Look at unit economics where available: customer acquisition cost, margins and retention.",
-          "Ask how much extra capital is required before the business could fund itself.",
-          "Sketch a simple picture of what sustainable free cash flow could look like at maturity."
+          "Translation files are separated by language and namespace.",
+          "Language detection and persistence via local storage.",
+          "Type-safe translation keys (optional configuration).",
+          "Seamless switching between languages without page reloads."
         ]
       }
     ]
   },
   "process": {
-    "title": "Putting It Together: A Simple Flow",
+    "title": "Deployment Workflow",
     "steps": [
-      "Read the latest annual and half-year reports, investor presentations and key announcements.",
-      "Write down in plain language how the business makes money and who pays the bills.",
-      "Review the financial statements with an eye on cash, debt, dilution and basic unit economics.",
-      "Think about competition and industry structure: is there any real edge or tailwind?",
-      "Only then decide whether the company is interesting enough to appear on the weekly watchlist."
+      "Run `pnpm build` to generate the static files in the `dist` directory.",
+      "Preview the build locally using `pnpm preview` to ensure everything looks correct.",
+      "Configure your host (Vercel, Netlify, Github Pages) to serve the `dist` folder.",
+      "Set up a CI/CD pipeline (e.g., GitHub Actions) to automate builds on push.",
+      "Verify the deployed site, checking for 404s and proper asset loading."
     ]
   }
 }

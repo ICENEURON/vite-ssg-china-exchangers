@@ -107,8 +107,8 @@ export function Navigation() {
                                         return (
                                             <NavPopup key={route.path} label={label || ''} isActive={isActive} className="right-0">
                                                 <ul className="grid w-[300px] gap-3 p-3">
-                                                    <ListItem href={getLocalizedPath("/terms")} title="Technology Stack">
-                                                        {t('navigation.menu.terms')}
+                                                    <ListItem href={getLocalizedPath("/about")} title="About" className="py-4">
+                                                        {t('navigation.menu.about')}
                                                     </ListItem>
                                                     {/* <ListItem href={getLocalizedPath("/about") + "#team"} title="Our Team">
                                                         Meet the people behind this amazing project.
@@ -133,7 +133,7 @@ export function Navigation() {
                                             <NavPopup key={route.path} label={label || ''} isActive={isActive} className="right-0">
                                                 <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                                                     <li className="row-span-3">
-                                                        <NavigationMenuLink asChild>
+                                                        <NavigationMenuLink asChild className="py-4">
                                                             <Link
                                                                 className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b no-underline outline-none focus:shadow-md hover:text-foreground"
                                                                 to={getLocalizedPath("/terms")}
@@ -147,7 +147,7 @@ export function Navigation() {
                                                             </Link>
                                                         </NavigationMenuLink>
                                                     </li>
-                                                    <ListItem href={getLocalizedPath("/docs")} title="Getting Started">
+                                                    <ListItem href={getLocalizedPath("/docs")} title="Getting Started" className="py-4">
                                                         {t('navigation.menu.docs')}
                                                     </ListItem>
                                                     {/* <ListItem href={getLocalizedPath("/docs") + "#installation"} title="Installation">
@@ -166,7 +166,7 @@ export function Navigation() {
                                         return (
                                             <NavPopup key={route.path} label={label || ''} isActive={isActive} className="right-0">
                                                 <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                                                    <ListItem href={getLocalizedPath("/components")} title="All Components">
+                                                    <ListItem href={getLocalizedPath("/components")} title="All Components" className="py-4">
                                                         {t('navigation.menu.components')}
                                                     </ListItem>
                                                     {/* <ListItem href={getLocalizedPath("/components") + "#badge"} title="Badge">

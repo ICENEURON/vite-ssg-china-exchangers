@@ -13,35 +13,29 @@ import {
   CardTitle,
   CardContent,
   CardFooter,
-  CardAction,
 } from "../../components/ui/card";
-import { Badge } from "../../components/ui/badge";
+import { Zap, Shield, Palette } from "lucide-react";
 
 type FaqItem = {
   question: string;
   answer: string;
 };
 
-type WeeklyPick = {
-  ticker: string;
-  name: string;
-  price: string;
-  score: string;
-  thesis: string;
-  risk: string;
+type FeatureItem = {
+  title: string;
+  description: string;
+  icon: string;
   link: string;
-  tag: string;
 };
 
 export default function HomePage() {
   const { t } = useTranslation("translation");
 
-  const whatIsSmallCapParagraphs = t(
-    "pages.home.sections.whatAreSmallCaps.content",
-    { returnObjects: true }
-  ) as string[];
+  const aboutParagraphs = t("pages.home.sections.about.content", {
+    returnObjects: true,
+  }) as string[];
 
-  const howToUseParagraphs = t("pages.home.sections.howToUse.content", {
+  const gettingStartedParagraphs = t("pages.home.sections.gettingStarted.content", {
     returnObjects: true,
   }) as string[];
 
@@ -49,9 +43,22 @@ export default function HomePage() {
     returnObjects: true,
   }) as FaqItem[];
 
-  const weeklyPicks = t("pages.home.thisWeek.picks", {
+  const features = t("pages.home.features.items", {
     returnObjects: true,
-  }) as WeeklyPick[];
+  }) as FeatureItem[];
+
+  const getIcon = (iconName: string) => {
+    switch (iconName) {
+      case "Zap":
+        return <Zap className="h-6 w-6" />;
+      case "Shield":
+        return <Shield className="h-6 w-6" />;
+      case "Palette":
+        return <Palette className="h-6 w-6" />;
+      default:
+        return <Zap className="h-6 w-6" />;
+    }
+  };
 
   return (
     <>
@@ -67,160 +74,129 @@ export default function HomePage() {
       </Head>
 
       {/* Hero */}
-      <section className="pt-12 pb-6 px-4">
+      <section className="pt-20 pb-12 px-4">
         <div className="grid mx-auto max-w-5xl text-center gap-6">
           <h1 className="gradient-text mb-4">{t("pages.home.hero.title")}</h1>
-          <h2 className="text-xl md:text-2xl text-foreground mb-2">
+          <h2 className="text-2xl md:text-3xl text-foreground mb-2 font-semibold">
             {t("pages.home.hero.subtitle")}
           </h2>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             {t("pages.home.hero.description")}
           </p>
 
-          <div className="m-4 flex flex-col items-center justify-center gap-4 sm:flex-row">
+          <div className="mt-6 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button size="lg" asChild>
+              <a href="/docs/getting-started">{t("pages.home.hero.cta_primary")}</a>
+            </Button>
+            <Button size="lg" variant="outline" asChild>
               <a href="/docs">{t("pages.home.hero.cta_secondary")}</a>
             </Button>
           </div>
         </div>
       </section>
 
-      {/* This Week - 3 stock cards */}
+      {/* Features */}
       <section className="py-6">
         <div className="container mx-auto max-w-6xl px-4">
-          <div className="flex flex-col gap-3 text-center pt-4">
-            <h3>{t("pages.home.thisWeek.title")}</h3>
-            <p className="text-sm text-muted-foreground">
-              {t("pages.home.thisWeek.subtitle")}
+          <div className="flex flex-col gap-3 text-center mb-10">
+            <h3 className="text-3xl font-bold">{t("pages.home.features.title")}</h3>
+            <p className="text-muted-foreground">
+              {t("pages.home.features.subtitle")}
             </p>
           </div>
 
-          <div className="py-8">
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-6">
-              {Array.isArray(weeklyPicks) && weeklyPicks.length > 0 ? (
-                weeklyPicks.map((pick) => {
-                  const codeOnly = pick.tag.trim();
-                  const asxUrl = `https://www.asx.com.au/markets/company/${codeOnly}`;
-
-                  return (
-                    <Card
-                      key={pick.tag}
-                      className="relative flex h-full flex-col pt-8 hover:shadow-md transition-shadow"
-                    >
-                      <div className="absolute -top-5 left-1/2 -translate-x-1/2">
-                        <span className="inline-flex items-center justify-center">
-                          <Badge
-                            variant="destructive"
-                            className="px-4 py-1.5 text-sm md:text-base font-semibold shadow-md"
-                          >
-                            {pick.score}
-                          </Badge>
-                        </span>
-                      </div>
-
-                      <CardHeader className="pb-4 h-[4.5rem]">
-                        <div className="flex items-start justify-between gap-3">
-                          <CardTitle className="flex-1">
-                            <span className="block text-xl font-semibold">
-                              {pick.name}
-                            </span>
-                          </CardTitle>
-                          <CardAction>
-                            <Badge className="px-3 py-1 text-xs font-semibold">
-                              {pick.tag || "ASX Small Cap"}
-                            </Badge>
-                          </CardAction>
-                        </div>
-                      </CardHeader>
-
-                      <CardContent className="flex-1 pt-1">
-                        <div className="space-y-3">
-                          <div className="text-sm md:text-base text-muted-foreground line-clamp-[10]">
-                            {pick.thesis}
-                          </div>
-                        </div>
-                      </CardContent>
-
-                      <CardFooter className="mt-auto pt-4">
-                        <Button className="w-full" asChild>
-                          <a
-                            href={asxUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            View on ASX ({codeOnly})
-                          </a>
-                        </Button>
-                      </CardFooter>
-                    </Card>
-                  );
-                })
-              ) : (
-                <p className="text-center text-sm text-muted-foreground col-span-3">
-                  {t("pages.home.thisWeek.emptyState")}
-                </p>
-              )}
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {Array.isArray(features) && features.length > 0 ? (
+              features.map((feature, index) => (
+                <Card key={index} className="flex flex-col h-full border-border/50 shadow-sm transition-shadow">
+                  <CardHeader>
+                    <div className="mb-4 w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+                      {getIcon(feature.icon)}
+                    </div>
+                    <CardTitle className="text-xl">{feature.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent className="flex-1">
+                    <p className="text-muted-foreground">{feature.description}</p>
+                  </CardContent>
+                  <CardFooter>
+                    <Button variant="nonbackground" className="pl-0 gap-2" asChild>
+                      <a href={feature.link}>Learn more &rarr;</a>
+                    </Button>
+                  </CardFooter>
+                </Card>
+              ))
+            ) : null}
           </div>
         </div>
       </section>
 
-      {/* Educational Sections */}
-      <section className="py-6">
-        <div className="container mx-auto max-w-5xl px-4 space-y-10">
-          <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-3">
-              {t("pages.home.sections.whatAreSmallCaps.title")}
-            </h2>
-            <div className="space-y-3 text-muted-foreground text-sm md:text-base">
-              {Array.isArray(whatIsSmallCapParagraphs) &&
-                whatIsSmallCapParagraphs.map((paragraph, index) => (
-                  <p key={index}>{paragraph}</p>
-                ))}
+      {/* Content Sections */}
+      <section className="py-16">
+        <div className="container mx-auto max-w-5xl px-4 space-y-16">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold mb-6">
+                {t("pages.home.sections.about.title")}
+              </h2>
+              <div className="space-y-4 text-muted-foreground">
+                {Array.isArray(aboutParagraphs) &&
+                  aboutParagraphs.map((paragraph, index) => (
+                    <p key={index}>{paragraph}</p>
+                  ))}
+              </div>
+            </div>
+            <div className="bg-muted rounded-xl p-8 h-64 flex items-center justify-center text-muted-foreground">
+              <span className="text-sm">Feature Illustration Placeholder</span>
             </div>
           </div>
 
-          <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-3">
-              {t("pages.home.sections.howToUse.title")}
-            </h2>
-            <div className="space-y-3 text-muted-foreground text-sm md:text-base">
-              {Array.isArray(howToUseParagraphs) &&
-                howToUseParagraphs.map((paragraph, index) => (
-                  <p key={index}>{paragraph}</p>
-                ))}
+          <div className="grid md:grid-cols-2 gap-12 items-center md:flex-row-reverse">
+            <div className="order-last md:order-first bg-muted rounded-xl p-8 h-64 flex items-center justify-center text-muted-foreground">
+              <span className="text-sm">Code Snippet Placeholder</span>
+            </div>
+            <div>
+              <h2 className="text-3xl font-bold mb-6">
+                {t("pages.home.sections.gettingStarted.title")}
+              </h2>
+              <div className="space-y-4 text-muted-foreground">
+                {Array.isArray(gettingStartedParagraphs) &&
+                  gettingStartedParagraphs.map((paragraph, index) => (
+                    <p key={index}>{paragraph}</p>
+                  ))}
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* FAQ Preview */}
-      <section className="py-12">
-        <div className="container mx-auto max-w-4xl px-4">
-          <div className="mb-6 flex items-center justify-between gap-4">
-            <h2 className="text-2xl md:text-3xl font-bold">
+      <section className="py-16 bg-muted/30">
+        <div className="container mx-auto max-w-3xl px-4">
+          <div className="mb-10 text-center">
+            <h2 className="text-3xl font-bold mb-4">
               {t("pages.home.faqPreview.title")}
             </h2>
-            <Button variant="secondary" asChild>
-              <a href="/faq">{t("pages.home.faqPreview.cta_fullFaq")}</a>
-            </Button>
           </div>
 
-          <Accordion type="single" collapsible>
+          <Accordion type="single" collapsible className="w-full">
             {Array.isArray(faqItems) &&
               faqItems.map((item, index) => (
                 <AccordionItem key={index} value={`faq-${index}`}>
-                  <AccordionTrigger className="text-left">
+                  <AccordionTrigger className="text-left text-lg">
                     {item.question}
                   </AccordionTrigger>
-                  <AccordionContent>
-                    <p className="text-sm text-muted-foreground">
-                      {item.answer}
-                    </p>
+                  <AccordionContent className="text-muted-foreground">
+                    {item.answer}
                   </AccordionContent>
                 </AccordionItem>
               ))}
           </Accordion>
+
+          <div className="mt-10 text-center">
+            <Button variant="outline" size="lg" asChild>
+              <a href="/faq">{t("pages.home.faqPreview.cta_fullFaq")}</a>
+            </Button>
+          </div>
         </div>
       </section>
     </>

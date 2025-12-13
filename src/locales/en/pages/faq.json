@@ -1,164 +1,68 @@
 {
-  "title": "FAQ - ASX Small Cap Watchlist",
+  "title": "FAQ - React Vite SSG Starter",
   "meta": {
-    "description": "Frequently asked questions about this ASX small cap watchlist project, including how the list is built, how AI is used, and why nothing here is financial advice.",
-    "keywords": "ASX small cap FAQ, stock watchlist questions, AI stock research, investment learning project, not financial advice"
+    "description": "Frequently Asked Questions about the React Vite SSG Starter Template. Learn about features, licensing, and technical details.",
+    "keywords": "faq, react starter, helper, documentation, common questions"
   },
   "hero": {
     "eyebrow": "Questions & answers",
     "title": "Frequently Asked Questions",
-    "subtitle": "A simple Q&A about how this project works, what it is for and what it is not.",
-    "intro1": "This FAQ collects the most common questions about the weekly ASX small cap watchlist, the underlying research approach and the limits of what this site can do.",
-    "intro2": "If you read nothing else, please read the answers about risk and the fact that nothing here is financial advice."
+    "subtitle": "Common questions about this template and how to use it.",
+    "intro1": "Here are some of the most common questions we get about the starter template. If you can't find what you're looking for, feel free to open an issue on GitHub.",
+    "intro2": "This project is designed to be a starting point, so many answers will depend on how you choose to extend it."
   },
   "groups": [
     {
-      "id": "about-project",
-      "title": "About the Project",
+      "id": "general",
+      "title": "General",
       "questions": [
         {
-          "question": "What is this website actually trying to do?",
-          "answer": "This site is a personal research log focused on ASX small cap companies. Each week, up to three stocks are highlighted based on their fundamentals: financial statements, competitive strength, industry dynamics and the path to sustainable profit. The goal is to learn in public and to keep a transparent record of how thinking changes over time."
+          "question": "Is this template free to use?",
+          "answer": "Yes, this project is open source and released under the MIT License. You can use it for personal or commercial projects without any restrictions."
         },
         {
-          "question": "Is this a stock tipping service or signal provider?",
-          "answer": "No. The weekly list is not a set of tips, trade alerts or signals to copy. It is simply a shortlist of companies that looked interesting enough, on fundamentals, to track more closely at a particular point in time."
+          "question": "Who maintains this project?",
+          "answer": "This project is community-maintained. We welcome contributions from developers of all skill levels."
         },
         {
-          "question": "Why focus on small caps instead of large, stable companies?",
-          "answer": "Small caps are usually closer to the action: management decisions matter more, business models are still evolving and market perception can shift quickly. That makes them riskier, but also more educational. By writing down the reasoning behind each pick, it becomes easier to review later what was missed or misunderstood."
-        },
-        {
-          "question": "Who runs this project?",
-          "answer": "The project is run by a single individual as a personal learning exercise. It is not backed by a bank, broker, research house or licensed advisory firm. That is why the tone is deliberately informal, and why you should treat everything here as one person’s evolving view rather than institutional research."
-        },
-        {
-          "question": "Do you invest real money in the stocks you mention?",
-          "answer": "Sometimes positions may be held in companies mentioned on this site, but there is no guarantee that holdings will be disclosed in real time. You should always assume that personal bias may exist, that positions can change without notice, and that you must rely on your own research instead of anyone else’s portfolio decisions."
-        },
-        {
-          "question": "Will this project ever become a paid service?",
-          "answer": "There are no fixed plans. The primary purpose is to document a learning process. If additional tools or content are offered in the future, the same principles will apply: fundamentals first, clear disclosure of limitations and no promises about performance."
+          "question": "Why should I use this over Next.js?",
+          "answer": "If you don't need server-side rendering (SSR) or complex backend features, this template offers a simpler, lighter architecture. It produces static files that can be hosted anywhere, often resulting in lower costs and better security."
         }
       ]
     },
     {
-      "id": "methodology",
-      "title": "Methodology and Research Process",
+      "id": "technical",
+      "title": "Technical",
       "questions": [
         {
-          "question": "How are companies chosen for the weekly watchlist?",
-          "answer": "The process starts with fundamentals. Before a stock is considered for the list, its latest reports, announcements and presentations are reviewed. Attention is paid to revenue, margins, cash flow, balance sheet health, competitive position and industry structure. Only when the underlying business looks at least reasonably sensible is the company considered for the watchlist."
+          "question": "Can I use this with a CMS?",
+          "answer": "Absolutely. Since this is a static site generator, you can fetch content from any Headless CMS (like Contentful, Strapi, or Sanity) at build time and generate pages."
         },
         {
-          "question": "Do you look at charts, technical indicators or short-term price action?",
-          "answer": "Price always matters, but it is not the main driver here. The primary focus is on the business. Basic price context is considered – such as whether a stock has already run very hard without a change in fundamentals – but the framework is not based on technical indicators or short-term trading patterns."
+          "question": "How do I add a new route?",
+          "answer": "Simply add a new file to the `src/pages` directory. The file-based routing system will automatically create a route for it. For example, `src/pages/about.tsx` becomes `/about`."
         },
         {
-          "question": "Where can I read more about your analysis framework?",
-          "answer": "The Documentation page explains the fundamental framework in more detail, including how financial statements, competitive strength, industry dynamics and the path to profit are considered together. You can find it under the “Docs” or “Documentation” link in the navigation."
+          "question": "Does it support API routes?",
+          "answer": "No, this is a purely static frontend template. If you need backend API routes, you will need to deploy a separate backend service or use serverless functions (like Vercel Functions or AWS Lambda)."
         },
         {
-          "question": "Do you have a minimum or maximum market cap range?",
-          "answer": "The focus is on smaller companies, but there is no rigid cut-off. In practice, many ideas will sit at the small cap or micro cap end of the ASX, where business quality and balance sheet strength are especially important. Occasionally, slightly larger names may be considered if they behave more like small caps in terms of risk and growth profile."
-        },
-        {
-          "question": "How do you think about capital raisings and dilution?",
-          "answer": "Capital raisings are a normal part of life for many small caps, but they can be very painful for existing shareholders. The process looks closely at how often a company raises money, on what terms, and what it does with the cash. A business that repeatedly issues shares at lower and lower prices, without clear improvement in fundamentals, is treated with extra caution."
-        },
-        {
-          "question": "What happens if you do not understand a business or sector well enough?",
-          "answer": "If the business model, industry dynamics or key risk drivers remain unclear after reasonable effort, the default answer is to pass. There is no requirement to have an opinion on every stock. Saying “I don’t know” and moving on is often better than forcing a thesis in an area that is outside your circle of competence."
+          "question": "How do I change the styling theme?",
+          "answer": "You can customize the theme variables in `src/index.css`. The core colors are defined as CSS variables that Tailwind uses. You can also edit `tailwind.config.js` to change fonts, spacing, and other design tokens."
         }
       ]
     },
     {
-      "id": "ai-usage",
-      "title": "Use of AI",
+      "id": "troubleshooting",
+      "title": "Troubleshooting",
       "questions": [
         {
-          "question": "How is AI used on this site?",
-          "answer": "AI tools are used as research assistants. They help summarise long reports, highlight important sections, and generate draft explanations of complex topics. These drafts are then reviewed, edited and combined with human judgement before anything is published."
+          "question": "My build is failing on GitHub Actions.",
+          "answer": "Check the build logs for specific error messages. Common issues include missing dependencies (make sure to run `pnpm install`), type errors (run `pnpm type-check` locally), or linting issues."
         },
         {
-          "question": "Does AI decide which stocks go onto the list?",
-          "answer": "No. AI does not automatically select stocks or produce recommendations. It supports the research process, but the decision about whether a company should appear on the weekly watchlist is always made manually."
-        },
-        {
-          "question": "Can AI make mistakes in the content?",
-          "answer": "Yes. AI tools can misread context, miss details or repeat outdated information. That is why nothing on this site should be treated as a complete or authoritative source. Always check company filings, ASX announcements and other primary sources before relying on any idea you see here."
-        },
-        {
-          "question": "Do you use AI to generate price targets or ratings?",
-          "answer": "No. The project does not publish price targets, buy/hold/sell ratings or probability-based forecasts. AI is used to support understanding of the business and its risks, not to output numerical targets that could be mistaken for personalised advice."
-        },
-        {
-          "question": "What kind of AI tasks are most helpful in practice?",
-          "answer": "The most useful tasks tend to be summarisation and comparison. For example, comparing risk sections across several annual reports, or pulling out all mentions of capital raisings, customer concentration or key contracts. These tasks save time and help ensure important details are not missed."
-        },
-        {
-          "question": "How do you check AI-generated content before publishing?",
-          "answer": "Any AI-generated summary or explanation is treated as a draft. Numbers and factual claims are checked against original documents, and wording is edited for clarity and accuracy. If something cannot be verified quickly from primary sources, it is either rewritten or removed."
-        }
-      ]
-    },
-    {
-      "id": "using-site",
-      "title": "Using the Site",
-      "questions": [
-        {
-          "question": "How often is the watchlist updated?",
-          "answer": "The goal is to publish a new set of up to three stocks roughly once a week. In some weeks there may be fewer ideas or even none at all if nothing looks interesting on a fundamentals-first basis."
-        },
-        {
-          "question": "Will you track performance of past picks?",
-          "answer": "A History page keeps a record of past weekly lists, including the price at the time of review and the original reasoning. Performance may be discussed from time to time, but the main purpose is learning and process improvement, not running a public portfolio."
-        },
-        {
-          "question": "Can I get notified when new picks are published?",
-          "answer": "At the moment there is no login system or email alerts. The site may add simple notification options in the future, but the current focus is on getting the core research and documentation right."
-        },
-        {
-          "question": "Can I request analysis of a specific ASX stock?",
-          "answer": "You are welcome to suggest tickers or themes you find interesting, but there is no guarantee that any particular company will be covered. The watchlist is intentionally small so that each idea can be followed over time without spreading attention too thin."
-        },
-        {
-          "question": "Is the site mobile-friendly?",
-          "answer": "The layout is designed to be readable on both desktop and mobile devices, with text-focused pages that work well in a simple browser. There are no complex dashboards or heavy scripts to keep things fast and accessible."
-        },
-        {
-          "question": "Can I copy or share the content elsewhere?",
-          "answer": "You are free to share links to the site and quote short excerpts with proper attribution. Please avoid reposting entire articles or pages without permission, and remember that sharing an idea does not turn it into financial advice."
-        }
-      ]
-    },
-    {
-      "id": "risk-disclaimer",
-      "title": "Risk and Disclaimer",
-      "questions": [
-        {
-          "question": "Is any of this financial advice?",
-          "answer": "No. Nothing on this website is financial advice, investment advice or a recommendation to buy, hold or sell any security. It is a personal research project and learning log only."
-        },
-        {
-          "question": "Are small cap stocks risky?",
-          "answer": "Yes. Small cap companies can be volatile, thinly traded and sensitive to news, sentiment and execution. They can fall significantly, raise capital at dilutive prices, pivot into new businesses or fail altogether. You should assume that any investment in this space can result in a permanent loss of capital."
-        },
-        {
-          "question": "What should I do before acting on any idea I see here?",
-          "answer": "Always do your own research. Read the latest company reports and ASX announcements, consider your own financial situation, risk tolerance and time horizon, and seek advice from a licensed professional if you are unsure. If you choose to act on ideas mentioned here, you do so entirely at your own risk."
-        },
-        {
-          "question": "How much of my portfolio should be in small caps?",
-          "answer": "That is a personal decision which depends on your objectives, time horizon and ability to tolerate large drawdowns. This site cannot answer that question for you. Many investors choose to treat small caps as a higher-risk satellite allocation around a more diversified core, but you should speak with a licensed adviser before making any allocation decisions."
-        },
-        {
-          "question": "What if I cannot cope with big swings in value?",
-          "answer": "If large and sudden price moves cause significant stress, ASX small caps may not be suitable for you, or may only be appropriate in very small position sizes. No educational website can remove the emotional impact of volatility. Being honest about your own tolerance for risk is more important than following any single idea."
-        },
-        {
-          "question": "What if I lose money after investing in a stock mentioned here?",
-          "answer": "Losses are an unavoidable part of investing, especially in the small cap space. This site does not accept responsibility for any financial outcomes, positive or negative. The purpose is to share a research process, not to guarantee results. If you decide to invest, you do so with full responsibility for your own decisions."
+          "question": "Images are not loading after deployment.",
+          "answer": "Ensure you are using the correct paths. Assets in the `public` directory should be referenced with a leading slash (e.g., `/logo.png`). If you are deploying to a subdirectory, you may need to set the `base` in `vite.config.ts`."
         }
       ]
     }

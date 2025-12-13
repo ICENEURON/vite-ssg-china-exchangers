@@ -1,55 +1,48 @@
 {
-  "title": "About This ASX Small Cap Watchlist Project",
+  "title": "About This Starter Template",
   "meta": {
-    "description": "Why this ASX small cap watchlist exists, how it focuses on long-term fundamentals with AI-assisted research, and why nothing here is financial advice.",
-    "keywords": "about ASX small cap watchlist, ASX investing, fundamental analysis, AI research tools, long-term investing, not financial advice"
+    "description": "Learn about the philosophy, tech stack, and goals behind this React Vite SSG Starter Template.",
+    "keywords": "about, react starter, vite template, tech stack, philosophy"
   },
   "hero": {
     "title": "About This Project",
-    "subtitle": "A fundamentals-first, AI-assisted look at ASX small caps.",
-    "intro1": "This website is a personal research project focused on the future of ASX small cap companies. Instead of guessing short-term price moves, it concentrates on how these businesses earn money, whether their balance sheets can survive, and how they might create sustainable cash flow over time.",
-    "intro2": "Each week, three companies are added to a simple watchlist so their progress can be tracked and reviewed. The goal is to learn, document decisions and improve judgement – not to provide stock tips or personalised investment advice."
+    "subtitle": "Built for performance, scalability, and developer experience.",
+    "intro1": "This starter template was created to solve the common problem of setting up a new React project from scratch. It opionatedly combines the best tools in the ecosystem to provide a rock-solid foundation.",
+    "intro2": "Whether you are a solo developer or part of a large team, having a consistent, well-configured starting point saves substantial time and prevents technical debt."
   },
   "sections": {
-    "whatThisIs": {
-      "title": "What This Site Is",
+    "mission": {
+      "title": "Our Mission",
       "paragraphs": [
-        "This site is a structured notebook for ASX small cap investing. It records how one person thinks about smaller, riskier companies on the Australian market, with a clear bias toward fundamentals and long-term potential rather than day-to-day price action.",
-        "Every week, three companies are highlighted because their business models, financial statements or industry positioning look worth watching. Writing down the thesis, risks and simple scores creates a history that can be reviewed later: what worked, what failed and why.",
-        "By keeping everything text-based and transparent, the project also becomes easier for search engines to understand and for other investors to read, critique and learn from. It is less about finding the perfect stock and more about building a repeatable, honest process."
+        "We believe that web development should be fast, accessible, and enjoyable. Too often, developers get bogged down in configuration hell, spending hours setting up linters, build tools, and testing frameworks before writing a single line of product code.",
+        "Our mission is to eliminate that friction. By providing a pre-configured environment that follows industry best practices, we empower developers to focus on what matters most: building great user experiences.",
+        "This template is not just a collection of files; it's a curated set of decisions that have been battle-tested in production environments."
       ]
     },
-    "whatThisIsNot": {
-      "title": "What This Site Is Not",
+    "techStack": {
+      "title": "The Tech Stack",
       "items": [
-        "It is not a stock recommendation service or a list of trades to copy.",
-        "It is not a promise of market-beating returns or downside protection.",
-        "It is not a shortcut that replaces reading company reports, announcements and risk disclosures yourself.",
-        "It is not personalised financial advice and does not take your objectives, time horizon or risk tolerance into account."
+        "**React 18**: The library for web and native user interfaces.",
+        "**Vite**: Next Generation Frontend Tooling for lightning-fast HMR and builds.",
+        "**Tailwind CSS**: A utility-first CSS framework for rapid UI development.",
+        "**Shadcn UI**: Beautifully designed components that you can copy and paste into your apps.",
+        "**TypeScript**: Strongly typed JavaScript for better tooling and fewer bugs."
       ]
     },
-    "approach": {
-      "title": "How I Think About ASX Small Caps and the Future",
+    "philosophy": {
+      "title": "Design Philosophy",
       "paragraphs": [
-        "ASX small caps sit at the noisy end of the market: they can fall quickly, but they can also benefit disproportionately from real business progress over many years. That is why the focus here is on the future of the company, not just where the share price has been.",
-        "The starting point is always fundamentals. How does the business make money? Are revenues recurring or one-off? What do margins, cash flow and the balance sheet say about survival risk and reinvestment potential? Is there a believable path from today’s numbers to meaningful free cash flow later on?",
-        "Only after those questions are addressed do valuation and sentiment come into play. If the story and the numbers do not roughly line up, or if the downside risk looks overwhelming compared with the upside, the company is unlikely to appear on the weekly watchlist at all."
+        "**Simplicity over Complexity**: We prefer simple, explicit code over complex abstractions. If a feature isn't essential, it's not included.",
+        "**Performance First**: Every decision, from SSG to image optimization, is made with end-user performance in mind.",
+        "**Accessibility Matters**: We believe the web is for everyone. All included components are built with accessibility (a11y) as a priority, ensuring your app works for all users."
       ]
     },
-    "aiUsage": {
-      "title": "How AI Helps (and Where It Stops)",
+    "community": {
+      "title": "Open Source",
       "paragraphs": [
-        "AI tools are used to speed up the boring parts of research, not to automatically pick stocks. They help scan long annual reports, pull out key sections on risks, cash flow and dilution, and summarise industry commentary into something that is easier to review.",
-        "When new announcements come out, AI can highlight what has actually changed: revenue trends, guidance updates, capital raises or shifts in strategy. That makes it easier to track how the original thesis is holding up over time without reading everything from scratch.",
-        "However, the final call about whether a company is interesting, how it should be scored and whether it belongs on the watchlist is always made by a human. AI can miss nuance, over-simplify complex situations or get facts wrong, so all important details are checked against primary sources such as company filings and ASX announcements."
-      ]
-    },
-    "audience": {
-      "title": "Who This Is For",
-      "paragraphs": [
-        "First and foremost, this project exists for the author, as a way to practise long-term, fundamentals-first thinking about ASX small caps and to keep a record that can be audited later – both the good calls and the bad ones.",
-        "It may also be useful for investors who want to see how a process that mixes human judgement with AI tools can look in real life: reading reports, checking numbers, tracking theses over time and being honest when something stops working.",
-        "If you are looking for quick tips, rapid-fire trades or guaranteed outcomes, this site will feel too slow and too cautious. If you are curious about business quality, risk, and how to use AI to support – not replace – your own thinking, you may find parts of it helpful."
+        "This project is open source and community-driven. We assume no one person has all the answers, and we welcome contributions, bug reports, and feature requests.",
+        "By building in the open, we ensure that the template evolves with the ecosystem and remains relevant for years to come.",
+        "Feel free to fork this repository, customize it for your needs, and share your improvements back with the community."
       ]
     }
   }
