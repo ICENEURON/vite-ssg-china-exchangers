@@ -11,7 +11,7 @@ import DocsPage from "../../pages/claim-your-profile"
 import ContentMarketingServicesPage from "../../pages/content-marketing-services"
 
 import LoginPage from "../../pages/login"
-import SignUpPage from "../../pages/signup"
+import SignUpPage from "../../pages/register"
 import DashboardPage from "../../app/dashboard"
 
 import TermsPage from "../../pages/terms"
@@ -63,7 +63,7 @@ const allRoutes: RouteDef[] = [
     ] as RouteDef[] : []),
 
     { path: "/login", element: LoginPage, auth: "public", nav: "guest", mobile: "guest", label: "Login", translationKey: "navigation.menu.login" },
-    { path: "/signup", element: SignUpPage, auth: "public", nav: "guest", mobile: "guest", label: "Sign up", translationKey: "navigation.menu.signup" },
+    { path: "/register", element: SignUpPage, auth: "public", nav: "guest", mobile: "guest", label: "Register", translationKey: "navigation.menu.register" },
     { path: "/dashboard", element: DashboardPage, auth: "private", nav: "auth", mobile: "auth", label: "Dashboard", translationKey: "navigation.menu.dashboard" },
 
     { path: "/terms", element: TermsPage, auth: "public", nav: "none", mobile: "none", label: "Terms", translationKey: "navigation.menu.terms" },

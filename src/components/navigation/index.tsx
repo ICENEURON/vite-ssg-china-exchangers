@@ -23,7 +23,7 @@ export function Navigation() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const mobileMenuRef = useRef<HTMLDivElement>(null);
     const { t } = useTranslation("translation");
-    const { user } = useAuth();
+    const { user, signOut } = useAuth();
     const currentLanguage = useCurrentLanguage();
     const location = useLocation();
 
@@ -64,18 +64,6 @@ export function Navigation() {
     const mobileGuestItems = ROUTES.filter((r) => r.mobile === "guest");
     const mobileAuthItems = ROUTES.filter((r) => r.mobile === "auth");
 
-    const items = enableAuth
-        ? user
-            ? [...publicItems, ...authItems]
-            : [...publicItems, ...guestItems]
-        : publicItems;
-
-    const mobileItems = enableAuth
-        ? user
-            ? [...mobilePublicItems, ...mobileAuthItems]
-            : [...mobilePublicItems, ...mobileGuestItems]
-        : mobilePublicItems;
-
     const leftItems = publicItems;
     const rightItems = enableAuth ? (user ? authItems : guestItems) : [];
 
@@ -103,6 +91,39 @@ export function Navigation() {
                 ? t(route.translationKey)
                 : route.label;
             const isActive = isActiveLink(route.path);
+
+            // Guest Items (Login/Register) as Buttons
+            if (route.nav === 'guest') {
+                return (
+                    <NavigationMenuItem key={route.path}>
+                        <Button
+                            variant={route.path === '/login' ? "ghost" : "default"}
+                            asChild
+                            className={route.path === '/login' ? "mr-2" : ""}
+                        >
+                            <Link to={getLocalizedPath(route.path)}>
+                                {label}
+                            </Link>
+                        </Button>
+                    </NavigationMenuItem>
+                );
+            }
+
+            // Auth Items (Dashboard) as Buttons
+            if (route.nav === 'auth') {
+                return (
+                    <NavigationMenuItem key={route.path}>
+                        <Button
+                            variant="ghost"
+                            asChild
+                        >
+                            <Link to={getLocalizedPath(route.path)}>
+                                {label}
+                            </Link>
+                        </Button>
+                    </NavigationMenuItem>
+                );
+            }
 
             // Manufacturers
             if (route.path === '/manufacturers') {
@@ -188,6 +209,16 @@ export function Navigation() {
                         <NavigationMenu viewport={false}>
                             <NavigationMenuList>
                                 {renderNavItems(rightItems)}
+                                {enableAuth && user && (
+                                    <NavigationMenuItem>
+                                        <Button
+                                            variant="destructive"
+                                            onClick={() => signOut()}
+                                        >
+                                            {t('navigation.menu.logout')}
+                                        </Button>
+                                    </NavigationMenuItem>
+                                )}
                             </NavigationMenuList>
                         </NavigationMenu>
                         {enableThemeToggle && <ThemeToggle />}
@@ -224,24 +255,89 @@ export function Navigation() {
                     ref={mobileMenuRef}
                     className="xl:hidden bg-card border-t border-b fixed top-20 left-0 right-0 z-40"
                 >
-                    <nav className="px-6 py-4 space-y-2">
-                        {mobileItems.map((route) => {
-                            const isActive = isActiveLink(route.path);
-                            const label = route.translationKey
-                                ? t(route.translationKey)
-                                : route.label;
-                            return (
-                                <Link
-                                    key={route.path}
-                                    to={getLocalizedPath(route.path)}
-                                    className={`block px-3 py-2 text-sm transition-colors ${isActive ? "bg-accent/40 text-accent" : "hover:bg-accent/20 text-foreground"
-                                        }`}
-                                    onClick={() => setIsMobileMenuOpen(false)}
+                    <nav className="p-6 flex flex-col gap-4">
+                        <div className="flex flex-col gap-2">
+                            {mobilePublicItems.map((route) => {
+                                const isActive = isActiveLink(route.path);
+                                const translationKey = route.translationKey;
+                                const label = translationKey
+                                    ? t(translationKey)
+                                    : route.label;
+
+                                return (
+                                    <Link
+                                        key={route.path}
+                                        to={getLocalizedPath(route.path)}
+                                        className={`block px-3 py-2 text-sm transition-colors ${isActive ? "bg-accent/60 text-foreground" : "hover:bg-accent/30 text-foreground"
+                                            }`}
+                                        onClick={() => setIsMobileMenuOpen(false)}
+                                    >
+                                        {label}
+                                    </Link>
+                                );
+                            })}
+                        </div>
+
+                        {/* Mobile Guest Buttons */}
+                        {enableAuth && !user && mobileGuestItems.length > 0 && (
+                            <div className="flex flex-row gap-4 pt-4 border-t border-border/80">
+                                {mobileGuestItems.map((route) => {
+                                    const label = route.translationKey
+                                        ? t(route.translationKey)
+                                        : route.label;
+                                    return (
+                                        <Button
+                                            key={route.path}
+                                            variant={route.path === '/login' ? "ghost" : "default"}
+                                            asChild
+                                            className="justify-center"
+                                        >
+                                            <Link
+                                                to={getLocalizedPath(route.path)}
+                                                onClick={() => setIsMobileMenuOpen(false)}
+                                            >
+                                                {label}
+                                            </Link>
+                                        </Button>
+                                    );
+                                })}
+                            </div>
+                        )}
+
+                        {/* Mobile Auth Buttons */}
+                        {enableAuth && user && (
+                            <div className="flex flex-row gap-4 pt-4 border-t border-border/80">
+                                {mobileAuthItems.map((route) => {
+                                    const label = route.translationKey
+                                        ? t(route.translationKey)
+                                        : route.label;
+                                    return (
+                                        <Button
+                                            key={route.path}
+                                            variant="default"
+                                            asChild
+                                        >
+                                            <Link
+                                                to={getLocalizedPath(route.path)}
+                                                onClick={() => setIsMobileMenuOpen(false)}
+                                            >
+                                                {label}
+                                            </Link>
+                                        </Button>
+                                    );
+                                })}
+                                <Button
+                                    variant="destructive"
+
+                                    onClick={() => {
+                                        signOut();
+                                        setIsMobileMenuOpen(false);
+                                    }}
                                 >
-                                    {label}
-                                </Link>
-                            );
-                        })}
+                                    {t('navigation.menu.logout')}
+                                </Button>
+                            </div>
+                        )}
                     </nav>
                 </div>
             )}

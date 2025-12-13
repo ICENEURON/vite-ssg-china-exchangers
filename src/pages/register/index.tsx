@@ -36,18 +36,18 @@ export default function SignUpPage() {
     if (data.session) {
       nav("/dashboard", { replace: true })
     } else {
-      setInfo(t('pages.signup.messages.success_message'))
+      setInfo(t('pages.register.messages.success_message'))
     }
   }
 
   return (
     <>
       <Head>
-        <title>{t('pages.signup.title')}</title>
-        <meta name="description" content={t('pages.signup.meta.description')} />
-        <meta name="keywords" content={t('pages.signup.meta.keywords')} />
-        <meta property="og:title" content={t('pages.signup.og.title')} />
-        <meta property="og:description" content={t('pages.signup.og.description')} />
+        <title>{t('pages.register.title')}</title>
+        <meta name="description" content={t('pages.register.meta.description')} />
+        <meta name="keywords" content={t('pages.register.meta.keywords')} />
+        <meta property="og:title" content={t('pages.register.og.title')} />
+        <meta property="og:description" content={t('pages.register.og.description')} />
       </Head>
 
       <div className="min-h-[60vh] flex items-center justify-center">
@@ -56,9 +56,9 @@ export default function SignUpPage() {
           {/* Hero */}
           <section className="pt-12 pb-6 px-4">
             <div className="grid mx-auto max-w-5xl text-center gap-6">
-              <h1 className="gradient-text mb-4">{t("pages.signup.hero.title")}</h1>
+              <h1 className="gradient-text mb-4">{t("pages.register.hero.title")}</h1>
               <h4 className="text-xl md:text-2xl text-foreground mb-2">
-                {t("pages.signup.hero.subtitle")}
+                {t("pages.register.hero.subtitle")}
               </h4>
               {/* <p className="text-lg text-muted-foreground">
                 {t("pages.home.hero.description")}
@@ -77,7 +77,7 @@ export default function SignUpPage() {
             <form onSubmit={onSubmit} className="space-y-6">
               <div className="space-y-2">
                 <label className="text-sm font-medium" htmlFor="email">
-                  {t('pages.signup.form.email')}
+                  {t('pages.register.form.email')}
                 </label>
                 <input
                   id="email"
@@ -92,7 +92,7 @@ export default function SignUpPage() {
 
               <div className="space-y-2">
                 <label className="text-sm font-medium" htmlFor="password">
-                  {t('pages.signup.form.password')}
+                  {t('pages.register.form.password')}
                 </label>
                 <input
                   id="password"
@@ -107,7 +107,7 @@ export default function SignUpPage() {
 
               <div className="space-y-2">
                 <label className="text-sm font-medium" htmlFor="confirmPassword">
-                  {t('pages.signup.form.confirm_password')}
+                  {t('pages.register.form.confirm_password')}
                 </label>
                 <input
                   id="confirmPassword"
@@ -124,13 +124,13 @@ export default function SignUpPage() {
               {info && <p className="text-sm text-green-600">{info}</p>}
 
               <Button type="submit" disabled={loading} className="w-full">
-                {loading ? t('pages.signup.form.creating') : t('pages.signup.form.create_account')}
+                {loading ? t('pages.register.form.creating') : t('pages.register.form.create_account')}
               </Button>
 
               <div className="text-center text-sm text-muted-foreground">
-                {t('pages.signup.form.have_account')}{' '}
+                {t('pages.register.form.have_account')}{' '}
                 <a href="/login" className="text-primary hover:underline">
-                  {t('pages.signup.form.signin_link')}
+                  {t('pages.register.form.signin_link')}
                 </a>
               </div>
             </form>
@@ -138,10 +138,10 @@ export default function SignUpPage() {
 
           {/* Benefits Section */}
           <div className="bg-muted p-6 rounded-lg">
-            <h3 className="font-semibold mb-3">{t('pages.signup.benefits.title')}</h3>
+            <h3 className="font-semibold mb-3">{t('pages.register.benefits.title')}</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              {Array.isArray(t('pages.signup.benefits.items', { returnObjects: true }))
-                ? (t('pages.signup.benefits.items', { returnObjects: true }) as string[]).map((item, index) => (
+              {Array.isArray(t('pages.register.benefits.items', { returnObjects: true }))
+                ? (t('pages.register.benefits.items', { returnObjects: true }) as string[]).map((item, index) => (
                   <li key={index}>• {item}</li>
                 ))
                 : null
@@ -149,7 +149,7 @@ export default function SignUpPage() {
             </ul>
             <div className="mt-4 text-center">
               <p className="text-sm text-green-600 font-medium">
-                {t('pages.signup.messages.welcome')}
+                {t('pages.register.messages.welcome')}
               </p>
             </div>
           </div>

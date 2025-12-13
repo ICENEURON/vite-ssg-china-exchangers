@@ -5,7 +5,7 @@ import manufacturers from './pages/manufacturers.json';
 import rfq from './pages/rfq.json';
 import profile from './pages/claim-your-profile.json';
 import login from './pages/login.json';
-import signup from './pages/signup.json';
+import register from './pages/register.json';
 import about from './pages/about.json';
 import terms from './pages/terms.json';
 import privacy from './pages/privacy.json';
@@ -21,7 +21,7 @@ export default {
     rfq,
     profile,
     login,
-    signup,
+    register,
     about,
     terms,
     privacy,
