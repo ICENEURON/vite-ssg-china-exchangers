@@ -225,13 +225,13 @@
   /* 浅色主题 - 层次结构配色 */
   --background: #f4f9fe; /* Page 背景色 */
   --foreground: #0f172a; /* Page 文字色 */
-  --card: #697f96; /* 导航栏&卡片色 */
+  --card: #e1e5eb; /* 导航栏&卡片色 */
   --card-foreground: #0f172a; /* 导航栏&卡片文字色 */
   --popover: #697f96; /* 弹出框背景色 */
   --popover-foreground: #0f172a; /* 弹出框文字色 */
   --primary: #1e40af; /* 主色调 */
   --primary-foreground: #f4f9fe; /* 主色调文字色 */
-  --secondary: #f0e2ef; /* 次色调 (Button, Tab, Badge) */
+  --secondary: #e7ebf0; /* 次色调 (Button, Tab, Badge) */
   --secondary-foreground: #475569; /* 次色调文字色 (Button, Tab, Badge) */
   --muted: #f1f8f9; /* 副背景色 (Nav Background Link) */
   --muted-foreground: #475569; /* 副文字色 */
