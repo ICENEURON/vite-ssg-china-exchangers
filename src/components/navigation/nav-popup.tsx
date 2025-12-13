@@ -19,15 +19,17 @@ export const ListItem = React.forwardRef<
                     ref={ref}
                     to={href}
                     className={cn(
-                        "block select-none space-y-1 p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-foreground focus:bg-accent/70 focus:text-foreground",
+                        "block select-none p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-foreground focus:bg-accent/70 focus:text-foreground",
                         className
                     )}
                     {...props}
                 >
                     <div className="text-sm font-medium leading-none">{title}</div>
-                    <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                        {children}
-                    </p>
+                    {children && (
+                        <p className="line-clamp-2 text-sm leading-snug text-foreground/70">
+                            {children}
+                        </p>
+                    )}
                 </Link>
             </NavigationMenuLink>
         </li>

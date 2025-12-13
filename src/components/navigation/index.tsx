@@ -10,6 +10,7 @@ import {
     useCurrentLanguage,
     addLanguageToPath,
 } from "../../utils/language-routing";
+import { cn } from "../../utils/cn";
 import { Button } from "../ui/button";
 import {
     NavigationMenu,
@@ -96,15 +97,21 @@ export function Navigation() {
             if (route.nav === 'guest') {
                 return (
                     <NavigationMenuItem key={route.path}>
-                        <Button
-                            variant={route.path === '/login' ? "ghost" : "default"}
-                            asChild
-                            className={route.path === '/login' ? "mr-2" : ""}
-                        >
-                            <Link to={getLocalizedPath(route.path)}>
-                                {label}
-                            </Link>
-                        </Button>
+                        <div className={cn(
+                            "inline-flex",
+                            route.path === '/login' ? "mr-2" : "",
+                            isActive && route.path === '/login' ? "text-accent-foreground border-b-2 border-primary rounded-none" : ""
+                        )}>
+                            <Button
+                                variant={route.path === '/login' ? "ghost" : "default"}
+                                asChild
+                                className={cn("rounded-none")}
+                            >
+                                <Link to={getLocalizedPath(route.path)}>
+                                    {label}
+                                </Link>
+                            </Button>
+                        </div>
                     </NavigationMenuItem>
                 );
             }
@@ -113,14 +120,21 @@ export function Navigation() {
             if (route.nav === 'auth') {
                 return (
                     <NavigationMenuItem key={route.path}>
-                        <Button
-                            variant="ghost"
-                            asChild
-                        >
-                            <Link to={getLocalizedPath(route.path)}>
-                                {label}
-                            </Link>
-                        </Button>
+                        <div className={cn(
+                            "inline-flex",
+                            route.path === '/dashboard' ? "mr-2" : "",
+                            isActive && route.path === '/dashboard' ? "text-accent-foreground border-b-2 border-primary rounded-none" : ""
+                        )}>
+                            <Button
+                                variant="ghost"
+                                asChild
+                                className={cn("rounded-none")}
+                            >
+                                <Link to={getLocalizedPath(route.path)}>
+                                    {label}
+                                </Link>
+                            </Button>
+                        </div>
                     </NavigationMenuItem>
                 );
             }
@@ -130,8 +144,8 @@ export function Navigation() {
                 return (
                     <NavPopup key={'route.path'} label={'For Buyers'} isActive={isActive} className="left-0">
                         <ul className="grid gap-3 p-2 w-[450px] lg:grid-cols-[.75fr_1fr]">
-                            <li className="row-span-3">
-                                <NavigationMenuLink asChild className="py-4">
+                            <li className="row-span-2">
+                                <NavigationMenuLink asChild className="py-2">
                                     <Link
                                         className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-start bg-gradient-to-b no-underline outline-none focus:shadow-md hover:text-foreground"
                                         to={getLocalizedPath("/manufacturers")}
@@ -145,10 +159,10 @@ export function Navigation() {
                                     </Link>
                                 </NavigationMenuLink>
                             </li>
-                            <ListItem href={getLocalizedPath("/rfq")} title={t('navigation.menu.rfq')} className="py-4">
+                            <ListItem href={getLocalizedPath("/rfq")} title={t('navigation.menu.rfq')} className="py-3">
                                 {t('navigation.menu.rfq_details')}
                             </ListItem>
-                            <ListItem href={getLocalizedPath("/products")} title={t('navigation.menu.products')} className="py-4">
+                            <ListItem href={getLocalizedPath("/products")} title={t('navigation.menu.products')} className="py-3">
                                 {t('navigation.menu.products_details')}
                             </ListItem>
                         </ul>
@@ -161,9 +175,9 @@ export function Navigation() {
                 return (
                     <NavPopup key={route.path} label={'For Manufacturers'} isActive={isActive} className="left-0">
                         <ul className="grid w-[250px] gap-3 p-2">
-                            <ListItem href={getLocalizedPath("/claim-your-profile")} title={t('navigation.menu.profile')} className="pt-5">
+                            <ListItem href={getLocalizedPath("/claim-your-profile")} title={t('navigation.menu.profile')} className="py-3">
                             </ListItem>
-                            <ListItem href={getLocalizedPath("/content-marketing-services")} title={t('navigation.menu.content_marketing_services')} className="pt-5">
+                            <ListItem href={getLocalizedPath("/content-marketing-services")} title={t('navigation.menu.content_marketing_services')} className="py-3">
                             </ListItem>
                         </ul>
                     </NavPopup>
