@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aussiepennystocks.com/sitemap.xml
+Sitemap: https://vite-ssg-shadcn-starter.com/sitemap.xml
