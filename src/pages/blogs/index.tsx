@@ -33,7 +33,7 @@ export default function BlogsPage() {
                                         <Link to={post.permalink} className="hover:underline">{post.title}</Link>
                                     </h2>
                                     <div className="text-muted-foreground text-sm mb-4">
-                                        {new Date(post.date).toLocaleDateString()}
+                                        {new Date(post.date).toLocaleDateString('en-CA')}
                                     </div>
                                     <div className="text-muted-foreground text-sm mb-4">
                                         {post.excerpt && (

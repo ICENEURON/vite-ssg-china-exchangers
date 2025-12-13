@@ -81,7 +81,7 @@ function NavigationMenuItem({
 }
 
 const navigationMenuTriggerStyle = cva(
-  "group inline-flex min-h-4 w-max items-center justify-center rounded-m bg-card px-4 py-2 text-sm font-medium hover:text-foreground focus:text-foreground disabled:pointer-events-none disabled:opacity-50 data-[state=open]:text-foreground focus-visible:ring-ring outline-none transition-[color,box-shadow] focus-visible:ring-[2px] focus-visible:outline-1"
+  "group inline-flex min-h-4 w-max items-center justify-center rounded-m bg-card px-3 py-4 text-sm font-medium hover:text-foreground focus:text-foreground disabled:pointer-events-none disabled:opacity-50 data-[state=open]:text-foreground focus-visible:ring-ring outline-none transition-[color,box-shadow] focus-visible:ring-[2px] focus-visible:outline-1"
 )
 
 function NavigationMenuTrigger({
@@ -149,7 +149,7 @@ function NavigationMenuLink({
     <NavigationMenuPrimitive.Link
       data-slot="navigation-menu-link"
       className={cn(
-        "data-[active=true]:text-foreground hover:bg-accent/40 hover:text-foreground focus:text-foreground focus-visible:ring-ring[&_svg:not([class*='text-'])]:text-muted-foreground flex flex-col gap-2 rounded-m px-4 py-2 text-sm transition-all outline-none focus-visible:ring-[2px] focus-visible:outline-1 [&_svg:not([class*='size-'])]:size-sm",
+        "data-[active=true]:text-foreground hover:bg-accent/40 hover:text-foreground focus:text-foreground focus-visible:ring-ring[&_svg:not([class*='text-'])]:text-muted-foreground flex flex-col gap-2 rounded-m px-3 py-4 text-sm transition-all outline-none focus-visible:ring-[2px] focus-visible:outline-1 [&_svg:not([class*='size-'])]:size-sm",
         className
       )}
       {...props}

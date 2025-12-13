@@ -44,11 +44,7 @@ export default function BlogPost() {
                 <div className="mb-8 not-prose border-b pb-8">
                     <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-4">{post.title}</h1>
                     <time className="text-muted-foreground block text-sm">
-                        {new Date(post.date).toLocaleDateString(undefined, {
-                            year: 'numeric',
-                            month: 'long',
-                            day: 'numeric'
-                        })}
+                        {new Date(post.date).toLocaleDateString('en-CA')}
                     </time>
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: post.content }} />

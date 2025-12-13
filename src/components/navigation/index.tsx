@@ -135,10 +135,10 @@ export function Navigation() {
                                                     <li className="row-span-3">
                                                         <NavigationMenuLink asChild>
                                                             <Link
-                                                                className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b p-6 no-underline outline-none focus:shadow-md hover:text-foreground"
+                                                                className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b no-underline outline-none focus:shadow-md hover:text-foreground"
                                                                 to={getLocalizedPath("/terms")}
                                                             >
-                                                                <div className="mb-2 mt-4 text-lg font-medium">
+                                                                <div className="text-lg font-medium">
                                                                     {t('navigation.menu.terms')}
                                                                 </div>
                                                                 <p className="text-sm leading-tight text-muted-foreground">
