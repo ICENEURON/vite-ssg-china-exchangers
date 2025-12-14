@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @plugin "tailwindcss-animate";
 @plugin "@tailwindcss/typography";
@@ -6,6 +7,10 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  /* ... existing theme config ... */
+  --font-sans: "Inter", "ui-sans-serif", "system-ui", sans-serif;
+  --font-heading: "Barlow", "ui-sans-serif", "system-ui", sans-serif;
+  
   /* 自定义断点 */
   --breakpoint-xs: 475px;
   --breakpoint-sm: 640px;
@@ -225,7 +230,7 @@
   /* 浅色主题 - 层次结构配色 */
   --background: #f4f9fe; /* Page 背景色 */
   --foreground: #0f172a; /* Page 文字色 */
-  --card: #e1e5eb; /* 导航栏&卡片色 */
+  --card: #e5e8f4; /* 导航栏&卡片色 */
   --card-foreground: #0f172a; /* 导航栏&卡片文字色 */
   --popover: #697f96; /* 弹出框背景色 */
   --popover-foreground: #0f172a; /* 弹出框文字色 */
@@ -271,6 +276,11 @@
 body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
 }
 
 h1 {

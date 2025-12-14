@@ -1,23 +1,25 @@
 {
   "links": {
     "items": {
-      "manufacturers": "Manufacturers",
-      "rfq": "Request for quotation",
+      "home": "Home",
+      "manufacturers": "Directory",
+      "rfq": "RFQ Tool",
       "products": "Products",
-      "profile": "Claim your profile",
+      "profile": "Claim Your Profile",
       "content-marketing-services": "Content Marketing Services",
-      "about": "About",
-      "industry-news": "Industry News"
+      "industry-news": "Industry News",
+      "about": "About Us",
+      "privacy": "Privacy Policy"
     }
   },
   "legal": {
-    "copyright": "© {{year}} React Vite Sgg Starter. All rights reserved.",
-    "terms": " Terms and Conditions",
-    "privacy_policy": "Privacy Statement"
+    "copyright": "© {{year}} China-HeatExchangers.com. All rights reserved.",
+    "terms": "terms and conditions",
+    "privacy": "privacy policy"
   },
   "logo": {
-    "alt": "React Vite Sgg Starter",
-    "title": "React Vite Sgg Starter"
+    "alt": "China-HeatExchangers.com",
+    "title": "China-HeatExchangers.com"
   },
-  "tagline": "React Vite Sgg Starter - research only, not financial advice."
+  "tagline": "The Analyst-Verified Sourcing Platform for Industrial Thermal Equipment."
 }

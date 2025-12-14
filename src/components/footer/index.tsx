@@ -66,7 +66,7 @@ const Footer = () => {
       url: addLanguageToPath("/terms", currentLanguage),
     },
     {
-      text: t("footer.legal.privacy_policy"),
+      text: t("footer.legal.privacy"),
       url: addLanguageToPath("/privacy", currentLanguage),
     },
   ];
