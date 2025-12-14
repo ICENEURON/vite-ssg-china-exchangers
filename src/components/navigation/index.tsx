@@ -99,7 +99,6 @@ export function Navigation() {
                     <NavigationMenuItem key={route.path}>
                         <div className={cn(
                             "inline-flex",
-                            route.path === '/login' ? "mr-2" : "",
                             isActive && route.path === '/login' ? "text-accent-foreground border-b-2 border-primary rounded-none" : ""
                         )}>
                             <Button
@@ -122,7 +121,6 @@ export function Navigation() {
                     <NavigationMenuItem key={route.path}>
                         <div className={cn(
                             "inline-flex",
-                            route.path === '/dashboard' ? "mr-2" : "",
                             isActive && route.path === '/dashboard' ? "text-accent-foreground border-b-2 border-primary rounded-none" : ""
                         )}>
                             <Button

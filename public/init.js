@@ -12,7 +12,7 @@
         }
 
         const detectedTheme = theme ||
-            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            (enableThemeToggle && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
 
         window.__THEME__ = detectedTheme;
 

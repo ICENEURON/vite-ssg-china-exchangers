@@ -16,7 +16,8 @@ export function getInitialTheme(): 'light' | 'dark' {
     }
     // 回退到系统偏好设置
     try {
-      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      const enableThemeToggle = (window.__ENV__ && window.__ENV__.ENABLE_THEME_TOGGLE) !== 'false';
+      if (enableThemeToggle && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         return 'dark';
       }
     } catch {
