@@ -102,7 +102,7 @@ export function Navigation() {
                             isActive && route.path === '/login' ? "text-accent-foreground border-b-2 border-primary rounded-none" : ""
                         )}>
                             <Button
-                                variant={route.path === '/login' ? "ghost" : "default"}
+                                variant={route.path === '/login' ? "navigation" : "default"}
                                 asChild
                                 className={cn("rounded-none")}
                             >
@@ -124,7 +124,7 @@ export function Navigation() {
                             isActive && route.path === '/dashboard' ? "text-accent-foreground border-b-2 border-primary rounded-none" : ""
                         )}>
                             <Button
-                                variant="ghost"
+                                variant="navigation"
                                 asChild
                                 className={cn("rounded-none")}
                             >

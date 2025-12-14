@@ -1,78 +1,81 @@
 {
-  "title": "React Vite SSG Starter",
+  "title": "China-HeatExchangers.com | Verified Industrial Sourcing",
   "meta": {
-    "description": "A modern, high-performance React starter template built with Vite, Tailwind CSS, and Shadcn UI. Features Static Site Generation (SSG) for optimal SEO and speed.",
-    "keywords": "react, vite, ssg, tailwind css, shadcn ui, starter template, typescript"
+    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+    "keywords": "Heat Exchangers, China Manufacturer, Industrial Sourcing, ASME, ISO, Plate Heat Exchangers, Shell & Tube"
   },
   "og": {
-    "title": "React Vite SSG Starter - Build Faster",
-    "description": "The ultimate starting point for your next React project. Production-ready, SEO-optimized, and packed with best practices."
+    "title": "China-HeatExchangers.com - Verified Factory Direct",
+    "description": "Stop guessing. source direct from verified Chinese factories. 100% Transparent. 0% Middlemen."
   },
   "hero": {
-    "title": "Build Modern Web Apps",
-    "subtitle": "Fast, Accessible, Production-Ready",
-    "description": "Kickstart your next project with this opinionated starter template. Powered by React, Vite, and Tailwind CSS. Pre-configured with SSG, i18n, and a beautiful UI component library.",
-    "cta_primary": "Get Started",
-    "cta_secondary": "View Documentation"
+    "title": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories.",
+    "subtitle": "Stop guessing. We manually verify Business Licenses, Production Scopes, and ASME Certificates to filter out trading companies. 100% Transparent. 0% Middlemen.",
+    "cta_primary": "Start Stealth RFQ (Free)",
+    "cta_secondary": "Browse Manufacturers",
+    "trust_bar": {
+      "verified": "Strictly Analyst-Verified",
+      "direct": "Direct-to-Factory Connection",
+      "database": "ASME/ISO Database Checked"
+    }
   },
-  "features": {
-    "title": "Features",
-    "subtitle": "Everything you need to build a modern web application.",
-    "items": [
+  "valueProp": {
+    "title": "Why Engineers Trust Us Over General Marketplaces",
+    "cards": [
       {
-        "title": "Vite + React",
-        "description": "Lightning-fast HMR and build performance with the latest React 18 features.",
-        "icon": "Zap",
-        "link": "/claim-your-profile"
+        "title": "Forensic Due Diligence",
+        "body": "We don't trust algorithms. Our analysts manually check government registries to ensure every listed supplier owns their production lines. No 'Gold' badges for sale."
       },
       {
-        "title": "TypeScript",
-        "description": "Built-in type safety for better developer experience and fewer runtime errors.",
-        "icon": "Shield",
-        "link": "/claim-your-profile"
+        "title": "Stealth Sourcing Mode",
+        "body": "Tired of spam? Use our 'Blind RFQ' tool to generate technical specifications without revealing your identity until you are ready."
       },
       {
-        "title": "Tailwind CSS",
-        "description": "Utility-first CSS framework for rapid UI development and easy customization.",
-        "icon": "Palette",
-        "link": "/claim-your-profile"
+        "title": "Open Data Transparency",
+        "body": "We display the factory's real location, export history, and certificate numbers upfront. We don't hide info to force intermediation."
+      },
+      {
+        "title": "Form RFQs",
+        "body": "Generate RFQs in seconds."
       }
     ]
   },
-  "sections": {
-    "about": {
-      "title": "Why Use This Starter?",
-      "content": [
-        "Starting a new project often involves spending hours configuring build tools, linters, and libraries. This starter template aims to solve that problem by providing a solid foundation with sensible defaults.",
-        "We've verified that all tools work seamlessly together, so you can focus on building your product instead of fighting with configuration files.",
-        "Whether you're building a landing page, a dashboard, or a industry-news, this template scales with your needs."
-      ]
-    },
-    "gettingStarted": {
-      "title": "Getting Started",
-      "content": [
-        "Clone the repository and run `pnpm install` to install dependencies.",
-        "Start the development server with `pnpm dev`.",
-        "Build for production with `pnpm build`."
-      ]
-    }
+  "categoryShowcase": {
+    "title": "Comprehensive Product Categories",
+    "alt": "Comprehensive Product Categories",
+    "description": "Explore our extensive directory of heat exchanger manufacturers. From standard Plate Heat Exchangers to custom-engineered Shell & Tube units, find the right partner for your specific industrial needs.",
+    "cta": "Browse All Categories"
   },
-  "faqPreview": {
-    "title": "Common Questions",
-    "items": [
+  "howItWorks": {
+    "title": "Sourcing Made Simple & Safe",
+    "steps": [
       {
-        "question": "Is this free to use?",
-        "answer": "Yes, this template is completely open-source and free to use for both personal and commercial projects."
+        "title": "1. Build Specs",
+        "body": "Input your technical parameters (Flow rate, Temp, Material) in our standardized form."
       },
       {
-        "question": "How do I deploy this?",
-        "answer": "Since it uses SSG, you can deploy the `dist` folder to any static host like Vercel, Netlify, or GitHub Pages."
+        "title": "2. Go Stealth",
+        "body": "Toggle 'Anonymous Mode' to hide your contact details from suppliers initially."
       },
       {
-        "question": "Can I switch to client-side rendering?",
-        "answer": "Yes, simply remove the SSG configuration in `vite.config.ts` and use standard React Router."
+        "title": "3. Broadcast",
+        "body": "One-click send your RFQ to verified factories matching your capabilities."
+      },
+      {
+        "title": "4. Compare",
+        "body": "Receive direct quotes and compare technical proposals side-by-side."
       }
+    ]
+  },
+  "featuredSupplier": {
+    "title": "Analyst's Pick of the Month",
+    "companyName": "Jiangsu High-Tech Thermal Equipment Co., Ltd",
+    "badges": [
+      "🛡️ Analyst Verified",
+      "ASME U-Stamp"
     ],
-    "cta_fullFaq": "View All FAQs"
+    "details": "Founded: 2005 | Factory Size: 30,000m² | Main Export: USA, Germany",
+    "description": "Specializes in high-pressure shell and tube heat exchangers for the chemical industry. Verified welding capabilities via on-site audit.",
+    "linkText": "View Full Profile >"
   }
 }
