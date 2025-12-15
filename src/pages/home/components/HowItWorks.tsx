@@ -14,9 +14,9 @@ export function HowItWorks() {
     return (
         <section className="py-16">
             <div className="container mx-auto px-4 max-w-6xl">
-                <h2 className="text-foreground text-center mb-16">
+                <h3 className="text-foreground text-center mb-16">
                     {t("pages.home.howItWorks.title")}
-                </h2>
+                </h3>
 
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 relative">
                     {steps.map((step, index) => {
@@ -30,16 +30,16 @@ export function HowItWorks() {
                                     </div>
                                 </div>
 
-                                <h3 className="text-lg font-bold text-foreground mb-3">
+                                <h4 className="text-lg font-bold text-foreground mb-3">
                                     {step.title}
-                                </h3>
-                                <p className="text-sm text-muted-foreground leading-relaxed px-2">
+                                </h4>
+                                <p className="text-sm text-muted leading-relaxed px-2 max-w-sm">
                                     {step.body}
                                 </p>
 
                                 {/* Arrow for Mobile */}
                                 {index < steps.length - 1 && (
-                                    <ArrowRight className="md:hidden h-6 w-6 text-muted-foreground mt-6 rotate-90" />
+                                    <ArrowRight className="block lg:hidden h-6 w-6 text-muted mt-6 rotate-90" />
                                 )}
                             </div>
                         );

@@ -190,7 +190,7 @@ export function Navigation() {
 
     return (
         <>
-            <header className="fixed top-0 left-0 right-0 z-50 bg-navbar border-b border-border/50">
+            <header className="fixed top-0 left-0 right-0 z-50 bg-navbar border-b border-border/20">
                 <div className="container mx-auto flex h-20 items-center px-4 md:px-6 max-w-8xl">
                     <Link to={getLocalizedPath("/")} className="mr-6 flex items-center">
                         <img src={logoLight} alt={t('navigation.logo')} className="h-8 w-auto" />

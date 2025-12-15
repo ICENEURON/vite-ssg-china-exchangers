@@ -16,7 +16,7 @@
     "site_name": "{{site_name}}"
   },
   "hero": {
-    "title": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories.",
+    "title": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories",
     "subtitle": "Stop guessing. We manually verify Business Licenses, Production Scopes, and ASME Certificates to filter out trading companies. 100% Transparent. 0% Middlemen.",
     "cta_primary": "Start Stealth RFQ (Free)",
     "cta_secondary": "Browse Manufacturers",
@@ -48,10 +48,10 @@
     ]
   },
   "categoryShowcase": {
-    "title": "Comprehensive Product Categories",
-    "alt": "Comprehensive Product Categories",
+    "title": "Comprehensive Manufacturer",
+    "alt": "Comprehensive Manufacturer",
     "description": "Explore our extensive directory of heat exchanger manufacturers. From standard Plate Heat Exchangers to custom-engineered Shell & Tube units, find the right partner for your specific industrial needs.",
-    "cta": "Browse All Categories"
+    "cta": "Browse All Manufacturers"
   },
   "howItWorks": {
     "title": "Sourcing Made Simple & Safe",
@@ -73,16 +73,5 @@
         "body": "Receive direct quotes and compare technical proposals side-by-side."
       }
     ]
-  },
-  "featuredSupplier": {
-    "title": "Analyst's Pick of the Month",
-    "companyName": "Jiangsu High-Tech Thermal Equipment Co., Ltd",
-    "badges": [
-      "🛡️ Analyst Verified",
-      "ASME U-Stamp"
-    ],
-    "details": "Founded: 2005 | Factory Size: 30,000m² | Main Export: USA, Germany",
-    "description": "Specializes in high-pressure shell and tube heat exchangers for the chemical industry. Verified welding capabilities via on-site audit.",
-    "linkText": "View Full Profile >"
   }
 }

@@ -13,9 +13,9 @@ export function HeroSection() {
                 <h1 className="text-white mb-10 max-w-5xl mx-auto px-12">
                     {t("pages.home.hero.title")}
                 </h1>
-                <p className="text-lg text-gray-200 mb-10 max-w-3xl mx-auto px-12">
+                <h5 className="text-gray-200 mb-10 max-w-3xl mx-auto px-12">
                     {t("pages.home.hero.subtitle")}
-                </p>
+                </h5>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
                     <Button size="lg" variant="default" asChild>
