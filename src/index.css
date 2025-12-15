@@ -233,11 +233,11 @@
   --navbar: #0e131c; /* 导航栏色 */
   --navbar-foreground: #f4f9fe; /* 导航栏文字色 */
   --background: #f4f9fe; /* Page 背景色 */
-  --foreground: #0f172a; /* Page 文字色 */
+  --foreground: #0e131c; /* Page 文字色 */
   --card: #103883; /* 导航栏&卡片色 */
   --card-foreground: #d9e0eb; /* 导航栏&卡片文字色 */
   --popover: #697f96; /* 弹出框背景色 */
-  --popover-foreground: #0f172a; /* 弹出框文字色 */
+  --popover-foreground: #0e131c; /* 弹出框文字色 */
   --primary: #1e40af; /* 主色调 */
   --primary-foreground: #f4f9fe; /* 主色调文字色 */
   --secondary: #e7ebf0; /* 次色调 (Button, Tab, Badge) */
