@@ -7,11 +7,8 @@ export function HeroSection() {
 
     return (
         <section className="relative py-16 lg:py-24 overflow-hidden bg-gray-900">
-            {/* Background Gradient/Image Overlay */}
             <div className="absolute inset-0" />
-            {/* Industrial Background Pattern or Image */}
-            <div className="absolute inset-0 bg-[url('/static/images/home-hero.png')] bg-cover bg-center mix-blend-overlay opacity-60"></div>
-
+            <div className="absolute inset-0 bg-[url('/static/images/home-hero.png')] bg-cover bg-center mix-blend-overlay opacity-60" />
             <div className="relative container mx-auto px-4 text-center z-10">
                 <h1 className="text-white mb-10 max-w-5xl mx-auto px-12">
                     {t("pages.home.hero.title")}
