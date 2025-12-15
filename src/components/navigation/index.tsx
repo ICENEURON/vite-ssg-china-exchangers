@@ -160,9 +160,6 @@ export function Navigation() {
                             <ListItem href={getLocalizedPath("/rfq")} title={t('navigation.menu.rfq')} className="py-3">
                                 {t('navigation.menu.rfq_details')}
                             </ListItem>
-                            <ListItem href={getLocalizedPath("/products")} title={t('navigation.menu.products')} className="py-3">
-                                {t('navigation.menu.products_details')}
-                            </ListItem>
                         </ul>
                     </NavPopup>
                 );
