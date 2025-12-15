@@ -12,6 +12,9 @@ const posts = defineCollection({
             slug: s.string().optional(), // allow frontmatter slug overwrite
             date: s.isodate(), // validate ISO date
             excerpt: s.string().max(200).optional(),
+            author: s.string().optional(),
+            reviewer: s.string().optional(),
+            readTime: s.string().optional(),
             content: s.markdown(), // transform markdown to html
             metaTitle: s.string().optional(),
             metaDescription: s.string().optional(),

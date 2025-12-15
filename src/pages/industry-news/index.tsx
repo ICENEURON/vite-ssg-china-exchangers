@@ -5,6 +5,16 @@ import { posts } from '.velite'
 import { useCurrentLanguage } from '../../utils/language-routing'
 import { NewsHero } from './components/NewsHero'
 import { NewsList } from './components/NewsList'
+import { useState, useEffect } from 'react'
+import {
+    Pagination,
+    PaginationContent,
+    PaginationItem,
+    PaginationLink,
+    PaginationNext,
+    PaginationPrevious,
+} from "../../components/ui/pagination"
+import { Input } from "../../components/ui/input"
 
 export default function BlogsPage() {
     const { t } = useTranslation("translation");
@@ -24,6 +34,16 @@ export default function BlogsPage() {
     const featuredPost = filteredPosts[0];
     // Rest are list items
     const listPosts = filteredPosts.slice(1);
+
+    const [currentPage, setCurrentPage] = useState(1);
+    const itemsPerPage = 10;
+    const totalPages = Math.ceil(listPosts.length / itemsPerPage);
+    const paginatedPosts = listPosts.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
+
+    // Scroll to top on page change
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, [currentPage]);
 
     return (
         <>
@@ -54,11 +74,132 @@ export default function BlogsPage() {
                             <NewsHero post={featuredPost} />
                             {listPosts.length > 0 && (
                                 <div>
-                                    <h2 className="mt-12 mb-2 text-foreground flex items-center gap-2">
-                                        <span className="w-1 h-8 bg-primary inline-block"></span>
-                                        {t("pages.news.page.latest")}
-                                    </h2>
-                                    <NewsList posts={listPosts} />
+                                    <div className="mt-12 mb-4 flex flex-row justify-between items-center">
+                                        <h2 className="text-foreground flex items-center gap-2">
+                                            <span className="w-1 h-8 bg-primary inline-block"></span>
+                                            {t("pages.news.page.latest")}
+                                        </h2>
+
+                                        {totalPages > 1 && (
+                                            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+                                                {/* Center: Pagination */}
+                                                <Pagination className="w-auto mx-0 order-1 md:order-2">
+                                                    <PaginationContent>
+                                                        <PaginationItem>
+                                                            <PaginationPrevious
+                                                                href="#"
+                                                                onClick={(e) => {
+                                                                    e.preventDefault();
+                                                                    if (currentPage > 1) setCurrentPage(p => p - 1);
+                                                                }}
+                                                                className={currentPage === 1 ? "pointer-events-none opacity-50" : ""}
+                                                            />
+                                                        </PaginationItem>
+                                                        {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
+                                                            return (
+                                                                <PaginationItem key={page}>
+                                                                    <PaginationLink
+                                                                        href="#"
+                                                                        isActive={currentPage === page}
+                                                                        onClick={(e) => {
+                                                                            e.preventDefault();
+                                                                            setCurrentPage(page);
+                                                                        }}
+                                                                    >
+                                                                        {page}
+                                                                    </PaginationLink>
+                                                                </PaginationItem>
+                                                            )
+                                                        })}
+                                                        <PaginationItem>
+                                                            <PaginationNext
+                                                                href="#"
+                                                                onClick={(e) => {
+                                                                    e.preventDefault();
+                                                                    if (currentPage < totalPages) setCurrentPage(p => p + 1);
+                                                                }}
+                                                                className={currentPage === totalPages ? "pointer-events-none opacity-50" : ""}
+                                                            />
+                                                        </PaginationItem>
+                                                    </PaginationContent>
+                                                </Pagination>
+                                            </div>
+                                        )}
+                                    </div>
+
+                                    <NewsList posts={paginatedPosts} />
+
+                                    {totalPages > 1 && (
+                                        <div className="mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                                            {/* Left: Results Count */}
+                                            <div className="text-sm text-muted whitespace-nowrap order-2 md:order-1">
+                                                {(currentPage - 1) * itemsPerPage + 1} - {Math.min(currentPage * itemsPerPage, listPosts.length)} {t("pages.news.pagination.of")} {listPosts.length} {t("pages.news.pagination.results")}
+                                            </div>
+
+                                            {/* Center: Pagination */}
+                                            <Pagination className="w-auto mx-0 order-1 md:order-2">
+                                                <PaginationContent>
+                                                    <PaginationItem>
+                                                        <PaginationPrevious
+                                                            href="#"
+                                                            onClick={(e) => {
+                                                                e.preventDefault();
+                                                                if (currentPage > 1) setCurrentPage(p => p - 1);
+                                                            }}
+                                                            className={currentPage === 1 ? "pointer-events-none opacity-50" : ""}
+                                                        />
+                                                    </PaginationItem>
+                                                    {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
+                                                        return (
+                                                            <PaginationItem key={page}>
+                                                                <PaginationLink
+                                                                    href="#"
+                                                                    isActive={currentPage === page}
+                                                                    onClick={(e) => {
+                                                                        e.preventDefault();
+                                                                        setCurrentPage(page);
+                                                                    }}
+                                                                >
+                                                                    {page}
+                                                                </PaginationLink>
+                                                            </PaginationItem>
+                                                        )
+                                                    })}
+                                                    <PaginationItem>
+                                                        <PaginationNext
+                                                            href="#"
+                                                            onClick={(e) => {
+                                                                e.preventDefault();
+                                                                if (currentPage < totalPages) setCurrentPage(p => p + 1);
+                                                            }}
+                                                            className={currentPage === totalPages ? "pointer-events-none opacity-50" : ""}
+                                                        />
+                                                    </PaginationItem>
+                                                </PaginationContent>
+                                            </Pagination>
+
+                                            {/* Right: Jump to Page */}
+                                            <div className="hidden md:flex flex-row items-center gap-2 order-3 whitespace-nowrap">
+                                                <span className="text-sm text-muted whitespace-nowrap">{t("pages.news.pagination.go_to")}</span>
+                                                <Input
+                                                    type="number"
+                                                    min={1}
+                                                    max={totalPages}
+                                                    className="w-16 h-8"
+                                                    placeholder={currentPage.toString()}
+                                                    onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) => {
+                                                        if (e.key === 'Enter') {
+                                                            const val = parseInt(e.currentTarget.value);
+                                                            if (!isNaN(val) && val >= 1 && val <= totalPages) {
+                                                                setCurrentPage(val);
+                                                                e.currentTarget.value = '';
+                                                            }
+                                                        }
+                                                    }}
+                                                />
+                                            </div>
+                                        </div>
+                                    )}
                                 </div>
                             )}
                         </div>

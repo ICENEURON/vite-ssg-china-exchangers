@@ -27,7 +27,15 @@
         "read": "Read Article"
     },
     "blog": {
-        "not_found": "The article you are looking for does not exist.",
-        "back_to_list": "Back to List"
+        "not_found": "Post not found",
+        "back_to_list": "Back to List",
+        "author": "Author",
+        "reviewer": "Reviewer",
+        "read_time": "Read"
+    },
+    "pagination": {
+        "of": "of",
+        "results": "Results",
+        "go_to": "Go to"
     }
 }

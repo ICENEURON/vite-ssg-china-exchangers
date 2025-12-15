@@ -248,7 +248,7 @@
   --accent-foreground: #f4f9fe; /* 鉴赏色调文字色 */
   --destructive: #e3290a; /* 毁色调 */
   --destructive-foreground: #f4f9fe; /* 毁色调文字色 */
-  --border: #f4f9fe; /* 边框色 */
+  --border: #9da7b1; /* 边框色 */
   --input: #f4f9fe; /* 暂时没有使用 */
   --ring: #0a57e3; /* Focus 焦点的颜色 */
 }
