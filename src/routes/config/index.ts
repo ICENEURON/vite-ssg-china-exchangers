@@ -56,8 +56,6 @@ const allRoutes: RouteDef[] = [
 
     { path: "/about", element: AboutPage, auth: "public", nav: "public", mobile: "public", label: "About", translationKey: "navigation.menu.about" },
 
-    // { path: "/components", element: ComponentsPage, auth: "public", nav: "public", mobile: "public", label: "Components", translationKey: "navigation.menu.components" },
-
     // Blog routes
     ...(enableBlog ? [
         { path: "/industry-news", element: BlogIndex, auth: "public", nav: "public", mobile: "public", label: "Industry News", translationKey: "navigation.menu.industry-news" },

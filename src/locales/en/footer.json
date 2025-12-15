@@ -1,25 +1,23 @@
 {
+  "logo": {
+    "alt": "HeatEx Direct",
+    "title": "HeatEx Direct"
+  },
+  "tagline": "The Analyst-Verified Sourcing Platform for Industrial Thermal Equipment.",
   "links": {
     "items": {
       "home": "Home",
-      "manufacturers": "Directory",
-      "rfq": "RFQ Tool",
-      "products": "Products",
+      "manufacturers": "Verified Manufacturer Directory",
+      "rfq": "Request for Quotation Tool",
       "profile": "Claim Your Profile",
       "content-marketing-services": "Content Marketing Services",
       "industry-news": "Industry News",
-      "about": "About Us",
-      "privacy": "Privacy Policy"
+      "about": "About Us"
     }
   },
   "legal": {
     "copyright": "© {{year}} HeatEx Direct. All rights reserved.",
     "terms": "terms and conditions",
     "privacy": "privacy policy"
-  },
-  "logo": {
-    "alt": "HeatEx Direct",
-    "title": "HeatEx Direct"
-  },
-  "tagline": "The Analyst-Verified Sourcing Platform for Industrial Thermal Equipment."
+  }
 }

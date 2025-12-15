@@ -145,25 +145,11 @@ export function Navigation() {
             if (route.path === '/manufacturers') {
                 const isManufacturersActive = isActiveLink('/manufacturers') || isActiveLink('/rfq');
                 return (
-                    <NavPopup key={'route.path'} label={'For Buyers'} isActive={isManufacturersActive} className="left-0">
-                        <ul className="grid gap-3 p-2 w-[450px] lg:grid-cols-[.75fr_1fr]">
-                            <li className="row-span-2">
-                                <NavigationMenuLink asChild className="py-2">
-                                    <Link
-                                        className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-start bg-gradient-to-b no-underline outline-none focus:shadow-md hover:text-foreground"
-                                        to={getLocalizedPath("/manufacturers")}
-                                    >
-                                        <div className="text-lg font-medium">
-                                            {t('navigation.menu.manufacturers')}
-                                        </div>
-                                        <p className="text-sm leading-tight text-muted-foreground">
-                                            {t('navigation.menu.manufacturers_details')}
-                                        </p>
-                                    </Link>
-                                </NavigationMenuLink>
-                            </li>
+                    <NavPopup key={route.path} label={'For Buyers'} isActive={isManufacturersActive} className="left-0">
+                        <ul className="grid w-[300px] gap-3 p-2">
+                            <ListItem href={getLocalizedPath("/manufacturers")} title={t('navigation.menu.manufacturers')} className="py-3">
+                            </ListItem>
                             <ListItem href={getLocalizedPath("/rfq")} title={t('navigation.menu.rfq')} className="py-3">
-                                {t('navigation.menu.rfq_details')}
                             </ListItem>
                         </ul>
                     </NavPopup>
@@ -175,7 +161,7 @@ export function Navigation() {
                 const isProfileActive = isActiveLink('/claim-your-profile') || isActiveLink('/content-marketing-services');
                 return (
                     <NavPopup key={route.path} label={'For Manufacturers'} isActive={isProfileActive} className="left-0">
-                        <ul className="grid w-[250px] gap-3 p-2">
+                        <ul className="grid w-[300px] gap-3 p-2">
                             <ListItem href={getLocalizedPath("/claim-your-profile")} title={t('navigation.menu.profile')} className="py-3">
                             </ListItem>
                             <ListItem href={getLocalizedPath("/content-marketing-services")} title={t('navigation.menu.content_marketing_services')} className="py-3">

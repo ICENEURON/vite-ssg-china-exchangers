@@ -33,10 +33,6 @@ const Footer = () => {
         key: "rfq",
         url: addLanguageToPath("/rfq", currentLanguage),
       },
-      {
-        key: "products",
-        url: addLanguageToPath("/products", currentLanguage),
-      },
     ],
     [
       {
@@ -93,7 +89,7 @@ const Footer = () => {
                 </span>
               </a>
             </div>
-            <p className="mt-4 text-navbar-foreground/80 font-medium max-w-sm">
+            <p className="mt-4 text-navbar-foreground/60 font-medium max-w-sm">
               {t("footer.tagline")}
             </p>
           </div>
