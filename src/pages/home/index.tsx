@@ -17,7 +17,7 @@ export default function HomePage() {
     <>
       <Head>
         <title>{t("pages.home.title")}</title>
-        <link rel="canonical" href={t("pages.home.link.canonical", { url: currentUrl })} />
+        <link rel="canonical" href={currentUrl} />
         <meta name="title" content={t("pages.home.title")} />
         <meta name="description" content={t("pages.home.meta.description")} />
         <meta name="keywords" content={t("pages.home.meta.keywords")} />

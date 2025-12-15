@@ -8,7 +8,7 @@ interface NewsListProps {
 
 export function NewsList({ posts }: NewsListProps) {
     return (
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-2">
             {posts.map((post) => (
                 <NewsCard
                     key={post.slug}

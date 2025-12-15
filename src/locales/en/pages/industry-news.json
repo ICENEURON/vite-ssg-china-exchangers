@@ -1,42 +1,33 @@
 {
-    "title": "Content Marketing Services - China Exchangers",
+    "title": "HeatEx Direct | Industrial Heat Exchangers Manufacturer",
     "meta": {
-        "description": "Strategic content marketing services for manufacturers and exporters. Drive growth with data-driven content strategies.",
-        "keywords": "content marketing, b2b marketing, content strategy, seo content, industry-news writing, manufacturer marketing"
+        "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+        "keywords": "Heat Exchangers, China Manufacturer, Industrial Sourcing, ASME, ISO, Plate Heat Exchangers, Shell & Tube"
+    },
+    "og": {
+        "title": "HeatEx Direct - Verified Factory Direct",
+        "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+        "image": "/static/images/home-hero.png",
+        "url": "{{url}}",
+        "type": "website",
+        "site_name": "{{site_name}}"
+    },
+    "page": {
+        "title": "Industry Insights",
+        "subtitle": "Latest market trends, logistics updates, and technical guides for the heat exchanger industry.",
+        "latest": "Latest Updates"
     },
     "hero": {
         "title": "Strategic Content That Drives Growth",
         "subtitle": "Elevate your brand with data-driven content strategies.",
-        "intro": "We help B2B manufacturers and exporters connect with their audience through high-quality, SEO-optimized content. From industry-news posts to technical whitepapers, our team delivers content that builds trust and generates leads."
+        "intro": "We help B2B manufacturers and exporters connect with their audience through high-quality, SEO-optimized content. From industry-news posts to technical whitepapers, our team delivers content that builds trust and generates leads.",
+        "badge": "News"
     },
-    "services": {
-        "strategy": {
-            "title": "Content Strategy",
-            "items": [
-                "**Audience Analysis**: Deep dive into your target market's needs and pain points.",
-                "**Keyword Research**: Identifying high-value opportunities for organic growth.",
-                "**Content Calendar**: Structured planning for consistent engagement."
-            ]
-        },
-        "creation": {
-            "title": "Content Creation",
-            "items": [
-                "**Blog Writing**: Informative articles that establish authority.",
-                "**Case Studies**: Proof of your success and expertise.",
-                "**Technical Documentation**: Clear guides for complex products."
-            ]
-        },
-        "distribution": {
-            "title": "Distribution & Analytics",
-            "items": [
-                "**SEO Optimization**: Technical implementation for maximum visibility.",
-                "**Social Media**: Targeted distribution to reach decision makers.",
-                "**Performance Tracking**: Monthly reporting on ROI and engagement."
-            ]
-        }
+    "card": {
+        "read": "Read Article"
     },
-    "cta": {
-        "title": "Ready to scale your content?",
-        "button": "Get Started"
+    "blog": {
+        "not_found": "The article you are looking for does not exist.",
+        "back_to_list": "Back to List"
     }
 }

@@ -2,14 +2,17 @@
 import { Badge } from "../../../components/ui/badge";
 import type { Post } from ".velite";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 interface NewsHeroProps {
     post: Post;
 }
 
 export function NewsHero({ post }: NewsHeroProps) {
+    const { t } = useTranslation("translation");
+
     return (
-        <div className="relative w-full overflow-hidden rounded-xl bg-slate-950 text-white shadow-xl group">
+        <div className="relative w-full overflow-hidden rounded-xl text-white shadow-xl group">
             {/* Background Image */}
             <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
@@ -18,27 +21,27 @@ export function NewsHero({ post }: NewsHeroProps) {
                     filter: 'brightness(0.6)'
                 }}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t via-slate-950/60 to-transparent" />
 
             <div className="relative z-10 flex flex-col justify-end p-8 md:p-12 lg:h-[400px]">
-                <div className="space-y-4 max-w-3xl">
+                <div className="space-y-2 max-w-3xl">
                     <div className="flex items-center gap-3">
-                        <Badge variant="secondary" className="bg-emerald-500/10 text-emerald-400 border-emerald-500/20 hover:bg-emerald-500/20">
-                            News
+                        <Badge variant="secondary" className="bg-green-500/30 text-green-400 border-green-500/20 hover:bg-green-500/40">
+                            {t("pages.news.hero.badge")}
                         </Badge>
-                        <span className="text-sm text-slate-300 font-medium">
-                            {new Date(post.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'short', day: 'numeric' })}
+                        <span className="text-sm text-muted-foreground font-medium">
+                            {new Date(post.date).toISOString().split('T')[0]}
                         </span>
                     </div>
 
-                    <Link to={post.permalink} className="hover:underline decoration-emerald-400 underline-offset-4">
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-white leading-tight font-serif">
+                    <Link to={post.permalink} className="hover:text-accent hover:underline decoration-green-400 underline-offset-2">
+                        <h1 className="font-bold tracking-tight text-white leading-tight">
                             {post.title}
                         </h1>
                     </Link>
 
                     {post.excerpt && (
-                        <p className="text-lg text-slate-300 md:w-3/4 leading-relaxed line-clamp-2">
+                        <p className="mt-4 text-lg text-muted-foreground md:w-3/4 leading-relaxed line-clamp-3">
                             {post.excerpt}
                         </p>
                     )}
