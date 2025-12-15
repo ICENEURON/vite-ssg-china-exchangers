@@ -19,14 +19,14 @@ export const ListItem = React.forwardRef<
                     ref={ref}
                     to={href}
                     className={cn(
-                        "block select-none p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-foreground focus:bg-accent/70 focus:text-foreground",
+                        "block select-none p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-navbar-foreground focus:bg-accent focus:text-navbar-foreground",
                         className
                     )}
                     {...props}
                 >
-                    <div className="text-sm font-medium leading-none">{title}</div>
+                    <div className="text-sm font-medium leading-none text-navbar-foreground">{title}</div>
                     {children && (
-                        <p className="line-clamp-2 text-sm leading-snug text-foreground/70">
+                        <p className="line-clamp-2 text-sm leading-snug text-navbar-foreground/70">
                             {children}
                         </p>
                     )}
@@ -51,8 +51,8 @@ export function NavPopup({ label, isActive, children, className }: NavPopupProps
                 hasContent
                 className={
                     isActive
-                        ? "border-b-2 border-accent text-foreground hover:text-foreground data-[state=open]:text-foreground whitespace-nowrap"
-                        : "border-b-2 border-transparent text-foreground hover:bg-accent/40 hover:text-foreground data-[state=open]:text-foreground whitespace-nowrap"
+                        ? "border-b-2 border-accent !text-navbar-foreground hover:!text-navbar-foreground data-[state=open]:!text-navbar-foreground whitespace-nowrap"
+                        : "border-b-2 border-transparent !text-navbar-foreground hover:bg-accent/40 hover:!text-navbar-foreground data-[state=open]:!text-navbar-foreground whitespace-nowrap"
                 }
                 onClick={(e) => e.preventDefault()}
             >

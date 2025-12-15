@@ -1,7 +1,7 @@
 
 import { Head } from 'vite-react-ssg'
 import { Button } from "../../components/ui/button"
-import { BadgeCheck, MapPin, Factory, Star, ArrowRight, Building2 } from "lucide-react"
+import { BadgeCheck, MapPin, Factory, Star, ArrowRight } from "lucide-react"
 
 export default function ManufacturersPage() {
 
@@ -66,16 +66,16 @@ export default function ManufacturersPage() {
         </section>
 
         {/* Directory List */}
-        <section className="py-16 bg-muted/20">
+        <section className="py-16">
           <div className="container mx-auto px-4 max-w-4xl">
             <div className="grid gap-6">
               {manufacturers.map((company) => (
-                <div key={company.id} className="group bg-card border rounded-2xl p-6 md:p-8 hover:shadow-xl hover:border-primary/50 transition-all flex flex-col md:flex-row gap-6">
+                <div key={company.id} className="group bg-card border rounded-2xl p-6 md:p-8 hover:shadow-xl flex flex-col md:flex-row gap-6">
 
                   {/* Icon / Logo Placeholder */}
                   <div className="shrink-0">
-                    <div className="w-16 h-16 rounded-2xl bg-muted flex items-center justify-center border text-muted-foreground group-hover:bg-primary/5 group-hover:text-primary transition-colors">
-                      <Building2 className="w-8 h-8" />
+                    <div className="w-16 h-16 rounded-2xl bg-muted flex items-center justify-center border text-muted-foreground">
+                      <Factory className="w-8 h-8 text-muted-foreground" />
                     </div>
                   </div>
 

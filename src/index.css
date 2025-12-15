@@ -19,6 +19,8 @@
   --breakpoint-xl: 1280px;
   
   /* 颜色映射 */
+  --color-navbar: var(--navbar);
+  --color-navbar-foreground: var(--navbar-foreground);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -228,10 +230,12 @@
   --pink-900: #831843;
   
   /* 浅色主题 - 层次结构配色 */
+  --navbar: #0e131c; /* 导航栏色 */
+  --navbar-foreground: #f4f9fe; /* 导航栏文字色 */
   --background: #f4f9fe; /* Page 背景色 */
   --foreground: #0f172a; /* Page 文字色 */
-  --card: #e5e8f4; /* 导航栏&卡片色 */
-  --card-foreground: #0f172a; /* 导航栏&卡片文字色 */
+  --card: #103883; /* 导航栏&卡片色 */
+  --card-foreground: #d9e0eb; /* 导航栏&卡片文字色 */
   --popover: #697f96; /* 弹出框背景色 */
   --popover-foreground: #0f172a; /* 弹出框文字色 */
   --primary: #1e40af; /* 主色调 */
@@ -251,6 +255,8 @@
 
 .dark {
   /* 暗色主题 - 层次结构配色 */
+  --navbar: #0e131c;
+  --navbar-foreground: #f4f9fe;
   --background: #1e293b;
   --foreground: #f8fafc;
   --card: #0f172a;

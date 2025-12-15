@@ -1,5 +1,5 @@
 import { cn } from "../../utils/cn";
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/logos/logo_light.png";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 import {
@@ -86,7 +86,7 @@ const Footer = () => {
                   src={logo.src}
                   alt="logo"
                   title={logo.title}
-                  className="h-8 w-8"
+                  className="h-8 w-16"
                 />
                 <span className="text-xl font-bold text-foreground">
                   {logo.title}

@@ -52,10 +52,9 @@ const allRoutes: RouteDef[] = [
 
     { path: "/claim-your-profile", element: DocsPage, auth: "public", nav: "public", mobile: "public", label: "Claim Your Profile", translationKey: "navigation.menu.profile" },
 
-    { path: "/about", element: AboutPage, auth: "public", nav: "public", mobile: "public", label: "About", translationKey: "navigation.menu.about" },
-
     { path: "/content-marketing-services", element: ContentMarketingServicesPage, auth: "public", nav: "none", mobile: "public", label: "Content Marketing", translationKey: "navigation.menu.content_marketing_services" },
 
+    { path: "/about", element: AboutPage, auth: "public", nav: "public", mobile: "public", label: "About", translationKey: "navigation.menu.about" },
 
     // { path: "/components", element: ComponentsPage, auth: "public", nav: "public", mobile: "public", label: "Components", translationKey: "navigation.menu.components" },
 

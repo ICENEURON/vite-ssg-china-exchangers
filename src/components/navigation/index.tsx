@@ -19,6 +19,7 @@ import {
     NavigationMenuList,
 } from "../ui/navigation-menu";
 import { NavPopup, ListItem } from "./nav-popup";
+import logoLight from "../../assets/logos/Logo_light.png";
 
 export function Navigation() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -99,12 +100,15 @@ export function Navigation() {
                     <NavigationMenuItem key={route.path}>
                         <div className={cn(
                             "inline-flex",
-                            isActive && route.path === '/login' ? "text-accent-foreground border-b-2 border-primary rounded-none" : ""
+                            isActive && route.path === '/login' ? "text-navbar-foreground border-b-2 border-accent rounded-none" : ""
                         )}>
                             <Button
                                 variant={route.path === '/login' ? "navigation" : "default"}
                                 asChild
-                                className={cn("rounded-none")}
+                                className={cn(
+                                    "rounded-none",
+                                    route.path === '/login' ? "text-navbar-foreground hover:text-navbar-foreground hover:bg-accent/40" : ""
+                                )}
                             >
                                 <Link to={getLocalizedPath(route.path)}>
                                     {label}
@@ -121,12 +125,12 @@ export function Navigation() {
                     <NavigationMenuItem key={route.path}>
                         <div className={cn(
                             "inline-flex",
-                            isActive && route.path === '/dashboard' ? "text-accent-foreground border-b-2 border-primary rounded-none" : ""
+                            isActive && route.path === '/dashboard' ? "text-navbar-foreground border-b-2 border-accent rounded-none" : ""
                         )}>
                             <Button
                                 variant="navigation"
                                 asChild
-                                className={cn("rounded-none")}
+                                className={cn("rounded-none text-navbar-foreground hover:text-navbar-foreground")}
                             >
                                 <Link to={getLocalizedPath(route.path)}>
                                     {label}
@@ -139,8 +143,9 @@ export function Navigation() {
 
             // Manufacturers
             if (route.path === '/manufacturers') {
+                const isManufacturersActive = isActiveLink('/manufacturers') || isActiveLink('/rfq');
                 return (
-                    <NavPopup key={'route.path'} label={'For Buyers'} isActive={isActive} className="left-0">
+                    <NavPopup key={'route.path'} label={'For Buyers'} isActive={isManufacturersActive} className="left-0">
                         <ul className="grid gap-3 p-2 w-[450px] lg:grid-cols-[.75fr_1fr]">
                             <li className="row-span-2">
                                 <NavigationMenuLink asChild className="py-2">
@@ -167,8 +172,9 @@ export function Navigation() {
 
             // Components Menu
             if (route.path === '/claim-your-profile') {
+                const isProfileActive = isActiveLink('/claim-your-profile') || isActiveLink('/content-marketing-services');
                 return (
-                    <NavPopup key={route.path} label={'For Manufacturers'} isActive={isActive} className="left-0">
+                    <NavPopup key={route.path} label={'For Manufacturers'} isActive={isProfileActive} className="left-0">
                         <ul className="grid w-[250px] gap-3 p-2">
                             <ListItem href={getLocalizedPath("/claim-your-profile")} title={t('navigation.menu.profile')} className="py-3">
                             </ListItem>
@@ -185,8 +191,8 @@ export function Navigation() {
                         asChild
                         className={
                             isActive
-                                ? "border-b-2 border-accent text-foreground hover:text-foreground whitespace-nowrap"
-                                : "border-b-2 border-transparent text-foreground hover:bg-accent/40 hover:text-foreground whitespace-nowrap"
+                                ? "border-b-2 border-accent !text-navbar-foreground hover:!text-navbar-foreground whitespace-nowrap"
+                                : "border-b-2 border-transparent !text-navbar-foreground hover:bg-accent/40 hover:!text-navbar-foreground whitespace-nowrap"
                         }
                     >
                         <Link to={getLocalizedPath(route.path)}>{label}</Link>
@@ -198,14 +204,14 @@ export function Navigation() {
 
     return (
         <>
-            <header className="fixed top-0 left-0 right-0 z-50 bg-card">
+            <header className="fixed top-0 left-0 right-0 z-50 bg-navbar border-b border-border/50">
                 <div className="container mx-auto flex h-20 items-center px-4 md:px-6 max-w-8xl">
-                    <Link to={getLocalizedPath("/")} className="font-semibold text-lg mr-6">
-                        {t('navigation.logo')}
+                    <Link to={getLocalizedPath("/")} className="mr-6 flex items-center">
+                        <img src={logoLight} alt={t('navigation.logo')} className="h-8 w-auto" />
                     </Link>
 
                     {/* Left Navigation (Desktop) */}
-                    <div className="hidden xl:flex items-center gap-2">
+                    <div className="hidden xl:flex items-center gap-2 text-navbar-foreground">
                         <NavigationMenu viewport={false}>
                             <NavigationMenuList>
                                 {renderNavItems(leftItems)}
@@ -214,7 +220,7 @@ export function Navigation() {
                     </div>
 
                     {/* Right Navigation (Desktop) */}
-                    <div className="ml-auto hidden xl:flex items-center gap-2">
+                    <div className="ml-auto hidden xl:flex items-center gap-2 text-navbar-foreground">
                         <NavigationMenu viewport={false}>
                             <NavigationMenuList>
                                 {renderNavItems(rightItems)}
@@ -239,7 +245,7 @@ export function Navigation() {
                         <Button
                             variant="ghost"
                             size="sm"
-                            className="h-8 w-8 p-0"
+                            className="h-8 w-8 p-0 text-navbar-foreground hover:text-navbar-foreground"
                             aria-label="Toggle mobile menu"
                             onClick={(e) => {
                                 e.stopPropagation();
@@ -262,7 +268,7 @@ export function Navigation() {
             {isMobileMenuOpen && (
                 <div
                     ref={mobileMenuRef}
-                    className="xl:hidden bg-card border-t border-b fixed top-20 left-0 right-0 z-40"
+                    className="xl:hidden bg-navbar border-t border-b fixed top-20 left-0 right-0 z-40 border-border/50"
                 >
                     <nav className="p-6 flex flex-col gap-4">
                         <div className="flex flex-col gap-2">
@@ -277,7 +283,7 @@ export function Navigation() {
                                     <Link
                                         key={route.path}
                                         to={getLocalizedPath(route.path)}
-                                        className={`block px-3 py-2 text-sm transition-colors ${isActive ? "bg-accent/60 text-foreground" : "hover:bg-accent/30 text-foreground"
+                                        className={`block px-3 py-2 text-[16px] transition-colors ${isActive ? "bg-accent/60 text-navbar-foreground" : "hover:bg-accent/30 text-navbar-foreground"
                                             }`}
                                         onClick={() => setIsMobileMenuOpen(false)}
                                     >
@@ -299,7 +305,10 @@ export function Navigation() {
                                             key={route.path}
                                             variant={route.path === '/login' ? "ghost" : "default"}
                                             asChild
-                                            className="justify-center"
+                                            className={cn(
+                                                "justify-center",
+                                                route.path === '/login' ? "text-navbar-foreground hover:text-navbar-foreground hover:bg-accent/30" : ""
+                                            )}
                                         >
                                             <Link
                                                 to={getLocalizedPath(route.path)}
