@@ -16,7 +16,7 @@ export default function AboutPage() {
         />
       </Head>
 
-      <main className="min-h-screen bg-white dark:bg-slate-950">
+      <main className="min-h-screen">
         <AboutHero />
         <ProblemSection />
         <VerificationGrid />

@@ -25,7 +25,7 @@ export default function BlogsPage() {
             </Head>
 
             {/* Hero Section + News List Layout */}
-            <section className="py-12 px-4 bg-slate-50 dark:bg-transparent min-h-screen">
+            <section className="py-12 px-4 min-h-screen">
                 <div className="container mx-auto max-w-5xl space-y-10">
 
                     <div className="grid gap-2 text-center md:text-left">
