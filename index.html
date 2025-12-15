@@ -4,15 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <script src="/init.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "%VITE_SITE_TITLE%",
+        "url": "%VITE_SITE_URL%",
+        "logo": "%VITE_SITE_URL%/static/images/logo.png",
+        "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories.",
+        "sameAs": []
+      }
+    </script>
     <script>
       window.__ENV__ = {
         DEFAULT_LANGUAGE: '__VITE_DEFAULT_LANGUAGE__',
         SUPPORTED_LANGUAGES: '__VITE_SUPPORTED_LANGUAGES__',
         ENABLE_LANGUAGE_TOGGLE: '__VITE_ENABLE_LANGUAGE_TOGGLE__',
-        ENABLE_THEME_TOGGLE: '__VITE_ENABLE_THEME_TOGGLE__'
       };
     </script>
-    <script src="/init.js"></script>
   </head>
   <body>
     <div id="root"></div>
