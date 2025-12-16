@@ -5,7 +5,7 @@ import { useTranslation, Trans } from "react-i18next"
 export function BenefitsSection() {
     const { t } = useTranslation();
     return (
-        <section className="py-24">
+        <section className="py-16">
             <div className="container px-8 mx-auto max-w-7xl">
                 <div className="flex flex-col lg:flex-row lg:items-end justify-between mb-12 gap-6">
                     <div className="max-w-2xl">

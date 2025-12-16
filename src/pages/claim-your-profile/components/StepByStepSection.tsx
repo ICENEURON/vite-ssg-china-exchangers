@@ -6,7 +6,7 @@ export function StepByStepSection() {
     const { t } = useTranslation();
 
     return (
-        <section className="py-24 bg-background">
+        <section className="pt-16 pb-24 bg-background">
             <div className="container px-8 mx-auto max-w-5xl">
                 <div className="text-center mb-8">
                     <h1 className="font-bold tracking-tight mb-4 text-foreground">{t('pages.profile.steps_guide.title')}</h1>
