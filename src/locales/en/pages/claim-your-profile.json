@@ -55,72 +55,63 @@
       }
     }
   },
-  "overview": {
-    "title": "Project Overview",
-    "paragraphs": [
-      "This template is designed to provide a production-ready foundation for modern web applications. It leverages the speed of Vite with the SEO benefits of SSG.",
-      "The directory structure is organized by feature, making it easy to scale as your application grows. Components are built using Shadcn UI, providing a consistent and accessible design system out of the box.",
-      "Internationalization (i18n) is baked in from the start, allowing you to easily support multiple languages without significant refactoring later."
-    ]
-  },
-  "carousel": {
-    "title": "Core Concepts",
-    "subtitle": "Understanding the key technologies powering this template.",
-    "slides": [
-      {
-        "id": "ssg",
-        "title": "1. Static Site Generation",
-        "subtitle": "Pre-rendering for speed and SEO.",
-        "bullets": [
-          "Pages are generated at build time, resulting in static HTML files.",
-          "Fast Time-to-First-Byte (TTFB) since no server-side processing is needed.",
-          "Perfect for content-heavy sites, blogs, and marketing pages.",
-          "Can be hosted on any static file server or CDN."
-        ]
+  "verification": {
+    "title": "We Verify Every Company Detail",
+    "description": "We confirm that all provided company information is authentic and accurate before it goes live. This ensures buyers can trust who they are dealing with.",
+    "steps": {
+      "submit": {
+        "title": "Submit Request",
+        "description": "You send us your latest information and supporting documents via email."
       },
-      {
-        "id": "react",
-        "title": "2. Modern React",
-        "subtitle": "Hooks, Components, and TypeScript.",
-        "bullets": [
-          "Built with React 18, leveraging the latest hook patterns.",
-          "Strict TypeScript configuration ensures type safety across the codebase.",
-          "Component-driven development with a clear separation of concerns.",
-          "Optimized for performance with code-splitting and lazy loading."
-        ]
+      "audit": {
+        "title": "Analyst Audit",
+        "description": "Our team manually verifies your claims against official government databases."
       },
-      {
-        "id": "styling",
-        "title": "3. Styling System",
-        "subtitle": "Tailwind CSS + Shadcn UI.",
-        "bullets": [
-          "Utility-first CSS via Tailwind for rapid styling without leaving HTML.",
-          "Shadcn UI provides accessible, unstyled components that you own.",
-          "Dark mode support is built-in and respects system preferences.",
-          "Easy customization via CSS variables and Tailwind config."
-        ]
-      },
-      {
-        "id": "i18n",
-        "title": "4. Internationalization",
-        "subtitle": "i18next for global reach.",
-        "bullets": [
-          "Translation files are separated by language and namespace.",
-          "Language detection and persistence via local storage.",
-          "Type-safe translation keys (optional configuration).",
-          "Seamless switching between languages without page reloads."
-        ]
+      "update": {
+        "title": "Live Update",
+        "description": "Once confirmed, your profile is updated within 3-5 business days."
       }
-    ]
+    }
   },
-  "process": {
-    "title": "Deployment Workflow",
-    "steps": [
-      "Run `pnpm build` to generate the static files in the `dist` directory.",
-      "Preview the build locally using `pnpm preview` to ensure everything looks correct.",
-      "Configure your host (Vercel, Netlify, Github Pages) to serve the `dist` folder.",
-      "Set up a CI/CD pipeline (e.g., GitHub Actions) to automate builds on push.",
-      "Verify the deployed site, checking for 404s and proper asset loading."
-    ]
+  "steps_guide": {
+    "title": "How to Submit an Update",
+    "description": "Please send an email to our Data Team with the following details.",
+    "contact": {
+      "email_label": "Email:",
+      "subject_label": "Subject:",
+      "subject_value": "[Claim Profile] - Your Company Name"
+    },
+    "cta_button": "Send Email",
+    "required_info": {
+      "title": "Required Info",
+      "items": {
+        "identity": {
+          "title": "Company Identity",
+          "description": "Full English Name & Official Website."
+        },
+        "contact": {
+          "title": "Key Contact",
+          "description": "Name of Export Manager & Direct Email."
+        },
+        "docs": {
+          "title": "Docs",
+          "description": "Business License (Required) & Valid Certificates."
+        }
+      }
+    },
+    "optional_info": {
+      "title": "Optional (Recommended)",
+      "items": {
+        "photos": {
+          "title": "High-Res Photos",
+          "description": "Factory exterior, workshop floor, or key product shots."
+        },
+        "description": {
+          "title": "Description",
+          "description": "A short updated \"About Us\" paragraph highlighting core competencies."
+        }
+      }
+    },
+    "footer_note": "Note: We reserve the right to request additional information to prove you are the authorized representative of the factory."
   }
 }
