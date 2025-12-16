@@ -1,14 +1,49 @@
 {
-  "title": "About This Starter Template",
+  "title": "HeatEx Direct | Industrial Heat Exchangers Manufacturer",
   "meta": {
-    "description": "Learn about the philosophy, tech stack, and goals behind this React Vite SSG Starter Template.",
-    "keywords": "about, react starter, vite template, tech stack, philosophy"
+    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+    "keywords": "Heat Exchangers, China Manufacturer, Industrial Sourcing, ASME, ISO, Plate Heat Exchangers, Shell & Tube"
+  },
+  "og": {
+    "title": "HeatEx Direct - Verified Factory Direct",
+    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+    "image": "/static/images/home-hero.png",
+    "url": "{{url}}",
+    "type": "website",
+    "site_name": "{{site_name}}"
   },
   "hero": {
-    "title": "About This Project",
-    "subtitle": "Built for performance, scalability, and developer experience.",
-    "intro1": "This starter template was created to solve the common problem of setting up a new React project from scratch. It opionatedly combines the best tools in the ecosystem to provide a rock-solid foundation.",
-    "intro2": "Whether you are a solo developer or part of a large team, having a consistent, well-configured starting point saves substantial time and prevents technical debt."
+    "badge": "Wait Less. Source Better.",
+    "title": "We are Heat<1>Ex</1> Direct.",
+    "title_highlight": "The Shortest Path to Verified Manufacturers.",
+    "description_1": "The world doesn't need another directory of 10,000 random suppliers. It needs a shortlist of the 10 best.",
+    "description_2_prefix": "We bridge the",
+    "description_2_highlight": "\"Trust Gap\"",
+    "description_2_suffix": "so you don't have to."
+  },
+  "who_we_are": {
+    "badge": "Our Identity",
+    "title": "The Trusted Bridge to China's Industrial Core",
+    "description": "In an era where AI generates endless content, the value of manual, on-the-ground verification is more precious than ever. We exist to cut through the noise. We are not just a directory; we are a technical verification platform dedicated to unearthing the 'Hidden Champions' of the heat exchanger industry—companies that possess world-class engineering capabilities but lack the global visibility they deserve.",
+    "features": {
+      "experience": {
+        "title": "10+ Years of Insight",
+        "desc": "Deep roots in the local supply chain allow us to distinguish between intermediaries and true manufacturers, ensuring you deal directly with the source."
+      },
+      "verification": {
+        "title": "Rigorous Verification",
+        "desc": "We validate business licenses, production capacity, and ASME/ISO certifications manually. We replace 'claimed' quality with 'proven' reality."
+      },
+      "connect": {
+        "title": "Global Connection",
+        "desc": "Building a bridge of trust. We go beyond translation to align engineering standards and business expectations, creating a reliable path for global trade."
+      }
+    },
+    "transparency": {
+      "title": "Our Business Model",
+      "subtitle": "100% Free for Buyers",
+      "desc": "We do not charge you any fees. You are free to access all our verified information and contact factories directly. We are happy simply to facilitate a win-win transaction. If you choose to let the factory know we helped, we receive a reasonable referral fee from them—but our primary goal is always your satisfaction."
+    }
   },
   "sections": {
     "mission": {

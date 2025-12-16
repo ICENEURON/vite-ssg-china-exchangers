@@ -2,7 +2,7 @@ import { AlertTriangle, Clock, CheckCircle2, XCircle } from "lucide-react";
 
 export function ProblemSection() {
     return (
-        <section className="py-24 px-4 bg-white dark:bg-slate-900 relative">
+        <section className="py-24 px-4 bg-[linear-gradient(to_bottom,transparent,white_10%,white_90%,transparent)] relative">
             <div className="container mx-auto max-w-6xl">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
 
