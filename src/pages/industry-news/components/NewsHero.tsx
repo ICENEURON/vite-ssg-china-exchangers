@@ -26,7 +26,7 @@ export function NewsHero({ post }: NewsHeroProps) {
             <div className="relative z-10 flex flex-col justify-end p-8 md:p-12 lg:h-[400px]">
                 <div className="space-y-2 max-w-3xl">
                     <div className="flex items-center gap-3">
-                        <Badge variant="secondary" className="bg-green-500/30 text-green-400 border-green-500/20 hover:bg-green-500/40">
+                        <Badge variant="secondary" className="bg-blue-200/80 text-accent border-blue-400/50 hover:bg-blue-200">
                             {t("pages.news.hero.badge")}
                         </Badge>
                         <span className="text-sm text-muted-foreground font-medium">
@@ -34,7 +34,7 @@ export function NewsHero({ post }: NewsHeroProps) {
                         </span>
                     </div>
 
-                    <Link to={post.permalink} className="hover:text-accent hover:underline decoration-green-400 underline-offset-2">
+                    <Link to={post.permalink} className="hover:text-accent hover:underline decoration-accent underline-offset-2">
                         <h1 className="font-bold tracking-tight text-white leading-tight">
                             {post.title}
                         </h1>
