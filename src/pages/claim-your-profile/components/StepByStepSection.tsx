@@ -16,7 +16,7 @@ export function StepByStepSection() {
                 </div>
 
                 <div className="bg-gray-900 rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden group">
-                    <div className="flex flex-col lg:flex-row items-center justify-between gap-8 mb-16 relative z-10 border-b border-border/50 pb-8">
+                    <div className="flex flex-col lg:flex-row items-center justify-between gap-8 mb-8 relative z-10 border-b border-white/20 pb-8">
                         <div className="space-y-4 text-left">
                             <div className="flex flex-col sm:flex-row items-center gap-2 bg-white/4 px-4 py-2 rounded-2xl">
                                 <div className="p-3 rounded-xl text-primary shrink-0">
@@ -106,7 +106,7 @@ export function StepByStepSection() {
                         </div>
                     </div>
 
-                    <div className="mt-12 pt-8 border-t border-white/10 text-center">
+                    <div className="mt-8 pt-8 border-t border-white/20 text-center">
                         <p className="text-md text-muted-foreground italic">
                             {t('pages.profile.steps_guide.footer_note')}
                         </p>
