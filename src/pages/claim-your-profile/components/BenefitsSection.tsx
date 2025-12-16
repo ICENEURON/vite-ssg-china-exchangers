@@ -1,5 +1,5 @@
 
-import { BadgeCheck, Zap, BarChart3, Search, ArrowUpRight } from "lucide-react"
+import { BadgeCheck, Search, ArrowUpRight } from "lucide-react"
 
 export function BenefitsSection() {
     return (

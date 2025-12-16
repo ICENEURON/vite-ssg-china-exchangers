@@ -1,13 +1,36 @@
 {
-  "title": "Documentation - React Vite SSG Starter",
+  "title": "Claim Your Profile - HeatEx Direct",
   "meta": {
-    "description": "Documentation for the React Vite SSG Starter. Learn about the core concepts, project structure, and deployment workflow.",
-    "keywords": "react, vite, ssg, documentation, guide, deployment, architecture"
+    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+    "keywords": "Heat Exchangers, China Manufacturer, Industrial Sourcing, ASME, ISO, Plate Heat Exchangers, Shell & Tube"
+  },
+  "og": {
+    "title": "HeatEx Direct - Verified Factory Direct",
+    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+    "image": "/static/images/home-hero.png",
+    "url": "{{url}}",
+    "type": "website",
+    "site_name": "{{site_name}}"
   },
   "hero": {
-    "title": "Documentation",
-    "subtitle": "Everything you need to know to build and deploy.",
-    "intro": "This documentation covers the core architectural concepts behind this starter template. From Static Site Generation (SSG) to the component library, we'll explain how the pieces fit together."
+    "status_badge": "Database Status: ACTIVE",
+    "title_prefix": "Your Factory is",
+    "title_suffix": "Already Listed.",
+    "description": "Thousands of buyers search our directory every month. Don't let an unclaimed profile represent your engineering capability. Verify your data to unlock the \"Official Supplier\" badge.",
+    "features": {
+      "manual_verification": "Manual Verification",
+      "license_check": "License Check"
+    },
+    "cta": "Request Verification via Email",
+    "certificate": {
+      "title": "CERTIFICATE OF REGISTRATION",
+      "certifies_text": "This certifies that the organization",
+      "company_name_placeholder": "Company Name",
+      "identified_text": "has been formally identified in the",
+      "database_name": "Chinese Manufacturer List",
+      "signature_label": "Analyst Signature",
+      "status_stamp": "Pending"
+    }
   },
   "overview": {
     "title": "Project Overview",
