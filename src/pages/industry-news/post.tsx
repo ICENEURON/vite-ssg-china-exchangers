@@ -1,6 +1,6 @@
 import { posts } from '.velite'
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, ArrowRight } from 'lucide-react'
+import { ArrowLeft, ArrowRight, FileQuestion } from 'lucide-react'
 import { Button } from '../../components/ui/button'
 import { Head } from 'vite-react-ssg'
 import { useCurrentLanguage, addLanguageToPath } from '../../utils/language-routing'
@@ -33,11 +33,22 @@ export default function BlogPost() {
     const backLink = addLanguageToPath('/industry-news', currentLanguage);
 
     if (!post) return (
-        <div className="container py-16 mx-auto text-center">
-            <h1 className="text-2xl font-bold mb-4">{t("pages.news.blog.not_found")}</h1>
-            <Button asChild>
-                <Link to={backLink}>{t("pages.news.blog.back_to_list")}</Link>
-            </Button>
+        <div className="container py-32 mx-auto px-4 flex flex-col items-center justify-center min-h-[60vh] text-center space-y-8">
+            <div className="text-muted mb-8">
+                <FileQuestion className="w-20 h-20 opacity-20" />
+            </div>
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-foreground">{t("pages.news.blog.not_found_title")}</h1>
+            <h5 className="text-xl text-muted max-w-md mx-auto leading-relaxed">
+                {t("pages.news.blog.not_found_desc")}
+            </h5>
+            <div>
+                <Button asChild size="lg" className="font-semibold px-8 h-12 rounded-full shadow-lg hover:shadow-xl transition-all">
+                    <Link to={backLink}>
+                        <ArrowLeft className="mr-2 w-4 h-4" />
+                        {t("pages.news.blog.back_to_list")}
+                    </Link>
+                </Button>
+            </div>
         </div>
     )
 

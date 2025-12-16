@@ -7,7 +7,7 @@ export function CategoryShowcase() {
     return (
         <section className="pt-16">
             <div className="container mx-auto px-4 max-w-6xl">
-                <div className="flex flex-col lg:flex-row rounded-2xl overflow-hidden shadow-xl border border-border">
+                <div className="flex flex-col lg:flex-row rounded-2xl overflow-hidden shadow-xl border border-border/20">
                     {/* Left: Image */}
                     <div className="lg:w-1/2 relative min-h-[200px] lg:min-h-full">
                         <img
