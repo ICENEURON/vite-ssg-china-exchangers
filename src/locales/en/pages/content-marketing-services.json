@@ -52,6 +52,43 @@
             }
         }
     },
+    "guidelines": {
+        "title": "Submission Standards",
+        "description": "We maintain a high bar for quality to ensure our audience trusts your content.",
+        "accepted": {
+            "title": "Accepted",
+            "formats": {
+                "title": "File Formats",
+                "types": [
+                    ".DOC",
+                    ".DOCX"
+                ]
+            },
+            "topics": {
+                "title": "Topics",
+                "items": [
+                    "Technical Analysis (e.g. Design parameters)",
+                    "Maintenance & Troubleshooting Guides",
+                    "Real-world Case Studies"
+                ]
+            }
+        },
+        "rejected": {
+            "title": "Rejected",
+            "formats": {
+                "title": "File Formats",
+                "description": "PDF, TXT, Pages, or Google Doc links are <0>NOT</0> accepted. We need editable files for formatting."
+            },
+            "content": {
+                "title": "Content",
+                "items": [
+                    "Pure marketing fluff / \"Salesy\" language",
+                    "Press releases",
+                    "AI-generated low-quality text"
+                ]
+            }
+        }
+    },
     "services": {
         "strategy": {
             "title": "Content Strategy",

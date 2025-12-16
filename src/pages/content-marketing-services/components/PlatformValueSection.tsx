@@ -19,7 +19,7 @@ export function PlatformValueSection() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 
                     {/* Card 1: SEO Dominance (Large - Spans 2 cols) */}
-                    <div className="group relative overflow-hidden rounded-3xl bg-card border border-border/20 p-8 md:col-span-2 flex flex-col justify-between hover:border-border/50 transition-colors min-h-[300px] md:min-h-[400px]">
+                    <div className="group relative overflow-hidden rounded-3xl bg-card border border-border/20 p-8 md:col-span-2 flex flex-col justify-between hover:border-border/50 transition-colors min-h-[300px] md:min-h-[300px]">
                         <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
                             <Search className="w-48 h-48 -mr-12 -mt-12 rotate-12" />
                         </div>
@@ -44,7 +44,7 @@ export function PlatformValueSection() {
 
 
                     {/* Card 2: Direct Audience */}
-                    <div className="group relative rounded-3xl hidden md:flex flex-col justify-between hover:border-primary/50 transition-colors p-16 min-h-[400px]">
+                    <div className="group relative rounded-3xl hidden md:flex flex-col justify-between hover:border-primary/50 transition-colors p-20 min-h-[300px]">
                         <div className="relative h-full w-full rounded-xl flex items-center justify-center">
                             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-accent/10 via-transparent to-transparent" />
                             <div className="relative text-accent/60">

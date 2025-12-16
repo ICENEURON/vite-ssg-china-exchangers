@@ -1,54 +1,52 @@
-
 import { FileText, XCircle, CheckCircle } from "lucide-react"
+import { useTranslation, Trans } from "react-i18next"
 
 export function GuidelinesSection() {
+    const { t } = useTranslation("translation", { keyPrefix: "pages.cms.guidelines" });
+
     return (
-        <section id="guidelines" className="py-24 bg-background">
+        <section className="py-12 px-4">
             <div className="container px-4 mx-auto max-w-5xl">
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl font-bold tracking-tight mb-4">Submission Standards</h2>
-                    <p className="text-muted-foreground">We maintain a high bar for quality to ensure our audience trusts your content.</p>
+                <div className="text-center mb-8">
+                    <h2 className="text-3xl font-bold tracking-tight mb-2">{t("title")}</h2>
+                    <p className="text-muted">{t("description")}</p>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-8 items-start">
+                <div className="grid md:grid-cols-2 gap-8">
                     {/* The "YES" Column */}
-                    <div className="rounded-2xl border bg-card p-1">
-                        <div className="bg-primary/5 rounded-xl p-8 h-full">
+                    <div className="rounded-3xl border border-green-500/20 bg-gradient-to-b from-green-500/5 to-transparent p-1 overflow-hidden">
+                        <div className="rounded-[1.4rem] p-8 h-full bg-green-500/5 backdrop-blur-sm">
                             <div className="flex items-center gap-3 mb-6">
-                                <CheckCircle className="w-6 h-6 text-green-500" />
-                                <h3 className="font-bold text-xl">Accepted</h3>
+                                <div className="w-10 h-10 rounded-full bg-green-500/10 flex items-center justify-center border border-green-500/20">
+                                    <CheckCircle className="w-5 h-5 text-green-500" />
+                                </div>
+                                <h3 className="font-bold text-xl text-green-500">{t("accepted.title")}</h3>
                             </div>
 
                             <div className="space-y-6">
                                 <div>
-                                    <span className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">File Formats</span>
-                                    <div className="mt-2 flex gap-3">
-                                        <div className="flex items-center gap-2 px-4 py-2 bg-background border rounded-lg shadow-sm">
-                                            <FileText className="w-4 h-4 text-blue-500" />
-                                            <span className="font-mono font-bold">.DOC</span>
-                                        </div>
-                                        <div className="flex items-center gap-2 px-4 py-2 bg-background border rounded-lg shadow-sm">
-                                            <FileText className="w-4 h-4 text-blue-500" />
-                                            <span className="font-mono font-bold">.DOCX</span>
-                                        </div>
+                                    <span className="text-xs font-bold text-green-500/80 uppercase tracking-wider">{t("accepted.formats.title")}</span>
+                                    <div className="mt-3 flex gap-3">
+                                        {(t("accepted.formats.types", { returnObjects: true }) as string[]).map((type, i) => (
+                                            <div key={i} className="flex items-center gap-2 px-4 py-2.5 bg-background/50 border border-green-500/10 rounded-xl shadow-sm hover:border-green-500/30 transition-colors">
+                                                <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center">
+                                                    <FileText className="w-4 h-4 text-blue-500" />
+                                                </div>
+                                                <span className="font-bold text-sm tracking-tight">{type}</span>
+                                            </div>
+                                        ))}
                                     </div>
                                 </div>
 
                                 <div>
-                                    <span className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Topics</span>
-                                    <ul className="mt-2 space-y-2 text-sm text-foreground/80">
-                                        <li className="flex items-start gap-2">
-                                            <span className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2 shrink-0"></span>
-                                            Technical Analysis (e.g. Design parameters)
-                                        </li>
-                                        <li className="flex items-start gap-2">
-                                            <span className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2 shrink-0"></span>
-                                            Maintenance & Troubleshooting Guides
-                                        </li>
-                                        <li className="flex items-start gap-2">
-                                            <span className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2 shrink-0"></span>
-                                            Real-world Case Studies
-                                        </li>
+                                    <span className="text-xs font-bold text-green-500/80 uppercase tracking-wider">{t("accepted.topics.title")}</span>
+                                    <ul className="mt-3 space-y-3 text-sm text-foreground/90">
+                                        {(t("accepted.topics.items", { returnObjects: true }) as string[]).map((item, i) => (
+                                            <li key={i} className="flex items-start gap-3">
+                                                <div className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2 shrink-0 shadow-[0_0_6px_rgba(16,185,129,0.4)]"></div>
+                                                <span className="text-foreground">{item}</span>
+                                            </li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>
@@ -56,36 +54,32 @@ export function GuidelinesSection() {
                     </div>
 
                     {/* The "NO" Column */}
-                    <div className="rounded-2xl border bg-card p-1">
-                        <div className="bg-muted/30 rounded-xl p-8 h-full">
+                    <div className="rounded-3xl border border-red-500/20 bg-gradient-to-b from-red-500/5 to-transparent p-1 overflow-hidden">
+                        <div className="rounded-[1.4rem] p-8 h-full bg-red-500/5 backdrop-blur-sm">
                             <div className="flex items-center gap-3 mb-6">
-                                <XCircle className="w-6 h-6 text-red-500" />
-                                <h3 className="font-bold text-xl">Rejected</h3>
+                                <div className="w-10 h-10 rounded-full bg-red-500/10 flex items-center justify-center border border-red-500/20">
+                                    <XCircle className="w-5 h-5 text-red-500" />
+                                </div>
+                                <h3 className="font-bold text-xl text-red-500">{t("rejected.title")}</h3>
                             </div>
 
                             <div className="space-y-6">
                                 <div>
-                                    <span className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">File Formats</span>
-                                    <p className="mt-2 text-sm text-muted-foreground">
-                                        PDF, TXT, Pages, or Google Doc links are <span className="text-red-500 font-bold">NOT</span> accepted. We need editable files for formatting.
+                                    <span className="text-xs font-bold text-red-500/80 uppercase tracking-wider">{t("rejected.formats.title")}</span>
+                                    <p className="mt-2 font-bold text-sm text-foreground leading-relaxed">
+                                        <Trans i18nKey="pages.cms.guidelines.rejected.formats.description" components={[<span className="text-red-500 font-bold bg-red-500/10 px-1 rounded-sm" key="0" />]} />
                                     </p>
                                 </div>
 
                                 <div>
-                                    <span className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Content</span>
-                                    <ul className="mt-2 space-y-2 text-sm text-muted-foreground">
-                                        <li className="flex items-start gap-2">
-                                            <span className="w-1.5 h-1.5 rounded-full bg-red-400 mt-2 shrink-0"></span>
-                                            Pure marketing fluff / "Salesy" language
-                                        </li>
-                                        <li className="flex items-start gap-2">
-                                            <span className="w-1.5 h-1.5 rounded-full bg-red-400 mt-2 shrink-0"></span>
-                                            Press releases
-                                        </li>
-                                        <li className="flex items-start gap-2">
-                                            <span className="w-1.5 h-1.5 rounded-full bg-red-400 mt-2 shrink-0"></span>
-                                            AI-generated low-quality text
-                                        </li>
+                                    <span className="text-xs font-bold text-red-500/80 uppercase tracking-wider">{t("rejected.content.title")}</span>
+                                    <ul className="mt-3 space-y-3 text-sm text-foreground">
+                                        {(t("rejected.content.items", { returnObjects: true }) as string[]).map((item, i) => (
+                                            <li key={i} className="flex items-start gap-3">
+                                                <div className="w-1.5 h-1.5 rounded-full bg-red-400/50 mt-2 shrink-0"></div>
+                                                <span className="leading-snug">{item}</span>
+                                            </li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>
