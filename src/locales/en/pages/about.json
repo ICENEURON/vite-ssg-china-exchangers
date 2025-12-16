@@ -45,40 +45,59 @@
       "desc": "We do not charge you any fees. You are free to access all our verified information and contact factories directly. We are happy simply to facilitate a win-win transaction. If you choose to let the factory know we helped, we receive a reasonable referral fee from them—but our primary goal is always your satisfaction."
     }
   },
-  "sections": {
-    "mission": {
-      "title": "Our Mission",
-      "paragraphs": [
-        "We believe that web development should be fast, accessible, and enjoyable. Too often, developers get bogged down in configuration hell, spending hours setting up linters, build tools, and testing frameworks before writing a single line of product code.",
-        "Our mission is to eliminate that friction. By providing a pre-configured environment that follows industry best practices, we empower developers to focus on what matters most: building great user experiences.",
-        "This template is not just a collection of files; it's a curated set of decisions that have been battle-tested in production environments."
-      ]
-    },
-    "techStack": {
-      "title": "The Tech Stack",
-      "items": [
-        "**React 18**: The library for web and native user interfaces.",
-        "**Vite**: Next Generation Frontend Tooling for lightning-fast HMR and builds.",
-        "**Tailwind CSS**: A utility-first CSS framework for rapid UI development.",
-        "**Shadcn UI**: Beautifully designed components that you can copy and paste into your apps.",
-        "**TypeScript**: Strongly typed JavaScript for better tooling and fewer bugs."
-      ]
-    },
-    "philosophy": {
-      "title": "Design Philosophy",
-      "paragraphs": [
-        "**Simplicity over Complexity**: We prefer simple, explicit code over complex abstractions. If a feature isn't essential, it's not included.",
-        "**Performance First**: Every decision, from SSG to image optimization, is made with end-user performance in mind.",
-        "**Accessibility Matters**: We believe the web is for everyone. All included components are built with accessibility (a11y) as a priority, ensuring your app works for all users."
-      ]
-    },
-    "community": {
-      "title": "Open Source",
-      "paragraphs": [
-        "This project is open source and community-driven. We assume no one person has all the answers, and we welcome contributions, bug reports, and feature requests.",
-        "By building in the open, we ensure that the template evolves with the ecosystem and remains relevant for years to come.",
-        "Feel free to fork this repository, customize it for your needs, and share your improvements back with the community."
-      ]
+  "advantages": {
+    "badge": "Our Advantage",
+    "title": "Sourcing, Simplified & Secure.",
+    "description_1": "Your privacy is our priority. Direct exposure results in unsolicited spam and gives vendors leverage. We protect your identity until you're ready to deal.",
+    "description_2": "Time is your most valuable asset. Traditional vetting takes 4-6 weeks per supplier. We condense this into a single, efficient process, delivering a verified shortlist and competitive quotes in as little as 48 hours.",
+    "visual": {
+      "header_standard": "Traditional Sourcing",
+      "header_us": "HeatEx Direct",
+      "row_1": {
+        "standard": "Repetitive Emails",
+        "us": "One-Stop Efficient Sourcing"
+      },
+      "row_2": {
+        "standard": "Limited Options",
+        "us": "Global Comparison"
+      },
+      "row_3": {
+        "standard": "Information Leakage",
+        "us": "Privacy Protection"
+      },
+      "footer": "Save time. Protect privacy."
     }
+  },
+  "verification": {
+    "title": "The 4-Step Standard",
+    "description": "We don't just take their word for it. We verify everything.",
+    "steps": {
+      "scope": {
+        "title": "1. Scope Verification",
+        "description": "We inspect the official Business License. If the scope says 'Wholesale' instead of 'Manufacturing', they are banned.",
+        "value": "Avoids Middlemen"
+      },
+      "database": {
+        "title": "2. Database Cross-Reference",
+        "description": "We validate ASME 'U' Stamps and ISO certificates directly against the issuing body's official live database.",
+        "value": "Ensures Compliance"
+      },
+      "shipping": {
+        "title": "3. Bill of Lading Analysis",
+        "description": "We analyze shipping records to confirm the factory has a history of exporting to North America or Europe.",
+        "value": "Verifies Experience"
+      },
+      "location": {
+        "title": "4. Location Verification",
+        "description": "We verify satellite imagery to ensure the address is a functioning production facility, not a sales office.",
+        "value": "Confirms Capacity"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to source with confidence?",
+    "subtitle": "Stop guessing. Start building.",
+    "button": "Browse Verified Manufacturers",
+    "email_text": "Questions? Email us:"
   }
 }

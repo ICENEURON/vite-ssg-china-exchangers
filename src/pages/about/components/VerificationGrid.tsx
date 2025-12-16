@@ -1,47 +1,50 @@
 import { CheckCircle2, Search, FileCheck, MapPin } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "../../../components/ui/card";
+import { useTranslation } from "react-i18next";
 
 export function VerificationGrid() {
+    const { t } = useTranslation("translation");
+
     const steps = [
         {
             icon: <FileCheck className="w-8 h-8 text-primary" />,
-            title: "1. Scope Verification",
-            description: "We inspect the official Business License. If the scope says 'Wholesale' instead of 'Manufacturing', they are banned.",
-            value: "Avoids Middlemen"
+            title: t("pages.about.verification.steps.scope.title"),
+            description: t("pages.about.verification.steps.scope.description"),
+            value: t("pages.about.verification.steps.scope.value")
         },
         {
             icon: <Search className="w-8 h-8 text-primary" />,
-            title: "2. Database Cross-Reference",
-            description: "We validate ASME 'U' Stamps and ISO certificates directly against the issuing body's official live database.",
-            value: "Ensures Compliance"
+            title: t("pages.about.verification.steps.database.title"),
+            description: t("pages.about.verification.steps.database.description"),
+            value: t("pages.about.verification.steps.database.value")
         },
         {
             icon: <CheckCircle2 className="w-8 h-8 text-primary" />,
-            title: "3. Bill of Lading Analysis",
-            description: "We analyze shipping records to confirm the factory has a history of exporting to North America or Europe.",
-            value: "Verifies Experience"
+            title: t("pages.about.verification.steps.shipping.title"),
+            description: t("pages.about.verification.steps.shipping.description"),
+            value: t("pages.about.verification.steps.shipping.value")
         },
         {
             icon: <MapPin className="w-8 h-8 text-primary" />,
-            title: "4. Location Verification",
-            description: "We verify satellite imagery to ensure the address is a functioning production facility, not a sales office.",
-            value: "Confirms Capacity"
+            title: t("pages.about.verification.steps.location.title"),
+            description: t("pages.about.verification.steps.location.description"),
+            value: t("pages.about.verification.steps.location.value")
         }
     ];
 
     return (
-        <section className="py-24 px-4 bg-slate-50 dark:bg-slate-900/50">
+        <section className="py-20 px-4 bg-slate-50 dark:bg-slate-900/50">
             <div className="container mx-auto max-w-6xl">
                 <div className="text-center mb-16 max-w-3xl mx-auto">
                     <h2 className="text-3xl md:text-5xl font-bold text-slate-900 dark:text-slate-50 mb-6">
-                        The 4-Step Standard
+                        {t("pages.about.verification.title")}
                     </h2>
                     <p className="text-xl text-slate-600 dark:text-slate-400">
-                        We don't just take their word for it. We verify everything.
+                        {t("pages.about.verification.description")}
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-6">
                     {steps.map((step, index) => (
                         <Card key={index} className="border-none shadow-md hover:shadow-xl transition-all duration-300 bg-white dark:bg-slate-800 group relative overflow-hidden">
                             {/* Hover Accent */}
