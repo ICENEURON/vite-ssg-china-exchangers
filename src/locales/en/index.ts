@@ -2,6 +2,7 @@ import navigation from './navigation.json';
 import footer from './footer.json';
 import home from './pages/home.json';
 import manufacturers from './pages/manufacturers.json';
+import manufacturersList from './pages/manufacturers/list.json';
 import rfq from './pages/rfq.json';
 import profile from './pages/claim-your-profile.json';
 import cms from './pages/content-marketing-services.json';
@@ -19,7 +20,10 @@ export default {
   footer,
   pages: {
     home,
-    manufacturers,
+    manufacturers: {
+      ...manufacturers,
+      list: manufacturersList
+    },
     rfq,
     profile,
     cms,

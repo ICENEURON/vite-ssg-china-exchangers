@@ -1,0 +1,47 @@
+[
+    {
+        "id": "shphe",
+        "name": "Shanghai Heat Transfer Equipment Co., Ltd. (SHPHE)",
+        "rating": "5.0",
+        "ratingLabel": "Tech Leader",
+        "location": "Shanghai, China",
+        "verified": true,
+        "description": "Premier solution provider for difficult fluids. Specializes in Wide Gap and Fully Welded Plate Heat Exchangers. Owns an in-house Thermal Performance Laboratory.",
+        "tags": [
+            "Welded PHE",
+            "Wide Gap",
+            "PCHE"
+        ],
+        "link": "/manufacturers/shanghai-heat-transfer-equipment-co-ltd"
+    },
+    {
+        "id": "jiangsu-pioneer",
+        "name": "Jiangsu Pioneer Machinery Co., Ltd.",
+        "rating": "4.8",
+        "ratingLabel": "High Volume",
+        "location": "Jiangsu, China",
+        "verified": true,
+        "description": "Large-scale manufacturer focused on standard gasketed plate heat exchangers for HVAC and Marine applications. High capacity production lines.",
+        "tags": [
+            "Gasketed PHE",
+            "Marine",
+            "HVAC"
+        ],
+        "link": "/manufacturers/jiangsu-pioneer-machinery"
+    },
+    {
+        "id": "lanzhou-ls",
+        "name": "Lanzhou LS Heavy Equipment Co., Ltd.",
+        "rating": "4.9",
+        "ratingLabel": "Heavy Industry",
+        "location": "Gansu, China",
+        "verified": true,
+        "description": "State-owned enterprise specializing in extra-large heat exchangers for Oil & Gas and Petrochemical refineries. ASME U-Stamp holder.",
+        "tags": [
+            "Shell & Tube",
+            "High Pressure",
+            "Heavy Equipment"
+        ],
+        "link": "/manufacturers/lanzhou-ls-heavy-equipment"
+    }
+]

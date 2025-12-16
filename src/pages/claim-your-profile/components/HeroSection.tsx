@@ -1,7 +1,7 @@
 
 import { Button } from "../../../components/ui/button"
 import { Badge } from "../../../components/ui/badge";
-import { ShieldCheck, Mail, FileText, CheckCircle2 } from "lucide-react"
+import { ShieldCheck, Mail, CheckCircle2 } from "lucide-react"
 import { useTranslation } from "react-i18next"
 
 export function HeroSection() {
