@@ -32,6 +32,29 @@
       "status_stamp": "Pending"
     }
   },
+  "benefits": {
+    "header": {
+      "title": "Ownership Drives Growth",
+      "description": "Engineers filter suppliers by <strong>current capabilities</strong>. If your profile shows outdated specs, you are invisible to next-gen projects. Active management is your competitive edge.",
+      "verified_badge": "Verified Profiles receive 2.4x more inquiries"
+    },
+    "cards": {
+      "ranking": {
+        "title": "Priority Ranking",
+        "description": "Our search algorithm prioritizes <strong>Verified</strong> profiles. Claiming your listing instantly boosts your visibility for high-volume keywords like \"Shell & Tube\" or \"PHE Maintenance\".",
+        "traffic_badge": "+85% Traffic"
+      },
+      "verified_signal": {
+        "title": "The \"Analyst Verified\" Signal",
+        "description": "Trust is the currency of B2B. A verified badge tells procurement managers that your certificates (ASME, ISO, PED) are valid and your factory is active. It eliminates the \"Middleman Risk\".",
+        "badges": {
+          "verified": "100% Verified",
+          "audit": "Factory Audit"
+        },
+        "official_supplier": "OFFICIAL<br />SUPPLIER"
+      }
+    }
+  },
   "overview": {
     "title": "Project Overview",
     "paragraphs": [
