@@ -1,13 +1,56 @@
 {
     "title": "Content Marketing Services - China Exchangers",
     "meta": {
-        "description": "Strategic content marketing services for manufacturers and exporters. Drive growth with data-driven content strategies.",
-        "keywords": "content marketing, b2b marketing, content strategy, seo content, industry-news writing, manufacturer marketing"
+        "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+        "keywords": "Heat Exchangers, China Manufacturer, Industrial Sourcing, ASME, ISO, Plate Heat Exchangers, Shell & Tube"
+    },
+    "og": {
+        "title": "HeatEx Direct - Verified Factory Direct",
+        "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+        "image": "/static/images/home-hero.png",
+        "url": "{{url}}",
+        "type": "website",
+        "site_name": "{{site_name}}"
     },
     "hero": {
-        "title": "Strategic Content That Drives Growth",
-        "subtitle": "Elevate your brand with data-driven content strategies.",
-        "intro": "We help B2B manufacturers and exporters connect with their audience through high-quality, SEO-optimized content. From industry-news posts to technical whitepapers, our team delivers content that builds trust and generates leads."
+        "badge": "Global Procurement Network",
+        "title": "Showcase Your <br /> <0>Engineering Authority</0>",
+        "description": "Reach global buyers not just with products, but with expertise. Publish technical insights and build lasting trust with procurement managers in HVAC, Marine, and Chemical industries.",
+        "buttons": {
+            "start_publishing": "Email us the article"
+        }
+    },
+    "platform_impact": {
+        "title": "Platform Impact",
+        "description": "Don't just list your products. Demonstrate your technical leadership to thousands of daily active engineers and procurement specialists.",
+        "items": {
+            "seo": {
+                "title": "High-Intent SEO Dominance",
+                "description": "Our platform ranks for thousands of commercial keywords. Your technical articles piggyback on our domain authority, appearing on the first page of Google for queries like \"Plate Heat Exchanger Maintenance\" or \"Ti vs SS316\"."
+            },
+            "audience": {
+                "title": "Global Audience",
+                "segments": {
+                    "hvac": "HVAC Engineers",
+                    "petrochemical": "Petrochemical",
+                    "marine": "Marine"
+                }
+            },
+            "asset": {
+                "title": "Build Digital Asset",
+                "description": "Articles act as permanent digital assets. They are sharable on LinkedIn, referenced in your proposals, and serve as third-party validation of your expertise."
+            },
+            "verified": {
+                "title": "Verified Supplier Status",
+                "description": "Publishing technical content automatically grants your profile the \"Contributor\" badge, boosting your visibility in directory search results.",
+                "badge": "VERIFIED",
+                "tags": {
+                    "visibility": "Increased Visibility",
+                    "trust": "Trust Signal",
+                    "expert": "Expert Status"
+                }
+            }
+        }
     },
     "services": {
         "strategy": {
