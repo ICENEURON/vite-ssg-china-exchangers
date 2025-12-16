@@ -1,10 +1,13 @@
 
 import { Button } from "../../../components/ui/button"
 import { Send } from "lucide-react"
+import { useTranslation } from "react-i18next"
 
 export function CTASection() {
+    const { t } = useTranslation("translation", { keyPrefix: "pages.cms.cta" });
+
     return (
-        <section className="py-24 bg-background">
+        <section className="py-16 bg-background">
             <div className="container px-4 mx-auto max-w-4xl text-center">
                 <div className="group relative overflow-hidden rounded-[2.5rem] bg-zinc-950 px-8 py-20 text-center shadow-2xl">
                     {/* Animated background gradient */}
@@ -17,22 +20,17 @@ export function CTASection() {
 
                     <div className="relative z-10 max-w-2xl mx-auto">
                         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-5xl mb-6">
-                            Ready to establish your authority?
+                            {t("title")}
                         </h2>
                         <p className="text-lg text-zinc-400 mb-10">
-                            Join hundreds of elite manufacturers sharing their knowledge. Send your technical insights to our team today.
+                            {t("description")}
                         </p>
 
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <div className="flex flex-row gap-4 justify-center">
                             <Button size="lg" className="h-14 px-8 text-lg rounded-full bg-white text-zinc-950 hover:bg-zinc-200" asChild>
                                 <a href="mailto:editor@china-heatexchangers.com">
                                     <Send className="w-5 h-5 mr-2" />
-                                    Send Email Now
-                                </a>
-                            </Button>
-                            <Button size="lg" variant="outline" className="h-14 px-8 text-lg rounded-full border-zinc-800 text-white hover:bg-zinc-900 hover:text-white" asChild>
-                                <a href="#guidelines">
-                                    Check Requirements
+                                    {t("button")}
                                 </a>
                             </Button>
                         </div>

@@ -89,6 +89,23 @@
             }
         }
     },
+    "process": {
+        "title": "How It Works",
+        "steps": [
+            {
+                "title": "Draft & Prepare",
+                "description": "Write your technical article. Ensure you have high-res photos. Save as .DOCX."
+            },
+            {
+                "title": "Email Submission",
+                "description": "Send to editor@china-heatexchangers.com with the subject '[Submission] - Company - Topic'."
+            },
+            {
+                "title": "Review & Publish",
+                "description": "Our analysts verify technical accuracy within 7 days. Once approved, it goes live."
+            }
+        ]
+    },
     "services": {
         "strategy": {
             "title": "Content Strategy",
@@ -116,7 +133,8 @@
         }
     },
     "cta": {
-        "title": "Ready to scale your content?",
-        "button": "Get Started"
+        "title": "Ready to establish your authority?",
+        "description": "Join hundreds of elite manufacturers sharing their knowledge. Send your technical insights to our team today.",
+        "button": "Send Email Now"
     }
 }
