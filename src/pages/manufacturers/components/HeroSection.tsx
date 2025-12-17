@@ -8,7 +8,7 @@ export function HeroSection() {
         <section className="relative py-32 px-4 overflow-hidden">
             <div className="absolute inset-0 z-0">
                 <img
-                    src="/static/images/manufacturers-hero.png"
+                    src="/static/websites/manufacturers-hero.png"
                     alt="Industrial Facility"
                     className="w-full h-full object-cover"
                 />

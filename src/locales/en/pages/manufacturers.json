@@ -7,7 +7,7 @@
   "og": {
     "title": "HeatEx Direct - Verified Factory Direct",
     "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
-    "image": "/static/images/home-hero.png",
+    "image": "/static/websites/home-hero.png",
     "url": "{{url}}",
     "type": "website",
     "site_name": "{{site_name}}"
@@ -20,5 +20,35 @@
   "card": {
     "verified": "VERIFIED",
     "view_profile": "View Profile"
+  },
+  "company": {
+    "page_title": "Manufacturer Profile",
+    "meta_description_default": "Manufacturer Profile",
+    "premium_supplier": "Premium Supplier",
+    "connect_directly": "Connect Directly",
+    "connect_description": "Get a quote directly from the factory engineering team.",
+    "start_inquiry": "Start Your Inquiry",
+    "verified_contact": "Verified Contact",
+    "response_time": "< {{hours}}h Response",
+    "iso_certified": "ISO Certified",
+    "asme_stamp": "ASME Stamp",
+    "business_license": "Business Lic.",
+    "global_trade": "Global Trade",
+    "verified": "Verified",
+    "not_available": "N/A",
+    "company_overview": "Company Overview",
+    "why_choose_us": "Why Choose Us",
+    "industries_served": "Industries Served",
+    "official_website": "Official Website",
+    "visit_manufacturer": "Visit Manufacturer",
+    "product_showcase": "Product Showcase",
+    "certified_quality": "Certified Quality",
+    "technical_specifications": "Technical Specifications",
+    "factory_certifications": "Factory Certifications",
+    "trusted_customers": "Trusted by Global Leaders",
+    "trusted_customers_desc": "Delivering excellence to major players across industries.",
+    "partner_with": "Partner with {{name}}",
+    "partner_desc": "Get verified quality and direct-from-factory pricing.",
+    "start_project": "Start Your Project Now"
   }
 }

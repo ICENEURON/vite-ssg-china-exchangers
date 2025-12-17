@@ -3,6 +3,7 @@ import footer from './footer.json';
 import home from './pages/home.json';
 import manufacturers from './pages/manufacturers.json';
 import manufacturersList from './pages/manufacturers/list.json';
+import shphe from './pages/manufacturers/shanghai-heat-transfer-equipment-co-ltd.json';
 import rfq from './pages/rfq.json';
 import profile from './pages/claim-your-profile.json';
 import cms from './pages/content-marketing-services.json';
@@ -22,7 +23,8 @@ export default {
     home,
     manufacturers: {
       ...manufacturers,
-      list: manufacturersList
+      list: manufacturersList,
+      'shanghai-heat-transfer-equipment-co-ltd': shphe
     },
     rfq,
     profile,

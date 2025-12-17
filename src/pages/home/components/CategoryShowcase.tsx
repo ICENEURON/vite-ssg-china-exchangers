@@ -11,7 +11,7 @@ export function CategoryShowcase() {
                     {/* Left: Image */}
                     <div className="lg:w-1/2 relative min-h-[200px] lg:min-h-full">
                         <img
-                            src="/static/images/home-hero.png"
+                            src="/static/websites/home-hero.png"
                             alt={t("pages.home.categoryShowcase.alt")}
                             className="absolute inset-0 w-full h-full object-cover"
                         />

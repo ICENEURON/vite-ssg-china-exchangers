@@ -1,235 +1,357 @@
 
 import { Head } from 'vite-react-ssg'
 import { Button } from "../../../components/ui/button"
-import { BadgeCheck, Factory, FlaskConical, Gauge, Zap, ArrowRight, Star, MapPin, CheckCircle2, ShieldCheck, Flame } from "lucide-react"
+import { BadgeCheck, Factory, ArrowRight, Star, MapPin, CheckCircle2, ShieldCheck, Award, Users, Globe2, Sparkles, Zap, Flame, Gauge, Badge } from "lucide-react"
+import { useTranslation } from 'react-i18next'
+
+interface ProductParameter {
+    name: string;
+    value: string;
+}
+
+interface ProductCertificate {
+    name: string;
+    image: string;
+}
+
+interface Product {
+    name: string;
+    image: string;
+    description: string;
+    Parameters?: ProductParameter[];
+    certificate?: ProductCertificate[];
+}
+
+interface SimpleItem {
+    name: string;
+    image: string;
+}
 
 export default function ShpheProfilePage() {
+    const { t } = useTranslation();
+    const TK = "pages.manufacturers.shanghai-heat-transfer-equipment-co-ltd";
+    const SHARED_TK = "pages.manufacturers.company";
+
+    const basicInfo = t(`${TK}.basic_info`, { returnObjects: true }) as any;
+    const verifiedInfo = t(`${TK}.verified_info`, { returnObjects: true }) as any;
+    const description = t(`${TK}.description`);
+    const advantages = t(`${TK}.advantages`, { returnObjects: true }) as string[];
+    const industries = t(`${TK}.industry`, { returnObjects: true }) as string[];
+    const products = t(`${TK}.products`, { returnObjects: true }) as Product[];
+    const website = t(`${TK}.website`);
+    const customers = t(`${TK}.customers`, { returnObjects: true }) as SimpleItem[];
+    const certificates = t(`${TK}.certificates`, { returnObjects: true }) as SimpleItem[];
+
     return (
         <>
             <Head>
-                <title>Shanghai Heat Transfer Equipment Co., Ltd. (SHPHE) - Verified Manufacturer</title>
-                <meta name="description" content="Analyst Verified Profile: SHPHE is a Tech Leader in Wide-Gap and Fully Welded Plate Heat Exchangers. Validated Thermal Lab & Smart Factory." />
+                <title>{basicInfo?.name || t(`${SHARED_TK}.page_title`)} - {t(`${SHARED_TK}.premium_supplier`)}</title>
+                <meta name="description" content={description?.substring(0, 160) || t(`${SHARED_TK}.meta_description_default`)} />
             </Head>
 
-            <main className="min-h-screen bg-background text-foreground">
+            <main className="min-h-screen bg-slate-50/50 dark:bg-zinc-950 text-foreground animate-in fade-in duration-500">
 
-                {/* HERO SECTION */}
-                <section className="relative overflow-hidden py-20 bg-zinc-950 text-white">
-                    {/* Background Effects */}
-                    <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" />
-                    <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-blue-600/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
+                {/* HERO SECTION - Vibrant Dark Gradient */}
+                <section className="relative overflow-hidden py-24 bg-gradient-to-br from-indigo-950 via-slate-900 to-zinc-950 text-white">
+                    {/* Abstract Shapes */}
+                    <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-blue-500/10 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/3" />
+                    <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-purple-500/10 rounded-full blur-[100px] translate-y-1/3 -translate-x-1/4" />
 
-                    <div className="container relative mx-auto px-4 max-w-6xl">
-                        <div className="flex flex-col md:flex-row gap-8 items-start justify-between">
-                            <div>
-                                <div className="flex items-center gap-2 mb-4 text-amber-500 font-bold tracking-wider text-sm uppercase">
-                                    <Star className="w-4 h-4 fill-amber-500" /> Analyst Rating: 5.0 (Tech Leader)
+                    <div className="container relative mx-auto px-4 max-w-7xl">
+                        <div className="flex flex-col lg:flex-row gap-12 items-center justify-between">
+                            <div className="flex-1 space-y-6">
+                                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gradient-to-r from-amber-500/20 to-orange-500/20 border border-amber-500/30 text-amber-300 font-bold tracking-wider text-xs uppercase shadow-[0_0_15px_rgba(245,158,11,0.2)]">
+                                    <Star className="w-3.5 h-3.5 fill-amber-500 text-amber-500" /> {t(`${SHARED_TK}.premium_supplier`)}
                                 </div>
-                                <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-4">
-                                    Shanghai Heat Transfer <br />
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Equipment Co., Ltd.</span>
-                                    <span className="ml-4 text-2xl text-zinc-500 font-normal">(SHPHE)</span>
+
+                                <h1 className="text-4xl lg:text-7xl font-extrabold tracking-tight leading-tight">
+                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-100 via-white to-blue-200 drop-shadow-sm">
+                                        {basicInfo?.name}
+                                    </span>
                                 </h1>
-                                <div className="flex items-center gap-6 text-zinc-400">
-                                    <span className="flex items-center gap-2"><MapPin className="w-4 h-4" /> Jinshan District, Shanghai</span>
-                                    <span className="flex items-center gap-2"><Factory className="w-4 h-4" /> Est. 2005</span>
-                                    <span className="flex items-center gap-2 text-green-400"><BadgeCheck className="w-4 h-4" /> Verified Manufacturer</span>
+
+                                <div className="flex flex-wrap items-center gap-4 text-slate-300 text-sm font-medium">
+                                    {basicInfo?.location && (
+                                        <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
+                                            <MapPin className="w-4 h-4 text-blue-400" /> {basicInfo.location}
+                                        </div>
+                                    )}
+                                    {basicInfo?.established && (
+                                        <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
+                                            <Factory className="w-4 h-4 text-emerald-400" /> Est. {basicInfo.established}
+                                        </div>
+                                    )}
+                                    {basicInfo?.factory_area && (
+                                        <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
+                                            <Globe2 className="w-4 h-4 text-purple-400" /> {basicInfo.factory_area}
+                                        </div>
+                                    )}
                                 </div>
                             </div>
 
-                            {/* RFQ Box */}
-                            <div className="bg-zinc-900/50 backdrop-blur border border-zinc-800 p-6 rounded-2xl w-full md:w-auto min-w-[300px]">
-                                <div className="text-sm font-bold text-zinc-400 mb-4 uppercase">Direct Contact</div>
-                                <Button size="lg" className="w-full h-12 text-lg font-bold bg-blue-600 hover:bg-blue-700" asChild>
-                                    <a href="#rfq">Build RFQ for SHPHE <ArrowRight className="ml-2 w-4 h-4" /></a>
+                            {/* RFQ Box - Frosted Glass */}
+                            <div className="w-full max-w-md bg-white/5 backdrop-blur-md border border-white/10 p-8 rounded-3xl shadow-2xl relative overflow-hidden group">
+                                <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-purple-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
+                                <h3 className="text-xl font-bold text-white mb-2 relative z-10">{t(`${SHARED_TK}.connect_directly`)}</h3>
+                                <p className="text-slate-300 text-sm mb-6 relative z-10">{t(`${SHARED_TK}.connect_description`)}</p>
+
+                                <Button size="lg" className="relative z-10 w-full h-14 text-lg font-bold bg-white text-blue-900 hover:bg-blue-50 shadow-lg transition-all transform hover:scale-[1.02]" asChild>
+                                    <a href={`mailto:rfq@china-heatexchangers.com?subject=RFQ for ${basicInfo?.name}`}>
+                                        {t(`${SHARED_TK}.start_inquiry`)} <ArrowRight className="ml-2 w-5 h-5" />
+                                    </a>
                                 </Button>
-                                <p className="text-xs text-center text-zinc-500 mt-3">Usually responds within 24 hours</p>
+
+                                <div className="mt-6 pt-6 border-t border-white/10 flex items-center justify-between text-xs text-slate-400 relative z-10">
+                                    <span className="flex items-center gap-1.5"><ShieldCheck className="w-3.5 h-3.5 text-emerald-400" /> {t(`${SHARED_TK}.verified_contact`)}</span>
+                                    <span className="flex items-center gap-1.5"><Zap className="w-3.5 h-3.5 text-amber-400" /> {t(`${SHARED_TK}.response_time`, { hours: verifiedInfo?.repid_hours || 24 })}</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
 
-                {/* ANALYST VERIFICATION (Bento Grid) */}
-                <section className="py-16 bg-muted/20">
-                    <div className="container mx-auto px-4 max-w-6xl">
-                        <div className="flex items-center gap-3 mb-8">
-                            <ShieldCheck className="w-8 h-8 text-primary" />
-                            <h2 className="text-2xl font-bold">Analyst Verification Report</h2>
-                        </div>
-
-                        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-
-                            {/* Unique Asset: Lab */}
-                            <div className="md:col-span-2 bg-gradient-to-br from-indigo-600 to-blue-700 text-white p-8 rounded-3xl relative overflow-hidden group">
-                                <FlaskConical className="absolute right-4 bottom-4 w-32 h-32 opacity-20 group-hover:scale-110 transition-transform" />
-                                <div className="relative z-10">
-                                    <h3 className="text-lg font-bold opacity-80 mb-1">Unique Asset</h3>
-                                    <div className="text-3xl font-extrabold mb-4">Thermal Laboratory</div>
-                                    <p className="text-indigo-100 max-w-sm">
-                                        Owns an in-house performance testing lab. Unlike copiers, they verify plate efficiency with real data.
-                                    </p>
-                                </div>
-                            </div>
-
-                            {/* Status: Smart Factory */}
-                            <div className="bg-white dark:bg-zinc-900 border p-6 rounded-3xl flex flex-col justify-between hover:border-primary/50 transition-colors">
-                                <Factory className="w-10 h-10 text-emerald-500 mb-4" />
-                                <div>
-                                    <div className="text-sm text-muted-foreground font-bold uppercase mb-1">Facility</div>
-                                    <div className="text-xl font-bold mb-2">Smart Factory</div>
-                                    <p className="text-sm text-muted-foreground">Automated welding robots & digital tracking.</p>
-                                </div>
-                            </div>
-
-                            {/* Identity: Verified */}
-                            <div className="bg-white dark:bg-zinc-900 border p-6 rounded-3xl flex flex-col justify-between hover:border-primary/50 transition-colors">
-                                <BadgeCheck className="w-10 h-10 text-blue-500 mb-4" />
-                                <div>
-                                    <div className="text-sm text-muted-foreground font-bold uppercase mb-1">Identity</div>
-                                    <div className="text-xl font-bold mb-2">Verified</div>
-                                    <p className="text-sm text-muted-foreground">High-Tech Enterprise registered in Shanghai.</p>
-                                </div>
-                            </div>
-
-                            {/* Product Focus (Full Width) */}
-                            <div className="md:col-span-4 bg-zinc-950 text-zinc-300 p-6 rounded-3xl border border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-6">
-                                <div className="flex items-center gap-4">
-                                    <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
-                                        <Flame className="w-6 h-6 text-orange-500" />
-                                    </div>
-                                    <div>
-                                        <div className="text-sm font-bold text-zinc-500 uppercase">Product Focus</div>
-                                        <div className="text-xl font-bold text-white">Difficult Fluids Specialist</div>
+                {/* VERIFICATION STRIP - Clean & Trustworthy */}
+                <div className="border-b bg-white dark:bg-zinc-900 shadow-sm sticky top-0 z-40 backdrop-blur-xl bg-white/80 dark:bg-zinc-900/80">
+                    <div className="container mx-auto px-4 max-w-7xl">
+                        <div className="flex justify-between divide-x divide-slate-100 dark:divide-zinc-800 overflow-x-auto">
+                            {[
+                                { icon: ShieldCheck, label: t(`${SHARED_TK}.iso_certified`), active: verifiedInfo?.iso, color: "text-emerald-500" },
+                                { icon: Award, label: t(`${SHARED_TK}.asme_stamp`), active: verifiedInfo?.ASME, color: "text-blue-500" },
+                                { icon: BadgeCheck, label: t(`${SHARED_TK}.business_license`), active: verifiedInfo?.business_license, color: "text-purple-500" },
+                                { icon: Globe2, label: t(`${SHARED_TK}.global_trade`), active: verifiedInfo?.export_experience, color: "text-indigo-500" }
+                            ].map((item, index) => (
+                                <div key={index} className="flex-1 py-4 px-4 flex flex-col sm:flex-row items-center justify-center gap-3 hover:bg-slate-50 dark:hover:bg-zinc-800 transition-colors min-w-[120px]">
+                                    <item.icon className={`w-6 h-6 ${item.active ? item.color : "text-slate-300"}`} />
+                                    <div className="text-center sm:text-left leading-tight">
+                                        <div className={`font-bold text-sm ${item.active ? "text-slate-900 dark:text-white" : "text-slate-400"}`}>{item.label}</div>
+                                        <div className="text-[10px] uppercase tracking-wider text-slate-500">{item.active ? t(`${SHARED_TK}.verified`) : t(`${SHARED_TK}.not_available`)}</div>
                                     </div>
                                 </div>
-                                <div className="flex gap-2">
-                                    <span className="px-3 py-1 bg-zinc-900 rounded-full border border-zinc-800 text-sm">Welded Units</span>
-                                    <span className="px-3 py-1 bg-zinc-900 rounded-full border border-zinc-800 text-sm">Wide-Gap</span>
-                                    <span className="px-3 py-1 bg-zinc-900 rounded-full border border-zinc-800 text-sm">Complex Media</span>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
+                {/* MAIN CONTENT AREA */}
+                <div className="container mx-auto px-4 max-w-7xl py-12 lg:py-16">
+
+                    {/* 1. OVERVIEW & ADVANTAGES (Combined Flow) */}
+                    <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 mb-20">
+                        <div className="lg:col-span-8 space-y-8">
+                            {/* Description Card */}
+                            <div className="bg-white dark:bg-zinc-900 p-8 rounded-3xl border border-slate-100 dark:border-zinc-800 shadow-sm">
+                                <h2 className="text-2xl font-bold mb-6 flex items-center gap-3 text-slate-800 dark:text-white">
+                                    <Factory className="w-6 h-6 text-blue-600" /> {t(`${SHARED_TK}.company_overview`)}
+                                </h2>
+                                <div className="text-slate-600 dark:text-slate-300 leading-relaxed text-lg whitespace-pre-line">
+                                    {description}
+                                </div>
+                            </div>
+
+                            {/* Advantages - Single Line List Style */}
+                            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/10 dark:to-indigo-900/10 p-8 rounded-3xl border border-blue-100 dark:border-blue-900/30">
+                                <h3 className="text-xl font-bold mb-6 flex items-center gap-2 text-blue-900 dark:text-blue-100">
+                                    <Sparkles className="w-5 h-5 text-amber-500" /> {t(`${SHARED_TK}.why_choose_us`)}
+                                </h3>
+                                <div className="space-y-4">
+                                    {advantages?.map((adv, i) => (
+                                        <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-white dark:bg-zinc-900/50 border border-transparent shadow-sm hover:border-blue-200 transition-all">
+                                            <div className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center shrink-0 mt-0.5">
+                                                <CheckCircle2 className="w-5 h-5 text-blue-600 dark:text-blue-400" />
+                                            </div>
+                                            <span className="font-medium text-slate-800 dark:text-slate-200 text-lg leading-relaxed">{adv}</span>
+                                        </div>
+                                    ))}
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
 
-                {/* EXECUTIVE SUMMARY */}
-                <section className="py-16">
-                    <div className="container mx-auto px-4 max-w-4xl">
-                        <h2 className="text-3xl font-bold mb-6">Executive Summary</h2>
-                        <div className="prose dark:prose-invert max-w-none text-lg leading-relaxed text-muted-foreground">
-                            <p>
-                                <strong>Shanghai Heat Transfer Equipment Co., Ltd. (SHPHE)</strong> is a premier solution provider for the process industry.
-                                Founded in 2005, they have moved beyond simple manufacturing to become a <strong>System Integrator</strong>.
-                                Their strength lies in handling "difficult" fluids. While many suppliers fail when dealing with clogging fibers or aggressive acids,
-                                SHPHE excels by offering specialized <strong>Wide Gap</strong> (Free Flow) and <strong>HT-Bloc</strong> (Fully Welded) technologies.
-                            </p>
-                            <div className="my-8 grid md:grid-cols-2 gap-6 not-prose">
-                                <div className="p-6 bg-blue-50 dark:bg-blue-900/20 rounded-xl border border-blue-100 dark:border-blue-900">
-                                    <h4 className="font-bold text-blue-700 dark:text-blue-300 mb-2 flex items-center gap-2">
-                                        <FlaskConical className="w-5 h-5" /> Reliability
-                                    </h4>
-                                    <p className="text-sm">Their in-house Thermal Lab means they don't guess—they test. You get guaranteed performance data.</p>
-                                </div>
-                                <div className="p-6 bg-orange-50 dark:bg-orange-900/20 rounded-xl border border-orange-100 dark:border-orange-900">
-                                    <h4 className="font-bold text-orange-700 dark:text-orange-300 mb-2 flex items-center gap-2">
-                                        <Zap className="w-5 h-5" /> Advanced Tech
-                                    </h4>
-                                    <p className="text-sm">One of the few Chinese manufacturers producing PCHE (Printed Circuit Heat Exchangers) and Plate Air Preheaters.</p>
+                        {/* Sidebar - Info Cards */}
+                        <div className="lg:col-span-4 space-y-6">
+                            {/* Industries Tag Cloud */}
+                            <div className="bg-white dark:bg-zinc-900 p-6 rounded-3xl border border-slate-100 dark:border-zinc-800 shadow-sm h-fit">
+                                <h3 className="font-bold mb-4 flex items-center gap-2 text-slate-800 dark:text-white">
+                                    <Flame className="w-5 h-5 text-orange-500" /> {t(`${SHARED_TK}.industries_served`)}
+                                </h3>
+                                <div className="flex flex-wrap gap-2">
+                                    {industries?.map((ind, i) => (
+                                        <span key={i} className="px-3 py-1.5 rounded-full bg-orange-50 text-orange-700 border border-orange-100 dark:bg-orange-900/20 dark:text-orange-300 dark:border-orange-900/30 text-sm font-medium">
+                                            {ind}
+                                        </span>
+                                    ))}
                                 </div>
                             </div>
+
+                            {/* Website Link */}
+                            {website && (
+                                <a
+                                    href={website}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="group block bg-gradient-to-r from-slate-900 to-slate-800 text-white p-6 rounded-3xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all"
+                                >
+                                    <div className="flex justify-between items-center mb-2">
+                                        <span className="text-sm font-bold opacity-60 uppercase tracking-widest">{t(`${SHARED_TK}.official_website`)}</span>
+                                        <Globe2 className="w-5 h-5 opacity-60 group-hover:opacity-100 transition-opacity" />
+                                    </div>
+                                    <div className="text-lg font-bold truncate text-blue-200 group-hover:text-white transition-colors">
+                                        {t(`${SHARED_TK}.visit_manufacturer`)} &rarr;
+                                    </div>
+                                </a>
+                            )}
                         </div>
                     </div>
-                </section>
 
-                {/* TECHNICAL CAPABILITIES (Styled Table) */}
-                <section className="py-16 bg-muted/20">
-                    <div className="container mx-auto px-4 max-w-5xl">
-                        <h2 className="text-3xl font-bold mb-8 text-center">Technical Capabilities</h2>
-                        <div className="bg-card rounded-2xl shadow-sm border overflow-hidden">
-                            <div className="grid grid-cols-1 divide-y">
-                                {[
-                                    { label: "Key Technology", value: "HT-Bloc (Fully Welded, Compabloc-style)" },
-                                    { label: "Max Pressure", value: "30 Bar (Gasketed) / 60+ Bar (Welded)" },
-                                    { label: "Temperature", value: "Up to 350°C (HT-Bloc) / 900°C (Air Preheater)" },
-                                    { label: "Plate Materials", value: "SS304/316L, Titanium, Hastelloy, SMO254, Nickel 201" },
-                                    { label: "Applications", value: "Oil Refining, Pharmaceutical, Wastewater, Sugar & Ethanol" }
-                                ].map((row, i) => (
-                                    <div key={i} className="grid md:grid-cols-3 p-6 hover:bg-muted/50 transition-colors">
-                                        <div className="font-bold text-muted-foreground md:col-span-1">{row.label}</div>
-                                        <div className="font-semibold md:col-span-2 text-foreground">{row.value}</div>
+                    {/* 2. PRODUCT SHOWCASE - Compact & Colorful */}
+                    <div className="mb-20">
+                        <div className="flex items-center gap-4 mb-8">
+                            <h2 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white">{t(`${SHARED_TK}.product_showcase`)}</h2>
+                            <div className="h-1 flex-1 bg-slate-100 dark:bg-zinc-800 rounded-full" />
+                        </div>
+
+                        <div className="grid grid-cols-1 gap-8">
+                            {products?.map((product, index) => (
+                                <div key={index} className="flex flex-col lg:flex-row bg-white dark:bg-zinc-900 rounded-[2rem] overflow-hidden border border-slate-200 dark:border-zinc-800 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-xl transition-all duration-300 group">
+                                    {/* Image Section - Significantly Larger */}
+                                    <div className="lg:w-2/5 bg-slate-50 dark:bg-zinc-950 flex flex-col items-center justify-center p-8 border-b lg:border-b-0 lg:border-r border-slate-100 dark:border-zinc-800 relative">
+                                        {product.image ? (
+                                            <div className="w-full relative rounded-2xl overflow-hidden bg-white shadow-sm p-4">
+                                                <img src={product.image} alt={product.name} className="w-full h-auto object-contain hover:scale-105 transition-transform duration-500" />
+                                            </div>
+                                        ) : (
+                                            <Gauge className="w-24 h-24 text-slate-300" />
+                                        )}
+
+                                        {/* Product Certificates Overlay/Bottom */}
+                                        {product.certificate && product.certificate.length > 0 && (
+                                            <div className="mt-6 w-full">
+                                                <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3 text-center">{t(`${SHARED_TK}.certified_quality`)}</p>
+                                                <div className="flex flex-wrap justify-center gap-3">
+                                                    {product.certificate.map((cert, cIdx) => (
+                                                        <div key={cIdx} className="bg-white dark:bg-zinc-900 p-2 rounded-lg border border-slate-100 dark:border-zinc-800 shadow-sm" title={cert.name}>
+                                                            {cert.image ? (
+                                                                <img src={cert.image} alt={cert.name} className="h-8 md:h-10 w-auto object-contain" />
+                                                            ) : (
+                                                                <span className="text-xs font-bold text-slate-600">{cert.name}</span>
+                                                            )}
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        )}
+                                    </div>
+
+                                    {/* Content Section */}
+                                    <div className="flex-1 p-8 lg:p-10 flex flex-col">
+                                        <div className="mb-6">
+                                            <h3 className="text-2xl lg:text-3xl font-bold text-slate-900 dark:text-white leading-tight mb-4 group-hover:text-blue-600 transition-colors">
+                                                {product.name}
+                                            </h3>
+
+                                            {/* Full Description */}
+                                            {product.description && (
+                                                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-lg">
+                                                    {product.description}
+                                                </p>
+                                            )}
+                                        </div>
+
+                                        {/* Parameters Grid */}
+                                        {product.Parameters && product.Parameters.length > 0 && (
+                                            <div className="mt-auto">
+                                                <h4 className="text-sm font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
+                                                    <Zap className="w-4 h-4 text-amber-500" /> {t(`${SHARED_TK}.technical_specifications`)}
+                                                </h4>
+                                                <div className="grid sm:grid-cols-2 gap-3">
+                                                    {product.Parameters.map((param, pIdx) => (
+                                                        <div key={pIdx} className="flex justify-between items-center p-3 rounded-xl bg-slate-50 dark:bg-zinc-950/50 border border-slate-100 dark:border-zinc-800">
+                                                            <span className="text-sm font-medium text-slate-500">{param.name}</span>
+                                                            <span className="text-sm font-bold text-slate-900 dark:text-white">{param.value}</span>
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        )}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* 3. FACTORY CERTIFICATES */}
+                    <div className="mb-20">
+                        <div className="bg-white dark:bg-zinc-900 rounded-[2rem] p-8 lg:p-10 border border-slate-100 dark:border-zinc-800 shadow-sm relative overflow-hidden">
+                            <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/5 rounded-bl-[100px]" />
+                            <h3 className="text-2xl font-bold mb-8 flex items-center gap-3 relative z-10">
+                                <div className="p-3 bg-blue-100 text-blue-600 rounded-xl">
+                                    <Award className="w-6 h-6" />
+                                </div>
+                                {t(`${SHARED_TK}.factory_certifications`)}
+                            </h3>
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 relative z-10">
+                                {certificates?.map((cert, i) => (
+                                    <div key={i} className="group relative bg-slate-50 dark:bg-zinc-950 rounded-2xl p-6 flex flex-col items-center justify-center text-center hover:bg-white hover:shadow-lg border border-transparent hover:border-slate-200 transition-all duration-300">
+                                        {cert.image && (
+                                            <div className="h-24 w-full flex items-center justify-center mb-4">
+                                                <img src={cert.image} alt={cert.name} className="max-h-full max-w-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300" />
+                                            </div>
+                                        )}
+                                        <span className="text-sm font-bold text-slate-500 group-hover:text-slate-800 dark:group-hover:text-slate-200 transition-colors">{cert.name}</span>
                                     </div>
                                 ))}
                             </div>
                         </div>
                     </div>
-                </section>
 
-                {/* PRODUCT PORTFOLIO */}
-                <section className="py-16">
-                    <div className="container mx-auto px-4 max-w-6xl">
-                        <h2 className="text-3xl font-bold mb-12 text-center">Core Solutions</h2>
-                        <div className="grid md:grid-cols-3 gap-8">
+                    {/* 4. TRUSTED CUSTOMERS - Replaced at text bottom */}
+                    <div className="mb-12">
+                        <div className="bg-white dark:bg-zinc-900 rounded-[2rem] p-8 lg:p-10 border border-slate-100 dark:border-zinc-800 shadow-sm relative overflow-hidden">
+                            <div className="absolute top-0 left-0 w-64 h-64 bg-amber-500/5 rounded-br-[100px]" />
 
-                            {/* HT-Bloc */}
-                            <div className="group border rounded-2xl p-8 hover:shadow-xl hover:border-primary/50 transition-all">
-                                <div className="w-14 h-14 bg-blue-100 dark:bg-blue-900/30 text-blue-600 rounded-xl flex items-center justify-center mb-6">
-                                    <Gauge className="w-7 h-7" />
+                            <div className="text-center max-w-2xl mx-auto mb-10 relative z-10">
+                                <div className="inline-flex p-3 bg-amber-100 text-amber-600 rounded-2xl mb-4">
+                                    <Users className="w-6 h-6" />
                                 </div>
-                                <h3 className="text-xl font-bold mb-3">HT-Bloc Welded</h3>
-                                <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
-                                    A rectangular, fully welded unit with no gaskets. Combines Shell & Tube pressure with Plate efficiency.
-                                </p>
-                                <div className="text-xs font-bold text-primary uppercase tracking-wider">Cross-flow Cleanable</div>
+                                <h3 className="text-2xl font-bold mb-2">{t(`${SHARED_TK}.trusted_customers`)}</h3>
+                                <p className="text-slate-500">{t(`${SHARED_TK}.trusted_customers_desc`)}</p>
                             </div>
 
-                            {/* Wide Gap */}
-                            <div className="group border rounded-2xl p-8 hover:shadow-xl hover:border-primary/50 transition-all">
-                                <div className="w-14 h-14 bg-green-100 dark:bg-green-900/30 text-green-600 rounded-xl flex items-center justify-center mb-6">
-                                    <Factory className="w-7 h-7" />
-                                </div>
-                                <h3 className="text-xl font-bold mb-3">Wide Gap (Free Flow)</h3>
-                                <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
-                                    Deep channels (up to 12mm) allow particles and fibers to pass without clogging. Ideal for Pulp & Paper.
-                                </p>
-                                <div className="text-xs font-bold text-primary uppercase tracking-wider">Anti-Clogging</div>
+                            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 relative z-10">
+                                {customers?.map((cust, i) => (
+                                    <div key={i} className="aspect-square bg-slate-50 dark:bg-zinc-950 rounded-2xl p-6 flex flex-col items-center justify-center text-center hover:bg-white hover:shadow-lg border border-transparent hover:border-amber-200 transition-all duration-300 group">
+                                        {cust.image ? (
+                                            <img src={cust.image} alt={cust.name} className="w-full h-full object-contain opacity-60 group-hover:opacity-100 filter grayscale group-hover:grayscale-0 transition-all duration-500" />
+                                        ) : (
+                                            <div className="w-12 h-12 rounded-full bg-slate-200 flex items-center justify-center mb-2">
+                                                <span className="font-bold text-slate-500">{cust.name[0]}</span>
+                                            </div>
+                                        )}
+                                        <span className="mt-2 text-[10px] font-bold text-slate-400 group-hover:text-slate-600 opacity-0 group-hover:opacity-100 transition-all">{cust.name}</span>
+                                    </div>
+                                ))}
                             </div>
-
-                            {/* Air Preheater */}
-                            <div className="group border rounded-2xl p-8 hover:shadow-xl hover:border-primary/50 transition-all">
-                                <div className="w-14 h-14 bg-orange-100 dark:bg-orange-900/30 text-orange-600 rounded-xl flex items-center justify-center mb-6">
-                                    <Flame className="w-7 h-7" />
-                                </div>
-                                <h3 className="text-xl font-bold mb-3">Plate Air Preheater</h3>
-                                <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
-                                    Heavy-duty welded plates designed to recover heat from industrial exhaust gas. Modular block design.
-                                </p>
-                                <div className="text-xs font-bold text-primary uppercase tracking-wider">High Temp 900°C</div>
-                            </div>
-
                         </div>
                     </div>
-                </section>
 
-                {/* CTA */}
-                <section id="rfq" className="py-24 bg-zinc-950 text-white relative overflow-hidden">
-                    <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px]" />
-                    <div className="container relative mx-auto px-4 text-center max-w-3xl">
-                        <h2 className="text-4xl font-extrabold mb-6">Ready to Request a Quote?</h2>
-                        <p className="text-xl text-zinc-400 mb-10">
-                            Need a solution for high pressure or dirty fluids? Connect with SHPHE's technical team for a custom proposal.
+                </div>
+
+                {/* FINAL CTA - Gradient */}
+                <section className="py-20 bg-gradient-to-br from-indigo-900 to-blue-900 text-white text-center relative overflow-hidden">
+                    <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20" />
+                    <div className="container relative mx-auto px-4 max-w-2xl">
+                        <BadgeCheck className="w-12 h-12 text-blue-300 mx-auto mb-6 opacity-80" />
+                        <h2 className="text-3xl md:text-5xl font-extrabold mb-6 tracking-tight">
+                            {t(`${SHARED_TK}.partner_with`, { name: basicInfo?.name })}
+                        </h2>
+                        <p className="text-blue-100 mb-10 text-lg">
+                            {t(`${SHARED_TK}.partner_desc`)}
                         </p>
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Button size="lg" className="h-14 px-8 text-lg font-bold rounded-full bg-blue-600 hover:bg-blue-700" asChild>
-                                <a href="mailto:rfq@china-heatexchangers.com?subject=RFQ for SHPHE">
-                                    Build RFQ for SHPHE
-                                </a>
-                            </Button>
-                            <Button size="lg" variant="outline" className="h-14 px-8 text-lg rounded-full border-zinc-700 text-white hover:bg-zinc-800" asChild>
-                                <a href="mailto:support@china-heatexchangers.com">
-                                    Contact Support
-                                </a>
-                            </Button>
-                        </div>
+                        <Button size="lg" className="h-16 px-10 text-xl font-bold rounded-full bg-white text-blue-900 hover:bg-blue-50 hover:scale-105 transition-all shadow-xl" asChild>
+                            <a href="mailto:rfq@china-heatexchangers.com?subject=Inquiry">
+                                {t(`${SHARED_TK}.start_project`)}
+                            </a>
+                        </Button>
                     </div>
                 </section>
 

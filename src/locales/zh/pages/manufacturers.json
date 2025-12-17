@@ -7,7 +7,7 @@
   "og": {
     "title": "HeatEx Direct - Verified Factory Direct",
     "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
-    "image": "/static/images/home-hero.png",
+    "image": "/static/websites/home-hero.png",
     "url": "{{url}}",
     "type": "website",
     "site_name": "{{site_name}}"
