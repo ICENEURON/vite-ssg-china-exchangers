@@ -1,0 +1,74 @@
+{
+    "basic_info": {
+        "name": "Shanghai Heat Transfer Equipment Co., Ltd.",
+        "established": "2005",
+        "location": "Shanghai, China",
+        "factory_area": "20000m2",
+        "product_number": "16+",
+        "exported_country": "20+"
+    },
+    "verified_info": {
+        "iso": true,
+        "ASME": true,
+        "business_license": true,
+        "export_experience": true,
+        "repid_hours": 24
+    },
+    "description": "Shanghai Heat Transfer Equipment Co., Ltd. is a leading manufacturer of heat exchangers and heat transfer equipment. With over 20 years of experience in the industry, the company has established itself as a reliable supplier of high-quality heat exchangers and heat transfer equipment. The company's products are used in a wide range of applications, including chemical processing, food and beverage, and pharmaceuticals.",
+    "advantages": [
+        "1",
+        "2",
+        "3"
+    ],
+    "industry": [
+        "Chemical Processing",
+        "Food and Beverage",
+        "Pharmaceuticals"
+    ],
+    "products": [
+        {
+            "name": "wide gap welded plate heat exchangers",
+            "image": "/static/images/products/wide-gap-welded-plate-heat-exchangers.jpg",
+            "description": ""
+        },
+        {
+            "name": "shell and tube heat exchangers",
+            "image": "/static/images/products/shell-and-tube-heat-exchangers.jpg",
+            "description": ""
+        },
+        {
+            "name": "TP welded plate heat exchangers",
+            "image": "/static/images/products/tp-welded-plate-heat-exchangers.jpg",
+            "description": ""
+        }
+    ],
+    "website": "https://www.shanghaiheattransfer.com",
+    "customers": [
+        {
+            "name": "Customer 1",
+            "image": "/static/images/customers/customer-1.jpg"
+        },
+        {
+            "name": "Customer 2",
+            "image": "/static/images/customers/customer-2.jpg"
+        },
+        {
+            "name": "Customer 3",
+            "image": "/static/images/customers/customer-3.jpg"
+        }
+    ],
+    "certificates": [
+        {
+            "name": "ISO 9001",
+            "image": "/static/images/certificates/iso-9001.jpg"
+        },
+        {
+            "name": "ASME",
+            "image": "/static/images/certificates/asme.jpg"
+        },
+        {
+            "name": "Business License",
+            "image": "/static/images/certificates/business-license.jpg"
+        }
+    ]
+}

@@ -36,9 +36,11 @@ export function ManufacturerCard({ company }: { company: ManufacturerProps }) {
 
             <div className="flex-1 min-w-0 pr-8"> {/* Added padding-right to prevent overlap with badge */}
                 <div className="flex flex-col md:flex-row md:items-start justify-between gap-2 mb-2">
-                    <h3 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors min-w-0 leading-tight">
-                        {company.name}
-                    </h3>
+                    <a href={company.link}>
+                        <h3 className="text-xl font-bold text-foreground hover:text-primary transition-colors min-w-0 leading-tight hover:underline">
+                            {company.name}
+                        </h3>
+                    </a>
                 </div>
 
                 <div className="flex flex-wrap items-center gap-4 text-sm text-foreground italic mb-4">
