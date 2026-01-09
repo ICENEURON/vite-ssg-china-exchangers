@@ -1,0 +1,52 @@
+
+import { Badge } from "../../../components/ui/badge";
+import type { Post } from ".velite";
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
+interface NewsHeroProps {
+    post: Post;
+}
+
+export function NewsHero({ post }: NewsHeroProps) {
+    const { t } = useTranslation("translation");
+
+    return (
+        <div className="relative w-full overflow-hidden rounded-xl text-white shadow-xl group">
+            {/* Background Image */}
+            <div
+                className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                style={{
+                    backgroundImage: post.cover ? `url(${post.cover})` : `radial-gradient(circle at 10% 20%, rgba(20, 20, 35, 0.9) 0%, rgba(15, 23, 42, 0) 90%), url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23334155' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+                    filter: 'brightness(0.6)'
+                }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t via-slate-950/60 to-transparent" />
+
+            <div className="relative z-10 flex flex-col justify-end p-8 md:p-12 lg:h-[400px]">
+                <div className="space-y-2 max-w-3xl">
+                    <div className="flex items-center gap-3">
+                        <Badge variant="secondary" className="bg-blue-200/80 text-accent border-blue-400/50 hover:bg-blue-200">
+                            {t("pages.news.hero.badge")}
+                        </Badge>
+                        <span className="text-sm text-muted-foreground font-medium">
+                            {new Date(post.date).toISOString().split('T')[0]}
+                        </span>
+                    </div>
+
+                    <Link to={post.permalink} className="hover:text-accent hover:underline decoration-accent underline-offset-2">
+                        <h1 className="font-bold tracking-tight text-white leading-tight">
+                            {post.title}
+                        </h1>
+                    </Link>
+
+                    {post.excerpt && (
+                        <p className="mt-4 text-lg text-muted-foreground md:w-3/4 leading-relaxed line-clamp-3">
+                            {post.excerpt}
+                        </p>
+                    )}
+                </div>
+            </div>
+        </div>
+    );
+}

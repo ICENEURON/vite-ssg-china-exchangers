@@ -3,8 +3,8 @@ import type { ComponentType } from "react"
 import HomePage from "../../pages/home"
 
 import ManufacturersPage from "../../pages/manufacturers"
+import ShphePage from "../../pages/manufacturers/shanghai-heat-transfer-equipment-co-ltd"
 import FaqPage from "../../pages/rfq"
-import ProductsPage from "../../pages/products"
 
 import AboutPage from "../../pages/about"
 import DocsPage from "../../pages/claim-your-profile"
@@ -45,17 +45,16 @@ const allRoutes: RouteDef[] = [
     { path: "/", element: HomePage, auth: "public", nav: "none", mobile: "none" },
 
     { path: "/manufacturers", element: ManufacturersPage, auth: "public", nav: "public", mobile: "public", label: "Manufacturers", translationKey: "navigation.menu.manufacturers" },
+    { path: "/manufacturers/shanghai-heat-transfer-equipment-co-ltd", element: ShphePage, auth: "public", nav: "none", mobile: "none" },
+    { path: "/manufacturers/jiangsu-pioneer-machinery", element: ShphePage, auth: "public", nav: "none", mobile: "none" },
+    { path: "/manufacturers/lanzhou-ls-heavy-equipment", element: ShphePage, auth: "public", nav: "none", mobile: "none" },
     { path: "/rfq", element: FaqPage, auth: "public", nav: "none", mobile: "public", label: "RFQ", translationKey: "navigation.menu.rfq" },
-    { path: "/products", element: ProductsPage, auth: "public", nav: "none", mobile: "public", label: "Products", translationKey: "navigation.menu.products" },
 
     { path: "/claim-your-profile", element: DocsPage, auth: "public", nav: "public", mobile: "public", label: "Claim Your Profile", translationKey: "navigation.menu.profile" },
 
-    { path: "/about", element: AboutPage, auth: "public", nav: "public", mobile: "public", label: "About", translationKey: "navigation.menu.about" },
-
     { path: "/content-marketing-services", element: ContentMarketingServicesPage, auth: "public", nav: "none", mobile: "public", label: "Content Marketing", translationKey: "navigation.menu.content_marketing_services" },
 
-
-    // { path: "/components", element: ComponentsPage, auth: "public", nav: "public", mobile: "public", label: "Components", translationKey: "navigation.menu.components" },
+    { path: "/about", element: AboutPage, auth: "public", nav: "public", mobile: "public", label: "About", translationKey: "navigation.menu.about" },
 
     // Blog routes
     ...(enableBlog ? [

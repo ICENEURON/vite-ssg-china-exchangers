@@ -2,6 +2,9 @@
 title: Mastering React Hooks
 slug: mastering-react-hooks
 date: 2024-03-22
+author: "John Doe"
+reviewer: "Jane Smith"
+readTime: 3 minutes
 excerpt: A deep dive into essential React Hooks like useState, useEffect, and useMemo.
 metaTitle: "Mastering React Hooks: useState, useEffect, useMemo"
 metaDescription: "Deep dive into essential React Hooks and how to use them effectively in your applications."

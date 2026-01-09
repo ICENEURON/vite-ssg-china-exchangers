@@ -1,49 +1,103 @@
 {
-  "title": "About This Starter Template",
+  "title": "HeatEx Direct | Industrial Heat Exchangers Manufacturer",
   "meta": {
-    "description": "Learn about the philosophy, tech stack, and goals behind this React Vite SSG Starter Template.",
-    "keywords": "about, react starter, vite template, tech stack, philosophy"
+    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+    "keywords": "Heat Exchangers, China Manufacturer, Industrial Sourcing, ASME, ISO, Plate Heat Exchangers, Shell & Tube"
+  },
+  "og": {
+    "title": "HeatEx Direct - Verified Factory Direct",
+    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+    "image": "/static/websites/home-hero.png",
+    "url": "{{url}}",
+    "type": "website",
+    "site_name": "{{site_name}}"
   },
   "hero": {
-    "title": "About This Project",
-    "subtitle": "Built for performance, scalability, and developer experience.",
-    "intro1": "This starter template was created to solve the common problem of setting up a new React project from scratch. It opionatedly combines the best tools in the ecosystem to provide a rock-solid foundation.",
-    "intro2": "Whether you are a solo developer or part of a large team, having a consistent, well-configured starting point saves substantial time and prevents technical debt."
+    "badge": "Wait Less. Source Better.",
+    "title": "We are Heat<1>Ex</1> Direct.",
+    "title_highlight": "The Shortest Path to Verified Manufacturers.",
+    "description_1": "The world doesn't need another directory of 10,000 random suppliers. It needs a shortlist of the 10 best.",
+    "description_2_prefix": "We bridge the",
+    "description_2_highlight": "\"Trust Gap\"",
+    "description_2_suffix": "so you don't have to."
   },
-  "sections": {
-    "mission": {
-      "title": "Our Mission",
-      "paragraphs": [
-        "We believe that web development should be fast, accessible, and enjoyable. Too often, developers get bogged down in configuration hell, spending hours setting up linters, build tools, and testing frameworks before writing a single line of product code.",
-        "Our mission is to eliminate that friction. By providing a pre-configured environment that follows industry best practices, we empower developers to focus on what matters most: building great user experiences.",
-        "This template is not just a collection of files; it's a curated set of decisions that have been battle-tested in production environments."
-      ]
+  "who_we_are": {
+    "badge": "Our Identity",
+    "title": "The Trusted Bridge to China's Industrial Core",
+    "description": "In an era where AI generates endless content, the value of manual, on-the-ground verification is more precious than ever. We exist to cut through the noise. We are not just a directory; we are a technical verification platform dedicated to unearthing the 'Hidden Champions' of the heat exchanger industry—companies that possess world-class engineering capabilities but lack the global visibility they deserve.",
+    "features": {
+      "experience": {
+        "title": "10+ Years of Insight",
+        "desc": "Deep roots in the local supply chain allow us to distinguish between intermediaries and true manufacturers, ensuring you deal directly with the source."
+      },
+      "verification": {
+        "title": "Rigorous Verification",
+        "desc": "We validate business licenses, production capacity, and ASME/ISO certifications manually. We replace 'claimed' quality with 'proven' reality."
+      },
+      "connect": {
+        "title": "Global Connection",
+        "desc": "Building a bridge of trust. We go beyond translation to align engineering standards and business expectations, creating a reliable path for global trade."
+      }
     },
-    "techStack": {
-      "title": "The Tech Stack",
-      "items": [
-        "**React 18**: The library for web and native user interfaces.",
-        "**Vite**: Next Generation Frontend Tooling for lightning-fast HMR and builds.",
-        "**Tailwind CSS**: A utility-first CSS framework for rapid UI development.",
-        "**Shadcn UI**: Beautifully designed components that you can copy and paste into your apps.",
-        "**TypeScript**: Strongly typed JavaScript for better tooling and fewer bugs."
-      ]
-    },
-    "philosophy": {
-      "title": "Design Philosophy",
-      "paragraphs": [
-        "**Simplicity over Complexity**: We prefer simple, explicit code over complex abstractions. If a feature isn't essential, it's not included.",
-        "**Performance First**: Every decision, from SSG to image optimization, is made with end-user performance in mind.",
-        "**Accessibility Matters**: We believe the web is for everyone. All included components are built with accessibility (a11y) as a priority, ensuring your app works for all users."
-      ]
-    },
-    "community": {
-      "title": "Open Source",
-      "paragraphs": [
-        "This project is open source and community-driven. We assume no one person has all the answers, and we welcome contributions, bug reports, and feature requests.",
-        "By building in the open, we ensure that the template evolves with the ecosystem and remains relevant for years to come.",
-        "Feel free to fork this repository, customize it for your needs, and share your improvements back with the community."
-      ]
+    "transparency": {
+      "title": "Our Business Model",
+      "subtitle": "100% Free for Buyers",
+      "desc": "We do not charge you any fees. You are free to access all our verified information and contact factories directly. We are happy simply to facilitate a win-win transaction. If you choose to let the factory know we helped, we receive a reasonable referral fee from them—but our primary goal is always your satisfaction."
     }
+  },
+  "advantages": {
+    "badge": "Our Advantage",
+    "title": "Sourcing, Simplified & Secure.",
+    "description_1": "Your privacy is our priority. Direct exposure results in unsolicited spam and gives vendors leverage. We protect your identity until you're ready to deal.",
+    "description_2": "Time is your most valuable asset. Traditional vetting takes 4-6 weeks per supplier. We condense this into a single, efficient process, delivering a verified shortlist and competitive quotes in as little as 48 hours.",
+    "visual": {
+      "header_standard": "Traditional Sourcing",
+      "header_us": "HeatEx Direct",
+      "row_1": {
+        "standard": "Repetitive Emails",
+        "us": "One-Stop Efficient Sourcing"
+      },
+      "row_2": {
+        "standard": "Limited Options",
+        "us": "Global Comparison"
+      },
+      "row_3": {
+        "standard": "Information Leakage",
+        "us": "Privacy Protection"
+      },
+      "footer": "Save time. Protect privacy."
+    }
+  },
+  "verification": {
+    "title": "The 4-Step Standard",
+    "description": "We don't just take their word for it. We verify everything.",
+    "steps": {
+      "scope": {
+        "title": "1. Scope Verification",
+        "description": "We inspect the official Business License. If the scope says 'Wholesale' instead of 'Manufacturing', they are banned.",
+        "value": "Avoids Middlemen"
+      },
+      "database": {
+        "title": "2. Database Cross-Reference",
+        "description": "We validate ASME 'U' Stamps and ISO certificates directly against the issuing body's official live database.",
+        "value": "Ensures Compliance"
+      },
+      "shipping": {
+        "title": "3. Bill of Lading Analysis",
+        "description": "We analyze shipping records to confirm the factory has a history of exporting to North America or Europe.",
+        "value": "Verifies Experience"
+      },
+      "location": {
+        "title": "4. Location Verification",
+        "description": "We verify satellite imagery to ensure the address is a functioning production facility, not a sales office.",
+        "value": "Confirms Capacity"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to source with confidence?",
+    "subtitle": "Stop guessing. Start building.",
+    "button": "Browse Verified Manufacturers",
+    "email_text": "Questions? Email us:"
   }
 }

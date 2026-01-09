@@ -1,0 +1,24 @@
+{
+  "title": "HeatEx Direct | Industrial Heat Exchangers Manufacturer",
+  "meta": {
+    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+    "keywords": "Heat Exchangers, China Manufacturer, Industrial Sourcing, ASME, ISO, Plate Heat Exchangers, Shell & Tube"
+  },
+  "og": {
+    "title": "HeatEx Direct - Verified Factory Direct",
+    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+    "image": "/static/websites/home-hero.png",
+    "url": "{{url}}",
+    "type": "website",
+    "site_name": "{{site_name}}"
+  },
+  "hero": {
+    "badge": "100% Analyst Verified",
+    "title": "Find Your Ideal Supplier",
+    "description": "We don't list everyone. We only list verified factories with proven track records in export and engineering."
+  },
+  "card": {
+    "verified": "VERIFIED",
+    "view_profile": "View Profile"
+  }
+}

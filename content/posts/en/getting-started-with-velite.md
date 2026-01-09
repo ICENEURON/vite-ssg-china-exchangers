@@ -2,6 +2,9 @@
 title: Getting Started with Velite
 slug: getting-started-with-velite
 date: 2024-03-20
+author: "John Doe"
+reviewer: "Jane Smith"
+readTime: 3 minutes
 excerpt: Learn how to integrate Velite into your Vite project for type-safe content management.
 metaTitle: "Velite Tutorial: Type-Safe Content for Vite"
 metaDescription: "A step-by-step guide to setting up Velite for managing markdown content in Vite projects."

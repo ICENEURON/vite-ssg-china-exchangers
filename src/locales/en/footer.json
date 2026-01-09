@@ -1,23 +1,23 @@
 {
+  "logo": {
+    "alt": "HeatEx Direct",
+    "title": "HeatEx Direct"
+  },
+  "tagline": "The Analyst-Verified Sourcing Platform for Industrial Thermal Equipment.",
   "links": {
     "items": {
-      "manufacturers": "Manufacturers",
-      "rfq": "Request for quotation",
-      "products": "Products",
-      "profile": "Claim your profile",
+      "home": "Home",
+      "manufacturers": "Verified Manufacturer Directory",
+      "rfq": "Request for Quotation Tool",
+      "profile": "Claim Your Profile",
       "content-marketing-services": "Content Marketing Services",
-      "about": "About",
-      "industry-news": "Industry News"
+      "industry-news": "Industry News",
+      "about": "About Us"
     }
   },
   "legal": {
-    "copyright": "© {{year}} React Vite Sgg Starter. All rights reserved.",
-    "terms": " Terms and Conditions",
-    "privacy_policy": "Privacy Statement"
-  },
-  "logo": {
-    "alt": "React Vite Sgg Starter",
-    "title": "React Vite Sgg Starter"
-  },
-  "tagline": "React Vite Sgg Starter - research only, not financial advice."
+    "copyright": "© {{year}} HeatEx Direct. All rights reserved.",
+    "terms": "terms and conditions",
+    "privacy": "privacy policy"
+  }
 }

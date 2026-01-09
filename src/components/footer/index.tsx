@@ -1,5 +1,5 @@
 import { cn } from "../../utils/cn";
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/logos/logo_light.png";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 import {
@@ -33,10 +33,6 @@ const Footer = () => {
         key: "rfq",
         url: addLanguageToPath("/rfq", currentLanguage),
       },
-      {
-        key: "products",
-        url: addLanguageToPath("/products", currentLanguage),
-      },
     ],
     [
       {
@@ -66,13 +62,13 @@ const Footer = () => {
       url: addLanguageToPath("/terms", currentLanguage),
     },
     {
-      text: t("footer.legal.privacy_policy"),
+      text: t("footer.legal.privacy"),
       url: addLanguageToPath("/privacy", currentLanguage),
     },
   ];
 
   return (
-    <footer className={cn("bg-card")}>
+    <footer className={cn("bg-navbar text-navbar-foreground")}>
       <div className="container mx-auto px-4 md:px-6 pt-12 pb-6 max-w-8xl">
         <div className="grid gap-8 lg:grid-cols-2">
           {/* 左侧：Logo + 描述 */}
@@ -86,14 +82,14 @@ const Footer = () => {
                   src={logo.src}
                   alt="logo"
                   title={logo.title}
-                  className="h-8 w-8"
+                  className="h-8 w-16"
                 />
-                <span className="text-xl font-bold text-foreground">
+                <span className="text-xl font-bold text-navbar-foreground">
                   {logo.title}
                 </span>
               </a>
             </div>
-            <p className="mt-4 text-muted-foreground font-medium max-w-sm">
+            <p className="mt-4 text-navbar-foreground/60 font-medium max-w-sm">
               {t("footer.tagline")}
             </p>
           </div>
@@ -107,7 +103,7 @@ const Footer = () => {
                     <li key={page.key}>
                       <a
                         href={page.url}
-                        className="text-muted-foreground hover:text-primary font-medium transition-colors duration-200"
+                        className="text-navbar-foreground/70 hover:text-navbar-foreground font-medium transition-colors duration-200"
                       >
                         {t(`footer.links.items.${page.key}`)}
                       </a>
@@ -121,7 +117,7 @@ const Footer = () => {
 
         {/* 底部：版权 + 法律链接 */}
         <div className="mt-4 flex flex-col justify-between gap-4 pt-8 text-sm font-medium md:flex-row md:items-center">
-          <p className="text-muted-foreground">
+          <p className="text-navbar-foreground/60">
             {t("footer.legal.copyright", { year: currentYear })}
           </p>
           <ul className="flex gap-6">
@@ -129,7 +125,7 @@ const Footer = () => {
               <li key={linkIdx}>
                 <a
                   href={link.url}
-                  className="text-muted-foreground hover:text-primary underline underline-offset-4 transition-colors duration-200"
+                  className="text-navbar-foreground/60 hover:text-navbar-foreground underline underline-offset-4 transition-colors duration-200"
                 >
                   {link.text}
                 </a>

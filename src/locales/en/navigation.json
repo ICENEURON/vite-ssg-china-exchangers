@@ -2,34 +2,23 @@
   "menu": {
     "home": "Home",
     "for_buyers_label": "For Buyers",
-    "manufacturers": "Manufacturers",
-    "manufacturers_details": "Manufacturers List for all verified manufacturers",
-    "rfq": "Smart RFQ Builder",
-    "rfq_details": "Request for Quotation List",
-    "products": "Products Categories",
-    "products_details": "Products List",
-    "for_manufacturers_label": "For Manufacturers",
-    "profile": "Claim your profile",
+    "manufacturers": "Verified Manufacturers Directory",
+    "rfq": "Request for Quotation Tool",
+    "for_manufacturers_label": "For Suppliers",
+    "profile": "Claim Your Profile",
     "content_marketing_services": "Content Marketing Services",
-    "about": "About",
+    "about": "About Us",
     "industry-news": "Industry News",
     "login": "Login",
     "register": "Register",
     "dashboard": "Dashboard",
     "logout": "Logout",
-    "components": "Components",
     "terms": "Terms",
     "privacy": "Privacy"
   },
   "breadcrumb": {
     "home": "Home",
     "current_page": "Current Page"
-  },
-  "sections": {
-    "technologies": "Technologies",
-    "getting_started": "Getting Started",
-    "resources": "Resources",
-    "community": "Community"
   },
   "logo": "React Vite Sgg Starter"
 }

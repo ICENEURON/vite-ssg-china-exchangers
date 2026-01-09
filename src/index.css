@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @plugin "tailwindcss-animate";
 @plugin "@tailwindcss/typography";
@@ -6,6 +7,10 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  /* ... existing theme config ... */
+  --font-sans: "Inter", "ui-sans-serif", "system-ui", sans-serif;
+  --font-heading: "Barlow", "ui-sans-serif", "system-ui", sans-serif;
+  
   /* 自定义断点 */
   --breakpoint-xs: 475px;
   --breakpoint-sm: 640px;
@@ -14,6 +19,8 @@
   --breakpoint-xl: 1280px;
   
   /* 颜色映射 */
+  --color-navbar: var(--navbar);
+  --color-navbar-foreground: var(--navbar-foreground);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -223,29 +230,33 @@
   --pink-900: #831843;
   
   /* 浅色主题 - 层次结构配色 */
+  --navbar: #0e131c; /* 导航栏色 */
+  --navbar-foreground: #f4f9fe; /* 导航栏文字色 */
   --background: #f4f9fe; /* Page 背景色 */
-  --foreground: #0f172a; /* Page 文字色 */
-  --card: #e1e5eb; /* 导航栏&卡片色 */
-  --card-foreground: #0f172a; /* 导航栏&卡片文字色 */
-  --popover: #697f96; /* 弹出框背景色 */
-  --popover-foreground: #0f172a; /* 弹出框文字色 */
-  --primary: #1e40af; /* 主色调 */
+  --foreground: #0e131c; /* Page 文字色 */
+  --card: #e6e9ed; /* 导航栏&卡片色 */
+  --card-foreground: #0e131c; /* 导航栏&卡片文字色 */
+  --popover: #283650; /* 弹出框背景色 */
+  --popover-foreground: #cbd4e5; /* 弹出框文字色 */
+  --primary: #0a57e3; /* 主色调 */
   --primary-foreground: #f4f9fe; /* 主色调文字色 */
-  --secondary: #e7ebf0; /* 次色调 (Button, Tab, Badge) */
+  --secondary: #f4f9fe; /* 次色调 (Button, Tab, Badge) */
   --secondary-foreground: #475569; /* 次色调文字色 (Button, Tab, Badge) */
-  --muted: #f1f8f9; /* 副背景色 (Nav Background Link) */
-  --muted-foreground: #475569; /* 副文字色 */
-  --accent: #1e40af; /* 鉴赏色调 */
-  --accent-foreground: #eff1f6; /* 鉴赏色调文字色 */
-  --destructive: #dc2626; /* 毁色调 */
+  --muted: #475569; /* 副背景色 (Nav Background Link) */
+  --muted-foreground: #f4f9fe; /* 副文字色 */
+  --accent: #0a57e3; /* 鉴赏色调 */
+  --accent-foreground: #f4f9fe; /* 鉴赏色调文字色 */
+  --destructive: #e3290a; /* 毁色调 */
   --destructive-foreground: #f4f9fe; /* 毁色调文字色 */
-  --border: #cbd5e1; /* 边框色 */
-  --input: #f8fafc; /* 暂时没有使用 */
-  --ring: #1e40af; /* Focus 焦点的颜色 */
+  --border: #9da7b1; /* 边框色 */
+  --input: #f4f9fe; /* 暂时没有使用 */
+  --ring: #0a57e3; /* Focus 焦点的颜色 */
 }
 
 .dark {
   /* 暗色主题 - 层次结构配色 */
+  --navbar: #0e131c;
+  --navbar-foreground: #f4f9fe;
   --background: #1e293b;
   --foreground: #f8fafc;
   --card: #0f172a;
@@ -271,37 +282,42 @@
 body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
 }
 
 h1 {
-  font-size: 3rem;
-  font-weight: 600;
-  line-height: 1;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 /* Typography: follow h1 logic for consistent scale */
 h2 {
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-weight: 600;
-  line-height: 1.05;
+  line-height: 1.2;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 600;
-  line-height: 1.1;
+  line-height: 1.4;
 }
 
 h4 {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  line-height: 1.15;
+  line-height: 1.5;
 }
 
 h5 {
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.25;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.6;
 }
 
 p {

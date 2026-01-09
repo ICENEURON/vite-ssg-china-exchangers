@@ -2,6 +2,9 @@
 title: "Advanced TypeScript Patterns for Scalable Applications"
 slug: advanced-typescript-patterns
 date: 2024-03-25
+author: "John Doe"
+reviewer: "Jane Smith"
+readTime: 3 minutes
 excerpt: Dive deep into advanced TypeScript features like Conditional Types, Mapped Types, and Utility Types to write more robust and maintainable code.
 metaTitle: "Mastering Advanced TypeScript Patterns - 2024 Guide"
 metaDescription: "Learn how to use TypeScript's advanced features including Conditional Types, Mapped Types, and Template Literal Types to build scalable applications."

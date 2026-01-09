@@ -1,0 +1,42 @@
+{
+    "title": "HeatEx Direct | Industrial Heat Exchangers Manufacturer",
+    "meta": {
+        "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+        "keywords": "Heat Exchangers, China Manufacturer, Industrial Sourcing, ASME, ISO, Plate Heat Exchangers, Shell & Tube"
+    },
+    "og": {
+        "title": "HeatEx Direct - Verified Factory Direct",
+        "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+        "image": "/static/websites/home-hero.png",
+        "url": "{{url}}",
+        "type": "website",
+        "site_name": "{{site_name}}"
+    },
+    "page": {
+        "title": "Industry Insights",
+        "subtitle": "Latest market trends, logistics updates, and technical guides for the heat exchanger industry.",
+        "latest": "Latest Updates"
+    },
+    "hero": {
+        "title": "Strategic Content That Drives Growth",
+        "subtitle": "Elevate your brand with data-driven content strategies.",
+        "intro": "We help B2B manufacturers and exporters connect with their audience through high-quality, SEO-optimized content. From industry-news posts to technical whitepapers, our team delivers content that builds trust and generates leads.",
+        "badge": "News"
+    },
+    "card": {
+        "read": "Read Article"
+    },
+    "blog": {
+        "not_found_title": "Page Not Found",
+        "not_found_desc": "The article you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+        "back_to_list": "Back to List",
+        "author": "Author",
+        "reviewer": "Reviewer",
+        "read_time": "Read"
+    },
+    "pagination": {
+        "of": "of",
+        "results": "Results",
+        "go_to": "Go to"
+    }
+}

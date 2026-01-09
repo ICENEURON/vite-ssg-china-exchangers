@@ -6,15 +6,15 @@ import { useCurrentLanguage, addLanguageToPath } from "../../utils/language-rout
 export default function NotFoundPage() {
   const { t } = useTranslation('translation', { keyPrefix: 'pages.404' });
   const currentLanguage = useCurrentLanguage();
-  
+
   // Generate language-aware home link
   const homeLink = addLanguageToPath('/', currentLanguage);
 
   return (
     <section className="mx-auto flex min-h-[60vh] flex-col items-center justify-center p-8 text-center">
-      <h1>{t('title') || '404'}</h1>
-      <h2>{t('heading') || 'Page not found'}</h2>
-      <p className="mt-3 text-sm text-muted-foreground">
+      <span className="text-accent font-bold text-7xl">{t('title') || '404'}</span>
+      <h1>{t('heading') || 'Page not found'}</h1>
+      <p className="my-3 text-md text-muted">
         {t('description') || "The page you're looking for doesn't exist or has been moved."}
       </p>
       <div className="mt-6">

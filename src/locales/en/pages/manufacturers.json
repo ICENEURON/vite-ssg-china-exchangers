@@ -1,79 +1,54 @@
 {
-  "title": "Changelog - React Vite SSG Starter",
+  "title": "HeatEx Direct | Industrial Heat Exchangers Manufacturer",
   "meta": {
-    "description": "Version history and changelog for the React Vite SSG Starter Template. Track new features, bug fixes, and updates.",
-    "keywords": "changelog, version history, updates, release notes"
+    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+    "keywords": "Heat Exchangers, China Manufacturer, Industrial Sourcing, ASME, ISO, Plate Heat Exchangers, Shell & Tube"
+  },
+  "og": {
+    "title": "HeatEx Direct - Verified Factory Direct",
+    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+    "image": "/static/websites/home-hero.png",
+    "url": "{{url}}",
+    "type": "website",
+    "site_name": "{{site_name}}"
   },
   "hero": {
-    "title": "Project Changelog",
-    "subtitle": "Track the evolution of the starter template."
+    "badge": "100% Verified Manufacturers",
+    "title": "Find Your Ideal Supplier",
+    "description": "We don't list everyone. We only list verified factories with proven track records in export and engineering."
   },
-  "table": {
-    "columns": {
-      "type": "Type",
-      "description": "Description",
-      "author": "Author",
-      "link": "Commit",
-      "details": "Details"
-    },
-    "emptyState": "No changes recorded for this version."
+  "card": {
+    "verified": "VERIFIED",
+    "view_profile": "View Profile"
   },
-  "versions": [
-    {
-      "id": "v1.0.0",
-      "version": "v1.0.0",
-      "date": "December 2025",
-      "changes": [
-        {
-          "type": "feat",
-          "description": "Initial Release",
-          "author": "@antigravity",
-          "link": "https://github.com",
-          "details": "First public release of the React Vite SSG Starter template. Includes comprehensive documentation, i18n support, and a complete design system based on Shadcn UI."
-        }
-      ]
-    },
-    {
-      "id": "v0.9.0",
-      "version": "v0.9.0",
-      "date": "November 2025",
-      "changes": [
-        {
-          "type": "feat",
-          "description": "Added Internationalization",
-          "author": "@antigravity",
-          "link": "https://github.com",
-          "details": "Integrated i18next for full multi-language support. Added language toggle and translation files structure."
-        },
-        {
-          "type": "fix",
-          "description": "Fixed Dark Mode Flash",
-          "author": "@antigravity",
-          "link": "https://github.com",
-          "details": "Resolved an issue where the light theme would flash briefly on page load when dark mode was selected."
-        }
-      ]
-    },
-    {
-      "id": "v0.8.0",
-      "version": "v0.8.0",
-      "date": "October 2025",
-      "changes": [
-        {
-          "type": "feat",
-          "description": "Core Components",
-          "author": "@antigravity",
-          "link": "https://github.com",
-          "details": "Implemented core UI components using Radix UI primitives. Added Button, Card, and Navigation components."
-        },
-        {
-          "type": "chore",
-          "description": "Project Setup",
-          "author": "@antigravity",
-          "link": "https://github.com",
-          "details": "Initial repository setup with Vite, TypeScript, and Tailwind CSS configuration."
-        }
-      ]
-    }
-  ]
+  "company": {
+    "page_title": "Manufacturer Profile",
+    "meta_description_default": "Manufacturer Profile",
+    "premium_supplier": "Premium Supplier",
+    "connect_directly": "Connect Directly",
+    "connect_description": "Get a quote directly from the factory engineering team.",
+    "start_inquiry": "Start Your Inquiry",
+    "verified_contact": "Verified Contact",
+    "response_time": "< {{hours}}h Response",
+    "iso_certified": "ISO Certified",
+    "asme_stamp": "ASME Stamp",
+    "business_license": "Business Lic.",
+    "global_trade": "Global Trade",
+    "verified": "Verified",
+    "not_available": "N/A",
+    "company_overview": "Company Overview",
+    "why_choose_us": "Why Choose Us",
+    "industries_served": "Industries Served",
+    "official_website": "Official Website",
+    "visit_manufacturer": "Visit Manufacturer",
+    "product_showcase": "Product Showcase",
+    "certified_quality": "Certified Quality",
+    "technical_specifications": "Technical Specifications",
+    "factory_certifications": "Factory Certifications",
+    "trusted_customers": "Trusted by Global Leaders",
+    "trusted_customers_desc": "Delivering excellence to major players across industries.",
+    "partner_with": "Partner with {{name}}",
+    "partner_desc": "Get verified quality and direct-from-factory pricing.",
+    "start_project": "Start Your Project Now"
+  }
 }

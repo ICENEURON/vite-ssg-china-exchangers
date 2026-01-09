@@ -1,105 +1,129 @@
+
+import { useState } from 'react'
 import { Head } from 'vite-react-ssg'
-import { useTranslation } from 'react-i18next'
-import { Badge } from '../../components/ui/badge'
-import {
-  Accordion,
-  AccordionItem,
-  AccordionTrigger,
-  AccordionContent,
-} from '../../components/ui/accordion'
+import { Button } from "../../components/ui/button"
+import { ArrowRight, Save, UploadCloud } from "lucide-react"
+import { ProgressTracker } from "./components/ProgressTracker"
+import { ProductSelector } from "./components/ProductSelector"
+import { TechSpecsForm } from "./components/TechSpecsForm"
+import { LivePreview } from "./components/LivePreview"
 
-type FaqQuestion = {
-  question: string
-  answer: string
-}
+export default function SmartRfqBuilder() {
 
-type FaqGroup = {
-  id: string
-  title: string
-  questions: FaqQuestion[]
-}
+  // State
+  const [step, setStep] = useState(1)
+  const [productType, setProductType] = useState<"phe" | "shell" | "spares">("phe")
+  const [unitSystem, setUnitSystem] = useState<"metric" | "imperial">("metric")
+  const [isAnonymous, setIsAnonymous] = useState(true)
 
-export default function FaqPage() {
-  const { t } = useTranslation('translation')
+  // Form Data
+  const [specs, setSpecs] = useState({
+    hotFluid: "",
+    hotIn: "",
+    hotOut: "",
+    hotFlow: "",
+    coldFluid: "",
+    coldIn: "",
+    coldOut: "",
+    coldFlow: ""
+  })
 
-  const groups = t('pages.rfq.groups', {
-    returnObjects: true,
-  }) as FaqGroup[]
+  const handleSpecChange = (field: string, value: string) => {
+    setSpecs(prev => ({ ...prev, [field]: value }))
+  }
 
   return (
     <>
       <Head>
-        <title>{t('pages.rfq.title')}</title>
-        <meta
-          name="description"
-          content={t('pages.rfq.meta.description')}
-        />
-        <meta
-          name="keywords"
-          content={t('pages.rfq.meta.keywords')}
-        />
+        <title>Smart RFQ Builder - Get Custom Heat Exchanger Quotes</title>
+        <meta name="description" content="Build a professional RFQ in minutes. Anonymous mode available. Get quotes from verified manufacturers." />
       </Head>
 
-      {/* Hero */}
-      <section className="py-12 px-4 flex flex-col items-center">
-        <div className="grid text-center gap-6 mx-auto max-w-5xl">
-          <h1 className="gradient-text mb-4">
-            {t('pages.rfq.hero.title')}
-          </h1>
-          <p className="text-xl">
-            {t('pages.rfq.hero.subtitle')}
-          </p>
-          <p className="text-lg">
-            {t('pages.rfq.hero.intro1')}
-          </p>
-          <p className="text-lg mb-6">
-            {t('pages.rfq.hero.intro2')}
-          </p>
-        </div>
-        <Badge
-          className="mb-4 text-sm uppercase"
-        >
-          {t('pages.rfq.hero.eyebrow')}
-        </Badge>
-      </section>
+      <main className="min-h-screen bg-slate-50 dark:bg-background text-foreground pb-24">
 
-      {/* RFQ groups */}
-      <section className="pt-6 pb-12">
-        <div className="container mx-auto max-w-5xl px-4 space-y-10">
-          {Array.isArray(groups) &&
-            groups.map((group) => (
-              <div key={group.id} className="space-y-4">
-                <h3 className="text-xl md:text-2xl font-bold">
-                  {group.title}
-                </h3>
-                <Accordion
-                  type="single"
-                  collapsible
-                  className="w-full rounded-lg bg-background"
-                >
-                  {Array.isArray(group.questions) &&
-                    group.questions.map((item, index) => (
-                      <AccordionItem
-                        key={index}
-                        value={`${group.id}-${index}`}
-                        className="last:border-0"
-                      >
-                        <AccordionTrigger className="px-4 text-left text-sm md:text-base">
-                          {item.question}
-                        </AccordionTrigger>
-                        <AccordionContent>
-                          <p className="px-4 pb-4 text-sm text-muted-foreground">
-                            {item.answer}
-                          </p>
-                        </AccordionContent>
-                      </AccordionItem>
-                    ))}
-                </Accordion>
+        {/* Top Navigation Bar */}
+        <div className="sticky top-0 z-40 bg-background/80 backdrop-blur-md border-b">
+          <div className="container mx-auto px-4 h-16 flex items-center justify-between">
+            <span className="font-bold text-lg">Smart RFQ Builder</span>
+            <div className="text-xs font-mono text-muted-foreground">ID: #NEW-DRAFT</div>
+          </div>
+        </div>
+
+        <div className="container mx-auto px-4 max-w-6xl pt-8">
+
+          <ProgressTracker currentStep={step} />
+
+          <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+
+            {/* LEFT COLUMN: Input Canvas */}
+            <div className="lg:col-span-8 space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
+
+              {/* Section 1: Product Selection */}
+              <section>
+                <h2 className="text-2xl font-bold mb-4">1. Select Product Type</h2>
+                <ProductSelector selected={productType} onSelect={setProductType} />
+              </section>
+
+              {/* Section 2: Technical Parameters */}
+              <section>
+                <TechSpecsForm
+                  units={unitSystem}
+                  onUnitChange={setUnitSystem}
+                  specs={specs}
+                  onChange={handleSpecChange}
+                />
+              </section>
+
+              {/* Section 3: File Upload (Mock) */}
+              <section className="mb-12">
+                <h3 className="text-lg font-bold mb-4">Attachments</h3>
+                <div className="border-2 border-dashed border-zinc-300 dark:border-zinc-700 rounded-xl p-10 flex flex-col items-center justify-center text-center hover:bg-muted/50 transition-colors cursor-pointer group">
+                  <div className="w-12 h-12 bg-muted rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                    <UploadCloud className="w-6 h-6 text-muted-foreground" />
+                  </div>
+                  <p className="font-medium text-foreground">Drag technical drawings or datasheets here</p>
+                  <p className="text-sm text-muted-foreground mt-1">.PDF, .DWG, .XLSX (Max 10MB)</p>
+                  <div className="mt-4 text-[10px] text-green-600 font-medium bg-green-50 dark:bg-green-900/30 px-2 py-1 rounded">
+                    Files are encrypted & scanned
+                  </div>
+                </div>
+              </section>
+
+            </div>
+
+            {/* RIGHT COLUMN: Sticky Preview */}
+            <div className="hidden lg:block lg:col-span-4 pl-4">
+              <LivePreview
+                specs={specs}
+                productType={productType}
+                isAnonymous={isAnonymous}
+                onAnonymousChange={setIsAnonymous}
+              />
+            </div>
+
+          </div>
+        </div>
+
+        {/* Floating Action Footer */}
+        <div className="fixed bottom-0 left-0 right-0 bg-background border-t p-4 shadow-2xl z-50">
+          <div className="container mx-auto max-w-6xl flex items-center justify-between">
+            <Button variant="ghost" className="text-muted-foreground hover:text-foreground">
+              <Save className="w-4 h-4 mr-2" />
+              Save Draft
+            </Button>
+
+            <div className="flex items-center gap-4">
+              <div className="text-xs text-muted-foreground hidden md:block">
+                Next: Context & Recipients
               </div>
-            ))}
+              <Button size="lg" className="rounded-full px-8 bg-blue-600 hover:bg-blue-700 font-bold" onClick={() => setStep(s => s < 3 ? s + 1 : s)}>
+                Continue <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </div>
+          </div>
         </div>
-      </section>
 
+      </main>
     </>
   )
 }
