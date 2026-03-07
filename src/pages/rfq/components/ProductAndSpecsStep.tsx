@@ -1,0 +1,221 @@
+import { FieldSet, FieldLabel, FieldGroup } from "../../../components/ui/field"
+import { Check } from "lucide-react"
+import rfqData from "../../../data/rfq.json"
+
+export interface RfqProductSpecsData {
+    productType: string;
+    hotFluid: string;
+    hotIn: string;
+    hotOut: string;
+    hotFlow: string;
+    coldFluid: string;
+    coldIn: string;
+    coldOut: string;
+    coldFlow: string;
+    designPressure: string;
+    pressureDrop: string;
+    heatLoad: string;
+}
+
+interface ProductAndSpecsStepProps {
+    data: RfqProductSpecsData;
+    onChange: (data: Partial<RfqProductSpecsData>) => void;
+}
+
+export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps) {
+
+    const inputClass = "flex h-11 w-full rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+    const sideLabelClass = "text-xs font-semibold text-slate-700 dark:text-slate-300 leading-none mb-2 block uppercase tracking-wider"
+
+    return (
+        <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4">
+            
+            {/* 1. Product Selection */}
+            <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 md:p-10 shadow-sm">
+                <FieldSet className="mb-0">
+                    <FieldLabel className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-4">Select Equipment Type</FieldLabel>
+                    <FieldGroup className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                        {rfqData.productTypes.map((p) => {
+                            const isSelected = data.productType === p.id;
+                            return (
+                                <button
+                                    key={p.id}
+                                    onClick={() => onChange({ productType: p.id })}
+                                    className={`
+                                        relative flex items-center justify-center p-4 rounded-xl border transition-all duration-300 text-center
+                                        ${isSelected
+                                            ? 'border-primary bg-primary/10 shadow-sm ring-1 ring-primary/50'
+                                            : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 hover:border-primary/40'
+                                        }
+                                    `}
+                                >
+                                    {isSelected && (
+                                        <div className="absolute top-2 right-2 bg-primary text-white rounded-full p-0.5">
+                                            <Check className="w-3.5 h-3.5" />
+                                        </div>
+                                    )}
+                                    <span className={`text-sm font-semibold ${isSelected ? 'text-primary' : 'text-slate-700 dark:text-slate-300'}`}>
+                                        {p.label}
+                                    </span>
+                                </button>
+                            )
+                        })}
+                    </FieldGroup>
+                </FieldSet>
+            </div>
+
+            {/* 2. Basic Technical Requirements */}
+            {data.productType && (
+                <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 md:p-10 shadow-sm animate-in fade-in slide-in-from-bottom-2">
+                    <div className="mb-8">
+                        <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50">Thermal & Performance Specifications</h3>
+                        <p className="text-sm text-slate-500 mt-1">Provide known parameters. Leave unknown fields blank.</p>
+                    </div>
+
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
+                        {/* Hot Side */}
+                        <div className="space-y-6">
+                            <div className="flex items-center gap-3 border-b border-rose-100 dark:border-rose-900/30 pb-3">
+                                <span className="text-sm font-bold uppercase tracking-widest text-rose-600 dark:text-rose-400">Hot Side (Heating Fluid)</span>
+                            </div>
+
+                            <div className="space-y-4">
+                                <div>
+                                    <label className={sideLabelClass}>Fluid / Media</label>
+                                    <input
+                                        className={inputClass}
+                                        placeholder="e.g. Steam, Thermal Oil, Water"
+                                        value={data.hotFluid}
+                                        onChange={(e) => onChange({ hotFluid: e.target.value })}
+                                    />
+                                </div>
+                                <div className="grid grid-cols-2 gap-3">
+                                    <div>
+                                        <label className={sideLabelClass}>Inlet Temp (°C/°F)</label>
+                                        <input
+                                            type="number"
+                                            className={inputClass}
+                                            value={data.hotIn}
+                                            placeholder="0.0"
+                                            onChange={(e) => onChange({ hotIn: e.target.value })}
+                                        />
+                                    </div>
+                                    <div>
+                                        <label className={sideLabelClass}>Outlet Temp (°C/°F)</label>
+                                        <input
+                                            type="number"
+                                            className={inputClass}
+                                            value={data.hotOut}
+                                            placeholder="0.0"
+                                            onChange={(e) => onChange({ hotOut: e.target.value })}
+                                        />
+                                    </div>
+                                </div>
+                                <div>
+                                    <label className={sideLabelClass}>Flow Rate (Optional) (m³/h)</label>
+                                    <input
+                                        type="number"
+                                        className={inputClass}
+                                        value={data.hotFlow}
+                                        placeholder="0.00"
+                                        onChange={(e) => onChange({ hotFlow: e.target.value })}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Cold Side */}
+                        <div className="space-y-6 lg:border-l lg:pl-8 border-dashed border-slate-200 dark:border-slate-800">
+                            <div className="flex items-center gap-3 border-b border-blue-100 dark:border-blue-900/30 pb-3">
+                                <span className="text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Cold Side (Cooling Fluid)</span>
+                            </div>
+
+                            <div className="space-y-4">
+                                <div>
+                                    <label className={sideLabelClass}>Fluid / Media</label>
+                                    <input
+                                        className={inputClass}
+                                        placeholder="e.g. Cooling Water, Glycol"
+                                        value={data.coldFluid}
+                                        onChange={(e) => onChange({ coldFluid: e.target.value })}
+                                    />
+                                </div>
+                                <div className="grid grid-cols-2 gap-3">
+                                    <div>
+                                        <label className={sideLabelClass}>Inlet Temp (°C/°F)</label>
+                                        <input
+                                            type="number"
+                                            className={inputClass}
+                                            value={data.coldIn}
+                                            placeholder="0.0"
+                                            onChange={(e) => onChange({ coldIn: e.target.value })}
+                                        />
+                                    </div>
+                                    <div>
+                                        <label className={sideLabelClass}>Outlet Temp (°C/°F)</label>
+                                        <input
+                                            type="number"
+                                            className={inputClass}
+                                            value={data.coldOut}
+                                            placeholder="0.0"
+                                            onChange={(e) => onChange({ coldOut: e.target.value })}
+                                        />
+                                    </div>
+                                </div>
+                                <div>
+                                    <label className={sideLabelClass}>Flow Rate (Optional) (m³/h)</label>
+                                    <input
+                                        type="number"
+                                        className={inputClass}
+                                        value={data.coldFlow}
+                                        placeholder="0.00"
+                                        onChange={(e) => onChange({ coldFlow: e.target.value })}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Additional Options */}
+                    <div className="border-t border-slate-100 dark:border-slate-800/50 pt-8">
+                        <div className="mb-6">
+                            <h4 className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest">Operational Limits (Optional)</h4>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div>
+                                <label className={sideLabelClass}>Design Pressure (bar)</label>
+                                <input
+                                    type="number"
+                                    className={inputClass}
+                                    value={data.designPressure}
+                                    placeholder="e.g. 10, 16, 25"
+                                    onChange={(e) => onChange({ designPressure: e.target.value })}
+                                />
+                            </div>
+                            <div>
+                                <label className={sideLabelClass}>Max Press. Drop (kPA)</label>
+                                <input
+                                    type="number"
+                                    className={inputClass}
+                                    value={data.pressureDrop}
+                                    placeholder="e.g. 50"
+                                    onChange={(e) => onChange({ pressureDrop: e.target.value })}
+                                />
+                            </div>
+                            <div>
+                                <label className={sideLabelClass}>Duty / Heat Load (kW)</label>
+                                <input
+                                    type="number"
+                                    className={inputClass}
+                                    value={data.heatLoad}
+                                    placeholder="e.g. 1500"
+                                    onChange={(e) => onChange({ heatLoad: e.target.value })}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )}
+        </div>
+    )
+}

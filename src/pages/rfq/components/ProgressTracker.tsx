@@ -1,48 +1,38 @@
+export function ProgressTracker({ currentStep }: { currentStep: number }) {
+    const steps = ["Context", "Specifications", "Verification", "Submit"]
 
-import { Check } from "lucide-react"
-
-interface ProgressTrackerProps {
-    currentStep: number
-}
-
-const steps = [
-    { id: 1, label: "Product Specs" },
-    { id: 2, label: "Context & Files" },
-    { id: 3, label: "Privacy & Send" },
-]
-
-export function ProgressTracker({ currentStep }: ProgressTrackerProps) {
     return (
-        <div className="w-full py-4 mb-8">
-            <div className="flex items-center justify-center relative">
-                {/* Connecting Line */}
-                <div className="absolute top-1/2 left-0 w-full h-0.5 bg-muted -z-10" />
-                <div
-                    className="absolute top-1/2 left-1/2 -translate-x-1/2 h-0.5 bg-primary -z-10 transition-all duration-500 ease-in-out"
-                    style={{ width: `${((currentStep - 1) / (steps.length - 1)) * 100}%` }} // Simplified for visual center
-                />
+        <div className="w-full py-4 mb-4">
+            <div className="flex items-center justify-between lg:justify-start lg:gap-8">
+                {steps.map((label, index) => {
+                    const stepNumber = index + 1;
+                    const isCompleted = currentStep > stepNumber;
+                    const isCurrent = currentStep === stepNumber;
 
-                <div className="flex justify-between w-full max-w-lg px-4">
-                    {steps.map((step) => {
-                        const isCompleted = currentStep > step.id;
-                        const isCurrent = currentStep === step.id;
-
-                        return (
-                            <div key={step.id} className="flex flex-col items-center gap-2">
-                                <div
-                                    className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold border-2 transition-all duration-300
-                        ${isCompleted || isCurrent ? 'bg-primary border-primary text-primary-foreground' : 'bg-background border-muted text-muted-foreground'}
-                    `}
-                                >
-                                    {isCompleted ? <Check className="w-4 h-4" /> : step.id}
+                    return (
+                        <div key={label} className="flex items-center">
+                            <div className={`
+                                flex items-center gap-2 transition-all duration-300
+                                ${isCurrent ? 'opacity-100' : isCompleted ? 'opacity-70' : 'opacity-40 grayscale'}
+                            `}>
+                                <div className={`
+                                    w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold
+                                    ${isCompleted || isCurrent ? 'bg-primary text-primary-foreground' : 'bg-slate-200 dark:bg-slate-800 text-slate-500'}
+                                `}>
+                                    {stepNumber}
                                 </div>
-                                <span className={`text-xs font-medium uppercase tracking-wider ${isCurrent ? 'text-foreground' : 'text-muted-foreground'}`}>
-                                    {step.label}
+                                <span className={`text-sm font-semibold hidden md:block ${isCurrent ? 'text-primary' : 'text-slate-600 dark:text-slate-400'}`}>
+                                    {label}
                                 </span>
                             </div>
-                        )
-                    })}
-                </div>
+
+                            {/* Separator between items */}
+                            {index < steps.length - 1 && (
+                                <div className="mx-3 lg:mx-6 w-8 lg:w-16 h-px bg-slate-200 dark:bg-slate-800" />
+                            )}
+                        </div>
+                    )
+                })}
             </div>
         </div>
     )

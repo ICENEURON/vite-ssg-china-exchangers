@@ -1,14 +1,14 @@
-
-import { ShieldCheck, Eye, EyeOff, User } from "lucide-react"
+import { ShieldCheck, Eye, EyeOff, User, Factory } from "lucide-react"
 
 interface LivePreviewProps {
     specs: any
     productType: string
     isAnonymous: boolean
     onAnonymousChange: (v: boolean) => void
+    application?: string
 }
 
-export function LivePreview({ specs, productType, isAnonymous, onAnonymousChange }: LivePreviewProps) {
+export function LivePreview({ specs, productType, isAnonymous, onAnonymousChange, application }: LivePreviewProps) {
 
     const getProductName = (type: string) => {
         if (type === 'phe') return "Plate Heat Exchanger"
@@ -17,39 +17,40 @@ export function LivePreview({ specs, productType, isAnonymous, onAnonymousChange
     }
 
     return (
-        <div className="sticky top-24">
-            {/* The Live Card */}
-            <div className="bg-white dark:bg-zinc-900 rounded-xl shadow-xl border overflow-hidden transition-all duration-300">
+        <div className="w-full relative">
+            <div className="absolute -inset-1 bg-gradient-to-br from-primary/20 to-orange-500/20 rounded-2xl blur-lg opacity-50 pointer-events-none" />
+            
+            <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-xl shadow-slate-200/50 dark:shadow-none border border-slate-200 dark:border-slate-800 overflow-hidden relative z-10 transition-all duration-300">
                 {/* Header Strip */}
-                <div className="h-2 bg-blue-600 w-full" />
+                <div className="h-1.5 bg-gradient-to-r from-primary to-orange-500 w-full" />
 
-                <div className="p-6">
-                    <div className="flex items-center justify-between mb-6">
-                        <div className="text-xs font-bold text-muted-foreground uppercase tracking-widest">
-                            Live Preview: Factory View
+                <div className="p-6 md:p-8">
+                    <div className="flex items-center justify-between mb-8">
+                        <div className="text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
+                            <Factory className="w-4 h-4" /> Live Factory View
                         </div>
-                        <div className="px-2 py-0.5 rounded text-[10px] font-bold bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-400 border border-yellow-200 dark:border-yellow-800">
-                            #PENDING
+                        <div className="px-3 py-1 rounded-full text-[10px] font-bold bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 border border-amber-200 dark:border-amber-800/50">
+                            #DRAFT
                         </div>
                     </div>
 
                     {/* Buyer Info Block */}
-                    <div className="flex items-start gap-4 mb-6 pb-6 border-b border-dashed">
-                        <div className={`w-12 h-12 rounded-full flex items-center justify-center shrink-0 transition-colors duration-300 ${isAnonymous ? 'bg-zinc-100 dark:bg-zinc-800' : 'bg-blue-100 dark:bg-blue-900'}`}>
-                            {isAnonymous ? <ShieldCheck className="w-6 h-6 text-zinc-400" /> : <User className="w-6 h-6 text-blue-600" />}
+                    <div className="flex items-start gap-4 mb-8 pb-8 border-b border-dashed border-slate-200 dark:border-slate-800">
+                        <div className={`w-14 h-14 rounded-2xl flex items-center justify-center shrink-0 transition-colors duration-300 ${isAnonymous ? 'bg-slate-100 dark:bg-slate-800' : 'bg-primary/10 dark:bg-primary/20'}`}>
+                            {isAnonymous ? <ShieldCheck className="w-7 h-7 text-slate-400" /> : <User className="w-7 h-7 text-primary" />}
                         </div>
                         <div>
-                            <div className="font-bold text-lg leading-tight transition-all duration-300">
-                                {isAnonymous ? "Verified Buyer (US)" : "Your Name Displayed"}
+                            <div className="font-bold text-lg text-slate-900 dark:text-slate-50 leading-tight transition-all duration-300">
+                                {isAnonymous ? "Verified Buyer" : "Your Name Displayed"}
                             </div>
-                            <div className="text-xs text-muted-foreground mt-1 flex items-center gap-1">
+                            <div className="text-xs text-slate-500 mt-2 flex items-center gap-1.5 bg-slate-50 dark:bg-slate-800/50 w-fit px-2 py-1 rounded-md">
                                 {isAnonymous ? (
                                     <>
-                                        <EyeOff className="w-3 h-3" /> Contact Hidden
+                                        <EyeOff className="w-3.5 h-3.5" /> Contact Hidden
                                     </>
                                 ) : (
                                     <>
-                                        <Eye className="w-3 h-3 text-blue-500" /> <span className="text-blue-500 font-medium">Contact Visible</span>
+                                        <Eye className="w-3.5 h-3.5 text-primary" /> <span className="text-primary font-medium">Contact Visible</span>
                                     </>
                                 )}
                             </div>
@@ -57,18 +58,47 @@ export function LivePreview({ specs, productType, isAnonymous, onAnonymousChange
                     </div>
 
                     {/* Request Summary */}
-                    <div className="space-y-4">
-                        <div className="space-y-1">
-                            <div className="text-xs text-muted-foreground font-medium">Product Requirement</div>
-                            <div className="font-bold text-foreground">{getProductName(productType)}</div>
+                    <div className="space-y-6">
+                        <div className="space-y-1.5">
+                            <div className="text-xs text-slate-400 font-bold uppercase tracking-wider">Product Requirement</div>
+                            <div className="font-bold text-slate-900 dark:text-slate-50 text-lg">{getProductName(productType)}</div>
                         </div>
 
-                        {(specs.hotFluid || specs.hotFlow || specs.hotIn) && (
-                            <div className="p-3 bg-muted/50 rounded-lg text-sm space-y-2 border border-muted">
-                                <div className="font-medium text-xs text-muted-foreground uppercase">Tech Specs Snippet</div>
-                                {specs.hotFluid && <div className="flex justify-between"><span>Fluid:</span> <span className="font-mono">{specs.hotFluid}</span></div>}
-                                {specs.hotFlow && <div className="flex justify-between"><span>Flow:</span> <span className="font-mono">{specs.hotFlow}</span></div>}
-                                {specs.hotIn && <div className="flex justify-between"><span>Hot In:</span> <span className="font-mono">{specs.hotIn}°</span></div>}
+                        {application && (
+                             <div className="space-y-1.5">
+                                <div className="text-xs text-slate-400 font-bold uppercase tracking-wider">Industry / Application</div>
+                                <div className="font-medium text-primary bg-primary/5 border border-primary/10 px-3 py-1.5 rounded-lg w-fit text-sm">{application}</div>
+                            </div>
+                        )}
+
+                        {(specs.hotFluid || specs.hotFlow || specs.hotIn || specs.coldFluid) && (
+                            <div className="p-4 bg-slate-50 dark:bg-slate-800/50 rounded-xl text-sm space-y-3 border border-slate-100 dark:border-slate-800">
+                                <div className="font-bold text-xs text-slate-400 uppercase tracking-wider border-b border-slate-200 dark:border-slate-700 pb-2 mb-3">Tech Specs Preview</div>
+                                
+                                {specs.hotFluid && (
+                                    <div className="flex items-center justify-between">
+                                        <span className="text-slate-500">Hot Fluid:</span> 
+                                        <span className="font-mono font-medium text-slate-900 dark:text-slate-100">{specs.hotFluid}</span>
+                                    </div>
+                                )}
+                                {specs.coldFluid && (
+                                    <div className="flex items-center justify-between">
+                                        <span className="text-slate-500">Cold Fluid:</span> 
+                                        <span className="font-mono font-medium text-slate-900 dark:text-slate-100">{specs.coldFluid}</span>
+                                    </div>
+                                )}
+                                {specs.hotIn && (
+                                    <div className="flex items-center justify-between">
+                                        <span className="text-slate-500">Hot In:</span> 
+                                        <span className="font-mono font-medium text-slate-900 dark:text-slate-100">{specs.hotIn}°</span>
+                                    </div>
+                                )}
+                                {specs.hotFlow && (
+                                    <div className="flex items-center justify-between">
+                                        <span className="text-slate-500">Hot Flow:</span> 
+                                        <span className="font-mono font-medium text-slate-900 dark:text-slate-100">{specs.hotFlow}</span>
+                                    </div>
+                                )}
                             </div>
                         )}
                     </div>
@@ -76,41 +106,34 @@ export function LivePreview({ specs, productType, isAnonymous, onAnonymousChange
                 </div>
 
                 {/* Privacy Control Footer */}
-                <div className="bg-muted/30 p-4 border-t flex items-center justify-between">
-                    <div className="text-xs font-medium text-muted-foreground">
-                        {isAnonymous ? "Factories cannot see your email." : "Factories can email you directly."}
+                <div className="bg-slate-50 dark:bg-slate-800/30 p-5 md:p-6 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between mt-auto">
+                    <div className="text-xs font-medium text-slate-500 max-w-[140px] leading-relaxed">
+                        {isAnonymous ? "Factories cannot see your email directly." : "Factories can email you directly."}
                     </div>
-                    <div className="flex items-center gap-2">
-                        <span className="text-xs font-bold w-16 text-right">{isAnonymous ? "Anonymous" : "Public"}</span>
+                    <div className="flex items-center gap-3">
+                        <span className={`text-xs font-bold w-16 text-right ${isAnonymous ? 'text-slate-500' : 'text-primary'}`}>
+                            {isAnonymous ? "Anonymous" : "Public"}
+                        </span>
 
-                        {/* Custom Switch Implementation */}
                         <button
                             type="button"
                             role="switch"
                             aria-checked={isAnonymous}
                             onClick={() => onAnonymousChange(!isAnonymous)}
                             className={`
-                                relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background
-                                ${isAnonymous ? 'bg-green-500' : 'bg-zinc-200 dark:bg-zinc-700'}
+                                relative inline-flex h-7 w-12 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-300 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2
+                                ${isAnonymous ? 'bg-slate-300 dark:bg-slate-700' : 'bg-primary'}
                             `}
                         >
                             <span
                                 className={`
-                                    pointer-events-none block h-5 w-5 rounded-full bg-background shadow-lg ring-0 transition-transform duration-200 ease-in-out
-                                    ${isAnonymous ? 'translate-x-5' : 'translate-x-0'}
+                                    pointer-events-none block h-6 w-6 rounded-full bg-white shadow-md ring-0 transition-transform duration-300 ease-in-out
+                                    ${isAnonymous ? 'translate-x-0' : 'translate-x-5'}
                                 `}
                             />
                         </button>
                     </div>
                 </div>
-            </div>
-
-            {/* Trust Badges */}
-            <div className="mt-6 flex justify-center gap-4 opacity-60 grayscale hover:grayscale-0 transition-all">
-                {/* Placeholders for logos like ISO, ASME, SSL */}
-                <div className="h-8 w-12 bg-muted rounded animate-pulse" />
-                <div className="h-8 w-12 bg-muted rounded animate-pulse" />
-                <div className="h-8 w-12 bg-muted rounded animate-pulse" />
             </div>
         </div>
     )

@@ -1,0 +1,53 @@
+{
+  "industries": [
+    "HVAC & Building Services",
+    "Food, Dairy & Beverage",
+    "Chemicals & Petrochemicals",
+    "Marine & Transportation",
+    "Power Generation & Energy",
+    "Pharmaceuticals & Biotech",
+    "Pulp & Paper",
+    "Water & Waste Treatment",
+    "Mining & Minerals",
+    "Other"
+  ],
+  "timelines": [
+    "In Stock / Quick Ship (1-2 Weeks)",
+    "Standard Production (3-6 Weeks)",
+    "Custom / Large Scale (7-12 Weeks)",
+    "Long Lead Time / Project (12+ Weeks)",
+    "Planning Phase (No immediate need)"
+  ],
+  "quantities": [
+    "1 Unit (Replacement / Sample)",
+    "2-5 Units (Small System)",
+    "6-20 Units (Medium System)",
+    "20+ Units (Large Scale Project)"
+  ],
+  "productTypes": [
+    {
+      "id": "gasketed_phe",
+      "label": "Gasketed Plate Heat Exchanger"
+    },
+    {
+      "id": "brazed_phe",
+      "label": "Brazed Plate Heat Exchanger"
+    },
+    {
+      "id": "welded_phe",
+      "label": "Welded Plate Heat Exchanger"
+    },
+    {
+      "id": "shell_tube",
+      "label": "Shell & Tube Heat Exchanger"
+    },
+    {
+      "id": "air_cooled",
+      "label": "Air Cooled Heat Exchanger"
+    },
+    {
+      "id": "spares",
+      "label": "Spare Parts (Plates, Gaskets)"
+    }
+  ]
+}

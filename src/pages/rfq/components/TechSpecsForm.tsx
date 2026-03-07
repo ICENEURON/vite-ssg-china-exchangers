@@ -1,4 +1,3 @@
-
 export type UnitSystem = "metric" | "imperial"
 
 interface TechSpecsFormProps {
@@ -14,134 +13,157 @@ export function TechSpecsForm({ units, onUnitChange, specs, onChange }: TechSpec
     const flowUnit = units === "metric" ? "m³/h" : "GPM"
 
     // Helper for input styles
-    const inputClass = "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-    const labelClass = "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+    const inputClass = "flex h-12 w-full rounded-xl border-2 border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-2 text-sm ring-offset-background transition-all hover:border-primary/40 focus:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10 disabled:cursor-not-allowed disabled:opacity-50"
+    const labelClass = "text-sm font-semibold text-slate-700 dark:text-slate-300 leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 mb-2 block"
 
     return (
-        <div className="space-y-6 mb-8">
-            <div className="flex items-center justify-between">
-                <h3 className="text-lg font-bold">Technical Parameters</h3>
+        <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                <div>
+                    <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50">Technical Parameters</h3>
+                    <p className="text-sm text-slate-500 mt-1">Provide the core thermodynamic requirements.</p>
+                </div>
                 {/* Unit Switcher */}
-                <div className="flex bg-muted p-1 rounded-lg">
+                <div className="flex bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 shadow-inner">
                     <button
                         onClick={() => onUnitChange("metric")}
-                        className={`text-xs px-3 py-1.5 rounded-md font-medium transition-all ${units === "metric" ? "bg-white dark:bg-zinc-800 shadow-sm text-foreground" : "text-muted-foreground hover:text-foreground"}`}
+                        className={`text-sm px-6 py-2 rounded-lg font-semibold transition-all duration-300 ${units === "metric" ? "bg-white dark:bg-slate-700 shadow-md text-primary" : "text-slate-500 hover:text-slate-700 dark:hover:text-slate-300"}`}
                     >
-                        Metric
+                        Metric (°C, m³/h)
                     </button>
                     <button
                         onClick={() => onUnitChange("imperial")}
-                        className={`text-xs px-3 py-1.5 rounded-md font-medium transition-all ${units === "imperial" ? "bg-white dark:bg-zinc-800 shadow-sm text-foreground" : "text-muted-foreground hover:text-foreground"}`}
+                        className={`text-sm px-6 py-2 rounded-lg font-semibold transition-all duration-300 ${units === "imperial" ? "bg-white dark:bg-slate-700 shadow-md text-primary" : "text-slate-500 hover:text-slate-700 dark:hover:text-slate-300"}`}
                     >
-                        Imperial
+                        Imperial (°F, GPM)
                     </button>
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-card border rounded-xl p-6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 md:p-10 shadow-sm">
 
                 {/* Hot Side */}
-                <div className="space-y-4">
-                    <span className="text-xs font-bold uppercase text-red-500 tracking-wider">Hot Side Fluid</span>
+                <div className="space-y-6">
+                    <div className="flex items-center gap-3 border-b border-rose-100 dark:border-rose-900/30 pb-4">
+                        <div className="w-8 h-8 rounded-full bg-rose-100 dark:bg-rose-900/50 flex items-center justify-center">
+                            <div className="w-3 h-3 rounded-full bg-rose-500 animate-pulse" />
+                        </div>
+                        <span className="text-lg font-bold text-rose-600 dark:text-rose-400">Hot Side</span>
+                    </div>
 
-                    <div className="space-y-2">
-                        <label className={labelClass}>Fluid Name</label>
-                        <input
-                            className={inputClass}
-                            placeholder="e.g. Steam, Hot Oil"
-                            value={specs.hotFluid}
-                            onChange={(e) => onChange("hotFluid", e.target.value)}
-                        />
-                    </div>
-                    <div className="grid grid-cols-2 gap-4">
-                        <div className="space-y-2">
-                            <label className={labelClass}>Inlet Temp</label>
-                            <div className="relative">
-                                <input
-                                    type="number"
-                                    className={`${inputClass} pr-8`}
-                                    value={specs.hotIn}
-                                    onChange={(e) => onChange("hotIn", e.target.value)}
-                                />
-                                <span className="absolute right-3 top-2.5 text-xs text-muted-foreground font-bold">{tempUnit}</span>
-                            </div>
-                        </div>
-                        <div className="space-y-2">
-                            <label className={labelClass}>Outlet Temp</label>
-                            <div className="relative">
-                                <input
-                                    type="number"
-                                    className={`${inputClass} pr-8`}
-                                    value={specs.hotOut}
-                                    onChange={(e) => onChange("hotOut", e.target.value)}
-                                />
-                                <span className="absolute right-3 top-2.5 text-xs text-muted-foreground font-bold">{tempUnit}</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="space-y-2">
-                        <label className={labelClass}>Flow Rate</label>
-                        <div className="relative">
+                    <div className="space-y-5">
+                        <div>
+                            <label className={labelClass}>Fluid Type</label>
                             <input
-                                type="number"
-                                className={`${inputClass} pr-12`}
-                                value={specs.hotFlow}
-                                onChange={(e) => onChange("hotFlow", e.target.value)}
+                                className={inputClass}
+                                placeholder="e.g. Steam, Thermal Oil, Water"
+                                value={specs.hotFluid}
+                                onChange={(e) => onChange("hotFluid", e.target.value)}
                             />
-                            <span className="absolute right-3 top-2.5 text-xs text-muted-foreground font-bold">{flowUnit}</span>
+                        </div>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div>
+                                <label className={labelClass}>Inlet Temp</label>
+                                <div className="relative">
+                                    <input
+                                        type="number"
+                                        className={`${inputClass} pr-10 font-mono`}
+                                        value={specs.hotIn}
+                                        placeholder="0.0"
+                                        onChange={(e) => onChange("hotIn", e.target.value)}
+                                    />
+                                    <span className="absolute right-4 top-3.5 text-sm text-slate-400 font-bold">{tempUnit}</span>
+                                </div>
+                            </div>
+                            <div>
+                                <label className={labelClass}>Outlet Temp</label>
+                                <div className="relative">
+                                    <input
+                                        type="number"
+                                        className={`${inputClass} pr-10 font-mono`}
+                                        value={specs.hotOut}
+                                        placeholder="0.0"
+                                        onChange={(e) => onChange("hotOut", e.target.value)}
+                                    />
+                                    <span className="absolute right-4 top-3.5 text-sm text-slate-400 font-bold">{tempUnit}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label className={labelClass}>Volume / Mass Flow Rate</label>
+                            <div className="relative">
+                                <input
+                                    type="number"
+                                    className={`${inputClass} pr-14 font-mono`}
+                                    value={specs.hotFlow}
+                                    placeholder="0.00"
+                                    onChange={(e) => onChange("hotFlow", e.target.value)}
+                                />
+                                <span className="absolute right-4 top-3.5 text-sm text-slate-400 font-bold">{flowUnit}</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 {/* Cold Side */}
-                <div className="space-y-4 md:border-l md:pl-6 border-dashed border-zinc-200 dark:border-zinc-800">
-                    <span className="text-xs font-bold uppercase text-blue-500 tracking-wider">Cold Side Fluid</span>
+                <div className="space-y-6 lg:border-l lg:pl-8 border-dashed border-slate-200 dark:border-slate-800">
+                    <div className="flex items-center gap-3 border-b border-blue-100 dark:border-blue-900/30 pb-4">
+                        <div className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center">
+                            <div className="w-3 h-3 rounded-full bg-blue-500 animate-pulse" />
+                        </div>
+                        <span className="text-lg font-bold text-blue-600 dark:text-blue-400">Cold Side</span>
+                    </div>
 
-                    <div className="space-y-2">
-                        <label className={labelClass}>Fluid Name</label>
-                        <input
-                            className={inputClass}
-                            placeholder="e.g. Water, Glycol"
-                            value={specs.coldFluid}
-                            onChange={(e) => onChange("coldFluid", e.target.value)}
-                        />
-                    </div>
-                    <div className="grid grid-cols-2 gap-4">
-                        <div className="space-y-2">
-                            <label className={labelClass}>Inlet Temp</label>
-                            <div className="relative">
-                                <input
-                                    type="number"
-                                    className={`${inputClass} pr-8`}
-                                    value={specs.coldIn}
-                                    onChange={(e) => onChange("coldIn", e.target.value)}
-                                />
-                                <span className="absolute right-3 top-2.5 text-xs text-muted-foreground font-bold">{tempUnit}</span>
-                            </div>
-                        </div>
-                        <div className="space-y-2">
-                            <label className={labelClass}>Outlet Temp</label>
-                            <div className="relative">
-                                <input
-                                    type="number"
-                                    className={`${inputClass} pr-8`}
-                                    value={specs.coldOut}
-                                    onChange={(e) => onChange("coldOut", e.target.value)}
-                                />
-                                <span className="absolute right-3 top-2.5 text-xs text-muted-foreground font-bold">{tempUnit}</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="space-y-2">
-                        <label className={labelClass}>Flow Rate</label>
-                        <div className="relative">
+                    <div className="space-y-5">
+                        <div>
+                            <label className={labelClass}>Fluid Type</label>
                             <input
-                                type="number"
-                                className={`${inputClass} pr-12`}
-                                value={specs.coldFlow}
-                                onChange={(e) => onChange("coldFlow", e.target.value)}
+                                className={inputClass}
+                                placeholder="e.g. Cooling Water, Glycol"
+                                value={specs.coldFluid}
+                                onChange={(e) => onChange("coldFluid", e.target.value)}
                             />
-                            <span className="absolute right-3 top-2.5 text-xs text-muted-foreground font-bold">{flowUnit}</span>
+                        </div>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div>
+                                <label className={labelClass}>Inlet Temp</label>
+                                <div className="relative">
+                                    <input
+                                        type="number"
+                                        className={`${inputClass} pr-10 font-mono`}
+                                        value={specs.coldIn}
+                                        placeholder="0.0"
+                                        onChange={(e) => onChange("coldIn", e.target.value)}
+                                    />
+                                    <span className="absolute right-4 top-3.5 text-sm text-slate-400 font-bold">{tempUnit}</span>
+                                </div>
+                            </div>
+                            <div>
+                                <label className={labelClass}>Outlet Temp</label>
+                                <div className="relative">
+                                    <input
+                                        type="number"
+                                        className={`${inputClass} pr-10 font-mono`}
+                                        value={specs.coldOut}
+                                        placeholder="0.0"
+                                        onChange={(e) => onChange("coldOut", e.target.value)}
+                                    />
+                                    <span className="absolute right-4 top-3.5 text-sm text-slate-400 font-bold">{tempUnit}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label className={labelClass}>Volume / Mass Flow Rate</label>
+                            <div className="relative">
+                                <input
+                                    type="number"
+                                    className={`${inputClass} pr-14 font-mono`}
+                                    value={specs.coldFlow}
+                                    placeholder="0.00"
+                                    onChange={(e) => onChange("coldFlow", e.target.value)}
+                                />
+                                <span className="absolute right-4 top-3.5 text-sm text-slate-400 font-bold">{flowUnit}</span>
+                            </div>
                         </div>
                     </div>
                 </div>
