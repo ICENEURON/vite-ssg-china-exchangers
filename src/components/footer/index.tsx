@@ -53,6 +53,10 @@ const Footer = () => {
         key: "industry-news",
         url: addLanguageToPath("/industry-news", currentLanguage),
       },
+      {
+        key: "contact",
+        url: addLanguageToPath("/contact", currentLanguage),
+      },
     ],
   ];
 

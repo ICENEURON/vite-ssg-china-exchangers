@@ -9,6 +9,7 @@ import login from './pages/login.json';
 import dashboard from './pages/dashboard.json';
 import terms from './pages/terms.json';
 import privacy from './pages/privacy.json';
+import contact from './pages/contact.json';
 import notFound from './pages/404.json';
 
 export default {
@@ -26,6 +27,7 @@ export default {
     dashboard,
     terms,
     privacy,
+    contact,
     '404': notFound,
   },
 } as const;

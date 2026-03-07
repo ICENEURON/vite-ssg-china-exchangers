@@ -8,6 +8,7 @@ import about from './pages/about.json';
 import terms from './pages/terms.json';
 import privacy from './pages/privacy.json';
 import dashboard from './pages/dashboard.json';
+import contact from './pages/contact.json';
 import notFound from './pages/404.json';
 import contentMarketingServices from './pages/content-marketing-services.json';
 
@@ -24,6 +25,7 @@ export default {
     privacy,
     dashboard,
     contentMarketingServices,
+    contact,
     '404': notFound,
   },
 } as const;

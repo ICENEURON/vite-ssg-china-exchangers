@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Mail } from "lucide-react";
 import { ThemeToggle } from "../theme-toggle";
 import { LanguageToggle } from "../../components/language-toggle";
 import { useAuth } from "../../context/auth";
@@ -58,13 +58,15 @@ export function Navigation() {
         };
     }, [isMobileMenuOpen]);
 
-    const publicItems = ROUTES.filter((r) => r.nav === "public");
+    const publicItems = ROUTES.filter((r) => r.nav === "public" && r.path !== "/contact");
     const guestItems = ROUTES.filter((r) => r.nav === "guest");
     const authItems = ROUTES.filter((r) => r.nav === "auth");
 
-    const mobilePublicItems = ROUTES.filter((r) => r.mobile === "public");
+    const mobilePublicItems = ROUTES.filter((r) => r.mobile === "public" && r.path !== "/contact");
     const mobileGuestItems = ROUTES.filter((r) => r.mobile === "guest");
     const mobileAuthItems = ROUTES.filter((r) => r.mobile === "auth");
+
+    const contactRoute = ROUTES.find((r) => r.path === "/contact");
 
     const leftItems = publicItems;
     const rightItems = enableAuth ? (user ? authItems : guestItems) : [];
@@ -93,6 +95,7 @@ export function Navigation() {
                 ? t(route.translationKey)
                 : route.label;
             const isActive = isActiveLink(route.path);
+
 
             // Guest Items (Login/Register) as Buttons
             if (route.nav === 'guest') {
@@ -209,6 +212,23 @@ export function Navigation() {
                     <div className="ml-auto hidden xl:flex items-center gap-2 text-navbar-foreground">
                         <NavigationMenu viewport={false}>
                             <NavigationMenuList>
+                                {contactRoute && (
+                                    <NavigationMenuItem key={contactRoute.path}>
+                                        <Button
+                                            asChild
+                                            size="sm"
+                                            className={cn(
+                                                "bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white font-semibold shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:scale-105 rounded-full px-5 gap-2",
+                                                isActiveLink(contactRoute.path) && "ring-2 ring-white/50"
+                                            )}
+                                        >
+                                            <Link to={getLocalizedPath(contactRoute.path)}>
+                                                <Mail className="w-4 h-4" />
+                                                {contactRoute.translationKey ? t(contactRoute.translationKey) : contactRoute.label}
+                                            </Link>
+                                        </Button>
+                                    </NavigationMenuItem>
+                                )}
                                 {renderNavItems(rightItems)}
                                 {enableAuth && user && (
                                     <NavigationMenuItem>
@@ -277,6 +297,19 @@ export function Navigation() {
                                     </Link>
                                 );
                             })}
+
+                            {/* Mobile CTA Button */}
+                            {contactRoute && (
+                                <Link
+                                    key={contactRoute.path}
+                                    to={getLocalizedPath(contactRoute.path)}
+                                    className="flex items-center gap-2 px-4 py-3 text-[16px] font-semibold text-white bg-gradient-to-r from-primary to-orange-500 rounded-lg shadow-lg transition-all hover:shadow-xl hover:scale-[1.02]"
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                >
+                                    <Mail className="w-4 h-4" />
+                                    {contactRoute.translationKey ? t(contactRoute.translationKey) : contactRoute.label}
+                                </Link>
+                            )}
                         </div>
 
                         {/* Mobile Guest Buttons */}

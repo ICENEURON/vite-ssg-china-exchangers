@@ -20,6 +20,7 @@ import NotFoundPage from "../../pages/404"
 
 import BlogIndex from "../../pages/industry-news"
 import BlogPost from "../../pages/industry-news/post"
+import ContactPage from "../../pages/contact"
 
 // import ComponentsPage from "../../pages/components"
 
@@ -61,6 +62,8 @@ const allRoutes: RouteDef[] = [
         { path: "/industry-news", element: BlogIndex, auth: "public", nav: "public", mobile: "public", label: "Industry News", translationKey: "navigation.menu.industry-news" },
         { path: "/industry-news/:slug", element: BlogPost, auth: "public", nav: "none", mobile: "none" },
     ] as RouteDef[] : []),
+
+    { path: "/contact", element: ContactPage, auth: "public", nav: "public", mobile: "public", label: "Contact Us", translationKey: "navigation.menu.contact" },
 
     { path: "/login", element: LoginPage, auth: "public", nav: "guest", mobile: "guest", label: "Login", translationKey: "navigation.menu.login" },
     { path: "/register", element: SignUpPage, auth: "public", nav: "guest", mobile: "guest", label: "Register", translationKey: "navigation.menu.register" },
