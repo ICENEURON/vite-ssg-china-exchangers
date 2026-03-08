@@ -1,42 +1,65 @@
-{
-    "title": "産業用熱交換器製品",
-    "description": "当社の包括的な産業用熱交換器ディレクトリをご覧ください。特定の用途に適した機器を見つけ、厳格に検証されたトップメーカーと接続します。",
-    "categories": [
-        {
-            "id": "gasketed-phe",
-            "name": "ガスケット付きプレート熱交換器",
-            "shortDescription": "一般的な加熱および冷却業務向けの、柔軟で効率的な熱伝達を提供します。",
-            "image": "/static/products/gasketed-phe.jpg"
-        },
-        {
-            "id": "welded-phe",
-            "name": "全溶接プレート熱交換器",
-            "shortDescription": "極端な温度や高圧環境での堅牢な熱伝達を実現します。",
-            "image": "/static/products/welded-phe.jpg"
-        },
-        {
-            "id": "brazed-phe",
-            "name": "ブレージング（ろう付け）プレート熱交換器",
-            "shortDescription": "高圧HVACおよび冷凍に最適な、コンパクトなガスケット不要ユニットです。",
-            "image": "/static/products/brazed-phe.jpg"
-        },
-        {
-            "id": "shell-and-tube",
-            "name": "シェルアンドチューブ式熱交換器",
-            "shortDescription": "最も過酷な産業用途向けの、伝統的で耐久性の高い設計です。",
-            "image": "/static/products/shell-and-tube.jpg"
-        },
-        {
-            "id": "air-cooled",
-            "name": "空冷式熱交換器",
-            "shortDescription": "水が利用できない場合に、周囲の空気を利用した直接冷却を提供します。",
-            "image": "/static/products/air-cooled.jpg"
-        },
-        {
-            "id": "spares",
-            "name": "スペアパーツとアクセサリー",
-            "shortDescription": "高品質のOEMおよび完全一致の交換用プレートとガスケット。",
-            "image": "/static/products/spares.jpg"
-        }
-    ]
-}
+[
+  {
+    "slug": "ht-bloc-welded-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
+    },
+    "name": "HT-Bloc Welded Plate Heat Exchanger",
+    "short_description": "Compact and efficient welded plate heat exchanger for demanding process duties.",
+    "industries": [
+      "Chemical Processing",
+      "Food and Beverage",
+      "Pharmaceuticals"
+    ],
+    "images": [
+      {
+        "alt_text": "Product image",
+        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/ht-bloc-welded-plate-heat-exchanger"
+  },
+  {
+    "slug": "wide-gap-welded-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
+    },
+    "name": "Wide Gap Welded Plate Heat Exchanger",
+    "short_description": "Welded plate heat exchanger designed for solids, viscous media, and anti-clogging performance.",
+    "industries": [
+      "Chemical Processing",
+      "Food and Beverage",
+      "Pharmaceuticals"
+    ],
+    "images": [
+      {
+        "alt_text": "Product image",
+        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
+  },
+  {
+    "slug": "tp-welded-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
+    },
+    "name": "TP Welded Plate Heat Exchanger",
+    "short_description": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
+    "industries": [
+      "Chemical Processing",
+      "Food and Beverage",
+      "Pharmaceuticals"
+    ],
+    "images": [
+      {
+        "alt_text": "Product image",
+        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
+  }
+]

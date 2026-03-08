@@ -3,15 +3,10 @@ import type { ComponentType } from "react"
 import HomePage from "../../pages/home"
 
 import ManufacturersPage from "../../pages/manufacturers"
-import ShphePage from "../../pages/manufacturers/shanghai-heat-transfer-equipment-co-ltd"
+import ManufacturerProfilePage from "../../pages/manufacturers/company"
 
 import ProductsPage from "../../pages/products"
-import ProductGasketedPhePage from "../../pages/products/gasketed-phe"
-import ProductWeldedPhePage from "../../pages/products/welded-phe"
-import ProductBrazedPhePage from "../../pages/products/brazed-phe"
-import ProductShellAndTubePage from "../../pages/products/shell-and-tube"
-import ProductAirCooledPage from "../../pages/products/air-cooled"
-import ProductSparesPage from "../../pages/products/spares"
+import ProductProfilePage from "../../pages/products/product"
 
 import FaqPage from "../../pages/rfq"
 
@@ -55,17 +50,10 @@ const allRoutes: RouteDef[] = [
     { path: "/", element: HomePage, auth: "public", nav: "none", mobile: "none" },
 
     { path: "/manufacturers", element: ManufacturersPage, auth: "public", nav: "public", mobile: "public", label: "Manufacturers", translationKey: "navigation.menu.manufacturers" },
-    { path: "/manufacturers/shanghai-heat-transfer-equipment-co-ltd", element: ShphePage, auth: "public", nav: "none", mobile: "none" },
-    { path: "/manufacturers/jiangsu-pioneer-machinery", element: ShphePage, auth: "public", nav: "none", mobile: "none" },
-    { path: "/manufacturers/lanzhou-ls-heavy-equipment", element: ShphePage, auth: "public", nav: "none", mobile: "none" },
-    
+    { path: "/manufacturers/:slug", element: ManufacturerProfilePage, auth: "public", nav: "none", mobile: "none" },
+
     { path: "/products", element: ProductsPage, auth: "public", nav: "none", mobile: "none", label: "Products", translationKey: "navigation.menu.products" },
-    { path: "/products/gasketed-phe", element: ProductGasketedPhePage, auth: "public", nav: "none", mobile: "none" },
-    { path: "/products/welded-phe", element: ProductWeldedPhePage, auth: "public", nav: "none", mobile: "none" },
-    { path: "/products/brazed-phe", element: ProductBrazedPhePage, auth: "public", nav: "none", mobile: "none" },
-    { path: "/products/shell-and-tube", element: ProductShellAndTubePage, auth: "public", nav: "none", mobile: "none" },
-    { path: "/products/air-cooled", element: ProductAirCooledPage, auth: "public", nav: "none", mobile: "none" },
-    { path: "/products/spares", element: ProductSparesPage, auth: "public", nav: "none", mobile: "none" },
+    { path: "/products/:manufacturerSlug/:productSlug", element: ProductProfilePage, auth: "public", nav: "none", mobile: "none" },
 
     { path: "/rfq", element: FaqPage, auth: "public", nav: "none", mobile: "public", label: "RFQ", translationKey: "navigation.menu.rfq" },
 

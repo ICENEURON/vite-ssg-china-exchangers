@@ -1,0 +1,72 @@
+[
+  {
+    "id": "15687513-070e-49f1-af67-9e820c987f73",
+    "name": {
+      "en": "Shanghai Heat Transfer Equipment Co., Ltd.",
+      "zh": "上海换热设备有限公司"
+    },
+    "short_description": {
+      "en": "Verified industrial heat exchanger manufacturer based in Shanghai, China.",
+      "zh": "位于中国上海的工业换热设备制造商。"
+    },
+    "full_description": {
+      "en": "Shanghai Heat Transfer Equipment Co., Ltd. is a leading manufacturer of heat exchangers and heat transfer equipment. With over 20 years of experience in the industry, the company has established itself as a reliable supplier of high-quality heat exchangers and heat transfer equipment. The company's products are used in a wide range of applications, including chemical processing, food and beverage, and pharmaceuticals.",
+      "zh": ""
+    },
+    "advantages": {
+      "en": [
+        "Advanced Thermal Laboratory: In-house performance testing ensures real-world efficiency validation.",
+        "Specialized Welding Technology: Expertise in fully welded and wide-gap plate heat exchangers for difficult media.",
+        "Comprehensive Industry Coverage: Proven track record in chemical, pharmaceutical, and food processing sectors."
+      ],
+      "zh": []
+    },
+    "slug": "shanghai-heat-transfer-equipment-co-ltd",
+    "website": "https://www.shanghaiheattransfer.com",
+    "email": [
+      "abc@gmail.com"
+    ],
+    "phone": [
+      "+8613003001011"
+    ],
+    "country_id": "CN",
+    "country_name": {
+      "en": "China",
+      "zh": "中国"
+    },
+    "city": {
+      "en": "Shanghai",
+      "zh": "上海"
+    },
+    "address": {
+      "en": "Shanghai, China",
+      "zh": ""
+    },
+    "established_year": "2005",
+    "factory_area": "20000m2",
+    "employee_count": "200+",
+    "industries": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "export_markets": [
+      "HK",
+      "CN",
+      "US"
+    ],
+    "is_visible": true,
+    "seo_data": {
+      "meta_title": "Shanghai Heat Transfer Equipment Co., Ltd. | Heat Exchanger Manufacturer",
+      "meta_description": "Verified heat exchanger manufacturer in Shanghai, China, with plate heat exchanger and welded heat exchanger capabilities."
+    },
+    "created_at": "2026-03-08T00:00:00+00:00",
+    "updated_at": "2026-03-08T00:00:00+00:00"
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "slug": "tp-welded-plate-heat-exchanger",
+  "name": "TP Welded Plate Heat Exchanger",
+  "full_description": "In industrial processes, specialized heat exchange solutions are required for handling challenging fluids such as particle-laden fluids (e.g., slurry), viscous fluids (e.g., syrup), and fiber-containing fluids (e.g., pulp). To ensure reliable production operations, targeted heat exchanger design is critical to address challenges such as blockages and leaks caused by those fluids , this requires customized solutions including erosion-resistant materials, optimized channel geometries, and integrated self-cleaning mechanisms. TP Welded Plate Heat Exchanger is an ideal heat exchange solution for these applications.",
+  "industries": [
+    "Chemical Processing",
+    "Food and Beverage",
+    "Pharmaceuticals"
+  ],
+  "advantage": [
+    "Designed for challenging fluids",
+    "Helps reduce blockage and leakage risk",
+    "Supports customized material and channel design"
+  ],
+  "technical_parameters": {
+    "Area": "6.6 ~ 870㎡",
+    "Plate material": "SS304, SS316, Hastelloy, Titanium",
+    "Design Pressure": "1.0 ~ 4.0MPa",
+    "Plate Thickness": "1.5mm ~ 10mm",
+    "Design Temperature": "-196℃ ~ 450℃"
+  },
+  "seo_data": {
+    "meta_title": "TP Welded Plate Heat Exchanger Manufacturer",
+    "meta_description": "TP welded plate heat exchanger for slurry, viscous, and fiber-containing media with customized design for reliable industrial operation."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Product image",
+      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME certificate",
+      "url": "/storage/product_assets/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV certificate",
+      "url": "/storage/product_assets/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE certificate",
+      "url": "/storage/product_assets/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI certificate",
+      "url": "/storage/product_assets/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS certificate",
+      "url": "/storage/product_assets/product_certifications/sgs.png"
+    }
+  ]
+}

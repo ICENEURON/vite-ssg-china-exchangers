@@ -53,17 +53,37 @@ export default defineConfig(({ mode }) => {
       includedRoutes(paths: string[], routes: any) {
         const staticRoutes = paths.filter(path => !path.includes(':'))
         const enableBlog = env.VITE_ENABLE_BLOG !== 'false';
-        if (!enableBlog) {
-          return staticRoutes;
-        }
+        
+        // Base static routes with dynamic blog & manufacturers appended
+        let allSSGRoutes = [...staticRoutes];
+
         try {
-          const posts = require('./.velite/posts.json')
-          const blogRoutes = posts.map((post: any) => `/industry-news/${post.slug}`)
-          return [...staticRoutes, ...blogRoutes]
+          const mfgList = require('./src/locales/en/pages/manufacturers/list.json');
+          const mfgRoutes = mfgList.map((mfg: any) => `/manufacturers/${mfg.slug}`);
+          allSSGRoutes = [...allSSGRoutes, ...mfgRoutes];
         } catch (e) {
-          console.warn('Failed to load velite posts for SSG', e)
-          return staticRoutes
+             console.warn('Failed to load manufacturers for SSG', e);
         }
+
+        try {
+          const productList = require('./src/locales/en/pages/products/list.json');
+          const productRoutes = productList.map((product: any) => `/products/${product.url}`);
+          allSSGRoutes = [...allSSGRoutes, ...productRoutes];
+        } catch (e) {
+             console.warn('Failed to load products for SSG', e);
+        }
+
+        if (enableBlog) {
+          try {
+            const posts = require('./.velite/posts.json');
+            const blogRoutes = posts.map((post: any) => `/industry-news/${post.slug}`);
+            allSSGRoutes = [...allSSGRoutes, ...blogRoutes];
+          } catch (e) {
+            console.warn('Failed to load velite posts for SSG', e);
+          }
+        }
+        
+        return allSSGRoutes;
       }
     }
   }

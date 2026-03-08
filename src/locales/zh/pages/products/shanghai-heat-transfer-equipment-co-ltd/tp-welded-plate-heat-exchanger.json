@@ -1,0 +1,57 @@
+{
+  "slug": "tp-welded-plate-heat-exchanger",
+  "name": "TP 焊接板式换热器",
+  "full_description": "在工业过程中，针对含颗粒介质、粘性介质和含纤维介质等复杂流体，需要专门的换热解决方案。为保证生产稳定运行，必须采用有针对性的换热器设计，以解决堵塞和泄漏等问题，这通常需要耐冲蚀材料、优化流道结构以及集成自清洁机制。TP 焊接板式换热器正是适用于此类应用的理想换热方案。",
+  "industries": [
+    "化工",
+    "食品与饮料",
+    "制药"
+  ],
+  "advantage": [
+    "针对复杂介质设计",
+    "有助于降低堵塞和泄漏风险",
+    "支持材料和流道定制优化"
+  ],
+  "technical_parameters": {
+    "Area": "6.6 ~ 870㎡",
+    "Plate material": "SS304, SS316, Hastelloy, Titanium",
+    "Design Pressure": "1.0 ~ 4.0MPa",
+    "Plate Thickness": "1.5mm ~ 10mm",
+    "Design Temperature": "-196℃ ~ 450℃"
+  },
+  "seo_data": {
+    "meta_title": "TP 焊接板式换热器制造商",
+    "meta_description": "TP 焊接板式换热器适用于浆料、高粘度和含纤维介质，可通过定制化设计提升工业运行可靠性。"
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Product image",
+      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME certificate",
+      "url": "/storage/product_assets/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV certificate",
+      "url": "/storage/product_assets/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE certificate",
+      "url": "/storage/product_assets/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI certificate",
+      "url": "/storage/product_assets/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS certificate",
+      "url": "/storage/product_assets/product_certifications/sgs.png"
+    }
+  ]
+}

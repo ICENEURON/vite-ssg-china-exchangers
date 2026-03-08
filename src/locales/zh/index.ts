@@ -14,31 +14,48 @@ import notFound from './pages/404.json';
 
 // --- Products --- 
 import productsList from './pages/products/list.json';
-import gasketedPhe from './pages/products/gasketed-phe.json';
-import weldedPhe from './pages/products/welded-phe.json';
-import brazedPhe from './pages/products/brazed-phe.json';
-import shellAndTube from './pages/products/shell-and-tube.json';
-import airCooled from './pages/products/air-cooled.json';
-import spares from './pages/products/spares.json';
+
+// --- Dynamic Imports for Manufacturers ---
+const mfgFiles = import.meta.glob('./pages/manufacturers/*.json', { eager: true, import: 'default' });
+const manufacturersData: Record<string, any> = {
+  ...manufacturers,
+  list: manufacturersList
+};
+
+for (const path in mfgFiles) {
+  const slug = path.split('/').pop()?.replace('.json', '');
+  if (slug && slug !== 'list') {
+    manufacturersData[slug] = mfgFiles[path];
+  }
+}
+
+// --- Dynamic Imports for Products ---
+const productFiles = import.meta.glob('./pages/products/**/*.json', { eager: true, import: 'default' });
+const productsData: Record<string, any> = {
+  ...productsList,
+  list: productsList
+};
+
+for (const path in productFiles) {
+  const parts = path.split('/');
+  const fileName = parts.pop()?.replace('.json', '');
+  const dirName = parts.pop();
+
+  if (fileName && fileName !== 'list' && dirName && dirName !== 'products') {
+    if (!productsData[dirName]) {
+      productsData[dirName] = {};
+    }
+    productsData[dirName][fileName] = productFiles[path];
+  }
+}
+
 export default {
   navigation,
   footer,
   pages: {
     home,
-    manufacturers: {
-      ...manufacturers,
-      list: manufacturersList
-    },
-    products: {
-      ...productsList,
-      list: productsList,
-      'gasketed-phe': gasketedPhe,
-      'welded-phe': weldedPhe,
-      'brazed-phe': brazedPhe,
-      'shell-and-tube': shellAndTube,
-      'air-cooled': airCooled,
-      'spares': spares
-    },
+    manufacturers: manufacturersData,
+    products: productsData,
     profile,
     about,
     login,

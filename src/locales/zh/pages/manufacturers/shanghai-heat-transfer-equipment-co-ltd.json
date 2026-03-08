@@ -1,0 +1,105 @@
+{
+  "name": "上海换热设备有限公司",
+  "full_description": "",
+  "advantages": [],
+  "slug": "shanghai-heat-transfer-equipment-co-ltd",
+  "website": "https://www.shanghaiheattransfer.com",
+  "email": [
+    "abc@gmail.com"
+  ],
+  "phone": [
+    "+8613003001011"
+  ],
+  "country_name": "中国",
+  "city": "上海",
+  "address": "",
+  "established_year": "2005",
+  "factory_area": "20000m2",
+  "employee_count": "200+",
+  "export_markets": [
+    "HK",
+    "CN",
+    "US"
+  ],
+  "seo_data": {
+    "meta_title": "Shanghai Heat Transfer Equipment Co., Ltd. | Heat Exchanger Manufacturer",
+    "meta_description": "Verified heat exchanger manufacturer in Shanghai, China, with plate heat exchanger and welded heat exchanger capabilities."
+  },
+  "industries": [
+    "暖通空调",
+    "石油化工",
+    "船舶/海工",
+    "能源",
+    "食品加工",
+    "化工",
+    "食品与饮料",
+    "制药",
+    "发电/电力"
+  ],
+  "certifications": [
+    {
+      "alt_text": "Company certificate",
+      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_2.png"
+    },
+    {
+      "alt_text": "Company certificate",
+      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_1.png"
+    },
+    {
+      "alt_text": "Company certificate",
+      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_3.png"
+    }
+  ],
+  "customers": [
+    {
+      "alt_text": "Company Customer",
+      "url": "/storage/manufacturer_assets/company_customers/sulzer.png"
+    },
+    {
+      "alt_text": "Company Customer",
+      "url": "/storage/manufacturer_assets/company_customers/siemens.png"
+    },
+    {
+      "alt_text": "Company Customer",
+      "url": "/storage/manufacturer_assets/company_customers/riotinto.png"
+    },
+    {
+      "alt_text": "Company Customer",
+      "url": "/storage/manufacturer_assets/company_customers/gazprom.png"
+    },
+    {
+      "alt_text": "Company Customer",
+      "url": "/storage/manufacturer_assets/company_customers/bp.png"
+    },
+    {
+      "alt_text": "Company Customer",
+      "url": "/storage/manufacturer_assets/company_customers/vimetco.png"
+    }
+  ],
+  "images": [
+    {
+      "alt_text": "Company image",
+      "url": "/storage/manufacturer_assets/company_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+    }
+  ],
+  "products": [
+    {
+      "slug": "ht-bloc-welded-plate-heat-exchanger",
+      "name": "HT-Bloc 焊接板式换热器",
+      "short_description": "适用于高要求工况的紧凑高效焊接板式换热器。",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/ht-bloc-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "wide-gap-welded-plate-heat-exchanger",
+      "name": "宽流道焊接板式换热器",
+      "short_description": "针对含固体、粘性介质和防堵塞需求设计的焊接板式换热器。",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "tp-welded-plate-heat-exchanger",
+      "name": "TP 焊接板式换热器",
+      "short_description": "适用于浆料、高粘度及含纤维介质的专用换热器。",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
+    }
+  ]
+}

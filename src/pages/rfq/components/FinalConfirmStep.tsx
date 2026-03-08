@@ -1,7 +1,7 @@
 import type { RqfContextData } from "./ContextStep"
 import type { RfqProductSpecsData } from "./ProductAndSpecsStep"
 import { Check, ShieldCheck, User, Edit2 } from "lucide-react"
-import rfqData from "../../../data/rfq.json"
+import { useTranslation } from "react-i18next"
 
 interface FinalConfirmStepProps {
     context: RqfContextData;
@@ -13,6 +13,13 @@ interface FinalConfirmStepProps {
 }
 
 export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleAnonymous, onEditStep }: FinalConfirmStepProps) {
+    const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
+    const industries = t("industries", { returnObjects: true }) as {id: string, label: string}[];
+    const quantities = t("quantities", { returnObjects: true }) as {id: string, label: string}[];
+    const timelines = t("timelines", { returnObjects: true }) as {id: string, label: string}[];
+    const productTypes = t("productTypes", { returnObjects: true }) as {id: string, label: string}[];
+
+    const getLabel = (opts: {id: string, label: string}[], id: string) => opts.find(o => o.id === id)?.label || id;
 
     const renderSummaryItem = (label: string, value: string) => {
         if (!value) return null;
@@ -81,9 +88,9 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleA
                     </div>
                     <div>
                         {renderSummaryItem("Country / Region", context.country)}
-                        {renderSummaryItem("Industry / Application", context.industry === "Other" ? `Other (${context.customIndustry})` : context.industry)}
-                        {renderSummaryItem("Required Quantity", context.quantity === "Other" ? `Other (${context.customQuantity})` : context.quantity)}
-                        {renderSummaryItem("Expected Timeline", context.timeline === "Other" ? `Other (${context.customTimeline})` : context.timeline)}
+                        {renderSummaryItem("Industry / Application", context.industry === "other" ? `Other (${context.customIndustry})` : getLabel(industries, context.industry))}
+                        {renderSummaryItem("Required Quantity", context.quantity === "other" ? `Other (${context.customQuantity})` : getLabel(quantities, context.quantity))}
+                        {renderSummaryItem("Expected Timeline", context.timeline === "other" ? `Other (${context.customTimeline})` : getLabel(timelines, context.timeline))}
                     </div>
                 </div>
 
@@ -101,7 +108,7 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleA
                             <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">General Requirements</div>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <div>
-                                    {renderSummaryItem("Equipment Type", specs.productType === "other" ? `Other (${specs.customProductType})` : rfqData.productTypes.find(p => p.id === specs.productType)?.label || specs.productType)}
+                                    {renderSummaryItem("Equipment Type", specs.productType === "other" ? `Other (${specs.customProductType})` : getLabel(productTypes, specs.productType))}
                                     {renderSummaryItem("Design Pressure", specs.designPressure ? `${specs.designPressure} bar` : "")}
                                     {renderSummaryItem("Max Press. Drop", specs.pressureDrop ? `${specs.pressureDrop} kPA` : "")}
                                     {renderSummaryItem("Heat Load", specs.heatLoad ? `${specs.heatLoad} kW` : "")}

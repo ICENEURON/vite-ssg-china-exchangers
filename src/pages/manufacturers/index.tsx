@@ -4,6 +4,7 @@ import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { ManufacturerCard } from "./components/ManufacturerCard"
 import { HeroSection } from "./components/HeroSection"
+import { useCurrentLanguage, addLanguageToPath } from "../../utils/language-routing"
 
 interface Manufacturer {
   id: string;
@@ -18,6 +19,7 @@ interface Manufacturer {
 export default function ManufacturersPage() {
   const { t } = useTranslation("translation", { keyPrefix: "pages.manufacturers" });
   const location = useLocation();
+  const currentLanguage = useCurrentLanguage();
   const siteUrl = import.meta.env.VITE_SITE_URL;
   const siteName = import.meta.env.VITE_SITE_TITLE;
   const currentUrl = new URL(location.pathname, siteUrl).href;
@@ -48,8 +50,19 @@ export default function ManufacturersPage() {
         <section className="py-16">
           <div className="container mx-auto px-8 max-w-6xl">
             <div className="grid gap-6">
-              {manufacturers.map((company) => (
-                <ManufacturerCard key={company.id} company={company} />
+              {manufacturers.map((company: any) => (
+                <ManufacturerCard 
+                  key={company.slug} 
+                  company={{
+                    id: company.slug,
+                    name: company.name,
+                    location: `${company.city || ''}, ${company.country_name || ''}`.trim().replace(/^,\s*/, ''),
+                    verified: true,
+                    description: company.short_description,
+                    tags: company.industries || [],
+                    link: addLanguageToPath(`/manufacturers/${company.slug}`, currentLanguage)
+                  }} 
+                />
               ))}
             </div>
           </div>

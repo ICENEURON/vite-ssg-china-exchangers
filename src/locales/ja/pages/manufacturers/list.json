@@ -1,50 +1,20 @@
 [
-    {
-        "id": "shphe",
-        "name": "Shanghai Heat Transfer Equipment Co., Ltd. (SHPHE)",
-        "rating": "5.0",
-        "ratingLabel": "Tech Leader",
-        "location": "Shanghai, China",
-        "verified": true,
-        "description": "Premier solution provider for difficult fluids. Specializes in Wide Gap and Fully Welded Plate Heat Exchangers. Owns an in-house Thermal Performance Laboratory.",
-        "tags": [
-            "Welded PHE",
-            "Wide Gap",
-            "PCHE"
-        ],
-        "product_categories": ["welded-phe", "gasketed-phe", "spares"],
-        "link": "/manufacturers/shanghai-heat-transfer-equipment-co-ltd"
-    },
-    {
-        "id": "jiangsu-pioneer",
-        "name": "Jiangsu Pioneer Machinery Co., Ltd.",
-        "rating": "4.8",
-        "ratingLabel": "High Volume",
-        "location": "Jiangsu, China",
-        "verified": true,
-        "description": "Large-scale manufacturer focused on standard gasketed plate heat exchangers for HVAC and Marine applications. High capacity production lines.",
-        "tags": [
-            "Gasketed PHE",
-            "Marine",
-            "HVAC"
-        ],
-        "product_categories": ["gasketed-phe", "brazed-phe", "spares"],
-        "link": "/manufacturers/jiangsu-pioneer-machinery"
-    },
-    {
-        "id": "lanzhou-ls",
-        "name": "Lanzhou LS Heavy Equipment Co., Ltd.",
-        "rating": "4.9",
-        "ratingLabel": "Heavy Industry",
-        "location": "Gansu, China",
-        "verified": true,
-        "description": "State-owned enterprise specializing in extra-large heat exchangers for Oil & Gas and Petrochemical refineries. ASME U-Stamp holder.",
-        "tags": [
-            "Shell & Tube",
-            "High Pressure",
-            "Heavy Equipment"
-        ],
-        "product_categories": ["shell-and-tube", "air-cooled"],
-        "link": "/manufacturers/lanzhou-ls-heavy-equipment"
-    }
+  {
+    "name": "Shanghai Heat Transfer Equipment Co., Ltd.",
+    "short_description": "Verified industrial heat exchanger manufacturer based in Shanghai, China.",
+    "slug": "shanghai-heat-transfer-equipment-co-ltd",
+    "city": "Shanghai",
+    "country_name": "China",
+    "industries": [
+      "HVAC",
+      "Petrochemical",
+      "Marine",
+      "Energy",
+      "Food Processing",
+      "Chemical Processing",
+      "Food and Beverage",
+      "Pharmaceuticals",
+      "Power Generation"
+    ]
+  }
 ]

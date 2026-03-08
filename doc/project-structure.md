@@ -36,6 +36,7 @@ vite-ssg-china-exchangers/
 ├── node_modules/
 ├── public/                   # 🌐 静态资源
 ├── src/                      # 🧩 源代码
+├── supabase/                 # 🗄️ Supabase 数据库工具（Migrations & Schema）
 │
 ├── eslint.config.js          # ESLint 配置
 ├── index.html                # 入口 HTML 模板
@@ -422,3 +423,11 @@ public/
 5. **主题切换**：支持亮色/暗色主题，通过 `init.js` 预加载避免闪烁
 6. **组件化页面**：每个页面拆分为独立子组件（Hero、CTA、Grid 等），保持代码清晰
 7. **Shadcn UI**：基于 Radix UI 的无头组件库，提供高度可定制的 UI 组件
+
+---
+
+## Supabase 数据库方案说明
+
+平台采用 Supabase (PostgreSQL) 存储结构化数据（如制造商资料与产品目录）以取代本地 JSON 数据管理。
+
+相关的初始化脚本与建表语句（Schema）储存在 `supabase/migrations/` 目录下（如 `00001_initial_schema.sql`），其中多语言内容使用 `JSONB` 格式直接存储 (如 `{"en": "Text", "zh": "文本", "ja": "テキスト"}`)，以便进行快速查询渲染。利用了其原生的外键关联、UUID和 RLS (行级安全策略) 来保护数据完整性及读写权限配置。

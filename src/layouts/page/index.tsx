@@ -41,7 +41,6 @@ function PageLayoutContent() {
       </main>
 
       <Footer />
-      <Footer />
     </div>
   );
 }

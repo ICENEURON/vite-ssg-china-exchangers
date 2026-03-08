@@ -1,0 +1,57 @@
+{
+  "slug": "wide-gap-welded-plate-heat-exchanger",
+  "name": "宽流道焊接板式换热器",
+  "full_description": "其流道由板片焊接形成，板束安装于坚固框架内，可稳定集成到生产系统中。宽流道专为含固体颗粒或高粘度悬浮液等困难介质设计，有助于防止堵塞并保持连续流动；另一侧流道则用于清洁介质，以获得更优的传热性能和运行可靠性。该设备支持卧式和立式安装，其中立式方案占地更小、更不易堵塞、压降低，适合空间受限及高流动效率要求的应用场景。",
+  "industries": [
+    "化工",
+    "食品与饮料",
+    "制药"
+  ],
+  "advantage": [
+    "宽流道防堵设计",
+    "适用于高粘度及含固体介质",
+    "支持卧式和立式安装"
+  ],
+  "technical_parameters": {
+    "Area": "6.6 ~ 870㎡",
+    "Plate material": "SS304, SS316, Hastelloy, Titanium",
+    "Design Pressure": "1.0 ~ 4.0MPa",
+    "Plate Thickness": "1.5mm ~ 10mm",
+    "Design Temperature": "-196℃ ~ 450℃"
+  },
+  "seo_data": {
+    "meta_title": "宽流道焊接板式换热器制造商",
+    "meta_description": "宽流道焊接板式换热器，适用于高粘度、含固体及易堵塞介质，具备防堵流道设计。"
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Product image",
+      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME certificate",
+      "url": "/storage/product_assets/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV certificate",
+      "url": "/storage/product_assets/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE certificate",
+      "url": "/storage/product_assets/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI certificate",
+      "url": "/storage/product_assets/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS certificate",
+      "url": "/storage/product_assets/product_certifications/sgs.png"
+    }
+  ]
+}

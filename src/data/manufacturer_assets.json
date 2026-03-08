@@ -1,0 +1,122 @@
+[
+  {
+    "id": "15ad77ee-9dae-4d7e-84cd-663dedfc23b6",
+    "manufacturer_id": "15687513-070e-49f1-af67-9e820c987f73",
+    "asset_type": "certifications",
+    "alt_text": "Company certificate",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_certifications/shanghai-heat-transfer-equipment-co-ltd_2.png",
+    "file_name": "shanghai-heat-transfer-equipment-co-ltd_2.png",
+    "file_type": "png",
+    "created_at": "2026-03-08T12:23:42.639594+00:00",
+    "updated_at": "2026-03-08T12:23:42.639594+00:00"
+  },
+  {
+    "id": "23eae308-15c1-4019-816e-4a55a4bca934",
+    "manufacturer_id": "15687513-070e-49f1-af67-9e820c987f73",
+    "asset_type": "customers",
+    "alt_text": "Company Customer",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_customers/sulzer.png",
+    "file_name": "sulzer.png",
+    "file_type": "png",
+    "created_at": "2026-03-08T12:29:55.517553+00:00",
+    "updated_at": "2026-03-08T12:29:55.517553+00:00"
+  },
+  {
+    "id": "43042768-09f8-4c9b-bf5d-9fbde33ab7f1",
+    "manufacturer_id": "15687513-070e-49f1-af67-9e820c987f73",
+    "asset_type": "images",
+    "alt_text": "Company image",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg",
+    "file_name": "shanghai-heat-transfer-equipment-co-ltd_1.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-03-08T12:06:04.488234+00:00",
+    "updated_at": "2026-03-08T12:06:04.488234+00:00"
+  },
+  {
+    "id": "608ef3aa-ed4c-40f4-b3ad-6819ba801bd6",
+    "manufacturer_id": "15687513-070e-49f1-af67-9e820c987f73",
+    "asset_type": "customers",
+    "alt_text": "Company Customer",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_customers/siemens.png",
+    "file_name": "siemens.png",
+    "file_type": "png",
+    "created_at": "2026-03-08T12:29:55.517553+00:00",
+    "updated_at": "2026-03-08T12:29:55.517553+00:00"
+  },
+  {
+    "id": "671dbf95-28b7-4deb-ad3b-06f5a8867b04",
+    "manufacturer_id": "15687513-070e-49f1-af67-9e820c987f73",
+    "asset_type": "customers",
+    "alt_text": "Company Customer",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_customers/riotinto.png",
+    "file_name": "riotinto.png",
+    "file_type": "png",
+    "created_at": "2026-03-08T12:29:55.517553+00:00",
+    "updated_at": "2026-03-08T12:29:55.517553+00:00"
+  },
+  {
+    "id": "7ac74335-b3ad-427a-8612-439d7d60ef76",
+    "manufacturer_id": "15687513-070e-49f1-af67-9e820c987f73",
+    "asset_type": "certifications",
+    "alt_text": "Company certificate",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_certifications/shanghai-heat-transfer-equipment-co-ltd_1.png",
+    "file_name": "shanghai-heat-transfer-equipment-co-ltd_1.png",
+    "file_type": "png",
+    "created_at": "2026-03-08T12:19:58.245595+00:00",
+    "updated_at": "2026-03-08T12:19:58.245595+00:00"
+  },
+  {
+    "id": "7cd87753-31f1-459e-895f-fd362ea03d61",
+    "manufacturer_id": "15687513-070e-49f1-af67-9e820c987f73",
+    "asset_type": "customers",
+    "alt_text": "Company Customer",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_customers/gazprom.png",
+    "file_name": "gazprom.png",
+    "file_type": "png",
+    "created_at": "2026-03-08T12:29:55.517553+00:00",
+    "updated_at": "2026-03-08T12:29:55.517553+00:00"
+  },
+  {
+    "id": "a492d2c0-7b79-4ae4-a6e3-e8eb016107f6",
+    "manufacturer_id": "15687513-070e-49f1-af67-9e820c987f73",
+    "asset_type": "customers",
+    "alt_text": "Company Customer",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_customers/bp.png",
+    "file_name": "bp.png",
+    "file_type": "png",
+    "created_at": "2026-03-08T12:27:35.865586+00:00",
+    "updated_at": "2026-03-08T12:27:35.865586+00:00"
+  },
+  {
+    "id": "c59b3072-f8a8-49fe-9cca-7dafc575ea34",
+    "manufacturer_id": "15687513-070e-49f1-af67-9e820c987f73",
+    "asset_type": "certifications",
+    "alt_text": "Company certificate",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_certifications/shanghai-heat-transfer-equipment-co-ltd_3.png",
+    "file_name": "shanghai-heat-transfer-equipment-co-ltd_3.png",
+    "file_type": "png",
+    "created_at": "2026-03-08T12:23:50.740296+00:00",
+    "updated_at": "2026-03-08T12:23:50.740296+00:00"
+  },
+  {
+    "id": "ceda38ec-22e8-4656-9705-b15f389a8386",
+    "manufacturer_id": "15687513-070e-49f1-af67-9e820c987f73",
+    "asset_type": "customers",
+    "alt_text": "Company Customer",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_customers/vimetco.png",
+    "file_name": "vimetco.png",
+    "file_type": "png",
+    "created_at": "2026-03-08T12:29:55.517553+00:00",
+    "updated_at": "2026-03-08T12:29:55.517553+00:00"
+  }
+]

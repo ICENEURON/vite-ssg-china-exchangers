@@ -1,6 +1,6 @@
 import { FieldSet, FieldLabel, FieldGroup } from "../../../components/ui/field"
 import { Check } from "lucide-react"
-import rfqData from "../../../data/rfq.json"
+import { useTranslation } from "react-i18next"
 
 export interface RfqProductSpecsData {
     productType: string;
@@ -25,6 +25,8 @@ interface ProductAndSpecsStepProps {
 }
 
 export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps) {
+    const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
+    const productTypes = t("productTypes", { returnObjects: true }) as {id: string, label: string}[];
     
     // Basic anti-injection to prevent basic script tags or SQL patterns, plus a 500-char limit
     const MAX_NOTES_LENGTH = 500;
@@ -48,7 +50,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                 <FieldSet className="mb-0">
                     <FieldLabel className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-4">Select Equipment Type</FieldLabel>
                     <FieldGroup className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                        {rfqData.productTypes.map((p) => {
+                        {productTypes.map((p) => {
                             const isSelected = data.productType === p.id;
                             return (
                                 <button

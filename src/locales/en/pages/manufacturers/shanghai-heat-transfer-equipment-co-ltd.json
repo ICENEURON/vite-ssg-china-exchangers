@@ -1,218 +1,109 @@
 {
-    "basic_info": {
-        "name": "Shanghai Heat Transfer Equipment Co., Ltd.",
-        "established": "2005",
-        "location": "Shanghai, China",
-        "factory_area": "20000m2",
-        "product_number": "16+",
-        "exported_country": "20+"
+  "name": "Shanghai Heat Transfer Equipment Co., Ltd.",
+  "full_description": "Shanghai Heat Transfer Equipment Co., Ltd. is a leading manufacturer of heat exchangers and heat transfer equipment. With over 20 years of experience in the industry, the company has established itself as a reliable supplier of high-quality heat exchangers and heat transfer equipment. The company's products are used in a wide range of applications, including chemical processing, food and beverage, and pharmaceuticals.",
+  "advantages": [
+    "Advanced Thermal Laboratory: In-house performance testing ensures real-world efficiency validation.",
+    "Specialized Welding Technology: Expertise in fully welded and wide-gap plate heat exchangers for difficult media.",
+    "Comprehensive Industry Coverage: Proven track record in chemical, pharmaceutical, and food processing sectors."
+  ],
+  "slug": "shanghai-heat-transfer-equipment-co-ltd",
+  "website": "https://www.shanghaiheattransfer.com",
+  "email": [
+    "abc@gmail.com"
+  ],
+  "phone": [
+    "+8613003001011"
+  ],
+  "country_name": "China",
+  "city": "Shanghai",
+  "address": "Shanghai, China",
+  "established_year": "2005",
+  "factory_area": "20000m2",
+  "employee_count": "200+",
+  "export_markets": [
+    "HK",
+    "CN",
+    "US"
+  ],
+  "seo_data": {
+    "meta_title": "Shanghai Heat Transfer Equipment Co., Ltd. | Heat Exchanger Manufacturer",
+    "meta_description": "Verified heat exchanger manufacturer in Shanghai, China, with plate heat exchanger and welded heat exchanger capabilities."
+  },
+  "industries": [
+    "HVAC",
+    "Petrochemical",
+    "Marine",
+    "Energy",
+    "Food Processing",
+    "Chemical Processing",
+    "Food and Beverage",
+    "Pharmaceuticals",
+    "Power Generation"
+  ],
+  "certifications": [
+    {
+      "alt_text": "Company certificate",
+      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_2.png"
     },
-    "verified_info": {
-        "iso": true,
-        "ASME": true,
-        "business_license": true,
-        "export_experience": true,
-        "repid_hours": 24
+    {
+      "alt_text": "Company certificate",
+      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_1.png"
     },
-    "description": "Shanghai Heat Transfer Equipment Co., Ltd. is a leading manufacturer of heat exchangers and heat transfer equipment. With over 20 years of experience in the industry, the company has established itself as a reliable supplier of high-quality heat exchangers and heat transfer equipment. The company's products are used in a wide range of applications, including chemical processing, food and beverage, and pharmaceuticals.",
-    "advantages": [
-        "Advanced Thermal Laboratory: In-house performance testing ensures real-world efficiency validation.",
-        "Specialized Welding Technology: Expertise in fully welded and wide-gap plate heat exchangers for difficult media.",
-        "Comprehensive Industry Coverage: Proven track record in chemical, pharmaceutical, and food processing sectors."
-    ],
-    "industry": [
-        "Chemical Processing",
-        "Food and Beverage",
-        "Pharmaceuticals"
-    ],
-    "products": [
-        {
-            "name": "HT-Bloc Welded Plate Heat Exchanger",
-            "certificate": [
-                {
-                    "name": "ASME",
-                    "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/products/asme.png"
-                },
-                {
-                    "name": "NBBI",
-                    "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/products/nbbi.png"
-                },
-                {
-                    "name": "CE",
-                    "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/products/ce.png"
-                },
-                {
-                    "name": "BV",
-                    "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/products/bv.png"
-                },
-                {
-                    "name": "SGS",
-                    "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/products/sgs.png"
-                }
-            ],
-            "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/products/ht-bloc-welded-plate-heat-exchanger-product.jpg",
-            "description": "Our welded plate heat exchangers offer compact, efficient, and trustworthy heat transfer solutions that are custom-tailored to meet an extensive variety of process demands. It comes as no surprise that they have solidified their position as the top-tier option for the most challenging heat exchange scenarios.",
-            "Parameters": [
-                {
-                    "name": "Area",
-                    "value": "6.6 ~ 870㎡"
-                },
-                {
-                    "name": "Plate Thickness",
-                    "value": "1.5mm ~ 10mm"
-                },
-                {
-                    "name": "Design Temperature",
-                    "value": "-196℃ ~ 450℃"
-                },
-                {
-                    "name": "Design Pressure",
-                    "value": "1.0 ~ 4.0MPa"
-                },
-                {
-                    "name": "Plate material",
-                    "value": "SS304, SS316, Hastelloy, Titanium"
-                }
-            ]
-        },
-        {
-            "name": "Wide Gap Welded Plate Heat Exchanger",
-            "certificate": [
-                {
-                    "name": "ASME",
-                    "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/products/asme.png"
-                },
-                {
-                    "name": "NBBI",
-                    "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/products/nbbi.png"
-                },
-                {
-                    "name": "CE",
-                    "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/products/ce.png"
-                },
-                {
-                    "name": "BV",
-                    "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/products/bv.png"
-                },
-                {
-                    "name": "SGS",
-                    "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/products/sgs.png"
-                }
-            ],
-            "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/products/wide-gap-welded-plate-heat-exchanger-product.jpg",
-            "description": "Each flow channel is meticulously formed by welding plates together. The plate pack, comprising a precisely calculated number of plates, is securely installed within a robust frame, ensuring seamless integration with the production system. In this configuration, challenging fluids, such as those containing solids or high-viscosity suspensions, are directed through the wide gap channels. These channels are specifically engineered to prevent clogging and facilitate uninterrupted flow. On the other hand, clean fluids are routed through the opposite side channels, which are optimized for superior thermal performance and operational reliability. This heat exchanger is available in both horizontal and vertical installation configurations. The vertical design offers more advantages, including a significantly smaller footprint, reduced susceptibility to clogging, and lower pressure drop, making it an optimal choice for space-constrained environments and applications requiring enhanced flow efficiency.",
-            "Parameters": [
-                {
-                    "name": "Area",
-                    "value": "6.6 ~ 870㎡"
-                },
-                {
-                    "name": "Plate Thickness",
-                    "value": "1.5mm ~ 10mm"
-                },
-                {
-                    "name": "Design Temperature",
-                    "value": "-196℃ ~ 450℃"
-                },
-                {
-                    "name": "Design Pressure",
-                    "value": "1.0 ~ 4.0MPa"
-                },
-                {
-                    "name": "Plate material",
-                    "value": "SS304, SS316, Hastelloy, Titanium"
-                }
-            ]
-        },
-        {
-            "name": "TP Welded Plate Heat Exchanger",
-            "certificate": [
-                {
-                    "name": "ASME",
-                    "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/products/asme.png"
-                },
-                {
-                    "name": "NBBI",
-                    "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/products/nbbi.png"
-                },
-                {
-                    "name": "CE",
-                    "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/products/ce.png"
-                },
-                {
-                    "name": "BV",
-                    "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/products/bv.png"
-                },
-                {
-                    "name": "SGS",
-                    "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/products/sgs.png"
-                }
-            ],
-            "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/products/tp-welded-plate-heat-exchanger-product.jpg",
-            "description": "In industrial processes, specialized heat exchange solutions are required for handling challenging fluids such as particle-laden fluids (e.g., slurry), viscous fluids (e.g., syrup), and fiber-containing fluids (e.g., pulp). To ensure reliable production operations, targeted heat exchanger design is critical to address challenges such as blockages and leaks caused by those fluids , this requires customized solutions including erosion-resistant materials, optimized channel geometries, and integrated self-cleaning mechanisms. TP Welded Plate Heat Exchanger is an ideal heat exchange solution for these applications.",
-            "Parameters": [
-                {
-                    "name": "Area",
-                    "value": "6.6 ~ 870㎡"
-                },
-                {
-                    "name": "Plate Thickness",
-                    "value": "1.5mm ~ 10mm"
-                },
-                {
-                    "name": "Design Temperature",
-                    "value": "-196℃ ~ 450℃"
-                },
-                {
-                    "name": "Design Pressure",
-                    "value": "1.0 ~ 4.0MPa"
-                },
-                {
-                    "name": "Plate material",
-                    "value": "SS304, SS316, Hastelloy, Titanium"
-                }
-            ]
-        }
-    ],
-    "website": "https://www.shanghaiheattransfer.com",
-    "customers": [
-        {
-            "name": "riotinto",
-            "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/customers/riotinto.png"
-        },
-        {
-            "name": "bp",
-            "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/customers/bp.png"
-        },
-        {
-            "name": "vimetco",
-            "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/customers/vimetco.png"
-        },
-        {
-            "name": "gazprom",
-            "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/customers/gazprom.png"
-        },
-        {
-            "name": "siemens",
-            "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/customers/siemens.png"
-        },
-        {
-            "name": "sulzer",
-            "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/customers/sulzer.png"
-        }
-    ],
-    "certificates": [
-        {
-            "name": "Certificate 1",
-            "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/certificates_1.png"
-        },
-        {
-            "name": "Certificate 2",
-            "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/certificates_2.png"
-        },
-        {
-            "name": "Certificate 3",
-            "image": "/static/manufacturers/shanghai-heat-transfer-equipment-co-ltd/certificates/certificates_3.png"
-        }
-    ]
+    {
+      "alt_text": "Company certificate",
+      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_3.png"
+    }
+  ],
+  "customers": [
+    {
+      "alt_text": "Company Customer",
+      "url": "/storage/manufacturer_assets/company_customers/sulzer.png"
+    },
+    {
+      "alt_text": "Company Customer",
+      "url": "/storage/manufacturer_assets/company_customers/siemens.png"
+    },
+    {
+      "alt_text": "Company Customer",
+      "url": "/storage/manufacturer_assets/company_customers/riotinto.png"
+    },
+    {
+      "alt_text": "Company Customer",
+      "url": "/storage/manufacturer_assets/company_customers/gazprom.png"
+    },
+    {
+      "alt_text": "Company Customer",
+      "url": "/storage/manufacturer_assets/company_customers/bp.png"
+    },
+    {
+      "alt_text": "Company Customer",
+      "url": "/storage/manufacturer_assets/company_customers/vimetco.png"
+    }
+  ],
+  "images": [
+    {
+      "alt_text": "Company image",
+      "url": "/storage/manufacturer_assets/company_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+    }
+  ],
+  "products": [
+    {
+      "slug": "ht-bloc-welded-plate-heat-exchanger",
+      "name": "HT-Bloc Welded Plate Heat Exchanger",
+      "short_description": "Compact and efficient welded plate heat exchanger for demanding process duties.",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/ht-bloc-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "wide-gap-welded-plate-heat-exchanger",
+      "name": "Wide Gap Welded Plate Heat Exchanger",
+      "short_description": "Welded plate heat exchanger designed for solids, viscous media, and anti-clogging performance.",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "tp-welded-plate-heat-exchanger",
+      "name": "TP Welded Plate Heat Exchanger",
+      "short_description": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
+    }
+  ]
 }

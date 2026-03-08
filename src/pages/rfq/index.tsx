@@ -50,11 +50,11 @@ export default function SmartRfqBuilder() {
   const canProceedToStep2 = 
     contextData.country !== "" && 
     contextData.industry !== "" && 
-    (contextData.industry !== "Other" || contextData.customIndustry !== "") &&
+    (contextData.industry !== "other" || contextData.customIndustry !== "") &&
     contextData.timeline !== "" && 
-    (contextData.timeline !== "Other" || contextData.customTimeline !== "") &&
+    (contextData.timeline !== "other" || contextData.customTimeline !== "") &&
     contextData.quantity !== "" &&
-    (contextData.quantity !== "Other" || contextData.customQuantity !== "");
+    (contextData.quantity !== "other" || contextData.customQuantity !== "");
 
   const canProceedToStep3 = 
     specsData.productType !== "" && 

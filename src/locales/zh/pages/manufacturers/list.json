@@ -1,50 +1,20 @@
 [
-    {
-        "id": "shphe",
-        "name": "上海换热设备有限公司 (SHPHE)",
-        "rating": "5.0",
-        "ratingLabel": "Tech Leader",
-        "location": "上海, 中国",
-        "verified": true,
-        "description": "Premier solution provider for difficult fluids. Specializes in Wide Gap and Fully Welded Plate Heat Exchangers. Owns an in-house Thermal Performance Laboratory.",
-        "tags": [
-            "Welded PHE",
-            "Wide Gap",
-            "PCHE"
-        ],
-        "product_categories": ["welded-phe", "gasketed-phe", "spares"],
-        "link": "/manufacturers/shanghai-heat-transfer-equipment-co-ltd"
-    },
-    {
-        "id": "jiangsu-pioneer",
-        "name": "Jiangsu Pioneer Machinery Co., Ltd.",
-        "rating": "4.8",
-        "ratingLabel": "High Volume",
-        "location": "Jiangsu, China",
-        "verified": true,
-        "description": "Large-scale manufacturer focused on standard gasketed plate heat exchangers for HVAC and Marine applications. High capacity production lines.",
-        "tags": [
-            "Gasketed PHE",
-            "Marine",
-            "HVAC"
-        ],
-        "product_categories": ["gasketed-phe", "brazed-phe", "spares"],
-        "link": "/manufacturers/jiangsu-pioneer-machinery"
-    },
-    {
-        "id": "lanzhou-ls",
-        "name": "Lanzhou LS Heavy Equipment Co., Ltd.",
-        "rating": "4.9",
-        "ratingLabel": "Heavy Industry",
-        "location": "Gansu, China",
-        "verified": true,
-        "description": "State-owned enterprise specializing in extra-large heat exchangers for Oil & Gas and Petrochemical refineries. ASME U-Stamp holder.",
-        "tags": [
-            "Shell & Tube",
-            "High Pressure",
-            "Heavy Equipment"
-        ],
-        "product_categories": ["shell-and-tube", "air-cooled"],
-        "link": "/manufacturers/lanzhou-ls-heavy-equipment"
-    }
+  {
+    "name": "上海换热设备有限公司",
+    "short_description": "位于中国上海的工业换热设备制造商。",
+    "slug": "shanghai-heat-transfer-equipment-co-ltd",
+    "city": "上海",
+    "country_name": "中国",
+    "industries": [
+      "暖通空调",
+      "石油化工",
+      "船舶/海工",
+      "能源",
+      "食品加工",
+      "化工",
+      "食品与饮料",
+      "制药",
+      "发电/电力"
+    ]
+  }
 ]

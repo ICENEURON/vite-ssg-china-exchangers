@@ -1,7 +1,7 @@
 import { FieldSet, FieldLabel } from "../../../components/ui/field"
 import { Check } from "lucide-react"
 import { getNames } from "country-list"
-import rfqData from "../../../data/rfq.json"
+import { useTranslation } from "react-i18next"
 
 export interface RqfContextData {
     country: string;
@@ -28,11 +28,15 @@ const COUNTRIES = rawCountries
     .sort()
 
 export function ContextStep({ data, onChange }: ContextStepProps) {
+    const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
+    const industries = t("industries", { returnObjects: true }) as {id: string, label: string}[];
+    const quantities = t("quantities", { returnObjects: true }) as {id: string, label: string}[];
+    const timelines = t("timelines", { returnObjects: true }) as {id: string, label: string}[];
 
     // Helper to render a selection group using simple grid of buttons
     const renderSelectionGroup = (
         label: string, 
-        options: string[], 
+        options: {id: string, label: string}[], 
         currentValue: string, 
         fieldKey: keyof RqfContextData,
         customKey?: keyof RqfContextData,
@@ -42,11 +46,11 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
             <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{label}</FieldLabel>
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
                 {options.map((option) => {
-                    const isSelected = currentValue === option;
+                    const isSelected = currentValue === option.id;
                     return (
                         <button
-                            key={option}
-                            onClick={() => onChange({ [fieldKey]: option })}
+                            key={option.id}
+                            onClick={() => onChange({ [fieldKey]: option.id })}
                             className={`
                                 relative flex items-center justify-center text-center px-4 py-3 rounded-xl border transition-all duration-200 text-sm font-medium leading-tight
                                 ${isSelected
@@ -60,13 +64,13 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                                     <Check className="w-3.5 h-3.5" />
                                 </div>
                             )}
-                            {option}
+                            {option.label}
                         </button>
                     )
                 })}
             </div>
             
-            {customKey && currentValue === "Other" && (
+            {customKey && currentValue === "other" && (
                 <div className="mt-4 animate-in fade-in slide-in-from-top-2">
                     <input
                         type="text"
@@ -108,9 +112,9 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                     </div>
                 </FieldSet>
 
-                {renderSelectionGroup("Industry / Application", rfqData.industries, data.industry, "industry", "customIndustry", "Please specify your industry...")}
-                {renderSelectionGroup("Required Quantity", rfqData.quantities, data.quantity, "quantity", "customQuantity", "Please specify the required quantity...")}
-                {renderSelectionGroup("Expected Delivery Timeline", rfqData.timelines, data.timeline, "timeline", "customTimeline", "Please specify your timeline expectations...")}
+                {renderSelectionGroup("Industry / Application", industries, data.industry, "industry", "customIndustry", "Please specify your industry...")}
+                {renderSelectionGroup("Required Quantity", quantities, data.quantity, "quantity", "customQuantity", "Please specify the required quantity...")}
+                {renderSelectionGroup("Expected Delivery Timeline", timelines, data.timeline, "timeline", "customTimeline", "Please specify your timeline expectations...")}
              </div>
         </div>
     )

@@ -1,9 +1,0 @@
-{
-    "id": "gasketed-phe",
-    "name": "Gasketed Plate Heat Exchanger",
-    "shortDescription": "Flexible and efficient heat transfer for general heating and cooling duties.",
-    "description": "Gasketed Plate Heat Exchangers (GPHE) are the standard for efficient heat transfer in a wide variety of industries. They consist of a pack of corrugated metal plates with portholes for the passage of two fluids between which heat transfer takes place. They offer excellent thermal efficiency, compactness, and the flexibility to easily add or remove plates to adjust capacity.",
-    "applications": ["HVAC", "Food & Beverage", "Marine", "Chemical Processing", "Power Generation"],
-    "features": ["High thermal efficiency", "Compact footprint", "Easy to clean and maintain", "Flexible capacity"],
-    "image": "/static/products/gasketed-phe.jpg"
-}
