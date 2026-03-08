@@ -16,13 +16,15 @@
     "Standard Production (3-6 Weeks)",
     "Custom / Large Scale (7-12 Weeks)",
     "Long Lead Time / Project (12+ Weeks)",
-    "Planning Phase (No immediate need)"
+    "Planning Phase (No immediate need)",
+    "Other"
   ],
   "quantities": [
     "1 Unit (Replacement / Sample)",
     "2-5 Units (Small System)",
     "6-20 Units (Medium System)",
-    "20+ Units (Large Scale Project)"
+    "20+ Units (Large Scale Project)",
+    "Other"
   ],
   "productTypes": [
     {
@@ -48,6 +50,10 @@
     {
       "id": "spares",
       "label": "Spare Parts (Plates, Gaskets)"
+    },
+    {
+      "id": "other",
+      "label": "Other"
     }
   ]
 }

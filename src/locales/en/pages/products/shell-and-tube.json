@@ -1,0 +1,9 @@
+{
+    "id": "shell-and-tube",
+    "name": "Shell and Tube Heat Exchanger",
+    "shortDescription": "Traditional, highly durable design for the most rigorous industrial uses.",
+    "description": "Shell and Tube heat exchangers have been the workhorse of industrial heat transfer for decades. Consisting of a bundle of tubes enclosed within a cylindrical shell, one fluid flows through the tubes while another flows over them within the shell. They are incredibly robust and suited for almost any pressure and temperature.",
+    "applications": ["Power Plants", "Chemical Production", "Oil Refining", "Heavy Manufacturing"],
+    "features": ["Extremely robust", "Handles any fluid", "High pressure and temperature allowance", "Easy visual inspection"],
+    "image": "/static/products/shell-and-tube.jpg"
+}

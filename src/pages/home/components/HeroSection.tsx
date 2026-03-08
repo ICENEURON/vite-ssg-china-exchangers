@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Button } from "../../../components/ui/button";
-import { Shield, Factory, Database } from "lucide-react";
+import { Shield, Factory, Database, Mail } from "lucide-react";
 
 export function HeroSection() {
     const { t } = useTranslation("translation");
@@ -18,8 +18,9 @@ export function HeroSection() {
                 </h5>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-                    <Button size="lg" variant="default" asChild>
-                        <a href="/rfq">
+                    <Button size="lg" className="bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white font-bold shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:scale-105" asChild>
+                        <a href="/rfq" className="flex gap-2 items-center">
+                            <Mail className="w-5 h-5" />
                             {t("pages.home.hero.cta_primary")}
                         </a>
                     </Button>

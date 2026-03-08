@@ -1,0 +1,9 @@
+{
+    "id": "spares",
+    "name": "Spare Parts & Accessories",
+    "shortDescription": "High-quality OEM and exact-match replacement plates and gaskets.",
+    "description": "Maintain the peak performance of your heat exchange equipment with premium spare parts. Our verified manufacturers provide exact-match replacement plates, gaskets (NBR, EPDM, Viton/FKM), and frame components compatible with all major global brands.",
+    "applications": ["Routine Maintenance", "Emergency Repairs", "Capacity Expansions", "Overhauls"],
+    "features": ["Guaranteed compatibility", "High-quality elastomers", "Rapid manufacturing", "Cost-effective alternatives"],
+    "image": "/static/products/spares.jpg"
+}

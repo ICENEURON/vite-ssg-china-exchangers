@@ -1,6 +1,7 @@
 import type { RqfContextData } from "./ContextStep"
 import type { RfqProductSpecsData } from "./ProductAndSpecsStep"
 import { Check, ShieldCheck, User, Edit2 } from "lucide-react"
+import rfqData from "../../../data/rfq.json"
 
 interface FinalConfirmStepProps {
     context: RqfContextData;
@@ -81,8 +82,8 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleA
                     <div>
                         {renderSummaryItem("Country / Region", context.country)}
                         {renderSummaryItem("Industry / Application", context.industry === "Other" ? `Other (${context.customIndustry})` : context.industry)}
-                        {renderSummaryItem("Required Quantity", context.quantity)}
-                        {renderSummaryItem("Expected Timeline", context.timeline)}
+                        {renderSummaryItem("Required Quantity", context.quantity === "Other" ? `Other (${context.customQuantity})` : context.quantity)}
+                        {renderSummaryItem("Expected Timeline", context.timeline === "Other" ? `Other (${context.customTimeline})` : context.timeline)}
                     </div>
                 </div>
 
@@ -96,12 +97,22 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleA
                     </div>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
-                        <div className="bg-slate-50 dark:bg-slate-800/50 p-4 rounded-xl">
-                            <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">General</div>
-                            {renderSummaryItem("Equipment Type", specs.productType)}
-                            {renderSummaryItem("Design Pressure", specs.designPressure ? `${specs.designPressure} bar` : "")}
-                            {renderSummaryItem("Max Press. Drop", specs.pressureDrop ? `${specs.pressureDrop} kPA` : "")}
-                            {renderSummaryItem("Heat Load", specs.heatLoad ? `${specs.heatLoad} kW` : "")}
+                        <div className="bg-slate-50 dark:bg-slate-800/50 p-4 rounded-xl md:col-span-2">
+                            <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">General Requirements</div>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    {renderSummaryItem("Equipment Type", specs.productType === "other" ? `Other (${specs.customProductType})` : rfqData.productTypes.find(p => p.id === specs.productType)?.label || specs.productType)}
+                                    {renderSummaryItem("Design Pressure", specs.designPressure ? `${specs.designPressure} bar` : "")}
+                                    {renderSummaryItem("Max Press. Drop", specs.pressureDrop ? `${specs.pressureDrop} kPA` : "")}
+                                    {renderSummaryItem("Heat Load", specs.heatLoad ? `${specs.heatLoad} kW` : "")}
+                                </div>
+                                {specs.additionalNotes && (
+                                    <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg p-3">
+                                        <div className="text-xs font-bold text-slate-500 mb-1">Additional Notes</div>
+                                        <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed break-words">{specs.additionalNotes}</p>
+                                    </div>
+                                )}
+                            </div>
                         </div>
 
                          <div className="bg-rose-50 dark:bg-rose-900/10 p-4 rounded-xl">

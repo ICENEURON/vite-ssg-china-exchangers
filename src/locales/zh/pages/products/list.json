@@ -1,0 +1,42 @@
+{
+    "title": "工业换热器产品中心",
+    "description": "浏览我们全面的工业换热设备目录。为您的特定工况寻找合适的设备，并与经过严苛验证的顶尖制造商直接取得联系。",
+    "categories": [
+        {
+            "id": "gasketed-phe",
+            "name": "可拆式板式换热器",
+            "shortDescription": "灵活、高效的流体传热解决方案，适用于常规加热与冷却工艺。",
+            "image": "/static/products/gasketed-phe.jpg"
+        },
+        {
+            "id": "welded-phe",
+            "name": "全焊式板式换热器",
+            "shortDescription": "在极端温度和高压恶劣环境下的坚固传热保障。",
+            "image": "/static/products/welded-phe.jpg"
+        },
+        {
+            "id": "brazed-phe",
+            "name": "钎焊式板式换热器",
+            "shortDescription": "紧凑无垫片的换热器，是高压暖通与制冷系统的理想选择。",
+            "image": "/static/products/brazed-phe.jpg"
+        },
+        {
+            "id": "shell-and-tube",
+            "name": "管壳式换热器",
+            "shortDescription": "经典、高耐用性的设计方案，胜任最严苛复杂的工业用途。",
+            "image": "/static/products/shell-and-tube.jpg"
+        },
+        {
+            "id": "air-cooled",
+            "name": "空冷式换热器",
+            "shortDescription": "在水资源受限的情况下，利用环境空气进行直接冷却环保降温。",
+            "image": "/static/products/air-cooled.jpg"
+        },
+        {
+            "id": "spares",
+            "name": "备品备件及耗材",
+            "shortDescription": "高品质纯正原厂配件及高精1:1替换板片与垫片。",
+            "image": "/static/products/spares.jpg"
+        }
+    ]
+}

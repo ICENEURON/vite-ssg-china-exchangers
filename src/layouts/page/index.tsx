@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { AuthProvider } from "../../context/auth";
 import {
-  useCurrentLanguage,
+  useCurrentLanguage
 } from "../../utils/language-routing";
 import Footer from "../../components/footer";
 import { Navigation } from "../../components/navigation";
@@ -40,6 +40,7 @@ function PageLayoutContent() {
         <Outlet />
       </main>
 
+      <Footer />
       <Footer />
     </div>
   );

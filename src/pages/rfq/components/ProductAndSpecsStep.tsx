@@ -4,6 +4,7 @@ import rfqData from "../../../data/rfq.json"
 
 export interface RfqProductSpecsData {
     productType: string;
+    customProductType: string;
     hotFluid: string;
     hotIn: string;
     hotOut: string;
@@ -15,6 +16,7 @@ export interface RfqProductSpecsData {
     designPressure: string;
     pressureDrop: string;
     heatLoad: string;
+    additionalNotes: string;
 }
 
 interface ProductAndSpecsStepProps {
@@ -23,6 +25,17 @@ interface ProductAndSpecsStepProps {
 }
 
 export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps) {
+    
+    // Basic anti-injection to prevent basic script tags or SQL patterns, plus a 500-char limit
+    const MAX_NOTES_LENGTH = 500;
+    const handleNotesChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+        let value = e.target.value;
+        if (value.length > MAX_NOTES_LENGTH) return;
+        
+        // Strip out basic angle brackets to prevent obvious HTML/Script injection
+        value = value.replace(/[<>]/g, "");
+        onChange({ additionalNotes: value });
+    }
 
     const inputClass = "flex h-11 w-full rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
     const sideLabelClass = "text-xs font-semibold text-slate-700 dark:text-slate-300 leading-none mb-2 block uppercase tracking-wider"
@@ -61,6 +74,17 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                             )
                         })}
                     </FieldGroup>
+                    {data.productType === "other" && (
+                        <div className="mt-4 animate-in fade-in slide-in-from-top-2">
+                            <input
+                                type="text"
+                                placeholder="Please specify the equipment type..."
+                                value={data.customProductType || ""}
+                                onChange={(e) => onChange({ customProductType: e.target.value })}
+                                className="flex h-12 w-full rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                            />
+                        </div>
+                    )}
                 </FieldSet>
             </div>
 
@@ -211,6 +235,22 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                                     placeholder="e.g. 1500"
                                     onChange={(e) => onChange({ heatLoad: e.target.value })}
                                 />
+                            </div>
+                        </div>
+
+                        {/* Additional Notes */}
+                        <div className="mt-8">
+                            <label className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest mb-3 block">Additional Notes / Custom Requirements</label>
+                            <div className="relative">
+                                <textarea
+                                    className="flex w-full min-h-[120px] rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-3 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10 resize-y"
+                                    placeholder="Any specific materials required? Dimensions constraints? Certifications needed? (Max 500 characters)"
+                                    value={data.additionalNotes || ""}
+                                    onChange={handleNotesChange}
+                                />
+                                <div className={`absolute bottom-3 right-4 text-xs font-semibold ${data.additionalNotes?.length > MAX_NOTES_LENGTH - 50 ? 'text-amber-500' : 'text-slate-400'}`}>
+                                    {data.additionalNotes?.length || 0} / {MAX_NOTES_LENGTH}
+                                </div>
                             </div>
                         </div>
                     </div>

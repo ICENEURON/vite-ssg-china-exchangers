@@ -1,8 +1,10 @@
 
 import { Head } from 'vite-react-ssg'
+import { Link } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
 import { BadgeCheck, Factory, ArrowRight, Star, MapPin, CheckCircle2, ShieldCheck, Award, Users, Globe2, Sparkles, Zap, Flame, Gauge, Badge } from "lucide-react"
 import { useTranslation } from 'react-i18next'
+import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-routing'
 
 interface ProductParameter {
     name: string;
@@ -29,6 +31,7 @@ interface SimpleItem {
 
 export default function ShpheProfilePage() {
     const { t } = useTranslation();
+    const currentLanguage = useCurrentLanguage();
     const TK = "pages.manufacturers.shanghai-heat-transfer-equipment-co-ltd";
     const SHARED_TK = "pages.manufacturers.company";
 
@@ -37,6 +40,13 @@ export default function ShpheProfilePage() {
     const description = t(`${TK}.description`);
     const advantages = t(`${TK}.advantages`, { returnObjects: true }) as string[];
     const industries = t(`${TK}.industry`, { returnObjects: true }) as string[];
+    
+    // We want the raw json object for the categories so we can map tags to URLs
+    const manufacturerList = t("pages.manufacturers.list", { returnObjects: true }) as any[];
+    const currentManufacturerData = manufacturerList.find(m => m.id === 'shphe');
+    const manufacturerProductCategories = currentManufacturerData?.product_categories || [];
+    const productCategoryDefinitions = t("pages.products.categories", { returnObjects: true }) as Record<string, any>;
+
     const products = t(`${TK}.products`, { returnObjects: true }) as Product[];
     const website = t(`${TK}.website`);
     const customers = t(`${TK}.customers`, { returnObjects: true }) as SimpleItem[];
@@ -97,9 +107,9 @@ export default function ShpheProfilePage() {
                                 <p className="text-slate-300 text-sm mb-6 relative z-10">{t(`${SHARED_TK}.connect_description`)}</p>
 
                                 <Button size="lg" className="relative z-10 w-full h-14 text-lg font-bold bg-white text-blue-900 hover:bg-blue-50 shadow-lg transition-all transform hover:scale-[1.02]" asChild>
-                                    <a href={`mailto:rfq@china-heatexchangers.com?subject=RFQ for ${basicInfo?.name}`}>
+                                    <Link to={`${addLanguageToPath('/rfq', currentLanguage)}?company=${encodeURIComponent(basicInfo?.name)}`}>
                                         {t(`${SHARED_TK}.start_inquiry`)} <ArrowRight className="ml-2 w-5 h-5" />
-                                    </a>
+                                    </Link>
                                 </Button>
 
                                 <div className="mt-6 pt-6 border-t border-white/10 flex items-center justify-between text-xs text-slate-400 relative z-10">
@@ -205,9 +215,27 @@ export default function ShpheProfilePage() {
 
                     {/* 2. PRODUCT SHOWCASE - Compact & Colorful */}
                     <div className="mb-20">
-                        <div className="flex items-center gap-4 mb-8">
-                            <h2 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white">{t(`${SHARED_TK}.product_showcase`)}</h2>
-                            <div className="h-1 flex-1 bg-slate-100 dark:bg-zinc-800 rounded-full" />
+                        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+                            <div>
+                                <h2 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white mb-4">{t(`${SHARED_TK}.product_showcase`)}</h2>
+                                {manufacturerProductCategories.length > 0 && (
+                                    <div className="flex flex-wrap gap-2 text-sm text-muted-foreground items-center">
+                                       <span className="font-semibold text-foreground">Available Product Categories:</span>
+                                       {manufacturerProductCategories.map((catId: string) => {
+                                            const categoryDef = productCategoryDefinitions?.[catId];
+                                            if (!categoryDef) return null;
+                                            return (
+                                                <Badge asChild key={catId} variant="secondary" className="hover:bg-primary/20 hover:text-primary transition-colors cursor-pointer text-xs py-1">
+                                                    <Link to={addLanguageToPath(`/products/${catId}`, currentLanguage)}>
+                                                        {categoryDef.name}
+                                                    </Link>
+                                                </Badge>
+                                            )
+                                       })}
+                                    </div>
+                                )}
+                            </div>
+                            <div className="h-1 flex-1 bg-slate-100 dark:bg-zinc-800 rounded-full md:ml-4" />
                         </div>
 
                         <div className="grid grid-cols-1 gap-8">
@@ -348,9 +376,9 @@ export default function ShpheProfilePage() {
                             {t(`${SHARED_TK}.partner_desc`)}
                         </p>
                         <Button size="lg" className="h-16 px-10 text-xl font-bold rounded-full bg-white text-blue-900 hover:bg-blue-50 hover:scale-105 transition-all shadow-xl" asChild>
-                            <a href="mailto:rfq@china-heatexchangers.com?subject=Inquiry">
+                            <Link to={`${addLanguageToPath('/rfq', currentLanguage)}?company=${encodeURIComponent(basicInfo?.name)}`}>
                                 {t(`${SHARED_TK}.start_project`)}
-                            </a>
+                            </Link>
                         </Button>
                     </div>
                 </section>

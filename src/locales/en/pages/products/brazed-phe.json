@@ -1,0 +1,9 @@
+{
+    "id": "brazed-phe",
+    "name": "Brazed Plate Heat Exchanger",
+    "shortDescription": "Compact, gasket-free units ideal for high-pressure HVAC and refrigeration.",
+    "description": "Brazed Plate Heat Exchangers (BPHE) consist of corrugated stainless steel plates vacuum-brazed together with copper or nickel. This eliminates the need for gaskets and thick frame plates, making them highly compact, lightweight, and capable of handling high pressures and temperatures.",
+    "applications": ["Refrigeration", "Heat Pumps", "Hydronic Heating", "Air Conditioning", "Industrial Chillers"],
+    "features": ["Extremely compact", "High pressure capability", "Cost-effective", "Gasket-free"],
+    "image": "/static/products/brazed-phe.jpg"
+}

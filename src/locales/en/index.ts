@@ -17,6 +17,14 @@ import privacy from './pages/privacy.json';
 import contact from './pages/contact.json';
 import notFound from './pages/404.json';
 
+// --- Products --- 
+import productsList from './pages/products/list.json';
+import gasketedPhe from './pages/products/gasketed-phe.json';
+import weldedPhe from './pages/products/welded-phe.json';
+import brazedPhe from './pages/products/brazed-phe.json';
+import shellAndTube from './pages/products/shell-and-tube.json';
+import airCooled from './pages/products/air-cooled.json';
+import spares from './pages/products/spares.json';
 export default {
   navigation,
   footer,
@@ -26,6 +34,16 @@ export default {
       ...manufacturers,
       list: manufacturersList,
       'shanghai-heat-transfer-equipment-co-ltd': shphe
+    },
+    products: {
+      ...productsList,
+      list: productsList,
+      'gasketed-phe': gasketedPhe,
+      'welded-phe': weldedPhe,
+      'brazed-phe': brazedPhe,
+      'shell-and-tube': shellAndTube,
+      'air-cooled': airCooled,
+      'spares': spares
     },
     rfq,
     profile,

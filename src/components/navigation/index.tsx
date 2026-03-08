@@ -58,15 +58,15 @@ export function Navigation() {
         };
     }, [isMobileMenuOpen]);
 
-    const publicItems = ROUTES.filter((r) => r.nav === "public" && r.path !== "/contact");
+    const publicItems = ROUTES.filter((r) => r.nav === "public" && r.path !== "/rfq");
     const guestItems = ROUTES.filter((r) => r.nav === "guest");
     const authItems = ROUTES.filter((r) => r.nav === "auth");
 
-    const mobilePublicItems = ROUTES.filter((r) => r.mobile === "public" && r.path !== "/contact");
+    const mobilePublicItems = ROUTES.filter((r) => r.mobile === "public" && r.path !== "/rfq");
     const mobileGuestItems = ROUTES.filter((r) => r.mobile === "guest");
     const mobileAuthItems = ROUTES.filter((r) => r.mobile === "auth");
 
-    const contactRoute = ROUTES.find((r) => r.path === "/contact");
+    const rfqRoute = ROUTES.find((r) => r.path === "/rfq");
 
     const leftItems = publicItems;
     const rightItems = enableAuth ? (user ? authItems : guestItems) : [];
@@ -144,16 +144,14 @@ export function Navigation() {
                 );
             }
 
-            // Manufacturers
+            // Buyers Menu
             if (route.path === '/manufacturers') {
-                const isManufacturersActive = isActiveLink('/manufacturers') || isActiveLink('/rfq');
+                const isBuyersActive = isActiveLink('/manufacturers') || isActiveLink('/products');
                 return (
-                    <NavPopup key={route.path} label={'For Buyers'} isActive={isManufacturersActive} className="left-0">
+                    <NavPopup key={route.path} label={t('navigation.menu.for_buyers_label')} isActive={isBuyersActive} className="left-0">
                         <ul className="grid w-[300px] gap-3 p-2">
-                            <ListItem href={getLocalizedPath("/manufacturers")} title={t('navigation.menu.manufacturers')} className="py-3">
-                            </ListItem>
-                            <ListItem href={getLocalizedPath("/rfq")} title={t('navigation.menu.rfq')} className="py-3">
-                            </ListItem>
+                            <ListItem href={getLocalizedPath("/manufacturers")} title={t('navigation.menu.manufacturers')} className="py-3" />
+                            <ListItem href={getLocalizedPath("/products")} title={t('navigation.menu.products')} className="py-3" />
                         </ul>
                     </NavPopup>
                 );
@@ -212,19 +210,19 @@ export function Navigation() {
                     <div className="ml-auto hidden xl:flex items-center gap-2 text-navbar-foreground">
                         <NavigationMenu viewport={false}>
                             <NavigationMenuList>
-                                {contactRoute && (
-                                    <NavigationMenuItem key={contactRoute.path}>
+                                {rfqRoute && (
+                                    <NavigationMenuItem key={rfqRoute.path}>
                                         <Button
                                             asChild
                                             size="sm"
                                             className={cn(
                                                 "bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white font-semibold shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:scale-105 rounded-full px-5 gap-2",
-                                                isActiveLink(contactRoute.path) && "ring-2 ring-white/50"
+                                                isActiveLink(rfqRoute.path) && "ring-2 ring-white/50"
                                             )}
                                         >
-                                            <Link to={getLocalizedPath(contactRoute.path)}>
+                                            <Link to={getLocalizedPath(rfqRoute.path)}>
                                                 <Mail className="w-4 h-4" />
-                                                {contactRoute.translationKey ? t(contactRoute.translationKey) : contactRoute.label}
+                                                {rfqRoute.translationKey ? t(rfqRoute.translationKey) : rfqRoute.label}
                                             </Link>
                                         </Button>
                                     </NavigationMenuItem>
@@ -299,15 +297,15 @@ export function Navigation() {
                             })}
 
                             {/* Mobile CTA Button */}
-                            {contactRoute && (
+                            {rfqRoute && (
                                 <Link
-                                    key={contactRoute.path}
-                                    to={getLocalizedPath(contactRoute.path)}
+                                    key={rfqRoute.path}
+                                    to={getLocalizedPath(rfqRoute.path)}
                                     className="flex items-center gap-2 px-4 py-3 text-[16px] font-semibold text-white bg-gradient-to-r from-primary to-orange-500 rounded-lg shadow-lg transition-all hover:shadow-xl hover:scale-[1.02]"
                                     onClick={() => setIsMobileMenuOpen(false)}
                                 >
                                     <Mail className="w-4 h-4" />
-                                    {contactRoute.translationKey ? t(contactRoute.translationKey) : contactRoute.label}
+                                    {rfqRoute.translationKey ? t(rfqRoute.translationKey) : rfqRoute.label}
                                 </Link>
                             )}
                         </div>

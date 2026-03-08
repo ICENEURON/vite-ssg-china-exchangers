@@ -18,12 +18,15 @@ export default function SmartRfqBuilder() {
     industry: "",
     customIndustry: "",
     timeline: "",
-    quantity: ""
+    customTimeline: "",
+    quantity: "",
+    customQuantity: ""
   })
 
   // Set default values instead of undefined
   const [specsData, setSpecsData] = useState<RfqProductSpecsData>({
     productType: "",
+    customProductType: "",
     hotFluid: "",
     hotIn: "",
     hotOut: "",
@@ -34,7 +37,8 @@ export default function SmartRfqBuilder() {
     coldFlow: "",
     designPressure: "",
     pressureDrop: "",
-    heatLoad: ""
+    heatLoad: "",
+    additionalNotes: ""
   })
 
   const [isAnonymous, setIsAnonymous] = useState(true)
@@ -48,10 +52,13 @@ export default function SmartRfqBuilder() {
     contextData.industry !== "" && 
     (contextData.industry !== "Other" || contextData.customIndustry !== "") &&
     contextData.timeline !== "" && 
-    contextData.quantity !== "";
+    (contextData.timeline !== "Other" || contextData.customTimeline !== "") &&
+    contextData.quantity !== "" &&
+    (contextData.quantity !== "Other" || contextData.customQuantity !== "");
 
   const canProceedToStep3 = 
     specsData.productType !== "" && 
+    (specsData.productType !== "other" || specsData.customProductType !== "") &&
     specsData.hotFluid !== "" && 
     specsData.coldFluid !== "";
 

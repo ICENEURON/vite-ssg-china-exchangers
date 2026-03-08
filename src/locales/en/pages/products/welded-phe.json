@@ -1,0 +1,9 @@
+{
+    "id": "welded-phe",
+    "name": "Welded Plate Heat Exchanger",
+    "shortDescription": "Robust heat transfer in extreme temperatures and high-pressure environments.",
+    "description": "Welded Plate Heat Exchangers are designed for the most demanding applications where extreme temperatures, high pressures, or aggressive media would cause standard gaskets to fail. By laser-welding the plate pack, these units combine the high thermal efficiency of a plate heat exchanger with the extreme durability of a shell-and-tube.",
+    "applications": ["Oil & Gas", "Petrochemicals", "Heavy Chemical Processing", "Refineries"],
+    "features": ["No gaskets", "High pressure tolerance", "High temperature resistance", "Compact design"],
+    "image": "/static/products/welded-phe.jpg"
+}

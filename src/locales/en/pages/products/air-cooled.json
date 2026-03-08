@@ -1,0 +1,9 @@
+{
+    "id": "air-cooled",
+    "name": "Air Cooled Heat Exchanger",
+    "shortDescription": "Direct cooling utilizing ambient air when water isn't available.",
+    "description": "Air Cooled Heat Exchangers use large fans to force ambient air across finned tubes containing the hot process fluid. They are essential in regions where water is scarce or expensive, or when environmental regulations restrict the use of cooling water.",
+    "applications": ["Desert Facilities", "Petrochemical Refineries", "Power Generation", "Gas Compression Stations"],
+    "features": ["No cooling water required", "Environmentally friendly", "Low operational cost", "Suitable for remote locations"],
+    "image": "/static/products/air-cooled.jpg"
+}

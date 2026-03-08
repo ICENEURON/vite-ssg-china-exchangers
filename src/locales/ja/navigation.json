@@ -1,17 +1,22 @@
 {
   "menu": {
     "home": "ホーム",
-    "about": "技術スタックについて",
+    "for_buyers_label": "バイヤー向け",
+    "manufacturers": "認証済みサプライヤー",
+    "products": "製品カテゴリー",
+    "rfq": "見積依頼 (RFQ)",
+    "for_manufacturers_label": "サプライヤー向け",
+    "profile": "企業プロファイルを登録",
+    "content_marketing_services": "コンテンツマーケティング",
+    "about": "私たちについて",
+    "industry-news": "業界ニュース",
     "contact": "お問い合わせ",
-    "profile": "ドキュメント",
-    "terms": "利用規約",
-    "privacy": "プライバシー",
-    "components": "コンポーネント",
-    "examples": "例",
     "login": "ログイン",
-    "signup": "新規登録",
+    "register": "新規登録",
     "dashboard": "ダッシュボード",
-    "logout": "ログアウト"
+    "logout": "ログアウト",
+    "terms": "利用規約",
+    "privacy": "プライバシー"
   },
   "breadcrumb": {
     "home": "ホーム",

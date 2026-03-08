@@ -12,6 +12,7 @@
             "Wide Gap",
             "PCHE"
         ],
+        "product_categories": ["welded-phe", "gasketed-phe", "spares"],
         "link": "/manufacturers/shanghai-heat-transfer-equipment-co-ltd"
     },
     {
@@ -27,6 +28,7 @@
             "Marine",
             "HVAC"
         ],
+        "product_categories": ["gasketed-phe", "brazed-phe", "spares"],
         "link": "/manufacturers/jiangsu-pioneer-machinery"
     },
     {
@@ -42,6 +44,7 @@
             "High Pressure",
             "Heavy Equipment"
         ],
+        "product_categories": ["shell-and-tube", "air-cooled"],
         "link": "/manufacturers/lanzhou-ls-heavy-equipment"
     }
 ]

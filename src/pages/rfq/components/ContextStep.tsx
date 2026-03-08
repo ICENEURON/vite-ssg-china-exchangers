@@ -8,7 +8,9 @@ export interface RqfContextData {
     industry: string;
     customIndustry: string;
     timeline: string;
+    customTimeline: string;
     quantity: string;
+    customQuantity: string;
 }
 
 interface ContextStepProps {
@@ -32,7 +34,9 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
         label: string, 
         options: string[], 
         currentValue: string, 
-        fieldKey: keyof RqfContextData
+        fieldKey: keyof RqfContextData,
+        customKey?: keyof RqfContextData,
+        customPlaceholder?: string
     ) => (
         <FieldSet className="mb-8">
             <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{label}</FieldLabel>
@@ -62,13 +66,13 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                 })}
             </div>
             
-            {fieldKey === "industry" && currentValue === "Other" && (
+            {customKey && currentValue === "Other" && (
                 <div className="mt-4 animate-in fade-in slide-in-from-top-2">
                     <input
                         type="text"
-                        placeholder="Please specify your industry..."
-                        value={data.customIndustry}
-                        onChange={(e) => onChange({ customIndustry: e.target.value })}
+                        placeholder={customPlaceholder}
+                        value={data[customKey] as string}
+                        onChange={(e) => onChange({ [customKey]: e.target.value })}
                         className="flex h-12 w-full rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
                     />
                 </div>
@@ -104,9 +108,9 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                     </div>
                 </FieldSet>
 
-                {renderSelectionGroup("Industry / Application", rfqData.industries, data.industry, "industry")}
-                {renderSelectionGroup("Required Quantity", rfqData.quantities, data.quantity, "quantity")}
-                {renderSelectionGroup("Expected Delivery Timeline", rfqData.timelines, data.timeline, "timeline")}
+                {renderSelectionGroup("Industry / Application", rfqData.industries, data.industry, "industry", "customIndustry", "Please specify your industry...")}
+                {renderSelectionGroup("Required Quantity", rfqData.quantities, data.quantity, "quantity", "customQuantity", "Please specify the required quantity...")}
+                {renderSelectionGroup("Expected Delivery Timeline", rfqData.timelines, data.timeline, "timeline", "customTimeline", "Please specify your timeline expectations...")}
              </div>
         </div>
     )
