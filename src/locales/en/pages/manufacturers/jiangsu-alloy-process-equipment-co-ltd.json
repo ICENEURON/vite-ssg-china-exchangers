@@ -1,0 +1,70 @@
+{
+  "name": "Jiangsu Alloy Process Equipment Co., Ltd.",
+  "full_description": "Jiangsu Alloy Process Equipment Co., Ltd. is a mock supplier entry prepared for data testing. It is modeled as a manufacturer of alloy plate heat exchangers, graphite block units, and pressure-rated thermal equipment designed for corrosive fluids and continuous process plants.",
+  "advantages": [
+    "Corrosion-resistant mock product range",
+    "Suitable for chemical process scenarios",
+    "Structured SEO fields included"
+  ],
+  "slug": "jiangsu-alloy-process-equipment-co-ltd",
+  "website": "https://www.jsalloy.example.com",
+  "email": [
+    "info@jsalloy.example.com"
+  ],
+  "phone": [
+    "+86-519-8000-2002",
+    "+86-13800002002"
+  ],
+  "country_name": "China",
+  "city": "Changzhou",
+  "address": "Changzhou, Jiangsu, China",
+  "established_year": "2009",
+  "factory_area": "18000m2",
+  "employee_count": "180+",
+  "export_markets": [
+    "DE",
+    "BR",
+    "SA"
+  ],
+  "seo_data": {
+    "meta_title": "Jiangsu Alloy Process Equipment Co., Ltd.",
+    "meta_description": "Mock supplier profile for alloy and corrosion-resistant heat exchanger equipment used in chemical and petrochemical applications."
+  },
+  "industries": [
+    "Petrochemical",
+    "Chemical Processing",
+    "Power Generation"
+  ],
+  "certifications": [
+    {
+      "alt_text": "Company certificate",
+      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_1.png"
+    }
+  ],
+  "customers": [
+    {
+      "alt_text": "Key customer logo",
+      "url": "/storage/manufacturer_assets/company_customers/siemens.png"
+    }
+  ],
+  "images": [
+    {
+      "alt_text": "Factory image",
+      "url": "/storage/manufacturer_assets/company_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+    }
+  ],
+  "products": [
+    {
+      "slug": "gasketed-plate-heat-exchanger-series",
+      "name": "Gasketed Plate Heat Exchanger Series",
+      "short_description": "Mock product for gasketed plate heat exchanger series testing.",
+      "url": "jiangsu-alloy-process-equipment-co-ltd/gasketed-plate-heat-exchanger-series"
+    },
+    {
+      "slug": "sanitary-plate-pasteurizer-module",
+      "name": "Sanitary Plate Pasteurizer Module",
+      "short_description": "Mock product for sanitary plate pasteurizer module testing.",
+      "url": "jiangsu-alloy-process-equipment-co-ltd/sanitary-plate-pasteurizer-module"
+    }
+  ]
+}

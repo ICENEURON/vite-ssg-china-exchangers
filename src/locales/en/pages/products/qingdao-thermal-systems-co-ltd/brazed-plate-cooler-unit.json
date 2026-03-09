@@ -1,0 +1,40 @@
+{
+  "slug": "brazed-plate-cooler-unit",
+  "name": "Brazed Plate Cooler Unit",
+  "full_description": "Brazed Plate Cooler Unit is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
+  "industries": [
+    "Marine",
+    "Energy",
+    "Power Generation"
+  ],
+  "advantage": [
+    "Compact footprint",
+    "Fast thermal response",
+    "Good for closed-loop systems"
+  ],
+  "technical_parameters": {
+    "Plate Material": "SS316 + Copper",
+    "Design Pressure": "3.0MPa",
+    "Design Temperature": "-50??? ~ 200???",
+    "Heat Transfer Area": "0.3 ~ 80???"
+  },
+  "seo_data": {
+    "meta_title": "Brazed Plate Cooler Unit",
+    "meta_description": "Mock data for brazed plate cooler unit used for platform testing."
+  },
+  "manufacturer": {
+    "slug": "qingdao-thermal-systems-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Product image",
+      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "NBBI certificate",
+      "url": "/storage/product_assets/product_certifications/nbbi.png"
+    }
+  ]
+}

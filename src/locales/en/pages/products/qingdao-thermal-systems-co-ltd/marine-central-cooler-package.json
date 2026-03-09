@@ -1,0 +1,39 @@
+{
+  "slug": "marine-central-cooler-package",
+  "name": "Marine Central Cooler Package",
+  "full_description": "Marine Central Cooler Package is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
+  "industries": [
+    "Marine",
+    "Energy"
+  ],
+  "advantage": [
+    "Marine-focused package",
+    "Integrated compact design",
+    "Supports seawater cooling scenarios"
+  ],
+  "technical_parameters": {
+    "Plate Material": "Titanium, SS316",
+    "Design Pressure": "1.0 ~ 2.5MPa",
+    "Cooling Capacity": "50 ~ 1500 kW",
+    "Design Temperature": "0??? ~ 120???"
+  },
+  "seo_data": {
+    "meta_title": "Marine Central Cooler Package",
+    "meta_description": "Mock data for marine central cooler package used for platform testing."
+  },
+  "manufacturer": {
+    "slug": "qingdao-thermal-systems-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Product image",
+      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "CE certificate",
+      "url": "/storage/product_assets/product_certifications/ce.png"
+    }
+  ]
+}

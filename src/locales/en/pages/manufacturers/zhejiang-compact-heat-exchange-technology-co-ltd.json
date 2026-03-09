@@ -1,0 +1,70 @@
+{
+  "name": "Zhejiang Compact Heat Exchange Technology Co., Ltd.",
+  "full_description": "Zhejiang Compact Heat Exchange Technology Co., Ltd. is a mock manufacturer profile built for platform validation. The company is presented as a supplier of brazed plate heat exchangers, compact condensers, and high-efficiency cooler packages for marine systems, engine rooms, and distributed energy projects.",
+  "advantages": [
+    "Compact equipment portfolio",
+    "Focused on marine and power use cases",
+    "Useful for frontend filtering tests"
+  ],
+  "slug": "zhejiang-compact-heat-exchange-technology-co-ltd",
+  "website": "https://www.zjcompact.example.com",
+  "email": [
+    "sales@zjcompact.example.com",
+    "service@zjcompact.example.com"
+  ],
+  "phone": [
+    "+86-571-8000-3003"
+  ],
+  "country_name": "China",
+  "city": "Hangzhou",
+  "address": "Hangzhou, Zhejiang, China",
+  "established_year": "2016",
+  "factory_area": "9500m2",
+  "employee_count": "90+",
+  "export_markets": [
+    "NO",
+    "KR",
+    "AE"
+  ],
+  "seo_data": {
+    "meta_title": "Zhejiang Compact Heat Exchange Technology Co., Ltd.",
+    "meta_description": "Mock compact heat exchanger manufacturer profile for marine cooling, distributed energy, and power-generation projects."
+  },
+  "industries": [
+    "Marine",
+    "Energy",
+    "Power Generation"
+  ],
+  "certifications": [
+    {
+      "alt_text": "Compliance certificate",
+      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_2.png"
+    }
+  ],
+  "customers": [
+    {
+      "alt_text": "Reference customer logo",
+      "url": "/storage/manufacturer_assets/company_customers/bp.png"
+    }
+  ],
+  "images": [
+    {
+      "alt_text": "Workshop image",
+      "url": "/storage/manufacturer_assets/company_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+    }
+  ],
+  "products": [
+    {
+      "slug": "graphite-block-heat-exchanger",
+      "name": "Graphite Block Heat Exchanger",
+      "short_description": "Mock product for graphite block heat exchanger testing.",
+      "url": "zhejiang-compact-heat-exchange-technology-co-ltd/graphite-block-heat-exchanger"
+    },
+    {
+      "slug": "alloy-welded-plate-condenser",
+      "name": "Alloy Welded Plate Condenser",
+      "short_description": "Mock product for alloy welded plate condenser testing.",
+      "url": "zhejiang-compact-heat-exchange-technology-co-ltd/alloy-welded-plate-condenser"
+    }
+  ]
+}

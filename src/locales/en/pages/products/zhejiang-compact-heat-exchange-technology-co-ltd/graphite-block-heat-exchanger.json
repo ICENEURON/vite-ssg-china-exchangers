@@ -1,0 +1,39 @@
+{
+  "slug": "graphite-block-heat-exchanger",
+  "name": "Graphite Block Heat Exchanger",
+  "full_description": "Graphite Block Heat Exchanger is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
+  "industries": [
+    "Petrochemical",
+    "Chemical Processing"
+  ],
+  "advantage": [
+    "Corrosion-resistant concept",
+    "Mock acid-duty solution",
+    "Suitable for process testing data"
+  ],
+  "technical_parameters": {
+    "Block Material": "Impervious Graphite",
+    "Design Pressure": "0.4 ~ 1.0MPa",
+    "Design Temperature": "-10??? ~ 165???",
+    "Heat Transfer Area": "5 ~ 120???"
+  },
+  "seo_data": {
+    "meta_title": "Graphite Block Heat Exchanger",
+    "meta_description": "Mock data for graphite block heat exchanger used for platform testing."
+  },
+  "manufacturer": {
+    "slug": "zhejiang-compact-heat-exchange-technology-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Product image",
+      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME certificate",
+      "url": "/storage/product_assets/product_certifications/asme.png"
+    }
+  ]
+}

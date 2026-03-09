@@ -118,5 +118,113 @@
     "file_type": "png",
     "created_at": "2026-03-08T12:29:55.517553+00:00",
     "updated_at": "2026-03-08T12:29:55.517553+00:00"
+  },
+  {
+    "id": "d8de590a-1366-444c-b50d-87bd60c596bf",
+    "manufacturer_id": "2537ec8a-e3f4-4862-9481-08ad15ab47e5",
+    "asset_type": "images",
+    "alt_text": "Factory image",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg",
+    "file_name": "shanghai-heat-transfer-equipment-co-ltd_1.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-03-09T02:29:12.10952+00:00",
+    "updated_at": "2026-03-09T02:29:12.10952+00:00"
+  },
+  {
+    "id": "5dae992b-6efa-4261-8bb7-94077c8d8334",
+    "manufacturer_id": "2537ec8a-e3f4-4862-9481-08ad15ab47e5",
+    "asset_type": "certifications",
+    "alt_text": "Company certificate",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_certifications/shanghai-heat-transfer-equipment-co-ltd_1.png",
+    "file_name": "shanghai-heat-transfer-equipment-co-ltd_1.png",
+    "file_type": "png",
+    "created_at": "2026-03-09T02:29:12.10952+00:00",
+    "updated_at": "2026-03-09T02:29:12.10952+00:00"
+  },
+  {
+    "id": "1a6017c0-fba8-40e7-905e-c4063448a064",
+    "manufacturer_id": "2537ec8a-e3f4-4862-9481-08ad15ab47e5",
+    "asset_type": "customers",
+    "alt_text": "Key customer logo",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_customers/siemens.png",
+    "file_name": "siemens.png",
+    "file_type": "png",
+    "created_at": "2026-03-09T02:29:12.10952+00:00",
+    "updated_at": "2026-03-09T02:29:12.10952+00:00"
+  },
+  {
+    "id": "389ad40f-f321-4081-96aa-977a277cdc7d",
+    "manufacturer_id": "75a55135-86f0-43e3-9117-805628a22117",
+    "asset_type": "images",
+    "alt_text": "Workshop image",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg",
+    "file_name": "shanghai-heat-transfer-equipment-co-ltd_1.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-03-09T02:29:12.10952+00:00",
+    "updated_at": "2026-03-09T02:29:12.10952+00:00"
+  },
+  {
+    "id": "3dc3bacc-9bc2-4a18-8054-0e16ef02c84a",
+    "manufacturer_id": "75a55135-86f0-43e3-9117-805628a22117",
+    "asset_type": "certifications",
+    "alt_text": "Compliance certificate",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_certifications/shanghai-heat-transfer-equipment-co-ltd_2.png",
+    "file_name": "shanghai-heat-transfer-equipment-co-ltd_2.png",
+    "file_type": "png",
+    "created_at": "2026-03-09T02:29:12.10952+00:00",
+    "updated_at": "2026-03-09T02:29:12.10952+00:00"
+  },
+  {
+    "id": "86006906-911f-4165-8959-97ddab802beb",
+    "manufacturer_id": "75a55135-86f0-43e3-9117-805628a22117",
+    "asset_type": "customers",
+    "alt_text": "Reference customer logo",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_customers/bp.png",
+    "file_name": "bp.png",
+    "file_type": "png",
+    "created_at": "2026-03-09T02:29:12.10952+00:00",
+    "updated_at": "2026-03-09T02:29:12.10952+00:00"
+  },
+  {
+    "id": "86f41fbb-e697-41ed-9b70-bc4b8d3fd236",
+    "manufacturer_id": "ca595969-4833-411b-bca4-0ad4038a6e1e",
+    "asset_type": "images",
+    "alt_text": "Product line image",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg",
+    "file_name": "shanghai-heat-transfer-equipment-co-ltd_1.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-03-09T02:29:12.10952+00:00",
+    "updated_at": "2026-03-09T02:29:12.10952+00:00"
+  },
+  {
+    "id": "c76c2642-6555-4ea9-b722-020b483cf793",
+    "manufacturer_id": "ca595969-4833-411b-bca4-0ad4038a6e1e",
+    "asset_type": "certifications",
+    "alt_text": "Qualification certificate",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_certifications/shanghai-heat-transfer-equipment-co-ltd_3.png",
+    "file_name": "shanghai-heat-transfer-equipment-co-ltd_3.png",
+    "file_type": "png",
+    "created_at": "2026-03-09T02:29:12.10952+00:00",
+    "updated_at": "2026-03-09T02:29:12.10952+00:00"
+  },
+  {
+    "id": "97508ec1-9659-4ad2-a361-a148b383f1a0",
+    "manufacturer_id": "ca595969-4833-411b-bca4-0ad4038a6e1e",
+    "asset_type": "customers",
+    "alt_text": "Customer logo",
+    "storage_bucket": "manufacturer_assets",
+    "storage_path": "company_customers/sulzer.png",
+    "file_name": "sulzer.png",
+    "file_type": "png",
+    "created_at": "2026-03-09T02:29:12.10952+00:00",
+    "updated_at": "2026-03-09T02:29:12.10952+00:00"
   }
 ]

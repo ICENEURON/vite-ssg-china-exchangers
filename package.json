@@ -8,6 +8,7 @@
     "build": "velite build && vite-react-ssg build",
     "build:spa": "tsc -b && velite build && vite build",
     "lint": "eslint .",
+    "sync": "node src/scripts/sync-all.js",
     "preview": "vite preview"
   },
   "dependencies": {

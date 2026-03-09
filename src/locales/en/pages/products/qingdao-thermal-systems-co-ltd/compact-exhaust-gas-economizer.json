@@ -1,0 +1,39 @@
+{
+  "slug": "compact-exhaust-gas-economizer",
+  "name": "Compact Exhaust Gas Economizer",
+  "full_description": "Compact Exhaust Gas Economizer is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
+  "industries": [
+    "Energy",
+    "Power Generation"
+  ],
+  "advantage": [
+    "Energy recovery concept",
+    "Suitable for distributed systems",
+    "Mock solution for power projects"
+  ],
+  "technical_parameters": {
+    "Thermal Duty": "100 ~ 3000 kW",
+    "Design Pressure": "0.3 ~ 1.6MPa",
+    "Tube/Plate Material": "Carbon Steel, SS304",
+    "Gas Inlet Temperature": "180??? ~ 450???"
+  },
+  "seo_data": {
+    "meta_title": "Compact Exhaust Gas Economizer",
+    "meta_description": "Mock data for compact exhaust gas economizer used for platform testing."
+  },
+  "manufacturer": {
+    "slug": "qingdao-thermal-systems-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Product image",
+      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "SGS certificate",
+      "url": "/storage/product_assets/product_certifications/sgs.png"
+    }
+  ]
+}
