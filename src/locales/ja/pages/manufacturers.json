@@ -1,4 +1,8 @@
 {
+  "filter_all": "すべての業界",
+  "no_results": "選択した業界に一致するメーカーは見つかりませんでした。",
+  "clear_all": "すべてクリア",
+  "filter_by": "業界で絞り込む",
   "title": "HeatEx Direct | 産業用熱交換器メーカー",
   "meta": {
     "description": "検証済みの中国工場から直接産業用熱交換器を調達します。ビジネスライセンス、生産範囲、ASME証明書を手動で検証済み。",
@@ -24,6 +28,7 @@
   "company": {
     "page_title": "メーカープロファイル",
     "meta_description_default": "メーカープロファイル",
+    "back_to_list": "メーカー一覧に戻る",
     "premium_supplier": "プレミアムサプライヤー",
     "connect_directly": "直接連絡",
     "connect_description": "工場のエンジニアリングチームから直接見積もりを取得します。",

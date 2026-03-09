@@ -90,18 +90,21 @@
     {
       "slug": "ht-bloc-welded-plate-heat-exchanger",
       "name": "HT-Bloc Welded Plate Heat Exchanger",
+      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg",
       "short_description": "Compact and efficient welded plate heat exchanger for demanding process duties.",
       "url": "shanghai-heat-transfer-equipment-co-ltd/ht-bloc-welded-plate-heat-exchanger"
     },
     {
       "slug": "wide-gap-welded-plate-heat-exchanger",
       "name": "Wide Gap Welded Plate Heat Exchanger",
+      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg",
       "short_description": "Welded plate heat exchanger designed for solids, viscous media, and anti-clogging performance.",
       "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
     },
     {
       "slug": "tp-welded-plate-heat-exchanger",
       "name": "TP Welded Plate Heat Exchanger",
+      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg",
       "short_description": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
       "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
     }

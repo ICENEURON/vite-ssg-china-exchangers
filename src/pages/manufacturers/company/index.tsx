@@ -2,7 +2,7 @@
 import { Head } from 'vite-react-ssg'
 import { Link, useParams, Navigate } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
-import { BadgeCheck, Factory, ArrowRight, Star, MapPin, CheckCircle2, ShieldCheck, Award, Users, Globe2, Sparkles, Zap, Flame, Gauge } from "lucide-react"
+import { BadgeCheck, Factory, ArrowRight, ArrowLeft, Star, MapPin, CheckCircle2, ShieldCheck, Award, Users, Globe2, Sparkles, Zap, Flame, Gauge } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { useTranslation } from 'react-i18next'
 import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-routing'
@@ -259,73 +259,66 @@ export default function ManufacturerProfilePage() {
                             <div className="h-1 flex-1 bg-slate-100 dark:bg-zinc-800 rounded-full md:ml-4" />
                         </div>
 
-                        <div className="grid grid-cols-1 gap-8">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                             {products?.map((product: Product, index: number) => (
-                                <div key={index} className="flex flex-col lg:flex-row bg-white dark:bg-zinc-900 rounded-[2rem] overflow-hidden border border-slate-200 dark:border-zinc-800 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-xl transition-all duration-300 group">
-                                    {/* Image Section - Significantly Larger */}
-                                    <div className="lg:w-2/5 bg-slate-50 dark:bg-zinc-950 flex flex-col items-center justify-center p-8 border-b lg:border-b-0 lg:border-r border-slate-100 dark:border-zinc-800 relative">
-                                        <Link to={addLanguageToPath(`/products/${product.url}`, currentLanguage)} className="w-full">
+                                <div key={index} className="flex flex-col bg-white dark:bg-zinc-900 rounded-[2rem] overflow-hidden border border-slate-200 dark:border-zinc-800 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-xl transition-all duration-300 group">
+                                    {/* Image Section */}
+                                    <div className="aspect-square bg-slate-50 dark:bg-zinc-950 flex flex-col items-center justify-center p-6 border-b border-slate-100 dark:border-zinc-800 relative">
+                                        <Link to={addLanguageToPath(`/products/${product.url}`, currentLanguage)} className="w-full h-full">
                                             {product.image ? (
-                                                <div className="w-full relative rounded-2xl overflow-hidden bg-white shadow-sm p-4 cursor-pointer hover:shadow-md transition-shadow">
-                                                    <img src={product.image} alt={product.name} className="w-full h-auto object-contain hover:scale-105 transition-transform duration-500" />
+                                                <div className="w-full h-full relative rounded-2xl overflow-hidden bg-white shadow-sm p-4 cursor-pointer hover:shadow-md transition-shadow flex items-center justify-center">
+                                                    <img src={product.image} alt={product.name} className="max-w-full max-h-full object-contain hover:scale-105 transition-transform duration-500" />
                                                 </div>
                                             ) : (
-                                                <div className="w-full flex justify-center py-8 cursor-pointer">
-                                                    <Gauge className="w-24 h-24 text-slate-300" />
+                                                <div className="w-full h-full flex items-center justify-center cursor-pointer">
+                                                    <Gauge className="w-16 h-16 text-slate-300" />
                                                 </div>
                                             )}
                                         </Link>
 
-                                        {/* Product Certificates Overlay/Bottom */}
+                                        {/* Product Certificates Overlay */}
                                         {product.certificate && product.certificate.length > 0 && (
-                                            <div className="mt-6 w-full">
-                                                <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3 text-center">{t(`${SHARED_TK}.certified_quality`)}</p>
-                                                <div className="flex flex-wrap justify-center gap-3">
-                                                    {product.certificate.map((cert: ProductCertificate, cIdx: number) => (
-                                                        <div key={cIdx} className="bg-white dark:bg-zinc-900 p-2 rounded-lg border border-slate-100 dark:border-zinc-800 shadow-sm" title={cert.name}>
-                                                            {cert.image ? (
-                                                                <img src={cert.image} alt={cert.name} className="h-8 md:h-10 w-auto object-contain" />
-                                                            ) : (
-                                                                <span className="text-xs font-bold text-slate-600">{cert.name}</span>
-                                                            )}
-                                                        </div>
-                                                    ))}
-                                                </div>
+                                            <div className="absolute bottom-4 left-0 w-full px-4 flex justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                                                {product.certificate.slice(0, 3).map((cert: ProductCertificate, cIdx: number) => (
+                                                    <div key={cIdx} className="bg-white/90 backdrop-blur-sm p-1.5 rounded-lg shadow-sm border border-slate-200" title={cert.name}>
+                                                        {cert.image ? (
+                                                            <img src={cert.image} alt={cert.name} className="h-5 w-auto object-contain" />
+                                                        ) : (
+                                                            <span className="text-[10px] font-bold">{cert.name}</span>
+                                                        )}
+                                                    </div>
+                                                ))}
                                             </div>
                                         )}
                                     </div>
 
                                     {/* Content Section */}
-                                    <div className="flex-1 p-8 lg:p-10 flex flex-col">
-                                        <div className="mb-6">
+                                    <div className="flex-1 p-6 flex flex-col">
+                                        <div className="mb-4">
                                             <Link to={addLanguageToPath(`/products/${product.url}`, currentLanguage)}>
-                                                <h3 className="text-2xl lg:text-3xl font-bold text-slate-900 dark:text-white leading-tight mb-4 hover:text-blue-600 transition-colors cursor-pointer group-hover:text-blue-600">
+                                                <h3 className="text-xl font-bold text-slate-900 dark:text-white leading-tight mb-3 hover:text-blue-600 transition-colors cursor-pointer line-clamp-2">
                                                     {product.name}
                                                 </h3>
                                             </Link>
 
                                             {/* Short Description */}
                                             {product.short_description && (
-                                                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-lg">
+                                                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm line-clamp-3">
                                                     {product.short_description}
                                                 </p>
                                             )}
                                         </div>
 
-                                        {/* Parameters Grid */}
+                                        {/* Parameters Grid - Compact */}
                                         {product.Parameters && product.Parameters.length > 0 && (
-                                            <div className="mt-auto">
-                                                <h4 className="text-sm font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
-                                                    <Zap className="w-4 h-4 text-amber-500" /> {t(`${SHARED_TK}.technical_specifications`)}
-                                                </h4>
-                                                <div className="grid sm:grid-cols-2 gap-3">
-                                                    {product.Parameters.map((param: ProductParameter, pIdx: number) => (
-                                                        <div key={pIdx} className="flex justify-between items-center p-3 rounded-xl bg-slate-50 dark:bg-zinc-950/50 border border-slate-100 dark:border-zinc-800">
-                                                            <span className="text-sm font-medium text-slate-500">{param.name}</span>
-                                                            <span className="text-sm font-bold text-slate-900 dark:text-white">{param.value}</span>
-                                                        </div>
-                                                    ))}
-                                                </div>
+                                            <div className="mt-auto space-y-2">
+                                                <div className="h-px bg-slate-100 dark:bg-zinc-800 mb-4" />
+                                                {product.Parameters.slice(0, 3).map((param: ProductParameter, pIdx: number) => (
+                                                    <div key={pIdx} className="flex justify-between items-center text-xs">
+                                                        <span className="text-slate-500">{param.name}</span>
+                                                        <span className="font-bold text-slate-900 dark:text-white">{param.value}</span>
+                                                    </div>
+                                                ))}
                                             </div>
                                         )}
                                     </div>
@@ -411,6 +404,15 @@ export default function ManufacturerProfilePage() {
                 </section>
 
             </main>
+
+            {/* Floating Back Button */}
+            <Link 
+                to={addLanguageToPath('/manufacturers', currentLanguage)}
+                className="fixed bottom-8 right-8 z-50 flex items-center justify-center gap-2 px-6 py-4 bg-white dark:bg-zinc-800 text-slate-800 dark:text-zinc-200 rounded-full shadow-2xl border border-slate-200 dark:border-zinc-700 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.3)] hover:-translate-y-1 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 group font-bold"
+            >
+                <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
+                <span>{t(`${SHARED_TK}.back_to_list`, { defaultValue: 'Back to Manufacturers' })}</span>
+            </Link>
         </>
     )
 }

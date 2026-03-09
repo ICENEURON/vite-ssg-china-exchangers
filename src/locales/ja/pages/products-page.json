@@ -1,4 +1,8 @@
 {
+  "filter_all": "すべての業界",
+  "no_results": "選択した業界に一致する製品は見つかりませんでした。",
+  "clear_all": "すべてクリア",
+  "filter_by": "業界で絞り込む",
   "title": "産業用熱交換器",
   "description": "プレート式熱交換器、シェル＆チューブ式、様々な産業向けの特注ソリューションなど、当社の包括的な産業用熱交換器シリーズをご覧ください。",
   "hero": {
@@ -18,6 +22,7 @@
   },
   "detail": {
     "view_manufacturer": "メーカーを見る",
+    "back_to_list": "製品一覧に戻る",
     "request_quote": "見積もりをリクエスト",
     "key_advantages": "主な利点",
     "technical_specifications": "技術仕様",

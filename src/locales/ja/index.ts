@@ -1,5 +1,6 @@
 import navigation from './navigation.json';
 import footer from './footer.json';
+import industries from './common/industries.json';
 import home from './pages/home.json';
 import profile from './pages/claim-your-profile.json';
 import login from './pages/login.json';
@@ -56,6 +57,7 @@ for (const path in productFiles) {
 export default {
   navigation,
   footer,
+  industries,
   pages: {
     home,
     manufacturers: manufacturersData,

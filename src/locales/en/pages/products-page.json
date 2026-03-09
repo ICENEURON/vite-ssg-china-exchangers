@@ -1,4 +1,8 @@
 {
+  "filter_all": "All Industries",
+  "no_results": "No products found matching the selected industries.",
+  "clear_all": "Clear All",
+  "filter_by": "Filter by Industry",
   "title": "Industrial Heat Exchangers",
   "description": "Discover our comprehensive range of industrial heat exchangers, including plate heat exchangers, shell and tube, and specialized custom solutions for various industries.",
   "hero": {
@@ -18,6 +22,7 @@
   },
   "detail": {
     "view_manufacturer": "View Manufacturer",
+    "back_to_list": "Back to Products",
     "request_quote": "Request Quote",
     "key_advantages": "Key Advantages",
     "technical_specifications": "Technical Specifications",

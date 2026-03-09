@@ -57,18 +57,21 @@
     {
       "slug": "brazed-plate-cooler-unit",
       "name": "Brazed Plate Cooler Unit",
+      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg",
       "short_description": "Mock product for brazed plate cooler unit testing.",
       "url": "qingdao-thermal-systems-co-ltd/brazed-plate-cooler-unit"
     },
     {
       "slug": "compact-exhaust-gas-economizer",
       "name": "Compact Exhaust Gas Economizer",
+      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg",
       "short_description": "Mock product for compact exhaust gas economizer testing.",
       "url": "qingdao-thermal-systems-co-ltd/compact-exhaust-gas-economizer"
     },
     {
       "slug": "marine-central-cooler-package",
       "name": "Marine Central Cooler Package",
+      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg",
       "short_description": "Mock product for marine central cooler package testing.",
       "url": "qingdao-thermal-systems-co-ltd/marine-central-cooler-package"
     }

@@ -1,4 +1,8 @@
 {
+  "filter_all": "所有行业",
+  "no_results": "没有找到匹配的制造商。",
+  "clear_all": "清除全部",
+  "filter_by": "按行业筛选",
   "title": "HeatEx Direct | 工業換熱器製造商",
   "meta": {
     "description": "直接從經過驗證的中國工廠採購工業換熱器。人工核實營業執照、生產範圍和ASME證書。",
@@ -24,6 +28,7 @@
   "company": {
     "page_title": "製造商簡介",
     "meta_description_default": "製造商簡介",
+    "back_to_list": "返回所有工厂",
     "premium_supplier": "優質供應商",
     "connect_directly": "直接聯繫",
     "connect_description": "直接向工廠工程團隊獲取報價。",

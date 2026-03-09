@@ -8,6 +8,7 @@ const __dirname = path.dirname(__filename);
 const scripts = [
   'fetch-data.js',
   'fetch-storage.js',
+  'generate-common-locales.js',
   'generate-manufacturer-locales.js',
   'generate-product-locales.js'
 ];
@@ -15,9 +16,9 @@ const scripts = [
 function runScript(scriptName) {
   const scriptPath = path.join(__dirname, scriptName);
   console.log(`\n🚀 Running ${scriptName}...`);
-  
+
   const result = spawnSync('node', [scriptPath], { stdio: 'inherit' });
-  
+
   if (result.status !== 0) {
     console.error(`\n❌ Error: ${scriptName} failed with exit code ${result.status}`);
     process.exit(1);

@@ -1,7 +1,7 @@
 import { Head } from 'vite-react-ssg'
 import { Link, useParams, Navigate } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
-import { CheckCircle2, Settings, Shield, Factory } from "lucide-react"
+import { CheckCircle2, Settings, Shield, Factory, ArrowLeft } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { useTranslation } from 'react-i18next'
 import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-routing'
@@ -175,6 +175,15 @@ export default function ProductProfilePage() {
 
                 </div>
             </main>
+
+            {/* Floating Back Button */}
+            <Link 
+                to={addLanguageToPath('/products', currentLanguage)}
+                className="fixed bottom-8 right-8 z-50 flex items-center justify-center gap-2 px-6 py-4 bg-white dark:bg-zinc-800 text-slate-800 dark:text-zinc-200 rounded-full shadow-2xl border border-slate-200 dark:border-zinc-700 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.3)] hover:-translate-y-1 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 group font-bold"
+            >
+                <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
+                <span>{t("pages.products.detail.back_to_list", { defaultValue: 'Back to Products' })}</span>
+            </Link>
         </>
     );
 }

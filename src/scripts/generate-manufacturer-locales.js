@@ -35,7 +35,7 @@ if (manufacturers.length > 0 && typeof manufacturers[0].name === 'object') {
  */
 function localizeField(value, availableLangs, currentLang) {
   if (value === null || value === undefined) return value;
-  
+
   if (typeof value === 'object' && !Array.isArray(value)) {
     const hasLangKey = availableLangs.some(l => l in value);
     if (hasLangKey) {
@@ -44,18 +44,18 @@ function localizeField(value, availableLangs, currentLang) {
       }
       return '';
     }
-    
+
     const localizedObj = {};
     for (const key of Object.keys(value)) {
       localizedObj[key] = localizeField(value[key], availableLangs, currentLang);
     }
     return localizedObj;
   }
-  
+
   if (Array.isArray(value)) {
     return value.map(item => localizeField(item, availableLangs, currentLang));
   }
-  
+
   return value;
 }
 
@@ -99,8 +99,8 @@ function processData() {
         individualMfg.industries = mfg.industries.map(id => {
           const ind = industries.find(i => String(i.id) === String(id));
           if (ind) {
-             const localizedInd = localizeField(ind, langsArray, lang);
-             return localizedInd.name;
+            const localizedInd = localizeField(ind, langsArray, lang);
+            return localizedInd.name;
           }
           return id;
         });
@@ -108,7 +108,7 @@ function processData() {
 
       // Add manufacturer assets by type
       const mfgAssets = manufacturerAssets.filter(asset => asset.manufacturer_id === mfg.id);
-      
+
       individualMfg.certifications = mfgAssets
         .filter(asset => asset.asset_type === 'certifications')
         .map(asset => {
@@ -135,9 +135,11 @@ function processData() {
         .filter(prod => prod.manufacturer_id === mfg.id)
         .map(prod => {
           const localizedProd = localizeField(prod, langsArray, lang);
+          const pImage = productAssets.find(pa => pa.product_id === prod.id && pa.asset_type === 'image');
           return {
             slug: localizedProd.slug,
             name: localizedProd.name,
+            image: pImage ? `/storage/${pImage.storage_bucket}/${pImage.storage_path}` : undefined,
             short_description: localizedProd.short_description,
             url: `${individualMfg.slug}/${localizedProd.slug}`
           };
@@ -162,13 +164,13 @@ function processData() {
         country_name: localizedMfg.country_name,
         industries: []
       };
-      
+
       if (mfg.industries && Array.isArray(mfg.industries)) {
         listMfg.industries = mfg.industries.map(id => {
           const ind = industries.find(i => String(i.id) === String(id));
           if (ind) {
-             const localizedInd = localizeField(ind, langsArray, lang);
-             return localizedInd.name;
+            const localizedInd = localizeField(ind, langsArray, lang);
+            return localizedInd.name;
           }
           return id; // fallback if industry not found
         });
