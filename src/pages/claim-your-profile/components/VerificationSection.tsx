@@ -24,22 +24,22 @@ export function VerificationSection() {
     ]
 
     return (
-        <section className="py-16 px-4">
-            <div className="container px-4 mx-auto max-w-5xl">
-                <div className="text-center max-w-2xl mx-auto mb-12">
+        <section className="py-10 px-2 flex flex-col items-center">
+            <div className="container mx-auto max-w-6xl flex flex-col items-center p-4">
+                <div className="text-center max-w-2xl mx-auto mb-10 px-2">
                     <h1 className="font-bold text-accent mb-4">{t('pages.profile.verification.title')}</h1>
                     <h5 className="text-muted leading-relaxed">
                         {t('pages.profile.verification.description')}
                     </h5>
                 </div>
 
-                <div className="grid grid-cols-1 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full place-items-start">
                     {steps.map((step, i) => (
-                        <div key={i} className="flex gap-3 text-left">
-                            <h3 className="font-bold shrink-0 text-accent">{i + 1}.</h3>
-                            <div>
+                        <div key={i} className="flex flex-col items-center text-center gap-4 p-4 w-full">
+                            <h3 className="font-bold shrink-0 text-accent text-3xl">{i + 1}.</h3>
+                            <div className="flex flex-col items-center gap-2">
                                 <h3 className="font-bold">{step.title}</h3>
-                                <h5 className="text-muted leading-relaxed">
+                                <h5 className="text-muted leading-relaxed max-w-xs">
                                     {step.description}
                                 </h5>
                             </div>

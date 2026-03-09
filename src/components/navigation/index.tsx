@@ -62,7 +62,7 @@ export function Navigation() {
     const guestItems = ROUTES.filter((r) => r.nav === "guest");
     const authItems = ROUTES.filter((r) => r.nav === "auth");
 
-    const mobilePublicItems = ROUTES.filter((r) => r.mobile === "public" && r.path !== "/rfq");
+    const mobilePublicItems = ROUTES.filter((r) => r.mobile === "public" && r.path !== "/rfq" || r.path === "/products");
     const mobileGuestItems = ROUTES.filter((r) => r.mobile === "guest");
     const mobileAuthItems = ROUTES.filter((r) => r.mobile === "auth");
 
@@ -269,113 +269,129 @@ export function Navigation() {
             </header>
 
             {/* 移动端菜单覆盖层 */}
-            {isMobileMenuOpen && (
-                <div
-                    ref={mobileMenuRef}
-                    className="xl:hidden bg-navbar border-t border-b fixed top-20 left-0 right-0 z-40 border-border/50"
-                >
-                    <nav className="p-6 flex flex-col gap-4">
-                        <div className="flex flex-col gap-2">
-                            {mobilePublicItems.map((route) => {
-                                const isActive = isActiveLink(route.path);
-                                const translationKey = route.translationKey;
-                                const label = translationKey
-                                    ? t(translationKey)
-                                    : route.label;
+            {/* Backdrop */}
+            <div
+                className={cn(
+                    "fixed inset-0 top-20 bg-black/60 backdrop-blur-sm z-40 transition-opacity duration-300 xl:hidden",
+                    isMobileMenuOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
+                )}
+                onClick={() => setIsMobileMenuOpen(false)}
+            />
 
-                                return (
-                                    <Link
-                                        key={route.path}
-                                        to={getLocalizedPath(route.path)}
-                                        className={`block px-3 py-2 text-[16px] transition-colors ${isActive ? "bg-accent/60 text-navbar-foreground" : "hover:bg-accent/30 text-navbar-foreground"
-                                            }`}
-                                        onClick={() => setIsMobileMenuOpen(false)}
-                                    >
-                                        {label}
-                                    </Link>
-                                );
-                            })}
+            {/* Sliding Panel */}
+            <div
+                ref={mobileMenuRef}
+                className={cn(
+                    "xl:hidden bg-navbar fixed top-20 left-0 right-0 bottom-0 z-40 flex flex-col transition-transform duration-300 ease-in-out border-t border-border/20",
+                    isMobileMenuOpen ? "translate-y-0" : "-translate-y-full"
+                )}
+            >
+                {/* Scrollable Nav Content */}
+                <nav className="flex-1 overflow-y-auto p-6 flex flex-col gap-6 w-full" onClick={() => {}}>
+                    <div className="flex flex-col gap-2">
+                        {mobilePublicItems.map((route) => {
+                            const isActive = isActiveLink(route.path);
+                            const translationKey = route.translationKey;
+                            const label = translationKey
+                                ? t(translationKey)
+                                : route.label;
 
-                            {/* Mobile CTA Button */}
-                            {rfqRoute && (
+                            return (
                                 <Link
-                                    key={rfqRoute.path}
-                                    to={getLocalizedPath(rfqRoute.path)}
-                                    className="flex items-center gap-2 px-4 py-3 text-[16px] font-semibold text-white bg-gradient-to-r from-primary to-orange-500 rounded-lg shadow-lg transition-all hover:shadow-xl hover:scale-[1.02]"
+                                    key={route.path}
+                                    to={getLocalizedPath(route.path)}
+                                    className={`block px-4 py-3 text-lg font-medium rounded-xl transition-colors ${isActive ? "bg-accent/60 text-navbar-foreground" : "hover:bg-accent/30 text-navbar-foreground"
+                                        }`}
                                     onClick={() => setIsMobileMenuOpen(false)}
                                 >
-                                    <Mail className="w-4 h-4" />
-                                    {rfqRoute.translationKey ? t(rfqRoute.translationKey) : rfqRoute.label}
+                                    {label}
                                 </Link>
-                            )}
+                            );
+                        })}
+
+                        {/* Mobile CTA Button */}
+                        {rfqRoute && (
+                            <Link
+                                key={rfqRoute.path}
+                                to={getLocalizedPath(rfqRoute.path)}
+                                className="flex items-center justify-center gap-2 mt-4 px-4 py-4 text-lg font-bold text-white bg-gradient-to-r from-primary to-orange-500 rounded-xl shadow-lg shadow-primary/20 transition-all hover:shadow-xl hover:scale-[1.02]"
+                                onClick={() => setIsMobileMenuOpen(false)}
+                            >
+                                <Mail className="w-5 h-5" />
+                                {rfqRoute.translationKey ? t(rfqRoute.translationKey) : rfqRoute.label}
+                            </Link>
+                        )}
+                    </div>
+
+                    {/* Mobile Guest Buttons */}
+                    {enableAuth && !user && mobileGuestItems.length > 0 && (
+                        <div className="flex flex-col gap-3 pt-6 border-t border-border/20 mt-auto pb-8">
+                            {mobileGuestItems.map((route) => {
+                                const label = route.translationKey
+                                    ? t(route.translationKey)
+                                    : route.label;
+                                return (
+                                    <Button
+                                        key={route.path}
+                                        variant={route.path === '/login' ? "outline" : "default"}
+                                        size="lg"
+                                        asChild
+                                        className={cn(
+                                            "justify-center w-full text-lg h-14 rounded-xl",
+                                            route.path === '/login' ? "text-navbar-foreground hover:text-navbar-foreground hover:bg-accent/30 border-navbar-foreground/20" : ""
+                                        )}
+                                    >
+                                        <Link
+                                            to={getLocalizedPath(route.path)}
+                                            onClick={() => setIsMobileMenuOpen(false)}
+                                        >
+                                            {label}
+                                        </Link>
+                                    </Button>
+                                );
+                            })}
                         </div>
+                    )}
 
-                        {/* Mobile Guest Buttons */}
-                        {enableAuth && !user && mobileGuestItems.length > 0 && (
-                            <div className="flex flex-row gap-4 pt-4 border-t border-border/80">
-                                {mobileGuestItems.map((route) => {
-                                    const label = route.translationKey
-                                        ? t(route.translationKey)
-                                        : route.label;
-                                    return (
-                                        <Button
-                                            key={route.path}
-                                            variant={route.path === '/login' ? "ghost" : "default"}
-                                            asChild
-                                            className={cn(
-                                                "justify-center",
-                                                route.path === '/login' ? "text-navbar-foreground hover:text-navbar-foreground hover:bg-accent/30" : ""
-                                            )}
+                    {/* Mobile Auth Buttons */}
+                    {enableAuth && user && (
+                        <div className="flex flex-col gap-3 pt-6 border-t border-border/20 mt-auto pb-8">
+                            {mobileAuthItems.map((route) => {
+                                const label = route.translationKey
+                                    ? t(route.translationKey)
+                                    : route.label;
+                                return (
+                                    <Button
+                                        key={route.path}
+                                        variant="default"
+                                        size="lg"
+                                        asChild
+                                        className="w-full text-lg h-14 rounded-xl"
+                                    >
+                                        <Link
+                                            to={getLocalizedPath(route.path)}
+                                            onClick={() => setIsMobileMenuOpen(false)}
                                         >
-                                            <Link
-                                                to={getLocalizedPath(route.path)}
-                                                onClick={() => setIsMobileMenuOpen(false)}
-                                            >
-                                                {label}
-                                            </Link>
-                                        </Button>
-                                    );
-                                })}
-                            </div>
-                        )}
-
-                        {/* Mobile Auth Buttons */}
-                        {enableAuth && user && (
-                            <div className="flex flex-row gap-4 pt-4 border-t border-border/80">
-                                {mobileAuthItems.map((route) => {
-                                    const label = route.translationKey
-                                        ? t(route.translationKey)
-                                        : route.label;
-                                    return (
-                                        <Button
-                                            key={route.path}
-                                            variant="default"
-                                            asChild
-                                        >
-                                            <Link
-                                                to={getLocalizedPath(route.path)}
-                                                onClick={() => setIsMobileMenuOpen(false)}
-                                            >
-                                                {label}
-                                            </Link>
-                                        </Button>
-                                    );
-                                })}
-                                <Button
-                                    variant="destructive"
-
-                                    onClick={() => {
-                                        signOut();
-                                        setIsMobileMenuOpen(false);
-                                    }}
-                                >
-                                    {t('navigation.menu.logout')}
-                                </Button>
-                            </div>
-                        )}
-                    </nav>
-                </div>
-            )}
+                                            {label}
+                                        </Link>
+                                    </Button>
+                                );
+                            })}
+                            <Button
+                                variant="destructive"
+                                size="lg"
+                                className="w-full text-lg h-14 rounded-xl mt-2"
+                                onClick={() => {
+                                    signOut();
+                                    setIsMobileMenuOpen(false);
+                                }}
+                            >
+                                {t('navigation.menu.logout')}
+                            </Button>
+                        </div>
+                    )}
+                </nav>
+            </div>
         </>
     );
 }

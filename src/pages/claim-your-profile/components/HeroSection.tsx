@@ -7,18 +7,14 @@ import { useTranslation } from "react-i18next"
 export function HeroSection() {
     const { t } = useTranslation();
     return (
-        <section className="relative overflow-hidden py-24 lg:py-32 px-8 lg:px-16 bg-background">
-            {/* Dynamic Background */}
-            <div className="absolute top-0 right-0 -translate-y-12 translate-x-12 blur-[100px] opacity-20 pointer-events-none">
-                <div className="aspect-square w-[800px] rounded-full bg-blue-600/40 mix-blend-multiply dark:mix-blend-screen animate-pulse" />
-            </div>
+        <section className="relative overflow-hidden py-10 px-2 from-blue-600/5 via-background to-background flex flex-col items-center justify-center min-h-[60vh] w-full">
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808008_1px,transparent_1px),linear-gradient(to_bottom,#80808008_1px,transparent_1px)] bg-[size:32px_32px] [mask-image:radial-gradient(ellipse_60%_60%_at_50%_50%,#000_70%,transparent_100%)] pointer-events-none" />
 
-            <div className="container relative px-4 mx-auto max-w-7xl">
-                <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="container relative mx-auto max-w-6xl flex flex-col items-start pt-16">
+                <div className="grid lg:grid-cols-2 gap-4 items-start w-full">
                     {/* Content Left */}
-                    <div className="text-left space-y-8 animate-in fade-in slide-in-from-left-8 duration-700">
-                        <Badge variant="secondary" className="bg-blue-200/80 text-accent border-blue-400/50 hover:bg-blue-200">
+                    <div className="text-center lg:text-left space-y-4 animate-in fade-in slide-in-from-left-8 duration-700 flex flex-col items-center lg:items-start mt-12">
+                        <Badge variant="secondary" className="bg-blue-200/80 text-accent border-blue-400/50 hover:bg-blue-200 mt-2">
                             <span className="relative flex h-2 w-2 mr-2">
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-800 opacity-75"></span>
                                 <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-800"></span>
@@ -26,21 +22,21 @@ export function HeroSection() {
                             {t("pages.profile.hero.status_badge")}
                         </Badge>
 
-                        <h1 className="font-extrabold">
+                        <h1 className="font-extrabold text-4xl lg:text-5xl">
                             {t('pages.profile.hero.title_prefix')} <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-500 animate-gradient-x">{t('pages.profile.hero.title_suffix')}</span>
                         </h1>
 
-                        <h4 className="text-muted max-w-xl text-muted/90">
+                        <p className="text-muted max-w-xl text-muted/90 mx-auto lg:mx-0">
                             {t('pages.profile.hero.description')}
-                        </h4>
+                        </p>
 
-                        <div className="flex flex-wrap gap-4 pt-4 text-sm font-medium text-accent">
+                        <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4 text-sm font-medium text-accent">
                             <div className="flex items-center gap-2 whitespace-nowrap"><CheckCircle2 className="w-4 h-4 text-blue-800" /> {t('pages.profile.hero.features.manual_verification')}</div>
                             <div className="flex items-center gap-2 whitespace-nowrap"><CheckCircle2 className="w-4 h-4 text-blue-800" /> {t('pages.profile.hero.features.license_check')}</div>
                         </div>
 
-                        <div className="flex flex-wrap gap-4">
+                        <div className="flex flex-wrap justify-center gap-4 mt-6">
                             <Button size="lg" className="h-14 px-8 text-lg rounded-full shadow-lg shadow-blue-500/20 hover:shadow-blue-500/40 transition-all bg-blue-600 hover:bg-blue-700 group" asChild>
                                 <a href={`mailto:${import.meta.env.VITE_CONTACT_EMAIL}?subject=[Claim Profile] Verification Request`}>
                                     <Mail className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
@@ -51,13 +47,13 @@ export function HeroSection() {
                     </div>
 
                     {/* Visual Right: High-Fidelity Certificate */}
-                    <div className="hidden lg:block relative group perspective-[2000px] z-10">
+                    <div className="hidden lg:flex relative group perspective-[2500px] z-10 justify-center p-4">
 
                         {/* Visual Backdrop (Glow) */}
                         <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/10 to-amber-500/10 blur-3xl transform rotate-6 scale-90" />
 
                         {/* The "Document" */}
-                        <div className="relative mx-auto w-[420px] h-[580px] bg-[#fdfbf7] dark:bg-[#1a1a1a] rounded-[4px] shadow-2xl border border-zinc-200 dark:border-zinc-800 p-8 transform rotate-y-[8deg] rotate-x-[4deg] hover:rotate-y-0 hover:rotate-x-0 transition-all duration-700 ease-out preserve-3d">
+                        <div className="relative mx-auto w-full max-w-[420px] h-[580px] bg-[#fdfbf7] rounded-[4px] shadow-2xl border border-zinc-200 dark:border-zinc-800 p-8 transform rotate-y-[8deg] rotate-x-[4deg] hover:rotate-y-0 hover:rotate-x-0 transition-all duration-700 ease-out preserve-3d">
                             {/* Paper Texture Overlay */}
                             <div className="absolute inset-0 opacity-30 mix-blend-multiply pointer-events-none" />
                             {/* Border Guilloche Pattern (Simulated) */}
@@ -116,7 +112,7 @@ export function HeroSection() {
 
                             {/* Prominent Stamp */}
                             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform -rotate-12 pointer-events-none">
-                                <div className="border-[6px] border-red-600/20 text-red-600/20 font-black text-4xl px-8 py-4 rounded-lg uppercase tracking-widest mix-blend-multiply dark:mix-blend-color-dodge">
+                                <div className="border-[6px] border-red-600/20 text-red-600/20 font-black text-4xl px-8 py-4 rounded-lg uppercase tracking-widest mix-blend-multiply dark:mix-blend-color-dodge whitespace-nowrap">
                                     {t('pages.profile.hero.certificate.status_stamp')}
                                 </div>
                             </div>

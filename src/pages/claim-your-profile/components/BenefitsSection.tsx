@@ -5,18 +5,18 @@ import { useTranslation, Trans } from "react-i18next"
 export function BenefitsSection() {
     const { t } = useTranslation();
     return (
-        <section className="py-16">
-            <div className="container px-8 mx-auto max-w-7xl">
-                <div className="flex flex-col lg:flex-row lg:items-end justify-between mb-12 gap-6">
-                    <div className="max-w-2xl">
+        <section className="py-10 px-2 flex flex-col items-center">
+            <div className="container mx-auto max-w-6xl flex flex-col items-center gap-6 p-4">
+                <div className="flex flex-col items-center justify-center text-center gap-4 w-full">
+                    <div className="max-w-2xl flex flex-col items-center">
                         <h1 className="font-bold tracking-tight mb-4 text-accent">{t('pages.profile.benefits.header.title')}</h1>
                         <p className="text-xl text-foreground">
                             <Trans i18nKey="pages.profile.benefits.header.description" components={{ strong: <strong /> }} />
                         </p>
                     </div>
 
-                    <div className="hidden md:block shrink-0">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-destructive/10 border border-destructive/40 shadow-sm text-sm font-bold text-destructive whitespace-nowrap">
+                    <div className="flex items-center justify-center p-2">
+                        <div className="inline-flex items-center justify-center gap-2 px-6 py-2 rounded-full bg-destructive/10 border border-destructive/40 shadow-sm text-sm font-bold text-destructive whitespace-nowrap">
                             <span className="relative flex h-2 w-2 mr-1">
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-destructive opacity-75"></span>
                                 <span className="relative inline-flex rounded-full h-2 w-2 bg-destructive"></span>
@@ -26,7 +26,7 @@ export function BenefitsSection() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 w-full mt-4 text-left">
                     {/* Card 1: Preferential Ranking (Tall) */}
                     <div className="group relative overflow-hidden rounded-[2rem] bg-zinc-900 text-white p-8 lg:row-span-1 flex flex-col justify-between transition-all shadow-xl min-h-[340px]">
                         <div className="absolute top-0 right-0 p-8 opacity-10 transition-transform duration-500 pointer-events-none">
@@ -83,7 +83,6 @@ export function BenefitsSection() {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>

@@ -6,6 +6,9 @@ import {
   useCurrentLanguage,
   addLanguageToPath,
 } from "../../utils/language-routing";
+import { Button } from "../ui/button";
+import { Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const { t } = useTranslation("translation");
@@ -30,8 +33,8 @@ const Footer = () => {
         url: addLanguageToPath("/manufacturers", currentLanguage),
       },
       {
-        key: "rfq",
-        url: addLanguageToPath("/rfq", currentLanguage),
+        key: "products",
+        url: addLanguageToPath("/products", currentLanguage),
       },
     ],
     [
@@ -75,7 +78,7 @@ const Footer = () => {
     <footer className={cn("bg-navbar text-navbar-foreground")}>
       <div className="container mx-auto px-4 md:px-6 pt-12 pb-6 max-w-8xl">
         <div className="grid gap-8 lg:grid-cols-2">
-          {/* 左侧：Logo + 描述 */}
+          {/* 左侧：Logo + 描述 + 按钮 */}
           <div>
             <div className="flex items-center gap-2">
               <a
@@ -96,11 +99,23 @@ const Footer = () => {
             <p className="mt-4 text-navbar-foreground/60 font-medium max-w-sm">
               {t("footer.tagline")}
             </p>
+            <div className="mt-6 flex">
+              <Button
+                asChild
+                size="lg"
+                className="bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white font-bold shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:scale-105 rounded-full px-6 gap-2"
+              >
+                <Link to={addLanguageToPath("/rfq", currentLanguage)}>
+                  <Mail className="w-5 h-5" />
+                  {t("footer.rfq_label")}
+                </Link>
+              </Button>
+            </div>
           </div>
 
           {/* 右侧：三个列链接 */}
-          <div className="justify-self-start lg:justify-self-end">
-            <div className="flex flex-col md:flex-row gap-8 md:gap-12 text-left">
+          <div className="justify-self-start lg:justify-self-end mt-4 lg:mt-0">
+            <div className="flex flex-col md:flex-row gap-8 md:gap-12 grid grid-cols-2 md:flex text-left">
               {linkColumns.map((column, colIndex) => (
                 <ul key={colIndex} className="flex flex-col gap-4">
                   {column.map((page) => (
@@ -120,7 +135,7 @@ const Footer = () => {
         </div>
 
         {/* 底部：版权 + 法律链接 */}
-        <div className="mt-4 flex flex-col justify-between gap-4 pt-8 text-sm font-medium md:flex-row md:items-center">
+        <div className="mt-8 flex flex-col justify-between gap-4 pt-8 text-sm font-medium md:flex-row md:items-center border-t border-navbar-foreground/10">
           <p className="text-navbar-foreground/60">
             {t("footer.legal.copyright", { year: currentYear })}
           </p>

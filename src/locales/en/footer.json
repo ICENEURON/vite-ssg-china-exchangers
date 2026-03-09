@@ -4,11 +4,13 @@
     "title": "HeatEx Direct"
   },
   "tagline": "The Analyst-Verified Sourcing Platform for Industrial Thermal Equipment.",
+  "rfq_label": "Request for Quote",
   "links": {
     "items": {
       "home": "Home",
       "manufacturers": "Verified Manufacturer Directory",
-      "rfq": "Request for Quotation Tool",
+      "products": "Product Categories",
+      "rfq": "Request for Quote",
       "profile": "Claim Your Profile",
       "content-marketing-services": "Content Marketing Services",
       "industry-news": "Industry News",
