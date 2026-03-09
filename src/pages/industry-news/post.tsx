@@ -1,6 +1,6 @@
 import { posts } from '.velite'
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, ArrowRight, FileQuestion } from 'lucide-react'
+import { FileQuestion, Clock, User, BookOpen, ArrowLeft } from 'lucide-react'
 import { Button } from '../../components/ui/button'
 import { Head } from 'vite-react-ssg'
 import { useCurrentLanguage, addLanguageToPath } from '../../utils/language-routing'
@@ -24,36 +24,37 @@ export default function BlogPost() {
     const currentIndex = sortedPosts.findIndex(p => p.slug === slug);
     const post = sortedPosts[currentIndex];
 
-    // Previous Post (Older)
-    const prevPost = currentIndex < sortedPosts.length - 1 ? sortedPosts[currentIndex + 1] : null;
-    // Next Post (Newer)
-    const nextPost = currentIndex > 0 ? sortedPosts[currentIndex - 1] : null;
+    // Related posts: 5 before and 5 after
+    const relatedBefore = currentIndex > 0 ? sortedPosts.slice(Math.max(0, currentIndex - 5), currentIndex) : [];
+    const relatedAfter = currentIndex < sortedPosts.length - 1 ? sortedPosts.slice(currentIndex + 1, currentIndex + 6) : [];
+    const relatedPosts = [...relatedBefore, ...relatedAfter];
 
-    // Back link should respect current language
+    // Back link (kept for meta/breadcrumb context if needed, but removed from UI as requested)
     const backLink = addLanguageToPath('/industry-news', currentLanguage);
 
     if (!post) return (
-        <div className="container py-32 mx-auto px-4 flex flex-col items-center justify-center min-h-[60vh] text-center space-y-8">
-            <div className="text-muted mb-8">
-                <FileQuestion className="w-20 h-20 opacity-20" />
+        <section className="py-10 px-2 flex justify-center min-h-[60vh]">
+            <div className="container px-4 max-w-6xl flex flex-col items-center justify-center gap-4 text-center">
+                <div className="text-muted p-4">
+                    <FileQuestion className="w-20 h-20 opacity-20 mx-auto" />
+                </div>
+                <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-foreground p-2">{t("pages.news.blog.not_found_title")}</h1>
+                <p className="text-xl text-muted max-w-md mx-auto leading-relaxed p-2">
+                    {t("pages.news.blog.not_found_desc")}
+                </p>
+                <div className="p-4">
+                    <Button asChild size="lg" className="font-semibold px-8 h-12 rounded-full shadow-lg hover:shadow-xl transition-all">
+                        <Link to={backLink}>
+                            {t("pages.news.blog.back_to_list")}
+                        </Link>
+                    </Button>
+                </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-foreground">{t("pages.news.blog.not_found_title")}</h1>
-            <h5 className="text-xl text-muted max-w-md mx-auto leading-relaxed">
-                {t("pages.news.blog.not_found_desc")}
-            </h5>
-            <div>
-                <Button asChild size="lg" className="font-semibold px-8 h-12 rounded-full shadow-lg hover:shadow-xl transition-all">
-                    <Link to={backLink}>
-                        <ArrowLeft className="mr-2 w-4 h-4" />
-                        {t("pages.news.blog.back_to_list")}
-                    </Link>
-                </Button>
-            </div>
-        </div>
+        </section>
     )
 
     return (
-        <div className="container max-w-5xl py-16 mx-auto px-4">
+        <section className="py-10 px-2 flex justify-center bg-background">
             <Head>
                 <title>{post.metaTitle || post.title}</title>
                 <link rel="canonical" href={currentUrl} />
@@ -61,80 +62,95 @@ export default function BlogPost() {
                 <meta name="description" content={post.metaDescription || post.excerpt || post.title} />
                 {post.keywords && <meta name="keywords" content={post.keywords.join(', ')} />}
             </Head>
-            <div className="mb-8">
-                <Button variant="nonbackground" asChild className="pl-0 hover:text-primary">
-                    <Link to={backLink} className="flex items-center gap-2">
-                        <ArrowLeft className="w-4 h-4" />
-                        {t("pages.news.blog.back_to_list")}
-                    </Link>
-                </Button>
-            </div>
 
-            <article className="prose lg:prose-xl max-w-none">
-                <div className="not-prose border-b border-border pb-6 mb-6">
-                    <div className="flex flex-col items-start text-sm text-muted">
-                        <time dateTime={post.date}>
-                            {new Date(post.date).toISOString().split('T')[0]}
-                        </time>
-                        <h2 className="font-extrabold tracking-tight mb-2">{post.title}</h2>
-                        <div className="flex flex-wrap">
-                            {post.author && (
-                                <>
-                                    <span>{t("pages.news.blog.author")}: {post.author}</span>
-                                    <span className="mx-2">|</span>
-                                </>
+            <div className="container pt-16 px-4 max-w-6xl flex flex-col gap-8">
+                <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
+                    {/* Main Content */}
+                    <div className="lg:col-span-3 flex flex-col gap-6">
+                        <article className="prose prose-slate lg:prose-xl dark:prose-invert max-w-none flex flex-col gap-6">
+                            <div className="not-prose flex flex-col gap-4 border-b border-border pb-6">
+                                <div className="flex flex-col items-start gap-2 text-sm text-muted">
+                                    <div className="flex items-center gap-2">
+                                        <Clock className="w-4 h-4" />
+                                        <time dateTime={post.date}>
+                                            {new Date(post.date).toISOString().split('T')[0]}
+                                        </time>
+                                    </div>
+                                    <h1 className="text-2xl md:text-4xl font-extrabold tracking-tight text-slate-900 dark:text-slate-50 p-0 m-0 leading-tight">
+                                        {post.title}
+                                    </h1>
+                                    <div className="flex flex-wrap gap-4 mt-2">
+                                        {post.author && (
+                                            <div className="flex items-center gap-1">
+                                                <User className="w-4 h-4" />
+                                                <span>{t("pages.news.blog.author")}: {post.author}</span>
+                                            </div>
+                                        )}
+                                        {post.readTime && (
+                                            <div className="flex items-center gap-1">
+                                                <BookOpen className="w-4 h-4" />
+                                                <span>{t("pages.news.blog.read_time")}: {post.readTime}</span>
+                                            </div>
+                                        )}
+                                    </div>
+                                </div>
+                            </div>
+
+                            {post.cover && (
+                                <div className="not-prose w-full rounded-2xl overflow-hidden shadow-lg">
+                                    <img
+                                        src={post.cover}
+                                        alt={post.title}
+                                        className="w-full h-auto max-h-[500px] object-cover"
+                                    />
+                                </div>
                             )}
-                            {post.reviewer && (
-                                <>
-                                    <span>{t("pages.news.blog.reviewer")}: {post.reviewer}</span>
-                                    <span className="mx-2">|</span>
-                                </>
-                            )}
-                            {post.readTime && (
-                                <>
-                                    <span>{t("pages.news.blog.read_time")}: {post.readTime}</span>
-                                </>
-                            )}
+
+                            <div
+                                className="mt-4 text-slate-700 dark:text-slate-300"
+                                dangerouslySetInnerHTML={{ __html: post.content }}
+                            />
+                        </article>
+                    </div>
+
+                    {/* Sidebar */}
+                    <aside className="lg:col-span-1 flex flex-col gap-4 h-fit sticky top-48">
+                        <div className="flex flex-col gap-2">
+                            <div className="flex flex-col gap-4">
+                                <h3 className="relative font-bold text-[12px] text-slate-800pb-2 border-b border-slate-100">
+                                    <span className="absolute left-0 bottom-[-1px] w-8 h-[2px] bg-primary"></span>
+                                    {t("pages.news.blog.related_posts", "Other Articles")}
+                                </h3>
+                                <div className="flex flex-col">
+                                    {relatedPosts.length > 0 ? (
+                                        relatedPosts.map((rPost) => (
+                                            <Link
+                                                key={rPost.slug}
+                                                to={rPost.permalink}
+                                                className="group flex flex-col gap-1 py-2 border-b border-slate-100 last:border-0 transition-all"
+                                            >
+                                                <span className="text-[10px] text-slate-400 dark:text-slate-500 font-medium">
+                                                    {new Date(rPost.date).toISOString().split('T')[0]}
+                                                </span>
+                                                <p className="text-[12px] font-semibold text-slate-800 leading-normal group-hover:text-primary transition-colors line-clamp-2">
+                                                    {rPost.title}
+                                                </p>
+                                            </Link>
+                                        ))
+                                    ) : (
+                                        <p className="text-xs text-slate-600 italic">{t("pages.news.blog.no_related")}</p>
+                                    )}
+                                </div>
+                            </div>
+
+                            <Link to={backLink} className="group inline-flex items-center gap-2 text-[12px] font-semibold tracking-widest uppercase text-slate-500 hover:text-primary transition-colors mt-2">
+                                <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
+                                {t("pages.news.blog.back_to_list")}
+                            </Link>
                         </div>
-                    </div>
+                    </aside>
                 </div>
-                {post.cover && (
-                    <div className="mb-0">
-                        <img
-                            src={post.cover}
-                            alt={post.title}
-                            className="w-full max-h-[350px] object-cover"
-                        />
-                    </div>
-                )}
-                <div dangerouslySetInnerHTML={{ __html: post.content }} />
-
-                <hr className="my-8 border-border" />
-
-                <div className="flex justify-between items-center not-prose">
-                    {nextPost ? (
-                        <Button variant="default" asChild className="h-auto py-4 px-6 max-w-[45%]">
-                            <Link to={nextPost.permalink} className="flex flex-row items-center gap-1">
-                                <span className="text-xs text-muted-foreground flex items-center gap-1">
-                                    <ArrowLeft className="w-3 h-3" />
-                                </span>
-                                <span className="text-sm font-semibold truncate w-full text-left max-w-[150px]">{nextPost.title}</span>
-                            </Link>
-                        </Button>
-                    ) : <div />}
-
-                    {prevPost && (
-                        <Button variant="default" asChild className="h-auto py-4 px-6 max-w-[45%]">
-                            <Link to={prevPost.permalink} className="flex flex-row items-center gap-1">
-                                <span className="text-sm font-semibold truncate w-full text-right max-w-[150px]">{prevPost.title}</span>
-                                <span className="text-xs text-muted-foreground flex items-center gap-1">
-                                    <ArrowRight className="w-3 h-3" />
-                                </span>
-                            </Link>
-                        </Button>
-                    )}
-                </div>
-            </article>
-        </div>
+            </div>
+        </section>
     )
 }

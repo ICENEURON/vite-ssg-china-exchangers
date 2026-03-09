@@ -62,8 +62,8 @@ export default function BlogsPage() {
             </Head>
 
             {/* Hero Section + News List Layout */}
-            <section className="py-16 px-4 min-h-screen">
-                <div className="container mx-auto max-w-5xl space-y-8">
+            <section className="py-10 px-2 min-h-screen">
+                <div className="container py-12 mx-auto max-w-6xl space-y-8">
                     <div className="grid gap-2 text-center md:text-left">
                         <h1 className="tracking-tight text-foreground">{t("pages.news.page.title")}</h1>
                         <p className="text-muted">{t("pages.news.page.subtitle")}</p>
