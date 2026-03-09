@@ -33,12 +33,12 @@ export function ContactCTA() {
                     </a>
 
                     {/* 48-hour badge */}
-                    <Badge className="bg-green-500/20 text-green-300 border-green-500/40 hover:bg-green-500/30 p-2 text-sm font-medium text-center">
+                    <Badge className="bg-green-500/20 text-green-300 border-green-500/40 hover:bg-green-500/30 p-2 text-sm font-medium text-center mt-1">
                         {t("pages.contact.cta.response_badge")}
                     </Badge>
 
                     {/* Note */}
-                    <p className="text-sm text-slate-500 leading-relaxed text-center p-4">
+                    <p className="text-sm text-slate-500 leading-relaxed text-center">
                         {t("pages.contact.cta.note")}
                     </p>
                 </div>
