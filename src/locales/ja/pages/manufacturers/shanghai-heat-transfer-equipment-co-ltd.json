@@ -1,10 +1,10 @@
 {
-  "name": "Shanghai Heat Transfer Equipment Co., Ltd.",
-  "full_description": "Shanghai Heat Transfer Equipment Co., Ltd. is a leading manufacturer of heat exchangers and heat transfer equipment. With over 20 years of experience in the industry, the company has established itself as a reliable supplier of high-quality heat exchangers and heat transfer equipment. The company's products are used in a wide range of applications, including chemical processing, food and beverage, and pharmaceuticals.",
+  "name": "上海熱交換設備有限公司",
+  "full_description": "Shanghai Heat Transfer Equipment Co., Ltd. は、熱交換器および伝熱機器の有力メーカーです。20年以上の業界経験を持ち、高品質な熱交換器と伝熱設備を提供する信頼できるサプライヤーとして確立されています。製品は化学処理、食品・飲料、製薬など幅広い分野で使用されています。",
   "advantages": [
-    "Advanced Thermal Laboratory: In-house performance testing ensures real-world efficiency validation.",
-    "Specialized Welding Technology: Expertise in fully welded and wide-gap plate heat exchangers for difficult media.",
-    "Comprehensive Industry Coverage: Proven track record in chemical, pharmaceutical, and food processing sectors."
+    "先進的な熱工学ラボ：社内性能試験により、実運転条件での効率を検証できます。",
+    "専門的な溶接技術：全溶接式およびワイドギャップ型プレート熱交換器に強みがあり、難処理媒体に対応します。",
+    "幅広い業界実績：化学、医薬、食品加工分野で豊富な導入実績があります。"
   ],
   "slug": "shanghai-heat-transfer-equipment-co-ltd",
   "website": "https://www.shanghaiheattransfer.com",
@@ -14,9 +14,9 @@
   "phone": [
     "+8613003001011"
   ],
-  "country_name": "China",
-  "city": "Shanghai",
-  "address": "Shanghai, China",
+  "country_name": "中国",
+  "city": "上海",
+  "address": "中国・上海",
   "established_year": "2005",
   "factory_area": "20000m2",
   "employee_count": "200+",
@@ -30,15 +30,15 @@
     "meta_description": "Verified heat exchanger manufacturer in Shanghai, China, with plate heat exchanger and welded heat exchanger capabilities."
   },
   "industries": [
-    "HVAC",
-    "Petrochemical",
-    "Marine",
-    "Energy",
-    "Food Processing",
-    "Chemical Processing",
-    "Food and Beverage",
-    "Pharmaceuticals",
-    "Power Generation"
+    "空調・換気・暖房",
+    "石油化学",
+    "海洋・船舶",
+    "エネルギー",
+    "食品加工",
+    "化学工業",
+    "食品・飲料",
+    "製薬",
+    "発電・電力"
   ],
   "certifications": [
     {
@@ -89,20 +89,20 @@
   "products": [
     {
       "slug": "ht-bloc-welded-plate-heat-exchanger",
-      "name": "HT-Bloc Welded Plate Heat Exchanger",
-      "short_description": "Compact and efficient welded plate heat exchanger for demanding process duties.",
+      "name": "HT-Bloc 溶接プレート式熱交換器",
+      "short_description": "厳しいプロセス条件向けの、コンパクトで高効率な溶接プレート式熱交換器。",
       "url": "shanghai-heat-transfer-equipment-co-ltd/ht-bloc-welded-plate-heat-exchanger"
     },
     {
       "slug": "wide-gap-welded-plate-heat-exchanger",
-      "name": "Wide Gap Welded Plate Heat Exchanger",
-      "short_description": "Welded plate heat exchanger designed for solids, viscous media, and anti-clogging performance.",
+      "name": "ワイドギャップ溶接プレート式熱交換器",
+      "short_description": "固形物を含む流体、高粘度媒体、および閉塞防止性能向けに設計された溶接プレート式熱交換器。",
       "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
     },
     {
       "slug": "tp-welded-plate-heat-exchanger",
-      "name": "TP Welded Plate Heat Exchanger",
-      "short_description": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
+      "name": "TP 溶接プレート式熱交換器",
+      "short_description": "スラリー、高粘度流体、繊維含有流体向けの専用熱交換器。",
       "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
     }
   ]

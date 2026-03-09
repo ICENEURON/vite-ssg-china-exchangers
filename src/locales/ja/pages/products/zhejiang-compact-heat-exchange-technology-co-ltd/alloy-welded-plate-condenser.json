@@ -1,0 +1,40 @@
+{
+  "slug": "alloy-welded-plate-condenser",
+  "name": "合金製溶接プレート式コンデンサー",
+  "full_description": "合金製溶接プレート式コンデンサーは、サプライヤーページ、製品詳細ページ、フィルターページのテスト用に作成されたモック製品です。内容はデータベースで使用される多言語 JSONB フィールド構造に合わせており、現実的な工業用熱交換ソリューションを表しています。",
+  "industries": [
+    "石油化学",
+    "化学工業",
+    "発電・電力"
+  ],
+  "advantage": [
+    "コンパクトな凝縮用途向け",
+    "合金構造オプション",
+    "連続運転向けに設計"
+  ],
+  "technical_parameters": {
+    "Plate Material": "Titanium, Hastelloy",
+    "Design Pressure": "1.0 ~ 4.0MPa",
+    "Design Temperature": "-40℃ ~ 250℃",
+    "Heat Transfer Area": "8 ~ 500㎡"
+  },
+  "seo_data": {
+    "meta_title": "合金製溶接プレート式コンデンサー",
+    "meta_description": "プラットフォームテスト用の合金製溶接プレート式コンデンサーのモックデータ。"
+  },
+  "manufacturer": {
+    "slug": "zhejiang-compact-heat-exchange-technology-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Product image",
+      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "BV certificate",
+      "url": "/storage/product_assets/product_certifications/bv.png"
+    }
+  ]
+}

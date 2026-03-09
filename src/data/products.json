@@ -6,14 +6,17 @@
     "is_visible": true,
     "name": {
       "en": "HT-Bloc Welded Plate Heat Exchanger",
+      "ja": "HT-Bloc 溶接プレート式熱交換器",
       "zh": "HT-Bloc 焊接板式换热器"
     },
     "short_description": {
       "en": "Compact and efficient welded plate heat exchanger for demanding process duties.",
+      "ja": "厳しいプロセス条件向けの、コンパクトで高効率な溶接プレート式熱交換器。",
       "zh": "适用于高要求工况的紧凑高效焊接板式换热器。"
     },
     "full_description": {
       "en": "Our welded plate heat exchangers offer compact, efficient, and trustworthy heat transfer solutions that are custom-tailored to meet an extensive variety of process demands. It comes as no surprise that they have solidified their position as the top-tier option for the most challenging heat exchange scenarios.",
+      "ja": "当社の溶接プレート式熱交換器は、幅広いプロセス要求に合わせてカスタマイズ可能な、コンパクトで高効率かつ信頼性の高い伝熱ソリューションを提供します。そのため、最も厳しい熱交換条件においても最適な選択肢として確固たる地位を築いています。",
       "zh": "我们的焊接板式换热器提供紧凑、高效且可靠的传热解决方案，可根据多种工艺需求进行定制，因此成为严苛换热场景中的优选方案。"
     },
     "industries": [
@@ -26,6 +29,11 @@
         "Compact design",
         "Efficient heat transfer",
         "Reliable for demanding applications"
+      ],
+      "ja": [
+        "コンパクト設計",
+        "高効率な熱交換",
+        "厳しい用途でも高い信頼性"
       ],
       "zh": [
         "结构紧凑",
@@ -45,6 +53,10 @@
         "meta_title": "HT-Bloc Welded Plate Heat Exchanger Manufacturer",
         "meta_description": "HT-Bloc welded plate heat exchanger with compact design, efficient performance, and reliable operation for demanding industrial processes."
       },
+      "ja": {
+        "meta_title": "HT-Bloc 溶接プレート式熱交換器メーカー",
+        "meta_description": "HT-Bloc 溶接プレート式熱交換器。コンパクト設計、高効率性能、安定運転を備え、厳しい産業プロセスに対応します。"
+      },
       "zh": {
         "meta_title": "HT-Bloc 焊接板式换热器制造商",
         "meta_description": "HT-Bloc 焊接板式换热器，结构紧凑、效率高、运行可靠，适用于严苛工业工况。"
@@ -60,14 +72,17 @@
     "is_visible": true,
     "name": {
       "en": "Wide Gap Welded Plate Heat Exchanger",
+      "ja": "ワイドギャップ溶接プレート式熱交換器",
       "zh": "宽流道焊接板式换热器"
     },
     "short_description": {
       "en": "Welded plate heat exchanger designed for solids, viscous media, and anti-clogging performance.",
+      "ja": "固形物を含む流体、高粘度媒体、および閉塞防止性能向けに設計された溶接プレート式熱交換器。",
       "zh": "针对含固体、粘性介质和防堵塞需求设计的焊接板式换热器。"
     },
     "full_description": {
       "en": "Each flow channel is meticulously formed by welding plates together. The plate pack, comprising a precisely calculated number of plates, is securely installed within a robust frame, ensuring seamless integration with the production system. In this configuration, challenging fluids, such as those containing solids or high-viscosity suspensions, are directed through the wide gap channels. These channels are specifically engineered to prevent clogging and facilitate uninterrupted flow. On the other hand, clean fluids are routed through the opposite side channels, which are optimized for superior thermal performance and operational reliability. This heat exchanger is available in both horizontal and vertical installation configurations. The vertical design offers more advantages, including a significantly smaller footprint, reduced susceptibility to clogging, and lower pressure drop, making it an optimal choice for space-constrained environments and applications requiring enhanced flow efficiency.",
+      "ja": "各流路はプレート同士を溶接して精密に形成されます。必要枚数を正確に計算したプレートパックは堅牢なフレーム内に確実に組み込まれ、生産システムへ安定して統合されます。この構成では、固形物を含む流体や高粘度スラリーなどの難処理流体をワイドギャップ流路に通し、閉塞を防ぎながら連続的な流れを実現します。一方、清浄流体は反対側の流路を通過し、優れた伝熱性能と運転信頼性を確保します。本製品は横置き・縦置きの両方に対応しており、特に縦型は省スペース、閉塞リスクの低減、圧力損失の低減という利点があり、設置スペースが限られた現場や高い流動効率が求められる用途に最適です。",
       "zh": "其流道由板片焊接形成，板束安装于坚固框架内，可稳定集成到生产系统中。宽流道专为含固体颗粒或高粘度悬浮液等困难介质设计，有助于防止堵塞并保持连续流动；另一侧流道则用于清洁介质，以获得更优的传热性能和运行可靠性。该设备支持卧式和立式安装，其中立式方案占地更小、更不易堵塞、压降低，适合空间受限及高流动效率要求的应用场景。"
     },
     "industries": [
@@ -80,6 +95,11 @@
         "Wide gap anti-clogging design",
         "Suitable for viscous and solids-containing fluids",
         "Optional horizontal and vertical installation"
+      ],
+      "ja": [
+        "ワイドギャップによる閉塞防止設計",
+        "高粘度流体および固形物含有流体に対応",
+        "横置き・縦置きの両方に対応"
       ],
       "zh": [
         "宽流道防堵设计",
@@ -99,6 +119,10 @@
         "meta_title": "Wide Gap Welded Plate Heat Exchanger Manufacturer",
         "meta_description": "Wide gap welded plate heat exchanger for viscous, solids-containing, and fouling-prone fluids with anti-clogging channel design."
       },
+      "ja": {
+        "meta_title": "ワイドギャップ溶接プレート式熱交換器メーカー",
+        "meta_description": "高粘度流体、固形物含有流体、閉塞しやすい流体向けのワイドギャップ溶接プレート式熱交換器。閉塞防止流路設計を採用。"
+      },
       "zh": {
         "meta_title": "宽流道焊接板式换热器制造商",
         "meta_description": "宽流道焊接板式换热器，适用于高粘度、含固体及易堵塞介质，具备防堵流道设计。"
@@ -108,20 +132,474 @@
     "updated_at": "2026-03-08T13:44:42.349916+00:00"
   },
   {
+    "id": "07ef2919-085f-4615-8063-bb755cfe1f6b",
+    "manufacturer_id": "75a55135-86f0-43e3-9117-805628a22117",
+    "slug": "graphite-block-heat-exchanger",
+    "is_visible": false,
+    "name": {
+      "en": "Graphite Block Heat Exchanger",
+      "ja": "黒鉛ブロック式熱交換器",
+      "zh": "石墨块式换热器"
+    },
+    "short_description": {
+      "en": "Mock product for graphite block heat exchanger testing.",
+      "ja": "黒鉛ブロック式熱交換器のテスト用モック製品データ。",
+      "zh": "用于测试石墨块式换热器的模拟产品数据。"
+    },
+    "full_description": {
+      "en": "Graphite Block Heat Exchanger is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
+      "ja": "黒鉛ブロック式熱交換器は、サプライヤーページ、製品詳細ページ、フィルターページのテスト用に作成されたモック製品です。内容はデータベースで使用される多言語 JSONB フィールド構造に合わせており、現実的な工業用熱交換ソリューションを表しています。",
+      "zh": "石墨块式换热器是一个用于测试供应商页面、产品详情页和筛选页的模拟产品条目。其内容结构与数据库中使用的多语言 JSONB 字段保持一致，并代表一种合理的工业换热解决方案。"
+    },
+    "industries": [
+      "2",
+      "6"
+    ],
+    "advantage": {
+      "en": [
+        "Corrosion-resistant concept",
+        "Mock acid-duty solution",
+        "Suitable for process testing data"
+      ],
+      "ja": [
+        "耐腐食設計コンセプト",
+        "酸性条件向けモックソリューション",
+        "プロセステストデータに適する"
+      ],
+      "zh": [
+        "耐腐蚀设计概念",
+        "模拟耐酸工况方案",
+        "适用于流程测试数据"
+      ]
+    },
+    "technical_parameters": {
+      "Block Material": "Impervious Graphite",
+      "Design Pressure": "0.4 ~ 1.0MPa",
+      "Design Temperature": "-10℃ ~ 165℃",
+      "Heat Transfer Area": "5 ~ 120㎡"
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "Graphite Block Heat Exchanger",
+        "meta_description": "Mock data for graphite block heat exchanger used for platform testing."
+      },
+      "ja": {
+        "meta_title": "黒鉛ブロック式熱交換器",
+        "meta_description": "プラットフォームテスト用の黒鉛ブロック式熱交換器モックデータ。"
+      },
+      "zh": {
+        "meta_title": "石墨块式换热器",
+        "meta_description": "用于平台测试的石墨块式换热器模拟数据。"
+      }
+    },
+    "created_at": "2026-03-09T02:30:29.096307+00:00",
+    "updated_at": "2026-03-09T02:30:29.096307+00:00"
+  },
+  {
+    "id": "28deb36d-6bef-4fb5-a251-d7495c3c7906",
+    "manufacturer_id": "2537ec8a-e3f4-4862-9481-08ad15ab47e5",
+    "slug": "gasketed-plate-heat-exchanger-series",
+    "is_visible": false,
+    "name": {
+      "en": "Gasketed Plate Heat Exchanger Series",
+      "ja": "ガスケット式プレート熱交換器シリーズ",
+      "zh": "可拆式板式换热器系列"
+    },
+    "short_description": {
+      "en": "Mock product for gasketed plate heat exchanger series testing.",
+      "ja": "ガスケット式プレート熱交換器シリーズのテスト用モック製品データ。",
+      "zh": "用于测试可拆式板式换热器系列的模拟产品数据。"
+    },
+    "full_description": {
+      "en": "Gasketed Plate Heat Exchanger Series is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
+      "ja": "ガスケット式プレート熱交換器シリーズは、サプライヤーページ、製品詳細ページ、フィルターページのテスト用に作成されたモック製品です。内容はデータベースで使用される多言語 JSONB フィールド構造に合わせており、現実的な工業用熱交換ソリューションを表しています。",
+      "zh": "可拆式板式换热器系列是一个用于测试供应商页面、产品详情页和筛选页的模拟产品条目。其内容结构与数据库中使用的多语言 JSONB 字段保持一致，并代表一种合理的工业换热解决方案。"
+    },
+    "industries": [
+      "1",
+      "5",
+      "7"
+    ],
+    "advantage": {
+      "en": [
+        "Flexible maintenance",
+        "Good for HVAC loops",
+        "Suitable for hygienic duty"
+      ],
+      "ja": [
+        "メンテナンスが容易",
+        "HVAC ループに適する",
+        "衛生用途に適する"
+      ],
+      "zh": [
+        "维护灵活方便",
+        "适用于 HVAC 循环系统",
+        "适用于卫生级工况"
+      ]
+    },
+    "technical_parameters": {
+      "Plate Material": "SS304, SS316",
+      "Design Pressure": "0.6 ~ 2.5MPa",
+      "Design Temperature": "-20℃ ~ 180℃",
+      "Heat Transfer Area": "0.5 ~ 350㎡"
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "Gasketed Plate Heat Exchanger Series",
+        "meta_description": "Mock data for gasketed plate heat exchanger series used for platform testing."
+      },
+      "ja": {
+        "meta_title": "ガスケット式プレート熱交換器シリーズ",
+        "meta_description": "プラットフォームテスト用のガスケット式プレート熱交換器シリーズのモックデータ。"
+      },
+      "zh": {
+        "meta_title": "可拆式板式换热器系列",
+        "meta_description": "用于平台测试的可拆式板式换热器系列模拟数据。"
+      }
+    },
+    "created_at": "2026-03-09T02:30:29.096307+00:00",
+    "updated_at": "2026-03-09T02:30:29.096307+00:00"
+  },
+  {
+    "id": "42b96a4c-5b89-48cc-b2e9-629056ba2cff",
+    "manufacturer_id": "ca595969-4833-411b-bca4-0ad4038a6e1e",
+    "slug": "brazed-plate-cooler-unit",
+    "is_visible": false,
+    "name": {
+      "en": "Brazed Plate Cooler Unit",
+      "ja": "ろう付けプレート式クーラーユニット",
+      "zh": "钎焊板式冷却器单元"
+    },
+    "short_description": {
+      "en": "Mock product for brazed plate cooler unit testing.",
+      "ja": "ろう付けプレート式クーラーユニットのテスト用モック製品データ。",
+      "zh": "用于测试钎焊板式冷却器单元的模拟产品数据。"
+    },
+    "full_description": {
+      "en": "Brazed Plate Cooler Unit is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
+      "ja": "ろう付けプレート式クーラーユニットは、サプライヤーページ、製品詳細ページ、フィルターページのテスト用に作成されたモック製品です。内容はデータベースで使用される多言語 JSONB フィールド構造に合わせており、現実的な工業用熱交換ソリューションを表しています。",
+      "zh": "钎焊板式冷却器单元是一个用于测试供应商页面、产品详情页和筛选页的模拟产品条目。其内容结构与数据库中使用的多语言 JSONB 字段保持一致，并代表一种合理的工业换热解决方案。"
+    },
+    "industries": [
+      "3",
+      "4",
+      "9"
+    ],
+    "advantage": {
+      "en": [
+        "Compact footprint",
+        "Fast thermal response",
+        "Good for closed-loop systems"
+      ],
+      "ja": [
+        "コンパクトな設置面積",
+        "熱応答が速い",
+        "クローズドループシステムに適する"
+      ],
+      "zh": [
+        "占地紧凑",
+        "热响应速度快",
+        "适用于闭式循环系统"
+      ]
+    },
+    "technical_parameters": {
+      "Plate Material": "SS316 + Copper",
+      "Design Pressure": "3.0MPa",
+      "Design Temperature": "-50℃ ~ 200℃",
+      "Heat Transfer Area": "0.3 ~ 80㎡"
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "Brazed Plate Cooler Unit",
+        "meta_description": "Mock data for brazed plate cooler unit used for platform testing."
+      },
+      "ja": {
+        "meta_title": "ろう付けプレート式クーラーユニット",
+        "meta_description": "プラットフォームテスト用のろう付けプレート式クーラーユニットのモックデータ。"
+      },
+      "zh": {
+        "meta_title": "钎焊板式冷却器单元",
+        "meta_description": "用于平台测试的钎焊板式冷却器单元模拟数据。"
+      }
+    },
+    "created_at": "2026-03-09T02:30:29.096307+00:00",
+    "updated_at": "2026-03-09T02:30:29.096307+00:00"
+  },
+  {
+    "id": "9cb39188-87c3-4b4a-b7f6-1be0def18066",
+    "manufacturer_id": "75a55135-86f0-43e3-9117-805628a22117",
+    "slug": "alloy-welded-plate-condenser",
+    "is_visible": false,
+    "name": {
+      "en": "Alloy Welded Plate Condenser",
+      "ja": "合金製溶接プレート式コンデンサー",
+      "zh": "合金焊接板式冷凝器"
+    },
+    "short_description": {
+      "en": "Mock product for alloy welded plate condenser testing.",
+      "ja": "合金製溶接プレート式コンデンサーのテスト用モック製品データ。",
+      "zh": "用于测试合金焊接板式冷凝器的模拟产品数据。"
+    },
+    "full_description": {
+      "en": "Alloy Welded Plate Condenser is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
+      "ja": "合金製溶接プレート式コンデンサーは、サプライヤーページ、製品詳細ページ、フィルターページのテスト用に作成されたモック製品です。内容はデータベースで使用される多言語 JSONB フィールド構造に合わせており、現実的な工業用熱交換ソリューションを表しています。",
+      "zh": "合金焊接板式冷凝器是一个用于测试供应商页面、产品详情页和筛选页的模拟产品条目。其内容结构与数据库中使用的多语言 JSONB 字段保持一致，并代表一种合理的工业换热解决方案。"
+    },
+    "industries": [
+      "2",
+      "6",
+      "9"
+    ],
+    "advantage": {
+      "en": [
+        "Compact condensing duty",
+        "Alloy construction option",
+        "Built for continuous operation"
+      ],
+      "ja": [
+        "コンパクトな凝縮用途向け",
+        "合金構造オプション",
+        "連続運転向けに設計"
+      ],
+      "zh": [
+        "适用于紧凑型冷凝工况",
+        "可选合金材质结构",
+        "适合连续运行"
+      ]
+    },
+    "technical_parameters": {
+      "Plate Material": "Titanium, Hastelloy",
+      "Design Pressure": "1.0 ~ 4.0MPa",
+      "Design Temperature": "-40℃ ~ 250℃",
+      "Heat Transfer Area": "8 ~ 500㎡"
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "Alloy Welded Plate Condenser",
+        "meta_description": "Mock data for alloy welded plate condenser used for platform testing."
+      },
+      "ja": {
+        "meta_title": "合金製溶接プレート式コンデンサー",
+        "meta_description": "プラットフォームテスト用の合金製溶接プレート式コンデンサーのモックデータ。"
+      },
+      "zh": {
+        "meta_title": "合金焊接板式冷凝器",
+        "meta_description": "用于平台测试的合金焊接板式冷凝器模拟数据。"
+      }
+    },
+    "created_at": "2026-03-09T02:30:29.096307+00:00",
+    "updated_at": "2026-03-09T02:30:29.096307+00:00"
+  },
+  {
+    "id": "a5154aec-ecd8-4836-bcc6-6c1711c28c6b",
+    "manufacturer_id": "2537ec8a-e3f4-4862-9481-08ad15ab47e5",
+    "slug": "sanitary-plate-pasteurizer-module",
+    "is_visible": false,
+    "name": {
+      "en": "Sanitary Plate Pasteurizer Module",
+      "ja": "サニタリープレート式パスチャライザーモジュール",
+      "zh": "卫生型板式巴氏杀菌模块"
+    },
+    "short_description": {
+      "en": "Mock product for sanitary plate pasteurizer module testing.",
+      "ja": "サニタリープレート式パスチャライザーモジュールのテスト用モック製品データ。",
+      "zh": "用于测试卫生型板式巴氏杀菌模块的模拟产品数据。"
+    },
+    "full_description": {
+      "en": "Sanitary Plate Pasteurizer Module is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
+      "ja": "サニタリープレート式パスチャライザーモジュールは、サプライヤーページ、製品詳細ページ、フィルターページのテスト用に作成されたモック製品です。内容はデータベースで使用される多言語 JSONB フィールド構造に合わせており、現実的な工業用熱交換ソリューションを表しています。",
+      "zh": "卫生型板式巴氏杀菌模块是一个用于测试供应商页面、产品详情页和筛选页的模拟产品条目。其内容结构与数据库中使用的多语言 JSONB 字段保持一致，并代表一种合理的工业换热解决方案。"
+    },
+    "industries": [
+      "5",
+      "7"
+    ],
+    "advantage": {
+      "en": [
+        "Sanitary configuration",
+        "Compact skid layout",
+        "Convenient CIP integration"
+      ],
+      "ja": [
+        "サニタリー設計",
+        "コンパクトなスキッド構成",
+        "CIP 統合が容易"
+      ],
+      "zh": [
+        "卫生型设计",
+        "紧凑式撬装布局",
+        "便于集成 CIP 清洗系统"
+      ]
+    },
+    "technical_parameters": {
+      "Capacity": "1 ~ 20 t/h",
+      "Plate Material": "SS316L",
+      "Design Pressure": "0.6 ~ 1.6MPa",
+      "Process Temperature": "4℃ ~ 95℃"
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "Sanitary Plate Pasteurizer Module",
+        "meta_description": "Mock data for sanitary plate pasteurizer module used for platform testing."
+      },
+      "ja": {
+        "meta_title": "サニタリープレート式パスチャライザーモジュール",
+        "meta_description": "プラットフォームテスト用のサニタリープレート式パスチャライザーモジュールのモックデータ。"
+      },
+      "zh": {
+        "meta_title": "卫生型板式巴氏杀菌模块",
+        "meta_description": "用于平台测试的卫生型板式巴氏杀菌模块模拟数据。"
+      }
+    },
+    "created_at": "2026-03-09T02:30:29.096307+00:00",
+    "updated_at": "2026-03-09T02:30:29.096307+00:00"
+  },
+  {
+    "id": "b1e8448b-3c87-4052-9d05-45cc8abc571e",
+    "manufacturer_id": "ca595969-4833-411b-bca4-0ad4038a6e1e",
+    "slug": "compact-exhaust-gas-economizer",
+    "is_visible": false,
+    "name": {
+      "en": "Compact Exhaust Gas Economizer",
+      "ja": "コンパクト排ガスエコノマイザー",
+      "zh": "紧凑型烟气省煤器"
+    },
+    "short_description": {
+      "en": "Mock product for compact exhaust gas economizer testing.",
+      "ja": "コンパクト排ガスエコノマイザーのテスト用モック製品データ。",
+      "zh": "用于测试紧凑型烟气省煤器的模拟产品数据。"
+    },
+    "full_description": {
+      "en": "Compact Exhaust Gas Economizer is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
+      "ja": "コンパクト排ガスエコノマイザーは、サプライヤーページ、製品詳細ページ、フィルターページのテスト用に作成されたモック製品です。内容はデータベースで使用される多言語 JSONB フィールド構造に合わせており、現実的な工業用熱交換ソリューションを表しています。",
+      "zh": "紧凑型烟气省煤器是一个用于测试供应商页面、产品详情页和筛选页的模拟产品条目。其内容结构与数据库中使用的多语言 JSONB 字段保持一致，并代表一种合理的工业换热解决方案。"
+    },
+    "industries": [
+      "4",
+      "9"
+    ],
+    "advantage": {
+      "en": [
+        "Energy recovery concept",
+        "Suitable for distributed systems",
+        "Mock solution for power projects"
+      ],
+      "ja": [
+        "エネルギー回収コンセプト",
+        "分散型システムに適する",
+        "発電プロジェクト向けモックソリューション"
+      ],
+      "zh": [
+        "余热回收设计概念",
+        "适用于分布式系统",
+        "适用于电力项目的模拟方案"
+      ]
+    },
+    "technical_parameters": {
+      "Thermal Duty": "100 ~ 3000 kW",
+      "Design Pressure": "0.3 ~ 1.6MPa",
+      "Tube/Plate Material": "Carbon Steel, SS304",
+      "Gas Inlet Temperature": "180℃ ~ 450℃"
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "Compact Exhaust Gas Economizer",
+        "meta_description": "Mock data for compact exhaust gas economizer used for platform testing."
+      },
+      "ja": {
+        "meta_title": "コンパクト排ガスエコノマイザー",
+        "meta_description": "プラットフォームテスト用のコンパクト排ガスエコノマイザーのモックデータ。"
+      },
+      "zh": {
+        "meta_title": "紧凑型烟气省煤器",
+        "meta_description": "用于平台测试的紧凑型烟气省煤器模拟数据。"
+      }
+    },
+    "created_at": "2026-03-09T02:30:29.096307+00:00",
+    "updated_at": "2026-03-09T02:30:29.096307+00:00"
+  },
+  {
+    "id": "c59d9387-7832-4669-bba7-00c388359735",
+    "manufacturer_id": "ca595969-4833-411b-bca4-0ad4038a6e1e",
+    "slug": "marine-central-cooler-package",
+    "is_visible": false,
+    "name": {
+      "en": "Marine Central Cooler Package",
+      "ja": "舶用セントラルクーラーパッケージ",
+      "zh": "船用中央冷却器系统"
+    },
+    "short_description": {
+      "en": "Mock product for marine central cooler package testing.",
+      "ja": "舶用セントラルクーラーパッケージのテスト用モック製品データ。",
+      "zh": "用于测试船用中央冷却器系统的模拟产品数据。"
+    },
+    "full_description": {
+      "en": "Marine Central Cooler Package is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
+      "ja": "舶用セントラルクーラーパッケージは、サプライヤーページ、製品詳細ページ、フィルターページのテスト用に作成されたモック製品です。内容はデータベースで使用される多言語 JSONB フィールド構造に合わせており、現実的な工業用熱交換ソリューションを表しています。",
+      "zh": "船用中央冷却器系统是一个用于测试供应商页面、产品详情页和筛选页的模拟产品条目。其内容结构与数据库中使用的多语言 JSONB 字段保持一致，并代表一种合理的工业换热解决方案。"
+    },
+    "industries": [
+      "3",
+      "4"
+    ],
+    "advantage": {
+      "en": [
+        "Marine-focused package",
+        "Integrated compact design",
+        "Supports seawater cooling scenarios"
+      ],
+      "ja": [
+        "船舶用途向けパッケージ",
+        "一体型コンパクト設計",
+        "海水冷却用途に対応"
+      ],
+      "zh": [
+        "面向船舶应用的系统方案",
+        "一体化紧凑设计",
+        "支持海水冷却场景"
+      ]
+    },
+    "technical_parameters": {
+      "Plate Material": "Titanium, SS316",
+      "Design Pressure": "1.0 ~ 2.5MPa",
+      "Cooling Capacity": "50 ~ 1500 kW",
+      "Design Temperature": "0℃ ~ 120℃"
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "Marine Central Cooler Package",
+        "meta_description": "Mock data for marine central cooler package used for platform testing."
+      },
+      "ja": {
+        "meta_title": "舶用セントラルクーラーパッケージ",
+        "meta_description": "プラットフォームテスト用の舶用セントラルクーラーパッケージのモックデータ。"
+      },
+      "zh": {
+        "meta_title": "船用中央冷却器系统",
+        "meta_description": "用于平台测试的船用中央冷却器系统模拟数据。"
+      }
+    },
+    "created_at": "2026-03-09T02:30:29.096307+00:00",
+    "updated_at": "2026-03-09T02:30:29.096307+00:00"
+  },
+  {
     "id": "571c514b-4443-4906-a6e2-2cdf9b6b1ada",
     "manufacturer_id": "15687513-070e-49f1-af67-9e820c987f73",
     "slug": "tp-welded-plate-heat-exchanger",
     "is_visible": true,
     "name": {
       "en": "TP Welded Plate Heat Exchanger",
+      "ja": "TP 溶接プレート式熱交換器",
       "zh": "TP 焊接板式换热器"
     },
     "short_description": {
       "en": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
+      "ja": "スラリー、高粘度流体、繊維含有流体向けの専用熱交換器。",
       "zh": "适用于浆料、高粘度及含纤维介质的专用换热器。"
     },
     "full_description": {
       "en": "In industrial processes, specialized heat exchange solutions are required for handling challenging fluids such as particle-laden fluids (e.g., slurry), viscous fluids (e.g., syrup), and fiber-containing fluids (e.g., pulp). To ensure reliable production operations, targeted heat exchanger design is critical to address challenges such as blockages and leaks caused by those fluids , this requires customized solutions including erosion-resistant materials, optimized channel geometries, and integrated self-cleaning mechanisms. TP Welded Plate Heat Exchanger is an ideal heat exchange solution for these applications.",
+      "ja": "産業プロセスでは、粒子を含む流体（例：スラリー）、高粘度流体（例：シロップ）、繊維を含む流体（例：パルプ）など、扱いが難しい流体に対応するための専用熱交換ソリューションが必要です。安定した生産運転を実現するには、これらの流体によって生じる閉塞や漏れの課題に対応できる、目的に応じた熱交換器設計が重要です。そのためには、耐摩耗材料、最適化された流路形状、統合型セルフクリーニング機構などを含むカスタマイズ設計が求められます。TP 溶接プレート式熱交換器は、このような用途に理想的な熱交換ソリューションです。",
       "zh": "在工业过程中，针对含颗粒介质、粘性介质和含纤维介质等复杂流体，需要专门的换热解决方案。为保证生产稳定运行，必须采用有针对性的换热器设计，以解决堵塞和泄漏等问题，这通常需要耐冲蚀材料、优化流道结构以及集成自清洁机制。TP 焊接板式换热器正是适用于此类应用的理想换热方案。"
     },
     "industries": [
@@ -134,6 +612,11 @@
         "Designed for challenging fluids",
         "Helps reduce blockage and leakage risk",
         "Supports customized material and channel design"
+      ],
+      "ja": [
+        "難処理流体向けに設計",
+        "閉塞や漏れのリスク低減に貢献",
+        "材料および流路のカスタマイズ設計に対応"
       ],
       "zh": [
         "针对复杂介质设计",
@@ -153,6 +636,10 @@
         "meta_title": "TP Welded Plate Heat Exchanger Manufacturer",
         "meta_description": "TP welded plate heat exchanger for slurry, viscous, and fiber-containing media with customized design for reliable industrial operation."
       },
+      "ja": {
+        "meta_title": "TP 溶接プレート式熱交換器メーカー",
+        "meta_description": "TP 溶接プレート式熱交換器。スラリー、高粘度流体、繊維含有流体向けで、カスタマイズ設計により安定した産業運転を実現します。"
+      },
       "zh": {
         "meta_title": "TP 焊接板式换热器制造商",
         "meta_description": "TP 焊接板式换热器适用于浆料、高粘度和含纤维介质，可通过定制化设计提升工业运行可靠性。"
@@ -160,372 +647,5 @@
     },
     "created_at": "2026-03-08T13:44:42.349916+00:00",
     "updated_at": "2026-03-08T13:44:42.349916+00:00"
-  },
-  {
-    "id": "28deb36d-6bef-4fb5-a251-d7495c3c7906",
-    "manufacturer_id": "2537ec8a-e3f4-4862-9481-08ad15ab47e5",
-    "slug": "gasketed-plate-heat-exchanger-series",
-    "is_visible": false,
-    "name": {
-      "en": "Gasketed Plate Heat Exchanger Series",
-      "zh": "???????????????????????????"
-    },
-    "short_description": {
-      "en": "Mock product for gasketed plate heat exchanger series testing.",
-      "zh": "???????????????????????????????????????????????????????�?"
-    },
-    "full_description": {
-      "en": "Gasketed Plate Heat Exchanger Series is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
-      "zh": "????????????????????????????????????????????????????�???????????????????????�????????�?????????????????????????????�????????????????????????????????????� JSONB ?????????????????????????????�?????????????????????????????????????�?"
-    },
-    "industries": [
-      "1",
-      "5",
-      "7"
-    ],
-    "advantage": {
-      "en": [
-        "Flexible maintenance",
-        "Good for HVAC loops",
-        "Suitable for hygienic duty"
-      ],
-      "zh": [
-        "??????????????????",
-        "??????????????????",
-        "?�?????????????????????????"
-      ]
-    },
-    "technical_parameters": {
-      "Plate Material": "SS304, SS316",
-      "Design Pressure": "0.6 ~ 2.5MPa",
-      "Design Temperature": "-20??? ~ 180???",
-      "Heat Transfer Area": "0.5 ~ 350???"
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "Gasketed Plate Heat Exchanger Series",
-        "meta_description": "Mock data for gasketed plate heat exchanger series used for platform testing."
-      },
-      "zh": {
-        "meta_title": "???????????????????????????",
-        "meta_description": "????????????????????????????????????????????????????????????????�?"
-      }
-    },
-    "created_at": "2026-03-09T02:30:29.096307+00:00",
-    "updated_at": "2026-03-09T02:30:29.096307+00:00"
-  },
-  {
-    "id": "a5154aec-ecd8-4836-bcc6-6c1711c28c6b",
-    "manufacturer_id": "2537ec8a-e3f4-4862-9481-08ad15ab47e5",
-    "slug": "sanitary-plate-pasteurizer-module",
-    "is_visible": false,
-    "name": {
-      "en": "Sanitary Plate Pasteurizer Module",
-      "zh": "???????????????????????�?????????"
-    },
-    "short_description": {
-      "en": "Mock product for sanitary plate pasteurizer module testing.",
-      "zh": "??????????????????????????????????????�??????????????????????�?"
-    },
-    "full_description": {
-      "en": "Sanitary Plate Pasteurizer Module is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
-      "zh": "???????????????????????�??????????????????????????????????�???????????????????????�????????�?????????????????????????????�????????????????????????????????????� JSONB ?????????????????????????????�?????????????????????????????????????�?"
-    },
-    "industries": [
-      "5",
-      "7"
-    ],
-    "advantage": {
-      "en": [
-        "Sanitary configuration",
-        "Compact skid layout",
-        "Convenient CIP integration"
-      ],
-      "zh": [
-        "??????????????????",
-        "??????????????????",
-        "?�?????????????????????????"
-      ]
-    },
-    "technical_parameters": {
-      "Capacity": "1 ~ 20 t/h",
-      "Plate Material": "SS316L",
-      "Design Pressure": "0.6 ~ 1.6MPa",
-      "Process Temperature": "4??? ~ 95???"
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "Sanitary Plate Pasteurizer Module",
-        "meta_description": "Mock data for sanitary plate pasteurizer module used for platform testing."
-      },
-      "zh": {
-        "meta_title": "???????????????????????�?????????",
-        "meta_description": "???????????????????????�??????????????????????????????????????????????�?"
-      }
-    },
-    "created_at": "2026-03-09T02:30:29.096307+00:00",
-    "updated_at": "2026-03-09T02:30:29.096307+00:00"
-  },
-  {
-    "id": "07ef2919-085f-4615-8063-bb755cfe1f6b",
-    "manufacturer_id": "75a55135-86f0-43e3-9117-805628a22117",
-    "slug": "graphite-block-heat-exchanger",
-    "is_visible": false,
-    "name": {
-      "en": "Graphite Block Heat Exchanger",
-      "zh": "??????????????????"
-    },
-    "short_description": {
-      "en": "Mock product for graphite block heat exchanger testing.",
-      "zh": "??????????????????????????????????????????????�?"
-    },
-    "full_description": {
-      "en": "Graphite Block Heat Exchanger is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
-      "zh": "???????????????????????????????????????????�???????????????????????�????????�?????????????????????????????�????????????????????????????????????� JSONB ?????????????????????????????�?????????????????????????????????????�?"
-    },
-    "industries": [
-      "2",
-      "6"
-    ],
-    "advantage": {
-      "en": [
-        "Corrosion-resistant concept",
-        "Mock acid-duty solution",
-        "Suitable for process testing data"
-      ],
-      "zh": [
-        "??????????????????",
-        "??????????????????",
-        "?�?????????????????????????"
-      ]
-    },
-    "technical_parameters": {
-      "Block Material": "Impervious Graphite",
-      "Design Pressure": "0.4 ~ 1.0MPa",
-      "Design Temperature": "-10??? ~ 165???",
-      "Heat Transfer Area": "5 ~ 120???"
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "Graphite Block Heat Exchanger",
-        "meta_description": "Mock data for graphite block heat exchanger used for platform testing."
-      },
-      "zh": {
-        "meta_title": "??????????????????",
-        "meta_description": "???????????????????????????????????????????????????????�?"
-      }
-    },
-    "created_at": "2026-03-09T02:30:29.096307+00:00",
-    "updated_at": "2026-03-09T02:30:29.096307+00:00"
-  },
-  {
-    "id": "9cb39188-87c3-4b4a-b7f6-1be0def18066",
-    "manufacturer_id": "75a55135-86f0-43e3-9117-805628a22117",
-    "slug": "alloy-welded-plate-condenser",
-    "is_visible": false,
-    "name": {
-      "en": "Alloy Welded Plate Condenser",
-      "zh": "???????????????????????????"
-    },
-    "short_description": {
-      "en": "Mock product for alloy welded plate condenser testing.",
-      "zh": "???????????????????????????????????????????????????????�?"
-    },
-    "full_description": {
-      "en": "Alloy Welded Plate Condenser is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
-      "zh": "????????????????????????????????????????????????????�???????????????????????�????????�?????????????????????????????�????????????????????????????????????� JSONB ?????????????????????????????�?????????????????????????????????????�?"
-    },
-    "industries": [
-      "2",
-      "6",
-      "9"
-    ],
-    "advantage": {
-      "en": [
-        "Compact condensing duty",
-        "Alloy construction option",
-        "Built for continuous operation"
-      ],
-      "zh": [
-        "??????????????????",
-        "??????????????????",
-        "?�?????????????????????????"
-      ]
-    },
-    "technical_parameters": {
-      "Plate Material": "Titanium, Hastelloy",
-      "Design Pressure": "1.0 ~ 4.0MPa",
-      "Design Temperature": "-40??? ~ 250???",
-      "Heat Transfer Area": "8 ~ 500???"
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "Alloy Welded Plate Condenser",
-        "meta_description": "Mock data for alloy welded plate condenser used for platform testing."
-      },
-      "zh": {
-        "meta_title": "???????????????????????????",
-        "meta_description": "????????????????????????????????????????????????????????????????�?"
-      }
-    },
-    "created_at": "2026-03-09T02:30:29.096307+00:00",
-    "updated_at": "2026-03-09T02:30:29.096307+00:00"
-  },
-  {
-    "id": "42b96a4c-5b89-48cc-b2e9-629056ba2cff",
-    "manufacturer_id": "ca595969-4833-411b-bca4-0ad4038a6e1e",
-    "slug": "brazed-plate-cooler-unit",
-    "is_visible": false,
-    "name": {
-      "en": "Brazed Plate Cooler Unit",
-      "zh": "?????????????????????"
-    },
-    "short_description": {
-      "en": "Mock product for brazed plate cooler unit testing.",
-      "zh": "?????????????????????????????????????????????????�?"
-    },
-    "full_description": {
-      "en": "Brazed Plate Cooler Unit is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
-      "zh": "??????????????????????????????????????????????�???????????????????????�????????�?????????????????????????????�????????????????????????????????????� JSONB ?????????????????????????????�?????????????????????????????????????�?"
-    },
-    "industries": [
-      "3",
-      "4",
-      "9"
-    ],
-    "advantage": {
-      "en": [
-        "Compact footprint",
-        "Fast thermal response",
-        "Good for closed-loop systems"
-      ],
-      "zh": [
-        "??????????????????",
-        "??????????????????",
-        "?�?????????????????????????"
-      ]
-    },
-    "technical_parameters": {
-      "Plate Material": "SS316 + Copper",
-      "Design Pressure": "3.0MPa",
-      "Design Temperature": "-50??? ~ 200???",
-      "Heat Transfer Area": "0.3 ~ 80???"
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "Brazed Plate Cooler Unit",
-        "meta_description": "Mock data for brazed plate cooler unit used for platform testing."
-      },
-      "zh": {
-        "meta_title": "?????????????????????",
-        "meta_description": "??????????????????????????????????????????????????????????�?"
-      }
-    },
-    "created_at": "2026-03-09T02:30:29.096307+00:00",
-    "updated_at": "2026-03-09T02:30:29.096307+00:00"
-  },
-  {
-    "id": "c59d9387-7832-4669-bba7-00c388359735",
-    "manufacturer_id": "ca595969-4833-411b-bca4-0ad4038a6e1e",
-    "slug": "marine-central-cooler-package",
-    "is_visible": false,
-    "name": {
-      "en": "Marine Central Cooler Package",
-      "zh": "???????????????????????????"
-    },
-    "short_description": {
-      "en": "Mock product for marine central cooler package testing.",
-      "zh": "???????????????????????????????????????????????????????�?"
-    },
-    "full_description": {
-      "en": "Marine Central Cooler Package is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
-      "zh": "????????????????????????????????????????????????????�???????????????????????�????????�?????????????????????????????�????????????????????????????????????� JSONB ?????????????????????????????�?????????????????????????????????????�?"
-    },
-    "industries": [
-      "3",
-      "4"
-    ],
-    "advantage": {
-      "en": [
-        "Marine-focused package",
-        "Integrated compact design",
-        "Supports seawater cooling scenarios"
-      ],
-      "zh": [
-        "??????????????????",
-        "??????????????????",
-        "?�?????????????????????????"
-      ]
-    },
-    "technical_parameters": {
-      "Plate Material": "Titanium, SS316",
-      "Design Pressure": "1.0 ~ 2.5MPa",
-      "Cooling Capacity": "50 ~ 1500 kW",
-      "Design Temperature": "0??? ~ 120???"
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "Marine Central Cooler Package",
-        "meta_description": "Mock data for marine central cooler package used for platform testing."
-      },
-      "zh": {
-        "meta_title": "???????????????????????????",
-        "meta_description": "????????????????????????????????????????????????????????????????�?"
-      }
-    },
-    "created_at": "2026-03-09T02:30:29.096307+00:00",
-    "updated_at": "2026-03-09T02:30:29.096307+00:00"
-  },
-  {
-    "id": "b1e8448b-3c87-4052-9d05-45cc8abc571e",
-    "manufacturer_id": "ca595969-4833-411b-bca4-0ad4038a6e1e",
-    "slug": "compact-exhaust-gas-economizer",
-    "is_visible": false,
-    "name": {
-      "en": "Compact Exhaust Gas Economizer",
-      "zh": "??????????????????????????????"
-    },
-    "short_description": {
-      "en": "Mock product for compact exhaust gas economizer testing.",
-      "zh": "??????????????????????????????????????????????????????????�?"
-    },
-    "full_description": {
-      "en": "Compact Exhaust Gas Economizer is a mock product entry created for testing supplier, product detail, and filter pages. The content is structured to match the multilingual JSONB fields used in the database and represents a plausible industrial heat exchange solution.",
-      "zh": "???????????????????????????????????????????????????????�???????????????????????�????????�?????????????????????????????�????????????????????????????????????� JSONB ?????????????????????????????�?????????????????????????????????????�?"
-    },
-    "industries": [
-      "4",
-      "9"
-    ],
-    "advantage": {
-      "en": [
-        "Energy recovery concept",
-        "Suitable for distributed systems",
-        "Mock solution for power projects"
-      ],
-      "zh": [
-        "??????????????????",
-        "??????????????????",
-        "?�?????????????????????????"
-      ]
-    },
-    "technical_parameters": {
-      "Thermal Duty": "100 ~ 3000 kW",
-      "Design Pressure": "0.3 ~ 1.6MPa",
-      "Tube/Plate Material": "Carbon Steel, SS304",
-      "Gas Inlet Temperature": "180??? ~ 450???"
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "Compact Exhaust Gas Economizer",
-        "meta_description": "Mock data for compact exhaust gas economizer used for platform testing."
-      },
-      "zh": {
-        "meta_title": "??????????????????????????????",
-        "meta_description": "???????????????????????????????????????????????????????????????????�?"
-      }
-    },
-    "created_at": "2026-03-09T02:30:29.096307+00:00",
-    "updated_at": "2026-03-09T02:30:29.096307+00:00"
   }
 ]

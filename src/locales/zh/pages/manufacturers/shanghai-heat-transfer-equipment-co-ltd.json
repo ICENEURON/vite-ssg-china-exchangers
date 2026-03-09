@@ -1,7 +1,11 @@
 {
   "name": "上海换热设备有限公司",
-  "full_description": "",
-  "advantages": [],
+  "full_description": "上海换热设备有限公司是一家领先的换热器及传热设备制造商。凭借二十多年的行业经验，公司已成为高品质换热器和传热设备的可靠供应商。其产品广泛应用于化工、食品饮料、制药等多个领域。",
+  "advantages": [
+    "先进热工实验室：可进行内部性能测试，验证真实工况下的换热效率。",
+    "专业焊接技术：擅长全焊接和宽流道板式换热器，适用于复杂介质。",
+    "行业覆盖广泛：在化工、制药和食品加工领域拥有成熟应用经验。"
+  ],
   "slug": "shanghai-heat-transfer-equipment-co-ltd",
   "website": "https://www.shanghaiheattransfer.com",
   "email": [
@@ -12,7 +16,7 @@
   ],
   "country_name": "中国",
   "city": "上海",
-  "address": "",
+  "address": "中国上海",
   "established_year": "2005",
   "factory_area": "20000m2",
   "employee_count": "200+",

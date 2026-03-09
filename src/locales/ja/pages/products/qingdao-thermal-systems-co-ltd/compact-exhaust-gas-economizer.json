@@ -1,0 +1,39 @@
+{
+  "slug": "compact-exhaust-gas-economizer",
+  "name": "コンパクト排ガスエコノマイザー",
+  "full_description": "コンパクト排ガスエコノマイザーは、サプライヤーページ、製品詳細ページ、フィルターページのテスト用に作成されたモック製品です。内容はデータベースで使用される多言語 JSONB フィールド構造に合わせており、現実的な工業用熱交換ソリューションを表しています。",
+  "industries": [
+    "エネルギー",
+    "発電・電力"
+  ],
+  "advantage": [
+    "エネルギー回収コンセプト",
+    "分散型システムに適する",
+    "発電プロジェクト向けモックソリューション"
+  ],
+  "technical_parameters": {
+    "Thermal Duty": "100 ~ 3000 kW",
+    "Design Pressure": "0.3 ~ 1.6MPa",
+    "Tube/Plate Material": "Carbon Steel, SS304",
+    "Gas Inlet Temperature": "180℃ ~ 450℃"
+  },
+  "seo_data": {
+    "meta_title": "コンパクト排ガスエコノマイザー",
+    "meta_description": "プラットフォームテスト用のコンパクト排ガスエコノマイザーのモックデータ。"
+  },
+  "manufacturer": {
+    "slug": "qingdao-thermal-systems-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Product image",
+      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "SGS certificate",
+      "url": "/storage/product_assets/product_certifications/sgs.png"
+    }
+  ]
+}

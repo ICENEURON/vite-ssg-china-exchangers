@@ -109,7 +109,7 @@ export default function ManufacturerProfilePage() {
                                     )}
                                     {basicInfo?.established && (
                                         <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
-                                            <Factory className="w-4 h-4 text-emerald-400" /> Est. {basicInfo.established}
+                                            <Factory className="w-4 h-4 text-emerald-400" /> {t(`${SHARED_TK}.established`, { year: basicInfo.established })}
                                         </div>
                                     )}
                                     {basicInfo?.factory_area && (
@@ -241,7 +241,7 @@ export default function ManufacturerProfilePage() {
                                 <h2 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white mb-4">{t(`${SHARED_TK}.product_showcase`)}</h2>
                                 {manufacturerProductCategories.length > 0 && (
                                     <div className="flex flex-wrap gap-2 text-sm text-muted-foreground items-center">
-                                        <span className="font-semibold text-foreground">Available Product Categories:</span>
+                                        <span className="font-semibold text-foreground">{t(`${SHARED_TK}.available_categories`)}</span>
                                         {manufacturerProductCategories.map((catId: string) => {
                                             const categoryDef = productCategoryDefinitions?.[catId];
                                             if (!categoryDef) return null;

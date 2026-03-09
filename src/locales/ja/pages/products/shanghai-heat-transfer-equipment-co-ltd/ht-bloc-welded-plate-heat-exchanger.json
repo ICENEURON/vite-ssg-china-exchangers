@@ -1,16 +1,16 @@
 {
   "slug": "ht-bloc-welded-plate-heat-exchanger",
-  "name": "HT-Bloc Welded Plate Heat Exchanger",
-  "full_description": "Our welded plate heat exchangers offer compact, efficient, and trustworthy heat transfer solutions that are custom-tailored to meet an extensive variety of process demands. It comes as no surprise that they have solidified their position as the top-tier option for the most challenging heat exchange scenarios.",
+  "name": "HT-Bloc 溶接プレート式熱交換器",
+  "full_description": "当社の溶接プレート式熱交換器は、幅広いプロセス要求に合わせてカスタマイズ可能な、コンパクトで高効率かつ信頼性の高い伝熱ソリューションを提供します。そのため、最も厳しい熱交換条件においても最適な選択肢として確固たる地位を築いています。",
   "industries": [
-    "Chemical Processing",
-    "Food and Beverage",
-    "Pharmaceuticals"
+    "化学工業",
+    "食品・飲料",
+    "製薬"
   ],
   "advantage": [
-    "Compact design",
-    "Efficient heat transfer",
-    "Reliable for demanding applications"
+    "コンパクト設計",
+    "高効率な熱交換",
+    "厳しい用途でも高い信頼性"
   ],
   "technical_parameters": {
     "Area": "6.6 ~ 870㎡",
@@ -20,8 +20,8 @@
     "Design Temperature": "-196℃ ~ 450℃"
   },
   "seo_data": {
-    "meta_title": "HT-Bloc Welded Plate Heat Exchanger Manufacturer",
-    "meta_description": "HT-Bloc welded plate heat exchanger with compact design, efficient performance, and reliable operation for demanding industrial processes."
+    "meta_title": "HT-Bloc 溶接プレート式熱交換器メーカー",
+    "meta_description": "HT-Bloc 溶接プレート式熱交換器。コンパクト設計、高効率性能、安定運転を備え、厳しい産業プロセスに対応します。"
   },
   "manufacturer": {
     "slug": "shanghai-heat-transfer-equipment-co-ltd"

@@ -1,6 +1,7 @@
 import navigation from './navigation.json';
 import footer from './footer.json';
 import home from './pages/home.json';
+import manufacturers from './pages/manufacturers.json';
 import manufacturersList from './pages/manufacturers/list.json';
 import rfq from './pages/rfq.json';
 import profile from './pages/claim-your-profile.json';
@@ -21,6 +22,7 @@ import productsList from './pages/products/list.json';
 // --- Dynamic Imports for Manufacturers ---
 const mfgFiles = import.meta.glob('./pages/manufacturers/*.json', { eager: true, import: 'default' });
 const manufacturersData: Record<string, any> = {
+  ...manufacturers,
   list: manufacturersList
 };
 

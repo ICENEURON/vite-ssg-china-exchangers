@@ -1,0 +1,40 @@
+{
+  "slug": "gasketed-plate-heat-exchanger-series",
+  "name": "ガスケット式プレート熱交換器シリーズ",
+  "full_description": "ガスケット式プレート熱交換器シリーズは、サプライヤーページ、製品詳細ページ、フィルターページのテスト用に作成されたモック製品です。内容はデータベースで使用される多言語 JSONB フィールド構造に合わせており、現実的な工業用熱交換ソリューションを表しています。",
+  "industries": [
+    "空調・換気・暖房",
+    "食品加工",
+    "食品・飲料"
+  ],
+  "advantage": [
+    "メンテナンスが容易",
+    "HVAC ループに適する",
+    "衛生用途に適する"
+  ],
+  "technical_parameters": {
+    "Plate Material": "SS304, SS316",
+    "Design Pressure": "0.6 ~ 2.5MPa",
+    "Design Temperature": "-20℃ ~ 180℃",
+    "Heat Transfer Area": "0.5 ~ 350㎡"
+  },
+  "seo_data": {
+    "meta_title": "ガスケット式プレート熱交換器シリーズ",
+    "meta_description": "プラットフォームテスト用のガスケット式プレート熱交換器シリーズのモックデータ。"
+  },
+  "manufacturer": {
+    "slug": "jiangsu-alloy-process-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Product image",
+      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "CE certificate",
+      "url": "/storage/product_assets/product_certifications/ce.png"
+    }
+  ]
+}

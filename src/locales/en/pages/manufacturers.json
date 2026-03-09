@@ -49,6 +49,8 @@
     "trusted_customers_desc": "Delivering excellence to major players across industries.",
     "partner_with": "Partner with {{name}}",
     "partner_desc": "Get verified quality and direct-from-factory pricing.",
-    "start_project": "Start Your Project Now"
+    "start_project": "Start Your Project Now",
+    "established": "Est. {{year}}",
+    "available_categories": "Available Product Categories:"
   }
 }

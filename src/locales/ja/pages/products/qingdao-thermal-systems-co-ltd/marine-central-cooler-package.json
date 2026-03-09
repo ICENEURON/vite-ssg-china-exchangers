@@ -1,0 +1,39 @@
+{
+  "slug": "marine-central-cooler-package",
+  "name": "舶用セントラルクーラーパッケージ",
+  "full_description": "舶用セントラルクーラーパッケージは、サプライヤーページ、製品詳細ページ、フィルターページのテスト用に作成されたモック製品です。内容はデータベースで使用される多言語 JSONB フィールド構造に合わせており、現実的な工業用熱交換ソリューションを表しています。",
+  "industries": [
+    "海洋・船舶",
+    "エネルギー"
+  ],
+  "advantage": [
+    "船舶用途向けパッケージ",
+    "一体型コンパクト設計",
+    "海水冷却用途に対応"
+  ],
+  "technical_parameters": {
+    "Plate Material": "Titanium, SS316",
+    "Design Pressure": "1.0 ~ 2.5MPa",
+    "Cooling Capacity": "50 ~ 1500 kW",
+    "Design Temperature": "0℃ ~ 120℃"
+  },
+  "seo_data": {
+    "meta_title": "舶用セントラルクーラーパッケージ",
+    "meta_description": "プラットフォームテスト用の舶用セントラルクーラーパッケージのモックデータ。"
+  },
+  "manufacturer": {
+    "slug": "qingdao-thermal-systems-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Product image",
+      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "CE certificate",
+      "url": "/storage/product_assets/product_certifications/ce.png"
+    }
+  ]
+}

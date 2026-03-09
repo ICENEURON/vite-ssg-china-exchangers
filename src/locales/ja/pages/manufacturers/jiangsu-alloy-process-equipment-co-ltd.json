@@ -1,10 +1,10 @@
 {
-  "name": "江苏合金过程装备有限公司",
-  "full_description": "江苏合金过程装备有限公司是一条用于数据测试的模拟供应商记录。该公司被设定为生产合金板式换热器、石墨块式设备以及适用于腐蚀性流体和连续化工装置的耐压传热设备的制造商。",
+  "name": "江蘇合金プロセス装置有限公司",
+  "full_description": "Jiangsu Alloy Process Equipment Co., Ltd. は、データ検証用に作成されたモックサプライヤーです。耐食性流体や連続プロセスプラント向けに、合金製プレート熱交換器、グラファイトブロック装置、耐圧仕様の熱機器を製造するメーカーとして設定されています。",
   "advantages": [
-    "模拟的耐腐蚀产品线",
-    "适用于化工流程场景",
-    "包含结构化 SEO 字段"
+    "耐食用途を想定したモック製品ライン",
+    "化学プロセス用途のテストに適しています",
+    "構造化されたSEO項目を含みます"
   ],
   "slug": "jiangsu-alloy-process-equipment-co-ltd",
   "website": "https://www.jsalloy.example.com",
@@ -17,7 +17,7 @@
   ],
   "country_name": "中国",
   "city": "常州",
-  "address": "中国江苏常州",
+  "address": "中国・江蘇省常州",
   "established_year": "2009",
   "factory_area": "18000m2",
   "employee_count": "180+",
@@ -31,9 +31,9 @@
     "meta_description": "Mock supplier profile for alloy and corrosion-resistant heat exchanger equipment used in chemical and petrochemical applications."
   },
   "industries": [
-    "石油化工",
-    "化工",
-    "发电/电力"
+    "石油化学",
+    "化学工業",
+    "発電・電力"
   ],
   "certifications": [
     {
@@ -56,14 +56,14 @@
   "products": [
     {
       "slug": "gasketed-plate-heat-exchanger-series",
-      "name": "可拆式板式换热器系列",
-      "short_description": "用于测试可拆式板式换热器系列的模拟产品数据。",
+      "name": "ガスケット式プレート熱交換器シリーズ",
+      "short_description": "ガスケット式プレート熱交換器シリーズのテスト用モック製品データ。",
       "url": "jiangsu-alloy-process-equipment-co-ltd/gasketed-plate-heat-exchanger-series"
     },
     {
       "slug": "sanitary-plate-pasteurizer-module",
-      "name": "卫生型板式巴氏杀菌模块",
-      "short_description": "用于测试卫生型板式巴氏杀菌模块的模拟产品数据。",
+      "name": "サニタリープレート式パスチャライザーモジュール",
+      "short_description": "サニタリープレート式パスチャライザーモジュールのテスト用モック製品データ。",
       "url": "jiangsu-alloy-process-equipment-co-ltd/sanitary-plate-pasteurizer-module"
     }
   ]

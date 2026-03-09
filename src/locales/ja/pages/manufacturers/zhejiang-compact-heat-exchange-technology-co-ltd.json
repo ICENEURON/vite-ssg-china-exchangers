@@ -1,10 +1,10 @@
 {
-  "name": "浙江紧凑型换热技术有限公司",
-  "full_description": "浙江紧凑型换热技术有限公司是为平台验证而构建的模拟制造商资料。该公司被设定为提供钎焊板式换热器、紧凑型冷凝器以及适用于船舶系统、机舱和分布式能源项目的高效冷却机组。",
+  "name": "浙江コンパクト熱交換技術有限公司",
+  "full_description": "Zhejiang Compact Heat Exchange Technology Co., Ltd. は、プラットフォーム検証用に作成されたモックメーカーです。ろう付けプレート熱交換器、コンパクトコンデンサー、船舶システム・機関室・分散型エネルギープロジェクト向け高効率クーラーパッケージの供給企業として設定されています。",
   "advantages": [
-    "紧凑型设备产品组合",
-    "聚焦船舶与电力应用场景",
-    "适用于前端筛选测试"
+    "コンパクト機器の製品ポートフォリオ",
+    "船舶・電力用途を想定した構成",
+    "フロントエンドの絞り込みテストに有用です"
   ],
   "slug": "zhejiang-compact-heat-exchange-technology-co-ltd",
   "website": "https://www.zjcompact.example.com",
@@ -17,7 +17,7 @@
   ],
   "country_name": "中国",
   "city": "杭州",
-  "address": "中国浙江杭州",
+  "address": "中国・浙江省杭州",
   "established_year": "2016",
   "factory_area": "9500m2",
   "employee_count": "90+",
@@ -31,9 +31,9 @@
     "meta_description": "Mock compact heat exchanger manufacturer profile for marine cooling, distributed energy, and power-generation projects."
   },
   "industries": [
-    "船舶/海工",
-    "能源",
-    "发电/电力"
+    "海洋・船舶",
+    "エネルギー",
+    "発電・電力"
   ],
   "certifications": [
     {
@@ -56,14 +56,14 @@
   "products": [
     {
       "slug": "graphite-block-heat-exchanger",
-      "name": "石墨块式换热器",
-      "short_description": "用于测试石墨块式换热器的模拟产品数据。",
+      "name": "黒鉛ブロック式熱交換器",
+      "short_description": "黒鉛ブロック式熱交換器のテスト用モック製品データ。",
       "url": "zhejiang-compact-heat-exchange-technology-co-ltd/graphite-block-heat-exchanger"
     },
     {
       "slug": "alloy-welded-plate-condenser",
-      "name": "合金焊接板式冷凝器",
-      "short_description": "用于测试合金焊接板式冷凝器的模拟产品数据。",
+      "name": "合金製溶接プレート式コンデンサー",
+      "short_description": "合金製溶接プレート式コンデンサーのテスト用モック製品データ。",
       "url": "zhejiang-compact-heat-exchange-technology-co-ltd/alloy-welded-plate-condenser"
     }
   ]

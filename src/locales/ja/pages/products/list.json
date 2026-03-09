@@ -3,14 +3,14 @@
     "slug": "ht-bloc-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
+      "name": "上海熱交換設備有限公司"
     },
-    "name": "HT-Bloc Welded Plate Heat Exchanger",
-    "short_description": "Compact and efficient welded plate heat exchanger for demanding process duties.",
+    "name": "HT-Bloc 溶接プレート式熱交換器",
+    "short_description": "厳しいプロセス条件向けの、コンパクトで高効率な溶接プレート式熱交換器。",
     "industries": [
-      "Chemical Processing",
-      "Food and Beverage",
-      "Pharmaceuticals"
+      "化学工業",
+      "食品・飲料",
+      "製薬"
     ],
     "images": [
       {
@@ -24,14 +24,14 @@
     "slug": "wide-gap-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
+      "name": "上海熱交換設備有限公司"
     },
-    "name": "Wide Gap Welded Plate Heat Exchanger",
-    "short_description": "Welded plate heat exchanger designed for solids, viscous media, and anti-clogging performance.",
+    "name": "ワイドギャップ溶接プレート式熱交換器",
+    "short_description": "固形物を含む流体、高粘度媒体、および閉塞防止性能向けに設計された溶接プレート式熱交換器。",
     "industries": [
-      "Chemical Processing",
-      "Food and Beverage",
-      "Pharmaceuticals"
+      "化学工業",
+      "食品・飲料",
+      "製薬"
     ],
     "images": [
       {
@@ -42,17 +42,160 @@
     "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
   },
   {
+    "slug": "graphite-block-heat-exchanger",
+    "manufacturer": {
+      "slug": "zhejiang-compact-heat-exchange-technology-co-ltd",
+      "name": "浙江コンパクト熱交換技術有限公司"
+    },
+    "name": "黒鉛ブロック式熱交換器",
+    "short_description": "黒鉛ブロック式熱交換器のテスト用モック製品データ。",
+    "industries": [
+      "石油化学",
+      "化学工業"
+    ],
+    "images": [
+      {
+        "alt_text": "Product image",
+        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg"
+      }
+    ],
+    "url": "zhejiang-compact-heat-exchange-technology-co-ltd/graphite-block-heat-exchanger"
+  },
+  {
+    "slug": "gasketed-plate-heat-exchanger-series",
+    "manufacturer": {
+      "slug": "jiangsu-alloy-process-equipment-co-ltd",
+      "name": "江蘇合金プロセス装置有限公司"
+    },
+    "name": "ガスケット式プレート熱交換器シリーズ",
+    "short_description": "ガスケット式プレート熱交換器シリーズのテスト用モック製品データ。",
+    "industries": [
+      "空調・換気・暖房",
+      "食品加工",
+      "食品・飲料"
+    ],
+    "images": [
+      {
+        "alt_text": "Product image",
+        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+      }
+    ],
+    "url": "jiangsu-alloy-process-equipment-co-ltd/gasketed-plate-heat-exchanger-series"
+  },
+  {
+    "slug": "brazed-plate-cooler-unit",
+    "manufacturer": {
+      "slug": "qingdao-thermal-systems-co-ltd",
+      "name": "青島サーマルシステムズ有限公司"
+    },
+    "name": "ろう付けプレート式クーラーユニット",
+    "short_description": "ろう付けプレート式クーラーユニットのテスト用モック製品データ。",
+    "industries": [
+      "海洋・船舶",
+      "エネルギー",
+      "発電・電力"
+    ],
+    "images": [
+      {
+        "alt_text": "Product image",
+        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg"
+      }
+    ],
+    "url": "qingdao-thermal-systems-co-ltd/brazed-plate-cooler-unit"
+  },
+  {
+    "slug": "alloy-welded-plate-condenser",
+    "manufacturer": {
+      "slug": "zhejiang-compact-heat-exchange-technology-co-ltd",
+      "name": "浙江コンパクト熱交換技術有限公司"
+    },
+    "name": "合金製溶接プレート式コンデンサー",
+    "short_description": "合金製溶接プレート式コンデンサーのテスト用モック製品データ。",
+    "industries": [
+      "石油化学",
+      "化学工業",
+      "発電・電力"
+    ],
+    "images": [
+      {
+        "alt_text": "Product image",
+        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+      }
+    ],
+    "url": "zhejiang-compact-heat-exchange-technology-co-ltd/alloy-welded-plate-condenser"
+  },
+  {
+    "slug": "sanitary-plate-pasteurizer-module",
+    "manufacturer": {
+      "slug": "jiangsu-alloy-process-equipment-co-ltd",
+      "name": "江蘇合金プロセス装置有限公司"
+    },
+    "name": "サニタリープレート式パスチャライザーモジュール",
+    "short_description": "サニタリープレート式パスチャライザーモジュールのテスト用モック製品データ。",
+    "industries": [
+      "食品加工",
+      "食品・飲料"
+    ],
+    "images": [
+      {
+        "alt_text": "Product image",
+        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg"
+      }
+    ],
+    "url": "jiangsu-alloy-process-equipment-co-ltd/sanitary-plate-pasteurizer-module"
+  },
+  {
+    "slug": "compact-exhaust-gas-economizer",
+    "manufacturer": {
+      "slug": "qingdao-thermal-systems-co-ltd",
+      "name": "青島サーマルシステムズ有限公司"
+    },
+    "name": "コンパクト排ガスエコノマイザー",
+    "short_description": "コンパクト排ガスエコノマイザーのテスト用モック製品データ。",
+    "industries": [
+      "エネルギー",
+      "発電・電力"
+    ],
+    "images": [
+      {
+        "alt_text": "Product image",
+        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+      }
+    ],
+    "url": "qingdao-thermal-systems-co-ltd/compact-exhaust-gas-economizer"
+  },
+  {
+    "slug": "marine-central-cooler-package",
+    "manufacturer": {
+      "slug": "qingdao-thermal-systems-co-ltd",
+      "name": "青島サーマルシステムズ有限公司"
+    },
+    "name": "舶用セントラルクーラーパッケージ",
+    "short_description": "舶用セントラルクーラーパッケージのテスト用モック製品データ。",
+    "industries": [
+      "海洋・船舶",
+      "エネルギー"
+    ],
+    "images": [
+      {
+        "alt_text": "Product image",
+        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg"
+      }
+    ],
+    "url": "qingdao-thermal-systems-co-ltd/marine-central-cooler-package"
+  },
+  {
     "slug": "tp-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
+      "name": "上海熱交換設備有限公司"
     },
-    "name": "TP Welded Plate Heat Exchanger",
-    "short_description": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
+    "name": "TP 溶接プレート式熱交換器",
+    "short_description": "スラリー、高粘度流体、繊維含有流体向けの専用熱交換器。",
     "industries": [
-      "Chemical Processing",
-      "Food and Beverage",
-      "Pharmaceuticals"
+      "化学工業",
+      "食品・飲料",
+      "製薬"
     ],
     "images": [
       {

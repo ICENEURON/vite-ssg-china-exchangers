@@ -1,16 +1,16 @@
 {
   "slug": "tp-welded-plate-heat-exchanger",
-  "name": "TP Welded Plate Heat Exchanger",
-  "full_description": "In industrial processes, specialized heat exchange solutions are required for handling challenging fluids such as particle-laden fluids (e.g., slurry), viscous fluids (e.g., syrup), and fiber-containing fluids (e.g., pulp). To ensure reliable production operations, targeted heat exchanger design is critical to address challenges such as blockages and leaks caused by those fluids , this requires customized solutions including erosion-resistant materials, optimized channel geometries, and integrated self-cleaning mechanisms. TP Welded Plate Heat Exchanger is an ideal heat exchange solution for these applications.",
+  "name": "TP 溶接プレート式熱交換器",
+  "full_description": "産業プロセスでは、粒子を含む流体（例：スラリー）、高粘度流体（例：シロップ）、繊維を含む流体（例：パルプ）など、扱いが難しい流体に対応するための専用熱交換ソリューションが必要です。安定した生産運転を実現するには、これらの流体によって生じる閉塞や漏れの課題に対応できる、目的に応じた熱交換器設計が重要です。そのためには、耐摩耗材料、最適化された流路形状、統合型セルフクリーニング機構などを含むカスタマイズ設計が求められます。TP 溶接プレート式熱交換器は、このような用途に理想的な熱交換ソリューションです。",
   "industries": [
-    "Chemical Processing",
-    "Food and Beverage",
-    "Pharmaceuticals"
+    "化学工業",
+    "食品・飲料",
+    "製薬"
   ],
   "advantage": [
-    "Designed for challenging fluids",
-    "Helps reduce blockage and leakage risk",
-    "Supports customized material and channel design"
+    "難処理流体向けに設計",
+    "閉塞や漏れのリスク低減に貢献",
+    "材料および流路のカスタマイズ設計に対応"
   ],
   "technical_parameters": {
     "Area": "6.6 ~ 870㎡",
@@ -20,8 +20,8 @@
     "Design Temperature": "-196℃ ~ 450℃"
   },
   "seo_data": {
-    "meta_title": "TP Welded Plate Heat Exchanger Manufacturer",
-    "meta_description": "TP welded plate heat exchanger for slurry, viscous, and fiber-containing media with customized design for reliable industrial operation."
+    "meta_title": "TP 溶接プレート式熱交換器メーカー",
+    "meta_description": "TP 溶接プレート式熱交換器。スラリー、高粘度流体、繊維含有流体向けで、カスタマイズ設計により安定した産業運転を実現します。"
   },
   "manufacturer": {
     "slug": "shanghai-heat-transfer-equipment-co-ltd"

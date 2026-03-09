@@ -49,6 +49,8 @@
     "trusted_customers_desc": "業界の主要企業に卓越したサービスを提供しています。",
     "partner_with": "{{name}}と提携",
     "partner_desc": "検証済みの品質と工場直販価格をご提供します。",
-    "start_project": "今すぐプロジェクトを開始"
+    "start_project": "今すぐプロジェクトを開始",
+    "established": "設立: {{year}}年",
+    "available_categories": "対応製品カテゴリ："
   }
 }

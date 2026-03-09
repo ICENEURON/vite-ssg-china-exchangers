@@ -1,0 +1,39 @@
+{
+  "slug": "sanitary-plate-pasteurizer-module",
+  "name": "サニタリープレート式パスチャライザーモジュール",
+  "full_description": "サニタリープレート式パスチャライザーモジュールは、サプライヤーページ、製品詳細ページ、フィルターページのテスト用に作成されたモック製品です。内容はデータベースで使用される多言語 JSONB フィールド構造に合わせており、現実的な工業用熱交換ソリューションを表しています。",
+  "industries": [
+    "食品加工",
+    "食品・飲料"
+  ],
+  "advantage": [
+    "サニタリー設計",
+    "コンパクトなスキッド構成",
+    "CIP 統合が容易"
+  ],
+  "technical_parameters": {
+    "Capacity": "1 ~ 20 t/h",
+    "Plate Material": "SS316L",
+    "Design Pressure": "0.6 ~ 1.6MPa",
+    "Process Temperature": "4℃ ~ 95℃"
+  },
+  "seo_data": {
+    "meta_title": "サニタリープレート式パスチャライザーモジュール",
+    "meta_description": "プラットフォームテスト用のサニタリープレート式パスチャライザーモジュールのモックデータ。"
+  },
+  "manufacturer": {
+    "slug": "jiangsu-alloy-process-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Product image",
+      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "SGS certificate",
+      "url": "/storage/product_assets/product_certifications/sgs.png"
+    }
+  ]
+}

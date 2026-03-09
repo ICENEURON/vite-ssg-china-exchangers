@@ -42,25 +42,24 @@
     "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
   },
   {
-    "slug": "tp-welded-plate-heat-exchanger",
+    "slug": "graphite-block-heat-exchanger",
     "manufacturer": {
-      "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
+      "slug": "zhejiang-compact-heat-exchange-technology-co-ltd",
+      "name": "Zhejiang Compact Heat Exchange Technology Co., Ltd."
     },
-    "name": "TP Welded Plate Heat Exchanger",
-    "short_description": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
+    "name": "Graphite Block Heat Exchanger",
+    "short_description": "Mock product for graphite block heat exchanger testing.",
     "industries": [
-      "Chemical Processing",
-      "Food and Beverage",
-      "Pharmaceuticals"
+      "Petrochemical",
+      "Chemical Processing"
     ],
     "images": [
       {
         "alt_text": "Product image",
-        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg"
+        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg"
       }
     ],
-    "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
+    "url": "zhejiang-compact-heat-exchange-technology-co-ltd/graphite-block-heat-exchanger"
   },
   {
     "slug": "gasketed-plate-heat-exchanger-series",
@@ -84,16 +83,17 @@
     "url": "jiangsu-alloy-process-equipment-co-ltd/gasketed-plate-heat-exchanger-series"
   },
   {
-    "slug": "sanitary-plate-pasteurizer-module",
+    "slug": "brazed-plate-cooler-unit",
     "manufacturer": {
-      "slug": "jiangsu-alloy-process-equipment-co-ltd",
-      "name": "Jiangsu Alloy Process Equipment Co., Ltd."
+      "slug": "qingdao-thermal-systems-co-ltd",
+      "name": "Qingdao Thermal Systems Co., Ltd."
     },
-    "name": "Sanitary Plate Pasteurizer Module",
-    "short_description": "Mock product for sanitary plate pasteurizer module testing.",
+    "name": "Brazed Plate Cooler Unit",
+    "short_description": "Mock product for brazed plate cooler unit testing.",
     "industries": [
-      "Food Processing",
-      "Food and Beverage"
+      "Marine",
+      "Energy",
+      "Power Generation"
     ],
     "images": [
       {
@@ -101,27 +101,7 @@
         "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg"
       }
     ],
-    "url": "jiangsu-alloy-process-equipment-co-ltd/sanitary-plate-pasteurizer-module"
-  },
-  {
-    "slug": "graphite-block-heat-exchanger",
-    "manufacturer": {
-      "slug": "zhejiang-compact-heat-exchange-technology-co-ltd",
-      "name": "Zhejiang Compact Heat Exchange Technology Co., Ltd."
-    },
-    "name": "Graphite Block Heat Exchanger",
-    "short_description": "Mock product for graphite block heat exchanger testing.",
-    "industries": [
-      "Petrochemical",
-      "Chemical Processing"
-    ],
-    "images": [
-      {
-        "alt_text": "Product image",
-        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg"
-      }
-    ],
-    "url": "zhejiang-compact-heat-exchange-technology-co-ltd/graphite-block-heat-exchanger"
+    "url": "qingdao-thermal-systems-co-ltd/brazed-plate-cooler-unit"
   },
   {
     "slug": "alloy-welded-plate-condenser",
@@ -145,17 +125,16 @@
     "url": "zhejiang-compact-heat-exchange-technology-co-ltd/alloy-welded-plate-condenser"
   },
   {
-    "slug": "brazed-plate-cooler-unit",
+    "slug": "sanitary-plate-pasteurizer-module",
     "manufacturer": {
-      "slug": "qingdao-thermal-systems-co-ltd",
-      "name": "Qingdao Thermal Systems Co., Ltd."
+      "slug": "jiangsu-alloy-process-equipment-co-ltd",
+      "name": "Jiangsu Alloy Process Equipment Co., Ltd."
     },
-    "name": "Brazed Plate Cooler Unit",
-    "short_description": "Mock product for brazed plate cooler unit testing.",
+    "name": "Sanitary Plate Pasteurizer Module",
+    "short_description": "Mock product for sanitary plate pasteurizer module testing.",
     "industries": [
-      "Marine",
-      "Energy",
-      "Power Generation"
+      "Food Processing",
+      "Food and Beverage"
     ],
     "images": [
       {
@@ -163,7 +142,27 @@
         "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg"
       }
     ],
-    "url": "qingdao-thermal-systems-co-ltd/brazed-plate-cooler-unit"
+    "url": "jiangsu-alloy-process-equipment-co-ltd/sanitary-plate-pasteurizer-module"
+  },
+  {
+    "slug": "compact-exhaust-gas-economizer",
+    "manufacturer": {
+      "slug": "qingdao-thermal-systems-co-ltd",
+      "name": "Qingdao Thermal Systems Co., Ltd."
+    },
+    "name": "Compact Exhaust Gas Economizer",
+    "short_description": "Mock product for compact exhaust gas economizer testing.",
+    "industries": [
+      "Energy",
+      "Power Generation"
+    ],
+    "images": [
+      {
+        "alt_text": "Product image",
+        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+      }
+    ],
+    "url": "qingdao-thermal-systems-co-ltd/compact-exhaust-gas-economizer"
   },
   {
     "slug": "marine-central-cooler-package",
@@ -186,23 +185,24 @@
     "url": "qingdao-thermal-systems-co-ltd/marine-central-cooler-package"
   },
   {
-    "slug": "compact-exhaust-gas-economizer",
+    "slug": "tp-welded-plate-heat-exchanger",
     "manufacturer": {
-      "slug": "qingdao-thermal-systems-co-ltd",
-      "name": "Qingdao Thermal Systems Co., Ltd."
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
     },
-    "name": "Compact Exhaust Gas Economizer",
-    "short_description": "Mock product for compact exhaust gas economizer testing.",
+    "name": "TP Welded Plate Heat Exchanger",
+    "short_description": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
     "industries": [
-      "Energy",
-      "Power Generation"
+      "Chemical Processing",
+      "Food and Beverage",
+      "Pharmaceuticals"
     ],
     "images": [
       {
         "alt_text": "Product image",
-        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+        "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg"
       }
     ],
-    "url": "qingdao-thermal-systems-co-ltd/compact-exhaust-gas-economizer"
+    "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
   }
 ]

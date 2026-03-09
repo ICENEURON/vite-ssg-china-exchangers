@@ -1,5 +1,17 @@
 [
   {
+    "name": "Qingdao Thermal Systems Co., Ltd.",
+    "short_description": "Mock manufacturer focused on gasketed and welded plate heat exchangers for HVAC and food processing.",
+    "slug": "qingdao-thermal-systems-co-ltd",
+    "city": "Qingdao",
+    "country_name": "China",
+    "industries": [
+      "HVAC",
+      "Food Processing",
+      "Food and Beverage"
+    ]
+  },
+  {
     "name": "Shanghai Heat Transfer Equipment Co., Ltd.",
     "short_description": "Verified industrial heat exchanger manufacturer based in Shanghai, China.",
     "slug": "shanghai-heat-transfer-equipment-co-ltd",
@@ -15,18 +27,6 @@
       "Food and Beverage",
       "Pharmaceuticals",
       "Power Generation"
-    ]
-  },
-  {
-    "name": "Qingdao Thermal Systems Co., Ltd.",
-    "short_description": "Mock manufacturer focused on gasketed and welded plate heat exchangers for HVAC and food processing.",
-    "slug": "qingdao-thermal-systems-co-ltd",
-    "city": "Qingdao",
-    "country_name": "China",
-    "industries": [
-      "HVAC",
-      "Food Processing",
-      "Food and Beverage"
     ]
   },
   {

@@ -1,10 +1,10 @@
 {
-  "name": "Qingdao Thermal Systems Co., Ltd.",
-  "full_description": "Qingdao Thermal Systems Co., Ltd. is a mock supplier profile created for platform testing. The company is positioned as a mid-sized Chinese manufacturer supplying plate heat exchangers, skid-mounted thermal modules, and related spare parts for commercial HVAC, district cooling, and hygienic process applications.",
+  "name": "青島サーマルシステムズ有限公司",
+  "full_description": "Qingdao Thermal Systems Co., Ltd. は、プラットフォームテスト用に作成されたモックサプライヤーです。商業用HVAC、地域冷房、衛生プロセス用途向けに、プレート熱交換器、スキッド搭載型熱モジュール、関連スペアパーツを供給する中国の中規模メーカーとして設定されています。",
   "advantages": [
-    "Mock data for platform QA",
-    "Supports HVAC and food applications",
-    "Offers localized multilingual profile fields"
+    "プラットフォームQA向けモックデータ",
+    "HVACおよび食品用途のテストに対応",
+    "ローカライズされた多言語プロフィール項目を提供"
   ],
   "slug": "qingdao-thermal-systems-co-ltd",
   "website": "https://www.qdthermal.example.com",
@@ -15,9 +15,9 @@
   "phone": [
     "+86-532-8000-1001"
   ],
-  "country_name": "China",
-  "city": "Qingdao",
-  "address": "Qingdao, Shandong, China",
+  "country_name": "中国",
+  "city": "青島",
+  "address": "中国・山東省青島",
   "established_year": "2012",
   "factory_area": "12000m2",
   "employee_count": "120+",
@@ -31,9 +31,9 @@
     "meta_description": "Mock manufacturer profile for testing plate heat exchangers, HVAC modules, and hygienic process cooling solutions."
   },
   "industries": [
-    "HVAC",
-    "Food Processing",
-    "Food and Beverage"
+    "空調・換気・暖房",
+    "食品加工",
+    "食品・飲料"
   ],
   "certifications": [
     {
@@ -56,20 +56,20 @@
   "products": [
     {
       "slug": "brazed-plate-cooler-unit",
-      "name": "Brazed Plate Cooler Unit",
-      "short_description": "Mock product for brazed plate cooler unit testing.",
+      "name": "ろう付けプレート式クーラーユニット",
+      "short_description": "ろう付けプレート式クーラーユニットのテスト用モック製品データ。",
       "url": "qingdao-thermal-systems-co-ltd/brazed-plate-cooler-unit"
     },
     {
       "slug": "compact-exhaust-gas-economizer",
-      "name": "Compact Exhaust Gas Economizer",
-      "short_description": "Mock product for compact exhaust gas economizer testing.",
+      "name": "コンパクト排ガスエコノマイザー",
+      "short_description": "コンパクト排ガスエコノマイザーのテスト用モック製品データ。",
       "url": "qingdao-thermal-systems-co-ltd/compact-exhaust-gas-economizer"
     },
     {
       "slug": "marine-central-cooler-package",
-      "name": "Marine Central Cooler Package",
-      "short_description": "Mock product for marine central cooler package testing.",
+      "name": "舶用セントラルクーラーパッケージ",
+      "short_description": "舶用セントラルクーラーパッケージのテスト用モック製品データ。",
       "url": "qingdao-thermal-systems-co-ltd/marine-central-cooler-package"
     }
   ]
