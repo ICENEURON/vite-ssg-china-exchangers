@@ -1,0 +1,27 @@
+{
+  "title": "Industrial Heat Exchangers",
+  "description": "Discover our comprehensive range of industrial heat exchangers, including plate heat exchangers, shell and tube, and specialized custom solutions for various industries.",
+  "hero": {
+    "badge": "Premium Heat Transfer Solutions",
+    "title": "Industrial Heat Exchangers",
+    "description": "Discover our comprehensive range of industrial heat exchangers, including plate heat exchangers, shell and tube, and specialized custom solutions for various industries."
+  },
+  "card": {
+    "no_image": "No Image Available",
+    "explore_details": "Explore Details",
+    "more_industries": "+{{count}} more"
+  },
+  "cta": {
+    "title": "Not Sure Which Product You Need?",
+    "description": "Our interactive RFQ tool helps you specify your application parameters, and we'll match you with verified manufacturers who produce the exact heat exchanger you need.",
+    "button": "Build Request for Quote Now"
+  },
+  "detail": {
+    "view_manufacturer": "View Manufacturer",
+    "request_quote": "Request Quote",
+    "key_advantages": "Key Advantages",
+    "technical_specifications": "Technical Specifications",
+    "certifications": "Certifications",
+    "certificate_alt": "Certificate"
+  }
+}

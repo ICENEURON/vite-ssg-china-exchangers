@@ -1,0 +1,27 @@
+{
+  "title": "工業換熱器",
+  "description": "探索我們全面的工業換熱器系列，包括板式換熱器、管殼式換熱器以及針對各種行業的定制解決方案。",
+  "hero": {
+    "badge": "優質熱傳導解決方案",
+    "title": "工業換熱器",
+    "description": "探索我們全面的工業換熱器系列，包括板式換熱器、管殼式換熱器以及針對各種行業的定制解決方案。"
+  },
+  "card": {
+    "no_image": "無可用圖片",
+    "explore_details": "探索詳情",
+    "more_industries": "還有 {{count}} 個"
+  },
+  "cta": {
+    "title": "不確定您需要哪種產品？",
+    "description": "我們的互動式詢價 (RFQ) 工具幫助您指定應用參數，我們將為您匹配能夠生產您所需精確換熱器的驗證製造商。",
+    "button": "立即建立詢價需求"
+  },
+  "detail": {
+    "view_manufacturer": "查看製造商",
+    "request_quote": "請求報價",
+    "key_advantages": "主要優勢",
+    "technical_specifications": "技術規格",
+    "certifications": "認證",
+    "certificate_alt": "證書"
+  }
+}

@@ -1,7 +1,7 @@
 import { Head } from 'vite-react-ssg'
 import { Link, useParams, Navigate } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
-import { ArrowRight, Box, CheckCircle2, ChevronRight, Layers, Maximize2, Settings, Shield, Thermometer, Factory, MapPin } from "lucide-react"
+import { CheckCircle2, Settings, Shield, Factory } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { useTranslation } from 'react-i18next'
 import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-routing'
@@ -68,7 +68,7 @@ export default function ProductProfilePage() {
                             {/* Product Info */}
                             <div className="w-full md:w-1/2 flex flex-col items-start gap-6">
                                 <Badge variant="secondary" className="bg-primary/20 text-blue-300 border-none px-4 py-1.5 backdrop-blur-md mb-2">
-                                    Premium Heat Transfer Solutions
+                                    {t("pages.products.hero.badge")}
                                 </Badge>
                                 <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-tight">
                                     {name}
@@ -88,12 +88,12 @@ export default function ProductProfilePage() {
                                 <div className="flex flex-col sm:flex-row gap-4 mt-6 w-full sm:w-auto">
                                     <Button size="lg" className="h-14 px-8 text-lg font-medium shadow-lg hover:scale-105 transition-transform w-full sm:w-auto" asChild>
                                         <Link defaultChecked to={addLanguageToPath(`/manufacturers/${manufacturerSlug}`, currentLanguage)}>
-                                            <Factory className="mr-2 h-5 w-5" /> View Manufacturer
+                                            <Factory className="mr-2 h-5 w-5" /> {t("pages.products.detail.view_manufacturer")}
                                         </Link>
                                     </Button>
                                     <Button size="lg" variant="outline" className="h-14 px-8 text-lg font-medium border-slate-700 text-slate-300 hover:bg-slate-800 hover:text-white w-full sm:w-auto" asChild>
                                         <Link to={addLanguageToPath("/rfq", currentLanguage)}>
-                                            Request Quote
+                                            {t("pages.products.detail.request_quote")}
                                         </Link>
                                     </Button>
                                 </div>
@@ -112,7 +112,7 @@ export default function ProductProfilePage() {
                                 <div className="p-3 bg-primary/10 rounded-xl text-primary">
                                     <CheckCircle2 className="w-6 h-6" />
                                 </div>
-                                <h2 className="text-3xl font-bold tracking-tight">Key Advantages</h2>
+                                <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.key_advantages")}</h2>
                             </div>
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                                 {advantages.map((adv: string, idx: number) => (
@@ -132,7 +132,7 @@ export default function ProductProfilePage() {
                                 <div className="p-3 bg-blue-500/10 rounded-xl text-blue-600 dark:text-blue-400">
                                     <Settings className="w-6 h-6" />
                                 </div>
-                                <h2 className="text-3xl font-bold tracking-tight">Technical Specifications</h2>
+                                <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.technical_specifications")}</h2>
                             </div>
                             <div className="bg-card rounded-2xl border border-border/50 overflow-hidden shadow-sm">
                                 <table className="w-full text-left border-collapse">
@@ -156,14 +156,14 @@ export default function ProductProfilePage() {
                                 <div className="p-3 bg-amber-500/10 rounded-xl text-amber-600 dark:text-amber-500">
                                     <Shield className="w-6 h-6" />
                                 </div>
-                                <h2 className="text-3xl font-bold tracking-tight">Certifications</h2>
+                                <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.certifications")}</h2>
                             </div>
                             <div className="flex flex-wrap gap-6 items-center">
                                 {certificates.map((cert: any, idx: number) => (
                                     <div key={idx} className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-center min-w-[120px] hover:shadow-md transition-shadow">
                                         <img
                                             src={cert.url}
-                                            alt={cert.alt_text || 'Certificate'}
+                                            alt={cert.alt_text || t("pages.products.detail.certificate_alt")}
                                             className="h-16 object-contain mix-blend-multiply"
                                             title={cert.alt_text}
                                         />

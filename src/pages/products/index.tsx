@@ -23,7 +23,7 @@ export default function ProductsPage() {
     return (
         <>
             <Head>
-                <title>{t("title")} | Industrial Heat Exchangers</title>
+                <title>{t("title")}</title>
                 <meta name="description" content={t("description")} />
             </Head>
 
@@ -36,7 +36,7 @@ export default function ProductsPage() {
 
                     <div className="relative max-w-6xl mx-auto z-10 flex flex-col items-center text-center">
                         <Badge className="mb-6 bg-primary/20 text-blue-300 border-none px-4 py-1.5 backdrop-blur-md">
-                            Premium Heat Transfer Solutions
+                            {t("hero.badge")}
                         </Badge>
                         <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-8 tracking-tight max-w-4xl">
                             {t("title")}
@@ -66,7 +66,7 @@ export default function ProductsPage() {
                                             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out mix-blend-multiply"
                                         />
                                     ) : (
-                                        <div className="text-slate-400">No Image Available</div>
+                                        <div className="text-slate-400">{t("card.no_image")}</div>
                                     )}
                                     <div className="absolute bottom-4 right-4 z-20 p-3 bg-white/90 backdrop-blur rounded-full shadow-lg transform translate-y-12 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
                                         <ArrowRight className="w-5 h-5 text-primary" />
@@ -91,12 +91,12 @@ export default function ProductsPage() {
                                             ))}
                                             {product.industries?.length > 3 && (
                                                 <Badge variant="secondary" className="font-normal opacity-80 text-muted-foreground">
-                                                    +{product.industries.length - 3} more
+                                                    {t("card.more_industries", { count: product.industries.length - 3 })}
                                                 </Badge>
                                             )}
                                         </div>
                                         <div className="flex items-center text-sm font-semibold text-primary mt-2">
-                                            Explore Details
+                                            {t("card.explore_details")}
                                             <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" />
                                         </div>
                                     </div>
@@ -113,14 +113,14 @@ export default function ProductsPage() {
                         <div className="absolute bottom-0 left-0 p-32 bg-orange-500/10 rounded-full blur-[100px] -ml-16 -mb-16 pointer-events-none" />
 
                         <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 relative z-10">
-                            Not Sure Which Product You Need?
+                            {t("cta.title")}
                         </h2>
                         <p className="text-blue-200 text-lg mb-10 max-w-2xl mx-auto relative z-10">
-                            Our interactive RFQ tool helps you specify your application parameters, and we'll match you with verified manufacturers who produce the exact heat exchanger you need.
+                            {t("cta.description")}
                         </p>
                         <Button size="lg" className="relative z-10 text-lg h-14 px-8 bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 shadow-xl hover:scale-105 transition-all text-white font-bold rounded-full" asChild>
                             <Link to={addLanguageToPath("/rfq", currentLanguage)}>
-                                Build Request for Quote Now
+                                {t("cta.button")}
                             </Link>
                         </Button>
                     </div>

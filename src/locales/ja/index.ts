@@ -17,6 +17,7 @@ import manufacturersList from './pages/manufacturers/list.json';
 
 // --- Products --- 
 import productsList from './pages/products/list.json';
+import productsPage from './pages/products-page.json';
 
 // --- Dynamic Imports for Manufacturers ---
 const mfgFiles = import.meta.glob('./pages/manufacturers/*.json', { eager: true, import: 'default' });
@@ -35,7 +36,7 @@ for (const path in mfgFiles) {
 // --- Dynamic Imports for Products ---
 const productFiles = import.meta.glob('./pages/products/**/*.json', { eager: true, import: 'default' });
 const productsData: Record<string, any> = {
-  ...productsList,
+  ...productsPage,
   list: productsList
 };
 
