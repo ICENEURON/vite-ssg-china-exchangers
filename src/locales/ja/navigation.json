@@ -2,30 +2,25 @@
   "menu": {
     "home": "ホーム",
     "for_buyers_label": "バイヤー向け",
-    "manufacturers": "認証済みサプライヤー",
+    "manufacturers": "検証済みメーカー一覧",
     "products": "製品カテゴリー",
-    "rfq": "見積依頼 (RFQ)",
-    "for_manufacturers_label": "サプライヤー向け",
-    "profile": "企業プロファイルを登録",
-    "content_marketing_services": "コンテンツマーケティング",
+    "rfq": "RFQ（見積依頼）の送信",
+    "for_manufacturers_label": "メーカー向け",
+    "profile": "プロフィールの申請",
+    "content_marketing_services": "コンテンツマーケティングサービス",
     "about": "私たちについて",
     "industry-news": "業界ニュース",
     "contact": "お問い合わせ",
     "login": "ログイン",
-    "register": "新規登録",
+    "register": "登録",
     "dashboard": "ダッシュボード",
     "logout": "ログアウト",
     "terms": "利用規約",
-    "privacy": "プライバシー"
+    "privacy": "プライバシーポリシー"
   },
   "breadcrumb": {
     "home": "ホーム",
     "current_page": "現在のページ"
   },
-  "sections": {
-    "technologies": "技術",
-    "getting_started": "はじめに",
-    "resources": "リソース",
-    "community": "コミュニティ"
-  }
+  "logo": "HeatEx Direct"
 }

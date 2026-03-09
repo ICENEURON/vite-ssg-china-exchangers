@@ -1,49 +1,103 @@
 {
-  "title": "關於我們的技術棧",
+  "title": "HeatEx Direct | 工業換熱器製造商",
   "meta": {
-    "description": "了解我們的現代網頁開發技術棧，包含 React、Vite、TailwindCSS 和 Shadcn UI 組件，用於構建快速、美觀且易於訪問的應用程式。",
-    "keywords": "react, vite, tailwindcss, shadcn, typescript, 現代網頁開發, 組件庫, UI設計"
+    "description": "直接從經過驗證的中國工廠採購工業換熱器。人工核實營業執照、生產範圍和ASME證書。",
+    "keywords": "換熱器, 中國製造商, 工業採購, ASME, ISO, 板式換熱器, 管殼式換熱器"
   },
   "og": {
-    "title": "關於我們的技術棧 - React + Vite + TailwindCSS + Shadcn",
-    "description": "探索使用 React、Vite、TailwindCSS 和 Shadcn UI 組件進行現代網頁開發的強大功能。"
+    "title": "HeatEx Direct - 驗證工廠直連",
+    "description": "直接從經過驗證的中國工廠採購工業換熱器。人工核實營業執照、生產範圍和ASME證書。",
+    "image": "/static/websites/home-hero.png",
+    "url": "{{url}}",
+    "type": "website",
+    "site_name": "{{site_name}}"
   },
-  "mission": {
-    "title": "我們的使命",
-    "description": "透過使用 React、Vite、TailwindCSS 和 Shadcn UI 組件創建快速、美觀且易於訪問的應用程式，展示現代網頁開發工具的強大功能。"
+  "hero": {
+    "badge": "減少等待，優化採購。",
+    "title": "我們是 Heat<1>Ex</1> Direct。",
+    "title_highlight": "通往驗證製造商的最短路徑。",
+    "description_1": "世界不需要另一個包含 10,000 家隨機供應商的目錄。它需要的是 10 家最頂尖企業的精選名單。",
+    "description_2_prefix": "我們為您填補了",
+    "description_2_highlight": "「信任鴻溝」",
+    "description_2_suffix": "讓您無後顧之憂。"
   },
-  "technologies": {
-    "title": "我們的技術棧",
-    "react": {
-      "title": "React 18+",
-      "description": "業界領先的 JavaScript 函式庫，用於構建用戶介面，具有現代 hooks、並發功能和出色的開發體驗。"
+  "who_we_are": {
+    "badge": "我們的身份",
+    "title": "通往中國工業核心的可靠橋樑",
+    "description": "在人工智慧 (AI) 產生無盡內容的時代，手動的實地驗證價值變得比以往任何時候都更加珍貴。我們的存在是為了排除噪音。我們不僅僅是一個目錄；我們是一個專門發掘換熱器產業「隱形冠軍」的技術驗證平台——這些公司擁有世界級的工程技術，卻缺乏應得的全球知名度。",
+    "features": {
+      "experience": {
+        "title": "10 年以上的深度洞察",
+        "desc": "深耕本地供應鏈使我們能夠區分中間商和真正的製造商，確保您直接與源頭工廠交易。"
+      },
+      "verification": {
+        "title": "嚴謹的人工驗證",
+        "desc": "我們手動審核營業執照、生產能力和 ASME/ISO 認證。我們用「經證實的」事實取代「自稱的」品質。"
+      },
+      "connect": {
+        "title": "全球鏈結",
+        "desc": "搭建信任的橋樑。我們超越了語言翻譯，致力於協調工程標準與商業期望，為全球貿易建立一條可靠的通道。"
+      }
     },
-    "vite": {
-      "title": "Vite",
-      "description": "閃電般快速的構建工具和開發伺服器，提供即時熱模組替換和優化的生產構建。"
-    },
-    "tailwindcss": {
-      "title": "TailwindCSS",
-      "description": "實用優先的 CSS 框架，能夠透過一致的設計系統和響應式佈局實現快速 UI 開發。"
-    },
-    "shadcn": {
-      "title": "Shadcn UI",
-      "description": "基於 Radix UI 原語構建並使用 TailwindCSS 樣式化的現代、易於訪問且可定製的 React 組件庫。"
+    "transparency": {
+      "title": "我們的商業模式",
+      "subtitle": "對買家 100% 免費",
+      "desc": "我們不會向您收取任何費用。您可以自由取得我們所有驗證過的資訊並直接聯絡工廠。只要能促成雙贏的交易，我們就感到高興。如果您選擇讓工廠知道是我們提供了協助，我們將從他們那裡獲得合理的推薦費——但我們的首要目標始終是您的滿意度。"
     }
   },
-  "features": {
-    "title": "主要功能",
-    "performance": "透過樹搖和程式碼分割優化效能",
-    "typescript": "完整的 TypeScript 支援，實現型別安全開發",
-    "ssg": "靜態網站生成，改善 SEO 和載入速度",
-    "responsive": "使用 TailwindCSS 的行動優先響應式設計",
-    "accessibility": "符合 WCAG 標準的組件，具有適當的 ARIA 屬性",
-    "dark_mode": "內建暗色模式支援，具有系統偏好檢測"
+  "advantages": {
+    "badge": "我們的優勢",
+    "title": "採購，變得簡單且安全。",
+    "description_1": "您的隱私是我們的首要任務。直接暴露身份會導致不請自來的垃圾郵件，並讓供應商掌握優勢。我們會在您準備好交易之前保護您的身份。",
+    "description_2": "時間是您最寶貴的資產。傳統的供應商審核每家需要 4-6 週。我們將其濃縮為一個單一、高效率的流程，在短短 48 小時內即可提供經過驗證的精選名單和具有競爭力的報價。",
+    "visual": {
+      "header_standard": "傳統採購",
+      "header_us": "HeatEx Direct",
+      "row_1": {
+        "standard": "繁雜重複的電子郵件",
+        "us": "一站式高效採購"
+      },
+      "row_2": {
+        "standard": "選項有限",
+        "us": "全球化比價"
+      },
+      "row_3": {
+        "standard": "資訊外洩",
+        "us": "隱私保護"
+      },
+      "footer": "節省時間。保護隱私。"
+    }
   },
-  "contact": {
-    "title": "開始使用",
-    "description": "準備好使用我們的技術棧構建出色的應用程式了嗎？",
-    "github": "在 GitHub 上查看我們的程式碼",
-    "profile": "閱讀我們的綜合文檔"
+  "verification": {
+    "title": "4 步驟的標準流程",
+    "description": "我們不會只聽信他們的一面之詞。我們會驗證一切細節。",
+    "steps": {
+      "scope": {
+        "title": "1. 營業範圍驗證",
+        "description": "我們檢查官方營業執照。如果範圍註明「批發」而非「製造」，他們將被排除在外。",
+        "value": "避免中間商"
+      },
+      "database": {
+        "title": "2. 資料庫交叉比對",
+        "description": "我們直接對照發證機構的官方即時資料庫，來驗證 ASME 'U' 鋼印和 ISO 證書。",
+        "value": "確保合規性"
+      },
+      "shipping": {
+        "title": "3. 提單 (B/L) 分析",
+        "description": "我們分析航運紀錄，確認該工廠擁有出口到北美或歐洲的歷史經驗。",
+        "value": "驗證實績經驗"
+      },
+      "location": {
+        "title": "4. 廠址確認",
+        "description": "我們透過衛星影像核實，確保該地址是一個正在運作的生產廠房，而不是一個銷售辦公室。",
+        "value": "確認生產能力"
+      }
+    }
+  },
+  "cta": {
+    "title": "準備好充滿信心地採購了嗎？",
+    "subtitle": "停止盲目猜測。開始建立連結。",
+    "button": "瀏覽已驗證製造商",
+    "email_text": "有任何問題嗎？向我們發送電子郵件："
   }
 }

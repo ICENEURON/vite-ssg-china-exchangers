@@ -161,7 +161,7 @@ export function Navigation() {
             if (route.path === '/claim-your-profile') {
                 const isProfileActive = isActiveLink('/claim-your-profile') || isActiveLink('/content-marketing-services');
                 return (
-                    <NavPopup key={route.path} label={'For Manufacturers'} isActive={isProfileActive} className="left-0">
+                    <NavPopup key={route.path} label={t('navigation.menu.for_manufacturers_label')} isActive={isProfileActive} className="left-0">
                         <ul className="grid w-[300px] gap-3 p-2">
                             <ListItem href={getLocalizedPath("/claim-your-profile")} title={t('navigation.menu.profile')} className="py-3">
                             </ListItem>

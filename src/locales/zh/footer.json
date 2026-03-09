@@ -1,44 +1,24 @@
 {
-  "technologies": {
-    "title": "技術",
-    "links": {
-      "react": "React",
-      "vite": "Vite", 
-      "tailwindcss": "TailwindCSS",
-      "shadcn": "Shadcn UI"
-    }
+  "logo": {
+    "alt": "HeatEx Direct",
+    "title": "HeatEx Direct"
   },
-  "resources": {
-    "title": "資源",
-    "links": {
-      "documentation": "文檔",
-      "components": "組件",
-      "examples": "示例",
-      "github": "GitHub"
-    }
-  },
-  "guides": {
-    "title": "指南",
-    "links": {
-      "getting_started": "快速開始",
-      "customization": "自定義",
-      "deployment": "部署",
-      "best_practices": "最佳實踐"
-    }
-  },
-  "community": {
-    "title": "社群",
-    "links": {
-      "discord": "Discord",
-      "twitter": "Twitter",
-      "github": "GitHub",
-      "discussions": "討論"
+  "tagline": "經過分析師驗證的工業熱交換設備採購平台。",
+  "links": {
+    "items": {
+      "home": "首頁",
+      "manufacturers": "已驗證製造商目錄",
+      "rfq": "詢價 (RFQ) 工具",
+      "profile": "認領您的專屬頁面",
+      "content-marketing-services": "內容行銷服務",
+      "industry-news": "產業新聞",
+      "about": "關於我們",
+      "contact": "聯絡我們"
     }
   },
   "legal": {
-    "copyright": "© {{year}} 現代網頁技術棧。保留所有權利。",
-    "terms": "服務條款",
-    "privacy_policy": "隱私政策"
-  },
-  "tagline": "使用 React + Vite + TailwindCSS + Shadcn 的現代網頁開發"
+    "copyright": "© {{year}} HeatEx Direct. 保留所有權利。",
+    "terms": "使用條款",
+    "privacy": "隱私權政策"
+  }
 }

@@ -1,44 +1,24 @@
 {
-  "technologies": {
-    "title": "技術",
-    "links": {
-      "react": "React",
-      "vite": "Vite", 
-      "tailwindcss": "TailwindCSS",
-      "shadcn": "Shadcn UI"
-    }
+  "logo": {
+    "alt": "HeatEx Direct",
+    "title": "HeatEx Direct"
   },
-  "resources": {
-    "title": "リソース",
-    "links": {
-      "documentation": "ドキュメント",
-      "components": "コンポーネント",
-      "examples": "例",
-      "github": "GitHub"
-    }
-  },
-  "guides": {
-    "title": "ガイド",
-    "links": {
-      "getting_started": "はじめに",
-      "customization": "カスタマイズ",
-      "deployment": "デプロイ",
-      "best_practices": "ベストプラクティス"
-    }
-  },
-  "community": {
-    "title": "コミュニティ",
-    "links": {
-      "discord": "Discord",
-      "twitter": "Twitter",
-      "github": "GitHub",
-      "discussions": "議論"
+  "tagline": "アナリストによって検証された産業用熱交換器の調達プラットフォーム。",
+  "links": {
+    "items": {
+      "home": "ホーム",
+      "manufacturers": "検証済みメーカー一覧",
+      "rfq": "見積依頼（RFQ）ツール",
+      "profile": "プロフィールの申請",
+      "content-marketing-services": "コンテンツマーケティングサービス",
+      "industry-news": "業界ニュース",
+      "about": "私たちについて",
+      "contact": "お問い合わせ"
     }
   },
   "legal": {
-    "copyright": "© {{year}} モダンWebテックスタック。すべての権利を保有。",
+    "copyright": "© {{year}} HeatEx Direct. All rights reserved.",
     "terms": "利用規約",
-    "privacy_policy": "プライバシーポリシー"
-  },
-  "tagline": "React + Vite + TailwindCSS + Shadcn を使ったモダンWeb開発"
+    "privacy": "プライバシーポリシー"
+  }
 }

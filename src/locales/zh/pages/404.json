@@ -1,11 +1,6 @@
 {
-  "title": "頁面未找到",
-  "meta": {
-    "description": "請求的頁面不存在"
-  },
-  "message": "抱歉，找不到您要求的頁面。",
-  "actions": {
-    "home": "返回首頁",
-    "back": "返回上一頁"
-  }
+  "title": "404",
+  "heading": "找不到頁面",
+  "description": "您正在尋找的頁面不存在或已被移動。",
+  "backButton": "返回首頁"
 }

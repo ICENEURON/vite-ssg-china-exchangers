@@ -1,129 +1,74 @@
 {
-  "title": "React + Vite + TailwindCSS + Shadcn - 現代網頁開發",
+  "title": "HeatEx Direct | 工業換熱器製造商",
   "meta": {
-    "description": "探索使用 React 18、Vite、TailwindCSS 和 Shadcn UI 進行現代網頁開發的強大功能。構建快速、美觀且易於訪問的應用程式，享受最佳的開發體驗。",
-    "keywords": "react, vite, tailwindcss, shadcn, typescript, 現代網頁開發, 組件庫, UI設計, 靜態網站生成"
+    "description": "直接從經過驗證的中國工廠採購工業換熱器。人工審核營業執照、生產範圍和ASME證書。",
+    "keywords": "換熱器, 中國製造商, 工業採購, ASME, ISO, 板式換熱器, 管殼式換熱器"
   },
   "og": {
-    "title": "React + Vite + TailwindCSS + Shadcn - 現代網頁開發",
-    "description": "體驗網頁開發的未來，我們強大的技術棧包含 React、Vite、TailwindCSS 和 Shadcn UI 組件。"
+    "title": "HeatEx Direct - 驗證工廠直連",
+    "description": "直接從經過驗證的中國工廠採購工業換熱器。人工審核營業執照、生產範圍和ASME證書。",
+    "image": "/static/websites/home-hero.png",
+    "url": "{{url}}",
+    "type": "website",
+    "site_name": "{{site_name}}"
   },
   "hero": {
-    "title": "現代網頁開發技術棧",
-    "subtitle": "React + Vite + TailwindCSS + Shadcn UI",
-    "description1": "體驗我們精心策劃的技術棧帶來的現代網頁開發力量。",
-    "description2": "使用業界領先的工具和最佳實踐，構建閃電般快速、美觀且易於訪問的應用程式。",
-    "cta_primary": "探索功能",
-    "cta_secondary": "查看文檔"
-  },
-  "technologies": {
-    "title": "強大的技術協同合作",
-    "react": {
-      "title": "React 18+",
-      "description": "具有 hooks、並發功能和服務器組件的現代 React，用於構建互動式用戶介面。",
-      "features": [
-        "基於組件的架構",
-        "虛擬 DOM 優化",
-        "豐富的生態系統",
-        "優秀的工具"
-      ]
-    },
-    "vite": {
-      "title": "Vite 構建工具",
-      "description": "下一代前端工具，具有即時服務器啟動和閃電般快速的 HMR。",
-      "features": [
-        "即時開發服務器",
-        "優化構建",
-        "插件生態系統",
-        "原生 ES 模塊"
-      ]
-    },
-    "tailwindcss": {
-      "title": "TailwindCSS",
-      "description": "實用優先的 CSS 框架，用於快速構建自訂用戶介面。",
-      "features": [
-        "實用優先方法",
-        "響應式設計",
-        "自訂設計系統",
-        "JIT 編譯"
-      ]
-    },
-    "shadcn": {
-      "title": "Shadcn UI",
-      "description": "建立在 Radix UI 原語上的美觀且易於訪問的 React 組件。",
-      "features": [
-        "易於訪問的組件",
-        "可自訂主題",
-        "TypeScript 支援",
-        "複製粘貼即用"
-      ]
+    "title": "直接從經過驗證的中國工廠採購工業換熱器",
+    "subtitle": "告別盲目猜測。我們人工核實營業執照、生產範圍和ASME證書，以過濾掉貿易公司。100%透明，0%中間商利潤。",
+    "cta_primary": "發起隱匿詢價（免費）",
+    "cta_secondary": "瀏覽製造商",
+    "trust_bar": {
+      "verified": "分析師嚴格驗證",
+      "direct": "工廠直連尋源",
+      "database": "ASME/ISO 數據庫核查"
     }
   },
-  "features": {
-    "title": "為什麼選擇這個技術棧",
-    "items": [
+  "valueProp": {
+    "title": "為什麼工程師更信任我們而非綜合類採購平台",
+    "cards": [
       {
-        "title": "閃電般快速",
-        "description": "Vite 的即時 HMR 和優化構建確保最快的開發體驗"
+        "title": "盡職調查級別的審核",
+        "body": "我們不信任算法。我們的分析師透過政府註冊系統人工核查，確保列出的每家供應商都擁有自己的生產線。絕不出售「金牌」認證標記。"
       },
       {
-        "title": "類型安全",
-        "description": "所有工具的完整 TypeScript 支援，實現自信、無錯誤的開發"
+        "title": "隱匿採購模式",
+        "body": "厭倦了垃圾郵件？使用我們的「盲詢」工具生成技術規格，在您準備好之前無需向供貨商透露您的真實身份。"
       },
       {
-        "title": "美觀的 UI",
-        "description": "Shadcn UI 組件與 TailwindCSS 提供令人驚豔、易於訪問的介面"
+        "title": "公開數據透明",
+        "body": "我們公開顯示工廠的真實位置、出口記錄和證書編號。我們不會為了強制促成中間交易而隱藏信息。"
       },
       {
-        "title": "SEO 優化",
-        "description": "靜態網站生成和元標籤優化，實現出色的搜尋排名"
-      },
-      {
-        "title": "開發者體驗",
-        "description": "現代工具、熱重載和出色的調試功能"
-      },
-      {
-        "title": "生產就緒",
-        "description": "包含優化構建、搖樹優化和性能監控"
+        "title": "表單化詢價",
+        "body": "幾秒鐘內快速生成詢價單。"
       }
     ]
   },
-  "getting_started": {
-    "title": "幾分鐘內開始",
+  "categoryShowcase": {
+    "title": "全面的製造商庫",
+    "alt": "全面的製造商",
+    "description": "探索我們廣泛的換熱器製造商名錄。從標準的板式換熱器到定制設計的管殼式設備，為您的特定工業需求找到合適的合作夥伴。",
+    "cta": "瀏覽所有製造商"
+  },
+  "howItWorks": {
+    "title": "讓採購變得簡單且安全",
     "steps": [
       {
-        "title": "安裝依賴",
-        "description": "npm install 或 pnpm install",
-        "code": "pnpm install"
+        "title": "1. 制定規格",
+        "body": "在我們的標準化表格中輸入您的技術參數（如流量、溫度、材質等）。"
       },
       {
-        "title": "啟動開發",
-        "description": "運行開發服務器",
-        "code": "pnpm dev"
+        "title": "2. 隱匿模式",
+        "body": "開啟「匿名模式」，在初期向供應商隱藏您的具體聯繫方式。"
       },
       {
-        "title": "構建生產版本",
-        "description": "生成優化的靜態文件",
-        "code": "pnpm build"
+        "title": "3. 一鍵發布",
+        "body": "一鍵將您的詢價單發送給與您的生產能力相匹配且經過驗證的工廠。"
+      },
+      {
+        "title": "4. 對比方案",
+        "body": "接收直接報價，並直觀地對比各項技術方案。"
       }
     ]
-  },
-  "rfq": {
-    "title": "常見問題",
-    "items": [
-      {
-        "question": "為什麼選擇這個特定的技術組合？",
-        "answer": "我們精心選擇了這些工具的協同效應：React 用於組件架構，Vite 用於開發速度，TailwindCSS 用於樣式效率，Shadcn 用於易於訪問的組件。"
-      },
-      {
-        "question": "這適合生產應用嗎？",
-        "answer": "絕對適合！這個技術棧經過實戰考驗，被數千個生產應用使用。它包含優化、SEO 功能和性能監控。"
-      },
-      {
-        "question": "如何自訂組件？",
-        "answer": "Shadcn 組件設計為可複製和自訂。您擁有代碼，可以修改組件以符合您的設計要求。"
-      }
-    ]
-  },
-  "currentTime": "當前時間：{{time}}"
+  }
 }

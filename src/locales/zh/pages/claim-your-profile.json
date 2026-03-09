@@ -1,96 +1,117 @@
 {
-  "title": "文檔 - React + Vite + TailwindCSS + Shadcn",
+  "title": "認領您的專屬頁面 - HeatEx Direct",
   "meta": {
-    "description": "使用 React、Vite、TailwindCSS 和 Shadcn UI 構建現代網頁應用程式的完整文檔。全面的指南、教程和最佳實踐。",
-    "keywords": "文檔, 指南, react, vite, tailwindcss, shadcn, typescript, 教程, 網頁開發"
+    "description": "直接從經過驗證的中國工廠採購工業換熱器。人工核實營業執照、生產範圍和ASME證書。",
+    "keywords": "換熱器, 中國製造商, 工業採購, ASME, ISO, 板式換熱器, 管殼式換熱器"
   },
   "og": {
-    "title": "文檔 - React + Vite + TailwindCSS + Shadcn",
-    "description": "透過我們涵蓋 React、Vite、TailwindCSS 和 Shadcn UI 的全面文檔，掌握現代網頁開發。"
+    "title": "HeatEx Direct - 驗證工廠直連",
+    "description": "直接從經過驗證的中國工廠採購工業換熱器。人工核實營業執照、生產範圍和ASME證書。",
+    "image": "/static/websites/home-hero.png",
+    "url": "{{url}}",
+    "type": "website",
+    "site_name": "{{site_name}}"
   },
   "hero": {
-    "title": "完整開發指南",
-    "subtitle": "掌握 React + Vite + TailwindCSS + Shadcn",
-    "description": "全面的文檔幫助您使用我們的現代技術棧構建出色的網頁應用程式。"
-  },
-  "sections": {
-    "getting_started": {
-      "title": "快速開始",
-      "description": "快速設定指南，讓您在幾分鐘內啟動並運行",
-      "topics": [
-        "安裝與設定",
-        "項目結構",
-        "開發流程",
-        "環境配置"
-      ]
+    "status_badge": "資料庫狀態：活躍",
+    "title_prefix": "您的工廠",
+    "title_suffix": "已被收錄。",
+    "description": "每個月都有成千上萬的買家搜尋我們的目錄。不要讓未認領的資料代表您的工程能力。驗證您的資料以解鎖「官方供應商」徽章。",
+    "features": {
+      "manual_verification": "人工驗證",
+      "license_check": "執照檢查"
     },
-    "react_guide": {
-      "title": "React 開發",
-      "description": "在我們的技術棧中進行 React 開發的最佳實踐",
-      "topics": [
-        "組件架構",
-        "Hooks 和狀態管理",
-        "性能優化",
-        "測試策略"
-      ]
-    },
-    "vite_tooling": {
-      "title": "Vite 構建工具",
-      "description": "利用 Vite 的強大功能進行開發和生產",
-      "topics": [
-        "開發服務器",
-        "構建優化",
-        "插件配置",
-        "資源處理"
-      ]
-    },
-    "styling": {
-      "title": "使用 TailwindCSS 樣式",
-      "description": "掌握 TailwindCSS 的實用優先 CSS",
-      "topics": [
-        "實用類",
-        "響應式設計",
-        "自定義主題",
-        "組件樣式"
-      ]
-    },
-    "components": {
-      "title": "Shadcn UI 組件",
-      "description": "使用易於訪問的組件構建美麗的 UI",
-      "topics": [
-        "組件庫",
-        "自定義指南",
-        "無障礙功能",
-        "主題配置"
-      ]
-    },
-    "deployment": {
-      "title": "部署與生產",
-      "description": "自信地部署您的應用程式",
-      "topics": [
-        "構建流程",
-        "靜態網站生成",
-        "性能優化",
-        "託管選項"
-      ]
+    "cta": "透過電子郵件申請驗證",
+    "certificate": {
+      "title": "註冊證書",
+      "certifies_text": "茲證明該機構",
+      "company_name_placeholder": "公司名稱",
+      "identified_text": "已在以下列表中獲得正式確認",
+      "database_name": "中國製造商列表",
+      "signature_label": "分析師簽名",
+      "status_stamp": "審核中"
     }
   },
-  "quick_links": {
-    "title": "快速連結",
-    "react_docs": "React 文檔",
-    "vite_docs": "Vite 文檔",
-    "tailwind_docs": "TailwindCSS 文檔",
-    "shadcn_docs": "Shadcn UI 文檔",
-    "github_repo": "GitHub 存儲庫",
-    "examples": "程式碼範例"
+  "benefits": {
+    "header": {
+      "title": "掌控權推動成長",
+      "description": "工程師會根據<strong>目前的生產能力</strong>來篩選供應商。如果您的專屬頁面顯示過時的規格，對新一代專案而言您就如同隱形。主動管理是您的競爭優勢。",
+      "verified_badge": "驗證資料可獲得多達 2.4 倍的詢價"
+    },
+    "cards": {
+      "ranking": {
+        "title": "優先排名",
+        "description": "我們的演算法會優先展示<strong>已驗證</strong>的個人資料。認領名錄將立即提升您在高搜尋量關鍵字（如「管殼式」或「板式換熱器維護」）下的曝光率。",
+        "traffic_badge": "+85% 流量"
+      },
+      "verified_signal": {
+        "title": "「分析師驗證」信號",
+        "description": "信任是 B2B 交易的貨幣。已驗證徽章向採購經理表明您的證書（ASME、ISO、PED）是有效的，並且您的工廠正在正常營運中。這消除了「中間商風險」。",
+        "badges": {
+          "verified": "100% 已驗證",
+          "audit": "工廠稽核"
+        },
+        "official_supplier": "官方<br />供應商"
+      }
+    }
   },
-  "resources": {
-    "title": "其他資源",
-    "tutorials": "視頻教程",
-    "examples": "範例項目",
-    "community": "社區論壇",
-    "industry-news": "開發博客",
-    "changelog": "發布說明",
-    "support": "獲得支援"
+  "verification": {
+    "title": "我們會驗證每一個公司細節",
+    "description": "在公開展示之前，我們會確認所有提供的公司資訊都是真實且準確的。這確保買家可以信任與之交易的對象。",
+    "steps": {
+      "submit": {
+        "title": "提交申請",
+        "description": "透過電子郵件向我們發送您的最新資訊和證明文件。"
+      },
+      "audit": {
+        "title": "分析師稽核",
+        "description": "我們的團隊會對照官方政府資料庫，手動核實您的申請內容。"
+      },
+      "update": {
+        "title": "即時更新",
+        "description": "確認無誤後，您的個人資料將在 3-5 個工作日內更新。"
+      }
+    }
+  },
+  "steps_guide": {
+    "title": "如何提交更新",
+    "description": "請將包含以下詳細資訊的電子郵件發送給我們的資料團隊。",
+    "contact": {
+      "email_label": "電子郵件：",
+      "subject_label": "主旨：",
+      "subject_value": "[認領資料] - 您的公司名稱"
+    },
+    "cta_button": "發送電子郵件",
+    "required_info": {
+      "title": "必填資訊",
+      "items": {
+        "identity": {
+          "title": "企業身份",
+          "description": "英文全稱和官方網站。"
+        },
+        "contact": {
+          "title": "主要聯絡人",
+          "description": "出口經理姓名及直達電子郵件。"
+        },
+        "docs": {
+          "title": "證明文件",
+          "description": "營業執照（必備）及有效證書。"
+        }
+      }
+    },
+    "optional_info": {
+      "title": "選填（推薦）",
+      "items": {
+        "photos": {
+          "title": "高解析度照片",
+          "description": "工廠外觀、廠房工作區或關鍵產品照片。"
+        },
+        "description": {
+          "title": "企業描述",
+          "description": "一段簡短更新的「關於我們」，突出您的核心競爭力。"
+        }
+      }
+    },
+    "footer_note": "註：我們保留要求提供額外資訊以證明您是工廠授權代表的權利。"
   }
 }

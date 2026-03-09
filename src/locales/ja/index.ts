@@ -10,7 +10,7 @@ import privacy from './pages/privacy.json';
 import dashboard from './pages/dashboard.json';
 import contact from './pages/contact.json';
 import notFound from './pages/404.json';
-import contentMarketingServices from './pages/content-marketing-services.json';
+import cms from './pages/content-marketing-services.json';
 import manufacturers from './pages/manufacturers.json';
 import manufacturersList from './pages/manufacturers/list.json';
 
@@ -65,7 +65,7 @@ export default {
     terms,
     privacy,
     dashboard,
-    contentMarketingServices,
+    cms,
     contact,
     '404': notFound,
   },

@@ -4,6 +4,7 @@ import home from './pages/home.json';
 import manufacturers from './pages/manufacturers.json';
 import manufacturersList from './pages/manufacturers/list.json';
 import profile from './pages/claim-your-profile.json';
+import cms from './pages/content-marketing-services.json';
 import about from './pages/about.json';
 import login from './pages/login.json';
 import dashboard from './pages/dashboard.json';
@@ -57,6 +58,7 @@ export default {
     manufacturers: manufacturersData,
     products: productsData,
     profile,
+    cms,
     about,
     login,
     dashboard,

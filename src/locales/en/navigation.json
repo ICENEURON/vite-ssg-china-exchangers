@@ -5,7 +5,7 @@
     "manufacturers": "Verified Manufacturers Directory",
     "products": "Product Categories",
     "rfq": "Submit RFQ",
-    "for_manufacturers_label": "For Suppliers",
+    "for_manufacturers_label": "For Manufacturers",
     "profile": "Claim Your Profile",
     "content_marketing_services": "Content Marketing Services",
     "about": "About Us",
@@ -19,8 +19,7 @@
     "privacy": "Privacy"
   },
   "breadcrumb": {
-    "home": "Home",
-    "current_page": "Current Page"
+    "home": "Home"
   },
-  "logo": "React Vite Sgg Starter"
+  "logo": "HeatEx Direct"
 }
