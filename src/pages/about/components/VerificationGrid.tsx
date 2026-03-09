@@ -33,26 +33,26 @@ export function VerificationGrid() {
     ];
 
     return (
-        <section className="py-20 px-4 bg-slate-50 dark:bg-slate-900/50">
-            <div className="container mx-auto max-w-6xl">
-                <div className="text-center mb-16 max-w-3xl mx-auto">
-                    <h2 className="text-3xl md:text-5xl font-bold text-slate-900 dark:text-slate-50 mb-6">
+        <section className="py-10 px-2 flex justify-center bg-slate-50 dark:bg-slate-900/50">
+            <div className="container px-4 max-w-6xl flex flex-col items-center justify-center gap-4">
+                <div className="text-center p-4 w-full flex flex-col items-center justify-center gap-4">
+                    <h2 className="text-3xl md:text-5xl font-bold text-slate-900 dark:text-slate-50 p-2">
                         {t("pages.about.verification.title")}
                     </h2>
-                    <p className="text-xl text-slate-600 dark:text-slate-400">
+                    <p className="text-xl text-slate-600 dark:text-slate-400 p-2">
                         {t("pages.about.verification.description")}
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full justify-items-center">
                     {steps.map((step, index) => (
-                        <Card key={index} className="border-none shadow-md hover:shadow-xl transition-all duration-300 bg-white dark:bg-slate-800 group relative overflow-hidden">
+                        <Card key={index} className="border-none shadow-md hover:shadow-xl transition-all duration-300 bg-white dark:bg-slate-800 group relative overflow-hidden flex flex-col items-center justify-center text-center p-4 w-full gap-4">
                             {/* Hover Accent */}
                             <div className="absolute top-0 left-0 w-1 h-full bg-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-                            <CardHeader className="flex flex-row items-start justify-between gap-4 pb-2">
-                                <div className="flex items-center gap-4">
-                                    <div className="p-3 bg-slate-100 dark:bg-slate-900 rounded-xl group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                            <CardHeader className="flex flex-col items-center justify-center gap-4 p-2 w-full">
+                                <div className="flex flex-col items-center justify-center gap-4">
+                                    <div className="p-4 bg-slate-100 dark:bg-slate-900 rounded-xl group-hover:bg-primary/10 group-hover:text-primary transition-colors">
                                         {step.icon}
                                     </div>
                                     <CardTitle className="text-xl font-bold text-slate-900 dark:text-slate-50">
@@ -60,11 +60,11 @@ export function VerificationGrid() {
                                     </CardTitle>
                                 </div>
                             </CardHeader>
-                            <CardContent>
-                                <p className="text-slate-600 dark:text-slate-300 leading-relaxed text-base mb-4">
+                            <CardContent className="flex flex-col items-center justify-center p-2 w-full gap-4">
+                                <p className="text-slate-600 dark:text-slate-300 leading-relaxed text-base">
                                     {step.description}
                                 </p>
-                                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400">
+                                <span className="inline-flex flex-col items-center justify-center px-4 py-2 rounded-full text-sm font-medium bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400">
                                     {step.value}
                                 </span>
                             </CardContent>
