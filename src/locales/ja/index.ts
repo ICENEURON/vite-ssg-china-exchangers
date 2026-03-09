@@ -11,6 +11,7 @@ import dashboard from './pages/dashboard.json';
 import contact from './pages/contact.json';
 import notFound from './pages/404.json';
 import cms from './pages/content-marketing-services.json';
+import news from './pages/industry-news.json';
 import manufacturers from './pages/manufacturers.json';
 import manufacturersList from './pages/manufacturers/list.json';
 
@@ -66,6 +67,7 @@ export default {
     privacy,
     dashboard,
     cms,
+    news,
     contact,
     '404': notFound,
   },

@@ -11,6 +11,7 @@ import dashboard from './pages/dashboard.json';
 import terms from './pages/terms.json';
 import privacy from './pages/privacy.json';
 import contact from './pages/contact.json';
+import news from './pages/industry-news.json';
 import notFound from './pages/404.json';
 
 // --- Products --- 
@@ -65,6 +66,7 @@ export default {
     terms,
     privacy,
     contact,
+    news,
     '404': notFound,
   },
 } as const;

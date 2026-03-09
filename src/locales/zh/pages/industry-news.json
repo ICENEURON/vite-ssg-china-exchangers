@@ -1,0 +1,42 @@
+{
+    "title": "HeatEx Direct | 工業換熱器製造商",
+    "meta": {
+        "description": "直接從經過驗證的中國工廠採購工業換熱器。人工核實營業執照、生產範圍和ASME證書。",
+        "keywords": "換熱器, 中國製造商, 工業採購, ASME, ISO, 板式換熱器, 管殼式換熱器"
+    },
+    "og": {
+        "title": "HeatEx Direct - 驗證工廠直連",
+        "description": "直接從經過驗證的中國工廠採購工業換熱器。人工核實營業執照、生產範圍和ASME證書。",
+        "image": "/static/websites/home-hero.png",
+        "url": "{{url}}",
+        "type": "website",
+        "site_name": "{{site_name}}"
+    },
+    "page": {
+        "title": "產業見解",
+        "subtitle": "提供換熱器產業最新的市場趨勢、物流更新與技術指南。",
+        "latest": "最新動態"
+    },
+    "hero": {
+        "title": "推動成長的策略性內容",
+        "subtitle": "以數據驅動的內容策略提升您的品牌價值。",
+        "intro": "我們透過高品質、符合 SEO 最佳化的內容，協助 B2B 製造商和出口商與其目標受眾建立連結。從產業新聞文章到技術白皮書，我們的團隊致力於提供能夠建立信任並產生潛在客戶的優質內容。",
+        "badge": "新聞"
+    },
+    "card": {
+        "read": "閱讀文章"
+    },
+    "blog": {
+        "not_found_title": "找不到頁面",
+        "not_found_desc": "您正在尋找的文章可能已被移除、更改名稱，或是暫時無法使用。",
+        "back_to_list": "返回列表",
+        "author": "作者",
+        "reviewer": "審閱者",
+        "read_time": "閱讀時間"
+    },
+    "pagination": {
+        "of": "/",
+        "results": "筆結果",
+        "go_to": "前往"
+    }
+}
