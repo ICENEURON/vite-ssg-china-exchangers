@@ -37,7 +37,7 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleA
                 <div className="w-12 h-12 bg-green-100 dark:bg-green-800 rounded-full flex items-center justify-center mb-4">
                     <Check className="w-6 h-6 text-green-600 dark:text-green-400" />
                 </div>
-                <h3 className="text-xl font-bold text-green-800 dark:text-green-300">Email Verified Successfully!</h3>
+                <h3 className="text-xl font-bold text-green-800 dark:text-green-300">{t("step4.emailVerifiedTitle")}</h3>
                 <p className="text-sm text-green-600 dark:text-green-400 mt-2">({email})</p>
             </div>
 
@@ -49,10 +49,10 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleA
                     </div>
                     <div>
                         <div className="font-bold text-slate-900 dark:text-slate-50">
-                            {isAnonymous ? "Anonymous Mode" : "Public Mode"}
+                            {isAnonymous ? t("step4.anonymousMode") : t("step4.publicMode")}
                         </div>
                         <div className="text-sm text-slate-500 mt-0.5 max-w-sm">
-                            {isAnonymous ? "Factories cannot see your email directly. We manage communication." : "Factories can email you directly for faster quotes."}
+                            {isAnonymous ? t("step4.anonymousModeDesc") : t("step4.publicModeDesc")}
                         </div>
                     </div>
                 </div>
@@ -81,41 +81,41 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleA
                 {/* Context Section */}
                 <div>
                     <div className="flex items-center justify-between mb-4 pb-2 border-b border-slate-200 dark:border-slate-800">
-                        <h5 className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest">1. Project Context</h5>
+                        <h5 className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest">{t("step4.projectContextTitle")}</h5>
                         <button onClick={() => onEditStep(1)} className="text-primary hover:text-primary/80 flex items-center text-xs font-bold transition-colors">
-                            <Edit2 className="w-3.5 h-3.5 mr-1.5" /> Edit
+                            <Edit2 className="w-3.5 h-3.5 mr-1.5" /> {t("step4.editBtn")}
                         </button>
                     </div>
                     <div>
-                        {renderSummaryItem("Country / Region", context.country)}
-                        {renderSummaryItem("Industry / Application", context.industry === "other" ? `Other (${context.customIndustry})` : getLabel(industries, context.industry))}
-                        {renderSummaryItem("Required Quantity", context.quantity === "other" ? `Other (${context.customQuantity})` : getLabel(quantities, context.quantity))}
-                        {renderSummaryItem("Expected Timeline", context.timeline === "other" ? `Other (${context.customTimeline})` : getLabel(timelines, context.timeline))}
+                        {renderSummaryItem(t("step4.summaryCountry"), context.country)}
+                        {renderSummaryItem(t("step4.summaryIndustry"), context.industry === "other" ? `${t("step4.otherPrefix")} (${context.customIndustry})` : getLabel(industries, context.industry))}
+                        {renderSummaryItem(t("step4.summaryQuantity"), context.quantity === "other" ? `${t("step4.otherPrefix")} (${context.customQuantity})` : getLabel(quantities, context.quantity))}
+                        {renderSummaryItem(t("step4.summaryTimeline"), context.timeline === "other" ? `${t("step4.otherPrefix")} (${context.customTimeline})` : getLabel(timelines, context.timeline))}
                     </div>
                 </div>
 
                 {/* Specs Section */}
                 <div>
                      <div className="flex items-center justify-between mb-4 pb-2 border-b border-slate-200 dark:border-slate-800">
-                        <h5 className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest">2. Product Specifications</h5>
+                        <h5 className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest">{t("step4.productSpecsTitle")}</h5>
                         <button onClick={() => onEditStep(2)} className="text-primary hover:text-primary/80 flex items-center text-xs font-bold transition-colors">
-                            <Edit2 className="w-3.5 h-3.5 mr-1.5" /> Edit
+                            <Edit2 className="w-3.5 h-3.5 mr-1.5" /> {t("step4.editBtn")}
                         </button>
                     </div>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
                         <div className="bg-slate-50 dark:bg-slate-800/50 p-4 rounded-xl md:col-span-2">
-                            <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">General Requirements</div>
+                            <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">{t("step4.summaryGeneralReq")}</div>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <div>
-                                    {renderSummaryItem("Equipment Type", specs.productType === "other" ? `Other (${specs.customProductType})` : getLabel(productTypes, specs.productType))}
-                                    {renderSummaryItem("Design Pressure", specs.designPressure ? `${specs.designPressure} bar` : "")}
-                                    {renderSummaryItem("Max Press. Drop", specs.pressureDrop ? `${specs.pressureDrop} kPA` : "")}
-                                    {renderSummaryItem("Heat Load", specs.heatLoad ? `${specs.heatLoad} kW` : "")}
+                                    {renderSummaryItem(t("step4.summaryEqType"), specs.productType === "other" ? `${t("step4.otherPrefix")} (${specs.customProductType})` : getLabel(productTypes, specs.productType))}
+                                    {renderSummaryItem(t("step4.summaryDesignPress"), specs.designPressure ? `${specs.designPressure} bar` : "")}
+                                    {renderSummaryItem(t("step4.summaryPressDrop"), specs.pressureDrop ? `${specs.pressureDrop} kPA` : "")}
+                                    {renderSummaryItem(t("step4.summaryHeatLoad"), specs.heatLoad ? `${specs.heatLoad} kW` : "")}
                                 </div>
                                 {specs.additionalNotes && (
                                     <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg p-3">
-                                        <div className="text-xs font-bold text-slate-500 mb-1">Additional Notes</div>
+                                        <div className="text-xs font-bold text-slate-500 mb-1">{t("step4.summaryNotes")}</div>
                                         <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed break-words">{specs.additionalNotes}</p>
                                     </div>
                                 )}
@@ -123,19 +123,19 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleA
                         </div>
 
                          <div className="bg-rose-50 dark:bg-rose-900/10 p-4 rounded-xl">
-                            <div className="text-xs font-bold text-rose-500 uppercase tracking-widest mb-3">Hot Side</div>
-                            {renderSummaryItem("Fluid", specs.hotFluid)}
-                            {renderSummaryItem("Inlet Temp", specs.hotIn ? `${specs.hotIn}°` : "")}
-                            {renderSummaryItem("Outlet Temp", specs.hotOut ? `${specs.hotOut}°` : "")}
-                            {renderSummaryItem("Flow Rate", specs.hotFlow ? `${specs.hotFlow} m³/h` : "")}
+                            <div className="text-xs font-bold text-rose-500 uppercase tracking-widest mb-3">{t("step4.summaryHotSide")}</div>
+                            {renderSummaryItem(t("step4.summaryFluid"), specs.hotFluid)}
+                            {renderSummaryItem(t("step4.summaryInlet"), specs.hotIn ? `${specs.hotIn}°` : "")}
+                            {renderSummaryItem(t("step4.summaryOutlet"), specs.hotOut ? `${specs.hotOut}°` : "")}
+                            {renderSummaryItem(t("step4.summaryFlow"), specs.hotFlow ? `${specs.hotFlow} m³/h` : "")}
                         </div>
 
                          <div className="bg-blue-50 dark:bg-blue-900/10 p-4 rounded-xl md:col-start-2">
-                            <div className="text-xs font-bold text-blue-500 uppercase tracking-widest mb-3">Cold Side</div>
-                            {renderSummaryItem("Fluid", specs.coldFluid)}
-                            {renderSummaryItem("Inlet Temp", specs.coldIn ? `${specs.coldIn}°` : "")}
-                            {renderSummaryItem("Outlet Temp", specs.coldOut ? `${specs.coldOut}°` : "")}
-                            {renderSummaryItem("Flow Rate", specs.coldFlow ? `${specs.coldFlow} m³/h` : "")}
+                            <div className="text-xs font-bold text-blue-500 uppercase tracking-widest mb-3">{t("step4.summaryColdSide")}</div>
+                            {renderSummaryItem(t("step4.summaryFluid"), specs.coldFluid)}
+                            {renderSummaryItem(t("step4.summaryInlet"), specs.coldIn ? `${specs.coldIn}°` : "")}
+                            {renderSummaryItem(t("step4.summaryOutlet"), specs.coldOut ? `${specs.coldOut}°` : "")}
+                            {renderSummaryItem(t("step4.summaryFlow"), specs.coldFlow ? `${specs.coldFlow} m³/h` : "")}
                         </div>
                     </div>
                 </div>

@@ -15,6 +15,7 @@ import cms from './pages/content-marketing-services.json';
 import news from './pages/industry-news.json';
 import manufacturers from './pages/manufacturers.json';
 import manufacturersList from './pages/manufacturers/list.json';
+import rfq from './pages/rfq.json';
 
 // --- Products --- 
 import productsList from './pages/products/list.json';
@@ -62,6 +63,7 @@ export default {
     home,
     manufacturers: manufacturersData,
     products: productsData,
+    rfq,
     profile,
     login,
     signup,

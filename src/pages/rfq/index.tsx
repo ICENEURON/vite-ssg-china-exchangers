@@ -7,8 +7,10 @@ import { ContextStep, type RqfContextData } from "./components/ContextStep"
 import { ProductAndSpecsStep, type RfqProductSpecsData } from "./components/ProductAndSpecsStep"
 import { EmailVerificationStep } from "./components/EmailVerificationStep"
 import { FinalConfirmStep } from "./components/FinalConfirmStep"
+import { useTranslation } from "react-i18next"
 
 export default function SmartRfqBuilder() {
+  const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
 
   const [step, setStep] = useState(1)
   
@@ -84,15 +86,15 @@ export default function SmartRfqBuilder() {
   return (
     <>
       <Head>
-        <title>Smart RFQ Builder - Get Custom Heat Exchanger Quotes</title>
-        <meta name="description" content="Build a professional RFQ in minutes. Anonymous mode available. Get quotes from verified manufacturers." />
+        <title>{t("title")}</title>
+        <meta name="description" content={t("description")} />
       </Head>
 
       <main className="min-h-screen bg-slate-50 dark:bg-slate-950 text-foreground pb-24">
         {/* Top Navigation Bar */}
         <div className="sticky top-0 z-40 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
           <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-            <span className="font-bold text-lg text-slate-900 dark:text-slate-50">Smart RFQ Builder</span>
+            <span className="font-bold text-lg text-slate-900 dark:text-slate-50">{t("navbarTitle")}</span>
           </div>
         </div>
 
@@ -104,8 +106,8 @@ export default function SmartRfqBuilder() {
               {step === 1 && (
                 <section>
                   <div className="mb-6">
-                    <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">1. Project Context</h2>
-                    <p className="text-slate-500 mt-2">Help our verified factories understand the scale and requirements of your project.</p>
+                    <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">{t("step1.title")}</h2>
+                    <p className="text-slate-500 mt-2">{t("step1.subtitle")}</p>
                   </div>
                   <ContextStep 
                     data={contextData} 
@@ -117,8 +119,8 @@ export default function SmartRfqBuilder() {
               {step === 2 && (
                 <section>
                   <div className="mb-6">
-                    <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">2. Product & Specifications</h2>
-                    <p className="text-slate-500 mt-2">Select the product type and provide the critical thermal parameters for sizing.</p>
+                    <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">{t("step2.title")}</h2>
+                    <p className="text-slate-500 mt-2">{t("step2.subtitle")}</p>
                   </div>
                   <ProductAndSpecsStep
                     data={specsData}
@@ -130,8 +132,8 @@ export default function SmartRfqBuilder() {
               {step === 3 && (
                 <section>
                    <div className="mb-6 text-center">
-                    <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">3. Verification</h2>
-                    <p className="text-slate-500 mt-2">Please verify your email to ensure you are a real user before connecting with factories.</p>
+                    <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">{t("step3.title")}</h2>
+                    <p className="text-slate-500 mt-2">{t("step3.subtitle")}</p>
                   </div>
 
                   <EmailVerificationStep 
@@ -150,8 +152,8 @@ export default function SmartRfqBuilder() {
               {step === 4 && !isSubmitted && (
                  <section>
                      <div className="mb-6 text-center">
-                        <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">4. Confirm & Submit</h2>
-                        <p className="text-slate-500 mt-2">Review your RFQ details and choose your privacy settings.</p>
+                        <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">{t("step4.title")}</h2>
+                        <p className="text-slate-500 mt-2">{t("step4.subtitle")}</p>
                      </div>
                      <FinalConfirmStep 
                         context={contextData}
@@ -168,7 +170,7 @@ export default function SmartRfqBuilder() {
                             className="w-full max-w-md h-14 text-base font-bold bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white rounded-xl shadow-lg shadow-primary/20" 
                             onClick={handleSubmit}
                         >
-                            Submit RFQ
+                            {t("step4.submitBtn")}
                         </Button>
                      </div>
                  </section>
@@ -180,13 +182,13 @@ export default function SmartRfqBuilder() {
                         <Check className="w-12 h-12 text-green-600 dark:text-green-400 stroke-[3]" />
                     </div>
                     <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-slate-50 leading-tight mb-6">
-                        Verified &<br/><span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-emerald-600">Submitted!</span>
+                        {t("success.title1")}<br/><span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-emerald-600">{t("success.title2")}</span>
                     </h2>
                     <p className="text-lg text-slate-600 dark:text-slate-400 mb-10 max-w-md mx-auto leading-relaxed">
-                        We have successfully processed your RFQ. We will be in touch shortly to assist you with the next steps.
+                        {t("success.desc")}
                     </p>
                     <Button variant="outline" className="px-8 h-12 rounded-xl text-primary border-primary/20 hover:bg-primary/5 font-bold" onClick={() => window.location.href="/"}>
-                        Return to Home
+                        {t("success.homeBtn")}
                     </Button>
                 </section>
               )}
@@ -202,7 +204,7 @@ export default function SmartRfqBuilder() {
               <div className="flex items-center gap-4">
                  {step > 1 ? (
                     <Button variant="outline" className="border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 font-bold px-6 h-12 rounded-xl" onClick={handleBack}>
-                      <ArrowLeft className="w-4 h-4 mr-2" /> Back
+                      <ArrowLeft className="w-4 h-4 mr-2" /> {t("actions.back")}
                     </Button>
                  ) : (
                     <div className="w-24"></div> 
@@ -220,7 +222,7 @@ export default function SmartRfqBuilder() {
                     onClick={handleNext}
                     disabled={step === 1 ? !canProceedToStep2 : !canProceedToStep3}
                   >
-                    Continue <ArrowRight className="w-4 h-4 ml-2" />
+                    {t("actions.continue")} <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
                 </div>
               )}

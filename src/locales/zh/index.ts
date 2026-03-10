@@ -13,6 +13,7 @@ import terms from './pages/terms.json';
 import privacy from './pages/privacy.json';
 import contact from './pages/contact.json';
 import news from './pages/industry-news.json';
+import rfq from './pages/rfq.json';
 import notFound from './pages/404.json';
 
 // --- Products --- 
@@ -61,6 +62,7 @@ export default {
     home,
     manufacturers: manufacturersData,
     products: productsData,
+    rfq,
     profile,
     cms,
     about,

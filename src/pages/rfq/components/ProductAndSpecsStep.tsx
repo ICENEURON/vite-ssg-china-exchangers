@@ -48,7 +48,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
             {/* 1. Product Selection */}
             <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 md:p-10 shadow-sm">
                 <FieldSet className="mb-0">
-                    <FieldLabel className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-4">Select Equipment Type</FieldLabel>
+                    <FieldLabel className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-4">{t("step2.equipmentTypeLabel")}</FieldLabel>
                     <FieldGroup className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                         {productTypes.map((p) => {
                             const isSelected = data.productType === p.id;
@@ -80,7 +80,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                         <div className="mt-4 animate-in fade-in slide-in-from-top-2">
                             <input
                                 type="text"
-                                placeholder="Please specify the equipment type..."
+                                placeholder={t("step2.customEquipmentPlaceholder")}
                                 value={data.customProductType || ""}
                                 onChange={(e) => onChange({ customProductType: e.target.value })}
                                 className="flex h-12 w-full rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
@@ -94,30 +94,30 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
             {data.productType && (
                 <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 md:p-10 shadow-sm animate-in fade-in slide-in-from-bottom-2">
                     <div className="mb-8">
-                        <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50">Thermal & Performance Specifications</h3>
-                        <p className="text-sm text-slate-500 mt-1">Provide known parameters. Leave unknown fields blank.</p>
+                        <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50">{t("step2.thermalSpecsTitle")}</h3>
+                        <p className="text-sm text-slate-500 mt-1">{t("step2.thermalSpecsSubtitle")}</p>
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
                         {/* Hot Side */}
                         <div className="space-y-6">
                             <div className="flex items-center gap-3 border-b border-rose-100 dark:border-rose-900/30 pb-3">
-                                <span className="text-sm font-bold uppercase tracking-widest text-rose-600 dark:text-rose-400">Hot Side (Heating Fluid)</span>
+                                <span className="text-sm font-bold uppercase tracking-widest text-rose-600 dark:text-rose-400">{t("step2.hotSide")}</span>
                             </div>
 
                             <div className="space-y-4">
                                 <div>
-                                    <label className={sideLabelClass}>Fluid / Media</label>
+                                    <label className={sideLabelClass}>{t("step2.fluidLabel")}</label>
                                     <input
                                         className={inputClass}
-                                        placeholder="e.g. Steam, Thermal Oil, Water"
+                                        placeholder={t("step2.hotFluidPlaceholder")}
                                         value={data.hotFluid}
                                         onChange={(e) => onChange({ hotFluid: e.target.value })}
                                     />
                                 </div>
                                 <div className="grid grid-cols-2 gap-3">
                                     <div>
-                                        <label className={sideLabelClass}>Inlet Temp (°C/°F)</label>
+                                        <label className={sideLabelClass}>{t("step2.inletTempLabel")}</label>
                                         <input
                                             type="number"
                                             className={inputClass}
@@ -127,7 +127,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                                         />
                                     </div>
                                     <div>
-                                        <label className={sideLabelClass}>Outlet Temp (°C/°F)</label>
+                                        <label className={sideLabelClass}>{t("step2.outletTempLabel")}</label>
                                         <input
                                             type="number"
                                             className={inputClass}
@@ -138,7 +138,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                                     </div>
                                 </div>
                                 <div>
-                                    <label className={sideLabelClass}>Flow Rate (Optional) (m³/h)</label>
+                                    <label className={sideLabelClass}>{t("step2.flowRateLabel")}</label>
                                     <input
                                         type="number"
                                         className={inputClass}
@@ -153,22 +153,22 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                         {/* Cold Side */}
                         <div className="space-y-6 lg:border-l lg:pl-8 border-dashed border-slate-200 dark:border-slate-800">
                             <div className="flex items-center gap-3 border-b border-blue-100 dark:border-blue-900/30 pb-3">
-                                <span className="text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Cold Side (Cooling Fluid)</span>
+                                <span className="text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">{t("step2.coldSide")}</span>
                             </div>
 
                             <div className="space-y-4">
                                 <div>
-                                    <label className={sideLabelClass}>Fluid / Media</label>
+                                    <label className={sideLabelClass}>{t("step2.fluidLabel")}</label>
                                     <input
                                         className={inputClass}
-                                        placeholder="e.g. Cooling Water, Glycol"
+                                        placeholder={t("step2.coldFluidPlaceholder")}
                                         value={data.coldFluid}
                                         onChange={(e) => onChange({ coldFluid: e.target.value })}
                                     />
                                 </div>
                                 <div className="grid grid-cols-2 gap-3">
                                     <div>
-                                        <label className={sideLabelClass}>Inlet Temp (°C/°F)</label>
+                                        <label className={sideLabelClass}>{t("step2.inletTempLabel")}</label>
                                         <input
                                             type="number"
                                             className={inputClass}
@@ -178,7 +178,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                                         />
                                     </div>
                                     <div>
-                                        <label className={sideLabelClass}>Outlet Temp (°C/°F)</label>
+                                        <label className={sideLabelClass}>{t("step2.outletTempLabel")}</label>
                                         <input
                                             type="number"
                                             className={inputClass}
@@ -189,7 +189,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                                     </div>
                                 </div>
                                 <div>
-                                    <label className={sideLabelClass}>Flow Rate (Optional) (m³/h)</label>
+                                    <label className={sideLabelClass}>{t("step2.flowRateLabel")}</label>
                                     <input
                                         type="number"
                                         className={inputClass}
@@ -205,36 +205,36 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                     {/* Additional Options */}
                     <div className="border-t border-slate-100 dark:border-slate-800/50 pt-8">
                         <div className="mb-6">
-                            <h4 className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest">Operational Limits (Optional)</h4>
+                            <h4 className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest">{t("step2.opLimitsTitle")}</h4>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                             <div>
-                                <label className={sideLabelClass}>Design Pressure (bar)</label>
+                                <label className={sideLabelClass}>{t("step2.designPressureLabel")}</label>
                                 <input
                                     type="number"
                                     className={inputClass}
                                     value={data.designPressure}
-                                    placeholder="e.g. 10, 16, 25"
+                                    placeholder={t("step2.designPressurePlaceholder")}
                                     onChange={(e) => onChange({ designPressure: e.target.value })}
                                 />
                             </div>
                             <div>
-                                <label className={sideLabelClass}>Max Press. Drop (kPA)</label>
+                                <label className={sideLabelClass}>{t("step2.pressureDropLabel")}</label>
                                 <input
                                     type="number"
                                     className={inputClass}
                                     value={data.pressureDrop}
-                                    placeholder="e.g. 50"
+                                    placeholder={t("step2.pressureDropPlaceholder")}
                                     onChange={(e) => onChange({ pressureDrop: e.target.value })}
                                 />
                             </div>
                             <div>
-                                <label className={sideLabelClass}>Duty / Heat Load (kW)</label>
+                                <label className={sideLabelClass}>{t("step2.heatLoadLabel")}</label>
                                 <input
                                     type="number"
                                     className={inputClass}
                                     value={data.heatLoad}
-                                    placeholder="e.g. 1500"
+                                    placeholder={t("step2.heatLoadPlaceholder")}
                                     onChange={(e) => onChange({ heatLoad: e.target.value })}
                                 />
                             </div>
@@ -242,11 +242,11 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
 
                         {/* Additional Notes */}
                         <div className="mt-8">
-                            <label className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest mb-3 block">Additional Notes / Custom Requirements</label>
+                            <label className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest mb-3 block">{t("step2.additionalNotesLabel")}</label>
                             <div className="relative">
                                 <textarea
                                     className="flex w-full min-h-[120px] rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-3 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10 resize-y"
-                                    placeholder="Any specific materials required? Dimensions constraints? Certifications needed? (Max 500 characters)"
+                                    placeholder={t("step2.additionalNotesPlaceholder")}
                                     value={data.additionalNotes || ""}
                                     onChange={handleNotesChange}
                                 />

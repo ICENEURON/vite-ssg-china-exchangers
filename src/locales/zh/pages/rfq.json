@@ -1,30 +1,93 @@
 {
   "industries": [
-    { "id": "hvac", "label": "暖通空调及建筑服务" },
-    { "id": "food", "label": "食品、乳制品及饮料" },
-    { "id": "chemicals", "label": "化工及石化" },
-    { "id": "marine", "label": "船舶及运输" },
-    { "id": "power", "label": "发电及能源" },
-    { "id": "pharma", "label": "制药及生物科技" },
-    { "id": "pulp", "label": "纸浆及造纸" },
-    { "id": "water", "label": "水处理" },
-    { "id": "mining", "label": "采矿及矿物" },
-    { "id": "other", "label": "其他" }
+    {
+      "id": "hvac",
+      "label": "暖通空调及建筑服务"
+    },
+    {
+      "id": "food",
+      "label": "食品、乳制品及饮料"
+    },
+    {
+      "id": "chemicals",
+      "label": "化工及石化"
+    },
+    {
+      "id": "marine",
+      "label": "船舶及运输"
+    },
+    {
+      "id": "power",
+      "label": "发电及能源"
+    },
+    {
+      "id": "pharma",
+      "label": "制药及生物科技"
+    },
+    {
+      "id": "pulp",
+      "label": "纸浆及造纸"
+    },
+    {
+      "id": "water",
+      "label": "水处理"
+    },
+    {
+      "id": "mining",
+      "label": "采矿及矿物"
+    },
+    {
+      "id": "other",
+      "label": "其他"
+    }
   ],
   "timelines": [
-    { "id": "in_stock", "label": "现货 / 快速发货 (1-2周)" },
-    { "id": "standard", "label": "标准生产 (3-6周)" },
-    { "id": "custom", "label": "定制 / 大规模 (7-12周)" },
-    { "id": "project", "label": "长货期 / 大型项目 (12周以上)" },
-    { "id": "planning", "label": "规划阶段 (无紧急需求)" },
-    { "id": "other", "label": "其他" }
+    {
+      "id": "in_stock",
+      "label": "现货 / 快速发货 (1-2周)"
+    },
+    {
+      "id": "standard",
+      "label": "标准生产 (3-6周)"
+    },
+    {
+      "id": "custom",
+      "label": "定制 / 大规模 (7-12周)"
+    },
+    {
+      "id": "project",
+      "label": "长货期 / 大型项目 (12周以上)"
+    },
+    {
+      "id": "planning",
+      "label": "规划阶段 (无紧急需求)"
+    },
+    {
+      "id": "other",
+      "label": "其他"
+    }
   ],
   "quantities": [
-    { "id": "1_unit", "label": "1 台 (更换 / 样品)" },
-    { "id": "2_5_units", "label": "2-5 台 (小型系统)" },
-    { "id": "6_20_units", "label": "6-20 台 (中型系统)" },
-    { "id": "20_plus_units", "label": "20+ 台 (大型项目)" },
-    { "id": "other", "label": "其他" }
+    {
+      "id": "1_unit",
+      "label": "1 台 (更换 / 样品)"
+    },
+    {
+      "id": "2_5_units",
+      "label": "2-5 台 (小型系统)"
+    },
+    {
+      "id": "6_20_units",
+      "label": "6-20 台 (中型系统)"
+    },
+    {
+      "id": "20_plus_units",
+      "label": "20+ 台 (大型项目)"
+    },
+    {
+      "id": "other",
+      "label": "其他"
+    }
   ],
   "productTypes": [
     {
@@ -55,5 +118,112 @@
       "id": "other",
       "label": "其他"
     }
-  ]
+  ],
+  "steps": {
+    "context": "项目背景",
+    "specifications": "产品规格",
+    "verification": "身份验证",
+    "submit": "确认提交"
+  },
+  "title": "智能询价系统 - 定制换热器报价",
+  "description": "几分钟内自动生成专业的询价单。支持匿名模式，快速获得经过认证的制造商报价。",
+  "navbarTitle": "智能询价系统",
+  "step1": {
+    "title": "1. 项目背景",
+    "subtitle": "帮助认证工厂了解您项目的规模和具体要求。",
+    "countryLabel": "目的地国家 / 地区",
+    "countryPlaceholder": "请选择国家...",
+    "industryLabel": "所属行业 / 应用领域",
+    "customIndustryPlaceholder": "请说明您的行业...",
+    "quantityLabel": "需求数量",
+    "customQuantityPlaceholder": "请说明需求数量...",
+    "timelineLabel": "期望交货期",
+    "customTimelinePlaceholder": "请说明您的交期期望..."
+  },
+  "step2": {
+    "title": "2. 产品参数与规格",
+    "subtitle": "选择产品类型并提供关键的热工参数以便选型。",
+    "equipmentTypeLabel": "选择设备类型",
+    "customEquipmentPlaceholder": "请说明设备类型...",
+    "thermalSpecsTitle": "热工与性能参数",
+    "thermalSpecsSubtitle": "请提供已知参数，未知参数可留空。",
+    "hotSide": "热侧 (加热流体)",
+    "coldSide": "冷侧 (冷却流体)",
+    "fluidLabel": "流体 / 介质",
+    "hotFluidPlaceholder": "例如：蒸汽、导热油、水",
+    "coldFluidPlaceholder": "例如：冷却水、乙二醇",
+    "inletTempLabel": "进口温度 (°C/°F)",
+    "outletTempLabel": "出口温度 (°C/°F)",
+    "flowRateLabel": "流量 (选填) (m³/h)",
+    "opLimitsTitle": "运行限制 (选填)",
+    "designPressureLabel": "设计压力 (bar)",
+    "designPressurePlaceholder": "例如：10, 16, 25",
+    "pressureDropLabel": "最大压降 (kPA)",
+    "pressureDropPlaceholder": "例如：50",
+    "heatLoadLabel": "换热量 / 热负荷 (kW)",
+    "heatLoadPlaceholder": "例如：1500",
+    "additionalNotesLabel": "附加说明 / 定制要求",
+    "additionalNotesPlaceholder": "是否有特定的材质要求？尺寸限制？认证需求？(最多500字符)"
+  },
+  "step3": {
+    "title": "3. 身份验证",
+    "subtitle": "在匹配工厂之前，请验证您的电子邮件以确保您是真实用户。",
+    "verifiedTitle": "邮箱已验证！",
+    "continueBtn": "继续进行最终提交",
+    "verifySubtitle": "为了确保高质量的供应商匹配并保护您的身份，请验证您的电子邮件地址。",
+    "emailLabel": "电子邮件地址",
+    "emailPlaceholder": "you@company.com",
+    "freeEmailTitle": "检测到个人邮箱。",
+    "freeEmailDesc": "您的询盘将分发给最多2家工厂。使用企业邮箱可覆盖5家以上认证工厂。",
+    "businessEmailTitle": "检测到企业邮箱。",
+    "businessEmailDesc": "您的询盘将被优先分发给5家以上的顶级认证工厂。您的身份将受到保护。",
+    "sendBtn": "发送验证码",
+    "sendingBtn": "发送中...",
+    "codeSentTo": "验证码已发送至",
+    "accessCodeLabel": "6位验证码",
+    "verifyBtn": "验证邮箱",
+    "verifyingBtn": "验证中...",
+    "successTitle": "邮箱验证成功！",
+    "successSubtitle": "即将进入最终确认..."
+  },
+  "step4": {
+    "title": "4. 确认与提交",
+    "subtitle": "查看您的询价单详情并选择隐私设置。",
+    "emailVerifiedTitle": "邮箱验证成功！",
+    "anonymousMode": "匿名模式",
+    "publicMode": "公开模式",
+    "anonymousModeDesc": "工厂无法直接看到您的邮箱。我们将协助沟通。",
+    "publicModeDesc": "工厂可以直接看到您的邮箱信息。",
+    "projectContextTitle": "1. 项目背景",
+    "productSpecsTitle": "2. 产品规格",
+    "editBtn": "编辑",
+    "summaryCountry": "国家 / 地区",
+    "summaryIndustry": "行业 / 应用",
+    "summaryQuantity": "需求数量",
+    "summaryTimeline": "期望交货期",
+    "summaryGeneralReq": "一般要求",
+    "summaryEqType": "设备类型",
+    "summaryDesignPress": "设计压力",
+    "summaryPressDrop": "最大压降",
+    "summaryHeatLoad": "热负荷",
+    "summaryNotes": "附加说明",
+    "summaryHotSide": "热侧",
+    "summaryColdSide": "冷侧",
+    "summaryFluid": "流体",
+    "summaryInlet": "进口温度",
+    "summaryOutlet": "出口温度",
+    "summaryFlow": "流量",
+    "submitBtn": "提交询价单",
+    "otherPrefix": "其他"
+  },
+  "success": {
+    "title1": "已验证且",
+    "title2": "提交成功！",
+    "desc": "我们已经成功处理了您的询价请求。我们将很快与您联系，协助您完成接下来的步骤。",
+    "homeBtn": "返回首页"
+  },
+  "actions": {
+    "back": "返回",
+    "continue": "继续"
+  }
 }

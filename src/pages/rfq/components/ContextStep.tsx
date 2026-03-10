@@ -1,7 +1,7 @@
 import { FieldSet, FieldLabel } from "../../../components/ui/field"
 import { Check } from "lucide-react"
-import { getNames } from "country-list"
 import { useTranslation } from "react-i18next"
+import rawCountries from "../../../data/countries.json"
 
 export interface RqfContextData {
     country: string;
@@ -18,8 +18,8 @@ interface ContextStepProps {
     onChange: (data: Partial<RqfContextData>) => void;
 }
 
-const rawCountries = getNames()
 const COUNTRIES = rawCountries
+    .map(c => c.name)
     .filter(c => {
         const lower = c.toLowerCase()
         return !lower.includes("hong kong") && !lower.includes("macao") && !lower.includes("macau") && !lower.includes("taiwan")
@@ -89,7 +89,7 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
              <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 md:p-10 shadow-sm">
                 
                 <FieldSet className="mb-8">
-                    <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">Destination Country / Region</FieldLabel>
+                    <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{t("step1.countryLabel")}</FieldLabel>
                     <div className="relative">
                         <select
                             value={data.country}
@@ -99,7 +99,7 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                                 ${data.country ? 'border-primary/50 ring-1 ring-primary/30 text-slate-900 dark:text-slate-100' : 'border-slate-200 dark:border-slate-800 text-slate-500'}
                             `}
                         >
-                            <option value="" disabled>Select a country...</option>
+                            <option value="" disabled>{t("step1.countryPlaceholder")}</option>
                             {COUNTRIES.map(c => (
                                 <option key={c} value={c}>{c}</option>
                             ))}
@@ -112,9 +112,9 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                     </div>
                 </FieldSet>
 
-                {renderSelectionGroup("Industry / Application", industries, data.industry, "industry", "customIndustry", "Please specify your industry...")}
-                {renderSelectionGroup("Required Quantity", quantities, data.quantity, "quantity", "customQuantity", "Please specify the required quantity...")}
-                {renderSelectionGroup("Expected Delivery Timeline", timelines, data.timeline, "timeline", "customTimeline", "Please specify your timeline expectations...")}
+                {renderSelectionGroup(t("step1.industryLabel"), industries, data.industry, "industry", "customIndustry", t("step1.customIndustryPlaceholder"))}
+                {renderSelectionGroup(t("step1.quantityLabel"), quantities, data.quantity, "quantity", "customQuantity", t("step1.customQuantityPlaceholder"))}
+                {renderSelectionGroup(t("step1.timelineLabel"), timelines, data.timeline, "timeline", "customTimeline", t("step1.customTimelinePlaceholder"))}
              </div>
         </div>
     )

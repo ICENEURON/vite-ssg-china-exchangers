@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Mail, ShieldCheck, AlertTriangle, ArrowRight, CheckCircle2 } from "lucide-react";
 import { Button } from "../../../components/ui/button";
+import { useTranslation } from "react-i18next";
 
 interface EmailVerificationStepProps {
     email: string;
@@ -16,6 +17,8 @@ const FREE_EMAIL_DOMAINS = [
 ];
 
 export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, onNext }: EmailVerificationStepProps) {
+    const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
+
     const [domainStatus, setDomainStatus] = useState<"unknown" | "free" | "business">("unknown");
     const [step, setStep] = useState<"input" | "otp" | "success">("input");
     const [otp, setOtp] = useState("");
@@ -28,11 +31,11 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                     <div className="w-20 h-20 bg-emerald-100 dark:bg-emerald-900/50 rounded-full flex items-center justify-center mb-6">
                         <CheckCircle2 className="w-10 h-10 text-emerald-500" />
                     </div>
-                    <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50">Email Already Verified!</h3>
+                    <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50">{t("step3.verifiedTitle")}</h3>
                     <p className="text-slate-500 mt-2">({email})</p>
                     <div className="mt-8">
                         <Button size="lg" className="h-14 text-base font-bold bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white rounded-xl shadow-lg shadow-primary/20 px-8" onClick={onNext}>
-                            Continue to Final Submission <ArrowRight className="w-5 h-5 ml-2" />
+                            {t("step3.continueBtn")} <ArrowRight className="w-5 h-5 ml-2" />
                         </Button>
                     </div>
                 </div>
@@ -82,20 +85,20 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                 <div className="w-16 h-16 bg-gradient-to-br from-primary/10 to-orange-500/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
                     <Mail className="w-8 h-8 text-primary" />
                 </div>
-                <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-2">Verify Your Identity</h2>
+                <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-2">{t("step3.title")}</h2>
                 <p className="text-slate-500 dark:text-slate-400 text-sm max-w-md mx-auto">
-                    To ensure high-quality supplier matching & protect your identity, please verify your email address.
+                    {t("step3.verifySubtitle")}
                 </p>
             </div>
 
             {step === "input" && (
                 <div className="space-y-6 animate-in fade-in slide-in-from-bottom-2">
                     <div className="space-y-2">
-                        <label className="text-sm font-semibold text-slate-700 dark:text-slate-300">Email Address</label>
+                        <label className="text-sm font-semibold text-slate-700 dark:text-slate-300">{t("step3.emailLabel")}</label>
                         <input
                             type="email"
                             className="flex h-14 w-full rounded-xl border-2 border-slate-200 dark:border-slate-700 bg-background px-4 py-2 text-lg ring-offset-background transition-all hover:border-primary/40 focus:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
-                            placeholder="you@company.com"
+                            placeholder={t("step3.emailPlaceholder")}
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                         />
@@ -105,7 +108,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                         <div className="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800/50 rounded-xl p-4 flex gap-3 text-amber-800 dark:text-amber-200">
                             <AlertTriangle className="w-5 h-5 shrink-0 mt-0.5" />
                             <div className="text-sm leading-relaxed">
-                                <span className="font-bold">Personal Email Detected.</span> Your RFQ will be distributed anonymously to a maximum of 2 factories. Use a business email to reach 5+ verified factories.
+                                <span className="font-bold">{t("step3.freeEmailTitle")}</span> {t("step3.freeEmailDesc")}
                             </div>
                         </div>
                     )}
@@ -114,7 +117,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                         <div className="bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800/50 rounded-xl p-4 flex gap-3 text-emerald-800 dark:text-emerald-200">
                             <ShieldCheck className="w-5 h-5 shrink-0 mt-0.5" />
                             <div className="text-sm leading-relaxed">
-                                <span className="font-bold">Business Email Detected.</span> Your RFQ will receive priority distribution to 5+ top-tier verified factories. Identity protected.
+                                <span className="font-bold">{t("step3.businessEmailTitle")}</span> {t("step3.businessEmailDesc")}
                             </div>
                         </div>
                     )}
@@ -125,7 +128,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                         disabled={domainStatus === "unknown" || isLoading}
                         onClick={handleSendCode}
                     >
-                        {isLoading ? "Sending..." : "Send Verification Code"}
+                        {isLoading ? t("step3.sendingBtn") : t("step3.sendBtn")}
                     </Button>
                 </div>
             )}
@@ -133,12 +136,12 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
             {step === "otp" && (
                 <div className="space-y-6 animate-in slide-in-from-right-4">
                     <div className="text-center p-4 bg-slate-50 dark:bg-slate-800 rounded-xl">
-                        <p className="text-sm text-slate-600 dark:text-slate-300 mb-1">Code sent to</p>
+                        <p className="text-sm text-slate-600 dark:text-slate-300 mb-1">{t("step3.codeSentTo")}</p>
                         <p className="font-bold text-slate-900 dark:text-slate-50">{email}</p>
                     </div>
 
                     <div className="space-y-2">
-                        <label className="text-sm font-semibold text-slate-700 dark:text-slate-300">6-Digit Access Code</label>
+                        <label className="text-sm font-semibold text-slate-700 dark:text-slate-300">{t("step3.accessCodeLabel")}</label>
                         <input
                             autoFocus
                             type="text"
@@ -157,7 +160,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                             className="h-14 font-bold border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 rounded-xl px-6"
                             onClick={() => setStep("input")}
                         >
-                            Back
+                            {t("actions.back")}
                         </Button>
                         <Button
                             size="lg"
@@ -165,7 +168,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                             disabled={otp.length !== 6 || isLoading}
                             onClick={handleVerifyOtp}
                         >
-                            {isLoading ? "Verifying..." : "Verify Your Email"} <ArrowRight className="w-5 h-5 ml-2" />
+                            {isLoading ? t("step3.verifyingBtn") : t("step3.verifyBtn")} <ArrowRight className="w-5 h-5 ml-2" />
                         </Button>
                     </div>
                 </div>
@@ -176,8 +179,8 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                     <div className="w-20 h-20 bg-emerald-100 dark:bg-emerald-900/50 rounded-full flex items-center justify-center mb-6">
                         <CheckCircle2 className="w-10 h-10 text-emerald-500" />
                     </div>
-                    <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50">Email Verified!</h3>
-                    <p className="text-slate-500 mt-2">Proceeding to final confirmation...</p>
+                    <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50">{t("step3.successTitle")}</h3>
+                    <p className="text-slate-500 mt-2">{t("step3.successSubtitle")}</p>
                 </div>
             )}
 

@@ -1,5 +1,7 @@
 export type UnitSystem = "metric" | "imperial"
 
+import { useTranslation } from "react-i18next"
+
 interface TechSpecsFormProps {
     units: UnitSystem
     onUnitChange: (u: UnitSystem) => void
@@ -8,6 +10,7 @@ interface TechSpecsFormProps {
 }
 
 export function TechSpecsForm({ units, onUnitChange, specs, onChange }: TechSpecsFormProps) {
+    const { t } = useTranslation("translation", { keyPrefix: "pages.rfq.step2" });
 
     const tempUnit = units === "metric" ? "°C" : "°F"
     const flowUnit = units === "metric" ? "m³/h" : "GPM"
@@ -20,8 +23,8 @@ export function TechSpecsForm({ units, onUnitChange, specs, onChange }: TechSpec
         <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4">
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
                 <div>
-                    <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50">Technical Parameters</h3>
-                    <p className="text-sm text-slate-500 mt-1">Provide the core thermodynamic requirements.</p>
+                    <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50">{t("thermalSpecsTitle")}</h3>
+                    <p className="text-sm text-slate-500 mt-1">{t("thermalSpecsSubtitle")}</p>
                 </div>
                 {/* Unit Switcher */}
                 <div className="flex bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 shadow-inner">
@@ -48,22 +51,22 @@ export function TechSpecsForm({ units, onUnitChange, specs, onChange }: TechSpec
                         <div className="w-8 h-8 rounded-full bg-rose-100 dark:bg-rose-900/50 flex items-center justify-center">
                             <div className="w-3 h-3 rounded-full bg-rose-500 animate-pulse" />
                         </div>
-                        <span className="text-lg font-bold text-rose-600 dark:text-rose-400">Hot Side</span>
+                        <span className="text-lg font-bold text-rose-600 dark:text-rose-400">{t("hotSide")}</span>
                     </div>
 
                     <div className="space-y-5">
                         <div>
-                            <label className={labelClass}>Fluid Type</label>
+                            <label className={labelClass}>{t("fluidLabel")}</label>
                             <input
                                 className={inputClass}
-                                placeholder="e.g. Steam, Thermal Oil, Water"
+                                placeholder={t("hotFluidPlaceholder")}
                                 value={specs.hotFluid}
                                 onChange={(e) => onChange("hotFluid", e.target.value)}
                             />
                         </div>
                         <div className="grid grid-cols-2 gap-4">
                             <div>
-                                <label className={labelClass}>Inlet Temp</label>
+                                <label className={labelClass}>{t("inletTempLabel").split(' ')[0]}</label>
                                 <div className="relative">
                                     <input
                                         type="number"
@@ -76,7 +79,7 @@ export function TechSpecsForm({ units, onUnitChange, specs, onChange }: TechSpec
                                 </div>
                             </div>
                             <div>
-                                <label className={labelClass}>Outlet Temp</label>
+                                <label className={labelClass}>{t("outletTempLabel").split(' ')[0]}</label>
                                 <div className="relative">
                                     <input
                                         type="number"
@@ -90,7 +93,7 @@ export function TechSpecsForm({ units, onUnitChange, specs, onChange }: TechSpec
                             </div>
                         </div>
                         <div>
-                            <label className={labelClass}>Volume / Mass Flow Rate</label>
+                            <label className={labelClass}>{t("flowRateLabel").split(' ')[0]}</label>
                             <div className="relative">
                                 <input
                                     type="number"
@@ -111,22 +114,22 @@ export function TechSpecsForm({ units, onUnitChange, specs, onChange }: TechSpec
                         <div className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center">
                             <div className="w-3 h-3 rounded-full bg-blue-500 animate-pulse" />
                         </div>
-                        <span className="text-lg font-bold text-blue-600 dark:text-blue-400">Cold Side</span>
+                        <span className="text-lg font-bold text-blue-600 dark:text-blue-400">{t("coldSide")}</span>
                     </div>
 
                     <div className="space-y-5">
                         <div>
-                            <label className={labelClass}>Fluid Type</label>
+                            <label className={labelClass}>{t("fluidLabel")}</label>
                             <input
                                 className={inputClass}
-                                placeholder="e.g. Cooling Water, Glycol"
+                                placeholder={t("coldFluidPlaceholder")}
                                 value={specs.coldFluid}
                                 onChange={(e) => onChange("coldFluid", e.target.value)}
                             />
                         </div>
                         <div className="grid grid-cols-2 gap-4">
                             <div>
-                                <label className={labelClass}>Inlet Temp</label>
+                                <label className={labelClass}>{t("inletTempLabel").split(' ')[0]}</label>
                                 <div className="relative">
                                     <input
                                         type="number"
@@ -139,7 +142,7 @@ export function TechSpecsForm({ units, onUnitChange, specs, onChange }: TechSpec
                                 </div>
                             </div>
                             <div>
-                                <label className={labelClass}>Outlet Temp</label>
+                                <label className={labelClass}>{t("outletTempLabel").split(' ')[0]}</label>
                                 <div className="relative">
                                     <input
                                         type="number"
@@ -153,7 +156,7 @@ export function TechSpecsForm({ units, onUnitChange, specs, onChange }: TechSpec
                             </div>
                         </div>
                         <div>
-                            <label className={labelClass}>Volume / Mass Flow Rate</label>
+                            <label className={labelClass}>{t("flowRateLabel").split(' ')[0]}</label>
                             <div className="relative">
                                 <input
                                     type="number"

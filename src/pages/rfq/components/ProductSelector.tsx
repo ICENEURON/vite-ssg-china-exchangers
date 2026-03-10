@@ -1,5 +1,5 @@
-
 import { Check } from "lucide-react"
+import { useTranslation } from "react-i18next"
 
 export type ProductType = "phe" | "shell" | "spares"
 
@@ -8,20 +8,22 @@ interface ProductSelectorProps {
     onSelect: (value: ProductType) => void
 }
 
-const products = [
-    { id: "phe", label: "Plate Heat Exchanger", icon: "🍱", desc: "Gasketed, Brazed, or Welded types." },
-    { id: "shell", label: "Shell & Tube", icon: "🏺", desc: "High pressure or TEMA standard units." },
-    { id: "spares", label: "Spare Parts", icon: "⚙️", desc: "Plates, Gaskets, or replacement bundles." },
-]
-
 export function ProductSelector({ selected, onSelect, application, onApplicationChange }: ProductSelectorProps & { application?: string, onApplicationChange?: (v: string) => void }) {
+    const { t } = useTranslation("translation", { keyPrefix: "pages.rfq.step2" });
+
+    const products = [
+        { id: "phe", label: t("productPHE"), icon: "🍱", desc: t("productPHEDesc") },
+        { id: "shell", label: t("productShell"), icon: "🏺", desc: t("productShellDesc") },
+        { id: "spares", label: t("productSpares"), icon: "⚙️", desc: t("productSparesDesc") },
+    ]
+
     const applications = [
-        "HVAC & Building Services",
-        "Food & Beverage",
-        "Chemical Processing",
-        "Marine & Offshore",
-        "Power Generation",
-        "General Industrial / Other"
+        t("applications.HVACBuildingServices", "HVAC & Building Services"),
+        t("applications.FoodBeverage", "Food & Beverage"),
+        t("applications.ChemicalProcessing", "Chemical Processing"),
+        t("applications.MarineOffshore", "Marine & Offshore"),
+        t("applications.PowerGeneration", "Power Generation"),
+        t("applications.GeneralIndustrialOther", "General Industrial / Other")
     ];
 
     return (
@@ -57,7 +59,7 @@ export function ProductSelector({ selected, onSelect, application, onApplication
 
             {application !== undefined && onApplicationChange && (
                 <div className="space-y-4 animate-in fade-in slide-in-from-bottom-2">
-                    <h3 className="text-lg font-bold text-slate-900 dark:text-slate-50">Intended Application / Industry</h3>
+                    <h3 className="text-lg font-bold text-slate-900 dark:text-slate-50">{t("intendedApplication")}</h3>
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                         {applications.map(app => (
                             <button

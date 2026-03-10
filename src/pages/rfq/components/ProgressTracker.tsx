@@ -1,5 +1,8 @@
+import { useTranslation } from "react-i18next"
+
 export function ProgressTracker({ currentStep }: { currentStep: number }) {
-    const steps = ["Context", "Specifications", "Verification", "Submit"]
+    const { t } = useTranslation("translation", { keyPrefix: "pages.rfq.steps" });
+    const steps = [t("context"), t("specifications"), t("verification"), t("submit")]
 
     return (
         <div className="w-full py-4 mb-4">

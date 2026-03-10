@@ -1,30 +1,93 @@
 {
   "industries": [
-    { "id": "hvac", "label": "HVAC & Building Services" },
-    { "id": "food", "label": "Food, Dairy & Beverage" },
-    { "id": "chemicals", "label": "Chemicals & Petrochemicals" },
-    { "id": "marine", "label": "Marine & Transportation" },
-    { "id": "power", "label": "Power Generation & Energy" },
-    { "id": "pharma", "label": "Pharmaceuticals & Biotech" },
-    { "id": "pulp", "label": "Pulp & Paper" },
-    { "id": "water", "label": "Water & Waste Treatment" },
-    { "id": "mining", "label": "Mining & Minerals" },
-    { "id": "other", "label": "Other" }
+    {
+      "id": "hvac",
+      "label": "HVAC & Building Services"
+    },
+    {
+      "id": "food",
+      "label": "Food, Dairy & Beverage"
+    },
+    {
+      "id": "chemicals",
+      "label": "Chemicals & Petrochemicals"
+    },
+    {
+      "id": "marine",
+      "label": "Marine & Transportation"
+    },
+    {
+      "id": "power",
+      "label": "Power Generation & Energy"
+    },
+    {
+      "id": "pharma",
+      "label": "Pharmaceuticals & Biotech"
+    },
+    {
+      "id": "pulp",
+      "label": "Pulp & Paper"
+    },
+    {
+      "id": "water",
+      "label": "Water & Waste Treatment"
+    },
+    {
+      "id": "mining",
+      "label": "Mining & Minerals"
+    },
+    {
+      "id": "other",
+      "label": "Other"
+    }
   ],
   "timelines": [
-    { "id": "in_stock", "label": "In Stock / Quick Ship (1-2 Weeks)" },
-    { "id": "standard", "label": "Standard Production (3-6 Weeks)" },
-    { "id": "custom", "label": "Custom / Large Scale (7-12 Weeks)" },
-    { "id": "project", "label": "Long Lead Time / Project (12+ Weeks)" },
-    { "id": "planning", "label": "Planning Phase (No immediate need)" },
-    { "id": "other", "label": "Other" }
+    {
+      "id": "in_stock",
+      "label": "In Stock / Quick Ship (1-2 Weeks)"
+    },
+    {
+      "id": "standard",
+      "label": "Standard Production (3-6 Weeks)"
+    },
+    {
+      "id": "custom",
+      "label": "Custom / Large Scale (7-12 Weeks)"
+    },
+    {
+      "id": "project",
+      "label": "Long Lead Time / Project (12+ Weeks)"
+    },
+    {
+      "id": "planning",
+      "label": "Planning Phase (No immediate need)"
+    },
+    {
+      "id": "other",
+      "label": "Other"
+    }
   ],
   "quantities": [
-    { "id": "1_unit", "label": "1 Unit (Replacement / Sample)" },
-    { "id": "2_5_units", "label": "2-5 Units (Small System)" },
-    { "id": "6_20_units", "label": "6-20 Units (Medium System)" },
-    { "id": "20_plus_units", "label": "20+ Units (Large Scale Project)" },
-    { "id": "other", "label": "Other" }
+    {
+      "id": "1_unit",
+      "label": "1 Unit (Replacement / Sample)"
+    },
+    {
+      "id": "2_5_units",
+      "label": "2-5 Units (Small System)"
+    },
+    {
+      "id": "6_20_units",
+      "label": "6-20 Units (Medium System)"
+    },
+    {
+      "id": "20_plus_units",
+      "label": "20+ Units (Large Scale Project)"
+    },
+    {
+      "id": "other",
+      "label": "Other"
+    }
   ],
   "productTypes": [
     {
@@ -55,5 +118,112 @@
       "id": "other",
       "label": "Other"
     }
-  ]
+  ],
+  "steps": {
+    "context": "Context",
+    "specifications": "Specifications",
+    "verification": "Verification",
+    "submit": "Submit"
+  },
+  "title": "Smart RFQ Builder - Get Custom Heat Exchanger Quotes",
+  "description": "Build a professional RFQ in minutes. Anonymous mode available. Get quotes from verified manufacturers.",
+  "navbarTitle": "Smart RFQ Builder",
+  "step1": {
+    "title": "1. Project Context",
+    "subtitle": "Help our verified factories understand the scale and requirements of your project.",
+    "countryLabel": "Destination Country / Region",
+    "countryPlaceholder": "Select a country...",
+    "industryLabel": "Industry / Application",
+    "customIndustryPlaceholder": "Please specify your industry...",
+    "quantityLabel": "Required Quantity",
+    "customQuantityPlaceholder": "Please specify the required quantity...",
+    "timelineLabel": "Expected Delivery Timeline",
+    "customTimelinePlaceholder": "Please specify your timeline expectations..."
+  },
+  "step2": {
+    "title": "2. Product & Specifications",
+    "subtitle": "Select the product type and provide the critical thermal parameters for sizing.",
+    "equipmentTypeLabel": "Select Equipment Type",
+    "customEquipmentPlaceholder": "Please specify the equipment type...",
+    "thermalSpecsTitle": "Thermal & Performance Specifications",
+    "thermalSpecsSubtitle": "Provide known parameters. Leave unknown fields blank.",
+    "hotSide": "Hot Side (Heating Fluid)",
+    "coldSide": "Cold Side (Cooling Fluid)",
+    "fluidLabel": "Fluid / Media",
+    "hotFluidPlaceholder": "e.g. Steam, Thermal Oil, Water",
+    "coldFluidPlaceholder": "e.g. Cooling Water, Glycol",
+    "inletTempLabel": "Inlet Temp (°C/°F)",
+    "outletTempLabel": "Outlet Temp (°C/°F)",
+    "flowRateLabel": "Flow Rate (Optional) (m³/h)",
+    "opLimitsTitle": "Operational Limits (Optional)",
+    "designPressureLabel": "Design Pressure (bar)",
+    "designPressurePlaceholder": "e.g. 10, 16, 25",
+    "pressureDropLabel": "Max Press. Drop (kPA)",
+    "pressureDropPlaceholder": "e.g. 50",
+    "heatLoadLabel": "Duty / Heat Load (kW)",
+    "heatLoadPlaceholder": "e.g. 1500",
+    "additionalNotesLabel": "Additional Notes / Custom Requirements",
+    "additionalNotesPlaceholder": "Any specific materials required? Dimensions constraints? Certifications needed? (Max 500 characters)"
+  },
+  "step3": {
+    "title": "3. Verification",
+    "subtitle": "Please verify your email to ensure you are a real user before connecting with factories.",
+    "verifiedTitle": "Email Already Verified!",
+    "continueBtn": "Continue to Final Submission",
+    "verifySubtitle": "To ensure high-quality supplier matching & protect your identity, please verify your email address.",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "you@company.com",
+    "freeEmailTitle": "Personal Email Detected.",
+    "freeEmailDesc": "Your RFQ will be distributed to a maximum of 2 factories. Use a business email to reach 5+ verified factories.",
+    "businessEmailTitle": "Business Email Detected.",
+    "businessEmailDesc": "Your RFQ will receive priority distribution to 5+ top-tier verified factories. Identity protected.",
+    "sendBtn": "Send Verification Code",
+    "sendingBtn": "Sending...",
+    "codeSentTo": "Code sent to",
+    "accessCodeLabel": "6-Digit Access Code",
+    "verifyBtn": "Verify Your Email",
+    "verifyingBtn": "Verifying...",
+    "successTitle": "Email Verified!",
+    "successSubtitle": "Proceeding to final confirmation..."
+  },
+  "step4": {
+    "title": "4. Confirm & Submit",
+    "subtitle": "Review your RFQ details and choose your privacy settings.",
+    "emailVerifiedTitle": "Email Verified Successfully!",
+    "anonymousMode": "Anonymous Mode",
+    "publicMode": "Public Mode",
+    "anonymousModeDesc": "Factories cannot see your email directly. We manage communication.",
+    "publicModeDesc": "Factories can see your email information directly.",
+    "projectContextTitle": "1. Project Context",
+    "productSpecsTitle": "2. Product Specifications",
+    "editBtn": "Edit",
+    "summaryCountry": "Country / Region",
+    "summaryIndustry": "Industry / Application",
+    "summaryQuantity": "Required Quantity",
+    "summaryTimeline": "Expected Timeline",
+    "summaryGeneralReq": "General Requirements",
+    "summaryEqType": "Equipment Type",
+    "summaryDesignPress": "Design Pressure",
+    "summaryPressDrop": "Max Press. Drop",
+    "summaryHeatLoad": "Heat Load",
+    "summaryNotes": "Additional Notes",
+    "summaryHotSide": "Hot Side",
+    "summaryColdSide": "Cold Side",
+    "summaryFluid": "Fluid",
+    "summaryInlet": "Inlet Temp",
+    "summaryOutlet": "Outlet Temp",
+    "summaryFlow": "Flow Rate",
+    "submitBtn": "Submit RFQ",
+    "otherPrefix": "Other"
+  },
+  "success": {
+    "title1": "Verified &",
+    "title2": "Submitted!",
+    "desc": "We have successfully processed your RFQ. We will be in touch shortly to assist you with the next steps.",
+    "homeBtn": "Return to Home"
+  },
+  "actions": {
+    "back": "Back",
+    "continue": "Continue"
+  }
 }

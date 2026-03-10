@@ -1,4 +1,5 @@
 import { ShieldCheck, Eye, EyeOff, User, Factory } from "lucide-react"
+import { useTranslation } from "react-i18next"
 
 interface LivePreviewProps {
     specs: any
@@ -9,11 +10,12 @@ interface LivePreviewProps {
 }
 
 export function LivePreview({ specs, productType, isAnonymous, onAnonymousChange, application }: LivePreviewProps) {
+    const { t } = useTranslation("translation", { keyPrefix: "pages.rfq.preview" });
 
     const getProductName = (type: string) => {
-        if (type === 'phe') return "Plate Heat Exchanger"
-        if (type === 'shell') return "Shell & Tube Unit"
-        return "Replacement Spares"
+        if (type === 'phe') return t("productPHE")
+        if (type === 'shell') return t("productShell")
+        return t("productSpares")
     }
 
     return (
@@ -27,10 +29,10 @@ export function LivePreview({ specs, productType, isAnonymous, onAnonymousChange
                 <div className="p-6 md:p-8">
                     <div className="flex items-center justify-between mb-8">
                         <div className="text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
-                            <Factory className="w-4 h-4" /> Live Factory View
+                            <Factory className="w-4 h-4" /> {t("title")}
                         </div>
                         <div className="px-3 py-1 rounded-full text-[10px] font-bold bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 border border-amber-200 dark:border-amber-800/50">
-                            #DRAFT
+                            #{t("draftStatus")}
                         </div>
                     </div>
 
@@ -41,16 +43,16 @@ export function LivePreview({ specs, productType, isAnonymous, onAnonymousChange
                         </div>
                         <div>
                             <div className="font-bold text-lg text-slate-900 dark:text-slate-50 leading-tight transition-all duration-300">
-                                {isAnonymous ? "Verified Buyer" : "Your Name Displayed"}
+                                {isAnonymous ? t("verifiedBuyer") : t("nameDisplayed")}
                             </div>
                             <div className="text-xs text-slate-500 mt-2 flex items-center gap-1.5 bg-slate-50 dark:bg-slate-800/50 w-fit px-2 py-1 rounded-md">
                                 {isAnonymous ? (
                                     <>
-                                        <EyeOff className="w-3.5 h-3.5" /> Contact Hidden
+                                        <EyeOff className="w-3.5 h-3.5" /> {t("contactHidden")}
                                     </>
                                 ) : (
                                     <>
-                                        <Eye className="w-3.5 h-3.5 text-primary" /> <span className="text-primary font-medium">Contact Visible</span>
+                                        <Eye className="w-3.5 h-3.5 text-primary" /> <span className="text-primary font-medium">{t("contactVisible")}</span>
                                     </>
                                 )}
                             </div>
@@ -60,42 +62,42 @@ export function LivePreview({ specs, productType, isAnonymous, onAnonymousChange
                     {/* Request Summary */}
                     <div className="space-y-6">
                         <div className="space-y-1.5">
-                            <div className="text-xs text-slate-400 font-bold uppercase tracking-wider">Product Requirement</div>
+                            <div className="text-xs text-slate-400 font-bold uppercase tracking-wider">{t("productRequirement")}</div>
                             <div className="font-bold text-slate-900 dark:text-slate-50 text-lg">{getProductName(productType)}</div>
                         </div>
 
                         {application && (
                              <div className="space-y-1.5">
-                                <div className="text-xs text-slate-400 font-bold uppercase tracking-wider">Industry / Application</div>
-                                <div className="font-medium text-primary bg-primary/5 border border-primary/10 px-3 py-1.5 rounded-lg w-fit text-sm">{application}</div>
+                                <div className="text-xs text-slate-400 font-bold uppercase tracking-wider">{t("industryLabel")}</div>
+                                <div className="font-medium text-primary bg-primary/5 border border-primary/10 px-3 py-1.5 rounded-lg w-fit text-sm">{t(`applications.${application.replace(/[^a-zA-Z]/g, '')}`, application)}</div>
                             </div>
                         )}
 
                         {(specs.hotFluid || specs.hotFlow || specs.hotIn || specs.coldFluid) && (
                             <div className="p-4 bg-slate-50 dark:bg-slate-800/50 rounded-xl text-sm space-y-3 border border-slate-100 dark:border-slate-800">
-                                <div className="font-bold text-xs text-slate-400 uppercase tracking-wider border-b border-slate-200 dark:border-slate-700 pb-2 mb-3">Tech Specs Preview</div>
+                                <div className="font-bold text-xs text-slate-400 uppercase tracking-wider border-b border-slate-200 dark:border-slate-700 pb-2 mb-3">{t("techSpecsPreview")}</div>
                                 
                                 {specs.hotFluid && (
                                     <div className="flex items-center justify-between">
-                                        <span className="text-slate-500">Hot Fluid:</span> 
+                                        <span className="text-slate-500">{t("hotFluid")}:</span> 
                                         <span className="font-mono font-medium text-slate-900 dark:text-slate-100">{specs.hotFluid}</span>
                                     </div>
                                 )}
                                 {specs.coldFluid && (
                                     <div className="flex items-center justify-between">
-                                        <span className="text-slate-500">Cold Fluid:</span> 
+                                        <span className="text-slate-500">{t("coldFluid")}:</span> 
                                         <span className="font-mono font-medium text-slate-900 dark:text-slate-100">{specs.coldFluid}</span>
                                     </div>
                                 )}
                                 {specs.hotIn && (
                                     <div className="flex items-center justify-between">
-                                        <span className="text-slate-500">Hot In:</span> 
+                                        <span className="text-slate-500">{t("hotIn")}:</span> 
                                         <span className="font-mono font-medium text-slate-900 dark:text-slate-100">{specs.hotIn}°</span>
                                     </div>
                                 )}
                                 {specs.hotFlow && (
                                     <div className="flex items-center justify-between">
-                                        <span className="text-slate-500">Hot Flow:</span> 
+                                        <span className="text-slate-500">{t("hotFlow")}:</span> 
                                         <span className="font-mono font-medium text-slate-900 dark:text-slate-100">{specs.hotFlow}</span>
                                     </div>
                                 )}
@@ -108,11 +110,11 @@ export function LivePreview({ specs, productType, isAnonymous, onAnonymousChange
                 {/* Privacy Control Footer */}
                 <div className="bg-slate-50 dark:bg-slate-800/30 p-5 md:p-6 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between mt-auto">
                     <div className="text-xs font-medium text-slate-500 max-w-[140px] leading-relaxed">
-                        {isAnonymous ? "Factories cannot see your email directly." : "Factories can email you directly."}
+                        {isAnonymous ? t("factoriesCannotSee") : t("factoriesCanEmail")}
                     </div>
                     <div className="flex items-center gap-3">
                         <span className={`text-xs font-bold w-16 text-right ${isAnonymous ? 'text-slate-500' : 'text-primary'}`}>
-                            {isAnonymous ? "Anonymous" : "Public"}
+                            {isAnonymous ? t("anonymous") : t("public")}
                         </span>
 
                         <button
