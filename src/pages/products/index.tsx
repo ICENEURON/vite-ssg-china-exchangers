@@ -3,7 +3,7 @@ import { Head } from 'vite-react-ssg'
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { useCurrentLanguage, addLanguageToPath } from "../../utils/language-routing";
-import { ArrowRight, Filter, ChevronDown, X, Check } from "lucide-react";
+import { ArrowRight, Filter, ChevronDown, X, Check, Factory } from "lucide-react";
 import { Button } from "../../components/ui/button";
 import { Badge } from "../../components/ui/badge";
 
@@ -23,6 +23,7 @@ export default function ProductsPage() {
     const industries = t("industries", { returnObjects: true }) as Industry[];
 
     const [selectedIndustrySlugs, setSelectedIndustrySlugs] = useState<string[]>([]);
+    const [selectedManufacturerSlugs, setSelectedManufacturerSlugs] = useState<string[]>([]);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -45,26 +46,54 @@ export default function ProductsPage() {
         );
     };
 
+    const toggleManufacturer = (slug: string) => {
+        setSelectedManufacturerSlugs(prev =>
+            prev.includes(slug)
+                ? prev.filter(s => s !== slug)
+                : [...prev, slug]
+        );
+    };
+
     const removeIndustry = (slug: string) => {
         setSelectedIndustrySlugs(prev => prev.filter(s => s !== slug));
     };
 
     const clearAll = () => {
         setSelectedIndustrySlugs([]);
+        setSelectedManufacturerSlugs([]);
         setIsDropdownOpen(false);
     };
 
+    const manufacturers = useMemo(() => {
+        const mfgMap = new Map<string, { slug: string, name: string }>();
+        productsList.forEach(p => {
+            if (p.manufacturer && !mfgMap.has(p.manufacturer.slug)) {
+                mfgMap.set(p.manufacturer.slug, p.manufacturer);
+            }
+        });
+        return Array.from(mfgMap.values());
+    }, [productsList]);
+
     const filteredProducts = useMemo(() => {
-        if (selectedIndustrySlugs.length === 0) return productsList;
+        let result = productsList;
 
-        const selectedIndustryNames = industries
-            .filter(i => selectedIndustrySlugs.includes(i.slug))
-            .map(i => i.name);
+        if (selectedIndustrySlugs.length > 0) {
+            const selectedIndustryNames = industries
+                .filter(i => selectedIndustrySlugs.includes(i.slug))
+                .map(i => i.name);
+            result = result.filter(p =>
+                p.industries?.some((industryName: string) => selectedIndustryNames.includes(industryName))
+            );
+        }
 
-        return productsList.filter(p =>
-            p.industries?.some((industryName: string) => selectedIndustryNames.includes(industryName))
-        );
-    }, [selectedIndustrySlugs, productsList, industries]);
+        if (selectedManufacturerSlugs.length > 0) {
+            result = result.filter(p =>
+                p.manufacturer && selectedManufacturerSlugs.includes(p.manufacturer.slug)
+            );
+        }
+
+        return result;
+    }, [selectedIndustrySlugs, selectedManufacturerSlugs, productsList, industries]);
 
     const selectedIndustries = useMemo(() =>
         industries.filter(i => selectedIndustrySlugs.includes(i.slug)),
@@ -180,56 +209,96 @@ export default function ProductsPage() {
                 </section>
 
                 {/* Categories Grid */}
-                <section className="max-w-7xl mx-auto px-6 md:px-12 mt-4 relative z-20">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <section className="max-w-7xl mx-auto px-6 md:px-12 mt-4 relative z-20 flex flex-col lg:flex-row gap-8">
+                    {/* Left Sidebar Filter */}
+                    <aside className="w-56 shrink-0 z-20">
+                        <div className="bg-card border border-border/50 rounded-2xl shadow-sm sticky top-24 overflow-hidden">
+                            <div className="p-2.5">
+                                <div className="px-4 py-2 flex items-center gap-2 mb-1">
+                                    <Factory className="w-4 h-4 text-primary shrink-0" />
+                                    <span className="font-bold text-sm text-foreground">Manufacturers</span>
+                                </div>
+                                <div className="max-h-[400px] overflow-y-auto custom-scrollbar flex flex-col">
+                                    <button
+                                        onClick={() => setSelectedManufacturerSlugs([])}
+                                        className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-xl transition-all group ${selectedManufacturerSlugs.length === 0 ? 'bg-primary/20 text-primary' : 'text-foreground/70 hover:bg-primary/20 hover:text-foreground'
+                                            }`}
+                                    >
+                                        <span className="font-bold">{productsT.t("filter_all")}</span>
+                                        {selectedManufacturerSlugs.length === 0 && <Check className="w-4 h-4 shrink-0" />}
+                                    </button>
+                                    <div className="h-px bg-border/40 my-2 mx-2" />
+
+                                    <div className="grid gap-1">
+                                        {manufacturers.map((mfg) => {
+                                            const isSelected = selectedManufacturerSlugs.includes(mfg.slug);
+                                            return (
+                                                <button
+                                                    key={mfg.slug}
+                                                    onClick={() => toggleManufacturer(mfg.slug)}
+                                                    className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-xl transition-all group ${isSelected
+                                                        ? 'bg-primary/5 text-primary font-semibold'
+                                                        : 'text-foreground/70 hover:bg-muted hover:text-foreground'
+                                                        }`}
+                                                >
+                                                    <span className="text-left leading-tight pr-2">{mfg.name}</span>
+                                                    {isSelected && <Check className="w-4 h-4 shrink-0 animate-in zoom-in duration-200" />}
+                                                </button>
+                                            );
+                                        })}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                    {/* Product Grid */}
+                    <div className="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 h-fit">
                         {filteredProducts.map((product: any) => (
                             <Link
                                 key={product.slug}
                                 to={addLanguageToPath(`/products/${product.url}`, currentLanguage)}
-                                className="group relative bg-card rounded-2xl border border-border/50 overflow-hidden shadow-lg hover:shadow-2xl hover:border-primary/50 transition-all duration-500 hover:-translate-y-2 flex flex-col"
+                                className="group relative bg-white dark:bg-zinc-900 rounded-2xl border border-slate-200 dark:border-zinc-800 overflow-hidden shadow-sm hover:shadow-xl hover:border-primary/50 transition-all duration-500 hover:-translate-y-1 flex flex-col"
                             >
                                 {/* Image Area */}
-                                <div className="h-56 overflow-hidden bg-slate-100 flex items-center justify-center relative">
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                                <div className="h-56 overflow-hidden bg-white flex items-center justify-center relative p-4">
+                                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300 z-10 pointer-events-none" />
                                     {product.images && product.images.length > 0 ? (
                                         <img
                                             src={product.images[0].url}
                                             alt={product.images[0].alt_text || product.name}
-                                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out mix-blend-multiply"
+                                            className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700 ease-in-out mix-blend-multiply"
                                         />
                                     ) : (
                                         <div className="text-slate-400">{productsT.t("card.no_image")}</div>
                                     )}
-                                    <div className="absolute bottom-4 right-4 z-20 p-3 bg-white/90 backdrop-blur rounded-full shadow-lg transform translate-y-12 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
-                                        <ArrowRight className="w-5 h-5 text-primary" />
-                                    </div>
                                 </div>
 
                                 {/* Content Area */}
-                                <div className="p-8 flex flex-col flex-1">
-                                    <h3 className="text-2xl font-bold mb-3 text-card-foreground group-hover:text-primary transition-colors">
+                                <div className="p-6 flex flex-col flex-1 border-t border-slate-100 dark:border-zinc-800">
+                                    <h3 className="text-xl font-bold mb-2 text-slate-900 dark:text-zinc-100 group-hover:text-primary transition-colors line-clamp-2">
                                         {product.name}
                                     </h3>
-                                    <p className="text-muted-foreground leading-relaxed flex-1">
+                                    <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed flex-1 line-clamp-3">
                                         {product.short_description}
                                     </p>
 
-                                    <div className="mt-8 flex flex-col gap-3">
+                                    <div className="mt-6 flex flex-col gap-3">
                                         <div className="flex flex-wrap gap-2 text-xs">
                                             {product.industries?.slice(0, 3).map((ind: string, idx: number) => (
-                                                <Badge key={idx} variant="secondary" className="font-normal opacity-80">
+                                                <Badge key={idx} variant="secondary" className="font-normal bg-slate-100 dark:bg-zinc-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-zinc-700">
                                                     {ind}
                                                 </Badge>
                                             ))}
                                             {product.industries?.length > 3 && (
-                                                <Badge variant="secondary" className="font-normal opacity-80 text-muted-foreground">
+                                                <Badge variant="secondary" className="font-normal bg-slate-100 dark:bg-zinc-800 text-slate-500 dark:text-slate-400">
                                                     {productsT.t("card.more_industries", { count: product.industries.length - 3 })}
                                                 </Badge>
                                             )}
                                         </div>
-                                        <div className="flex items-center text-sm font-semibold text-primary mt-2">
+                                        <div className="flex items-center text-sm font-semibold text-primary mt-3 group-hover:underline">
                                             {productsT.t("card.explore_details")}
-                                            <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" />
+                                            <ArrowRight className="w-4 h-4 ml-1.5 group-hover:translate-x-1.5 transition-transform" />
                                         </div>
                                     </div>
                                 </div>
@@ -238,11 +307,11 @@ export default function ProductsPage() {
                     </div>
 
                     {filteredProducts.length === 0 && (
-                        <div className="flex flex-col items-center justify-center py-24 text-center animate-in fade-in duration-500">
-                            <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center mb-4">
-                                <Filter className="w-8 h-8 text-muted-foreground/50" />
+                        <div className="flex flex-col items-center justify-center py-24 text-center bg-white dark:bg-zinc-900 rounded-2xl border border-slate-200 dark:border-zinc-800 shadow-sm col-span-full">
+                            <div className="w-16 h-16 bg-slate-100 dark:bg-zinc-800 rounded-full flex items-center justify-center mb-4">
+                                <Filter className="w-8 h-8 text-slate-400 dark:text-slate-500" />
                             </div>
-                            <h3 className="text-lg font-medium text-foreground mb-2">
+                            <h3 className="text-lg font-medium text-slate-900 dark:text-zinc-100 mb-2">
                                 {productsT.t("no_results")}
                             </h3>
                             <button
