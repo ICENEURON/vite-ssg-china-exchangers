@@ -22,11 +22,11 @@ export function ContactHero() {
                     </h1>
                 </div>
 
-                <p className="text-lg md:text-xl max-w-4xl text-primary font-medium w-full text-center">
+                <p className="text-lg md:text-xl max-w-4xl text-primary font-medium w-full text-center px-4">
                     {t("pages.contact.hero.subtitle")}
                 </p>
 
-                <p className="text-lg max-w-4xl text-slate-600 dark:text-slate-300 w-full text-center leading-relaxed font-light">
+                <p className="text-lg max-w-4xl text-slate-600 dark:text-slate-300 w-full text-center leading-relaxed font-light px-4">
                     {t("pages.contact.hero.description")}
                 </p>
             </div>

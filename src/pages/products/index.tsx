@@ -211,7 +211,7 @@ export default function ProductsPage() {
                 {/* Categories Grid */}
                 <section className="max-w-7xl mx-auto px-6 md:px-12 mt-4 relative z-20 flex flex-col lg:flex-row gap-8">
                     {/* Left Sidebar Filter */}
-                    <aside className="w-56 shrink-0 z-20">
+                    <aside className="w-full lg:w-56 shrink-0 z-20">
                         <div className="bg-card border border-border/50 rounded-2xl shadow-sm sticky top-24 overflow-hidden">
                             <div className="p-2.5">
                                 <div className="px-4 py-2 flex items-center gap-2 mb-1">

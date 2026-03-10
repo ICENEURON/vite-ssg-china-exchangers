@@ -145,21 +145,29 @@ export default function ManufacturerProfilePage() {
                 {/* VERIFICATION STRIP - Clean & Trustworthy */}
                 <div className="border-b bg-white dark:bg-zinc-900 shadow-sm sticky top-0 z-40 backdrop-blur-xl bg-white/80 dark:bg-zinc-900/80">
                     <div className="container mx-auto px-4 max-w-7xl">
-                        <div className="flex justify-between divide-x divide-slate-100 dark:divide-zinc-800 overflow-x-auto">
+                        <div className="grid grid-cols-2 sm:flex sm:flex-row justify-between w-full">
                             {[
                                 { icon: ShieldCheck, label: t(`${SHARED_TK}.iso_certified`), active: verifiedInfo?.iso, color: "text-emerald-500" },
                                 { icon: Award, label: t(`${SHARED_TK}.asme_stamp`), active: verifiedInfo?.ASME, color: "text-blue-500" },
                                 { icon: BadgeCheck, label: t(`${SHARED_TK}.business_license`), active: verifiedInfo?.business_license, color: "text-purple-500" },
                                 { icon: Globe2, label: t(`${SHARED_TK}.global_trade`), active: verifiedInfo?.export_experience, color: "text-indigo-500" }
-                            ].map((item, index) => (
-                                <div key={index} className="flex-1 py-4 px-4 flex flex-col sm:flex-row items-center justify-center gap-3 hover:bg-slate-50 dark:hover:bg-zinc-800 transition-colors min-w-[120px]">
-                                    <item.icon className={`w-6 h-6 ${item.active ? item.color : "text-slate-300"}`} />
-                                    <div className="text-center sm:text-left leading-tight">
-                                        <div className={`font-bold text-sm ${item.active ? "text-slate-900 dark:text-white" : "text-slate-400"}`}>{item.label}</div>
-                                        <div className="text-[10px] uppercase tracking-wider text-slate-500">{item.active ? t(`${SHARED_TK}.verified`) : t(`${SHARED_TK}.not_available`)}</div>
+                            ].map((item, index) => {
+                                let borderClasses = "";
+                                if (index === 0) borderClasses = "border-b border-r md:border-b-0";
+                                if (index === 1) borderClasses = "border-b md:border-b-0 md:border-r";
+                                if (index === 2) borderClasses = "border-r";
+                                if (index === 3) borderClasses = "border-none";
+
+                                return (
+                                    <div key={index} className={`flex-1 py-4 px-2 sm:px-4 flex flex-col xl:flex-row items-center justify-center gap-2 sm:gap-3 hover:bg-slate-50 dark:hover:bg-zinc-800 transition-colors min-w-[120px] border-slate-100 dark:border-zinc-800 ${borderClasses}`}>
+                                        <item.icon className={`w-6 h-6 ${item.active ? item.color : "text-slate-300"}`} />
+                                        <div className="text-center xl:text-left leading-tight">
+                                            <div className={`font-bold text-xs sm:text-sm ${item.active ? "text-slate-900 dark:text-white" : "text-slate-400"}`}>{item.label}</div>
+                                            <div className="text-[10px] uppercase tracking-wider text-slate-500">{item.active ? t(`${SHARED_TK}.verified`) : t(`${SHARED_TK}.not_available`)}</div>
+                                        </div>
                                     </div>
-                                </div>
-                            ))}
+                                );
+                            })}
                         </div>
                     </div>
                 </div>
@@ -406,7 +414,7 @@ export default function ManufacturerProfilePage() {
             </main>
 
             {/* Floating Back Button */}
-            <Link 
+            <Link
                 to={addLanguageToPath('/manufacturers', currentLanguage)}
                 className="fixed bottom-8 right-8 z-50 flex items-center justify-center gap-2 px-6 py-4 bg-white dark:bg-zinc-800 text-slate-800 dark:text-zinc-200 rounded-full shadow-2xl border border-slate-200 dark:border-zinc-700 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.3)] hover:-translate-y-1 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 group font-bold"
             >
