@@ -4,6 +4,9 @@ import { useTranslation } from "react-i18next"
 import rawCountries from "../../../data/countries.json"
 
 export interface RqfContextData {
+    firstName: string;
+    lastName: string;
+    companyName: string;
     country: string;
     industry: string;
     customIndustry: string;
@@ -88,6 +91,40 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
         <div className="space-y-2 animate-in fade-in slide-in-from-bottom-4">
              <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 md:p-10 shadow-sm">
                 
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                    <FieldSet>
+                        <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{t("step1.firstNameLabel")} <span className="text-red-500">*</span></FieldLabel>
+                        <input
+                            type="text"
+                            value={data.firstName}
+                            onChange={(e) => onChange({ firstName: e.target.value })}
+                            placeholder={t("step1.firstNamePlaceholder")}
+                            className="flex h-12 w-full rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                        />
+                    </FieldSet>
+                    <FieldSet>
+                        <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{t("step1.lastNameLabel")} <span className="text-red-500">*</span></FieldLabel>
+                        <input
+                            type="text"
+                            value={data.lastName}
+                            onChange={(e) => onChange({ lastName: e.target.value })}
+                            placeholder={t("step1.lastNamePlaceholder")}
+                            className="flex h-12 w-full rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                        />
+                    </FieldSet>
+                </div>
+
+                <FieldSet className="mb-8">
+                    <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{t("step1.companyLabel")}</FieldLabel>
+                    <input
+                        type="text"
+                        value={data.companyName}
+                        onChange={(e) => onChange({ companyName: e.target.value })}
+                        placeholder={t("step1.companyPlaceholder")}
+                        className="flex h-12 w-full rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                    />
+                </FieldSet>
+
                 <FieldSet className="mb-8">
                     <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{t("step1.countryLabel")}</FieldLabel>
                     <div className="relative">

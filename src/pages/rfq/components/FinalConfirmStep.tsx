@@ -14,12 +14,12 @@ interface FinalConfirmStepProps {
 
 export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleAnonymous, onEditStep }: FinalConfirmStepProps) {
     const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
-    const industries = t("industries", { returnObjects: true }) as {id: string, label: string}[];
-    const quantities = t("quantities", { returnObjects: true }) as {id: string, label: string}[];
-    const timelines = t("timelines", { returnObjects: true }) as {id: string, label: string}[];
-    const productTypes = t("productTypes", { returnObjects: true }) as {id: string, label: string}[];
+    const industries = t("industries", { returnObjects: true }) as { id: string, label: string }[];
+    const quantities = t("quantities", { returnObjects: true }) as { id: string, label: string }[];
+    const timelines = t("timelines", { returnObjects: true }) as { id: string, label: string }[];
+    const productTypes = t("productTypes", { returnObjects: true }) as { id: string, label: string }[];
 
-    const getLabel = (opts: {id: string, label: string}[], id: string) => opts.find(o => o.id === id)?.label || id;
+    const getLabel = (opts: { id: string, label: string }[], id: string) => opts.find(o => o.id === id)?.label || id;
 
     const renderSummaryItem = (label: string, value: string) => {
         if (!value) return null;
@@ -77,7 +77,7 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleA
 
             {/* Review Summary */}
             <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 shadow-sm space-y-8 mt-8">
-                
+
                 {/* Context Section */}
                 <div>
                     <div className="flex items-center justify-between mb-4 pb-2 border-b border-slate-200 dark:border-slate-800">
@@ -96,14 +96,30 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleA
 
                 {/* Specs Section */}
                 <div>
-                     <div className="flex items-center justify-between mb-4 pb-2 border-b border-slate-200 dark:border-slate-800">
+                    <div className="flex items-center justify-between mb-4 pb-2 border-b border-slate-200 dark:border-slate-800">
                         <h5 className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest">{t("step4.productSpecsTitle")}</h5>
                         <button onClick={() => onEditStep(2)} className="text-primary hover:text-primary/80 flex items-center text-xs font-bold transition-colors">
                             <Edit2 className="w-3.5 h-3.5 mr-1.5" /> {t("step4.editBtn")}
                         </button>
                     </div>
-                    
+
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+                        <div className="bg-rose-50 dark:bg-rose-900/10 p-4 rounded-xl">
+                            <div className="text-xs font-bold text-rose-500 uppercase tracking-widest mb-3">{t("step4.summaryHotSide")}</div>
+                            {renderSummaryItem(t("step4.summaryFluid"), specs.hotFluid)}
+                            {renderSummaryItem(t("step4.summaryInlet"), specs.hotIn ? `${specs.hotIn}°` : "")}
+                            {renderSummaryItem(t("step4.summaryOutlet"), specs.hotOut ? `${specs.hotOut}°` : "")}
+                            {renderSummaryItem(t("step4.summaryFlow"), specs.hotFlow ? `${specs.hotFlow} m³/h` : "")}
+                        </div>
+
+                        <div className="bg-blue-50 dark:bg-blue-900/10 p-4 rounded-xl md:col-start-2">
+                            <div className="text-xs font-bold text-blue-500 uppercase tracking-widest mb-3">{t("step4.summaryColdSide")}</div>
+                            {renderSummaryItem(t("step4.summaryFluid"), specs.coldFluid)}
+                            {renderSummaryItem(t("step4.summaryInlet"), specs.coldIn ? `${specs.coldIn}°` : "")}
+                            {renderSummaryItem(t("step4.summaryOutlet"), specs.coldOut ? `${specs.coldOut}°` : "")}
+                            {renderSummaryItem(t("step4.summaryFlow"), specs.coldFlow ? `${specs.coldFlow} m³/h` : "")}
+                        </div>
+
                         <div className="bg-slate-50 dark:bg-slate-800/50 p-4 rounded-xl md:col-span-2">
                             <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">{t("step4.summaryGeneralReq")}</div>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -120,22 +136,6 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleA
                                     </div>
                                 )}
                             </div>
-                        </div>
-
-                         <div className="bg-rose-50 dark:bg-rose-900/10 p-4 rounded-xl">
-                            <div className="text-xs font-bold text-rose-500 uppercase tracking-widest mb-3">{t("step4.summaryHotSide")}</div>
-                            {renderSummaryItem(t("step4.summaryFluid"), specs.hotFluid)}
-                            {renderSummaryItem(t("step4.summaryInlet"), specs.hotIn ? `${specs.hotIn}°` : "")}
-                            {renderSummaryItem(t("step4.summaryOutlet"), specs.hotOut ? `${specs.hotOut}°` : "")}
-                            {renderSummaryItem(t("step4.summaryFlow"), specs.hotFlow ? `${specs.hotFlow} m³/h` : "")}
-                        </div>
-
-                         <div className="bg-blue-50 dark:bg-blue-900/10 p-4 rounded-xl md:col-start-2">
-                            <div className="text-xs font-bold text-blue-500 uppercase tracking-widest mb-3">{t("step4.summaryColdSide")}</div>
-                            {renderSummaryItem(t("step4.summaryFluid"), specs.coldFluid)}
-                            {renderSummaryItem(t("step4.summaryInlet"), specs.coldIn ? `${specs.coldIn}°` : "")}
-                            {renderSummaryItem(t("step4.summaryOutlet"), specs.coldOut ? `${specs.coldOut}°` : "")}
-                            {renderSummaryItem(t("step4.summaryFlow"), specs.coldFlow ? `${specs.coldFlow} m³/h` : "")}
                         </div>
                     </div>
                 </div>

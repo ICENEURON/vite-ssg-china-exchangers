@@ -323,5 +323,91 @@
     },
     "created_at": "2026-03-09T02:27:09.186312+00:00",
     "updated_at": "2026-03-09T02:27:09.186312+00:00"
+  },
+  {
+    "id": "57e8abaf-c932-4f0b-818f-7a92db3abab9",
+    "name": {
+      "en": "Beijing Huaaixin Energy Saving Equipment Co., Ltd.",
+      "ja": "北京華艾鑫省エネ設備有限公司",
+      "zh": "北京华艾鑫节能设备有限公司"
+    },
+    "short_description": {
+      "en": "Verified heat exchanger and water treatment equipment manufacturer based in Beijing, China.",
+      "ja": "中国・北京に拠点を置く熱交換器および水処理設備のメーカーです。",
+      "zh": "位于中国北京的换热器及水处理设备制造商。"
+    },
+    "full_description": {
+      "en": "Beijing Huaaixin Energy Saving Equipment Co., Ltd., founded in 2003, is a mainstream manufacturer of heat exchangers and the largest manufacturer of heat exchangers in North China. The company produces various types of plate heat exchangers, heat exchanger units, pressure tanks, water supply equipments, and environmental protection water treatment equipments.",
+      "ja": "北京華艾鑫省エネ設備有限公司は2003年に設立され、華北地方最大の熱交換器メーカーの一つです。主に各種プレート熱交換器、熱交換ユニット、圧力タンク、給水設備、環境保護水処理設備を製造しています。",
+      "zh": "北京华艾鑫节能设备有限公司成立于2003年，是华北地区最大的换热器制造商之一。公司主要生产各种类型的板式换热器、换热机组、一二类压力容器、供水设备及环保水处理设备。"
+    },
+    "advantages": {
+      "en": [
+        "Advanced technology & Excellent equipment: Produces various types of plate heat exchangers and units.",
+        "Large scale operations: The largest manufacturer of heat exchangers in North China with 170 professional employees.",
+        "Quality assurance: Offers 5-year quality guarantees and strict performance commitments."
+      ],
+      "ja": [
+        "先進的な技術と設備：多様なプレート熱交換器やユニットを製造可能。",
+        "規模のメリット：華北地方最大の熱交換器メーカーであり、170名の専門スタッフを擁する。",
+        "品質保証：5年間の品質保証と厳格な性能コミットメントを提供。"
+      ],
+      "zh": [
+        "技术与设备先进：可生产多种类型的板式换热器及机组。",
+        "规模优势：华北地区最大的换热器制造商，拥有170名专业员工。",
+        "质量保证：提供5年质量保证及严格的性能承诺。"
+      ]
+    },
+    "slug": "beijing-huaaixin-energy-saving-equipment-co-ltd",
+    "website": "https://en.bjhuaaixin.com",
+    "email": [
+      "info@haxian.com"
+    ],
+    "phone": [
+      "+861068631142",
+      "+861068631862"
+    ],
+    "country_id": "CN",
+    "country_name": {
+      "en": "China",
+      "ja": "中国",
+      "zh": "中国"
+    },
+    "city": {
+      "en": "Beijing",
+      "ja": "北京",
+      "zh": "北京"
+    },
+    "address": {
+      "en": "No. 8, Jinfu Road, Daxing Economic Development Zone, Daxing District, Beijing, China",
+      "ja": "中国北京市大興区経済開発区金輔路8号",
+      "zh": "中国北京市大兴区经济开发区金辅路8号"
+    },
+    "established_year": "2003",
+    "factory_area": "5000m2",
+    "employee_count": "170",
+    "industries": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "export_markets": [
+      "HK",
+      "CN",
+      "US"
+    ],
+    "is_visible": true,
+    "seo_data": {
+      "meta_title": "Beijing Huaaixin Energy Saving Equipment Co., Ltd. | Heat Exchanger Manufacturer",
+      "meta_description": "Verified heat exchanger and water treatment equipment manufacturer in Beijing, China."
+    },
+    "created_at": "2026-03-10T13:04:04.648884+00:00",
+    "updated_at": "2026-03-10T13:04:04.648884+00:00"
   }
 ]

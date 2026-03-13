@@ -1,4 +1,3 @@
-import { FieldSet, FieldLabel, FieldGroup } from "../../../components/ui/field"
 import { Check } from "lucide-react"
 import { useTranslation } from "react-i18next"
 
@@ -26,7 +25,8 @@ interface ProductAndSpecsStepProps {
 
 export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps) {
     const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
-    const productTypes = t("productTypes", { returnObjects: true }) as {id: string, label: string}[];
+    const productTypesRaw = t("productTypes", { returnObjects: true });
+    const productTypes: {id: string, label: string}[] = Array.isArray(productTypesRaw) ? productTypesRaw : [];
     
     // Basic anti-injection to prevent basic script tags or SQL patterns, plus a 500-char limit
     const MAX_NOTES_LENGTH = 500;
@@ -47,13 +47,14 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
             
             {/* 1. Product Selection */}
             <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 md:p-10 shadow-sm">
-                <FieldSet className="mb-0">
-                    <FieldLabel className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-4">{t("step2.equipmentTypeLabel")}</FieldLabel>
-                    <FieldGroup className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                <div className="mb-0">
+                    <p className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-4">{t("step2.equipmentTypeLabel")}</p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                         {productTypes.map((p) => {
                             const isSelected = data.productType === p.id;
                             return (
                                 <button
+                                    type="button"
                                     key={p.id}
                                     onClick={() => onChange({ productType: p.id })}
                                     className={`
@@ -75,7 +76,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                                 </button>
                             )
                         })}
-                    </FieldGroup>
+                    </div>
                     {data.productType === "other" && (
                         <div className="mt-4 animate-in fade-in slide-in-from-top-2">
                             <input
@@ -87,7 +88,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                             />
                         </div>
                     )}
-                </FieldSet>
+                </div>
             </div>
 
             {/* 2. Basic Technical Requirements */}

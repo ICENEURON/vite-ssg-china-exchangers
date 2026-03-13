@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Mail, ShieldCheck, AlertTriangle, ArrowRight, CheckCircle2 } from "lucide-react";
 import { Button } from "../../../components/ui/button";
 import { useTranslation } from "react-i18next";
+import { sendVerificationOTP, verifyOTPCode } from "../../../lib/supabase/auth";
 
 interface EmailVerificationStepProps {
     email: string;
@@ -23,6 +24,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
     const [step, setStep] = useState<"input" | "otp" | "success">("input");
     const [otp, setOtp] = useState("");
     const [isLoading, setIsLoading] = useState(false);
+    const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
     if (isVerified) {
         return (
@@ -56,27 +58,35 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
         }
     }, [email]);
 
-    const handleSendCode = () => {
+    const handleSendCode = async () => {
         if (!email || !email.includes("@")) return;
         setIsLoading(true);
-        // Simulate network request for OTP
-        setTimeout(() => {
-            setIsLoading(false);
+        setErrorMsg(null);
+        try {
+            await sendVerificationOTP(email);
             setStep("otp");
-        }, 800);
+        } catch (err: any) {
+            setErrorMsg(err.message || "Failed to send verification code. Please try again.");
+        } finally {
+            setIsLoading(false);
+        }
     };
 
-    const handleVerifyOtp = () => {
-        if (otp.length < 6) return;
+    const handleVerifyOtp = async () => {
+        if (otp.length < 8) return;
         setIsLoading(true);
-        // Simulate verification
-        setTimeout(() => {
-            setIsLoading(false);
+        setErrorMsg(null);
+        try {
+            await verifyOTPCode(email, otp);
             setStep("success");
             setTimeout(() => {
                 onVerify();
             }, 1000);
-        }, 1000);
+        } catch (err: any) {
+            setErrorMsg(err.message || "Invalid or expired verification code.");
+        } finally {
+            setIsLoading(false);
+        }
     };
 
     return (
@@ -122,6 +132,12 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                         </div>
                     )}
 
+                    {errorMsg && (
+                        <div className="text-red-500 text-sm font-medium mt-2">
+                            {errorMsg}
+                        </div>
+                    )}
+
                     <Button
                         size="lg"
                         className="w-full h-14 text-base font-bold bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white rounded-xl shadow-lg shadow-primary/20"
@@ -145,9 +161,9 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                         <input
                             autoFocus
                             type="text"
-                            maxLength={6}
-                            className="flex h-16 w-full rounded-xl border-2 border-slate-200 dark:border-slate-700 bg-background px-4 py-2 text-3xl tracking-[1em] text-center font-mono ring-offset-background transition-all focus:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10 uppercase"
-                            placeholder="------"
+                            maxLength={8}
+                            className="flex h-16 w-full rounded-xl border-2 border-slate-200 dark:border-slate-700 bg-background px-4 py-2 text-3xl tracking-[0.5em] text-center font-mono ring-offset-background transition-all focus:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10 uppercase"
+                            placeholder="--------"
                             value={otp}
                             onChange={(e) => setOtp(e.target.value.toUpperCase())}
                         />
@@ -158,19 +174,28 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                             variant="outline"
                             size="lg"
                             className="h-14 font-bold border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 rounded-xl px-6"
-                            onClick={() => setStep("input")}
+                            onClick={() => {
+                                setStep("input");
+                                setErrorMsg(null);
+                            }}
                         >
                             {t("actions.back")}
                         </Button>
                         <Button
                             size="lg"
                             className="flex-1 h-14 text-base font-bold bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white rounded-xl shadow-lg shadow-primary/20"
-                            disabled={otp.length !== 6 || isLoading}
+                            disabled={otp.length !== 8 || isLoading}
                             onClick={handleVerifyOtp}
                         >
                             {isLoading ? t("step3.verifyingBtn") : t("step3.verifyBtn")} <ArrowRight className="w-5 h-5 ml-2" />
                         </Button>
                     </div>
+
+                    {errorMsg && (
+                        <div className="text-red-500 text-sm font-medium text-center">
+                            {errorMsg}
+                        </div>
+                    )}
                 </div>
             )}
 
