@@ -35,43 +35,25 @@
     "食品加工",
     "食品与饮料"
   ],
-  "certifications": [
-    {
-      "alt_text": "Qualification certificate",
-      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_3.png"
-    }
-  ],
-  "customers": [
-    {
-      "alt_text": "Customer logo",
-      "url": "/storage/manufacturer_assets/company_customers/sulzer.png"
-    }
-  ],
-  "images": [
-    {
-      "alt_text": "Product line image",
-      "url": "/storage/manufacturer_assets/company_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
-    }
-  ],
+  "certifications": [],
+  "customers": [],
+  "images": [],
   "products": [
     {
       "slug": "brazed-plate-cooler-unit",
       "name": "钎焊板式冷却器单元",
-      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg",
       "short_description": "用于测试钎焊板式冷却器单元的模拟产品数据。",
       "url": "qingdao-thermal-systems-co-ltd/brazed-plate-cooler-unit"
     },
     {
       "slug": "compact-exhaust-gas-economizer",
       "name": "紧凑型烟气省煤器",
-      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg",
       "short_description": "用于测试紧凑型烟气省煤器的模拟产品数据。",
       "url": "qingdao-thermal-systems-co-ltd/compact-exhaust-gas-economizer"
     },
     {
       "slug": "marine-central-cooler-package",
       "name": "船用中央冷却器系统",
-      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg",
       "short_description": "用于测试船用中央冷却器系统的模拟产品数据。",
       "url": "qingdao-thermal-systems-co-ltd/marine-central-cooler-package"
     }

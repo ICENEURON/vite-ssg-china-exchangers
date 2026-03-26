@@ -1,10 +1,9 @@
 {
   "name": "Shanghai Heat Transfer Equipment Co., Ltd.",
-  "full_description": "Shanghai Heat Transfer Equipment Co., Ltd. is a leading manufacturer of heat exchangers and heat transfer equipment. With over 20 years of experience in the industry, the company has established itself as a reliable supplier of high-quality heat exchangers and heat transfer equipment. The company's products are used in a wide range of applications, including chemical processing, food and beverage, and pharmaceuticals.",
+  "full_description": "Shanghai Heat Transfer Equipment Co., Ltd. is a leading manufacturer of heat exchangers and heat transfer equipment. With over 20 years of experience...",
   "advantages": [
     "Advanced Thermal Laboratory: In-house performance testing ensures real-world efficiency validation.",
-    "Specialized Welding Technology: Expertise in fully welded and wide-gap plate heat exchangers for difficult media.",
-    "Comprehensive Industry Coverage: Proven track record in chemical, pharmaceutical, and food processing sectors."
+    "Specialized Welding Technology: Expertise in fully welded and wide-gap plate heat exchangers."
   ],
   "slug": "shanghai-heat-transfer-equipment-co-ltd",
   "website": "https://www.shanghaiheattransfer.com",
@@ -42,71 +41,97 @@
   ],
   "certifications": [
     {
-      "alt_text": "Company certificate",
-      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_2.png"
+      "alt_text": "ABS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/abs.jpg"
     },
     {
-      "alt_text": "Company certificate",
-      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_1.png"
+      "alt_text": "ASME U Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/asme_u_certificate.jpg"
     },
     {
-      "alt_text": "Company certificate",
-      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_3.png"
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/ce.jpg"
+    },
+    {
+      "alt_text": "ISO 14001 Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_14001.jpg"
+    },
+    {
+      "alt_text": "ISO 45001 Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_45001.jpg"
+    },
+    {
+      "alt_text": "ISO 9001 Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_9001.jpg"
+    },
+    {
+      "alt_text": "NB U Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/nb_u_certificate.jpg"
+    },
+    {
+      "alt_text": "OHSAS 18001 Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/ohsas_18001.jpg"
     }
   ],
   "customers": [
     {
-      "alt_text": "Company Customer",
-      "url": "/storage/manufacturer_assets/company_customers/sulzer.png"
+      "alt_text": "BP Customer Logo",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_customers/bp.png"
     },
     {
-      "alt_text": "Company Customer",
-      "url": "/storage/manufacturer_assets/company_customers/siemens.png"
+      "alt_text": "Gazprom Customer Logo",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_customers/gazprom.png"
     },
     {
-      "alt_text": "Company Customer",
-      "url": "/storage/manufacturer_assets/company_customers/riotinto.png"
+      "alt_text": "Rio Tinto Customer Logo",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_customers/riotinto.png"
     },
     {
-      "alt_text": "Company Customer",
-      "url": "/storage/manufacturer_assets/company_customers/gazprom.png"
+      "alt_text": "Siemens Customer Logo",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_customers/siemens.png"
     },
     {
-      "alt_text": "Company Customer",
-      "url": "/storage/manufacturer_assets/company_customers/bp.png"
+      "alt_text": "Sulzer Customer Logo",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_customers/sulzer.png"
     },
     {
-      "alt_text": "Company Customer",
-      "url": "/storage/manufacturer_assets/company_customers/vimetco.png"
+      "alt_text": "Vimetco Customer Logo",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_customers/vimetco.png"
     }
   ],
   "images": [
     {
-      "alt_text": "Company image",
-      "url": "/storage/manufacturer_assets/company_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+      "alt_text": "Shanghai Heat Transfer Equipment Factory View",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/factory_front.jpg"
     }
   ],
   "products": [
     {
-      "slug": "ht-bloc-welded-plate-heat-exchanger",
-      "name": "HT-Bloc Welded Plate Heat Exchanger",
-      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg",
-      "short_description": "Compact and efficient welded plate heat exchanger for demanding process duties.",
-      "url": "shanghai-heat-transfer-equipment-co-ltd/ht-bloc-welded-plate-heat-exchanger"
+      "slug": "tp-fully-welded-plate-heat-exchanger",
+      "name": "TP Fully Welded Plate Heat Exchanger",
+      "short_description": "Openable/fully welded TP design for high temperature and pressure applications.",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/tp-fully-welded-plate-heat-exchanger"
     },
     {
-      "slug": "wide-gap-welded-plate-heat-exchanger",
-      "name": "Wide Gap Welded Plate Heat Exchanger",
-      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg",
-      "short_description": "Welded plate heat exchanger designed for solids, viscous media, and anti-clogging performance.",
-      "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
+      "slug": "ht-bloc-welded-plate-heat-exchanger",
+      "name": "HT-BLOC Welded Plate Heat Exchanger",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_1.png",
+      "short_description": "Compact welded bloc exchanger for high-pressure industrial duty.",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/ht-bloc-welded-plate-heat-exchanger"
     },
     {
       "slug": "tp-welded-plate-heat-exchanger",
       "name": "TP Welded Plate Heat Exchanger",
-      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_1.jpg",
       "short_description": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
       "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "plate-heat-exchanger",
+      "name": "Plate Heat Exchanger (Gasketed)",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_hex_1.jpg",
+      "short_description": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/plate-heat-exchanger"
     }
   ]
 }

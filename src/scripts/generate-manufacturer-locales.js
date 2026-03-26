@@ -22,6 +22,9 @@ const industries = readJson('industries.json');
 const products = readJson('products.json');
 const productAssets = readJson('product_assets.json');
 
+const preferredManufacturerAssets = manufacturerAssets.filter(asset => asset.storage_bucket === 'assets');
+const preferredProductAssets = productAssets.filter(asset => asset.storage_bucket === 'assets');
+
 // Detect available languages
 const langsArray = [];
 if (manufacturers.length > 0 && typeof manufacturers[0].name === 'object') {
@@ -59,9 +62,27 @@ function localizeField(value, availableLangs, currentLang) {
   return value;
 }
 
+function toAssetUrl(asset) {
+  return `/storage/${asset.storage_bucket}/${asset.storage_path}`;
+}
+
+function hasAssetType(asset, expectedTypes) {
+  return expectedTypes.includes(asset.asset_type);
+}
+
+function getProductImageAsset(productId) {
+  const galleryImage = preferredProductAssets.find(asset => asset.product_id === productId && asset.asset_type === 'gallery_image');
+  if (galleryImage) {
+    return galleryImage;
+  }
+
+  return preferredProductAssets.find(asset => asset.product_id === productId && asset.asset_type === 'image');
+}
+
 function processData() {
   for (const lang of langsArray) {
     const langDir = path.join(localesDir, lang, 'pages', 'manufacturers');
+    fs.rmSync(langDir, { recursive: true, force: true });
     fs.mkdirSync(langDir, { recursive: true });
 
     const listData = [];
@@ -107,27 +128,27 @@ function processData() {
       }
 
       // Add manufacturer assets by type
-      const mfgAssets = manufacturerAssets.filter(asset => asset.manufacturer_id === mfg.id);
+      const mfgAssets = preferredManufacturerAssets.filter(asset => asset.manufacturer_id === mfg.id);
 
       individualMfg.certifications = mfgAssets
-        .filter(asset => asset.asset_type === 'certifications')
+        .filter(asset => hasAssetType(asset, ['certifications', 'certificate']))
         .map(asset => {
           const locAsset = localizeField(asset, langsArray, lang);
-          return { alt_text: locAsset.alt_text, url: `/storage/${asset.storage_bucket}/${asset.storage_path}` };
+          return { alt_text: locAsset.alt_text, url: toAssetUrl(asset) };
         });
 
       individualMfg.customers = mfgAssets
-        .filter(asset => asset.asset_type === 'customers')
+        .filter(asset => hasAssetType(asset, ['customers', 'logo']))
         .map(asset => {
           const locAsset = localizeField(asset, langsArray, lang);
-          return { alt_text: locAsset.alt_text, url: `/storage/${asset.storage_bucket}/${asset.storage_path}` };
+          return { alt_text: locAsset.alt_text, url: toAssetUrl(asset) };
         });
 
       individualMfg.images = mfgAssets
-        .filter(asset => asset.asset_type === 'images')
+        .filter(asset => hasAssetType(asset, ['images', 'media']))
         .map(asset => {
           const locAsset = localizeField(asset, langsArray, lang);
-          return { alt_text: locAsset.alt_text, url: `/storage/${asset.storage_bucket}/${asset.storage_path}` };
+          return { alt_text: locAsset.alt_text, url: toAssetUrl(asset) };
         });
 
       // Add products
@@ -135,11 +156,11 @@ function processData() {
         .filter(prod => prod.manufacturer_id === mfg.id)
         .map(prod => {
           const localizedProd = localizeField(prod, langsArray, lang);
-          const pImage = productAssets.find(pa => pa.product_id === prod.id && pa.asset_type === 'image');
+          const pImage = getProductImageAsset(prod.id);
           return {
             slug: localizedProd.slug,
             name: localizedProd.name,
-            image: pImage ? `/storage/${pImage.storage_bucket}/${pImage.storage_path}` : undefined,
+            image: pImage ? toAssetUrl(pImage) : undefined,
             short_description: localizedProd.short_description,
             url: `${individualMfg.slug}/${localizedProd.slug}`
           };

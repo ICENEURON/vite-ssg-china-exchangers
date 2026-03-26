@@ -1,7 +1,7 @@
 {
   "slug": "tp-welded-plate-heat-exchanger",
   "name": "TP 溶接プレート式熱交換器",
-  "full_description": "産業プロセスでは、粒子を含む流体（例：スラリー）、高粘度流体（例：シロップ）、繊維を含む流体（例：パルプ）など、扱いが難しい流体に対応するための専用熱交換ソリューションが必要です。安定した生産運転を実現するには、これらの流体によって生じる閉塞や漏れの課題に対応できる、目的に応じた熱交換器設計が重要です。そのためには、耐摩耗材料、最適化された流路形状、統合型セルフクリーニング機構などを含むカスタマイズ設計が求められます。TP 溶接プレート式熱交換器は、このような用途に理想的な熱交換ソリューションです。",
+  "full_description": "産業プロセスでは、粒子を含む流体、高粘度流体、繊維を含む流体など、扱いが難しい流体に対応するための専用熱交換ソリューションが必要です。TP 溶接プレート式熱交換器は、このような用途に理想的な熱交換ソリューションです。",
   "industries": [
     "化学工業",
     "食品・飲料",
@@ -28,30 +28,34 @@
   },
   "images": [
     {
-      "alt_text": "Product image",
-      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg"
+      "alt_text": "TP Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_1.jpg"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Variant",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_2.jpg"
     }
   ],
   "certificates": [
     {
-      "alt_text": "ASME certificate",
-      "url": "/storage/product_assets/product_certifications/asme.png"
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
     },
     {
-      "alt_text": "BV certificate",
-      "url": "/storage/product_assets/product_certifications/bv.png"
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
     },
     {
-      "alt_text": "CE certificate",
-      "url": "/storage/product_assets/product_certifications/ce.png"
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
     },
     {
-      "alt_text": "NBBI certificate",
-      "url": "/storage/product_assets/product_certifications/nbbi.png"
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
     },
     {
-      "alt_text": "SGS certificate",
-      "url": "/storage/product_assets/product_certifications/sgs.png"
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
     }
   ]
 }

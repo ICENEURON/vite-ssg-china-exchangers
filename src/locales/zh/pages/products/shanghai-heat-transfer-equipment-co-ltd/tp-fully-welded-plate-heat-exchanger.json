@@ -1,0 +1,28 @@
+{
+  "slug": "tp-fully-welded-plate-heat-exchanger",
+  "name": "TP 全焊接板式换热器",
+  "full_description": "TP 全焊接板式换热器适配高要求介质，兼具可靠密封与维护便捷性。",
+  "industries": [
+    "化工",
+    "发电/电力",
+    "暖通空调"
+  ],
+  "advantage": [
+    "高温高压适用",
+    "便于维护",
+    "支持材料定制"
+  ],
+  "technical_parameters": {
+    "Channels": "standard or wide-gap",
+    "Design Pressure": "up to 5.2 MPa"
+  },
+  "seo_data": {
+    "meta_title": "TP 全焊接板式换热器",
+    "meta_description": "面向高要求工业应用的 TP 全焊接板式换热器。"
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [],
+  "certificates": []
+}

@@ -1,7 +1,7 @@
 {
   "slug": "tp-welded-plate-heat-exchanger",
   "name": "TP Welded Plate Heat Exchanger",
-  "full_description": "In industrial processes, specialized heat exchange solutions are required for handling challenging fluids such as particle-laden fluids (e.g., slurry), viscous fluids (e.g., syrup), and fiber-containing fluids (e.g., pulp). To ensure reliable production operations, targeted heat exchanger design is critical to address challenges such as blockages and leaks caused by those fluids , this requires customized solutions including erosion-resistant materials, optimized channel geometries, and integrated self-cleaning mechanisms. TP Welded Plate Heat Exchanger is an ideal heat exchange solution for these applications.",
+  "full_description": "In industrial processes, specialized heat exchange solutions are required for handling challenging fluids such as particle-laden fluids, viscous fluids, and fiber-containing fluids. TP Welded Plate Heat Exchanger is an ideal heat exchange solution for these applications.",
   "industries": [
     "Chemical Processing",
     "Food and Beverage",
@@ -28,30 +28,34 @@
   },
   "images": [
     {
-      "alt_text": "Product image",
-      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg"
+      "alt_text": "TP Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_1.jpg"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Variant",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_2.jpg"
     }
   ],
   "certificates": [
     {
-      "alt_text": "ASME certificate",
-      "url": "/storage/product_assets/product_certifications/asme.png"
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
     },
     {
-      "alt_text": "BV certificate",
-      "url": "/storage/product_assets/product_certifications/bv.png"
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
     },
     {
-      "alt_text": "CE certificate",
-      "url": "/storage/product_assets/product_certifications/ce.png"
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
     },
     {
-      "alt_text": "NBBI certificate",
-      "url": "/storage/product_assets/product_certifications/nbbi.png"
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
     },
     {
-      "alt_text": "SGS certificate",
-      "url": "/storage/product_assets/product_certifications/sgs.png"
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
     }
   ]
 }

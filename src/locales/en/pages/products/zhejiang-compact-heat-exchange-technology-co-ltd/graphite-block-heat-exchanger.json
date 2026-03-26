@@ -24,16 +24,6 @@
   "manufacturer": {
     "slug": "zhejiang-compact-heat-exchange-technology-co-ltd"
   },
-  "images": [
-    {
-      "alt_text": "Product image",
-      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg"
-    }
-  ],
-  "certificates": [
-    {
-      "alt_text": "ASME certificate",
-      "url": "/storage/product_assets/product_certifications/asme.png"
-    }
-  ]
+  "images": [],
+  "certificates": []
 }

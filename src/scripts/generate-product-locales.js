@@ -21,6 +21,8 @@ const industries = readJson('industries.json');
 const products = readJson('products.json');
 const productAssets = readJson('product_assets.json');
 
+const preferredProductAssets = productAssets.filter(asset => asset.storage_bucket === 'assets');
+
 // Detect available languages
 const langsArray = [];
 if (products.length > 0 && typeof products[0].name === 'object') {
@@ -58,12 +60,24 @@ function localizeField(value, availableLangs, currentLang) {
   return value;
 }
 
+  function toAssetUrl(asset) {
+    return `/storage/${asset.storage_bucket}/${asset.storage_path}`;
+  }
+
+  function getProductImageAssets(productId) {
+    const galleryImages = preferredProductAssets.filter(asset => asset.product_id === productId && asset.asset_type === 'gallery_image');
+    if (galleryImages.length > 0) {
+      return galleryImages;
+    }
+
+    return preferredProductAssets.filter(asset => asset.product_id === productId && asset.asset_type === 'image');
+  }
+
 function processData() {
   for (const lang of langsArray) {
     const langProductsDir = path.join(localesDir, lang, 'pages', 'products');
-    if (!fs.existsSync(langProductsDir)) {
-      fs.mkdirSync(langProductsDir, { recursive: true });
-    }
+    fs.rmSync(langProductsDir, { recursive: true, force: true });
+    fs.mkdirSync(langProductsDir, { recursive: true });
 
     const listData = [];
 
@@ -103,17 +117,16 @@ function processData() {
         manufacturer: {
           slug: mfgSlug
         },
-        images: productAssets
-          .filter(asset => asset.product_id === prod.id && asset.asset_type === 'image')
+        images: getProductImageAssets(prod.id)
           .map(asset => {
             const locAsset = localizeField(asset, langsArray, lang);
-            return { alt_text: locAsset.alt_text, url: `/storage/${asset.storage_bucket}/${asset.storage_path}` };
+            return { alt_text: locAsset.alt_text, url: toAssetUrl(asset) };
           }),
-        certificates: productAssets
+        certificates: preferredProductAssets
           .filter(asset => asset.product_id === prod.id && asset.asset_type === 'certificate')
           .map(asset => {
             const locAsset = localizeField(asset, langsArray, lang);
-            return { alt_text: locAsset.alt_text, url: `/storage/${asset.storage_bucket}/${asset.storage_path}` };
+            return { alt_text: locAsset.alt_text, url: toAssetUrl(asset) };
           })
       };
 
@@ -141,11 +154,10 @@ function processData() {
         name: localizedProd.name,
         short_description: localizedProd.short_description,
         industries: localizedProd.industries ? localizedProd.industries.map(ind => ind.name || ind) : [],
-        images: productAssets
-          .filter(asset => asset.product_id === prod.id && asset.asset_type === 'image')
+        images: getProductImageAssets(prod.id)
           .map(asset => {
             const locAsset = localizeField(asset, langsArray, lang);
-            return { alt_text: locAsset.alt_text, url: `/storage/${asset.storage_bucket}/${asset.storage_path}` };
+            return { alt_text: locAsset.alt_text, url: toAssetUrl(asset) };
           }),
         url: `${mfgSlug}/${prodSlug}`
       };

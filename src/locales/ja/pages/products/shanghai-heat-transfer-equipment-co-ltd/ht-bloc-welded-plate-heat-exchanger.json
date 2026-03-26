@@ -1,57 +1,33 @@
 {
   "slug": "ht-bloc-welded-plate-heat-exchanger",
-  "name": "HT-Bloc 溶接プレート式熱交換器",
-  "full_description": "当社の溶接プレート式熱交換器は、幅広いプロセス要求に合わせてカスタマイズ可能な、コンパクトで高効率かつ信頼性の高い伝熱ソリューションを提供します。そのため、最も厳しい熱交換条件においても最適な選択肢として確固たる地位を築いています。",
+  "name": "HT-BLOC 溶接板式熱交換器",
+  "full_description": "HT-BLOC は過酷条件下でも高効率と安定性を両立する設計で、ワイドギャップ仕様や堅牢なシール構造に対応します。",
   "industries": [
     "化学工業",
     "食品・飲料",
     "製薬"
   ],
   "advantage": [
-    "コンパクト設計",
-    "高効率な熱交換",
-    "厳しい用途でも高い信頼性"
+    "高耐圧",
+    "ワイドギャップ流路オプション",
+    "省スペース設置"
   ],
   "technical_parameters": {
-    "Area": "6.6 ~ 870㎡",
-    "Plate material": "SS304, SS316, Hastelloy, Titanium",
-    "Design Pressure": "1.0 ~ 4.0MPa",
-    "Plate Thickness": "1.5mm ~ 10mm",
-    "Design Temperature": "-196℃ ~ 450℃"
+    "Design Pressure": "up to 5.2 MPa",
+    "Heat Transfer Area": "up to ~1000 m²"
   },
   "seo_data": {
-    "meta_title": "HT-Bloc 溶接プレート式熱交換器メーカー",
-    "meta_description": "HT-Bloc 溶接プレート式熱交換器。コンパクト設計、高効率性能、安定運転を備え、厳しい産業プロセスに対応します。"
+    "meta_title": "HT-BLOC 溶接板式熱交換器",
+    "meta_description": "高圧産業用途向けのコンパクトな溶接ブロック型熱交換器。"
   },
   "manufacturer": {
     "slug": "shanghai-heat-transfer-equipment-co-ltd"
   },
   "images": [
     {
-      "alt_text": "Product image",
-      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg"
+      "alt_text": "HT-BLOC Product Image",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_1.png"
     }
   ],
-  "certificates": [
-    {
-      "alt_text": "ASME certificate",
-      "url": "/storage/product_assets/product_certifications/asme.png"
-    },
-    {
-      "alt_text": "BV certificate",
-      "url": "/storage/product_assets/product_certifications/bv.png"
-    },
-    {
-      "alt_text": "CE certificate",
-      "url": "/storage/product_assets/product_certifications/ce.png"
-    },
-    {
-      "alt_text": "NBBI certificate",
-      "url": "/storage/product_assets/product_certifications/nbbi.png"
-    },
-    {
-      "alt_text": "SGS certificate",
-      "url": "/storage/product_assets/product_certifications/sgs.png"
-    }
-  ]
+  "certificates": []
 }

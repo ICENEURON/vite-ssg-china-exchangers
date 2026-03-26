@@ -35,36 +35,19 @@
     "Chemical Processing",
     "Power Generation"
   ],
-  "certifications": [
-    {
-      "alt_text": "Company certificate",
-      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_1.png"
-    }
-  ],
-  "customers": [
-    {
-      "alt_text": "Key customer logo",
-      "url": "/storage/manufacturer_assets/company_customers/siemens.png"
-    }
-  ],
-  "images": [
-    {
-      "alt_text": "Factory image",
-      "url": "/storage/manufacturer_assets/company_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
-    }
-  ],
+  "certifications": [],
+  "customers": [],
+  "images": [],
   "products": [
     {
       "slug": "gasketed-plate-heat-exchanger-series",
       "name": "Gasketed Plate Heat Exchanger Series",
-      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg",
       "short_description": "Mock product for gasketed plate heat exchanger series testing.",
       "url": "jiangsu-alloy-process-equipment-co-ltd/gasketed-plate-heat-exchanger-series"
     },
     {
       "slug": "sanitary-plate-pasteurizer-module",
       "name": "Sanitary Plate Pasteurizer Module",
-      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg",
       "short_description": "Mock product for sanitary plate pasteurizer module testing.",
       "url": "jiangsu-alloy-process-equipment-co-ltd/sanitary-plate-pasteurizer-module"
     }

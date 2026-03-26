@@ -80,91 +80,6 @@
     "updated_at": "2026-03-09T02:27:09.186312+00:00"
   },
   {
-    "id": "15687513-070e-49f1-af67-9e820c987f73",
-    "name": {
-      "en": "Shanghai Heat Transfer Equipment Co., Ltd.",
-      "ja": "上海熱交換設備有限公司",
-      "zh": "上海换热设备有限公司"
-    },
-    "short_description": {
-      "en": "Verified industrial heat exchanger manufacturer based in Shanghai, China.",
-      "ja": "中国・上海に拠点を置く認証済みの産業用熱交換器メーカーです。",
-      "zh": "位于中国上海的工业换热设备制造商。"
-    },
-    "full_description": {
-      "en": "Shanghai Heat Transfer Equipment Co., Ltd. is a leading manufacturer of heat exchangers and heat transfer equipment. With over 20 years of experience in the industry, the company has established itself as a reliable supplier of high-quality heat exchangers and heat transfer equipment. The company's products are used in a wide range of applications, including chemical processing, food and beverage, and pharmaceuticals.",
-      "ja": "Shanghai Heat Transfer Equipment Co., Ltd. は、熱交換器および伝熱機器の有力メーカーです。20年以上の業界経験を持ち、高品質な熱交換器と伝熱設備を提供する信頼できるサプライヤーとして確立されています。製品は化学処理、食品・飲料、製薬など幅広い分野で使用されています。",
-      "zh": "上海换热设备有限公司是一家领先的换热器及传热设备制造商。凭借二十多年的行业经验，公司已成为高品质换热器和传热设备的可靠供应商。其产品广泛应用于化工、食品饮料、制药等多个领域。"
-    },
-    "advantages": {
-      "en": [
-        "Advanced Thermal Laboratory: In-house performance testing ensures real-world efficiency validation.",
-        "Specialized Welding Technology: Expertise in fully welded and wide-gap plate heat exchangers for difficult media.",
-        "Comprehensive Industry Coverage: Proven track record in chemical, pharmaceutical, and food processing sectors."
-      ],
-      "ja": [
-        "先進的な熱工学ラボ：社内性能試験により、実運転条件での効率を検証できます。",
-        "専門的な溶接技術：全溶接式およびワイドギャップ型プレート熱交換器に強みがあり、難処理媒体に対応します。",
-        "幅広い業界実績：化学、医薬、食品加工分野で豊富な導入実績があります。"
-      ],
-      "zh": [
-        "先进热工实验室：可进行内部性能测试，验证真实工况下的换热效率。",
-        "专业焊接技术：擅长全焊接和宽流道板式换热器，适用于复杂介质。",
-        "行业覆盖广泛：在化工、制药和食品加工领域拥有成熟应用经验。"
-      ]
-    },
-    "slug": "shanghai-heat-transfer-equipment-co-ltd",
-    "website": "https://www.shanghaiheattransfer.com",
-    "email": [
-      "abc@gmail.com"
-    ],
-    "phone": [
-      "+8613003001011"
-    ],
-    "country_id": "CN",
-    "country_name": {
-      "en": "China",
-      "ja": "中国",
-      "zh": "中国"
-    },
-    "city": {
-      "en": "Shanghai",
-      "ja": "上海",
-      "zh": "上海"
-    },
-    "address": {
-      "en": "Shanghai, China",
-      "ja": "中国・上海",
-      "zh": "中国上海"
-    },
-    "established_year": "2005",
-    "factory_area": "20000m2",
-    "employee_count": "200+",
-    "industries": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7",
-      "8",
-      "9"
-    ],
-    "export_markets": [
-      "HK",
-      "CN",
-      "US"
-    ],
-    "is_visible": true,
-    "seo_data": {
-      "meta_title": "Shanghai Heat Transfer Equipment Co., Ltd. | Heat Exchanger Manufacturer",
-      "meta_description": "Verified heat exchanger manufacturer in Shanghai, China, with plate heat exchanger and welded heat exchanger capabilities."
-    },
-    "created_at": "2026-03-08T00:00:00+00:00",
-    "updated_at": "2026-03-08T00:00:00+00:00"
-  },
-  {
     "id": "2537ec8a-e3f4-4862-9481-08ad15ab47e5",
     "name": {
       "en": "Jiangsu Alloy Process Equipment Co., Ltd.",
@@ -409,5 +324,87 @@
     },
     "created_at": "2026-03-10T13:04:04.648884+00:00",
     "updated_at": "2026-03-10T13:04:04.648884+00:00"
+  },
+  {
+    "id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "name": {
+      "en": "Shanghai Heat Transfer Equipment Co., Ltd.",
+      "ja": "上海熱交換設備有限公司",
+      "zh": "上海换热设备有限公司"
+    },
+    "short_description": {
+      "en": "Verified industrial heat exchanger manufacturer based in Shanghai, China.",
+      "ja": "中国・上海に拠点を置く認証済みの産業用熱交換器メーカーです。",
+      "zh": "位于中国上海的工业换热设备制造商。"
+    },
+    "full_description": {
+      "en": "Shanghai Heat Transfer Equipment Co., Ltd. is a leading manufacturer of heat exchangers and heat transfer equipment. With over 20 years of experience...",
+      "ja": "Shanghai Heat Transfer Equipment Co., Ltd. は、熱交換器および伝熱機器の有力メーカーです。20年以上の業界経験を持ち...",
+      "zh": "上海换热设备有限公司是一家领先的换热器及传热设备制造商。凭借二十多年的行业经验..."
+    },
+    "advantages": {
+      "en": [
+        "Advanced Thermal Laboratory: In-house performance testing ensures real-world efficiency validation.",
+        "Specialized Welding Technology: Expertise in fully welded and wide-gap plate heat exchangers."
+      ],
+      "ja": [
+        "先進的な熱工学ラボ：社内性能試験により、実運転条件での効率を検証できます。",
+        "専門的な溶接技術：全溶接式およびワイドギャップ型プレート熱交換器に強みがあります。"
+      ],
+      "zh": [
+        "先进热工实验室：可进行内部性能测试，验证真实工况下的换热效率。",
+        "专业焊接技术：擅长全焊接和宽流道板式换热器，适用于复杂介质。"
+      ]
+    },
+    "slug": "shanghai-heat-transfer-equipment-co-ltd",
+    "website": "https://www.shanghaiheattransfer.com",
+    "email": [
+      "abc@gmail.com"
+    ],
+    "phone": [
+      "+8613003001011"
+    ],
+    "country_id": "CN",
+    "country_name": {
+      "en": "China",
+      "ja": "中国",
+      "zh": "中国"
+    },
+    "city": {
+      "en": "Shanghai",
+      "ja": "上海",
+      "zh": "上海"
+    },
+    "address": {
+      "en": "Shanghai, China",
+      "ja": "中国・上海",
+      "zh": "中国上海"
+    },
+    "established_year": "2005",
+    "factory_area": "20000m2",
+    "employee_count": "200+",
+    "industries": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "export_markets": [
+      "HK",
+      "CN",
+      "US"
+    ],
+    "is_visible": true,
+    "seo_data": {
+      "meta_title": "Shanghai Heat Transfer Equipment Co., Ltd. | Heat Exchanger Manufacturer",
+      "meta_description": "Verified heat exchanger manufacturer in Shanghai, China, with plate heat exchanger and welded heat exchanger capabilities."
+    },
+    "created_at": "2026-03-13T13:34:27.03+00:00",
+    "updated_at": "2026-03-26T01:54:15.967+00:00"
   }
 ]

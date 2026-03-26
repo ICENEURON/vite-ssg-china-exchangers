@@ -7,6 +7,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const envPath = path.resolve(__dirname, '../../.env.local');
+const TARGET_BUCKET = 'assets';
 
 // 最好存放在 public 目录下，这样 Vite 和 SSG 构建时可以直接引用绝对路径 /storage/...
 const DEST_DIR = path.resolve(__dirname, '../../public/storage');
@@ -87,28 +88,21 @@ async function listAndDownload(bucket, currentPath = '') {
 }
 
 async function main() {
-  console.log('Fetching list of buckets from Supabase...');
-  const { data: buckets, error } = await supabase.storage.listBuckets();
-  
-  if (error) {
-    console.error('Error listing buckets:', error.message);
-    process.exit(1);
-  }
-
-  if (!buckets || buckets.length === 0) {
-    console.log('No storage buckets found in this project.');
-    return;
-  }
-
   // Ensure destination root directory exists
   if (!fs.existsSync(DEST_DIR)) {
     fs.mkdirSync(DEST_DIR, { recursive: true });
   }
 
-  for (const bucket of buckets) {
-    console.log(`\n📦 Processing bucket: ${bucket.name}`);
-    await listAndDownload(bucket.name);
+  for (const legacyDir of ['manufacturer_assets', 'product_assets']) {
+    const legacyPath = path.join(DEST_DIR, legacyDir);
+    if (fs.existsSync(legacyPath)) {
+      fs.rmSync(legacyPath, { recursive: true, force: true });
+      console.log(`🧹 Removed legacy local storage folder: ${legacyPath}`);
+    }
   }
+
+  console.log(`\n📦 Processing bucket: ${TARGET_BUCKET}`);
+  await listAndDownload(TARGET_BUCKET);
   
   console.log(`\n🎉 All files successfully downloaded and saved to: ${DEST_DIR}`);
   console.log('💡 Note: You may want to add public/storage to your .gitignore if these files are large.');

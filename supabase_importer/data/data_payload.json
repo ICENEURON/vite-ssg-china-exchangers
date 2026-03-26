@@ -1,0 +1,431 @@
+[
+    {
+        "local_assets_dir": "example_mfg",
+        "manufacturer": {
+            "slug": "shanghai-heat-transfer-equipment-co-ltd",
+            "name": {
+                "en": "Shanghai Heat Transfer Equipment Co., Ltd.",
+                "ja": "上海熱交換設備有限公司",
+                "zh": "上海换热设备有限公司"
+            },
+            "short_description": {
+                "en": "Verified industrial heat exchanger manufacturer based in Shanghai, China.",
+                "ja": "中国・上海に拠点を置く認証済みの産業用熱交換器メーカーです。",
+                "zh": "位于中国上海的工业换热设备制造商。"
+            },
+            "full_description": {
+                "en": "Shanghai Heat Transfer Equipment Co., Ltd. is a leading manufacturer of heat exchangers and heat transfer equipment. With over 20 years of experience...",
+                "ja": "Shanghai Heat Transfer Equipment Co., Ltd. は、熱交換器および伝熱機器の有力メーカーです。20年以上の業界経験を持ち...",
+                "zh": "上海换热设备有限公司是一家领先的换热器及传热设备制造商。凭借二十多年的行业经验..."
+            },
+            "advantages": {
+                "en": [
+                    "Advanced Thermal Laboratory: In-house performance testing ensures real-world efficiency validation.",
+                    "Specialized Welding Technology: Expertise in fully welded and wide-gap plate heat exchangers."
+                ],
+                "ja": [
+                    "先進的な熱工学ラボ：社内性能試験により、実運転条件での効率を検証できます。",
+                    "専門的な溶接技術：全溶接式およびワイドギャップ型プレート熱交換器に強みがあります。"
+                ],
+                "zh": [
+                    "先进热工实验室：可进行内部性能测试，验证真实工况下的换热效率。",
+                    "专业焊接技术：擅长全焊接和宽流道板式换热器，适用于复杂介质。"
+                ]
+            },
+            "website": "https://www.shanghaiheattransfer.com",
+            "email": [
+                "abc@gmail.com"
+            ],
+            "phone": [
+                "+8613003001011"
+            ],
+            "country_id": "CN",
+            "country_name": {
+                "en": "China",
+                "ja": "中国",
+                "zh": "中国"
+            },
+            "city": {
+                "en": "Shanghai",
+                "ja": "上海",
+                "zh": "上海"
+            },
+            "address": {
+                "en": "Shanghai, China",
+                "ja": "中国・上海",
+                "zh": "中国上海"
+            },
+            "established_year": "2005",
+            "factory_area": "20000m2",
+            "employee_count": "200+",
+            "industries": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "export_markets": [
+                "HK",
+                "CN",
+                "US"
+            ],
+            "is_visible": true,
+            "seo_data": {
+                "meta_title": "Shanghai Heat Transfer Equipment Co., Ltd. | Heat Exchanger Manufacturer",
+                "meta_description": "Verified heat exchanger manufacturer in Shanghai, China, with plate heat exchanger and welded heat exchanger capabilities."
+            }
+        },
+        "company_assets": [
+            {
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "abs.jpg",
+                "alt_text": "ABS Certificate"
+            },
+            {
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "asme_u_certificate.jpg",
+                "alt_text": "ASME U Certificate"
+            },
+            {
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "ce.jpg",
+                "alt_text": "CE Certificate"
+            },
+            {
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "iso_14001.jpg",
+                "alt_text": "ISO 14001 Certificate"
+            },
+            {
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "iso_45001.jpg",
+                "alt_text": "ISO 45001 Certificate"
+            },
+            {
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "iso_9001.jpg",
+                "alt_text": "ISO 9001 Certificate"
+            },
+            {
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "nb_u_certificate.jpg",
+                "alt_text": "NB U Certificate"
+            },
+            {
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "ohsas_18001.jpg",
+                "alt_text": "OHSAS 18001 Certificate"
+            },
+            {
+                "asset_type": "logo",
+                "folder": "company_customers",
+                "file_name": "bp.png",
+                "alt_text": "BP Customer Logo"
+            },
+            {
+                "asset_type": "logo",
+                "folder": "company_customers",
+                "file_name": "gazprom.png",
+                "alt_text": "Gazprom Customer Logo"
+            },
+            {
+                "asset_type": "logo",
+                "folder": "company_customers",
+                "file_name": "riotinto.png",
+                "alt_text": "Rio Tinto Customer Logo"
+            },
+            {
+                "asset_type": "logo",
+                "folder": "company_customers",
+                "file_name": "siemens.png",
+                "alt_text": "Siemens Customer Logo"
+            },
+            {
+                "asset_type": "logo",
+                "folder": "company_customers",
+                "file_name": "sulzer.png",
+                "alt_text": "Sulzer Customer Logo"
+            },
+            {
+                "asset_type": "logo",
+                "folder": "company_customers",
+                "file_name": "vimetco.png",
+                "alt_text": "Vimetco Customer Logo"
+            },
+            {
+                "asset_type": "media",
+                "folder": "company_images",
+                "file_name": "factory_front.jpg",
+                "alt_text": "Shanghai Heat Transfer Equipment Factory View"
+            }
+        ],
+        "products": [
+            {
+                "product": {
+                    "slug": "ht-bloc-welded-plate-heat-exchanger",
+                    "is_visible": true,
+                    "name": {
+                        "en": "HT-BLOC Welded Plate Heat Exchanger",
+                        "ja": "HT-BLOC 溶接板式熱交換器",
+                        "zh": "HT-BLOC 焊接板式换热器"
+                    },
+                    "short_description": {
+                        "en": "Compact welded bloc exchanger for high-pressure industrial duty.",
+                        "ja": "高圧産業用途向けのコンパクトな溶接ブロック型熱交換器。",
+                        "zh": "适用于高压工业工况的紧凑型焊接块式换热器。"
+                    },
+                    "full_description": {
+                        "en": "HT-BLOC is designed for high efficiency and stability in harsh conditions, with wide-gap options and robust sealing structure.",
+                        "ja": "HT-BLOC は過酷条件下でも高効率と安定性を両立する設計で、ワイドギャップ仕様や堅牢なシール構造に対応します。",
+                        "zh": "HT-BLOC 通过加强结构与可选宽流道版型，在苛刻工况下兼具高效率与稳定性。"
+                    },
+                    "industries": [
+                        "6",
+                        "7",
+                        "8"
+                    ],
+                    "advantage": {
+                        "en": [
+                            "High pressure resistance",
+                            "Wide-gap channel option",
+                            "Compact footprint"
+                        ],
+                        "ja": [
+                            "高耐圧",
+                            "ワイドギャップ流路オプション",
+                            "省スペース設置"
+                        ],
+                        "zh": [
+                            "高耐压",
+                            "宽流道可选",
+                            "占地紧凑"
+                        ]
+                    },
+                    "technical_parameters": {
+                        "Design Pressure": "up to 5.2 MPa",
+                        "Heat Transfer Area": "up to ~1000 m²"
+                    },
+                    "seo_data": {
+                        "en": {
+                            "meta_title": "HT-BLOC Welded Plate Heat Exchanger",
+                            "meta_description": "Compact welded bloc exchanger for high-pressure industrial duty."
+                        },
+                        "ja": {
+                            "meta_title": "HT-BLOC 溶接板式熱交換器",
+                            "meta_description": "高圧産業用途向けのコンパクトな溶接ブロック型熱交換器。"
+                        },
+                        "zh": {
+                            "meta_title": "HT-BLOC 焊接板式换热器",
+                            "meta_description": "适用于高压工业工况的紧凑型焊接块式换热器。"
+                        }
+                    }
+                },
+                "product_assets": [
+                    {
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "ht_bloc_1.png",
+                        "alt_text": "HT-BLOC Product Image"
+                    }
+                ]
+            },
+            {
+                "product": {
+                    "slug": "tp-welded-plate-heat-exchanger",
+                    "is_visible": true,
+                    "name": {
+                        "en": "TP Welded Plate Heat Exchanger",
+                        "ja": "TP 溶接プレート式熱交換器",
+                        "zh": "TP 焊接板式换热器"
+                    },
+                    "short_description": {
+                        "en": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
+                        "ja": "スラリー、高粘度流体、繊維含有流体向けの専用熱交換器。",
+                        "zh": "适用于浆料、高粘度及含纤维介质的专用换热器。"
+                    },
+                    "full_description": {
+                        "en": "In industrial processes, specialized heat exchange solutions are required for handling challenging fluids such as particle-laden fluids, viscous fluids, and fiber-containing fluids. TP Welded Plate Heat Exchanger is an ideal heat exchange solution for these applications.",
+                        "ja": "産業プロセスでは、粒子を含む流体、高粘度流体、繊維を含む流体など、扱いが難しい流体に対応するための専用熱交換ソリューションが必要です。TP 溶接プレート式熱交換器は、このような用途に理想的な熱交換ソリューションです。",
+                        "zh": "在工业过程中，针对含颗粒介质、粘性介质和含纤维介质等复杂流体，需要专门的换热解决方案。TP 焊接板式换热器正是适用于此类应用的理想换热方案。"
+                    },
+                    "industries": [
+                        "6",
+                        "7",
+                        "8"
+                    ],
+                    "advantage": {
+                        "en": [
+                            "Designed for challenging fluids",
+                            "Helps reduce blockage and leakage risk",
+                            "Supports customized material and channel design"
+                        ],
+                        "ja": [
+                            "難処理流体向けに設計",
+                            "閉塞や漏れのリスク低減に貢献",
+                            "材料および流路のカスタマイズ設計に対応"
+                        ],
+                        "zh": [
+                            "针对复杂介质设计",
+                            "有助于降低堵塞和泄漏风险",
+                            "支持材料和流道定制优化"
+                        ]
+                    },
+                    "technical_parameters": {
+                        "Area": "6.6 ~ 870㎡",
+                        "Plate material": "SS304, SS316, Hastelloy, Titanium",
+                        "Design Pressure": "1.0 ~ 4.0MPa",
+                        "Plate Thickness": "1.5mm ~ 10mm",
+                        "Design Temperature": "-196℃ ~ 450℃"
+                    },
+                    "seo_data": {
+                        "en": {
+                            "meta_title": "TP Welded Plate Heat Exchanger Manufacturer",
+                            "meta_description": "TP welded plate heat exchanger for slurry, viscous, and fiber-containing media with customized design for reliable industrial operation."
+                        },
+                        "ja": {
+                            "meta_title": "TP 溶接プレート式熱交換器メーカー",
+                            "meta_description": "TP 溶接プレート式熱交換器。スラリー、高粘度流体、繊維含有流体向けで、カスタマイズ設計により安定した産業運転を実現します。"
+                        },
+                        "zh": {
+                            "meta_title": "TP 焊接板式换热器制造商",
+                            "meta_description": "TP 焊接板式换热器适用于浆料、高粘度和含纤维介质，可通过定制化设计提升工业运行可靠性。"
+                        }
+                    }
+                },
+                "product_assets": [
+                    {
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "tp_welded_1.jpg",
+                        "alt_text": "TP Welded Plate Heat Exchanger"
+                    },
+                    {
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "tp_welded_2.jpg",
+                        "alt_text": "TP Welded Plate Heat Exchanger Variant"
+                    },
+                    {
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "asme.png",
+                        "alt_text": "ASME Certificate"
+                    },
+                    {
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "bv.png",
+                        "alt_text": "BV Certificate"
+                    },
+                    {
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "ce.png",
+                        "alt_text": "CE Certificate"
+                    },
+                    {
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "nbbi.png",
+                        "alt_text": "NBBI Certificate"
+                    },
+                    {
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "sgs.png",
+                        "alt_text": "SGS Certificate"
+                    }
+                ]
+            },
+            {
+                "product": {
+                    "slug": "plate-heat-exchanger",
+                    "is_visible": true,
+                    "name": {
+                        "en": "Plate Heat Exchanger (Gasketed)",
+                        "ja": "板式熱交換器（ガスケット式）",
+                        "zh": "板式换热器（胶垫式）"
+                    },
+                    "short_description": {
+                        "en": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
+                        "ja": "チタン／ステンレス等の材料オプションと多彩なノズル仕様に対応したガスケット式板式熱交換器。",
+                        "zh": "可选不锈钢/钛材等多种材料，并支持多样接口形式。"
+                    },
+                    "full_description": {
+                        "en": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
+                        "ja": "チタン／ステンレス等の材料オプションと多彩なノズル仕様に対応したガスケット式板式熱交換器。",
+                        "zh": "可选不锈钢/钛材等多种材料，并支持多样接口形式。"
+                    },
+                    "industries": [
+                        "3",
+                        "1",
+                        "5",
+                        "8"
+                    ],
+                    "advantage": {
+                        "en": [
+                            "Easy maintenance",
+                            "Material flexibility",
+                            "Wide range of sizes"
+                        ],
+                        "ja": [
+                            "保守が容易",
+                            "材料選択の自由度",
+                            "幅広いサイズ展開"
+                        ],
+                        "zh": [
+                            "易维护",
+                            "材料选择灵活",
+                            "覆盖规格广"
+                        ]
+                    },
+                    "technical_parameters": {
+                        "Nozzles": "flanged or studded",
+                        "Materials": "SS304/316, Titanium options"
+                    },
+                    "seo_data": {
+                        "en": {
+                            "meta_title": "Plate Heat Exchanger (Gasketed)",
+                            "meta_description": "Gasketed PHE for marine/HVAC with multiple materials and nozzles."
+                        },
+                        "ja": {
+                            "meta_title": "板式熱交換器（ガスケット式）",
+                            "meta_description": "船舶・HVAC 向け、複数材料とノズル仕様に対応するガスケット式 PHE。"
+                        },
+                        "zh": {
+                            "meta_title": "板式换热器（胶垫式）",
+                            "meta_description": "适用于船舶与 HVAC 的胶垫式板式换热器，支持多种材料与接口。"
+                        }
+                    }
+                },
+                "product_assets": [
+                    {
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "plate_hex_1.jpg",
+                        "alt_text": "Plate Heat Exchanger Image"
+                    },
+                    {
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "plate_hex_2.jpg",
+                        "alt_text": "Plate Heat Exchanger Variant"
+                    }
+                ]
+            }
+        ]
+    }
+]

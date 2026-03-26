@@ -25,16 +25,6 @@
   "manufacturer": {
     "slug": "qingdao-thermal-systems-co-ltd"
   },
-  "images": [
-    {
-      "alt_text": "Product image",
-      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg"
-    }
-  ],
-  "certificates": [
-    {
-      "alt_text": "NBBI certificate",
-      "url": "/storage/product_assets/product_certifications/nbbi.png"
-    }
-  ]
+  "images": [],
+  "certificates": []
 }

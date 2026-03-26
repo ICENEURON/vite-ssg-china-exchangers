@@ -1,57 +1,33 @@
 {
   "slug": "ht-bloc-welded-plate-heat-exchanger",
-  "name": "HT-Bloc Welded Plate Heat Exchanger",
-  "full_description": "Our welded plate heat exchangers offer compact, efficient, and trustworthy heat transfer solutions that are custom-tailored to meet an extensive variety of process demands. It comes as no surprise that they have solidified their position as the top-tier option for the most challenging heat exchange scenarios.",
+  "name": "HT-BLOC Welded Plate Heat Exchanger",
+  "full_description": "HT-BLOC is designed for high efficiency and stability in harsh conditions, with wide-gap options and robust sealing structure.",
   "industries": [
     "Chemical Processing",
     "Food and Beverage",
     "Pharmaceuticals"
   ],
   "advantage": [
-    "Compact design",
-    "Efficient heat transfer",
-    "Reliable for demanding applications"
+    "High pressure resistance",
+    "Wide-gap channel option",
+    "Compact footprint"
   ],
   "technical_parameters": {
-    "Area": "6.6 ~ 870㎡",
-    "Plate material": "SS304, SS316, Hastelloy, Titanium",
-    "Design Pressure": "1.0 ~ 4.0MPa",
-    "Plate Thickness": "1.5mm ~ 10mm",
-    "Design Temperature": "-196℃ ~ 450℃"
+    "Design Pressure": "up to 5.2 MPa",
+    "Heat Transfer Area": "up to ~1000 m²"
   },
   "seo_data": {
-    "meta_title": "HT-Bloc Welded Plate Heat Exchanger Manufacturer",
-    "meta_description": "HT-Bloc welded plate heat exchanger with compact design, efficient performance, and reliable operation for demanding industrial processes."
+    "meta_title": "HT-BLOC Welded Plate Heat Exchanger",
+    "meta_description": "Compact welded bloc exchanger for high-pressure industrial duty."
   },
   "manufacturer": {
     "slug": "shanghai-heat-transfer-equipment-co-ltd"
   },
   "images": [
     {
-      "alt_text": "Product image",
-      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg"
+      "alt_text": "HT-BLOC Product Image",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_1.png"
     }
   ],
-  "certificates": [
-    {
-      "alt_text": "ASME certificate",
-      "url": "/storage/product_assets/product_certifications/asme.png"
-    },
-    {
-      "alt_text": "BV certificate",
-      "url": "/storage/product_assets/product_certifications/bv.png"
-    },
-    {
-      "alt_text": "CE certificate",
-      "url": "/storage/product_assets/product_certifications/ce.png"
-    },
-    {
-      "alt_text": "NBBI certificate",
-      "url": "/storage/product_assets/product_certifications/nbbi.png"
-    },
-    {
-      "alt_text": "SGS certificate",
-      "url": "/storage/product_assets/product_certifications/sgs.png"
-    }
-  ]
+  "certificates": []
 }

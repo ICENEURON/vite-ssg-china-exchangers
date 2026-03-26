@@ -1,0 +1,28 @@
+{
+  "slug": "tp-fully-welded-plate-heat-exchanger",
+  "name": "TP Fully Welded Plate Heat Exchanger",
+  "full_description": "TP fully welded plate heat exchangers target demanding media with reliable sealing and maintainability.",
+  "industries": [
+    "Chemical Processing",
+    "Power Generation",
+    "HVAC"
+  ],
+  "advantage": [
+    "High-temp/high-pressure duty",
+    "Maintainable design",
+    "Custom materials"
+  ],
+  "technical_parameters": {
+    "Channels": "standard or wide-gap",
+    "Design Pressure": "up to 5.2 MPa"
+  },
+  "seo_data": {
+    "meta_title": "TP Fully Welded Plate Heat Exchanger",
+    "meta_description": "TP fully welded PHE for demanding industrial applications."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [],
+  "certificates": []
+}

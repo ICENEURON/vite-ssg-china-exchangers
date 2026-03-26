@@ -24,16 +24,6 @@
   "manufacturer": {
     "slug": "jiangsu-alloy-process-equipment-co-ltd"
   },
-  "images": [
-    {
-      "alt_text": "Product image",
-      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg"
-    }
-  ],
-  "certificates": [
-    {
-      "alt_text": "SGS certificate",
-      "url": "/storage/product_assets/product_certifications/sgs.png"
-    }
-  ]
+  "images": [],
+  "certificates": []
 }

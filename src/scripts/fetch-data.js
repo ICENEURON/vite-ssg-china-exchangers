@@ -58,13 +58,31 @@ async function fetchTable(tableName, columns = '*') {
   console.log(`✅ Saved ${data.length} records to src/data/${tableName}.json`);
 }
 
+async function fetchAssetTable(tableName) {
+  console.log(`Fetching ${tableName} from Supabase (assets bucket only)...`);
+  const { data, error } = await supabase
+    .from(tableName)
+    .select('*')
+    .eq('storage_bucket', 'assets');
+
+  if (error) {
+    console.error(`Error fetching ${tableName}:`, error.message);
+    process.exit(1);
+  }
+
+  const outPath = path.resolve(__dirname, `../data/${tableName}.json`);
+  fs.mkdirSync(path.dirname(outPath), { recursive: true });
+  fs.writeFileSync(outPath, JSON.stringify(data, null, 2));
+  console.log(`✅ Saved ${data.length} assets records to src/data/${tableName}.json`);
+}
+
 async function main() {
   await fetchTable('countries', 'id, name');
   await fetchTable('industries');
   await fetchTable('manufacturers');
-  await fetchTable('manufacturer_assets');
+  await fetchAssetTable('manufacturer_assets');
   await fetchTable('products');
-  await fetchTable('product_assets');
+  await fetchAssetTable('product_assets');
   // We explicitly do NOT fetch 'rfqs' here
 }
 

@@ -12,24 +12,6 @@
     ]
   },
   {
-    "name": "上海换热设备有限公司",
-    "short_description": "位于中国上海的工业换热设备制造商。",
-    "slug": "shanghai-heat-transfer-equipment-co-ltd",
-    "city": "上海",
-    "country_name": "中国",
-    "industries": [
-      "暖通空调",
-      "石油化工",
-      "船舶/海工",
-      "能源",
-      "食品加工",
-      "化工",
-      "食品与饮料",
-      "制药",
-      "发电/电力"
-    ]
-  },
-  {
     "name": "江苏合金过程装备有限公司",
     "short_description": "用于测试的耐腐蚀换热器制造商，面向化工和石化工况。",
     "slug": "jiangsu-alloy-process-equipment-co-ltd",
@@ -58,6 +40,24 @@
     "short_description": "位于中国北京的换热器及水处理设备制造商。",
     "slug": "beijing-huaaixin-energy-saving-equipment-co-ltd",
     "city": "北京",
+    "country_name": "中国",
+    "industries": [
+      "暖通空调",
+      "石油化工",
+      "船舶/海工",
+      "能源",
+      "食品加工",
+      "化工",
+      "食品与饮料",
+      "制药",
+      "发电/电力"
+    ]
+  },
+  {
+    "name": "上海换热设备有限公司",
+    "short_description": "位于中国上海的工业换热设备制造商。",
+    "slug": "shanghai-heat-transfer-equipment-co-ltd",
+    "city": "上海",
     "country_name": "中国",
     "industries": [
       "暖通空调",

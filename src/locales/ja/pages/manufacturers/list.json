@@ -12,24 +12,6 @@
     ]
   },
   {
-    "name": "上海熱交換設備有限公司",
-    "short_description": "中国・上海に拠点を置く認証済みの産業用熱交換器メーカーです。",
-    "slug": "shanghai-heat-transfer-equipment-co-ltd",
-    "city": "上海",
-    "country_name": "中国",
-    "industries": [
-      "空調・換気・暖房",
-      "石油化学",
-      "海洋・船舶",
-      "エネルギー",
-      "食品加工",
-      "化学工業",
-      "食品・飲料",
-      "製薬",
-      "発電・電力"
-    ]
-  },
-  {
     "name": "江蘇合金プロセス装置有限公司",
     "short_description": "化学・石油化学用途向け耐食熱交換器メーカーのテスト用モックデータです。",
     "slug": "jiangsu-alloy-process-equipment-co-ltd",
@@ -58,6 +40,24 @@
     "short_description": "中国・北京に拠点を置く熱交換器および水処理設備のメーカーです。",
     "slug": "beijing-huaaixin-energy-saving-equipment-co-ltd",
     "city": "北京",
+    "country_name": "中国",
+    "industries": [
+      "空調・換気・暖房",
+      "石油化学",
+      "海洋・船舶",
+      "エネルギー",
+      "食品加工",
+      "化学工業",
+      "食品・飲料",
+      "製薬",
+      "発電・電力"
+    ]
+  },
+  {
+    "name": "上海熱交換設備有限公司",
+    "short_description": "中国・上海に拠点を置く認証済みの産業用熱交換器メーカーです。",
+    "slug": "shanghai-heat-transfer-equipment-co-ltd",
+    "city": "上海",
     "country_name": "中国",
     "industries": [
       "空調・換気・暖房",

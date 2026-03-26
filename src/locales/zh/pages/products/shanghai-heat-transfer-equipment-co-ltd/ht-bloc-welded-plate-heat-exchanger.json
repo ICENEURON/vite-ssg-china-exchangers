@@ -1,57 +1,33 @@
 {
   "slug": "ht-bloc-welded-plate-heat-exchanger",
-  "name": "HT-Bloc 焊接板式换热器",
-  "full_description": "我们的焊接板式换热器提供紧凑、高效且可靠的传热解决方案，可根据多种工艺需求进行定制，因此成为严苛换热场景中的优选方案。",
+  "name": "HT-BLOC 焊接板式换热器",
+  "full_description": "HT-BLOC 通过加强结构与可选宽流道版型，在苛刻工况下兼具高效率与稳定性。",
   "industries": [
     "化工",
     "食品与饮料",
     "制药"
   ],
   "advantage": [
-    "结构紧凑",
-    "换热效率高",
-    "适用于严苛工况"
+    "高耐压",
+    "宽流道可选",
+    "占地紧凑"
   ],
   "technical_parameters": {
-    "Area": "6.6 ~ 870㎡",
-    "Plate material": "SS304, SS316, Hastelloy, Titanium",
-    "Design Pressure": "1.0 ~ 4.0MPa",
-    "Plate Thickness": "1.5mm ~ 10mm",
-    "Design Temperature": "-196℃ ~ 450℃"
+    "Design Pressure": "up to 5.2 MPa",
+    "Heat Transfer Area": "up to ~1000 m²"
   },
   "seo_data": {
-    "meta_title": "HT-Bloc 焊接板式换热器制造商",
-    "meta_description": "HT-Bloc 焊接板式换热器，结构紧凑、效率高、运行可靠，适用于严苛工业工况。"
+    "meta_title": "HT-BLOC 焊接板式换热器",
+    "meta_description": "适用于高压工业工况的紧凑型焊接块式换热器。"
   },
   "manufacturer": {
     "slug": "shanghai-heat-transfer-equipment-co-ltd"
   },
   "images": [
     {
-      "alt_text": "Product image",
-      "url": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg"
+      "alt_text": "HT-BLOC Product Image",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_1.png"
     }
   ],
-  "certificates": [
-    {
-      "alt_text": "ASME certificate",
-      "url": "/storage/product_assets/product_certifications/asme.png"
-    },
-    {
-      "alt_text": "BV certificate",
-      "url": "/storage/product_assets/product_certifications/bv.png"
-    },
-    {
-      "alt_text": "CE certificate",
-      "url": "/storage/product_assets/product_certifications/ce.png"
-    },
-    {
-      "alt_text": "NBBI certificate",
-      "url": "/storage/product_assets/product_certifications/nbbi.png"
-    },
-    {
-      "alt_text": "SGS certificate",
-      "url": "/storage/product_assets/product_certifications/sgs.png"
-    }
-  ]
+  "certificates": []
 }

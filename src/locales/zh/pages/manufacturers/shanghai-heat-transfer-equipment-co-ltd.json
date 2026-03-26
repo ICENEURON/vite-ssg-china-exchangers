@@ -1,10 +1,9 @@
 {
   "name": "上海换热设备有限公司",
-  "full_description": "上海换热设备有限公司是一家领先的换热器及传热设备制造商。凭借二十多年的行业经验，公司已成为高品质换热器和传热设备的可靠供应商。其产品广泛应用于化工、食品饮料、制药等多个领域。",
+  "full_description": "上海换热设备有限公司是一家领先的换热器及传热设备制造商。凭借二十多年的行业经验...",
   "advantages": [
     "先进热工实验室：可进行内部性能测试，验证真实工况下的换热效率。",
-    "专业焊接技术：擅长全焊接和宽流道板式换热器，适用于复杂介质。",
-    "行业覆盖广泛：在化工、制药和食品加工领域拥有成熟应用经验。"
+    "专业焊接技术：擅长全焊接和宽流道板式换热器，适用于复杂介质。"
   ],
   "slug": "shanghai-heat-transfer-equipment-co-ltd",
   "website": "https://www.shanghaiheattransfer.com",
@@ -42,71 +41,97 @@
   ],
   "certifications": [
     {
-      "alt_text": "Company certificate",
-      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_2.png"
+      "alt_text": "ABS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/abs.jpg"
     },
     {
-      "alt_text": "Company certificate",
-      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_1.png"
+      "alt_text": "ASME U Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/asme_u_certificate.jpg"
     },
     {
-      "alt_text": "Company certificate",
-      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_3.png"
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/ce.jpg"
+    },
+    {
+      "alt_text": "ISO 14001 Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_14001.jpg"
+    },
+    {
+      "alt_text": "ISO 45001 Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_45001.jpg"
+    },
+    {
+      "alt_text": "ISO 9001 Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_9001.jpg"
+    },
+    {
+      "alt_text": "NB U Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/nb_u_certificate.jpg"
+    },
+    {
+      "alt_text": "OHSAS 18001 Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/ohsas_18001.jpg"
     }
   ],
   "customers": [
     {
-      "alt_text": "Company Customer",
-      "url": "/storage/manufacturer_assets/company_customers/sulzer.png"
+      "alt_text": "BP Customer Logo",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_customers/bp.png"
     },
     {
-      "alt_text": "Company Customer",
-      "url": "/storage/manufacturer_assets/company_customers/siemens.png"
+      "alt_text": "Gazprom Customer Logo",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_customers/gazprom.png"
     },
     {
-      "alt_text": "Company Customer",
-      "url": "/storage/manufacturer_assets/company_customers/riotinto.png"
+      "alt_text": "Rio Tinto Customer Logo",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_customers/riotinto.png"
     },
     {
-      "alt_text": "Company Customer",
-      "url": "/storage/manufacturer_assets/company_customers/gazprom.png"
+      "alt_text": "Siemens Customer Logo",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_customers/siemens.png"
     },
     {
-      "alt_text": "Company Customer",
-      "url": "/storage/manufacturer_assets/company_customers/bp.png"
+      "alt_text": "Sulzer Customer Logo",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_customers/sulzer.png"
     },
     {
-      "alt_text": "Company Customer",
-      "url": "/storage/manufacturer_assets/company_customers/vimetco.png"
+      "alt_text": "Vimetco Customer Logo",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_customers/vimetco.png"
     }
   ],
   "images": [
     {
-      "alt_text": "Company image",
-      "url": "/storage/manufacturer_assets/company_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
+      "alt_text": "Shanghai Heat Transfer Equipment Factory View",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/factory_front.jpg"
     }
   ],
   "products": [
     {
-      "slug": "ht-bloc-welded-plate-heat-exchanger",
-      "name": "HT-Bloc 焊接板式换热器",
-      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg",
-      "short_description": "适用于高要求工况的紧凑高效焊接板式换热器。",
-      "url": "shanghai-heat-transfer-equipment-co-ltd/ht-bloc-welded-plate-heat-exchanger"
+      "slug": "tp-fully-welded-plate-heat-exchanger",
+      "name": "TP 全焊接板式换热器",
+      "short_description": "适用于高温高压工况的 TP 全焊接/可开式结构。",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/tp-fully-welded-plate-heat-exchanger"
     },
     {
-      "slug": "wide-gap-welded-plate-heat-exchanger",
-      "name": "宽流道焊接板式换热器",
-      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg",
-      "short_description": "针对含固体、粘性介质和防堵塞需求设计的焊接板式换热器。",
-      "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
+      "slug": "ht-bloc-welded-plate-heat-exchanger",
+      "name": "HT-BLOC 焊接板式换热器",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_1.png",
+      "short_description": "适用于高压工业工况的紧凑型焊接块式换热器。",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/ht-bloc-welded-plate-heat-exchanger"
     },
     {
       "slug": "tp-welded-plate-heat-exchanger",
       "name": "TP 焊接板式换热器",
-      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_2.jpg",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_1.jpg",
       "short_description": "适用于浆料、高粘度及含纤维介质的专用换热器。",
       "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "plate-heat-exchanger",
+      "name": "板式换热器（胶垫式）",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_hex_1.jpg",
+      "short_description": "可选不锈钢/钛材等多种材料，并支持多样接口形式。",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/plate-heat-exchanger"
     }
   ]
 }

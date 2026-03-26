@@ -1,137 +1,5 @@
 [
   {
-    "id": "8d55402d-49b3-4074-b0de-2274c224f9a1",
-    "manufacturer_id": "15687513-070e-49f1-af67-9e820c987f73",
-    "slug": "ht-bloc-welded-plate-heat-exchanger",
-    "is_visible": true,
-    "name": {
-      "en": "HT-Bloc Welded Plate Heat Exchanger",
-      "ja": "HT-Bloc 溶接プレート式熱交換器",
-      "zh": "HT-Bloc 焊接板式换热器"
-    },
-    "short_description": {
-      "en": "Compact and efficient welded plate heat exchanger for demanding process duties.",
-      "ja": "厳しいプロセス条件向けの、コンパクトで高効率な溶接プレート式熱交換器。",
-      "zh": "适用于高要求工况的紧凑高效焊接板式换热器。"
-    },
-    "full_description": {
-      "en": "Our welded plate heat exchangers offer compact, efficient, and trustworthy heat transfer solutions that are custom-tailored to meet an extensive variety of process demands. It comes as no surprise that they have solidified their position as the top-tier option for the most challenging heat exchange scenarios.",
-      "ja": "当社の溶接プレート式熱交換器は、幅広いプロセス要求に合わせてカスタマイズ可能な、コンパクトで高効率かつ信頼性の高い伝熱ソリューションを提供します。そのため、最も厳しい熱交換条件においても最適な選択肢として確固たる地位を築いています。",
-      "zh": "我们的焊接板式换热器提供紧凑、高效且可靠的传热解决方案，可根据多种工艺需求进行定制，因此成为严苛换热场景中的优选方案。"
-    },
-    "industries": [
-      "6",
-      "7",
-      "8"
-    ],
-    "advantage": {
-      "en": [
-        "Compact design",
-        "Efficient heat transfer",
-        "Reliable for demanding applications"
-      ],
-      "ja": [
-        "コンパクト設計",
-        "高効率な熱交換",
-        "厳しい用途でも高い信頼性"
-      ],
-      "zh": [
-        "结构紧凑",
-        "换热效率高",
-        "适用于严苛工况"
-      ]
-    },
-    "technical_parameters": {
-      "Area": "6.6 ~ 870㎡",
-      "Plate material": "SS304, SS316, Hastelloy, Titanium",
-      "Design Pressure": "1.0 ~ 4.0MPa",
-      "Plate Thickness": "1.5mm ~ 10mm",
-      "Design Temperature": "-196℃ ~ 450℃"
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "HT-Bloc Welded Plate Heat Exchanger Manufacturer",
-        "meta_description": "HT-Bloc welded plate heat exchanger with compact design, efficient performance, and reliable operation for demanding industrial processes."
-      },
-      "ja": {
-        "meta_title": "HT-Bloc 溶接プレート式熱交換器メーカー",
-        "meta_description": "HT-Bloc 溶接プレート式熱交換器。コンパクト設計、高効率性能、安定運転を備え、厳しい産業プロセスに対応します。"
-      },
-      "zh": {
-        "meta_title": "HT-Bloc 焊接板式换热器制造商",
-        "meta_description": "HT-Bloc 焊接板式换热器，结构紧凑、效率高、运行可靠，适用于严苛工业工况。"
-      }
-    },
-    "created_at": "2026-03-08T13:44:42.349916+00:00",
-    "updated_at": "2026-03-08T13:44:42.349916+00:00"
-  },
-  {
-    "id": "d5de51bf-2945-45c3-8648-056924d4c59c",
-    "manufacturer_id": "15687513-070e-49f1-af67-9e820c987f73",
-    "slug": "wide-gap-welded-plate-heat-exchanger",
-    "is_visible": true,
-    "name": {
-      "en": "Wide Gap Welded Plate Heat Exchanger",
-      "ja": "ワイドギャップ溶接プレート式熱交換器",
-      "zh": "宽流道焊接板式换热器"
-    },
-    "short_description": {
-      "en": "Welded plate heat exchanger designed for solids, viscous media, and anti-clogging performance.",
-      "ja": "固形物を含む流体、高粘度媒体、および閉塞防止性能向けに設計された溶接プレート式熱交換器。",
-      "zh": "针对含固体、粘性介质和防堵塞需求设计的焊接板式换热器。"
-    },
-    "full_description": {
-      "en": "Each flow channel is meticulously formed by welding plates together. The plate pack, comprising a precisely calculated number of plates, is securely installed within a robust frame, ensuring seamless integration with the production system. In this configuration, challenging fluids, such as those containing solids or high-viscosity suspensions, are directed through the wide gap channels. These channels are specifically engineered to prevent clogging and facilitate uninterrupted flow. On the other hand, clean fluids are routed through the opposite side channels, which are optimized for superior thermal performance and operational reliability. This heat exchanger is available in both horizontal and vertical installation configurations. The vertical design offers more advantages, including a significantly smaller footprint, reduced susceptibility to clogging, and lower pressure drop, making it an optimal choice for space-constrained environments and applications requiring enhanced flow efficiency.",
-      "ja": "各流路はプレート同士を溶接して精密に形成されます。必要枚数を正確に計算したプレートパックは堅牢なフレーム内に確実に組み込まれ、生産システムへ安定して統合されます。この構成では、固形物を含む流体や高粘度スラリーなどの難処理流体をワイドギャップ流路に通し、閉塞を防ぎながら連続的な流れを実現します。一方、清浄流体は反対側の流路を通過し、優れた伝熱性能と運転信頼性を確保します。本製品は横置き・縦置きの両方に対応しており、特に縦型は省スペース、閉塞リスクの低減、圧力損失の低減という利点があり、設置スペースが限られた現場や高い流動効率が求められる用途に最適です。",
-      "zh": "其流道由板片焊接形成，板束安装于坚固框架内，可稳定集成到生产系统中。宽流道专为含固体颗粒或高粘度悬浮液等困难介质设计，有助于防止堵塞并保持连续流动；另一侧流道则用于清洁介质，以获得更优的传热性能和运行可靠性。该设备支持卧式和立式安装，其中立式方案占地更小、更不易堵塞、压降低，适合空间受限及高流动效率要求的应用场景。"
-    },
-    "industries": [
-      "6",
-      "7",
-      "8"
-    ],
-    "advantage": {
-      "en": [
-        "Wide gap anti-clogging design",
-        "Suitable for viscous and solids-containing fluids",
-        "Optional horizontal and vertical installation"
-      ],
-      "ja": [
-        "ワイドギャップによる閉塞防止設計",
-        "高粘度流体および固形物含有流体に対応",
-        "横置き・縦置きの両方に対応"
-      ],
-      "zh": [
-        "宽流道防堵设计",
-        "适用于高粘度及含固体介质",
-        "支持卧式和立式安装"
-      ]
-    },
-    "technical_parameters": {
-      "Area": "6.6 ~ 870㎡",
-      "Plate material": "SS304, SS316, Hastelloy, Titanium",
-      "Design Pressure": "1.0 ~ 4.0MPa",
-      "Plate Thickness": "1.5mm ~ 10mm",
-      "Design Temperature": "-196℃ ~ 450℃"
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "Wide Gap Welded Plate Heat Exchanger Manufacturer",
-        "meta_description": "Wide gap welded plate heat exchanger for viscous, solids-containing, and fouling-prone fluids with anti-clogging channel design."
-      },
-      "ja": {
-        "meta_title": "ワイドギャップ溶接プレート式熱交換器メーカー",
-        "meta_description": "高粘度流体、固形物含有流体、閉塞しやすい流体向けのワイドギャップ溶接プレート式熱交換器。閉塞防止流路設計を採用。"
-      },
-      "zh": {
-        "meta_title": "宽流道焊接板式换热器制造商",
-        "meta_description": "宽流道焊接板式换热器，适用于高粘度、含固体及易堵塞介质，具备防堵流道设计。"
-      }
-    },
-    "created_at": "2026-03-08T13:44:42.349916+00:00",
-    "updated_at": "2026-03-08T13:44:42.349916+00:00"
-  },
-  {
     "id": "07ef2919-085f-4615-8063-bb755cfe1f6b",
     "manufacturer_id": "75a55135-86f0-43e3-9117-805628a22117",
     "slug": "graphite-block-heat-exchanger",
@@ -583,8 +451,134 @@
     "updated_at": "2026-03-09T02:30:29.096307+00:00"
   },
   {
-    "id": "571c514b-4443-4906-a6e2-2cdf9b6b1ada",
-    "manufacturer_id": "15687513-070e-49f1-af67-9e820c987f73",
+    "id": "b252eca1-60c3-497a-b0a4-f812169ba0d1",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "slug": "tp-fully-welded-plate-heat-exchanger",
+    "is_visible": true,
+    "name": {
+      "en": "TP Fully Welded Plate Heat Exchanger",
+      "ja": "TP 全溶接板式熱交換器",
+      "zh": "TP 全焊接板式换热器"
+    },
+    "short_description": {
+      "en": "Openable/fully welded TP design for high temperature and pressure applications.",
+      "ja": "高温・高圧用途に適した全溶接／開放型 TP 設計。",
+      "zh": "适用于高温高压工况的 TP 全焊接/可开式结构。"
+    },
+    "full_description": {
+      "en": "TP fully welded plate heat exchangers target demanding media with reliable sealing and maintainability.",
+      "ja": "TP 全溶接板式熱交換器は要求の厳しい媒体に対応し、信頼性の高いシールと保守性を備えます。",
+      "zh": "TP 全焊接板式换热器适配高要求介质，兼具可靠密封与维护便捷性。"
+    },
+    "industries": [
+      "6",
+      "9",
+      "1"
+    ],
+    "advantage": {
+      "en": [
+        "High-temp/high-pressure duty",
+        "Maintainable design",
+        "Custom materials"
+      ],
+      "ja": [
+        "高温・高圧対応",
+        "保守が容易",
+        "材料カスタマイズに対応"
+      ],
+      "zh": [
+        "高温高压适用",
+        "便于维护",
+        "支持材料定制"
+      ]
+    },
+    "technical_parameters": {
+      "Channels": "standard or wide-gap",
+      "Design Pressure": "up to 5.2 MPa"
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "TP Fully Welded Plate Heat Exchanger",
+        "meta_description": "TP fully welded PHE for demanding industrial applications."
+      },
+      "ja": {
+        "meta_title": "TP 全溶接板式熱交換器",
+        "meta_description": "要求の厳しい産業用途向けの TP 全溶接 PHE。"
+      },
+      "zh": {
+        "meta_title": "TP 全焊接板式换热器",
+        "meta_description": "面向高要求工业应用的 TP 全焊接板式换热器。"
+      }
+    },
+    "created_at": "2026-03-13T13:34:30.535+00:00",
+    "updated_at": "2026-03-13T13:34:30.535+00:00"
+  },
+  {
+    "id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "slug": "ht-bloc-welded-plate-heat-exchanger",
+    "is_visible": true,
+    "name": {
+      "en": "HT-BLOC Welded Plate Heat Exchanger",
+      "ja": "HT-BLOC 溶接板式熱交換器",
+      "zh": "HT-BLOC 焊接板式换热器"
+    },
+    "short_description": {
+      "en": "Compact welded bloc exchanger for high-pressure industrial duty.",
+      "ja": "高圧産業用途向けのコンパクトな溶接ブロック型熱交換器。",
+      "zh": "适用于高压工业工况的紧凑型焊接块式换热器。"
+    },
+    "full_description": {
+      "en": "HT-BLOC is designed for high efficiency and stability in harsh conditions, with wide-gap options and robust sealing structure.",
+      "ja": "HT-BLOC は過酷条件下でも高効率と安定性を両立する設計で、ワイドギャップ仕様や堅牢なシール構造に対応します。",
+      "zh": "HT-BLOC 通过加强结构与可选宽流道版型，在苛刻工况下兼具高效率与稳定性。"
+    },
+    "industries": [
+      "6",
+      "7",
+      "8"
+    ],
+    "advantage": {
+      "en": [
+        "High pressure resistance",
+        "Wide-gap channel option",
+        "Compact footprint"
+      ],
+      "ja": [
+        "高耐圧",
+        "ワイドギャップ流路オプション",
+        "省スペース設置"
+      ],
+      "zh": [
+        "高耐压",
+        "宽流道可选",
+        "占地紧凑"
+      ]
+    },
+    "technical_parameters": {
+      "Design Pressure": "up to 5.2 MPa",
+      "Heat Transfer Area": "up to ~1000 m²"
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "HT-BLOC Welded Plate Heat Exchanger",
+        "meta_description": "Compact welded bloc exchanger for high-pressure industrial duty."
+      },
+      "ja": {
+        "meta_title": "HT-BLOC 溶接板式熱交換器",
+        "meta_description": "高圧産業用途向けのコンパクトな溶接ブロック型熱交換器。"
+      },
+      "zh": {
+        "meta_title": "HT-BLOC 焊接板式换热器",
+        "meta_description": "适用于高压工业工况的紧凑型焊接块式换热器。"
+      }
+    },
+    "created_at": "2026-03-13T13:34:30.212+00:00",
+    "updated_at": "2026-03-26T01:54:45.546+00:00"
+  },
+  {
+    "id": "1434fda8-8ce7-4339-b7d6-c3f55cdcdc53",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
     "slug": "tp-welded-plate-heat-exchanger",
     "is_visible": true,
     "name": {
@@ -598,9 +592,9 @@
       "zh": "适用于浆料、高粘度及含纤维介质的专用换热器。"
     },
     "full_description": {
-      "en": "In industrial processes, specialized heat exchange solutions are required for handling challenging fluids such as particle-laden fluids (e.g., slurry), viscous fluids (e.g., syrup), and fiber-containing fluids (e.g., pulp). To ensure reliable production operations, targeted heat exchanger design is critical to address challenges such as blockages and leaks caused by those fluids , this requires customized solutions including erosion-resistant materials, optimized channel geometries, and integrated self-cleaning mechanisms. TP Welded Plate Heat Exchanger is an ideal heat exchange solution for these applications.",
-      "ja": "産業プロセスでは、粒子を含む流体（例：スラリー）、高粘度流体（例：シロップ）、繊維を含む流体（例：パルプ）など、扱いが難しい流体に対応するための専用熱交換ソリューションが必要です。安定した生産運転を実現するには、これらの流体によって生じる閉塞や漏れの課題に対応できる、目的に応じた熱交換器設計が重要です。そのためには、耐摩耗材料、最適化された流路形状、統合型セルフクリーニング機構などを含むカスタマイズ設計が求められます。TP 溶接プレート式熱交換器は、このような用途に理想的な熱交換ソリューションです。",
-      "zh": "在工业过程中，针对含颗粒介质、粘性介质和含纤维介质等复杂流体，需要专门的换热解决方案。为保证生产稳定运行，必须采用有针对性的换热器设计，以解决堵塞和泄漏等问题，这通常需要耐冲蚀材料、优化流道结构以及集成自清洁机制。TP 焊接板式换热器正是适用于此类应用的理想换热方案。"
+      "en": "In industrial processes, specialized heat exchange solutions are required for handling challenging fluids such as particle-laden fluids, viscous fluids, and fiber-containing fluids. TP Welded Plate Heat Exchanger is an ideal heat exchange solution for these applications.",
+      "ja": "産業プロセスでは、粒子を含む流体、高粘度流体、繊維を含む流体など、扱いが難しい流体に対応するための専用熱交換ソリューションが必要です。TP 溶接プレート式熱交換器は、このような用途に理想的な熱交換ソリューションです。",
+      "zh": "在工业过程中，针对含颗粒介质、粘性介质和含纤维介质等复杂流体，需要专门的换热解决方案。TP 焊接板式换热器正是适用于此类应用的理想换热方案。"
     },
     "industries": [
       "6",
@@ -645,7 +639,71 @@
         "meta_description": "TP 焊接板式换热器适用于浆料、高粘度和含纤维介质，可通过定制化设计提升工业运行可靠性。"
       }
     },
-    "created_at": "2026-03-08T13:44:42.349916+00:00",
-    "updated_at": "2026-03-08T13:44:42.349916+00:00"
+    "created_at": "2026-03-26T01:54:48.021+00:00",
+    "updated_at": "2026-03-26T01:54:48.021+00:00"
+  },
+  {
+    "id": "600574fd-9a09-4806-b895-cf1acaea7318",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "slug": "plate-heat-exchanger",
+    "is_visible": true,
+    "name": {
+      "en": "Plate Heat Exchanger (Gasketed)",
+      "ja": "板式熱交換器（ガスケット式）",
+      "zh": "板式换热器（胶垫式）"
+    },
+    "short_description": {
+      "en": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
+      "ja": "チタン／ステンレス等の材料オプションと多彩なノズル仕様に対応したガスケット式板式熱交換器。",
+      "zh": "可选不锈钢/钛材等多种材料，并支持多样接口形式。"
+    },
+    "full_description": {
+      "en": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
+      "ja": "チタン／ステンレス等の材料オプションと多彩なノズル仕様に対応したガスケット式板式熱交換器。",
+      "zh": "可选不锈钢/钛材等多种材料，并支持多样接口形式。"
+    },
+    "industries": [
+      "3",
+      "1",
+      "5",
+      "8"
+    ],
+    "advantage": {
+      "en": [
+        "Easy maintenance",
+        "Material flexibility",
+        "Wide range of sizes"
+      ],
+      "ja": [
+        "保守が容易",
+        "材料選択の自由度",
+        "幅広いサイズ展開"
+      ],
+      "zh": [
+        "易维护",
+        "材料选择灵活",
+        "覆盖规格广"
+      ]
+    },
+    "technical_parameters": {
+      "Nozzles": "flanged or studded",
+      "Materials": "SS304/316, Titanium options"
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "Plate Heat Exchanger (Gasketed)",
+        "meta_description": "Gasketed PHE for marine/HVAC with multiple materials and nozzles."
+      },
+      "ja": {
+        "meta_title": "板式熱交換器（ガスケット式）",
+        "meta_description": "船舶・HVAC 向け、複数材料とノズル仕様に対応するガスケット式 PHE。"
+      },
+      "zh": {
+        "meta_title": "板式换热器（胶垫式）",
+        "meta_description": "适用于船舶与 HVAC 的胶垫式板式换热器，支持多种材料与接口。"
+      }
+    },
+    "created_at": "2026-03-13T13:34:30.955+00:00",
+    "updated_at": "2026-03-26T01:55:00.257+00:00"
   }
 ]

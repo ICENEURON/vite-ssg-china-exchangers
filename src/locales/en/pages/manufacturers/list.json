@@ -12,24 +12,6 @@
     ]
   },
   {
-    "name": "Shanghai Heat Transfer Equipment Co., Ltd.",
-    "short_description": "Verified industrial heat exchanger manufacturer based in Shanghai, China.",
-    "slug": "shanghai-heat-transfer-equipment-co-ltd",
-    "city": "Shanghai",
-    "country_name": "China",
-    "industries": [
-      "HVAC",
-      "Petrochemical",
-      "Marine",
-      "Energy",
-      "Food Processing",
-      "Chemical Processing",
-      "Food and Beverage",
-      "Pharmaceuticals",
-      "Power Generation"
-    ]
-  },
-  {
     "name": "Jiangsu Alloy Process Equipment Co., Ltd.",
     "short_description": "Mock manufacturer for corrosion-resistant heat exchangers serving chemical and petrochemical duties.",
     "slug": "jiangsu-alloy-process-equipment-co-ltd",
@@ -58,6 +40,24 @@
     "short_description": "Verified heat exchanger and water treatment equipment manufacturer based in Beijing, China.",
     "slug": "beijing-huaaixin-energy-saving-equipment-co-ltd",
     "city": "Beijing",
+    "country_name": "China",
+    "industries": [
+      "HVAC",
+      "Petrochemical",
+      "Marine",
+      "Energy",
+      "Food Processing",
+      "Chemical Processing",
+      "Food and Beverage",
+      "Pharmaceuticals",
+      "Power Generation"
+    ]
+  },
+  {
+    "name": "Shanghai Heat Transfer Equipment Co., Ltd.",
+    "short_description": "Verified industrial heat exchanger manufacturer based in Shanghai, China.",
+    "slug": "shanghai-heat-transfer-equipment-co-ltd",
+    "city": "Shanghai",
     "country_name": "China",
     "industries": [
       "HVAC",

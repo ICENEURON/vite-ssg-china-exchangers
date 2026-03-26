@@ -35,36 +35,19 @@
     "Energy",
     "Power Generation"
   ],
-  "certifications": [
-    {
-      "alt_text": "Compliance certificate",
-      "url": "/storage/manufacturer_assets/company_certifications/shanghai-heat-transfer-equipment-co-ltd_2.png"
-    }
-  ],
-  "customers": [
-    {
-      "alt_text": "Reference customer logo",
-      "url": "/storage/manufacturer_assets/company_customers/bp.png"
-    }
-  ],
-  "images": [
-    {
-      "alt_text": "Workshop image",
-      "url": "/storage/manufacturer_assets/company_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg"
-    }
-  ],
+  "certifications": [],
+  "customers": [],
+  "images": [],
   "products": [
     {
       "slug": "graphite-block-heat-exchanger",
       "name": "Graphite Block Heat Exchanger",
-      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_3.jpg",
       "short_description": "Mock product for graphite block heat exchanger testing.",
       "url": "zhejiang-compact-heat-exchange-technology-co-ltd/graphite-block-heat-exchanger"
     },
     {
       "slug": "alloy-welded-plate-condenser",
       "name": "Alloy Welded Plate Condenser",
-      "image": "/storage/product_assets/product_images/shanghai-heat-transfer-equipment-co-ltd_1.jpg",
       "short_description": "Mock product for alloy welded plate condenser testing.",
       "url": "zhejiang-compact-heat-exchange-technology-co-ltd/alloy-welded-plate-condenser"
     }
