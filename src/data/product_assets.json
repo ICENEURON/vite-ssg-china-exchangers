@@ -1,16 +1,68 @@
 [
   {
+    "id": "fa20ddd5-1261-4320-9fad-8cf790c9632f",
+    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
+    "asset_type": "certificate",
+    "alt_text": "NBBI Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png",
+    "file_name": "nbbi.png",
+    "file_type": "png",
+    "created_at": "2026-05-03T15:07:46.848+00:00",
+    "updated_at": "2026-05-03T15:36:35.344+00:00",
+    "order": 4
+  },
+  {
     "id": "d19d441b-7088-40f3-88a6-50a81060cd06",
     "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
     "asset_type": "gallery_image",
-    "alt_text": "HT-BLOC Product Image",
+    "alt_text": "HT-BLOC Welded Plate Heat Exchanger",
     "storage_bucket": "assets",
     "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_1.png",
     "file_name": "ht_bloc_1.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:47.208+00:00",
-    "updated_at": "2026-05-03T14:32:15.315+00:00",
+    "updated_at": "2026-05-03T15:36:31.131+00:00",
     "order": 1
+  },
+  {
+    "id": "c50ff99f-b0cb-4fbe-91a0-9656326d9c7e",
+    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
+    "asset_type": "gallery_image",
+    "alt_text": "HT-BLOC Welded Plate Heat Exchanger Internal Structure",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_2.png",
+    "file_name": "ht_bloc_2.png",
+    "file_type": "png",
+    "created_at": "2026-05-03T15:07:44.151+00:00",
+    "updated_at": "2026-05-03T15:36:32.902+00:00",
+    "order": 2
+  },
+  {
+    "id": "0c1cf9f4-079c-478e-856a-5051760c3dcf",
+    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
+    "asset_type": "gallery_image",
+    "alt_text": "HT-BLOC Welded Plate Heat Exchanger Installation",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_3.jpg",
+    "file_name": "ht_bloc_3.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-03T15:07:44.694+00:00",
+    "updated_at": "2026-05-03T15:36:33.16+00:00",
+    "order": 3
+  },
+  {
+    "id": "4fa24bed-bd5c-4e96-b9f2-88480376deb0",
+    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
+    "asset_type": "certificate",
+    "alt_text": "SGS Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png",
+    "file_name": "sgs.png",
+    "file_type": "png",
+    "created_at": "2026-05-03T15:07:47.739+00:00",
+    "updated_at": "2026-05-03T15:36:35.817+00:00",
+    "order": 5
   },
   {
     "id": "98c9df6a-e023-4db1-9c92-82e8053ccabb",
@@ -22,7 +74,7 @@
     "file_name": "tp_welded_1.jpg",
     "file_type": "jpg",
     "created_at": "2026-03-26T01:54:49.667+00:00",
-    "updated_at": "2026-05-03T14:32:15.881+00:00",
+    "updated_at": "2026-05-03T15:36:36.377+00:00",
     "order": 1
   },
   {
@@ -35,7 +87,7 @@
     "file_name": "tp_welded_2.jpg",
     "file_type": "jpg",
     "created_at": "2026-03-26T01:54:51.315+00:00",
-    "updated_at": "2026-05-03T14:32:16.384+00:00",
+    "updated_at": "2026-05-03T15:36:36.864+00:00",
     "order": 2
   },
   {
@@ -48,7 +100,7 @@
     "file_name": "asme.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:52.934+00:00",
-    "updated_at": "2026-05-03T14:32:17.149+00:00",
+    "updated_at": "2026-05-03T15:36:37.348+00:00",
     "order": 1
   },
   {
@@ -61,7 +113,7 @@
     "file_name": "bv.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:54.53+00:00",
-    "updated_at": "2026-05-03T14:32:17.677+00:00",
+    "updated_at": "2026-05-03T15:36:38.108+00:00",
     "order": 2
   },
   {
@@ -74,7 +126,7 @@
     "file_name": "ce.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:56.159+00:00",
-    "updated_at": "2026-05-03T14:32:18.177+00:00",
+    "updated_at": "2026-05-03T15:36:38.605+00:00",
     "order": 3
   },
   {
@@ -87,7 +139,7 @@
     "file_name": "nbbi.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:57.776+00:00",
-    "updated_at": "2026-05-03T14:32:18.678+00:00",
+    "updated_at": "2026-05-03T15:36:39.339+00:00",
     "order": 4
   },
   {
@@ -100,7 +152,7 @@
     "file_name": "sgs.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:59.41+00:00",
-    "updated_at": "2026-05-03T14:32:18.879+00:00",
+    "updated_at": "2026-05-03T15:36:39.779+00:00",
     "order": 5
   },
   {
@@ -113,7 +165,7 @@
     "file_name": "plate_hex_1.jpg",
     "file_type": "jpg",
     "created_at": "2026-03-26T01:55:02.29+00:00",
-    "updated_at": "2026-05-03T14:32:19.412+00:00",
+    "updated_at": "2026-05-03T15:36:40.592+00:00",
     "order": 1
   },
   {
@@ -126,7 +178,46 @@
     "file_name": "plate_hex_2.jpg",
     "file_type": "jpg",
     "created_at": "2026-03-26T01:55:03.905+00:00",
-    "updated_at": "2026-05-03T14:32:20.159+00:00",
+    "updated_at": "2026-05-03T15:36:41.365+00:00",
     "order": 2
+  },
+  {
+    "id": "43465005-0a4b-492a-8315-10cf41f20217",
+    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
+    "asset_type": "certificate",
+    "alt_text": "ASME Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png",
+    "file_name": "asme.png",
+    "file_type": "png",
+    "created_at": "2026-05-03T15:07:44.924+00:00",
+    "updated_at": "2026-05-03T15:36:33.928+00:00",
+    "order": 1
+  },
+  {
+    "id": "e6b823eb-0fb3-476e-be46-30c5d02458d7",
+    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
+    "asset_type": "certificate",
+    "alt_text": "BV Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png",
+    "file_name": "bv.png",
+    "file_type": "png",
+    "created_at": "2026-05-03T15:07:45.435+00:00",
+    "updated_at": "2026-05-03T15:36:34.117+00:00",
+    "order": 2
+  },
+  {
+    "id": "9e36d9f5-e2ec-4e90-aa7a-b33b126b6f8d",
+    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
+    "asset_type": "certificate",
+    "alt_text": "CE Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png",
+    "file_name": "ce.png",
+    "file_type": "png",
+    "created_at": "2026-05-03T15:07:45.927+00:00",
+    "updated_at": "2026-05-03T15:36:34.6+00:00",
+    "order": 3
   }
 ]

@@ -118,6 +118,7 @@ function processData() {
         advantage: localizedProd.advantage, // it's advantage in the array
         technical_parameters: localizedProd.technical_parameters,
         video_link: localizedProd.video_link,
+        details: localizedProd.details,
         seo_data: localizedProd.seo_data,
         manufacturer: {
           slug: mfgSlug

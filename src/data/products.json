@@ -1,5 +1,71 @@
 [
   {
+    "id": "1434fda8-8ce7-4339-b7d6-c3f55cdcdc53",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "slug": "tp-welded-plate-heat-exchanger",
+    "is_visible": true,
+    "name": {
+      "en": "TP Welded Plate Heat Exchanger",
+      "zh": "TP 焊接板式换热器"
+    },
+    "short_description": {
+      "en": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
+      "zh": "适用于浆料、高粘度及含纤维介质的专用换热器。"
+    },
+    "full_description": {
+      "en": "In industrial processes, specialized heat exchange solutions are required for handling challenging fluids such as particle-laden fluids, viscous fluids, and fiber-containing fluids. TP Welded Plate Heat Exchanger is an ideal heat exchange solution for these applications.",
+      "zh": "在工业过程中，针对含颗粒介质、粘性介质和含纤维介质等复杂流体，需要专门的换热解决方案。TP 焊接板式换热器正是适用于此类应用的理想换热方案。"
+    },
+    "industries": [
+      "6",
+      "7",
+      "8"
+    ],
+    "advantage": {
+      "en": [
+        "Designed for challenging fluids",
+        "Helps reduce blockage and leakage risk",
+        "Supports customized material and channel design"
+      ],
+      "zh": [
+        "针对复杂介质设计",
+        "有助于降低堵塞和泄漏风险",
+        "支持材料和流道定制优化"
+      ]
+    },
+    "technical_parameters": {
+      "en": {
+        "Area": "6.6 ~ 870㎡",
+        "Plate material": "SS304, SS316, Hastelloy, Titanium",
+        "Design Pressure": "1.0 ~ 4.0MPa",
+        "Plate Thickness": "1.5mm ~ 10mm",
+        "Design Temperature": "-196℃ ~ 450℃"
+      },
+      "zh": {
+        "面积": "6.6 ~ 870㎡",
+        "板片厚度": "1.5mm ~ 10mm",
+        "板片材质": "SS304, SS316, Hastelloy, Titanium",
+        "设计压力": "1.0 ~ 4.0MPa",
+        "设计温度": "-196℃ ~ 450℃"
+      }
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "TP Welded Plate Heat Exchanger Manufacturer",
+        "meta_description": "TP welded plate heat exchanger for slurry, viscous, and fiber-containing media with customized design for reliable industrial operation."
+      },
+      "zh": {
+        "meta_title": "TP 焊接板式换热器制造商",
+        "meta_description": "TP 焊接板式换热器适用于浆料、高粘度和含纤维介质，可通过定制化设计提升工业运行可靠性。"
+      }
+    },
+    "created_at": "2026-03-26T01:54:48.021+00:00",
+    "updated_at": "2026-05-03T15:36:35.875+00:00",
+    "order": 2,
+    "video_link": null,
+    "details": null
+  },
+  {
     "id": "600574fd-9a09-4806-b895-cf1acaea7318",
     "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
     "slug": "plate-heat-exchanger",
@@ -35,8 +101,14 @@
       ]
     },
     "technical_parameters": {
-      "Nozzles": "flanged or studded",
-      "Materials": "SS304/316, Titanium options"
+      "en": {
+        "Nozzles": "flanged or studded",
+        "Materials": "SS304/316, Titanium options"
+      },
+      "zh": {
+        "材质": "SS304/316, 钛合金可选",
+        "接管形式": "法兰式或螺柱式"
+      }
     },
     "seo_data": {
       "en": {
@@ -49,65 +121,10 @@
       }
     },
     "created_at": "2026-03-13T13:34:30.955+00:00",
-    "updated_at": "2026-05-03T14:32:18.942+00:00",
+    "updated_at": "2026-05-03T15:36:39.835+00:00",
     "order": 3,
-    "video_link": null
-  },
-  {
-    "id": "1434fda8-8ce7-4339-b7d6-c3f55cdcdc53",
-    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "slug": "tp-welded-plate-heat-exchanger",
-    "is_visible": true,
-    "name": {
-      "en": "TP Welded Plate Heat Exchanger",
-      "zh": "TP 焊接板式换热器"
-    },
-    "short_description": {
-      "en": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
-      "zh": "适用于浆料、高粘度及含纤维介质的专用换热器。"
-    },
-    "full_description": {
-      "en": "In industrial processes, specialized heat exchange solutions are required for handling challenging fluids such as particle-laden fluids, viscous fluids, and fiber-containing fluids. TP Welded Plate Heat Exchanger is an ideal heat exchange solution for these applications.",
-      "zh": "在工业过程中，针对含颗粒介质、粘性介质和含纤维介质等复杂流体，需要专门的换热解决方案。TP 焊接板式换热器正是适用于此类应用的理想换热方案。"
-    },
-    "industries": [
-      "6",
-      "7",
-      "8"
-    ],
-    "advantage": {
-      "en": [
-        "Designed for challenging fluids",
-        "Helps reduce blockage and leakage risk",
-        "Supports customized material and channel design"
-      ],
-      "zh": [
-        "针对复杂介质设计",
-        "有助于降低堵塞和泄漏风险",
-        "支持材料和流道定制优化"
-      ]
-    },
-    "technical_parameters": {
-      "Area": "6.6 ~ 870㎡",
-      "Plate material": "SS304, SS316, Hastelloy, Titanium",
-      "Design Pressure": "1.0 ~ 4.0MPa",
-      "Plate Thickness": "1.5mm ~ 10mm",
-      "Design Temperature": "-196℃ ~ 450℃"
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "TP Welded Plate Heat Exchanger Manufacturer",
-        "meta_description": "TP welded plate heat exchanger for slurry, viscous, and fiber-containing media with customized design for reliable industrial operation."
-      },
-      "zh": {
-        "meta_title": "TP 焊接板式换热器制造商",
-        "meta_description": "TP 焊接板式换热器适用于浆料、高粘度和含纤维介质，可通过定制化设计提升工业运行可靠性。"
-      }
-    },
-    "created_at": "2026-03-26T01:54:48.021+00:00",
-    "updated_at": "2026-05-03T14:32:15.375+00:00",
-    "order": 2,
-    "video_link": null
+    "video_link": null,
+    "details": null
   },
   {
     "id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
@@ -132,19 +149,37 @@
     ],
     "advantage": {
       "en": [
-        "High pressure resistance",
-        "Wide-gap channel option",
-        "Compact footprint"
+        "Fully Welded: The gasket-free construction enables robust operation in higher pressure and high temperature environments, ensuring leak-resistant performance for critical applications.",
+        "Easy for Cleaning: Accessible heat transfer channels allow for effective removal of deposits and scale through mechanical flushing, chemical cleaning, or ultrasonic cleaning.",
+        "Openable: Bolted connection is designed to facilitate easy access and versatility by enabling all four sides to be openable, allowing for greater flexibility during installation, maintenance, and inspection.",
+        "Small Footprint: Designed to occupy minimal space without compromising on capacity, significantly reducing footprint compared to traditional shell and tube heat exchangers.",
+        "High Efficiency: Innovations in plate geometry and flow dynamics further increase thermal efficiency while reducing energy consumption, aligning with global energy conservation goals.",
+        "Durability: Constructed from high-quality materials and utilizing precision welding techniques, built to withstand harsh operating conditions and ensure long-term reliability."
       ],
       "zh": [
-        "高耐压",
-        "宽流道可选",
-        "占地紧凑"
+        "全焊接结构：无密封垫设计，可在更高压力和温度环境下稳定运行，确保关键工况下的防泄漏性能。",
+        "易于清洗：传热通道易于接触，可通过机械冲洗、化学清洗或超声波清洗等多种方式有效去除沉积物和水垢。",
+        "可打开设计：螺栓连接设计使四面均可打开，便于安装、维护和检查，提供更大的灵活性和便利性。",
+        "占地小：在不牺牲容量的前提下占用最小空间，相比传统管壳式换热器显著减少占地面积。",
+        "高效率：板片几何形状和流体动力学创新进一步提高传热效率，同时降低能耗，符合全球节能目标。",
+        "耐久性：采用高品质材料和精密焊接工艺，能够承受苛刻运行条件，确保长期可靠性。"
       ]
     },
     "technical_parameters": {
-      "Design Pressure": "up to 5.2 MPa",
-      "Heat Transfer Area": "up to ~1000 m²"
+      "en": {
+        "Area": "6.6 ~ 870㎡",
+        "Plate material": "304, 304L, 316L, 254SMO, C-276, Titanium",
+        "Design Pressure": "-0.1 ~ 4.0MPa",
+        "Plate Thickness": "0.8 – 2mm",
+        "Design Temperature": "-40 ~ 400℃"
+      },
+      "zh": {
+        "面积": "6.6 ~ 870㎡",
+        "板片厚度": "0.8 – 2mm",
+        "板片材质": "304, 304L, 316L, 254SMO, C-276, Titanium",
+        "设计压力": "-0.1 ~ 4.0MPa",
+        "设计温度": "-40 ~ 400℃"
+      }
     },
     "seo_data": {
       "en": {
@@ -157,8 +192,30 @@
       }
     },
     "created_at": "2026-03-13T13:34:30.212+00:00",
-    "updated_at": "2026-05-03T14:32:14.804+00:00",
+    "updated_at": "2026-05-03T15:36:30.44+00:00",
     "order": 1,
-    "video_link": "https://www.youtube.com/watch?v=j61c5dnKP78"
+    "video_link": "https://www.youtube.com/watch?v=j61c5dnKP78",
+    "details": {
+      "en": [
+        {
+          "title": "What is HT Bloc welded heat exchanger?",
+          "content": "HT-Bloc Welded Plate Heat Exchanger is a type of plate heat exchanger designed for efficient thermal transfer between two fluids. Unlike traditional heat exchangers, HT-Bloc welded PHE is made up of plate pack and frame. Welded block heat exchanger combines the high heat transfer efficiency of plate heat exchangers and the high pressure and temperature resistance of shell and tube heat exchangers."
+        },
+        {
+          "title": "How to assemble HT-Bloc Welded Plate Heat Exchanger?",
+          "content": "The plate pack is formed by welding a certain number of plates, then it is installed into a frame, which is configured by four corner girders, top and bottom plates and four side covers. Fully welded plate heat exchanger utilizes interchangeable components and standardized modules, allowing for easy customization and scalability. This modularity ensures that Compabloc heat exchangers can be tailored to meet specific industrial requirements, enhancing both performance and reliability."
+        }
+      ],
+      "zh": [
+        {
+          "title": "什么是HT-Bloc焊接板式换热器？",
+          "content": "HT-Bloc焊接板式换热器是一种专为两种流体之间高效传热而设计的板式换热器。与传统换热器不同，HT-Bloc焊接板式换热器由板束和框架组成。焊接块式换热器将板式换热器的高传热效率与管壳式换热器的高压高温耐受性相结合。"
+        },
+        {
+          "title": "如何组装HT-Bloc焊接板式换热器？",
+          "content": "板束通过焊接一定数量的板片形成，然后安装到由四根角梁、顶板和底板以及四块侧板组成的框架中。全焊接板式换热器采用可互换组件和标准化模块，便于定制和扩展。这种模块化设计确保换热器能够满足特定工业需求，提升性能和可靠性。"
+        }
+      ]
+    }
   }
 ]

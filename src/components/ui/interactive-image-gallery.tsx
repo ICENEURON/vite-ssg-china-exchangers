@@ -35,6 +35,7 @@ interface ZoomableImageGridProps {
   itemClassName?: string
   imageClassName?: string
   labelClassName?: string
+  showExpandIcon?: boolean
 }
 
 function clampIndex(index: number, length: number) {
@@ -358,6 +359,7 @@ export function ZoomableImageGrid({
   itemClassName,
   imageClassName,
   labelClassName,
+  showExpandIcon = true,
 }: ZoomableImageGridProps) {
   const gridImages = useMemo(
     () => images.filter((image) => Boolean(image?.src)).map((image) => ({ src: image.src, alt: image.alt || altFallback })),
@@ -386,9 +388,11 @@ export function ZoomableImageGrid({
               setLightboxOpen(true)
             }}
           >
-            <div className="absolute right-3 top-3 rounded-full bg-slate-900/70 p-2 text-white opacity-0 transition-opacity group-hover:opacity-100">
-              <Expand className="h-3.5 w-3.5" />
-            </div>
+            {showExpandIcon && (
+              <div className="absolute right-3 top-3 rounded-full bg-slate-900/70 p-2 text-white opacity-0 transition-opacity group-hover:opacity-100">
+                <Expand className="h-3.5 w-3.5" />
+              </div>
+            )}
             <div className="mb-4 flex h-24 w-full items-center justify-center">
               <img src={image.src} alt={image.alt || altFallback} className={cn('max-h-full max-w-full object-contain', imageClassName)} />
             </div>

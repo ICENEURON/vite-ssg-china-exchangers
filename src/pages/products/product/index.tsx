@@ -1,7 +1,7 @@
 import { Head } from 'vite-react-ssg'
 import { Link, useParams, Navigate } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
-import { CheckCircle2, Settings, Shield, Factory, ArrowLeft } from "lucide-react"
+import { CheckCircle2, Settings, Factory, ArrowLeft, BookOpen } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
 import { useTranslation } from 'react-i18next'
@@ -10,6 +10,11 @@ import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-r
 interface ProductImageAsset {
     alt_text?: string;
     url: string;
+}
+
+interface ProductDetail {
+    title: string;
+    content: string;
 }
 
 interface ProductData {
@@ -22,10 +27,21 @@ interface ProductData {
     images?: ProductImageAsset[];
     certificates?: ProductImageAsset[];
     technical_parameters?: Record<string, string>;
+    video_link?: string;
+    details?: ProductDetail[];
     seo_data?: {
         meta_title?: string;
         meta_description?: string;
     };
+}
+
+function getYoutubeEmbedUrl(url: string): string | null {
+    try {
+        const u = new URL(url);
+        if (u.hostname === 'youtu.be') return `https://www.youtube.com/embed/${u.pathname.slice(1)}`;
+        if (u.hostname.includes('youtube.com') && u.searchParams.get('v')) return `https://www.youtube.com/embed/${u.searchParams.get('v')}`;
+    } catch { /* ignore */ }
+    return null;
 }
 
 export default function ProductProfilePage() {
@@ -50,10 +66,21 @@ export default function ProductProfilePage() {
     const industries = productData.industries || [];
     const images = productData.images || [];
     const certificates = productData.certificates || [];
+    const details = productData.details || [];
 
     // Technical parameters
     const technicalParams = productData.technical_parameters || {};
     const hasTechnicalParams = Object.keys(technicalParams).length > 0;
+
+    // Video embed
+    const videoLink = productData.video_link;
+    const videoEmbedUrl = videoLink ? getYoutubeEmbedUrl(videoLink) : null;
+
+    // Build gallery slides: video first, then images
+    const gallerySlides = [
+        ...(videoEmbedUrl ? [{ type: 'video' as const, src: videoEmbedUrl, alt: `${name} Video` }] : []),
+        ...images.map(img => ({ type: 'image' as const, src: img.url, alt: img.alt_text || name }))
+    ];
 
     const siteUrl = import.meta.env.VITE_SITE_URL || 'http://localhost';
     const currentUrl = `${siteUrl}/products/${manufacturerSlug}/${productSlug}`;
@@ -73,19 +100,19 @@ export default function ProductProfilePage() {
                     <div className="container max-w-6xl mx-auto px-6">
                         <div className="flex flex-col md:flex-row gap-12 items-center">
 
-                            {/* Product Image */}
+                            {/* Product Image / Video Gallery */}
                             <div className="w-full md:w-1/2">
-                                {images.length > 0 ? (
+                                {gallerySlides.length > 0 ? (
                                     <ImageCarouselGallery
-                                        images={images.map((image) => ({ src: image.url, alt: image.alt_text || name }))}
+                                        images={gallerySlides}
                                         altFallback={name}
                                         aspectClassName="aspect-[4/3]"
-                                        imageClassName="object-contain mix-blend-multiply"
+                                        imageClassName="object-contain"
+                                        panelClassName="bg-transparent"
                                     />
                                 ) : (
-                                    <div className="bg-white p-4 rounded-2xl shadow-xl overflow-hidden relative">
-                                        <div className="absolute inset-0 bg-gradient-to-tr from-slate-900/5 to-transparent pointer-events-none" />
-                                        <div className="flex aspect-[4/3] items-center justify-center rounded-xl border border-slate-100 text-slate-400">
+                                    <div className="rounded-2xl overflow-hidden relative">
+                                        <div className="flex aspect-[4/3] items-center justify-center rounded-xl border border-slate-700 text-slate-400">
                                             {t("pages.products.detail.no_image", { defaultValue: 'No product image available' })}
                                         </div>
                                     </div>
@@ -112,9 +139,23 @@ export default function ProductProfilePage() {
                                     ))}
                                 </div>
 
-                                <div className="flex flex-col sm:flex-row gap-4 mt-6 w-full sm:w-auto">
+                                {certificates.length > 0 && (
+                                    <div className="mt-2">
+                                        <ZoomableImageGrid
+                                            images={certificates.map((cert) => ({ src: cert.url, alt: cert.alt_text || 'Certificate' }))}
+                                            altFallback="Certificate"
+                                            className="flex flex-wrap gap-4"
+                                            itemClassName="min-w-0 !bg-transparent !border-0 !shadow-none !rounded-none !p-0 hover:!bg-transparent [&>div:last-of-type]:mb-0 [&>div:last-of-type]:h-auto [&>div:last-of-type]:w-auto"
+                                            imageClassName="h-10 w-auto"
+                                            labelClassName="!hidden"
+                                            showExpandIcon={false}
+                                        />
+                                    </div>
+                                )}
+
+                                <div className="flex flex-col sm:flex-row gap-4 mt-4 w-full sm:w-auto">
                                     <Button size="lg" className="h-14 px-8 text-lg font-medium shadow-lg hover:scale-105 transition-transform w-full sm:w-auto" asChild>
-                                        <Link defaultChecked to={addLanguageToPath(`/manufacturers/${manufacturerSlug}`, currentLanguage)}>
+                                        <Link to={addLanguageToPath(`/manufacturers/${manufacturerSlug}`, currentLanguage)}>
                                             <Factory className="mr-2 h-5 w-5" /> {t("pages.products.detail.view_manufacturer")}
                                         </Link>
                                     </Button>
@@ -132,6 +173,26 @@ export default function ProductProfilePage() {
                 {/* Content Sections */}
                 <div className="container max-w-6xl mx-auto px-6 py-16 space-y-24">
 
+                    {/* Product Details */}
+                    {details.length > 0 && (
+                        <section>
+                            <div className="flex items-center gap-3 mb-8">
+                                <div className="p-3 bg-violet-500/10 rounded-xl text-violet-600 dark:text-violet-400">
+                                    <BookOpen className="w-6 h-6" />
+                                </div>
+                                <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.product_details", { defaultValue: 'Product Details' })}</h2>
+                            </div>
+                            <div className="space-y-8">
+                                {details.map((detail, idx) => (
+                                    <div key={idx} className="bg-card p-8 rounded-2xl border border-border/50 shadow-sm">
+                                        <h3 className="text-xl font-bold mb-4 text-card-foreground">{detail.title}</h3>
+                                        <p className="text-muted-foreground leading-relaxed text-lg">{detail.content}</p>
+                                    </div>
+                                ))}
+                            </div>
+                        </section>
+                    )}
+
                     {/* Advantages */}
                     {advantages && advantages.length > 0 && (
                         <section>
@@ -141,7 +202,7 @@ export default function ProductProfilePage() {
                                 </div>
                                 <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.key_advantages")}</h2>
                             </div>
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 {advantages.map((adv: string, idx: number) => (
                                     <div key={idx} className="bg-card p-6 rounded-2xl border border-border/50 shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow">
                                         <CheckCircle2 className="w-6 h-6 text-emerald-500 shrink-0 mt-0.5" />
@@ -176,30 +237,11 @@ export default function ProductProfilePage() {
                         </section>
                     )}
 
-                    {/* Certifications */}
-                    {certificates && certificates.length > 0 && (
-                        <section>
-                            <div className="flex items-center gap-3 mb-8">
-                                <div className="p-3 bg-amber-500/10 rounded-xl text-amber-600 dark:text-amber-500">
-                                    <Shield className="w-6 h-6" />
-                                </div>
-                                <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.certifications")}</h2>
-                            </div>
-                            <ZoomableImageGrid
-                                images={certificates.map((cert) => ({ src: cert.url, alt: cert.alt_text || t("pages.products.detail.certificate_alt", { defaultValue: 'Product certificate' }) }))}
-                                altFallback={t("pages.products.detail.certificate_alt", { defaultValue: 'Product certificate' })}
-                                className="grid-cols-2 md:grid-cols-3 lg:grid-cols-5"
-                                itemClassName="min-w-0 bg-white border border-slate-200 shadow-sm hover:shadow-md"
-                                imageClassName="h-16 mix-blend-multiply"
-                            />
-                        </section>
-                    )}
-
                 </div>
             </main>
 
             {/* Floating Back Button */}
-            <Link 
+            <Link
                 to={addLanguageToPath('/products', currentLanguage)}
                 className="fixed bottom-8 right-8 z-50 flex items-center justify-center gap-2 px-6 py-4 bg-white dark:bg-zinc-800 text-slate-800 dark:text-zinc-200 rounded-full shadow-2xl border border-slate-200 dark:border-zinc-700 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.3)] hover:-translate-y-1 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 group font-bold"
             >

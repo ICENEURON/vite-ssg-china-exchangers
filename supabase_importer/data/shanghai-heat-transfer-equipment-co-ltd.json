@@ -280,19 +280,59 @@
                     ],
                     "advantage": {
                         "en": [
-                            "High pressure resistance",
-                            "Wide-gap channel option",
-                            "Compact footprint"
+                            "Fully Welded: The gasket-free construction enables robust operation in higher pressure and high temperature environments, ensuring leak-resistant performance for critical applications.",
+                            "Easy for Cleaning: Accessible heat transfer channels allow for effective removal of deposits and scale through mechanical flushing, chemical cleaning, or ultrasonic cleaning.",
+                            "Openable: Bolted connection is designed to facilitate easy access and versatility by enabling all four sides to be openable, allowing for greater flexibility during installation, maintenance, and inspection.",
+                            "Small Footprint: Designed to occupy minimal space without compromising on capacity, significantly reducing footprint compared to traditional shell and tube heat exchangers.",
+                            "High Efficiency: Innovations in plate geometry and flow dynamics further increase thermal efficiency while reducing energy consumption, aligning with global energy conservation goals.",
+                            "Durability: Constructed from high-quality materials and utilizing precision welding techniques, built to withstand harsh operating conditions and ensure long-term reliability."
                         ],
                         "zh": [
-                            "高耐压",
-                            "宽流道可选",
-                            "占地紧凑"
+                            "全焊接结构：无密封垫设计，可在更高压力和温度环境下稳定运行，确保关键工况下的防泄漏性能。",
+                            "易于清洗：传热通道易于接触，可通过机械冲洗、化学清洗或超声波清洗等多种方式有效去除沉积物和水垢。",
+                            "可打开设计：螺栓连接设计使四面均可打开，便于安装、维护和检查，提供更大的灵活性和便利性。",
+                            "占地小：在不牺牲容量的前提下占用最小空间，相比传统管壳式换热器显著减少占地面积。",
+                            "高效率：板片几何形状和流体动力学创新进一步提高传热效率，同时降低能耗，符合全球节能目标。",
+                            "耐久性：采用高品质材料和精密焊接工艺，能够承受苛刻运行条件，确保长期可靠性。"
                         ]
                     },
                     "technical_parameters": {
-                        "Design Pressure": "up to 5.2 MPa",
-                        "Heat Transfer Area": "up to ~1000 m²"
+                        "en": {
+                            "Area": "6.6 ~ 870㎡",
+                            "Plate Thickness": "0.8 – 2mm",
+                            "Design Temperature": "-40 ~ 400℃",
+                            "Design Pressure": "-0.1 ~ 4.0MPa",
+                            "Plate material": "304, 304L, 316L, 254SMO, C-276, Titanium"
+                        },
+                        "zh": {
+                            "面积": "6.6 ~ 870㎡",
+                            "板片厚度": "0.8 – 2mm",
+                            "设计温度": "-40 ~ 400℃",
+                            "设计压力": "-0.1 ~ 4.0MPa",
+                            "板片材质": "304, 304L, 316L, 254SMO, C-276, Titanium"
+                        }
+                    },
+                    "details": {
+                        "en": [
+                            {
+                                "title": "What is HT Bloc welded heat exchanger?",
+                                "content": "HT-Bloc Welded Plate Heat Exchanger is a type of plate heat exchanger designed for efficient thermal transfer between two fluids. Unlike traditional heat exchangers, HT-Bloc welded PHE is made up of plate pack and frame. Welded block heat exchanger combines the high heat transfer efficiency of plate heat exchangers and the high pressure and temperature resistance of shell and tube heat exchangers."
+                            },
+                            {
+                                "title": "How to assemble HT-Bloc Welded Plate Heat Exchanger?",
+                                "content": "The plate pack is formed by welding a certain number of plates, then it is installed into a frame, which is configured by four corner girders, top and bottom plates and four side covers. Fully welded plate heat exchanger utilizes interchangeable components and standardized modules, allowing for easy customization and scalability. This modularity ensures that Compabloc heat exchangers can be tailored to meet specific industrial requirements, enhancing both performance and reliability."
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "title": "什么是HT-Bloc焊接板式换热器？",
+                                "content": "HT-Bloc焊接板式换热器是一种专为两种流体之间高效传热而设计的板式换热器。与传统换热器不同，HT-Bloc焊接板式换热器由板束和框架组成。焊接块式换热器将板式换热器的高传热效率与管壳式换热器的高压高温耐受性相结合。"
+                            },
+                            {
+                                "title": "如何组装HT-Bloc焊接板式换热器？",
+                                "content": "板束通过焊接一定数量的板片形成，然后安装到由四根角梁、顶板和底板以及四块侧板组成的框架中。全焊接板式换热器采用可互换组件和标准化模块，便于定制和扩展。这种模块化设计确保换热器能够满足特定工业需求，提升性能和可靠性。"
+                            }
+                        ]
                     },
                     "video_link": "https://www.youtube.com/watch?v=j61c5dnKP78",
                     "seo_data": {
@@ -312,7 +352,56 @@
                         "asset_type": "gallery_image",
                         "folder": "product_images",
                         "file_name": "ht_bloc_1.png",
-                        "alt_text": "HT-BLOC Product Image"
+                        "alt_text": "HT-BLOC Welded Plate Heat Exchanger"
+                    },
+                    {
+                        "order": 2,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "ht_bloc_2.png",
+                        "alt_text": "HT-BLOC Welded Plate Heat Exchanger Internal Structure"
+                    },
+                    {
+                        "order": 3,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "ht_bloc_3.jpg",
+                        "alt_text": "HT-BLOC Welded Plate Heat Exchanger Installation"
+                    },
+                    {
+                        "order": 1,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "asme.png",
+                        "alt_text": "ASME Certificate"
+                    },
+                    {
+                        "order": 2,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "bv.png",
+                        "alt_text": "BV Certificate"
+                    },
+                    {
+                        "order": 3,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "ce.png",
+                        "alt_text": "CE Certificate"
+                    },
+                    {
+                        "order": 4,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "nbbi.png",
+                        "alt_text": "NBBI Certificate"
+                    },
+                    {
+                        "order": 5,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "sgs.png",
+                        "alt_text": "SGS Certificate"
                     }
                 ]
             },
@@ -351,11 +440,20 @@
                         ]
                     },
                     "technical_parameters": {
-                        "Area": "6.6 ~ 870㎡",
-                        "Plate material": "SS304, SS316, Hastelloy, Titanium",
-                        "Design Pressure": "1.0 ~ 4.0MPa",
-                        "Plate Thickness": "1.5mm ~ 10mm",
-                        "Design Temperature": "-196℃ ~ 450℃"
+                        "en": {
+                            "Area": "6.6 ~ 870㎡",
+                            "Plate material": "SS304, SS316, Hastelloy, Titanium",
+                            "Design Pressure": "1.0 ~ 4.0MPa",
+                            "Plate Thickness": "1.5mm ~ 10mm",
+                            "Design Temperature": "-196℃ ~ 450℃"
+                        },
+                        "zh": {
+                            "面积": "6.6 ~ 870㎡",
+                            "板片材质": "SS304, SS316, Hastelloy, Titanium",
+                            "设计压力": "1.0 ~ 4.0MPa",
+                            "板片厚度": "1.5mm ~ 10mm",
+                            "设计温度": "-196℃ ~ 450℃"
+                        }
                     },
                     "seo_data": {
                         "en": {
@@ -456,8 +554,14 @@
                         ]
                     },
                     "technical_parameters": {
-                        "Nozzles": "flanged or studded",
-                        "Materials": "SS304/316, Titanium options"
+                        "en": {
+                            "Nozzles": "flanged or studded",
+                            "Materials": "SS304/316, Titanium options"
+                        },
+                        "zh": {
+                            "接管形式": "法兰式或螺柱式",
+                            "材质": "SS304/316, 钛合金可选"
+                        }
                     },
                     "seo_data": {
                         "en": {

@@ -1,5 +1,30 @@
 [
   {
+    "slug": "tp-welded-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "上海板换机械设备有限公司"
+    },
+    "name": "TP 焊接板式换热器",
+    "short_description": "适用于浆料、高粘度及含纤维介质的专用换热器。",
+    "industries": [
+      "化工",
+      "食品与饮料",
+      "制药"
+    ],
+    "images": [
+      {
+        "alt_text": "TP Welded Plate Heat Exchanger",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_1.jpg"
+      },
+      {
+        "alt_text": "TP Welded Plate Heat Exchanger Variant",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_2.jpg"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
+  },
+  {
     "slug": "plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
@@ -26,31 +51,6 @@
     "url": "shanghai-heat-transfer-equipment-co-ltd/plate-heat-exchanger"
   },
   {
-    "slug": "tp-welded-plate-heat-exchanger",
-    "manufacturer": {
-      "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "上海板换机械设备有限公司"
-    },
-    "name": "TP 焊接板式换热器",
-    "short_description": "适用于浆料、高粘度及含纤维介质的专用换热器。",
-    "industries": [
-      "化工",
-      "食品与饮料",
-      "制药"
-    ],
-    "images": [
-      {
-        "alt_text": "TP Welded Plate Heat Exchanger",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_1.jpg"
-      },
-      {
-        "alt_text": "TP Welded Plate Heat Exchanger Variant",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_2.jpg"
-      }
-    ],
-    "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
-  },
-  {
     "slug": "ht-bloc-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
@@ -64,8 +64,16 @@
     ],
     "images": [
       {
-        "alt_text": "HT-BLOC Product Image",
+        "alt_text": "HT-BLOC Welded Plate Heat Exchanger",
         "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_1.png"
+      },
+      {
+        "alt_text": "HT-BLOC Welded Plate Heat Exchanger Internal Structure",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_2.png"
+      },
+      {
+        "alt_text": "HT-BLOC Welded Plate Heat Exchanger Installation",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_3.jpg"
       }
     ],
     "url": "shanghai-heat-transfer-equipment-co-ltd/ht-bloc-welded-plate-heat-exchanger"
