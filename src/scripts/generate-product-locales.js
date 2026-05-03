@@ -117,6 +117,7 @@ function processData() {
         industries: localizedProd.industries ? localizedProd.industries.map(ind => ind.name || ind) : [],
         advantage: localizedProd.advantage, // it's advantage in the array
         technical_parameters: localizedProd.technical_parameters,
+        video_link: localizedProd.video_link,
         seo_data: localizedProd.seo_data,
         manufacturer: {
           slug: mfgSlug

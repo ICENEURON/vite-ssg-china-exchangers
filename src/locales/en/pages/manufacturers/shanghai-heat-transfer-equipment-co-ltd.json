@@ -17,6 +17,19 @@
   ],
   "slug": "shanghai-heat-transfer-equipment-co-ltd",
   "website": "https://www.shphe-en.com/",
+  "video_link": "https://youtu.be/Ne39IAdzFYw",
+  "social_media_links": [
+    {
+      "url": "https://www.linkedin.com/company/shanghai-heat-transfer-equipment-co-ltd",
+      "platform": "linkedin",
+      "is_visible": true
+    },
+    {
+      "url": "https://www.youtube.com/@shanghaiheattransfer2626",
+      "platform": "youtube",
+      "is_visible": true
+    }
+  ],
   "email": [
     "info@shphe.com"
   ],
@@ -154,7 +167,7 @@
       "slug": "ht-bloc-welded-plate-heat-exchanger",
       "name": "HT-BLOC Welded Plate Heat Exchanger",
       "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_1.png",
-      "short_description": "Compact welded bloc exchanger for high-pressure industrial duty.",
+      "short_description": "Compact welded bloc exchanger for high-pressure industrial duty",
       "url": "shanghai-heat-transfer-equipment-co-ltd/ht-bloc-welded-plate-heat-exchanger"
     },
     {

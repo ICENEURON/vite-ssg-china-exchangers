@@ -107,6 +107,19 @@
       "meta_description": "Verified heat exchanger manufacturer in Shanghai, China, with plate heat exchanger and welded heat exchanger capabilities."
     },
     "created_at": "2026-03-13T13:34:27.03+00:00",
-    "updated_at": "2026-05-03T13:58:10.686+00:00"
+    "updated_at": "2026-05-03T14:31:57.367+00:00",
+    "video_link": "https://youtu.be/Ne39IAdzFYw",
+    "social_media_links": [
+      {
+        "url": "https://www.linkedin.com/company/shanghai-heat-transfer-equipment-co-ltd",
+        "platform": "linkedin",
+        "is_visible": true
+      },
+      {
+        "url": "https://www.youtube.com/@shanghaiheattransfer2626",
+        "platform": "youtube",
+        "is_visible": true
+      }
+    ]
   }
 ]

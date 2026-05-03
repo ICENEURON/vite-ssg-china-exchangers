@@ -46,6 +46,19 @@
                 ]
             },
             "website": "https://www.shphe-en.com/",
+            "video_link": "https://youtu.be/Ne39IAdzFYw",
+            "social_media_links": [
+              {
+                "url": "https://www.linkedin.com/company/shanghai-heat-transfer-equipment-co-ltd",
+                "platform": "linkedin",
+                "is_visible": true
+              },
+              {
+                "url": "https://www.youtube.com/@shanghaiheattransfer2626",
+                "platform": "youtube",
+                "is_visible": true
+              }
+            ],
             "email": [
                 "info@shphe.com"
             ],
@@ -109,25 +122,139 @@
             }
         },
         "company_assets": [
-            { "order": 1, "asset_type": "certificate", "folder": "company_certifications", "file_name": "abs.jpg", "alt_text": "ABS Certificate" },
-            { "order": 2, "asset_type": "certificate", "folder": "company_certifications", "file_name": "asme_u_certificate.jpg", "alt_text": "ASME U Certificate" },
-            { "order": 3, "asset_type": "certificate", "folder": "company_certifications", "file_name": "ce.jpg", "alt_text": "CE Certificate" },
-            { "order": 4, "asset_type": "certificate", "folder": "company_certifications", "file_name": "iso_14001.jpg", "alt_text": "ISO 14001 Certificate" },
-            { "order": 5, "asset_type": "certificate", "folder": "company_certifications", "file_name": "iso_45001.jpg", "alt_text": "ISO 45001 Certificate" },
-            { "order": 6, "asset_type": "certificate", "folder": "company_certifications", "file_name": "iso_9001.jpg", "alt_text": "ISO 9001 Certificate" },
-            { "order": 7, "asset_type": "certificate", "folder": "company_certifications", "file_name": "nb_u_certificate.jpg", "alt_text": "NB U Certificate" },
-            { "order": 8, "asset_type": "certificate", "folder": "company_certifications", "file_name": "ohsas_18001.jpg", "alt_text": "OHSAS 18001 Certificate" },
-            { "order": 1, "asset_type": "logo", "folder": "company_customers", "file_name": "bp.png", "alt_text": "BP Customer Logo" },
-            { "order": 2, "asset_type": "logo", "folder": "company_customers", "file_name": "gazprom.png", "alt_text": "Gazprom Customer Logo" },
-            { "order": 3, "asset_type": "logo", "folder": "company_customers", "file_name": "riotinto.png", "alt_text": "Rio Tinto Customer Logo" },
-            { "order": 4, "asset_type": "logo", "folder": "company_customers", "file_name": "siemens.png", "alt_text": "Siemens Customer Logo" },
-            { "order": 5, "asset_type": "logo", "folder": "company_customers", "file_name": "sulzer.png", "alt_text": "Sulzer Customer Logo" },
-            { "order": 6, "asset_type": "logo", "folder": "company_customers", "file_name": "vimetco.png", "alt_text": "Vimetco Customer Logo" },
-            { "order": 1, "asset_type": "media", "folder": "company_images", "file_name": "company.jpg", "alt_text": "Shanghai Heat Transfer Equipment Factory View 1" },
-            { "order": 2, "asset_type": "media", "folder": "company_images", "file_name": "company_2.jpg", "alt_text": "Shanghai Heat Transfer Equipment Factory View 2" },
-            { "order": 3, "asset_type": "media", "folder": "company_images", "file_name": "company_3.jpg", "alt_text": "Shanghai Heat Transfer Equipment Factory View 3" },
-            { "order": 4, "asset_type": "media", "folder": "company_images", "file_name": "company_4.jpg", "alt_text": "Shanghai Heat Transfer Equipment Factory View 4" },
-            { "order": 5, "asset_type": "media", "folder": "company_images", "file_name": "company_5.jpg", "alt_text": "Shanghai Heat Transfer Equipment Factory View 5" }
+            {
+                "order": 1,
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "abs.jpg",
+                "alt_text": "ABS Certificate"
+            },
+            {
+                "order": 2,
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "asme_u_certificate.jpg",
+                "alt_text": "ASME U Certificate"
+            },
+            {
+                "order": 3,
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "ce.jpg",
+                "alt_text": "CE Certificate"
+            },
+            {
+                "order": 4,
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "iso_14001.jpg",
+                "alt_text": "ISO 14001 Certificate"
+            },
+            {
+                "order": 5,
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "iso_45001.jpg",
+                "alt_text": "ISO 45001 Certificate"
+            },
+            {
+                "order": 6,
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "iso_9001.jpg",
+                "alt_text": "ISO 9001 Certificate"
+            },
+            {
+                "order": 7,
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "nb_u_certificate.jpg",
+                "alt_text": "NB U Certificate"
+            },
+            {
+                "order": 8,
+                "asset_type": "certificate",
+                "folder": "company_certifications",
+                "file_name": "ohsas_18001.jpg",
+                "alt_text": "OHSAS 18001 Certificate"
+            },
+            {
+                "order": 1,
+                "asset_type": "logo",
+                "folder": "company_customers",
+                "file_name": "bp.png",
+                "alt_text": "BP Customer Logo"
+            },
+            {
+                "order": 2,
+                "asset_type": "logo",
+                "folder": "company_customers",
+                "file_name": "gazprom.png",
+                "alt_text": "Gazprom Customer Logo"
+            },
+            {
+                "order": 3,
+                "asset_type": "logo",
+                "folder": "company_customers",
+                "file_name": "riotinto.png",
+                "alt_text": "Rio Tinto Customer Logo"
+            },
+            {
+                "order": 4,
+                "asset_type": "logo",
+                "folder": "company_customers",
+                "file_name": "siemens.png",
+                "alt_text": "Siemens Customer Logo"
+            },
+            {
+                "order": 5,
+                "asset_type": "logo",
+                "folder": "company_customers",
+                "file_name": "sulzer.png",
+                "alt_text": "Sulzer Customer Logo"
+            },
+            {
+                "order": 6,
+                "asset_type": "logo",
+                "folder": "company_customers",
+                "file_name": "vimetco.png",
+                "alt_text": "Vimetco Customer Logo"
+            },
+            {
+                "order": 1,
+                "asset_type": "media",
+                "folder": "company_images",
+                "file_name": "company.jpg",
+                "alt_text": "Shanghai Heat Transfer Equipment Factory View 1"
+            },
+            {
+                "order": 2,
+                "asset_type": "media",
+                "folder": "company_images",
+                "file_name": "company_2.jpg",
+                "alt_text": "Shanghai Heat Transfer Equipment Factory View 2"
+            },
+            {
+                "order": 3,
+                "asset_type": "media",
+                "folder": "company_images",
+                "file_name": "company_3.jpg",
+                "alt_text": "Shanghai Heat Transfer Equipment Factory View 3"
+            },
+            {
+                "order": 4,
+                "asset_type": "media",
+                "folder": "company_images",
+                "file_name": "company_4.jpg",
+                "alt_text": "Shanghai Heat Transfer Equipment Factory View 4"
+            },
+            {
+                "order": 5,
+                "asset_type": "media",
+                "folder": "company_images",
+                "file_name": "company_5.jpg",
+                "alt_text": "Shanghai Heat Transfer Equipment Factory View 5"
+            }
         ],
         "products": [
             {
@@ -140,29 +267,53 @@
                         "zh": "HT-BLOC 焊接板式换热器"
                     },
                     "short_description": {
-                        "en": "Compact welded bloc exchanger for high-pressure industrial duty.",
-                        "zh": "适用于高压工业工况的紧凑型焊接块式换热器。"
+                        "en": "Compact welded bloc exchanger for high-pressure industrial duty",
+                        "zh": "适用于高压工业工况的紧凑型焊接块式换热器"
                     },
                     "full_description": {
-                        "en": "HT-BLOC is designed for high efficiency and stability in harsh conditions, with wide-gap options and robust sealing structure.",
-                        "zh": "HT-BLOC 通过加强结构与可选宽流道版型，在苛刻工况下兼具高效率与稳定性。"
+                        "en": "Fully welded plate heat exchangers assembled in a removable frame, offering high heat transfer efficiency, compact structure, and ease of maintenance. Ideal for high-temperature and high-pressure applications in the petroleum, chemical, power generation, pharmaceutical, metallurgical, and refrigeration industries.",
+                        "zh": "全新设计的焊接板式热交换器，板束板片间采用对接焊结构，全焊接的板束组装在可拆卸框架内，既保持了传统板式热交换器传热效率高、结构紧凑、方便清洗检修的优点，又可以在更高的温度和压力下使用，在石油、化工、电力、制药、冶金、制冷等行业正得到越来越广泛的应用。"
                     },
-                    "industries": ["6", "7", "8"],
+                    "industries": [
+                        "2",
+                        "6"
+                    ],
                     "advantage": {
-                        "en": ["High pressure resistance", "Wide-gap channel option", "Compact footprint"],
-                        "zh": ["高耐压", "宽流道可选", "占地紧凑"]
+                        "en": [
+                            "High pressure resistance",
+                            "Wide-gap channel option",
+                            "Compact footprint"
+                        ],
+                        "zh": [
+                            "高耐压",
+                            "宽流道可选",
+                            "占地紧凑"
+                        ]
                     },
                     "technical_parameters": {
                         "Design Pressure": "up to 5.2 MPa",
                         "Heat Transfer Area": "up to ~1000 m²"
                     },
+                    "video_link": "https://www.youtube.com/watch?v=j61c5dnKP78",
                     "seo_data": {
-                        "en": { "meta_title": "HT-BLOC Welded Plate Heat Exchanger", "meta_description": "Compact welded bloc exchanger for high-pressure industrial duty." },
-                        "zh": { "meta_title": "HT-BLOC 焊接板式换热器", "meta_description": "适用于高压工业工况的紧凑型焊接块式换热器。" }
+                        "en": {
+                            "meta_title": "HT-BLOC Welded Plate Heat Exchanger",
+                            "meta_description": "Compact welded bloc exchanger for high-pressure industrial duty."
+                        },
+                        "zh": {
+                            "meta_title": "HT-BLOC 焊接板式换热器",
+                            "meta_description": "适用于高压工业工况的紧凑型焊接块式换热器。"
+                        }
                     }
                 },
                 "product_assets": [
-                    { "order": 1, "asset_type": "gallery_image", "folder": "product_images", "file_name": "ht_bloc_1.png", "alt_text": "HT-BLOC Product Image" }
+                    {
+                        "order": 1,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "ht_bloc_1.png",
+                        "alt_text": "HT-BLOC Product Image"
+                    }
                 ]
             },
             {
@@ -182,10 +333,22 @@
                         "en": "In industrial processes, specialized heat exchange solutions are required for handling challenging fluids such as particle-laden fluids, viscous fluids, and fiber-containing fluids. TP Welded Plate Heat Exchanger is an ideal heat exchange solution for these applications.",
                         "zh": "在工业过程中，针对含颗粒介质、粘性介质和含纤维介质等复杂流体，需要专门的换热解决方案。TP 焊接板式换热器正是适用于此类应用的理想换热方案。"
                     },
-                    "industries": ["6", "7", "8"],
+                    "industries": [
+                        "6",
+                        "7",
+                        "8"
+                    ],
                     "advantage": {
-                        "en": ["Designed for challenging fluids", "Helps reduce blockage and leakage risk", "Supports customized material and channel design"],
-                        "zh": ["针对复杂介质设计", "有助于降低堵塞和泄漏风险", "支持材料和流道定制优化"]
+                        "en": [
+                            "Designed for challenging fluids",
+                            "Helps reduce blockage and leakage risk",
+                            "Supports customized material and channel design"
+                        ],
+                        "zh": [
+                            "针对复杂介质设计",
+                            "有助于降低堵塞和泄漏风险",
+                            "支持材料和流道定制优化"
+                        ]
                     },
                     "technical_parameters": {
                         "Area": "6.6 ~ 870㎡",
@@ -195,18 +358,66 @@
                         "Design Temperature": "-196℃ ~ 450℃"
                     },
                     "seo_data": {
-                        "en": { "meta_title": "TP Welded Plate Heat Exchanger Manufacturer", "meta_description": "TP welded plate heat exchanger for slurry, viscous, and fiber-containing media with customized design for reliable industrial operation." },
-                        "zh": { "meta_title": "TP 焊接板式换热器制造商", "meta_description": "TP 焊接板式换热器适用于浆料、高粘度和含纤维介质，可通过定制化设计提升工业运行可靠性。" }
+                        "en": {
+                            "meta_title": "TP Welded Plate Heat Exchanger Manufacturer",
+                            "meta_description": "TP welded plate heat exchanger for slurry, viscous, and fiber-containing media with customized design for reliable industrial operation."
+                        },
+                        "zh": {
+                            "meta_title": "TP 焊接板式换热器制造商",
+                            "meta_description": "TP 焊接板式换热器适用于浆料、高粘度和含纤维介质，可通过定制化设计提升工业运行可靠性。"
+                        }
                     }
                 },
                 "product_assets": [
-                    { "order": 1, "asset_type": "gallery_image", "folder": "product_images", "file_name": "tp_welded_1.jpg", "alt_text": "TP Welded Plate Heat Exchanger" },
-                    { "order": 2, "asset_type": "gallery_image", "folder": "product_images", "file_name": "tp_welded_2.jpg", "alt_text": "TP Welded Plate Heat Exchanger Variant" },
-                    { "order": 1, "asset_type": "certificate", "folder": "product_certifications", "file_name": "asme.png", "alt_text": "ASME Certificate" },
-                    { "order": 2, "asset_type": "certificate", "folder": "product_certifications", "file_name": "bv.png", "alt_text": "BV Certificate" },
-                    { "order": 3, "asset_type": "certificate", "folder": "product_certifications", "file_name": "ce.png", "alt_text": "CE Certificate" },
-                    { "order": 4, "asset_type": "certificate", "folder": "product_certifications", "file_name": "nbbi.png", "alt_text": "NBBI Certificate" },
-                    { "order": 5, "asset_type": "certificate", "folder": "product_certifications", "file_name": "sgs.png", "alt_text": "SGS Certificate" }
+                    {
+                        "order": 1,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "tp_welded_1.jpg",
+                        "alt_text": "TP Welded Plate Heat Exchanger"
+                    },
+                    {
+                        "order": 2,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "tp_welded_2.jpg",
+                        "alt_text": "TP Welded Plate Heat Exchanger Variant"
+                    },
+                    {
+                        "order": 1,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "asme.png",
+                        "alt_text": "ASME Certificate"
+                    },
+                    {
+                        "order": 2,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "bv.png",
+                        "alt_text": "BV Certificate"
+                    },
+                    {
+                        "order": 3,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "ce.png",
+                        "alt_text": "CE Certificate"
+                    },
+                    {
+                        "order": 4,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "nbbi.png",
+                        "alt_text": "NBBI Certificate"
+                    },
+                    {
+                        "order": 5,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "sgs.png",
+                        "alt_text": "SGS Certificate"
+                    }
                 ]
             },
             {
@@ -226,23 +437,54 @@
                         "en": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
                         "zh": "可选不锈钢/钛材等多种材料，并支持多样接口形式。"
                     },
-                    "industries": ["3", "1", "5", "8"],
+                    "industries": [
+                        "3",
+                        "1",
+                        "5",
+                        "8"
+                    ],
                     "advantage": {
-                        "en": ["Easy maintenance", "Material flexibility", "Wide range of sizes"],
-                        "zh": ["易维护", "材料选择灵活", "覆盖规格广"]
+                        "en": [
+                            "Easy maintenance",
+                            "Material flexibility",
+                            "Wide range of sizes"
+                        ],
+                        "zh": [
+                            "易维护",
+                            "材料选择灵活",
+                            "覆盖规格广"
+                        ]
                     },
                     "technical_parameters": {
                         "Nozzles": "flanged or studded",
                         "Materials": "SS304/316, Titanium options"
                     },
                     "seo_data": {
-                        "en": { "meta_title": "Plate Heat Exchanger (Gasketed)", "meta_description": "Gasketed PHE for marine/HVAC with multiple materials and nozzles." },
-                        "zh": { "meta_title": "板式换热器（胶垫式）", "meta_description": "适用于船舶与 HVAC 的胶垫式板式换热器，支持多种材料与接口。" }
+                        "en": {
+                            "meta_title": "Plate Heat Exchanger (Gasketed)",
+                            "meta_description": "Gasketed PHE for marine/HVAC with multiple materials and nozzles."
+                        },
+                        "zh": {
+                            "meta_title": "板式换热器（胶垫式）",
+                            "meta_description": "适用于船舶与 HVAC 的胶垫式板式换热器，支持多种材料与接口。"
+                        }
                     }
                 },
                 "product_assets": [
-                    { "order": 1, "asset_type": "gallery_image", "folder": "product_images", "file_name": "plate_hex_1.jpg", "alt_text": "Plate Heat Exchanger Image" },
-                    { "order": 2, "asset_type": "gallery_image", "folder": "product_images", "file_name": "plate_hex_2.jpg", "alt_text": "Plate Heat Exchanger Variant" }
+                    {
+                        "order": 1,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "plate_hex_1.jpg",
+                        "alt_text": "Plate Heat Exchanger Image"
+                    },
+                    {
+                        "order": 2,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "plate_hex_2.jpg",
+                        "alt_text": "Plate Heat Exchanger Variant"
+                    }
                 ]
             }
         ]

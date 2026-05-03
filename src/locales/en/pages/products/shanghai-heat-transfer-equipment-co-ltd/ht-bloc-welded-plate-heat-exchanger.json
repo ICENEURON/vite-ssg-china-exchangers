@@ -1,11 +1,10 @@
 {
   "slug": "ht-bloc-welded-plate-heat-exchanger",
   "name": "HT-BLOC Welded Plate Heat Exchanger",
-  "full_description": "HT-BLOC is designed for high efficiency and stability in harsh conditions, with wide-gap options and robust sealing structure.",
+  "full_description": "Fully welded plate heat exchangers assembled in a removable frame, offering high heat transfer efficiency, compact structure, and ease of maintenance. Ideal for high-temperature and high-pressure applications in the petroleum, chemical, power generation, pharmaceutical, metallurgical, and refrigeration industries.",
   "industries": [
-    "Chemical Processing",
-    "Food and Beverage",
-    "Pharmaceuticals"
+    "Petrochemical",
+    "Chemical Processing"
   ],
   "advantage": [
     "High pressure resistance",
@@ -16,6 +15,7 @@
     "Design Pressure": "up to 5.2 MPa",
     "Heat Transfer Area": "up to ~1000 m²"
   },
+  "video_link": "https://www.youtube.com/watch?v=j61c5dnKP78",
   "seo_data": {
     "meta_title": "HT-BLOC Welded Plate Heat Exchanger",
     "meta_description": "Compact welded bloc exchanger for high-pressure industrial duty."

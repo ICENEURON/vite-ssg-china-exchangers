@@ -1,11 +1,10 @@
 {
   "slug": "ht-bloc-welded-plate-heat-exchanger",
   "name": "HT-BLOC 焊接板式换热器",
-  "full_description": "HT-BLOC 通过加强结构与可选宽流道版型，在苛刻工况下兼具高效率与稳定性。",
+  "full_description": "全新设计的焊接板式热交换器，板束板片间采用对接焊结构，全焊接的板束组装在可拆卸框架内，既保持了传统板式热交换器传热效率高、结构紧凑、方便清洗检修的优点，又可以在更高的温度和压力下使用，在石油、化工、电力、制药、冶金、制冷等行业正得到越来越广泛的应用。",
   "industries": [
-    "化工",
-    "食品与饮料",
-    "制药"
+    "石油化工",
+    "化工"
   ],
   "advantage": [
     "高耐压",
@@ -16,6 +15,7 @@
     "Design Pressure": "up to 5.2 MPa",
     "Heat Transfer Area": "up to ~1000 m²"
   },
+  "video_link": "https://www.youtube.com/watch?v=j61c5dnKP78",
   "seo_data": {
     "meta_title": "HT-BLOC 焊接板式换热器",
     "meta_description": "适用于高压工业工况的紧凑型焊接块式换热器。"

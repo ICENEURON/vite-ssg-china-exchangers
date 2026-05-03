@@ -1,57 +1,5 @@
 [
   {
-    "id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
-    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "slug": "ht-bloc-welded-plate-heat-exchanger",
-    "is_visible": true,
-    "name": {
-      "en": "HT-BLOC Welded Plate Heat Exchanger",
-      "zh": "HT-BLOC 焊接板式换热器"
-    },
-    "short_description": {
-      "en": "Compact welded bloc exchanger for high-pressure industrial duty.",
-      "zh": "适用于高压工业工况的紧凑型焊接块式换热器。"
-    },
-    "full_description": {
-      "en": "HT-BLOC is designed for high efficiency and stability in harsh conditions, with wide-gap options and robust sealing structure.",
-      "zh": "HT-BLOC 通过加强结构与可选宽流道版型，在苛刻工况下兼具高效率与稳定性。"
-    },
-    "industries": [
-      "6",
-      "7",
-      "8"
-    ],
-    "advantage": {
-      "en": [
-        "High pressure resistance",
-        "Wide-gap channel option",
-        "Compact footprint"
-      ],
-      "zh": [
-        "高耐压",
-        "宽流道可选",
-        "占地紧凑"
-      ]
-    },
-    "technical_parameters": {
-      "Design Pressure": "up to 5.2 MPa",
-      "Heat Transfer Area": "up to ~1000 m²"
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "HT-BLOC Welded Plate Heat Exchanger",
-        "meta_description": "Compact welded bloc exchanger for high-pressure industrial duty."
-      },
-      "zh": {
-        "meta_title": "HT-BLOC 焊接板式换热器",
-        "meta_description": "适用于高压工业工况的紧凑型焊接块式换热器。"
-      }
-    },
-    "created_at": "2026-03-13T13:34:30.212+00:00",
-    "updated_at": "2026-05-03T13:58:30.014+00:00",
-    "order": 1
-  },
-  {
     "id": "600574fd-9a09-4806-b895-cf1acaea7318",
     "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
     "slug": "plate-heat-exchanger",
@@ -101,8 +49,9 @@
       }
     },
     "created_at": "2026-03-13T13:34:30.955+00:00",
-    "updated_at": "2026-05-03T13:58:34.955+00:00",
-    "order": 3
+    "updated_at": "2026-05-03T14:32:18.942+00:00",
+    "order": 3,
+    "video_link": null
   },
   {
     "id": "1434fda8-8ce7-4339-b7d6-c3f55cdcdc53",
@@ -156,7 +105,60 @@
       }
     },
     "created_at": "2026-03-26T01:54:48.021+00:00",
-    "updated_at": "2026-05-03T13:58:30.865+00:00",
-    "order": 2
+    "updated_at": "2026-05-03T14:32:15.375+00:00",
+    "order": 2,
+    "video_link": null
+  },
+  {
+    "id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "slug": "ht-bloc-welded-plate-heat-exchanger",
+    "is_visible": true,
+    "name": {
+      "en": "HT-BLOC Welded Plate Heat Exchanger",
+      "zh": "HT-BLOC 焊接板式换热器"
+    },
+    "short_description": {
+      "en": "Compact welded bloc exchanger for high-pressure industrial duty",
+      "zh": "适用于高压工业工况的紧凑型焊接块式换热器"
+    },
+    "full_description": {
+      "en": "Fully welded plate heat exchangers assembled in a removable frame, offering high heat transfer efficiency, compact structure, and ease of maintenance. Ideal for high-temperature and high-pressure applications in the petroleum, chemical, power generation, pharmaceutical, metallurgical, and refrigeration industries.",
+      "zh": "全新设计的焊接板式热交换器，板束板片间采用对接焊结构，全焊接的板束组装在可拆卸框架内，既保持了传统板式热交换器传热效率高、结构紧凑、方便清洗检修的优点，又可以在更高的温度和压力下使用，在石油、化工、电力、制药、冶金、制冷等行业正得到越来越广泛的应用。"
+    },
+    "industries": [
+      "2",
+      "6"
+    ],
+    "advantage": {
+      "en": [
+        "High pressure resistance",
+        "Wide-gap channel option",
+        "Compact footprint"
+      ],
+      "zh": [
+        "高耐压",
+        "宽流道可选",
+        "占地紧凑"
+      ]
+    },
+    "technical_parameters": {
+      "Design Pressure": "up to 5.2 MPa",
+      "Heat Transfer Area": "up to ~1000 m²"
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "HT-BLOC Welded Plate Heat Exchanger",
+        "meta_description": "Compact welded bloc exchanger for high-pressure industrial duty."
+      },
+      "zh": {
+        "meta_title": "HT-BLOC 焊接板式换热器",
+        "meta_description": "适用于高压工业工况的紧凑型焊接块式换热器。"
+      }
+    },
+    "created_at": "2026-03-13T13:34:30.212+00:00",
+    "updated_at": "2026-05-03T14:32:14.804+00:00",
+    "order": 1,
+    "video_link": "https://www.youtube.com/watch?v=j61c5dnKP78"
   }
 ]

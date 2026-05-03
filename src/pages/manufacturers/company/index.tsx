@@ -2,7 +2,7 @@
 import { Head } from 'vite-react-ssg'
 import { Link, useParams, Navigate } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
-import { BadgeCheck, Factory, ArrowRight, ArrowLeft, Star, MapPin, CheckCircle2, ShieldCheck, Award, Users, Globe2, Sparkles, Zap, Flame, Gauge, Mail, Phone } from "lucide-react"
+import { BadgeCheck, Factory, ArrowRight, ArrowLeft, Star, MapPin, CheckCircle2, ShieldCheck, Award, Users, Globe2, Sparkles, Zap, Flame, Gauge, Mail, Phone, Linkedin, Youtube, Play, ExternalLink } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
 import { useTranslation } from 'react-i18next'
@@ -19,6 +19,12 @@ interface ManufacturerProductCategory {
     name?: string;
 }
 
+interface SocialMediaLink {
+    url: string;
+    platform: string;
+    is_visible?: boolean;
+}
+
 interface ManufacturerData {
     name: string;
     city?: string;
@@ -33,6 +39,8 @@ interface ManufacturerData {
     product_categories?: string[];
     products?: Product[];
     website?: string;
+    video_link?: string;
+    social_media_links?: SocialMediaLink[];
     email?: string[];
     phone?: string[];
     export_markets?: string[];
@@ -113,6 +121,31 @@ export default function ManufacturerProfilePage() {
     const customers = mfgData.customers || [];
     const certificates = mfgData.certifications || [];
     const galleryImages = mfgData.images || [];
+    const videoLink = mfgData.video_link;
+    const socialMediaLinks = (mfgData.social_media_links || []).filter(l => l.is_visible !== false);
+
+    // Convert YouTube URL to embeddable format
+    function getYoutubeEmbedUrl(url: string): string | null {
+        try {
+            const u = new URL(url);
+            if (u.hostname === 'youtu.be') return `https://www.youtube.com/embed/${u.pathname.slice(1)}`;
+            if (u.hostname.includes('youtube.com') && u.searchParams.get('v')) return `https://www.youtube.com/embed/${u.searchParams.get('v')}`;
+        } catch { /* ignore */ }
+        return null;
+    }
+
+    const videoEmbedUrl = videoLink ? getYoutubeEmbedUrl(videoLink) : null;
+
+    // Build gallery items: video first (if exists), then images
+    const gallerySlides = [
+        ...(videoEmbedUrl ? [{ type: 'video' as const, src: videoEmbedUrl, alt: `${basicInfo?.name} Video` }] : []),
+        ...galleryImages.map(img => ({ type: 'image' as const, src: img.url, alt: img.alt_text || basicInfo?.name || 'Factory image' }))
+    ];
+
+    const socialIcons: Record<string, typeof Linkedin> = {
+        linkedin: Linkedin,
+        youtube: Youtube,
+    };
 
     const siteUrl = import.meta.env.VITE_SITE_URL || 'http://localhost';
     const currentUrl = `${siteUrl}/manufacturers/${slug}`;
@@ -228,7 +261,7 @@ export default function ManufacturerProfilePage() {
                     {/* 1. OVERVIEW & ADVANTAGES (Combined Flow) */}
                     <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 mb-20">
                         <div className="lg:col-span-8 space-y-8">
-                            {galleryImages.length > 0 && (
+                            {gallerySlides.length > 0 && (
                                 <div className="w-full">
                                     <div className="mb-4 flex items-center gap-3">
                                         <div className="rounded-2xl bg-indigo-100 p-3 text-indigo-600 dark:bg-indigo-900/30 dark:text-indigo-300">
@@ -242,7 +275,7 @@ export default function ManufacturerProfilePage() {
                                     </div>
 
                                     <ImageCarouselGallery
-                                        images={galleryImages.map((image) => ({ src: image.url, alt: image.alt_text || basicInfo?.name }))}
+                                        images={gallerySlides}
                                         altFallback={basicInfo?.name || 'Factory image'}
                                         className="w-full"
                                         aspectClassName="aspect-[16/9]"
@@ -358,6 +391,32 @@ export default function ManufacturerProfilePage() {
                                                 <a href={`tel:${phone[0]}`} className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors font-medium">{phone[0]}</a>
                                             </div>
                                         )}
+                                    </div>
+                                </div>
+                            )}
+
+                            {/* Social Media Links */}
+                            {socialMediaLinks.length > 0 && (
+                                <div className="bg-white dark:bg-zinc-900 p-6 rounded-3xl border border-slate-100 dark:border-zinc-800 shadow-sm h-fit">
+                                    <h3 className="font-bold mb-4 flex items-center gap-2 text-slate-800 dark:text-white">
+                                        <Globe2 className="w-5 h-5 text-blue-500" /> {t(`${SHARED_TK}.follow_us`, { defaultValue: 'Follow Us' })}
+                                    </h3>
+                                    <div className="flex items-center gap-3">
+                                        {socialMediaLinks.map((link, i) => {
+                                            const SocialIcon = socialIcons[link.platform] || ExternalLink;
+                                            return (
+                                                <a
+                                                    key={i}
+                                                    href={link.url}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    aria-label={link.platform}
+                                                    className="p-3 rounded-xl bg-slate-50 dark:bg-zinc-800 border border-slate-200 dark:border-zinc-700 text-slate-400 hover:text-blue-600 hover:border-blue-300 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:border-blue-700 dark:hover:bg-zinc-700 hover:shadow-md transition-all"
+                                                >
+                                                    <SocialIcon className="w-5 h-5" />
+                                                </a>
+                                            );
+                                        })}
                                     </div>
                                 </div>
                             )}

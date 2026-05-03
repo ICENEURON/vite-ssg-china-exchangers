@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { ArrowLeft, ArrowRight, Expand, X } from 'lucide-react'
 
@@ -8,6 +8,7 @@ import { Button } from './button'
 export interface GalleryImageItem {
   src: string
   alt?: string
+  type?: 'image' | 'video'
 }
 
 interface LightboxProps {
@@ -52,6 +53,10 @@ function getNextZoom(currentZoom: number, deltaY: number) {
 
 function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps) {
   const [zoom, setZoom] = useState(1)
+  const [pan, setPan] = useState({ x: 0, y: 0 })
+  const [isDragging, setIsDragging] = useState(false)
+  const dragStartRef = useRef({ x: 0, y: 0 })
+  const panStartRef = useRef({ x: 0, y: 0 })
 
   useEffect(() => {
     if (!open) return undefined
@@ -84,6 +89,7 @@ function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps
   useEffect(() => {
     if (open) {
       setZoom(1)
+      setPan({ x: 0, y: 0 })
     }
   }, [index, open])
 
@@ -96,6 +102,25 @@ function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps
   }
 
   const currentImage = images[index]
+
+  const handleMouseDown = (e: React.MouseEvent) => {
+    if (zoom <= 1) return
+    e.preventDefault()
+    setIsDragging(true)
+    dragStartRef.current = { x: e.clientX, y: e.clientY }
+    panStartRef.current = { x: pan.x, y: pan.y }
+  }
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (!isDragging || zoom <= 1) return
+    const dx = e.clientX - dragStartRef.current.x
+    const dy = e.clientY - dragStartRef.current.y
+    setPan({ x: panStartRef.current.x + dx, y: panStartRef.current.y + dy })
+  }
+
+  const handleMouseUp = () => {
+    setIsDragging(false)
+  }
 
   return createPortal(
     <div className="fixed inset-0 z-[200] bg-slate-950/92 backdrop-blur-sm" role="dialog" aria-modal="true">
@@ -146,16 +171,24 @@ function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps
 
           <div
             className="relative z-10 flex h-full w-full items-center justify-center overflow-hidden"
+            style={{ cursor: zoom > 1 ? (isDragging ? 'grabbing' : 'grab') : 'zoom-out' }}
             onWheel={(event) => {
               event.preventDefault()
-              setZoom((currentZoom) => getNextZoom(currentZoom, event.deltaY))
+              const newZoom = getNextZoom(zoom, event.deltaY)
+              setZoom(newZoom)
+              if (newZoom <= 1) setPan({ x: 0, y: 0 })
             }}
+            onMouseDown={handleMouseDown}
+            onMouseMove={handleMouseMove}
+            onMouseUp={handleMouseUp}
+            onMouseLeave={handleMouseUp}
           >
             <img
               src={currentImage.src}
               alt={currentImage.alt || 'Preview image'}
-              className="max-h-full max-w-full rounded-2xl object-contain shadow-2xl transition-transform duration-150 will-change-transform"
-              style={{ transform: `scale(${zoom})`, transformOrigin: 'center center' }}
+              draggable={false}
+              className="max-h-full max-w-full rounded-2xl object-contain shadow-2xl will-change-transform select-none"
+              style={{ transform: `scale(${zoom}) translate(${pan.x / zoom}px, ${pan.y / zoom}px)`, transition: isDragging ? 'none' : 'transform 150ms' }}
             />
           </div>
         </div>
@@ -192,7 +225,7 @@ export function ImageCarouselGallery({
   panelClassName,
 }: ImageCarouselGalleryProps) {
   const galleryImages = useMemo(
-    () => images.filter((image) => Boolean(image?.src)).map((image) => ({ src: image.src, alt: image.alt || altFallback })),
+    () => images.filter((image) => Boolean(image?.src)).map((image) => ({ src: image.src, alt: image.alt || altFallback, type: image.type || 'image' })),
     [altFallback, images]
   )
   const [selectedIndex, setSelectedIndex] = useState(0)
@@ -207,26 +240,43 @@ export function ImageCarouselGallery({
   }
 
   const currentImage = galleryImages[selectedIndex]
+  const isVideo = currentImage.type === 'video'
   const hasMultiple = galleryImages.length > 1
+
+  // For lightbox, only use image items
+  const imageOnlyItems = galleryImages.filter(item => item.type !== 'video')
+  const lightboxIndex = imageOnlyItems.findIndex(item => item.src === currentImage.src)
 
   return (
     <>
       <div className={cn('space-y-4', className)}>
         <div className={cn('relative overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white shadow-sm dark:border-zinc-800 dark:bg-zinc-900', panelClassName)}>
-          <button
-            type="button"
-            className={cn('group relative block w-full overflow-hidden', aspectClassName)}
-            onClick={() => setLightboxOpen(true)}
-          >
-            <img
-              src={currentImage.src}
-              alt={currentImage.alt || altFallback}
-              className={cn('h-full w-full object-contain p-4 transition-transform duration-300 group-hover:scale-[1.02]', imageClassName)}
-            />
-            <div className="absolute right-4 top-4 rounded-full bg-slate-950/70 p-2 text-white opacity-0 transition-opacity group-hover:opacity-100">
-              <Expand className="h-3.5 w-3.5" />
+          {isVideo ? (
+            <div className={cn('relative block w-full overflow-hidden', aspectClassName)}>
+              <iframe
+                src={currentImage.src}
+                title={currentImage.alt || altFallback}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="h-full w-full border-0"
+              />
             </div>
-          </button>
+          ) : (
+            <button
+              type="button"
+              className={cn('group relative block w-full overflow-hidden', aspectClassName)}
+              onClick={() => setLightboxOpen(true)}
+            >
+              <img
+                src={currentImage.src}
+                alt={currentImage.alt || altFallback}
+                className={cn('h-full w-full object-contain p-4 transition-transform duration-300 group-hover:scale-[1.02]', imageClassName)}
+              />
+              <div className="absolute right-4 top-4 rounded-full bg-slate-950/70 p-2 text-white opacity-0 transition-opacity group-hover:opacity-100">
+                <Expand className="h-3.5 w-3.5" />
+              </div>
+            </button>
+          )}
 
           {hasMultiple && (
             <>
@@ -268,8 +318,16 @@ export function ImageCarouselGallery({
                 )}
                 onClick={() => setSelectedIndex(imageIndex)}
               >
-                <div className="h-14 w-16 overflow-hidden sm:h-16 sm:w-20">
-                  <img src={image.src} alt={image.alt || altFallback} className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                <div className="h-14 w-16 overflow-hidden sm:h-16 sm:w-20 relative">
+                  {image.type === 'video' ? (
+                    <div className="flex h-full w-full items-center justify-center bg-slate-900">
+                      <svg className="h-6 w-6 text-white" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
+                  ) : (
+                    <img src={image.src} alt={image.alt || altFallback} className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                  )}
                 </div>
               </button>
             ))}
@@ -278,11 +336,16 @@ export function ImageCarouselGallery({
       </div>
 
       <Lightbox
-        images={galleryImages}
-        index={selectedIndex}
+        images={imageOnlyItems}
+        index={Math.max(0, lightboxIndex)}
         open={lightboxOpen}
         onClose={() => setLightboxOpen(false)}
-        onIndexChange={setSelectedIndex}
+        onIndexChange={(newIndex) => {
+          // Map lightbox index back to gallery index
+          const targetSrc = imageOnlyItems[newIndex]?.src
+          const galleryIdx = galleryImages.findIndex(item => item.src === targetSrc)
+          if (galleryIdx >= 0) setSelectedIndex(galleryIdx)
+        }}
       />
     </>
   )

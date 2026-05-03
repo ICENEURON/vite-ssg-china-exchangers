@@ -98,6 +98,8 @@ function processData() {
         advantages: localizedMfg.advantages,
         slug: localizedMfg.slug,
         website: localizedMfg.website,
+        video_link: localizedMfg.video_link,
+        social_media_links: localizedMfg.social_media_links,
         email: localizedMfg.email,
         phone: localizedMfg.phone,
         country_name: localizedMfg.country_name,
