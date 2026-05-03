@@ -77,7 +77,7 @@ async function fetchAssetTable(tableName) {
 }
 
 async function main() {
-  await fetchTable('countries', 'id, name');
+  await fetchTable('countries', 'id, name, name_zh');
   await fetchTable('industries');
   await fetchTable('manufacturers');
   await fetchAssetTable('manufacturer_assets');

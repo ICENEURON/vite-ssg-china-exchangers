@@ -1,28 +1,56 @@
 {
   "name": "Shanghai Heat Transfer Equipment Co., Ltd.",
-  "full_description": "Shanghai Heat Transfer Equipment Co., Ltd. is a leading manufacturer of heat exchangers and heat transfer equipment. With over 20 years of experience...",
+  "full_description": [
+    "Shanghai Heat Transfer Equipment Co., Ltd. (SHPHE) is a technology-driven manufacturer and solution provider specializing in the design, manufacturing, installation, and service of plate heat exchangers and complete heat transfer systems. The company serves customers across oil and gas, marine, HVAC, chemical, food and pharmaceutical, power, bioenergy, metallurgy, machinery, pulp and paper, and steel industries.",
+    "SHPHE’s main products include plate and frame heat exchangers, wide-gap welded plate heat exchangers, HT-Bloc welded plate heat exchangers, TP welded plate heat exchangers, and plate air preheaters. With advanced engineering, manufacturing, welding, and testing capabilities, the company provides customized heat transfer solutions for complex industrial operating conditions.",
+    "Driven by continuous innovation, SHPHE has developed multiple high-pressure and large-scale heat exchanger products, including large plate heat exchangers for FPSO applications, 5 MPa high-pressure plate heat exchangers, 9.6 MPa internal plate heaters for strippers, and large HT-Bloc welded plate heat exchangers rated for 6.4 MPa and 410°C.",
+    "The company holds multiple certifications, including quality, environmental, and occupational health and safety management system certifications, special equipment production license for pressure vessels, plate heat exchanger safety and energy-saving registrations, and international certificates such as ASME, CCS, CE, BV, ABS, GL, and NK. SHPHE has also participated in drafting national and industry standards, and has supplied equipment and services to major domestic and international customers including CNPC, Sinopec, CNOOC, BASF, LANXESS, BP, POSCO, Rio Tinto, Petronas, and others."
+  ],
   "advantages": [
-    "Advanced Thermal Laboratory: In-house performance testing ensures real-world efficiency validation.",
-    "Specialized Welding Technology: Expertise in fully welded and wide-gap plate heat exchangers."
+    "Specialized Heat Exchanger Expertise: Focused on plate heat exchangers and complete heat transfer systems, with deep technical knowledge across demanding industrial applications.",
+    "Advanced Engineering and Manufacturing: Strong design, production, welding, and testing capabilities support customized solutions for complex operating conditions.",
+    "High-Pressure and Large-Scale Capability: Proven development experience in high-pressure and large-size heat exchangers, including 5 MPa, 6.4 MPa, and 9.6 MPa applications.",
+    "Certified Quality and Compliance: Holds management system certifications, pressure vessel production license, plate heat exchanger safety and energy-saving registrations, and international certificates including ASME, CCS, CE, BV, ABS, GL, and NK.",
+    "Standards Drafting Experience: Participated in drafting national and industry standards for heat exchanger energy efficiency testing, plate and frame heat exchangers, welded plate heat exchangers, and procurement specifications.",
+    "Global Service Network: Based in Shanghai with global sales and service coverage, supporting customers across Asia, Europe, North America, South America, and Oceania.",
+    "Trusted by Major Industrial Customers: Supplied equipment and services to leading domestic and multinational companies across oil and gas, chemical, marine, metallurgy, power, HVAC, and other sectors."
   ],
   "slug": "shanghai-heat-transfer-equipment-co-ltd",
-  "website": "https://www.shanghaiheattransfer.com",
+  "website": "https://www.shphe-en.com/",
   "email": [
-    "abc@gmail.com"
+    "info@shphe.com"
   ],
   "phone": [
     "+8613003001011"
   ],
   "country_name": "China",
   "city": "Shanghai",
-  "address": "Shanghai, China",
+  "address": "No. 99 Shanning Road, Jinshan District, Shanghai, China",
   "established_year": "2005",
   "factory_area": "20000m2",
   "employee_count": "200+",
   "export_markets": [
-    "HK",
     "CN",
-    "US"
+    "TW",
+    "RU",
+    "CA",
+    "US",
+    "NO",
+    "DE",
+    "RO",
+    "FR",
+    "GR",
+    "TR",
+    "IR",
+    "AE",
+    "IN",
+    "MY",
+    "SG",
+    "ID",
+    "AU",
+    "VE",
+    "BR",
+    "AR"
   ],
   "seo_data": {
     "meta_title": "Shanghai Heat Transfer Equipment Co., Ltd. | Heat Exchanger Manufacturer",
@@ -103,6 +131,10 @@
     {
       "alt_text": "Shanghai Heat Transfer Equipment Factory View",
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/factory_front.jpg"
+    },
+    {
+      "alt_text": "Shanghai Heat Transfer Equipment Company Building",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company.jpg"
     }
   ],
   "products": [

@@ -49,6 +49,8 @@
     "product_showcase": "Product Showcase",
     "certified_quality": "Certified Quality",
     "technical_specifications": "Technical Specifications",
+    "factory_gallery": "Factory Gallery",
+    "factory_gallery_hint": "Click the image to enlarge it.",
     "factory_certifications": "Factory Certifications",
     "trusted_customers": "Trusted by Global Leaders",
     "trusted_customers_desc": "Delivering excellence to major players across industries.",
@@ -56,6 +58,9 @@
     "partner_desc": "Get verified quality and direct-from-factory pricing.",
     "start_project": "Start Your Project Now",
     "established": "Est. {{year}}",
-    "available_categories": "Available Product Categories:"
+    "available_categories": "Available Product Categories:",
+    "export_markets": "Export Markets",
+    "contact_info": "Contact Info",
+    "certificate": "Certificate"
   }
 }

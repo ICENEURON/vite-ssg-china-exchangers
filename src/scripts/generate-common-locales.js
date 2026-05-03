@@ -19,7 +19,7 @@ const readJson = (filename) => JSON.parse(fs.readFileSync(path.join(dataDir, fil
 const countries = readJson('countries.json');
 const industries = readJson('industries.json');
 
-const langs = ['en', 'zh', 'ja'];
+const langs = ['en', 'zh'];
 
 /**
  * Localizes an industry object for a specific language.

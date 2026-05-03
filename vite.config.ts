@@ -50,7 +50,7 @@ export default defineConfig(({ mode }) => {
       }
     },
     ssgOptions: {
-      includedRoutes(paths: string[], routes: any) {
+      includedRoutes(paths: string[], _routes: any) {
         const staticRoutes = paths.filter(path => !path.includes(':'))
         const enableBlog = env.VITE_ENABLE_BLOG !== 'false';
         

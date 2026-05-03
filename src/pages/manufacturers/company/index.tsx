@@ -2,10 +2,47 @@
 import { Head } from 'vite-react-ssg'
 import { Link, useParams, Navigate } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
-import { BadgeCheck, Factory, ArrowRight, ArrowLeft, Star, MapPin, CheckCircle2, ShieldCheck, Award, Users, Globe2, Sparkles, Zap, Flame, Gauge } from "lucide-react"
+import { BadgeCheck, Factory, ArrowRight, ArrowLeft, Star, MapPin, CheckCircle2, ShieldCheck, Award, Users, Globe2, Sparkles, Zap, Flame, Gauge, Mail, Phone } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
+import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
 import { useTranslation } from 'react-i18next'
 import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-routing'
+import countriesData from '../../../data/countries.json'
+
+interface ImageAsset {
+    alt_text?: string;
+    url: string;
+}
+
+interface ManufacturerProductCategory {
+    name?: string;
+}
+
+interface ManufacturerData {
+    name: string;
+    city?: string;
+    country_name?: string;
+    address?: string;
+    established_year?: string;
+    factory_area?: string;
+    employee_count?: string;
+    full_description?: string | string[];
+    advantages?: string[];
+    industries?: string[];
+    product_categories?: string[];
+    products?: Product[];
+    website?: string;
+    email?: string[];
+    phone?: string[];
+    export_markets?: string[];
+    certifications?: ImageAsset[];
+    customers?: ImageAsset[];
+    images?: ImageAsset[];
+    seo_data?: {
+        meta_title?: string;
+        meta_description?: string;
+    };
+}
 
 interface ProductParameter {
     name: string;
@@ -36,7 +73,7 @@ export default function ManufacturerProfilePage() {
 
     // Load manufacturer data dynamically based on the slug. 
     // If it returns a string, it means the key was not found (or returnObjects failed).
-    const mfgData = t(TK, { returnObjects: true, defaultValue: null }) as any;
+    const mfgData = t(TK, { returnObjects: true, defaultValue: null }) as ManufacturerData | string | null;
 
     if (!mfgData || typeof mfgData === 'string') {
         return <Navigate to="/404" replace />;
@@ -44,15 +81,16 @@ export default function ManufacturerProfilePage() {
 
     const basicInfo = {
         name: mfgData.name,
-        location: `${mfgData.city || ''}, ${mfgData.country_name || ''}`.trim().replace(/^,\s*/, ''),
+        address: mfgData.address || `${mfgData.city || ''}, ${mfgData.country_name || ''}`.trim().replace(/^,\s*/, ''),
         established: mfgData.established_year,
         factory_area: mfgData.factory_area,
+        employee_count: mfgData.employee_count,
     };
 
     const verifiedInfo = {
         repid_hours: 24, // Optional default or mapped if exists
-        iso: Boolean(mfgData.certifications?.find((c: any) => c.alt_text?.toLowerCase().includes('iso'))) || true, // Placeholder logic
-        ASME: Boolean(mfgData.certifications?.find((c: any) => c.alt_text?.toLowerCase().includes('asme'))) || true,
+        iso: Boolean(mfgData.certifications?.find((certificate) => certificate.alt_text?.toLowerCase().includes('iso'))) || true,
+        ASME: Boolean(mfgData.certifications?.find((certificate) => certificate.alt_text?.toLowerCase().includes('asme'))) || true,
         business_license: true,
         export_experience: true,
     };
@@ -62,12 +100,16 @@ export default function ManufacturerProfilePage() {
     const industries = mfgData.industries || [];
 
     const manufacturerProductCategories = mfgData.product_categories || [];
-    const productCategoryDefinitions = t("pages.products.categories", { returnObjects: true }) as Record<string, any>;
+    const productCategoryDefinitions = t("pages.products.categories", { returnObjects: true }) as Record<string, ManufacturerProductCategory>;
 
     const products = mfgData.products || [];
     const website = mfgData.website;
+    const email = mfgData.email || [];
+    const phone = mfgData.phone || [];
+    const exportMarkets = mfgData.export_markets || [];
     const customers = mfgData.customers || [];
     const certificates = mfgData.certifications || [];
+    const galleryImages = mfgData.images || [];
 
     const siteUrl = import.meta.env.VITE_SITE_URL || 'http://localhost';
     const currentUrl = `${siteUrl}/manufacturers/${slug}`;
@@ -76,7 +118,7 @@ export default function ManufacturerProfilePage() {
         <>
             <Head>
                 <title>{mfgData.seo_data?.meta_title || `${basicInfo?.name || t(`${SHARED_TK}.page_title`)} - ${t(`${SHARED_TK}.premium_supplier`)}`}</title>
-                <meta name="description" content={mfgData.seo_data?.meta_description || description?.substring(0, 160) || t(`${SHARED_TK}.meta_description_default`)} />
+                <meta name="description" content={mfgData.seo_data?.meta_description || (Array.isArray(description) ? description.join(' ') : description)?.substring(0, 160) || t(`${SHARED_TK}.meta_description_default`)} />
                 <link rel="canonical" href={currentUrl} />
             </Head>
 
@@ -102,9 +144,9 @@ export default function ManufacturerProfilePage() {
                                 </h1>
 
                                 <div className="flex flex-wrap items-center gap-4 text-slate-300 text-sm font-medium">
-                                    {basicInfo?.location && (
+                                    {basicInfo?.address && (
                                         <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
-                                            <MapPin className="w-4 h-4 text-blue-400" /> {basicInfo.location}
+                                            <MapPin className="w-4 h-4 text-blue-400" /> {basicInfo.address}
                                         </div>
                                     )}
                                     {basicInfo?.established && (
@@ -115,6 +157,11 @@ export default function ManufacturerProfilePage() {
                                     {basicInfo?.factory_area && (
                                         <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
                                             <Globe2 className="w-4 h-4 text-purple-400" /> {basicInfo.factory_area}
+                                        </div>
+                                    )}
+                                    {basicInfo?.employee_count && (
+                                        <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
+                                            <Users className="w-4 h-4 text-orange-400" /> {basicInfo.employee_count}
                                         </div>
                                     )}
                                 </div>
@@ -178,13 +225,42 @@ export default function ManufacturerProfilePage() {
                     {/* 1. OVERVIEW & ADVANTAGES (Combined Flow) */}
                     <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 mb-20">
                         <div className="lg:col-span-8 space-y-8">
+                            {galleryImages.length > 0 && (
+                                <div className="w-full">
+                                    <div className="mb-4 flex items-center gap-3">
+                                        <div className="rounded-2xl bg-indigo-100 p-3 text-indigo-600 dark:bg-indigo-900/30 dark:text-indigo-300">
+                                            <Factory className="h-5 w-5" />
+                                        </div>
+                                        <div>
+                                            <h2 className="text-xl font-bold tracking-tight text-slate-900 dark:text-white">
+                                                {t(`${SHARED_TK}.factory_gallery`)}
+                                            </h2>
+                                        </div>
+                                    </div>
+
+                                    <ImageCarouselGallery
+                                        images={galleryImages.map((image) => ({ src: image.url, alt: image.alt_text || basicInfo?.name }))}
+                                        altFallback={basicInfo?.name || 'Factory image'}
+                                        className="w-full"
+                                        aspectClassName="aspect-[16/9]"
+                                        imageClassName="object-cover p-0"
+                                        panelClassName="bg-slate-950"
+                                    />
+                                </div>
+                            )}
+
                             {/* Description Card */}
                             <div className="bg-white dark:bg-zinc-900 p-8 rounded-3xl border border-slate-100 dark:border-zinc-800 shadow-sm">
                                 <h2 className="text-2xl font-bold mb-6 flex items-center gap-3 text-slate-800 dark:text-white">
                                     <Factory className="w-6 h-6 text-blue-600" /> {t(`${SHARED_TK}.company_overview`)}
                                 </h2>
-                                <div className="text-slate-600 dark:text-slate-300 leading-relaxed text-lg whitespace-pre-line">
-                                    {description}
+                                <div className="text-slate-600 dark:text-slate-300 leading-relaxed text-lg space-y-4">
+                                    {Array.isArray(description) 
+                                        ? description.map((paragraph, idx) => (
+                                            <p key={idx}>{paragraph}</p>
+                                          ))
+                                        : <p className="whitespace-pre-line">{description}</p>
+                                    }
                                 </div>
                             </div>
 
@@ -222,6 +298,26 @@ export default function ManufacturerProfilePage() {
                                 </div>
                             </div>
 
+                            {/* Export Markets Tag Cloud */}
+                            {exportMarkets.length > 0 && (
+                                <div className="bg-white dark:bg-zinc-900 p-6 rounded-3xl border border-slate-100 dark:border-zinc-800 shadow-sm h-fit">
+                                    <h3 className="font-bold mb-4 flex items-center gap-2 text-slate-800 dark:text-white">
+                                        <Globe2 className="w-5 h-5 text-indigo-500" /> {t(`${SHARED_TK}.export_markets`, { defaultValue: 'Export Markets' })}
+                                    </h3>
+                                    <div className="flex flex-wrap gap-2">
+                                        {exportMarkets.map((code: string, i: number) => {
+                                            const cData = countriesData.find((c: any) => c.id === code);
+                                            const cName = cData ? (currentLanguage === 'zh' && cData.name_zh ? cData.name_zh : cData.name) : code;
+                                            return (
+                                                <span key={i} className="px-3 py-1.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-100 dark:bg-indigo-900/20 dark:text-indigo-300 dark:border-indigo-900/30 text-sm font-medium">
+                                                    {cName}
+                                                </span>
+                                            );
+                                        })}
+                                    </div>
+                                </div>
+                            )}
+
                             {/* Website Link */}
                             {website && (
                                 <a
@@ -238,6 +334,29 @@ export default function ManufacturerProfilePage() {
                                         {t(`${SHARED_TK}.visit_manufacturer`)} &rarr;
                                     </div>
                                 </a>
+                            )}
+
+                            {/* Contact Information */}
+                            {(email.length > 0 || phone.length > 0) && (
+                                <div className="bg-white dark:bg-zinc-900 p-6 rounded-3xl border border-slate-100 dark:border-zinc-800 shadow-sm h-fit">
+                                    <h3 className="font-bold mb-4 flex items-center gap-2 text-slate-800 dark:text-white">
+                                        <Phone className="w-5 h-5 text-emerald-500" /> {t(`${SHARED_TK}.contact_info`, { defaultValue: 'Contact Info' })}
+                                    </h3>
+                                    <div className="space-y-3">
+                                        {email.length > 0 && (
+                                            <div className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
+                                                <Mail className="w-4 h-4 shrink-0 text-slate-400" />
+                                                <a href={`mailto:${email[0]}`} className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors font-medium break-all">{email[0]}</a>
+                                            </div>
+                                        )}
+                                        {phone.length > 0 && (
+                                            <div className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
+                                                <Phone className="w-4 h-4 shrink-0 text-slate-400" />
+                                                <a href={`tel:${phone[0]}`} className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors font-medium">{phone[0]}</a>
+                                            </div>
+                                        )}
+                                    </div>
+                                </div>
                             )}
                         </div>
                     </div>
@@ -335,7 +454,7 @@ export default function ManufacturerProfilePage() {
                         </div>
                     </div>
 
-                    {/* 3. FACTORY CERTIFICATES */}
+                    {/* 4. FACTORY CERTIFICATES */}
                     <div className="mb-20">
                         <div className="bg-white dark:bg-zinc-900 rounded-[2rem] p-8 lg:p-10 border border-slate-100 dark:border-zinc-800 shadow-sm relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/5 rounded-bl-[100px]" />
@@ -345,50 +464,47 @@ export default function ManufacturerProfilePage() {
                                 </div>
                                 {t(`${SHARED_TK}.factory_certifications`)}
                             </h3>
-                            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 relative z-10">
-                                {certificates?.map((cert: any, i: number) => (
-                                    <div key={i} className="group relative bg-slate-50 dark:bg-zinc-950 rounded-2xl p-6 flex flex-col items-center justify-center text-center hover:bg-white hover:shadow-lg border border-transparent hover:border-slate-200 transition-all duration-300">
-                                        {cert.url && (
-                                            <div className="h-24 w-full flex items-center justify-center mb-4">
-                                                <img src={cert.url} alt={cert.alt_text} className="max-h-full max-w-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300" />
-                                            </div>
-                                        )}
-                                        <span className="text-sm font-bold text-slate-500 group-hover:text-slate-800 dark:group-hover:text-slate-200 transition-colors">{cert.alt_text}</span>
-                                    </div>
-                                ))}
+                            <div className="relative z-10">
+                                <ZoomableImageGrid
+                                    images={certificates.map((cert) => ({ src: cert.url, alt: cert.alt_text }))}
+                                    altFallback={t(`${SHARED_TK}.certificate`, { defaultValue: 'Certificate' })}
+                                    imageClassName="filter grayscale transition-all duration-300 group-hover:grayscale-0"
+                                />
                             </div>
                         </div>
                     </div>
 
-                    {/* 4. TRUSTED CUSTOMERS - Replaced at text bottom */}
-                    <div className="mb-12">
-                        <div className="bg-white dark:bg-zinc-900 rounded-[2rem] p-8 lg:p-10 border border-slate-100 dark:border-zinc-800 shadow-sm relative overflow-hidden">
-                            <div className="absolute top-0 left-0 w-64 h-64 bg-amber-500/5 rounded-br-[100px]" />
+                    {/* 5. TRUSTED CUSTOMERS */}
+                    {customers.length > 0 && (
+                        <div className="mb-12">
+                            <div className="bg-white dark:bg-zinc-900 rounded-[2rem] p-8 lg:p-10 border border-slate-100 dark:border-zinc-800 shadow-sm relative overflow-hidden">
+                                <div className="absolute top-0 left-0 w-64 h-64 bg-amber-500/5 rounded-br-[100px]" />
 
-                            <div className="text-center max-w-2xl mx-auto mb-10 relative z-10">
-                                <div className="inline-flex p-3 bg-amber-100 text-amber-600 rounded-2xl mb-4">
-                                    <Users className="w-6 h-6" />
+                                <div className="text-center max-w-2xl mx-auto mb-10 relative z-10">
+                                    <div className="inline-flex p-3 bg-amber-100 text-amber-600 rounded-2xl mb-4">
+                                        <Users className="w-6 h-6" />
+                                    </div>
+                                    <h3 className="text-2xl font-bold mb-2">{t(`${SHARED_TK}.trusted_customers`)}</h3>
+                                    <p className="text-slate-500">{t(`${SHARED_TK}.trusted_customers_desc`)}</p>
                                 </div>
-                                <h3 className="text-2xl font-bold mb-2">{t(`${SHARED_TK}.trusted_customers`)}</h3>
-                                <p className="text-slate-500">{t(`${SHARED_TK}.trusted_customers_desc`)}</p>
-                            </div>
 
-                            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 relative z-10">
-                                {customers?.map((cust: any, i: number) => (
-                                    <div key={i} className="aspect-square bg-slate-50 dark:bg-zinc-950 rounded-2xl p-6 flex flex-col items-center justify-center text-center hover:bg-white hover:shadow-lg border border-transparent hover:border-amber-200 transition-all duration-300 group">
-                                        {cust?.url ? (
-                                            <img src={cust.url} alt={cust?.alt_text} className="w-full h-full object-contain opacity-60 group-hover:opacity-100 filter grayscale group-hover:grayscale-0 transition-all duration-500" />
-                                        ) : (
-                                            <div className="w-12 h-12 rounded-full bg-slate-200 flex items-center justify-center mb-2">
-                                                <span className="font-bold text-slate-500">{cust?.alt_text?.[0]}</span>
-                                            </div>
-                                        )}
-                                        <span className="mt-2 text-[10px] font-bold text-slate-400 group-hover:text-slate-600 opacity-0 group-hover:opacity-100 transition-all">{cust?.alt_text}</span>
-                                    </div>
-                                ))}
+                                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 relative z-10">
+                                    {customers.map((customer, index) => (
+                                        <div key={index} className="aspect-square bg-slate-50 dark:bg-zinc-950 rounded-2xl p-6 flex flex-col items-center justify-center text-center hover:bg-white hover:shadow-lg border border-transparent hover:border-amber-200 transition-all duration-300 group">
+                                            {customer.url ? (
+                                                <img src={customer.url} alt={customer.alt_text} className="w-full h-full object-contain opacity-60 group-hover:opacity-100 filter grayscale group-hover:grayscale-0 transition-all duration-500" />
+                                            ) : (
+                                                <div className="w-12 h-12 rounded-full bg-slate-200 flex items-center justify-center mb-2">
+                                                    <span className="font-bold text-slate-500">{customer.alt_text?.[0]}</span>
+                                                </div>
+                                            )}
+                                            <span className="mt-2 text-[10px] font-bold text-slate-400 group-hover:text-slate-600 opacity-0 group-hover:opacity-100 transition-all">{customer.alt_text}</span>
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    )}
 
                 </div>
 

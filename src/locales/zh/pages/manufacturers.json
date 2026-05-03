@@ -49,6 +49,8 @@
     "product_showcase": "產品展示",
     "certified_quality": "認證品質",
     "technical_specifications": "技術規格",
+    "factory_gallery": "工廠圖庫",
+    "factory_gallery_hint": "點擊圖片可放大查看。",
     "factory_certifications": "工廠認證",
     "trusted_customers": "全球領導者信賴",
     "trusted_customers_desc": "為各行業的主要參與者提供卓越產品。",
@@ -56,6 +58,9 @@
     "partner_desc": "獲得驗證的品質和工廠直銷價格。",
     "start_project": "立即開始您的專案",
     "established": "成立於 {{year}}",
-    "available_categories": "可用產品類別："
+    "available_categories": "可用產品類別：",
+    "export_markets": "主要出口市場",
+    "contact_info": "聯繫方式",
+    "certificate": "證書"
   }
 }

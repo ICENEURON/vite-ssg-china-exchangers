@@ -178,5 +178,17 @@
     "file_type": "jpg",
     "created_at": "2026-03-26T01:54:44.687+00:00",
     "updated_at": "2026-03-26T01:54:44.687+00:00"
+  },
+  {
+    "id": "344dc931-bb6a-44c0-9007-b56920f0c05c",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "asset_type": "media",
+    "alt_text": "Shanghai Heat Transfer Equipment Company Building",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_images/company.jpg",
+    "file_name": "company.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-03-26T04:13:31.255+00:00",
+    "updated_at": "2026-03-26T04:13:31.255+00:00"
   }
 ]

@@ -1,117 +1,9 @@
 [
   {
-    "slug": "graphite-block-heat-exchanger",
-    "manufacturer": {
-      "slug": "zhejiang-compact-heat-exchange-technology-co-ltd",
-      "name": "浙江紧凑型换热技术有限公司"
-    },
-    "name": "石墨块式换热器",
-    "short_description": "用于测试石墨块式换热器的模拟产品数据。",
-    "industries": [
-      "石油化工",
-      "化工"
-    ],
-    "images": [],
-    "url": "zhejiang-compact-heat-exchange-technology-co-ltd/graphite-block-heat-exchanger"
-  },
-  {
-    "slug": "gasketed-plate-heat-exchanger-series",
-    "manufacturer": {
-      "slug": "jiangsu-alloy-process-equipment-co-ltd",
-      "name": "江苏合金过程装备有限公司"
-    },
-    "name": "可拆式板式换热器系列",
-    "short_description": "用于测试可拆式板式换热器系列的模拟产品数据。",
-    "industries": [
-      "暖通空调",
-      "食品加工",
-      "食品与饮料"
-    ],
-    "images": [],
-    "url": "jiangsu-alloy-process-equipment-co-ltd/gasketed-plate-heat-exchanger-series"
-  },
-  {
-    "slug": "brazed-plate-cooler-unit",
-    "manufacturer": {
-      "slug": "qingdao-thermal-systems-co-ltd",
-      "name": "青岛热能系统有限公司"
-    },
-    "name": "钎焊板式冷却器单元",
-    "short_description": "用于测试钎焊板式冷却器单元的模拟产品数据。",
-    "industries": [
-      "船舶/海工",
-      "能源",
-      "发电/电力"
-    ],
-    "images": [],
-    "url": "qingdao-thermal-systems-co-ltd/brazed-plate-cooler-unit"
-  },
-  {
-    "slug": "alloy-welded-plate-condenser",
-    "manufacturer": {
-      "slug": "zhejiang-compact-heat-exchange-technology-co-ltd",
-      "name": "浙江紧凑型换热技术有限公司"
-    },
-    "name": "合金焊接板式冷凝器",
-    "short_description": "用于测试合金焊接板式冷凝器的模拟产品数据。",
-    "industries": [
-      "石油化工",
-      "化工",
-      "发电/电力"
-    ],
-    "images": [],
-    "url": "zhejiang-compact-heat-exchange-technology-co-ltd/alloy-welded-plate-condenser"
-  },
-  {
-    "slug": "sanitary-plate-pasteurizer-module",
-    "manufacturer": {
-      "slug": "jiangsu-alloy-process-equipment-co-ltd",
-      "name": "江苏合金过程装备有限公司"
-    },
-    "name": "卫生型板式巴氏杀菌模块",
-    "short_description": "用于测试卫生型板式巴氏杀菌模块的模拟产品数据。",
-    "industries": [
-      "食品加工",
-      "食品与饮料"
-    ],
-    "images": [],
-    "url": "jiangsu-alloy-process-equipment-co-ltd/sanitary-plate-pasteurizer-module"
-  },
-  {
-    "slug": "compact-exhaust-gas-economizer",
-    "manufacturer": {
-      "slug": "qingdao-thermal-systems-co-ltd",
-      "name": "青岛热能系统有限公司"
-    },
-    "name": "紧凑型烟气省煤器",
-    "short_description": "用于测试紧凑型烟气省煤器的模拟产品数据。",
-    "industries": [
-      "能源",
-      "发电/电力"
-    ],
-    "images": [],
-    "url": "qingdao-thermal-systems-co-ltd/compact-exhaust-gas-economizer"
-  },
-  {
-    "slug": "marine-central-cooler-package",
-    "manufacturer": {
-      "slug": "qingdao-thermal-systems-co-ltd",
-      "name": "青岛热能系统有限公司"
-    },
-    "name": "船用中央冷却器系统",
-    "short_description": "用于测试船用中央冷却器系统的模拟产品数据。",
-    "industries": [
-      "船舶/海工",
-      "能源"
-    ],
-    "images": [],
-    "url": "qingdao-thermal-systems-co-ltd/marine-central-cooler-package"
-  },
-  {
     "slug": "tp-fully-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "上海换热设备有限公司"
+      "name": "上海板换机械设备有限公司"
     },
     "name": "TP 全焊接板式换热器",
     "short_description": "适用于高温高压工况的 TP 全焊接/可开式结构。",
@@ -127,7 +19,7 @@
     "slug": "ht-bloc-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "上海换热设备有限公司"
+      "name": "上海板换机械设备有限公司"
     },
     "name": "HT-BLOC 焊接板式换热器",
     "short_description": "适用于高压工业工况的紧凑型焊接块式换热器。",
@@ -148,7 +40,7 @@
     "slug": "tp-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "上海换热设备有限公司"
+      "name": "上海板换机械设备有限公司"
     },
     "name": "TP 焊接板式换热器",
     "short_description": "适用于浆料、高粘度及含纤维介质的专用换热器。",
@@ -173,7 +65,7 @@
     "slug": "plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "上海换热设备有限公司"
+      "name": "上海板换机械设备有限公司"
     },
     "name": "板式换热器（胶垫式）",
     "short_description": "可选不锈钢/钛材等多种材料，并支持多样接口形式。",

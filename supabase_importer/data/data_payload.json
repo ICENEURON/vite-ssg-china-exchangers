@@ -170,6 +170,12 @@
                 "folder": "company_images",
                 "file_name": "factory_front.jpg",
                 "alt_text": "Shanghai Heat Transfer Equipment Factory View"
+            },
+            {
+                "asset_type": "media",
+                "folder": "company_images",
+                "file_name": "company.jpg",
+                "alt_text": "Shanghai Heat Transfer Equipment Company Building"
             }
         ],
         "products": [

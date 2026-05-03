@@ -1,61 +1,7 @@
 [
   {
-    "name": "青岛热能系统有限公司",
-    "short_description": "用于测试的板式换热器制造商，重点面向暖通空调和食品加工领域。",
-    "slug": "qingdao-thermal-systems-co-ltd",
-    "city": "青岛",
-    "country_name": "中国",
-    "industries": [
-      "暖通空调",
-      "食品加工",
-      "食品与饮料"
-    ]
-  },
-  {
-    "name": "江苏合金过程装备有限公司",
-    "short_description": "用于测试的耐腐蚀换热器制造商，面向化工和石化工况。",
-    "slug": "jiangsu-alloy-process-equipment-co-ltd",
-    "city": "常州",
-    "country_name": "中国",
-    "industries": [
-      "石油化工",
-      "化工",
-      "发电/电力"
-    ]
-  },
-  {
-    "name": "浙江紧凑型换热技术有限公司",
-    "short_description": "用于测试的紧凑型换热器制造商，面向船舶、能源和电力项目。",
-    "slug": "zhejiang-compact-heat-exchange-technology-co-ltd",
-    "city": "杭州",
-    "country_name": "中国",
-    "industries": [
-      "船舶/海工",
-      "能源",
-      "发电/电力"
-    ]
-  },
-  {
-    "name": "北京华艾鑫节能设备有限公司",
-    "short_description": "位于中国北京的换热器及水处理设备制造商。",
-    "slug": "beijing-huaaixin-energy-saving-equipment-co-ltd",
-    "city": "北京",
-    "country_name": "中国",
-    "industries": [
-      "暖通空调",
-      "石油化工",
-      "船舶/海工",
-      "能源",
-      "食品加工",
-      "化工",
-      "食品与饮料",
-      "制药",
-      "发电/电力"
-    ]
-  },
-  {
-    "name": "上海换热设备有限公司",
-    "short_description": "位于中国上海的工业换热设备制造商。",
+    "name": "上海板换机械设备有限公司",
+    "short_description": "专注于板式热交换器和定制传热系统的工业换热设备制造商。",
     "slug": "shanghai-heat-transfer-equipment-co-ltd",
     "city": "上海",
     "country_name": "中国",

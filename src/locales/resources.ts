@@ -1,6 +1,5 @@
 import en from './en';
 import zh from './zh';
-import ja from './ja';
 
 export const resources = {
   en: {
@@ -8,9 +7,6 @@ export const resources = {
   },
   zh: {
     translation: zh,
-  },
-  ja: {
-    translation: ja,
   },
 } as const;
 

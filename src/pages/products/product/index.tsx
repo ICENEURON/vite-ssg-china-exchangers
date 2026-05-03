@@ -3,8 +3,30 @@ import { Link, useParams, Navigate } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
 import { CheckCircle2, Settings, Shield, Factory, ArrowLeft } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
+import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
 import { useTranslation } from 'react-i18next'
 import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-routing'
+
+interface ProductImageAsset {
+    alt_text?: string;
+    url: string;
+}
+
+interface ProductData {
+    name: string;
+    full_description?: string;
+    short_description?: string;
+    advantage?: string[];
+    advantages?: string[];
+    industries?: string[];
+    images?: ProductImageAsset[];
+    certificates?: ProductImageAsset[];
+    technical_parameters?: Record<string, string>;
+    seo_data?: {
+        meta_title?: string;
+        meta_description?: string;
+    };
+}
 
 export default function ProductProfilePage() {
     const { manufacturerSlug, productSlug } = useParams<{ manufacturerSlug: string, productSlug: string }>();
@@ -16,7 +38,7 @@ export default function ProductProfilePage() {
 
     // Load product data dynamically based on the slug. 
     // If it returns a string, it means the key was not found (or returnObjects failed).
-    const productData = t(TK, { returnObjects: true, defaultValue: null }) as any;
+    const productData = t(TK, { returnObjects: true, defaultValue: null }) as ProductData | string | null;
 
     if (!productData || typeof productData === 'string') {
         return <Navigate to="/404" replace />;
@@ -36,8 +58,6 @@ export default function ProductProfilePage() {
     const siteUrl = import.meta.env.VITE_SITE_URL || 'http://localhost';
     const currentUrl = `${siteUrl}/products/${manufacturerSlug}/${productSlug}`;
 
-    const mainImage = images.length > 0 ? images[0].url : '/placeholder.jpg';
-
     return (
         <>
             <Head>
@@ -55,14 +75,21 @@ export default function ProductProfilePage() {
 
                             {/* Product Image */}
                             <div className="w-full md:w-1/2">
-                                <div className="bg-white p-4 rounded-2xl shadow-xl overflow-hidden relative">
-                                    <div className="absolute inset-0 bg-gradient-to-tr from-slate-900/5 to-transparent pointer-events-none" />
-                                    <img
-                                        src={mainImage}
-                                        alt={name}
-                                        className="w-full h-auto object-cover rounded-xl border border-slate-100 mix-blend-multiply"
+                                {images.length > 0 ? (
+                                    <ImageCarouselGallery
+                                        images={images.map((image) => ({ src: image.url, alt: image.alt_text || name }))}
+                                        altFallback={name}
+                                        aspectClassName="aspect-[4/3]"
+                                        imageClassName="object-contain mix-blend-multiply"
                                     />
-                                </div>
+                                ) : (
+                                    <div className="bg-white p-4 rounded-2xl shadow-xl overflow-hidden relative">
+                                        <div className="absolute inset-0 bg-gradient-to-tr from-slate-900/5 to-transparent pointer-events-none" />
+                                        <div className="flex aspect-[4/3] items-center justify-center rounded-xl border border-slate-100 text-slate-400">
+                                            {t("pages.products.detail.no_image", { defaultValue: 'No product image available' })}
+                                        </div>
+                                    </div>
+                                )}
                             </div>
 
                             {/* Product Info */}
@@ -149,7 +176,7 @@ export default function ProductProfilePage() {
                         </section>
                     )}
 
-                    {/* Certifications Map */}
+                    {/* Certifications */}
                     {certificates && certificates.length > 0 && (
                         <section>
                             <div className="flex items-center gap-3 mb-8">
@@ -158,18 +185,13 @@ export default function ProductProfilePage() {
                                 </div>
                                 <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.certifications")}</h2>
                             </div>
-                            <div className="flex flex-wrap gap-6 items-center">
-                                {certificates.map((cert: any, idx: number) => (
-                                    <div key={idx} className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-center min-w-[120px] hover:shadow-md transition-shadow">
-                                        <img
-                                            src={cert.url}
-                                            alt={cert.alt_text || t("pages.products.detail.certificate_alt")}
-                                            className="h-16 object-contain mix-blend-multiply"
-                                            title={cert.alt_text}
-                                        />
-                                    </div>
-                                ))}
-                            </div>
+                            <ZoomableImageGrid
+                                images={certificates.map((cert) => ({ src: cert.url, alt: cert.alt_text || t("pages.products.detail.certificate_alt", { defaultValue: 'Product certificate' }) }))}
+                                altFallback={t("pages.products.detail.certificate_alt", { defaultValue: 'Product certificate' })}
+                                className="grid-cols-2 md:grid-cols-3 lg:grid-cols-5"
+                                itemClassName="min-w-0 bg-white border border-slate-200 shadow-sm hover:shadow-md"
+                                imageClassName="h-16 mix-blend-multiply"
+                            />
                         </section>
                     )}
 

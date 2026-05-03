@@ -1,5 +1,5 @@
 
-import { TrendingUp, Users, Search, Share2, Globe2 } from "lucide-react"
+import { TrendingUp, Search, Share2, Globe2 } from "lucide-react"
 import { useTranslation } from "react-i18next"
 
 export function PlatformValueSection() {
