@@ -1,89 +1,5 @@
 [
   {
-    "id": "29802530-5662-475a-93e1-787f7b12640f",
-    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "asset_type": "certificate",
-    "alt_text": "ABS Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/abs.jpg",
-    "file_name": "abs.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-03-26T01:54:19.786+00:00",
-    "updated_at": "2026-05-03T12:49:42.333+00:00"
-  },
-  {
-    "id": "8418291d-3b2f-4d5f-ab90-3a75170b1860",
-    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "asset_type": "certificate",
-    "alt_text": "ASME U Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/asme_u_certificate.jpg",
-    "file_name": "asme_u_certificate.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-03-26T01:54:21.466+00:00",
-    "updated_at": "2026-05-03T12:49:42.982+00:00"
-  },
-  {
-    "id": "5701c029-0279-4dfd-844c-0ceb5b67d448",
-    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "asset_type": "certificate",
-    "alt_text": "CE Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/ce.jpg",
-    "file_name": "ce.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-03-26T01:54:23.675+00:00",
-    "updated_at": "2026-05-03T12:49:43.685+00:00"
-  },
-  {
-    "id": "54e0c63b-071d-46c4-98bc-5e210a3c2541",
-    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "asset_type": "certificate",
-    "alt_text": "ISO 14001 Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_14001.jpg",
-    "file_name": "iso_14001.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-03-26T01:54:25.366+00:00",
-    "updated_at": "2026-05-03T12:49:44.272+00:00"
-  },
-  {
-    "id": "84acf704-8809-4451-83d7-b29b4287010f",
-    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "asset_type": "certificate",
-    "alt_text": "ISO 45001 Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_45001.jpg",
-    "file_name": "iso_45001.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-03-26T01:54:27.522+00:00",
-    "updated_at": "2026-05-03T12:49:45+00:00"
-  },
-  {
-    "id": "1ee65179-a502-4ec4-88c6-c081a4778598",
-    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "asset_type": "certificate",
-    "alt_text": "ISO 9001 Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_9001.jpg",
-    "file_name": "iso_9001.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-03-26T01:54:29.196+00:00",
-    "updated_at": "2026-05-03T12:49:45.853+00:00"
-  },
-  {
-    "id": "d999286a-3642-4ea6-9536-130f00eca89d",
-    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "asset_type": "certificate",
-    "alt_text": "NB U Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/nb_u_certificate.jpg",
-    "file_name": "nb_u_certificate.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-03-26T01:54:31.343+00:00",
-    "updated_at": "2026-05-03T12:49:46.457+00:00"
-  },
-  {
     "id": "4d2e986b-df20-4ab1-b984-4e663612753b",
     "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
     "asset_type": "certificate",
@@ -93,7 +9,8 @@
     "file_name": "ohsas_18001.jpg",
     "file_type": "jpg",
     "created_at": "2026-03-26T01:54:32.984+00:00",
-    "updated_at": "2026-05-03T12:49:46.738+00:00"
+    "updated_at": "2026-05-03T13:58:16.392+00:00",
+    "order": 8
   },
   {
     "id": "29f1981e-4ed4-48d8-86b3-4a779b0e8a2c",
@@ -105,7 +22,8 @@
     "file_name": "bp.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:34.636+00:00",
-    "updated_at": "2026-05-03T12:49:47.286+00:00"
+    "updated_at": "2026-05-03T13:58:16.917+00:00",
+    "order": 1
   },
   {
     "id": "2cbf79d6-1dfb-418a-8d60-caf4dc28d0c4",
@@ -117,7 +35,8 @@
     "file_name": "gazprom.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:36.261+00:00",
-    "updated_at": "2026-05-03T12:49:47.847+00:00"
+    "updated_at": "2026-05-03T13:58:17.419+00:00",
+    "order": 2
   },
   {
     "id": "fd8ebed6-66c0-40c9-8710-dc0d0409aec9",
@@ -129,7 +48,8 @@
     "file_name": "riotinto.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:37.91+00:00",
-    "updated_at": "2026-05-03T12:49:48.363+00:00"
+    "updated_at": "2026-05-03T13:58:17.932+00:00",
+    "order": 3
   },
   {
     "id": "1aa265b1-ff8d-48e2-a58e-d96fe2b97149",
@@ -141,7 +61,8 @@
     "file_name": "siemens.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:39.54+00:00",
-    "updated_at": "2026-05-03T12:49:48.907+00:00"
+    "updated_at": "2026-05-03T13:58:18.458+00:00",
+    "order": 4
   },
   {
     "id": "2b1cd60c-2559-4cc4-ba78-ed725a8cd4e4",
@@ -153,7 +74,8 @@
     "file_name": "sulzer.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:41.145+00:00",
-    "updated_at": "2026-05-03T12:49:49.629+00:00"
+    "updated_at": "2026-05-03T13:58:18.928+00:00",
+    "order": 5
   },
   {
     "id": "e7e3e4f4-435b-473e-9611-7cecaa4cdd6a",
@@ -165,7 +87,99 @@
     "file_name": "vimetco.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:42.772+00:00",
-    "updated_at": "2026-05-03T12:49:50.101+00:00"
+    "updated_at": "2026-05-03T13:58:19.85+00:00",
+    "order": 6
+  },
+  {
+    "id": "29802530-5662-475a-93e1-787f7b12640f",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "asset_type": "certificate",
+    "alt_text": "ABS Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/abs.jpg",
+    "file_name": "abs.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-03-26T01:54:19.786+00:00",
+    "updated_at": "2026-05-03T13:58:11.598+00:00",
+    "order": 1
+  },
+  {
+    "id": "8418291d-3b2f-4d5f-ab90-3a75170b1860",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "asset_type": "certificate",
+    "alt_text": "ASME U Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/asme_u_certificate.jpg",
+    "file_name": "asme_u_certificate.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-03-26T01:54:21.466+00:00",
+    "updated_at": "2026-05-03T13:58:12.234+00:00",
+    "order": 2
+  },
+  {
+    "id": "5701c029-0279-4dfd-844c-0ceb5b67d448",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "asset_type": "certificate",
+    "alt_text": "CE Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/ce.jpg",
+    "file_name": "ce.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-03-26T01:54:23.675+00:00",
+    "updated_at": "2026-05-03T13:58:13.031+00:00",
+    "order": 3
+  },
+  {
+    "id": "54e0c63b-071d-46c4-98bc-5e210a3c2541",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "asset_type": "certificate",
+    "alt_text": "ISO 14001 Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_14001.jpg",
+    "file_name": "iso_14001.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-03-26T01:54:25.366+00:00",
+    "updated_at": "2026-05-03T13:58:13.89+00:00",
+    "order": 4
+  },
+  {
+    "id": "84acf704-8809-4451-83d7-b29b4287010f",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "asset_type": "certificate",
+    "alt_text": "ISO 45001 Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_45001.jpg",
+    "file_name": "iso_45001.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-03-26T01:54:27.522+00:00",
+    "updated_at": "2026-05-03T13:58:14.532+00:00",
+    "order": 5
+  },
+  {
+    "id": "1ee65179-a502-4ec4-88c6-c081a4778598",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "asset_type": "certificate",
+    "alt_text": "ISO 9001 Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_9001.jpg",
+    "file_name": "iso_9001.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-03-26T01:54:29.196+00:00",
+    "updated_at": "2026-05-03T13:58:15.504+00:00",
+    "order": 6
+  },
+  {
+    "id": "d999286a-3642-4ea6-9536-130f00eca89d",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "asset_type": "certificate",
+    "alt_text": "NB U Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/nb_u_certificate.jpg",
+    "file_name": "nb_u_certificate.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-03-26T01:54:31.343+00:00",
+    "updated_at": "2026-05-03T13:58:16.102+00:00",
+    "order": 7
   },
   {
     "id": "344dc931-bb6a-44c0-9007-b56920f0c05c",
@@ -177,7 +191,8 @@
     "file_name": "company.jpg",
     "file_type": "jpg",
     "created_at": "2026-03-26T04:13:31.255+00:00",
-    "updated_at": "2026-05-03T12:49:52.471+00:00"
+    "updated_at": "2026-05-03T13:58:22.428+00:00",
+    "order": 1
   },
   {
     "id": "a4e6bc80-add3-494b-b27b-d2a694739c6d",
@@ -189,7 +204,8 @@
     "file_name": "company_2.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-03T12:08:54.643+00:00",
-    "updated_at": "2026-05-03T12:49:55.448+00:00"
+    "updated_at": "2026-05-03T13:58:25.315+00:00",
+    "order": 2
   },
   {
     "id": "26193ede-e89d-4194-bd4d-bf47ad3d84ac",
@@ -201,7 +217,8 @@
     "file_name": "company_3.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-03T12:08:56.378+00:00",
-    "updated_at": "2026-05-03T12:49:56.939+00:00"
+    "updated_at": "2026-05-03T13:58:27.038+00:00",
+    "order": 3
   },
   {
     "id": "bb76b242-3fce-404b-88c0-a4fddaffef1b",
@@ -213,7 +230,8 @@
     "file_name": "company_4.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-03T12:08:57.934+00:00",
-    "updated_at": "2026-05-03T12:49:58.595+00:00"
+    "updated_at": "2026-05-03T13:58:28.735+00:00",
+    "order": 4
   },
   {
     "id": "2c424e24-0118-409c-b513-31eecf4b3f4e",
@@ -225,6 +243,7 @@
     "file_name": "company_5.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-03T12:08:58.835+00:00",
-    "updated_at": "2026-05-03T12:49:59.182+00:00"
+    "updated_at": "2026-05-03T13:58:29.774+00:00",
+    "order": 5
   }
 ]

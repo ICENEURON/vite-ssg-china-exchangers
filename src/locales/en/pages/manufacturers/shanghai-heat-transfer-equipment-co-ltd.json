@@ -158,18 +158,18 @@
       "url": "shanghai-heat-transfer-equipment-co-ltd/ht-bloc-welded-plate-heat-exchanger"
     },
     {
-      "slug": "plate-heat-exchanger",
-      "name": "Plate Heat Exchanger (Gasketed)",
-      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_hex_1.jpg",
-      "short_description": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
-      "url": "shanghai-heat-transfer-equipment-co-ltd/plate-heat-exchanger"
-    },
-    {
       "slug": "tp-welded-plate-heat-exchanger",
       "name": "TP Welded Plate Heat Exchanger",
       "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_1.jpg",
       "short_description": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
       "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "plate-heat-exchanger",
+      "name": "Plate Heat Exchanger (Gasketed)",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_hex_1.jpg",
+      "short_description": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/plate-heat-exchanger"
     }
   ]
 }

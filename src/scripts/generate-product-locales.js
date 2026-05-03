@@ -65,12 +65,16 @@ function localizeField(value, availableLangs, currentLang) {
   }
 
   function getProductImageAssets(productId) {
-    const galleryImages = preferredProductAssets.filter(asset => asset.product_id === productId && asset.asset_type === 'gallery_image');
+    const galleryImages = preferredProductAssets
+        .filter(asset => asset.product_id === productId && asset.asset_type === 'gallery_image')
+        .sort((a, b) => (a.order || 0) - (b.order || 0));
     if (galleryImages.length > 0) {
       return galleryImages;
     }
 
-    return preferredProductAssets.filter(asset => asset.product_id === productId && asset.asset_type === 'image');
+    return preferredProductAssets
+        .filter(asset => asset.product_id === productId && asset.asset_type === 'image')
+        .sort((a, b) => (a.order || 0) - (b.order || 0));
   }
 
 function processData() {
@@ -124,6 +128,7 @@ function processData() {
           }),
         certificates: preferredProductAssets
           .filter(asset => asset.product_id === prod.id && asset.asset_type === 'certificate')
+          .sort((a, b) => (a.order || 0) - (b.order || 0))
           .map(asset => {
             const locAsset = localizeField(asset, langsArray, lang);
             return { alt_text: locAsset.alt_text, url: toAssetUrl(asset) };

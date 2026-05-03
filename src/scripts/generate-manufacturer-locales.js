@@ -127,8 +127,10 @@ function processData() {
         });
       }
 
-      // Add manufacturer assets by type
-      const mfgAssets = preferredManufacturerAssets.filter(asset => asset.manufacturer_id === mfg.id);
+      // Add manufacturer assets by type, sorted by order
+      const mfgAssets = preferredManufacturerAssets
+        .filter(asset => asset.manufacturer_id === mfg.id)
+        .sort((a, b) => (a.order || 0) - (b.order || 0));
 
       individualMfg.certifications = mfgAssets
         .filter(asset => hasAssetType(asset, ['certifications', 'certificate']))
@@ -151,9 +153,10 @@ function processData() {
           return { alt_text: locAsset.alt_text, url: toAssetUrl(asset) };
         });
 
-      // Add products
+      // Add products, sorted by order
       individualMfg.products = products
         .filter(prod => prod.manufacturer_id === mfg.id)
+        .sort((a, b) => (a.order || 0) - (b.order || 0))
         .map(prod => {
           const localizedProd = localizeField(prod, langsArray, lang);
           const pImage = getProductImageAsset(prod.id);

@@ -198,8 +198,12 @@ async function processAndUploadAsset(localAssetsDir, mfgSlug, assetData, foreign
         .maybeSingle();
 
     if (existingAsset) {
-        // 如果资产记录存在，更新 alt_text
-        await supabase.from(tableName).update({ alt_text, updated_at: new Date().toISOString() }).eq('id', existingAsset.id);
+        // 如果资产记录存在，更新 alt_text 和 order
+        await supabase.from(tableName).update({ 
+            alt_text, 
+            order: assetData.order || 0,
+            updated_at: new Date().toISOString() 
+        }).eq('id', existingAsset.id);
         console.log(`ℹ️ 资产记录已存在，已更新信息 [${tableName} - ${file_name}]`);
         return;
     }
@@ -209,6 +213,7 @@ async function processAndUploadAsset(localAssetsDir, mfgSlug, assetData, foreign
         [foreignKeyColumn]: foreignKeyValue,
         asset_type: asset_type,
         alt_text: alt_text,
+        order: assetData.order || 0,
         storage_bucket: TARGET_BUCKET,
         storage_path: storagePath,
         file_name: file_name,

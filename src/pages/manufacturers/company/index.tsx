@@ -12,6 +12,7 @@ import countriesData from '../../../data/countries.json'
 interface ImageAsset {
     alt_text?: string;
     url: string;
+    order?: number;
 }
 
 interface ManufacturerProductCategory {
@@ -52,6 +53,7 @@ interface ProductParameter {
 interface ProductCertificate {
     name: string;
     image: string;
+    order?: number;
 }
 
 interface Product {
@@ -61,6 +63,7 @@ interface Product {
     short_description: string;
     Parameters?: ProductParameter[];
     certificate?: ProductCertificate[];
+    order?: number;
 }
 
 export default function ManufacturerProfilePage() {
