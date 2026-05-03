@@ -1,56 +1,5 @@
 [
   {
-    "id": "b252eca1-60c3-497a-b0a4-f812169ba0d1",
-    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "slug": "tp-fully-welded-plate-heat-exchanger",
-    "is_visible": true,
-    "name": {
-      "en": "TP Fully Welded Plate Heat Exchanger",
-      "zh": "TP 全焊接板式换热器"
-    },
-    "short_description": {
-      "en": "Openable/fully welded TP design for high temperature and pressure applications.",
-      "zh": "适用于高温高压工况的 TP 全焊接/可开式结构。"
-    },
-    "full_description": {
-      "en": "TP fully welded plate heat exchangers target demanding media with reliable sealing and maintainability.",
-      "zh": "TP 全焊接板式换热器适配高要求介质，兼具可靠密封与维护便捷性。"
-    },
-    "industries": [
-      "6",
-      "9",
-      "1"
-    ],
-    "advantage": {
-      "en": [
-        "High-temp/high-pressure duty",
-        "Maintainable design",
-        "Custom materials"
-      ],
-      "zh": [
-        "高温高压适用",
-        "便于维护",
-        "支持材料定制"
-      ]
-    },
-    "technical_parameters": {
-      "Channels": "standard or wide-gap",
-      "Design Pressure": "up to 5.2 MPa"
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "TP Fully Welded Plate Heat Exchanger",
-        "meta_description": "TP fully welded PHE for demanding industrial applications."
-      },
-      "zh": {
-        "meta_title": "TP 全焊接板式换热器",
-        "meta_description": "面向高要求工业应用的 TP 全焊接板式换热器。"
-      }
-    },
-    "created_at": "2026-03-13T13:34:30.535+00:00",
-    "updated_at": "2026-03-13T13:34:30.535+00:00"
-  },
-  {
     "id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
     "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
     "slug": "ht-bloc-welded-plate-heat-exchanger",
@@ -99,7 +48,59 @@
       }
     },
     "created_at": "2026-03-13T13:34:30.212+00:00",
-    "updated_at": "2026-03-26T04:13:32.569+00:00"
+    "updated_at": "2026-05-03T12:49:59.498+00:00"
+  },
+  {
+    "id": "600574fd-9a09-4806-b895-cf1acaea7318",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "slug": "plate-heat-exchanger",
+    "is_visible": true,
+    "name": {
+      "en": "Plate Heat Exchanger (Gasketed)",
+      "zh": "板式换热器（胶垫式）"
+    },
+    "short_description": {
+      "en": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
+      "zh": "可选不锈钢/钛材等多种材料，并支持多样接口形式。"
+    },
+    "full_description": {
+      "en": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
+      "zh": "可选不锈钢/钛材等多种材料，并支持多样接口形式。"
+    },
+    "industries": [
+      "3",
+      "1",
+      "5",
+      "8"
+    ],
+    "advantage": {
+      "en": [
+        "Easy maintenance",
+        "Material flexibility",
+        "Wide range of sizes"
+      ],
+      "zh": [
+        "易维护",
+        "材料选择灵活",
+        "覆盖规格广"
+      ]
+    },
+    "technical_parameters": {
+      "Nozzles": "flanged or studded",
+      "Materials": "SS304/316, Titanium options"
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "Plate Heat Exchanger (Gasketed)",
+        "meta_description": "Gasketed PHE for marine/HVAC with multiple materials and nozzles."
+      },
+      "zh": {
+        "meta_title": "板式换热器（胶垫式）",
+        "meta_description": "适用于船舶与 HVAC 的胶垫式板式换热器，支持多种材料与接口。"
+      }
+    },
+    "created_at": "2026-03-13T13:34:30.955+00:00",
+    "updated_at": "2026-05-03T12:50:03.796+00:00"
   },
   {
     "id": "1434fda8-8ce7-4339-b7d6-c3f55cdcdc53",
@@ -153,58 +154,6 @@
       }
     },
     "created_at": "2026-03-26T01:54:48.021+00:00",
-    "updated_at": "2026-03-26T04:13:35.143+00:00"
-  },
-  {
-    "id": "600574fd-9a09-4806-b895-cf1acaea7318",
-    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "slug": "plate-heat-exchanger",
-    "is_visible": true,
-    "name": {
-      "en": "Plate Heat Exchanger (Gasketed)",
-      "zh": "板式换热器（胶垫式）"
-    },
-    "short_description": {
-      "en": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
-      "zh": "可选不锈钢/钛材等多种材料，并支持多样接口形式。"
-    },
-    "full_description": {
-      "en": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
-      "zh": "可选不锈钢/钛材等多种材料，并支持多样接口形式。"
-    },
-    "industries": [
-      "3",
-      "1",
-      "5",
-      "8"
-    ],
-    "advantage": {
-      "en": [
-        "Easy maintenance",
-        "Material flexibility",
-        "Wide range of sizes"
-      ],
-      "zh": [
-        "易维护",
-        "材料选择灵活",
-        "覆盖规格广"
-      ]
-    },
-    "technical_parameters": {
-      "Nozzles": "flanged or studded",
-      "Materials": "SS304/316, Titanium options"
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "Plate Heat Exchanger (Gasketed)",
-        "meta_description": "Gasketed PHE for marine/HVAC with multiple materials and nozzles."
-      },
-      "zh": {
-        "meta_title": "板式换热器（胶垫式）",
-        "meta_description": "适用于船舶与 HVAC 的胶垫式板式换热器，支持多种材料与接口。"
-      }
-    },
-    "created_at": "2026-03-13T13:34:30.955+00:00",
-    "updated_at": "2026-03-26T04:13:46.047+00:00"
+    "updated_at": "2026-05-03T12:50:00.116+00:00"
   }
 ]

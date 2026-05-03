@@ -155,11 +155,6 @@ async function findOrCreateProduct(product, manufacturerId) {
 
 /**
  * 通用文件上传并记录资产表的方法
- * @param {string} mfgSlug 公司的 slug (例如 example-mfg)
- * @param {Object} assetData JSON 中定义的资产信息
- * @param {string} foreignKeyColumn 关联的外键列名 ('manufacturer_id' 或 'product_id')
- * @param {string} foreignKeyValue 生成的 UUID
- * @param {string} tableName 目标数据库表名
  */
 async function processAndUploadAsset(localAssetsDir, mfgSlug, assetData, foreignKeyColumn, foreignKeyValue, tableName) {
     const { folder, file_name, asset_type, alt_text } = assetData;
@@ -203,7 +198,9 @@ async function processAndUploadAsset(localAssetsDir, mfgSlug, assetData, foreign
         .maybeSingle();
 
     if (existingAsset) {
-        console.log(`ℹ️ 资产记录已存在，跳过写入 [${tableName} - ${file_name}]`);
+        // 如果资产记录存在，更新 alt_text
+        await supabase.from(tableName).update({ alt_text, updated_at: new Date().toISOString() }).eq('id', existingAsset.id);
+        console.log(`ℹ️ 资产记录已存在，已更新信息 [${tableName} - ${file_name}]`);
         return;
     }
 
@@ -231,11 +228,46 @@ async function processAndUploadAsset(localAssetsDir, mfgSlug, assetData, foreign
 
 async function runImport() {
     console.log('🚀 开始按公司分类目录导入数据...');
-    const rawData = fs.readFileSync(path.join(__dirname, 'data', 'data_payload.json'));
-    const payload = JSON.parse(rawData);
+    const dataDir = path.join(__dirname, 'data');
+    const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json') && f !== 'data_payload.json' && f !== 'sync_config.json');
+    let payload = [];
+    
+    for (const file of files) {
+        const rawData = fs.readFileSync(path.join(dataDir, file));
+        try {
+            const parsed = JSON.parse(rawData);
+            if (Array.isArray(parsed) && parsed.length > 0) {
+                payload = payload.concat(parsed);
+            }
+        } catch (e) {
+            console.error(`解析 JSON 文件失败: ${file}`, e);
+        }
+    }
+
+    if (payload.length === 0) {
+        console.log('没有找到有效的数据进行导入。');
+        return;
+    }
+
+    // Load sync config
+    const configPath = path.join(dataDir, 'sync_config.json');
+    let syncTargets = null;
+    if (fs.existsSync(configPath)) {
+        const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+        if (config.sync_targets && Array.isArray(config.sync_targets)) {
+            syncTargets = new Set(config.sync_targets);
+            console.log(`📝 已加载白名单配置，仅同步以下公司: ${config.sync_targets.join(', ')}`);
+        }
+    }
 
     for (const item of payload) {
         const mfgSlug = item.manufacturer.slug;
+        
+        if (syncTargets && !syncTargets.has(mfgSlug)) {
+            console.log(`\n⏭️ 跳过公司: ${mfgSlug} (不在 sync_config.json 的白名单中)`);
+            continue;
+        }
+
         const localAssetsDir = item.local_assets_dir || mfgSlug;
         console.log(`\n===========================================`);
         console.log(`⏳ 正在处理公司: ${mfgSlug}`);
@@ -251,15 +283,85 @@ async function runImport() {
 
         console.log(`✅ 工厂数据插入成功! UUID: ${mfgId}`);
 
+        // --- Clean up orphaned manufacturer assets ---
+        const expectedMfgAssets = new Set(
+            (item.company_assets || []).map(a => `${mfgSlug}/${normalizeStorageFolderName(a.folder)}/${a.file_name}`)
+        );
+
+        const { data: existingMfgAssets } = await supabase
+            .from('manufacturer_assets')
+            .select('id, storage_path')
+            .eq('manufacturer_id', mfgId);
+
+        if (existingMfgAssets) {
+            for (const asset of existingMfgAssets) {
+                if (!expectedMfgAssets.has(asset.storage_path)) {
+                    console.log(`🗑️ 删除冗余公司附件: ${asset.storage_path}`);
+                    await supabase.from('manufacturer_assets').delete().eq('id', asset.id);
+                    await supabase.storage.from(TARGET_BUCKET).remove([asset.storage_path]);
+                }
+            }
+        }
+
         // --- 2. 处理公司级别资产 (Manufacturer Assets) ---
         if (item.company_assets && item.company_assets.length > 0) {
             console.log(`\n📁 开始处理公司附件...`);
             for (const asset of item.company_assets) {
                 try {
-                    // 写入 manufacturer_assets 表
                     await processAndUploadAsset(localAssetsDir, mfgSlug, asset, 'manufacturer_id', mfgId, 'manufacturer_assets');
                 } catch (error) {
                     console.error(`❌ 公司附件处理失败 [${asset.file_name}]:`, error.message);
+                }
+            }
+        }
+
+        // --- Clean up orphaned products & product assets ---
+        const expectedProductSlugs = new Set((item.products || []).map(p => p.product.slug));
+        
+        const { data: existingProducts } = await supabase
+            .from('products')
+            .select('id, slug')
+            .eq('manufacturer_id', mfgId);
+
+        if (existingProducts) {
+            for (const prod of existingProducts) {
+                if (!expectedProductSlugs.has(prod.slug)) {
+                    console.log(`🗑️ 删除冗余产品: ${prod.slug}`);
+                    // Delete all assets for this product
+                    const { data: prodAssets } = await supabase
+                        .from('product_assets')
+                        .select('id, storage_path')
+                        .eq('product_id', prod.id);
+                    
+                    if (prodAssets) {
+                        for (const asset of prodAssets) {
+                            await supabase.from('product_assets').delete().eq('id', asset.id);
+                            await supabase.storage.from(TARGET_BUCKET).remove([asset.storage_path]);
+                        }
+                    }
+                    // Delete the product itself
+                    await supabase.from('products').delete().eq('id', prod.id);
+                } else {
+                    // Product exists in payload, cleanup its specific orphaned assets
+                    const payloadProd = item.products.find(p => p.product.slug === prod.slug);
+                    const expectedProdAssets = new Set(
+                        (payloadProd.product_assets || []).map(a => `${mfgSlug}/${normalizeStorageFolderName(a.folder)}/${a.file_name}`)
+                    );
+
+                    const { data: prodAssets } = await supabase
+                        .from('product_assets')
+                        .select('id, storage_path')
+                        .eq('product_id', prod.id);
+
+                    if (prodAssets) {
+                        for (const asset of prodAssets) {
+                            if (!expectedProdAssets.has(asset.storage_path)) {
+                                console.log(`🗑️ 删除冗余产品附件: ${asset.storage_path}`);
+                                await supabase.from('product_assets').delete().eq('id', asset.id);
+                                await supabase.storage.from(TARGET_BUCKET).remove([asset.storage_path]);
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -268,7 +370,7 @@ async function runImport() {
         if (item.products && item.products.length > 0) {
             console.log(`\n📦 开始处理产品数据...`);
             for (const prodItem of item.products) {
-                console.log(`   ⏳ 正在插入产品: ${prodItem.product.slug}`);
+                console.log(`   ⏳ 正在插入/更新产品: ${prodItem.product.slug}`);
                 let prodId;
                 try {
                     prodId = await findOrCreateProduct(prodItem.product, mfgId);
@@ -283,7 +385,6 @@ async function runImport() {
                 if (prodItem.product_assets && prodItem.product_assets.length > 0) {
                     for (const asset of prodItem.product_assets) {
                         try {
-                            // 写入 product_assets 表
                             await processAndUploadAsset(localAssetsDir, mfgSlug, asset, 'product_id', prodId, 'product_assets');
                         } catch (error) {
                             console.error(`❌ 产品附件处理失败 [${asset.file_name}]:`, error.message);

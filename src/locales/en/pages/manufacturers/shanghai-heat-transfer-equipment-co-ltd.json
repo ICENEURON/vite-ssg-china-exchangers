@@ -129,21 +129,27 @@
   ],
   "images": [
     {
-      "alt_text": "Shanghai Heat Transfer Equipment Factory View",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/factory_front.jpg"
+      "alt_text": "Shanghai Heat Transfer Equipment Factory View 1",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company.jpg"
     },
     {
-      "alt_text": "Shanghai Heat Transfer Equipment Company Building",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company.jpg"
+      "alt_text": "Shanghai Heat Transfer Equipment Factory View 2",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company_2.jpg"
+    },
+    {
+      "alt_text": "Shanghai Heat Transfer Equipment Factory View 3",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company_3.jpg"
+    },
+    {
+      "alt_text": "Shanghai Heat Transfer Equipment Factory View 4",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company_4.jpg"
+    },
+    {
+      "alt_text": "Shanghai Heat Transfer Equipment Factory View 5",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company_5.jpg"
     }
   ],
   "products": [
-    {
-      "slug": "tp-fully-welded-plate-heat-exchanger",
-      "name": "TP Fully Welded Plate Heat Exchanger",
-      "short_description": "Openable/fully welded TP design for high temperature and pressure applications.",
-      "url": "shanghai-heat-transfer-equipment-co-ltd/tp-fully-welded-plate-heat-exchanger"
-    },
     {
       "slug": "ht-bloc-welded-plate-heat-exchanger",
       "name": "HT-BLOC Welded Plate Heat Exchanger",
@@ -152,18 +158,18 @@
       "url": "shanghai-heat-transfer-equipment-co-ltd/ht-bloc-welded-plate-heat-exchanger"
     },
     {
-      "slug": "tp-welded-plate-heat-exchanger",
-      "name": "TP Welded Plate Heat Exchanger",
-      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_1.jpg",
-      "short_description": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
-      "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
-    },
-    {
       "slug": "plate-heat-exchanger",
       "name": "Plate Heat Exchanger (Gasketed)",
       "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_hex_1.jpg",
       "short_description": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
       "url": "shanghai-heat-transfer-equipment-co-ltd/plate-heat-exchanger"
+    },
+    {
+      "slug": "tp-welded-plate-heat-exchanger",
+      "name": "TP Welded Plate Heat Exchanger",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_1.jpg",
+      "short_description": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
     }
   ]
 }

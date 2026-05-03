@@ -1,40 +1,53 @@
 [
     {
-        "local_assets_dir": "example_mfg",
+        "local_assets_dir": "shanghai-heat-transfer-equipment-co-ltd",
         "manufacturer": {
             "slug": "shanghai-heat-transfer-equipment-co-ltd",
             "name": {
                 "en": "Shanghai Heat Transfer Equipment Co., Ltd.",
-                "ja": "上海熱交換設備有限公司",
-                "zh": "上海换热设备有限公司"
+                "zh": "上海板换机械设备有限公司"
             },
             "short_description": {
-                "en": "Verified industrial heat exchanger manufacturer based in Shanghai, China.",
-                "ja": "中国・上海に拠点を置く認証済みの産業用熱交換器メーカーです。",
-                "zh": "位于中国上海的工业换热设备制造商。"
+                "en": "Manufacturer of plate heat exchangers and custom heat transfer systems for oil and gas, chemical, power, marine, HVAC, and other industrial sectors.",
+                "zh": "面向石油天然气、化工、电力、船舶、暖通等工业领域的板式热交换器及定制传热系统制造商。"
             },
             "full_description": {
-                "en": "Shanghai Heat Transfer Equipment Co., Ltd. is a leading manufacturer of heat exchangers and heat transfer equipment. With over 20 years of experience...",
-                "ja": "Shanghai Heat Transfer Equipment Co., Ltd. は、熱交換器および伝熱機器の有力メーカーです。20年以上の業界経験を持ち...",
-                "zh": "上海换热设备有限公司是一家领先的换热器及传热设备制造商。凭借二十多年的行业经验..."
+                "en": [
+                    "Shanghai Heat Transfer Equipment Co., Ltd. (SHPHE) is a technology-driven manufacturer and solution provider specializing in the design, manufacturing, installation, and service of plate heat exchangers and complete heat transfer systems. The company serves customers across oil and gas, marine, HVAC, chemical, food and pharmaceutical, power, bioenergy, metallurgy, machinery, pulp and paper, and steel industries.",
+                    "SHPHE’s main products include plate and frame heat exchangers, wide-gap welded plate heat exchangers, HT-Bloc welded plate heat exchangers, TP welded plate heat exchangers, and plate air preheaters. With advanced engineering, manufacturing, welding, and testing capabilities, the company provides customized heat transfer solutions for complex industrial operating conditions.",
+                    "Driven by continuous innovation, SHPHE has developed multiple high-pressure and large-scale heat exchanger products, including large plate heat exchangers for FPSO applications, 5 MPa high-pressure plate heat exchangers, 9.6 MPa internal plate heaters for strippers, and large HT-Bloc welded plate heat exchangers rated for 6.4 MPa and 410°C.",
+                    "The company holds multiple certifications, including quality, environmental, and occupational health and safety management system certifications, special equipment production license for pressure vessels, plate heat exchanger safety and energy-saving registrations, and international certificates such as ASME, CCS, CE, BV, ABS, GL, and NK. SHPHE has also participated in drafting national and industry standards, and has supplied equipment and services to major domestic and international customers including CNPC, Sinopec, CNOOC, BASF, LANXESS, BP, POSCO, Rio Tinto, Petronas, and others."
+                ],
+                "zh": [
+                    "上海板换机械设备有限公司（SHPHE）是一家技术型制造企业及解决方案提供商，专业从事板式热交换器及成套传热系统的设计、制造、安装和服务。公司长期服务于石油天然气、船舶、暖通空调、化工、食品医药、电力、生物能源、冶金、机械制造、造纸、钢铁等行业客户。",
+                    "公司主要产品包括可拆卸板式热交换器、宽通道全焊接板式热交换器、板框式热交换器、TP混合板式热交换器、板式空气预热器等。依托先进的工程设计、制造、焊接和测试能力，公司能够为复杂工业工况提供定制化传热解决方案。",
+                    "依托持续的自主创新，公司在高压、大型化及复杂工况换热设备方面不断突破，先后开发了海上浮式生产储油装置用大型板式热交换器、5MPa高压板式热交换器、9.6MPa汽提塔内置板式加热器，以及耐压6.4MPa、耐温410℃的大型HT-Bloc全焊接板式热交换器等产品。",
+                    "公司拥有质量、环境、职业健康安全管理体系认证，特种设备生产许可（压力容器），板式热交换器产品安全注册和节能注册，以及ASME、CCS、CE、BV、ABS、GL、NK等多项证书。同时，公司参与了多项国家和行业标准起草，并已为中石油、中石化、中海油、BASF、LANXESS、BP、POSCO、Rio Tinto、Petronas等众多国内外工业客户提供换热设备和相关服务。"
+                ]
             },
             "advantages": {
                 "en": [
-                    "Advanced Thermal Laboratory: In-house performance testing ensures real-world efficiency validation.",
-                    "Specialized Welding Technology: Expertise in fully welded and wide-gap plate heat exchangers."
-                ],
-                "ja": [
-                    "先進的な熱工学ラボ：社内性能試験により、実運転条件での効率を検証できます。",
-                    "専門的な溶接技術：全溶接式およびワイドギャップ型プレート熱交換器に強みがあります。"
+                    "Specialized Heat Exchanger Expertise: Focused on plate heat exchangers and complete heat transfer systems, with deep technical knowledge across demanding industrial applications.",
+                    "Advanced Engineering and Manufacturing: Strong design, production, welding, and testing capabilities support customized solutions for complex operating conditions.",
+                    "High-Pressure and Large-Scale Capability: Proven development experience in high-pressure and large-size heat exchangers, including 5 MPa, 6.4 MPa, and 9.6 MPa applications.",
+                    "Certified Quality and Compliance: Holds management system certifications, pressure vessel production license, plate heat exchanger safety and energy-saving registrations, and international certificates including ASME, CCS, CE, BV, ABS, GL, and NK.",
+                    "Standards Drafting Experience: Participated in drafting national and industry standards for heat exchanger energy efficiency testing, plate and frame heat exchangers, welded plate heat exchangers, and procurement specifications.",
+                    "Global Service Network: Based in Shanghai with global sales and service coverage, supporting customers across Asia, Europe, North America, South America, and Oceania.",
+                    "Trusted by Major Industrial Customers: Supplied equipment and services to leading domestic and multinational companies across oil and gas, chemical, marine, metallurgy, power, HVAC, and other sectors."
                 ],
                 "zh": [
-                    "先进热工实验室：可进行内部性能测试，验证真实工况下的换热效率。",
-                    "专业焊接技术：擅长全焊接和宽流道板式换热器，适用于复杂介质。"
+                    "专业换热器技术积累：长期专注于板式热交换器及成套传热系统，在复杂工业工况应用方面具备深厚技术经验。",
+                    "先进工程设计与制造能力：具备较强的设计、生产、焊接和测试能力，可为复杂工况提供定制化解决方案。",
+                    "高压大型化设备能力：具备高压、大型板式换热设备研发与制造经验，应用案例覆盖5MPa、6.4MPa及9.6MPa等高压工况。",
+                    "完善认证与合规能力：拥有管理体系认证、压力容器特种设备生产许可、板式热交换器安全及节能注册，以及ASME、CCS、CE、BV、ABS、GL、NK等多项证书。",
+                    "参与行业标准制定：参与热交换器能效测试、可拆卸板式热交换器、焊接板式热交换器及采购技术规范等国家和行业标准起草。",
+                    "全球销售服务网络：立足上海，服务全球，在亚洲、欧洲、北美、南美和大洋洲等多个市场为客户提供支持。",
+                    "服务大型工业客户：已为石油天然气、化工、船舶、冶金、电力、暖通等行业的国内大型企业及跨国公司提供换热设备和服务。"
                 ]
             },
-            "website": "https://www.shanghaiheattransfer.com",
+            "website": "https://www.shphe-en.com/",
             "email": [
-                "abc@gmail.com"
+                "info@shphe.com"
             ],
             "phone": [
                 "+8613003001011"
@@ -42,18 +55,15 @@
             "country_id": "CN",
             "country_name": {
                 "en": "China",
-                "ja": "中国",
                 "zh": "中国"
             },
             "city": {
                 "en": "Shanghai",
-                "ja": "上海",
                 "zh": "上海"
             },
             "address": {
-                "en": "Shanghai, China",
-                "ja": "中国・上海",
-                "zh": "中国上海"
+                "en": "No. 99 Shanning Road, Jinshan District, Shanghai, China",
+                "zh": "上海市金山区山宁路99号"
             },
             "established_year": "2005",
             "factory_area": "20000m2",
@@ -70,9 +80,27 @@
                 "9"
             ],
             "export_markets": [
-                "HK",
                 "CN",
-                "US"
+                "TW",
+                "RU",
+                "CA",
+                "US",
+                "NO",
+                "DE",
+                "RO",
+                "FR",
+                "GR",
+                "TR",
+                "IR",
+                "AE",
+                "IN",
+                "MY",
+                "SG",
+                "ID",
+                "AU",
+                "VE",
+                "BR",
+                "AR"
             ],
             "is_visible": true,
             "seo_data": {
@@ -168,14 +196,32 @@
             {
                 "asset_type": "media",
                 "folder": "company_images",
-                "file_name": "factory_front.jpg",
-                "alt_text": "Shanghai Heat Transfer Equipment Factory View"
+                "file_name": "company.jpg",
+                "alt_text": "Shanghai Heat Transfer Equipment Factory View 1"
             },
             {
                 "asset_type": "media",
                 "folder": "company_images",
-                "file_name": "company.jpg",
-                "alt_text": "Shanghai Heat Transfer Equipment Company Building"
+                "file_name": "company_2.jpg",
+                "alt_text": "Shanghai Heat Transfer Equipment Factory View 2"
+            },
+            {
+                "asset_type": "media",
+                "folder": "company_images",
+                "file_name": "company_3.jpg",
+                "alt_text": "Shanghai Heat Transfer Equipment Factory View 3"
+            },
+            {
+                "asset_type": "media",
+                "folder": "company_images",
+                "file_name": "company_4.jpg",
+                "alt_text": "Shanghai Heat Transfer Equipment Factory View 4"
+            },
+            {
+                "asset_type": "media",
+                "folder": "company_images",
+                "file_name": "company_5.jpg",
+                "alt_text": "Shanghai Heat Transfer Equipment Factory View 5"
             }
         ],
         "products": [
@@ -185,17 +231,14 @@
                     "is_visible": true,
                     "name": {
                         "en": "HT-BLOC Welded Plate Heat Exchanger",
-                        "ja": "HT-BLOC 溶接板式熱交換器",
                         "zh": "HT-BLOC 焊接板式换热器"
                     },
                     "short_description": {
                         "en": "Compact welded bloc exchanger for high-pressure industrial duty.",
-                        "ja": "高圧産業用途向けのコンパクトな溶接ブロック型熱交換器。",
                         "zh": "适用于高压工业工况的紧凑型焊接块式换热器。"
                     },
                     "full_description": {
                         "en": "HT-BLOC is designed for high efficiency and stability in harsh conditions, with wide-gap options and robust sealing structure.",
-                        "ja": "HT-BLOC は過酷条件下でも高効率と安定性を両立する設計で、ワイドギャップ仕様や堅牢なシール構造に対応します。",
                         "zh": "HT-BLOC 通过加强结构与可选宽流道版型，在苛刻工况下兼具高效率与稳定性。"
                     },
                     "industries": [
@@ -208,11 +251,6 @@
                             "High pressure resistance",
                             "Wide-gap channel option",
                             "Compact footprint"
-                        ],
-                        "ja": [
-                            "高耐圧",
-                            "ワイドギャップ流路オプション",
-                            "省スペース設置"
                         ],
                         "zh": [
                             "高耐压",
@@ -228,10 +266,6 @@
                         "en": {
                             "meta_title": "HT-BLOC Welded Plate Heat Exchanger",
                             "meta_description": "Compact welded bloc exchanger for high-pressure industrial duty."
-                        },
-                        "ja": {
-                            "meta_title": "HT-BLOC 溶接板式熱交換器",
-                            "meta_description": "高圧産業用途向けのコンパクトな溶接ブロック型熱交換器。"
                         },
                         "zh": {
                             "meta_title": "HT-BLOC 焊接板式换热器",
@@ -254,17 +288,14 @@
                     "is_visible": true,
                     "name": {
                         "en": "TP Welded Plate Heat Exchanger",
-                        "ja": "TP 溶接プレート式熱交換器",
                         "zh": "TP 焊接板式换热器"
                     },
                     "short_description": {
                         "en": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
-                        "ja": "スラリー、高粘度流体、繊維含有流体向けの専用熱交換器。",
                         "zh": "适用于浆料、高粘度及含纤维介质的专用换热器。"
                     },
                     "full_description": {
                         "en": "In industrial processes, specialized heat exchange solutions are required for handling challenging fluids such as particle-laden fluids, viscous fluids, and fiber-containing fluids. TP Welded Plate Heat Exchanger is an ideal heat exchange solution for these applications.",
-                        "ja": "産業プロセスでは、粒子を含む流体、高粘度流体、繊維を含む流体など、扱いが難しい流体に対応するための専用熱交換ソリューションが必要です。TP 溶接プレート式熱交換器は、このような用途に理想的な熱交換ソリューションです。",
                         "zh": "在工业过程中，针对含颗粒介质、粘性介质和含纤维介质等复杂流体，需要专门的换热解决方案。TP 焊接板式换热器正是适用于此类应用的理想换热方案。"
                     },
                     "industries": [
@@ -277,11 +308,6 @@
                             "Designed for challenging fluids",
                             "Helps reduce blockage and leakage risk",
                             "Supports customized material and channel design"
-                        ],
-                        "ja": [
-                            "難処理流体向けに設計",
-                            "閉塞や漏れのリスク低減に貢献",
-                            "材料および流路のカスタマイズ設計に対応"
                         ],
                         "zh": [
                             "针对复杂介质设计",
@@ -300,10 +326,6 @@
                         "en": {
                             "meta_title": "TP Welded Plate Heat Exchanger Manufacturer",
                             "meta_description": "TP welded plate heat exchanger for slurry, viscous, and fiber-containing media with customized design for reliable industrial operation."
-                        },
-                        "ja": {
-                            "meta_title": "TP 溶接プレート式熱交換器メーカー",
-                            "meta_description": "TP 溶接プレート式熱交換器。スラリー、高粘度流体、繊維含有流体向けで、カスタマイズ設計により安定した産業運転を実現します。"
                         },
                         "zh": {
                             "meta_title": "TP 焊接板式换热器制造商",
@@ -362,17 +384,14 @@
                     "is_visible": true,
                     "name": {
                         "en": "Plate Heat Exchanger (Gasketed)",
-                        "ja": "板式熱交換器（ガスケット式）",
                         "zh": "板式换热器（胶垫式）"
                     },
                     "short_description": {
                         "en": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
-                        "ja": "チタン／ステンレス等の材料オプションと多彩なノズル仕様に対応したガスケット式板式熱交換器。",
                         "zh": "可选不锈钢/钛材等多种材料，并支持多样接口形式。"
                     },
                     "full_description": {
                         "en": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
-                        "ja": "チタン／ステンレス等の材料オプションと多彩なノズル仕様に対応したガスケット式板式熱交換器。",
                         "zh": "可选不锈钢/钛材等多种材料，并支持多样接口形式。"
                     },
                     "industries": [
@@ -386,11 +405,6 @@
                             "Easy maintenance",
                             "Material flexibility",
                             "Wide range of sizes"
-                        ],
-                        "ja": [
-                            "保守が容易",
-                            "材料選択の自由度",
-                            "幅広いサイズ展開"
                         ],
                         "zh": [
                             "易维护",
@@ -406,10 +420,6 @@
                         "en": {
                             "meta_title": "Plate Heat Exchanger (Gasketed)",
                             "meta_description": "Gasketed PHE for marine/HVAC with multiple materials and nozzles."
-                        },
-                        "ja": {
-                            "meta_title": "板式熱交換器（ガスケット式）",
-                            "meta_description": "船舶・HVAC 向け、複数材料とノズル仕様に対応するガスケット式 PHE。"
                         },
                         "zh": {
                             "meta_title": "板式换热器（胶垫式）",

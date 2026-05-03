@@ -129,21 +129,27 @@
   ],
   "images": [
     {
-      "alt_text": "Shanghai Heat Transfer Equipment Factory View",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/factory_front.jpg"
+      "alt_text": "Shanghai Heat Transfer Equipment Factory View 1",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company.jpg"
     },
     {
-      "alt_text": "Shanghai Heat Transfer Equipment Company Building",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company.jpg"
+      "alt_text": "Shanghai Heat Transfer Equipment Factory View 2",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company_2.jpg"
+    },
+    {
+      "alt_text": "Shanghai Heat Transfer Equipment Factory View 3",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company_3.jpg"
+    },
+    {
+      "alt_text": "Shanghai Heat Transfer Equipment Factory View 4",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company_4.jpg"
+    },
+    {
+      "alt_text": "Shanghai Heat Transfer Equipment Factory View 5",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company_5.jpg"
     }
   ],
   "products": [
-    {
-      "slug": "tp-fully-welded-plate-heat-exchanger",
-      "name": "TP 全焊接板式换热器",
-      "short_description": "适用于高温高压工况的 TP 全焊接/可开式结构。",
-      "url": "shanghai-heat-transfer-equipment-co-ltd/tp-fully-welded-plate-heat-exchanger"
-    },
     {
       "slug": "ht-bloc-welded-plate-heat-exchanger",
       "name": "HT-BLOC 焊接板式换热器",
@@ -152,18 +158,18 @@
       "url": "shanghai-heat-transfer-equipment-co-ltd/ht-bloc-welded-plate-heat-exchanger"
     },
     {
-      "slug": "tp-welded-plate-heat-exchanger",
-      "name": "TP 焊接板式换热器",
-      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_1.jpg",
-      "short_description": "适用于浆料、高粘度及含纤维介质的专用换热器。",
-      "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
-    },
-    {
       "slug": "plate-heat-exchanger",
       "name": "板式换热器（胶垫式）",
       "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_hex_1.jpg",
       "short_description": "可选不锈钢/钛材等多种材料，并支持多样接口形式。",
       "url": "shanghai-heat-transfer-equipment-co-ltd/plate-heat-exchanger"
+    },
+    {
+      "slug": "tp-welded-plate-heat-exchanger",
+      "name": "TP 焊接板式换热器",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_1.jpg",
+      "short_description": "适用于浆料、高粘度及含纤维介质的专用换热器。",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
     }
   ]
 }
