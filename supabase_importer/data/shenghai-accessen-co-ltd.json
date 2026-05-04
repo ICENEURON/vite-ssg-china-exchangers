@@ -696,13 +696,6 @@
             "folder": "product_images",
             "file_name": "a_bloc_fully_welded_removable_plate_heat_exchanger.png",
             "alt_text": "A-BLOC Fully Welded Removable Plate Heat Exchanger"
-          },
-          {
-            "order": 1,
-            "asset_type": "document",
-            "folder": "product_docs",
-            "file_name": "a_bloc_fully_welded_removable_plate_heat_exchanger.pdf",
-            "alt_text": "A-BLOC Fully Welded Removable Plate Heat Exchanger Brochure"
           }
         ]
       },
@@ -811,13 +804,6 @@
             "folder": "product_images",
             "file_name": "au_an_as_ap_ac_series_gasketed_plate_heat_exchanger_i.png",
             "alt_text": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I"
-          },
-          {
-            "order": 1,
-            "asset_type": "document",
-            "folder": "product_docs",
-            "file_name": "au_an_as_ap_ac_series_gasketed_plate_heat_exchanger.pdf",
-            "alt_text": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger Brochure"
           }
         ]
       },
@@ -913,13 +899,6 @@
             "folder": "product_images",
             "file_name": "awps_series_plate_shell_heat_exchanger_i.png",
             "alt_text": "AWPS Series Plate-Shell Heat Exchanger - I"
-          },
-          {
-            "order": 1,
-            "asset_type": "document",
-            "folder": "product_docs",
-            "file_name": "aw_series_fully_welded_heat_exchangers.pdf",
-            "alt_text": "AW Series Fully Welded Heat Exchangers Brochure"
           }
         ]
       }

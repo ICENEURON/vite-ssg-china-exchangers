@@ -29,7 +29,9 @@
     "technical_specifications": "技術規格",
     "certificates": "證書",
     "certifications": "認證",
-    "certificate_alt": "證書"
+    "certificate_alt": "證書",
+    "document_downloads": "文档下载",
+    "download": "下载"
   },
   "categories": {}
 }

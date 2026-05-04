@@ -1,0 +1,41 @@
+{
+  "slug": "round-shell-heat-exchanger",
+  "name": "Round Shell Heat Exchanger",
+  "full_description": "According to the official English product page, this heat exchanger is assembled from welded plates, shell, and beam flange components so that cold and hot media flow alternately inside the equipment. It is presented as keeping the high efficiency and compact structure of a plate heat exchanger while also providing the high-temperature and high-pressure resistance associated with shell-and-tube equipment for petroleum, chemical, electric power, pharmaceutical, metallurgy, refrigeration, and related industries.",
+  "industries": [
+    "HVAC",
+    "Petrochemical",
+    "Chemical Processing",
+    "Pharmaceuticals",
+    "Power Generation"
+  ],
+  "advantage": [
+    "Keeps the high heat transfer efficiency of plate heat exchangers.",
+    "Maintains a compact structure for process installations with limited space.",
+    "Adds higher temperature and pressure resistance associated with shell-and-tube duty."
+  ],
+  "technical_parameters": {
+    "Assembly Area": "≤95m2",
+    "Design Pressure": "Vacuum ~ 10MPa",
+    "Plate Thickness": "0.5 ~ 1.2mm",
+    "Design Temperature": "-200 ~ 400℃",
+    "Minimum Temperature Difference": "2℃"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Round Shell Heat Exchanger",
+    "meta_description": "Round-shell welded plate exchanger combining plate efficiency with shell-and-tube pressure resistance."
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Round Shell Heat Exchanger",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/round_shell_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

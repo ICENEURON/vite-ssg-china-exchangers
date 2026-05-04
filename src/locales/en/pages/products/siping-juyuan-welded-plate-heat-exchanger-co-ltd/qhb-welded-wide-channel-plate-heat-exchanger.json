@@ -1,0 +1,43 @@
+{
+  "slug": "qhb-welded-wide-channel-plate-heat-exchanger",
+  "name": "QHB Welded Wide Channel Plate Heat Exchanger",
+  "full_description": "The official product page describes this model as a fully welded clamped plate heat exchanger in which plate bundles are welded from multiple plates and tightly fixed by clamping plates and high-performance bolts. The product is designed to treat media containing solid particles, fiber suspensions, and viscous fluids, with structures that support inspection, maintenance, and cleaning from four sides.",
+  "industries": [
+    "Chemical Processing",
+    "Food and Beverage"
+  ],
+  "advantage": [
+    "U-shaped welding structure between sheet pairs for stronger pressure-bearing capacity.",
+    "Imported fully automatic laser welding without damage to the plate.",
+    "Wear-resistant surface treatment improves corrosion resistance and service life."
+  ],
+  "technical_parameters": {
+    "Installed Area": "880 m2",
+    "Sheet Material": "304 / 304L / 321 / 316L / dual phase steel",
+    "Plate Thickness": "1.5-2.0 mm",
+    "Bearing Capacity": "2.1 MPa",
+    "Design Temperature": "350 C",
+    "Fixed-pitch Columns": "316L"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "QHB Welded Wide Channel Plate Heat Exchanger",
+    "meta_description": "Fully welded wide-channel plate heat exchanger for particle, fiber, and viscous-media applications."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-welded-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "QHB Welded Wide Channel Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-welded-plate-heat-exchanger-co-ltd/product_images/qhb_welded_wide_channel_plate_heat_exchanger_1.jpg"
+    },
+    {
+      "alt_text": "QHB Welded Wide Channel Plate Heat Exchanger View 2",
+      "url": "/storage/assets/siping-juyuan-welded-plate-heat-exchanger-co-ltd/product_images/qhb_welded_wide_channel_plate_heat_exchanger_2.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

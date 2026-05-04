@@ -29,7 +29,9 @@
     "technical_specifications": "Technical Specifications",
     "certificates": "Certificates",
     "certifications": "Certifications",
-    "certificate_alt": "Certificate"
+    "certificate_alt": "Certificate",
+    "document_downloads": "Document Downloads",
+    "download": "Download"
   },
   "categories": {}
 }

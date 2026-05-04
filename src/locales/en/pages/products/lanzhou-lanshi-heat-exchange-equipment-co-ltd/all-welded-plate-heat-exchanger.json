@@ -1,0 +1,42 @@
+{
+  "slug": "all-welded-plate-heat-exchanger",
+  "name": "All-Welded Plate Heat Exchanger",
+  "full_description": "The official page states that the plate is formed by an automatic production line and the plate bundles are welded by a dedicated program-controlled automatic welding machine. All plate bundles are welded inside the shell, and the cover plate can be opened for mechanical cleaning. The product is positioned as a compact and efficient alternative to shell-and-tube heat exchangers for central heating, metallurgy, petrochemical, chemical, electric power, medicine, food, and related service.",
+  "industries": [
+    "HVAC",
+    "Petrochemical",
+    "Chemical Processing",
+    "Food and Beverage",
+    "Pharmaceuticals",
+    "Power Generation"
+  ],
+  "advantage": [
+    "Plate bundles are fully welded inside the shell.",
+    "Cover plate can be opened for mechanical cleaning.",
+    "Flow channel structure is intended to prevent medium leakage and fluid crossover.",
+    "Combines compact structure and high heat transfer efficiency with higher pressure and temperature resistance."
+  ],
+  "technical_parameters": {
+    "Assembly Area": "≤6000m2",
+    "Design Pressure": "Vacuum ~ 6.0MPa",
+    "Plate Thickness": "0.5 ~ 1.2mm",
+    "Minimum Temperature Difference": "1℃"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "All-Welded Plate Heat Exchanger",
+    "meta_description": "Fully welded plate exchanger installed inside a shell for high-pressure and high-temperature duty."
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "All-Welded Plate Heat Exchanger",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/all_welded_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

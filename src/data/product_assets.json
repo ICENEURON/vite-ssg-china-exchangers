@@ -1,70 +1,5 @@
 [
   {
-    "id": "fa20ddd5-1261-4320-9fad-8cf790c9632f",
-    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
-    "asset_type": "certificate",
-    "alt_text": "NBBI Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png",
-    "file_name": "nbbi.png",
-    "file_type": "png",
-    "created_at": "2026-05-03T15:07:46.848+00:00",
-    "updated_at": "2026-05-04T07:00:26.485+00:00",
-    "order": 4
-  },
-  {
-    "id": "4fa24bed-bd5c-4e96-b9f2-88480376deb0",
-    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
-    "asset_type": "certificate",
-    "alt_text": "SGS Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png",
-    "file_name": "sgs.png",
-    "file_type": "png",
-    "created_at": "2026-05-03T15:07:47.739+00:00",
-    "updated_at": "2026-05-04T07:00:26.956+00:00",
-    "order": 5
-  },
-  {
-    "id": "b43a0ad9-6165-4bd3-a5e0-50467d44b1ac",
-    "product_id": "05c5bf8f-b4df-4991-8678-690ff227950c",
-    "asset_type": "gallery_image",
-    "alt_text": "Gasketed Plate Heat Exchanger",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_1.png",
-    "file_name": "plate_heat_exchanger_1.png",
-    "file_type": "png",
-    "created_at": "2026-05-04T02:47:48.73+00:00",
-    "updated_at": "2026-05-04T07:00:28.637+00:00",
-    "order": 1
-  },
-  {
-    "id": "f6b608eb-fd52-4a1b-9c6f-1724b0ab06be",
-    "product_id": "05c5bf8f-b4df-4991-8678-690ff227950c",
-    "asset_type": "gallery_image",
-    "alt_text": "Gasketed Plate Heat Exchanger Structure",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_2.jpg",
-    "file_name": "plate_heat_exchanger_2.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-05-04T02:47:49.27+00:00",
-    "updated_at": "2026-05-04T07:00:29.121+00:00",
-    "order": 2
-  },
-  {
-    "id": "0a7f4ace-31c2-4e86-a02e-c7f610adcbc7",
-    "product_id": "05c5bf8f-b4df-4991-8678-690ff227950c",
-    "asset_type": "gallery_image",
-    "alt_text": "Gasketed Plate Heat Exchanger Detail",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_3.jpg",
-    "file_name": "plate_heat_exchanger_3.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-05-04T02:47:49.505+00:00",
-    "updated_at": "2026-05-04T07:00:29.622+00:00",
-    "order": 3
-  },
-  {
     "id": "811bb785-87d1-48a8-b8b9-f23a0ef2262f",
     "product_id": "05c5bf8f-b4df-4991-8678-690ff227950c",
     "asset_type": "gallery_image",
@@ -74,7 +9,7 @@
     "file_name": "plate_heat_exchanger_4.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T02:47:51.241+00:00",
-    "updated_at": "2026-05-04T07:00:31.047+00:00",
+    "updated_at": "2026-05-04T10:56:50.029+00:00",
     "order": 4
   },
   {
@@ -87,7 +22,7 @@
     "file_name": "asme.png",
     "file_type": "png",
     "created_at": "2026-05-04T02:47:51.765+00:00",
-    "updated_at": "2026-05-04T07:00:31.501+00:00",
+    "updated_at": "2026-05-04T10:56:50.502+00:00",
     "order": 1
   },
   {
@@ -100,7 +35,7 @@
     "file_name": "bv.png",
     "file_type": "png",
     "created_at": "2026-05-04T02:47:52.246+00:00",
-    "updated_at": "2026-05-04T07:00:31.938+00:00",
+    "updated_at": "2026-05-04T10:56:50.985+00:00",
     "order": 2
   },
   {
@@ -113,7 +48,7 @@
     "file_name": "ce.png",
     "file_type": "png",
     "created_at": "2026-05-04T02:47:52.76+00:00",
-    "updated_at": "2026-05-04T07:00:32.398+00:00",
+    "updated_at": "2026-05-04T10:56:51.481+00:00",
     "order": 3
   },
   {
@@ -126,7 +61,7 @@
     "file_name": "nbbi.png",
     "file_type": "png",
     "created_at": "2026-05-04T02:47:53.239+00:00",
-    "updated_at": "2026-05-04T07:00:32.842+00:00",
+    "updated_at": "2026-05-04T10:56:51.701+00:00",
     "order": 4
   },
   {
@@ -139,7 +74,7 @@
     "file_name": "sgs.png",
     "file_type": "png",
     "created_at": "2026-05-04T02:47:53.976+00:00",
-    "updated_at": "2026-05-04T07:00:33.055+00:00",
+    "updated_at": "2026-05-04T10:56:52.196+00:00",
     "order": 5
   },
   {
@@ -152,7 +87,7 @@
     "file_name": "wide_gap_welded_plate_heat_exchanger_2.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:09:59.255+00:00",
-    "updated_at": "2026-05-04T07:00:34.671+00:00",
+    "updated_at": "2026-05-04T10:56:54.787+00:00",
     "order": 2
   },
   {
@@ -165,7 +100,7 @@
     "file_name": "wide_gap_welded_plate_heat_exchanger_3.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T03:10:00.957+00:00",
-    "updated_at": "2026-05-04T07:00:36.035+00:00",
+    "updated_at": "2026-05-04T10:56:56.245+00:00",
     "order": 3
   },
   {
@@ -178,7 +113,7 @@
     "file_name": "wide_gap_welded_plate_heat_exchanger_4.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T03:10:01.826+00:00",
-    "updated_at": "2026-05-04T07:00:36.598+00:00",
+    "updated_at": "2026-05-04T10:56:57.345+00:00",
     "order": 4
   },
   {
@@ -191,7 +126,7 @@
     "file_name": "wide_gap_welded_plate_heat_exchanger_5.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:10:02.544+00:00",
-    "updated_at": "2026-05-04T07:00:36.931+00:00",
+    "updated_at": "2026-05-04T10:56:57.786+00:00",
     "order": 5
   },
   {
@@ -204,7 +139,7 @@
     "file_name": "asme.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:10:03.055+00:00",
-    "updated_at": "2026-05-04T07:00:37.369+00:00",
+    "updated_at": "2026-05-04T10:56:58.225+00:00",
     "order": 1
   },
   {
@@ -217,7 +152,7 @@
     "file_name": "bv.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:10:03.252+00:00",
-    "updated_at": "2026-05-04T07:00:37.814+00:00",
+    "updated_at": "2026-05-04T10:56:58.699+00:00",
     "order": 2
   },
   {
@@ -230,7 +165,7 @@
     "file_name": "ce.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:10:03.707+00:00",
-    "updated_at": "2026-05-04T07:00:38.286+00:00",
+    "updated_at": "2026-05-04T10:56:59.161+00:00",
     "order": 3
   },
   {
@@ -243,7 +178,7 @@
     "file_name": "nbbi.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:10:04.17+00:00",
-    "updated_at": "2026-05-04T07:00:38.5+00:00",
+    "updated_at": "2026-05-04T10:56:59.646+00:00",
     "order": 4
   },
   {
@@ -256,7 +191,7 @@
     "file_name": "sgs.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:10:04.676+00:00",
-    "updated_at": "2026-05-04T07:00:38.693+00:00",
+    "updated_at": "2026-05-04T10:57:00.129+00:00",
     "order": 5
   },
   {
@@ -269,7 +204,7 @@
     "file_name": "printed_circuit_heat_exchanger_1.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T03:22:09.023+00:00",
-    "updated_at": "2026-05-04T07:00:39.393+00:00",
+    "updated_at": "2026-05-04T10:57:00.537+00:00",
     "order": 1
   },
   {
@@ -282,7 +217,7 @@
     "file_name": "printed_circuit_heat_exchanger_2.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:22:09.634+00:00",
-    "updated_at": "2026-05-04T07:00:40.298+00:00",
+    "updated_at": "2026-05-04T10:57:01.493+00:00",
     "order": 2
   },
   {
@@ -295,7 +230,7 @@
     "file_name": "printed_circuit_heat_exchanger_3.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T03:22:10.839+00:00",
-    "updated_at": "2026-05-04T07:00:41.723+00:00",
+    "updated_at": "2026-05-04T10:57:03.1+00:00",
     "order": 3
   },
   {
@@ -308,7 +243,7 @@
     "file_name": "asme.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:22:11.354+00:00",
-    "updated_at": "2026-05-04T07:00:41.917+00:00",
+    "updated_at": "2026-05-04T10:57:03.592+00:00",
     "order": 1
   },
   {
@@ -321,7 +256,7 @@
     "file_name": "bv.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:22:11.577+00:00",
-    "updated_at": "2026-05-04T07:00:42.116+00:00",
+    "updated_at": "2026-05-04T10:57:04.054+00:00",
     "order": 2
   },
   {
@@ -334,33 +269,7 @@
     "file_name": "ce.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:22:11.807+00:00",
-    "updated_at": "2026-05-04T07:00:42.574+00:00",
-    "order": 3
-  },
-  {
-    "id": "c50ff99f-b0cb-4fbe-91a0-9656326d9c7e",
-    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
-    "asset_type": "gallery_image",
-    "alt_text": "HT-BLOC Welded Plate Heat Exchanger Internal Structure",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_2.png",
-    "file_name": "ht_bloc_2.png",
-    "file_type": "png",
-    "created_at": "2026-05-03T15:07:44.151+00:00",
-    "updated_at": "2026-05-04T07:00:24.384+00:00",
-    "order": 2
-  },
-  {
-    "id": "0c1cf9f4-079c-478e-856a-5051760c3dcf",
-    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
-    "asset_type": "gallery_image",
-    "alt_text": "HT-BLOC Welded Plate Heat Exchanger Installation",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_3.jpg",
-    "file_name": "ht_bloc_3.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-05-03T15:07:44.694+00:00",
-    "updated_at": "2026-05-04T07:00:24.915+00:00",
+    "updated_at": "2026-05-04T10:57:04.566+00:00",
     "order": 3
   },
   {
@@ -373,7 +282,7 @@
     "file_name": "asme.png",
     "file_type": "png",
     "created_at": "2026-05-03T15:07:44.924+00:00",
-    "updated_at": "2026-05-04T07:00:25.364+00:00",
+    "updated_at": "2026-05-04T10:56:43.65+00:00",
     "order": 1
   },
   {
@@ -386,7 +295,7 @@
     "file_name": "bv.png",
     "file_type": "png",
     "created_at": "2026-05-03T15:07:45.435+00:00",
-    "updated_at": "2026-05-04T07:00:25.813+00:00",
+    "updated_at": "2026-05-04T10:56:44.118+00:00",
     "order": 2
   },
   {
@@ -399,86 +308,86 @@
     "file_name": "ce.png",
     "file_type": "png",
     "created_at": "2026-05-03T15:07:45.927+00:00",
-    "updated_at": "2026-05-04T07:00:26.28+00:00",
+    "updated_at": "2026-05-04T10:56:44.622+00:00",
     "order": 3
   },
   {
-    "id": "b3504ccf-2986-4c71-b965-1cfc7ce3d9c1",
-    "product_id": "a137f02f-afd5-4ad6-8ded-c86e38dbab2f",
-    "asset_type": "gallery_image",
-    "alt_text": "Plate Air Preheater",
+    "id": "fa20ddd5-1261-4320-9fad-8cf790c9632f",
+    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
+    "asset_type": "certificate",
+    "alt_text": "NBBI Certificate",
     "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_1.jpg",
-    "file_name": "plate_air_preheater_1.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-05-04T03:46:28.446+00:00",
-    "updated_at": "2026-05-04T07:00:49.087+00:00",
-    "order": 1
-  },
-  {
-    "id": "c15ddbda-4449-4381-9fef-d7e4768508ef",
-    "product_id": "a137f02f-afd5-4ad6-8ded-c86e38dbab2f",
-    "asset_type": "gallery_image",
-    "alt_text": "Plate Air Preheater Module",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_2.jpg",
-    "file_name": "plate_air_preheater_2.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-05-04T03:46:28.718+00:00",
-    "updated_at": "2026-05-04T07:00:50.112+00:00",
-    "order": 2
-  },
-  {
-    "id": "c7c76e9c-4749-40c3-b99f-ddc36b0d1854",
-    "product_id": "a137f02f-afd5-4ad6-8ded-c86e38dbab2f",
-    "asset_type": "gallery_image",
-    "alt_text": "Plate Air Preheater Installation",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_3.jpg",
-    "file_name": "plate_air_preheater_3.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-05-04T03:46:28.933+00:00",
-    "updated_at": "2026-05-04T07:00:50.331+00:00",
-    "order": 3
-  },
-  {
-    "id": "36fcde9d-0657-4718-8342-1e4734d3b170",
-    "product_id": "a137f02f-afd5-4ad6-8ded-c86e38dbab2f",
-    "asset_type": "gallery_image",
-    "alt_text": "Plate Air Preheater Detail",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG",
-    "file_name": "plate_air_preheater_4.JPG",
-    "file_type": "jpg",
-    "created_at": "2026-05-04T03:46:30.52+00:00",
-    "updated_at": "2026-05-04T07:00:51.916+00:00",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png",
+    "file_name": "nbbi.png",
+    "file_type": "png",
+    "created_at": "2026-05-03T15:07:46.848+00:00",
+    "updated_at": "2026-05-04T10:56:45.1+00:00",
     "order": 4
   },
   {
-    "id": "12a92a79-fb03-4a14-adbb-9f18f34d78f1",
-    "product_id": "a137f02f-afd5-4ad6-8ded-c86e38dbab2f",
+    "id": "4fa24bed-bd5c-4e96-b9f2-88480376deb0",
+    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
     "asset_type": "certificate",
-    "alt_text": "ASME Certificate",
+    "alt_text": "SGS Certificate",
     "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png",
-    "file_name": "asme.png",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png",
+    "file_name": "sgs.png",
     "file_type": "png",
-    "created_at": "2026-05-04T03:46:31.02+00:00",
-    "updated_at": "2026-05-04T07:00:52.411+00:00",
+    "created_at": "2026-05-03T15:07:47.739+00:00",
+    "updated_at": "2026-05-04T10:56:45.576+00:00",
+    "order": 5
+  },
+  {
+    "id": "b43a0ad9-6165-4bd3-a5e0-50467d44b1ac",
+    "product_id": "05c5bf8f-b4df-4991-8678-690ff227950c",
+    "asset_type": "gallery_image",
+    "alt_text": "Gasketed Plate Heat Exchanger",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_1.png",
+    "file_name": "plate_heat_exchanger_1.png",
+    "file_type": "png",
+    "created_at": "2026-05-04T02:47:48.73+00:00",
+    "updated_at": "2026-05-04T10:56:47.149+00:00",
     "order": 1
   },
   {
-    "id": "aadb2793-571d-422b-87f3-5c706354e39f",
-    "product_id": "a137f02f-afd5-4ad6-8ded-c86e38dbab2f",
-    "asset_type": "certificate",
-    "alt_text": "BV Certificate",
+    "id": "f6b608eb-fd52-4a1b-9c6f-1724b0ab06be",
+    "product_id": "05c5bf8f-b4df-4991-8678-690ff227950c",
+    "asset_type": "gallery_image",
+    "alt_text": "Gasketed Plate Heat Exchanger Structure",
     "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png",
-    "file_name": "bv.png",
-    "file_type": "png",
-    "created_at": "2026-05-04T03:46:31.234+00:00",
-    "updated_at": "2026-05-04T07:00:52.589+00:00",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_2.jpg",
+    "file_name": "plate_heat_exchanger_2.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T02:47:49.27+00:00",
+    "updated_at": "2026-05-04T10:56:47.666+00:00",
     "order": 2
+  },
+  {
+    "id": "0a7f4ace-31c2-4e86-a02e-c7f610adcbc7",
+    "product_id": "05c5bf8f-b4df-4991-8678-690ff227950c",
+    "asset_type": "gallery_image",
+    "alt_text": "Gasketed Plate Heat Exchanger Detail",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_3.jpg",
+    "file_name": "plate_heat_exchanger_3.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T02:47:49.505+00:00",
+    "updated_at": "2026-05-04T10:56:48.154+00:00",
+    "order": 3
+  },
+  {
+    "id": "0c1cf9f4-079c-478e-856a-5051760c3dcf",
+    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
+    "asset_type": "gallery_image",
+    "alt_text": "HT-BLOC Welded Plate Heat Exchanger Installation",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_3.jpg",
+    "file_name": "ht_bloc_3.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-03T15:07:44.694+00:00",
+    "updated_at": "2026-05-04T10:56:43.15+00:00",
+    "order": 3
   },
   {
     "id": "f0af80bc-5264-4616-987e-ad3c0d2937d0",
@@ -490,7 +399,7 @@
     "file_name": "ce.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:46:31.757+00:00",
-    "updated_at": "2026-05-04T07:00:52.785+00:00",
+    "updated_at": "2026-05-04T10:57:15.231+00:00",
     "order": 3
   },
   {
@@ -503,8 +412,21 @@
     "file_name": "nbbi.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:46:31.944+00:00",
-    "updated_at": "2026-05-04T07:00:53.247+00:00",
+    "updated_at": "2026-05-04T10:57:15.682+00:00",
     "order": 4
+  },
+  {
+    "id": "68f792be-87dd-46ed-98ad-9936633e54ce",
+    "product_id": "a137f02f-afd5-4ad6-8ded-c86e38dbab2f",
+    "asset_type": "certificate",
+    "alt_text": "SGS Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png",
+    "file_name": "sgs.png",
+    "file_type": "png",
+    "created_at": "2026-05-04T03:46:32.386+00:00",
+    "updated_at": "2026-05-04T10:57:16.135+00:00",
+    "order": 5
   },
   {
     "id": "8a66a395-fac4-486a-91c6-11bd336d1d99",
@@ -516,7 +438,7 @@
     "file_name": "liquid_cooled_hydraulic_power_unit_pheu.png",
     "file_type": "png",
     "created_at": "2026-05-04T05:31:27.664+00:00",
-    "updated_at": "2026-05-04T07:01:03.529+00:00",
+    "updated_at": "2026-05-04T10:57:24.512+00:00",
     "order": 1
   },
   {
@@ -529,7 +451,7 @@
     "file_name": "outdoor_prefabricated_integrated_cooling_station_ais.png",
     "file_type": "png",
     "created_at": "2026-05-04T05:31:28.486+00:00",
-    "updated_at": "2026-05-04T07:01:04.117+00:00",
+    "updated_at": "2026-05-04T10:57:25.126+00:00",
     "order": 1
   },
   {
@@ -542,7 +464,7 @@
     "file_name": "high_efficiency_plate_heat_exchanger_aq_aa.png",
     "file_type": "png",
     "created_at": "2026-05-04T05:31:29.327+00:00",
-    "updated_at": "2026-05-04T07:01:04.665+00:00",
+    "updated_at": "2026-05-04T10:57:25.71+00:00",
     "order": 1
   },
   {
@@ -555,20 +477,7 @@
     "file_name": "a_bloc_fully_welded_removable_plate_heat_exchanger.png",
     "file_type": "png",
     "created_at": "2026-05-04T05:31:29.655+00:00",
-    "updated_at": "2026-05-04T07:01:05.229+00:00",
-    "order": 1
-  },
-  {
-    "id": "43d87294-0fda-40e1-bb0f-f8554d3705e8",
-    "product_id": "524c9efe-f754-4585-8e41-476a8c63c743",
-    "asset_type": "document",
-    "alt_text": "A-BLOC Fully Welded Removable Plate Heat Exchanger Brochure",
-    "storage_bucket": "assets",
-    "storage_path": "shenghai-accessen-co-ltd/product_doc/a_bloc_fully_welded_removable_plate_heat_exchanger.pdf",
-    "file_name": "a_bloc_fully_welded_removable_plate_heat_exchanger.pdf",
-    "file_type": "pdf",
-    "created_at": "2026-05-04T05:31:30.831+00:00",
-    "updated_at": "2026-05-04T07:01:06.201+00:00",
+    "updated_at": "2026-05-04T10:57:26.009+00:00",
     "order": 1
   },
   {
@@ -581,150 +490,20 @@
     "file_name": "au_an_as_ap_ac_series_gasketed_plate_heat_exchanger_i.png",
     "file_type": "png",
     "created_at": "2026-05-04T05:31:31.458+00:00",
-    "updated_at": "2026-05-04T07:01:06.484+00:00",
+    "updated_at": "2026-05-04T10:57:26.601+00:00",
     "order": 1
   },
   {
-    "id": "ca7664d3-eba3-4f12-92cb-f64bd0d61808",
-    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
+    "id": "6d0aca8e-4c6d-497a-91f2-7cd72b3bbd99",
+    "product_id": "88eafc25-c937-462d-a614-b12c9cede787",
     "asset_type": "gallery_image",
-    "alt_text": "TP Welded Plate Heat Exchanger Flow Path",
+    "alt_text": "Plate-frame Welded Heat Exchanger",
     "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_3.jpg",
-    "file_name": "tp_welded_plate_heat_exchanger_3.jpg",
+    "storage_path": "siping-juyuan-welded-plate-heat-exchanger-co-ltd/product_images/plate_frame_welded_heat_exchanger_1.jpg",
+    "file_name": "plate_frame_welded_heat_exchanger_1.jpg",
     "file_type": "jpg",
-    "created_at": "2026-05-04T03:33:04.007+00:00",
-    "updated_at": "2026-05-04T07:00:45.398+00:00",
-    "order": 3
-  },
-  {
-    "id": "550b8f77-2b46-47e9-a231-174716878dcb",
-    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
-    "asset_type": "gallery_image",
-    "alt_text": "TP Welded Plate Heat Exchanger Detail",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_4.jpg",
-    "file_name": "tp_welded_plate_heat_exchanger_4.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-05-04T03:33:04.669+00:00",
-    "updated_at": "2026-05-04T07:00:46.14+00:00",
-    "order": 4
-  },
-  {
-    "id": "0173dd16-b74f-4945-9cb5-56c2cab70da9",
-    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
-    "asset_type": "gallery_image",
-    "alt_text": "TP Welded Plate Heat Exchanger Application",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_5.png",
-    "file_name": "tp_welded_plate_heat_exchanger_5.png",
-    "file_type": "png",
-    "created_at": "2026-05-04T03:33:05.581+00:00",
-    "updated_at": "2026-05-04T07:00:46.758+00:00",
-    "order": 5
-  },
-  {
-    "id": "1b356fb5-7723-4593-8574-8844af0c51a7",
-    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
-    "asset_type": "certificate",
-    "alt_text": "ASME Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png",
-    "file_name": "asme.png",
-    "file_type": "png",
-    "created_at": "2026-05-04T03:33:06.083+00:00",
-    "updated_at": "2026-05-04T07:00:47.188+00:00",
-    "order": 1
-  },
-  {
-    "id": "ad271e95-bf0e-4cfb-be63-f1e6b7f8fbf5",
-    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
-    "asset_type": "certificate",
-    "alt_text": "BV Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png",
-    "file_name": "bv.png",
-    "file_type": "png",
-    "created_at": "2026-05-04T03:33:06.557+00:00",
-    "updated_at": "2026-05-04T07:00:47.721+00:00",
-    "order": 2
-  },
-  {
-    "id": "8833b5ae-52a8-483f-a567-92ad98769fbb",
-    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
-    "asset_type": "certificate",
-    "alt_text": "CE Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png",
-    "file_name": "ce.png",
-    "file_type": "png",
-    "created_at": "2026-05-04T03:33:06.984+00:00",
-    "updated_at": "2026-05-04T07:00:48.164+00:00",
-    "order": 3
-  },
-  {
-    "id": "900d8e31-0801-4c8f-a4e2-eb55dc9c83a7",
-    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
-    "asset_type": "certificate",
-    "alt_text": "NBBI Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png",
-    "file_name": "nbbi.png",
-    "file_type": "png",
-    "created_at": "2026-05-04T03:33:07.435+00:00",
-    "updated_at": "2026-05-04T07:00:48.35+00:00",
-    "order": 4
-  },
-  {
-    "id": "67029d18-5bf4-485b-9b8d-8679aa685964",
-    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
-    "asset_type": "certificate",
-    "alt_text": "SGS Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png",
-    "file_name": "sgs.png",
-    "file_type": "png",
-    "created_at": "2026-05-04T03:33:07.915+00:00",
-    "updated_at": "2026-05-04T07:00:48.829+00:00",
-    "order": 5
-  },
-  {
-    "id": "68f792be-87dd-46ed-98ad-9936633e54ce",
-    "product_id": "a137f02f-afd5-4ad6-8ded-c86e38dbab2f",
-    "asset_type": "certificate",
-    "alt_text": "SGS Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png",
-    "file_name": "sgs.png",
-    "file_type": "png",
-    "created_at": "2026-05-04T03:46:32.386+00:00",
-    "updated_at": "2026-05-04T07:00:53.737+00:00",
-    "order": 5
-  },
-  {
-    "id": "522737e6-12fd-4148-a0c9-b07a539e40ce",
-    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
-    "asset_type": "gallery_image",
-    "alt_text": "TP Welded Plate Heat Exchanger Structure",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_2.png",
-    "file_name": "tp_welded_plate_heat_exchanger_2.png",
-    "file_type": "png",
-    "created_at": "2026-05-04T03:33:03.191+00:00",
-    "updated_at": "2026-05-04T07:00:44.59+00:00",
-    "order": 2
-  },
-  {
-    "id": "d19d441b-7088-40f3-88a6-50a81060cd06",
-    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
-    "asset_type": "gallery_image",
-    "alt_text": "HT-BLOC Welded Plate Heat Exchanger",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_1.png",
-    "file_name": "ht_bloc_1.png",
-    "file_type": "png",
-    "created_at": "2026-03-26T01:54:47.208+00:00",
-    "updated_at": "2026-05-04T07:00:23.185+00:00",
+    "created_at": "2026-05-04T09:45:13.268+00:00",
+    "updated_at": "2026-05-04T10:57:37.42+00:00",
     "order": 1
   },
   {
@@ -737,7 +516,7 @@
     "file_name": "wide_gap_welded_plate_heat_exchanger_1.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:09:58.567+00:00",
-    "updated_at": "2026-05-04T07:00:34.292+00:00",
+    "updated_at": "2026-05-04T10:56:54.068+00:00",
     "order": 1
   },
   {
@@ -750,8 +529,112 @@
     "file_name": "nbbi.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:22:12.309+00:00",
-    "updated_at": "2026-05-04T07:00:43.054+00:00",
+    "updated_at": "2026-05-04T10:57:05.064+00:00",
     "order": 4
+  },
+  {
+    "id": "8833b5ae-52a8-483f-a567-92ad98769fbb",
+    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
+    "asset_type": "certificate",
+    "alt_text": "CE Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png",
+    "file_name": "ce.png",
+    "file_type": "png",
+    "created_at": "2026-05-04T03:33:06.984+00:00",
+    "updated_at": "2026-05-04T10:57:10.531+00:00",
+    "order": 3
+  },
+  {
+    "id": "67029d18-5bf4-485b-9b8d-8679aa685964",
+    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
+    "asset_type": "certificate",
+    "alt_text": "SGS Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png",
+    "file_name": "sgs.png",
+    "file_type": "png",
+    "created_at": "2026-05-04T03:33:07.915+00:00",
+    "updated_at": "2026-05-04T10:57:11.709+00:00",
+    "order": 5
+  },
+  {
+    "id": "b3504ccf-2986-4c71-b965-1cfc7ce3d9c1",
+    "product_id": "a137f02f-afd5-4ad6-8ded-c86e38dbab2f",
+    "asset_type": "gallery_image",
+    "alt_text": "Plate Air Preheater",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_1.jpg",
+    "file_name": "plate_air_preheater_1.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T03:46:28.446+00:00",
+    "updated_at": "2026-05-04T10:57:12.021+00:00",
+    "order": 1
+  },
+  {
+    "id": "c15ddbda-4449-4381-9fef-d7e4768508ef",
+    "product_id": "a137f02f-afd5-4ad6-8ded-c86e38dbab2f",
+    "asset_type": "gallery_image",
+    "alt_text": "Plate Air Preheater Module",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_2.jpg",
+    "file_name": "plate_air_preheater_2.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T03:46:28.718+00:00",
+    "updated_at": "2026-05-04T10:57:12.488+00:00",
+    "order": 2
+  },
+  {
+    "id": "c7c76e9c-4749-40c3-b99f-ddc36b0d1854",
+    "product_id": "a137f02f-afd5-4ad6-8ded-c86e38dbab2f",
+    "asset_type": "gallery_image",
+    "alt_text": "Plate Air Preheater Installation",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_3.jpg",
+    "file_name": "plate_air_preheater_3.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T03:46:28.933+00:00",
+    "updated_at": "2026-05-04T10:57:12.699+00:00",
+    "order": 3
+  },
+  {
+    "id": "36fcde9d-0657-4718-8342-1e4734d3b170",
+    "product_id": "a137f02f-afd5-4ad6-8ded-c86e38dbab2f",
+    "asset_type": "gallery_image",
+    "alt_text": "Plate Air Preheater Detail",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG",
+    "file_name": "plate_air_preheater_4.JPG",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T03:46:30.52+00:00",
+    "updated_at": "2026-05-04T10:57:14.066+00:00",
+    "order": 4
+  },
+  {
+    "id": "12a92a79-fb03-4a14-adbb-9f18f34d78f1",
+    "product_id": "a137f02f-afd5-4ad6-8ded-c86e38dbab2f",
+    "asset_type": "certificate",
+    "alt_text": "ASME Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png",
+    "file_name": "asme.png",
+    "file_type": "png",
+    "created_at": "2026-05-04T03:46:31.02+00:00",
+    "updated_at": "2026-05-04T10:57:14.519+00:00",
+    "order": 1
+  },
+  {
+    "id": "aadb2793-571d-422b-87f3-5c706354e39f",
+    "product_id": "a137f02f-afd5-4ad6-8ded-c86e38dbab2f",
+    "asset_type": "certificate",
+    "alt_text": "BV Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png",
+    "file_name": "bv.png",
+    "file_type": "png",
+    "created_at": "2026-05-04T03:46:31.234+00:00",
+    "updated_at": "2026-05-04T10:57:14.742+00:00",
+    "order": 2
   },
   {
     "id": "df6484b4-1335-416f-9e35-8d7870779564",
@@ -763,8 +646,21 @@
     "file_name": "sgs.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:22:12.497+00:00",
-    "updated_at": "2026-05-04T07:00:43.504+00:00",
+    "updated_at": "2026-05-04T10:57:05.553+00:00",
     "order": 5
+  },
+  {
+    "id": "900d8e31-0801-4c8f-a4e2-eb55dc9c83a7",
+    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
+    "asset_type": "certificate",
+    "alt_text": "NBBI Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png",
+    "file_name": "nbbi.png",
+    "file_type": "png",
+    "created_at": "2026-05-04T03:33:07.435+00:00",
+    "updated_at": "2026-05-04T10:57:11+00:00",
+    "order": 4
   },
   {
     "id": "72819961-50bf-4d8b-8552-9953d567576c",
@@ -776,34 +672,125 @@
     "file_name": "tp_welded_plate_heat_exchanger_1.png",
     "file_type": "png",
     "created_at": "2026-05-04T03:33:02.32+00:00",
-    "updated_at": "2026-05-04T07:00:44.204+00:00",
+    "updated_at": "2026-05-04T10:57:06.306+00:00",
     "order": 1
   },
   {
-    "id": "e92825b9-bb34-4cf1-acad-6b39c855195c",
-    "product_id": "99e079a6-f545-486f-98cc-362a9b8874bd",
-    "asset_type": "document",
-    "alt_text": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger Brochure",
-    "storage_bucket": "assets",
-    "storage_path": "shenghai-accessen-co-ltd/product_doc/au_an_as_ap_ac_series_gasketed_plate_heat_exchanger.pdf",
-    "file_name": "au_an_as_ap_ac_series_gasketed_plate_heat_exchanger.pdf",
-    "file_type": "pdf",
-    "created_at": "2026-05-04T05:31:32.264+00:00",
-    "updated_at": "2026-05-04T07:01:07.058+00:00",
-    "order": 1
-  },
-  {
-    "id": "e92a294f-149c-4b37-8d35-c311ef4dd8e0",
-    "product_id": "364aaed9-a30a-4bec-849b-515098364daa",
+    "id": "522737e6-12fd-4148-a0c9-b07a539e40ce",
+    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
     "asset_type": "gallery_image",
-    "alt_text": "Liquid-Cooling Distribution Unit ACDU",
+    "alt_text": "TP Welded Plate Heat Exchanger Structure",
     "storage_bucket": "assets",
-    "storage_path": "shenghai-accessen-co-ltd/product_images/liquid_cooling_distribution_unit_acdu.png",
-    "file_name": "liquid_cooling_distribution_unit_acdu.png",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_2.png",
+    "file_name": "tp_welded_plate_heat_exchanger_2.png",
     "file_type": "png",
-    "created_at": "2026-05-04T05:31:26.824+00:00",
-    "updated_at": "2026-05-04T07:01:02.897+00:00",
+    "created_at": "2026-05-04T03:33:03.191+00:00",
+    "updated_at": "2026-05-04T10:57:06.705+00:00",
+    "order": 2
+  },
+  {
+    "id": "ca7664d3-eba3-4f12-92cb-f64bd0d61808",
+    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
+    "asset_type": "gallery_image",
+    "alt_text": "TP Welded Plate Heat Exchanger Flow Path",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_3.jpg",
+    "file_name": "tp_welded_plate_heat_exchanger_3.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T03:33:04.007+00:00",
+    "updated_at": "2026-05-04T10:57:07.604+00:00",
+    "order": 3
+  },
+  {
+    "id": "550b8f77-2b46-47e9-a231-174716878dcb",
+    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
+    "asset_type": "gallery_image",
+    "alt_text": "TP Welded Plate Heat Exchanger Detail",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_4.jpg",
+    "file_name": "tp_welded_plate_heat_exchanger_4.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T03:33:04.669+00:00",
+    "updated_at": "2026-05-04T10:57:08.369+00:00",
+    "order": 4
+  },
+  {
+    "id": "0173dd16-b74f-4945-9cb5-56c2cab70da9",
+    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
+    "asset_type": "gallery_image",
+    "alt_text": "TP Welded Plate Heat Exchanger Application",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_5.png",
+    "file_name": "tp_welded_plate_heat_exchanger_5.png",
+    "file_type": "png",
+    "created_at": "2026-05-04T03:33:05.581+00:00",
+    "updated_at": "2026-05-04T10:57:09.03+00:00",
+    "order": 5
+  },
+  {
+    "id": "1b356fb5-7723-4593-8574-8844af0c51a7",
+    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
+    "asset_type": "certificate",
+    "alt_text": "ASME Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png",
+    "file_name": "asme.png",
+    "file_type": "png",
+    "created_at": "2026-05-04T03:33:06.083+00:00",
+    "updated_at": "2026-05-04T10:57:09.526+00:00",
     "order": 1
+  },
+  {
+    "id": "ad271e95-bf0e-4cfb-be63-f1e6b7f8fbf5",
+    "product_id": "e6bd8fbf-c21b-4fbe-b912-86642c5bd1a0",
+    "asset_type": "certificate",
+    "alt_text": "BV Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png",
+    "file_name": "bv.png",
+    "file_type": "png",
+    "created_at": "2026-05-04T03:33:06.557+00:00",
+    "updated_at": "2026-05-04T10:57:10.047+00:00",
+    "order": 2
+  },
+  {
+    "id": "06de254b-c8e8-4caf-9e50-ed8719444cf1",
+    "product_id": "b3df942f-a3dd-485f-ae99-e08b4ba9a8ec",
+    "asset_type": "gallery_image",
+    "alt_text": "LS-BLOC Welded Plate Heat Exchanger",
+    "storage_bucket": "assets",
+    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/ls_bloc_welded_plate_heat_exchanger_1.png",
+    "file_name": "ls_bloc_welded_plate_heat_exchanger_1.png",
+    "file_type": "png",
+    "created_at": "2026-05-04T10:23:07.207+00:00",
+    "updated_at": "2026-05-04T10:56:17.207+00:00",
+    "order": 1
+  },
+  {
+    "id": "ec9d286e-dd6c-4390-b89b-2517ecc2746e",
+    "product_id": "a9c6a054-bf5d-4ee8-a96b-a86c40de91be",
+    "asset_type": "gallery_image",
+    "alt_text": "QHB Welded Wide Channel Plate Heat Exchanger",
+    "storage_bucket": "assets",
+    "storage_path": "siping-juyuan-welded-plate-heat-exchanger-co-ltd/product_images/qhb_welded_wide_channel_plate_heat_exchanger_1.jpg",
+    "file_name": "qhb_welded_wide_channel_plate_heat_exchanger_1.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T09:45:15.985+00:00",
+    "updated_at": "2026-05-04T10:57:37.951+00:00",
+    "order": 1
+  },
+  {
+    "id": "929cecf4-882c-4adf-bf0e-3abc0eb923ff",
+    "product_id": "a9c6a054-bf5d-4ee8-a96b-a86c40de91be",
+    "asset_type": "gallery_image",
+    "alt_text": "QHB Welded Wide Channel Plate Heat Exchanger View 2",
+    "storage_bucket": "assets",
+    "storage_path": "siping-juyuan-welded-plate-heat-exchanger-co-ltd/product_images/qhb_welded_wide_channel_plate_heat_exchanger_2.jpg",
+    "file_name": "qhb_welded_wide_channel_plate_heat_exchanger_2.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T09:45:16.172+00:00",
+    "updated_at": "2026-05-04T10:57:38.493+00:00",
+    "order": 2
   },
   {
     "id": "2c77b87f-17c9-4572-a50a-c70866867abb",
@@ -815,20 +802,20 @@
     "file_name": "awps_series_plate_shell_heat_exchanger_i.png",
     "file_type": "png",
     "created_at": "2026-05-04T05:31:32.547+00:00",
-    "updated_at": "2026-05-04T07:01:07.618+00:00",
+    "updated_at": "2026-05-04T10:57:27.195+00:00",
     "order": 1
   },
   {
-    "id": "6c74820e-e223-4f50-b25a-4d9b1c16046f",
-    "product_id": "312fa313-bb76-4b03-90a4-962d10eccd35",
-    "asset_type": "document",
-    "alt_text": "AW Series Fully Welded Heat Exchangers Brochure",
+    "id": "eb552b86-e6c3-41df-bcd0-51f99961ab9f",
+    "product_id": "d9f28ed7-4db7-4c78-b282-072cce307e9c",
+    "asset_type": "gallery_image",
+    "alt_text": "BKY Welded Plate Heat Exchanger View 2",
     "storage_bucket": "assets",
-    "storage_path": "shenghai-accessen-co-ltd/product_doc/aw_series_fully_welded_heat_exchangers.pdf",
-    "file_name": "aw_series_fully_welded_heat_exchangers.pdf",
-    "file_type": "pdf",
-    "created_at": "2026-05-04T05:31:33.545+00:00",
-    "updated_at": "2026-05-04T07:01:08.619+00:00",
+    "storage_path": "siping-juyuan-welded-plate-heat-exchanger-co-ltd/product_images/bky_welded_plate_heat_exchanger_2.jpg",
+    "file_name": "bky_welded_plate_heat_exchanger_2.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T09:45:21.443+00:00",
+    "updated_at": "2026-05-04T10:57:39.076+00:00",
     "order": 1
   },
   {
@@ -841,7 +828,7 @@
     "file_name": "plate_heat_exchanger.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:58:30.446+00:00",
-    "updated_at": "2026-05-04T07:01:11.99+00:00",
+    "updated_at": "2026-05-04T10:57:43.309+00:00",
     "order": 1
   },
   {
@@ -854,7 +841,7 @@
     "file_name": "tubular_heat_exchanger.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:58:36.097+00:00",
-    "updated_at": "2026-05-04T07:01:12.539+00:00",
+    "updated_at": "2026-05-04T10:57:43.887+00:00",
     "order": 1
   },
   {
@@ -867,7 +854,7 @@
     "file_name": "heat_exchanger_unit.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:58:37.47+00:00",
-    "updated_at": "2026-05-04T07:01:13.124+00:00",
+    "updated_at": "2026-05-04T10:57:44.32+00:00",
     "order": 1
   },
   {
@@ -880,7 +867,7 @@
     "file_name": "air_heat_exchanger.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:58:38.376+00:00",
-    "updated_at": "2026-05-04T07:01:13.696+00:00",
+    "updated_at": "2026-05-04T10:57:44.895+00:00",
     "order": 1
   },
   {
@@ -893,7 +880,7 @@
     "file_name": "air_radiator.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:58:38.919+00:00",
-    "updated_at": "2026-05-04T07:01:13.973+00:00",
+    "updated_at": "2026-05-04T10:57:45.483+00:00",
     "order": 1
   },
   {
@@ -906,7 +893,150 @@
     "file_name": "spiral_plate_heat_exchanger.png",
     "file_type": "png",
     "created_at": "2026-05-04T05:58:39.682+00:00",
-    "updated_at": "2026-05-04T07:01:14.259+00:00",
+    "updated_at": "2026-05-04T10:57:46.069+00:00",
     "order": 1
+  },
+  {
+    "id": "e92a294f-149c-4b37-8d35-c311ef4dd8e0",
+    "product_id": "364aaed9-a30a-4bec-849b-515098364daa",
+    "asset_type": "gallery_image",
+    "alt_text": "Liquid-Cooling Distribution Unit ACDU",
+    "storage_bucket": "assets",
+    "storage_path": "shenghai-accessen-co-ltd/product_images/liquid_cooling_distribution_unit_acdu.png",
+    "file_name": "liquid_cooling_distribution_unit_acdu.png",
+    "file_type": "png",
+    "created_at": "2026-05-04T05:31:26.824+00:00",
+    "updated_at": "2026-05-04T10:57:24.104+00:00",
+    "order": 1
+  },
+  {
+    "id": "b3753c25-2b27-4810-a8dd-2b84e69deca9",
+    "product_id": "b3df942f-a3dd-485f-ae99-e08b4ba9a8ec",
+    "asset_type": "gallery_image",
+    "alt_text": "Plate and Frame Heat Exchanger",
+    "storage_bucket": "assets",
+    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_and_frame_heat_exchanger_1.jpg",
+    "file_name": "plate_and_frame_heat_exchanger_1.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T10:23:07.434+00:00",
+    "updated_at": "2026-05-04T10:56:17.722+00:00",
+    "order": 2
+  },
+  {
+    "id": "2b5b759e-4487-4d6c-9da6-e6301a359f50",
+    "product_id": "aee09182-e879-4cd2-9841-3714c3dbc67f",
+    "asset_type": "gallery_image",
+    "alt_text": "Microchannel Compact Welded Plate Heat Exchanger PCHE",
+    "storage_bucket": "assets",
+    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/microchannel_compact_welded_plate_heat_exchanger_pche_1.jpg",
+    "file_name": "microchannel_compact_welded_plate_heat_exchanger_pche_1.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T10:23:07.805+00:00",
+    "updated_at": "2026-05-04T10:56:18.083+00:00",
+    "order": 1
+  },
+  {
+    "id": "2e3d280b-86c5-431a-9fb4-40972eaeba22",
+    "product_id": "b060b45e-b4a5-4e26-9dfd-c210d547ab9d",
+    "asset_type": "gallery_image",
+    "alt_text": "Wide Channel Welded Plate Heat Exchanger",
+    "storage_bucket": "assets",
+    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/wide_channel_welded_plate_heat_exchanger_1.jpg",
+    "file_name": "wide_channel_welded_plate_heat_exchanger_1.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T10:23:08.444+00:00",
+    "updated_at": "2026-05-04T10:56:18.732+00:00",
+    "order": 1
+  },
+  {
+    "id": "27a8e858-b781-4362-8c2a-c64c06adee30",
+    "product_id": "12aa2728-98c0-4697-ba0b-fc29528281e8",
+    "asset_type": "gallery_image",
+    "alt_text": "All-Welded Plate Heat Exchanger",
+    "storage_bucket": "assets",
+    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/all_welded_plate_heat_exchanger_1.jpg",
+    "file_name": "all_welded_plate_heat_exchanger_1.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T10:23:09.108+00:00",
+    "updated_at": "2026-05-04T10:56:19.337+00:00",
+    "order": 1
+  },
+  {
+    "id": "1c7abe0c-a761-4131-8b7b-f5c40fda2e0f",
+    "product_id": "2644a941-24ea-43f2-b7a0-f94527a19717",
+    "asset_type": "gallery_image",
+    "alt_text": "Detachable Plate Heat Exchanger",
+    "storage_bucket": "assets",
+    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/detachable_plate_heat_exchanger_1.jpg",
+    "file_name": "detachable_plate_heat_exchanger_1.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T10:23:09.958+00:00",
+    "updated_at": "2026-05-04T10:56:20.396+00:00",
+    "order": 1
+  },
+  {
+    "id": "5a419e69-0200-49cd-852e-3141f7de9d5a",
+    "product_id": "f450faa9-e510-42b0-9bc3-ca44d4f32276",
+    "asset_type": "gallery_image",
+    "alt_text": "Plate Heat Exchanger Unit",
+    "storage_bucket": "assets",
+    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_heat_exchanger_unit_1.jpg",
+    "file_name": "plate_heat_exchanger_unit_1.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T10:23:10.838+00:00",
+    "updated_at": "2026-05-04T10:56:21.381+00:00",
+    "order": 1
+  },
+  {
+    "id": "c41fdad9-158f-4c18-ae94-55f6f28af9f5",
+    "product_id": "1cf0df1e-779d-4e7c-afd7-16d39ef37018",
+    "asset_type": "gallery_image",
+    "alt_text": "Plate and Shell Heat Exchanger",
+    "storage_bucket": "assets",
+    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_and_shell_heat_exchanger_1.jpg",
+    "file_name": "plate_and_shell_heat_exchanger_1.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T10:23:11.447+00:00",
+    "updated_at": "2026-05-04T10:56:21.942+00:00",
+    "order": 1
+  },
+  {
+    "id": "3d07e973-0db9-454d-a385-794b1b580dab",
+    "product_id": "b455420c-de19-43c5-8a07-a953c47ee4f4",
+    "asset_type": "gallery_image",
+    "alt_text": "Round Shell Heat Exchanger",
+    "storage_bucket": "assets",
+    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/round_shell_heat_exchanger_1.jpg",
+    "file_name": "round_shell_heat_exchanger_1.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T10:23:12.054+00:00",
+    "updated_at": "2026-05-04T10:56:22.493+00:00",
+    "order": 1
+  },
+  {
+    "id": "d19d441b-7088-40f3-88a6-50a81060cd06",
+    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
+    "asset_type": "gallery_image",
+    "alt_text": "HT-BLOC Welded Plate Heat Exchanger",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_1.png",
+    "file_name": "ht_bloc_1.png",
+    "file_type": "png",
+    "created_at": "2026-03-26T01:54:47.208+00:00",
+    "updated_at": "2026-05-04T10:56:40.967+00:00",
+    "order": 1
+  },
+  {
+    "id": "c50ff99f-b0cb-4fbe-91a0-9656326d9c7e",
+    "product_id": "a7153df0-6159-48fe-a8ef-7142d81eefc4",
+    "asset_type": "gallery_image",
+    "alt_text": "HT-BLOC Welded Plate Heat Exchanger Internal Structure",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_2.png",
+    "file_name": "ht_bloc_2.png",
+    "file_type": "png",
+    "created_at": "2026-05-03T15:07:44.151+00:00",
+    "updated_at": "2026-05-04T10:56:42.43+00:00",
+    "order": 2
   }
 ]

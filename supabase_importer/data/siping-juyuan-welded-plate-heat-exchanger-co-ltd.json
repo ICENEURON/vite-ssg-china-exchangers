@@ -1,0 +1,380 @@
+[
+  {
+    "local_assets_dir": "siping-juyuan-welded-plate-heat-exchanger-co-ltd",
+    "manufacturer": {
+      "slug": "siping-juyuan-welded-plate-heat-exchanger-co-ltd",
+      "name": {
+        "en": "Siping Juyuan Welded Plate Heat Exchanger Co., Ltd.",
+        "zh": "四平巨元焊接板式换热器有限公司"
+      },
+      "short_description": {
+        "en": "Manufacturer of welded plate heat exchangers and customized heat transfer solutions for power, petrochemical, marine, HVAC, food, and other industrial applications.",
+        "zh": "面向电力、石油化工、船舶、暖通、食品等工业场景提供焊接板式换热器及定制化传热解决方案的制造商。"
+      },
+      "full_description": {
+        "en": [
+          "Siping Juyuan Welded Plate Heat Exchanger Co., Ltd. traces its roots to the Welded Plate Division established by Siping Juyuan Hanyang Plate Heat Exchanger Equipment Co., Ltd. in 1998. Since its inception, the team has focused on the research and development of fully welded plate heat exchanger technology, process, and structure.",
+          "The company offers a broad range of fully welded heat exchange products with new technologies, processes, and structures. According to the official company profile, these products are used to provide individualized and specialized solutions for military, nuclear, biomass, power, petroleum, chemical, metallurgical, shipbuilding, central heating, air conditioning and refrigeration, food and beverage, seawater desalination, and distributed energy applications.",
+          "The company states that it relies on customer resources together with big data and Internet of Things concepts to build a product operation parameter database and a product life cycle service system, while continuing to improve its products, innovation capability, and service quality."
+        ],
+        "zh": [
+          "四平巨元焊接板式换热器有限公司前身为四平市巨元瀚洋板式换热设备有限公司于1998年成立的焊接板事业部，长期从事全焊接板式换热器技术、工艺、结构的研发与科技创新工作。",
+          "公司以全新技术、工艺、结构的全焊接换热产品为载体，为军工、核能、生物质能、电力、石油、化工、冶金、船舶、集中供热、空调制冷、食品饮料、海水淡化、分布式能源等行业提供个性化、专业化解决方案。",
+          "官网介绍显示，公司依托客户资源，以大数据和物联网理念建立产品运行参数数据库和产品全生命周期服务系统，并持续改进、创新、学习和提高，为客户提供更专业的产品与更完善的服务。"
+        ]
+      },
+      "advantages": {
+        "en": [
+          "Long-term specialization in welded plate heat exchanger technology dating back to the original welded plate division established in 1998.",
+          "Broad welded product portfolio covering multiple structures such as plate-frame, wide-channel, and specialized cooling applications.",
+          "Application coverage across power, petrochemical, marine, HVAC, food and beverage, and other industrial sectors mentioned on the official website.",
+          "Official company profile highlights ongoing research, process innovation, and structural innovation for fully welded heat exchange products.",
+          "The company states that it uses product operation data and lifecycle service concepts to support more tailored industrial solutions."
+        ],
+        "zh": [
+          "焊接板技术积累深厚，源自1998年成立的焊接板事业部，长期专注于全焊接板式换热器研发。",
+          "产品结构覆盖较广，包含板框式、宽通道式及专用冷却器等多类焊接换热产品。",
+          "官网明确覆盖电力、石油化工、船舶、暖通、食品饮料等多个工业应用领域。",
+          "强调围绕全焊接换热产品持续进行技术、工艺和结构创新。",
+          "依托产品运行参数数据库和全生命周期服务系统，面向客户提供更有针对性的解决方案。"
+        ]
+      },
+      "website": "http://www.wphetht.cn/",
+      "video_link": "",
+      "social_media_links": [],
+      "email": [],
+      "phone": [
+        "4000434002",
+        "18543431901",
+        "0434-3262677"
+      ],
+      "country_id": "CN",
+      "country_name": {
+        "en": "China",
+        "zh": "中国"
+      },
+      "city": {
+        "en": "Siping",
+        "zh": "四平"
+      },
+      "address": {
+        "en": "No. 5 Nanhuan West Road, Zhanqian Street, Tiexi District, Siping, Jilin, China",
+        "zh": "吉林省四平市铁西区站前街南环西路5号"
+      },
+      "established_year": "",
+      "factory_area": "",
+      "employee_count": "",
+      "industries": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "6",
+        "7",
+        "9"
+      ],
+      "export_markets": [],
+      "is_visible": true,
+      "seo_data": {
+        "meta_title": "Siping Juyuan Welded Plate Heat Exchanger Co., Ltd. | Welded Heat Exchanger Manufacturer",
+        "meta_description": "Chinese manufacturer of welded plate heat exchangers and industrial heat transfer solutions for power, petrochemical, marine, HVAC, and related sectors."
+      }
+    },
+    "company_assets": [
+      {
+        "order": 1,
+        "asset_type": "certificate",
+        "folder": "company_certifications",
+        "file_name": "environmental_management_system_certificate.png",
+        "alt_text": "Environmental Management System Certificate"
+      },
+      {
+        "order": 2,
+        "asset_type": "certificate",
+        "folder": "company_certifications",
+        "file_name": "quality_management_system_certificate.png",
+        "alt_text": "Quality Management System Certificate"
+      },
+      {
+        "order": 3,
+        "asset_type": "certificate",
+        "folder": "company_certifications",
+        "file_name": "occupational_health_and_safety_certificate.png",
+        "alt_text": "Occupational Health and Safety Management System Certificate"
+      },
+      {
+        "order": 1,
+        "asset_type": "media",
+        "folder": "company_images",
+        "file_name": "tht_juyuan_modern_park.jpg",
+        "alt_text": "THT Juyuan Modern Park"
+      },
+      {
+        "order": 2,
+        "asset_type": "media",
+        "folder": "company_images",
+        "file_name": "plate_heat_exchanger_workshop.jpg",
+        "alt_text": "Plate Heat Exchanger Workshop"
+      },
+      {
+        "order": 3,
+        "asset_type": "media",
+        "folder": "company_images",
+        "file_name": "unit_shop.jpg",
+        "alt_text": "Unit Shop"
+      },
+      {
+        "order": 4,
+        "asset_type": "media",
+        "folder": "company_images",
+        "file_name": "new_product_workshop.jpg",
+        "alt_text": "New Product Workshop"
+      },
+      {
+        "order": 5,
+        "asset_type": "media",
+        "folder": "company_images",
+        "file_name": "tht_juyuan_modern_industrial_park.jpg",
+        "alt_text": "THT Juyuan Modern Industrial Park"
+      }
+    ],
+    "products": [
+      {
+        "product": {
+          "order": 1,
+          "slug": "plate-frame-welded-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "Plate-frame welded heat exchanger",
+            "zh": "板框式焊接式热交换器"
+          },
+          "short_description": {
+            "en": "Patented plate-frame welded heat exchanger for compact, high-efficiency industrial service.",
+            "zh": "适用于紧凑型高效工业工况的专利板框式焊接换热器。"
+          },
+          "full_description": {
+            "en": "Plate-frame heat exchanger is a patented product of Juyuan Hanyang Company and belongs to the welded plate heat exchanger category. According to the official product page, it integrates advanced international heat transfer technology, supports compact installation, and can implement API 662 and ASME standards according to user requirements.",
+            "zh": "板框式换热器是巨元瀚洋公司的专利产品，属于焊接板式换热器的一种。官网介绍显示，该产品融合国际先进传热技术，具有结构紧凑、适用于特殊介质、可按用户需求执行 API 662 和 ASME 等标准的特点。"
+          },
+          "industries": [],
+          "advantage": {
+            "en": [
+              "High heat transfer coefficient and low resistance loss.",
+              "Strong adaptability to working conditions with flexible process combinations.",
+              "Better cleanability than brazed plate heat exchangers.",
+              "Strong temperature and pressure resistance for special media.",
+              "Smaller installation footprint."
+            ],
+            "zh": [
+              "传热系数高、阻力损失小。",
+              "工况适应性强，可灵活设置流程组合。",
+              "与钎焊式板式换热器相比具有更好的可清洗性能。",
+              "耐温承压能力强，适应特殊介质。",
+              "占地空间更小。"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Maximum Heat Transfer Area": "Up to 350㎡",
+              "Design Pressure": "Up to 2.5 MPa",
+              "Plate Thickness": "0.8 mm",
+              "Plate Pair Gap": "4.0 mm / 4.5 mm / 8.0 mm / 12 mm",
+              "Plate Material": "TP304, TP316L, TP304L, TP317L, 254SMO, Titanium, N6, S31803 (SAF2205), 904L"
+            },
+            "zh": {
+              "换热面积": "一般不超过350㎡",
+              "设计压力": "不大于2.5MPa",
+              "板片厚度": "0.8mm",
+              "板对间隙": "4.0mm / 4.5mm / 8.0mm / 12mm",
+              "板片材质": "TP304、TP316L、TP304L、TP317L、254SMO、Titanium、N6、S31803（SAF2205）、904L"
+            }
+          },
+          "details": {
+            "en": [],
+            "zh": []
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Plate-frame welded heat exchanger",
+              "meta_description": "Patented plate-frame welded heat exchanger with compact structure, high heat transfer efficiency, and strong cleanability."
+            },
+            "zh": {
+              "meta_title": "板框式焊接式热交换器",
+              "meta_description": "具有高传热效率、较强可清洗性和紧凑结构的板框式焊接换热器。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "plate_frame_welded_heat_exchanger_1.jpg",
+            "alt_text": "Plate-frame Welded Heat Exchanger"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 2,
+          "slug": "qhb-welded-wide-channel-plate-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "QHB Welded Wide Channel Plate Heat Exchanger",
+            "zh": "QHB型焊接宽通道板式热交换器"
+          },
+          "short_description": {
+            "en": "Fully welded clamped wide-channel plate heat exchanger for particle-, fiber-, and viscous-media service.",
+            "zh": "适用于颗粒、纤维及高黏度介质工况的全焊接夹紧式宽通道板式换热器。"
+          },
+          "full_description": {
+            "en": "The official product page describes this model as a fully welded clamped plate heat exchanger in which plate bundles are welded from multiple plates and tightly fixed by clamping plates and high-performance bolts. The product is designed to treat media containing solid particles, fiber suspensions, and viscous fluids, with structures that support inspection, maintenance, and cleaning from four sides.",
+            "zh": "官网介绍该产品为全焊夹紧型板式换热器，板束由多片板片叠加焊接成一体，并通过夹紧板和高性能夹紧螺栓紧固固定。产品适用于含固体颗粒、纤维悬浮物及高黏度流体等工况，可从四个面对板束进行检查、维护和清洗。"
+          },
+          "industries": [
+            "6",
+            "7"
+          ],
+          "advantage": {
+            "en": [
+              "U-shaped welding structure between sheet pairs for stronger pressure-bearing capacity.",
+              "Imported fully automatic laser welding without damage to the plate.",
+              "Wear-resistant surface treatment improves corrosion resistance and service life."
+            ],
+            "zh": [
+              "板片对之间采用 U 型焊接结构，承压能力更强。",
+              "采用进口全自动激光焊接，板片无损伤。",
+              "板片表面耐磨处理，耐磨蚀并提高使用寿命。"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Bearing Capacity": "2.1 MPa",
+              "Design Temperature": "350 C",
+              "Installed Area": "880 m2",
+              "Plate Thickness": "1.5-2.0 mm",
+              "Sheet Material": "304 / 304L / 321 / 316L / dual phase steel",
+              "Fixed-pitch Columns": "316L"
+            },
+            "zh": {
+              "承压能力": "2.1Mpa",
+              "设计温度": "350℃",
+              "装机面积": "880m2",
+              "板片厚度": "1.5~2.0mm",
+              "板片材质": "304 / 304L / 321 / 316L / 双相钢等",
+              "定距柱": "316L"
+            }
+          },
+          "details": {
+            "en": [],
+            "zh": []
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "QHB Welded Wide Channel Plate Heat Exchanger",
+              "meta_description": "Fully welded wide-channel plate heat exchanger for particle, fiber, and viscous-media applications."
+            },
+            "zh": {
+              "meta_title": "QHB型焊接宽通道板式热交换器",
+              "meta_description": "适用于含颗粒、纤维及高黏度介质工况的全焊接宽通道板式换热器。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "qhb_welded_wide_channel_plate_heat_exchanger_1.jpg",
+            "alt_text": "QHB Welded Wide Channel Plate Heat Exchanger"
+          },
+          {
+            "order": 2,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "qhb_welded_wide_channel_plate_heat_exchanger_2.jpg",
+            "alt_text": "QHB Welded Wide Channel Plate Heat Exchanger View 2"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 3,
+          "slug": "bky-welded-plate-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "BKY Welded Plate Heat Exchanger",
+            "zh": "BKY型焊接板式热交换器"
+          },
+          "short_description": {
+            "en": "Patented welded plate heat exchanger with compact structure and flexible process combination.",
+            "zh": "具有紧凑结构和灵活流程组合能力的专利焊接板式换热器。"
+          },
+          "full_description": {
+            "en": "The official BKY product page describes this model as a patented welded plate heat exchanger product from Juyuan Hanyang. It uses a plate-frame style welded structure, combines advanced international heat transfer technology, and is intended for compact, high-efficiency heat transfer service under demanding media conditions.",
+            "zh": "官网介绍显示，BKY 型产品属于巨元瀚洋的专利焊接板式换热器，采用板框式焊接结构，融合先进传热技术，适用于结构紧凑且要求较高的工业换热工况。"
+          },
+          "industries": [],
+          "advantage": {
+            "en": [
+              "High heat transfer coefficient and low resistance loss.",
+              "Strong adaptability to working conditions and flexible process combinations.",
+              "Better cleanability than brazed plate heat exchangers.",
+              "Strong temperature and pressure resistance for special media.",
+              "Smaller footprint."
+            ],
+            "zh": [
+              "传热系数高、阻力损失小。",
+              "工况适应性强，流程组合灵活。",
+              "相比钎焊式板式换热器具有更好的可清洗性。",
+              "耐温承压能力强，适应特殊介质。",
+              "占地更小。"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Maximum Heat Transfer Area": "Up to 350㎡",
+              "Design Pressure": "Up to 2.5 MPa",
+              "Plate Thickness": "0.8 mm",
+              "Plate Pair Gap": "4.0 mm / 4.5 mm / 8.0 mm / 12 mm",
+              "Plate Material": "TP304, TP316L, TP304L, TP317L, 254SMO, Titanium, N6, S31803 (SAF2205), 904L"
+            },
+            "zh": {
+              "换热面积": "一般不超过350㎡",
+              "设计压力": "不大于2.5MPa",
+              "板片厚度": "0.8mm",
+              "板对间隙": "4.0mm / 4.5mm / 8.0mm / 12mm",
+              "板片材质": "TP304、TP316L、TP304L、TP317L、254SMO、Titanium、N6、S31803（SAF2205）、904L"
+            }
+          },
+          "details": {
+            "en": [],
+            "zh": []
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "BKY Welded Plate Heat Exchanger",
+              "meta_description": "Patented BKY welded plate heat exchanger with compact structure, strong cleanability, and flexible process configuration."
+            },
+            "zh": {
+              "meta_title": "BKY型焊接板式热交换器",
+              "meta_description": "具有紧凑结构、较好可清洗性和灵活流程组合能力的 BKY 型焊接板式换热器。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "bky_welded_plate_heat_exchanger_2.jpg",
+            "alt_text": "BKY Welded Plate Heat Exchanger View 2"
+          }
+        ]
+      }
+    ]
+  }
+]

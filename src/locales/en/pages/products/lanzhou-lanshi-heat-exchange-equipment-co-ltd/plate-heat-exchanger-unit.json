@@ -1,0 +1,34 @@
+{
+  "slug": "plate-heat-exchanger-unit",
+  "name": "Plate Heat Exchanger Unit",
+  "full_description": "The official product page presents this unit as a complete set of heat exchange equipment integrating a plate heat exchanger, water pump, valves, instruments, and control system. It can be configured with sensors, controllers, electric actuators, remote communication control, heat flow measurement, water treatment, and softened water tank accessories to support steam-water, water-water, and oil-water heat exchange duty.",
+  "industries": [
+    "HVAC",
+    "Marine",
+    "Energy"
+  ],
+  "advantage": [
+    "Integrates plate heat exchanger, pump, valves, instruments, and control system in one unit.",
+    "Supports configurable sensors, controllers, electric actuators, and remote communication control.",
+    "Optional systems include heat metering, water treatment, and softened water tank equipment.",
+    "Officially listed control functions include frequency conversion, constant temperature and pressure supply, auto-start, interlock protection, and on-site data display."
+  ],
+  "technical_parameters": {},
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Plate Heat Exchanger Unit",
+    "meta_description": "Integrated heat exchange skid combining plate heat exchanger, pump, valves, instruments, and controls."
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Heat Exchanger Unit",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_heat_exchanger_unit_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}
