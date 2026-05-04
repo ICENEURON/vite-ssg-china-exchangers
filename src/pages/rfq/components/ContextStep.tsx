@@ -10,10 +10,6 @@ export interface RqfContextData {
     country: string;
     industry: string;
     customIndustry: string;
-    timeline: string;
-    customTimeline: string;
-    quantity: string;
-    customQuantity: string;
 }
 
 interface ContextStepProps {
@@ -33,8 +29,6 @@ const COUNTRIES = rawCountries
 export function ContextStep({ data, onChange }: ContextStepProps) {
     const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
     const industries = t("industries", { returnObjects: true }) as {id: string, label: string}[];
-    const quantities = t("quantities", { returnObjects: true }) as {id: string, label: string}[];
-    const timelines = t("timelines", { returnObjects: true }) as {id: string, label: string}[];
 
     // Helper to render a selection group using simple grid of buttons
     const renderSelectionGroup = (
@@ -43,10 +37,11 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
         currentValue: string, 
         fieldKey: keyof RqfContextData,
         customKey?: keyof RqfContextData,
-        customPlaceholder?: string
+        customPlaceholder?: string,
+        required?: boolean
     ) => (
         <FieldSet className="mb-8">
-            <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{label}</FieldLabel>
+            <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{label}{required && <span className="text-red-500"> *</span>}</FieldLabel>
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
                 {options.map((option) => {
                     const isSelected = currentValue === option.id;
@@ -126,7 +121,7 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                 </FieldSet>
 
                 <FieldSet className="mb-8">
-                    <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{t("step1.countryLabel")}</FieldLabel>
+                    <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{t("step1.countryLabel")} <span className="text-red-500">*</span></FieldLabel>
                     <div className="relative">
                         <select
                             value={data.country}
@@ -149,9 +144,7 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                     </div>
                 </FieldSet>
 
-                {renderSelectionGroup(t("step1.industryLabel"), industries, data.industry, "industry", "customIndustry", t("step1.customIndustryPlaceholder"))}
-                {renderSelectionGroup(t("step1.quantityLabel"), quantities, data.quantity, "quantity", "customQuantity", t("step1.customQuantityPlaceholder"))}
-                {renderSelectionGroup(t("step1.timelineLabel"), timelines, data.timeline, "timeline", "customTimeline", t("step1.customTimelinePlaceholder"))}
+                {renderSelectionGroup(t("step1.industryLabel"), industries, data.industry, "industry", "customIndustry", t("step1.customIndustryPlaceholder"), true)}
              </div>
         </div>
     )

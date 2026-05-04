@@ -119,9 +119,87 @@
       "label": "其他"
     }
   ],
+  "fluidTypes": [
+    {
+      "id": "single_liquid",
+      "label": "单相液体"
+    },
+    {
+      "id": "single_gas",
+      "label": "单相气相"
+    },
+    {
+      "id": "gas_liquid",
+      "label": "气液"
+    },
+    {
+      "id": "solid_liquid",
+      "label": "液固"
+    }
+  ],
+  "plateMaterials": [
+    {
+      "id": "s30403",
+      "label": "S30403"
+    },
+    {
+      "id": "s30408",
+      "label": "S30408"
+    },
+    {
+      "id": "s31603",
+      "label": "S31603"
+    },
+    {
+      "id": "254smo",
+      "label": "254SMO"
+    },
+    {
+      "id": "904l",
+      "label": "904L"
+    },
+    {
+      "id": "ta1",
+      "label": "TA1"
+    },
+    {
+      "id": "ta9",
+      "label": "TA9"
+    },
+    {
+      "id": "ni",
+      "label": "Ni"
+    },
+    {
+      "id": "c276",
+      "label": "C-276"
+    },
+    {
+      "id": "other",
+      "label": "其他"
+    }
+  ],
+  "flangeStandards": [
+    {
+      "id": "asme_b16_5_2025",
+      "label": "ASME B 16.5-2025"
+    },
+    {
+      "id": "en1092_1_2024",
+      "label": "EN1092-1-2024"
+    },
+    {
+      "id": "gost_33259_2015",
+      "label": "GOST 33259-2015"
+    },
+    {
+      "id": "other",
+      "label": "其他"
+    }
+  ],
   "steps": {
     "context": "项目背景",
-    "specifications": "产品规格",
+    "specifications": "设计参数",
     "verification": "身份验证",
     "submit": "确认提交"
   },
@@ -130,12 +208,12 @@
   "navbarTitle": "智能询价系统",
   "step1": {
     "title": "1. 项目背景",
-    "subtitle": "帮助认证工厂了解您项目的规模和具体要求。",
+    "subtitle": "填写基础项目背景信息，便于我们准确分发询价。",
     "firstNameLabel": "名字",
     "firstNamePlaceholder": "例如：张三",
     "lastNameLabel": "姓氏",
     "lastNamePlaceholder": "例如：李",
-    "companyLabel": "公司名称 (选填)",
+    "companyLabel": "公司名称",
     "companyPlaceholder": "您的公司名称",
     "countryLabel": "目的地国家 / 地区",
     "countryPlaceholder": "请选择国家...",
@@ -147,25 +225,45 @@
     "customTimelinePlaceholder": "请说明您的交期期望..."
   },
   "step2": {
-    "title": "2. 产品参数与规格",
-    "subtitle": "选择产品类型并提供关键的热工参数以便选型。",
-    "equipmentTypeLabel": "选择设备类型",
-    "customEquipmentPlaceholder": "请说明设备类型...",
+    "title": "2. 设计与设备参数",
+    "subtitle": "填写冷热侧介质和关键设备参数，未知项可留空。",
     "thermalSpecsTitle": "热工与性能参数",
-    "thermalSpecsSubtitle": "请提供已知参数，未知参数可留空。",
-    "hotSide": "热侧 (加热流体)",
-    "coldSide": "冷侧 (冷却流体)",
-    "fluidLabel": "流体 / 介质",
-    "hotFluidPlaceholder": "例如：蒸汽、导热油、水",
-    "coldFluidPlaceholder": "例如：冷却水、乙二醇",
-    "inletTempLabel": "进口温度 (°C/°F)",
-    "outletTempLabel": "出口温度 (°C/°F)",
-    "flowRateLabel": "流量 (选填) (m³/h)",
-    "opLimitsTitle": "运行限制 (选填)",
-    "designPressureLabel": "设计压力 (bar)",
-    "designPressurePlaceholder": "例如：10, 16, 25",
-    "pressureDropLabel": "最大压降 (kPA)",
-    "pressureDropPlaceholder": "例如：50",
+    "thermalSpecsSubtitle": "流体类型按进口和出口分别填写；质量流量为必填；当某一端流体类型为气液时，对应气相分率必填。",
+    "equipmentParamsTitle": "设备参数",
+    "equipmentParamsSubtitle": "板片材料支持选项或其他输入；法兰标准支持选项或其他输入。",
+    "hotSide": "热侧",
+    "coldSide": "冷侧",
+    "mediaNameLabel": "介质名称",
+    "hotMediaPlaceholder": "例如：蒸汽、导热油、水",
+    "coldMediaPlaceholder": "例如：冷却水、乙二醇",
+    "fluidTypeLabel": "流体类型",
+    "inletFluidTypeLabel": "进口",
+    "outletFluidTypeLabel": "出口",
+    "fluidTypePlaceholder": "请选择流体类型...",
+    "massFlowLabel": "质量流量 (kg/h)",
+    "inletMassFlowLabel": "进口",
+    "outletMassFlowLabel": "出口",
+    "massFlowPlaceholder": "例如：12000",
+    "gasPhaseFractionLabel": "气相分率",
+    "inletGasPhaseFractionLabel": "进口",
+    "outletGasPhaseFractionLabel": "出口",
+    "gasPhaseFractionPlaceholder": "例如：0.15 或 15%",
+    "inletPropertyLabel": "进口",
+    "outletPropertyLabel": "出口",
+    "inletTempLabel": "进口温度 (°C)",
+    "outletTempLabel": "出口温度 (°C)",
+    "densityLabel": "密度 (kg/m3)",
+    "specificHeatLabel": "比热容 (kJ/kg·°C)",
+    "conductivityLabel": "导热系数 (W/m·°C)",
+    "viscosityLabel": "动力粘度 (cp)",
+    "plateMaterialLabel": "板片材料",
+    "customPlateMaterialPlaceholder": "请说明板片材料...",
+    "designPressureLabel": "设计压力 (MPa)",
+    "testPressureLabel": "试验压力 (MPa)",
+    "designTemperatureLabel": "设计温度 (°C)",
+    "flangeStandardLabel": "法兰标准",
+    "flangeStandardPlaceholder": "请选择法兰标准...",
+    "customFlangeStandardPlaceholder": "请说明法兰标准...",
     "heatLoadLabel": "换热量 / 热负荷 (kW)",
     "heatLoadPlaceholder": "例如：1500",
     "additionalNotesLabel": "附加说明 / 定制要求",
@@ -201,24 +299,44 @@
     "anonymousModeDesc": "工厂无法直接看到您的邮箱。我们将协助沟通。",
     "publicModeDesc": "工厂可以直接看到您的邮箱信息。",
     "projectContextTitle": "1. 项目背景",
-    "productSpecsTitle": "2. 产品规格",
+    "productSpecsTitle": "2. 设计与设备参数",
     "editBtn": "编辑",
     "summaryCountry": "国家 / 地区",
     "summaryIndustry": "行业 / 应用",
-    "summaryQuantity": "需求数量",
-    "summaryTimeline": "期望交货期",
-    "summaryGeneralReq": "一般要求",
-    "summaryEqType": "设备类型",
+    "summaryGeneralReq": "设备参数与备注",
+    "summaryMediaName": "介质名称",
+    "summaryFluidType": "流体类型",
+    "summaryInletFluidType": "进口流体类型",
+    "summaryOutletFluidType": "出口流体类型",
+    "summaryMassFlow": "质量流量",
+    "summaryInletMassFlow": "进口质量流量",
+    "summaryOutletMassFlow": "出口质量流量",
+    "summaryGasPhaseFraction": "气相分率",
+    "summaryInletGasPhaseFraction": "进口气相分率",
+    "summaryOutletGasPhaseFraction": "出口气相分率",
     "summaryDesignPress": "设计压力",
-    "summaryPressDrop": "最大压降",
+    "summaryTestPress": "试验压力",
+    "summaryDesignTemp": "设计温度",
+    "summaryDensity": "密度",
+    "summaryInletDensity": "进口密度",
+    "summaryOutletDensity": "出口密度",
+    "summarySpecificHeat": "比热容",
+    "summaryInletSpecificHeat": "进口比热容",
+    "summaryOutletSpecificHeat": "出口比热容",
+    "summaryConductivity": "导热系数",
+    "summaryInletConductivity": "进口导热系数",
+    "summaryOutletConductivity": "出口导热系数",
+    "summaryViscosity": "动力粘度",
+    "summaryInletViscosity": "进口动力粘度",
+    "summaryOutletViscosity": "出口动力粘度",
+    "summaryPlateMaterial": "板片材料",
+    "summaryFlangeStandard": "法兰标准",
     "summaryHeatLoad": "热负荷",
     "summaryNotes": "附加说明",
     "summaryHotSide": "热侧",
     "summaryColdSide": "冷侧",
-    "summaryFluid": "流体",
     "summaryInlet": "进口温度",
     "summaryOutlet": "出口温度",
-    "summaryFlow": "流量",
     "submitBtn": "提交询价单",
     "otherPrefix": "其他"
   },

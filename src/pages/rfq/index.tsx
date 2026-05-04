@@ -17,6 +17,12 @@ export default function SmartRfqBuilder() {
 
   const [step, setStep] = useState(1)
 
+  const requiresGasPhaseFraction = (fluidType: string) => fluidType === "gas_liquid";
+  const resolveCustomSelectValue = (selectedValue: string, customValue: string) => {
+    if (!selectedValue) return "";
+    return selectedValue === "other" ? customValue.trim() : selectedValue;
+  }
+
   // Form Data
   const [contextData, setContextData] = useState<RqfContextData>({
     firstName: "",
@@ -24,28 +30,56 @@ export default function SmartRfqBuilder() {
     companyName: "",
     country: "",
     industry: "",
-    customIndustry: "",
-    timeline: "",
-    customTimeline: "",
-    quantity: "",
-    customQuantity: ""
+    customIndustry: ""
   })
 
   // Set default values instead of undefined
   const [specsData, setSpecsData] = useState<RfqProductSpecsData>({
-    productType: "",
-    customProductType: "",
-    hotFluid: "",
+    hotMediaName: "",
+    hotInletFluidType: "",
+    hotOutletFluidType: "",
+    hotInletMassFlow: "",
+    hotOutletMassFlow: "",
+    hotInletGasPhaseFraction: "",
+    hotOutletGasPhaseFraction: "",
     hotIn: "",
     hotOut: "",
-    hotFlow: "",
-    coldFluid: "",
+    hotInletDensity: "",
+    hotOutletDensity: "",
+    hotInletSpecificHeat: "",
+    hotOutletSpecificHeat: "",
+    hotInletConductivity: "",
+    hotOutletConductivity: "",
+    hotInletViscosity: "",
+    hotOutletViscosity: "",
+    coldMediaName: "",
+    coldInletFluidType: "",
+    coldOutletFluidType: "",
+    coldInletMassFlow: "",
+    coldOutletMassFlow: "",
+    coldInletGasPhaseFraction: "",
+    coldOutletGasPhaseFraction: "",
     coldIn: "",
     coldOut: "",
-    coldFlow: "",
-    designPressure: "",
-    pressureDrop: "",
+    coldInletDensity: "",
+    coldOutletDensity: "",
+    coldInletSpecificHeat: "",
+    coldOutletSpecificHeat: "",
+    coldInletConductivity: "",
+    coldOutletConductivity: "",
+    coldInletViscosity: "",
+    coldOutletViscosity: "",
     heatLoad: "",
+    plateMaterial: "",
+    customPlateMaterial: "",
+    designPressure: "",
+    testPressure: "",
+    hotDesignTemperature: "",
+    coldDesignTemperature: "",
+    hotFlangeStandard: "",
+    customHotFlangeStandard: "",
+    coldFlangeStandard: "",
+    customColdFlangeStandard: "",
     additionalNotes: ""
   })
 
@@ -61,17 +95,26 @@ export default function SmartRfqBuilder() {
     contextData.lastName.trim() !== "" &&
     contextData.country !== "" &&
     contextData.industry !== "" &&
-    (contextData.industry !== "other" || contextData.customIndustry !== "") &&
-    contextData.timeline !== "" &&
-    (contextData.timeline !== "other" || contextData.customTimeline !== "") &&
-    contextData.quantity !== "" &&
-    (contextData.quantity !== "other" || contextData.customQuantity !== "");
+    (contextData.industry !== "other" || contextData.customIndustry.trim() !== "");
 
   const canProceedToStep3 =
-    specsData.productType !== "" &&
-    (specsData.productType !== "other" || specsData.customProductType !== "") &&
-    specsData.hotFluid !== "" &&
-    specsData.coldFluid !== "";
+    specsData.hotInletFluidType !== "" &&
+    specsData.hotOutletFluidType !== "" &&
+    specsData.coldInletFluidType !== "" &&
+    specsData.coldOutletFluidType !== "" &&
+    (specsData.hotInletMassFlow.trim() !== "" || specsData.hotOutletMassFlow.trim() !== "") &&
+    (specsData.coldInletMassFlow.trim() !== "" || specsData.coldOutletMassFlow.trim() !== "") &&
+    (!requiresGasPhaseFraction(specsData.hotInletFluidType) || specsData.hotInletGasPhaseFraction.trim() !== "") &&
+    (!requiresGasPhaseFraction(specsData.hotOutletFluidType) || specsData.hotOutletGasPhaseFraction.trim() !== "") &&
+    (!requiresGasPhaseFraction(specsData.coldInletFluidType) || specsData.coldInletGasPhaseFraction.trim() !== "") &&
+    (!requiresGasPhaseFraction(specsData.coldOutletFluidType) || specsData.coldOutletGasPhaseFraction.trim() !== "") &&
+    specsData.heatLoad.trim() !== "" &&
+    specsData.plateMaterial !== "" &&
+    (specsData.plateMaterial !== "other" || specsData.customPlateMaterial.trim() !== "") &&
+    specsData.hotFlangeStandard !== "" &&
+    (specsData.hotFlangeStandard !== "other" || specsData.customHotFlangeStandard.trim() !== "") &&
+    specsData.coldFlangeStandard !== "" &&
+    (specsData.coldFlangeStandard !== "other" || specsData.customColdFlangeStandard.trim() !== "");
 
   const handleNext = () => {
     if (step === 1 && canProceedToStep2) {
@@ -104,24 +147,51 @@ export default function SmartRfqBuilder() {
       email: email.toLowerCase(),
       is_business_email: isBusinessEmail,
       industry: contextData.industry === "other" ? contextData.customIndustry : contextData.industry,
-      quantity: contextData.quantity === "other" ? contextData.customQuantity : contextData.quantity,
-      delivery_timeline: contextData.timeline === "other" ? contextData.customTimeline : contextData.timeline,
-      product_type: specsData.productType === "other" ? specsData.customProductType : specsData.productType,
       additional_notes: specsData.additionalNotes || null,
       is_stealth: isAnonymous,
       parameters: {
-        // Include everything else from specs into the generic parameter JSONB object
-        hotFluid: specsData.hotFluid,
+        hotMediaName: specsData.hotMediaName,
+        hotInletFluidType: specsData.hotInletFluidType,
+        hotOutletFluidType: specsData.hotOutletFluidType,
+        hotInletMassFlow: specsData.hotInletMassFlow,
+        hotOutletMassFlow: specsData.hotOutletMassFlow,
+        hotInletGasPhaseFraction: specsData.hotInletGasPhaseFraction,
+        hotOutletGasPhaseFraction: specsData.hotOutletGasPhaseFraction,
         hotIn: specsData.hotIn,
         hotOut: specsData.hotOut,
-        hotFlow: specsData.hotFlow,
-        coldFluid: specsData.coldFluid,
+        hotInletDensity: specsData.hotInletDensity,
+        hotOutletDensity: specsData.hotOutletDensity,
+        hotInletSpecificHeat: specsData.hotInletSpecificHeat,
+        hotOutletSpecificHeat: specsData.hotOutletSpecificHeat,
+        hotInletConductivity: specsData.hotInletConductivity,
+        hotOutletConductivity: specsData.hotOutletConductivity,
+        hotInletViscosity: specsData.hotInletViscosity,
+        hotOutletViscosity: specsData.hotOutletViscosity,
+        coldMediaName: specsData.coldMediaName,
+        coldInletFluidType: specsData.coldInletFluidType,
+        coldOutletFluidType: specsData.coldOutletFluidType,
+        coldInletMassFlow: specsData.coldInletMassFlow,
+        coldOutletMassFlow: specsData.coldOutletMassFlow,
+        coldInletGasPhaseFraction: specsData.coldInletGasPhaseFraction,
+        coldOutletGasPhaseFraction: specsData.coldOutletGasPhaseFraction,
         coldIn: specsData.coldIn,
         coldOut: specsData.coldOut,
-        coldFlow: specsData.coldFlow,
-        designPressure: specsData.designPressure,
-        pressureDrop: specsData.pressureDrop,
+        coldInletDensity: specsData.coldInletDensity,
+        coldOutletDensity: specsData.coldOutletDensity,
+        coldInletSpecificHeat: specsData.coldInletSpecificHeat,
+        coldOutletSpecificHeat: specsData.coldOutletSpecificHeat,
+        coldInletConductivity: specsData.coldInletConductivity,
+        coldOutletConductivity: specsData.coldOutletConductivity,
+        coldInletViscosity: specsData.coldInletViscosity,
+        coldOutletViscosity: specsData.coldOutletViscosity,
         heatLoad: specsData.heatLoad,
+        plateMaterial: resolveCustomSelectValue(specsData.plateMaterial, specsData.customPlateMaterial),
+        designPressure: specsData.designPressure,
+        testPressure: specsData.testPressure,
+        hotDesignTemperature: specsData.hotDesignTemperature,
+        coldDesignTemperature: specsData.coldDesignTemperature,
+        hotFlangeStandard: resolveCustomSelectValue(specsData.hotFlangeStandard, specsData.customHotFlangeStandard),
+        coldFlangeStandard: resolveCustomSelectValue(specsData.coldFlangeStandard, specsData.customColdFlangeStandard),
       }
     }
 

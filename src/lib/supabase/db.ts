@@ -8,9 +8,6 @@ export interface RFQSubmissionData {
   email: string;
   is_business_email: boolean;
   industry: string;
-  quantity: string;
-  delivery_timeline: string;
-  product_type: string | null;
   parameters: any;
   additional_notes: string | null;
   is_stealth: boolean;

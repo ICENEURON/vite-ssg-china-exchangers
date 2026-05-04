@@ -119,9 +119,87 @@
       "label": "Other"
     }
   ],
+  "fluidTypes": [
+    {
+      "id": "single_liquid",
+      "label": "Single-Phase Liquid"
+    },
+    {
+      "id": "single_gas",
+      "label": "Single-Phase Gas"
+    },
+    {
+      "id": "gas_liquid",
+      "label": "Gas-Liquid"
+    },
+    {
+      "id": "solid_liquid",
+      "label": "Solid-Liquid"
+    }
+  ],
+  "plateMaterials": [
+    {
+      "id": "s30403",
+      "label": "S30403"
+    },
+    {
+      "id": "s30408",
+      "label": "S30408"
+    },
+    {
+      "id": "s31603",
+      "label": "S31603"
+    },
+    {
+      "id": "254smo",
+      "label": "254SMO"
+    },
+    {
+      "id": "904l",
+      "label": "904L"
+    },
+    {
+      "id": "ta1",
+      "label": "TA1"
+    },
+    {
+      "id": "ta9",
+      "label": "TA9"
+    },
+    {
+      "id": "ni",
+      "label": "Ni"
+    },
+    {
+      "id": "c276",
+      "label": "C-276"
+    },
+    {
+      "id": "other",
+      "label": "Other"
+    }
+  ],
+  "flangeStandards": [
+    {
+      "id": "asme_b16_5_2025",
+      "label": "ASME B 16.5-2025"
+    },
+    {
+      "id": "en1092_1_2024",
+      "label": "EN1092-1-2024"
+    },
+    {
+      "id": "gost_33259_2015",
+      "label": "GOST 33259-2015"
+    },
+    {
+      "id": "other",
+      "label": "Other"
+    }
+  ],
   "steps": {
     "context": "Context",
-    "specifications": "Specifications",
+    "specifications": "Design Parameters",
     "verification": "Verification",
     "submit": "Submit"
   },
@@ -130,12 +208,12 @@
   "navbarTitle": "Smart RFQ Builder",
   "step1": {
     "title": "1. Project Context",
-    "subtitle": "Help our verified factories understand the scale and requirements of your project.",
+    "subtitle": "Share the basic project context so we can route the RFQ accurately.",
     "firstNameLabel": "First Name",
     "firstNamePlaceholder": "John",
     "lastNameLabel": "Last Name",
     "lastNamePlaceholder": "Doe",
-    "companyLabel": "Company Name (Optional)",
+    "companyLabel": "Company Name",
     "companyPlaceholder": "Your Company Ltd.",
     "countryLabel": "Destination Country / Region",
     "countryPlaceholder": "Select a country...",
@@ -147,25 +225,45 @@
     "customTimelinePlaceholder": "Please specify your timeline expectations..."
   },
   "step2": {
-    "title": "2. Product & Specifications",
-    "subtitle": "Select the product type and provide the critical thermal parameters for sizing.",
-    "equipmentTypeLabel": "Select Equipment Type",
-    "customEquipmentPlaceholder": "Please specify the equipment type...",
+    "title": "2. Design & Equipment Parameters",
+    "subtitle": "Provide the hot-side and cold-side media data plus key equipment parameters.",
     "thermalSpecsTitle": "Thermal & Performance Specifications",
-    "thermalSpecsSubtitle": "Provide known parameters. Leave unknown fields blank.",
-    "hotSide": "Hot Side (Heating Fluid)",
-    "coldSide": "Cold Side (Cooling Fluid)",
-    "fluidLabel": "Fluid / Media",
-    "hotFluidPlaceholder": "e.g. Steam, Thermal Oil, Water",
-    "coldFluidPlaceholder": "e.g. Cooling Water, Glycol",
-    "inletTempLabel": "Inlet Temp (°C/°F)",
-    "outletTempLabel": "Outlet Temp (°C/°F)",
-    "flowRateLabel": "Flow Rate (Optional) (m³/h)",
-    "opLimitsTitle": "Operational Limits (Optional)",
-    "designPressureLabel": "Design Pressure (bar)",
-    "designPressurePlaceholder": "e.g. 10, 16, 25",
-    "pressureDropLabel": "Max Press. Drop (kPA)",
-    "pressureDropPlaceholder": "e.g. 50",
+    "thermalSpecsSubtitle": "Fill fluid type separately for inlet and outlet. Mass flow is required. If either end is gas-liquid, the matching gas phase fraction is required.",
+    "equipmentParamsTitle": "Equipment Parameters",
+    "equipmentParamsSubtitle": "Plate material supports predefined options or custom input. Flange standards support predefined options or custom input.",
+    "hotSide": "Hot Side",
+    "coldSide": "Cold Side",
+    "mediaNameLabel": "Media Name",
+    "hotMediaPlaceholder": "e.g. Steam, Thermal Oil, Water",
+    "coldMediaPlaceholder": "e.g. Cooling Water, Glycol",
+    "fluidTypeLabel": "Fluid Type",
+    "inletFluidTypeLabel": "Inlet",
+    "outletFluidTypeLabel": "Outlet",
+    "fluidTypePlaceholder": "Select fluid type...",
+    "massFlowLabel": "Mass Flow (kg/h)",
+    "inletMassFlowLabel": "Inlet",
+    "outletMassFlowLabel": "Outlet",
+    "massFlowPlaceholder": "e.g. 12000",
+    "gasPhaseFractionLabel": "Gas Phase Fraction",
+    "inletGasPhaseFractionLabel": "Inlet",
+    "outletGasPhaseFractionLabel": "Outlet",
+    "gasPhaseFractionPlaceholder": "e.g. 0.15 or 15%",
+    "inletPropertyLabel": "Inlet",
+    "outletPropertyLabel": "Outlet",
+    "inletTempLabel": "Inlet Temperature (°C)",
+    "outletTempLabel": "Outlet Temperature (°C)",
+    "densityLabel": "Density (kg/m3)",
+    "specificHeatLabel": "Specific Heat (kJ/kg·°C)",
+    "conductivityLabel": "Thermal Conductivity (W/m·°C)",
+    "viscosityLabel": "Dynamic Viscosity (cp)",
+    "plateMaterialLabel": "Plate Material",
+    "customPlateMaterialPlaceholder": "Please specify the plate material...",
+    "designPressureLabel": "Design Pressure (MPa)",
+    "testPressureLabel": "Test Pressure (MPa)",
+    "designTemperatureLabel": "Design Temperature (°C)",
+    "flangeStandardLabel": "Flange Standard",
+    "flangeStandardPlaceholder": "Select flange standard...",
+    "customFlangeStandardPlaceholder": "Please specify the flange standard...",
     "heatLoadLabel": "Duty / Heat Load (kW)",
     "heatLoadPlaceholder": "e.g. 1500",
     "additionalNotesLabel": "Additional Notes / Custom Requirements",
@@ -201,24 +299,44 @@
     "anonymousModeDesc": "Factories cannot see your email directly. We manage communication.",
     "publicModeDesc": "Factories can see your email information directly.",
     "projectContextTitle": "1. Project Context",
-    "productSpecsTitle": "2. Product Specifications",
+    "productSpecsTitle": "2. Design & Equipment Parameters",
     "editBtn": "Edit",
     "summaryCountry": "Country / Region",
     "summaryIndustry": "Industry / Application",
-    "summaryQuantity": "Required Quantity",
-    "summaryTimeline": "Expected Timeline",
-    "summaryGeneralReq": "General Requirements",
-    "summaryEqType": "Equipment Type",
+    "summaryGeneralReq": "Equipment Parameters & Notes",
+    "summaryMediaName": "Media Name",
+    "summaryFluidType": "Fluid Type",
+    "summaryInletFluidType": "Inlet Fluid Type",
+    "summaryOutletFluidType": "Outlet Fluid Type",
+    "summaryMassFlow": "Mass Flow",
+    "summaryInletMassFlow": "Inlet Mass Flow",
+    "summaryOutletMassFlow": "Outlet Mass Flow",
+    "summaryGasPhaseFraction": "Gas Phase Fraction",
+    "summaryInletGasPhaseFraction": "Inlet Gas Phase Fraction",
+    "summaryOutletGasPhaseFraction": "Outlet Gas Phase Fraction",
     "summaryDesignPress": "Design Pressure",
-    "summaryPressDrop": "Max Press. Drop",
+    "summaryTestPress": "Test Pressure",
+    "summaryDesignTemp": "Design Temperature",
+    "summaryDensity": "Density",
+    "summaryInletDensity": "Inlet Density",
+    "summaryOutletDensity": "Outlet Density",
+    "summarySpecificHeat": "Specific Heat",
+    "summaryInletSpecificHeat": "Inlet Specific Heat",
+    "summaryOutletSpecificHeat": "Outlet Specific Heat",
+    "summaryConductivity": "Thermal Conductivity",
+    "summaryInletConductivity": "Inlet Thermal Conductivity",
+    "summaryOutletConductivity": "Outlet Thermal Conductivity",
+    "summaryViscosity": "Dynamic Viscosity",
+    "summaryInletViscosity": "Inlet Dynamic Viscosity",
+    "summaryOutletViscosity": "Outlet Dynamic Viscosity",
+    "summaryPlateMaterial": "Plate Material",
+    "summaryFlangeStandard": "Flange Standard",
     "summaryHeatLoad": "Heat Load",
     "summaryNotes": "Additional Notes",
     "summaryHotSide": "Hot Side",
     "summaryColdSide": "Cold Side",
-    "summaryFluid": "Fluid",
     "summaryInlet": "Inlet Temp",
     "summaryOutlet": "Outlet Temp",
-    "summaryFlow": "Flow Rate",
     "submitBtn": "Submit RFQ",
     "otherPrefix": "Other"
   },
