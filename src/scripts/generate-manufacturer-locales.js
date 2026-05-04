@@ -62,6 +62,41 @@ function localizeField(value, availableLangs, currentLang) {
   return value;
 }
 
+function parsePossiblyLocalizedString(value) {
+  if (typeof value !== 'string') {
+    return null;
+  }
+
+  const trimmed = value.trim();
+  if (!trimmed.startsWith('{') || !trimmed.endsWith('}')) {
+    return null;
+  }
+
+  try {
+    const parsed = JSON.parse(trimmed);
+    return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : null;
+  } catch {
+    return null;
+  }
+}
+
+function getLocalizedAssetAltText(asset, availableLangs, currentLang) {
+  const parsedAltText = parsePossiblyLocalizedString(asset?.alt_text);
+  if (parsedAltText) {
+    const localizedAltText = localizeField(parsedAltText, availableLangs, currentLang);
+    if (typeof localizedAltText === 'string' && localizedAltText.trim()) {
+      return localizedAltText;
+    }
+
+    if (typeof parsedAltText.en === 'string' && parsedAltText.en.trim()) {
+      return parsedAltText.en;
+    }
+  }
+
+  const localizedAsset = localizeField(asset, availableLangs, currentLang);
+  return typeof localizedAsset?.alt_text === 'string' ? localizedAsset.alt_text : '';
+}
+
 function toAssetUrl(asset) {
   return `/storage/${asset.storage_bucket}/${asset.storage_path}`;
 }
@@ -126,6 +161,7 @@ function processData() {
         certifications: [],
         customers: [],
         images: [],
+        documents: [],
         products: []
       };
 
@@ -149,22 +185,25 @@ function processData() {
       individualMfg.certifications = mfgAssets
         .filter(asset => hasAssetType(asset, ['certifications', 'certificate']))
         .map(asset => {
-          const locAsset = localizeField(asset, langsArray, lang);
-          return { alt_text: locAsset.alt_text, url: toAssetUrl(asset) };
+          return { alt_text: getLocalizedAssetAltText(asset, langsArray, lang), url: toAssetUrl(asset) };
         });
 
       individualMfg.customers = mfgAssets
         .filter(asset => hasAssetType(asset, ['customers', 'logo']))
         .map(asset => {
-          const locAsset = localizeField(asset, langsArray, lang);
-          return { alt_text: locAsset.alt_text, url: toAssetUrl(asset) };
+          return { alt_text: getLocalizedAssetAltText(asset, langsArray, lang), url: toAssetUrl(asset) };
         });
 
       individualMfg.images = mfgAssets
         .filter(asset => hasAssetType(asset, ['images', 'media']))
         .map(asset => {
-          const locAsset = localizeField(asset, langsArray, lang);
-          return { alt_text: locAsset.alt_text, url: toAssetUrl(asset) };
+          return { alt_text: getLocalizedAssetAltText(asset, langsArray, lang), url: toAssetUrl(asset) };
+        });
+
+      individualMfg.documents = mfgAssets
+        .filter(asset => hasAssetType(asset, ['document']))
+        .map(asset => {
+          return { alt_text: getLocalizedAssetAltText(asset, langsArray, lang), url: toAssetUrl(asset), file_name: asset.file_name };
         });
 
       // Add products, sorted by order

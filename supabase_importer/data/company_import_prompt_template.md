@@ -15,11 +15,11 @@
 
 ### 输入信息
 
-- 英文官网：`https://www.accessen.com/`
-- 中文官网：`https://www.accessen.cn/`
-- 目标公司 slug：`shenghai-accessen-co-ltd`
-- 英文公司名（如果已知）：`Shanghai Accessen Co., Ltd.`
-- 中文公司名（如果已知）：`上海艾克森股份有限公司`
+- 英文官网：`http://www.spviex.com/PC/list-52/`
+- 中文官网：`http://www.spviex.com/`
+- 目标公司 slug：`siping-viex-heat-exchange-equipment-co-ltd`
+- 英文公司名（如果已知）：`SIPING ViEX HEAT EXCHANGE EQUIPMENT CO.,LTD.`
+- 中文公司名（如果已知）：`四平维克斯换热设备有限公司`
 
 ### 任务目标
 
@@ -34,7 +34,13 @@
 7. `supabase_importer/local_assets/{{COMPANY_SLUG}}/product_docs/`
 8. `supabase_importer/local_assets/{{COMPANY_SLUG}}/product_images/`
 
-所有图片和文档都必须直接从上述中英文官网下载。不要伪造图片、证书、客户 logo、产品图或 PDF。若官网没有对应内容，则保留 JSON 结构与空文件夹，但不要虚构资源条目。
+所有图片和文档都必须直接从上述中英文官网下载。不要伪造图片、证书、客户 logo、产品图或文档。若官网没有对应内容，则保留 JSON 结构与空文件夹，但不要虚构资源条目。
+
+文档下载增加额外限制：
+
+- 只下载 `pdf`、`doc`、`docx` 格式文件
+- 单个文档文件大小必须小于 50MB
+- 不要下载 `zip`、`rar`、`7z`、`exe` 或其他非文档格式文件
 
 ### 强制约束
 
@@ -241,11 +247,11 @@
 1. 先完整浏览英文站和中文站，尽量交叉验证公司介绍、产品列表、认证、客户、联系方式、地址、成立时间、工厂面积、员工规模、出口市场等信息。
 2. 产品列表以官网真实产品为准，不要机械照搬上海板换的 6 个产品数量。
 3. 每个真实存在的产品都要生成一个 `products[]` 条目。
-4. 如果官网存在产品页，就优先从产品页抽取：中英文名称、简介、详细介绍、优势、参数、FAQ/说明、视频、SEO 信息、产品图、认证图、PDF 文档。
+4. 如果官网存在产品页，就优先从产品页抽取：中英文名称、简介、详细介绍、优势、参数、FAQ/说明、视频、SEO 信息、产品图、认证图、PDF/DOC/DOCX 文档。
 5. 如果某产品只有图片没有详细文案，仍然保留产品结构，缺的文本字段留空。
 6. 如果公司没有 YouTube 或社媒，就保留 `social_media_links: []` 和空 `video_link`。
 7. 所有下载的文件必须放入正确目录，并确保 JSON 中引用到的每个 `file_name` 都真实存在于对应目录。
-8. 如果官网图片是 webp、svg、png、jpg、jpeg、pdf 等格式，优先保留原始可用格式，除非下载环境必须转换。
+8. 如果官网图片是 webp、svg、png、jpg、jpeg 等格式，优先保留原始可用格式，除非下载环境必须转换。文档仅允许保留 pdf、doc、docx。
 9. 下载后检查文件名是否包含乱码、空格或不可见字符；必要时重命名为标准 ASCII 文件名，并同步更新 JSON。
 
 ### 最终检查清单
@@ -259,6 +265,7 @@
 5. 没有下载到的内容没有被伪造，只是留空。
 6. 所有 `slug`、`file_name`、`folder`、`asset_type` 都与结构约束一致。
 7. 所有行业 ID、国家代码、邮箱、电话、社媒链接都经过官网核对。
+8. 所有文档资源都仅为 `pdf`、`doc` 或 `docx`，且单个文件小于 50MB。
 
 完成后，只输出一个简短总结，说明：
 

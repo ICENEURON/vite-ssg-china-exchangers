@@ -162,6 +162,13 @@
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company_5.jpg"
     }
   ],
+  "documents": [
+    {
+      "alt_text": "Company Introduction Brochure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_doc/introduction_to_shphe.pdf",
+      "file_name": "introduction_to_shphe.pdf"
+    }
+  ],
   "products": [
     {
       "slug": "ht-bloc-welded-plate-heat-exchanger",

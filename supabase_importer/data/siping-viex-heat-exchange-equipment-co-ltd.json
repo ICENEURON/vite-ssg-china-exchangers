@@ -1,0 +1,733 @@
+[
+  {
+    "local_assets_dir": "siping-viex-heat-exchange-equipment-co-ltd",
+    "manufacturer": {
+      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+      "name": {
+        "en": "SIPING ViEX HEAT EXCHANGE EQUIPMENT CO.,LTD.",
+        "zh": "四平维克斯换热设备有限公司"
+      },
+      "short_description": {
+        "en": "Professional manufacturer of heat exchange equipment and pressure vessel products, covering plate, tubular, spiral, air-side, and integrated heat exchange solutions.",
+        "zh": "专业从事换热设备及压力容器产品制造，产品覆盖板式、管壳式、螺旋板式、空气类换热器及换热机组。"
+      },
+      "full_description": {
+        "en": [
+          "Siping ViEX Heat Exchange Equipment Co., Ltd. is a professional manufacturer of heat exchange equipment. According to the official company profile, its predecessor was Siping Heat Exchanger General Factory, founded in 1963, and it served as a designated heat exchange equipment production plant under the Ministry of Machinery while producing various heat exchange equipment and pressure vessel products.",
+          "In 1993, the company cooperated with France's VICARB and introduced a complete set of internationally advanced heat exchanger products, manufacturing technology, proprietary know-how, and processing equipment. It then began batch production of V series plate heat exchangers and heat exchanger units.",
+          "In 2002, the company was restructured as Siping ViEX Heat Exchange Equipment Co., Ltd. and continued manufacturing imported plate heat exchangers and heat exchange units while also developing multiple products with independent intellectual property. The English homepage describes the company as a core member of ViEX Group with global design, manufacturing, development, research, sales, and service resources.",
+          "The official profile states that the garden-style factory covers 60,000 square meters, with 26,000 square meters of building area, 15,000 square meters of workshop area, and 310 sets of professional equipment. The company lists annual capacity of 200,000 square meters of plate heat exchangers, 3,000 tons of pressure vessels, shell-and-tube and air heat exchangers, and 500 sets of integrated heat exchange equipment, and it also highlights honors including high-tech enterprise recognition and the Jilin Provincial Quality Award."
+        ],
+        "zh": [
+          "四平维克斯换热设备有限公司是经营换热设备的专业制造公司。官网介绍其前身为始建于1963年的四平换热器总厂，是机械部换热设备定点生产厂，长期专业生产各种热交换设备及压力容器产品。",
+          "1993年，公司与法国维卡勃公司合资合作，全套引进具有国际水平的热交换器产品、制造技术、专有技术和工艺加工装备，开始批量制造V系列板式换热器、换热机组等产品。",
+          "2002年，企业改制为四平维克斯换热设备有限公司，继续生产制造引进的板式换热器及换热机组，同时开发了多种具有自主知识产权的民族品牌产品。英文官网还将其描述为ViEX Group核心成员，具备覆盖设计、制造、研发、销售与服务的全球化体系。",
+          "官网资料显示，公司园林式工厂占地面积6万平方米，建筑面积2.6万平方米，厂房面积1.5万平方米，拥有专业设备310台套，年生产能力包括板式换热器20万平方米、压力容器及管壳式和空气类换热器3000吨、集成式换热成套设备500套，并获得国家高新技术企业、吉林省质量奖等荣誉。"
+        ]
+      },
+      "advantages": {
+        "en": [
+          "Long manufacturing history rooted in Siping Heat Exchanger General Factory established in 1963.",
+          "Introduced international plate heat exchanger technology and equipment through cooperation with France's VICARB.",
+          "Broad product portfolio spanning plate, tubular, spiral plate, air-side heat exchangers, integrated units, and pressure vessels.",
+          "Scaled manufacturing base with 60,000 square meters of site area and 310 sets of professional equipment.",
+          "Large stated production capacity for plate heat exchangers, pressure vessels, air heat exchangers, and integrated heat exchange equipment.",
+          "Officially highlighted as a high-tech enterprise and recipient of the Jilin Provincial Quality Award."
+        ],
+        "zh": [
+          "源自1963年创建的四平换热器总厂，具备较长的换热设备制造历史。",
+          "通过与法国维卡勃合作，引进了国际水平的板式换热器产品、技术和工艺装备。",
+          "产品覆盖板式、管壳式、螺旋板式、空气类换热器、换热机组及压力容器，产品线较完整。",
+          "官网披露工厂占地6万平方米，拥有310台套专业设备，制造基础较完善。",
+          "具备板式换热器、压力容器和成套换热设备的规模化年产能力。",
+          "官网展示其获得国家高新技术企业、吉林省质量奖等荣誉。"
+        ]
+      },
+      "website": "http://www.spviex.com/",
+      "video_link": "",
+      "social_media_links": [],
+      "email": [
+        "spviex@126.com"
+      ],
+      "phone": [
+        "0434-3335215",
+        "0434-3335717"
+      ],
+      "country_id": "CN",
+      "country_name": {
+        "en": "China",
+        "zh": "中国"
+      },
+      "city": {
+        "en": "Siping",
+        "zh": "四平"
+      },
+      "address": {
+        "en": "No. 5665 Nan Yijing Street, Tiedong District, Siping, Jilin, China",
+        "zh": "中国吉林省四平市铁东区南一经街5665号"
+      },
+      "established_year": "1963",
+      "factory_area": "60000m2",
+      "employee_count": "",
+      "industries": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "export_markets": [],
+      "is_visible": true,
+      "seo_data": {
+        "meta_title": "SIPING ViEX HEAT EXCHANGE EQUIPMENT CO.,LTD. | Heat Exchanger Manufacturer",
+        "meta_description": "Chinese heat exchanger manufacturer offering plate heat exchangers, shell-and-tube heat exchangers, air heat exchangers, spiral plate heat exchangers, and heat exchanger units."
+      }
+    },
+    "company_assets": [
+      {
+        "order": 1,
+        "asset_type": "certificate",
+        "folder": "company_certifications",
+        "file_name": "iso_45001.jpg",
+        "alt_text": "Occupational Health and Safety Management System Certification"
+      },
+      {
+        "order": 2,
+        "asset_type": "certificate",
+        "folder": "company_certifications",
+        "file_name": "iso_14001.jpg",
+        "alt_text": "Environmental Management System Certification"
+      },
+      {
+        "order": 3,
+        "asset_type": "certificate",
+        "folder": "company_certifications",
+        "file_name": "iso_9001.jpg",
+        "alt_text": "Quality Management System Certification"
+      },
+      {
+        "order": 1,
+        "asset_type": "media",
+        "folder": "company_images",
+        "file_name": "company_overview_1.jpg",
+        "alt_text": "ViEX Company Overview Image 1"
+      },
+      {
+        "order": 2,
+        "asset_type": "media",
+        "folder": "company_images",
+        "file_name": "company_overview_2.jpg",
+        "alt_text": "ViEX Company Overview Image 2"
+      },
+      {
+        "order": 3,
+        "asset_type": "media",
+        "folder": "company_images",
+        "file_name": "company_overview_3.jpg",
+        "alt_text": "ViEX Company Overview Image 3"
+      }
+    ],
+    "products": [
+      {
+        "product": {
+          "order": 1,
+          "slug": "plate-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "Plate Heat Exchanger",
+            "zh": "板式热交换器"
+          },
+          "short_description": {
+            "en": "V series detachable plate heat exchanger with high heat transfer efficiency, compact structure, flexible operation, and broad industrial applicability.",
+            "zh": "符合NB/T47004.1-2017标准的V系列可拆式板式换热器，具有高效换热、结构紧凑和适用范围广等特点。"
+          },
+          "full_description": {
+            "en": "ViEX plate heat exchangers are detachable plate heat exchangers used for heating, cooling, evaporation, condensation, sterilization, and heat recovery. The official product page highlights high heat transfer efficiency, low resistance loss, compact structure, sensitive temperature control, convenient assembly and disassembly, and long service life. It also states that under the same pressure drop, the heat transfer coefficient can reach 3 to 5 times that of shell-and-tube heat exchangers, the footprint can be about one third, and the metal consumption about two thirds, with average temperature difference as low as 1 degree Celsius.",
+            "zh": "ViEX板式热交换器属于间壁式换热器，主要用于加热、冷却、蒸发、冷凝、杀菌消毒和热力回收等场合。官网介绍其具有传热效率高、阻力损失小、结构紧凑、温度控制灵敏、装拆方便和使用寿命长等特点；在相同压力降情况下，其传热系数可达列管换热器的3至5倍，占地面积约为列管换热器的1/3，金属消耗量约为列管换热器的2/3，传热平均温差可小至1℃。"
+          },
+          "industries": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "advantage": {
+            "en": [
+              "High heat transfer efficiency",
+              "Low resistance loss",
+              "Compact structure and small footprint",
+              "Convenient assembly and disassembly",
+              "Flexible operation and broad media adaptability",
+              "Average temperature difference can be as low as 1 degree Celsius"
+            ],
+            "zh": [
+              "传热效率高",
+              "阻力损失小",
+              "结构紧凑、占地面积小",
+              "安装拆卸方便",
+              "操作灵活、适用介质范围广",
+              "传热平均温差可小至1℃"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Series": "V series detachable plate heat exchangers",
+              "Standards": "NB/T47004.1-2017; GB16409-1996",
+              "Heat transfer coefficient": "3-5 times shell-and-tube heat exchangers under the same pressure drop",
+              "Footprint": "About one third of shell-and-tube heat exchangers",
+              "Metal consumption": "About two thirds of shell-and-tube heat exchangers",
+              "Minimum average temperature difference": "As low as 1℃"
+            },
+            "zh": {
+              "系列": "V系列可拆式板式换热器",
+              "标准": "NB/T47004.1-2017；GB16409-1996",
+              "传热系数": "相同压力降下可达列管换热器的3-5倍",
+              "占地面积": "约为列管换热器的1/3",
+              "金属消耗量": "约为列管换热器的2/3",
+              "最小传热平均温差": "可小至1℃"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "Where is the product used?",
+                "content": "The official page lists heating, cooling, evaporation, condensation, sterilization, and heat recovery duties, and says the product is widely used in petroleum, chemical engineering, metallurgy, mining, electric power, nuclear power, central heating, shipping, pharmaceuticals, food, electronics, automotive, light textile, and papermaking industries."
+              },
+              {
+                "title": "What variants does ViEX highlight?",
+                "content": "ViEX highlights detachable plate heat exchangers for central heating, nuclear power, air conditioning and refrigeration, beverage processing, metallurgy, petrochemicals, and removable wide-channel duties."
+              }
+            ],
+            "zh": [
+              {
+                "title": "产品主要应用在哪些场景？",
+                "content": "官网列出了加热、冷却、蒸发、冷凝、杀菌消毒和热力回收等典型用途，并说明该产品已广泛应用于石油、化工、冶金、矿山、电力、核电、集中供热、船舶、医药、食品、电子、汽车、轻纺和造纸等行业。"
+              },
+              {
+                "title": "ViEX 重点提供哪些板换方案？",
+                "content": "官网提到其可拆板式换热器包括集中供热专用、核电专用、空调制冷行业浅密波纹专用、饮品行业专用、冶金专用、石化专用以及可拆式宽通道板式换热器等产品方案。"
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Plate Heat Exchanger | SIPING ViEX",
+              "meta_description": "V series detachable plate heat exchanger for heating, cooling, evaporation, condensation, sterilization, and heat recovery applications."
+            },
+            "zh": {
+              "meta_title": "板式热交换器 | 四平维克斯",
+              "meta_description": "V系列可拆式板式热交换器，适用于加热、冷却、蒸发、冷凝、杀菌消毒和热力回收等应用场景。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "plate_heat_exchanger.jpg",
+            "alt_text": "Plate Heat Exchanger"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 2,
+          "slug": "tubular-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "Tubular Heat Exchanger",
+            "zh": "管壳式热交换器"
+          },
+          "short_description": {
+            "en": "Shell-and-tube heat exchanger built to ASME and GB standards for high-temperature, high-pressure, and enhanced heat transfer applications.",
+            "zh": "符合ASME、GB150和GB151标准的管壳式热交换器，适用于高温高压和强化传热工况。"
+          },
+          "full_description": {
+            "en": "ViEX describes its tubular heat exchanger as a shell-and-tube heat exchanger with mature design, manufacturing, inspection, and maintenance technology, wide material choice, and broad application conditions. The official page says the company holds Chinese pressure vessel D1 and D2 design and manufacturing licenses and focuses on enhanced heat transfer shell-and-tube exchangers using arc tubes, corrugated tubes, spiral tubes, plasma tubes, three-dimensional rib tubes, baffle tubes, and spiral baffles to improve efficiency and reduce pressure loss.",
+            "zh": "ViEX官网将其管壳式热交换器描述为符合ASME、GB150和GB151标准的列管式换热器，具有耐高温高压、设计制造检修技术成熟、选材范围大和适用工况广等特点。官网同时说明公司持有特种设备压力容器D1、D2设计与制造许可证，并重点开发采用弧线管、波节管、螺旋管、等离子管、三维肋管、折流管和螺旋折流板等强化元件的高效管壳式换热器，以提升传热效率并降低阻力损失。"
+          },
+          "industries": [
+            "2",
+            "4",
+            "6",
+            "9"
+          ],
+          "advantage": {
+            "en": [
+              "High temperature and high pressure resistance",
+              "Wide material selection and broad duty coverage",
+              "Mature design, manufacturing, and maintenance technology",
+              "Enhanced heat transfer element options",
+              "Improved efficiency and reduced resistance loss"
+            ],
+            "zh": [
+              "耐高温高压",
+              "选材范围大、适用工况广",
+              "设计制造检修技术成熟",
+              "具备多种强化传热元件方案",
+              "可提升换热效率并降低阻力损失"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Standards": "ASME; GB150; GB151; GB/T151-2014; TSG21-2016",
+              "Licenses": "Pressure vessel D1 and D2 design and manufacturing licenses",
+              "Enhanced elements": "Arc tube; Corrugated tube; Spiral tube; Plasma tube; 3D rib tube; Baffle tube; Spiral baffle plate",
+              "Product types": "Fixed tubesheet; U-tube; Floating head; Stuffing box"
+            },
+            "zh": {
+              "标准": "ASME；GB150；GB151；GB/T151-2014；TSG21-2016",
+              "资质": "压力容器D1、D2设计和制造许可证",
+              "强化元件": "弧线管、波节管、螺旋管、等离子管、三维肋管、折流管、螺旋折流板",
+              "产品类型": "固定管板式、U型管式、浮头式、填料函式"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "How does ViEX classify the product?",
+                "content": "The official page introduces four main structural types: fixed tubesheet, U-tube, floating head, and stuffing box shell-and-tube heat exchangers."
+              },
+              {
+                "title": "What industries are highlighted?",
+                "content": "The product page points to petroleum refining, chemical industry, electric power, metallurgy, and water conservancy among the main application areas."
+              }
+            ],
+            "zh": [
+              {
+                "title": "官网列出了哪些主要结构形式？",
+                "content": "官网列出了固定管板式、U型管式、浮头式和填料函式四类主要结构，用于覆盖不同温差、清洗维护和压力工况需求。"
+              },
+              {
+                "title": "该产品主要用于哪些行业？",
+                "content": "官网强调该类换热器是炼油、化工、电力等行业流程中的重要设备，并已广泛应用于石化、轻工、电力、冶金和水利等领域。"
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Tubular Heat Exchanger | SIPING ViEX",
+              "meta_description": "Shell-and-tube heat exchanger designed for high-temperature, high-pressure, and enhanced heat transfer industrial applications."
+            },
+            "zh": {
+              "meta_title": "管壳式热交换器 | 四平维克斯",
+              "meta_description": "符合ASME和GB标准的管壳式热交换器，适用于高温高压及强化传热工业应用。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "tubular_heat_exchanger.jpg",
+            "alt_text": "Tubular Heat Exchanger"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 3,
+          "slug": "heat-exchanger-unit",
+          "is_visible": true,
+          "name": {
+            "en": "Heat Exchanger Unit",
+            "zh": "换热机组"
+          },
+          "short_description": {
+            "en": "Integrated heat exchanger unit for district heating, air conditioning, and domestic hot water with automatic control and energy-saving operation.",
+            "zh": "用于供暖、空调和生活热水场景的成套换热机组，支持自动控制、节能运行和远程通信。"
+          },
+          "full_description": {
+            "en": "ViEX positions the heat exchanger unit as a complete station package that combines heat exchanger, circulating pump, make-up pump, and control system to realize automatic and efficient heat exchange. The official page explains temperature control, variable flow regulation, combined temperature and flow regulation, fully automatic field control, and unattended remote communication control, and says the unit can be applied to heating, air conditioning, and domestic hot water systems using steam or high-temperature hot water as the heat source.",
+            "zh": "ViEX将换热机组定位为将换热器、循环水泵、补水泵与控制系统集成为一体的成套设备，用于实现自动化、高效、节能换热并完成热力站功能。官网详细介绍了温度调节、变流量调节、温度与流量联合调节、全自动现场控制以及全自动无人值守远程通讯控制，并说明该设备可用于供暖、空调和生活用热水系统，热源可为蒸汽或高温热水。"
+          },
+          "industries": [
+            "1",
+            "4"
+          ],
+          "advantage": {
+            "en": [
+              "Low total investment",
+              "Saves more than 70 percent of floor area",
+              "Integrated design, supply, installation, commissioning, and after-sales service",
+              "Supports automatic on-site or remote unattended control",
+              "Can be configured with international brand components"
+            ],
+            "zh": [
+              "综合投资低",
+              "占地面积可节省70%以上",
+              "设计、供货、安装、调试和售后一体化",
+              "支持现场自动控制和远程无人值守控制",
+              "可选配国际知名品牌零部件"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Standards referenced on page": "CJ/T 191-2004; GB/T 29466-2012",
+              "Control modes": "Temperature control; Variable flow regulation; Temperature and flow regulation",
+              "Automation levels": "Single-loop temperature control; Fully automatic field control; Unattended remote communication control",
+              "Heating media": "Steam below 300℃; High-temperature hot water",
+              "Typical duty points": "130/80℃ to 95/70℃; 115/65℃ to 55/80℃; 7/12℃ to 8/13℃"
+            },
+            "zh": {
+              "页面提及标准": "CJ/T 191-2004；GB/T 29466-2012",
+              "控制方式": "温度调节、变流量调节、温度并流量调节",
+              "自动化级别": "单回路温度控制、全自动现场控制、全自动无人值守远程通讯控制",
+              "热源": "300℃以下蒸汽、高温热水",
+              "典型工况": "130/80℃到95/70℃；115/65℃到55/80℃；7/12℃到8/13℃"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "How does the unit save energy?",
+                "content": "The official description explains that the unit adjusts primary network flow based on secondary network water supply temperature and outdoor temperature, while variable-frequency pumps can regulate secondary network flow to achieve large temperature difference and small flow operation."
+              },
+              {
+                "title": "What configuration levels are available?",
+                "content": "ViEX lists single-loop temperature control, fully automatic field control that still requires regular inspection, and unattended remote communication control with transmission of temperature, pressure, flow, valve, pump, and water level signals."
+              }
+            ],
+            "zh": [
+              {
+                "title": "机组如何实现节能控制？",
+                "content": "官网说明该机组可通过二次网供水温度和室外温度信号控制一次网调节阀，并结合二次网循环泵变频调速实现大温差、小流量运行，从而达到更优的节能效果。"
+              },
+              {
+                "title": "官网列出了哪些控制配置？",
+                "content": "官网列出了单回路温度控制、需人工巡检的全自动现场控制，以及可传输温度、压力、流量、水泵、电动阀和水位等数据的远程无人值守通讯控制。"
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Heat Exchanger Unit | SIPING ViEX",
+              "meta_description": "Integrated heat exchanger unit for heating, air conditioning, and domestic hot water systems with automatic control and remote communication options."
+            },
+            "zh": {
+              "meta_title": "换热机组 | 四平维克斯",
+              "meta_description": "适用于供暖、空调和生活热水系统的成套换热机组，支持自动控制、节能运行和远程通讯。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "heat_exchanger_unit.jpg",
+            "alt_text": "Heat Exchanger Unit"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 4,
+          "slug": "air-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "Air Heat Exchanger",
+            "zh": "空气换热器"
+          },
+          "short_description": {
+            "en": "Finned-tube air heat exchanger for heating or cooling air with hot water, steam, heat transfer oil, brine, or low-temperature water.",
+            "zh": "以翅片管为核心传热部件的空气换热器，可用于空气加热或冷却，适合水源不足工况。"
+          },
+          "full_description": {
+            "en": "The official product page describes the air heat exchanger as the main equipment used in devices that cool or heat air with hot and cold media. It can heat air with high-temperature water, steam, or high-temperature heat transfer oil, and cool air with brine or low-temperature water. ViEX highlights finned tubes as the core heat transfer component and states the product is especially suitable for hot air heating, air conditioning, cooling, condensation, dehumidification, and drying applications in environments with limited water sources.",
+            "zh": "官网将空气换热器描述为采用冷热媒介对空气进行冷却或加热的换热装置中的主要设备，可通过高温水、蒸汽或高温导热油加热空气，也可通过盐水或低温水冷却空气。ViEX强调其传热核心部件为翅片管，特别适用于轻工、建筑、机械、纺织、印染、电子、食品、淀粉、医药、冶金、涂装等行业中的热风采暖、空调、冷却、冷凝、除湿和烘干等应用，尤其适合水源不足的工作环境。"
+          },
+          "industries": [
+            "1",
+            "5",
+            "7",
+            "8"
+          ],
+          "advantage": {
+            "en": [
+              "Suitable for heating or cooling air with multiple media",
+              "High heat exchange efficiency from finned tube structure",
+              "Small thermal resistance and high strength",
+              "Strong anti-corrosion performance",
+              "Designed for reliable long-term cold and hot duty"
+            ],
+            "zh": [
+              "可适配多种冷热媒介进行空气加热或冷却",
+              "翅片管结构带来较高换热效率",
+              "热阻小、强度高",
+              "防腐性能较好",
+              "适合长期冷热交替工况"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Gas side pressure": "Within ±20kPa(g)",
+              "Tube side pressure": "Less than or equal to 2.5MPa",
+              "Base tube materials": "Carbon steel; Copper; Titanium; Stainless steel",
+              "Fin materials": "Aluminum alloy; Copper; Carbon steel; Stainless steel",
+              "Finned tube types": "Wound L type; Bimetal rolled DR type; Embedded G type; Welded type"
+            },
+            "zh": {
+              "气侧压力": "±20kPa(g)以内",
+              "管程侧压力": "小于等于2.5MPa",
+              "基管材质": "碳钢、铜、钛材、不锈钢",
+              "翅片材质": "铝合金、铜、碳钢、不锈钢",
+              "翅片管类型": "缠绕式L型、双金属轧制DR型、镶嵌式G型、焊接式"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "What does the product do?",
+                "content": "It is used as the main heat exchange equipment for cooling or heating air, including hot air heating, air conditioning, cooling, condensation, dehumidification, and drying applications."
+              },
+              {
+                "title": "What design points does ViEX emphasize?",
+                "content": "The page emphasizes finned tubes, especially commonly used DR type bimetal rolled tubes, along with compact structure, large heat transfer area per unit volume, and reliable long-term anti-corrosion performance."
+              }
+            ],
+            "zh": [
+              {
+                "title": "空气换热器主要用于什么场景？",
+                "content": "官网说明该产品可用于热风采暖、空调、冷却、冷凝、除湿和烘干等场景，是空气加热或冷却装置中的主要换热设备。"
+              },
+              {
+                "title": "ViEX 在设计上强调了什么？",
+                "content": "官网重点介绍了翅片管结构，尤其是常用的DR型双金属轧制翅片管，并强调其单位体积内换热面积大、传热性能好、防腐蚀性能高和长期冷热工况下不易变形。"
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Air Heat Exchanger | SIPING ViEX",
+              "meta_description": "Finned-tube air heat exchanger for heating, cooling, condensation, dehumidification, and drying duties across industrial applications."
+            },
+            "zh": {
+              "meta_title": "空气换热器 | 四平维克斯",
+              "meta_description": "以翅片管为核心的空气换热器，适用于空气加热、冷却、冷凝、除湿和烘干等工业应用。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "air_heat_exchanger.jpg",
+            "alt_text": "Air Heat Exchanger"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 5,
+          "slug": "air-radiator",
+          "is_visible": true,
+          "name": {
+            "en": "Air Radiator",
+            "zh": "空气散热器"
+          },
+          "short_description": {
+            "en": "Air radiator and air heater for hot air drying devices, using steam or hot water through finned steel tubes.",
+            "zh": "可用于热风干燥装置中的空气加热换热设备，采用蒸汽或热水通过翅片钢管进行换热。"
+          },
+          "full_description": {
+            "en": "ViEX describes the air radiator, also called an air heater, as heat exchange equipment used for air heating in hot air drying devices. The official page states that steam or hot water flows through the steel tube while heat is transferred to the air passing through the fins outside the tightly wound or rolled steel pipe, providing high-speed heat transfer surface, vibration resistance, corrosion resistance, and long service life.",
+            "zh": "ViEX官网将空气散热器又称为空气加热器，可用于热风干燥装置中作为空气加热用的换热设备。官网说明蒸汽或热水流经钢管管内，热量通过紧绕或轧制钢管外的翅片传给经过片间的空气，因此具备高速传热表面、坚固耐振、防腐和使用寿命长等特点。"
+          },
+          "industries": [
+            "1",
+            "5",
+            "7",
+            "8"
+          ],
+          "advantage": {
+            "en": [
+              "Designed for air heating in hot air drying devices",
+              "High-speed heat transfer surface",
+              "Strong vibration resistance",
+              "Corrosion resistance",
+              "Long service life"
+            ],
+            "zh": [
+              "适用于热风干燥装置中的空气加热",
+              "具有高速传热表面",
+              "坚固耐振",
+              "防腐性能较好",
+              "使用寿命长"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Application": "Air heating in hot air drying devices",
+              "Heating medium": "Steam or hot water",
+              "Structure": "Tight or rolled finned steel tube"
+            },
+            "zh": {
+              "应用": "热风干燥装置中的空气加热",
+              "热媒": "蒸汽或热水",
+              "结构": "紧绕或轧制翅片钢管"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "What is the main use case?",
+                "content": "The official page presents the product as an air heating heat exchanger for hot air drying devices."
+              },
+              {
+                "title": "What performance characteristics are emphasized?",
+                "content": "ViEX emphasizes high-speed heat transfer surface, strong vibration resistance, corrosion resistance, and long service life."
+              }
+            ],
+            "zh": [
+              {
+                "title": "该产品的主要用途是什么？",
+                "content": "官网将该产品定位为热风干燥装置中的空气加热换热设备。"
+              },
+              {
+                "title": "官网强调了哪些性能特点？",
+                "content": "官网强调其具有高速传热表面、坚固耐振、防腐以及寿命长等特点。"
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Air Radiator | SIPING ViEX",
+              "meta_description": "Air radiator and air heater for hot air drying devices with finned steel tube heat transfer design."
+            },
+            "zh": {
+              "meta_title": "空气散热器 | 四平维克斯",
+              "meta_description": "适用于热风干燥装置空气加热的空气散热器，采用翅片钢管换热结构。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "air_radiator.jpg",
+            "alt_text": "Air Radiator"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 6,
+          "slug": "spiral-plate-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "Spiral Plate Heat Exchanger",
+            "zh": "螺旋板式换热器"
+          },
+          "short_description": {
+            "en": "Spiral plate heat exchanger built to JB/T4751-2003 and GB150-1998 with detachable and non-detachable configurations for demanding process duties.",
+            "zh": "符合JB/T4751-2003和GB150-1998标准的螺旋板式换热器，提供可拆和不可拆结构选择。"
+          },
+          "full_description": {
+            "en": "ViEX describes itself as a professional domestic manufacturer of spiral plate heat exchangers with advanced design schemes, rich manufacturing experience, advanced tooling equipment, and wide application fields. The official page lists both detachable and non-detachable spiral plate heat exchangers, gives material and channel options, and highlights innovative results such as crude benzol condensers, four-channel detachable spiral plate heat exchangers, and one-side detachable spiral plate heat exchangers.",
+            "zh": "ViEX官网将其描述为国内专业的螺旋板式换热器制造企业，拥有先进设计方案、丰富制造经验、先进工装设备和广泛应用领域。官网列出了可拆和不可拆螺旋板式换热器的主要参数，并展示了粗苯冷凝冷却器、四通道可拆式螺旋板式换热器、单侧可拆式螺旋板式换热器等创新成果。"
+          },
+          "industries": [
+            "2",
+            "6",
+            "7"
+          ],
+          "advantage": {
+            "en": [
+              "Advanced design scheme and rich manufacturing experience",
+              "Detachable and non-detachable configurations",
+              "Wide range of material and size options",
+              "Suitable for demanding industrial process applications",
+              "Includes export and steel, coking, alcohol, and biotech references"
+            ],
+            "zh": [
+              "具备先进设计方案和丰富制造经验",
+              "同时提供可拆和不可拆结构",
+              "材质、规格和通道间距选择范围较广",
+              "适合多种工业工艺换热工况",
+              "官网展示了钢铁、焦化、酒精、生物科技及出口项目业绩"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Standards": "JB/T4751-2003; GB150-1998",
+              "Plate material": "Q235B; SUS304; 316; 316L; 321",
+              "Plate width": "Carbon steel: 500, 630, 750, 1260, 1500, 2000mm; Stainless steel: 610, 750, 1220, 1500, 2000mm",
+              "Channel spacing": "6.0-32.0mm optional",
+              "Pressure rating": "Non-detachable: 4.5MPa; Detachable: 1.0MPa",
+              "Maximum operating temperature": "Non-detachable: 400℃; Detachable: 300℃"
+            },
+            "zh": {
+              "标准": "JB/T4751-2003；GB150-1998",
+              "换热板材质": "Q235B、SUS304、316、316L、321",
+              "换热板宽度": "碳钢500、630、750、1260、1500、2000mm；不锈钢610、750、1220、1500、2000mm",
+              "通道间距": "6.0-32.0mm任选",
+              "压力等级": "不可拆4.5MPa；可拆1.0MPa",
+              "使用温度": "不可拆400℃；可拆300℃"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "What innovative results are listed?",
+                "content": "The official page lists crude benzol condensers, four-channel detachable spiral plate heat exchangers, and one-side detachable spiral plate heat exchangers as representative innovative results."
+              },
+              {
+                "title": "What reference projects are shown?",
+                "content": "The page cites Baosteel Meishan coking, Tangshan Ganglu Steel, the Usiminas project in Brazil, Jiyuan Jinma Coking, Jilin Xintianlong Alcohol, Heilongjiang Xiangyuan Oil Factory, and export-related cases among typical references."
+              }
+            ],
+            "zh": [
+              {
+                "title": "官网列出了哪些创新成果？",
+                "content": "官网列出了粗苯冷凝冷却器、四通道可拆式螺旋板式换热器和单侧可拆式螺旋板式换热器等创新成果。"
+              },
+              {
+                "title": "官网展示了哪些典型业绩？",
+                "content": "官网展示了宝钢梅山焦化、唐山港陆钢铁、巴西Usiminas项目、济源金马焦化、吉林新天龙酒精、黑龙江省祥源油厂以及出口乌克兰相关项目等典型业绩。"
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Spiral Plate Heat Exchanger | SIPING ViEX",
+              "meta_description": "Spiral plate heat exchanger with detachable and non-detachable configurations for process industry applications."
+            },
+            "zh": {
+              "meta_title": "螺旋板式换热器 | 四平维克斯",
+              "meta_description": "符合JB/T4751-2003和GB150-1998标准的螺旋板式换热器，提供可拆与不可拆结构选择。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "spiral_plate_heat_exchanger.png",
+            "alt_text": "Spiral Plate Heat Exchanger"
+          }
+        ]
+      }
+    ]
+  }
+]

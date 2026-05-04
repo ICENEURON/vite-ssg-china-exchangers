@@ -105,6 +105,18 @@
       "url": "/storage/assets/shenghai-accessen-co-ltd/company_images/company_3.jpg"
     }
   ],
+  "documents": [
+    {
+      "alt_text": "Introduction to Accessen",
+      "url": "/storage/assets/shenghai-accessen-co-ltd/company_doc/introduction_to_accessen.pdf",
+      "file_name": "introduction_to_accessen.pdf"
+    },
+    {
+      "alt_text": "Introduction to Accessen Data Center Products",
+      "url": "/storage/assets/shenghai-accessen-co-ltd/company_doc/introduction_to_accessen_data_center_products.pdf",
+      "file_name": "introduction_to_accessen_data_center_products.pdf"
+    }
+  ],
   "products": [
     {
       "slug": "liquid-cooling-distribution-unit-acdu",

@@ -36,7 +36,7 @@ if (products.length > 0 && typeof products[0].name === 'object') {
  */
 function localizeField(value, availableLangs, currentLang) {
   if (value === null || value === undefined) return value;
-  
+
   if (typeof value === 'object' && !Array.isArray(value)) {
     const hasLangKey = availableLangs.some(l => l in value);
     if (hasLangKey) {
@@ -45,37 +45,72 @@ function localizeField(value, availableLangs, currentLang) {
       }
       return '';
     }
-    
+
     const localizedObj = {};
     for (const key of Object.keys(value)) {
       localizedObj[key] = localizeField(value[key], availableLangs, currentLang);
     }
     return localizedObj;
   }
-  
+
   if (Array.isArray(value)) {
     return value.map(item => localizeField(item, availableLangs, currentLang));
   }
-  
+
   return value;
 }
 
-  function toAssetUrl(asset) {
-    return `/storage/${asset.storage_bucket}/${asset.storage_path}`;
+function parsePossiblyLocalizedString(value) {
+  if (typeof value !== 'string') {
+    return null;
   }
 
-  function getProductImageAssets(productId) {
-    const galleryImages = preferredProductAssets
-        .filter(asset => asset.product_id === productId && asset.asset_type === 'gallery_image')
-        .sort((a, b) => (a.order || 0) - (b.order || 0));
-    if (galleryImages.length > 0) {
-      return galleryImages;
+  const trimmed = value.trim();
+  if (!trimmed.startsWith('{') || !trimmed.endsWith('}')) {
+    return null;
+  }
+
+  try {
+    const parsed = JSON.parse(trimmed);
+    return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : null;
+  } catch {
+    return null;
+  }
+}
+
+function getLocalizedAssetAltText(asset, availableLangs, currentLang) {
+  const parsedAltText = parsePossiblyLocalizedString(asset?.alt_text);
+  if (parsedAltText) {
+    const localizedAltText = localizeField(parsedAltText, availableLangs, currentLang);
+    if (typeof localizedAltText === 'string' && localizedAltText.trim()) {
+      return localizedAltText;
     }
 
-    return preferredProductAssets
-        .filter(asset => asset.product_id === productId && asset.asset_type === 'image')
-        .sort((a, b) => (a.order || 0) - (b.order || 0));
+    if (typeof parsedAltText.en === 'string' && parsedAltText.en.trim()) {
+      return parsedAltText.en;
+    }
   }
+
+  const localizedAsset = localizeField(asset, availableLangs, currentLang);
+  return typeof localizedAsset?.alt_text === 'string' ? localizedAsset.alt_text : '';
+}
+
+function toAssetUrl(asset) {
+  return `/storage/${asset.storage_bucket}/${asset.storage_path}`;
+}
+
+function getProductImageAssets(productId) {
+  const galleryImages = preferredProductAssets
+    .filter(asset => asset.product_id === productId && asset.asset_type === 'gallery_image')
+    .sort((a, b) => (a.order || 0) - (b.order || 0));
+  if (galleryImages.length > 0) {
+    return galleryImages;
+  }
+
+  return preferredProductAssets
+    .filter(asset => asset.product_id === productId && asset.asset_type === 'image')
+    .sort((a, b) => (a.order || 0) - (b.order || 0));
+}
 
 function processData() {
   for (const lang of langsArray) {
@@ -100,8 +135,8 @@ function processData() {
         localizedProd.industries = prod.industries.map(id => {
           const ind = industries.find(i => String(i.id) === String(id));
           if (ind) {
-             const localizedInd = localizeField(ind, langsArray, lang);
-             return { id: ind.id, slug: ind.slug, name: localizedInd.name };
+            const localizedInd = localizeField(ind, langsArray, lang);
+            return { id: ind.id, slug: ind.slug, name: localizedInd.name };
           }
           return id;
         });
@@ -109,7 +144,7 @@ function processData() {
 
       const mfgSlug = localizedMfg.slug;
       const prodSlug = localizedProd.slug;
-      
+
       const individualProd = {
         slug: prodSlug,
         name: localizedProd.name,
@@ -125,15 +160,19 @@ function processData() {
         },
         images: getProductImageAssets(prod.id)
           .map(asset => {
-            const locAsset = localizeField(asset, langsArray, lang);
-            return { alt_text: locAsset.alt_text, url: toAssetUrl(asset) };
+            return { alt_text: getLocalizedAssetAltText(asset, langsArray, lang), url: toAssetUrl(asset) };
           }),
         certificates: preferredProductAssets
           .filter(asset => asset.product_id === prod.id && asset.asset_type === 'certificate')
           .sort((a, b) => (a.order || 0) - (b.order || 0))
           .map(asset => {
-            const locAsset = localizeField(asset, langsArray, lang);
-            return { alt_text: locAsset.alt_text, url: toAssetUrl(asset) };
+            return { alt_text: getLocalizedAssetAltText(asset, langsArray, lang), url: toAssetUrl(asset) };
+          }),
+        documents: preferredProductAssets
+          .filter(asset => asset.product_id === prod.id && (asset.asset_type === 'document'))
+          .sort((a, b) => (a.order || 0) - (b.order || 0))
+          .map(asset => {
+            return { alt_text: getLocalizedAssetAltText(asset, langsArray, lang), url: toAssetUrl(asset), file_name: asset.file_name };
           })
       };
 
@@ -143,7 +182,7 @@ function processData() {
         if (!fs.existsSync(mfgProductsDir)) {
           fs.mkdirSync(mfgProductsDir, { recursive: true });
         }
-        
+
         fs.writeFileSync(
           path.join(mfgProductsDir, `${prodSlug}.json`),
           JSON.stringify(individualProd, null, 2),
@@ -163,8 +202,7 @@ function processData() {
         industries: localizedProd.industries ? localizedProd.industries.map(ind => ind.name || ind) : [],
         images: getProductImageAssets(prod.id)
           .map(asset => {
-            const locAsset = localizeField(asset, langsArray, lang);
-            return { alt_text: locAsset.alt_text, url: toAssetUrl(asset) };
+            return { alt_text: getLocalizedAssetAltText(asset, langsArray, lang), url: toAssetUrl(asset) };
           }),
         url: `${mfgSlug}/${prodSlug}`
       };

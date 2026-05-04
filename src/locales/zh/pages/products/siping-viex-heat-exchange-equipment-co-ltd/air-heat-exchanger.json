@@ -1,0 +1,51 @@
+{
+  "slug": "air-heat-exchanger",
+  "name": "空气换热器",
+  "full_description": "官网将空气换热器描述为采用冷热媒介对空气进行冷却或加热的换热装置中的主要设备，可通过高温水、蒸汽或高温导热油加热空气，也可通过盐水或低温水冷却空气。ViEX强调其传热核心部件为翅片管，特别适用于轻工、建筑、机械、纺织、印染、电子、食品、淀粉、医药、冶金、涂装等行业中的热风采暖、空调、冷却、冷凝、除湿和烘干等应用，尤其适合水源不足的工作环境。",
+  "industries": [
+    "暖通空调",
+    "食品加工",
+    "食品与饮料",
+    "制药"
+  ],
+  "advantage": [
+    "可适配多种冷热媒介进行空气加热或冷却",
+    "翅片管结构带来较高换热效率",
+    "热阻小、强度高",
+    "防腐性能较好",
+    "适合长期冷热交替工况"
+  ],
+  "technical_parameters": {
+    "基管材质": "碳钢、铜、钛材、不锈钢",
+    "气侧压力": "±20kPa(g)以内",
+    "翅片材质": "铝合金、铜、碳钢、不锈钢",
+    "管程侧压力": "小于等于2.5MPa",
+    "翅片管类型": "缠绕式L型、双金属轧制DR型、镶嵌式G型、焊接式"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "空气换热器主要用于什么场景？",
+      "content": "官网说明该产品可用于热风采暖、空调、冷却、冷凝、除湿和烘干等场景，是空气加热或冷却装置中的主要换热设备。"
+    },
+    {
+      "title": "ViEX 在设计上强调了什么？",
+      "content": "官网重点介绍了翅片管结构，尤其是常用的DR型双金属轧制翅片管，并强调其单位体积内换热面积大、传热性能好、防腐蚀性能高和长期冷热工况下不易变形。"
+    }
+  ],
+  "seo_data": {
+    "meta_title": "空气换热器 | 四平维克斯",
+    "meta_description": "以翅片管为核心的空气换热器，适用于空气加热、冷却、冷凝、除湿和烘干等工业应用。"
+  },
+  "manufacturer": {
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Air Heat Exchanger",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_heat_exchanger.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

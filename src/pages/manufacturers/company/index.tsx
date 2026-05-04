@@ -2,7 +2,7 @@
 import { Head } from 'vite-react-ssg'
 import { Link, useParams, Navigate } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
-import { BadgeCheck, Factory, ArrowRight, ArrowLeft, Star, MapPin, CheckCircle2, ShieldCheck, Award, Users, Globe2, Sparkles, Zap, Flame, Gauge, Mail, Phone, Linkedin, Youtube, ExternalLink } from "lucide-react"
+import { BadgeCheck, Factory, ArrowRight, ArrowLeft, Star, MapPin, CheckCircle2, ShieldCheck, Award, Users, Globe2, Sparkles, Zap, Flame, Gauge, Mail, Phone, Linkedin, Youtube, ExternalLink, Download, FileText } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
 import { useTranslation } from 'react-i18next'
@@ -13,6 +13,12 @@ interface ImageAsset {
     alt_text?: string;
     url: string;
     order?: number;
+}
+
+interface DocumentAsset {
+    alt_text?: string;
+    url: string;
+    file_name?: string;
 }
 
 interface ManufacturerProductCategory {
@@ -53,6 +59,7 @@ interface ManufacturerData {
     certifications?: ImageAsset[];
     customers?: ImageAsset[];
     images?: ImageAsset[];
+    documents?: DocumentAsset[];
     seo_data?: {
         meta_title?: string;
         meta_description?: string;
@@ -80,6 +87,24 @@ interface Product {
     order?: number;
 }
 
+function getDocumentDisplayName(document: DocumentAsset): string {
+    if (document.file_name?.trim()) {
+        return document.file_name.trim();
+    }
+
+    const lastSegment = document.url.split('/').pop()?.split('?')[0]?.split('#')[0];
+
+    if (!lastSegment) {
+        return 'document';
+    }
+
+    try {
+        return decodeURIComponent(lastSegment);
+    } catch {
+        return lastSegment;
+    }
+}
+
 export default function ManufacturerProfilePage() {
     const { slug } = useParams<{ slug: string }>();
     const { t } = useTranslation();
@@ -87,6 +112,8 @@ export default function ManufacturerProfilePage() {
 
     const SHARED_TK = "pages.manufacturers.company";
     const TK = `pages.manufacturers.${slug}`;
+    const documentDownloadsTitle = t(`${SHARED_TK}.document_downloads`, { defaultValue: currentLanguage === 'zh' ? '文档下载' : 'Document Downloads' });
+    const downloadLabel = t(`${SHARED_TK}.download`, { defaultValue: currentLanguage === 'zh' ? '下载' : 'Download' });
 
     // Load manufacturer data dynamically based on the slug. 
     // If it returns a string, it means the key was not found (or returnObjects failed).
@@ -127,6 +154,7 @@ export default function ManufacturerProfilePage() {
     const customers = mfgData.customers || [];
     const certificates = mfgData.certifications || [];
     const galleryImages = mfgData.images || [];
+    const documents = mfgData.documents || [];
     const videoLink = mfgData.video_link;
     const socialMediaLinks = (mfgData.social_media_links || []).filter(l => l.is_visible !== false);
     const typedCountriesData = countriesData as CountryData[];
@@ -542,6 +570,45 @@ export default function ManufacturerProfilePage() {
                             </div>
                         </div>
                     </div>
+
+                    {/* 4.5 DOCUMENT DOWNLOADS */}
+                    {documents.length > 0 && (
+                        <div className="mb-20">
+                            <div className="bg-white dark:bg-zinc-900 rounded-[2rem] p-8 lg:p-10 border border-slate-100 dark:border-zinc-800 shadow-sm relative overflow-hidden">
+                                <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/5 rounded-bl-[100px]" />
+                                <h3 className="text-2xl font-bold mb-8 flex items-center gap-3 relative z-10">
+                                    <div className="p-3 bg-emerald-100 text-emerald-600 rounded-xl dark:bg-emerald-900/30 dark:text-emerald-400">
+                                        <FileText className="w-6 h-6" />
+                                    </div>
+                                    {documentDownloadsTitle}
+                                </h3>
+                                <div className="space-y-4 relative z-10">
+                                    {documents.map((doc, idx) => (
+                                        <div key={idx} className="flex items-center justify-between gap-4 p-4 rounded-xl bg-slate-50 dark:bg-zinc-950 border border-slate-100 dark:border-zinc-800 hover:border-emerald-200 dark:hover:border-emerald-800 hover:shadow-sm transition-all">
+                                            <div className="flex items-center gap-4 min-w-0">
+                                                <div className="p-2 bg-red-50 dark:bg-red-900/20 rounded-lg shrink-0">
+                                                    <FileText className="w-5 h-5 text-red-500" />
+                                                </div>
+                                                <div className="min-w-0">
+                                                    <p className="font-semibold text-slate-800 dark:text-white truncate">{getDocumentDisplayName(doc)}</p>
+                                                </div>
+                                            </div>
+                                            <a
+                                                href={doc.url}
+                                                download={getDocumentDisplayName(doc)}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm rounded-xl shadow-sm hover:shadow-md transition-all hover:scale-[1.02]"
+                                            >
+                                                <Download className="w-4 h-4" />
+                                                {downloadLabel}
+                                            </a>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                    )}
 
                     {/* 5. TRUSTED CUSTOMERS */}
                     {customers.length > 0 && (

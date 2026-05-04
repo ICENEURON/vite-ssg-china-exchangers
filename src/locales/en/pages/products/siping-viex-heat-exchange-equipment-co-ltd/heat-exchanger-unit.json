@@ -1,0 +1,49 @@
+{
+  "slug": "heat-exchanger-unit",
+  "name": "Heat Exchanger Unit",
+  "full_description": "ViEX positions the heat exchanger unit as a complete station package that combines heat exchanger, circulating pump, make-up pump, and control system to realize automatic and efficient heat exchange. The official page explains temperature control, variable flow regulation, combined temperature and flow regulation, fully automatic field control, and unattended remote communication control, and says the unit can be applied to heating, air conditioning, and domestic hot water systems using steam or high-temperature hot water as the heat source.",
+  "industries": [
+    "HVAC",
+    "Energy"
+  ],
+  "advantage": [
+    "Low total investment",
+    "Saves more than 70 percent of floor area",
+    "Integrated design, supply, installation, commissioning, and after-sales service",
+    "Supports automatic on-site or remote unattended control",
+    "Can be configured with international brand components"
+  ],
+  "technical_parameters": {
+    "Control modes": "Temperature control; Variable flow regulation; Temperature and flow regulation",
+    "Heating media": "Steam below 300℃; High-temperature hot water",
+    "Automation levels": "Single-loop temperature control; Fully automatic field control; Unattended remote communication control",
+    "Typical duty points": "130/80℃ to 95/70℃; 115/65℃ to 55/80℃; 7/12℃ to 8/13℃",
+    "Standards referenced on page": "CJ/T 191-2004; GB/T 29466-2012"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "How does the unit save energy?",
+      "content": "The official description explains that the unit adjusts primary network flow based on secondary network water supply temperature and outdoor temperature, while variable-frequency pumps can regulate secondary network flow to achieve large temperature difference and small flow operation."
+    },
+    {
+      "title": "What configuration levels are available?",
+      "content": "ViEX lists single-loop temperature control, fully automatic field control that still requires regular inspection, and unattended remote communication control with transmission of temperature, pressure, flow, valve, pump, and water level signals."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Heat Exchanger Unit | SIPING ViEX",
+    "meta_description": "Integrated heat exchanger unit for heating, air conditioning, and domestic hot water systems with automatic control and remote communication options."
+  },
+  "manufacturer": {
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Heat Exchanger Unit",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/heat_exchanger_unit.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

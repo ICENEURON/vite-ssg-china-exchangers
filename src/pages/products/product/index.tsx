@@ -1,7 +1,7 @@
 import { Head } from 'vite-react-ssg'
 import { Link, useParams, Navigate } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
-import { CheckCircle2, Settings, Factory, ArrowLeft, BookOpen, Shield } from "lucide-react"
+import { CheckCircle2, Settings, Factory, ArrowLeft, BookOpen, Shield, Download, FileText } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
 import { useTranslation } from 'react-i18next'
@@ -17,6 +17,12 @@ interface ProductDetail {
     content: string;
 }
 
+interface ProductDocumentAsset {
+    alt_text?: string;
+    url: string;
+    file_name?: string;
+}
+
 interface ProductData {
     name: string;
     full_description?: string;
@@ -29,10 +35,29 @@ interface ProductData {
     technical_parameters?: Record<string, string>;
     video_link?: string;
     details?: ProductDetail[];
+    documents?: ProductDocumentAsset[];
     seo_data?: {
         meta_title?: string;
         meta_description?: string;
     };
+}
+
+function getDocumentDisplayName(document: ProductDocumentAsset): string {
+    if (document.file_name?.trim()) {
+        return document.file_name.trim();
+    }
+
+    const lastSegment = document.url.split('/').pop()?.split('?')[0]?.split('#')[0];
+
+    if (!lastSegment) {
+        return 'document';
+    }
+
+    try {
+        return decodeURIComponent(lastSegment);
+    } catch {
+        return lastSegment;
+    }
 }
 
 function getYoutubeEmbedUrl(url: string): string | null {
@@ -48,6 +73,8 @@ export default function ProductProfilePage() {
     const { manufacturerSlug, productSlug } = useParams<{ manufacturerSlug: string, productSlug: string }>();
     const { t } = useTranslation();
     const currentLanguage = useCurrentLanguage();
+    const documentDownloadsTitle = t("pages.products.detail.document_downloads", { defaultValue: currentLanguage === 'zh' ? '文档下载' : 'Document Downloads' });
+    const downloadLabel = t("pages.products.detail.download", { defaultValue: currentLanguage === 'zh' ? '下载' : 'Download' });
 
     // Construct dynamic path: pages.products.shanghai-heat-transfer-equipment-co-ltd.ht-bloc-welded-plate-heat-exchanger
     const TK = `pages.products.${manufacturerSlug}.${productSlug}`;
@@ -67,6 +94,7 @@ export default function ProductProfilePage() {
     const images = productData.images || [];
     const certificates = productData.certificates || [];
     const details = productData.details || [];
+    const documents = productData.documents || [];
 
     // Technical parameters
     const technicalParams = productData.technical_parameters || {};
@@ -244,6 +272,42 @@ export default function ProductProfilePage() {
                                         ))}
                                     </tbody>
                                 </table>
+                            </div>
+                        </section>
+                    )}
+
+                    {/* Document Downloads */}
+                    {documents.length > 0 && (
+                        <section>
+                            <div className="flex items-center gap-3 mb-8">
+                                <div className="p-3 bg-emerald-500/10 rounded-xl text-emerald-600 dark:text-emerald-400">
+                                    <FileText className="w-6 h-6" />
+                                </div>
+                                <h2 className="text-3xl font-bold tracking-tight">{documentDownloadsTitle}</h2>
+                            </div>
+                            <div className="space-y-4">
+                                {documents.map((doc, idx) => (
+                                    <div key={idx} className="bg-card p-6 rounded-2xl border border-border/50 shadow-sm flex items-center justify-between gap-4 hover:shadow-md transition-shadow">
+                                        <div className="flex items-center gap-4 min-w-0">
+                                            <div className="p-2.5 bg-red-50 dark:bg-red-900/20 rounded-xl shrink-0">
+                                                <FileText className="w-5 h-5 text-red-500" />
+                                            </div>
+                                            <div className="min-w-0">
+                                                <p className="font-semibold text-card-foreground truncate">{getDocumentDisplayName(doc)}</p>
+                                            </div>
+                                        </div>
+                                        <a
+                                            href={doc.url}
+                                            download={getDocumentDisplayName(doc)}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm rounded-xl shadow-sm hover:shadow-md transition-all hover:scale-[1.02]"
+                                        >
+                                            <Download className="w-4 h-4" />
+                                            {downloadLabel}
+                                        </a>
+                                    </div>
+                                ))}
                             </div>
                         </section>
                     )}
