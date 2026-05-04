@@ -567,7 +567,6 @@ export default function ManufacturerProfilePage() {
                                                     <span className="font-bold text-slate-500">{customer.alt_text?.[0]}</span>
                                                 </div>
                                             )}
-                                            <span className="mt-2 text-[10px] font-bold text-slate-400 group-hover:text-slate-600 opacity-0 group-hover:opacity-100 transition-all">{customer.alt_text}</span>
                                         </div>
                                     ))}
                                 </div>

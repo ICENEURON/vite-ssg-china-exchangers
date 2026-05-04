@@ -178,11 +178,32 @@
       "url": "shanghai-heat-transfer-equipment-co-ltd/gasketed-plate-heat-exchanger"
     },
     {
-      "slug": "plate-heat-exchanger",
-      "name": "板式换热器（胶垫式）",
-      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_hex_1.jpg",
-      "short_description": "可选不锈钢/钛材等多种材料，并支持多样接口形式。",
-      "url": "shanghai-heat-transfer-equipment-co-ltd/plate-heat-exchanger"
+      "slug": "wide-gap-welded-plate-heat-exchanger",
+      "name": "宽通道焊接板式热交换器",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_1.png",
+      "short_description": "适用于高粘度、含纤维及含固体颗粒介质的无胶垫宽通道焊接换热器。",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "printed-circuit-heat-exchanger",
+      "name": "印刷电路板式热交换器",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_1.jpg",
+      "short_description": "适用于极端高压高温工况的紧凑型微通道扩散焊接换热器。",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/printed-circuit-heat-exchanger"
+    },
+    {
+      "slug": "tp-welded-plate-heat-exchanger",
+      "name": "TP混合板式热交换器",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_1.png",
+      "short_description": "兼具板式高效换热与管壳式耐高温高压特性的全焊接混合板式热交换器。",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "plate-air-preheater",
+      "name": "空气预热器",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_1.jpg",
+      "short_description": "适用于气-气余热回收、兼顾防露点腐蚀与节能环保的模块化板式空气预热器。",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/plate-air-preheater"
     }
   ]
 }

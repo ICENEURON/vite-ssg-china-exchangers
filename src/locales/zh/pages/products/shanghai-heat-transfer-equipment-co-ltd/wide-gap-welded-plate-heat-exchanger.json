@@ -1,0 +1,93 @@
+{
+  "slug": "wide-gap-welded-plate-heat-exchanger",
+  "name": "宽通道焊接板式热交换器",
+  "full_description": "宽通道焊接板式热交换器有窝状和柱状两种板片形式，板片之间形成介质流道，周边通过焊接密封，替代了可拆卸板式热交换器的橡胶垫密封结构，适用于制糖、造纸、冶金、酒精、石油、化工等行业中处理含有大量固体颗粒、纤维悬浮物，以及粘稠状或高温流体的加热或冷却。由于热交换板片结构的特殊设计，该产品在同工况下可实现更高的传热效率和更低的压降损失，宽间隙流道内流体流动顺畅、无滞留、无死区，可有效防止流道堵塞并减缓磨蚀现象。",
+  "industries": [
+    "石油化工",
+    "化工",
+    "食品与饮料",
+    "制药"
+  ],
+  "advantage": [
+    "仿生与工程结合：将仿生学与工程设计相结合，为宽通道注入自然元素，最大限度提高能效。",
+    "强化湍流换热：通过局部湍流强化打破热边界层，优化场协同角度，提升传热效率。",
+    "防垢耐用：提高壁面剪切力，有助于防垢并延长清洗周期和设备使用寿命。",
+    "宽通道防堵塞：针对含颗粒、含纤维和高粘度介质设计，流动顺畅，无滞留、无死区。",
+    "全焊接结构：采用无胶垫焊接密封结构，适合更高温度和压力下的可靠运行。"
+  ],
+  "technical_parameters": {
+    "板片厚度": "1.0 ~ 2.5mm",
+    "板片形式": "窝状、柱状",
+    "板片材料": "奥氏不锈钢、双相不锈钢、镍及镍合金、哈氏合金",
+    "流道间距": "8 ~ 30mm",
+    "设计压力": "真空 ~ 3.5MPa",
+    "设计温度": "<=350℃",
+    "最大组装面积": "2000㎡"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "什么是宽通道焊接板式热交换器？",
+      "content": "宽通道焊接板式热交换器采用全焊接、无胶垫结构，通过特殊设计的宽间隙流道处理含有固体颗粒、纤维悬浮物或高粘度介质。该结构在保持高传热效率和低压降优势的同时，可有效避免流道滞留和堵塞问题。"
+    },
+    {
+      "title": "它的流道是如何构成的？",
+      "content": "根据板片形式不同，一侧流道可由窝状板与窝状板、窝状板与平板、或平板与平板加定距柱焊接形成带触点通道，适合较清洁介质流过；另一侧则形成无触点的宽间隙通道，适合含粗颗粒、纤维或高粘度介质流过。"
+    },
+    {
+      "title": "它如何进行设计和制造？",
+      "content": "该产品通过优化板型、流道间距、多流程逆流布置和压降控制进行热工设计，并根据工况选择奥氏体不锈钢、双相不锈钢、哈氏合金等耐蚀材料。制造过程中采用精密焊接和受控装配工艺，确保结构强度、密封可靠性和长期运行稳定性。"
+    }
+  ],
+  "seo_data": {
+    "meta_title": "宽通道焊接板式热交换器",
+    "meta_description": "适用于高粘度、含纤维和含固体颗粒介质的宽通道焊接板式热交换器，具有防堵塞和高效换热优势。"
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Flow Channel",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_3.jpg"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_4.jpg"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Plate Pattern",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_5.png"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ]
+}

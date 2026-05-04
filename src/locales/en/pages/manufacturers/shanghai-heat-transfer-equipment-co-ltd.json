@@ -178,11 +178,32 @@
       "url": "shanghai-heat-transfer-equipment-co-ltd/gasketed-plate-heat-exchanger"
     },
     {
-      "slug": "plate-heat-exchanger",
-      "name": "Plate Heat Exchanger (Gasketed)",
-      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_hex_1.jpg",
-      "short_description": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
-      "url": "shanghai-heat-transfer-equipment-co-ltd/plate-heat-exchanger"
+      "slug": "wide-gap-welded-plate-heat-exchanger",
+      "name": "Wide Gap Welded Plate Heat Exchanger",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_1.png",
+      "short_description": "Gasket-free wide gap exchanger for viscous, fiber-laden, and particle-containing fluids.",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "printed-circuit-heat-exchanger",
+      "name": "Printed Circuit Heat Exchanger",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_1.jpg",
+      "short_description": "Compact microchannel diffusion-bonded heat exchanger for extreme pressure and temperature service.",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/printed-circuit-heat-exchanger"
+    },
+    {
+      "slug": "tp-welded-plate-heat-exchanger",
+      "name": "TP Welded Plate Heat Exchanger",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_1.png",
+      "short_description": "Hybrid fully welded exchanger combining plate efficiency with shell-and-tube pressure and temperature resistance.",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "plate-air-preheater",
+      "name": "Plate Air Preheater",
+      "image": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_1.jpg",
+      "short_description": "Modular plate air preheater for gas-to-gas heat recovery with strong corrosion control and energy-saving performance.",
+      "url": "shanghai-heat-transfer-equipment-co-ltd/plate-air-preheater"
     }
   ]
 }

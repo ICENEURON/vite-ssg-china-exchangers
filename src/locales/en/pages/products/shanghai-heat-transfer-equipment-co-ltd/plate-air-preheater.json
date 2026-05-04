@@ -1,0 +1,88 @@
+{
+  "slug": "plate-air-preheater",
+  "name": "Plate Air Preheater",
+  "full_description": "Plate air preheater is an energy-saving and environmentally friendly heat recovery device. Flat or corrugated plates are welded or mechanically fixed around the periphery to form plate packs, and the full unit adopts a modular building-block design with flexible configurations and strong structural adaptability. It is designed to recover waste heat from industrial exhaust gases and transfer it to incoming combustion or process air, improving thermal efficiency, reducing fresh fuel demand, and lowering emissions. With proprietary Air Film technology, it can effectively mitigate acid dew point corrosion and is widely used in refining, chemical, steel, metallurgy, and power industries.",
+  "industries": [
+    "Petrochemical",
+    "Marine",
+    "Chemical Processing",
+    "Food and Beverage"
+  ],
+  "advantage": [
+    "High Energy Recovery: Waste heat is effectively reused, reducing fresh fuel demand and improving overall energy utilization.",
+    "Dew Point Corrosion Protection: The patented Air Film technology helps prevent acid dew point corrosion caused by locally low temperatures.",
+    "Modular and Flexible Design: Building-block modular design improves maintainability, transportability, upgradeability, and flexibility in size adjustment.",
+    "Broad Gas-Gas Applicability: Suitable for multiple atmospheric and low-pressure gas-to-gas heat exchange duties with energy-saving and environmental benefits.",
+    "High Thermal Performance: Plate heat transfer elements can deliver 1 to 3 times the heat transfer coefficient of tubular elements while balancing pressure drop through optimized channel geometry.",
+    "Safe and Maintainable: Fully welded plate packs offer good sealing performance, low leakage risk, reduced ash accumulation, and convenient cleaning and maintenance, including online cleaning options."
+  ],
+  "technical_parameters": {
+    "Max Area": "40000㎡",
+    "Plate Material": "304, 316L, 2205, 310S, 904L, Corten-A",
+    "Design Pressure": "Vacuum ~ 0.6MPa",
+    "Plate Thickness": "0.6 ~ 2.0mm",
+    "Design Temperature": "-20 ~ 800℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "What is Plate Air Preheater?",
+      "content": "Plate Air Preheater is a gas-to-gas heat exchanger used to recover heat from hot exhaust gas and transfer it to incoming combustion or process air. It typically operates in counterflow or crossflow arrangements using flat or corrugated metal plates that form alternating hot and cold flow channels. By recovering waste heat, it improves system efficiency, reduces fuel consumption, and lowers greenhouse gas emissions."
+    },
+    {
+      "title": "Why choose a plate air preheater?",
+      "content": "Compared with conventional tubular air preheaters, plate air preheaters offer a much larger heat transfer surface area per unit volume, higher heat transfer coefficients, compact structure, lower weight, and strong flexibility through modular assembly. Air Film technology, corrosion-resistant materials, bypass regulation, and graded material selection can also help address acid dew point corrosion and reduce lifecycle cost."
+    },
+    {
+      "title": "How is it designed and manufactured?",
+      "content": "The product is based on modular heat transfer units such as X brick, E brick, C brick, and S brick, which simplify transportation and on-site assembly for large systems. Design also considers material selection, airflow configuration, thermal stress management, and corrosion protection. Measures such as thermal compensation, expansion joints, low-CTE material use, predictive analysis, and bypass control help ensure durability, heat recovery performance, and operational safety."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Plate Air Preheater",
+    "meta_description": "Modular plate air preheater for industrial waste heat recovery with high thermal efficiency and dew point corrosion protection."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Air Preheater",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_1.jpg"
+    },
+    {
+      "alt_text": "Plate Air Preheater Module",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_2.jpg"
+    },
+    {
+      "alt_text": "Plate Air Preheater Installation",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_3.jpg"
+    },
+    {
+      "alt_text": "Plate Air Preheater Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ]
+}

@@ -582,56 +582,101 @@
             {
                 "product": {
                     "order": 3,
-                    "slug": "plate-heat-exchanger",
+                    "slug": "wide-gap-welded-plate-heat-exchanger",
                     "is_visible": true,
                     "name": {
-                        "en": "Plate Heat Exchanger (Gasketed)",
-                        "zh": "板式换热器（胶垫式）"
+                        "en": "Wide Gap Welded Plate Heat Exchanger",
+                        "zh": "宽通道焊接板式热交换器"
                     },
                     "short_description": {
-                        "en": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
-                        "zh": "可选不锈钢/钛材等多种材料，并支持多样接口形式。"
+                        "en": "Gasket-free wide gap exchanger for viscous, fiber-laden, and particle-containing fluids.",
+                        "zh": "适用于高粘度、含纤维及含固体颗粒介质的无胶垫宽通道焊接换热器。"
                     },
                     "full_description": {
-                        "en": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
-                        "zh": "可选不锈钢/钛材等多种材料，并支持多样接口形式。"
+                        "en": "Wide Gap Welded Plate Heat Exchanger is available in dimple and studded plate patterns. The plates are welded around the periphery to form media channels, eliminating the rubber gasket sealing structure used in gasketed plate heat exchangers. It is designed for heating or cooling processes involving fluids with large solid particles, fiber suspensions, viscous media, or high-temperature duties in sugar, pulp and paper, metallurgy, ethanol, petrochemical, and related industries. With specially engineered wide gap channels, the exchanger delivers high heat transfer efficiency, low pressure drop, smooth flow without dead zones, and strong anti-clogging performance under demanding operating conditions.",
+                        "zh": "宽通道焊接板式热交换器有窝状和柱状两种板片形式，板片之间形成介质流道，周边通过焊接密封，替代了可拆卸板式热交换器的橡胶垫密封结构，适用于制糖、造纸、冶金、酒精、石油、化工等行业中处理含有大量固体颗粒、纤维悬浮物，以及粘稠状或高温流体的加热或冷却。由于热交换板片结构的特殊设计，该产品在同工况下可实现更高的传热效率和更低的压降损失，宽间隙流道内流体流动顺畅、无滞留、无死区，可有效防止流道堵塞并减缓磨蚀现象。"
                     },
                     "industries": [
-                        "3",
-                        "1",
-                        "5",
+                        "2",
+                        "6",
+                        "7",
                         "8"
                     ],
                     "advantage": {
                         "en": [
-                            "Easy maintenance",
-                            "Material flexibility",
-                            "Wide range of sizes"
+                            "Bionic-Inspired Channel Design: Combines biomimetic concepts with engineering design to maximize energy efficiency in wide gap flow channels.",
+                            "Enhanced Turbulence: Local turbulence intensification breaks thermal boundary layers and improves the field synergy angle for higher heat transfer efficiency.",
+                            "Anti-Fouling Performance: Higher wall shear stress helps reduce fouling, extend cleaning intervals, and lengthen equipment service life.",
+                            "Wide Gap Anti-Clogging Flow: Special channel geometry enables smooth handling of viscous fluids, fiber suspensions, and coarse particles with minimal blockage risk.",
+                            "Fully Welded Durability: Gasket-free welded sealing supports reliable operation in higher temperature and pressure applications."
                         ],
                         "zh": [
-                            "易维护",
-                            "材料选择灵活",
-                            "覆盖规格广"
+                            "仿生与工程结合：将仿生学与工程设计相结合，为宽通道注入自然元素，最大限度提高能效。",
+                            "强化湍流换热：通过局部湍流强化打破热边界层，优化场协同角度，提升传热效率。",
+                            "防垢耐用：提高壁面剪切力，有助于防垢并延长清洗周期和设备使用寿命。",
+                            "宽通道防堵塞：针对含颗粒、含纤维和高粘度介质设计，流动顺畅，无滞留、无死区。",
+                            "全焊接结构：采用无胶垫焊接密封结构，适合更高温度和压力下的可靠运行。"
                         ]
                     },
                     "technical_parameters": {
                         "en": {
-                            "Nozzles": "flanged or studded",
-                            "Materials": "SS304/316, Titanium options"
+                            "Plate Pattern": "Dimple, studded flat plate",
+                            "Channel Gap": "8 ~ 30mm",
+                            "Plate Thickness": "1.0 ~ 2.5mm",
+                            "Design Temperature": "<=350℃",
+                            "Design Pressure": "Vacuum ~ 3.5MPa",
+                            "Max Area": "2000㎡",
+                            "Plate Material": "Austenitic stainless steel, Duplex stainless steel, Nickel and nickel alloy, Hastelloy"
                         },
                         "zh": {
-                            "接管形式": "法兰式或螺柱式",
-                            "材质": "SS304/316, 钛合金可选"
+                            "板片形式": "窝状、柱状",
+                            "流道间距": "8 ~ 30mm",
+                            "板片厚度": "1.0 ~ 2.5mm",
+                            "设计温度": "<=350℃",
+                            "设计压力": "真空 ~ 3.5MPa",
+                            "最大组装面积": "2000㎡",
+                            "板片材料": "奥氏不锈钢、双相不锈钢、镍及镍合金、哈氏合金"
                         }
                     },
+                    "details": {
+                        "en": [
+                            {
+                                "title": "What is a wide gap welded plate heat exchanger?",
+                                "content": "Wide Gap Welded Plate Heat Exchanger features a fully welded, gasket-free construction with specially designed wide gap channels. It retains the benefits of high heat transfer efficiency and low pressure drop while allowing solid-containing, fibrous, and viscous media to pass smoothly without creating dead zones that can lead to blockage."
+                            },
+                            {
+                                "title": "How is the flow channel constructed?",
+                                "content": "Each flow channel is formed by welding plates together. Depending on the plate pattern, one side may be created by spot-welded contact points between dimple plates, dimple and flat plates, or flat plates with welded studs, while the opposite side forms a wider no-contact channel for viscous fluids or media containing coarse particles and fibers."
+                            },
+                            {
+                                "title": "How is it designed and manufactured?",
+                                "content": "The product is thermally designed by optimizing plate geometry, channel spacing, multi-pass counterflow arrangement, and pressure drop management for wide gap service. Material selection can include stainless steel, duplex stainless steel, Hastelloy, and other corrosion-resistant alloys, while precision welding and controlled assembly ensure leak resistance, structural integrity, and reliable long-term operation."
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "title": "什么是宽通道焊接板式热交换器？",
+                                "content": "宽通道焊接板式热交换器采用全焊接、无胶垫结构，通过特殊设计的宽间隙流道处理含有固体颗粒、纤维悬浮物或高粘度介质。该结构在保持高传热效率和低压降优势的同时，可有效避免流道滞留和堵塞问题。"
+                            },
+                            {
+                                "title": "它的流道是如何构成的？",
+                                "content": "根据板片形式不同，一侧流道可由窝状板与窝状板、窝状板与平板、或平板与平板加定距柱焊接形成带触点通道，适合较清洁介质流过；另一侧则形成无触点的宽间隙通道，适合含粗颗粒、纤维或高粘度介质流过。"
+                            },
+                            {
+                                "title": "它如何进行设计和制造？",
+                                "content": "该产品通过优化板型、流道间距、多流程逆流布置和压降控制进行热工设计，并根据工况选择奥氏体不锈钢、双相不锈钢、哈氏合金等耐蚀材料。制造过程中采用精密焊接和受控装配工艺，确保结构强度、密封可靠性和长期运行稳定性。"
+                            }
+                        ]
+                    },
+                    "video_link": "",
                     "seo_data": {
                         "en": {
-                            "meta_title": "Plate Heat Exchanger (Gasketed)",
-                            "meta_description": "Gasketed PHE for marine/HVAC with multiple materials and nozzles."
+                            "meta_title": "Wide Gap Welded Plate Heat Exchanger",
+                            "meta_description": "Wide gap welded plate heat exchanger for viscous, fibrous, and solid-containing fluids with anti-clogging channels and gasket-free construction."
                         },
                         "zh": {
-                            "meta_title": "板式换热器（胶垫式）",
-                            "meta_description": "适用于船舶与 HVAC 的胶垫式板式换热器，支持多种材料与接口。"
+                            "meta_title": "宽通道焊接板式热交换器",
+                            "meta_description": "适用于高粘度、含纤维和含固体颗粒介质的宽通道焊接板式热交换器，具有防堵塞和高效换热优势。"
                         }
                     }
                 },
@@ -640,15 +685,568 @@
                         "order": 1,
                         "asset_type": "gallery_image",
                         "folder": "product_images",
-                        "file_name": "plate_hex_1.jpg",
-                        "alt_text": "Plate Heat Exchanger Image"
+                        "file_name": "wide_gap_welded_plate_heat_exchanger_1.png",
+                        "alt_text": "Wide Gap Welded Plate Heat Exchanger"
                     },
                     {
                         "order": 2,
                         "asset_type": "gallery_image",
                         "folder": "product_images",
-                        "file_name": "plate_hex_2.jpg",
-                        "alt_text": "Plate Heat Exchanger Variant"
+                        "file_name": "wide_gap_welded_plate_heat_exchanger_2.png",
+                        "alt_text": "Wide Gap Welded Plate Heat Exchanger Structure"
+                    },
+                    {
+                        "order": 3,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "wide_gap_welded_plate_heat_exchanger_3.jpg",
+                        "alt_text": "Wide Gap Welded Plate Heat Exchanger Flow Channel"
+                    },
+                    {
+                        "order": 4,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "wide_gap_welded_plate_heat_exchanger_4.jpg",
+                        "alt_text": "Wide Gap Welded Plate Heat Exchanger Detail"
+                    },
+                    {
+                        "order": 5,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "wide_gap_welded_plate_heat_exchanger_5.png",
+                        "alt_text": "Wide Gap Welded Plate Heat Exchanger Plate Pattern"
+                    },
+                    {
+                        "order": 1,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "asme.png",
+                        "alt_text": "ASME Certificate"
+                    },
+                    {
+                        "order": 2,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "bv.png",
+                        "alt_text": "BV Certificate"
+                    },
+                    {
+                        "order": 3,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "ce.png",
+                        "alt_text": "CE Certificate"
+                    },
+                    {
+                        "order": 4,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "nbbi.png",
+                        "alt_text": "NBBI Certificate"
+                    },
+                    {
+                        "order": 5,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "sgs.png",
+                        "alt_text": "SGS Certificate"
+                    }
+                ]
+            },
+            {
+                "product": {
+                    "order": 4,
+                    "slug": "printed-circuit-heat-exchanger",
+                    "is_visible": true,
+                    "name": {
+                        "en": "Printed Circuit Heat Exchanger",
+                        "zh": "印刷电路板式热交换器"
+                    },
+                    "short_description": {
+                        "en": "Compact microchannel diffusion-bonded heat exchanger for extreme pressure and temperature service.",
+                        "zh": "适用于极端高压高温工况的紧凑型微通道扩散焊接换热器。"
+                    },
+                    "full_description": {
+                        "en": "Printed Circuit Heat Exchanger (PCHE) is a high-efficiency microchannel welded plate heat exchanger with an extremely compact structure. Thin metal plates are chemically etched to form precise flow channels, then stacked and diffusion bonded into a monolithic heat transfer core. The core is assembled and welded with the housing, headers, nozzles, flanges, and other components to form a complete exchanger. PCHE is designed for demanding applications requiring high thermal efficiency and compact footprint, including nuclear energy, marine, oil and gas, aerospace, power generation, LNG, hydrocarbon processing, and new energy systems.",
+                        "zh": "印刷电路板式热交换器（PCHE）是一种高效紧凑的微通道焊接板式热交换器，采用金属板片作为主要换热元件。金属板片通过化学蚀刻形成介质流道，并将板片堆叠通过扩散焊接形成换热芯体。换热芯体再与壳体、封头、接管、法兰等零部件装配焊接形成完整热交换器。该产品适用于核能、船舶、石油石化、航空航天、电力、新能源等行业，尤其适合对换热效率和空间利用要求严格的高端工况。"
+                    },
+                    "industries": [
+                        "1",
+                        "3",
+                        "4"
+                    ],
+                    "advantage": {
+                        "en": [
+                            "Compactness: The PCHE footprint can be 5 to 10 times smaller than conventional shell and tube exchangers, making it ideal for space-constrained systems.",
+                            "High Efficiency: Microchannel geometry provides very high heat transfer performance and can achieve up to 98% overall thermal efficiency in demanding services.",
+                            "Extreme Operating Capability: Diffusion-bonded construction supports severe service conditions up to 1000 bar and temperatures as high as 850℃.",
+                            "Custom Flow Geometry: Different channel and corrugation patterns can be engineered to match specific flow rate, pressure drop, and thermal load requirements.",
+                            "High Structural Integrity: Specialized product structure and solid-state diffusion bonding improve leak resistance and operational safety under high temperature and pressure.",
+                            "Lightweight and Space Saving: High surface-area density delivers close temperature approach, lower weight, and excellent space utilization."
+                        ],
+                        "zh": [
+                            "结构紧凑：相比传统管壳式换热器，PCHE 具有更小的体积和占地，适合空间受限场景。",
+                            "高效换热：微通道结构带来更高的传热系数和更优的热效率，可满足严苛换热需求。",
+                            "耐高温高压：扩散焊接芯体具备优异的承压和耐温能力，适用于极端工况。",
+                            "流道可定制：可根据不同工艺条件定制不同波纹和流道形式，满足多样化应用需求。",
+                            "结构安全可靠：特殊产品结构设计可提升高温高压运行下的安全性和密封可靠性。",
+                            "轻量省空间：产品重量轻、末端温差小、空间利用率高，适用于高端紧凑系统。"
+                        ]
+                    },
+                    "technical_parameters": {
+                        "en": {
+                            "Max Design Pressure": "1000 Bar",
+                            "Design Temperature": "-196 ~ 850℃",
+                            "Heat Transfer Area": "8000㎡",
+                            "Plate Thickness": "0.4 ~ 4mm",
+                            "Channel Width": "0.4 ~ 4mm",
+                            "Plate Material": "304, 316L, 2205, TA1 and titanium alloy, high-temperature alloy"
+                        },
+                        "zh": {
+                            "最大设计压力": "1000Bar",
+                            "设计温度": "-196 ~ 850℃",
+                            "换热面积": "8000㎡",
+                            "板片厚度": "0.4 ~ 4mm",
+                            "流道宽度": "0.4 ~ 4mm",
+                            "板片材料": "304、316L、2205、TA1及钛合金、高温合金等"
+                        }
+                    },
+                    "details": {
+                        "en": [
+                            {
+                                "title": "What is a printed circuit heat exchanger?",
+                                "content": "Printed Circuit Heat Exchanger is a highly compact and efficient microchannel heat exchanger designed for extreme operating conditions. It uses chemically etched metal plates and diffusion bonding technology to deliver very high heat transfer performance, pressure resistance, corrosion resistance, and space efficiency in applications where conventional exchangers are too large or cannot withstand the duty."
+                            },
+                            {
+                                "title": "How is Printed Circuit Heat Exchanger constructed?",
+                                "content": "Thin metal plates, usually stainless steel, duplex steel, titanium, or high-temperature alloys, are coated and chemically etched to create intricate microchannel patterns. The etched plates are stacked in a defined configuration and diffusion bonded at high temperature and pressure to form a monolithic core, which is then assembled with housing, headers, nozzles, and other external components to make the final exchanger."
+                            },
+                            {
+                                "title": "How is it designed and manufactured?",
+                                "content": "PCHE design combines thermal-hydraulic analysis, microchannel geometry optimization, materials engineering, and manufacturability. After selecting base materials and plate thickness, the channel pattern is transferred by photomask and chemically etched, cleaned, stacked, diffusion bonded in a vacuum furnace, and then completed through header assembly, leak testing, and thermal performance validation."
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "title": "什么是印刷电路板式热交换器？",
+                                "content": "印刷电路板式热交换器是一种面向极端工况的高效紧凑型微通道换热器。它通过化学蚀刻在金属板片表面形成精密流道，再通过扩散焊接形成整体式换热芯体，兼具高传热效率、强承压能力、耐腐蚀性和优异的空间利用率。"
+                            },
+                            {
+                                "title": "它是如何构造的？",
+                                "content": "PCHE 以薄金属板片为基础，先进行涂覆、曝光和化学蚀刻，形成微通道图案，然后按设计顺序进行堆叠，并在高温高压下通过扩散焊接形成整体芯体。最终再与壳体、封头、接管、法兰等部件装配焊接，形成完整设备。"
+                            },
+                            {
+                                "title": "它如何进行设计和制造？",
+                                "content": "PCHE 的设计与制造涉及热工水力分析、微通道几何优化、材料选择和制造工艺控制。工程阶段需要根据压力、温度、压降和换热负荷确定板片厚度与流道形式，再经过光刻蚀刻、清洗、堆叠、真空炉扩散焊接、总装及泄漏和性能测试，确保设备满足严苛工况要求。"
+                            }
+                        ]
+                    },
+                    "video_link": "",
+                    "seo_data": {
+                        "en": {
+                            "meta_title": "Printed Circuit Heat Exchanger",
+                            "meta_description": "Compact diffusion-bonded printed circuit heat exchanger for extreme pressure and temperature applications with high thermal efficiency."
+                        },
+                        "zh": {
+                            "meta_title": "印刷电路板式热交换器",
+                            "meta_description": "适用于极端高压高温工况的印刷电路板式热交换器，具备微通道高效换热与紧凑结构优势。"
+                        }
+                    }
+                },
+                "product_assets": [
+                    {
+                        "order": 1,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "printed_circuit_heat_exchanger_1.jpg",
+                        "alt_text": "Printed Circuit Heat Exchanger"
+                    },
+                    {
+                        "order": 2,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "printed_circuit_heat_exchanger_2.png",
+                        "alt_text": "Printed Circuit Heat Exchanger Structure"
+                    },
+                    {
+                        "order": 3,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "printed_circuit_heat_exchanger_3.jpg",
+                        "alt_text": "Printed Circuit Heat Exchanger Detail"
+                    },
+                    {
+                        "order": 1,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "asme.png",
+                        "alt_text": "ASME Certificate"
+                    },
+                    {
+                        "order": 2,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "bv.png",
+                        "alt_text": "BV Certificate"
+                    },
+                    {
+                        "order": 3,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "ce.png",
+                        "alt_text": "CE Certificate"
+                    },
+                    {
+                        "order": 4,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "nbbi.png",
+                        "alt_text": "NBBI Certificate"
+                    },
+                    {
+                        "order": 5,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "sgs.png",
+                        "alt_text": "SGS Certificate"
+                    }
+                ]
+            },
+            {
+                "product": {
+                    "order": 5,
+                    "slug": "tp-welded-plate-heat-exchanger",
+                    "is_visible": true,
+                    "name": {
+                        "en": "TP Welded Plate Heat Exchanger",
+                        "zh": "TP混合板式热交换器"
+                    },
+                    "short_description": {
+                        "en": "Hybrid fully welded exchanger combining plate efficiency with shell-and-tube pressure and temperature resistance.",
+                        "zh": "兼具板式高效换热与管壳式耐高温高压特性的全焊接混合板式热交换器。"
+                    },
+                    "full_description": {
+                        "en": "The plate packs are welded together by advanced automatic welding machines and installed inside a shell that can be opened for mechanical cleaning of the flow channels. The unique channel configuration prevents fluid cross-contamination and external leakage. TP Welded Plate Heat Exchanger combines the high heat transfer efficiency and compact structure of plate heat exchangers with the high-pressure and high-temperature resistance of shell and tube exchangers, making it an ideal replacement for tubular equipment in special heat transfer processes. It is widely used in petrochemical, power generation, metallurgy, HVAC, food, and pharmaceutical industries.",
+                        "zh": "板束间采用先进的自动焊机焊接，全部板束焊接在壳体内，可以将壳体打开进行机械清洗流道，特殊的流道结构保证介质之间不会串液和外漏，既具有板式热交换器的高效传热和结构紧凑的优点，又具有管壳式热交换器耐高压、高温的特性，是一些特殊热交换工艺中替代管壳式热交换器的理想设备。已广泛应用于石油化工、电力、冶金、暖通空调、食品医药等行业。"
+                    },
+                    "industries": [
+                        "2",
+                        "3",
+                        "5",
+                        "6",
+                        "8"
+                    ],
+                    "advantage": {
+                        "en": [
+                            "Expansion Joint Design: A unique expansion joint structure is suitable for duties with large temperature differences.",
+                            "Countercurrent Heat Transfer: Counterflow arrangement improves the logarithmic mean temperature difference correction factor and enhances thermal performance.",
+                            "Round Shell Strength: The cylindrical shell form helps reduce welding deformation and improves pressure resistance and structural stability.",
+                            "Hybrid Flow Performance: The plate side provides strong turbulence and high heat transfer efficiency, while the shell side offers low flow resistance and strong pressure-bearing capability.",
+                            "Fully Welded Safety: The all-welded construction is safe and reliable for high-temperature, high-pressure, and hazardous media applications.",
+                            "Maintainable Structure: The housing can be opened for mechanical cleaning, giving the unit better serviceability than fully sealed welded alternatives."
+                        ],
+                        "zh": [
+                            "独特膨胀节设计：适用于温差较大的工况，提升设备运行可靠性。",
+                            "逆流换热效果好：逆流换热使对数平均温差修正系数更高，传热效果更佳。",
+                            "圆壳结构更稳定：圆壳外形减少焊接变形，有效提高产品承压能力和整体稳定性。",
+                            "板壳两侧优势结合：板侧流道湍流剧烈、传热效率高，壳侧流道阻力小、承压能力强。",
+                            "全焊接安全可靠：适用于高温、高压及危险介质工况，运行更安全可靠。",
+                            "可开壳便于维护：壳体可打开进行机械清洗，兼顾高性能与可维护性。"
+                        ]
+                    },
+                    "technical_parameters": {
+                        "en": {
+                            "Design Temperature": "-196 ~ 900℃",
+                            "Design Pressure": "Vacuum ~ 6.0MPa",
+                            "Max Area": "15000㎡",
+                            "Plate Thickness": "0.6 ~ 1.5mm",
+                            "Plate Material": "Austenitic stainless steel, Duplex stainless steel, 254SMO, Titanium and titanium alloy, Nickel and nickel alloy, Hastelloy"
+                        },
+                        "zh": {
+                            "设计温度": "-196 ~ 900℃",
+                            "设计压力": "真空 ~ 6.0MPa",
+                            "最大组装面积": "15000㎡",
+                            "板片厚度": "0.6 ~ 1.5mm",
+                            "板片材料": "奥氏不锈钢、双相不锈钢、254SMO、钛及钛合金、镍及镍合金、哈氏合金"
+                        }
+                    },
+                    "details": {
+                        "en": [
+                            {
+                                "title": "What is TP Welded Plate Heat Exchanger?",
+                                "content": "TP Welded Plate Heat Exchanger is a hybrid exchanger that combines the structural features of shell and tube heat exchangers with the compactness and high heat transfer efficiency of plate heat exchangers. It is suitable for liquid-liquid, gas-gas, and liquid-gas heat transfer duties where both thermal efficiency and mechanical strength are important."
+                            },
+                            {
+                                "title": "How is TP Welded Plate Heat Exchanger constructed?",
+                                "content": "The primary components include one or more welded plate packs, shell and plate frame sections, clamping bolts, hot and cold side inlet and outlet connections, baffle plates, and support structures. The plate pack is formed by stacking and welding corrugated plates, and depending on the application, the shell-side and plate-side housings can be welded or bolted for flexibility in operation and maintenance."
+                            },
+                            {
+                                "title": "How is it designed and manufactured?",
+                                "content": "Design focuses on optimized plate geometry, plate spacing, multi-pass counterflow or crossflow arrangement, and pressure-drop control. Material selection may include stainless steel, titanium, Hastelloy, and other corrosion-resistant alloys. Manufacturing relies on precision welding and robust assembly methods to ensure seamless connections, structural integrity, and dependable performance under severe operating conditions."
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "title": "什么是TP混合板式热交换器？",
+                                "content": "TP混合板式热交换器是一种结合板式热交换器与管壳式热交换器特点的混合型换热设备，兼具板式设备的高传热效率和结构紧凑优势，以及管壳式设备耐高压、耐高温的特性，适用于一些特殊热交换工艺。"
+                            },
+                            {
+                                "title": "它是如何构造的？",
+                                "content": "其主要部件包括一个或多个板束、壳体与板框结构、夹紧螺栓、冷热侧进出口接管、折流板以及支撑结构。板束由波纹板片叠装焊接而成，依据具体工艺需求，壳侧和板侧结构可采用焊接或螺栓连接，以兼顾运行性能和维护便利性。"
+                            },
+                            {
+                                "title": "它如何进行设计和制造？",
+                                "content": "该产品在设计上会综合考虑板型、板间距、逆流或错流流程布置以及压降控制，并根据介质腐蚀性和温压条件选择不锈钢、钛材、哈氏合金等材料。制造过程中采用自动化精密焊接和高强度装配工艺，确保密封性、结构强度和高温高压工况下的长期稳定运行。"
+                            }
+                        ]
+                    },
+                    "video_link": "https://www.youtube.com/watch?v=S_2LrC6tOMk",
+                    "seo_data": {
+                        "en": {
+                            "meta_title": "TP Welded Plate Heat Exchanger",
+                            "meta_description": "Hybrid welded plate heat exchanger combining plate efficiency with shell-and-tube durability for high-pressure and high-temperature service."
+                        },
+                        "zh": {
+                            "meta_title": "TP混合板式热交换器",
+                            "meta_description": "兼具板式高效换热与管壳式耐高温高压特性的TP混合板式热交换器，适用于高温高压及危险介质工况。"
+                        }
+                    }
+                },
+                "product_assets": [
+                    {
+                        "order": 1,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "tp_welded_plate_heat_exchanger_1.png",
+                        "alt_text": "TP Welded Plate Heat Exchanger"
+                    },
+                    {
+                        "order": 2,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "tp_welded_plate_heat_exchanger_2.png",
+                        "alt_text": "TP Welded Plate Heat Exchanger Structure"
+                    },
+                    {
+                        "order": 3,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "tp_welded_plate_heat_exchanger_3.jpg",
+                        "alt_text": "TP Welded Plate Heat Exchanger Flow Path"
+                    },
+                    {
+                        "order": 4,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "tp_welded_plate_heat_exchanger_4.jpg",
+                        "alt_text": "TP Welded Plate Heat Exchanger Detail"
+                    },
+                    {
+                        "order": 5,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "tp_welded_plate_heat_exchanger_5.png",
+                        "alt_text": "TP Welded Plate Heat Exchanger Application"
+                    },
+                    {
+                        "order": 1,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "asme.png",
+                        "alt_text": "ASME Certificate"
+                    },
+                    {
+                        "order": 2,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "bv.png",
+                        "alt_text": "BV Certificate"
+                    },
+                    {
+                        "order": 3,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "ce.png",
+                        "alt_text": "CE Certificate"
+                    },
+                    {
+                        "order": 4,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "nbbi.png",
+                        "alt_text": "NBBI Certificate"
+                    },
+                    {
+                        "order": 5,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "sgs.png",
+                        "alt_text": "SGS Certificate"
+                    }
+                ]
+            },
+            {
+                "product": {
+                    "order": 6,
+                    "slug": "plate-air-preheater",
+                    "is_visible": true,
+                    "name": {
+                        "en": "Plate Air Preheater",
+                        "zh": "空气预热器"
+                    },
+                    "short_description": {
+                        "en": "Modular plate air preheater for gas-to-gas heat recovery with strong corrosion control and energy-saving performance.",
+                        "zh": "适用于气-气余热回收、兼顾防露点腐蚀与节能环保的模块化板式空气预热器。"
+                    },
+                    "full_description": {
+                        "en": "Plate air preheater is an energy-saving and environmentally friendly heat recovery device. Flat or corrugated plates are welded or mechanically fixed around the periphery to form plate packs, and the full unit adopts a modular building-block design with flexible configurations and strong structural adaptability. It is designed to recover waste heat from industrial exhaust gases and transfer it to incoming combustion or process air, improving thermal efficiency, reducing fresh fuel demand, and lowering emissions. With proprietary Air Film technology, it can effectively mitigate acid dew point corrosion and is widely used in refining, chemical, steel, metallurgy, and power industries.",
+                        "zh": "空气预热器是一种节能环保设备，使用平板或波纹板，板片周边通过焊接或机械固定形成板束，整机采用积木式设计，组合方式灵活多变，结构适应性强，特有的空气膜技术能够有效解决露点腐蚀问题，适用于炼油、化工、钢铁、冶金、电力工业等行业。通过回收高温烟气或工艺废气中的余热并预热空气，可有效减少新鲜燃料消耗，提高能源利用效率，并降低排放。"
+                    },
+                    "industries": [
+                        "2",
+                        "3",
+                        "6",
+                        "7"
+                    ],
+                    "advantage": {
+                        "en": [
+                            "High Energy Recovery: Waste heat is effectively reused, reducing fresh fuel demand and improving overall energy utilization.",
+                            "Dew Point Corrosion Protection: The patented Air Film technology helps prevent acid dew point corrosion caused by locally low temperatures.",
+                            "Modular and Flexible Design: Building-block modular design improves maintainability, transportability, upgradeability, and flexibility in size adjustment.",
+                            "Broad Gas-Gas Applicability: Suitable for multiple atmospheric and low-pressure gas-to-gas heat exchange duties with energy-saving and environmental benefits.",
+                            "High Thermal Performance: Plate heat transfer elements can deliver 1 to 3 times the heat transfer coefficient of tubular elements while balancing pressure drop through optimized channel geometry.",
+                            "Safe and Maintainable: Fully welded plate packs offer good sealing performance, low leakage risk, reduced ash accumulation, and convenient cleaning and maintenance, including online cleaning options."
+                        ],
+                        "zh": [
+                            "余热利用充分：有效回收废热，减少新鲜燃料需求，从而提高能源利用效率。",
+                            "防露点腐蚀：独特的空气膜专利设计，可有效防止因局部温度过低造成的露点腐蚀。",
+                            "模块化灵活：积木式设计强调可维修性、升级能力和灵活性，便于运输并可灵活调整空间尺寸。",
+                            "适用范围广：适用于多种常压或低压气-气换热工况，兼顾节能与环保需求。",
+                            "传热效率高：板式换热元件传热系数可达到管式元件的 1 至 3 倍，并可通过优化流道设计兼顾压降低。",
+                            "安全易维护：全焊接板束密封性能好，不易积灰，清洗与维修便捷，并可支持在线清洗。"
+                        ]
+                    },
+                    "technical_parameters": {
+                        "en": {
+                            "Design Temperature": "-20 ~ 800℃",
+                            "Design Pressure": "Vacuum ~ 0.6MPa",
+                            "Max Area": "40000㎡",
+                            "Plate Thickness": "0.6 ~ 2.0mm",
+                            "Plate Material": "304, 316L, 2205, 310S, 904L, Corten-A"
+                        },
+                        "zh": {
+                            "设计温度": "-20 ~ 800℃",
+                            "设计压力": "真空 ~ 0.6MPa",
+                            "最大组装换热面积": "40000㎡",
+                            "板片厚度": "0.6 ~ 2.0mm",
+                            "板片材料": "304，316L，2205，310S，904L，Corten-A等"
+                        }
+                    },
+                    "details": {
+                        "en": [
+                            {
+                                "title": "What is Plate Air Preheater?",
+                                "content": "Plate Air Preheater is a gas-to-gas heat exchanger used to recover heat from hot exhaust gas and transfer it to incoming combustion or process air. It typically operates in counterflow or crossflow arrangements using flat or corrugated metal plates that form alternating hot and cold flow channels. By recovering waste heat, it improves system efficiency, reduces fuel consumption, and lowers greenhouse gas emissions."
+                            },
+                            {
+                                "title": "Why choose a plate air preheater?",
+                                "content": "Compared with conventional tubular air preheaters, plate air preheaters offer a much larger heat transfer surface area per unit volume, higher heat transfer coefficients, compact structure, lower weight, and strong flexibility through modular assembly. Air Film technology, corrosion-resistant materials, bypass regulation, and graded material selection can also help address acid dew point corrosion and reduce lifecycle cost."
+                            },
+                            {
+                                "title": "How is it designed and manufactured?",
+                                "content": "The product is based on modular heat transfer units such as X brick, E brick, C brick, and S brick, which simplify transportation and on-site assembly for large systems. Design also considers material selection, airflow configuration, thermal stress management, and corrosion protection. Measures such as thermal compensation, expansion joints, low-CTE material use, predictive analysis, and bypass control help ensure durability, heat recovery performance, and operational safety."
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "title": "什么是空气预热器？",
+                                "content": "空气预热器是一种用于气-气换热的节能设备，通过回收烟气或工艺废气中的热量来预热进入系统的空气。它通常采用平板或波纹板形成冷热交替流道，可实现逆流或错流换热，从而提高系统效率、减少燃料消耗并降低排放。"
+                            },
+                            {
+                                "title": "为什么选择板式空气预热器？",
+                                "content": "板式空气预热器单位体积可提供更大的换热面积，传热系数通常高于管式设备，同时结构紧凑、重量轻，并可通过模块化方式实现灵活组合。结合空气膜技术、耐腐蚀材料、旁路调节和分级选材设计，可有效应对酸露点腐蚀并兼顾经济性。"
+                            },
+                            {
+                                "title": "它如何进行设计和制造？",
+                                "content": "该产品采用 X 型、E 型、C 型及 S 型等基础换热模块进行分段制造和现场组装，便于运输并适合大型化应用。工程设计中还会综合考虑材料选型、流道布置、热应力补偿、膨胀节设计和温度分级等因素，以保证换热效率、结构可靠性、防腐性能和长期运行稳定性。"
+                            }
+                        ]
+                    },
+                    "video_link": "",
+                    "seo_data": {
+                        "en": {
+                            "meta_title": "Plate Air Preheater",
+                            "meta_description": "Modular plate air preheater for industrial waste heat recovery with high thermal efficiency and dew point corrosion protection."
+                        },
+                        "zh": {
+                            "meta_title": "空气预热器",
+                            "meta_description": "适用于工业余热回收的模块化板式空气预热器，具备高传热效率、防露点腐蚀和节能环保优势。"
+                        }
+                    }
+                },
+                "product_assets": [
+                    {
+                        "order": 1,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "plate_air_preheater_1.jpg",
+                        "alt_text": "Plate Air Preheater"
+                    },
+                    {
+                        "order": 2,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "plate_air_preheater_2.jpg",
+                        "alt_text": "Plate Air Preheater Module"
+                    },
+                    {
+                        "order": 3,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "plate_air_preheater_3.jpg",
+                        "alt_text": "Plate Air Preheater Installation"
+                    },
+                    {
+                        "order": 4,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "plate_air_preheater_4.JPG",
+                        "alt_text": "Plate Air Preheater Detail"
+                    },
+                    {
+                        "order": 1,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "asme.png",
+                        "alt_text": "ASME Certificate"
+                    },
+                    {
+                        "order": 2,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "bv.png",
+                        "alt_text": "BV Certificate"
+                    },
+                    {
+                        "order": 3,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "ce.png",
+                        "alt_text": "CE Certificate"
+                    },
+                    {
+                        "order": 4,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "nbbi.png",
+                        "alt_text": "NBBI Certificate"
+                    },
+                    {
+                        "order": 5,
+                        "asset_type": "certificate",
+                        "folder": "product_certifications",
+                        "file_name": "sgs.png",
+                        "alt_text": "SGS Certificate"
                     }
                 ]
             }

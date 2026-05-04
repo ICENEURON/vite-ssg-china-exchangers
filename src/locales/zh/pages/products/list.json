@@ -1,31 +1,5 @@
 [
   {
-    "slug": "plate-heat-exchanger",
-    "manufacturer": {
-      "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "上海板换机械设备有限公司"
-    },
-    "name": "板式换热器（胶垫式）",
-    "short_description": "可选不锈钢/钛材等多种材料，并支持多样接口形式。",
-    "industries": [
-      "船舶/海工",
-      "暖通空调",
-      "食品加工",
-      "制药"
-    ],
-    "images": [
-      {
-        "alt_text": "Plate Heat Exchanger Image",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_hex_1.jpg"
-      },
-      {
-        "alt_text": "Plate Heat Exchanger Variant",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_hex_2.jpg"
-      }
-    ],
-    "url": "shanghai-heat-transfer-equipment-co-ltd/plate-heat-exchanger"
-  },
-  {
     "slug": "ht-bloc-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
@@ -89,5 +63,145 @@
       }
     ],
     "url": "shanghai-heat-transfer-equipment-co-ltd/gasketed-plate-heat-exchanger"
+  },
+  {
+    "slug": "tp-welded-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "上海板换机械设备有限公司"
+    },
+    "name": "TP混合板式热交换器",
+    "short_description": "兼具板式高效换热与管壳式耐高温高压特性的全焊接混合板式热交换器。",
+    "industries": [
+      "石油化工",
+      "船舶/海工",
+      "食品加工",
+      "化工",
+      "制药"
+    ],
+    "images": [
+      {
+        "alt_text": "TP Welded Plate Heat Exchanger",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_1.png"
+      },
+      {
+        "alt_text": "TP Welded Plate Heat Exchanger Structure",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_2.png"
+      },
+      {
+        "alt_text": "TP Welded Plate Heat Exchanger Flow Path",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_3.jpg"
+      },
+      {
+        "alt_text": "TP Welded Plate Heat Exchanger Detail",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_4.jpg"
+      },
+      {
+        "alt_text": "TP Welded Plate Heat Exchanger Application",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_5.png"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
+  },
+  {
+    "slug": "plate-air-preheater",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "上海板换机械设备有限公司"
+    },
+    "name": "空气预热器",
+    "short_description": "适用于气-气余热回收、兼顾防露点腐蚀与节能环保的模块化板式空气预热器。",
+    "industries": [
+      "石油化工",
+      "船舶/海工",
+      "化工",
+      "食品与饮料"
+    ],
+    "images": [
+      {
+        "alt_text": "Plate Air Preheater",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_1.jpg"
+      },
+      {
+        "alt_text": "Plate Air Preheater Module",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_2.jpg"
+      },
+      {
+        "alt_text": "Plate Air Preheater Installation",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_3.jpg"
+      },
+      {
+        "alt_text": "Plate Air Preheater Detail",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/plate-air-preheater"
+  },
+  {
+    "slug": "wide-gap-welded-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "上海板换机械设备有限公司"
+    },
+    "name": "宽通道焊接板式热交换器",
+    "short_description": "适用于高粘度、含纤维及含固体颗粒介质的无胶垫宽通道焊接换热器。",
+    "industries": [
+      "石油化工",
+      "化工",
+      "食品与饮料",
+      "制药"
+    ],
+    "images": [
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_1.png"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Structure",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_2.png"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Flow Channel",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_3.jpg"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Detail",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_4.jpg"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Plate Pattern",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_5.png"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
+  },
+  {
+    "slug": "printed-circuit-heat-exchanger",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "上海板换机械设备有限公司"
+    },
+    "name": "印刷电路板式热交换器",
+    "short_description": "适用于极端高压高温工况的紧凑型微通道扩散焊接换热器。",
+    "industries": [
+      "暖通空调",
+      "船舶/海工",
+      "能源"
+    ],
+    "images": [
+      {
+        "alt_text": "Printed Circuit Heat Exchanger",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_1.jpg"
+      },
+      {
+        "alt_text": "Printed Circuit Heat Exchanger Structure",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_2.png"
+      },
+      {
+        "alt_text": "Printed Circuit Heat Exchanger Detail",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_3.jpg"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/printed-circuit-heat-exchanger"
   }
 ]

@@ -1,0 +1,93 @@
+{
+  "slug": "wide-gap-welded-plate-heat-exchanger",
+  "name": "Wide Gap Welded Plate Heat Exchanger",
+  "full_description": "Wide Gap Welded Plate Heat Exchanger is available in dimple and studded plate patterns. The plates are welded around the periphery to form media channels, eliminating the rubber gasket sealing structure used in gasketed plate heat exchangers. It is designed for heating or cooling processes involving fluids with large solid particles, fiber suspensions, viscous media, or high-temperature duties in sugar, pulp and paper, metallurgy, ethanol, petrochemical, and related industries. With specially engineered wide gap channels, the exchanger delivers high heat transfer efficiency, low pressure drop, smooth flow without dead zones, and strong anti-clogging performance under demanding operating conditions.",
+  "industries": [
+    "Petrochemical",
+    "Chemical Processing",
+    "Food and Beverage",
+    "Pharmaceuticals"
+  ],
+  "advantage": [
+    "Bionic-Inspired Channel Design: Combines biomimetic concepts with engineering design to maximize energy efficiency in wide gap flow channels.",
+    "Enhanced Turbulence: Local turbulence intensification breaks thermal boundary layers and improves the field synergy angle for higher heat transfer efficiency.",
+    "Anti-Fouling Performance: Higher wall shear stress helps reduce fouling, extend cleaning intervals, and lengthen equipment service life.",
+    "Wide Gap Anti-Clogging Flow: Special channel geometry enables smooth handling of viscous fluids, fiber suspensions, and coarse particles with minimal blockage risk.",
+    "Fully Welded Durability: Gasket-free welded sealing supports reliable operation in higher temperature and pressure applications."
+  ],
+  "technical_parameters": {
+    "Max Area": "2000㎡",
+    "Channel Gap": "8 ~ 30mm",
+    "Plate Pattern": "Dimple, studded flat plate",
+    "Plate Material": "Austenitic stainless steel, Duplex stainless steel, Nickel and nickel alloy, Hastelloy",
+    "Design Pressure": "Vacuum ~ 3.5MPa",
+    "Plate Thickness": "1.0 ~ 2.5mm",
+    "Design Temperature": "<=350℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "What is a wide gap welded plate heat exchanger?",
+      "content": "Wide Gap Welded Plate Heat Exchanger features a fully welded, gasket-free construction with specially designed wide gap channels. It retains the benefits of high heat transfer efficiency and low pressure drop while allowing solid-containing, fibrous, and viscous media to pass smoothly without creating dead zones that can lead to blockage."
+    },
+    {
+      "title": "How is the flow channel constructed?",
+      "content": "Each flow channel is formed by welding plates together. Depending on the plate pattern, one side may be created by spot-welded contact points between dimple plates, dimple and flat plates, or flat plates with welded studs, while the opposite side forms a wider no-contact channel for viscous fluids or media containing coarse particles and fibers."
+    },
+    {
+      "title": "How is it designed and manufactured?",
+      "content": "The product is thermally designed by optimizing plate geometry, channel spacing, multi-pass counterflow arrangement, and pressure drop management for wide gap service. Material selection can include stainless steel, duplex stainless steel, Hastelloy, and other corrosion-resistant alloys, while precision welding and controlled assembly ensure leak resistance, structural integrity, and reliable long-term operation."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Wide Gap Welded Plate Heat Exchanger",
+    "meta_description": "Wide gap welded plate heat exchanger for viscous, fibrous, and solid-containing fluids with anti-clogging channels and gasket-free construction."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Flow Channel",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_3.jpg"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_4.jpg"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Plate Pattern",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_5.png"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ]
+}

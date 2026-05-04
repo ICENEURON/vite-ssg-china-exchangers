@@ -1,31 +1,5 @@
 [
   {
-    "slug": "plate-heat-exchanger",
-    "manufacturer": {
-      "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
-    },
-    "name": "Plate Heat Exchanger (Gasketed)",
-    "short_description": "Gasketed plate heat exchangers with titanium/SS options and multiple nozzle configurations.",
-    "industries": [
-      "Marine",
-      "HVAC",
-      "Food Processing",
-      "Pharmaceuticals"
-    ],
-    "images": [
-      {
-        "alt_text": "Plate Heat Exchanger Image",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_hex_1.jpg"
-      },
-      {
-        "alt_text": "Plate Heat Exchanger Variant",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_hex_2.jpg"
-      }
-    ],
-    "url": "shanghai-heat-transfer-equipment-co-ltd/plate-heat-exchanger"
-  },
-  {
     "slug": "ht-bloc-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
@@ -89,5 +63,145 @@
       }
     ],
     "url": "shanghai-heat-transfer-equipment-co-ltd/gasketed-plate-heat-exchanger"
+  },
+  {
+    "slug": "tp-welded-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
+    },
+    "name": "TP Welded Plate Heat Exchanger",
+    "short_description": "Hybrid fully welded exchanger combining plate efficiency with shell-and-tube pressure and temperature resistance.",
+    "industries": [
+      "Petrochemical",
+      "Marine",
+      "Food Processing",
+      "Chemical Processing",
+      "Pharmaceuticals"
+    ],
+    "images": [
+      {
+        "alt_text": "TP Welded Plate Heat Exchanger",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_1.png"
+      },
+      {
+        "alt_text": "TP Welded Plate Heat Exchanger Structure",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_2.png"
+      },
+      {
+        "alt_text": "TP Welded Plate Heat Exchanger Flow Path",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_3.jpg"
+      },
+      {
+        "alt_text": "TP Welded Plate Heat Exchanger Detail",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_4.jpg"
+      },
+      {
+        "alt_text": "TP Welded Plate Heat Exchanger Application",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_5.png"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
+  },
+  {
+    "slug": "plate-air-preheater",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
+    },
+    "name": "Plate Air Preheater",
+    "short_description": "Modular plate air preheater for gas-to-gas heat recovery with strong corrosion control and energy-saving performance.",
+    "industries": [
+      "Petrochemical",
+      "Marine",
+      "Chemical Processing",
+      "Food and Beverage"
+    ],
+    "images": [
+      {
+        "alt_text": "Plate Air Preheater",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_1.jpg"
+      },
+      {
+        "alt_text": "Plate Air Preheater Module",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_2.jpg"
+      },
+      {
+        "alt_text": "Plate Air Preheater Installation",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_3.jpg"
+      },
+      {
+        "alt_text": "Plate Air Preheater Detail",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/plate-air-preheater"
+  },
+  {
+    "slug": "wide-gap-welded-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
+    },
+    "name": "Wide Gap Welded Plate Heat Exchanger",
+    "short_description": "Gasket-free wide gap exchanger for viscous, fiber-laden, and particle-containing fluids.",
+    "industries": [
+      "Petrochemical",
+      "Chemical Processing",
+      "Food and Beverage",
+      "Pharmaceuticals"
+    ],
+    "images": [
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_1.png"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Structure",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_2.png"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Flow Channel",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_3.jpg"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Detail",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_4.jpg"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Plate Pattern",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_5.png"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
+  },
+  {
+    "slug": "printed-circuit-heat-exchanger",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
+    },
+    "name": "Printed Circuit Heat Exchanger",
+    "short_description": "Compact microchannel diffusion-bonded heat exchanger for extreme pressure and temperature service.",
+    "industries": [
+      "HVAC",
+      "Marine",
+      "Energy"
+    ],
+    "images": [
+      {
+        "alt_text": "Printed Circuit Heat Exchanger",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_1.jpg"
+      },
+      {
+        "alt_text": "Printed Circuit Heat Exchanger Structure",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_2.png"
+      },
+      {
+        "alt_text": "Printed Circuit Heat Exchanger Detail",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_3.jpg"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/printed-circuit-heat-exchanger"
   }
 ]

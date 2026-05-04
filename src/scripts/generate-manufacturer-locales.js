@@ -71,12 +71,24 @@ function hasAssetType(asset, expectedTypes) {
 }
 
 function getProductImageAsset(productId) {
-  const galleryImage = preferredProductAssets.find(asset => asset.product_id === productId && asset.asset_type === 'gallery_image');
-  if (galleryImage) {
-    return galleryImage;
+  const productGalleryImages = preferredProductAssets
+    .filter(asset => asset.product_id === productId && asset.asset_type === 'gallery_image')
+    .sort((a, b) => (a.order ?? Number.MAX_SAFE_INTEGER) - (b.order ?? Number.MAX_SAFE_INTEGER));
+
+  const primaryGalleryImage = productGalleryImages.find(asset => asset.order === 1);
+  if (primaryGalleryImage) {
+    return primaryGalleryImage;
   }
 
-  return preferredProductAssets.find(asset => asset.product_id === productId && asset.asset_type === 'image');
+  if (productGalleryImages.length > 0) {
+    return productGalleryImages[0];
+  }
+
+  const productImages = preferredProductAssets
+    .filter(asset => asset.product_id === productId && asset.asset_type === 'image')
+    .sort((a, b) => (a.order ?? Number.MAX_SAFE_INTEGER) - (b.order ?? Number.MAX_SAFE_INTEGER));
+
+  return productImages[0];
 }
 
 function processData() {

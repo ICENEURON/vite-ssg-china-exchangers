@@ -1,0 +1,88 @@
+{
+  "slug": "plate-air-preheater",
+  "name": "空气预热器",
+  "full_description": "空气预热器是一种节能环保设备，使用平板或波纹板，板片周边通过焊接或机械固定形成板束，整机采用积木式设计，组合方式灵活多变，结构适应性强，特有的空气膜技术能够有效解决露点腐蚀问题，适用于炼油、化工、钢铁、冶金、电力工业等行业。通过回收高温烟气或工艺废气中的余热并预热空气，可有效减少新鲜燃料消耗，提高能源利用效率，并降低排放。",
+  "industries": [
+    "石油化工",
+    "船舶/海工",
+    "化工",
+    "食品与饮料"
+  ],
+  "advantage": [
+    "余热利用充分：有效回收废热，减少新鲜燃料需求，从而提高能源利用效率。",
+    "防露点腐蚀：独特的空气膜专利设计，可有效防止因局部温度过低造成的露点腐蚀。",
+    "模块化灵活：积木式设计强调可维修性、升级能力和灵活性，便于运输并可灵活调整空间尺寸。",
+    "适用范围广：适用于多种常压或低压气-气换热工况，兼顾节能与环保需求。",
+    "传热效率高：板式换热元件传热系数可达到管式元件的 1 至 3 倍，并可通过优化流道设计兼顾压降低。",
+    "安全易维护：全焊接板束密封性能好，不易积灰，清洗与维修便捷，并可支持在线清洗。"
+  ],
+  "technical_parameters": {
+    "板片厚度": "0.6 ~ 2.0mm",
+    "板片材料": "304，316L，2205，310S，904L，Corten-A等",
+    "设计压力": "真空 ~ 0.6MPa",
+    "设计温度": "-20 ~ 800℃",
+    "最大组装换热面积": "40000㎡"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "什么是空气预热器？",
+      "content": "空气预热器是一种用于气-气换热的节能设备，通过回收烟气或工艺废气中的热量来预热进入系统的空气。它通常采用平板或波纹板形成冷热交替流道，可实现逆流或错流换热，从而提高系统效率、减少燃料消耗并降低排放。"
+    },
+    {
+      "title": "为什么选择板式空气预热器？",
+      "content": "板式空气预热器单位体积可提供更大的换热面积，传热系数通常高于管式设备，同时结构紧凑、重量轻，并可通过模块化方式实现灵活组合。结合空气膜技术、耐腐蚀材料、旁路调节和分级选材设计，可有效应对酸露点腐蚀并兼顾经济性。"
+    },
+    {
+      "title": "它如何进行设计和制造？",
+      "content": "该产品采用 X 型、E 型、C 型及 S 型等基础换热模块进行分段制造和现场组装，便于运输并适合大型化应用。工程设计中还会综合考虑材料选型、流道布置、热应力补偿、膨胀节设计和温度分级等因素，以保证换热效率、结构可靠性、防腐性能和长期运行稳定性。"
+    }
+  ],
+  "seo_data": {
+    "meta_title": "空气预热器",
+    "meta_description": "适用于工业余热回收的模块化板式空气预热器，具备高传热效率、防露点腐蚀和节能环保优势。"
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Air Preheater",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_1.jpg"
+    },
+    {
+      "alt_text": "Plate Air Preheater Module",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_2.jpg"
+    },
+    {
+      "alt_text": "Plate Air Preheater Installation",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_3.jpg"
+    },
+    {
+      "alt_text": "Plate Air Preheater Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ]
+}
