@@ -65,6 +65,69 @@
     "url": "shanghai-heat-transfer-equipment-co-ltd/gasketed-plate-heat-exchanger"
   },
   {
+    "slug": "plate-air-preheater",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
+    },
+    "name": "Plate Air Preheater",
+    "short_description": "Modular plate air preheater for gas-to-gas heat recovery with strong corrosion control and energy-saving performance.",
+    "industries": [
+      "Petrochemical",
+      "Marine",
+      "Chemical Processing",
+      "Food and Beverage"
+    ],
+    "images": [
+      {
+        "alt_text": "Plate Air Preheater",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_1.jpg"
+      },
+      {
+        "alt_text": "Plate Air Preheater Module",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_2.jpg"
+      },
+      {
+        "alt_text": "Plate Air Preheater Installation",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_3.jpg"
+      },
+      {
+        "alt_text": "Plate Air Preheater Detail",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/plate-air-preheater"
+  },
+  {
+    "slug": "printed-circuit-heat-exchanger",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
+    },
+    "name": "Printed Circuit Heat Exchanger",
+    "short_description": "Compact microchannel diffusion-bonded heat exchanger for extreme pressure and temperature service.",
+    "industries": [
+      "HVAC",
+      "Marine",
+      "Energy"
+    ],
+    "images": [
+      {
+        "alt_text": "Printed Circuit Heat Exchanger",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_1.jpg"
+      },
+      {
+        "alt_text": "Printed Circuit Heat Exchanger Structure",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_2.png"
+      },
+      {
+        "alt_text": "Printed Circuit Heat Exchanger Detail",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_3.jpg"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/printed-circuit-heat-exchanger"
+  },
+  {
     "slug": "tp-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
@@ -102,40 +165,6 @@
       }
     ],
     "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
-  },
-  {
-    "slug": "plate-air-preheater",
-    "manufacturer": {
-      "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
-    },
-    "name": "Plate Air Preheater",
-    "short_description": "Modular plate air preheater for gas-to-gas heat recovery with strong corrosion control and energy-saving performance.",
-    "industries": [
-      "Petrochemical",
-      "Marine",
-      "Chemical Processing",
-      "Food and Beverage"
-    ],
-    "images": [
-      {
-        "alt_text": "Plate Air Preheater",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_1.jpg"
-      },
-      {
-        "alt_text": "Plate Air Preheater Module",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_2.jpg"
-      },
-      {
-        "alt_text": "Plate Air Preheater Installation",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_3.jpg"
-      },
-      {
-        "alt_text": "Plate Air Preheater Detail",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG"
-      }
-    ],
-    "url": "shanghai-heat-transfer-equipment-co-ltd/plate-air-preheater"
   },
   {
     "slug": "wide-gap-welded-plate-heat-exchanger",
@@ -176,32 +205,142 @@
     "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
   },
   {
-    "slug": "printed-circuit-heat-exchanger",
+    "slug": "liquid-cooling-distribution-unit-acdu",
     "manufacturer": {
-      "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
+      "slug": "shenghai-accessen-co-ltd",
+      "name": "Shanghai Accessen Co., Ltd."
     },
-    "name": "Printed Circuit Heat Exchanger",
-    "short_description": "Compact microchannel diffusion-bonded heat exchanger for extreme pressure and temperature service.",
+    "name": "Liquid-Cooling Distribution Unit ACDU",
+    "short_description": "Prefabricated liquid-cooling distribution unit for data centers with natural cooling, adaptive control, and rapid deployment.",
+    "industries": [],
+    "images": [
+      {
+        "alt_text": "Liquid-Cooling Distribution Unit ACDU",
+        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/liquid_cooling_distribution_unit_acdu.png"
+      }
+    ],
+    "url": "shenghai-accessen-co-ltd/liquid-cooling-distribution-unit-acdu"
+  },
+  {
+    "slug": "liquid-cooled-hydraulic-power-unit-pheu",
+    "manufacturer": {
+      "slug": "shenghai-accessen-co-ltd",
+      "name": "Shanghai Accessen Co., Ltd."
+    },
+    "name": "Liquid-Cooled Hydraulic Power Unit PHEU",
+    "short_description": "Modular primary hydraulic distribution unit for liquid-cooled data centers with integrated PHE, pumps, and water treatment systems.",
+    "industries": [],
+    "images": [
+      {
+        "alt_text": "Liquid-Cooled Hydraulic Power Unit PHEU",
+        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/liquid_cooled_hydraulic_power_unit_pheu.png"
+      }
+    ],
+    "url": "shenghai-accessen-co-ltd/liquid-cooled-hydraulic-power-unit-pheu"
+  },
+  {
+    "slug": "outdoor-prefabricated-integrated-cooling-station-ais",
+    "manufacturer": {
+      "slug": "shenghai-accessen-co-ltd",
+      "name": "Shanghai Accessen Co., Ltd."
+    },
+    "name": "Outdoor Prefabricated Integrated Cooling Station AIS",
+    "short_description": "Outdoor prefabricated integrated cooling plant for rapid deployment of high-efficiency data center cooling infrastructure.",
+    "industries": [],
+    "images": [
+      {
+        "alt_text": "Outdoor Prefabricated Integrated Cooling Station AIS",
+        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/outdoor_prefabricated_integrated_cooling_station_ais.png"
+      }
+    ],
+    "url": "shenghai-accessen-co-ltd/outdoor-prefabricated-integrated-cooling-station-ais"
+  },
+  {
+    "slug": "high-efficiency-plate-heat-exchanger-aq-aa",
+    "manufacturer": {
+      "slug": "shenghai-accessen-co-ltd",
+      "name": "Shanghai Accessen Co., Ltd."
+    },
+    "name": "High-Efficiency Plate Heat Exchanger AQ/AA",
+    "short_description": "AHRI-certified gasketed plate-and-frame heat exchanger for HVAC-R and refrigeration applications.",
     "industries": [
-      "HVAC",
-      "Marine",
-      "Energy"
+      "HVAC"
     ],
     "images": [
       {
-        "alt_text": "Printed Circuit Heat Exchanger",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_1.jpg"
-      },
-      {
-        "alt_text": "Printed Circuit Heat Exchanger Structure",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_2.png"
-      },
-      {
-        "alt_text": "Printed Circuit Heat Exchanger Detail",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_3.jpg"
+        "alt_text": "High-Efficiency Plate Heat Exchanger AQ/AA",
+        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/high_efficiency_plate_heat_exchanger_aq_aa.png"
       }
     ],
-    "url": "shanghai-heat-transfer-equipment-co-ltd/printed-circuit-heat-exchanger"
+    "url": "shenghai-accessen-co-ltd/high-efficiency-plate-heat-exchanger-aq-aa"
+  },
+  {
+    "slug": "a-bloc-fully-welded-removable-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "shenghai-accessen-co-ltd",
+      "name": "Shanghai Accessen Co., Ltd."
+    },
+    "name": "A-BLOC Fully Welded Removable Plate Heat Exchanger",
+    "short_description": "Compact removable welded plate heat exchanger for high-temperature and high-pressure industrial duty.",
+    "industries": [
+      "Petrochemical",
+      "Energy",
+      "Chemical Processing",
+      "Power Generation"
+    ],
+    "images": [
+      {
+        "alt_text": "A-BLOC Fully Welded Removable Plate Heat Exchanger",
+        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/a_bloc_fully_welded_removable_plate_heat_exchanger.png"
+      }
+    ],
+    "url": "shenghai-accessen-co-ltd/a-bloc-fully-welded-removable-plate-heat-exchanger"
+  },
+  {
+    "slug": "au-an-as-ap-ac-series-gasketed-plate-heat-exchanger-i",
+    "manufacturer": {
+      "slug": "shenghai-accessen-co-ltd",
+      "name": "Shanghai Accessen Co., Ltd."
+    },
+    "name": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I",
+    "short_description": "Industrial gasketed plate heat exchanger with configurable plate patterns, high heat transfer efficiency, and easy maintenance.",
+    "industries": [
+      "Petrochemical",
+      "Marine",
+      "Energy",
+      "Chemical Processing",
+      "Food and Beverage",
+      "Pharmaceuticals",
+      "Power Generation"
+    ],
+    "images": [
+      {
+        "alt_text": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I",
+        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/au_an_as_ap_ac_series_gasketed_plate_heat_exchanger_i.png"
+      }
+    ],
+    "url": "shenghai-accessen-co-ltd/au-an-as-ap-ac-series-gasketed-plate-heat-exchanger-i"
+  },
+  {
+    "slug": "awps-series-plate-shell-heat-exchanger-i",
+    "manufacturer": {
+      "slug": "shenghai-accessen-co-ltd",
+      "name": "Shanghai Accessen Co., Ltd."
+    },
+    "name": "AWPS Series Plate-Shell Heat Exchanger - I",
+    "short_description": "High-temperature and high-pressure plate-shell heat exchanger for industrial applications as an efficient alternative to shell-and-tube equipment.",
+    "industries": [
+      "Petrochemical",
+      "Energy",
+      "Chemical Processing",
+      "Power Generation"
+    ],
+    "images": [
+      {
+        "alt_text": "AWPS Series Plate-Shell Heat Exchanger - I",
+        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/awps_series_plate_shell_heat_exchanger_i.png"
+      }
+    ],
+    "url": "shenghai-accessen-co-ltd/awps-series-plate-shell-heat-exchanger-i"
   }
 ]

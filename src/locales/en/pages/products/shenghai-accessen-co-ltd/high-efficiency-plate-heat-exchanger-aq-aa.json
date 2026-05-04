@@ -1,0 +1,52 @@
+{
+  "slug": "high-efficiency-plate-heat-exchanger-aq-aa",
+  "name": "High-Efficiency Plate Heat Exchanger AQ/AA",
+  "full_description": "The AQ/AA Series is an AHRI-certified gasketed plate-and-frame heat exchanger designed for HVAC-R refrigeration systems. Accessen describes the series as optimized for variable-load heat transfer performance, compatibility with different water qualities and temperatures, and application-specific configuration through multi-angle chevron plates, varied channel depths, and configurable aspect ratios within standardized port sizes.",
+  "industries": [
+    "HVAC"
+  ],
+  "advantage": [
+    "AHRI-Certified Performance",
+    "Enhanced Gasket Longevity",
+    "Higher Certified Energy Efficiency",
+    "Configurable Plate Patterns",
+    "Proven Reliability and Stability",
+    "Expanded Accessory Options",
+    "Optimized Flow Distribution",
+    "Clip-On Gaskets",
+    "Self-Locking Alignment System"
+  ],
+  "technical_parameters": {
+    "Maximum design pressure": "25bar",
+    "Maximum design temperature": "200℃",
+    "Maximum processing capacity": "5,000m³/h",
+    "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254",
+    "Maximum Heat Transfer Capacity": "80MW",
+    "Minimum temperature difference": "0.5-1℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "What applications is the AQ/AA series designed for?",
+      "content": "Accessen positions the AQ/AA Series for HVAC-R refrigeration systems where certified liquid-to-liquid heat exchanger performance and adaptable thermal design are important."
+    },
+    {
+      "title": "How does the design remain flexible?",
+      "content": "The series uses multi-angle chevron plates, different channel depths, and configurable aspect ratios within standard port sizes so that designs can be adapted to different duties and operating conditions."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "High-Efficiency Plate Heat Exchanger AQ/AA",
+    "meta_description": "AHRI-certified gasketed plate-and-frame heat exchanger for HVAC-R refrigeration systems with configurable plate geometry and high heat transfer efficiency."
+  },
+  "manufacturer": {
+    "slug": "shenghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "High-Efficiency Plate Heat Exchanger AQ/AA",
+      "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/high_efficiency_plate_heat_exchanger_aq_aa.png"
+    }
+  ],
+  "certificates": []
+}

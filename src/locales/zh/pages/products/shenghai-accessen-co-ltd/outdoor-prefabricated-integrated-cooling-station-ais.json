@@ -1,0 +1,49 @@
+{
+  "slug": "outdoor-prefabricated-integrated-cooling-station-ais",
+  "name": "AIS室外预制化集成冷站",
+  "full_description": "AIS室外预制化集成冷站将冷水机组、板式换热器、水泵、冷却塔、阀门、控制系统及辅助部件集成为工厂制造、预装配的室外冷却站。根据官网说明，该系统可降低现场施工复杂度，无需单独机房，在完成水电连接后即可快速投运。",
+  "industries": [],
+  "advantage": [
+    "AHRI 认证",
+    "结构与系统优化设计",
+    "强化节能表现",
+    "支持室外型配置",
+    "运行可靠稳定",
+    "快速部署",
+    "预集成与预装配",
+    "模块化设计",
+    "显著减少现场工作量"
+  ],
+  "technical_parameters": {
+    "最小温差": "0.5-1℃",
+    "主要结构材料": "AISI 304, 316, 316L, TI, SMO254...",
+    "最大处理能力": "5,000m³/h",
+    "最大设计压力": "25bar",
+    "最高设计温度": "200℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "AIS 冷站集成了哪些核心设备？",
+      "content": "官网说明 AIS 将冷水机组、板式换热器、水泵、冷却塔、阀门、智能控制系统及相关辅助部件集成为工厂预装的室外冷站。"
+    },
+    {
+      "title": "为什么它适合快速交付项目？",
+      "content": "由于模块在工厂内完成预装配，现场仅需完成基础、水路和电气连接，因此有助于缩短土建、安装和调试周期。"
+    }
+  ],
+  "seo_data": {
+    "meta_title": "AIS室外预制化集成冷站",
+    "meta_description": "面向数据中心的室外预制化集成冷站，具备工厂预装、模块化设计和快速部署优势。"
+  },
+  "manufacturer": {
+    "slug": "shenghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Outdoor Prefabricated Integrated Cooling Station AIS",
+      "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/outdoor_prefabricated_integrated_cooling_station_ais.png"
+    }
+  ],
+  "certificates": []
+}

@@ -107,7 +107,7 @@
       "meta_description": "Verified heat exchanger manufacturer in Shanghai, China, with plate heat exchanger and welded heat exchanger capabilities."
     },
     "created_at": "2026-03-13T13:34:27.03+00:00",
-    "updated_at": "2026-05-04T03:45:40.41+00:00",
+    "updated_at": "2026-05-04T05:30:10.353+00:00",
     "video_link": "https://youtu.be/Ne39IAdzFYw",
     "social_media_links": [
       {
@@ -117,6 +117,107 @@
       },
       {
         "url": "https://www.youtube.com/@shanghaiheattransfer2626",
+        "platform": "youtube",
+        "is_visible": true
+      }
+    ]
+  },
+  {
+    "id": "749dc7dd-abfc-4ee5-869b-7e8e9d8d953a",
+    "name": {
+      "en": "Shanghai Accessen Co., Ltd.",
+      "zh": "上海艾克森股份有限公司"
+    },
+    "short_description": {
+      "en": "Provider of low-carbon data center and heat exchange solutions, specializing in plate heat exchangers, fully welded exchangers, and integrated thermal systems.",
+      "zh": "专注于低碳数据中心与换热解决方案，提供板式换热器、全焊式换热器及系统集成热管理设备的换热解决方案提供商。"
+    },
+    "full_description": {
+      "en": [
+        "Shanghai Accessen Co., Ltd. is a heat exchange solution provider specializing in the R&D, manufacturing, sales, and service of heat exchange equipment. The company focuses on low-carbon data center solutions and broader thermal management applications across heating, refrigeration, and industrial sectors.",
+        "Its manufacturing base spans more than 100,000 square meters across the Xiechun Road factory in Shanghai and the Taicang Port Area factory. Accessen supports customers through a direct sales and service network covering major cities in China as well as overseas markets including Hong Kong, Singapore, Malaysia, and Thailand.",
+        "Accessen serves data center, HVAC, refrigeration, energy and power, steel and metallurgy, petrochemical, food and pharmaceutical, new energy electronics, marine and offshore, and environmental treatment applications. The company positions plate heat exchange and system integration as its two core technologies.",
+        "Its AS-standard product portfolio includes plate heat exchangers and units, fully welded plate-shell and plate-frame heat exchangers, fully welded air heat exchangers, process water cooling systems, waste heat recovery systems, and prefabricated integrated cooling stations. The company states compliance with international standards and certifications including ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, and GB."
+      ],
+      "zh": [
+        "上海艾克森股份有限公司是专业从事换热设备研发、制造、销售及服务的换热解决方案提供商，重点面向低碳数据中心以及供热、制冷和工业等热管理场景提供产品与服务。",
+        "公司生产总部位于中国上海黄渡工业园，拥有谢春路工厂和太仓港区工厂，制造基地总面积超过 100000 平方米。艾克森建立了覆盖全国主要省市并延伸至香港、新加坡、马来西亚、泰国等市场的销售与服务网络。",
+        "公司服务领域涵盖数据中心、暖通空调、制冷冷却、能源电力、钢铁冶金、石油化工、食品医药、新能源电子、船舶海工及环保处理等细分市场，并以板式换热和系统集成为两大核心技术。",
+        "其 AS 标准产品体系覆盖板式换热器、板式换热机组、全焊板壳式换热器、全焊板框式换热器、全焊空气换热器、工艺水冷却系统、余热回收系统和预装式集成冷站等，并宣称产品符合 ASME、CE、AHRI、API、DNV、GL、LR、ABS、BV、NK、KR、CCS、RINA、RS、CCC、GB 等国际规范和标准。"
+      ]
+    },
+    "advantages": {
+      "en": [
+        "Large-Scale Manufacturing Base: Accessen operates more than 100,000 square meters of manufacturing space across its Shanghai and Taicang facilities.",
+        "Dual Core Competence: The company emphasizes plate heat exchange technology and system integration as its core technical capabilities.",
+        "Broad Product Portfolio: Products cover plate heat exchangers, fully welded exchangers, process cooling systems, waste heat recovery systems, and prefabricated integrated cooling stations.",
+        "International Standards and Certifications: The company highlights compliance with ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, and GB standards and certifications.",
+        "Extensive Service Coverage: Direct sales and service support covers major Chinese markets and selected overseas markets including Hong Kong, Singapore, Malaysia, and Thailand.",
+        "Proven Deployment Scale: Accessen states it has delivered solutions across more than 20,000 implementation cases and supports customers through a large service network."
+      ],
+      "zh": [
+        "规模化制造基础：公司在上海和太仓拥有超过 100000 平方米的制造基地。",
+        "核心技术明确：以板式换热和系统集成为两大核心技术，支撑多场景热管理解决方案。",
+        "产品体系完整：覆盖板式换热器、全焊式换热器、工艺冷却系统、余热回收系统和预装式集成冷站等产品。",
+        "国际规范与认证覆盖广：官网明确列出 ASME、CE、AHRI、API、DNV、GL、LR、ABS、BV、NK、KR、CCS、RINA、RS、CCC、GB 等标准和认证。",
+        "服务网络覆盖广：拥有覆盖国内主要省市并延伸至部分海外市场的直属销售与服务网络。",
+        "项目应用基础扎实：官网披露已有 20000 多个应用案例，并通过较大的服务网络支持项目交付与售后。"
+      ]
+    },
+    "slug": "shenghai-accessen-co-ltd",
+    "website": "https://www.accessen.com/",
+    "email": [
+      "info@accessen.cn"
+    ],
+    "phone": [
+      "+86 21 6959 5555",
+      "+86 21 6958 5555",
+      "4006-191-191"
+    ],
+    "country_id": "CN",
+    "country_name": {
+      "en": "China",
+      "zh": "中国"
+    },
+    "city": {
+      "en": "Shanghai",
+      "zh": "上海"
+    },
+    "address": {
+      "en": "No. 1458 Xiechun Road, Jiading District, Shanghai, China",
+      "zh": "上海市嘉定区谢春路1458号"
+    },
+    "established_year": "2002",
+    "factory_area": "100000m2",
+    "employee_count": "600+",
+    "industries": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "export_markets": [],
+    "is_visible": true,
+    "seo_data": {
+      "meta_title": "Shanghai Accessen Co., Ltd. | Heat Exchange and Low-Carbon Data Center Solutions",
+      "meta_description": "Manufacturer of plate heat exchangers, liquid cooling distribution units, prefabricated integrated cooling stations, and fully welded heat exchange systems in Shanghai, China."
+    },
+    "created_at": "2026-05-04T05:31:18.525+00:00",
+    "updated_at": "2026-05-04T05:31:18.525+00:00",
+    "video_link": "",
+    "social_media_links": [
+      {
+        "url": "https://www.linkedin.com/company/shanghai-accessen-co-ltd/",
+        "platform": "linkedin",
+        "is_visible": true
+      },
+      {
+        "url": "https://youtube.com/@accessen",
         "platform": "youtube",
         "is_visible": true
       }

@@ -16,5 +16,23 @@
       "Pharmaceuticals",
       "Power Generation"
     ]
+  },
+  {
+    "name": "Shanghai Accessen Co., Ltd.",
+    "short_description": "Provider of low-carbon data center and heat exchange solutions, specializing in plate heat exchangers, fully welded exchangers, and integrated thermal systems.",
+    "slug": "shenghai-accessen-co-ltd",
+    "city": "Shanghai",
+    "country_name": "China",
+    "industries": [
+      "HVAC",
+      "Petrochemical",
+      "Marine",
+      "Energy",
+      "Food Processing",
+      "Chemical Processing",
+      "Food and Beverage",
+      "Pharmaceuticals",
+      "Power Generation"
+    ]
   }
 ]

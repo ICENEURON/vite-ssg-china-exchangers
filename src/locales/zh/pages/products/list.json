@@ -65,6 +65,69 @@
     "url": "shanghai-heat-transfer-equipment-co-ltd/gasketed-plate-heat-exchanger"
   },
   {
+    "slug": "plate-air-preheater",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "上海板换机械设备有限公司"
+    },
+    "name": "空气预热器",
+    "short_description": "适用于气-气余热回收、兼顾防露点腐蚀与节能环保的模块化板式空气预热器。",
+    "industries": [
+      "石油化工",
+      "船舶/海工",
+      "化工",
+      "食品与饮料"
+    ],
+    "images": [
+      {
+        "alt_text": "Plate Air Preheater",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_1.jpg"
+      },
+      {
+        "alt_text": "Plate Air Preheater Module",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_2.jpg"
+      },
+      {
+        "alt_text": "Plate Air Preheater Installation",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_3.jpg"
+      },
+      {
+        "alt_text": "Plate Air Preheater Detail",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/plate-air-preheater"
+  },
+  {
+    "slug": "printed-circuit-heat-exchanger",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "上海板换机械设备有限公司"
+    },
+    "name": "印刷电路板式热交换器",
+    "short_description": "适用于极端高压高温工况的紧凑型微通道扩散焊接换热器。",
+    "industries": [
+      "暖通空调",
+      "船舶/海工",
+      "能源"
+    ],
+    "images": [
+      {
+        "alt_text": "Printed Circuit Heat Exchanger",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_1.jpg"
+      },
+      {
+        "alt_text": "Printed Circuit Heat Exchanger Structure",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_2.png"
+      },
+      {
+        "alt_text": "Printed Circuit Heat Exchanger Detail",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_3.jpg"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/printed-circuit-heat-exchanger"
+  },
+  {
     "slug": "tp-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
@@ -102,40 +165,6 @@
       }
     ],
     "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
-  },
-  {
-    "slug": "plate-air-preheater",
-    "manufacturer": {
-      "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "上海板换机械设备有限公司"
-    },
-    "name": "空气预热器",
-    "short_description": "适用于气-气余热回收、兼顾防露点腐蚀与节能环保的模块化板式空气预热器。",
-    "industries": [
-      "石油化工",
-      "船舶/海工",
-      "化工",
-      "食品与饮料"
-    ],
-    "images": [
-      {
-        "alt_text": "Plate Air Preheater",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_1.jpg"
-      },
-      {
-        "alt_text": "Plate Air Preheater Module",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_2.jpg"
-      },
-      {
-        "alt_text": "Plate Air Preheater Installation",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_3.jpg"
-      },
-      {
-        "alt_text": "Plate Air Preheater Detail",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG"
-      }
-    ],
-    "url": "shanghai-heat-transfer-equipment-co-ltd/plate-air-preheater"
   },
   {
     "slug": "wide-gap-welded-plate-heat-exchanger",
@@ -176,32 +205,142 @@
     "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
   },
   {
-    "slug": "printed-circuit-heat-exchanger",
+    "slug": "liquid-cooling-distribution-unit-acdu",
     "manufacturer": {
-      "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "上海板换机械设备有限公司"
+      "slug": "shenghai-accessen-co-ltd",
+      "name": "上海艾克森股份有限公司"
     },
-    "name": "印刷电路板式热交换器",
-    "short_description": "适用于极端高压高温工况的紧凑型微通道扩散焊接换热器。",
+    "name": "ACDU高效节能液冷分配单元/液冷系统集成",
+    "short_description": "面向数据中心的预制化液冷分配单元，支持自然冷却、自适应控制与快速部署。",
+    "industries": [],
+    "images": [
+      {
+        "alt_text": "Liquid-Cooling Distribution Unit ACDU",
+        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/liquid_cooling_distribution_unit_acdu.png"
+      }
+    ],
+    "url": "shenghai-accessen-co-ltd/liquid-cooling-distribution-unit-acdu"
+  },
+  {
+    "slug": "liquid-cooled-hydraulic-power-unit-pheu",
+    "manufacturer": {
+      "slug": "shenghai-accessen-co-ltd",
+      "name": "上海艾克森股份有限公司"
+    },
+    "name": "PHEU液冷/水冷水力模块",
+    "short_description": "面向液冷数据中心的一次侧水力分配模块，集成板式换热器、水泵和水处理系统。",
+    "industries": [],
+    "images": [
+      {
+        "alt_text": "Liquid-Cooled Hydraulic Power Unit PHEU",
+        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/liquid_cooled_hydraulic_power_unit_pheu.png"
+      }
+    ],
+    "url": "shenghai-accessen-co-ltd/liquid-cooled-hydraulic-power-unit-pheu"
+  },
+  {
+    "slug": "outdoor-prefabricated-integrated-cooling-station-ais",
+    "manufacturer": {
+      "slug": "shenghai-accessen-co-ltd",
+      "name": "上海艾克森股份有限公司"
+    },
+    "name": "AIS室外预制化集成冷站",
+    "short_description": "面向数据中心高效冷却基础设施的室外预制化集成冷站，可支持快速部署。",
+    "industries": [],
+    "images": [
+      {
+        "alt_text": "Outdoor Prefabricated Integrated Cooling Station AIS",
+        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/outdoor_prefabricated_integrated_cooling_station_ais.png"
+      }
+    ],
+    "url": "shenghai-accessen-co-ltd/outdoor-prefabricated-integrated-cooling-station-ais"
+  },
+  {
+    "slug": "high-efficiency-plate-heat-exchanger-aq-aa",
+    "manufacturer": {
+      "slug": "shenghai-accessen-co-ltd",
+      "name": "上海艾克森股份有限公司"
+    },
+    "name": "AQ/AA AHRI认证板式换热器",
+    "short_description": "面向暖通制冷应用的 AHRI 认证可拆式板式换热器。",
     "industries": [
-      "暖通空调",
-      "船舶/海工",
-      "能源"
+      "暖通空调"
     ],
     "images": [
       {
-        "alt_text": "Printed Circuit Heat Exchanger",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_1.jpg"
-      },
-      {
-        "alt_text": "Printed Circuit Heat Exchanger Structure",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_2.png"
-      },
-      {
-        "alt_text": "Printed Circuit Heat Exchanger Detail",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_3.jpg"
+        "alt_text": "High-Efficiency Plate Heat Exchanger AQ/AA",
+        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/high_efficiency_plate_heat_exchanger_aq_aa.png"
       }
     ],
-    "url": "shanghai-heat-transfer-equipment-co-ltd/printed-circuit-heat-exchanger"
+    "url": "shenghai-accessen-co-ltd/high-efficiency-plate-heat-exchanger-aq-aa"
+  },
+  {
+    "slug": "a-bloc-fully-welded-removable-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "shenghai-accessen-co-ltd",
+      "name": "上海艾克森股份有限公司"
+    },
+    "name": "A-BLOC全焊接六面可拆式换热器",
+    "short_description": "适用于高温高压工况、结构紧凑且便于拆洗的全焊可拆式板式换热器。",
+    "industries": [
+      "石油化工",
+      "能源",
+      "化工",
+      "发电/电力"
+    ],
+    "images": [
+      {
+        "alt_text": "A-BLOC Fully Welded Removable Plate Heat Exchanger",
+        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/a_bloc_fully_welded_removable_plate_heat_exchanger.png"
+      }
+    ],
+    "url": "shenghai-accessen-co-ltd/a-bloc-fully-welded-removable-plate-heat-exchanger"
+  },
+  {
+    "slug": "au-an-as-ap-ac-series-gasketed-plate-heat-exchanger-i",
+    "manufacturer": {
+      "slug": "shenghai-accessen-co-ltd",
+      "name": "上海艾克森股份有限公司"
+    },
+    "name": "AU,AN,AS,AP,AC工业可拆垫片式换热器-I",
+    "short_description": "适用于工业场景的可拆垫片式板式换热器，兼具高效换热、灵活配置和便于维护的特点。",
+    "industries": [
+      "石油化工",
+      "船舶/海工",
+      "能源",
+      "化工",
+      "食品与饮料",
+      "制药",
+      "发电/电力"
+    ],
+    "images": [
+      {
+        "alt_text": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I",
+        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/au_an_as_ap_ac_series_gasketed_plate_heat_exchanger_i.png"
+      }
+    ],
+    "url": "shenghai-accessen-co-ltd/au-an-as-ap-ac-series-gasketed-plate-heat-exchanger-i"
+  },
+  {
+    "slug": "awps-series-plate-shell-heat-exchanger-i",
+    "manufacturer": {
+      "slug": "shenghai-accessen-co-ltd",
+      "name": "上海艾克森股份有限公司"
+    },
+    "name": "AWPS全焊接板壳式换热器-I",
+    "short_description": "适用于工业高温高压工况、可作为传统管壳式设备高效替代方案的全焊接板壳式换热器。",
+    "industries": [
+      "石油化工",
+      "能源",
+      "化工",
+      "发电/电力"
+    ],
+    "images": [
+      {
+        "alt_text": "AWPS Series Plate-Shell Heat Exchanger - I",
+        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/awps_series_plate_shell_heat_exchanger_i.png"
+      }
+    ],
+    "url": "shenghai-accessen-co-ltd/awps-series-plate-shell-heat-exchanger-i"
   }
 ]

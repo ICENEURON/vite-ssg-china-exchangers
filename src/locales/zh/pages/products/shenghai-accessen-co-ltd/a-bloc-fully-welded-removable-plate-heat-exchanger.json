@@ -1,0 +1,50 @@
+{
+  "slug": "a-bloc-fully-welded-removable-plate-heat-exchanger",
+  "name": "A-BLOC全焊接六面可拆式换热器",
+  "full_description": "A-BLOC 全焊接六面可拆式换热器可用于高温、高压条件，其结构紧凑，耐热冲击性能突出，能够在同一台换热器内完成冷却和冷凝，并通过多面可拆结构提升拆卸和清洗便利性。",
+  "industries": [
+    "石油化工",
+    "能源",
+    "化工",
+    "发电/电力"
+  ],
+  "advantage": [
+    "纯逆流高效换热",
+    "结构紧凑",
+    "占地小、重量轻",
+    "自由伸缩抗热应力",
+    "六面可以拆卸",
+    "支持高压水枪清洗"
+  ],
+  "technical_parameters": {
+    "最大耐温": "350℃",
+    "板片材质": "AISI 304、316、254、Ti",
+    "最大处理量": "1500m3/h",
+    "最大设计压力": "40bar"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "A-BLOC 为什么适合高温高压工况？",
+      "content": "官网说明该产品适用于高温高压条件，兼具结构紧凑、耐热冲击和可在同一设备内完成冷却与冷凝等特点。"
+    },
+    {
+      "title": "它如何方便维护和清洗？",
+      "content": "产品采用可拆式结构，便于拆卸和机械清洗，并可使用高压水枪清洗，以维持换热效率并降低运行维护难度。"
+    }
+  ],
+  "seo_data": {
+    "meta_title": "A-BLOC全焊接六面可拆式换热器",
+    "meta_description": "适用于高温高压工业工况的全焊可拆式板式换热器，兼具结构紧凑、高效换热和便于清洗维护等优势。"
+  },
+  "manufacturer": {
+    "slug": "shenghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "A-BLOC Fully Welded Removable Plate Heat Exchanger",
+      "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/a_bloc_fully_welded_removable_plate_heat_exchanger.png"
+    }
+  ],
+  "certificates": []
+}
