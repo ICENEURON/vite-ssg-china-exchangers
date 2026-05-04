@@ -2,7 +2,7 @@
 import { Head } from 'vite-react-ssg'
 import { Link, useParams, Navigate } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
-import { BadgeCheck, Factory, ArrowRight, ArrowLeft, Star, MapPin, CheckCircle2, ShieldCheck, Award, Users, Globe2, Sparkles, Zap, Flame, Gauge, Mail, Phone, Linkedin, Youtube, Play, ExternalLink } from "lucide-react"
+import { BadgeCheck, Factory, ArrowRight, ArrowLeft, Star, MapPin, CheckCircle2, ShieldCheck, Award, Users, Globe2, Sparkles, Zap, Flame, Gauge, Mail, Phone, Linkedin, Youtube, ExternalLink } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
 import { useTranslation } from 'react-i18next'
@@ -23,6 +23,12 @@ interface SocialMediaLink {
     url: string;
     platform: string;
     is_visible?: boolean;
+}
+
+interface CountryData {
+    id: string;
+    name: string;
+    name_zh?: string;
 }
 
 interface ManufacturerData {
@@ -123,6 +129,7 @@ export default function ManufacturerProfilePage() {
     const galleryImages = mfgData.images || [];
     const videoLink = mfgData.video_link;
     const socialMediaLinks = (mfgData.social_media_links || []).filter(l => l.is_visible !== false);
+    const typedCountriesData = countriesData as CountryData[];
 
     // Convert YouTube URL to embeddable format
     function getYoutubeEmbedUrl(url: string): string | null {
@@ -342,7 +349,7 @@ export default function ManufacturerProfilePage() {
                                     </h3>
                                     <div className="flex flex-wrap gap-2">
                                         {exportMarkets.map((code: string, i: number) => {
-                                            const cData = countriesData.find((c: any) => c.id === code);
+                                            const cData = typedCountriesData.find((country) => country.id === code);
                                             const cName = cData ? (currentLanguage === 'zh' && cData.name_zh ? cData.name_zh : cData.name) : code;
                                             return (
                                                 <span key={i} className="px-3 py-1.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-100 dark:bg-indigo-900/20 dark:text-indigo-300 dark:border-indigo-900/30 text-sm font-medium">
@@ -572,7 +579,7 @@ export default function ManufacturerProfilePage() {
 
                 {/* FINAL CTA - Gradient */}
                 <section className="py-20 bg-gradient-to-br from-indigo-900 to-blue-900 text-white text-center relative overflow-hidden">
-                    <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20" />
+                    <div className="absolute inset-0 opacity-20 [background-image:radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.35)_1px,transparent_0)] [background-size:16px_16px]" />
                     <div className="container relative mx-auto px-4 max-w-2xl">
                         <BadgeCheck className="w-12 h-12 text-blue-300 mx-auto mb-6 opacity-80" />
                         <h2 className="text-3xl md:text-5xl font-extrabold mb-6 tracking-tight">

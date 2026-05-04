@@ -1,7 +1,7 @@
 import { Head } from 'vite-react-ssg'
 import { Link, useParams, Navigate } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
-import { CheckCircle2, Settings, Factory, ArrowLeft, BookOpen } from "lucide-react"
+import { CheckCircle2, Settings, Factory, ArrowLeft, BookOpen, Shield } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
 import { useTranslation } from 'react-i18next'
@@ -139,27 +139,13 @@ export default function ProductProfilePage() {
                                     ))}
                                 </div>
 
-                                {certificates.length > 0 && (
-                                    <div className="mt-2">
-                                        <ZoomableImageGrid
-                                            images={certificates.map((cert) => ({ src: cert.url, alt: cert.alt_text || 'Certificate' }))}
-                                            altFallback="Certificate"
-                                            className="flex flex-wrap gap-4"
-                                            itemClassName="min-w-0 !bg-transparent !border-0 !shadow-none !rounded-none !p-0 hover:!bg-transparent [&>div:last-of-type]:mb-0 [&>div:last-of-type]:h-auto [&>div:last-of-type]:w-auto"
-                                            imageClassName="h-10 w-auto"
-                                            labelClassName="!hidden"
-                                            showExpandIcon={false}
-                                        />
-                                    </div>
-                                )}
-
                                 <div className="flex flex-col sm:flex-row gap-4 mt-4 w-full sm:w-auto">
                                     <Button size="lg" className="h-14 px-8 text-lg font-medium shadow-lg hover:scale-105 transition-transform w-full sm:w-auto" asChild>
                                         <Link to={addLanguageToPath(`/manufacturers/${manufacturerSlug}`, currentLanguage)}>
                                             <Factory className="mr-2 h-5 w-5" /> {t("pages.products.detail.view_manufacturer")}
                                         </Link>
                                     </Button>
-                                    <Button size="lg" variant="outline" className="h-14 px-8 text-lg font-medium border-slate-700 text-slate-300 hover:bg-slate-800 hover:text-white w-full sm:w-auto" asChild>
+                                    <Button size="lg" variant="outline" className="h-14 px-8 text-lg font-medium border-white/70 bg-white text-slate-900 hover:bg-slate-100 hover:text-slate-950 w-full sm:w-auto" asChild>
                                         <Link to={addLanguageToPath("/rfq", currentLanguage)}>
                                             {t("pages.products.detail.request_quote")}
                                         </Link>
@@ -172,6 +158,31 @@ export default function ProductProfilePage() {
 
                 {/* Content Sections */}
                 <div className="container max-w-6xl mx-auto px-6 py-16 space-y-24">
+
+                    {/* Certificates */}
+                    {certificates.length > 0 && (
+                        <section>
+                            <div className="flex items-center gap-3 mb-8">
+                                <div className="p-3 bg-amber-500/10 rounded-xl text-amber-600 dark:text-amber-400">
+                                    <Shield className="w-6 h-6" />
+                                </div>
+                                <h2 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
+                                    {t("pages.products.detail.certificates", { defaultValue: 'Certificates' })}
+                                </h2>
+                            </div>
+                            <div className="bg-card p-8 rounded-2xl border border-border/50 shadow-sm">
+                                <ZoomableImageGrid
+                                    images={certificates.map((cert) => ({ src: cert.url, alt: cert.alt_text || 'Certificate' }))}
+                                    altFallback="Certificate"
+                                    className="flex flex-wrap gap-4"
+                                    itemClassName="min-w-0 !bg-transparent !border-0 !shadow-none !rounded-none !p-0 hover:!bg-transparent [&>div:last-of-type]:mb-0 [&>div:last-of-type]:h-auto [&>div:last-of-type]:w-auto"
+                                    imageClassName="h-10 w-auto"
+                                    labelClassName="!hidden"
+                                    showExpandIcon={false}
+                                />
+                            </div>
+                        </section>
+                    )}
 
                     {/* Product Details */}
                     {details.length > 0 && (
@@ -186,7 +197,7 @@ export default function ProductProfilePage() {
                                 {details.map((detail, idx) => (
                                     <div key={idx} className="bg-card p-8 rounded-2xl border border-border/50 shadow-sm">
                                         <h3 className="text-xl font-bold mb-4 text-card-foreground">{detail.title}</h3>
-                                        <p className="text-muted-foreground leading-relaxed text-lg">{detail.content}</p>
+                                        <p className="text-slate-700 dark:text-slate-200 leading-relaxed text-lg">{detail.content}</p>
                                     </div>
                                 ))}
                             </div>
@@ -227,8 +238,8 @@ export default function ProductProfilePage() {
                                     <tbody>
                                         {Object.entries(technicalParams).map(([key, value], index) => (
                                             <tr key={key} className={`border-b border-border/50 last:border-0 ${index % 2 === 0 ? 'bg-slate-50/50 dark:bg-slate-900/50' : 'bg-transparent'}`}>
-                                                <th className="py-4 px-6 font-semibold text-muted-foreground w-1/3 border-r border-border/50">{key}</th>
-                                                <td className="py-4 px-6 text-card-foreground font-medium">{String(value)}</td>
+                                                <th className="py-4 px-6 font-semibold text-slate-700 dark:text-slate-200 w-1/3 border-r border-border/50">{key}</th>
+                                                <td className="py-4 px-6 text-slate-900 dark:text-slate-100 font-medium">{String(value)}</td>
                                             </tr>
                                         ))}
                                     </tbody>
