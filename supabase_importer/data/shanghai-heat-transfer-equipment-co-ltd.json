@@ -408,61 +408,108 @@
             {
                 "product": {
                     "order": 2,
-                    "slug": "tp-welded-plate-heat-exchanger",
+                    "slug": "gasketed-plate-heat-exchanger",
                     "is_visible": true,
                     "name": {
-                        "en": "TP Welded Plate Heat Exchanger",
-                        "zh": "TP 焊接板式换热器"
+                        "en": "Gasketed Plate Heat Exchanger",
+                        "zh": "可拆卸板式热交换器"
                     },
                     "short_description": {
-                        "en": "Specialized heat exchanger for slurry, viscous, and fiber-containing fluids.",
-                        "zh": "适用于浆料、高粘度及含纤维介质的专用换热器。"
+                        "en": "Compact plate and frame exchanger with high heat transfer efficiency and easy maintenance.",
+                        "zh": "结构紧凑、传热效率高且便于维护清洗的可拆卸板式热交换器。"
                     },
                     "full_description": {
-                        "en": "In industrial processes, specialized heat exchange solutions are required for handling challenging fluids such as particle-laden fluids, viscous fluids, and fiber-containing fluids. TP Welded Plate Heat Exchanger is an ideal heat exchange solution for these applications.",
-                        "zh": "在工业过程中，针对含颗粒介质、粘性介质和含纤维介质等复杂流体，需要专门的换热解决方案。TP 焊接板式换热器正是适用于此类应用的理想换热方案。"
+                        "en": "Plate and frame heat exchanger is composed of corrugated metal plates sealed by gaskets and compressed inside a frame by tie rods with locking nuts. The port holes form continuous channels so the two fluids flow in countercurrent between the heat transfer plates, delivering high heat transfer coefficient, low fouling resistance, compact footprint, convenient maintenance and cleaning, small end approach temperature, and light overall weight.",
+                        "zh": "可拆卸板式热交换器由多张冲压成波纹槽的金属换热板片按一定间隔交替叠装而成，每张板片由胶垫密封，并通过夹紧螺柱压紧在框架内。板片角孔形成连续流道，介质从入口进入后被分配到板间通道内，两种介质在通道内逆流换热，从而实现热介质降温和冷介质升温。该产品具有传热系数高、污垢系数低、结构紧凑、占地空间小、检修清洗方便、末端温差小和重量轻等特点。"
                     },
                     "industries": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
                         "6",
-                        "7",
                         "8"
                     ],
                     "advantage": {
                         "en": [
-                            "Designed for challenging fluids",
-                            "Helps reduce blockage and leakage risk",
-                            "Supports customized material and channel design"
+                            "High Efficiency: Multiple first-class energy-efficiency product designs help balance strong thermal performance with lower energy consumption.",
+                            "Broad Product Coverage: The product series covers DN32 to DN500, supporting a wide range of demanding process conditions.",
+                            "Compact and Serviceable: The exchanger combines compact structure, clean appearance, and convenient cleaning and descaling for longer service life.",
+                            "Flexible Engineering: Advanced simulation capabilities and customizable models support product optimization for different duties.",
+                            "Reliable Sealing: Gasketed construction and reinforced plate design improve sealing performance under high-pressure conditions.",
+                            "Material Versatility: Plate and gasket material options include austenitic stainless steel, duplex steel, titanium, nickel alloys, NBR, EPDM, FKM, and PTFE-cushion solutions."
                         ],
                         "zh": [
-                            "针对复杂介质设计",
-                            "有助于降低堵塞和泄漏风险",
-                            "支持材料和流道定制优化"
+                            "高效节能：多项一级能效产品设计，实现高效能与低能耗的平衡，助力可持续发展。",
+                            "覆盖范围广：产品系列覆盖 DN32 至 DN500，适用于多种苛刻工况。",
+                            "结构紧凑易维护：产品外形简洁美观，便于清洗除垢，有助于延长设备使用寿命。",
+                            "设计灵活：先进的仿真引擎和灵活的模型定制能力，可针对不同工况进行优化设计。",
+                            "密封可靠：胶垫密封配合加强型板片结构，提升高压工况下的密封可靠性。",
+                            "材料选择丰富：可提供奥氏体不锈钢、双相不锈钢、钛及钛合金、镍及镍合金板片，以及多种胶垫材料选择。"
                         ]
                     },
                     "technical_parameters": {
                         "en": {
-                            "Area": "6.6 ~ 870㎡",
-                            "Plate material": "SS304, SS316, Hastelloy, Titanium",
-                            "Design Pressure": "1.0 ~ 4.0MPa",
-                            "Plate Thickness": "1.5mm ~ 10mm",
-                            "Design Temperature": "-196℃ ~ 450℃"
+                            "Nozzle Size": "DN32 ~ DN500",
+                            "Plate Thickness": "0.4 ~ 1.0mm",
+                            "Profile Depth": "1.8 ~ 10.0mm",
+                            "Design Temperature": "<=180℃",
+                            "Design Pressure": "Vacuum ~ 3.6MPa",
+                            "Max Area": "4000㎡",
+                            "Plate Material": "Austenitic stainless steel, Duplex steel, Titanium and titanium alloy, Nickel and nickel alloy",
+                            "Gasket Material": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, PTFE cushion"
                         },
                         "zh": {
-                            "面积": "6.6 ~ 870㎡",
-                            "板片材质": "SS304, SS316, Hastelloy, Titanium",
-                            "设计压力": "1.0 ~ 4.0MPa",
-                            "板片厚度": "1.5mm ~ 10mm",
-                            "设计温度": "-196℃ ~ 450℃"
+                            "角孔直径": "DN32 ~ DN500",
+                            "板片厚度": "0.4 ~ 1.0mm",
+                            "波纹深度": "1.8 ~ 10.0mm",
+                            "设计温度": "<=180℃",
+                            "设计压力": "真空 ~ 3.6MPa",
+                            "最大组装面积": "4000㎡",
+                            "板片材质": "奥氏体不锈钢、双相不锈钢、钛及钛合金、镍及镍合金",
+                            "胶垫材质": "丁腈（食品）橡胶、氢化丁腈橡胶、三元乙丙（食品）橡胶、耐高温三元乙丙橡胶、氟橡胶、聚四氟乙烯包覆橡胶"
                         }
                     },
+                    "details": {
+                        "en": [
+                            {
+                                "title": "What is a gasketed plate heat exchanger?",
+                                "content": "A gasketed plate heat exchanger is built from corrugated metal heat transfer plates sealed by gaskets and clamped together within a frame. The plate port holes form continuous channels that distribute hot and cold media into alternating passages, where the two fluids flow in countercurrent to achieve efficient heat transfer."
+                            },
+                            {
+                                "title": "Why choose this plate and frame design?",
+                                "content": "Compared with conventional shell and tube equipment, this design offers a much higher heat transfer coefficient, lower fouling factor, smaller end approach temperature, lighter weight, and a significantly smaller footprint. The modular plate pack also makes capacity adjustment, inspection, maintenance, and cleaning more convenient."
+                            },
+                            {
+                                "title": "How is it designed and manufactured?",
+                                "content": "The heat transfer plate is the core element and is developed with CAD, CFD, CAE, and CAM tools to optimize plate geometry, sealing, and pressure resistance. During engineering, the required duty, flow rate, temperature program, pressure drop, plate pattern, materials, pass arrangement, and gasket selection are defined first, then the frame, nozzles, and plate pack are manufactured and assembled before pressure, leak, and performance testing."
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "title": "什么是可拆卸板式热交换器？",
+                                "content": "可拆卸板式热交换器由带波纹槽的金属换热板片、胶垫、框架以及夹紧螺柱组成。板片角孔形成连续流道，冷热两侧介质分别进入交替排列的板间通道并逆流流动，通过板片完成高效传热。"
+                            },
+                            {
+                                "title": "为什么选择这种板框式结构？",
+                                "content": "这种结构具有传热系数高、污垢系数低、末端温差小、占地空间小和重量轻等优势，同时板束可拆卸，便于检修、清洗和后续扩容，适合对效率和维护性要求较高的工业换热工况。"
+                            },
+                            {
+                                "title": "它如何进行设计和制造？",
+                                "content": "换热板片是板式热交换器的核心元件，通常采用 CAD、CFD、CAE、CAM 等三维设计与仿真工具优化板型、密封和承压能力。工程设计阶段需要先确定换热量、流量、进出口温度、压降、板型、材料、流程组合和胶垫方案，再完成框架、接管和板束制造装配，并进行压力、泄漏及换热性能测试。"
+                            }
+                        ]
+                    },
+                    "video_link": "https://www.youtube.com/watch?v=AK423r7fJuU",
                     "seo_data": {
                         "en": {
-                            "meta_title": "TP Welded Plate Heat Exchanger Manufacturer",
-                            "meta_description": "TP welded plate heat exchanger for slurry, viscous, and fiber-containing media with customized design for reliable industrial operation."
+                            "meta_title": "Gasketed Plate Heat Exchanger",
+                            "meta_description": "Compact plate and frame heat exchanger with efficient thermal transfer, easy maintenance, and broad material and size options."
                         },
                         "zh": {
-                            "meta_title": "TP 焊接板式换热器制造商",
-                            "meta_description": "TP 焊接板式换热器适用于浆料、高粘度和含纤维介质，可通过定制化设计提升工业运行可靠性。"
+                            "meta_title": "可拆卸板式热交换器",
+                            "meta_description": "结构紧凑、传热效率高、维护清洗方便的可拆卸板式热交换器，支持多种材质与规格。"
                         }
                     }
                 },
@@ -471,15 +518,29 @@
                         "order": 1,
                         "asset_type": "gallery_image",
                         "folder": "product_images",
-                        "file_name": "tp_welded_1.jpg",
-                        "alt_text": "TP Welded Plate Heat Exchanger"
+                        "file_name": "plate_heat_exchanger_1.png",
+                        "alt_text": "Gasketed Plate Heat Exchanger"
                     },
                     {
                         "order": 2,
                         "asset_type": "gallery_image",
                         "folder": "product_images",
-                        "file_name": "tp_welded_2.jpg",
-                        "alt_text": "TP Welded Plate Heat Exchanger Variant"
+                        "file_name": "plate_heat_exchanger_2.jpg",
+                        "alt_text": "Gasketed Plate Heat Exchanger Structure"
+                    },
+                    {
+                        "order": 3,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "plate_heat_exchanger_3.jpg",
+                        "alt_text": "Gasketed Plate Heat Exchanger Detail"
+                    },
+                    {
+                        "order": 4,
+                        "asset_type": "gallery_image",
+                        "folder": "product_images",
+                        "file_name": "plate_heat_exchanger_4.jpg",
+                        "alt_text": "Gasketed Plate Heat Exchanger Plate Detail"
                     },
                     {
                         "order": 1,
