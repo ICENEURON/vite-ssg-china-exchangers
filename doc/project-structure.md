@@ -18,6 +18,22 @@ supabase_importer/    Local JSON/assets import workflow for Supabase
 
 There is no checked-in `supabase/` migrations directory.
 
+### Documentation Set
+
+The active documentation set is intentionally small:
+
+| File | Role |
+| --- | --- |
+| `doc/project_overview.md` | Canonical project, product, user, and growth overview. |
+| `doc/project-structure.md` | Canonical repository, route, data-layer, and script reference. |
+| `doc/seo-geo-keyword-strategy.md` | SEO, GEO, keyword, and Industry News content strategy. |
+| `doc/obsdian/1. Project Overview (项目介绍).md` | Short bilingual executive overview for business notes. |
+| `doc/obsdian/2. Supplier Partnership Proposal（供应商合作方案）.md` | Supplier-facing partnership and data requirements. |
+| `doc/obsdian/3. Buyer Guide（买家指南）.md` | Buyer-facing usage and RFQ expectations. |
+| `doc/obsdian/5. RFQ Specification（询价数据结构）.md` | Detailed RFQ behavior and payload reference. |
+
+The previous supplier database note was removed because its maintained content is folded into this file.
+
 ### Root Files
 
 | File | Purpose |
@@ -159,6 +175,22 @@ supabase_importer/    本地 JSON/资产导入 Supabase 的工作流
 ```
 
 仓库中没有 checked-in 的 `supabase/` migrations 目录。
+
+### 文档集合
+
+当前文档集合保持精简：
+
+| 文件 | 作用 |
+| --- | --- |
+| `doc/project_overview.md` | 项目、产品、用户和增长方向的主说明。 |
+| `doc/project-structure.md` | 仓库、路由、数据层和脚本的主参考。 |
+| `doc/seo-geo-keyword-strategy.md` | SEO、GEO、关键词和 Industry News 内容策略。 |
+| `doc/obsdian/1. Project Overview (项目介绍).md` | 业务笔记用的中英双语简版项目介绍。 |
+| `doc/obsdian/2. Supplier Partnership Proposal（供应商合作方案）.md` | 面向供应商的合作方案和资料要求。 |
+| `doc/obsdian/3. Buyer Guide（买家指南）.md` | 面向买家的使用说明和 RFQ 预期。 |
+| `doc/obsdian/5. RFQ Specification（询价数据结构）.md` | RFQ 行为和 payload 的详细参考。 |
+
+原供应商数据库结构笔记已删除，因为维护内容已经合并到本文档。
 
 ### 根目录文件
 

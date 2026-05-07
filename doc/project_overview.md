@@ -10,6 +10,8 @@ HeatEx Direct is a focused B2B sourcing site for industrial heat exchangers. It 
 
 The project is not a broad marketplace. It is a vertical directory and sourcing bridge for heat exchangers and related thermal transfer equipment.
 
+HeatEx Direct is operated as a network information services company founded in Melbourne, Australia. It serves global buyers rather than only Australian buyers, with a small three-person team combining senior China heat exchanger industry knowledge, international marketing, and software/data engineering.
+
 The site should help buyers answer:
 
 - Is this company a real manufacturer?
@@ -55,6 +57,7 @@ For suppliers, the site should provide a focused international profile channel a
 | Technical specificity | Engineers need real parameters and applications, not slogans. |
 | Honest RFQ language | The site must not promise automatic routing before it exists. |
 | Operational repeatability | Sync, import, lint, and build should be easy to repeat safely. |
+| Entity clarity for AI/GEO | Search engines and AI models need stable facts, structured data, and consistent descriptions to reuse the site's information. |
 
 ### Growth Direction
 
@@ -63,6 +66,7 @@ Short term:
 - Keep docs, lint, and build healthy.
 - Improve catalogue completeness before adding many more suppliers.
 - Replace starter/demo blog posts with heat exchanger content.
+- Use Industry News as the main traffic acquisition channel, focused on buyer guides, supplier verification, product explainers, RFQ checklists, and China market intelligence.
 - Make RFQ follow-up operationally clear.
 
 Medium term:
@@ -85,6 +89,8 @@ HeatEx Direct 是一个聚焦工业换热器的 B2B 采购网站。它通过结�
 ### 项目意义与目标
 
 这个项目不是综合大卖场，而是换热器和相关热交换设备的垂直目录与采购桥梁。
+
+HeatEx Direct 是一家创立于澳大利亚墨尔本的网络信息服务公司，服务对象是全球采购方，而不只限于澳洲市场。团队目前由三人组成，结合了一名非常熟悉中国换热器行业真实情况的资深行业人员、marketing 能力和技术/数据工程能力。
 
 网站应帮助买家回答：
 
@@ -131,6 +137,7 @@ HeatEx Direct 是一个聚焦工业换热器的 B2B 采购网站。它通过结�
 | 技术具体性 | 工程师需要真实参数和应用，而不是口号。 |
 | RFQ 语言诚实 | 自动分发尚未实现前，不能承诺自动路由。 |
 | 运营可重复 | sync、import、lint、build 应能安全重复执行。 |
+| AI/GEO 实体清晰 | 搜索引擎和 AI 大模型需要稳定事实、结构化数据和一致表述，才更容易采纳网站信息。 |
 
 ### 增长方向
 
@@ -139,6 +146,7 @@ HeatEx Direct 是一个聚焦工业换热器的 B2B 采购网站。它通过结�
 - 保持文档、lint、build 健康。
 - 先提高目录质量，再扩大供应商数量。
 - 用换热器内容替换 starter/demo 博客文章。
+- 把 Industry News 作为主要引流窗口，重点发布买家指南、供应商核验、产品解释、RFQ 清单和中国市场信息。
 - 明确 RFQ 后续由谁处理、如何处理。
 
 中期：
