@@ -1,10 +1,11 @@
-import { supabase } from './client'
+import { getSupabaseClient } from './client'
 
 /**
  * Sends an OTP verification code to the provided email.
  * Supabase handles the generation and email delivery via its Auth module.
  */
 export async function sendVerificationOTP(email: string) {
+  const supabase = await getSupabaseClient()
   const { data, error } = await supabase.auth.signInWithOtp({
     email,
     options: {
@@ -24,6 +25,7 @@ export async function sendVerificationOTP(email: string) {
  * If successful, this provisions the user session.
  */
 export async function verifyOTPCode(email: string, token: string) {
+  const supabase = await getSupabaseClient()
   const { data, error } = await supabase.auth.verifyOtp({
     email,
     token,

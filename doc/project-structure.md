@@ -28,7 +28,7 @@ There is no checked-in `supabase/` migrations directory.
 | `velite.config.ts` | Markdown post schema and Velite output. |
 | `eslint.config.js` | ESLint flat config. |
 | `tsconfig*.json` | TypeScript project configuration. |
-| `tailwind.config.js` / `postcss.config.js` | Tailwind and PostCSS configuration. |
+| `postcss.config.js` | Wires Tailwind CSS v4 and Autoprefixer into PostCSS. Tailwind theme, plugins, and dark variant live in `src/index.css`. |
 | `index.html` | Vite HTML entry and pre-hydration env bootstrap. |
 | `.htaccess` | Apache static hosting rewrite, cache, compression, and headers. |
 | `robots.txt` / `sitemap.xml` | Search engine crawling and static sitemap for `heatexdirect.com`. |
@@ -170,7 +170,7 @@ supabase_importer/    本地 JSON/资产导入 Supabase 的工作流
 | `velite.config.ts` | Markdown 文章 schema 和 Velite 输出。 |
 | `eslint.config.js` | ESLint flat config。 |
 | `tsconfig*.json` | TypeScript 项目配置。 |
-| `tailwind.config.js` / `postcss.config.js` | Tailwind 和 PostCSS 配置。 |
+| `postcss.config.js` | 将 Tailwind CSS v4 和 Autoprefixer 接入 PostCSS。Tailwind 主题、插件和 dark variant 位于 `src/index.css`。 |
 | `index.html` | Vite HTML 入口和 hydration 前环境启动。 |
 | `.htaccess` | Apache 静态托管 rewrite、cache、压缩和 headers。 |
 | `robots.txt` / `sitemap.xml` | `heatexdirect.com` 的搜索引擎抓取和 sitemap。 |

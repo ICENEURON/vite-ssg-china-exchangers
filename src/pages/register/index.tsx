@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import { Head } from 'vite-react-ssg'
 import { Button } from "../../components/ui/button"
-import { supabase } from "../../lib/supabase/client"
+import { getSupabaseClient } from "../../lib/supabase/client"
 
 export default function SignUpPage() {
   const { t } = useTranslation('translation')
@@ -27,16 +27,22 @@ export default function SignUpPage() {
       return
     }
 
-    const { data, error } = await supabase.auth.signUp({ email: email.trim(), password })
-    setLoading(false)
-    if (error) {
-      setError(error.message)
-      return
-    }
-    if (data.session) {
-      nav("/dashboard", { replace: true })
-    } else {
-      setInfo(t('pages.register.messages.success_message'))
+    try {
+      const supabase = await getSupabaseClient()
+      const { data, error } = await supabase.auth.signUp({ email: email.trim(), password })
+      setLoading(false)
+      if (error) {
+        setError(error.message)
+        return
+      }
+      if (data.session) {
+        nav("/dashboard", { replace: true })
+      } else {
+        setInfo(t('pages.register.messages.success_message'))
+      }
+    } catch (error) {
+      setLoading(false)
+      setError(error instanceof Error ? error.message : "Unable to sign up")
     }
   }
 

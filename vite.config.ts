@@ -58,7 +58,43 @@ export default defineConfig(({ mode }) => {
       rollupOptions: {
         input: {
           main: resolve(__dirname, 'index.html'),
-        }
+        },
+        output: {
+          manualChunks(id: string) {
+            const normalizedId = id.replace(/\\/g, '/');
+
+            if (normalizedId.includes('/node_modules/')) {
+              if (
+                normalizedId.includes('/react/') ||
+                normalizedId.includes('/react-dom/') ||
+                normalizedId.includes('/scheduler/')
+              ) {
+                return 'react-vendor';
+              }
+
+              if (normalizedId.includes('/i18next/') || normalizedId.includes('/react-i18next/')) {
+                return 'i18n-vendor';
+              }
+
+              if (
+                normalizedId.includes('/@radix-ui/') ||
+                normalizedId.includes('/lucide-react/') ||
+                normalizedId.includes('/class-variance-authority/') ||
+                normalizedId.includes('/tailwind-merge/') ||
+                normalizedId.includes('/clsx/') ||
+                normalizedId.includes('/embla-carousel-react/')
+              ) {
+                return 'ui-vendor';
+              }
+
+              return 'vendor';
+            }
+
+            if (normalizedId.includes('/src/data/') || normalizedId.includes('/src/locales/')) {
+              return 'site-data';
+            }
+          },
+        },
       }
     },
     ssgOptions: {

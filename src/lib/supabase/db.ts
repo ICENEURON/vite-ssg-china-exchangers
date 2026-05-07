@@ -1,4 +1,4 @@
-import { supabase } from './client'
+import { getSupabaseClient } from './client'
 
 export type RFQParameters = Record<string, string>;
 
@@ -19,6 +19,7 @@ export interface RFQSubmissionData {
  * Submits an RFQ to the public.rfqs table.
  */
 export async function submitRFQ(data: RFQSubmissionData) {
+  const supabase = await getSupabaseClient()
   // Debug: Check if we have a valid session
   const { data: { session } } = await supabase.auth.getSession();
   console.log("[submitRFQ] Current session:", session ? "Authenticated" : "Anonymous", session?.user?.email);
