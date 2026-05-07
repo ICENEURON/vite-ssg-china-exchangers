@@ -12,6 +12,7 @@ import {
 } from "../../utils/language-routing";
 import { cn } from "../../utils/cn";
 import { Button } from "../ui/button";
+import { QuoteCta } from "../ui/quote-cta";
 import {
     NavigationMenu,
     NavigationMenuItem,
@@ -212,19 +213,16 @@ export function Navigation() {
                             <NavigationMenuList>
                                 {rfqRoute && (
                                     <NavigationMenuItem key={rfqRoute.path}>
-                                        <Button
+                                        <QuoteCta
                                             asChild
                                             size="sm"
-                                            className={cn(
-                                                "bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white font-semibold shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:scale-105 rounded-full px-5 gap-2",
-                                                isActiveLink(rfqRoute.path) && "ring-2 ring-white/50"
-                                            )}
+                                            className={cn("px-5", isActiveLink(rfqRoute.path) && "ring-2 ring-white/50")}
                                         >
                                             <Link to={getLocalizedPath(rfqRoute.path)}>
                                                 <Mail className="w-4 h-4" />
                                                 {rfqRoute.translationKey ? t(rfqRoute.translationKey) : rfqRoute.label}
                                             </Link>
-                                        </Button>
+                                        </QuoteCta>
                                     </NavigationMenuItem>
                                 )}
                                 {renderNavItems(rightItems)}
@@ -311,15 +309,20 @@ export function Navigation() {
 
                         {/* Mobile CTA Button */}
                         {rfqRoute && (
-                            <Link
-                                key={rfqRoute.path}
-                                to={getLocalizedPath(rfqRoute.path)}
-                                className="flex items-center justify-center gap-2 mt-4 px-4 py-4 text-lg font-bold text-white bg-gradient-to-r from-primary to-orange-500 rounded-xl shadow-lg shadow-primary/20 transition-all hover:shadow-xl hover:scale-[1.02]"
-                                onClick={() => setIsMobileMenuOpen(false)}
+                            <QuoteCta
+                                asChild
+                                size="lg"
+                                className="mt-4 px-5 py-4 text-lg"
                             >
-                                <Mail className="w-5 h-5" />
-                                {rfqRoute.translationKey ? t(rfqRoute.translationKey) : rfqRoute.label}
-                            </Link>
+                                <Link
+                                    key={rfqRoute.path}
+                                    to={getLocalizedPath(rfqRoute.path)}
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                >
+                                    <Mail className="w-5 h-5" />
+                                    {rfqRoute.translationKey ? t(rfqRoute.translationKey) : rfqRoute.label}
+                                </Link>
+                            </QuoteCta>
                         )}
                     </div>
 

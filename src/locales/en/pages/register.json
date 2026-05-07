@@ -10,7 +10,7 @@
   },
   "hero": {
     "title": "Create a HeatEx Direct Account",
-    "subtitle": "Access future RFQ, profile management, and supplier collaboration features."
+    "subtitle": "Access future quote request, profile management, and supplier collaboration features."
   },
   "form": {
     "email": "Email",
@@ -25,7 +25,7 @@
     "title": "Account access can support",
     "items": [
       "Protected buyer workflows",
-      "Future RFQ status visibility",
+      "Future quote request status visibility",
       "Supplier profile claim management",
       "Technical content and profile updates",
       "Future platform collaboration tools"

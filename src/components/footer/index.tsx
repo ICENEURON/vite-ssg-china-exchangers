@@ -6,7 +6,7 @@ import {
   useCurrentLanguage,
   addLanguageToPath,
 } from "../../utils/language-routing";
-import { Button } from "../ui/button";
+import { QuoteCta } from "../ui/quote-cta";
 import { Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -100,16 +100,16 @@ const Footer = () => {
               {t("footer.tagline")}
             </p>
             <div className="mt-6 flex">
-              <Button
+              <QuoteCta
                 asChild
                 size="lg"
-                className="bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white font-bold shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:scale-105 rounded-full px-6 gap-2"
+                className="px-6"
               >
                 <Link to={addLanguageToPath("/rfq", currentLanguage)}>
                   <Mail className="w-5 h-5" />
-                  {t("footer.rfq_label")}
+                  {t("navigation.menu.rfq")}
                 </Link>
-              </Button>
+              </QuoteCta>
             </div>
           </div>
 

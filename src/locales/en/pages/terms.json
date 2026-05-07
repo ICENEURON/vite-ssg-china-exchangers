@@ -1,7 +1,7 @@
 {
   "title": "Terms of Use – HeatEx Direct",
   "meta": {
-    "description": "Terms of use for HeatEx Direct. Please read these terms carefully before using our verified manufacturer directory and RFQ services.",
+    "description": "Terms of use for HeatEx Direct. Please read these terms carefully before using our verified manufacturer directory and quote request services.",
     "keywords": "HeatEx Direct terms of use, B2B sourcing terms, vendor verification agreement, platform rules"
   },
   "hero": {
@@ -15,7 +15,7 @@
     },
     "usePolicy": {
       "title": "2. Permitted Use of the Platform",
-      "content": "HeatEx Direct is provided for commercial B2B sourcing and educational purposes. You may browse our directory, utilize our RFQ tools, and contact verified manufacturers for legitimate business inquiries. You agree not to scrape data, spam manufacturers, or use the platform for fraudulent activities."
+      "content": "HeatEx Direct is provided for commercial B2B sourcing and educational purposes. You may browse our directory, use our quote request tools, and contact verified manufacturers for legitimate business inquiries. You agree not to scrape data, spam manufacturers, or use the platform for fraudulent activities."
     },
     "privacy": {
       "title": "3. Verification and Accuracy",

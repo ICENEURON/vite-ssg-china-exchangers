@@ -1,12 +1,12 @@
 
 import { Head } from 'vite-react-ssg'
 import { Link, useParams, Navigate } from "react-router-dom"
-import { Button } from "../../../components/ui/button"
-import { BadgeCheck, Factory, ArrowRight, ArrowLeft, Star, MapPin, CheckCircle2, ShieldCheck, Award, Users, Globe2, Sparkles, Zap, Flame, Gauge, Mail, Phone, Linkedin, Youtube, ExternalLink, Download, FileText } from "lucide-react"
+import { BadgeCheck, Factory, ArrowLeft, Star, MapPin, CheckCircle2, ShieldCheck, Award, Users, Globe2, Sparkles, Zap, Flame, Gauge, Mail, Phone, Linkedin, Youtube, ExternalLink, Download, FileText } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
 import { useTranslation } from 'react-i18next'
 import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-routing'
+import { QuoteCta } from '../../../components/ui/quote-cta'
 import countriesData from '../../../data/countries.json'
 
 interface ImageAsset {
@@ -245,11 +245,12 @@ export default function ManufacturerProfilePage() {
                                 <h3 className="text-xl font-bold text-white mb-2 relative z-10">{t(`${SHARED_TK}.connect_directly`)}</h3>
                                 <p className="text-slate-300 text-sm mb-6 relative z-10">{t(`${SHARED_TK}.connect_description`)}</p>
 
-                                <Button size="lg" className="relative z-10 w-full h-14 text-lg font-bold bg-white text-blue-900 hover:bg-blue-50 shadow-lg transition-all transform hover:scale-[1.02]" asChild>
+                                <QuoteCta size="lg" className="relative z-10 w-full h-14 text-lg" asChild>
                                     <Link to={`${addLanguageToPath('/rfq', currentLanguage)}?company=${encodeURIComponent(basicInfo?.name)}`}>
-                                        {t(`${SHARED_TK}.start_inquiry`)} <ArrowRight className="ml-2 w-5 h-5" />
+                                        <Mail className="w-5 h-5" />
+                                        {t("navigation.menu.rfq")}
                                     </Link>
-                                </Button>
+                                </QuoteCta>
 
                                 <div className="mt-6 pt-6 border-t border-white/10 flex items-center justify-between text-xs text-slate-400 relative z-10">
                                     <span className="flex items-center gap-1.5"><ShieldCheck className="w-3.5 h-3.5 text-emerald-400" /> {t(`${SHARED_TK}.verified_contact`)}</span>
@@ -654,11 +655,12 @@ export default function ManufacturerProfilePage() {
                         <p className="text-blue-100 mb-10 text-lg">
                             {t(`${SHARED_TK}.partner_desc`)}
                         </p>
-                        <Button size="lg" className="h-16 px-10 text-xl font-bold rounded-full bg-white text-blue-900 hover:bg-blue-50 hover:scale-105 transition-all shadow-xl" asChild>
+                        <QuoteCta size="lg" className="h-16 px-10 text-xl" asChild>
                             <Link to={`${addLanguageToPath('/rfq', currentLanguage)}?company=${encodeURIComponent(basicInfo?.name)}`}>
-                                {t(`${SHARED_TK}.start_project`)}
+                                <Mail className="w-5 h-5" />
+                                {t("navigation.menu.rfq")}
                             </Link>
-                        </Button>
+                        </QuoteCta>
                     </div>
                 </section>
 

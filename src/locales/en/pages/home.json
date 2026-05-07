@@ -1,73 +1,146 @@
 {
-  "title": "HeatEx Direct | Industrial Heat Exchangers Manufacturer",
+  "title": "HeatEx Direct | China Heat Exchanger Manufacturers for Global Buyers",
   "meta": {
-    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
-    "keywords": "Heat Exchangers, China Manufacturer, Industrial Sourcing, ASME, ISO, Plate Heat Exchangers, Shell & Tube"
+    "description": "HeatEx Direct is a Melbourne-founded industrial sourcing information platform for global buyers evaluating verified Chinese heat exchanger manufacturers, product capabilities, and structured quote requirements.",
+    "keywords": "China heat exchanger manufacturers, heat exchanger sourcing platform, verified heat exchanger suppliers, industrial heat exchangers, plate heat exchanger manufacturer, shell and tube heat exchanger supplier, heat exchanger quote request"
   },
   "og": {
-    "title": "HeatEx Direct - Verified Factory Direct",
-    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+    "title": "HeatEx Direct - Verified Chinese Heat Exchanger Manufacturer Information",
+    "description": "Discover structured manufacturer profiles, product data, technical sourcing content, and verified-email quote request intake for industrial heat exchangers from China.",
     "image": "/static/websites/home-hero.png",
     "url": "{{url}}",
     "type": "website",
     "site_name": "{{site_name}}"
   },
+  "schema": {
+    "organizationDescription": "HeatEx Direct is an independent industrial sourcing information platform founded in Melbourne, Australia. The company helps global buyers discover, compare, and evaluate Chinese heat exchanger manufacturers through structured factory profiles, product data, technical content, and verified-email quote request intake.",
+    "websiteDescription": "A bilingual sourcing information website for Chinese heat exchanger manufacturers, industrial heat exchanger products, supplier verification content, and structured quote request submission."
+  },
   "hero": {
-    "title": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories",
-    "subtitle": "Stop guessing. We manually verify Business Licenses, Production Scopes, and ASME Certificates to filter out trading companies. 100% Transparent. 0% Middlemen.",
-    "cta_primary": "Start Stealth RFQ (Free)",
+    "eyebrow": "Independent sourcing intelligence for industrial heat exchangers",
+    "title": "China Heat Exchanger Manufacturers, Organized for Technical Buyers",
+    "subtitle": "HeatEx Direct helps procurement teams, engineers, EPC companies, distributors, and integrators evaluate real Chinese factories with structured supplier data and product capability pages.",
+    "description": "Browse verified manufacturer profiles, compare industrial heat exchanger product categories, read practical sourcing guidance, and send a structured request without creating an account. You only need a verifiable email address so our team can follow up properly.",
+    "cta_primary": "Request for Quote",
     "cta_secondary": "Browse Manufacturers",
-    "trust_bar": {
-      "verified": "Strictly Analyst-Verified",
-      "direct": "Direct-to-Factory Connection",
-      "database": "ASME/ISO Database Checked"
-    }
+    "trust_bar": [
+      "Verified manufacturer profiles",
+      "China industry knowledge",
+      "Structured product data",
+      "Dedicated quote follow-up"
+    ]
   },
   "valueProp": {
-    "title": "Why Engineers Trust Us Over General Marketplaces",
+    "eyebrow": "Built for trust, search, and technical clarity",
+    "title": "A sourcing site should make supplier facts easier to inspect",
+    "description": "General marketplaces often mix factories, traders, duplicate listings, and promotional claims. HeatEx Direct is designed as a focused information service for one vertical: industrial heat exchangers and related thermal transfer equipment.",
     "cards": [
       {
-        "title": "Forensic Due Diligence",
-        "body": "We don't trust algorithms. Our analysts manually check government registries to ensure every listed supplier owns their production lines. No 'Gold' badges for sale."
+        "title": "Real manufacturer context",
+        "body": "Profiles are structured around company background, factory location, product scope, export markets, media, certificates, and available documents so buyers can evaluate the supplier before making contact."
       },
       {
-        "title": "Stealth Sourcing Mode",
-        "body": "Tired of spam? Use our 'Blind RFQ' tool to generate technical specifications without revealing your identity until you are ready."
+        "title": "China-specific industry insight",
+        "body": "The platform is shaped by first-hand knowledge of the Chinese heat exchanger sector, helping buyers understand which factories are relevant for plate, welded plate, shell-and-tube, air-side, and spare-parts requirements."
       },
       {
-        "title": "Open Data Transparency",
-        "body": "We display the factory's real location, export history, and certificate numbers upfront. We don't hide info to force intermediation."
+        "title": "Comparable product information",
+        "body": "Product pages emphasize equipment type, applications, advantages, technical parameters, materials, pressure requirements, and linked manufacturer capability rather than generic sales copy."
       },
       {
-        "title": "Form RFQs",
-        "body": "Generate RFQs in seconds."
+        "title": "Dedicated quote follow-up",
+        "body": "The quote request form collects project context and design parameters without requiring account registration. A verifiable email lets our team review the request, clarify missing details, and follow up with relevant sourcing support."
       }
     ]
   },
+  "companyIntro": {
+    "eyebrow": "About HeatEx Direct",
+    "title": "Melbourne-founded, focused on Chinese heat exchanger supplier information",
+    "lead": "For global industrial buyers, we organize Chinese heat exchanger manufacturers, product capabilities, and sourcing content.",
+    "body": "HeatEx Direct focuses on industrial heat exchanger sourcing information, organizing company background, product range, application sectors, and quote parameters so buyers can make an initial judgment before contacting suppliers.",
+    "trustPoints": [
+      {
+        "title": "Vertical focus",
+        "body": "Focused on industrial heat exchangers and related heat transfer equipment, without unrelated supplier noise."
+      },
+      {
+        "title": "Sourcing view",
+        "body": "Company background, product range, applications, and media are organized for comparison wherever possible."
+      },
+      {
+        "title": "Human follow-up",
+        "body": "After buyers submit an email and project parameters, the team reviews the request and clarifies key questions."
+      }
+    ],
+    "facts": [
+      "Melbourne, Australia",
+      "China heat exchanger sector",
+      "Global industrial buyers"
+    ]
+  },
   "categoryShowcase": {
-    "title": "Comprehensive Manufacturer",
-    "alt": "Comprehensive Manufacturer",
-    "description": "Explore our extensive directory of heat exchanger manufacturers. From standard Plate Heat Exchangers to custom-engineered Shell & Tube units, find the right partner for your specific industrial needs.",
-    "cta": "Browse All Manufacturers"
+    "eyebrow": "Manufacturer and product coverage",
+    "title": "Find suppliers by equipment type, application, and technical fit",
+    "alt": "Industrial heat exchanger manufacturing and sourcing platform",
+    "imageCaption": "Chinese heat exchanger manufacturer profiles, product capabilities, and sourcing context organized in one place",
+    "description": "Use the directory to move from a broad supplier search to a more technical shortlist. Manufacturer profiles and product pages connect company background, product capabilities, industries served, export markets, media, and available documentation.",
+    "cta": "Browse All Manufacturers",
+    "secondaryCta": "Explore Products",
+    "stats": {
+      "manufacturers": "verified manufacturer profiles in the current directory",
+      "products": "industrial heat exchanger product pages",
+      "industries": "application sectors covered by listed suppliers"
+    },
+    "featuredEyebrow": "Featured manufacturer profiles",
+    "featuredTitle": "Start with suppliers already organized for comparison",
+    "featuredLink": "View full directory",
+    "viewProfile": "View manufacturer profile"
   },
   "howItWorks": {
-    "title": "Sourcing Made Simple & Safe",
+    "eyebrow": "Quote request workflow",
+    "title": "Send a useful request without creating an account",
+    "description": "A good heat exchanger quote starts with clear operating conditions. The quote request form helps buyers turn project details into a format that a sourcing specialist and relevant manufacturers can actually work with.",
     "steps": [
       {
-        "title": "1. Build Specs",
-        "body": "Input your technical parameters (Flow rate, Temp, Material) in our standardized form."
+        "title": "Research suppliers",
+        "body": "Start with manufacturer profiles or product pages to understand factory capability, product fit, industries served, and available trust signals."
       },
       {
-        "title": "2. Go Stealth",
-        "body": "Toggle 'Anonymous Mode' to hide your contact details from suppliers initially."
+        "title": "Prepare specifications",
+        "body": "Enter media, phases, mass flow, temperatures, materials, pressure, flange standards, heat load, and notes in the quote request form."
       },
       {
-        "title": "3. Broadcast",
-        "body": "One-click send your RFQ to verified factories matching your capabilities."
+        "title": "Verify your email",
+        "body": "No account registration is required. Use a verifiable email address so we can confirm the request is real and contact you about project details."
       },
       {
-        "title": "4. Compare",
-        "body": "Receive direct quotes and compare technical proposals side-by-side."
+        "title": "Get specialist follow-up",
+        "body": "A HeatEx Direct team member reviews the request, checks whether key parameters are missing, and follows up with sourcing support for suitable supplier discussions."
+      }
+    ]
+  },
+  "industryNews": {
+    "eyebrow": "Industry News and buyer intelligence",
+    "title": "A practical knowledge base for heat exchanger sourcing",
+    "description": "Industry News is where HeatEx Direct publishes sourcing guides, supplier verification notes, product explainers, quote request checklists, and China heat exchanger market observations for buyers who need more than a supplier list.",
+    "cta": "Read Industry News",
+    "secondaryCta": "Request for Quote",
+    "pillars": [
+      {
+        "title": "Buyer guides",
+        "body": "Step-by-step sourcing guides for comparing Chinese heat exchanger manufacturers and narrowing a supplier shortlist."
+      },
+      {
+        "title": "Supplier verification",
+        "body": "Plain-language notes on factory evidence, business scope, certificates, export experience, and documentation quality."
+      },
+      {
+        "title": "Product and quote request explainers",
+        "body": "Articles that explain heat exchanger types, common design parameters, and what buyers should prepare before requesting a quote."
+      },
+      {
+        "title": "China market knowledge",
+        "body": "Market observations about manufacturing clusters, product specialization, export readiness, and supplier differences across China."
       }
     ]
   }

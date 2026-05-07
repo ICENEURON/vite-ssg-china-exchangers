@@ -200,8 +200,8 @@ export default function SmartRfqBuilder() {
       setIsSubmitted(true);
     } catch (error: unknown) {
       const message = error instanceof Error ? error.message : "Unknown error";
-      console.error("Failed to submit RFQ: ", error);
-      alert(`Failed to submit RFQ: ${message}. Please check your data or try again later.`);
+      console.error("Failed to submit quote request: ", error);
+      alert(`Failed to submit quote request: ${message}. Please check your data or try again later.`);
     } finally {
       setIsSubmitting(false);
     }

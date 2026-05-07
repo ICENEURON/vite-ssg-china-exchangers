@@ -4,13 +4,13 @@
     "title": "HeatEx Direct"
   },
   "tagline": "經過分析師驗證的工業熱交換設備採購平台。",
-  "rfq_label": "提交詢價",
+  "rfq_label": "提交询价",
   "links": {
     "items": {
       "home": "首頁",
       "manufacturers": "已驗證製造商目錄",
       "products": "產品類別",
-      "rfq": "提交詢價",
+      "rfq": "提交询价",
       "profile": "認領您的專屬頁面",
       "content-marketing-services": "內容行銷服務",
       "industry-news": "產業新聞",

@@ -3,9 +3,9 @@ import { Head } from 'vite-react-ssg'
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { useCurrentLanguage, addLanguageToPath } from "../../utils/language-routing";
-import { ArrowRight, Filter, ChevronDown, X, Check, Factory } from "lucide-react";
-import { Button } from "../../components/ui/button";
+import { ArrowRight, Filter, ChevronDown, X, Check, Factory, Mail } from "lucide-react";
 import { Badge } from "../../components/ui/badge";
+import { QuoteCta } from "../../components/ui/quote-cta";
 
 interface Industry {
     id: number;
@@ -354,11 +354,12 @@ export default function ProductsPage() {
                         <p className="text-blue-200 text-lg mb-10 max-w-2xl mx-auto relative z-10">
                             {productsT.t("cta.description")}
                         </p>
-                        <Button size="lg" className="relative z-10 text-lg h-14 px-8 bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 shadow-xl hover:scale-105 transition-all text-white font-bold rounded-full" asChild>
+                        <QuoteCta size="lg" className="relative z-10 text-lg h-14 px-8" asChild>
                             <Link to={addLanguageToPath("/rfq", currentLanguage)}>
-                                {productsT.t("cta.button")}
+                                <Mail className="w-5 h-5" />
+                                {t("navigation.menu.rfq")}
                             </Link>
-                        </Button>
+                        </QuoteCta>
                     </div>
                 </section>
             </main>

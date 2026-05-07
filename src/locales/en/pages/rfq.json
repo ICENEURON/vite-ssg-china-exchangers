@@ -203,12 +203,12 @@
     "verification": "Verification",
     "submit": "Submit"
   },
-  "title": "Smart RFQ Builder - Get Custom Heat Exchanger Quotes",
-  "description": "Build a professional RFQ in minutes. Anonymous mode available. Get quotes from verified manufacturers.",
-  "navbarTitle": "Smart RFQ Builder",
+  "title": "Smart Quote Request Builder - Get Custom Heat Exchanger Quotes",
+  "description": "Build a professional quote request in minutes. Anonymous mode available. Get quotes from verified manufacturers.",
+  "navbarTitle": "Smart Quote Request Builder",
   "step1": {
     "title": "1. Project Context",
-    "subtitle": "Share the basic project context so we can route the RFQ accurately.",
+    "subtitle": "Share the basic project context so we can route the quote request accurately.",
     "firstNameLabel": "First Name",
     "firstNamePlaceholder": "John",
     "lastNameLabel": "Last Name",
@@ -278,9 +278,9 @@
     "emailLabel": "Email Address",
     "emailPlaceholder": "you@company.com",
     "freeEmailTitle": "Personal Email Detected.",
-    "freeEmailDesc": "Your RFQ will be distributed to a maximum of 2 factories. Use a business email to reach 5+ verified factories.",
+    "freeEmailDesc": "Your request will be distributed to a maximum of 2 factories. Use a business email to reach 5+ verified factories.",
     "businessEmailTitle": "Business Email Detected.",
-    "businessEmailDesc": "Your RFQ will receive priority distribution to 5+ top-tier verified factories. Identity protected.",
+    "businessEmailDesc": "Your request will receive priority distribution to 5+ top-tier verified factories. Identity protected.",
     "sendBtn": "Send Verification Code",
     "sendingBtn": "Sending...",
     "codeSentTo": "Code sent to",
@@ -293,7 +293,7 @@
   },
   "step4": {
     "title": "4. Confirm & Submit",
-    "subtitle": "Review your RFQ details and choose your privacy settings.",
+    "subtitle": "Review your quote request details and choose your privacy settings.",
     "emailVerifiedTitle": "Email Verified Successfully!",
     "anonymousMode": "Anonymous Mode",
     "publicMode": "Public Mode",
@@ -338,13 +338,13 @@
     "summaryColdSide": "Cold Side",
     "summaryInlet": "Inlet Temp",
     "summaryOutlet": "Outlet Temp",
-    "submitBtn": "Submit RFQ",
+    "submitBtn": "Submit Request for Quote",
     "otherPrefix": "Other"
   },
   "success": {
     "title1": "Verified &",
     "title2": "Submitted!",
-    "desc": "We have successfully processed your RFQ. We will be in touch shortly to assist you with the next steps.",
+    "desc": "We have successfully processed your quote request. We will be in touch shortly to assist you with the next steps.",
     "homeBtn": "Return to Home"
   },
   "actions": {

@@ -1,50 +1,64 @@
 import { useTranslation } from "react-i18next";
 import { Button } from "../../../components/ui/button";
-import { Shield, Factory, Database, Mail } from "lucide-react";
+import { QuoteCta } from "../../../components/ui/quote-cta";
+import { Database, Factory, Mail, ShieldCheck } from "lucide-react";
+import { addLanguageToPath, useCurrentLanguage } from "../../../utils/language-routing";
 
 export function HeroSection() {
     const { t } = useTranslation("translation");
+    const currentLanguage = useCurrentLanguage();
+    const trustItems = t("pages.home.hero.trust_bar", { returnObjects: true }) as string[];
+    const trustIcons = [ShieldCheck, Factory, Database, Mail];
+    const rfqPath = addLanguageToPath("/rfq", currentLanguage);
+    const manufacturersPath = addLanguageToPath("/manufacturers", currentLanguage);
 
     return (
-        <section className="relative py-10 px-2 flex justify-center bg-gray-900 overflow-hidden min-h-144">
-            <div className="absolute inset-0" />
-            <div className="absolute inset-0 bg-[url('/static/websites/home-hero.png')] bg-cover bg-center mix-blend-overlay opacity-60" />
-            <div className="relative container px-4 max-w-6xl flex flex-col items-center justify-center text-center z-10 gap-4">
-                <h1 className="text-white p-2 mt-10">
+        <section className="relative px-2 py-16 flex justify-center bg-gray-900 overflow-hidden min-h-[620px]">
+            <div className="absolute inset-0 bg-[url('/static/websites/home-hero.png')] bg-cover bg-center opacity-45" />
+            <div className="absolute inset-0 bg-gradient-to-b from-gray-900/80 via-gray-900/70 to-gray-900/95" />
+
+            <div className="relative container px-4 max-w-6xl flex flex-col items-center justify-center text-center z-10 gap-6">
+                <p className="inline-flex items-center justify-center rounded-sm border border-white/20 bg-white/10 px-3 py-2 text-sm font-semibold text-gray-100 backdrop-blur">
+                    {t("pages.home.hero.eyebrow")}
+                </p>
+
+                <h1 className="text-white max-w-5xl text-[2.6rem] md:text-[4.5rem] font-bold leading-tight p-2">
                     {t("pages.home.hero.title")}
                 </h1>
-                <h5 className="text-gray-200 p-2">
+
+                <p className="text-xl md:text-2xl text-gray-100 max-w-4xl leading-relaxed p-2">
                     {t("pages.home.hero.subtitle")}
-                </h5>
+                </p>
+
+                <p className="text-base md:text-lg text-gray-300 max-w-3xl leading-relaxed p-2">
+                    {t("pages.home.hero.description")}
+                </p>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 p-4">
-                    <Button size="lg" className="bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white font-bold shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:scale-105" asChild>
-                        <a href="/rfq" className="flex gap-4 items-center justify-center">
+                    <QuoteCta size="lg" asChild>
+                        <a href={rfqPath}>
                             <Mail className="w-5 h-5" />
-                            {t("pages.home.hero.cta_primary")}
+                            {t("navigation.menu.rfq")}
                         </a>
-                    </Button>
+                    </QuoteCta>
                     <Button size="lg" variant="secondary" asChild>
-                        <a href="/manufacturers">
+                        <a href={manufacturersPath}>
                             {t("pages.home.hero.cta_secondary")}
                         </a>
                     </Button>
                 </div>
 
-                {/* Trust Bar */}
-                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-400 text-sm font-medium border-t border-gray-700/50 p-4 mt-6 w-full">
-                    <div className="flex items-center justify-center gap-4">
-                        <Shield className="h-5 w-5 text-primary" />
-                        <span className="text-sm text-gray-300">{t("pages.home.hero.trust_bar.verified")}</span>
-                    </div>
-                    <div className="flex items-center justify-center gap-4">
-                        <Factory className="h-5 w-5 text-primary" />
-                        <span className="text-sm text-gray-300">{t("pages.home.hero.trust_bar.direct")}</span>
-                    </div>
-                    <div className="flex items-center justify-center gap-4">
-                        <Database className="h-5 w-5 text-primary" />
-                        <span className="text-sm text-gray-300">{t("pages.home.hero.trust_bar.database")}</span>
-                    </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-gray-300 text-sm font-medium border-t border-white/15 p-4 mt-4 w-full">
+                    {trustItems.map((item, index) => {
+                        const Icon = trustIcons[index] || ShieldCheck;
+
+                        return (
+                            <div key={item} className="flex items-center justify-center gap-3 rounded-sm border border-white/10 bg-white/5 px-3 py-3">
+                                <Icon className="h-5 w-5 text-orange-300" />
+                                <span>{item}</span>
+                            </div>
+                        );
+                    })}
                 </div>
             </div>
         </section>

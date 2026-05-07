@@ -1,8 +1,8 @@
 {
   "title": "Privacy Policy – HeatEx Direct",
   "meta": {
-    "description": "Privacy policy for HeatEx Direct, explaining how your B2B sourcing data, RFQ details, and browsing information are collected and protected.",
-    "keywords": "HeatEx Direct privacy policy, B2B sourcing privacy, data protection, RFQ privacy"
+    "description": "Privacy policy for HeatEx Direct, explaining how your B2B sourcing data, quote request details, and browsing information are collected and protected.",
+    "keywords": "HeatEx Direct privacy policy, B2B sourcing privacy, data protection, quote request privacy"
   },
   "hero": {
     "title": "Privacy Policy",
@@ -11,23 +11,23 @@
   "sections": {
     "introduction": {
       "title": "1. Introduction",
-      "content": "HeatEx Direct is a B2B platform dedicated to connecting global buyers with verified Chinese heat exchanger manufacturers. This privacy policy outlines how we handle the personal and corporate information you provide when using our directory, submitting RFQs, or claiming a manufacturer profile."
+      "content": "HeatEx Direct is a B2B platform dedicated to connecting global buyers with verified Chinese heat exchanger manufacturers. This privacy policy outlines how we handle the personal and corporate information you provide when using our directory, submitting quote requests, or claiming a manufacturer profile."
     },
     "collection": {
       "title": "2. Information We Collect",
-      "content": "When you use our 'Stealth RFQ' or contact features, we collect the technical specifications, company details, and contact information you provide. We also collect verification documents (such as Business Licenses) from manufacturers claiming their profiles. Additionally, our servers automatically record standard analytics data, including your IP address, browser type, and interaction with our platform."
+      "content": "When you use our confidential quote request or contact features, we collect the technical specifications, company details, and contact information you provide. We also collect verification documents (such as Business Licenses) from manufacturers claiming their profiles. Additionally, our servers automatically record standard analytics data, including your IP address, browser type, and interaction with our platform."
     },
     "usage": {
       "title": "3. How Your Information Is Used",
-      "content": "Your information is primarily used to facilitate the B2B sourcing process. If you use the 'Stealth RFQ' feature, your identity is kept confidential from suppliers until you choose to reveal it. We use analytics data to understand global sourcing trends and improve our platform's user experience. We do not sell your contact information to third-party marketing agencies."
+      "content": "Your information is primarily used to facilitate the B2B sourcing process. If you use the confidential quote request feature, your identity is kept confidential from suppliers until you choose to reveal it. We use analytics data to understand global sourcing trends and improve our platform's user experience. We do not sell your contact information to third-party marketing agencies."
     },
     "sharing": {
       "title": "4. Sharing Information with Manufacturers",
-      "content": "When you explicitly submit an RFQ or contact request to a verified manufacturer, the necessary project details and your contact information (if not in stealth mode) are shared with them to facilitate quoting. We also use standard third-party analytics and hosting services to operate the platform."
+      "content": "When you explicitly submit a quote request or contact request to a verified manufacturer, the necessary project details and your contact information (if not in stealth mode) are shared with them to facilitate quoting. We also use standard third-party analytics and hosting services to operate the platform."
     },
     "security": {
       "title": "5. Data Security",
-      "content": "We implement industry-standard security measures to protect your commercial inquiries and verification documents. However, no internet transmission is 100% secure. We strongly advise against sharing sensitive financial or proprietary trade secrets through initial unencrypted RFQ forms."
+      "content": "We implement industry-standard security measures to protect your commercial inquiries and verification documents. However, no internet transmission is 100% secure. We strongly advise against sharing sensitive financial or proprietary trade secrets through initial unencrypted quote request forms."
     },
     "cookies": {
       "title": "6. Cookies and Tracking",
@@ -35,7 +35,7 @@
     },
     "contact": {
       "title": "7. Contact Us",
-      "content": "If you have any questions regarding this privacy policy, data removal requests, or how your RFQ data is handled, please contact our data team via the email provided on our contact page. We may update this policy periodically to reflect platform changes."
+      "content": "If you have any questions regarding this privacy policy, data removal requests, or how your quote request data is handled, please contact our data team via the email provided on our contact page. We may update this policy periodically to reflect platform changes."
     }
   }
 }

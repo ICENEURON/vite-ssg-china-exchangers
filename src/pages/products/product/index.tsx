@@ -1,11 +1,12 @@
 import { Head } from 'vite-react-ssg'
 import { Link, useParams, Navigate } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
-import { CheckCircle2, Settings, Factory, ArrowLeft, BookOpen, Shield, Download, FileText } from "lucide-react"
+import { CheckCircle2, Settings, Factory, ArrowLeft, BookOpen, Shield, Download, FileText, Mail } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
 import { useTranslation } from 'react-i18next'
 import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-routing'
+import { QuoteCta } from '../../../components/ui/quote-cta'
 
 interface ProductImageAsset {
     alt_text?: string;
@@ -173,11 +174,12 @@ export default function ProductProfilePage() {
                                             <Factory className="mr-2 h-5 w-5" /> {t("pages.products.detail.view_manufacturer")}
                                         </Link>
                                     </Button>
-                                    <Button size="lg" variant="outline" className="h-14 px-8 text-lg font-medium border-white/70 bg-white text-slate-900 hover:bg-slate-100 hover:text-slate-950 w-full sm:w-auto" asChild>
+                                    <QuoteCta size="lg" className="h-14 px-8 text-lg w-full sm:w-auto" asChild>
                                         <Link to={addLanguageToPath("/rfq", currentLanguage)}>
-                                            {t("pages.products.detail.request_quote")}
+                                            <Mail className="w-5 h-5" />
+                                            {t("navigation.menu.rfq")}
                                         </Link>
-                                    </Button>
+                                    </QuoteCta>
                                 </div>
                             </div>
                         </div>

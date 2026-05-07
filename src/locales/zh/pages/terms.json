@@ -1,7 +1,7 @@
 {
   "title": "使用條款 – HeatEx Direct",
   "meta": {
-    "description": "HeatEx Direct 的使用條款。在使用我們的已驗證製造商目錄和詢價 (RFQ) 服務之前，請仔細閱讀此條款。",
+    "description": "HeatEx Direct 的使用條款。在使用我們的已驗證製造商目錄和詢價服務之前，請仔細閱讀此條款。",
     "keywords": "HeatEx Direct 使用條款, B2B採購條款, 供應商驗證協議, 平台規則"
   },
   "hero": {
@@ -15,7 +15,7 @@
     },
     "usePolicy": {
       "title": "2. 平台的允許用途",
-      "content": "HeatEx Direct 是為商業 B2B 採購與教育目的而提供。您可以為了正當的商業諮詢瀏覽我們的目錄、使用我們的詢價 (RFQ) 工具，並聯絡經驗證的製造商。您同意不擷取 (scrape) 數據、不向製造商發送垃圾郵件，也不將該平台用於詐欺活動。"
+      "content": "HeatEx Direct 是為商業 B2B 採購與教育目的而提供。您可以為了正當的商業諮詢瀏覽我們的目錄、使用我們的詢價工具，並聯絡經驗證的製造商。您同意不擷取 (scrape) 數據、不向製造商發送垃圾郵件，也不將該平台用於詐欺活動。"
     },
     "privacy": {
       "title": "3. 驗證與準確性",
