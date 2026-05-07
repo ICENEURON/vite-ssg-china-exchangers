@@ -111,7 +111,7 @@ export default function LoginPage() {
 
               <div className="text-center text-sm text-muted-foreground">
                 {t('pages.login.form.no_account')}{' '}
-                <a href="/signup" className="text-primary hover:underline">
+                <a href={addLanguageToPath("/register", currentLanguage)} className="text-primary hover:underline">
                   {t('pages.login.form.signup_link')}
                 </a>
               </div>

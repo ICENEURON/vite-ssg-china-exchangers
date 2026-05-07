@@ -32,7 +32,8 @@
         "back_to_list": "Back to List",
         "author": "Author",
         "reviewer": "Reviewer",
-        "read_time": "Read"
+        "read_time": "Read",
+        "related_posts": "Related Articles"
     },
     "pagination": {
         "of": "of",

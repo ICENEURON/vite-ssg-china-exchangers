@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vite-ssg-shadcn-starter.com/sitemap.xml
+Sitemap: https://heatexdirect.com/sitemap.xml

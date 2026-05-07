@@ -17,13 +17,15 @@ import privacy from './pages/privacy.json';
 import contact from './pages/contact.json';
 import notFound from './pages/404.json';
 
+type TranslationTree = Record<string, unknown>;
+
 // --- Products --- 
 import productsList from './pages/products/list.json';
 import productsPage from './pages/products-page.json';
 
 // --- Dynamic Imports for Manufacturers ---
-const mfgFiles = import.meta.glob('./pages/manufacturers/*.json', { eager: true, import: 'default' });
-const manufacturersData: Record<string, any> = {
+const mfgFiles = import.meta.glob<TranslationTree>('./pages/manufacturers/*.json', { eager: true, import: 'default' });
+const manufacturersData: Record<string, unknown> = {
   ...manufacturers,
   list: manufacturersList
 };
@@ -37,8 +39,8 @@ for (const path in mfgFiles) {
 }
 
 // --- Dynamic Imports for Products ---
-const productFiles = import.meta.glob('./pages/products/**/*.json', { eager: true, import: 'default' });
-const productsData: Record<string, any> = {
+const productFiles = import.meta.glob<TranslationTree>('./pages/products/**/*.json', { eager: true, import: 'default' });
+const productsData: Record<string, unknown> = {
   ...productsPage,
   list: productsList
 };
@@ -53,7 +55,7 @@ for (const path in productFiles) {
     if (!productsData[dirName]) {
       productsData[dirName] = {};
     }
-    productsData[dirName][fileName] = productFiles[path];
+    (productsData[dirName] as Record<string, unknown>)[fileName] = productFiles[path];
   }
 }
 

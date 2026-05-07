@@ -13,13 +13,33 @@ interface Industry {
     name: string;
 }
 
+interface ProductImage {
+    alt_text?: string;
+    url: string;
+}
+
+interface ProductManufacturer {
+    slug: string;
+    name: string;
+}
+
+interface ProductListItem {
+    slug: string;
+    manufacturer?: ProductManufacturer;
+    name: string;
+    short_description?: string;
+    industries?: string[];
+    images?: ProductImage[];
+    url: string;
+}
+
 export default function ProductsPage() {
     const { t } = useTranslation();
     const productsT = useTranslation("translation", { keyPrefix: "pages.products" });
     const currentLanguage = useCurrentLanguage();
 
     // Safely parse the products from translation JSON list
-    const productsList = productsT.t("list", { returnObjects: true }) as any[];
+    const productsList = productsT.t("list", { returnObjects: true }) as ProductListItem[];
     const industries = t("industries", { returnObjects: true }) as Industry[];
 
     const [selectedIndustrySlugs, setSelectedIndustrySlugs] = useState<string[]>([]);
@@ -112,8 +132,6 @@ export default function ProductsPage() {
                 <section className="relative overflow-hidden bg-slate-900 py-24 px-6 md:px-12">
                     {/* Decorative Elements */}
                     <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-900/40 via-slate-900 to-slate-900" />
-                    <div className="absolute inset-0 bg-[url('/static/websites/pattern-dots.png')] mix-blend-overlay opacity-20" />
-
                     <div className="relative max-w-6xl mx-auto z-10 flex flex-col items-center text-center">
                         <Badge className="mb-6 bg-primary/20 text-blue-300 border-none px-4 py-1.5 backdrop-blur-md">
                             {productsT.t("hero.badge")}
@@ -254,7 +272,7 @@ export default function ProductsPage() {
 
                     {/* Product Grid */}
                     <div className="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 h-fit">
-                        {filteredProducts.map((product: any) => (
+                        {filteredProducts.map((product) => (
                             <Link
                                 key={product.slug}
                                 to={addLanguageToPath(`/products/${product.url}`, currentLanguage)}
@@ -285,14 +303,14 @@ export default function ProductsPage() {
 
                                     <div className="mt-6 flex flex-col gap-3">
                                         <div className="flex flex-wrap gap-2 text-xs">
-                                            {product.industries?.slice(0, 3).map((ind: string, idx: number) => (
+                                            {(product.industries ?? []).slice(0, 3).map((ind, idx) => (
                                                 <Badge key={idx} variant="secondary" className="font-normal bg-slate-100 dark:bg-zinc-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-zinc-700">
                                                     {ind}
                                                 </Badge>
                                             ))}
-                                            {product.industries?.length > 3 && (
+                                            {(product.industries?.length ?? 0) > 3 && (
                                                 <Badge variant="secondary" className="font-normal bg-slate-100 dark:bg-zinc-800 text-slate-500 dark:text-slate-400">
-                                                    {productsT.t("card.more_industries", { count: product.industries.length - 3 })}
+                                                    {productsT.t("card.more_industries", { count: (product.industries?.length ?? 0) - 3 })}
                                                 </Badge>
                                             )}
                                         </div>

@@ -1,183 +1,155 @@
-# 项目总览：vite-ssg-china-exchangers
+# Project Overview / 项目介绍
 
-## 项目目标
+Last updated: 2026-05-08.
 
-这是一个**中国换热器制造商 B2B 目录网站**，定位为面向海外买家（英文/日文/中文三语）的展示平台。核心功能：
+## English
 
-- **制造商目录**：展示中国换热器厂家的公司信息、产品、认证、客户案例等
-- **产品目录**：按厂家分类展示产品详情、技术参数、图片
-- **行业资讯（Blog）**：多语言文章，通过 Velite 处理 Markdown 内容
-- **询盘（RFQ）**：买家向厂家发送采购询盘，写入 Supabase `rfqs` 表
-- **用户体系**：注册/登录，RFQ 发送者需是已注册用户
+HeatEx Direct is a focused B2B sourcing site for industrial heat exchangers. It is designed to reduce trust friction between global buyers and Chinese manufacturers by presenting structured supplier data, product details, media, certificates, and a verified-email RFQ path.
 
-**技术栈核心特点**：采用 **SSG（静态站点生成）+ Supabase 后端** 模式：
-- `vite-react-ssg` 在构建时预渲染所有页面（包括每个厂家/产品页面）
-- `velite` 将 Markdown blog 文章编译进 `.velite/posts.json`
-- 构建产物部署到支持 Apache `.htaccess` 的静态主机
+### Meaning and Goal
 
----
+The project is not a broad marketplace. It is a vertical directory and sourcing bridge for heat exchangers and related thermal transfer equipment.
 
-## 整体数据流
+The site should help buyers answer:
 
-```
-[Supabase DB + Storage]
-         │
-         │ npm run sync
-         ▼
-[src/data/*.json]          ← 原始数据（多语言字段混合）
-[public/storage/**]        ← 图片、证书、文档等静态资源
-         │
-         │ generate locales scripts
-         ▼
-[src/locales/{en,zh}/pages/manufacturers/*.json]
-[src/locales/{en,zh}/pages/products/*.json]
-[src/locales/{en,zh}/common/{industries,countries}.json]
-         │
-         │ npm run build (vite-react-ssg)
-         ▼
-[dist/]  ← 完整预渲染静态站，部署到 Apache 服务器
-```
+- Is this company a real manufacturer?
+- What products and technical capabilities does it show?
+- Does it serve my industry and operating conditions?
+- Can I submit a useful RFQ without exposing myself too early?
 
----
+For suppliers, the site should provide a focused international profile channel and a way to build credibility through structured data and technical content.
 
-## 脚本系统（src/scripts/）
+### Current Product Scope
 
-### `npm run sync` → `sync-all.js`
-按顺序串行执行以下 5 个脚本：
+- Home page and positioning copy.
+- Manufacturer list and profile pages.
+- Product list and product detail pages.
+- RFQ builder with project context, technical parameters, email OTP verification, and Supabase insert.
+- Supplier claim and content marketing pages.
+- Contact, About, Terms, Privacy, and optional auth pages.
+- Optional Velite-powered industry news pages.
 
-| 顺序 | 脚本 | 作用 |
-|---|---|---|
-| 1 | `fetch-data.js` | 从 Supabase DB 拉取 6 张表数据，保存到 `src/data/*.json` |
-| 2 | `fetch-storage.js` | 从 Supabase Storage `assets` bucket 下载所有文件到 `public/storage/` |
-| 3 | `generate-common-locales.js` | 生成 `{lang}/common/industries.json` 和 `countries.json` |
-| 4 | `generate-manufacturer-locales.js` | 生成每个厂家的 `{lang}/pages/manufacturers/{slug}.json` 和 `list.json` |
-| 5 | `generate-product-locales.js` | 生成每个产品的 `{lang}/pages/products/{mfg-slug}/{prod-slug}.json` 和 `list.json` |
+### Current Limits
 
-### 各脚本详解
+- RFQs are stored in Supabase but are not automatically matched or emailed to suppliers.
+- Public manufacturer/product pages are generated at build time from local JSON, not queried live from the browser.
+- Runtime languages are English and Chinese only.
+- No Supabase migrations folder is checked in; schema control must happen in Supabase or external migration tooling.
 
-#### `fetch-data.js`
-- 读取项目根目录 `.env.local`（优先用 Service Role Key 绕过 RLS）
-- 拉取：`countries`, `industries`, `manufacturers`, `manufacturer_assets`（仅 assets bucket）, `products`, `product_assets`（仅 assets bucket）
-- 写入：`src/data/{tableName}.json`
-- **注意**：故意不拉取 `rfqs` 表（安全考量）
+### Core Users
 
-#### `fetch-storage.js`
-- 递归列出并下载 `assets` bucket 的所有文件
-- 保存到 `public/storage/assets/{slug}/{folder}/{file}`
-- 运行前自动清理旧的 `manufacturer_assets/` 和 `product_assets/` 遗留目录
+| User | Need | Site responsibility |
+| --- | --- | --- |
+| Procurement manager | Build a reliable supplier shortlist. | Clear profiles, trust signals, RFQ path. |
+| Plant or EPC engineer | Check technical fit. | Product details, parameters, applications, documents. |
+| Distributor or integrator | Find long-term factory partners. | Comparable manufacturer capability pages. |
+| Manufacturer export team | Gain qualified international visibility. | Accurate profile, claim path, content opportunity. |
+| Platform operator | Keep data reliable. | Supabase-driven workflow and documented sync/import process. |
 
-#### `generate-common-locales.js`
-- 支持语言：`en`, `zh`（硬编码）
-- 输出：`src/locales/{lang}/common/industries.json` 和 `countries.json`
+### What Matters Most
 
-#### `generate-manufacturer-locales.js`
-- 自动检测语言（从 manufacturers.json 的 `name` 字段结构推断）
-- 每个厂家输出：`{lang}/pages/manufacturers/{slug}.json`（含产品列表、图片、认证等）
-- 全量列表输出：`{lang}/pages/manufacturers/list.json`（SSG 路由生成用）
+| Priority | Why it matters |
+| --- | --- |
+| Data accuracy | Bad supplier or product data breaks trust. |
+| Crawlable static pages | SEO discovery depends on manufacturer and product pages. |
+| Technical specificity | Engineers need real parameters and applications, not slogans. |
+| Honest RFQ language | The site must not promise automatic routing before it exists. |
+| Operational repeatability | Sync, import, lint, and build should be easy to repeat safely. |
 
-#### `generate-product-locales.js`
-- 每个产品按厂家归档：`{lang}/pages/products/{mfg-slug}/{prod-slug}.json`
-- 全量列表输出：`{lang}/pages/products/list.json`（SSG 路由生成用）
+### Growth Direction
 
----
+Short term:
 
-## supabase_importer/
+- Keep docs, lint, and build healthy.
+- Improve catalogue completeness before adding many more suppliers.
+- Replace starter/demo blog posts with heat exchanger content.
+- Make RFQ follow-up operationally clear.
 
-这是**反向工具**——用于将本地数据**上传**到 Supabase，与 `src/scripts/` 方向相反。
+Medium term:
 
-### 职责
-将新厂家/产品数据批量导入 Supabase（含图片上传到 Storage）
+- Add owner notification after RFQ submission.
+- Define manual or automatic supplier matching rules.
+- Add attachments only after Storage and RLS rules are designed.
+- Build supplier claim and technical content workflows into real operations.
 
-### 工作方式
-1. 读取 `supabase_importer/data/data_payload.json`（自定义导入 payload）
-2. 对每个公司：
-   - `findOrCreateManufacturer()`：按 `slug` 查找并更新，不存在则插入
-   - 上传公司级资产（认证、图片等）到 `assets` bucket 的 `{slug}/{folder}/{file}` 路径
-   - 并在 `manufacturer_assets` 表写入记录
-3. 对每个产品：
-   - `findOrCreateProduct()`：按 `slug` + `manufacturer_id` 查找并更新
-   - 上传产品级资产到同一 `assets` bucket
-   - 并在 `product_assets` 表写入记录
+Long term:
 
-### 本地资源结构
-```
-supabase_importer/
-  local_assets/
-    {company-dir}/
-      company_images/
-      company_certifications/
-      company_customers/
-      company_doc/
-      product_images/
-      product_certifications/
-      product_doc/
-  data/
-    data_payload.json   ← 定义要导入的厂家和产品数据
-  import.js             ← 主执行脚本（需在 supabase_importer/ 目录下运行）
-  .env                  ← SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY
-```
+- Create capability-based supplier matching.
+- Track supplier responses and buyer RFQ status.
+- Grow SEO through technical guides, product comparison pages, sourcing guides, and manufacturer case studies.
 
-### `data_payload.json` 结构
-```json
-[
-  {
-    "manufacturer": { /* 厂家所有字段，name/description 用 {en/zh} 对象 */ },
-    "local_assets_dir": "company-folder-name",
-    "company_assets": [
-      { "folder": "company_images", "file_name": "xxx.jpg", "asset_type": "images", "alt_text": {...} }
-    ],
-    "products": [
-      {
-        "product": { /* 产品字段 */ },
-        "product_assets": [ /* 产品资产 */ ]
-      }
-    ]
-  }
-]
-```
+## 中文
 
----
+HeatEx Direct 是一个聚焦工业换热器的 B2B 采购网站。它通过结构化供应商数据、产品详情、图片/证书资料，以及带邮箱验证的 RFQ 流程，降低海外买家与中国制造商之间的信任成本。
 
-## Supabase 数据库表结构（已知）
+### 项目意义与目标
 
-| 表名 | 说明 |
-|---|---|
-| `manufacturers` | 厂家主表，`name`/`description` 等字段为多语言 JSON 对象 |
-| `products` | 产品表，关联 `manufacturer_id` |
-| `manufacturer_assets` | 厂家资产记录，含 `storage_bucket` + `storage_path` |
-| `product_assets` | 产品资产记录，同上 |
-| `industries` | 行业分类，`name` 为多语言对象 |
-| `countries` | 国家列表 |
-| `rfqs` | 询盘表（有 RLS，仅认证用户可插入；脚本不拉取） |
-| `users` | 用户表（RFQ 验证时检查邮箱是否存在） |
+这个项目不是综合大卖场，而是换热器和相关热交换设备的垂直目录与采购桥梁。
 
----
+网站应帮助买家回答：
 
-## SSG 路由生成机制（vite.config.ts）
+- 这家公司是否是真实制造商？
+- 它展示了哪些产品和技术能力？
+- 它是否服务我的行业和工况？
+- 我能否在早期不完全暴露身份的情况下提交有效 RFQ？
 
-`ssgOptions.includedRoutes` 在构建时：
-1. 取所有静态路由（不含 `:param`）
-2. 读 `src/locales/en/pages/manufacturers/list.json` → 生成 `/manufacturers/{slug}` 路由
-3. 读 `src/locales/en/pages/products/list.json` → 生成 `/products/{mfg-slug}/{prod-slug}` 路由
-4. 读 `.velite/posts.json` → 生成 `/industry-news/{slug}` 路由（可通过 `VITE_ENABLE_BLOG=false` 关闭）
+对供应商来说，网站应提供一个聚焦国际买家的展示渠道，并通过结构化资料和技术内容建立可信度。
 
-> [!IMPORTANT]
-> SSG 路由只基于 **英文** locale 的 list.json 生成——中文/日文共用同一套 HTML，由客户端 i18n 切换语言。
+### 当前产品范围
 
----
+- 首页和项目定位文案。
+- 制造商列表和厂家资料页。
+- 产品列表和产品详情页。
+- RFQ 构建器：项目背景、技术参数、邮箱 OTP 验证、写入 Supabase。
+- 供应商资料认领页和内容营销页。
+- 联系、关于、条款、隐私，以及可选的 auth 页面。
+- 可选的 Velite 行业资讯页面。
 
-## 博客系统（Velite）
+### 当前边界
 
-- 源文件：`content/posts/{lang}/*.md`
-- 构建输出：`.velite/posts.json`（包含 HTML content、slug、lang、permalink 等）
-- 支持多语言文章（通过文件路径中的 lang 字段区分）
-- 代码高亮：`rehype-pretty-code` + Shiki（双主题：light=min-light，dark=dracula）
+- RFQ 会存入 Supabase，但不会自动匹配或自动发送给供应商。
+- 公开厂家/产品页面在构建时由本地 JSON 生成，不由浏览器实时查询 Supabase。
+- 运行语言只有英文和中文。
+- 仓库中没有 Supabase migrations 目录；数据库结构需在 Supabase 或外部迁移工具中维护。
 
----
+### 核心用户
 
-## 环境变量
+| 用户 | 需求 | 网站责任 |
+| --- | --- | --- |
+| 采购经理 | 快速建立可靠供应商名单。 | 清晰资料、可信信号、RFQ 路径。 |
+| 工厂或 EPC 工程师 | 判断技术匹配度。 | 产品详情、参数、应用、文档。 |
+| 经销商或集成商 | 寻找长期工厂伙伴。 | 可比较的厂家能力页面。 |
+| 制造商出口团队 | 获得高质量国际曝光。 | 准确资料、认领入口、内容机会。 |
+| 平台运营者 | 保持数据可靠。 | Supabase 数据工作流和可重复的同步/导入流程。 |
 
-| 文件 | 用途 |
-|---|---|
-| `.env.local`（项目根） | `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`, `VITE_SUPABASE_SERVICE_ROLE_KEY`, `VITE_DEFAULT_LANGUAGE`, `VITE_SUPPORTED_LANGUAGES`, `VITE_ENABLE_LANGUAGE_TOGGLE`, `VITE_ENABLE_THEME_TOGGLE`, `VITE_ENABLE_BLOG` |
-| `supabase_importer/.env` | `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`（独立，用于 import 脚本） |
+### 最重要的事
+
+| 优先级 | 原因 |
+| --- | --- |
+| 数据准确 | 错误厂家或产品资料会直接破坏信任。 |
+| 可索引静态页面 | SEO 发现依赖厂家页和产品页。 |
+| 技术具体性 | 工程师需要真实参数和应用，而不是口号。 |
+| RFQ 语言诚实 | 自动分发尚未实现前，不能承诺自动路由。 |
+| 运营可重复 | sync、import、lint、build 应能安全重复执行。 |
+
+### 增长方向
+
+短期：
+
+- 保持文档、lint、build 健康。
+- 先提高目录质量，再扩大供应商数量。
+- 用换热器内容替换 starter/demo 博客文章。
+- 明确 RFQ 后续由谁处理、如何处理。
+
+中期：
+
+- RFQ 提交后增加站点负责人通知。
+- 定义人工或自动供应商匹配规则。
+- 设计 Storage 和 RLS 后再增加附件功能。
+- 将资料认领和技术内容投稿变成真实运营流程。
+
+长期：
+
+- 建立基于能力的供应商匹配。
+- 追踪供应商回复和买家 RFQ 状态。
+- 通过技术指南、产品对比页、采购指南和厂家案例持续增长 SEO。

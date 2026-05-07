@@ -1,0 +1,38 @@
+{
+  "title": "创建账号",
+  "meta": {
+    "description": "创建 HeatEx Direct 账号，用于访问受保护的采购和供应商功能。",
+    "keywords": "注册, HeatEx Direct, 采购账号, 供应商账号, 换热器"
+  },
+  "og": {
+    "title": "注册 - HeatEx Direct",
+    "description": "创建 HeatEx Direct 账号，管理采购和供应商相关功能。"
+  },
+  "hero": {
+    "title": "创建 HeatEx Direct 账号",
+    "subtitle": "用于访问未来的 RFQ、资料管理和供应商协作功能。"
+  },
+  "form": {
+    "email": "邮箱",
+    "password": "密码",
+    "confirm_password": "确认密码",
+    "create_account": "创建账号",
+    "creating": "正在创建账号...",
+    "have_account": "已有账号？",
+    "signin_link": "在此登录"
+  },
+  "benefits": {
+    "title": "账号可用于",
+    "items": [
+      "访问受保护的采购功能",
+      "查看未来的 RFQ 状态",
+      "管理供应商资料认领",
+      "参与技术内容和资料更新",
+      "保留后续平台协作能力"
+    ]
+  },
+  "messages": {
+    "success_message": "账号创建成功！请检查邮箱完成确认。",
+    "welcome": "欢迎使用 HeatEx Direct。"
+  }
+}

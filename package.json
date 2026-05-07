@@ -1,7 +1,7 @@
 {
-  "name": "vite-ssg-shadcn-starter",
+  "name": "heatex-direct",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "concurrently \"velite dev\" \"vite-react-ssg dev\"",

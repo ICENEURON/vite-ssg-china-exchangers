@@ -198,9 +198,10 @@ export default function SmartRfqBuilder() {
     try {
       await submitRFQ(submissionPayload);
       setIsSubmitted(true);
-    } catch (error: any) {
+    } catch (error: unknown) {
+      const message = error instanceof Error ? error.message : "Unknown error";
       console.error("Failed to submit RFQ: ", error);
-      alert(`Failed to submit RFQ: ${error.message || "Unknown error"}. Please check your data or try again later.`);
+      alert(`Failed to submit RFQ: ${message}. Please check your data or try again later.`);
     } finally {
       setIsSubmitting(false);
     }

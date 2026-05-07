@@ -5,8 +5,19 @@ import { useTranslation } from "react-i18next"
 interface TechSpecsFormProps {
     units: UnitSystem
     onUnitChange: (u: UnitSystem) => void
-    specs: any
+    specs: LegacyTechSpecs
     onChange: (field: string, value: string) => void
+}
+
+interface LegacyTechSpecs {
+    hotFluid: string
+    hotIn: string
+    hotOut: string
+    hotFlow: string
+    coldFluid: string
+    coldIn: string
+    coldOut: string
+    coldFlow: string
 }
 
 export function TechSpecsForm({ units, onUnitChange, specs, onChange }: TechSpecsFormProps) {

@@ -1,5 +1,7 @@
 import { supabase } from './client'
 
+export type RFQParameters = Record<string, string>;
+
 export interface RFQSubmissionData {
   first_name: string;
   last_name: string;
@@ -8,7 +10,7 @@ export interface RFQSubmissionData {
   email: string;
   is_business_email: boolean;
   industry: string;
-  parameters: any;
+  parameters: RFQParameters;
   additional_notes: string | null;
   is_stealth: boolean;
 }

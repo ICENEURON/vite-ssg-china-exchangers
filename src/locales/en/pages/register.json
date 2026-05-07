@@ -1,16 +1,16 @@
 {
   "title": "Create Your Account",
   "meta": {
-    "description": "Join our community and get access to exclusive resources for React, Vite, TailwindCSS, and Shadcn UI development.",
-    "keywords": "signup, register, account, react, vite, tailwindcss, shadcn, community"
+    "description": "Create a HeatEx Direct account for protected buyer and supplier features.",
+    "keywords": "register, HeatEx Direct, buyer account, supplier account, heat exchangers"
   },
   "og": {
-    "title": "Sign Up - React + Vite + TailwindCSS + Shadcn",
-    "description": "Create your account and start building amazing web applications with modern tools."
+    "title": "Register - HeatEx Direct",
+    "description": "Create a HeatEx Direct account for sourcing and supplier collaboration features."
   },
   "hero": {
-    "title": "Join Our Community",
-    "subtitle": "Create an account to access exclusive resources and interactive examples of our technology stack."
+    "title": "Create a HeatEx Direct Account",
+    "subtitle": "Access future RFQ, profile management, and supplier collaboration features."
   },
   "form": {
     "email": "Email",
@@ -22,17 +22,17 @@
     "signin_link": "Sign in here"
   },
   "benefits": {
-    "title": "Why join us?",
+    "title": "Account access can support",
     "items": [
-      "Access to premium components",
-      "Exclusive tutorials and guides",
-      "Community support and discussions",
-      "Early access to new features",
-      "Downloadable project templates"
+      "Protected buyer workflows",
+      "Future RFQ status visibility",
+      "Supplier profile claim management",
+      "Technical content and profile updates",
+      "Future platform collaboration tools"
     ]
   },
   "messages": {
     "success_message": "Account created successfully! Please check your email to confirm your registration.",
-    "welcome": "Welcome to the community!"
+    "welcome": "Welcome to HeatEx Direct."
   }
 }

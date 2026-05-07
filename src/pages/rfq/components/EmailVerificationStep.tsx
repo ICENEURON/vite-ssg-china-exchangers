@@ -17,6 +17,10 @@ const FREE_EMAIL_DOMAINS = [
     "qq.com", "163.com", "126.com", "foxmail.com", "icloud.com"
 ];
 
+function getErrorMessage(error: unknown, fallback: string) {
+    return error instanceof Error ? error.message : fallback;
+}
+
 export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, onNext }: EmailVerificationStepProps) {
     const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
 
@@ -25,6 +29,19 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
     const [otp, setOtp] = useState("");
     const [isLoading, setIsLoading] = useState(false);
     const [errorMsg, setErrorMsg] = useState<string | null>(null);
+
+    useEffect(() => {
+        if (!email.includes("@")) {
+            setDomainStatus("unknown");
+            return;
+        }
+        const domain = email.split("@")[1].toLowerCase();
+        if (FREE_EMAIL_DOMAINS.includes(domain)) {
+            setDomainStatus("free");
+        } else {
+            setDomainStatus("business");
+        }
+    }, [email]);
 
     if (isVerified) {
         return (
@@ -45,19 +62,6 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
         )
     }
 
-    useEffect(() => {
-        if (!email.includes("@")) {
-            setDomainStatus("unknown");
-            return;
-        }
-        const domain = email.split("@")[1].toLowerCase();
-        if (FREE_EMAIL_DOMAINS.includes(domain)) {
-            setDomainStatus("free");
-        } else {
-            setDomainStatus("business");
-        }
-    }, [email]);
-
     const handleSendCode = async () => {
         if (!email || !email.includes("@")) return;
         setIsLoading(true);
@@ -65,25 +69,26 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
         try {
             await sendVerificationOTP(email);
             setStep("otp");
-        } catch (err: any) {
-            setErrorMsg(err.message || "Failed to send verification code. Please try again.");
+        } catch (err: unknown) {
+            setErrorMsg(getErrorMessage(err, "Failed to send verification code. Please try again."));
         } finally {
             setIsLoading(false);
         }
     };
 
     const handleVerifyOtp = async () => {
-        if (otp.length < 8) return;
+        const token = otp.trim();
+        if (!token) return;
         setIsLoading(true);
         setErrorMsg(null);
         try {
-            await verifyOTPCode(email, otp);
+            await verifyOTPCode(email, token);
             setStep("success");
             setTimeout(() => {
                 onVerify();
             }, 1000);
-        } catch (err: any) {
-            setErrorMsg(err.message || "Invalid or expired verification code.");
+        } catch (err: unknown) {
+            setErrorMsg(getErrorMessage(err, "Invalid or expired verification code."));
         } finally {
             setIsLoading(false);
         }
@@ -161,11 +166,12 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                         <input
                             autoFocus
                             type="text"
-                            maxLength={8}
-                            className="flex h-16 w-full rounded-xl border-2 border-slate-200 dark:border-slate-700 bg-background px-4 py-2 text-3xl tracking-[0.5em] text-center font-mono ring-offset-background transition-all focus:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10 uppercase"
-                            placeholder="--------"
+                            inputMode="text"
+                            autoComplete="one-time-code"
+                            className="flex h-16 w-full rounded-xl border-2 border-slate-200 dark:border-slate-700 bg-background px-4 py-2 text-3xl text-center font-mono ring-offset-background transition-all focus:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                            placeholder={t("step3.accessCodePlaceholder", { defaultValue: "Code" })}
                             value={otp}
-                            onChange={(e) => setOtp(e.target.value.toUpperCase())}
+                            onChange={(e) => setOtp(e.target.value)}
                         />
                     </div>
 
@@ -184,7 +190,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                         <Button
                             size="lg"
                             className="flex-1 h-14 text-base font-bold bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white rounded-xl shadow-lg shadow-primary/20"
-                            disabled={otp.length !== 8 || isLoading}
+                            disabled={!otp.trim() || isLoading}
                             onClick={handleVerifyOtp}
                         >
                             {isLoading ? t("step3.verifyingBtn") : t("step3.verifyBtn")} <ArrowRight className="w-5 h-5 ml-2" />

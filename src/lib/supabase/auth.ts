@@ -1,7 +1,7 @@
 import { supabase } from './client'
 
 /**
- * Sends a 6-digit OTP verification code to the provided email.
+ * Sends an OTP verification code to the provided email.
  * Supabase handles the generation and email delivery via its Auth module.
  */
 export async function sendVerificationOTP(email: string) {
@@ -20,7 +20,7 @@ export async function sendVerificationOTP(email: string) {
 }
 
 /**
- * Verifies the 6-digit OTP code sent to the email.
+ * Verifies the OTP code sent to the email.
  * If successful, this provisions the user session.
  */
 export async function verifyOTPCode(email: string, token: string) {

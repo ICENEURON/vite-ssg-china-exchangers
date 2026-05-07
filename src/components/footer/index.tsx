@@ -1,5 +1,5 @@
 import { cn } from "../../utils/cn";
-import Logo from "../../assets/logos/logo_light.png";
+import Logo from "../../assets/logos/logo_new.png";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 import {
@@ -89,11 +89,11 @@ const Footer = () => {
                   src={logo.src}
                   alt="logo"
                   title={logo.title}
-                  className="h-8 w-16"
+                  className="h-10 w-auto"
                 />
-                <span className="text-xl font-bold text-navbar-foreground">
+                {/* <span className="text-xl font-bold text-navbar-foreground">
                   {logo.title}
-                </span>
+                </span> */}
               </a>
             </div>
             <p className="mt-4 text-navbar-foreground/60 font-medium max-w-sm">

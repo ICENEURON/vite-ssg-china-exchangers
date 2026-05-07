@@ -19,7 +19,7 @@ import {
     NavigationMenuList,
 } from "../ui/navigation-menu";
 import { NavPopup, ListItem } from "./nav-popup";
-import logoLight from "../../assets/logos/Logo_light.png";
+import logoLight from "../../assets/logos/logo_new.png";
 
 export function Navigation() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -62,7 +62,7 @@ export function Navigation() {
     const guestItems = ROUTES.filter((r) => r.nav === "guest");
     const authItems = ROUTES.filter((r) => r.nav === "auth");
 
-    const mobilePublicItems = ROUTES.filter((r) => r.mobile === "public" && r.path !== "/rfq" || r.path === "/products");
+    const mobilePublicItems = ROUTES.filter((r) => (r.mobile === "public" && r.path !== "/rfq") || r.path === "/products");
     const mobileGuestItems = ROUTES.filter((r) => r.mobile === "guest");
     const mobileAuthItems = ROUTES.filter((r) => r.mobile === "auth");
 
@@ -194,7 +194,7 @@ export function Navigation() {
             <header className="fixed top-0 left-0 right-0 z-50 bg-navbar border-b border-border/20">
                 <div className="container mx-auto flex h-20 items-center px-4 md:px-6 max-w-8xl">
                     <Link to={getLocalizedPath("/")} className="mr-6 flex items-center">
-                        <img src={logoLight} alt={t('navigation.logo')} className="h-8 w-auto" />
+                        <img src={logoLight} alt={t('navigation.logo')} className="h-10 w-auto" />
                     </Link>
 
                     {/* Left Navigation (Desktop) */}

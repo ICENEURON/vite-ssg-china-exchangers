@@ -9,7 +9,7 @@ import "./i18n";
 import type { RouteObject } from "react-router-dom";
 
 // 检查是否启用认证功能
-const enableAuth = import.meta.env.VITE_ENABLE_AUTH;
+const enableAuth = import.meta.env.VITE_ENABLE_AUTH === "true";
 
 // 根据功能开关过滤路由
 const activeRoutes = enableAuth

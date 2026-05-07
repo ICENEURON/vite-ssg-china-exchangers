@@ -5,6 +5,18 @@ import { createRequire } from 'module';
 
 const require = createRequire(import.meta.url);
 
+type ManufacturerRouteEntry = {
+  slug: string;
+};
+
+type ProductRouteEntry = {
+  url: string;
+};
+
+type BlogRouteEntry = {
+  slug: string;
+};
+
 // Custom plugin to replace environment variables in HTML
 function htmlEnvReplace(env: Record<string, string>) {
   return {
@@ -50,24 +62,24 @@ export default defineConfig(({ mode }) => {
       }
     },
     ssgOptions: {
-      includedRoutes(paths: string[], _routes: any) {
+      includedRoutes(paths: string[]) {
         const staticRoutes = paths.filter(path => !path.includes(':'))
-        const enableBlog = env.VITE_ENABLE_BLOG !== 'false';
+        const enableBlog = env.VITE_ENABLE_BLOG === 'true';
         
         // Base static routes with dynamic blog & manufacturers appended
         let allSSGRoutes = [...staticRoutes];
 
         try {
-          const mfgList = require('./src/locales/en/pages/manufacturers/list.json');
-          const mfgRoutes = mfgList.map((mfg: any) => `/manufacturers/${mfg.slug}`);
+          const mfgList = require('./src/locales/en/pages/manufacturers/list.json') as ManufacturerRouteEntry[];
+          const mfgRoutes = mfgList.map((mfg) => `/manufacturers/${mfg.slug}`);
           allSSGRoutes = [...allSSGRoutes, ...mfgRoutes];
         } catch (e) {
              console.warn('Failed to load manufacturers for SSG', e);
         }
 
         try {
-          const productList = require('./src/locales/en/pages/products/list.json');
-          const productRoutes = productList.map((product: any) => `/products/${product.url}`);
+          const productList = require('./src/locales/en/pages/products/list.json') as ProductRouteEntry[];
+          const productRoutes = productList.map((product) => `/products/${product.url}`);
           allSSGRoutes = [...allSSGRoutes, ...productRoutes];
         } catch (e) {
              console.warn('Failed to load products for SSG', e);
@@ -75,8 +87,8 @@ export default defineConfig(({ mode }) => {
 
         if (enableBlog) {
           try {
-            const posts = require('./.velite/posts.json');
-            const blogRoutes = posts.map((post: any) => `/industry-news/${post.slug}`);
+            const posts = require('./.velite/posts.json') as BlogRouteEntry[];
+            const blogRoutes = posts.map((post) => `/industry-news/${post.slug}`);
             allSSGRoutes = [...allSSGRoutes, ...blogRoutes];
           } catch (e) {
             console.warn('Failed to load velite posts for SSG', e);

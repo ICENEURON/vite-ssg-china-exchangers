@@ -2,11 +2,18 @@ import { ShieldCheck, Eye, EyeOff, User, Factory } from "lucide-react"
 import { useTranslation } from "react-i18next"
 
 interface LivePreviewProps {
-    specs: any
+    specs: PreviewSpecs
     productType: string
     isAnonymous: boolean
     onAnonymousChange: (v: boolean) => void
     application?: string
+}
+
+interface PreviewSpecs {
+    hotFluid?: string
+    hotFlow?: string
+    hotIn?: string
+    coldFluid?: string
 }
 
 export function LivePreview({ specs, productType, isAnonymous, onAnonymousChange, application }: LivePreviewProps) {

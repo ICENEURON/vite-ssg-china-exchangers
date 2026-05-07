@@ -32,7 +32,8 @@
         "back_to_list": "返回列表",
         "author": "作者",
         "reviewer": "審閱者",
-        "read_time": "閱讀時間"
+        "read_time": "閱讀時間",
+        "related_posts": "相關文章"
     },
     "pagination": {
         "of": "/",
