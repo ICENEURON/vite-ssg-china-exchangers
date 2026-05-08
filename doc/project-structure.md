@@ -9,7 +9,7 @@ This document maps the current repository and includes the Supabase data-layer n
 ### Top-Level Structure
 
 ```text
-content/              Velite Markdown post sources
+content/              Velite Markdown industry article sources
 doc/                  Project docs and Obsidian business docs
 public/               Static files copied into deployment output
 src/                  React application source
@@ -85,7 +85,7 @@ src/utils/                   Routing, theme, language, class helpers
 | `/claim-your-profile` | Legacy redirect to `/update-your-profile`. |
 | `/content-marketing-services` | Supplier content marketing page. |
 | `/about`, `/contact`, `/terms`, `/privacy` | Static public pages. |
-| `/industry-news`, `/industry-news/:slug` | Blog routes when `VITE_ENABLE_BLOG=true`. |
+| `/industry-news`, `/industry-news/:contentType/:slug` | Industry article routes when `VITE_ENABLE_BLOG=true`; company folders are not exposed in public URLs. |
 | `/login`, `/register`, `/dashboard` | Auth routes when `VITE_ENABLE_AUTH=true`. |
 
 ### Locale Structure
@@ -168,7 +168,7 @@ Current RFQ insert fields are `first_name`, `last_name`, `company_name`, `countr
 ### 顶层结构
 
 ```text
-content/              Velite Markdown 文章源文件
+content/              Velite Markdown 行业文章源文件
 doc/                  项目文档和 Obsidian 业务文档
 public/               部署时原样复制的静态文件
 src/                  React 应用源码
@@ -244,7 +244,7 @@ src/utils/                   路由、主题、语言、class 工具
 | `/claim-your-profile` | 旧路径，重定向到 `/update-your-profile`。 |
 | `/content-marketing-services` | 供应商内容营销页。 |
 | `/about`, `/contact`, `/terms`, `/privacy` | 静态公开页面。 |
-| `/industry-news`, `/industry-news/:slug` | `VITE_ENABLE_BLOG=true` 时启用的博客路由。 |
+| `/industry-news`, `/industry-news/:contentType/:slug` | `VITE_ENABLE_BLOG=true` 时启用的行业文章路由；公司文件夹不显示在公开 URL 中。 |
 | `/login`, `/register`, `/dashboard` | `VITE_ENABLE_AUTH=true` 时启用的 auth 路由。 |
 
 ### Locale 结构

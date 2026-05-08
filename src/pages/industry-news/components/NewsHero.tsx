@@ -10,6 +10,10 @@ interface NewsHeroProps {
 
 export function NewsHero({ post }: NewsHeroProps) {
     const { t } = useTranslation("translation");
+    const contentType = post.contentType || "posts";
+    const contentTypeLabel = t(`pages.news.content_types.${contentType}`, {
+        defaultValue: contentType,
+    });
 
     return (
         <div className="relative w-full overflow-hidden rounded-xl text-white shadow-xl group">
@@ -27,7 +31,7 @@ export function NewsHero({ post }: NewsHeroProps) {
                 <div className="space-y-2 max-w-3xl">
                     <div className="flex items-center gap-3">
                         <Badge variant="secondary" className="bg-blue-200/80 text-accent border-blue-400/50 hover:bg-blue-200">
-                            {t("pages.news.hero.badge")}
+                            {contentTypeLabel}
                         </Badge>
                         <span className="text-sm text-muted-foreground font-medium">
                             {new Date(post.date).toISOString().split('T')[0]}

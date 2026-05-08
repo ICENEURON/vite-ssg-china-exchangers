@@ -85,6 +85,7 @@ const allRoutes: RouteDef[] = [
     // Blog routes
     ...(enableBlog ? [
         { path: "/industry-news", element: BlogIndex, auth: "public", nav: "public", mobile: "public", label: "Industry News", translationKey: "navigation.menu.industry-news" },
+        { path: "/industry-news/:contentType/:slug", element: BlogPost, auth: "public", nav: "none", mobile: "none" },
         { path: "/industry-news/:slug", element: BlogPost, auth: "public", nav: "none", mobile: "none" },
     ] as RouteDef[] : []),
 

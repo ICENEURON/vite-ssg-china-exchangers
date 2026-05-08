@@ -11,7 +11,7 @@ export function NewsList({ posts }: NewsListProps) {
         <div className="flex flex-col gap-2">
             {posts.map((post) => (
                 <NewsCard
-                    key={post.slug}
+                    key={post.permalink}
                     post={post}
                 />
             ))}

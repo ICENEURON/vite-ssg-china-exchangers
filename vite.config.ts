@@ -15,6 +15,7 @@ type ProductRouteEntry = {
 
 type BlogRouteEntry = {
   slug: string;
+  permalink?: string;
 };
 
 // Custom plugin to replace environment variables in HTML
@@ -124,7 +125,7 @@ export default defineConfig(({ mode }) => {
         if (enableBlog) {
           try {
             const posts = require('./.velite/posts.json') as BlogRouteEntry[];
-            const blogRoutes = posts.map((post) => `/industry-news/${post.slug}`);
+            const blogRoutes = posts.map((post) => post.permalink || `/industry-news/${post.slug}`);
             allSSGRoutes = [...allSSGRoutes, ...blogRoutes];
           } catch (e) {
             console.warn('Failed to load velite posts for SSG', e);

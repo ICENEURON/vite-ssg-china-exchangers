@@ -74,7 +74,7 @@ The importer uses `supabase_importer/.env` with `SUPABASE_URL` and `SUPABASE_SER
 ### Project Map
 
 ```text
-content/posts/                 Velite Markdown posts
+content/{news,posts}/          Velite Markdown industry articles by company/language
 doc/                           Project docs and Obsidian business docs
 public/                        Static files copied to the build output
 public/storage/assets/          Supabase Storage files synced locally
@@ -97,9 +97,9 @@ The route source is `src/routes/config/index.ts`. English uses root paths; Chine
 
 Public routes include `/`, `/manufacturers`, `/manufacturers/:slug`, `/products`, `/products/:manufacturerSlug/:productSlug`, `/rfq`, `/update-your-profile`, `/content-marketing-services`, `/about`, `/contact`, `/terms`, and `/privacy`. The legacy `/claim-your-profile` route redirects to `/update-your-profile`.
 
-`/industry-news` and `/industry-news/:slug` are included only when `VITE_ENABLE_BLOG=true`. `/login`, `/register`, and `/dashboard` are active only when `VITE_ENABLE_AUTH=true`.
+`/industry-news` and `/industry-news/:contentType/:slug` are included only when `VITE_ENABLE_BLOG=true`. `/login`, `/register`, and `/dashboard` are active only when `VITE_ENABLE_AUTH=true`.
 
-SSG dynamic routes are generated from English manufacturer and product `list.json` files because slugs are language-neutral. Blog routes are generated from `.velite/posts.json` when the blog flag is enabled.
+Industry News Markdown lives under `content/{news,posts}/{company}/{lang}/{article}.md`, for example `content/posts/heatex-direct/en/buying-guide.md`. Public article URLs omit the company folder and use `/industry-news/{news|posts}/{article}`. Blog routes are generated from `.velite/posts.json` when the blog flag is enabled.
 
 ### Data and Supabase
 
@@ -215,7 +215,7 @@ HeatEx Direct 是一个中英文双语的静态 B2B 换热器采购网站。它�
 ### 项目结构
 
 ```text
-content/posts/                 Velite Markdown 文章
+content/{news,posts}/          按公司和语言分组的 Velite 行业文章
 doc/                           项目文档和 Obsidian 业务文档
 public/                        原样复制到构建产物的静态文件
 public/storage/assets/          本地同步的 Supabase Storage 文件
@@ -238,9 +238,9 @@ supabase_importer/              本地 JSON/资产导入 Supabase 的工作流
 
 公开路由包括 `/`、`/manufacturers`、`/manufacturers/:slug`、`/products`、`/products/:manufacturerSlug/:productSlug`、`/rfq`、`/update-your-profile`、`/content-marketing-services`、`/about`、`/contact`、`/terms`、`/privacy`。旧的 `/claim-your-profile` 会重定向到 `/update-your-profile`。
 
-`/industry-news` 和 `/industry-news/:slug` 只有在 `VITE_ENABLE_BLOG=true` 时启用。`/login`、`/register`、`/dashboard` 只有在 `VITE_ENABLE_AUTH=true` 时启用。
+`/industry-news` 和 `/industry-news/:contentType/:slug` 只有在 `VITE_ENABLE_BLOG=true` 时启用。`/login`、`/register`、`/dashboard` 只有在 `VITE_ENABLE_AUTH=true` 时启用。
 
-SSG 动态路由从英文厂家/产品 `list.json` 生成，因为 slug 不区分语言。博客路由在博客开关启用时从 `.velite/posts.json` 生成。
+Industry News Markdown 放在 `content/{news,posts}/{company}/{lang}/{article}.md`，例如 `content/posts/heatex-direct/zh/buying-guide.md`。公开文章 URL 不显示公司文件夹，使用 `/industry-news/{news|posts}/{article}`。博客路由在博客开关启用时从 `.velite/posts.json` 生成。
 
 ### 数据与 Supabase
 

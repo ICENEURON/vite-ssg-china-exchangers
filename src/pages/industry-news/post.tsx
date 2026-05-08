@@ -13,7 +13,7 @@ export default function BlogPost() {
     const siteUrl = import.meta.env.VITE_SITE_URL;
     const currentUrl = new URL(location.pathname, siteUrl).href;
 
-    const { slug } = useParams()
+    const { contentType, slug } = useParams()
     const currentLanguage = useCurrentLanguage();
 
     // Filter posts by language and sort by date (newest first)
@@ -21,7 +21,13 @@ export default function BlogPost() {
         .filter(post => post.lang === currentLanguage)
         .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-    const currentIndex = sortedPosts.findIndex(p => p.slug === slug);
+    const currentIndex = sortedPosts.findIndex(p => {
+        if (p.slug !== slug) return false;
+
+        if (contentType && p.contentType !== contentType) return false;
+
+        return true;
+    });
     const post = sortedPosts[currentIndex];
 
     // Related posts: 5 before and 5 after
@@ -125,7 +131,7 @@ export default function BlogPost() {
                                     {relatedPosts.length > 0 ? (
                                         relatedPosts.map((rPost) => (
                                             <Link
-                                                key={rPost.slug}
+                                                key={rPost.permalink}
                                                 to={rPost.permalink}
                                                 className="group flex flex-col gap-1 py-2 border-b border-slate-100 last:border-0 transition-all"
                                             >
