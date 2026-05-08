@@ -1,8 +1,9 @@
-import { useState, useMemo, useRef, useEffect } from 'react'
+import { useState, useMemo } from 'react'
 import { Head } from 'vite-react-ssg'
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { useCurrentLanguage, addLanguageToPath } from "../../utils/language-routing";
+import { FilterDropdown } from "../../components/ui/filter-dropdown";
 import { ArrowRight, Filter, ChevronDown, X, Check, Factory, Mail } from "lucide-react";
 import { Badge } from "../../components/ui/badge";
 import { QuoteCta } from "../../components/ui/quote-cta";
@@ -45,6 +46,7 @@ interface ManufacturerRankingSignalFile {
 }
 
 const fallbackManufacturerOrder = 999;
+type ProductDropdown = "manufacturer" | "industry";
 
 export default function ProductsPage() {
     const { t } = useTranslation();
@@ -57,24 +59,13 @@ export default function ProductsPage() {
 
     const [selectedIndustrySlugs, setSelectedIndustrySlugs] = useState<string[]>([]);
     const [selectedManufacturerSlugs, setSelectedManufacturerSlugs] = useState<string[]>([]);
-    const [isIndustryDropdownOpen, setIsIndustryDropdownOpen] = useState(false);
-    const [isManufacturerDropdownOpen, setIsManufacturerDropdownOpen] = useState(false);
-    const industryDropdownRef = useRef<HTMLDivElement>(null);
-    const manufacturerDropdownRef = useRef<HTMLDivElement>(null);
-
-    // Close dropdown when clicking outside
-    useEffect(() => {
-        function handleClickOutside(event: MouseEvent) {
-            if (industryDropdownRef.current && !industryDropdownRef.current.contains(event.target as Node)) {
-                setIsIndustryDropdownOpen(false);
-            }
-            if (manufacturerDropdownRef.current && !manufacturerDropdownRef.current.contains(event.target as Node)) {
-                setIsManufacturerDropdownOpen(false);
-            }
-        }
-        document.addEventListener("mousedown", handleClickOutside);
-        return () => document.removeEventListener("mousedown", handleClickOutside);
-    }, []);
+    const [openDropdown, setOpenDropdown] = useState<ProductDropdown | null>(null);
+    const isIndustryDropdownOpen = openDropdown === "industry";
+    const isManufacturerDropdownOpen = openDropdown === "manufacturer";
+    const closeDropdowns = () => setOpenDropdown(null);
+    const handleDropdownOpenChange = (dropdown: ProductDropdown, open: boolean) => {
+        setOpenDropdown(open ? dropdown : null);
+    };
 
     const toggleIndustry = (slug: string) => {
         setSelectedIndustrySlugs(prev =>
@@ -103,8 +94,7 @@ export default function ProductsPage() {
     const clearAll = () => {
         setSelectedIndustrySlugs([]);
         setSelectedManufacturerSlugs([]);
-        setIsIndustryDropdownOpen(false);
-        setIsManufacturerDropdownOpen(false);
+        closeDropdowns();
     };
 
     const signalsBySlug = useMemo(() => new Map(
@@ -204,18 +194,21 @@ export default function ProductsPage() {
                     <div className="container mx-auto px-4 md:px-8 max-w-7xl">
                         <div className="mb-8">
                             <div className="mb-4 flex flex-wrap items-center gap-x-5 gap-y-3">
-                                <div className="relative" ref={manufacturerDropdownRef}>
-                                    <button
-                                        onClick={() => setIsManufacturerDropdownOpen(!isManufacturerDropdownOpen)}
-                                        className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
-                                    >
-                                        <Factory className="w-4 h-4 text-primary" />
-                                        <span>{productsT.t("filter_manufacturer")}</span>
-                                        <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${isManufacturerDropdownOpen ? 'rotate-180' : ''}`} />
-                                    </button>
-
-                                    {isManufacturerDropdownOpen && (
-                                        <div className="absolute top-full left-0 z-50 mt-3 w-80 overflow-hidden rounded-lg border border-border/50 bg-card shadow-xl animate-in fade-in zoom-in-95 slide-in-from-top-2 duration-200">
+                                <FilterDropdown
+                                    open={isManufacturerDropdownOpen}
+                                    onOpenChange={(open) => handleDropdownOpenChange("manufacturer", open)}
+                                    contentClassName="w-80"
+                                    trigger={({ open, triggerProps }) => (
+                                        <button
+                                            {...triggerProps}
+                                            className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
+                                        >
+                                            <Factory className="w-4 h-4 text-primary" />
+                                            <span>{productsT.t("filter_manufacturer")}</span>
+                                            <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${open ? 'rotate-180' : ''}`} />
+                                        </button>
+                                    )}
+                                >
                                             <div className="p-2.5 max-h-[340px] overflow-y-auto custom-scrollbar">
                                                 <button
                                                     onClick={() => setSelectedManufacturerSlugs([])}
@@ -245,22 +238,23 @@ export default function ProductsPage() {
                                                     })}
                                                 </div>
                                             </div>
-                                        </div>
+                                </FilterDropdown>
+
+                                <FilterDropdown
+                                    open={isIndustryDropdownOpen}
+                                    onOpenChange={(open) => handleDropdownOpenChange("industry", open)}
+                                    contentClassName="w-72"
+                                    trigger={({ open, triggerProps }) => (
+                                        <button
+                                            {...triggerProps}
+                                            className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
+                                        >
+                                            <Filter className="w-4 h-4 text-primary" />
+                                            <span>{productsT.t("filter_by")}</span>
+                                            <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${open ? 'rotate-180' : ''}`} />
+                                        </button>
                                     )}
-                                </div>
-
-                                <div className="relative" ref={industryDropdownRef}>
-                                    <button
-                                        onClick={() => setIsIndustryDropdownOpen(!isIndustryDropdownOpen)}
-                                        className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
-                                    >
-                                        <Filter className="w-4 h-4 text-primary" />
-                                        <span>{productsT.t("filter_by")}</span>
-                                        <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${isIndustryDropdownOpen ? 'rotate-180' : ''}`} />
-                                    </button>
-
-                                    {isIndustryDropdownOpen && (
-                                        <div className="absolute top-full left-0 z-50 mt-3 w-72 overflow-hidden rounded-lg border border-border/50 bg-card shadow-xl animate-in fade-in zoom-in-95 slide-in-from-top-2 duration-200">
+                                >
                                             <div className="p-2.5 max-h-[340px] overflow-y-auto custom-scrollbar">
                                                 <button
                                                     onClick={() => setSelectedIndustrySlugs([])}
@@ -290,9 +284,7 @@ export default function ProductsPage() {
                                                     })}
                                                 </div>
                                             </div>
-                                        </div>
-                                    )}
-                                </div>
+                                </FilterDropdown>
 
                                 {hasActiveFilters && (
                                     <button

@@ -43,9 +43,9 @@
       "products": "产品数量"
     },
     "response_tiers": {
-      "within_24h": "<1Day",
-      "within_3_days": "<3Day",
-      "within_1_week": "<7Day",
+      "within_24h": "< 1 Day",
+      "within_3_days": "< 3 Day",
+      "within_1_week": "< 7 Day",
       "unknown": "n/a"
     },
     "view_profile": "查看资料"

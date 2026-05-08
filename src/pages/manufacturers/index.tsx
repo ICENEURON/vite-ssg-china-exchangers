@@ -1,9 +1,10 @@
 
-import { useState, useMemo, useRef, useEffect } from 'react'
+import { useState, useMemo } from 'react'
 import { Head } from 'vite-react-ssg'
 import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { ArrowUpDown, ChevronDown, X, Check, Filter, MapPin } from 'lucide-react';
+import { FilterDropdown } from "../../components/ui/filter-dropdown"
 import { ManufacturerCard } from "./components/ManufacturerCard"
 import { HeroSection } from "./components/HeroSection"
 import { useCurrentLanguage, addLanguageToPath } from "../../utils/language-routing"
@@ -50,6 +51,7 @@ interface ManufacturerRankingSignalFile {
 
 type ResponseTimeTier = "within_24h" | "within_3_days" | "within_1_week" | "unknown";
 type SortKey = "order" | "profile" | "response" | "products";
+type ManufacturerDropdown = "industry" | "city" | "sort";
 
 const fallbackSignal: Omit<ManufacturerRankingSignal, "slug"> = {
   order: 999,
@@ -88,29 +90,14 @@ export default function ManufacturersPage() {
   const [selectedIndustrySlugs, setSelectedIndustrySlugs] = useState<string[]>([]);
   const [selectedCities, setSelectedCities] = useState<string[]>([]);
   const [sortKey, setSortKey] = useState<SortKey>("order");
-  const [isIndustryDropdownOpen, setIsIndustryDropdownOpen] = useState(false);
-  const [isCityDropdownOpen, setIsCityDropdownOpen] = useState(false);
-  const [isSortDropdownOpen, setIsSortDropdownOpen] = useState(false);
-  const industryDropdownRef = useRef<HTMLDivElement>(null);
-  const cityDropdownRef = useRef<HTMLDivElement>(null);
-  const sortDropdownRef = useRef<HTMLDivElement>(null);
-
-  // Close dropdown when clicking outside
-  useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (industryDropdownRef.current && !industryDropdownRef.current.contains(event.target as Node)) {
-        setIsIndustryDropdownOpen(false);
-      }
-      if (cityDropdownRef.current && !cityDropdownRef.current.contains(event.target as Node)) {
-        setIsCityDropdownOpen(false);
-      }
-      if (sortDropdownRef.current && !sortDropdownRef.current.contains(event.target as Node)) {
-        setIsSortDropdownOpen(false);
-      }
-    }
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
+  const [openDropdown, setOpenDropdown] = useState<ManufacturerDropdown | null>(null);
+  const isIndustryDropdownOpen = openDropdown === "industry";
+  const isCityDropdownOpen = openDropdown === "city";
+  const isSortDropdownOpen = openDropdown === "sort";
+  const closeDropdowns = () => setOpenDropdown(null);
+  const handleDropdownOpenChange = (dropdown: ManufacturerDropdown, open: boolean) => {
+    setOpenDropdown(open ? dropdown : null);
+  };
 
   const toggleIndustry = (slug: string) => {
     setSelectedIndustrySlugs(prev =>
@@ -139,9 +126,7 @@ export default function ManufacturersPage() {
   const clearAll = () => {
     setSelectedIndustrySlugs([]);
     setSelectedCities([]);
-    setIsIndustryDropdownOpen(false);
-    setIsCityDropdownOpen(false);
-    setIsSortDropdownOpen(false);
+    closeDropdowns();
   };
 
   const cities = useMemo(() => (
@@ -247,18 +232,21 @@ export default function ManufacturersPage() {
 
             <div className="mb-8">
               <div className="mb-4 flex flex-wrap items-center gap-x-5 gap-y-3">
-                <div className="relative" ref={industryDropdownRef}>
-                  <button
-                    onClick={() => setIsIndustryDropdownOpen(!isIndustryDropdownOpen)}
-                    className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
-                  >
-                    <Filter className="w-4 h-4 text-primary" />
-                    <span>{manufacturersT.t("filter_industry")}</span>
-                    <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${isIndustryDropdownOpen ? 'rotate-180' : ''}`} />
-                  </button>
-
-                  {isIndustryDropdownOpen && (
-                    <div className="absolute top-full left-0 z-50 mt-3 w-72 overflow-hidden rounded-lg border border-border/50 bg-card shadow-xl animate-in fade-in zoom-in-95 slide-in-from-top-2 duration-200">
+                <FilterDropdown
+                  open={isIndustryDropdownOpen}
+                  onOpenChange={(open) => handleDropdownOpenChange("industry", open)}
+                  contentClassName="w-72"
+                  trigger={({ open, triggerProps }) => (
+                    <button
+                      {...triggerProps}
+                      className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
+                    >
+                      <Filter className="w-4 h-4 text-primary" />
+                      <span>{manufacturersT.t("filter_industry")}</span>
+                      <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${open ? 'rotate-180' : ''}`} />
+                    </button>
+                  )}
+                >
                       <div className="p-2.5 max-h-[340px] overflow-y-auto custom-scrollbar">
                         <button
                           onClick={() => setSelectedIndustrySlugs([])}
@@ -288,22 +276,23 @@ export default function ManufacturersPage() {
                           })}
                         </div>
                       </div>
-                    </div>
+                </FilterDropdown>
+
+                <FilterDropdown
+                  open={isCityDropdownOpen}
+                  onOpenChange={(open) => handleDropdownOpenChange("city", open)}
+                  contentClassName="w-60"
+                  trigger={({ open, triggerProps }) => (
+                    <button
+                      {...triggerProps}
+                      className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
+                    >
+                      <MapPin className="w-4 h-4 text-primary" />
+                      <span>{manufacturersT.t("filter_city")}</span>
+                      <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${open ? 'rotate-180' : ''}`} />
+                    </button>
                   )}
-                </div>
-
-                <div className="relative" ref={cityDropdownRef}>
-                  <button
-                    onClick={() => setIsCityDropdownOpen(!isCityDropdownOpen)}
-                    className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
-                  >
-                    <MapPin className="w-4 h-4 text-primary" />
-                    <span>{manufacturersT.t("filter_city")}</span>
-                    <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${isCityDropdownOpen ? 'rotate-180' : ''}`} />
-                  </button>
-
-                  {isCityDropdownOpen && (
-                    <div className="absolute top-full left-0 z-50 mt-3 w-60 overflow-hidden rounded-lg border border-border/50 bg-card shadow-xl animate-in fade-in zoom-in-95 slide-in-from-top-2 duration-200">
+                >
                       <div className="p-2.5 max-h-[280px] overflow-y-auto custom-scrollbar">
                         <button
                           onClick={() => setSelectedCities([])}
@@ -333,23 +322,24 @@ export default function ManufacturersPage() {
                           })}
                         </div>
                       </div>
-                    </div>
+                </FilterDropdown>
+
+                <FilterDropdown
+                  open={isSortDropdownOpen}
+                  onOpenChange={(open) => handleDropdownOpenChange("sort", open)}
+                  contentClassName="w-72"
+                  trigger={({ open, triggerProps }) => (
+                    <button
+                      {...triggerProps}
+                      className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
+                    >
+                      <ArrowUpDown className="h-4 w-4 text-primary" />
+                      <span>{manufacturersT.t("sort_by")}</span>
+                      <span className="text-zinc-600 dark:text-zinc-300">{selectedSortLabel}</span>
+                      <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${open ? 'rotate-180' : ''}`} />
+                    </button>
                   )}
-                </div>
-
-                <div className="relative" ref={sortDropdownRef}>
-                  <button
-                    onClick={() => setIsSortDropdownOpen(!isSortDropdownOpen)}
-                    className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
-                  >
-                    <ArrowUpDown className="h-4 w-4 text-primary" />
-                    <span>{manufacturersT.t("sort_by")}</span>
-                    <span className="text-zinc-600 dark:text-zinc-300">{selectedSortLabel}</span>
-                    <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${isSortDropdownOpen ? 'rotate-180' : ''}`} />
-                  </button>
-
-                  {isSortDropdownOpen && (
-                    <div className="absolute top-full left-0 z-50 mt-3 w-72 overflow-hidden rounded-lg border border-border/50 bg-card shadow-xl animate-in fade-in zoom-in-95 slide-in-from-top-2 duration-200">
+                >
                       <div className="p-2.5">
                         <div className="grid gap-1">
                           {sortOptions.map((option) => {
@@ -359,7 +349,7 @@ export default function ManufacturersPage() {
                                 key={option}
                                 onClick={() => {
                                   setSortKey(option);
-                                  setIsSortDropdownOpen(false);
+                                  closeDropdowns();
                                 }}
                                 className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-lg transition-all group ${isSelected
                                   ? 'bg-primary/[0.06] text-primary font-semibold'
@@ -373,9 +363,7 @@ export default function ManufacturersPage() {
                           })}
                         </div>
                       </div>
-                    </div>
-                  )}
-                </div>
+                </FilterDropdown>
 
                 {hasActiveFilters && (
                   <button

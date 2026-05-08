@@ -43,9 +43,9 @@
       "products": "Product count"
     },
     "response_tiers": {
-      "within_24h": "<1 Day",
-      "within_3_days": "<3 Day",
-      "within_1_week": "<7 Day",
+      "within_24h": "< 1 Day",
+      "within_3_days": "< 3 Day",
+      "within_1_week": "< 7 Day",
       "unknown": "n/a"
     },
     "view_profile": "View Profile"

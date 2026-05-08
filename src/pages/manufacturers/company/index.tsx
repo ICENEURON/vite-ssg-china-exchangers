@@ -8,6 +8,7 @@ import { useTranslation } from 'react-i18next'
 import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-routing'
 import { QuoteCta } from '../../../components/ui/quote-cta'
 import countriesData from '../../../data/countries.json'
+import rankingSignals from '../../../data/manufacturer_ranking_signals.json'
 
 interface ImageAsset {
     alt_text?: string;
@@ -35,6 +36,20 @@ interface CountryData {
     id: string;
     name: string;
     name_zh?: string;
+}
+
+type ResponseTimeTier = "within_24h" | "within_3_days" | "within_1_week" | "unknown";
+
+interface ManufacturerRankingSignal {
+    order: number;
+    slug: string;
+    profile_completeness_percent: number;
+    response_time_tier: ResponseTimeTier;
+    published_article_count: number;
+}
+
+interface ManufacturerRankingSignalFile {
+    records: ManufacturerRankingSignal[];
 }
 
 interface ManufacturerData {
@@ -132,12 +147,15 @@ export default function ManufacturerProfilePage() {
     };
 
     const verifiedInfo = {
-        repid_hours: 24, // Optional default or mapped if exists
         iso: Boolean(mfgData.certifications?.find((certificate) => certificate.alt_text?.toLowerCase().includes('iso'))) || true,
         ASME: Boolean(mfgData.certifications?.find((certificate) => certificate.alt_text?.toLowerCase().includes('asme'))) || true,
         business_license: true,
         export_experience: true,
     };
+    const rankingSignal = (rankingSignals as ManufacturerRankingSignalFile).records.find((record) => record.slug === slug);
+    const profileCompleteness = rankingSignal?.profile_completeness_percent ?? 70;
+    const responseTimeTier = rankingSignal?.response_time_tier ?? "unknown";
+    const responseTimeLabel = t(`pages.manufacturers.card.response_tiers.${responseTimeTier}`);
 
     const description = mfgData.full_description;
     const advantages = mfgData.advantages || [];
@@ -202,8 +220,8 @@ export default function ManufacturerProfilePage() {
                     <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-purple-500/10 rounded-full blur-[100px] translate-y-1/3 -translate-x-1/4" />
 
                     <div className="container relative mx-auto px-4 max-w-7xl">
-                        <div className="flex flex-col lg:flex-row gap-12 items-center justify-between">
-                            <div className="flex-1 space-y-6">
+                        <div className="flex flex-col lg:flex-row gap-12 items-start justify-between">
+                            <div className="flex-1 self-start space-y-6">
                                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gradient-to-r from-amber-500/20 to-orange-500/20 border border-amber-500/30 text-amber-300 font-bold tracking-wider text-xs uppercase shadow-[0_0_15px_rgba(245,158,11,0.2)]">
                                     <Star className="w-3.5 h-3.5 fill-amber-500 text-amber-500" /> {t(`${SHARED_TK}.premium_supplier`)}
                                 </div>
@@ -214,25 +232,27 @@ export default function ManufacturerProfilePage() {
                                     </span>
                                 </h1>
 
-                                <div className="flex flex-wrap items-center gap-4 text-slate-300 text-sm font-medium">
+                                <div className="space-y-3 text-slate-300 text-sm font-medium">
+                                    <div className="flex flex-wrap items-center gap-4">
+                                        {basicInfo?.established && (
+                                            <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
+                                                <Factory className="w-4 h-4 text-emerald-400" /> {t(`${SHARED_TK}.established`, { year: basicInfo.established })}
+                                            </div>
+                                        )}
+                                        {basicInfo?.factory_area && (
+                                            <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
+                                                <Globe2 className="w-4 h-4 text-purple-400" /> {basicInfo.factory_area}
+                                            </div>
+                                        )}
+                                        {basicInfo?.employee_count && (
+                                            <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
+                                                <Users className="w-4 h-4 text-orange-400" /> {basicInfo.employee_count}
+                                            </div>
+                                        )}
+                                    </div>
                                     {basicInfo?.address && (
-                                        <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
+                                        <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
                                             <MapPin className="w-4 h-4 text-blue-400" /> {basicInfo.address}
-                                        </div>
-                                    )}
-                                    {basicInfo?.established && (
-                                        <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
-                                            <Factory className="w-4 h-4 text-emerald-400" /> {t(`${SHARED_TK}.established`, { year: basicInfo.established })}
-                                        </div>
-                                    )}
-                                    {basicInfo?.factory_area && (
-                                        <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
-                                            <Globe2 className="w-4 h-4 text-purple-400" /> {basicInfo.factory_area}
-                                        </div>
-                                    )}
-                                    {basicInfo?.employee_count && (
-                                        <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
-                                            <Users className="w-4 h-4 text-orange-400" /> {basicInfo.employee_count}
                                         </div>
                                     )}
                                 </div>
@@ -252,9 +272,15 @@ export default function ManufacturerProfilePage() {
                                     </Link>
                                 </QuoteCta>
 
-                                <div className="mt-6 pt-6 border-t border-white/10 flex items-center justify-between text-xs text-slate-400 relative z-10">
-                                    <span className="flex items-center gap-1.5"><ShieldCheck className="w-3.5 h-3.5 text-emerald-400" /> {t(`${SHARED_TK}.verified_contact`)}</span>
-                                    <span className="flex items-center gap-1.5"><Zap className="w-3.5 h-3.5 text-amber-400" /> {t(`${SHARED_TK}.response_time`, { hours: verifiedInfo?.repid_hours || 24 })}</span>
+                                <div className="mt-6 pt-6 border-t border-white/10 flex flex-col gap-3 text-sm font-semibold text-slate-200 relative z-10">
+                                    <div className="flex min-w-0 items-center gap-3 whitespace-nowrap">
+                                        <Gauge className="h-5 w-5 shrink-0 text-emerald-400" />
+                                        <span>{t('pages.manufacturers.card.metrics.profile')}: {profileCompleteness}%</span>
+                                    </div>
+                                    <div className="flex min-w-0 items-center gap-3 whitespace-nowrap">
+                                        <Zap className="h-5 w-5 shrink-0 text-amber-400" />
+                                        <span>{t('pages.manufacturers.card.metrics.response')}: {responseTimeLabel}</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -278,11 +304,11 @@ export default function ManufacturerProfilePage() {
                                 if (index === 3) borderClasses = "border-none";
 
                                 return (
-                                    <div key={index} className={`flex-1 py-4 px-2 sm:px-4 flex flex-col xl:flex-row items-center justify-center gap-2 sm:gap-3 hover:bg-slate-50 dark:hover:bg-zinc-800 transition-colors min-w-[120px] border-slate-100 dark:border-zinc-800 ${borderClasses}`}>
+                                    <div key={index} className={`flex-1 py-4 px-2 sm:px-4 flex items-center justify-center gap-2 sm:gap-3 hover:bg-slate-50 dark:hover:bg-zinc-800 transition-colors min-w-[120px] border-slate-100 dark:border-zinc-800 ${borderClasses}`}>
                                         <item.icon className={`w-6 h-6 ${item.active ? item.color : "text-slate-300"}`} />
-                                        <div className="text-center xl:text-left leading-tight">
+                                        <div className="flex items-center gap-2 whitespace-nowrap leading-tight">
                                             <div className={`font-bold text-xs sm:text-sm ${item.active ? "text-slate-900 dark:text-white" : "text-slate-400"}`}>{item.label}</div>
-                                            <div className="text-[10px] uppercase tracking-wider text-slate-500">{item.active ? t(`${SHARED_TK}.verified`) : t(`${SHARED_TK}.not_available`)}</div>
+                                            <div className="text-xs sm:text-sm font-semibold text-slate-500">{item.active ? t(`${SHARED_TK}.verified`) : t(`${SHARED_TK}.not_available`)}</div>
                                         </div>
                                     </div>
                                 );
@@ -484,7 +510,7 @@ export default function ManufacturerProfilePage() {
                             <div className="h-1 flex-1 bg-slate-100 dark:bg-zinc-800 rounded-full md:ml-4" />
                         </div>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                             {products?.map((product: Product, index: number) => (
                                 <div key={index} className="flex flex-col bg-white dark:bg-zinc-900 rounded-[2rem] overflow-hidden border border-slate-200 dark:border-zinc-800 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-xl transition-all duration-300 group">
                                     {/* Image Section */}
@@ -625,7 +651,7 @@ export default function ManufacturerProfilePage() {
                                     <p className="text-slate-500">{t(`${SHARED_TK}.trusted_customers_desc`)}</p>
                                 </div>
 
-                                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 relative z-10">
+                                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 xl:grid-cols-8 gap-6 relative z-10">
                                     {customers.map((customer, index) => (
                                         <div key={index} className="aspect-square bg-slate-50 dark:bg-zinc-950 rounded-2xl p-6 flex flex-col items-center justify-center text-center hover:bg-white hover:shadow-lg border border-transparent hover:border-amber-200 transition-all duration-300 group">
                                             {customer.url ? (
