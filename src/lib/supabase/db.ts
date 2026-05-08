@@ -13,6 +13,7 @@ export interface RFQSubmissionData {
   parameters: RFQParameters;
   additional_notes: string | null;
   is_stealth: boolean;
+  source_url: string | null;
 }
 
 /**

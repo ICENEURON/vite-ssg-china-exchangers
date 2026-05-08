@@ -10,10 +10,24 @@
   "sort_by": "Sort by",
   "sort_placeholder": "Select",
   "sort_options": {
-    "order": "Comprehensive",
     "profile": "Overall score",
     "response": "Response speed",
     "products": "Product count"
+  },
+  "scoring_note": {
+    "description": "Overall score is out of 100. Each of these 10 dimensions contributes up to 10 points.",
+    "dimensions": [
+      "Company intro",
+      "Product info",
+      "Export markets",
+      "Video count",
+      "Social media",
+      "Factory certification",
+      "Downloadable documents",
+      "Partner logos",
+      "Response speed",
+      "Published articles"
+    ]
   },
   "title": "Verified Heat Exchanger Manufacturers | HeatEx Direct",
   "meta": {

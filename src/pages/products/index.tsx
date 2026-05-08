@@ -7,6 +7,7 @@ import { FilterDropdown } from "../../components/ui/filter-dropdown";
 import { ArrowRight, Filter, ChevronDown, X, Check, Factory, Mail } from "lucide-react";
 import { Badge } from "../../components/ui/badge";
 import { QuoteCta } from "../../components/ui/quote-cta";
+import { RfqLink } from "../../utils/rfq-routing/link";
 import manufacturerScores from "../../data/manufacturer_scores.json";
 
 interface Industry {
@@ -423,10 +424,10 @@ export default function ProductsPage() {
                             {productsT.t("cta.description")}
                         </p>
                         <QuoteCta size="lg" className="relative z-10 text-lg h-14 px-8" asChild>
-                            <Link to={addLanguageToPath("/rfq", currentLanguage)}>
+                            <RfqLink>
                                 <Mail className="w-5 h-5" />
                                 {t("navigation.menu.rfq")}
-                            </Link>
+                            </RfqLink>
                         </QuoteCta>
                     </div>
                 </section>

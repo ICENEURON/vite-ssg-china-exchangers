@@ -7,8 +7,8 @@ import {
   addLanguageToPath,
 } from "../../utils/language-routing";
 import { QuoteCta } from "../ui/quote-cta";
+import { RfqLink } from "../../utils/rfq-routing/link";
 import { Mail } from "lucide-react";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   const { t } = useTranslation("translation");
@@ -105,10 +105,10 @@ const Footer = () => {
                 size="lg"
                 className="px-6"
               >
-                <Link to={addLanguageToPath("/rfq", currentLanguage)}>
+                <RfqLink>
                   <Mail className="w-5 h-5" />
                   {t("navigation.menu.rfq")}
-                </Link>
+                </RfqLink>
               </QuoteCta>
             </div>
           </div>

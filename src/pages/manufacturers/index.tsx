@@ -3,7 +3,7 @@ import { useState, useMemo } from 'react'
 import { Head } from 'vite-react-ssg'
 import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { ArrowUpDown, ChevronDown, X, Check, Filter, MapPin } from 'lucide-react';
+import { ArrowUpDown, ChevronDown, X, Check, Filter, MapPin, Info } from 'lucide-react';
 import { FilterDropdown } from "../../components/ui/filter-dropdown"
 import { ManufacturerCard } from "./components/ManufacturerCard"
 import { HeroSection } from "./components/HeroSection"
@@ -66,7 +66,7 @@ interface ManufacturerScoreFile {
 type ManufacturerScoreSource = ManufacturerScore[] | ManufacturerScoreFile;
 
 type ResponseTimeTier = "within_24h" | "within_3_days" | "within_1_week" | "unknown" | "n/a";
-type SortKey = "order" | "profile" | "response" | "products";
+type SortKey = "profile" | "response" | "products";
 type ManufacturerDropdown = "industry" | "city" | "sort";
 
 const fallbackSignal: Omit<ManufacturerScore, "id" | "manufacturer_id" | "manufacturer_slug" | "created_at" | "updated_at"> = {
@@ -120,7 +120,7 @@ export default function ManufacturersPage() {
 
   const [selectedIndustrySlugs, setSelectedIndustrySlugs] = useState<string[]>([]);
   const [selectedCities, setSelectedCities] = useState<string[]>([]);
-  const [sortKey, setSortKey] = useState<SortKey>("order");
+  const [sortKey, setSortKey] = useState<SortKey>("profile");
   const [openDropdown, setOpenDropdown] = useState<ManufacturerDropdown | null>(null);
   const isIndustryDropdownOpen = openDropdown === "industry";
   const isCityDropdownOpen = openDropdown === "city";
@@ -220,9 +220,8 @@ export default function ManufacturersPage() {
           return a.ranking.responseTierRank - b.ranking.responseTierRank;
         case "products":
           return b.ranking.productCount - a.ranking.productCount;
-        case "order":
         default:
-          return a.ranking.order - b.ranking.order;
+          return b.ranking.overallScore - a.ranking.overallScore;
       }
     });
   }, [selectedIndustrySlugs, selectedCities, rankedManufacturers, industries, sortKey]);
@@ -232,9 +231,10 @@ export default function ManufacturersPage() {
     [industries, selectedIndustrySlugs]
   );
 
-  const sortOptions = ["order", "profile", "response", "products"] as SortKey[];
+  const sortOptions = ["profile", "response", "products"] as SortKey[];
   const hasActiveFilters = selectedIndustrySlugs.length > 0 || selectedCities.length > 0;
   const selectedSortLabel = manufacturersT.t(`sort_options.${sortKey}`);
+  const scoreDimensions = manufacturersT.t("scoring_note.dimensions", { returnObjects: true }) as string[];
 
   return (
     <>
@@ -260,6 +260,29 @@ export default function ManufacturersPage() {
           <div className="container mx-auto px-4 md:px-8 max-w-6xl">
 
             <div className="mb-8">
+              <div className="mb-5 rounded-lg border border-slate-200 bg-slate-50/70 px-4 py-3 dark:border-zinc-800 dark:bg-zinc-900/50">
+                <div className="flex items-start gap-3">
+                  <div className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-950/50 dark:text-blue-300">
+                    <Info className="h-4 w-4" />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <p className="text-sm font-medium leading-6 text-slate-700 dark:text-slate-200">
+                      {manufacturersT.t("scoring_note.description")}
+                    </p>
+                    <div className="mt-2 flex flex-wrap gap-1.5">
+                      {scoreDimensions.map((dimension) => (
+                        <span
+                          key={dimension}
+                          className="inline-flex items-center rounded-md border border-slate-200 bg-white px-2 py-1 text-[11px] font-semibold leading-none text-slate-600 dark:border-zinc-700 dark:bg-zinc-950 dark:text-zinc-300"
+                        >
+                          {dimension}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div className="mb-4 flex flex-wrap items-center gap-x-5 gap-y-3">
                 <FilterDropdown
                   open={isIndustryDropdownOpen}

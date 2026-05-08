@@ -7,6 +7,7 @@ import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/
 import { useTranslation } from 'react-i18next'
 import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-routing'
 import { QuoteCta } from '../../../components/ui/quote-cta'
+import { RfqLink } from '../../../utils/rfq-routing/link'
 
 interface ProductImageAsset {
     alt_text?: string;
@@ -196,10 +197,10 @@ export default function ProductProfilePage() {
                                         </Link>
                                     </Button>
                                     <QuoteCta size="lg" className="h-14 px-8 text-lg w-full sm:w-auto" asChild>
-                                        <Link to={addLanguageToPath("/rfq", currentLanguage)}>
+                                        <RfqLink>
                                             <Mail className="w-5 h-5" />
                                             {t("navigation.menu.rfq")}
-                                        </Link>
+                                        </RfqLink>
                                     </QuoteCta>
                                 </div>
                             </div>

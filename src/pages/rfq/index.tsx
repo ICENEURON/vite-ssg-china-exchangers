@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Head } from 'vite-react-ssg'
+import { useSearchParams } from "react-router-dom"
 import { Button } from "../../components/ui/button"
 import { ArrowLeft, ArrowRight, Check } from "lucide-react"
 import { ProgressTracker } from "./components/ProgressTracker"
@@ -10,10 +11,23 @@ import { FinalConfirmStep } from "./components/FinalConfirmStep"
 import { useTranslation } from "react-i18next"
 import { submitRFQ } from "../../lib/supabase/db"
 import type { RFQSubmissionData } from "../../lib/supabase/db"
+import { getPathWithoutLanguage } from "../../utils/language-routing"
+import { RFQ_SOURCE_URL_STORAGE_KEY } from "../../utils/rfq-routing/link"
 
+function normalizeRfqSourcePath(value: string | null) {
+  if (!value) return null;
+
+  try {
+    const path = new URL(value, "https://local.invalid").pathname || "/";
+    return getPathWithoutLanguage(path) === "/rfq" ? null : path;
+  } catch {
+    return null;
+  }
+}
 
 export default function SmartRfqBuilder() {
   const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
+  const [searchParams] = useSearchParams();
 
   const [step, setStep] = useState(1)
 
@@ -138,6 +152,8 @@ export default function SmartRfqBuilder() {
     const freeDomains = ["gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "qq.com", "163.com", "126.com", "foxmail.com", "icloud.com"];
     const emailDomain = email.split("@")[1]?.toLowerCase() || "";
     const isBusinessEmail = !freeDomains.includes(emailDomain);
+    const sourceUrl = normalizeRfqSourcePath(searchParams.get("source_url"))
+      || normalizeRfqSourcePath(typeof window !== "undefined" ? window.sessionStorage.getItem(RFQ_SOURCE_URL_STORAGE_KEY) : null);
 
     const submissionPayload: RFQSubmissionData = {
       first_name: contextData.firstName,
@@ -149,6 +165,7 @@ export default function SmartRfqBuilder() {
       industry: contextData.industry === "other" ? contextData.customIndustry : contextData.industry,
       additional_notes: specsData.additionalNotes || null,
       is_stealth: isAnonymous,
+      source_url: sourceUrl || null,
       parameters: {
         hotMediaName: specsData.hotMediaName,
         hotInletFluidType: specsData.hotInletFluidType,
@@ -197,6 +214,9 @@ export default function SmartRfqBuilder() {
 
     try {
       await submitRFQ(submissionPayload);
+      if (typeof window !== "undefined") {
+        window.sessionStorage.removeItem(RFQ_SOURCE_URL_STORAGE_KEY);
+      }
       setIsSubmitted(true);
     } catch (error: unknown) {
       const message = error instanceof Error ? error.message : "Unknown error";

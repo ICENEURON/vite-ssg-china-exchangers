@@ -4,13 +4,13 @@ import { Button } from "../../../components/ui/button";
 import { QuoteCta } from "../../../components/ui/quote-cta";
 import { Database, Factory, Mail, ShieldCheck } from "lucide-react";
 import { addLanguageToPath, useCurrentLanguage } from "../../../utils/language-routing";
+import { RfqLink } from "../../../utils/rfq-routing/link";
 
 export function HeroSection() {
     const { t } = useTranslation("translation");
     const currentLanguage = useCurrentLanguage();
     const trustItems = t("pages.home.hero.trust_bar", { returnObjects: true }) as string[];
     const trustIcons = [ShieldCheck, Factory, Database, Mail];
-    const rfqPath = addLanguageToPath("/rfq", currentLanguage);
     const manufacturersPath = addLanguageToPath("/manufacturers", currentLanguage);
 
     return (
@@ -41,10 +41,10 @@ export function HeroSection() {
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 p-4">
                     <QuoteCta size="lg" asChild>
-                        <a href={rfqPath}>
+                        <RfqLink>
                             <Mail className="w-5 h-5" />
                             {t("navigation.menu.rfq")}
-                        </a>
+                        </RfqLink>
                     </QuoteCta>
                     <Button size="lg" variant="secondary" asChild>
                         <a href={manufacturersPath}>

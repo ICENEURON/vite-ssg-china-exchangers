@@ -13,6 +13,7 @@ import {
 import { cn } from "../../utils/cn";
 import { Button } from "../ui/button";
 import { QuoteCta } from "../ui/quote-cta";
+import { RfqLink } from "../../utils/rfq-routing/link";
 import {
     NavigationMenu,
     NavigationMenuItem,
@@ -218,10 +219,10 @@ export function Navigation() {
                                             size="sm"
                                             className={cn("px-5", isActiveLink(rfqRoute.path) && "ring-2 ring-white/50")}
                                         >
-                                            <Link to={getLocalizedPath(rfqRoute.path)}>
+                                            <RfqLink>
                                                 <Mail className="w-4 h-4" />
                                                 {rfqRoute.translationKey ? t(rfqRoute.translationKey) : rfqRoute.label}
-                                            </Link>
+                                            </RfqLink>
                                         </QuoteCta>
                                     </NavigationMenuItem>
                                 )}
@@ -314,14 +315,13 @@ export function Navigation() {
                                 size="lg"
                                 className="mt-4 px-5 py-4 text-lg"
                             >
-                                <Link
+                                <RfqLink
                                     key={rfqRoute.path}
-                                    to={getLocalizedPath(rfqRoute.path)}
                                     onClick={() => setIsMobileMenuOpen(false)}
                                 >
                                     <Mail className="w-5 h-5" />
                                     {rfqRoute.translationKey ? t(rfqRoute.translationKey) : rfqRoute.label}
-                                </Link>
+                                </RfqLink>
                             </QuoteCta>
                         )}
                     </div>

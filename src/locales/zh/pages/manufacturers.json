@@ -10,10 +10,24 @@
   "sort_by": "排序",
   "sort_placeholder": "选择",
   "sort_options": {
-    "order": "综合",
     "profile": "综合分数",
     "response": "回复速度",
     "products": "产品数量"
+  },
+  "scoring_note": {
+    "description": "综合分数满分 100 分，以下 10 个维度各占 10 分。",
+    "dimensions": [
+      "公司介绍",
+      "产品信息",
+      "出口市场",
+      "视频数量",
+      "社交媒体",
+      "工厂认证",
+      "可下载文件",
+      "合作客户标识",
+      "回复速度",
+      "发布文章"
+    ]
   },
   "title": "已验证换热器制造商目录 | HeatEx Direct",
   "meta": {

@@ -7,6 +7,7 @@ import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/
 import { useTranslation } from 'react-i18next'
 import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-routing'
 import { QuoteCta } from '../../../components/ui/quote-cta'
+import { RfqLink } from '../../../utils/rfq-routing/link'
 import countriesData from '../../../data/countries.json'
 import manufacturerScores from '../../../data/manufacturer_scores.json'
 
@@ -286,10 +287,10 @@ export default function ManufacturerProfilePage() {
                                 <p className="text-slate-300 text-sm mb-6 relative z-10">{t(`${SHARED_TK}.connect_description`)}</p>
 
                                 <QuoteCta size="lg" className="relative z-10 w-full h-14 text-lg" asChild>
-                                    <Link to={`${addLanguageToPath('/rfq', currentLanguage)}?company=${encodeURIComponent(basicInfo?.name)}`}>
+                                    <RfqLink params={{ company: basicInfo?.name }}>
                                         <Mail className="w-5 h-5" />
                                         {t("navigation.menu.rfq")}
-                                    </Link>
+                                    </RfqLink>
                                 </QuoteCta>
 
                                 <div className="mt-6 pt-6 border-t border-white/10 flex flex-col gap-3 text-sm font-semibold text-slate-200 relative z-10">
@@ -702,10 +703,10 @@ export default function ManufacturerProfilePage() {
                             {t(`${SHARED_TK}.partner_desc`)}
                         </p>
                         <QuoteCta size="lg" className="h-16 px-10 text-xl" asChild>
-                            <Link to={`${addLanguageToPath('/rfq', currentLanguage)}?company=${encodeURIComponent(basicInfo?.name)}`}>
+                            <RfqLink params={{ company: basicInfo?.name }}>
                                 <Mail className="w-5 h-5" />
                                 {t("navigation.menu.rfq")}
-                            </Link>
+                            </RfqLink>
                         </QuoteCta>
                     </div>
                 </section>
