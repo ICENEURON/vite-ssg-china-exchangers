@@ -6,6 +6,7 @@
   "packageManager": "pnpm@10.10.0",
   "scripts": {
     "dev": "concurrently \"velite dev\" \"vite-react-ssg dev\"",
+    "dev:sync": "npm run sync && npm run dev",
     "build": "velite build && vite-react-ssg build",
     "build:spa": "tsc -b && velite build && vite build",
     "lint": "eslint .",

@@ -8,7 +8,7 @@ import { FilterDropdown } from "../../components/ui/filter-dropdown"
 import { ManufacturerCard } from "./components/ManufacturerCard"
 import { HeroSection } from "./components/HeroSection"
 import { useCurrentLanguage, addLanguageToPath } from "../../utils/language-routing"
-import rankingSignals from "../../data/manufacturer_ranking_signals.json"
+import manufacturerScores from "../../data/manufacturer_scores.json"
 
 interface Manufacturer {
   id: string;
@@ -37,27 +37,53 @@ interface ProductListItem {
   };
 }
 
-interface ManufacturerRankingSignal {
+interface ManufacturerScore {
+  id: string;
+  manufacturer_id: string;
+  manufacturer_slug: string;
   order: number;
-  slug: string;
-  profile_completeness_percent: number;
-  response_time_tier: ResponseTimeTier;
+  overall_score: number;
+  company_intro_score?: number;
+  product_info_score?: number;
+  export_market_score?: number;
+  video_count_score?: number;
+  social_media_score?: number;
+  factory_certification_score?: number;
+  downloadable_document_score?: number;
+  partner_logo_score?: number;
+  response_time: ResponseTimeTier;
+  response_time_score?: number;
   published_article_count: number;
+  published_article_score?: number;
+  created_at: string;
+  updated_at: string;
 }
 
-interface ManufacturerRankingSignalFile {
-  records: ManufacturerRankingSignal[];
+interface ManufacturerScoreFile {
+  records: ManufacturerScore[];
 }
 
-type ResponseTimeTier = "within_24h" | "within_3_days" | "within_1_week" | "unknown";
+type ManufacturerScoreSource = ManufacturerScore[] | ManufacturerScoreFile;
+
+type ResponseTimeTier = "within_24h" | "within_3_days" | "within_1_week" | "unknown" | "n/a";
 type SortKey = "order" | "profile" | "response" | "products";
 type ManufacturerDropdown = "industry" | "city" | "sort";
 
-const fallbackSignal: Omit<ManufacturerRankingSignal, "slug"> = {
+const fallbackSignal: Omit<ManufacturerScore, "id" | "manufacturer_id" | "manufacturer_slug" | "created_at" | "updated_at"> = {
   order: 999,
-  profile_completeness_percent: 70,
-  response_time_tier: "unknown",
+  overall_score: 0,
+  company_intro_score: 0,
+  product_info_score: 0,
+  export_market_score: 0,
+  video_count_score: 0,
+  social_media_score: 0,
+  factory_certification_score: 0,
+  downloadable_document_score: 0,
+  partner_logo_score: 0,
+  response_time: "unknown",
+  response_time_score: 0,
   published_article_count: 0,
+  published_article_score: 0,
 };
 
 function getResponseTierRank(tier: ResponseTimeTier) {
@@ -68,10 +94,15 @@ function getResponseTierRank(tier: ResponseTimeTier) {
       return 2;
     case "within_1_week":
       return 3;
+    case "n/a":
     case "unknown":
     default:
       return 4;
   }
+}
+
+function getManufacturerScoreRecords(source: ManufacturerScoreSource) {
+  return Array.isArray(source) ? source : source.records;
 }
 
 export default function ManufacturersPage() {
@@ -135,7 +166,7 @@ export default function ManufacturersPage() {
   ), [manufacturers]);
 
   const signalsBySlug = useMemo(() => new Map(
-    (rankingSignals as ManufacturerRankingSignalFile).records.map(signal => [signal.slug, signal])
+    getManufacturerScoreRecords(manufacturerScores as ManufacturerScoreSource).map(signal => [signal.manufacturer_slug, signal])
   ), []);
 
   const productCountsByManufacturer = useMemo(() => {
@@ -158,9 +189,9 @@ export default function ManufacturersPage() {
       ...manufacturer,
       ranking: {
         order: signal.order,
-        profileCompletenessPercent: signal.profile_completeness_percent,
-        responseTimeTier: signal.response_time_tier,
-        responseTierRank: getResponseTierRank(signal.response_time_tier),
+        overallScore: signal.overall_score,
+        responseTime: signal.response_time,
+        responseTierRank: getResponseTierRank(signal.response_time),
         publishedArticleCount: signal.published_article_count,
         productCount,
       },
@@ -184,7 +215,7 @@ export default function ManufacturersPage() {
     return [...filtered].sort((a, b) => {
       switch (sortKey) {
         case "profile":
-          return b.ranking.profileCompletenessPercent - a.ranking.profileCompletenessPercent;
+          return b.ranking.overallScore - a.ranking.overallScore;
         case "response":
           return a.ranking.responseTierRank - b.ranking.responseTierRank;
         case "products":
@@ -201,11 +232,9 @@ export default function ManufacturersPage() {
     [industries, selectedIndustrySlugs]
   );
 
-  const sortOptions = ["profile", "response", "products"] as SortKey[];
+  const sortOptions = ["order", "profile", "response", "products"] as SortKey[];
   const hasActiveFilters = selectedIndustrySlugs.length > 0 || selectedCities.length > 0;
-  const selectedSortLabel = sortKey === "order"
-    ? manufacturersT.t("sort_placeholder")
-    : manufacturersT.t(`sort_options.${sortKey}`);
+  const selectedSortLabel = manufacturersT.t(`sort_options.${sortKey}`);
 
   return (
     <>

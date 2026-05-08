@@ -10,7 +10,8 @@
   "sort_by": "Sort by",
   "sort_placeholder": "Select",
   "sort_options": {
-    "profile": "Profile completeness",
+    "order": "Comprehensive",
+    "profile": "Overall score",
     "response": "Response speed",
     "products": "Product count"
   },
@@ -37,7 +38,7 @@
     "score": "Score",
     "article_unit": "articles",
     "metrics": {
-      "profile": "Profile completeness",
+      "profile": "Overall score",
       "response": "Response speed",
       "articles": "Published articles",
       "products": "Product count"
@@ -46,6 +47,7 @@
       "within_24h": "< 1 Day",
       "within_3_days": "< 3 Day",
       "within_1_week": "< 7 Day",
+      "n/a": "n/a",
       "unknown": "n/a"
     },
     "view_profile": "View Profile"

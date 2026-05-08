@@ -4,8 +4,8 @@ import { useTranslation } from "react-i18next"
 
 interface RankingSignal {
     order: number;
-    profileCompletenessPercent: number;
-    responseTimeTier: "within_24h" | "within_3_days" | "within_1_week" | "unknown";
+    overallScore: number;
+    responseTime: "within_24h" | "within_3_days" | "within_1_week" | "unknown" | "n/a";
     responseTierRank: number;
     publishedArticleCount: number;
     productCount: number;
@@ -23,11 +23,11 @@ interface ManufacturerProps {
 
 export function ManufacturerCard({ company }: { company: ManufacturerProps }) {
     const { t } = useTranslation("translation", { keyPrefix: "pages.manufacturers.card" });
-    const responseLabel = t(`response_tiers.${company.ranking.responseTimeTier}`);
+    const responseLabel = t(`response_tiers.${company.ranking.responseTime}`);
     const metrics = [
         {
             label: t("metrics.profile"),
-            value: `${company.ranking.profileCompletenessPercent}%`,
+            value: company.ranking.overallScore,
             icon: Gauge,
             className: "border-slate-200 bg-slate-50 dark:border-slate-700 dark:bg-slate-900/40",
         },

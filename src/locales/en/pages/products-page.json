@@ -24,6 +24,8 @@
   },
   "detail": {
     "view_manufacturer": "View Manufacturer",
+    "back_to_manufacturer": "Back to Manufacturer Page",
+    "back_to_manufacturers": "Back to Manufacturers",
     "back_to_list": "Back to Products",
     "request_quote": "Request Quote",
     "key_advantages": "Key Advantages",
@@ -32,6 +34,7 @@
     "certificates": "Certificates",
     "certifications": "Certifications",
     "certificate_alt": "Certificate",
+    "other_products": "Other Products From This Manufacturer",
     "document_downloads": "Document Downloads",
     "download": "Download"
   },

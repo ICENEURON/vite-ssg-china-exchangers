@@ -7,7 +7,7 @@ import { FilterDropdown } from "../../components/ui/filter-dropdown";
 import { ArrowRight, Filter, ChevronDown, X, Check, Factory, Mail } from "lucide-react";
 import { Badge } from "../../components/ui/badge";
 import { QuoteCta } from "../../components/ui/quote-cta";
-import rankingSignals from "../../data/manufacturer_ranking_signals.json";
+import manufacturerScores from "../../data/manufacturer_scores.json";
 
 interface Industry {
     id: number;
@@ -36,17 +36,23 @@ interface ProductListItem {
     url: string;
 }
 
-interface ManufacturerRankingSignal {
+interface ManufacturerScore {
     order: number;
-    slug: string;
+    manufacturer_slug: string;
 }
 
-interface ManufacturerRankingSignalFile {
-    records: ManufacturerRankingSignal[];
+interface ManufacturerScoreFile {
+    records: ManufacturerScore[];
 }
+
+type ManufacturerScoreSource = ManufacturerScore[] | ManufacturerScoreFile;
 
 const fallbackManufacturerOrder = 999;
 type ProductDropdown = "manufacturer" | "industry";
+
+function getManufacturerScoreRecords(source: ManufacturerScoreSource) {
+    return Array.isArray(source) ? source : source.records;
+}
 
 export default function ProductsPage() {
     const { t } = useTranslation();
@@ -98,7 +104,7 @@ export default function ProductsPage() {
     };
 
     const signalsBySlug = useMemo(() => new Map(
-        (rankingSignals as ManufacturerRankingSignalFile).records.map(signal => [signal.slug, signal])
+        getManufacturerScoreRecords(manufacturerScores as ManufacturerScoreSource).map(signal => [signal.manufacturer_slug, signal])
     ), []);
 
     const manufacturers = useMemo(() => {

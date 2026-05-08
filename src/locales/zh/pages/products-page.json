@@ -24,6 +24,8 @@
   },
   "detail": {
     "view_manufacturer": "查看製造商",
+    "back_to_manufacturer": "返回制造商页面",
+    "back_to_manufacturers": "返回所有工厂",
     "back_to_list": "返回所有產品",
     "request_quote": "請求報價",
     "key_advantages": "主要優勢",
@@ -32,6 +34,7 @@
     "certificates": "證書",
     "certifications": "認證",
     "certificate_alt": "證書",
+    "other_products": "該公司的其他產品",
     "document_downloads": "文档下载",
     "download": "下载"
   },

@@ -43,9 +43,15 @@ if (!url || !key) {
 // Initialize Supabase Client
 const supabase = createClient(url, key);
 
-async function fetchTable(tableName, columns = '*') {
+async function fetchTable(tableName, columns = '*', options = {}) {
   console.log(`Fetching ${tableName} from Supabase...`);
-  const { data, error } = await supabase.from(tableName).select(columns);
+  let query = supabase.from(tableName).select(columns);
+
+  if (options.orderBy) {
+    query = query.order(options.orderBy, { ascending: options.ascending ?? true });
+  }
+
+  const { data, error } = await query;
 
   if (error) {
     console.error(`Error fetching ${tableName}:`, error.message);
@@ -80,6 +86,7 @@ async function main() {
   await fetchTable('countries', 'id, name, name_zh');
   await fetchTable('industries');
   await fetchTable('manufacturers');
+  await fetchTable('manufacturer_scores', '*', { orderBy: 'order' });
   await fetchAssetTable('manufacturer_assets');
   await fetchTable('products');
   await fetchAssetTable('product_assets');
