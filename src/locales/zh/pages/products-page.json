@@ -1,8 +1,10 @@
 {
   "filter_all": "所有行业",
-  "no_results": "没有找到匹配的產品。",
+  "filter_all_manufacturers": "所有制造商",
+  "no_results": "没有找到匹配筛选条件的产品。",
   "clear_all": "清除全部",
-  "filter_by": "按行业筛选",
+  "filter_by": "行业",
+  "filter_manufacturer": "制造商",
   "title": "工業換熱器",
   "description": "探索我們全面的工業換熱器系列，包括板式換熱器、管殼式換熱器以及針對各種行業的定制解決方案。",
   "hero": {

@@ -1,0 +1,46 @@
+{
+  "schema": {
+    "order": "Manual display order for the directory. Lower numbers appear first in the default sort.",
+    "slug": "Manufacturer slug. This should match the manufacturer profile URL slug.",
+    "profile_completeness_percent": "0-100 percentage. Higher means the profile has more useful buyer-facing information.",
+    "response_time_tier": "Response speed tier. One of: within_24h, within_3_days, within_1_week, unknown.",
+    "published_article_count": "Count only. Number of articles published in Industry News for this manufacturer. This is not a score."
+  },
+  "records": [
+    {
+      "order": 2,
+      "slug": "shenghai-accessen-co-ltd",
+      "profile_completeness_percent": 92,
+      "response_time_tier": "within_24h",
+      "published_article_count": 1
+    },
+    {
+      "order": 1,
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "profile_completeness_percent": 90,
+      "response_time_tier": "within_24h",
+      "published_article_count": 2
+    },
+    {
+      "order": 3,
+      "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
+      "profile_completeness_percent": 86,
+      "response_time_tier": "within_3_days",
+      "published_article_count": 1
+    },
+    {
+      "order": 4,
+      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+      "profile_completeness_percent": 80,
+      "response_time_tier": "within_1_week",
+      "published_article_count": 0
+    },
+    {
+      "order": 5,
+      "slug": "siping-juyuan-welded-plate-heat-exchanger-co-ltd",
+      "profile_completeness_percent": 78,
+      "response_time_tier": "unknown",
+      "published_article_count": 0
+    }
+  ]
+}

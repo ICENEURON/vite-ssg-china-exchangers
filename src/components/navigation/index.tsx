@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
-import { Menu, X, Mail } from "lucide-react";
+import { ClipboardPenLine, Factory, FileText, Mail, Menu, PackageSearch, X } from "lucide-react";
 import { ThemeToggle } from "../theme-toggle";
 import { LanguageToggle } from "../../components/language-toggle";
 import { useAuth } from "../../context/auth";
@@ -150,9 +150,9 @@ export function Navigation() {
                 const isBuyersActive = isActiveLink('/manufacturers') || isActiveLink('/products');
                 return (
                     <NavPopup key={route.path} label={t('navigation.menu.for_buyers_label')} isActive={isBuyersActive} className="left-0">
-                        <ul className="grid w-[300px] gap-3 p-2">
-                            <ListItem href={getLocalizedPath("/manufacturers")} title={t('navigation.menu.manufacturers')} className="py-3" />
-                            <ListItem href={getLocalizedPath("/products")} title={t('navigation.menu.products')} className="py-3" />
+                        <ul className="flex w-[220px] flex-col gap-2">
+                            <ListItem href={getLocalizedPath("/manufacturers")} title={t('navigation.menu.manufacturers')} icon={<Factory className="h-4 w-4" />} />
+                            <ListItem href={getLocalizedPath("/products")} title={t('navigation.menu.products')} icon={<PackageSearch className="h-4 w-4" />} />
                         </ul>
                     </NavPopup>
                 );
@@ -163,10 +163,10 @@ export function Navigation() {
                 const isProfileActive = isActiveLink('/update-your-profile') || isActiveLink('/content-marketing-services');
                 return (
                     <NavPopup key={route.path} label={t('navigation.menu.for_manufacturers_label')} isActive={isProfileActive} className="left-0">
-                        <ul className="grid w-[300px] gap-3 p-2">
-                            <ListItem href={getLocalizedPath("/update-your-profile")} title={t('navigation.menu.profile')} className="py-3">
+                        <ul className="flex w-[240px] flex-col gap-2">
+                            <ListItem href={getLocalizedPath("/update-your-profile")} title={t('navigation.menu.profile')} icon={<ClipboardPenLine className="h-4 w-4" />}>
                             </ListItem>
-                            <ListItem href={getLocalizedPath("/content-marketing-services")} title={t('navigation.menu.content_marketing_services')} className="py-3">
+                            <ListItem href={getLocalizedPath("/content-marketing-services")} title={t('navigation.menu.content_marketing_services')} icon={<FileText className="h-4 w-4" />}>
                             </ListItem>
                         </ul>
                     </NavPopup>

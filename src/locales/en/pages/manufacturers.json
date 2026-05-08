@@ -1,16 +1,27 @@
 {
   "filter_all": "All Industries",
-  "no_results": "No manufacturers found matching the selected industries.",
+  "filter_all_industries": "All Industries",
+  "filter_all_cities": "All Cities",
+  "no_results": "No manufacturers found matching the selected filters.",
   "clear_all": "Clear All",
   "filter_by": "Filter by Industry",
-  "title": "HeatEx Direct | Industrial Heat Exchangers Manufacturer",
+  "filter_industry": "Industry",
+  "filter_city": "City",
+  "sort_by": "Sort by",
+  "sort_placeholder": "Select",
+  "sort_options": {
+    "profile": "Profile completeness",
+    "response": "Response speed",
+    "products": "Product count"
+  },
+  "title": "Verified Heat Exchanger Manufacturers | HeatEx Direct",
   "meta": {
-    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
-    "keywords": "Heat Exchangers, China Manufacturer, Industrial Sourcing, ASME, ISO, Plate Heat Exchangers, Shell & Tube"
+    "description": "Browse a focused directory of reviewed Chinese heat exchanger manufacturers with city, industry, profile completeness, response tier, article, and product signals.",
+    "keywords": "verified heat exchanger manufacturers, China heat exchanger factories, manufacturer directory, heat exchanger supplier scoring, industrial heat exchanger sourcing"
   },
   "og": {
-    "title": "HeatEx Direct - Verified Factory Direct",
-    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+    "title": "Verified Heat Exchanger Manufacturers | HeatEx Direct",
+    "description": "Browse reviewed Chinese heat exchanger manufacturers with city, industry, profile completeness, response tier, article, and product signals.",
     "image": "/static/websites/home-hero.png",
     "url": "{{url}}",
     "type": "website",
@@ -18,11 +29,25 @@
   },
   "hero": {
     "badge": "100% Verified Manufacturers",
-    "title": "Find Your Ideal Supplier",
-    "description": "We don't list everyone. We only list verified factories with proven track records in export and engineering."
+    "title": "Find the right verified manufacturer",
+    "description": "We do not chase a bigger list for its own sake. The goal is a smaller, clearer directory where every listed manufacturer has gone through profile review and verification before appearing here."
   },
   "card": {
     "verified": "VERIFIED",
+    "score": "Score",
+    "article_unit": "articles",
+    "metrics": {
+      "profile": "Profile completeness",
+      "response": "Response speed",
+      "articles": "Published articles",
+      "products": "Product count"
+    },
+    "response_tiers": {
+      "within_24h": "<1 Day",
+      "within_3_days": "<3 Day",
+      "within_1_week": "<7 Day",
+      "unknown": "n/a"
+    },
     "view_profile": "View Profile"
   },
   "company": {

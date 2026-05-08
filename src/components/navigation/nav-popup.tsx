@@ -10,8 +10,8 @@ import { cn } from "../../utils/cn"
 
 export const ListItem = React.forwardRef<
     React.ElementRef<"a">,
-    React.ComponentPropsWithoutRef<"a"> & { title: string; href: string }
->(({ className, title, children, href, ...props }, ref) => {
+    React.ComponentPropsWithoutRef<"a"> & { title: string; href: string; icon?: React.ReactNode }
+>(({ className, title, children, href, icon, ...props }, ref) => {
     return (
         <li>
             <NavigationMenuLink asChild>
@@ -19,12 +19,15 @@ export const ListItem = React.forwardRef<
                     ref={ref}
                     to={href}
                     className={cn(
-                        "block select-none p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-navbar-foreground focus:bg-accent focus:text-navbar-foreground",
+                        "block select-none px-3 py-2 text-left leading-none no-underline outline-none transition-colors hover:bg-accent/40 hover:text-navbar-foreground focus:bg-accent/70 focus:text-navbar-foreground rounded-none",
                         className
                     )}
                     {...props}
                 >
-                    <div className="text-sm font-medium leading-none text-navbar-foreground">{title}</div>
+                    <div className="flex items-center gap-2 text-sm font-medium leading-none text-navbar-foreground">
+                        {icon && <span className="flex h-5 w-5 shrink-0 items-center justify-center text-navbar-foreground/80">{icon}</span>}
+                        <span>{title}</span>
+                    </div>
                     {children && (
                         <p className="line-clamp-2 text-sm leading-snug text-navbar-foreground/70">
                             {children}
@@ -58,7 +61,7 @@ export function NavPopup({ label, isActive, children, className }: NavPopupProps
             >
                 {label}
             </NavigationMenuTrigger>
-            <NavigationMenuContent className={className}>
+            <NavigationMenuContent className={cn("pt-2", className)}>
                 {children}
             </NavigationMenuContent>
         </NavigationMenuItem>

@@ -1,79 +1,127 @@
-import { BadgeCheck, MapPin, Factory, ArrowRight } from "lucide-react"
+import { ArrowRight, Clock3, FileText, Gauge, MapPin, PackageSearch } from "lucide-react"
 import { Badge } from "../../../components/ui/badge";
-import { Button } from "../../../components/ui/button"
 import { useTranslation } from "react-i18next"
+
+interface RankingSignal {
+    order: number;
+    profileCompletenessPercent: number;
+    responseTimeTier: "within_24h" | "within_3_days" | "within_1_week" | "unknown";
+    responseTierRank: number;
+    publishedArticleCount: number;
+    productCount: number;
+}
 
 interface ManufacturerProps {
     id: string;
     name: string;
     location: string;
-    verified: boolean;
     description: string;
     tags: string[];
     link: string;
+    ranking: RankingSignal;
 }
 
 export function ManufacturerCard({ company }: { company: ManufacturerProps }) {
     const { t } = useTranslation("translation", { keyPrefix: "pages.manufacturers.card" });
+    const responseLabel = t(`response_tiers.${company.ranking.responseTimeTier}`);
+    const metrics = [
+        {
+            label: t("metrics.profile"),
+            value: `${company.ranking.profileCompletenessPercent}%`,
+            icon: Gauge,
+            className: "border-slate-200 bg-slate-50 dark:border-slate-700 dark:bg-slate-900/40",
+        },
+        {
+            label: t("metrics.response"),
+            value: responseLabel,
+            icon: Clock3,
+            className: "border-blue-500/20 bg-blue-50 dark:bg-blue-500/10",
+        },
+        {
+            label: t("metrics.products"),
+            value: company.ranking.productCount,
+            icon: PackageSearch,
+            className: "border-amber-500/25 bg-amber-50 dark:bg-amber-500/10",
+        },
+        {
+            label: t("metrics.articles"),
+            value: company.ranking.publishedArticleCount,
+            icon: FileText,
+            className: "border-teal-500/25 bg-teal-50 dark:bg-teal-500/10",
+        },
+    ];
 
     return (
-        <div className="group w-full bg-card/60 border border-border/40 rounded-2xl p-8 hover:shadow-xl flex flex-col md:flex-row gap-6 overflow-hidden relative">
-            <div className="shrink-0">
-                <div className="w-16 h-16 rounded-2xl bg-navbar/90 flex items-center justify-center">
-                    <Factory className="w-8 h-8 text-muted-foreground" />
-                </div>
-            </div>
-
-            {/* Verified Badge - Absolute Positioning */}
-            {company.verified && (
-                <div className="absolute top-6 right-6 md:top-8 md:right-8 flex items-center gap-1.5 text-xs font-bold px-2 py-1 rounded shrink-0 width-fit z-10 transition-transform group-hover:scale-105">
-                    <Badge variant="secondary" className="bg-green-200/40 text-accent border-green-600/50 hover:bg-green-200 px-2 py-1 text-sm">
-                        <BadgeCheck className="w-3.5 h-3.5 text-green-600" />
-                        <span className="text-xs font-bold text-green-600">{t("verified")}</span>
-                    </Badge>
-                </div>
-            )}
-
-            <div className="flex-1 min-w-0 pr-8"> {/* Added padding-right to prevent overlap with badge */}
-                <div className="flex flex-col md:flex-row md:items-start justify-between gap-2 mb-2">
-                    <a href={company.link}>
-                        <h3 className="text-xl font-bold text-foreground hover:text-primary transition-colors min-w-0 leading-tight hover:underline">
+        <article className="group flex h-full flex-col overflow-visible rounded-lg border border-border/40 bg-card p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-lg">
+            <div className="flex items-start">
+                <a href={company.link} className="min-w-0 flex-1">
+                    <div className="h-14 overflow-hidden">
+                        <h3
+                            className="font-bold text-foreground transition-colors group-hover:text-primary group-hover:underline"
+                            style={{ fontSize: "22px", lineHeight: "28px" }}
+                        >
                             {company.name}
                         </h3>
-                    </a>
-                </div>
+                    </div>
+                </a>
+            </div>
 
-                <div className="flex flex-wrap items-center gap-4 text-sm text-foreground italic mb-4">
-                    <div className="flex items-center gap-1.5">
+            <div className="mt-3 min-w-0">
+                <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-zinc-700 dark:text-zinc-300">
+                    <div className="flex items-center gap-1.5 min-w-0">
                         <MapPin className="w-4 h-4" />
-                        {company.location}
+                        <span className="truncate">{company.location}</span>
                     </div>
                 </div>
 
-                <p className="text-muted leading-relaxed mb-4 text-sm line-clamp-5">
+                <p className="mt-3 text-sm leading-6 text-zinc-700 dark:text-zinc-300">
                     {company.description}
                 </p>
 
-                <div className="flex flex-wrap gap-2">
+                <div className="mt-4 grid grid-cols-2 gap-2 md:hidden">
+                    {metrics.map((metric) => (
+                        <div key={metric.label} className={`rounded-md border px-3 py-2 ${metric.className}`}>
+                            <div className="text-[11px] font-semibold text-zinc-600 dark:text-zinc-300">{metric.label}</div>
+                            <div className="mt-1 text-base font-extrabold leading-tight text-foreground">{metric.value}</div>
+                        </div>
+                    ))}
+                </div>
+
+                <div className="mt-4 hidden grid-cols-4 gap-2 md:grid">
+                    {metrics.map((metric) => {
+                        const MetricIcon = metric.icon;
+
+                        return (
+                            <div
+                                key={metric.label}
+                                className={`group/metric relative flex min-h-12 items-center justify-center gap-1.5 rounded-md border px-2 py-2 ${metric.className}`}
+                                aria-label={`${metric.label}: ${metric.value}`}
+                            >
+                                <MetricIcon className="h-3.5 w-3.5 shrink-0 text-zinc-600 dark:text-zinc-300" />
+                                <span className="text-xs font-semibold leading-none text-foreground">{metric.value}</span>
+                                <span className="pointer-events-none absolute bottom-full left-1/2 z-20 mb-2 w-max max-w-44 -translate-x-1/2 rounded-md bg-zinc-950 px-2.5 py-1.5 text-center text-xs font-semibold leading-tight text-white opacity-0 shadow-lg transition-opacity group-hover/metric:opacity-100 dark:bg-white dark:text-zinc-950">
+                                    {metric.label}
+                                </span>
+                            </div>
+                        );
+                    })}
+                </div>
+
+                <div className="mt-3 flex flex-wrap gap-1.5">
                     {company.tags.map(tag => (
-                        <span key={tag}>
-                            <Badge variant="secondary" className="bg-blue-200/40 text-accent border-blue-600/50 hover:bg-blue-200 px-2 py-1 text-sm">
-                                <span className="text-xs font-bold text-blue-600">{tag}</span>
-                            </Badge>
-                        </span>
+                        <Badge key={tag} variant="secondary" className="rounded-full border-blue-600/20 bg-blue-200/30 px-2 py-0.5 text-[11px] font-bold text-blue-700 hover:bg-blue-200/30">
+                            {tag}
+                        </Badge>
                     ))}
                 </div>
             </div>
 
-            {/* Action */}
-            <div className="flex flex-col justify-end shrink-0">
-                <Button className="w-full md:w-auto rounded-full group-hover:bg-primary" asChild>
-                    <a href={company.link}>
-                        {t("view_profile")}
-                        <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                    </a>
-                </Button>
+            <div className="mt-auto pt-4">
+                <a href={company.link} className="flex items-center text-sm font-semibold text-primary group-hover:underline">
+                    {t("view_profile")}
+                    <ArrowRight className="w-4 h-4 ml-1.5 group-hover:translate-x-1.5 transition-transform" />
+                </a>
             </div>
-        </div>
+        </article>
     )
 }

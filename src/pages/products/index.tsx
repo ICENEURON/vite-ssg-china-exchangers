@@ -6,6 +6,7 @@ import { useCurrentLanguage, addLanguageToPath } from "../../utils/language-rout
 import { ArrowRight, Filter, ChevronDown, X, Check, Factory, Mail } from "lucide-react";
 import { Badge } from "../../components/ui/badge";
 import { QuoteCta } from "../../components/ui/quote-cta";
+import rankingSignals from "../../data/manufacturer_ranking_signals.json";
 
 interface Industry {
     id: number;
@@ -25,6 +26,7 @@ interface ProductManufacturer {
 
 interface ProductListItem {
     slug: string;
+    order?: number;
     manufacturer?: ProductManufacturer;
     name: string;
     short_description?: string;
@@ -32,6 +34,17 @@ interface ProductListItem {
     images?: ProductImage[];
     url: string;
 }
+
+interface ManufacturerRankingSignal {
+    order: number;
+    slug: string;
+}
+
+interface ManufacturerRankingSignalFile {
+    records: ManufacturerRankingSignal[];
+}
+
+const fallbackManufacturerOrder = 999;
 
 export default function ProductsPage() {
     const { t } = useTranslation();
@@ -44,14 +57,19 @@ export default function ProductsPage() {
 
     const [selectedIndustrySlugs, setSelectedIndustrySlugs] = useState<string[]>([]);
     const [selectedManufacturerSlugs, setSelectedManufacturerSlugs] = useState<string[]>([]);
-    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-    const dropdownRef = useRef<HTMLDivElement>(null);
+    const [isIndustryDropdownOpen, setIsIndustryDropdownOpen] = useState(false);
+    const [isManufacturerDropdownOpen, setIsManufacturerDropdownOpen] = useState(false);
+    const industryDropdownRef = useRef<HTMLDivElement>(null);
+    const manufacturerDropdownRef = useRef<HTMLDivElement>(null);
 
     // Close dropdown when clicking outside
     useEffect(() => {
         function handleClickOutside(event: MouseEvent) {
-            if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-                setIsDropdownOpen(false);
+            if (industryDropdownRef.current && !industryDropdownRef.current.contains(event.target as Node)) {
+                setIsIndustryDropdownOpen(false);
+            }
+            if (manufacturerDropdownRef.current && !manufacturerDropdownRef.current.contains(event.target as Node)) {
+                setIsManufacturerDropdownOpen(false);
             }
         }
         document.addEventListener("mousedown", handleClickOutside);
@@ -78,11 +96,20 @@ export default function ProductsPage() {
         setSelectedIndustrySlugs(prev => prev.filter(s => s !== slug));
     };
 
+    const removeManufacturer = (slug: string) => {
+        setSelectedManufacturerSlugs(prev => prev.filter(s => s !== slug));
+    };
+
     const clearAll = () => {
         setSelectedIndustrySlugs([]);
         setSelectedManufacturerSlugs([]);
-        setIsDropdownOpen(false);
+        setIsIndustryDropdownOpen(false);
+        setIsManufacturerDropdownOpen(false);
     };
+
+    const signalsBySlug = useMemo(() => new Map(
+        (rankingSignals as ManufacturerRankingSignalFile).records.map(signal => [signal.slug, signal])
+    ), []);
 
     const manufacturers = useMemo(() => {
         const mfgMap = new Map<string, { slug: string, name: string }>();
@@ -91,11 +118,32 @@ export default function ProductsPage() {
                 mfgMap.set(p.manufacturer.slug, p.manufacturer);
             }
         });
-        return Array.from(mfgMap.values());
-    }, [productsList]);
+        return Array.from(mfgMap.values()).sort((a, b) => {
+            const orderA = signalsBySlug.get(a.slug)?.order ?? fallbackManufacturerOrder;
+            const orderB = signalsBySlug.get(b.slug)?.order ?? fallbackManufacturerOrder;
+            return orderA - orderB || a.name.localeCompare(b.name);
+        });
+    }, [productsList, signalsBySlug]);
+
+    const sortedProducts = useMemo(() => (
+        productsList
+            .map((product, index) => ({
+                product,
+                productOrder: product.order ?? index,
+                manufacturerOrder: product.manufacturer?.slug
+                    ? signalsBySlug.get(product.manufacturer.slug)?.order ?? fallbackManufacturerOrder
+                    : fallbackManufacturerOrder,
+            }))
+            .sort((a, b) => (
+                a.manufacturerOrder - b.manufacturerOrder
+                || a.productOrder - b.productOrder
+                || a.product.name.localeCompare(b.product.name)
+            ))
+            .map(({ product }) => product)
+    ), [productsList, signalsBySlug]);
 
     const filteredProducts = useMemo(() => {
-        let result = productsList;
+        let result = sortedProducts;
 
         if (selectedIndustrySlugs.length > 0) {
             const selectedIndustryNames = industries
@@ -113,12 +161,19 @@ export default function ProductsPage() {
         }
 
         return result;
-    }, [selectedIndustrySlugs, selectedManufacturerSlugs, productsList, industries]);
+    }, [selectedIndustrySlugs, selectedManufacturerSlugs, sortedProducts, industries]);
 
     const selectedIndustries = useMemo(() =>
         industries.filter(i => selectedIndustrySlugs.includes(i.slug)),
         [industries, selectedIndustrySlugs]
     );
+
+    const selectedManufacturers = useMemo(() =>
+        manufacturers.filter(manufacturer => selectedManufacturerSlugs.includes(manufacturer.slug)),
+        [manufacturers, selectedManufacturerSlugs]
+    );
+
+    const hasActiveFilters = selectedIndustrySlugs.length > 0 || selectedManufacturerSlugs.length > 0;
 
     return (
         <>
@@ -129,7 +184,7 @@ export default function ProductsPage() {
 
             <main className="min-h-screen bg-background pb-20">
                 {/* Hero Section */}
-                <section className="relative overflow-hidden bg-slate-900 py-24 px-6 md:px-12">
+                <section className="relative overflow-hidden bg-slate-900 py-[61.67px] px-6 md:px-12">
                     {/* Decorative Elements */}
                     <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-900/40 via-slate-900 to-slate-900" />
                     <div className="relative max-w-6xl mx-auto z-10 flex flex-col items-center text-center">
@@ -145,201 +200,216 @@ export default function ProductsPage() {
                     </div>
                 </section>
 
-                {/* Filter Section */}
-                <section className="max-w-7xl mx-auto px-6 md:px-12 mt-12 mb-8">
-                    <div className="flex flex-wrap items-center gap-4 mb-6">
-                        <div className="relative" ref={dropdownRef}>
-                            <button
-                                onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                                className="flex items-center gap-3 px-5 py-2.5 bg-card/40 backdrop-blur-md border border-border/60 rounded-xl text-sm font-semibold hover:border-primary/50 hover:bg-card transition-all shadow-sm active:scale-[0.98]"
-                            >
-                                <Filter className="w-4 h-4 text-primary" />
-                                <span className="text-foreground/90">{productsT.t("filter_by")}</span>
-                                <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${isDropdownOpen ? 'rotate-180' : ''}`} />
-                            </button>
+                <section className="py-10">
+                    <div className="container mx-auto px-4 md:px-8 max-w-7xl">
+                        <div className="mb-8">
+                            <div className="mb-4 flex flex-wrap items-center gap-x-5 gap-y-3">
+                                <div className="relative" ref={manufacturerDropdownRef}>
+                                    <button
+                                        onClick={() => setIsManufacturerDropdownOpen(!isManufacturerDropdownOpen)}
+                                        className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
+                                    >
+                                        <Factory className="w-4 h-4 text-primary" />
+                                        <span>{productsT.t("filter_manufacturer")}</span>
+                                        <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${isManufacturerDropdownOpen ? 'rotate-180' : ''}`} />
+                                    </button>
 
-                            {isDropdownOpen && (
-                                <div className="absolute top-full left-0 mt-3 w-72 bg-card border border-border/50 rounded-2xl shadow-2xl z-50 overflow-hidden animate-in fade-in zoom-in-95 slide-in-from-top-2 duration-200">
-                                    <div className="p-2.5 max-h-[340px] overflow-y-auto custom-scrollbar">
-                                        <button
-                                            onClick={clearAll}
-                                            className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-xl transition-all group ${selectedIndustrySlugs.length === 0 ? 'bg-primary/20 text-primary' : 'text-foreground/70 hover:bg-primary/20 hover:text-foreground'
-                                                }`}
-                                        >
-                                            <span className="font-bold">{productsT.t("filter_all")}</span>
-                                            {selectedIndustrySlugs.length === 0 && <Check className="w-4 h-4" />}
-                                        </button>
-                                        <div className="h-px bg-border/40 my-2 mx-2" />
-                                        <div className="grid gap-1">
-                                            {industries.map((industry) => {
-                                                const isSelected = selectedIndustrySlugs.includes(industry.slug);
-                                                return (
-                                                    <button
-                                                        key={industry.id}
-                                                        onClick={() => toggleIndustry(industry.slug)}
-                                                        className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-xl transition-all group ${isSelected
-                                                            ? 'bg-primary/5 text-primary font-semibold'
-                                                            : 'text-foreground/70 hover:bg-muted hover:text-foreground'
-                                                            }`}
-                                                    >
-                                                        <span>{industry.name}</span>
-                                                        {isSelected && <Check className="w-4 h-4 animate-in zoom-in duration-200" />}
-                                                    </button>
-                                                );
-                                            })}
+                                    {isManufacturerDropdownOpen && (
+                                        <div className="absolute top-full left-0 z-50 mt-3 w-80 overflow-hidden rounded-lg border border-border/50 bg-card shadow-xl animate-in fade-in zoom-in-95 slide-in-from-top-2 duration-200">
+                                            <div className="p-2.5 max-h-[340px] overflow-y-auto custom-scrollbar">
+                                                <button
+                                                    onClick={() => setSelectedManufacturerSlugs([])}
+                                                    className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-lg transition-all group ${selectedManufacturerSlugs.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04] dark:hover:bg-white/[0.06]'
+                                                        }`}
+                                                >
+                                                    <span className="font-bold">{productsT.t("filter_all_manufacturers")}</span>
+                                                    {selectedManufacturerSlugs.length === 0 && <Check className="w-4 h-4" />}
+                                                </button>
+                                                <div className="h-px bg-border/40 my-2 mx-2" />
+                                                <div className="grid gap-1">
+                                                    {manufacturers.map((manufacturer) => {
+                                                        const isSelected = selectedManufacturerSlugs.includes(manufacturer.slug);
+                                                        return (
+                                                            <button
+                                                                key={manufacturer.slug}
+                                                                onClick={() => toggleManufacturer(manufacturer.slug)}
+                                                                className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-lg transition-all group ${isSelected
+                                                                    ? 'bg-primary/[0.06] text-primary font-semibold'
+                                                                    : 'text-foreground hover:bg-zinc-950/[0.04] dark:hover:bg-white/[0.06]'
+                                                                    }`}
+                                                            >
+                                                                <span className="text-left leading-tight pr-2">{manufacturer.name}</span>
+                                                                {isSelected && <Check className="w-4 h-4 shrink-0 animate-in zoom-in duration-200" />}
+                                                            </button>
+                                                        );
+                                                    })}
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    )}
+                                </div>
+
+                                <div className="relative" ref={industryDropdownRef}>
+                                    <button
+                                        onClick={() => setIsIndustryDropdownOpen(!isIndustryDropdownOpen)}
+                                        className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
+                                    >
+                                        <Filter className="w-4 h-4 text-primary" />
+                                        <span>{productsT.t("filter_by")}</span>
+                                        <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${isIndustryDropdownOpen ? 'rotate-180' : ''}`} />
+                                    </button>
+
+                                    {isIndustryDropdownOpen && (
+                                        <div className="absolute top-full left-0 z-50 mt-3 w-72 overflow-hidden rounded-lg border border-border/50 bg-card shadow-xl animate-in fade-in zoom-in-95 slide-in-from-top-2 duration-200">
+                                            <div className="p-2.5 max-h-[340px] overflow-y-auto custom-scrollbar">
+                                                <button
+                                                    onClick={() => setSelectedIndustrySlugs([])}
+                                                    className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-lg transition-all group ${selectedIndustrySlugs.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04] dark:hover:bg-white/[0.06]'
+                                                        }`}
+                                                >
+                                                    <span className="font-bold">{productsT.t("filter_all")}</span>
+                                                    {selectedIndustrySlugs.length === 0 && <Check className="w-4 h-4" />}
+                                                </button>
+                                                <div className="h-px bg-border/40 my-2 mx-2" />
+                                                <div className="grid gap-1">
+                                                    {industries.map((industry) => {
+                                                        const isSelected = selectedIndustrySlugs.includes(industry.slug);
+                                                        return (
+                                                            <button
+                                                                key={industry.id}
+                                                                onClick={() => toggleIndustry(industry.slug)}
+                                                                className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-lg transition-all group ${isSelected
+                                                                    ? 'bg-primary/[0.06] text-primary font-semibold'
+                                                                    : 'text-foreground hover:bg-zinc-950/[0.04] dark:hover:bg-white/[0.06]'
+                                                                    }`}
+                                                            >
+                                                                <span>{industry.name}</span>
+                                                                {isSelected && <Check className="w-4 h-4 animate-in zoom-in duration-200" />}
+                                                            </button>
+                                                        );
+                                                    })}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )}
+                                </div>
+
+                                {hasActiveFilters && (
+                                    <button
+                                        onClick={clearAll}
+                                        className="flex items-center justify-center gap-2 rounded-lg px-3 py-2 text-sm font-bold text-red-500 transition-all hover:bg-red-500/10 hover:text-red-400 active:scale-95"
+                                    >
+                                        <X className="w-4 h-4" />
+                                        {productsT.t("clear_all")}
+                                    </button>
+                                )}
+                            </div>
+
+                            {hasActiveFilters && (
+                                <div className="flex flex-wrap gap-3 animate-in fade-in slide-in-from-top-2 duration-500">
+                                    {selectedManufacturers.map((manufacturer) => (
+                                        <div
+                                            key={manufacturer.slug}
+                                            className="inline-flex items-center justify-center gap-1 px-3 py-1 bg-primary/5 text-primary border border-primary/20 rounded-full text-xs font-bold shadow-sm hover:shadow-md transition-all group"
+                                        >
+                                            <span className="leading-none">{manufacturer.name}</span>
+                                            <button
+                                                onClick={() => removeManufacturer(manufacturer.slug)}
+                                                className="hover:bg-primary/20 rounded-full p-1 transition-all group-hover:scale-110 flex items-center justify-center"
+                                                aria-label={`Remove ${manufacturer.name}`}
+                                            >
+                                                <X className="w-3.5 h-3.5" />
+                                            </button>
+                                        </div>
+                                    ))}
+                                    {selectedIndustries.map((industry) => (
+                                        <div
+                                            key={industry.slug}
+                                            className="inline-flex items-center justify-center gap-1 px-3 py-1 bg-primary/5 text-primary border border-primary/20 rounded-full text-xs font-bold shadow-sm hover:shadow-md transition-all group"
+                                        >
+                                            <span className="leading-none">{industry.name}</span>
+                                            <button
+                                                onClick={() => removeIndustry(industry.slug)}
+                                                className="hover:bg-primary/20 rounded-full p-1 transition-all group-hover:scale-110 flex items-center justify-center"
+                                                aria-label={`Remove ${industry.name}`}
+                                            >
+                                                <X className="w-3.5 h-3.5" />
+                                            </button>
+                                        </div>
+                                    ))}
                                 </div>
                             )}
                         </div>
 
-                        {selectedIndustrySlugs.length > 0 && (
-                            <button
-                                onClick={clearAll}
-                                className="text-sm font-bold text-red-500 hover:text-red-400 hover:bg-red-500/10 rounded-lg transition-all flex items-center justify-center gap-2 px-3 py-1.5 active:scale-95"
-                            >
-                                <X className="w-4 h-4" />
-                                {productsT.t("clear_all")}
-                            </button>
-                        )}
-                    </div>
-
-                    {/* Selected Tags */}
-                    {selectedIndustries.length > 0 && (
-                        <div className="flex flex-wrap gap-3 animate-in fade-in slide-in-from-top-2 duration-500">
-                            {selectedIndustries.map((industry) => (
-                                <div
-                                    key={industry.slug}
-                                    className="inline-flex items-center justify-center gap-1 px-3 py-1 bg-primary/5 text-primary border border-primary/20 rounded-full text-xs font-bold shadow-sm hover:shadow-md transition-all group"
+                        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                            {filteredProducts.map((product) => (
+                                <Link
+                                    key={product.slug}
+                                    to={addLanguageToPath(`/products/${product.url}`, currentLanguage)}
+                                    className="group flex h-full flex-col overflow-hidden rounded-lg border border-border/40 bg-card shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-lg"
                                 >
-                                    <span className="leading-none">{industry.name}</span>
-                                    <button
-                                        onClick={() => removeIndustry(industry.slug)}
-                                        className="hover:bg-primary/20 rounded-full p-1 transition-all group-hover:scale-110 flex items-center justify-center"
-                                        aria-label={`Remove ${industry.name}`}
-                                    >
-                                        <X className="w-3.5 h-3.5" />
-                                    </button>
-                                </div>
-                            ))}
-                        </div>
-                    )}
-                </section>
-
-                {/* Categories Grid */}
-                <section className="max-w-7xl mx-auto px-6 md:px-12 mt-4 relative z-20 flex flex-col lg:flex-row gap-8">
-                    {/* Left Sidebar Filter */}
-                    <aside className="w-full lg:w-56 shrink-0 z-20">
-                        <div className="bg-card border border-border/50 rounded-2xl shadow-sm sticky top-24 overflow-hidden">
-                            <div className="p-2.5">
-                                <div className="px-4 py-2 flex items-center gap-2 mb-1">
-                                    <Factory className="w-4 h-4 text-primary shrink-0" />
-                                    <span className="font-bold text-sm text-foreground">Manufacturers</span>
-                                </div>
-                                <div className="max-h-[400px] overflow-y-auto custom-scrollbar flex flex-col">
-                                    <button
-                                        onClick={() => setSelectedManufacturerSlugs([])}
-                                        className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-xl transition-all group ${selectedManufacturerSlugs.length === 0 ? 'bg-primary/20 text-primary' : 'text-foreground/70 hover:bg-primary/20 hover:text-foreground'
-                                            }`}
-                                    >
-                                        <span className="font-bold">{productsT.t("filter_all")}</span>
-                                        {selectedManufacturerSlugs.length === 0 && <Check className="w-4 h-4 shrink-0" />}
-                                    </button>
-                                    <div className="h-px bg-border/40 my-2 mx-2" />
-
-                                    <div className="grid gap-1">
-                                        {manufacturers.map((mfg) => {
-                                            const isSelected = selectedManufacturerSlugs.includes(mfg.slug);
-                                            return (
-                                                <button
-                                                    key={mfg.slug}
-                                                    onClick={() => toggleManufacturer(mfg.slug)}
-                                                    className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-xl transition-all group ${isSelected
-                                                        ? 'bg-primary/5 text-primary font-semibold'
-                                                        : 'text-foreground/70 hover:bg-muted hover:text-foreground'
-                                                        }`}
-                                                >
-                                                    <span className="text-left leading-tight pr-2">{mfg.name}</span>
-                                                    {isSelected && <Check className="w-4 h-4 shrink-0 animate-in zoom-in duration-200" />}
-                                                </button>
-                                            );
-                                        })}
+                                    <div className="h-56 overflow-hidden bg-white flex items-center justify-center relative p-4">
+                                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300 z-10 pointer-events-none" />
+                                        {product.images && product.images.length > 0 ? (
+                                            <img
+                                                src={product.images[0].url}
+                                                alt={product.images[0].alt_text || product.name}
+                                                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700 ease-in-out mix-blend-multiply"
+                                            />
+                                        ) : (
+                                            <div className="text-slate-400">{productsT.t("card.no_image")}</div>
+                                        )}
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
 
-                    {/* Product Grid */}
-                    <div className="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 h-fit">
-                        {filteredProducts.map((product) => (
-                            <Link
-                                key={product.slug}
-                                to={addLanguageToPath(`/products/${product.url}`, currentLanguage)}
-                                className="group relative bg-white dark:bg-zinc-900 rounded-2xl border border-slate-200 dark:border-zinc-800 overflow-hidden shadow-sm hover:shadow-xl hover:border-primary/50 transition-all duration-500 hover:-translate-y-1 flex flex-col"
-                            >
-                                {/* Image Area */}
-                                <div className="h-56 overflow-hidden bg-white flex items-center justify-center relative p-4">
-                                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300 z-10 pointer-events-none" />
-                                    {product.images && product.images.length > 0 ? (
-                                        <img
-                                            src={product.images[0].url}
-                                            alt={product.images[0].alt_text || product.name}
-                                            className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700 ease-in-out mix-blend-multiply"
-                                        />
-                                    ) : (
-                                        <div className="text-slate-400">{productsT.t("card.no_image")}</div>
-                                    )}
-                                </div>
+                                    <div className="p-4 flex flex-col flex-1 border-t border-border/40">
+                                        <div className="h-14 overflow-hidden">
+                                            <h3
+                                                className="font-bold text-foreground transition-colors group-hover:text-primary group-hover:underline"
+                                                style={{ fontSize: "22px", lineHeight: "28px" }}
+                                            >
+                                                {product.name}
+                                            </h3>
+                                        </div>
+                                        <p className="mt-3 text-sm leading-6 text-zinc-700 dark:text-zinc-300">
+                                            {product.short_description}
+                                        </p>
 
-                                {/* Content Area */}
-                                <div className="p-6 flex flex-col flex-1 border-t border-slate-100 dark:border-zinc-800">
-                                    <h3 className="text-xl font-bold mb-2 text-slate-900 dark:text-zinc-100 group-hover:text-primary transition-colors line-clamp-2">
-                                        {product.name}
-                                    </h3>
-                                    <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed flex-1 line-clamp-3">
-                                        {product.short_description}
-                                    </p>
-
-                                    <div className="mt-6 flex flex-col gap-3">
-                                        <div className="flex flex-wrap gap-2 text-xs">
-                                            {(product.industries ?? []).slice(0, 3).map((ind, idx) => (
-                                                <Badge key={idx} variant="secondary" className="font-normal bg-slate-100 dark:bg-zinc-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-zinc-700">
+                                        <div className="mt-3 flex flex-wrap content-start items-start gap-1.5">
+                                            {(product.industries ?? []).map((ind, idx) => (
+                                                <Badge key={`${ind}-${idx}`} variant="secondary" className="rounded-full border-blue-600/20 bg-blue-200/30 px-2 py-0.5 text-[11px] font-bold text-blue-700 hover:bg-blue-200/30">
                                                     {ind}
                                                 </Badge>
                                             ))}
-                                            {(product.industries?.length ?? 0) > 3 && (
-                                                <Badge variant="secondary" className="font-normal bg-slate-100 dark:bg-zinc-800 text-slate-500 dark:text-slate-400">
-                                                    {productsT.t("card.more_industries", { count: (product.industries?.length ?? 0) - 3 })}
-                                                </Badge>
-                                            )}
                                         </div>
-                                        <div className="flex items-center text-sm font-semibold text-primary mt-3 group-hover:underline">
-                                            {productsT.t("card.explore_details")}
-                                            <ArrowRight className="w-4 h-4 ml-1.5 group-hover:translate-x-1.5 transition-transform" />
+
+                                        <div className="mt-auto pt-4">
+                                            <div className="flex items-center text-sm font-semibold text-primary group-hover:underline">
+                                                {productsT.t("card.explore_details")}
+                                                <ArrowRight className="w-4 h-4 ml-1.5 group-hover:translate-x-1.5 transition-transform" />
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </Link>
-                        ))}
-                    </div>
+                                </Link>
+                            ))}
 
-                    {filteredProducts.length === 0 && (
-                        <div className="flex flex-col items-center justify-center py-24 text-center bg-white dark:bg-zinc-900 rounded-2xl border border-slate-200 dark:border-zinc-800 shadow-sm col-span-full">
-                            <div className="w-16 h-16 bg-slate-100 dark:bg-zinc-800 rounded-full flex items-center justify-center mb-4">
-                                <Filter className="w-8 h-8 text-slate-400 dark:text-slate-500" />
-                            </div>
-                            <h3 className="text-lg font-medium text-slate-900 dark:text-zinc-100 mb-2">
-                                {productsT.t("no_results")}
-                            </h3>
-                            <button
-                                onClick={clearAll}
-                                className="text-primary hover:underline font-medium"
-                            >
-                                {productsT.t("clear_all")}
-                            </button>
+                            {filteredProducts.length === 0 && (
+                                <div className="flex flex-col items-center justify-center py-24 text-center animate-in fade-in duration-500 md:col-span-2 xl:col-span-3">
+                                    <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center mb-4">
+                                        <Filter className="w-8 h-8 text-muted-foreground/50" />
+                                    </div>
+                                    <h3 className="text-lg font-medium text-foreground mb-2">
+                                        {productsT.t("no_results")}
+                                    </h3>
+                                    <button
+                                        onClick={clearAll}
+                                        className="text-primary hover:underline font-medium"
+                                    >
+                                        {productsT.t("clear_all")}
+                                    </button>
+                                </div>
+                            )}
                         </div>
-                    )}
+                    </div>
                 </section>
 
                 {/* CTA Section */}
