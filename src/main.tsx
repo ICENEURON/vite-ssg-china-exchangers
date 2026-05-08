@@ -5,8 +5,12 @@ import { LanguageProvider } from "./context/language";
 import { ROUTES, type RouteDef } from "./routes/config";
 import { generateLocalizedRoutes } from "./utils/language-routing";
 import "./index.css";
-import "./i18n";
+import { syncLanguageToPath } from "./i18n/config";
 import type { RouteObject } from "react-router-dom";
+
+if (typeof window !== "undefined") {
+  syncLanguageToPath(window.location.pathname);
+}
 
 // 检查是否启用认证功能
 const enableAuth = import.meta.env.VITE_ENABLE_AUTH === "true";

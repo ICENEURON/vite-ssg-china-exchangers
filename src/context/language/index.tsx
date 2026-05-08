@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useCallback } from 'react';
+import { useEffect, useCallback } from 'react';
 import { Outlet } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Head } from 'vite-react-ssg';
@@ -14,6 +14,10 @@ declare global {
 export function LanguageProvider() {
   const { i18n } = useTranslation();
   const currentLanguage = useCurrentLanguage();
+
+  if (typeof window === 'undefined' && i18n.language !== currentLanguage) {
+    i18n.changeLanguage(currentLanguage);
+  }
 
   // 统一的语言设置函数
   const updateLanguage = useCallback((language: string) => {
@@ -33,17 +37,14 @@ export function LanguageProvider() {
     }
   }, [i18n]);
 
-  // 在渲染期间立即初始化语言以防止闪烁
-  useMemo(() => {
-    updateLanguage(currentLanguage);
-  }, [currentLanguage, updateLanguage]);
-
-  // 处理持久化存储（仅在客户端）
+  // Keep i18n, document metadata, and persisted language in sync after render.
   useEffect(() => {
+    updateLanguage(currentLanguage);
+
     if (typeof localStorage !== 'undefined') {
       localStorage.setItem('language', currentLanguage);
     }
-  }, [currentLanguage]);
+  }, [currentLanguage, updateLanguage]);
 
   return (
     <>

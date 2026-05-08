@@ -1,26 +1,11 @@
 import { Outlet, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import { useTranslation } from "react-i18next";
 import { AuthProvider } from "../../context/auth";
-import {
-  useCurrentLanguage
-} from "../../utils/language-routing";
 import Footer from "../../components/footer";
 import { Navigation } from "../../components/navigation";
 
 function PageLayoutContent() {
-  const { i18n } = useTranslation("translation");
-  const currentLanguage = useCurrentLanguage();
   const location = useLocation();
-
-  // 与URL路径同步语言
-  useEffect(() => {
-    if (i18n.language !== currentLanguage) {
-      i18n.changeLanguage(currentLanguage);
-    }
-    document.documentElement.lang = currentLanguage;
-    localStorage.setItem("language", currentLanguage);
-  }, [currentLanguage, i18n]);
 
   useEffect(() => {
     if (typeof window !== "undefined") {

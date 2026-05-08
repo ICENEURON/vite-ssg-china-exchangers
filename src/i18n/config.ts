@@ -6,7 +6,7 @@ import { getLanguageFromPath } from '../utils/language-routing';
 const isBrowser = () => typeof window !== 'undefined';
 
 // 从URL路径获取初始语言
-const getInitialLanguage = () => {
+export const getInitialLanguage = () => {
   if (isBrowser()) {
     // 从当前URL路径获取语言
     const language = getLanguageFromPath(window.location.pathname);
@@ -22,6 +22,21 @@ const getInitialLanguage = () => {
   return 'en';
 };
 
+export const syncLanguageToPath = (pathname: string) => {
+  const language = getLanguageFromPath(pathname);
+
+  if (i18n.language !== language) {
+    i18n.changeLanguage(language);
+  }
+
+  if (isBrowser()) {
+    window.__LANGUAGE__ = language;
+    document.documentElement.lang = language;
+  }
+
+  return language;
+};
+
 i18n
   .use(initReactI18next)
   .init({
@@ -29,6 +44,7 @@ i18n
     lng: getInitialLanguage(),
     fallbackLng: 'en',
     defaultNS,
+    initImmediate: false,
 
     interpolation: {
       escapeValue: false, // React已经处理了XSS防护
