@@ -21,6 +21,7 @@
   "legal": {
     "copyright": "© {{year}} HeatEx Direct. All rights reserved.",
     "terms": "terms and conditions",
-    "privacy": "privacy policy"
+    "privacy": "privacy policy",
+    "cookies": "cookie settings"
   }
 }

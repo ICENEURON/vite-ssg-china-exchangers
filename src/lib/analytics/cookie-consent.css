@@ -1,0 +1,90 @@
+#cc-main {
+  --cc-font-family: var(--font-sans);
+  --cc-modal-border-radius: 8px;
+  --cc-btn-border-radius: 6px;
+  --cc-bg: #ffffff;
+  --cc-primary-color: #0e131c;
+  --cc-secondary-color: #475569;
+  --cc-btn-primary-bg: #0a57e3;
+  --cc-btn-primary-color: #ffffff;
+  --cc-btn-primary-border-color: #0a57e3;
+  --cc-btn-primary-hover-bg: #0848bd;
+  --cc-btn-primary-hover-color: #ffffff;
+  --cc-btn-primary-hover-border-color: #0848bd;
+  --cc-btn-secondary-bg: #f1f5f9;
+  --cc-btn-secondary-color: #334155;
+  --cc-btn-secondary-border-color: #cbd5e1;
+  --cc-btn-secondary-hover-bg: #e2e8f0;
+  --cc-btn-secondary-hover-color: #0f172a;
+  --cc-btn-secondary-hover-border-color: #94a3b8;
+  --cc-separator-border-color: #d8e0eb;
+  --cc-toggle-on-bg: #0a57e3;
+  --cc-toggle-off-bg: #94a3b8;
+  --cc-toggle-readonly-bg: #cbd5e1;
+  --cc-cookie-category-block-bg: #f4f9fe;
+  --cc-cookie-category-block-border: #d8e0eb;
+  --cc-cookie-category-block-hover-bg: #eef4ff;
+  --cc-cookie-category-block-hover-border: #c7d7f2;
+  --cc-cookie-category-expanded-block-bg: #ffffff;
+  --cc-cookie-category-expanded-block-hover-bg: #e2e8f0;
+  --cc-footer-bg: #f4f9fe;
+  --cc-footer-color: #475569;
+  --cc-footer-border-color: #d8e0eb;
+}
+
+#cc-main .cm,
+#cc-main .pm {
+  border: 1px solid #d8e0eb;
+  box-shadow: 0 18px 48px rgb(14 19 28 / 18%);
+}
+
+#cc-main .cm__title,
+#cc-main .pm__title,
+#cc-main .pm__section-title {
+  font-family: var(--font-heading);
+}
+
+#cc-main .cm__btn,
+#cc-main .pm__btn {
+  letter-spacing: 0;
+}
+
+#cc-main .cm__btn[data-role="all"],
+#cc-main .pm__btn[data-role="all"],
+#cc-main .pm__btn[data-role="save"] {
+  background: #0a57e3;
+  border-color: #0a57e3;
+  color: #ffffff;
+}
+
+#cc-main .cm__btn[data-role="all"]:hover,
+#cc-main .pm__btn[data-role="all"]:hover,
+#cc-main .pm__btn[data-role="save"]:hover {
+  background: #0848bd;
+  border-color: #0848bd;
+  color: #ffffff;
+}
+
+#cc-main .cm__btn[data-role="necessary"],
+#cc-main .cm__btn[data-role="show"],
+#cc-main .pm__btn[data-role="necessary"] {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+  color: #334155;
+}
+
+#cc-main .cm__btn[data-role="necessary"]:hover,
+#cc-main .cm__btn[data-role="show"]:hover,
+#cc-main .pm__btn[data-role="necessary"]:hover {
+  background: #e2e8f0;
+  border-color: #94a3b8;
+  color: #0f172a;
+}
+
+#cc-main .cm__btn:focus-visible,
+#cc-main .pm__btn:focus-visible,
+#cc-main .pm__close-btn:focus-visible,
+#cc-main .section__toggle:focus-visible ~ .toggle__icon {
+  outline: 2px solid #0a57e3;
+  outline-offset: 2px;
+}

@@ -9,6 +9,7 @@ import {
 import { QuoteCta } from "../ui/quote-cta";
 import { RfqLink } from "../../utils/rfq-routing/link";
 import { Mail } from "lucide-react";
+import { showCookiePreferences } from "../../lib/analytics/cookie-consent";
 
 const Footer = () => {
   const { t } = useTranslation("translation");
@@ -150,6 +151,15 @@ const Footer = () => {
                 </a>
               </li>
             ))}
+            <li>
+              <button
+                type="button"
+                onClick={showCookiePreferences}
+                className="text-navbar-foreground/60 hover:text-navbar-foreground underline underline-offset-4 transition-colors duration-200"
+              >
+                {t("footer.legal.cookies")}
+              </button>
+            </li>
           </ul>
         </div>
       </div>

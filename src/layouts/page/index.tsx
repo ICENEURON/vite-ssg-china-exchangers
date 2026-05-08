@@ -3,19 +3,27 @@ import { useEffect } from "react";
 import { AuthProvider } from "../../context/auth";
 import Footer from "../../components/footer";
 import { Navigation } from "../../components/navigation";
+import { syncLanguageToPath } from "../../i18n/config";
+import { syncCookieConsentLanguage, trackPageView } from "../../lib/analytics/cookie-consent";
 
 function PageLayoutContent() {
   const location = useLocation();
 
   useEffect(() => {
     if (typeof window !== "undefined") {
+      const language = syncLanguageToPath(location.pathname);
+
+      void syncCookieConsentLanguage(language);
+
       window.scrollTo({
         top: 0,
         left: 0,
         behavior: "smooth",
       });
+
+      trackPageView(location.pathname + location.search, document.title);
     }
-  }, [location.pathname]);
+  }, [location.pathname, location.search]);
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">

@@ -59,6 +59,7 @@ Do not commit real `.env` files.
 | `VITE_SITE_TITLE` | Site title for metadata. |
 | `VITE_SITE_URL` | Canonical base URL, currently `https://heatexdirect.com/`. |
 | `VITE_CONTACT_EMAIL` | Public contact email. |
+| `VITE_GA_MEASUREMENT_ID` | Optional GA4 measurement ID. Analytics loads only after cookie consent is accepted. |
 | `VITE_SUPABASE_URL` | Supabase project URL. |
 | `VITE_SUPABASE_ANON_KEY` | Browser anon key for auth and RFQ insert according to RLS. |
 | `VITE_SUPABASE_SERVICE_ROLE_KEY` | Local sync key for `src/scripts/*`; never expose in browser code. |
@@ -200,6 +201,7 @@ HeatEx Direct 是一个中英文双语的静态 B2B 换热器采购网站。它�
 | `VITE_SITE_TITLE` | 元数据中的网站标题。 |
 | `VITE_SITE_URL` | canonical 基础地址，当前为 `https://heatexdirect.com/`。 |
 | `VITE_CONTACT_EMAIL` | 公开联系邮箱。 |
+| `VITE_GA_MEASUREMENT_ID` | 可选 GA4 Measurement ID。只有在用户同意 Cookie 分析后才加载 Analytics。 |
 | `VITE_SUPABASE_URL` | Supabase 项目 URL。 |
 | `VITE_SUPABASE_ANON_KEY` | 浏览器端 anon key，用于 Auth 和 RFQ 插入，权限取决于 RLS。 |
 | `VITE_SUPABASE_SERVICE_ROLE_KEY` | 本地同步脚本使用的 service role key，绝不能进浏览器代码。 |

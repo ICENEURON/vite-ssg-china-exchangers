@@ -6,10 +6,12 @@ import { ROUTES, type RouteDef } from "./routes/config";
 import { generateLocalizedRoutes } from "./utils/language-routing";
 import "./index.css";
 import { syncLanguageToPath } from "./i18n/config";
+import { initializeCookieConsent } from "./lib/analytics/cookie-consent";
 import type { RouteObject } from "react-router-dom";
 
 if (typeof window !== "undefined") {
   syncLanguageToPath(window.location.pathname);
+  initializeCookieConsent();
 }
 
 // 检查是否启用认证功能
