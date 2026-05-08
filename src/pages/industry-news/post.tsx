@@ -30,12 +30,10 @@ export default function BlogPost() {
     });
     const post = sortedPosts[currentIndex];
 
-    // Related posts: 5 before and 5 after
-    const relatedBefore = currentIndex > 0 ? sortedPosts.slice(Math.max(0, currentIndex - 5), currentIndex) : [];
-    const relatedAfter = currentIndex < sortedPosts.length - 1 ? sortedPosts.slice(currentIndex + 1, currentIndex + 6) : [];
-    const relatedPosts = [...relatedBefore, ...relatedAfter];
+    const relatedPosts = post
+        ? sortedPosts.filter((rPost) => rPost.permalink !== post.permalink).slice(0, 5)
+        : [];
 
-    // Back link (kept for meta/breadcrumb context if needed, but removed from UI as requested)
     const backLink = addLanguageToPath('/industry-news', currentLanguage);
 
     if (!post) return (
@@ -123,7 +121,7 @@ export default function BlogPost() {
                     <aside className="lg:col-span-1 flex flex-col gap-4 h-fit sticky top-48">
                         <div className="flex flex-col gap-2">
                             <div className="flex flex-col gap-4">
-                                <h3 className="relative font-bold text-[12px] text-slate-800pb-2 border-b border-slate-100">
+                                <h3 className="relative font-bold text-[12px] text-slate-800 pb-2 border-b border-slate-100">
                                     <span className="absolute left-0 bottom-[-1px] w-8 h-[2px] bg-primary"></span>
                                     {t("pages.news.blog.related_posts", "Other Articles")}
                                 </h3>
@@ -138,7 +136,7 @@ export default function BlogPost() {
                                                 <span className="text-[10px] text-slate-400 dark:text-slate-500 font-medium">
                                                     {new Date(rPost.date).toISOString().split('T')[0]}
                                                 </span>
-                                                <p className="text-[12px] font-semibold text-slate-800 leading-normal group-hover:text-primary transition-colors line-clamp-2">
+                                                <p className="text-[12px] font-semibold text-slate-800 leading-normal group-hover:text-primary transition-colors">
                                                     {rPost.title}
                                                 </p>
                                             </Link>
@@ -149,13 +147,19 @@ export default function BlogPost() {
                                 </div>
                             </div>
 
-                            <Link to={backLink} className="group inline-flex items-center gap-2 text-[12px] font-semibold tracking-widest uppercase text-slate-500 hover:text-primary transition-colors mt-2">
-                                <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
-                                {t("pages.news.blog.back_to_list")}
-                            </Link>
                         </div>
                     </aside>
                 </div>
+            </div>
+
+            <div className="fixed bottom-8 right-4 z-50 flex max-w-[calc(100vw-2rem)] flex-col items-end gap-3 sm:right-8 sm:max-w-none">
+                <Link
+                    to={backLink}
+                    className="flex max-w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-4 font-bold text-slate-800 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.3)] dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:text-blue-400 sm:px-6 group"
+                >
+                    <ArrowLeft className="h-5 w-5 shrink-0 transition-transform group-hover:-translate-x-1" />
+                    <span className="truncate">{t("pages.news.blog.back_to_list")}</span>
+                </Link>
             </div>
         </section>
     )

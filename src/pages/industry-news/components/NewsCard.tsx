@@ -10,6 +10,10 @@ interface NewsCardProps {
 
 export function NewsCard({ post }: NewsCardProps) {
     const { t } = useTranslation("translation");
+    const contentType = post.contentType || "posts";
+    const contentTypeLabel = t(`pages.news.content_types.${contentType}`, {
+        defaultValue: contentType,
+    });
 
     return (
         <Link
@@ -27,9 +31,12 @@ export function NewsCard({ post }: NewsCardProps) {
 
             {/* Content Section */}
             <div className="flex flex-col justify-center flex-1 min-w-0 py-1">
-                <div className="flex items-center mb-1">
+                <div className="flex flex-wrap items-center gap-2 mb-1">
                     <span className="text-sm text-muted font-medium">
                         {new Date(post.date).toISOString().split('T')[0]}
+                    </span>
+                    <span className="rounded-sm bg-primary/10 px-2 py-0.5 text-xs font-semibold text-primary">
+                        {contentTypeLabel}
                     </span>
                 </div>
 

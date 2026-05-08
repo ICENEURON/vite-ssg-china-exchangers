@@ -30,12 +30,12 @@ export function NewsHero({ post }: NewsHeroProps) {
             <div className="relative z-10 flex flex-col justify-end p-8 md:p-12 lg:h-[400px]">
                 <div className="space-y-2 max-w-3xl">
                     <div className="flex items-center gap-3">
-                        <Badge variant="secondary" className="bg-blue-200/80 text-accent border-blue-400/50 hover:bg-blue-200">
-                            {contentTypeLabel}
-                        </Badge>
                         <span className="text-sm text-muted-foreground font-medium">
                             {new Date(post.date).toISOString().split('T')[0]}
                         </span>
+                        <Badge variant="secondary" className="bg-blue-200/80 text-accent border-blue-400/50 hover:bg-blue-200">
+                            {contentTypeLabel}
+                        </Badge>
                     </div>
 
                     <Link to={post.permalink} className="hover:text-accent hover:underline decoration-accent underline-offset-2">
