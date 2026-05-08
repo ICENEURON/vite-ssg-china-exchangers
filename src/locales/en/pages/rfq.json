@@ -299,6 +299,9 @@
     "publicMode": "Public Mode",
     "anonymousModeDesc": "Factories cannot see your email directly. We manage communication.",
     "publicModeDesc": "Factories can see your email information directly.",
+    "sourceManufacturerTargetTitle": "Send to",
+    "sourceManufacturerTargetEnabledDesc": "Because you entered from a related page, this RFQ will be sent to that company. Other quote opportunities may be routed to other manufacturers.",
+    "sourceManufacturerTargetDisabledDesc": "This RFQ will not be specifically sent to the source company. It will be routed like a general quote request.",
     "projectContextTitle": "1. Project Context",
     "productSpecsTitle": "2. Design & Equipment Parameters",
     "editBtn": "Edit",
@@ -342,8 +345,7 @@
     "otherPrefix": "Other"
   },
   "success": {
-    "title1": "Verified &",
-    "title2": "Submitted!",
+    "title": "Submitted!",
     "desc": "We have successfully processed your quote request. We will be in touch shortly to assist you with the next steps.",
     "homeBtn": "Return to Home"
   },

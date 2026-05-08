@@ -14,6 +14,7 @@ export interface RFQSubmissionData {
   additional_notes: string | null;
   is_stealth: boolean;
   source_url: string | null;
+  is_targeting_source_manufacturer: boolean;
 }
 
 /**

@@ -4,9 +4,6 @@ import { addLanguageToPath, getPathWithoutLanguage, useCurrentLanguage, type Lan
 
 export const RFQ_SOURCE_URL_STORAGE_KEY = "heatex_rfq_source_url";
 
-export type RfqParamValue = string | null | undefined;
-export type RfqParams = Record<string, RfqParamValue>;
-
 function getStoredSourcePath() {
     return typeof window !== "undefined" ? window.sessionStorage.getItem(RFQ_SOURCE_URL_STORAGE_KEY) : null;
 }
@@ -33,34 +30,23 @@ function getCurrentSourcePath(pathname: string, search: string) {
     return normalizeRfqSourcePath(pathname) || "/";
 }
 
-function buildRfqPath(pathname: string, search: string, currentLanguage: Language, extraParams: RfqParams = {}) {
+function buildRfqPath(pathname: string, search: string, currentLanguage: Language) {
     const params = new URLSearchParams();
 
     params.set("source_url", getCurrentSourcePath(pathname, search));
 
-    Object.entries(extraParams).forEach(([key, value]) => {
-        if (typeof value !== "string") return;
-
-        const trimmedValue = value.trim();
-        if (trimmedValue) {
-            params.set(key, trimmedValue);
-        }
-    });
-
     return `${addLanguageToPath("/rfq", currentLanguage)}?${params.toString()}`;
 }
 
-type RfqLinkProps = Omit<LinkProps, "to"> & {
-    params?: RfqParams;
-};
+type RfqLinkProps = Omit<LinkProps, "to">;
 
 export const RfqLink = forwardRef<HTMLAnchorElement, RfqLinkProps>(function RfqLink(
-    { params, onClick, ...props },
+    { onClick, ...props },
     ref
 ) {
     const currentLanguage = useCurrentLanguage();
     const location = useLocation();
-    const to = buildRfqPath(location.pathname, location.search, currentLanguage, params);
+    const to = buildRfqPath(location.pathname, location.search, currentLanguage);
 
     return (
         <Link

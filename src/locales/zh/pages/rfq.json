@@ -299,6 +299,9 @@
     "publicMode": "公开模式",
     "anonymousModeDesc": "工厂无法直接看到您的邮箱。我们将协助沟通。",
     "publicModeDesc": "工厂可以直接看到您的邮箱信息。",
+    "sourceManufacturerTargetTitle": "定向发送给",
+    "sourceManufacturerTargetEnabledDesc": "因为您是从相关页面进入，启用后会确定给这家公司发消息，其他询价机会会随机分配给其他公司。",
+    "sourceManufacturerTargetDisabledDesc": "关闭后，不会专门发送给来源公司，将按普通询价随机分配给其他公司。",
     "projectContextTitle": "1. 项目背景",
     "productSpecsTitle": "2. 设计与设备参数",
     "editBtn": "编辑",
@@ -342,8 +345,7 @@
     "otherPrefix": "其他"
   },
   "success": {
-    "title1": "已验证且",
-    "title2": "提交成功！",
+    "title": "提交成功！",
     "desc": "我们已经成功处理了您的询价请求。我们将很快与您联系，协助您完成接下来的步骤。",
     "homeBtn": "返回首页"
   },

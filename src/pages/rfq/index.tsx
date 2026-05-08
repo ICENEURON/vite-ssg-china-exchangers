@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import { Head } from 'vite-react-ssg'
 import { useSearchParams } from "react-router-dom"
 import { Button } from "../../components/ui/button"
@@ -11,8 +11,17 @@ import { FinalConfirmStep } from "./components/FinalConfirmStep"
 import { useTranslation } from "react-i18next"
 import { submitRFQ } from "../../lib/supabase/db"
 import type { RFQSubmissionData } from "../../lib/supabase/db"
-import { getPathWithoutLanguage } from "../../utils/language-routing"
+import { getPathWithoutLanguage, useCurrentLanguage } from "../../utils/language-routing"
 import { RFQ_SOURCE_URL_STORAGE_KEY } from "../../utils/rfq-routing/link"
+import manufacturersData from "../../data/manufacturers.json"
+
+interface SourceManufacturer {
+  slug: string;
+  name: {
+    en: string;
+    zh: string;
+  };
+}
 
 function normalizeRfqSourcePath(value: string | null) {
   if (!value) return null;
@@ -25,9 +34,30 @@ function normalizeRfqSourcePath(value: string | null) {
   }
 }
 
+function getSourceManufacturerSlug(sourceUrl: string | null) {
+  if (!sourceUrl) return null;
+
+  const [, section, firstSlug] = getPathWithoutLanguage(sourceUrl).split("/");
+
+  if ((section === "manufacturers" || section === "products") && firstSlug) {
+    return firstSlug;
+  }
+
+  return null;
+}
+
 export default function SmartRfqBuilder() {
   const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
+  const currentLanguage = useCurrentLanguage();
   const [searchParams] = useSearchParams();
+
+  const sourceUrl = normalizeRfqSourcePath(searchParams.get("source_url"))
+    || normalizeRfqSourcePath(typeof window !== "undefined" ? window.sessionStorage.getItem(RFQ_SOURCE_URL_STORAGE_KEY) : null);
+  const sourceManufacturerSlug = getSourceManufacturerSlug(sourceUrl);
+  const sourceManufacturer = useMemo(() => (
+    (manufacturersData as SourceManufacturer[]).find((manufacturer) => manufacturer.slug === sourceManufacturerSlug) || null
+  ), [sourceManufacturerSlug]);
+  const sourceManufacturerName = sourceManufacturer?.name[currentLanguage] || sourceManufacturer?.name.en || null;
 
   const [step, setStep] = useState(1)
 
@@ -98,6 +128,7 @@ export default function SmartRfqBuilder() {
   })
 
   const [isAnonymous, setIsAnonymous] = useState(true)
+  const [isTargetingSourceManufacturer, setIsTargetingSourceManufacturer] = useState(true)
   const [email, setEmail] = useState("")
   const [isVerified, setIsVerified] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
@@ -152,8 +183,6 @@ export default function SmartRfqBuilder() {
     const freeDomains = ["gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "qq.com", "163.com", "126.com", "foxmail.com", "icloud.com"];
     const emailDomain = email.split("@")[1]?.toLowerCase() || "";
     const isBusinessEmail = !freeDomains.includes(emailDomain);
-    const sourceUrl = normalizeRfqSourcePath(searchParams.get("source_url"))
-      || normalizeRfqSourcePath(typeof window !== "undefined" ? window.sessionStorage.getItem(RFQ_SOURCE_URL_STORAGE_KEY) : null);
 
     const submissionPayload: RFQSubmissionData = {
       first_name: contextData.firstName,
@@ -166,6 +195,7 @@ export default function SmartRfqBuilder() {
       additional_notes: specsData.additionalNotes || null,
       is_stealth: isAnonymous,
       source_url: sourceUrl || null,
+      is_targeting_source_manufacturer: Boolean(sourceManufacturer && isTargetingSourceManufacturer),
       parameters: {
         hotMediaName: specsData.hotMediaName,
         hotInletFluidType: specsData.hotInletFluidType,
@@ -216,6 +246,7 @@ export default function SmartRfqBuilder() {
       await submitRFQ(submissionPayload);
       if (typeof window !== "undefined") {
         window.sessionStorage.removeItem(RFQ_SOURCE_URL_STORAGE_KEY);
+        window.scrollTo({ top: 0, behavior: "smooth" });
       }
       setIsSubmitted(true);
     } catch (error: unknown) {
@@ -304,7 +335,10 @@ export default function SmartRfqBuilder() {
                   specs={specsData}
                   email={email}
                   isAnonymous={isAnonymous}
+                  sourceManufacturerName={sourceManufacturerName}
+                  isTargetingSourceManufacturer={isTargetingSourceManufacturer}
                   onToggleAnonymous={() => setIsAnonymous(!isAnonymous)}
+                  onToggleTargetingSourceManufacturer={() => setIsTargetingSourceManufacturer(!isTargetingSourceManufacturer)}
                   onEditStep={(s) => setStep(s)}
                 />
 
@@ -327,12 +361,12 @@ export default function SmartRfqBuilder() {
                   <Check className="w-12 h-12 text-green-600 dark:text-green-400 stroke-[3]" />
                 </div>
                 <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-slate-50 leading-tight mb-6">
-                  {t("success.title1")}<br /><span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-emerald-600">{t("success.title2")}</span>
+                  {t("success.title")}
                 </h2>
                 <p className="text-lg text-slate-600 dark:text-slate-400 mb-10 max-w-md mx-auto leading-relaxed">
                   {t("success.desc")}
                 </p>
-                <Button variant="outline" className="px-8 h-12 rounded-xl text-primary border-primary/20 hover:bg-primary/5 font-bold" onClick={() => window.location.href = "/"}>
+                <Button className="px-8 h-12 rounded-xl bg-blue-600 text-white hover:bg-blue-700 font-bold shadow-lg shadow-blue-600/20" onClick={() => window.location.href = "/"}>
                   {t("success.homeBtn")}
                 </Button>
               </section>

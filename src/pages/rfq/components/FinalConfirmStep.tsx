@@ -1,6 +1,6 @@
 import type { RqfContextData } from "./ContextStep"
 import type { RfqProductSpecsData } from "./ProductAndSpecsStep"
-import { Check, ShieldCheck, User, Edit2 } from "lucide-react"
+import { Check, ShieldCheck, User, Edit2, Send } from "lucide-react"
 import { useTranslation } from "react-i18next"
 
 interface Option {
@@ -13,11 +13,14 @@ interface FinalConfirmStepProps {
     specs: RfqProductSpecsData;
     email: string;
     isAnonymous: boolean;
+    sourceManufacturerName: string | null;
+    isTargetingSourceManufacturer: boolean;
     onToggleAnonymous: () => void;
+    onToggleTargetingSourceManufacturer: () => void;
     onEditStep: (step: number) => void;
 }
 
-export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleAnonymous, onEditStep }: FinalConfirmStepProps) {
+export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceManufacturerName, isTargetingSourceManufacturer, onToggleAnonymous, onToggleTargetingSourceManufacturer, onEditStep }: FinalConfirmStepProps) {
     const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
     const industries = t("industries", { returnObjects: true }) as Option[];
     const fluidTypes = t("fluidTypes", { returnObjects: true }) as Option[];
@@ -108,7 +111,7 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleA
             </div>
 
             {/* Privacy Setting */}
-            <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 shadow-sm flex items-center justify-between">
+            <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 shadow-sm flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
                 <div className="flex items-start gap-4">
                     <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-colors duration-300 ${isAnonymous ? 'bg-primary/10 dark:bg-primary/20' : 'bg-slate-100 dark:bg-slate-800'}`}>
                         {isAnonymous ? <ShieldCheck className="w-6 h-6 text-primary" /> : <User className="w-6 h-6 text-slate-400" />}
@@ -128,7 +131,7 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleA
                     aria-checked={isAnonymous}
                     onClick={onToggleAnonymous}
                     className={`
-                        relative inline-flex h-8 w-14 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-300 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2
+                        relative inline-flex h-8 w-14 shrink-0 cursor-pointer self-end rounded-full border-2 border-transparent transition-colors duration-300 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 sm:self-auto
                         ${isAnonymous ? 'bg-primary' : 'bg-slate-300 dark:bg-slate-700'}
                     `}
                 >
@@ -140,6 +143,43 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, onToggleA
                     />
                 </button>
             </div>
+
+            {sourceManufacturerName && (
+                <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 shadow-sm flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+                    <div className="flex items-start gap-4">
+                        <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-colors duration-300 ${isTargetingSourceManufacturer ? 'bg-emerald-100 dark:bg-emerald-900/30' : 'bg-slate-100 dark:bg-slate-800'}`}>
+                            <Send className={`w-6 h-6 ${isTargetingSourceManufacturer ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-400'}`} />
+                        </div>
+                        <div>
+                            <div className="font-bold text-slate-900 dark:text-slate-50">
+                                {t("step4.sourceManufacturerTargetTitle")} <span className="text-blue-600 dark:text-blue-400">{sourceManufacturerName}</span>
+                            </div>
+                            <div className="text-sm text-slate-500 mt-0.5 max-w-sm">
+                                {isTargetingSourceManufacturer
+                                    ? t("step4.sourceManufacturerTargetEnabledDesc")
+                                    : t("step4.sourceManufacturerTargetDisabledDesc")}
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        type="button"
+                        role="switch"
+                        aria-checked={isTargetingSourceManufacturer}
+                        onClick={onToggleTargetingSourceManufacturer}
+                        className={`
+                            relative inline-flex h-8 w-14 shrink-0 cursor-pointer self-end rounded-full border-2 border-transparent transition-colors duration-300 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2 sm:self-auto
+                            ${isTargetingSourceManufacturer ? 'bg-emerald-500' : 'bg-slate-300 dark:bg-slate-700'}
+                        `}
+                    >
+                        <span
+                            className={`
+                                pointer-events-none block h-7 w-7 rounded-full bg-white shadow-md ring-0 transition-transform duration-300 ease-in-out
+                                ${isTargetingSourceManufacturer ? 'translate-x-6' : 'translate-x-0'}
+                            `}
+                        />
+                    </button>
+                </div>
+            )}
 
             {/* Review Summary */}
             <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 shadow-sm space-y-8 mt-8">

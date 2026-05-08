@@ -287,7 +287,7 @@ export default function ManufacturerProfilePage() {
                                 <p className="text-slate-300 text-sm mb-6 relative z-10">{t(`${SHARED_TK}.connect_description`)}</p>
 
                                 <QuoteCta size="lg" className="relative z-10 w-full h-14 text-lg" asChild>
-                                    <RfqLink params={{ company: basicInfo?.name }}>
+                                    <RfqLink>
                                         <Mail className="w-5 h-5" />
                                         {t("navigation.menu.rfq")}
                                     </RfqLink>
@@ -703,7 +703,7 @@ export default function ManufacturerProfilePage() {
                             {t(`${SHARED_TK}.partner_desc`)}
                         </p>
                         <QuoteCta size="lg" className="h-16 px-10 text-xl" asChild>
-                            <RfqLink params={{ company: basicInfo?.name }}>
+                            <RfqLink>
                                 <Mail className="w-5 h-5" />
                                 {t("navigation.menu.rfq")}
                             </RfqLink>
