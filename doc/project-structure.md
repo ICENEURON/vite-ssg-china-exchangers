@@ -81,7 +81,8 @@ src/utils/                   Routing, theme, language, class helpers
 | `/products` | Product list. |
 | `/products/:manufacturerSlug/:productSlug` | Product profile, generated from product list JSON. |
 | `/rfq` | Smart RFQ builder. |
-| `/claim-your-profile` | Supplier profile claim page. |
+| `/update-your-profile` | Manufacturer profile update page. |
+| `/claim-your-profile` | Legacy redirect to `/update-your-profile`. |
 | `/content-marketing-services` | Supplier content marketing page. |
 | `/about`, `/contact`, `/terms`, `/privacy` | Static public pages. |
 | `/industry-news`, `/industry-news/:slug` | Blog routes when `VITE_ENABLE_BLOG=true`. |
@@ -239,7 +240,8 @@ src/utils/                   路由、主题、语言、class 工具
 | `/products` | 产品列表。 |
 | `/products/:manufacturerSlug/:productSlug` | 产品详情页，从产品 list JSON 生成。 |
 | `/rfq` | 智能 RFQ 表单。 |
-| `/claim-your-profile` | 供应商资料认领页。 |
+| `/update-your-profile` | 制造商资料更新页。 |
+| `/claim-your-profile` | 旧路径，重定向到 `/update-your-profile`。 |
 | `/content-marketing-services` | 供应商内容营销页。 |
 | `/about`, `/contact`, `/terms`, `/privacy` | 静态公开页面。 |
 | `/industry-news`, `/industry-news/:slug` | `VITE_ENABLE_BLOG=true` 时启用的博客路由。 |

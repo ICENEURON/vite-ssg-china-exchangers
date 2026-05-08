@@ -26,7 +26,7 @@ export function GuidelinesSection() {
                             <div className="space-y-6">
                                 <div>
                                     <span className="text-xs font-bold text-green-500/80 uppercase tracking-wider">{t("accepted.formats.title")}</span>
-                                    <div className="mt-3 flex gap-3">
+                                    <div className="mt-3 flex flex-wrap gap-3">
                                         {(t("accepted.formats.types", { returnObjects: true }) as string[]).map((type, i) => (
                                             <div key={i} className="flex items-center gap-2 px-4 py-2.5 bg-background/50 border border-green-500/10 rounded-xl shadow-sm hover:border-green-500/30 transition-colors">
                                                 <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center">
@@ -36,6 +36,18 @@ export function GuidelinesSection() {
                                             </div>
                                         ))}
                                     </div>
+                                </div>
+
+                                <div>
+                                    <span className="text-xs font-bold text-green-500/80 uppercase tracking-wider">{t("accepted.requirements.title")}</span>
+                                    <ul className="mt-3 space-y-3 text-sm text-foreground/90">
+                                        {(t("accepted.requirements.items", { returnObjects: true }) as string[]).map((item, i) => (
+                                            <li key={i} className="flex items-start gap-3">
+                                                <div className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2 shrink-0 shadow-[0_0_6px_rgba(16,185,129,0.4)]"></div>
+                                                <span className="text-foreground">{item}</span>
+                                            </li>
+                                        ))}
+                                    </ul>
                                 </div>
 
                                 <div>

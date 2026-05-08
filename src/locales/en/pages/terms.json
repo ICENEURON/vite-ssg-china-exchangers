@@ -1,37 +1,57 @@
 {
-  "title": "Terms of Use – HeatEx Direct",
+  "title": "Terms of Use | HeatEx Direct",
   "meta": {
-    "description": "Terms of use for HeatEx Direct. Please read these terms carefully before using our verified manufacturer directory and quote request services.",
-    "keywords": "HeatEx Direct terms of use, B2B sourcing terms, vendor verification agreement, platform rules"
+    "description": "Terms of use for HeatEx Direct, an independent sourcing information platform for Chinese industrial heat exchanger manufacturers, product profiles, industry content, and quote request intake.",
+    "keywords": "HeatEx Direct terms, heat exchanger sourcing platform terms, China manufacturer directory terms, industrial sourcing information terms"
   },
   "hero": {
     "title": "Terms of Use",
-    "subtitle": "Please read these terms carefully. By using HeatEx Direct, you agree to the rules governing our B2B sourcing platform."
+    "subtitle": "These terms explain how HeatEx Direct may be used as an independent sourcing information platform for industrial heat exchanger buyers and suppliers."
   },
   "sections": {
     "acceptance": {
       "title": "1. Acceptance of Terms",
-      "content": "By accessing or using HeatEx Direct, you acknowledge that you have read, understood, and agree to be bound by these Terms of Use. If you do not agree with these terms, please do not use our platform or submit sourcing requests."
+      "content": "By accessing HeatEx Direct, browsing manufacturer or product pages, reading industry content, submitting a quote request, contacting us, or requesting a manufacturer profile update, you agree to these Terms of Use. If you do not agree with these terms, please do not use the website or submit information through it."
     },
-    "usePolicy": {
-      "title": "2. Permitted Use of the Platform",
-      "content": "HeatEx Direct is provided for commercial B2B sourcing and educational purposes. You may browse our directory, use our quote request tools, and contact verified manufacturers for legitimate business inquiries. You agree not to scrape data, spam manufacturers, or use the platform for fraudulent activities."
+    "platformRole": {
+      "title": "2. What HeatEx Direct Provides",
+      "content": "HeatEx Direct is an independent information platform focused on Chinese industrial heat exchanger manufacturers. We organize company background, product capabilities, application sectors, export markets, media assets, available files, industry articles, and structured quote request intake so buyers can conduct more informed preliminary research."
+    },
+    "notManufacturer": {
+      "title": "3. We Are Not a Manufacturer or Trading Party",
+      "content": "HeatEx Direct does not manufacture heat exchangers, sell physical products, issue binding quotations on behalf of suppliers, inspect finished goods, or become a party to any purchase order, supply contract, payment, logistics arrangement, warranty, or dispute between a buyer and a supplier."
+    },
+    "permittedUse": {
+      "title": "4. Permitted Use",
+      "content": "You may use the website for legitimate B2B research, supplier comparison, product education, manufacturer profile review, quote request preparation, manufacturer profile correction, and content or partnership inquiries. You may not use the website for unlawful activity, automated scraping, data resale, spam, impersonation, misleading submissions, or attempts to disrupt the website."
+    },
+    "quoteRequests": {
+      "title": "5. Quote Requests and Follow-Up",
+      "content": "Quote request forms are intended to collect project context and technical parameters such as media, flow, temperatures, pressure, materials, standards, quantity, and notes. Submitting a request does not guarantee supplier acceptance, quotation, pricing, delivery, technical suitability, or commercial outcome. We may review the request, ask clarifying questions, and use a verifiable email address to follow up."
+    },
+    "manufacturerProfiles": {
+      "title": "6. Manufacturer Profiles and Updates",
+      "content": "Manufacturer profiles may include public information, supplier-provided materials, translated or summarized descriptions, images, files, certificates, product pages, and editorial context. Manufacturers or authorized representatives may ask us to correct or update profile information, but we reserve the right to review, edit, reject, or remove submissions that are incomplete, unverifiable, misleading, promotional beyond reasonable limits, or outside the scope of this platform."
+    },
+    "contentAccuracy": {
+      "title": "7. Information Accuracy and Buyer Due Diligence",
+      "content": "We aim to organize information in a clear and inspectable way, but website content is provided for preliminary research and may be incomplete, outdated, translated, summarized, or based on third-party sources. Buyers remain responsible for final supplier due diligence, technical validation, certifications, compliance checks, contract terms, quality inspections, and purchase decisions."
+    },
+    "intellectualProperty": {
+      "title": "8. Content and Intellectual Property",
+      "content": "Unless otherwise stated, the website structure, written content, translations, page layouts, data organization, and editorial materials are owned by or licensed to HeatEx Direct. Supplier names, logos, documents, product images, and other third-party materials may belong to their respective owners and are used for identification, profile, or informational purposes."
     },
     "privacy": {
-      "title": "3. Verification and Accuracy",
-      "content": "While we manually verify factory business licenses, production scopes, and ASME/ISO certificates to the best of our ability, the information is provided 'as is'. We rely on publicly available databases and documents provided by the manufacturers. We do not guarantee the absolute accuracy of every company profile or their future production capabilities."
+      "title": "9. Privacy and Communications",
+      "content": "Information you submit through quote request, contact, profile update, and content partnership workflows is handled according to our Privacy Policy. By submitting information, you authorize us to use it for platform operation, request review, communication, supplier profile management, and relevant follow-up as described in that policy."
     },
-    "disclaimers": {
-      "title": "4. Platform Independence",
-      "content": "HeatEx Direct acts as an information bridge and verification directory, not a party to your transactions. Any contract, payment, or manufacturing agreement is strictly between the buyer and the manufacturer. We do not inspect final goods, and we do not act as a trading company or legal representative for either party."
-    },
-    "limitation": {
-      "title": "5. Limitation of Liability",
-      "content": "To the fullest extent permitted by law, HeatEx Direct shall not be liable for any direct, indirect, incidental, or consequential damages arising from the use of our platform, including but not limited to manufacturing defects, delivery delays, financial losses, or disputes with suppliers found through our directory."
+    "liability": {
+      "title": "10. Disclaimer and Limitation of Liability",
+      "content": "The website and its content are provided on an as-is and as-available basis. To the maximum extent permitted by law, HeatEx Direct is not liable for losses arising from reliance on website content, supplier decisions, technical mismatch, commercial disputes, delivery delays, quality issues, data interruptions, or third-party actions."
     },
     "changes": {
-      "title": "6. Updates to Terms",
-      "content": "We reserve the right to update or modify these Terms of Use at any time. Changes will be effective immediately upon posting to this page. Continued use of the platform after any such changes constitutes your acceptance of the new terms."
+      "title": "11. Changes to These Terms",
+      "content": "We may update these Terms of Use as the website, content model, sourcing workflows, or legal requirements change. Updated terms will be posted on this page. Continued use of HeatEx Direct after changes are posted means you accept the updated terms."
     }
   }
 }

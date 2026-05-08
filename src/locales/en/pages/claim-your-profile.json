@@ -1,117 +1,133 @@
 {
-  "title": "Claim Your Profile - HeatEx Direct",
+  "title": "Update Your Manufacturer Profile | HeatEx Direct",
   "meta": {
-    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
-    "keywords": "Heat Exchangers, China Manufacturer, Industrial Sourcing, ASME, ISO, Plate Heat Exchangers, Shell & Tube"
+    "description": "Update a Chinese heat exchanger manufacturer profile on HeatEx Direct by emailing company information, product details, files, certificates, images, and correction requests.",
+    "keywords": "update manufacturer profile, HeatEx Direct supplier profile, Chinese heat exchanger manufacturer update, supplier images, product files"
   },
   "og": {
-    "title": "HeatEx Direct - Verified Factory Direct",
-    "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+    "title": "Update Your Manufacturer Profile - HeatEx Direct",
+    "description": "Send updated manufacturer information, product details, images, files, and corrections to HeatEx Direct by email for review.",
     "image": "/static/websites/home-hero.png",
     "url": "{{url}}",
     "type": "website",
     "site_name": "{{site_name}}"
   },
   "hero": {
-    "status_badge": "Database Status: ACTIVE",
-    "title_prefix": "Your Factory is",
-    "title_suffix": "Already Listed.",
-    "description": "Thousands of buyers search our directory every month. Don't let an unclaimed profile represent your engineering capability. Verify your data to unlock the \"Official Supplier\" badge.",
-    "features": {
-      "manual_verification": "Manual Verification",
-      "license_check": "License Check"
-    },
-    "cta": "Request Verification via Email",
-    "certificate": {
-      "title": "CERTIFICATE OF REGISTRATION",
-      "certifies_text": "This certifies that the organization",
-      "company_name_placeholder": "Company Name",
-      "identified_text": "has been formally identified in the",
-      "database_name": "Chinese Manufacturer List",
-      "signature_label": "Analyst Signature",
-      "status_stamp": "Pending"
-    }
-  },
-  "benefits": {
-    "header": {
-      "title": "Ownership Drives Growth",
-      "description": "Engineers filter suppliers by <strong>current capabilities</strong>. If your profile shows outdated specs, you are invisible to next-gen projects. Active management is your competitive edge.",
-      "verified_badge": "Verified Profiles receive 2.4x more inquiries"
-    },
-    "cards": {
-      "ranking": {
-        "title": "Priority Ranking",
-        "description": "Our search algorithm prioritizes <strong>Verified</strong> profiles. Claiming your listing instantly boosts your visibility for high-volume keywords like \"Shell & Tube\" or \"PHE Maintenance\".",
-        "traffic_badge": "+85% Traffic"
-      },
-      "verified_signal": {
-        "title": "The \"Analyst Verified\" Signal",
-        "description": "Trust is the currency of B2B. A verified badge tells procurement managers that your certificates (ASME, ISO, PED) are valid and your factory is active. It eliminates the \"Middleman Risk\".",
-        "badges": {
-          "verified": "100% Verified",
-          "audit": "Factory Audit"
+    "status_badge": "Manufacturer Profile Updates",
+    "title": "Update and improve your manufacturer profile.",
+    "description": "If your company page needs new content, corrected information, updated product details, better images, certificates, brochures, or additional media files, send the materials to our team by email. We review the request and update the public profile where the information is relevant and verifiable.",
+    "highlights": [
+      "Email-based submission",
+      "Images and files accepted",
+      "Profile update template coming soon"
+    ],
+    "cta": "Email Profile Update",
+    "email_subject": "[Profile Update] - Your Company Name",
+    "panel": {
+      "eyebrow": "How updates work",
+      "title": "Send the materials first. We will review the page before publishing.",
+      "items": [
+        {
+          "title": "Use the profile update document when ready",
+          "description": "We plan to provide a downloadable profile update document. Until it is finalized, you can send the same information directly in an email or as your own document."
         },
-        "official_supplier": "OFFICIAL<br />SUPPLIER"
-      }
+        {
+          "title": "Provide images as attachments or links",
+          "description": "Send product images, factory photos, workshop images, certificates, brochures, and logos as email attachments, ZIP files, or cloud download links."
+        },
+        {
+          "title": "Keep everything in one email thread",
+          "description": "Use a clear subject line with your company name so our team can connect files, corrections, and follow-up questions to the right profile."
+        }
+      ]
     }
   },
-  "verification": {
-    "title": "We Verify Every Company Detail",
-    "description": "We confirm that all provided company information is authentic and accurate before it goes live. This ensures buyers can trust who they are dealing with.",
-    "steps": {
-      "submit": {
-        "title": "Submit Request",
-        "description": "You send us your latest information and supporting documents via email."
+  "update_scope": {
+    "eyebrow": "What can be updated",
+    "title": "Any profile content that helps buyers understand your company can be reviewed",
+    "description": "The goal is not to publish promotional statements without context. We prefer specific information that improves buyer understanding, technical comparison, and profile accuracy.",
+    "items": [
+      {
+        "title": "Company information",
+        "description": "Company name, location, website, year founded, business scope, export markets, core industries, and contact details."
       },
-      "audit": {
-        "title": "Analyst Audit",
-        "description": "Our team manually verifies your claims against official government databases."
+      {
+        "title": "Product capabilities",
+        "description": "Heat exchanger types, applications, materials, pressure and temperature ranges, product series, design standards, and available models."
       },
-      "update": {
-        "title": "Live Update",
-        "description": "Once confirmed, your profile is updated within 3-5 business days."
+      {
+        "title": "Documents and certificates",
+        "description": "Brochures, catalogs, datasheets, certificates, manuals, public-source references, and product files that can support the page."
+      },
+      {
+        "title": "Images and media",
+        "description": "Product photos, workshop photos, factory exterior, process images, logos, exhibition images, and other media suitable for public display."
       }
+    ],
+    "template": {
+      "title": "Downloadable update document",
+      "description": "A standard profile update document will be added later so manufacturers can fill in company, product, file, and image details in one format. For now, send the information by email in any clear structure.",
+      "status": "Template status: planned, not published yet."
     }
   },
-  "steps_guide": {
-    "title": "How to Submit an Update",
-    "description": "Please send an email to our Data Team with the following details.",
+  "process": {
+    "eyebrow": "Review process",
+    "title": "We review updates before changing the public page",
+    "description": "Every update request is handled manually. We may edit language, ask for clarification, or decline content that is incomplete, unverifiable, unrelated, or too promotional.",
+    "steps": [
+      {
+        "title": "Send materials by email",
+        "description": "Include the profile link if available, your company name, the fields to update, and any files or image links."
+      },
+      {
+        "title": "We check and organize the content",
+        "description": "Our team reviews whether the information belongs on the profile, whether files are usable, and whether the wording needs editing."
+      },
+      {
+        "title": "Approved updates go live",
+        "description": "Relevant updates are added to the manufacturer profile, product pages, or file/media areas after review."
+      }
+    ]
+  },
+  "submission": {
+    "title": "How to send your update",
+    "description": "Use email as the main submission method. If files are large, include a cloud download link and keep the link active long enough for review.",
     "contact": {
-      "email_label": "Email:",
-      "subject_label": "Subject:",
-      "subject_value": "[Claim Profile] - Your Company Name"
+      "email_label": "Email",
+      "subject_label": "Suggested subject",
+      "subject_value": "[Profile Update] - Your Company Name"
     },
-    "cta_button": "Send Email",
-    "required_info": {
-      "title": "Required Info",
-      "items": {
-        "identity": {
-          "title": "Company Identity",
-          "description": "Full English Name & Official Website."
+    "cta_button": "Send Update Email",
+    "required": {
+      "title": "Include in the email",
+      "items": [
+        {
+          "title": "Company and page reference",
+          "description": "Company name, website, existing HeatEx Direct profile link if available, and the person sending the update."
         },
-        "contact": {
-          "title": "Key Contact",
-          "description": "Name of Export Manager & Direct Email."
+        {
+          "title": "What should change",
+          "description": "List the exact fields or sections to update, such as company description, product scope, certificates, images, or contact information."
         },
-        "docs": {
-          "title": "Docs",
-          "description": "Business License (Required) & Valid Certificates."
+        {
+          "title": "Supporting materials",
+          "description": "Attach brochures, catalogs, certificates, product sheets, public links, or your own profile update document."
         }
-      }
+      ]
     },
-    "optional_info": {
-      "title": "Optional (Recommended)",
-      "items": {
-        "photos": {
-          "title": "High-Res Photos",
-          "description": "Factory exterior, workshop floor, or key product shots."
+    "media": {
+      "title": "Images and files",
+      "items": [
+        {
+          "title": "Images",
+          "description": "Send original images where possible. Use clear file names such as product-name-front.jpg, workshop-line.jpg, or company-logo.png."
         },
-        "description": {
-          "title": "Description",
-          "description": "A short updated \"About Us\" paragraph highlighting core competencies."
+        {
+          "title": "Large files",
+          "description": "For large image sets, videos, catalogs, or compressed folders, send a cloud drive link instead of embedding images inside the email body."
         }
-      }
+      ]
     },
-    "footer_note": "Note: We reserve the right to request additional information to prove you are the authorized representative of the factory."
+    "footer_note": "Submitting materials does not guarantee publication. HeatEx Direct may edit, summarize, reject, or request clarification before updating a public page."
   }
 }

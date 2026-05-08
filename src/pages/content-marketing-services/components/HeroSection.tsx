@@ -5,6 +5,7 @@ import { useTranslation, Trans } from "react-i18next"
 
 export function HeroSection() {
     const { t } = useTranslation("translation", { keyPrefix: "pages.cms.hero" });
+    const subject = encodeURIComponent(t("email_subject"));
 
     return (
         <section className="relative overflow-hidden py-10 px-2">
@@ -39,7 +40,7 @@ export function HeroSection() {
 
                 <div className="mt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
                     <Button size="lg" className="h-14 px-8 text-lg rounded-full group" asChild>
-                        <a href={`mailto:${import.meta.env.VITE_CONTACT_EMAIL}`}>
+                        <a href={`mailto:${import.meta.env.VITE_CONTACT_EMAIL}?subject=${subject}`}>
                             {t("buttons.start_publishing")}
                             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                         </a>

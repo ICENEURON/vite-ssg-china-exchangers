@@ -3,6 +3,9 @@ import { useTranslation } from 'react-i18next'
 
 export default function PrivacyPage() {
   const { t } = useTranslation('translation')
+  const sections = Object.values(
+    t('pages.privacy.sections', { returnObjects: true }) as Record<string, { title: string; content: string }>
+  )
 
   return (
     <>
@@ -12,67 +15,30 @@ export default function PrivacyPage() {
         <meta name="keywords" content={t('pages.privacy.meta.keywords')} />
       </Head>
 
-      <main className="min-h-screen w-full flex flex-col items-center py-16 px-4">
-        <div className="w-full max-w-5xl flex flex-col gap-12">
+      <main className="min-h-screen w-full flex flex-col items-center bg-white px-4 py-16 dark:bg-slate-950">
+        <article className="w-full max-w-4xl">
           {/* Header */}
-          <div className="flex flex-col items-center justify-center text-center gap-4">
+          <header className="mb-12 flex flex-col items-start gap-4 pb-2">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-foreground">
               {t('pages.privacy.hero.title')}
             </h1>
-          </div>
+            <p className="max-w-3xl text-lg leading-8 text-slate-600 dark:text-slate-300">
+              {t('pages.privacy.hero.subtitle')}
+            </p>
+          </header>
 
           {/* Content */}
-          <div className="flex flex-col gap-8 w-full p-2">
-            <div className="flex flex-col gap-3">
-              <h3 className="text-2xl font-bold text-foreground">{t('pages.privacy.sections.introduction.title')}</h3>
-              <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-light">
-                {t('pages.privacy.sections.introduction.content')}
-              </p>
-            </div>
-
-            <div className="flex flex-col gap-3">
-              <h3 className="text-2xl font-bold text-foreground">{t('pages.privacy.sections.collection.title')}</h3>
-              <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-light">
-                {t('pages.privacy.sections.collection.content')}
-              </p>
-            </div>
-
-            <div className="flex flex-col gap-3">
-              <h3 className="text-2xl font-bold text-foreground">{t('pages.privacy.sections.usage.title')}</h3>
-              <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-light">
-                {t('pages.privacy.sections.usage.content')}
-              </p>
-            </div>
-
-            <div className="flex flex-col gap-3">
-              <h3 className="text-2xl font-bold text-foreground">{t('pages.privacy.sections.sharing.title')}</h3>
-              <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-light">
-                {t('pages.privacy.sections.sharing.content')}
-              </p>
-            </div>
-
-            <div className="flex flex-col gap-3">
-              <h3 className="text-2xl font-bold text-foreground">{t('pages.privacy.sections.security.title')}</h3>
-              <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-light">
-                {t('pages.privacy.sections.security.content')}
-              </p>
-            </div>
-
-            <div className="flex flex-col gap-3">
-              <h3 className="text-2xl font-bold text-foreground">{t('pages.privacy.sections.cookies.title')}</h3>
-              <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-light">
-                {t('pages.privacy.sections.cookies.content')}
-              </p>
-            </div>
-
-            <div className="flex flex-col gap-3">
-              <h3 className="text-2xl font-bold text-foreground">{t('pages.privacy.sections.contact.title')}</h3>
-              <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-light">
-                {t('pages.privacy.sections.contact.content')}
-              </p>
-            </div>
+          <div className="space-y-10">
+            {sections.map((section) => (
+              <section key={section.title} className="scroll-mt-24">
+                <h2 className="text-2xl font-bold tracking-tight text-foreground">{section.title}</h2>
+                <p className="mt-3 text-lg leading-8 text-slate-600 dark:text-slate-300">
+                  {section.content}
+                </p>
+              </section>
+            ))}
           </div>
-        </div>
+        </article>
       </main>
     </>
   )

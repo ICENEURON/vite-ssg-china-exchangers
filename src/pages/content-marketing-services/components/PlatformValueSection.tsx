@@ -1,5 +1,5 @@
 
-import { TrendingUp, Search, Share2, Globe2 } from "lucide-react"
+import { BarChart3, ClipboardCheck, Newspaper, Search, Users } from "lucide-react"
 import { useTranslation } from "react-i18next"
 
 export function PlatformValueSection() {
@@ -9,10 +9,25 @@ export function PlatformValueSection() {
         <section className="pt-12 pb-20">
             <div className="container px-4 mx-auto max-w-6xl">
                 <div className="mb-8 md:text-center max-w-3xl mx-auto">
-                    <h1 className="font-bold tracking-tight mb-4">{t("title")}</h1>
+                    <h2 className="font-bold tracking-tight mb-4">{t("title")}</h2>
                     <p className="text-lg text-muted">
                         {t("description")}
                     </p>
+                </div>
+
+                <div className="mb-5 grid gap-3 md:grid-cols-3">
+                    {(t("overview", { returnObjects: true }) as { label: string; value: string }[]).map((item, index) => {
+                        const icons = [Newspaper, Users, ClipboardCheck];
+                        const Icon = icons[index] || Newspaper;
+
+                        return (
+                            <div key={item.label} className="rounded-2xl border border-border/30 bg-card p-5">
+                                <Icon className="mb-3 h-5 w-5 text-accent" />
+                                <p className="text-sm font-semibold text-muted">{item.label}</p>
+                                <p className="mt-1 text-base font-bold leading-snug">{item.value}</p>
+                            </div>
+                        )
+                    })}
                 </div>
 
                 {/* Bento Grid */}
@@ -26,7 +41,7 @@ export function PlatformValueSection() {
 
                         <div className="relative z-10">
                             <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-accent/10 text-accent mb-6">
-                                <TrendingUp className="w-6 h-6" />
+                                <BarChart3 className="w-6 h-6" />
                             </div>
                             <h4 className="font-bold mb-2">{t("items.seo.title")}</h4>
                             <p className="text-muted max-w-md">
@@ -44,46 +59,50 @@ export function PlatformValueSection() {
 
 
                     {/* Card 2: Direct Audience */}
-                    <div className="group relative rounded-3xl hidden md:flex flex-col justify-between hover:border-primary/50 transition-colors p-20 min-h-[300px]">
-                        <div className="relative h-full w-full rounded-xl flex items-center justify-center">
-                            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-accent/10 via-transparent to-transparent" />
-                            <div className="relative text-accent/60">
-                                <Globe2 className="h-24 w-24" />
+                    <div className="group relative rounded-3xl border border-border/20 bg-card p-8 min-h-[300px] flex flex-col justify-between hover:border-primary/50 transition-colors">
+                        <div>
+                            <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-blue-500/10 text-blue-500 mb-6">
+                                <Users className="w-6 h-6" />
                             </div>
-                            {/* Orbiting dots */}
-                            <div className="absolute h-full w-full border border-accent/20 rounded-full animate-[spin_8s_linear_infinite]" />
-                            <div className="absolute h-full w-full rounded-full animate-[spin_10s_linear_infinite_reverse]">
-                                <div className="absolute -top-1 left-1/2 w-2 h-2 bg-accent rounded-full shadow-[0_0_8px_rgba(249,115,22,0.6)]" />
-                            </div>
-                            <div className="absolute h-full w-full border border-accent/20 rounded-full animate-[spin_6s_linear_infinite]" />
+                            <h4 className="font-bold mb-2">{t("items.audience.title")}</h4>
+                            <p className="text-muted">{t("items.audience.description")}</p>
+                        </div>
+                        <div className="mt-6 flex flex-wrap gap-2">
+                            {(t("items.audience.segments", { returnObjects: true }) as string[]).map((segment) => (
+                                <span key={segment} className="rounded-full border border-blue-500/20 bg-blue-500/10 px-3 py-1 text-xs font-semibold text-blue-600 dark:text-blue-300">
+                                    {segment}
+                                </span>
+                            ))}
                         </div>
                     </div>
 
-                    {/* Card 3: Trust & Shareability */}
-                    <div className="group relative overflow-hidden rounded-3xl hidden md:flex flex-col justify-between transition-colors min-h-[120px]">
-                        <div className="relative h-full w-full rounded-xl flex items-center justify-center">
-                            {/* Stacked Cards Effect */}
-                            <div className="absolute w-36 h-42 bg-background border border-purple-500/20 rounded-lg shadow-lg rotate-[-6deg] translate-x-[-8px] scale-90 opacity-60 transition-transform duration-500 group-hover:translate-x-[-24px] group-hover:rotate-[-12deg]" />
-                            <div className="absolute w-36 h-42 bg-background border border-purple-500/20 rounded-lg shadow-lg rotate-[6deg] translate-x-[8px] scale-95 opacity-80 transition-transform duration-500 group-hover:translate-x-[24px] group-hover:rotate-[12deg]" />
-                            <div className="relative w-36 h-42 bg-background border border-purple-500/40 rounded-lg shadow-xl flex flex-col p-3 gap-2 transition-transform duration-500 group-hover:scale-110">
-                                <div className="w-12 h-12 rounded-full bg-purple-500/10 flex items-center justify-center mb-1">
-                                    <Share2 className="w-6 h-6 text-purple-500" />
-                                </div>
-                                <div className="w-full h-1.5 bg-purple-500/10 rounded-full" />
-                                <div className="w-2/3 h-1.5 bg-purple-500/10 rounded-full" />
+                    {/* Card 3: Editorial Fit */}
+                    <div className="group relative overflow-hidden rounded-3xl border border-border/20 bg-card p-8 min-h-[220px] flex flex-col justify-between transition-colors hover:border-purple-500/30">
+                        <div>
+                            <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-purple-500/10 text-purple-500 mb-6">
+                                <ClipboardCheck className="w-6 h-6" />
                             </div>
+                            <h4 className="font-bold mb-2">{t("items.screening.title")}</h4>
+                            <p className="text-muted">{t("items.screening.description")}</p>
                         </div>
+                        <ul className="mt-5 space-y-2 text-sm text-foreground/80">
+                            {(t("items.screening.items", { returnObjects: true }) as string[]).map((item) => (
+                                <li key={item} className="flex gap-2">
+                                    <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-purple-500" />
+                                    <span>{item}</span>
+                                </li>
+                            ))}
+                        </ul>
                     </div>
 
-                    {/* Card 4: Verified Badge Impact (Large - Spans 2 cols) */}
+                    {/* Card 4: Industry News Publishing */}
                     <div className="group relative overflow-hidden rounded-3xl bg-zinc-950 text-white p-8 md:col-span-2 grid grid-cols-1 sm:grid-cols-3 gap-8 items-center hover:ring-2 ring-primary/50 transition-all">
-                        {/* Abstract Visual */}
                         <div className="relative overflow-hidden rounded-xl border border-white/10 bg-white/5 p-4 w-full min-h-[160px] sm:col-span-1">
                             <div className="flex items-center gap-3 mb-3 pb-3 border-b border-white/10">
-                                <div className="w-8 h-8 rounded-full bg-gradient-to-br from-green-400 to-emerald-600" />
+                                <div className="w-8 h-8 rounded-full bg-gradient-to-br from-orange-400 to-red-500" />
                                 <div>
-                                    <div className="w-8 h-2 bg-white/20 rounded-full mb-1" />
-                                    <div className="w-4 h-2 bg-white/10 rounded-full" />
+                                    <div className="w-20 h-2 bg-white/20 rounded-full mb-1" />
+                                    <div className="w-12 h-2 bg-white/10 rounded-full" />
                                 </div>
                             </div>
                             <div className="space-y-2">

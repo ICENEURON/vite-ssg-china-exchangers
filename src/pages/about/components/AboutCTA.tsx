@@ -2,10 +2,13 @@ import { Button } from "../../../components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight, Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { addLanguageToPath, useCurrentLanguage } from "../../../utils/language-routing";
 
 export function AboutCTA() {
     const { t } = useTranslation("translation");
+    const currentLanguage = useCurrentLanguage();
     const email = import.meta.env.VITE_CONTACT_EMAIL;
+    const manufacturersPath = addLanguageToPath("/manufacturers", currentLanguage);
 
     return (
         <section className="py-10 px-2 flex justify-center bg-slate-900 text-white text-center relative overflow-hidden">
@@ -24,7 +27,7 @@ export function AboutCTA() {
 
                 <div className="flex flex-col items-center justify-center gap-4 p-4 w-full">
                     <Button size="lg" className="h-16 px-10 text-xl font-bold bg-primary hover:bg-primary/90 text-primary-foreground shadow-2xl shadow-primary/20 transition-all hover:scale-110 flex items-center justify-center gap-4" asChild>
-                        <Link to="/manufacturers">
+                        <Link to={manufacturersPath}>
                             {t("pages.about.cta.button")} <ArrowRight className="w-6 h-6" />
                         </Link>
                     </Button>

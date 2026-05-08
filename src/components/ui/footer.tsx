@@ -39,7 +39,7 @@ const Footer = ({ className }: FooterProps) => {
     {
       title: t('footer.resources.title'),
       links: [
-        { text: t('footer.resources.links.documentation'), url: addLanguageToPath("/claim-your-profile", currentLanguage) },
+        { text: t('footer.resources.links.documentation'), url: addLanguageToPath("/update-your-profile", currentLanguage) },
         { text: t('footer.resources.links.components'), url: addLanguageToPath("/components", currentLanguage) },
         { text: t('footer.resources.links.examples'), url: addLanguageToPath("/examples", currentLanguage) },
         { text: t('footer.resources.links.github'), url: "#" },
@@ -48,10 +48,10 @@ const Footer = ({ className }: FooterProps) => {
     {
       title: t('footer.guides.title'),
       links: [
-        { text: t('footer.guides.links.getting_started'), url: addLanguageToPath("/claim-your-profile", currentLanguage) },
-        { text: t('footer.guides.links.customization'), url: addLanguageToPath("/claim-your-profile", currentLanguage) },
-        { text: t('footer.guides.links.deployment'), url: addLanguageToPath("/claim-your-profile", currentLanguage) },
-        { text: t('footer.guides.links.best_practices'), url: addLanguageToPath("/claim-your-profile", currentLanguage) },
+        { text: t('footer.guides.links.getting_started'), url: addLanguageToPath("/update-your-profile", currentLanguage) },
+        { text: t('footer.guides.links.customization'), url: addLanguageToPath("/update-your-profile", currentLanguage) },
+        { text: t('footer.guides.links.deployment'), url: addLanguageToPath("/update-your-profile", currentLanguage) },
+        { text: t('footer.guides.links.best_practices'), url: addLanguageToPath("/update-your-profile", currentLanguage) },
       ],
     },
     {

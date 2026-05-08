@@ -72,7 +72,7 @@ export default function SignUpPage() {
 
               {/* <div className="m-4 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Button size="lg" asChild>
-                  <a href="/claim-your-profile">{t("pages.home.hero.cta_secondary")}</a>
+                  <a href="/update-your-profile">{t("pages.home.hero.cta_secondary")}</a>
                 </Button>
               </div> */}
             </div>

@@ -159,12 +159,12 @@ export function Navigation() {
             }
 
             // Components Menu
-            if (route.path === '/claim-your-profile') {
-                const isProfileActive = isActiveLink('/claim-your-profile') || isActiveLink('/content-marketing-services');
+            if (route.path === '/update-your-profile') {
+                const isProfileActive = isActiveLink('/update-your-profile') || isActiveLink('/content-marketing-services');
                 return (
                     <NavPopup key={route.path} label={t('navigation.menu.for_manufacturers_label')} isActive={isProfileActive} className="left-0">
                         <ul className="grid w-[300px] gap-3 p-2">
-                            <ListItem href={getLocalizedPath("/claim-your-profile")} title={t('navigation.menu.profile')} className="py-3">
+                            <ListItem href={getLocalizedPath("/update-your-profile")} title={t('navigation.menu.profile')} className="py-3">
                             </ListItem>
                             <ListItem href={getLocalizedPath("/content-marketing-services")} title={t('navigation.menu.content_marketing_services')} className="py-3">
                             </ListItem>

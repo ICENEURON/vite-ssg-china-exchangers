@@ -1,75 +1,106 @@
 {
-    "title": "Content Marketing Services - China Exchangers",
+    "title": "Submit Industry News Articles | HeatEx Direct",
     "meta": {
-        "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
-        "keywords": "Heat Exchangers, China Manufacturer, Industrial Sourcing, ASME, ISO, Plate Heat Exchangers, Shell & Tube"
+        "description": "Chinese heat exchanger manufacturers can submit technical articles, product updates, case studies, and market notes for editorial review and possible publication in HeatEx Direct Industry News.",
+        "keywords": "heat exchanger article submission, industry news submission, China heat exchanger manufacturers, technical articles, product updates, case studies, HeatEx Direct"
     },
     "og": {
-        "title": "HeatEx Direct - Verified Factory Direct",
-        "description": "Source Industrial Heat Exchangers Direct from Verified Chinese Factories. Manually verified Business Licenses, Production Scopes, and ASME Certificates.",
+        "title": "Submit Industry News Articles | HeatEx Direct",
+        "description": "Submit manufacturer articles, technical notes, case studies, and product updates for editorial review and possible publication in HeatEx Direct Industry News.",
         "image": "/static/websites/home-hero.png",
         "url": "{{url}}",
         "type": "website",
         "site_name": "{{site_name}}"
     },
     "hero": {
-        "badge": "Global Procurement Network",
-        "title": "Showcase Your <br /> <0>Engineering Authority</0>",
-        "description": "Reach global buyers not just with products, but with expertise. Publish technical insights and build lasting trust with procurement managers in HVAC, Marine, and Chemical industries.",
+        "badge": "Factory Article Submissions",
+        "title": "Submit articles for <br /> <0>Industry News</0>",
+        "description": "HeatEx Direct accepts article submissions from Chinese heat exchanger manufacturers. We review technical articles, product updates, application cases, factory news, and market notes, then publish suitable content in Industry News for buyers researching suppliers and equipment options.",
+        "email_subject": "[Industry News Submission] - Company Name - Article Topic",
         "buttons": {
-            "start_publishing": "Email us the article"
+            "start_publishing": "Email an Article Draft"
         }
     },
     "platform_impact": {
-        "title": "Platform Impact",
-        "description": "Don't just list your products. Demonstrate your technical leadership to thousands of daily active engineers and procurement specialists.",
+        "title": "What Industry News Publishes",
+        "description": "Industry News is not a press-release wall. It is a buyer-facing editorial area for useful heat exchanger information, manufacturer updates, technical explanations, China market notes, and practical sourcing context.",
+        "overview": [
+            {
+                "label": "Content destination",
+                "value": "Approved submissions are published in Industry News, not as ads."
+            },
+            {
+                "label": "Traffic profile",
+                "value": "Readers arrive through search, manufacturer research, product comparison, and RFQ workflows."
+            },
+            {
+                "label": "Editorial rule",
+                "value": "We publish clear, relevant, verifiable material that helps buyers understand the market."
+            }
+        ],
         "items": {
             "seo": {
-                "title": "High-Intent SEO Dominance",
-                "description": "Our platform ranks for thousands of commercial keywords. Your technical articles piggyback on our domain authority, appearing on the first page of Google for queries like \"Plate Heat Exchanger Maintenance\" or \"Ti vs SS316\"."
+                "title": "Search-Driven Buyer Traffic",
+                "description": "Industry News is designed for long-tail searches around heat exchanger products, materials, applications, maintenance, Chinese manufacturers, and supplier comparison. A useful article can continue attracting relevant readers after publication."
             },
             "audience": {
-                "title": "Global Audience",
-                "segments": {
-                    "hvac": "HVAC Engineers",
-                    "petrochemical": "Petrochemical",
-                    "marine": "Marine"
-                }
+                "title": "Who Reads These Articles",
+                "description": "The audience is practical and procurement-oriented: engineers, purchasing teams, project owners, distributors, and buyers comparing Chinese heat exchanger manufacturers before starting a conversation.",
+                "segments": [
+                    "Industrial buyers",
+                    "Engineers",
+                    "Procurement teams",
+                    "Distributors",
+                    "Project owners"
+                ]
             },
-            "asset": {
-                "title": "Build Digital Asset",
-                "description": "Articles act as permanent digital assets. They are sharable on LinkedIn, referenced in your proposals, and serve as third-party validation of your expertise."
+            "screening": {
+                "title": "How We Screen Submissions",
+                "description": "Every article is reviewed before publication. We may edit titles, structure, wording, translations, images, and links so the final article fits the site and stays useful to buyers.",
+                "items": [
+                    "Relevant to industrial heat exchangers or nearby thermal equipment",
+                    "Specific enough to help buyers make comparisons",
+                    "No misleading claims, unsupported rankings, or excessive promotion"
+                ]
             },
             "verified": {
-                "title": "Verified Supplier Status",
-                "description": "Publishing technical content automatically grants your profile the \"Contributor\" badge, boosting your visibility in directory search results.",
-                "badge": "VERIFIED",
+                "title": "A Useful Public Content Asset",
+                "description": "A published article can be linked from your profile, shared with buyers, and used as supporting material when explaining your products, applications, engineering experience, or company updates.",
+                "badge": "NEWS",
                 "tags": {
-                    "visibility": "Increased Visibility",
-                    "trust": "Trust Signal",
-                    "expert": "Expert Status"
+                    "visibility": "Industry News",
+                    "trust": "Editorial Review",
+                    "expert": "Buyer Context"
                 }
             }
         }
     },
     "guidelines": {
         "title": "Submission Standards",
-        "description": "We maintain a high bar for quality to ensure our audience trusts your content.",
+        "description": "Send editable article files and clearly named media. We only publish content that is relevant to heat exchanger buyers and suitable for public reading.",
         "accepted": {
             "title": "Accepted",
             "formats": {
-                "title": "File Formats",
+                "title": "Article File Formats",
                 "types": [
-                    ".DOC",
-                    ".DOCX"
+                    ".DOCX",
+                    ".DOC"
+                ]
+            },
+            "requirements": {
+                "title": "Files and Media",
+                "items": [
+                    "Send the article body as an editable Word file. Do not send the article only as a PDF or pasted image.",
+                    "Images should be original JPG, PNG, or WebP files with clear file names. Large media can be shared through a cloud download link.",
+                    "Include company name, contact person, website, suggested title, and whether the article should link to an existing manufacturer or product page."
                 ]
             },
             "topics": {
-                "title": "Topics",
+                "title": "Topics We Want",
                 "items": [
-                    "Technical Analysis (e.g. Design parameters)",
-                    "Maintenance & Troubleshooting Guides",
-                    "Real-world Case Studies"
+                    "Technical articles about heat exchanger design, materials, applications, maintenance, testing, or troubleshooting",
+                    "Factory updates, new production capability, new product series, certificates, exhibitions, or major project references",
+                    "China heat exchanger market notes, industry trends, application case studies, and practical buyer education"
                 ]
             }
         },
@@ -77,32 +108,32 @@
             "title": "Rejected",
             "formats": {
                 "title": "File Formats",
-                "description": "PDF, TXT, Pages, or Google Doc links are <0>NOT</0> accepted. We need editable files for formatting."
+                "description": "PDF-only articles, TXT files, Pages files, screenshots, or Google Doc links are <0>NOT</0> accepted as the main submission. We need editable Word files for review, formatting, and translation."
             },
             "content": {
-                "title": "Content",
+                "title": "Content We Avoid",
                 "items": [
-                    "Pure marketing fluff / \"Salesy\" language",
-                    "Press releases",
-                    "AI-generated low-quality text"
+                    "Pure advertising copy, slogans, exaggerated rankings, or unsupported claims such as 'No. 1' or 'best in China'",
+                    "Generic AI text that does not include real technical detail, factory context, product data, images, or buyer value",
+                    "Unrelated company news, copied third-party articles, confidential customer data, or content that cannot be verified"
                 ]
             }
         }
     },
     "process": {
-        "title": "How It Works",
+        "title": "How Submission Works",
         "steps": [
             {
-                "title": "Draft & Prepare",
-                "description": "Write your technical article. Ensure you have high-res photos. Save as .DOCX."
+                "title": "Prepare the Article",
+                "description": "Write the draft in .DOCX or .DOC format. Add images as separate files or links, and include basic company and contact details."
             },
             {
-                "title": "Email Submission",
-                "description": "Send to editor@heatexdirect.com with the subject '[Submission] - Company - Topic'."
+                "title": "Send by Email",
+                "description": "Email the draft to our team with the subject '[Industry News Submission] - Company Name - Article Topic'."
             },
             {
-                "title": "Review & Publish",
-                "description": "Our analysts verify technical accuracy within 7 days. Once approved, it goes live."
+                "title": "Review and Publish",
+                "description": "We review relevance, clarity, sourcing value, and file quality. If suitable, we edit and publish it in Industry News."
             }
         ]
     },
@@ -110,31 +141,32 @@
         "strategy": {
             "title": "Content Strategy",
             "items": [
-                "**Audience Analysis**: Deep dive into your target market's needs and pain points.",
-                "**Keyword Research**: Identifying high-value opportunities for organic growth.",
-                "**Content Calendar**: Structured planning for consistent engagement."
+                "**Topic selection**: Choose article angles that buyers actually search for.",
+                "**Editorial structure**: Turn factory information into a readable technical article.",
+                "**Buyer context**: Connect product claims to applications, conditions, and sourcing questions."
             ]
         },
         "creation": {
             "title": "Content Creation",
             "items": [
-                "**Blog Writing**: Informative articles that establish authority.",
-                "**Case Studies**: Proof of your success and expertise.",
-                "**Technical Documentation**: Clear guides for complex products."
+                "**Technical articles**: Practical explanations of products, materials, performance, and applications.",
+                "**Case studies**: Project and application stories with enough context to help buyers understand use cases.",
+                "**Company updates**: New product lines, certificates, factory capabilities, and public manufacturer news."
             ]
         },
         "distribution": {
-            "title": "Distribution & Analytics",
+            "title": "Publication and Review",
             "items": [
-                "**SEO Optimization**: Technical implementation for maximum visibility.",
-                "**Social Media**: Targeted distribution to reach decision makers.",
-                "**Performance Tracking**: Monthly reporting on ROI and engagement."
+                "**Editorial review**: We decide whether a submission fits Industry News.",
+                "**Formatting**: Approved drafts may be edited for title, structure, readability, and translation.",
+                "**Publishing**: Suitable articles are published as public Industry News content."
             ]
         }
     },
     "cta": {
-        "title": "Ready to establish your authority?",
-        "description": "Join hundreds of elite manufacturers sharing their knowledge. Send your technical insights to our team today.",
-        "button": "Send Email Now"
+        "title": "Send us your article draft",
+        "description": "Use an editable Word file, attach original images or download links, and include your company name and contact person. We will review whether it fits Industry News.",
+        "email_subject": "[Industry News Submission] - Company Name - Article Topic",
+        "button": "Email Submission"
     }
 }

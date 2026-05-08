@@ -5,18 +5,18 @@ import {
     Search,
     Building2,
     Handshake,
-    MessageSquare,
+    FileWarning,
     Newspaper,
-    HelpCircle,
+    MailQuestion,
 } from "lucide-react";
 
 const reasonIcons = {
     inquiry: Search,
     profile: Building2,
     partnership: Handshake,
-    feedback: MessageSquare,
+    feedback: FileWarning,
     media: Newspaper,
-    other: HelpCircle,
+    other: MailQuestion,
 };
 
 const reasonKeys = ["inquiry", "profile", "partnership", "feedback", "media", "other"] as const;
@@ -43,14 +43,14 @@ export function ContactReasons() {
                     {reasonKeys.map((key) => {
                         const Icon = reasonIcons[key];
                         return (
-                            <Card key={key} className="group flex flex-col items-center justify-center p-6 gap-4 bg-slate-50 dark:bg-slate-900 border-slate-200 dark:border-slate-800 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 cursor-default text-center">
+                            <Card key={key} className="group flex flex-col items-start justify-start p-6 gap-4 bg-slate-50 dark:bg-slate-900 border-slate-200 dark:border-slate-800 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 cursor-default text-left">
                                 <div className="w-12 h-12 p-2 rounded-xl bg-gradient-to-br from-primary/10 to-orange-500/10 flex items-center justify-center group-hover:from-primary/20 group-hover:to-orange-500/20 transition-colors duration-300">
                                     <Icon className="w-6 h-6 text-primary" />
                                 </div>
-                                <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50 text-center">
+                                <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50">
                                     {t(`pages.contact.reasons.items.${key}.title`)}
                                 </h3>
-                                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm text-center">
+                                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm">
                                     {t(`pages.contact.reasons.items.${key}.description`)}
                                 </p>
                             </Card>

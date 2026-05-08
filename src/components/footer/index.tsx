@@ -40,7 +40,7 @@ const Footer = () => {
     [
       {
         key: "profile",
-        url: addLanguageToPath("/claim-your-profile", currentLanguage),
+        url: addLanguageToPath("/update-your-profile", currentLanguage),
       },
       {
         key: "content-marketing-services",

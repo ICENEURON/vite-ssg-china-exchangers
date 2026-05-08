@@ -16,7 +16,7 @@ export function ProcessSection() {
         <section className="py-12 px-4">
             <div className="container px-4 mx-auto max-w-6xl">
                 <div className="text-center mb-12">
-                    <h1 className="tracking-tight">{t('title')}</h1>
+                    <h2 className="tracking-tight">{t('title')}</h2>
                 </div>
 
                 <div className="relative">

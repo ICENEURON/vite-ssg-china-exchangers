@@ -1,117 +1,133 @@
 {
-  "title": "認領您的專屬頁面 - HeatEx Direct",
+  "title": "更新制造商资料 | HeatEx Direct",
   "meta": {
-    "description": "直接從經過驗證的中國工廠採購工業換熱器。人工核實營業執照、生產範圍和ASME證書。",
-    "keywords": "換熱器, 中國製造商, 工業採購, ASME, ISO, 板式換熱器, 管殼式換熱器"
+    "description": "通过邮件向 HeatEx Direct 提交中国换热器制造商资料更新，包括公司信息、产品资料、图片、证书、文件和纠错请求。",
+    "keywords": "更新制造商资料, HeatEx Direct 供应商资料, 中国换热器厂家资料更新, 厂家图片提交, 产品文件更新"
   },
   "og": {
-    "title": "HeatEx Direct - 驗證工廠直連",
-    "description": "直接從經過驗證的中國工廠採購工業換熱器。人工核實營業執照、生產範圍和ASME證書。",
+    "title": "更新制造商资料 - HeatEx Direct",
+    "description": "通过邮件提交厂家信息、产品资料、图片文件和纠错内容，由 HeatEx Direct 审核后更新页面。",
     "image": "/static/websites/home-hero.png",
     "url": "{{url}}",
     "type": "website",
     "site_name": "{{site_name}}"
   },
   "hero": {
-    "status_badge": "資料庫狀態：活躍",
-    "title_prefix": "您的工廠",
-    "title_suffix": "已被收錄。",
-    "description": "每個月都有成千上萬的買家搜尋我們的目錄。不要讓未認領的資料代表您的工程能力。驗證您的資料以解鎖「官方供應商」徽章。",
-    "features": {
-      "manual_verification": "人工驗證",
-      "license_check": "執照檢查"
-    },
-    "cta": "透過電子郵件申請驗證",
-    "certificate": {
-      "title": "註冊證書",
-      "certifies_text": "茲證明該機構",
-      "company_name_placeholder": "公司名稱",
-      "identified_text": "已在以下列表中獲得正式確認",
-      "database_name": "中國製造商列表",
-      "signature_label": "分析師簽名",
-      "status_stamp": "審核中"
-    }
-  },
-  "benefits": {
-    "header": {
-      "title": "掌控權推動成長",
-      "description": "工程師會根據<strong>目前的生產能力</strong>來篩選供應商。如果您的專屬頁面顯示過時的規格，對新一代專案而言您就如同隱形。主動管理是您的競爭優勢。",
-      "verified_badge": "驗證資料可獲得多達 2.4 倍的詢價"
-    },
-    "cards": {
-      "ranking": {
-        "title": "優先排名",
-        "description": "我們的演算法會優先展示<strong>已驗證</strong>的個人資料。認領名錄將立即提升您在高搜尋量關鍵字（如「管殼式」或「板式換熱器維護」）下的曝光率。",
-        "traffic_badge": "+85% 流量"
-      },
-      "verified_signal": {
-        "title": "「分析師驗證」信號",
-        "description": "信任是 B2B 交易的貨幣。已驗證徽章向採購經理表明您的證書（ASME、ISO、PED）是有效的，並且您的工廠正在正常營運中。這消除了「中間商風險」。",
-        "badges": {
-          "verified": "100% 已驗證",
-          "audit": "工廠稽核"
+    "status_badge": "制造商资料更新",
+    "title": "更新并完善厂家资料。",
+    "description": "如果你的公司页面需要新增内容、修正信息、更新产品资料、补充图片、证书、样本册或其他媒体文件，可以通过邮件发送给我们的团队。我们会查看资料，并在内容相关、清楚且可核对的情况下更新公开页面。",
+    "highlights": [
+      "通过邮件提交",
+      "支持图片和文件",
+      "资料更新模板即将提供"
+    ],
+    "cta": "发送资料更新邮件",
+    "email_subject": "[资料更新] - 公司名称",
+    "panel": {
+      "eyebrow": "更新方式",
+      "title": "先把资料发给我们，页面发布前会经过人工查看。",
+      "items": [
+        {
+          "title": "后续会提供可下载的资料表",
+          "description": "我们计划提供一份标准资料更新文档，方便厂家统一填写公司、产品、文件和图片信息。在文档完成前，可以直接用邮件正文或自己的文件提交。"
         },
-        "official_supplier": "官方<br />供應商"
-      }
+        {
+          "title": "图片可以用附件或链接提供",
+          "description": "产品图片、工厂照片、车间图片、证书、样本册和 Logo 可以作为邮件附件、压缩包，或通过云盘下载链接发送。"
+        },
+        {
+          "title": "尽量放在同一封邮件线程里",
+          "description": "邮件标题请写清公司名称，方便我们把文件、修改说明和后续问题对应到正确的制造商页面。"
+        }
+      ]
     }
   },
-  "verification": {
-    "title": "我們會驗證每一個公司細節",
-    "description": "在公開展示之前，我們會確認所有提供的公司資訊都是真實且準確的。這確保買家可以信任與之交易的對象。",
-    "steps": {
-      "submit": {
-        "title": "提交申請",
-        "description": "透過電子郵件向我們發送您的最新資訊和證明文件。"
+  "update_scope": {
+    "eyebrow": "可以更新什么",
+    "title": "任何能帮助买家理解你公司的资料，都可以提交给我们查看",
+    "description": "我们不希望页面只堆宣传语，更希望收到具体、清楚、能帮助买家判断的信息，例如产品范围、应用行业、文件资料、图片和可核对的公司信息。",
+    "items": [
+      {
+        "title": "公司信息",
+        "description": "公司名称、所在地、官网、成立时间、业务范围、出口市场、主要行业和联系方式。"
       },
-      "audit": {
-        "title": "分析師稽核",
-        "description": "我們的團隊會對照官方政府資料庫，手動核實您的申請內容。"
+      {
+        "title": "产品能力",
+        "description": "换热器类型、应用场景、材料、压力温度范围、产品系列、设计标准和可提供型号。"
       },
-      "update": {
-        "title": "即時更新",
-        "description": "確認無誤後，您的個人資料將在 3-5 個工作日內更新。"
+      {
+        "title": "文件和证书",
+        "description": "样本册、目录、数据表、证书、说明书、公开来源链接和其他能支持页面内容的产品文件。"
+      },
+      {
+        "title": "图片和媒体",
+        "description": "产品照片、车间照片、工厂外观、工艺图片、Logo、展会图片，以及适合公开展示的其他媒体材料。"
       }
+    ],
+    "template": {
+      "title": "可下载资料更新文档",
+      "description": "我们之后会添加一份标准资料更新文档，厂家可以按统一格式填写公司、产品、文件和图片信息。当前阶段请先通过邮件，用清楚的结构发送资料。",
+      "status": "模板状态：已计划，暂未发布。"
     }
   },
-  "steps_guide": {
-    "title": "如何提交更新",
-    "description": "請將包含以下詳細資訊的電子郵件發送給我們的資料團隊。",
+  "process": {
+    "eyebrow": "审核流程",
+    "title": "公开页面更新前，我们会先人工查看资料",
+    "description": "每一条资料更新都会人工处理。我们可能会编辑文字、提出补充问题，也可能拒绝不完整、无法核对、无关或过度宣传的内容。",
+    "steps": [
+      {
+        "title": "通过邮件发送资料",
+        "description": "如果已有页面链接，请附上链接；同时写清公司名称、需要修改的字段，以及文件或图片下载链接。"
+      },
+      {
+        "title": "我们查看并整理内容",
+        "description": "团队会判断资料是否适合放在页面上、文件是否可用、文案是否需要编辑或翻译。"
+      },
+      {
+        "title": "通过后更新页面",
+        "description": "相关资料会在审核后更新到制造商页面、产品页面，或对应的文件和媒体区域。"
+      }
+    ]
+  },
+  "submission": {
+    "title": "如何发送更新资料",
+    "description": "目前以邮件作为主要提交方式。如果文件较大，请提供云盘下载链接，并保持链接在审核期间可访问。",
     "contact": {
-      "email_label": "電子郵件：",
-      "subject_label": "主旨：",
-      "subject_value": "[認領資料] - 您的公司名稱"
+      "email_label": "邮箱",
+      "subject_label": "建议邮件标题",
+      "subject_value": "[资料更新] - 公司名称"
     },
-    "cta_button": "發送電子郵件",
-    "required_info": {
-      "title": "必填資訊",
-      "items": {
-        "identity": {
-          "title": "企業身份",
-          "description": "英文全稱和官方網站。"
+    "cta_button": "发送更新邮件",
+    "required": {
+      "title": "邮件里建议包含",
+      "items": [
+        {
+          "title": "公司和页面信息",
+          "description": "公司名称、官网、已有 HeatEx Direct 页面链接，以及发送资料的联系人身份。"
         },
-        "contact": {
-          "title": "主要聯絡人",
-          "description": "出口經理姓名及直達電子郵件。"
+        {
+          "title": "具体要改什么",
+          "description": "请列出需要更新的字段或板块，例如公司介绍、产品范围、证书、图片或联系方式。"
         },
-        "docs": {
-          "title": "證明文件",
-          "description": "營業執照（必備）及有效證書。"
+        {
+          "title": "支持材料",
+          "description": "可以附上样本册、产品目录、证书、产品数据表、公开链接，或你们自己整理好的资料文档。"
         }
-      }
+      ]
     },
-    "optional_info": {
-      "title": "選填（推薦）",
-      "items": {
-        "photos": {
-          "title": "高解析度照片",
-          "description": "工廠外觀、廠房工作區或關鍵產品照片。"
+    "media": {
+      "title": "图片和文件怎么发",
+      "items": [
+        {
+          "title": "图片",
+          "description": "尽量发送原图，并使用清楚的文件名，例如 product-name-front.jpg、workshop-line.jpg 或 company-logo.png。"
         },
-        "description": {
-          "title": "企業描述",
-          "description": "一段簡短更新的「關於我們」，突出您的核心競爭力。"
+        {
+          "title": "大文件",
+          "description": "如果图片很多、文件较大、包含视频或压缩包，请发送云盘链接，不要只把图片嵌在邮件正文里。"
         }
-      }
+      ]
     },
-    "footer_note": "註：我們保留要求提供額外資訊以證明您是工廠授權代表的權利。"
+    "footer_note": "提交资料不代表一定发布。HeatEx Direct 可能会在公开页面更新前，对内容进行编辑、摘要、拒绝或要求补充说明。"
   }
 }

@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Badge } from "../../../components/ui/badge";
 import { Button } from "../../../components/ui/button";
 import { QuoteCta } from "../../../components/ui/quote-cta";
 import { Database, Factory, Mail, ShieldCheck } from "lucide-react";
@@ -18,9 +19,13 @@ export function HeroSection() {
             <div className="absolute inset-0 bg-gradient-to-b from-gray-900/80 via-gray-900/70 to-gray-900/95" />
 
             <div className="relative container px-4 max-w-6xl flex flex-col items-center justify-center text-center z-10 gap-6">
-                <p className="inline-flex items-center justify-center rounded-sm border border-white/20 bg-white/10 px-3 py-2 text-sm font-semibold text-gray-100 backdrop-blur">
+                <Badge
+                    variant="outline"
+                    className="border-white/20 bg-white/15 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-black/10 backdrop-blur-md"
+                >
+                    <ShieldCheck className="size-4 text-orange-300" />
                     {t("pages.home.hero.eyebrow")}
-                </p>
+                </Badge>
 
                 <h1 className="text-white max-w-5xl text-[2.6rem] md:text-[4.5rem] font-bold leading-tight p-2">
                     {t("pages.home.hero.title")}

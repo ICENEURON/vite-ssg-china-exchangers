@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next"
 
 export function CTASection() {
     const { t } = useTranslation("translation", { keyPrefix: "pages.cms.cta" });
+    const subject = encodeURIComponent(t("email_subject"));
 
     return (
         <section className="py-16 bg-background">
@@ -28,7 +29,7 @@ export function CTASection() {
 
                         <div className="flex flex-row gap-4 justify-center">
                             <Button size="lg" className="h-14 px-8 text-lg rounded-full bg-white text-zinc-950 hover:bg-zinc-200" asChild>
-                                <a href={`mailto:${import.meta.env.VITE_CONTACT_EMAIL}`}>
+                                <a href={`mailto:${import.meta.env.VITE_CONTACT_EMAIL}?subject=${subject}`}>
                                     <Send className="w-5 h-5 mr-2" />
                                     {t("button")}
                                 </a>

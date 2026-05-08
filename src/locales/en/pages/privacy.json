@@ -1,41 +1,61 @@
 {
-  "title": "Privacy Policy – HeatEx Direct",
+  "title": "Privacy Policy | HeatEx Direct",
   "meta": {
-    "description": "Privacy policy for HeatEx Direct, explaining how your B2B sourcing data, quote request details, and browsing information are collected and protected.",
-    "keywords": "HeatEx Direct privacy policy, B2B sourcing privacy, data protection, quote request privacy"
+    "description": "Privacy policy for HeatEx Direct, explaining how we handle quote request data, email verification, contact messages, manufacturer profile updates, content inquiries, and site usage information.",
+    "keywords": "HeatEx Direct privacy policy, heat exchanger sourcing privacy, quote request data, manufacturer profile update privacy, email verification privacy"
   },
   "hero": {
     "title": "Privacy Policy",
-    "subtitle": "This page explains how we collect, use, and protect your information when you use our industrial sourcing platform."
+    "subtitle": "This policy explains what information HeatEx Direct collects, why we collect it, and how it is used when you browse the website, submit RFQ information, contact us, or update a manufacturer profile."
   },
   "sections": {
     "introduction": {
       "title": "1. Introduction",
-      "content": "HeatEx Direct is a B2B platform dedicated to connecting global buyers with verified Chinese heat exchanger manufacturers. This privacy policy outlines how we handle the personal and corporate information you provide when using our directory, submitting quote requests, or claiming a manufacturer profile."
+      "content": "HeatEx Direct is an independent sourcing information platform for Chinese industrial heat exchanger manufacturers. We process information to operate the website, organize manufacturer and product content, respond to buyer and supplier inquiries, and support structured quote request follow-up."
     },
-    "collection": {
+    "informationWeCollect": {
       "title": "2. Information We Collect",
-      "content": "When you use our confidential quote request or contact features, we collect the technical specifications, company details, and contact information you provide. We also collect verification documents (such as Business Licenses) from manufacturers claiming their profiles. Additionally, our servers automatically record standard analytics data, including your IP address, browser type, and interaction with our platform."
+      "content": "We may collect information you provide directly, including your name, email address, company name, role, country or region, message content, manufacturer profile update details, website links, uploaded or shared files, article or news submissions, and any information you include when contacting us."
     },
-    "usage": {
-      "title": "3. How Your Information Is Used",
-      "content": "Your information is primarily used to facilitate the B2B sourcing process. If you use the confidential quote request feature, your identity is kept confidential from suppliers until you choose to reveal it. We use analytics data to understand global sourcing trends and improve our platform's user experience. We do not sell your contact information to third-party marketing agencies."
+    "quoteRequests": {
+      "title": "3. Quote Request and Technical Data",
+      "content": "When you submit an RFQ or sourcing request, we may collect project context and technical parameters such as equipment type, application industry, media, phase, flow rate, temperatures, pressure, materials, standards, quantity, target market, project notes, and your verifiable email address. This information helps us understand whether the request is clear enough for follow-up."
+    },
+    "emailVerification": {
+      "title": "4. Email Verification",
+      "content": "Some workflows may use email verification to confirm that a request or contact email is real. We process the submitted email address and verification token only for verification, fraud reduction, request review, and follow-up related to the website workflow."
+    },
+    "manufacturerData": {
+      "title": "5. Manufacturer Profile and Supplier Information",
+      "content": "If a manufacturer or authorized representative asks us to correct, complete, or update a profile, we may collect company descriptions, product information, contact details, media files, certificates, brochures, websites, public-source references, and other materials needed to review or update the page."
+    },
+    "automaticData": {
+      "title": "6. Site Usage, Cookies, and Language Preferences",
+      "content": "We may collect basic technical data such as IP address, browser type, device information, pages visited, referral source, approximate location, and interaction data through hosting logs, analytics, cookies, or similar technologies. We may also store language preferences so the site can show the correct language version."
+    },
+    "howWeUse": {
+      "title": "7. How We Use Information",
+      "content": "We use information to operate the website, respond to messages, review RFQ submissions, clarify missing project details, update manufacturer profiles, manage content and partnership discussions, improve page quality, protect the platform from misuse, analyze site performance, and comply with legal obligations."
     },
     "sharing": {
-      "title": "4. Sharing Information with Manufacturers",
-      "content": "When you explicitly submit a quote request or contact request to a verified manufacturer, the necessary project details and your contact information (if not in stealth mode) are shared with them to facilitate quoting. We also use standard third-party analytics and hosting services to operate the platform."
+      "title": "8. When Information May Be Shared",
+      "content": "We do not sell your contact information to marketing brokers. We may share relevant request details with team members, service providers that help us operate the site, and, when appropriate for sourcing follow-up, potential suppliers or partners. We share only what is reasonably needed for the relevant workflow."
     },
-    "security": {
-      "title": "5. Data Security",
-      "content": "We implement industry-standard security measures to protect your commercial inquiries and verification documents. However, no internet transmission is 100% secure. We strongly advise against sharing sensitive financial or proprietary trade secrets through initial unencrypted quote request forms."
+    "publicContent": {
+      "title": "9. Public Manufacturer and Product Content",
+      "content": "Manufacturer profiles, product pages, industry articles, media, files, and public-source information may be published on the website. If you provide supplier materials for publication, you confirm that you have the right to share them and understand that approved content may become publicly accessible."
     },
-    "cookies": {
-      "title": "6. Cookies and Tracking",
-      "content": "We use cookies to ensure the basic functionality of the platform, remember your language preferences, and analyze site traffic to improve our directory. By continuing to use HeatEx Direct, you consent to our use of these essential and analytical cookies."
+    "retentionSecurity": {
+      "title": "10. Retention and Security",
+      "content": "We keep information for as long as reasonably needed to operate the platform, respond to inquiries, maintain records, improve content quality, or meet legal and business requirements. We use reasonable safeguards, but no online transmission or storage system can be guaranteed to be fully secure."
+    },
+    "rights": {
+      "title": "11. Your Choices and Requests",
+      "content": "You may contact us to request correction, update, or deletion of information you submitted, subject to reasonable verification, legal requirements, and operational needs. Manufacturers may also request profile corrections or ask us to review outdated materials."
     },
     "contact": {
-      "title": "7. Contact Us",
-      "content": "If you have any questions regarding this privacy policy, data removal requests, or how your quote request data is handled, please contact our data team via the email provided on our contact page. We may update this policy periodically to reflect platform changes."
+      "title": "12. Contact and Policy Updates",
+      "content": "If you have questions about this policy or how your information is handled, please use the email address listed on the Contact page. We may update this Privacy Policy as the website, RFQ workflow, content services, or legal requirements change."
     }
   }
 }

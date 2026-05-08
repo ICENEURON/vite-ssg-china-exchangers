@@ -5,6 +5,7 @@ import { HeroSection } from "./components/HeroSection";
 import { ValuePropGrid } from "./components/ValuePropGrid";
 import { CompanyIntro } from "./components/CompanyIntro";
 import { CategoryShowcase } from "./components/CategoryShowcase";
+import { CategoryStats } from "./components/CategoryStats";
 import { HowItWorks } from "./components/HowItWorks";
 import { IndustryNewsFocus } from "./components/IndustryNewsFocus";
 
@@ -68,6 +69,7 @@ export default function HomePage() {
         <HeroSection />
         <ValuePropGrid />
         <CompanyIntro />
+        <CategoryStats />
         <CategoryShowcase />
         <HowItWorks />
         <IndustryNewsFocus />
