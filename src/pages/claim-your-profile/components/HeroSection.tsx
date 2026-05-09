@@ -1,8 +1,10 @@
 
 import { Button } from "../../../components/ui/button"
 import { Badge } from "../../../components/ui/badge";
-import { CheckCircle2, FileText, ImagePlus, Mail } from "lucide-react"
+import { CheckCircle2, Download, FileText, ImagePlus, Mail } from "lucide-react"
 import { useTranslation } from "react-i18next"
+
+const templatePath = "/static/websites/manufacturer-profile-update-template.docx";
 
 export function HeroSection() {
     const { t } = useTranslation();
@@ -43,12 +45,20 @@ export function HeroSection() {
                             ))}
                         </div>
 
-                        <Button size="lg" className="mt-3 h-14 px-8 text-base font-bold" asChild>
-                            <a href={`mailto:${email}?subject=${subject}`}>
-                                <Mail className="mr-2 size-5" />
-                                {t('pages.profile.hero.cta')}
-                            </a>
-                        </Button>
+                        <div className="mt-3 flex flex-col gap-3 sm:flex-row">
+                            <Button size="lg" className="h-14 px-8 text-base font-bold" asChild>
+                                <a href={templatePath} download>
+                                    <Download className="mr-2 size-5" />
+                                    {t('pages.profile.hero.template_cta')}
+                                </a>
+                            </Button>
+                            <Button size="lg" variant="outline" className="h-14 border-slate-300 bg-white px-8 text-base font-bold" asChild>
+                                <a href={`mailto:${email}?subject=${subject}`}>
+                                    <Mail className="mr-2 size-5" />
+                                    {t('pages.profile.hero.cta')}
+                                </a>
+                            </Button>
+                        </div>
                     </div>
 
                     <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm md:p-8">

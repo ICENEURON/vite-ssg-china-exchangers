@@ -13,59 +13,49 @@
     "site_name": "{{site_name}}"
   },
   "hero": {
-    "badge": "Contact HeatEx Direct",
-    "title": "Tell us what you are looking for",
-    "subtitle": "Whether you are an industrial buyer, a Chinese heat exchanger manufacturer, or a potential content or market partner, this is the place to reach our team.",
-    "description": "We prioritize messages related to heat exchanger sourcing, manufacturer profile updates, product page additions, industry news leads, content partnerships, and platform corrections. Clear context helps us decide the next step faster.",
-    "highlights": [
-      "Buyer sourcing and quote support",
-      "Manufacturer profile updates",
-      "Industry content and partnership discussions"
-    ]
+    "title_prefix": "Contact the team behind ",
+    "title_suffix": "",
+    "subtitle": "For quote follow-up, supplier profile updates, content submissions, or data corrections, start here.",
+    "description": " is an independent information service for global buyers evaluating Chinese heat exchanger manufacturers. We organize supplier data, product scope, content leads, and follow-up requests into clear paths so the next step is easier to choose.",
+    "primary_cta": "Update supplier profile",
+    "secondary_cta": "Submit article request",
+    "email_prefix": "Email us at:"
   },
-  "reasons": {
-    "badge": "When to contact us",
-    "title": "Send the right context, and the conversation moves faster",
-    "description": "These are the most common reasons to contact us. If your request is a concrete project inquiry, the structured quote request page may also be the right starting point.",
+  "paths": {
+    "badge": "Contact routes",
+    "title": "What would you like to contact us about?",
+    "description": "Quote requests, profile updates, article submissions, and corrections each have their own starting point so the details are easier to handle.",
     "items": {
-      "inquiry": {
-        "title": "Buyer sourcing questions",
-        "description": "Looking for plate, welded plate, shell-and-tube, air cooler, packaged unit, or spare-parts suppliers? Share project context, equipment type, and key operating conditions."
+      "buyer": {
+        "title": "Buyer or engineering inquiry",
+        "description": "Submit project context and technical parameters through the quote request form.",
+        "action": "Start quote request"
       },
-      "profile": {
-        "title": "Manufacturer profile updates",
-        "description": "If your company is already listed, contact us to update company descriptions, product scope, media, certificates, export markets, or contact details."
+      "supplier": {
+        "title": "Manufacturer profile update",
+        "description": "Correct company data, add verification material, or update product scope.",
+        "action": "Update profile"
       },
-      "partnership": {
-        "title": "Supplier partnerships and visibility",
-        "description": "Chinese heat exchanger manufacturers can ask about improving English profiles, adding product pages, uploading files and images, or submitting article drafts for Industry News."
+      "content": {
+        "title": "Technical content or case study",
+        "description": "Send article ideas, company news, product explainers, or case-study material.",
+        "action": "Discuss content"
       },
-      "feedback": {
-        "title": "Profile corrections and missing data",
-        "description": "Found an issue with a company name, product description, image, certificate, link, or public source? Send the page link and the correction you recommend."
-      },
-      "media": {
-        "title": "Industry news and article leads",
-        "description": "Send us Chinese heat exchanger market news, manufacturer updates, technical article ideas, exhibition information, or product update leads for editorial review."
-      },
-      "other": {
-        "title": "Other platform questions",
-        "description": "For language versions, page access, email verification, directory inclusion, privacy, or general platform questions, email us with the relevant details."
+      "correction": {
+        "title": "Data correction or support",
+        "description": "Report incorrect page data, broken links, language issues, or platform questions.",
+        "action": "Email support"
       }
     }
   },
   "cta": {
-    "title": "Start with one clear email",
-    "subtitle": "For project inquiries, include basic operating conditions. For profile updates, include the company name and page link.",
     "email_label": "Email Us Directly",
-    "response_badge": "Usually replies within 48 hours",
-    "note": "We read messages manually and route them to the relevant person for sourcing, profile data, or content partnerships.",
+    "note": "Messages are reviewed manually and routed for sourcing research, profile data, content review, or support.",
     "checklist_title": "Helpful details to include",
     "checklist": [
-      "Your role: buyer, engineer, EPC, distributor, manufacturer, media contact, or partner.",
-      "For sourcing needs, include equipment type, application, media, temperatures, pressure, materials, quantity, and target market.",
-      "For profile updates, include company name, website, page link, fields to update, and any available files.",
-      "For articles, news, or content partnerships, include the topic, source material, image files, and the cooperation direction you have in mind."
+      "Your role and the reason for contacting us.",
+      "For sourcing needs: equipment type, application, media, temperature, pressure, material, and quantity.",
+      "For profile or content updates: company name, page link, source material, and files if available."
     ]
   }
 }

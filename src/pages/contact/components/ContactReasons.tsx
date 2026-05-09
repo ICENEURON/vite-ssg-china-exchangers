@@ -1,59 +1,96 @@
 import { useTranslation } from "react-i18next";
-import { Badge } from "../../../components/ui/badge";
-import { Card } from "../../../components/ui/card";
 import {
-    Search,
+    ArrowRight,
     Building2,
-    Handshake,
     FileWarning,
     Newspaper,
-    MailQuestion,
+    PackageSearch,
 } from "lucide-react";
+import { Link } from "react-router-dom";
+import { RfqLink } from "../../../utils/rfq-routing/link";
+import { addLanguageToPath, useCurrentLanguage } from "../../../utils/language-routing";
 
-const reasonIcons = {
-    inquiry: Search,
-    profile: Building2,
-    partnership: Handshake,
-    feedback: FileWarning,
-    media: Newspaper,
-    other: MailQuestion,
+const pathIcons = {
+    buyer: PackageSearch,
+    supplier: Building2,
+    content: Newspaper,
+    correction: FileWarning,
 };
 
-const reasonKeys = ["inquiry", "profile", "partnership", "feedback", "media", "other"] as const;
+const pathKeys = ["buyer", "supplier", "content", "correction"] as const;
 
 export function ContactReasons() {
     const { t } = useTranslation("translation");
+    const currentLanguage = useCurrentLanguage();
+    const email = import.meta.env.VITE_CONTACT_EMAIL;
+    const updateProfilePath = addLanguageToPath("/update-your-profile", currentLanguage);
+    const contentMarketingPath = addLanguageToPath("/content-marketing-services", currentLanguage);
 
     return (
-        <section className="pb-10 px-2 flex flex-col justify-center items-center max-w-6xl mx-auto relative overflow-hidden">
-            <div className="w-full max-w-6xl mx-auto flex flex-col justify-center items-center p-6 gap-4">
-                <div className="flex flex-col items-center justify-center gap-4 w-full text-center">
-                    <Badge variant="secondary" className="bg-blue-200/80 text-accent border-blue-400/50 hover:bg-blue-200 p-2 text-sm text-center">
-                        {t("pages.contact.reasons.badge")}
-                    </Badge>
-                    <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 text-center">
-                        {t("pages.contact.reasons.title")}
+        <section className="flex justify-center bg-white px-2 py-16">
+            <div className="container flex max-w-6xl flex-col gap-10 px-4">
+                <div className="max-w-3xl">
+                    <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+                        {t("pages.contact.paths.title")}
                     </h2>
-                    <p className="text-lg text-slate-600 font-light text-center p-2">
-                        {t("pages.contact.reasons.description")}
+                    <p className="mt-4 text-sm leading-7 text-muted md:text-base">
+                        {t("pages.contact.paths.description")}
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 gap-4 w-full">
-                    {reasonKeys.map((key) => {
-                        const Icon = reasonIcons[key];
-                        return (
-                            <Card key={key} className="group flex flex-col items-start justify-start p-6 gap-4 bg-slate-50 border-slate-200 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 cursor-default text-left">
-                                <div className="w-12 h-12 p-2 rounded-xl bg-gradient-to-br from-primary/10 to-orange-500/10 flex items-center justify-center group-hover:from-primary/20 group-hover:to-orange-500/20 transition-colors duration-300">
-                                    <Icon className="w-6 h-6 text-primary" />
+                <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+                    {pathKeys.map((key) => {
+                        const Icon = pathIcons[key];
+                        const action = t(`pages.contact.paths.items.${key}.action`);
+                        const cardClassName = "group flex min-h-72 flex-col border border-slate-200 bg-white p-6 text-left shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-orange-50/40 hover:shadow-xl hover:shadow-primary/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40";
+                        const content = (
+                            <>
+                                <div className="flex justify-center">
+                                    <Icon className="size-9 text-primary transition-all duration-300 group-hover:scale-110 group-hover:text-orange-500" />
                                 </div>
-                                <h3 className="text-lg font-semibold text-slate-900">
-                                    {t(`pages.contact.reasons.items.${key}.title`)}
+                                <h3 className="mt-6 text-center text-base font-bold leading-6 text-foreground transition-colors duration-300 group-hover:text-primary">
+                                    {t(`pages.contact.paths.items.${key}.title`)}
                                 </h3>
-                                <p className="text-slate-600 leading-relaxed text-sm">
-                                    {t(`pages.contact.reasons.items.${key}.description`)}
+                                <p className="mt-3 flex-1 text-center text-sm leading-7 text-muted">
+                                    {t(`pages.contact.paths.items.${key}.description`)}
                                 </p>
-                            </Card>
+                                <span className="mt-5 block text-center text-sm font-semibold text-primary transition-colors duration-300 group-hover:text-orange-600">
+                                    <span className="relative inline-block whitespace-nowrap pr-6 leading-none">
+                                        {action}
+                                        <ArrowRight className="absolute right-0 top-1/2 size-4 -translate-y-1/2 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1/2" />
+                                    </span>
+                                </span>
+                            </>
+                        );
+
+                        if (key === "buyer") {
+                            return (
+                                <RfqLink key={key} className={cardClassName}>
+                                    {content}
+                                </RfqLink>
+                            );
+                        }
+
+                        if (key === "supplier") {
+                            return (
+                                <Link key={key} to={updateProfilePath} className={cardClassName}>
+                                    {content}
+                                </Link>
+                            );
+                        }
+
+                        if (key === "content") {
+                            return (
+                                <Link key={key} to={contentMarketingPath} className={cardClassName}>
+                                    {content}
+                                </Link>
+                            );
+                        }
+
+                        return (
+                            <a key={key} href={`mailto:${email}`} className={cardClassName}>
+                                {content}
+                            </a>
                         );
                     })}
                 </div>

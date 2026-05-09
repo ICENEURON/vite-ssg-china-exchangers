@@ -1,5 +1,4 @@
 import { Mail, ArrowRight, CheckCircle2 } from "lucide-react";
-import { Badge } from "../../../components/ui/badge";
 import { useTranslation } from "react-i18next";
 
 export function ContactCTA() {
@@ -8,46 +7,39 @@ export function ContactCTA() {
     const checklist = t("pages.contact.cta.checklist", { returnObjects: true }) as string[];
 
     return (
-        <section className="relative py-12 px-2 flex flex-col justify-center items-center w-full bg-slate-900 text-white overflow-hidden">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/20 blur-[120px] rounded-full pointer-events-none" />
-
-            <div className="relative w-full max-w-6xl mx-auto grid grid-cols-1 items-center gap-8 z-10 lg:grid-cols-[0.9fr_1.1fr]">
-                <div className="flex flex-col items-center justify-center p-4 gap-4 text-center">
-                    <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-center">
-                        {t("pages.contact.cta.title")}
-                    </h2>
-                    <p className="text-lg text-slate-400 text-center p-2">
-                        {t("pages.contact.cta.subtitle")}
-                    </p>
-                </div>
-
-                <div className="flex flex-col gap-5 p-4">
-                    <div className="flex flex-col items-center justify-center gap-4 w-full text-center">
+        <section className="flex justify-center bg-slate-950 px-2 py-16 text-white">
+            <div className="container max-w-5xl px-4">
+                <div className="grid overflow-hidden border border-white/10 bg-white/[0.04] shadow-2xl shadow-black/20 md:grid-cols-[0.95fr_1.05fr]">
+                    <div className="flex flex-col gap-5 border-b border-white/10 bg-white/[0.03] p-6 md:border-b-0 md:border-r md:p-8">
+                        <div>
+                            <div className="flex items-center gap-3 text-orange-200">
+                                <Mail className="size-7 text-orange-300" />
+                                <p className="text-xl font-bold tracking-tight text-white md:text-2xl">
+                                    {t("pages.contact.cta.email_label")}
+                                </p>
+                            </div>
+                            <p className="mt-3 text-sm leading-7 text-gray-400">
+                                {t("pages.contact.cta.note")}
+                            </p>
+                        </div>
                         <a
                             href={`mailto:${email}`}
-                            className="group flex w-full flex-row items-center justify-center p-6 gap-4 bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white text-lg md:text-2xl font-bold rounded-lg shadow-2xl shadow-primary/30 hover:shadow-primary/50 transition-all duration-300 hover:scale-[1.02]"
+                            className="group flex w-full flex-row items-center justify-between gap-4 border border-white/85 bg-white px-5 py-4 text-base font-bold text-slate-950 shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700 hover:shadow-xl hover:shadow-black/25 md:text-lg"
                         >
-                            <Mail className="w-6 h-6" />
-                            <span className="text-center">{email}</span>
-                            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                            <span className="break-all">{email}</span>
+                            <ArrowRight className="size-5 shrink-0 text-slate-500 transition-all group-hover:translate-x-1 group-hover:text-blue-700" />
                         </a>
-
-                        <Badge className="bg-green-500/20 text-green-300 border-green-500/40 hover:bg-green-500/30 p-2 text-sm font-medium text-center mt-1">
-                            {t("pages.contact.cta.response_badge")}
-                        </Badge>
-
-                        <p className="text-sm text-slate-500 leading-relaxed text-center">
-                            {t("pages.contact.cta.note")}
-                        </p>
                     </div>
 
-                    <div className="rounded-lg border border-white/10 bg-white/5 p-6 backdrop-blur">
-                        <h3 className="text-xl font-bold text-white">
-                            {t("pages.contact.cta.checklist_title")}
-                        </h3>
-                        <div className="mt-5 grid grid-cols-1 gap-3">
+                    <div className="p-6 md:p-8">
+                        <div className="flex flex-wrap items-center justify-between gap-3">
+                            <h3 className="text-xl font-bold text-white">
+                                {t("pages.contact.cta.checklist_title")}
+                            </h3>
+                        </div>
+                        <div className="mt-6 grid grid-cols-1 gap-3">
                             {checklist.map((item) => (
-                                <div key={item} className="flex items-start gap-3 text-left text-sm leading-6 text-slate-300">
+                                <div key={item} className="flex items-start gap-3 border border-white/10 bg-white/[0.03] p-4 text-left text-sm leading-6 text-slate-300 transition-colors duration-300 hover:border-orange-300/30 hover:bg-orange-300/5">
                                     <CheckCircle2 className="mt-0.5 size-5 shrink-0 text-orange-300" />
                                     <span>{item}</span>
                                 </div>

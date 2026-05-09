@@ -19,17 +19,18 @@
     "highlights": [
       "Email-based submission",
       "Images and files accepted",
-      "Profile update template coming soon"
+      "Profile update template available"
     ],
     "cta": "Email Profile Update",
+    "template_cta": "Download Update Template",
     "email_subject": "[Profile Update] - Your Company Name",
     "panel": {
       "eyebrow": "How updates work",
       "title": "Send the materials first. We will review the page before publishing.",
       "items": [
         {
-          "title": "Use the profile update document when ready",
-          "description": "We plan to provide a downloadable profile update document. Until it is finalized, you can send the same information directly in an email or as your own document."
+          "title": "Download the profile update template first",
+          "description": "Use the template to organize company information, product scope, documents, and image notes. After filling it in, send it by email together with images, certificates, brochures, or download links."
         },
         {
           "title": "Provide images as attachments or links",
@@ -66,8 +67,9 @@
     ],
     "template": {
       "title": "Downloadable update document",
-      "description": "A standard profile update document will be added later so manufacturers can fill in company, product, file, and image details in one format. For now, send the information by email in any clear structure.",
-      "status": "Template status: planned, not published yet."
+      "description": "Manufacturers can download the standard profile update template and fill in company, product, document, and image details in one format. Send the completed file with related images, certificates, brochures, or download links.",
+      "status": "Template status: available for download.",
+      "cta": "Download template"
     }
   },
   "process": {

@@ -1,49 +1,67 @@
 import { useTranslation } from "react-i18next";
-import { Badge } from "../../../components/ui/badge";
-import { Building2, Factory, Mail } from "lucide-react";
+import { Button } from "../../../components/ui/button";
+import { ArrowRight, Building2, CheckCircle2, Newspaper } from "lucide-react";
+import { Link } from "react-router-dom";
+import { addLanguageToPath, useCurrentLanguage } from "../../../utils/language-routing";
+
+function BrandName() {
+    return (
+        <span className="whitespace-nowrap">
+            HeatEx <span className="text-orange-300">Direct</span>
+        </span>
+    );
+}
 
 export function ContactHero() {
     const { t } = useTranslation("translation");
-    const highlights = t("pages.contact.hero.highlights", { returnObjects: true }) as string[];
-    const highlightIcons = [Mail, Building2, Factory];
+    const currentLanguage = useCurrentLanguage();
+    const email = import.meta.env.VITE_CONTACT_EMAIL;
+    const updateProfilePath = addLanguageToPath("/update-your-profile", currentLanguage);
+    const contentMarketingPath = addLanguageToPath("/content-marketing-services", currentLanguage);
 
     return (
-        <section className="relative py-10 px-2 flex flex-col justify-start items-center w-full bg-gradient-to-b from-slate-50 from-95% to-transparent overflow-hidden">
-            <div className="absolute inset-0 bg-grid-hero-start pointer-events-none" />
-            <div className="relative pt-16 max-w-5xl mx-auto flex flex-col justify-center items-center gap-5 z-10">
-                <Badge variant="secondary" className="bg-blue-200/80 text-accent border-blue-400/50 hover:bg-blue-200 p-2 text-sm text-center">
-                    {t("pages.contact.hero.badge")}
-                </Badge>
+        <section className="relative isolate flex min-h-[560px] justify-center overflow-hidden bg-navbar px-2 py-16 text-navbar-foreground">
+            <div className="absolute inset-0 -z-20 bg-[url('/static/websites/home-hero.png')] bg-cover bg-center opacity-30" />
+            <div className="absolute inset-0 -z-10 bg-gradient-to-b from-navbar/92 via-navbar/86 to-navbar" />
 
-                <div className="flex flex-col md:flex-row items-center justify-center gap-4 w-full p-2">
-                    <div className="p-4 bg-gradient-to-br from-primary to-orange-500 rounded-2xl shadow-lg shadow-primary/20 flex items-center justify-center">
-                        <Mail className="w-6 h-6 text-white" />
-                    </div>
-                    <h1 className="font-bold tracking-tight text-slate-900 leading-[1.1] text-center">
-                        {t("pages.contact.hero.title")}
+            <div className="container z-10 flex max-w-6xl flex-col justify-center gap-7 px-4">
+                <div className="max-w-5xl space-y-5">
+                    <h1 className="max-w-4xl text-4xl font-bold leading-tight text-white md:text-6xl">
+                        {t("pages.contact.hero.title_prefix")}
+                        <BrandName />
+                        {t("pages.contact.hero.title_suffix")}
                     </h1>
+
+                    <p className="max-w-3xl text-lg leading-8 text-gray-100 md:text-xl">
+                        {t("pages.contact.hero.subtitle")}
+                    </p>
+
+                    <p className="max-w-3xl text-sm leading-7 text-gray-300 md:text-base">
+                        <BrandName />
+                        {t("pages.contact.hero.description")}
+                    </p>
                 </div>
 
-                <p className="text-lg md:text-xl max-w-4xl text-primary font-medium w-full text-center px-4">
-                    {t("pages.contact.hero.subtitle")}
-                </p>
-
-                <p className="text-lg max-w-4xl text-slate-600 w-full text-center leading-relaxed font-light px-4">
-                    {t("pages.contact.hero.description")}
-                </p>
-
-                <div className="grid w-full grid-cols-1 gap-3 px-4 pt-2 md:grid-cols-3">
-                    {highlights.map((highlight, index) => {
-                        const Icon = highlightIcons[index] || Mail;
-
-                        return (
-                            <div key={highlight} className="flex items-center justify-center gap-3 rounded-lg border border-slate-200 bg-white/80 px-4 py-3 text-sm font-semibold text-slate-700 shadow-sm backdrop-blur">
-                                <Icon className="size-4 text-primary" />
-                                <span>{highlight}</span>
-                            </div>
-                        );
-                    })}
+                <div className="flex flex-col gap-3 sm:flex-row">
+                    <Button size="lg" className="bg-primary px-6 py-4 text-white hover:bg-primary/90" asChild>
+                        <Link to={updateProfilePath}>
+                            <Building2 className="size-5" />
+                            {t("pages.contact.hero.primary_cta")}
+                        </Link>
+                    </Button>
+                    <Button size="lg" variant="outline" className="border-white/25 bg-white/10 px-6 py-4 text-white hover:bg-white hover:text-slate-900" asChild>
+                        <Link to={contentMarketingPath}>
+                            <Newspaper className="size-5" />
+                            {t("pages.contact.hero.secondary_cta")}
+                        </Link>
+                    </Button>
                 </div>
+
+                <a href={`mailto:${email}`} className="flex w-fit items-center gap-2 text-sm font-semibold text-gray-200 transition-colors hover:text-orange-200">
+                    <CheckCircle2 className="size-4 text-orange-300" />
+                    {t("pages.contact.hero.email_prefix")} {email}
+                    <ArrowRight className="size-4" />
+                </a>
             </div>
         </section>
     );

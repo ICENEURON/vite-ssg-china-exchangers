@@ -1,6 +1,9 @@
 
 import { Building2, Factory, FileText, ImagePlus } from "lucide-react"
 import { useTranslation } from "react-i18next"
+import { Button } from "../../../components/ui/button";
+
+const templatePath = "/static/websites/manufacturer-profile-update-template.docx";
 
 export function BenefitsSection() {
     const { t } = useTranslation();
@@ -35,10 +38,17 @@ export function BenefitsSection() {
                     })}
                 </div>
 
-                <div className="rounded-lg border border-dashed border-primary/30 bg-primary/5 p-6">
-                    <h3 className="text-xl font-bold text-slate-950">{t('pages.profile.update_scope.template.title')}</h3>
-                    <p className="mt-2 text-base leading-7 text-slate-700">{t('pages.profile.update_scope.template.description')}</p>
-                    <p className="mt-3 text-sm font-semibold text-primary">{t('pages.profile.update_scope.template.status')}</p>
+                <div className="flex flex-col gap-4 rounded-lg border border-dashed border-primary/30 bg-primary/5 p-6 md:flex-row md:items-center md:justify-between">
+                    <div className="max-w-3xl">
+                        <h3 className="text-xl font-bold text-slate-950">{t('pages.profile.update_scope.template.title')}</h3>
+                        <p className="mt-2 text-base leading-7 text-slate-700">{t('pages.profile.update_scope.template.description')}</p>
+                        <p className="mt-3 text-sm font-semibold text-primary">{t('pages.profile.update_scope.template.status')}</p>
+                    </div>
+                    <Button className="w-full shrink-0 md:w-auto" asChild>
+                        <a href={templatePath} download>
+                            {t('pages.profile.update_scope.template.cta')}
+                        </a>
+                    </Button>
                 </div>
             </div>
         </section>
