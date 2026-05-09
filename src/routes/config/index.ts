@@ -73,7 +73,7 @@ const allRoutes: RouteDef[] = [
     { path: "/products", element: ProductsPage, auth: "public", nav: "none", mobile: "none", label: "Products", translationKey: "navigation.menu.products" },
     { path: "/products/:manufacturerSlug/:productSlug", element: ProductProfilePage, auth: "public", nav: "none", mobile: "none" },
 
-    { path: "/rfq", element: FaqPage, auth: "public", nav: "none", mobile: "public", label: "Request for Quote", translationKey: "navigation.menu.rfq" },
+    { path: "/quote-request", element: FaqPage, auth: "public", nav: "none", mobile: "public", label: "Request for Quote", translationKey: "navigation.menu.rfq" },
 
     { path: "/update-your-profile", element: DocsPage, auth: "public", nav: "public", mobile: "public", label: "Update Your Profile", translationKey: "navigation.menu.profile" },
     { path: "/claim-your-profile", element: LegacyProfileRedirect, auth: "public", nav: "none", mobile: "none", label: "Legacy Profile Redirect" },

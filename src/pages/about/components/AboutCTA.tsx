@@ -20,9 +20,9 @@ export function AboutCTA() {
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
                         {t("pages.about.cta.title")}
                     </h1>
-                    <h5 className="text-muted-foreground">
+                    <h4 className="text-muted-foreground">
                         {t("pages.about.cta.subtitle")}
-                    </h5>
+                    </h4>
                 </div>
 
                 <div className="flex flex-col items-center justify-center gap-4 p-4 w-full">

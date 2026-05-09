@@ -187,7 +187,7 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceMan
                 {/* Context Section */}
                 <div>
                     <div className="flex items-center justify-between mb-4 pb-2 border-b border-slate-200">
-                        <h5 className="text-sm font-bold text-slate-900 uppercase tracking-widest">{t("step4.projectContextTitle")}</h5>
+                        <h4 className="text-sm font-bold text-slate-900 uppercase tracking-widest">{t("step4.projectContextTitle")}</h4>
                         <button onClick={() => onEditStep(1)} className="text-primary hover:text-primary/80 flex items-center text-xs font-bold transition-colors">
                             <Edit2 className="w-3.5 h-3.5 mr-1.5" /> {t("step4.editBtn")}
                         </button>
@@ -201,7 +201,7 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceMan
                 {/* Specs Section */}
                 <div>
                     <div className="flex items-center justify-between mb-4 pb-2 border-b border-slate-200">
-                        <h5 className="text-sm font-bold text-slate-900 uppercase tracking-widest">{t("step4.productSpecsTitle")}</h5>
+                        <h4 className="text-sm font-bold text-slate-900 uppercase tracking-widest">{t("step4.productSpecsTitle")}</h4>
                         <button onClick={() => onEditStep(2)} className="text-primary hover:text-primary/80 flex items-center text-xs font-bold transition-colors">
                             <Edit2 className="w-3.5 h-3.5 mr-1.5" /> {t("step4.editBtn")}
                         </button>

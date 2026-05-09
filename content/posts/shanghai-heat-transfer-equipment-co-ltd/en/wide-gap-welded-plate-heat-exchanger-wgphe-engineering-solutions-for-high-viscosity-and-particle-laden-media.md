@@ -48,7 +48,7 @@ Wide-gap welded plate heat exchangers can be specified in special alloys such as
 
 ## What Engineers Should Specify
 
-For high-viscosity and particle-laden service, a good RFQ should include more than flow rate and inlet/outlet temperatures. It should describe solids content, particle size, fiber length, viscosity curve, scaling chemistry, cleaning method, allowable pressure drop, corrosion data, and target operating cycle.
+For high-viscosity and particle-laden service, a good quote request should include more than flow rate and inlet/outlet temperatures. It should describe solids content, particle size, fiber length, viscosity curve, scaling chemistry, cleaning method, allowable pressure drop, corrosion data, and target operating cycle.
 
 Those details allow the supplier to select channel gap, plate pattern, material, pass arrangement, and cleaning access as one integrated design.
 

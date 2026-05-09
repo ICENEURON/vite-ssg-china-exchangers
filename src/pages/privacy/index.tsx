@@ -1,10 +1,19 @@
 import { Head } from 'vite-react-ssg'
 import { useTranslation } from 'react-i18next'
 
+type LegalSection = {
+  title: string
+  content: string | string[]
+}
+
+function getLegalTitle(title: string) {
+  return title.replace(/^\d+\.\s*/, '')
+}
+
 export default function PrivacyPage() {
   const { t } = useTranslation('translation')
   const sections = Object.values(
-    t('pages.privacy.sections', { returnObjects: true }) as Record<string, { title: string; content: string }>
+    t('pages.privacy.sections', { returnObjects: true }) as Record<string, LegalSection>
   )
 
   return (
@@ -29,14 +38,22 @@ export default function PrivacyPage() {
 
           {/* Content */}
           <div className="space-y-10">
-            {sections.map((section) => (
-              <section key={section.title} className="scroll-mt-24">
-                <h2 className="text-2xl font-bold tracking-tight text-foreground">{section.title}</h2>
-                <p className="mt-3 text-lg leading-8 text-slate-600">
-                  {section.content}
-                </p>
-              </section>
-            ))}
+            {sections.map((section) => {
+              const paragraphs = Array.isArray(section.content) ? section.content : [section.content]
+
+              return (
+                <section key={section.title} className="scroll-mt-24">
+                  <h4 className="text-lg font-semibold leading-7 text-foreground">{getLegalTitle(section.title)}</h4>
+                  <div className="mt-3 space-y-4">
+                    {paragraphs.map((paragraph, paragraphIndex) => (
+                      <p key={paragraphIndex} className="text-base leading-7 text-slate-600">
+                        {paragraph}
+                      </p>
+                    ))}
+                  </div>
+                </section>
+              )
+            })}
           </div>
         </article>
       </main>

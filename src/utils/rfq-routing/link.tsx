@@ -2,10 +2,10 @@ import { forwardRef } from "react";
 import { Link, useLocation, type LinkProps } from "react-router-dom";
 import { addLanguageToPath, getPathWithoutLanguage, useCurrentLanguage, type Language } from "../language-routing";
 
-export const RFQ_SOURCE_URL_STORAGE_KEY = "heatex_rfq_source_url";
+export const QUOTE_REQUEST_SOURCE_URL_STORAGE_KEY = "heatex_quote_request_source_url";
 
 function getStoredSourcePath() {
-    return typeof window !== "undefined" ? window.sessionStorage.getItem(RFQ_SOURCE_URL_STORAGE_KEY) : null;
+    return typeof window !== "undefined" ? window.sessionStorage.getItem(QUOTE_REQUEST_SOURCE_URL_STORAGE_KEY) : null;
 }
 
 function normalizeRfqSourcePath(value: string | null) {
@@ -13,7 +13,7 @@ function normalizeRfqSourcePath(value: string | null) {
 
     try {
         const path = new URL(value, "https://local.invalid").pathname || "/";
-        return getPathWithoutLanguage(path) === "/rfq" ? null : path;
+        return getPathWithoutLanguage(path) === "/quote-request" ? null : path;
     } catch {
         return null;
     }
@@ -23,7 +23,7 @@ function getCurrentSourcePath(pathname: string, search: string) {
     const currentSource = normalizeRfqSourcePath(new URLSearchParams(search).get("source_url"));
     const storedSource = normalizeRfqSourcePath(getStoredSourcePath());
 
-    if (getPathWithoutLanguage(pathname) === "/rfq") {
+    if (getPathWithoutLanguage(pathname) === "/quote-request") {
         return currentSource || storedSource || "/";
     }
 
@@ -35,7 +35,7 @@ function buildRfqPath(pathname: string, search: string, currentLanguage: Languag
 
     params.set("source_url", getCurrentSourcePath(pathname, search));
 
-    return `${addLanguageToPath("/rfq", currentLanguage)}?${params.toString()}`;
+    return `${addLanguageToPath("/quote-request", currentLanguage)}?${params.toString()}`;
 }
 
 type RfqLinkProps = Omit<LinkProps, "to">;
@@ -56,7 +56,7 @@ export const RfqLink = forwardRef<HTMLAnchorElement, RfqLinkProps>(function RfqL
                 if (typeof window !== "undefined") {
                     const sourceUrl = new URL(to, window.location.origin).searchParams.get("source_url");
                     if (sourceUrl) {
-                        window.sessionStorage.setItem(RFQ_SOURCE_URL_STORAGE_KEY, sourceUrl);
+                        window.sessionStorage.setItem(QUOTE_REQUEST_SOURCE_URL_STORAGE_KEY, sourceUrl);
                     }
                 }
 

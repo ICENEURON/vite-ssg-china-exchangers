@@ -31,7 +31,7 @@
             },
             {
                 "label": "Traffic profile",
-                "value": "Readers arrive through search, manufacturer research, product comparison, and RFQ workflows."
+                "value": "Readers arrive through search, manufacturer research, product comparison, and quote request workflows."
             },
             {
                 "label": "Editorial rule",

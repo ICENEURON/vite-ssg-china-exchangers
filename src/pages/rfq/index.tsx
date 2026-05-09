@@ -12,7 +12,7 @@ import { useTranslation } from "react-i18next"
 import { submitRFQ } from "../../lib/supabase/db"
 import type { RFQSubmissionData } from "../../lib/supabase/db"
 import { getPathWithoutLanguage, useCurrentLanguage } from "../../utils/language-routing"
-import { RFQ_SOURCE_URL_STORAGE_KEY } from "../../utils/rfq-routing/link"
+import { QUOTE_REQUEST_SOURCE_URL_STORAGE_KEY } from "../../utils/rfq-routing/link"
 import manufacturersData from "../../data/manufacturers.json"
 
 interface SourceManufacturer {
@@ -28,7 +28,7 @@ function normalizeRfqSourcePath(value: string | null) {
 
   try {
     const path = new URL(value, "https://local.invalid").pathname || "/";
-    return getPathWithoutLanguage(path) === "/rfq" ? null : path;
+    return getPathWithoutLanguage(path) === "/quote-request" ? null : path;
   } catch {
     return null;
   }
@@ -52,7 +52,7 @@ export default function SmartRfqBuilder() {
   const [searchParams] = useSearchParams();
 
   const sourceUrl = normalizeRfqSourcePath(searchParams.get("source_url"))
-    || normalizeRfqSourcePath(typeof window !== "undefined" ? window.sessionStorage.getItem(RFQ_SOURCE_URL_STORAGE_KEY) : null);
+    || normalizeRfqSourcePath(typeof window !== "undefined" ? window.sessionStorage.getItem(QUOTE_REQUEST_SOURCE_URL_STORAGE_KEY) : null);
   const sourceManufacturerSlug = getSourceManufacturerSlug(sourceUrl);
   const sourceManufacturer = useMemo(() => (
     (manufacturersData as SourceManufacturer[]).find((manufacturer) => manufacturer.slug === sourceManufacturerSlug) || null
@@ -245,7 +245,7 @@ export default function SmartRfqBuilder() {
     try {
       await submitRFQ(submissionPayload);
       if (typeof window !== "undefined") {
-        window.sessionStorage.removeItem(RFQ_SOURCE_URL_STORAGE_KEY);
+        window.sessionStorage.removeItem(QUOTE_REQUEST_SOURCE_URL_STORAGE_KEY);
         window.scrollTo({ top: 0, behavior: "smooth" });
       }
       setIsSubmitted(true);

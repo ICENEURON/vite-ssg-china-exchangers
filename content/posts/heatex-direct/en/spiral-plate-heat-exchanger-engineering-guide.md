@@ -71,9 +71,9 @@ Chinese manufacturers have moved from early imitation and standardization toward
 
 For Chinese suppliers, the next stage is likely to depend on specialization rather than broad imitation. Stronger positions can come from mastering a narrow set of duties, building real test data, improving welding automation, documenting lifecycle performance, and offering service beyond the initial equipment sale.
 
-## RFQ Checklist for Buyers
+## Quote Request Checklist for Buyers
 
-When requesting a spiral plate exchanger quotation, include more than flow rate and inlet/outlet temperatures. A useful RFQ should also describe fouling mechanism, solids content, particle size, viscosity curve, corrosive species, cleaning method, allowable pressure drop, operating cycle target, inspection requirements, and material preferences.
+When requesting a spiral plate exchanger quotation, include more than flow rate and inlet/outlet temperatures. A useful quote request should also describe fouling mechanism, solids content, particle size, viscosity curve, corrosive species, cleaning method, allowable pressure drop, operating cycle target, inspection requirements, and material preferences.
 
 Ask suppliers to explain channel gap selection, weld inspection, mechanical cleaning access, pressure vessel code compliance, and comparable references. These answers will reveal more than a low initial price.
 

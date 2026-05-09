@@ -1,0 +1,144 @@
+{
+  "lastUpdated": "2026-05-09",
+  "description": "Manual homepage highlight configuration for featured manufacturer articles in Industry News.",
+  "items": [
+    {
+      "priority": 1,
+      "companyId": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+      "companySlug": "shanghai-heat-transfer-equipment-co-ltd",
+      "companyName": {
+        "en": "Shanghai Heat Transfer Equipment Co., Ltd.",
+        "zh": "上海板换机械设备有限公司"
+      },
+      "contentType": "news",
+      "articleSlug": "2026-project-award-updates",
+      "articleTitle": {
+        "en": "2026 Project Award Updates",
+        "zh": "2026 年项目中标更新"
+      },
+      "shortDescription": {
+        "en": "SHPHE's 2026 project awards show active supply across offshore gas, fertilizer, chemical, sugar, oilfield, and alumina heat transfer applications.",
+        "zh": "上海板换 2026 年项目中标动态，体现其在海上天然气、化肥、化工、制糖、油田和氧化铝等换热场景中的活跃供货能力。"
+      },
+      "paths": {
+        "en": "news/shanghai-heat-transfer-equipment-co-ltd/en/2026-project-award-updates.md",
+        "zh": "news/shanghai-heat-transfer-equipment-co-ltd/zh/2026-project-award-updates.md"
+      }
+    },
+    {
+      "priority": 2,
+      "companyId": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
+      "companySlug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
+      "companyName": {
+        "en": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
+        "zh": "兰州兰石换热设备有限责任公司"
+      },
+      "contentType": "posts",
+      "articleSlug": "pche-core-technologies-and-processes-engineering-analysis",
+      "articleTitle": {
+        "en": "PCHE Core Technologies: Etching, Diffusion Bonding, and Industrial Use",
+        "zh": "PCHE核心技术：蚀刻、扩散焊与工业应用"
+      },
+      "shortDescription": {
+        "en": "A technical guide explaining how etched microchannels and diffusion bonding make PCHEs relevant for hydrogen, sCO2, offshore, and advanced energy duties.",
+        "zh": "这篇技术指南说明蚀刻微通道和扩散焊如何让 PCHE 适用于氢能、超临界二氧化碳、海工和先进能源等高要求工况。"
+      },
+      "paths": {
+        "en": "posts/lanzhou-lanshi-heat-exchange-equipment-co-ltd/en/pche-core-technologies-and-processes-engineering-analysis.md",
+        "zh": "posts/lanzhou-lanshi-heat-exchange-equipment-co-ltd/zh/pche-core-technologies-and-processes-engineering-analysis.md"
+      }
+    },
+    {
+      "priority": 3,
+      "companyId": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+      "companySlug": "shanghai-heat-transfer-equipment-co-ltd",
+      "companyName": {
+        "en": "Shanghai Heat Transfer Equipment Co., Ltd.",
+        "zh": "上海板换机械设备有限公司"
+      },
+      "contentType": "posts",
+      "articleSlug": "wide-gap-welded-plate-heat-exchanger-wgphe-engineering-solutions-for-high-viscosity-and-particle-laden-media",
+      "articleTitle": {
+        "en": "WGPHE Solutions for High-Viscosity and Particle-Laden Media",
+        "zh": "高黏度与含颗粒介质的 WGPHE 工程方案"
+      },
+      "shortDescription": {
+        "en": "A process-engineering article on wide-gap welded plate heat exchangers for alumina, sugar, fermentation, pulp and paper, and chemical wastewater service.",
+        "zh": "面向氧化铝、糖业、发酵、制浆造纸和化工废水等复杂介质的宽通道焊接板式换热器工程应用文章。"
+      },
+      "paths": {
+        "en": "posts/shanghai-heat-transfer-equipment-co-ltd/en/wide-gap-welded-plate-heat-exchanger-wgphe-engineering-solutions-for-high-viscosity-and-particle-laden-media.md",
+        "zh": "posts/shanghai-heat-transfer-equipment-co-ltd/zh/wide-gap-welded-plate-heat-exchanger-wgphe-engineering-solutions-for-high-viscosity-and-particle-laden-media.md"
+      }
+    },
+    {
+      "priority": 4,
+      "companyId": "749dc7dd-abfc-4ee5-869b-7e8e9d8d953a",
+      "companySlug": "shenghai-accessen-co-ltd",
+      "companyName": {
+        "en": "Shanghai Accessen Co., Ltd.",
+        "zh": "上海艾克森股份有限公司"
+      },
+      "contentType": "posts",
+      "articleSlug": "heat-exchanger-troubleshooting-cleaning-maintenance-guide",
+      "articleTitle": {
+        "en": "Heat Exchanger Troubleshooting, Cleaning, and Maintenance Guide",
+        "zh": "换热器故障排查、清洗与维护指南"
+      },
+      "shortDescription": {
+        "en": "A practical maintenance guide covering fouling, leakage, corrosion, blockage, cleaning methods, inspection routines, and lifecycle care.",
+        "zh": "一篇实用维护指南，覆盖结垢、泄漏、腐蚀、堵塞、清洗方式、检查计划和换热器全生命周期维护。"
+      },
+      "paths": {
+        "en": "posts/shenghai-accessen-co-ltd/en/heat-exchanger-troubleshooting-cleaning-maintenance-guide.md",
+        "zh": "posts/shenghai-accessen-co-ltd/zh/heat-exchanger-troubleshooting-cleaning-maintenance-guide.md"
+      }
+    },
+    {
+      "priority": 5,
+      "companyId": "8139c310-96fe-4d28-b92e-f332e8226a5a",
+      "companySlug": "siping-viex-heat-exchange-equipment-co-ltd",
+      "companyName": {
+        "en": "Siping ViEX Heat Exchange Equipment Co., Ltd.",
+        "zh": "四平维克斯换热设备有限公司"
+      },
+      "contentType": "posts",
+      "articleSlug": "welded-plate-heat-exchanger-skids-marine-industry-applications",
+      "articleTitle": {
+        "en": "Marine Applications of Welded Plate Heat Exchanger Skids",
+        "zh": "焊接板式换热器撬装系统在海工行业的应用"
+      },
+      "shortDescription": {
+        "en": "An application article on welded plate heat exchanger skids for marine cooling, desalination, HVAC, crude oil treatment, hydraulic systems, and aquaculture.",
+        "zh": "介绍焊接板式换热器撬装系统在船舶冷却、海水淡化、暖通、原油处理、液压系统和水产养殖中的应用。"
+      },
+      "paths": {
+        "en": "posts/siping-viex-heat-exchange-equipment-co-ltd/en/welded-plate-heat-exchanger-skids-marine-industry-applications.md",
+        "zh": "posts/siping-viex-heat-exchange-equipment-co-ltd/zh/welded-plate-heat-exchanger-skids-marine-industry-applications.md"
+      }
+    },
+    {
+      "priority": 6,
+      "companyId": "5fb41b48-d202-46e1-b819-0de12c1152fa",
+      "companySlug": "siping-juyuan-welded-plate-heat-exchanger-co-ltd",
+      "companyName": {
+        "en": "Siping Juyuan Welded Plate Heat Exchanger Co., Ltd.",
+        "zh": "四平市巨元瀚洋板式换热器有限公司"
+      },
+      "contentType": "posts",
+      "articleSlug": "fully-welded-plate-heat-exchanger-installation-guide",
+      "articleTitle": {
+        "en": "Fully Welded Plate Heat Exchanger Installation Guide",
+        "zh": "全焊接板式换热器安装指南"
+      },
+      "shortDescription": {
+        "en": "A field-focused installation guide covering foundation checks, lifting, piping stress control, instrumentation, commissioning, and long-term operation.",
+        "zh": "面向现场安装的全焊接板式换热器指南，覆盖基础检查、吊装、管道应力控制、仪表、调试和长期运行。"
+      },
+      "paths": {
+        "en": "posts/siping-juyuan-welded-plate-heat-exchanger-co-ltd/en/fully-welded-plate-heat-exchanger-installation-guide.md",
+        "zh": "posts/siping-juyuan-welded-plate-heat-exchanger-co-ltd/zh/fully-welded-plate-heat-exchanger-installation-guide.md"
+      }
+    }
+  ]
+}

@@ -18,7 +18,7 @@ export interface RFQSubmissionData {
 }
 
 /**
- * Submits an RFQ to the public.rfqs table.
+ * Submits a quote request to the public.rfqs table.
  */
 export async function submitRFQ(data: RFQSubmissionData) {
   const supabase = await getSupabaseClient()

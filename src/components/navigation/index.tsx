@@ -60,15 +60,15 @@ export function Navigation() {
         };
     }, [isMobileMenuOpen]);
 
-    const publicItems = ROUTES.filter((r) => r.nav === "public" && r.path !== "/rfq");
+    const publicItems = ROUTES.filter((r) => r.nav === "public" && r.path !== "/quote-request");
     const guestItems = ROUTES.filter((r) => r.nav === "guest");
     const authItems = ROUTES.filter((r) => r.nav === "auth");
 
-    const mobilePublicItems = ROUTES.filter((r) => (r.mobile === "public" && r.path !== "/rfq") || r.path === "/products");
+    const mobilePublicItems = ROUTES.filter((r) => (r.mobile === "public" && r.path !== "/quote-request") || r.path === "/products");
     const mobileGuestItems = ROUTES.filter((r) => r.mobile === "guest");
     const mobileAuthItems = ROUTES.filter((r) => r.mobile === "auth");
 
-    const rfqRoute = ROUTES.find((r) => r.path === "/rfq");
+    const rfqRoute = ROUTES.find((r) => r.path === "/quote-request");
 
     const leftItems = publicItems;
     const rightItems = enableAuth ? (user ? authItems : guestItems) : [];

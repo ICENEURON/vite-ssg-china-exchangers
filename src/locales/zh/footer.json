@@ -19,9 +19,12 @@
     }
   },
   "legal": {
-    "copyright": "© {{year}} HeatEx Direct. 保留所有权利。",
+    "copyright": "Copyright© {{year}} HeatEx Direct. 保留所有权利。",
+    "see": "请参阅",
     "terms": "使用条款",
+    "and": "和",
     "privacy": "隐私政策",
-    "cookies": "Cookie 设置"
+    "afterLinks": "。",
+    "entityStatement": "HeatEx Direct 是一项在澳大利亚墨尔本运营的独立商务服务，帮助工业买家研究换热器制造商并提交询价。"
   }
 }

@@ -7,9 +7,40 @@ const gaMeasurementId = import.meta.env.VITE_GA_MEASUREMENT_ID;
 
 let gaLoaded = false;
 let cookieConsentInitialized = false;
+let learnMoreRoutingInitialized = false;
 
 function getCurrentLanguage() {
   return window.__LANGUAGE__ === 'zh' || window.location.pathname.startsWith('/zh') ? 'zh' : 'en';
+}
+
+function getLocalizedPrivacyPath() {
+  return getCurrentLanguage() === 'zh' ? '/zh/privacy' : '/privacy';
+}
+
+function routeLearnMoreToPrivacy() {
+  if (learnMoreRoutingInitialized) return;
+
+  learnMoreRoutingInitialized = true;
+  document.addEventListener(
+    'click',
+    (event) => {
+      const target = event.target;
+
+      if (!(target instanceof Element)) return;
+
+      const learnMoreButton = target.closest(
+        '#cc-main .cm [data-role="show"], [data-cc="show-preferencesModal"]',
+      );
+
+      if (!learnMoreButton) return;
+
+      event.preventDefault();
+      event.stopPropagation();
+      event.stopImmediatePropagation();
+      window.location.assign(getLocalizedPrivacyPath());
+    },
+    true,
+  );
 }
 
 function initializeDataLayer() {
@@ -73,6 +104,7 @@ export function initializeCookieConsent() {
   if (typeof window === 'undefined') return;
 
   initializeDataLayer();
+  routeLearnMoreToPrivacy();
 
   CookieConsent.run({
     mode: 'opt-in',
@@ -83,9 +115,10 @@ export function initializeCookieConsent() {
     },
     guiOptions: {
       consentModal: {
-        layout: 'box',
-        position: 'bottom right',
-        equalWeightButtons: true,
+        layout: 'bar',
+        position: 'bottom',
+        equalWeightButtons: false,
+        flipButtons: true,
       },
       preferencesModal: {
         layout: 'box',
@@ -113,17 +146,15 @@ export function initializeCookieConsent() {
       translations: {
         en: {
           consentModal: {
-            title: 'Cookie preferences',
-            description: 'We use necessary cookies and, with your permission, analytics cookies to improve the site.',
-            acceptAllBtn: 'Accept',
-            acceptNecessaryBtn: 'Reject',
-            showPreferencesBtn: 'Manage',
-            footer: '<a href="/privacy">Privacy Policy</a>',
+            title: 'Cookie Policy',
+            description: 'HeatEx Direct uses cookies to operate the website and understand site usage. By using this site and selecting Accept Terms, you agree to our <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Use</a>.',
+            acceptAllBtn: 'Accept Terms',
+            showPreferencesBtn: 'Learn More',
+            closeIconLabel: 'Close',
           },
           preferencesModal: {
             title: 'Cookie preferences',
             acceptAllBtn: 'Accept all',
-            acceptNecessaryBtn: 'Reject all',
             savePreferencesBtn: 'Save',
             closeIconLabel: 'Close',
             sections: [
@@ -156,17 +187,15 @@ export function initializeCookieConsent() {
         },
         zh: {
           consentModal: {
-            title: 'Cookie 偏好设置',
-            description: '我们使用必要 Cookie，并在你同意后使用分析 Cookie 改进网站。',
-            acceptAllBtn: '同意',
-            acceptNecessaryBtn: '拒绝',
-            showPreferencesBtn: '管理',
-            footer: '<a href="/zh/privacy">隐私政策</a>',
+            title: 'Cookie 政策',
+            description: 'HeatEx Direct 使用 Cookie 来运行网站并了解网站使用情况。当你使用本网站并选择接受条款时，即表示你同意我们的 <a href="/zh/privacy">隐私政策</a> 和 <a href="/zh/terms">使用条款</a>。',
+            acceptAllBtn: '接受条款',
+            showPreferencesBtn: '了解更多',
+            closeIconLabel: '关闭',
           },
           preferencesModal: {
             title: 'Cookie 偏好设置',
             acceptAllBtn: '全部同意',
-            acceptNecessaryBtn: '全部拒绝',
             savePreferencesBtn: '保存',
             closeIconLabel: '关闭',
             sections: [

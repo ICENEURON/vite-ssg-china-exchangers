@@ -19,9 +19,12 @@
     }
   },
   "legal": {
-    "copyright": "© {{year}} HeatEx Direct. All rights reserved.",
-    "terms": "terms and conditions",
-    "privacy": "privacy policy",
-    "cookies": "cookie settings"
+    "copyright": "Copyright© {{year}} HeatEx Direct. All Rights Reserved.",
+    "see": "See",
+    "terms": "Terms of Use",
+    "and": "and",
+    "privacy": "Privacy Policy",
+    "afterLinks": ".",
+    "entityStatement": "HeatEx Direct is an independent business service operated from Melbourne, Australia, helping industrial buyers research heat exchanger manufacturers and submit quote requests."
   }
 }

@@ -9,7 +9,6 @@ import {
 import { QuoteCta } from "../ui/quote-cta";
 import { RfqLink } from "../../utils/rfq-routing/link";
 import { Mail } from "lucide-react";
-import { showCookiePreferences } from "../../lib/analytics/cookie-consent";
 
 const Footer = () => {
   const { t } = useTranslation("translation");
@@ -64,16 +63,8 @@ const Footer = () => {
     ],
   ];
 
-  const bottomLinks = [
-    {
-      text: t("footer.legal.terms"),
-      url: addLanguageToPath("/terms", currentLanguage),
-    },
-    {
-      text: t("footer.legal.privacy"),
-      url: addLanguageToPath("/privacy", currentLanguage),
-    },
-  ];
+  const termsUrl = addLanguageToPath("/terms", currentLanguage);
+  const privacyUrl = addLanguageToPath("/privacy", currentLanguage);
 
   return (
     <footer className={cn("bg-navbar text-navbar-foreground")}>
@@ -135,32 +126,27 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* 底部：版权 + 法律链接 */}
-        <div className="mt-8 flex flex-col justify-between gap-4 pt-8 text-sm font-medium md:flex-row md:items-center border-t border-navbar-foreground/10">
-          <p className="text-navbar-foreground/60">
-            {t("footer.legal.copyright", { year: currentYear })}
+        {/* 底部：版权与法律说明 */}
+        <div className="mt-8 border-t border-navbar-foreground/10 pt-8 text-xs font-medium leading-6 text-navbar-foreground/60">
+          <p>
+            {t("footer.legal.copyright", { year: currentYear })}{" "}
+            {t("footer.legal.see")}{" "}
+            <a
+              href={termsUrl}
+              className="text-navbar-foreground/80 hover:text-navbar-foreground underline underline-offset-4 transition-colors duration-200"
+            >
+              {t("footer.legal.terms")}
+            </a>{" "}
+            {t("footer.legal.and")}{" "}
+            <a
+              href={privacyUrl}
+              className="text-navbar-foreground/80 hover:text-navbar-foreground underline underline-offset-4 transition-colors duration-200"
+            >
+              {t("footer.legal.privacy")}
+            </a>
+            {t("footer.legal.afterLinks")}{" "}
+            {t("footer.legal.entityStatement")}
           </p>
-          <ul className="flex gap-6">
-            {bottomLinks.map((link, linkIdx) => (
-              <li key={linkIdx}>
-                <a
-                  href={link.url}
-                  className="text-navbar-foreground/60 hover:text-navbar-foreground underline underline-offset-4 transition-colors duration-200"
-                >
-                  {link.text}
-                </a>
-              </li>
-            ))}
-            <li>
-              <button
-                type="button"
-                onClick={showCookiePreferences}
-                className="text-navbar-foreground/60 hover:text-navbar-foreground underline underline-offset-4 transition-colors duration-200"
-              >
-                {t("footer.legal.cookies")}
-              </button>
-            </li>
-          </ul>
         </div>
       </div>
     </footer>

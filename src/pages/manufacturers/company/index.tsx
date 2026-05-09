@@ -279,7 +279,7 @@ export default function ManufacturerProfilePage() {
                                 </div>
                             </div>
 
-                            {/* RFQ Box - Frosted Glass */}
+                            {/* Quote request box - frosted glass */}
                             <div className="w-full max-w-md bg-white/5 backdrop-blur-md border border-white/10 p-8 rounded-3xl shadow-2xl relative overflow-hidden group">
                                 <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-purple-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
