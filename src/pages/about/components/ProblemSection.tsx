@@ -1,83 +1,78 @@
-import { Shield, MessageSquare, CheckCircle2, XCircle, FileStack, Lock } from "lucide-react";
+import { FileStack, Globe2, History, ShieldCheck } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { BrandText } from "../../../components/ui/brand-text";
 
 export function ProblemSection() {
     const { t } = useTranslation("translation");
+    const descriptions = t("pages.about.advantages.descriptions", { returnObjects: true }) as string[];
+    const featureItems = [
+        {
+            icon: History,
+            title: t("pages.about.who_we_are.features.experience.title"),
+            desc: t("pages.about.who_we_are.features.experience.desc"),
+        },
+        {
+            icon: ShieldCheck,
+            title: t("pages.about.who_we_are.features.verification.title"),
+            desc: t("pages.about.who_we_are.features.verification.desc"),
+        },
+        {
+            icon: Globe2,
+            title: t("pages.about.who_we_are.features.connect.title"),
+            desc: t("pages.about.who_we_are.features.connect.desc"),
+        },
+        {
+            icon: FileStack,
+            title: t("pages.about.who_we_are.transparency.subtitle"),
+            desc: t("pages.about.who_we_are.transparency.desc"),
+        },
+    ];
 
     return (
-        <section className="py-10 px-2 flex justify-center bg-section-fade relative">
-            <div className="container px-4 max-w-6xl flex flex-col items-center justify-center gap-4 text-center">
-                <div className="grid lg:grid-cols-2 gap-4 w-full justify-items-center">
-                    <div className="flex flex-col items-center justify-center p-4 gap-4 w-full lg:order-2">
-                        <div className="flex items-center justify-center gap-4 text-accent font-bold uppercase tracking-wider text-lg p-2">
-                            <Shield className="w-5 h-5" />
-                            {t("pages.about.advantages.badge")}
-                        </div>
-                        <h2 className="font-bold text-foreground p-2">
+        <section className="flex justify-center bg-slate-50 px-2 py-14">
+            <div className="container max-w-6xl px-4">
+                <div className="grid gap-10 lg:grid-cols-[minmax(0,0.72fr)_minmax(0,1fr)] lg:items-start">
+                    <div className="max-w-xl lg:sticky lg:top-24">
+                        <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl">
                             {t("pages.about.advantages.title")}
                         </h2>
-                        <div className="prose prose-lg leading-relaxed flex flex-col items-center justify-center gap-2 p-2 w-full text-center">
-                            <p className="font-medium text-foreground">
-                                {t("pages.about.advantages.description_1")}
-                            </p>
-                            <p className="font-medium text-muted">
-                                {t("pages.about.advantages.description_2")}
-                            </p>
+                        <div className="mt-5 space-y-3 text-sm leading-7 text-muted md:text-base">
+                            {descriptions.map((description) => (
+                                <p key={description}>
+                                    <BrandText text={description} />
+                                </p>
+                            ))}
                         </div>
                     </div>
 
-                    {/* Visual/graphic side */}
-                    <div className="flex flex-col items-center justify-center bg-popover rounded-2xl p-6 border border-border/40 shadow-sm relative overflow-hidden lg:order-1 w-full gap-4 text-center">
-                        <div className="absolute top-0 right-0 w-64 h-64 bg-popover-foreground/10 rounded-full blur-3xl pointer-events-none" />
-                        <div className="flex flex-col items-center justify-center gap-4 relative z-10 w-full">
-                            {/* Comparison Header */}
-                            <div className="grid grid-cols-2 gap-4 p-2 text-sm font-bold uppercase tracking-wider text-popover-foreground text-center w-full">
-                                <div>{t("pages.about.advantages.visual.header_standard")}</div>
-                                <div>{t("pages.about.advantages.visual.header_us")}</div>
-                            </div>
+                    <div className="grid overflow-hidden border border-slate-200 bg-white md:grid-cols-2">
+                        {featureItems.map((item, index) => {
+                            const Icon = item.icon;
+                            const borderClassName = [
+                                index > 0 ? "border-t" : "",
+                                index === 1 ? "md:border-t-0 md:border-l" : "",
+                                index === 2 ? "md:border-l-0" : "",
+                                index === 3 ? "md:border-l" : "",
+                            ].join(" ");
 
-                            {/* Row 1: Communication */}
-                            <div className="grid grid-cols-2 gap-4 bg-white rounded-xl p-4 shadow-sm items-center w-full">
-                                <div className="text-muted flex items-center justify-center gap-4 text-sm">
-                                    <MessageSquare className="w-5 h-5 text-muted shrink-0" />
-                                    <span>{t("pages.about.advantages.visual.row_1.standard")}</span>
-                                </div>
-                                <div className="text-foreground flex items-center justify-center gap-4 font-medium text-sm">
-                                    <CheckCircle2 className="w-5 h-5 text-green-500 shrink-0" />
-                                    <span>{t("pages.about.advantages.visual.row_1.us")}</span>
-                                </div>
-                            </div>
-
-                            {/* Row 2: Multiple Options */}
-                            <div className="grid grid-cols-2 gap-4 bg-white rounded-xl p-4 shadow-sm items-center w-full">
-                                <div className="text-muted flex items-center justify-center gap-4 text-sm">
-                                    <XCircle className="w-5 h-5 text-muted shrink-0" />
-                                    <span>{t("pages.about.advantages.visual.row_2.standard")}</span>
-                                </div>
-                                <div className="text-foreground flex items-center justify-center gap-4 font-medium text-sm">
-                                    <FileStack className="w-5 h-5 text-accent shrink-0" />
-                                    <span>{t("pages.about.advantages.visual.row_2.us")}</span>
-                                </div>
-                            </div>
-
-                            {/* Row 3: Privacy (Highlighted) */}
-                            <div className="grid grid-cols-2 gap-4 bg-red-50 rounded-xl p-4 border border-red-100 items-center justify-center w-full">
-                                <div className="text-red-600 font-bold text-sm flex items-center justify-center gap-4">
-                                    <MessageSquare className="w-4 h-4 shrink-0" />
-                                    {t("pages.about.advantages.visual.row_3.standard")}
-                                </div>
-                                <div className="text-green-600 font-bold text-sm bg-green-50 -m-4 p-4 rounded-xl border border-green-100 flex items-center justify-center gap-4">
-                                    <Lock className="w-4 h-4 text-green-600 shrink-0" />
-                                    {t("pages.about.advantages.visual.row_3.us")}
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="p-4 text-center text-sm text-background italic w-full">
-                            {t("pages.about.advantages.visual.footer")}
-                        </div>
+                            return (
+                                <article
+                                    key={item.title}
+                                    className={`group min-h-48 border-slate-200 p-5 text-left transition-colors duration-200 hover:bg-slate-50 ${borderClassName}`}
+                                >
+                                    <div className="flex items-center gap-3 text-foreground">
+                                        <Icon className="size-5 shrink-0 text-primary transition-transform duration-200 group-hover:translate-x-0.5" />
+                                        <h3 className="text-base font-bold leading-6 md:text-lg">
+                                            {item.title}
+                                        </h3>
+                                    </div>
+                                    <p className="mt-4 text-sm leading-7 text-muted">
+                                        {item.desc}
+                                    </p>
+                                </article>
+                            );
+                        })}
                     </div>
-
                 </div>
             </div>
         </section>

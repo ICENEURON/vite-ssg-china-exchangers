@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { ClipboardList, MailCheck, Scale, Search } from "lucide-react";
+import { BrandText } from "../../../components/ui/brand-text";
 
 export function HowItWorks() {
     const { t } = useTranslation("translation");
@@ -39,7 +40,7 @@ export function HowItWorks() {
                                     <span>{step.title}</span>
                                 </h3>
                                 <p className="mt-3 text-sm leading-6 text-muted">
-                                    {step.body}
+                                    <BrandText text={step.body} />
                                 </p>
                             </div>
                         );

@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { BadgeCheck } from "lucide-react";
+import { BrandText } from "../../../components/ui/brand-text";
 
 export function ValuePropGrid() {
     const { t } = useTranslation("translation");
@@ -22,7 +23,7 @@ export function ValuePropGrid() {
                             {t("pages.home.valueProp.title")}
                         </h2>
                         <p className="mt-4 max-w-3xl text-sm leading-7 text-muted md:text-base">
-                            {t("pages.home.valueProp.description")}
+                            <BrandText text={t("pages.home.valueProp.description")} />
                         </p>
                     </div>
                 </div>

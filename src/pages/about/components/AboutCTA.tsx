@@ -11,28 +11,25 @@ export function AboutCTA() {
     const manufacturersPath = addLanguageToPath("/manufacturers", currentLanguage);
 
     return (
-        <section className="py-10 px-2 flex justify-center bg-slate-900 text-white text-center relative overflow-hidden">
-            {/* Background Glow */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/20 blur-[120px] rounded-full pointer-events-none" />
-
-            <div className="container px-4 max-w-6xl flex flex-col items-center justify-center gap-4 relative z-10 w-full text-center">
-                <div className="flex flex-col items-center justify-center gap-4 p-4 w-full text-center">
-                    <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
+        <section className="flex justify-center bg-slate-900 px-2 py-12 text-center text-white">
+            <div className="container flex max-w-6xl flex-col items-center justify-center gap-5 px-4 text-center">
+                <div className="flex w-full flex-col items-center justify-center gap-3 text-center">
+                    <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
                         {t("pages.about.cta.title")}
-                    </h1>
-                    <h4 className="text-muted-foreground">
+                    </h2>
+                    <p className="max-w-2xl text-sm leading-7 text-gray-300 md:text-base">
                         {t("pages.about.cta.subtitle")}
-                    </h4>
+                    </p>
                 </div>
 
-                <div className="flex flex-col items-center justify-center gap-4 p-4 w-full">
-                    <Button size="lg" className="h-16 px-10 text-xl font-bold bg-primary hover:bg-primary/90 text-primary-foreground shadow-2xl shadow-primary/20 transition-all hover:scale-110 flex items-center justify-center gap-4" asChild>
+                <div className="flex w-full flex-col items-center justify-center gap-4">
+                    <Button size="lg" className="h-12 px-6 text-base font-semibold bg-primary hover:bg-primary/90 text-primary-foreground flex items-center justify-center gap-3" asChild>
                         <Link to={manufacturersPath}>
                             {t("pages.about.cta.button")} <ArrowRight className="w-6 h-6" />
                         </Link>
                     </Button>
 
-                    <div className="flex items-center justify-center gap-4 text-gray-500 mt-4 p-4 border-t border-border/30 w-full">
+                    <div className="mt-2 flex w-full items-center justify-center gap-3 border-t border-white/10 p-4 text-gray-400">
                         <Mail className="w-5 h-5 shrink-0" />
                         <span className="text-md font-medium">
                             {t("pages.about.cta.email_text")} <a href={`mailto:${email}`} className="text-white hover:text-primary transition-colors">{email}</a>

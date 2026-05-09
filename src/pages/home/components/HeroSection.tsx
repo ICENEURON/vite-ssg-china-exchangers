@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { QuoteCta } from "../../../components/ui/quote-cta";
+import { BrandText } from "../../../components/ui/brand-text";
 import { ArrowRight, Factory, Mail, PackageSearch } from "lucide-react";
 import { addLanguageToPath, useCurrentLanguage } from "../../../utils/language-routing";
 import { RfqLink } from "../../../utils/rfq-routing/link";
@@ -34,7 +35,7 @@ export function HeroSection() {
                     </h1>
 
                     <p className="max-w-3xl text-lg leading-8 text-gray-100 md:text-xl">
-                        {t("pages.home.hero.subtitle")}
+                        <BrandText text={t("pages.home.hero.subtitle")} directClassName="text-orange-300" />
                     </p>
 
                     <p className="max-w-3xl text-sm leading-7 text-gray-300 md:text-base">

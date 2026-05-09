@@ -1,5 +1,6 @@
 import { Building2, Factory, Globe2, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { BrandText } from "../../../components/ui/brand-text";
 import { Label } from "../../../components/ui/label";
 
 export function CompanyIntro() {
@@ -14,13 +15,13 @@ export function CompanyIntro() {
                 <div className="max-w-4xl">
                     <Label className="mb-4 text-primary">
                         <Building2 className="size-4" />
-                        {t("pages.home.companyIntro.eyebrow")}
+                        <BrandText text={t("pages.home.companyIntro.eyebrow")} />
                     </Label>
                     <h2 className="text-3xl md:text-4xl font-bold text-foreground tracking-tight">
                         {t("pages.home.companyIntro.title")}
                     </h2>
                     <p className="mt-4 max-w-2xl text-muted leading-relaxed md:text-lg">
-                        {t("pages.home.companyIntro.lead")}
+                        <BrandText text={t("pages.home.companyIntro.lead")} />
                     </p>
                 </div>
 
@@ -39,7 +40,7 @@ export function CompanyIntro() {
 
                 <div className="max-w-5xl border-t border-slate-200 pt-7">
                     <p className="text-lg leading-8 text-slate-800">
-                        {t("pages.home.companyIntro.body")}
+                        <BrandText text={t("pages.home.companyIntro.body")} />
                     </p>
 
                     <div className="mt-6 space-y-5 text-left">
