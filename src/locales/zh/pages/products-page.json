@@ -5,36 +5,36 @@
   "clear_all": "清除全部",
   "filter_by": "行业",
   "filter_manufacturer": "制造商",
-  "title": "工業換熱器",
-  "description": "探索我們全面的工業換熱器系列，包括板式換熱器、管殼式換熱器以及針對各種行業的定制解決方案。",
+  "title": "工业换热器",
+  "description": "探索我们全面的工业换热器系列，包括板式换热器、管壳式换热器以及针对各种行业的定制解决方案。",
   "hero": {
-    "badge": "優質熱傳導解決方案",
-    "title": "工業換熱器",
-    "description": "探索我們全面的工業換熱器系列，包括板式換熱器、管殼式換熱器以及針對各種行業的定制解決方案。"
+    "badge": "优质传热解决方案",
+    "title": "工业换热器",
+    "description": "探索我们全面的工业换热器系列，包括板式换热器、管壳式换热器以及针对各种行业的定制解决方案。"
   },
   "card": {
-    "no_image": "無可用圖片",
-    "explore_details": "探索詳情",
-    "more_industries": "還有 {{count}} 個"
+    "no_image": "无可用图片",
+    "explore_details": "查看详情",
+    "more_industries": "还有 {{count}} 个"
   },
   "cta": {
-    "title": "不確定您需要哪種產品？",
-    "description": "我們的互動式詢價工具幫助您指定應用參數，我們將為您匹配能夠生產您所需精確換熱器的驗證製造商。",
-    "button": "立即建立詢價需求"
+    "title": "不确定您需要哪种产品？",
+    "description": "我们的互动式询价工具可以帮助您指定应用参数，我们将为您匹配能够生产所需换热器的已验证制造商。",
+    "button": "立即创建询价需求"
   },
   "detail": {
-    "view_manufacturer": "查看製造商",
+    "view_manufacturer": "查看制造商",
     "back_to_manufacturer": "返回制造商页面",
     "back_to_manufacturers": "返回所有工厂",
-    "back_to_list": "返回所有產品",
-    "request_quote": "請求報價",
-    "key_advantages": "主要優勢",
-    "product_details": "產品詳情",
-    "technical_specifications": "技術規格",
-    "certificates": "證書",
-    "certifications": "認證",
-    "certificate_alt": "證書",
-    "other_products": "該公司的其他產品",
+    "back_to_list": "返回所有产品",
+    "request_quote": "请求报价",
+    "key_advantages": "主要优势",
+    "product_details": "产品详情",
+    "technical_specifications": "技术规格",
+    "certificates": "证书",
+    "certifications": "认证",
+    "certificate_alt": "证书",
+    "other_products": "该公司的其他产品",
     "document_downloads": "文档下载",
     "download": "下载"
   },

@@ -1,58 +1,58 @@
 {
-    "title": "HeatEx Direct | 工業換熱器製造商",
+    "title": "HeatEx Direct | 工业换热器制造商",
     "meta": {
-        "description": "直接從經過驗證的中國工廠採購工業換熱器。人工核實營業執照、生產範圍和ASME證書。",
-        "keywords": "換熱器, 中國製造商, 工業採購, ASME, ISO, 板式換熱器, 管殼式換熱器"
+        "description": "直接从经过验证的中国工厂采购工业换热器。人工核实营业执照、生产范围和 ASME 证书。",
+        "keywords": "换热器, 中国制造商, 工业采购, ASME, ISO, 板式换热器, 管壳式换热器"
     },
     "og": {
-        "title": "HeatEx Direct - 驗證工廠直連",
-        "description": "直接從經過驗證的中國工廠採購工業換熱器。人工核實營業執照、生產範圍和ASME證書。",
+        "title": "HeatEx Direct - 验证工厂直连",
+        "description": "直接从经过验证的中国工厂采购工业换热器。人工核实营业执照、生产范围和 ASME 证书。",
         "image": "/static/websites/home-hero.png",
         "url": "{{url}}",
         "type": "website",
         "site_name": "{{site_name}}"
     },
     "page": {
-        "title": "產業見解",
-        "subtitle": "提供換熱器產業最新的市場趨勢、物流更新與技術指南。",
-        "latest": "最新動態"
+        "title": "行业见解",
+        "subtitle": "提供换热器行业最新的市场趋势、物流更新与技术指南。",
+        "latest": "最新动态"
     },
     "hero": {
-        "title": "推動成長的策略性內容",
-        "subtitle": "以數據驅動的內容策略提升您的品牌價值。",
-        "intro": "我們透過高品質、符合 SEO 最佳化的內容，協助 B2B 製造商和出口商與其目標受眾建立連結。從產業新聞文章到技術白皮書，我們的團隊致力於提供能夠建立信任並產生潛在客戶的優質內容。",
-        "badge": "新聞"
+        "title": "推动增长的策略性内容",
+        "subtitle": "以数据驱动的内容策略提升您的品牌价值。",
+        "intro": "我们通过高质量、符合 SEO 优化的内容，协助 B2B 制造商和出口商与其目标受众建立连接。从行业新闻文章到技术白皮书，我们的团队致力于提供能够建立信任并产生潜在客户的优质内容。",
+        "badge": "新闻"
     },
     "card": {
-        "read": "閱讀文章"
+        "read": "阅读文章"
     },
     "content_types": {
-        "news": "新聞",
-        "posts": "技術文章"
+        "news": "新闻",
+        "posts": "技术文章"
     },
     "filters": {
-        "content_type": "內容類型",
+        "content_type": "内容类型",
         "company": "公司",
         "all": "全部",
         "all_companies": "全部公司",
-        "no_results": "沒有符合篩選條件的文章。"
+        "no_results": "没有符合筛选条件的文章。"
     },
     "search": {
-        "label": "搜尋文章標題",
-        "placeholder": "按關鍵詞搜尋文章標題"
+        "label": "搜索文章标题",
+        "placeholder": "按关键词搜索文章标题"
     },
     "blog": {
-        "not_found_title": "找不到頁面",
-        "not_found_desc": "您正在尋找的文章可能已被移除、更改名稱，或是暫時無法使用。",
+        "not_found_title": "找不到页面",
+        "not_found_desc": "您正在寻找的文章可能已被移除、更改名称，或是暂时无法使用。",
         "back_to_list": "返回列表",
         "author": "作者",
-        "reviewer": "審閱者",
-        "read_time": "閱讀時間",
-        "related_posts": "相關文章"
+        "reviewer": "审阅者",
+        "read_time": "阅读时间",
+        "related_posts": "相关文章"
     },
     "pagination": {
         "of": "/",
-        "results": "筆結果",
+        "results": "条结果",
         "go_to": "前往"
     }
 }

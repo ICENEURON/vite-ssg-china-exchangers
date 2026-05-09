@@ -3,25 +3,25 @@
     "alt": "HeatEx Direct",
     "title": "HeatEx Direct"
   },
-  "tagline": "經過分析師驗證的工業熱交換設備採購平台。",
+  "tagline": "经过分析师验证的工业热交换设备采购平台。",
   "rfq_label": "提交询价",
   "links": {
     "items": {
-      "home": "首頁",
-      "manufacturers": "已驗證製造商目錄",
-      "products": "產品類別",
+      "home": "首页",
+      "manufacturers": "已验证制造商目录",
+      "products": "产品类别",
       "rfq": "提交询价",
       "profile": "更新厂家资料",
       "content-marketing-services": "行业资讯投稿",
-      "industry-news": "產業新聞",
-      "about": "關於我們",
-      "contact": "聯絡我們"
+      "industry-news": "行业新闻",
+      "about": "关于我们",
+      "contact": "联系我们"
     }
   },
   "legal": {
-    "copyright": "© {{year}} HeatEx Direct. 保留所有權利。",
-    "terms": "使用條款",
-    "privacy": "隱私權政策",
-    "cookies": "Cookie 設定"
+    "copyright": "© {{year}} HeatEx Direct. 保留所有权利。",
+    "terms": "使用条款",
+    "privacy": "隐私政策",
+    "cookies": "Cookie 设置"
   }
 }

@@ -1,33 +1,33 @@
 {
-  "title": "登入您的帳戶",
+  "title": "登录您的账号",
   "meta": {
-    "description": "登入以訪問您的個人儀表板，探索 React、Vite、TailwindCSS 和 Shadcn UI 組件。",
-    "keywords": "登入, 認證, react, 儀表板, 帳戶"
+    "description": "登录以访问您的个人仪表板，探索 React、Vite、TailwindCSS 和 Shadcn UI 组件。",
+    "keywords": "登录, 认证, react, 仪表板, 账号"
   },
   "og": {
-    "title": "登入 - React + Vite + TailwindCSS + Shadcn",
-    "description": "訪問您的開發儀表板，探索現代網頁技術。"
+    "title": "登录 - React + Vite + TailwindCSS + Shadcn",
+    "description": "访问您的开发仪表板，探索现代网页技术。"
   },
   "hero": {
-    "title": "歡迎回來",
-    "subtitle": "登入以訪問您的開發儀表板並探索我們的技術棧。"
+    "title": "欢迎回来",
+    "subtitle": "登录以访问您的开发仪表板并探索我们的技术栈。"
   },
   "form": {
-    "email": "電子郵件",
-    "password": "密碼",
-    "signin": "登入",
-    "signing_in": "登入中...",
-    "forgot_password": "忘記密碼？",
-    "no_account": "還沒有帳戶？",
-    "signup_link": "在此註冊"
+    "email": "电子邮件",
+    "password": "密码",
+    "signin": "登录",
+    "signing_in": "登录中...",
+    "forgot_password": "忘记密码？",
+    "no_account": "还没有账号？",
+    "signup_link": "在此注册"
   },
   "benefits": {
-    "title": "您將獲得的功能：",
+    "title": "您将获得的功能：",
     "items": [
-      "互動式組件展示",
-      "即時程式碼範例",
-      "性能指標",
-      "自定義工具"
+      "互动式组件展示",
+      "实时代码示例",
+      "性能指标",
+      "自定义工具"
     ]
   }
 }
