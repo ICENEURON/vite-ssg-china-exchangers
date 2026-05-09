@@ -38,12 +38,12 @@
         "Sheet Material": "304 / 304L / 321 / 316L / dual phase steel",
         "Plate Thickness": "1.5-2.0 mm",
         "Bearing Capacity": "2.1 MPa",
-        "Design Temperature": "350 C",
+        "Design Temperature": "350℃",
         "Fixed-pitch Columns": "316L"
       },
       "zh": {
         "定距柱": "316L",
-        "承压能力": "2.1Mpa",
+        "承压能力": "2.1MPa",
         "板片厚度": "1.5~2.0mm",
         "板片材质": "304 / 304L / 321 / 316L / 双相钢等",
         "装机面积": "880m2",
@@ -61,7 +61,7 @@
       }
     },
     "created_at": "2026-05-04T09:45:15.477+00:00",
-    "updated_at": "2026-05-04T11:13:32.318+00:00",
+    "updated_at": "2026-05-09T12:44:30.363+00:00",
     "order": 2,
     "video_link": "",
     "details": {
@@ -133,7 +133,7 @@
       }
     },
     "created_at": "2026-05-04T10:23:08.552+00:00",
-    "updated_at": "2026-05-04T11:12:20.632+00:00",
+    "updated_at": "2026-05-09T12:43:41.672+00:00",
     "order": 4,
     "video_link": "",
     "details": {
@@ -216,7 +216,7 @@
       }
     },
     "created_at": "2026-05-04T05:31:30.915+00:00",
-    "updated_at": "2026-05-04T11:13:26.921+00:00",
+    "updated_at": "2026-05-09T12:44:27.361+00:00",
     "order": 6,
     "video_link": "",
     "details": {
@@ -238,6 +238,222 @@
         {
           "title": "它为什么更便于维护？",
           "content": "产品采用免粘卡扣式垫片、改进导流区和板片四角自锁装置，有助于减少污垢堆积并提升拆装与维护便利性。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "b060b45e-b4a5-4e26-9dfd-c210d547ab9d",
+    "manufacturer_id": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
+    "slug": "wide-channel-welded-plate-heat-exchanger",
+    "is_visible": true,
+    "name": {
+      "en": "Wide Channel Welded Plate Heat Exchanger",
+      "zh": "宽通道焊接式板式热交换器"
+    },
+    "short_description": {
+      "en": "Welded wide-gap plate exchanger for viscous media, fibers, and solid particles.",
+      "zh": "适用于粘稠介质、纤维悬浮物和固体颗粒工况的宽通道焊接式板式热交换器。"
+    },
+    "full_description": {
+      "en": "According to the official product page, the plate uses nest ripple or flat plates as heat transfer elements, and the plate bundle is welded between paired plates. It is designed for sugar, paper making, metallurgy, alcohol, chemical, food, and fuel ethanol processes that handle solid particles, fiber suspensions, and viscous fluids, while aiming to reduce deposition and clogging inside the channel.",
+      "zh": "根据官网介绍，该产品采用窝状波纹或平板板片作为传热元件，两张板片焊接形成板束，并通过相关结构组装成整机。产品专门用于制糖、造纸、冶金、酒精、化工、食品、燃料乙醇等工艺中处理含固体颗粒、纤维悬浮物和粘稠流体的加热或冷却工况，强调通道顺畅、减少沉积和堵塞。"
+    },
+    "industries": [
+      "5",
+      "6",
+      "7"
+    ],
+    "advantage": {
+      "en": [
+        "Designed for media containing solid particles, fiber suspensions, and viscous fluids.",
+        "Wide-gap flow channel is intended to stay smooth and reduce clogging.",
+        "Developed for process heating and cooling in sugar, paper, metallurgy, alcohol, chemical, food, and fuel ethanol service."
+      ],
+      "zh": [
+        "适用于含固体颗粒、纤维悬浮物及粘稠流体的换热工况。",
+        "宽通道结构强调流道顺畅，减少沉积和堵塞风险。",
+        "面向制糖、造纸、冶金、酒精、化工、食品、燃料乙醇等行业的工艺加热与冷却应用。"
+      ]
+    },
+    "technical_parameters": {
+      "en": {
+        "Assembly Area": "≤1000m2",
+        "Design Pressure": "Vacuum ~ 3.5MPa",
+        "Plate Thickness": "1.0 ~ 2.0mm",
+        "Design Temperature": "≤450℃",
+        "Minimum Temperature Difference": "1℃"
+      },
+      "zh": {
+        "最小温差": "1℃",
+        "板片厚度": "1.0 ~ 2.0mm",
+        "组装面积": "≤1000m2",
+        "设计压力": "真空 ~ 3.5MPa",
+        "设计温度": "≤450℃"
+      }
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "Wide Channel Welded Plate Heat Exchanger",
+        "meta_description": "Welded wide-gap plate exchanger for viscous media, fibers, and solid particles."
+      },
+      "zh": {
+        "meta_title": "宽通道焊接式板式热交换器",
+        "meta_description": "适用于粘稠介质、纤维悬浮物和固体颗粒工况的宽通道焊接式板式热交换器。"
+      }
+    },
+    "created_at": "2026-05-04T10:23:07.877+00:00",
+    "updated_at": "2026-05-09T12:43:41.234+00:00",
+    "order": 3,
+    "video_link": "",
+    "details": {
+      "en": [],
+      "zh": []
+    }
+  },
+  {
+    "id": "f450faa9-e510-42b0-9bc3-ca44d4f32276",
+    "manufacturer_id": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
+    "slug": "plate-heat-exchanger-unit",
+    "is_visible": true,
+    "name": {
+      "en": "Plate Heat Exchanger Unit",
+      "zh": "板式热交换机组"
+    },
+    "short_description": {
+      "en": "Integrated heat exchange skid combining plate heat exchanger, pump, valves, instruments, and controls.",
+      "zh": "集板式换热器、水泵、阀门、仪表和控制系统于一体的成套换热设备。"
+    },
+    "full_description": {
+      "en": "The official product page presents this unit as a complete set of heat exchange equipment integrating a plate heat exchanger, water pump, valves, instruments, and control system. It can be configured with sensors, controllers, electric actuators, remote communication control, heat flow measurement, water treatment, and softened water tank accessories to support steam-water, water-water, and oil-water heat exchange duty.",
+      "zh": "官网介绍显示，该产品是集板式换热器、水泵、阀门、仪表及控制系统于一体的成套换热设备。机组可根据用户需求配置传感器、控制器、电动执行机构、远程通讯、热量计量、水处理及软化水箱等附属系统，适用于汽-水、水-水、油-水等换热工况。"
+    },
+    "industries": [
+      "1",
+      "3",
+      "4"
+    ],
+    "advantage": {
+      "en": [
+        "Integrates plate heat exchanger, pump, valves, instruments, and control system in one unit.",
+        "Supports configurable sensors, controllers, electric actuators, and remote communication control.",
+        "Optional systems include heat metering, water treatment, and softened water tank equipment.",
+        "Officially listed control functions include frequency conversion, constant temperature and pressure supply, auto-start, interlock protection, and on-site data display."
+      ],
+      "zh": [
+        "将板式换热器、水泵、阀门、仪表与控制系统集成为一体。",
+        "可按需配置传感器、控制器、电动执行机构和远程通讯控制。",
+        "可加装热量计量、水处理和软化水箱等附属系统。",
+        "官网列示功能包括变频控制、恒温恒压供给、自启动、联锁保护和就地数据展示。"
+      ]
+    },
+    "technical_parameters": {
+      "en": {},
+      "zh": {}
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "Plate Heat Exchanger Unit",
+        "meta_description": "Integrated heat exchange skid combining plate heat exchanger, pump, valves, instruments, and controls."
+      },
+      "zh": {
+        "meta_title": "板式热交换机组",
+        "meta_description": "集板式换热器、水泵、阀门、仪表和控制系统于一体的成套换热设备。"
+      }
+    },
+    "created_at": "2026-05-04T10:23:10.035+00:00",
+    "updated_at": "2026-05-09T12:43:42.883+00:00",
+    "order": 6,
+    "video_link": "",
+    "details": {
+      "en": [],
+      "zh": []
+    }
+  },
+  {
+    "id": "2bfa43d6-824d-4cd8-88a2-c3446ca30a8e",
+    "manufacturer_id": "8139c310-96fe-4d28-b92e-f332e8226a5a",
+    "slug": "air-radiator",
+    "is_visible": true,
+    "name": {
+      "en": "Air Radiator",
+      "zh": "空气散热器"
+    },
+    "short_description": {
+      "en": "Air radiator and air heater for hot air drying devices, using steam or hot water through finned steel tubes.",
+      "zh": "可用于热风干燥装置中的空气加热换热设备，采用蒸汽或热水通过翅片钢管进行换热。"
+    },
+    "full_description": {
+      "en": "ViEX describes the air radiator, also called an air heater, as heat exchange equipment used for air heating in hot air drying devices. The official page states that steam or hot water flows through the steel tube while heat is transferred to the air passing through the fins outside the tightly wound or rolled steel pipe, providing high-speed heat transfer surface, vibration resistance, corrosion resistance, and long service life.",
+      "zh": "ViEX官网将空气散热器又称为空气加热器，可用于热风干燥装置中作为空气加热用的换热设备。官网说明蒸汽或热水流经钢管管内，热量通过紧绕或轧制钢管外的翅片传给经过片间的空气，因此具备高速传热表面、坚固耐振、防腐和使用寿命长等特点。"
+    },
+    "industries": [
+      "1",
+      "5",
+      "7",
+      "8"
+    ],
+    "advantage": {
+      "en": [
+        "Designed for air heating in hot air drying devices",
+        "High-speed heat transfer surface",
+        "Strong vibration resistance",
+        "Corrosion resistance",
+        "Long service life"
+      ],
+      "zh": [
+        "适用于热风干燥装置中的空气加热",
+        "具有高速传热表面",
+        "坚固耐振",
+        "防腐性能较好",
+        "使用寿命长"
+      ]
+    },
+    "technical_parameters": {
+      "en": {
+        "Structure": "Tight or rolled finned steel tube",
+        "Application": "Air heating in hot air drying devices",
+        "Heating medium": "Steam or hot water"
+      },
+      "zh": {
+        "应用": "热风干燥装置中的空气加热",
+        "热媒": "蒸汽或热水",
+        "结构": "紧绕或轧制翅片钢管"
+      }
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "Air Radiator | Siping ViEX",
+        "meta_description": "Air radiator and air heater for hot air drying devices with finned steel tube heat transfer design."
+      },
+      "zh": {
+        "meta_title": "空气散热器 | 四平维克斯",
+        "meta_description": "适用于热风干燥装置空气加热的空气散热器，采用翅片钢管换热结构。"
+      }
+    },
+    "created_at": "2026-05-04T05:58:38.447+00:00",
+    "updated_at": "2026-05-09T12:44:33.589+00:00",
+    "order": 5,
+    "video_link": "",
+    "details": {
+      "en": [
+        {
+          "title": "What is the main use case?",
+          "content": "The official page presents the product as an air heating heat exchanger for hot air drying devices."
+        },
+        {
+          "title": "What performance characteristics are emphasized?",
+          "content": "ViEX emphasizes high-speed heat transfer surface, strong vibration resistance, corrosion resistance, and long service life."
+        }
+      ],
+      "zh": [
+        {
+          "title": "该产品的主要用途是什么？",
+          "content": "官网将该产品定位为热风干燥装置中的空气加热换热设备。"
+        },
+        {
+          "title": "官网强调了哪些性能特点？",
+          "content": "官网强调其具有高速传热表面、坚固耐振、防腐以及寿命长等特点。"
         }
       ]
     }
@@ -309,7 +525,7 @@
       }
     },
     "created_at": "2026-05-04T05:58:38.983+00:00",
-    "updated_at": "2026-05-04T11:13:40.164+00:00",
+    "updated_at": "2026-05-09T12:44:33.857+00:00",
     "order": 6,
     "video_link": "",
     "details": {
@@ -331,94 +547,6 @@
         {
           "title": "官网展示了哪些典型业绩？",
           "content": "官网展示了宝钢梅山焦化、唐山港陆钢铁、巴西Usiminas项目、济源金马焦化、吉林新天龙酒精、黑龙江省祥源油厂以及出口乌克兰相关项目等典型业绩。"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2bfa43d6-824d-4cd8-88a2-c3446ca30a8e",
-    "manufacturer_id": "8139c310-96fe-4d28-b92e-f332e8226a5a",
-    "slug": "air-radiator",
-    "is_visible": true,
-    "name": {
-      "en": "Air Radiator",
-      "zh": "空气散热器"
-    },
-    "short_description": {
-      "en": "Air radiator and air heater for hot air drying devices, using steam or hot water through finned steel tubes.",
-      "zh": "可用于热风干燥装置中的空气加热换热设备，采用蒸汽或热水通过翅片钢管进行换热。"
-    },
-    "full_description": {
-      "en": "ViEX describes the air radiator, also called an air heater, as heat exchange equipment used for air heating in hot air drying devices. The official page states that steam or hot water flows through the steel tube while heat is transferred to the air passing through the fins outside the tightly wound or rolled steel pipe, providing high-speed heat transfer surface, vibration resistance, corrosion resistance, and long service life.",
-      "zh": "ViEX官网将空气散热器又称为空气加热器，可用于热风干燥装置中作为空气加热用的换热设备。官网说明蒸汽或热水流经钢管管内，热量通过紧绕或轧制钢管外的翅片传给经过片间的空气，因此具备高速传热表面、坚固耐振、防腐和使用寿命长等特点。"
-    },
-    "industries": [
-      "1",
-      "5",
-      "7",
-      "8"
-    ],
-    "advantage": {
-      "en": [
-        "Designed for air heating in hot air drying devices",
-        "High-speed heat transfer surface",
-        "Strong vibration resistance",
-        "Corrosion resistance",
-        "Long service life"
-      ],
-      "zh": [
-        "适用于热风干燥装置中的空气加热",
-        "具有高速传热表面",
-        "坚固耐振",
-        "防腐性能较好",
-        "使用寿命长"
-      ]
-    },
-    "technical_parameters": {
-      "en": {
-        "Structure": "Tight or rolled finned steel tube",
-        "Application": "Air heating in hot air drying devices",
-        "Heating medium": "Steam or hot water"
-      },
-      "zh": {
-        "应用": "热风干燥装置中的空气加热",
-        "热媒": "蒸汽或热水",
-        "结构": "紧绕或轧制翅片钢管"
-      }
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "Air Radiator | Siping ViEX",
-        "meta_description": "Air radiator and air heater for hot air drying devices with finned steel tube heat transfer design."
-      },
-      "zh": {
-        "meta_title": "空气散热器 | 四平维克斯",
-        "meta_description": "适用于热风干燥装置空气加热的空气散热器，采用翅片钢管换热结构。"
-      }
-    },
-    "created_at": "2026-05-04T05:58:38.447+00:00",
-    "updated_at": "2026-05-04T11:13:39.581+00:00",
-    "order": 5,
-    "video_link": "",
-    "details": {
-      "en": [
-        {
-          "title": "What is the main use case?",
-          "content": "The official page presents the product as an air heating heat exchanger for hot air drying devices."
-        },
-        {
-          "title": "What performance characteristics are emphasized?",
-          "content": "ViEX emphasizes high-speed heat transfer surface, strong vibration resistance, corrosion resistance, and long service life."
-        }
-      ],
-      "zh": [
-        {
-          "title": "该产品的主要用途是什么？",
-          "content": "官网将该产品定位为热风干燥装置中的空气加热换热设备。"
-        },
-        {
-          "title": "官网强调了哪些性能特点？",
-          "content": "官网强调其具有高速传热表面、坚固耐振、防腐以及寿命长等特点。"
         }
       ]
     }
@@ -489,7 +617,7 @@
       }
     },
     "created_at": "2026-03-13T13:34:30.212+00:00",
-    "updated_at": "2026-05-04T11:12:41.494+00:00",
+    "updated_at": "2026-05-09T12:43:57.752+00:00",
     "order": 1,
     "video_link": "https://www.youtube.com/watch?v=j61c5dnKP78",
     "details": {
@@ -592,7 +720,7 @@
       }
     },
     "created_at": "2026-05-04T02:47:47.347+00:00",
-    "updated_at": "2026-05-04T11:12:46.446+00:00",
+    "updated_at": "2026-05-09T12:44:00.909+00:00",
     "order": 2,
     "video_link": "https://www.youtube.com/watch?v=AK423r7fJuU",
     "details": {
@@ -622,6 +750,109 @@
         {
           "title": "它如何进行设计和制造？",
           "content": "换热板片是板式热交换器的核心元件，通常采用 CAD、CFD、CAE、CAM 等三维设计与仿真工具优化板型、密封和承压能力。工程设计阶段需要先确定换热量、流量、进出口温度、压降、板型、材料、流程组合和胶垫方案，再完成框架、接管和板束制造装配，并进行压力、泄漏及换热性能测试。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "90b04a02-e286-4d7c-b348-4ce7461a0fd9",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "slug": "printed-circuit-heat-exchanger",
+    "is_visible": true,
+    "name": {
+      "en": "Printed Circuit Heat Exchanger",
+      "zh": "印刷电路板式热交换器"
+    },
+    "short_description": {
+      "en": "Compact microchannel diffusion-bonded heat exchanger for extreme pressure and temperature service.",
+      "zh": "适用于极端高压高温工况的紧凑型微通道扩散焊接换热器。"
+    },
+    "full_description": {
+      "en": "Printed Circuit Heat Exchanger (PCHE) is a high-efficiency microchannel welded plate heat exchanger with an extremely compact structure. Thin metal plates are chemically etched to form precise flow channels, then stacked and diffusion bonded into a monolithic heat transfer core. The core is assembled and welded with the housing, headers, nozzles, flanges, and other components to form a complete exchanger. PCHE is designed for demanding applications requiring high thermal efficiency and compact footprint, including nuclear energy, marine, oil and gas, aerospace, power generation, LNG, hydrocarbon processing, and new energy systems.",
+      "zh": "印刷电路板式热交换器（PCHE）是一种高效紧凑的微通道焊接板式热交换器，采用金属板片作为主要换热元件。金属板片通过化学蚀刻形成介质流道，并将板片堆叠通过扩散焊接形成换热芯体。换热芯体再与壳体、封头、接管、法兰等零部件装配焊接形成完整热交换器。该产品适用于核能、船舶、石油石化、航空航天、电力、新能源等行业，尤其适合对换热效率和空间利用要求严格的高端工况。"
+    },
+    "industries": [
+      "1",
+      "3",
+      "4"
+    ],
+    "advantage": {
+      "en": [
+        "Compactness: The PCHE footprint can be 5 to 10 times smaller than conventional shell and tube exchangers, making it ideal for space-constrained systems.",
+        "High Efficiency: Microchannel geometry provides very high heat transfer performance and can achieve up to 98% overall thermal efficiency in demanding services.",
+        "Extreme Operating Capability: Diffusion-bonded construction supports severe service conditions up to 1000 bar and temperatures as high as 850℃.",
+        "Custom Flow Geometry: Different channel and corrugation patterns can be engineered to match specific flow rate, pressure drop, and thermal load requirements.",
+        "High Structural Integrity: Specialized product structure and solid-state diffusion bonding improve leak resistance and operational safety under high temperature and pressure.",
+        "Lightweight and Space Saving: High surface-area density delivers close temperature approach, lower weight, and excellent space utilization."
+      ],
+      "zh": [
+        "结构紧凑：相比传统管壳式换热器，PCHE 具有更小的体积和占地，适合空间受限场景。",
+        "高效换热：微通道结构带来更高的传热系数和更优的热效率，可满足严苛换热需求。",
+        "耐高温高压：扩散焊接芯体具备优异的承压和耐温能力，适用于极端工况。",
+        "流道可定制：可根据不同工艺条件定制不同波纹和流道形式，满足多样化应用需求。",
+        "结构安全可靠：特殊产品结构设计可提升高温高压运行下的安全性和密封可靠性。",
+        "轻量省空间：产品重量轻、末端温差小、空间利用率高，适用于高端紧凑系统。"
+      ]
+    },
+    "technical_parameters": {
+      "en": {
+        "Channel Width": "0.4 ~ 4mm",
+        "Plate Material": "304, 316L, 2205, TA1 and titanium alloy, high-temperature alloy",
+        "Plate Thickness": "0.4 ~ 4mm",
+        "Design Temperature": "-196 ~ 850℃",
+        "Heat Transfer Area": "8000㎡",
+        "Max Design Pressure": "1000 Bar"
+      },
+      "zh": {
+        "换热面积": "8000㎡",
+        "板片厚度": "0.4 ~ 4mm",
+        "板片材料": "304、316L、2205、TA1及钛合金、高温合金等",
+        "流道宽度": "0.4 ~ 4mm",
+        "设计温度": "-196 ~ 850℃",
+        "最大设计压力": "1000Bar"
+      }
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "Printed Circuit Heat Exchanger",
+        "meta_description": "Compact diffusion-bonded printed circuit heat exchanger for extreme pressure and temperature applications with high thermal efficiency."
+      },
+      "zh": {
+        "meta_title": "印刷电路板式热交换器",
+        "meta_description": "适用于极端高压高温工况的印刷电路板式热交换器，具备微通道高效换热与紧凑结构优势。"
+      }
+    },
+    "created_at": "2026-05-04T03:22:08.514+00:00",
+    "updated_at": "2026-05-09T12:44:10.378+00:00",
+    "order": 4,
+    "video_link": "",
+    "details": {
+      "en": [
+        {
+          "title": "What is a printed circuit heat exchanger?",
+          "content": "Printed Circuit Heat Exchanger is a highly compact and efficient microchannel heat exchanger designed for extreme operating conditions. It uses chemically etched metal plates and diffusion bonding technology to deliver very high heat transfer performance, pressure resistance, corrosion resistance, and space efficiency in applications where conventional exchangers are too large or cannot withstand the duty."
+        },
+        {
+          "title": "How is Printed Circuit Heat Exchanger constructed?",
+          "content": "Thin metal plates, usually stainless steel, duplex steel, titanium, or high-temperature alloys, are coated and chemically etched to create intricate microchannel patterns. The etched plates are stacked in a defined configuration and diffusion bonded at high temperature and pressure to form a monolithic core, which is then assembled with housing, headers, nozzles, and other external components to make the final exchanger."
+        },
+        {
+          "title": "How is it designed and manufactured?",
+          "content": "PCHE design combines thermal-hydraulic analysis, microchannel geometry optimization, materials engineering, and manufacturability. After selecting base materials and plate thickness, the channel pattern is transferred by photomask and chemically etched, cleaned, stacked, diffusion bonded in a vacuum furnace, and then completed through header assembly, leak testing, and thermal performance validation."
+        }
+      ],
+      "zh": [
+        {
+          "title": "什么是印刷电路板式热交换器？",
+          "content": "印刷电路板式热交换器是一种面向极端工况的高效紧凑型微通道换热器。它通过化学蚀刻在金属板片表面形成精密流道，再通过扩散焊接形成整体式换热芯体，兼具高传热效率、强承压能力、耐腐蚀性和优异的空间利用率。"
+        },
+        {
+          "title": "它是如何构造的？",
+          "content": "PCHE 以薄金属板片为基础，先进行涂覆、曝光和化学蚀刻，形成微通道图案，然后按设计顺序进行堆叠，并在高温高压下通过扩散焊接形成整体芯体。最终再与壳体、封头、接管、法兰等部件装配焊接，形成完整设备。"
+        },
+        {
+          "title": "它如何进行设计和制造？",
+          "content": "PCHE 的设计与制造涉及热工水力分析、微通道几何优化、材料选择和制造工艺控制。工程阶段需要根据压力、温度、压降和换热负荷确定板片厚度与流道形式，再经过光刻蚀刻、清洗、堆叠、真空炉扩散焊接、总装及泄漏和性能测试，确保设备满足严苛工况要求。"
         }
       ]
     }
@@ -678,7 +909,7 @@
       "zh": {
         "板片厚度": "1.0 ~ 2.5mm",
         "板片形式": "窝状、柱状",
-        "板片材料": "奥氏不锈钢、双相不锈钢、镍及镍合金、哈氏合金",
+        "板片材料": "奥氏体不锈钢、双相不锈钢、镍及镍合金、哈氏合金",
         "流道间距": "8 ~ 30mm",
         "设计压力": "真空 ~ 3.5MPa",
         "设计温度": "<=350℃",
@@ -696,7 +927,7 @@
       }
     },
     "created_at": "2026-05-04T03:09:57.062+00:00",
-    "updated_at": "2026-05-04T11:12:52.168+00:00",
+    "updated_at": "2026-05-09T12:44:05.185+00:00",
     "order": 3,
     "video_link": "",
     "details": {
@@ -798,7 +1029,7 @@
       }
     },
     "created_at": "2026-05-04T03:46:27.779+00:00",
-    "updated_at": "2026-05-04T11:13:09.047+00:00",
+    "updated_at": "2026-05-09T12:44:16.629+00:00",
     "order": 6,
     "video_link": "",
     "details": {
@@ -884,7 +1115,7 @@
       },
       "zh": {
         "板片厚度": "0.6 ~ 1.5mm",
-        "板片材料": "奥氏不锈钢、双相不锈钢、254SMO、钛及钛合金、镍及镍合金、哈氏合金",
+        "板片材料": "奥氏体不锈钢、双相不锈钢、254SMO、钛及钛合金、镍及镍合金、哈氏合金",
         "设计压力": "真空 ~ 6.0MPa",
         "设计温度": "-196 ~ 900℃",
         "最大组装面积": "15000㎡"
@@ -901,7 +1132,7 @@
       }
     },
     "created_at": "2026-05-04T03:33:01.523+00:00",
-    "updated_at": "2026-05-04T11:13:04.115+00:00",
+    "updated_at": "2026-05-09T12:44:13.686+00:00",
     "order": 5,
     "video_link": "https://www.youtube.com/watch?v=S_2LrC6tOMk",
     "details": {
@@ -931,208 +1162,6 @@
         {
           "title": "它如何进行设计和制造？",
           "content": "该产品在设计上会综合考虑板型、板间距、逆流或错流流程布置以及压降控制，并根据介质腐蚀性和温压条件选择不锈钢、钛材、哈氏合金等材料。制造过程中采用自动化精密焊接和高强度装配工艺，确保密封性、结构强度和高温高压工况下的长期稳定运行。"
-        }
-      ]
-    }
-  },
-  {
-    "id": "90b04a02-e286-4d7c-b348-4ce7461a0fd9",
-    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "slug": "printed-circuit-heat-exchanger",
-    "is_visible": true,
-    "name": {
-      "en": "Printed Circuit Heat Exchanger",
-      "zh": "印刷电路板式热交换器"
-    },
-    "short_description": {
-      "en": "Compact microchannel diffusion-bonded heat exchanger for extreme pressure and temperature service.",
-      "zh": "适用于极端高压高温工况的紧凑型微通道扩散焊接换热器。"
-    },
-    "full_description": {
-      "en": "Printed Circuit Heat Exchanger (PCHE) is a high-efficiency microchannel welded plate heat exchanger with an extremely compact structure. Thin metal plates are chemically etched to form precise flow channels, then stacked and diffusion bonded into a monolithic heat transfer core. The core is assembled and welded with the housing, headers, nozzles, flanges, and other components to form a complete exchanger. PCHE is designed for demanding applications requiring high thermal efficiency and compact footprint, including nuclear energy, marine, oil and gas, aerospace, power generation, LNG, hydrocarbon processing, and new energy systems.",
-      "zh": "印刷电路板式热交换器（PCHE）是一种高效紧凑的微通道焊接板式热交换器，采用金属板片作为主要换热元件。金属板片通过化学蚀刻形成介质流道，并将板片堆叠通过扩散焊接形成换热芯体。换热芯体再与壳体、封头、接管、法兰等零部件装配焊接形成完整热交换器。该产品适用于核能、船舶、石油石化、航空航天、电力、新能源等行业，尤其适合对换热效率和空间利用要求严格的高端工况。"
-    },
-    "industries": [
-      "1",
-      "3",
-      "4"
-    ],
-    "advantage": {
-      "en": [
-        "Compactness: The PCHE footprint can be 5 to 10 times smaller than conventional shell and tube exchangers, making it ideal for space-constrained systems.",
-        "High Efficiency: Microchannel geometry provides very high heat transfer performance and can achieve up to 98% overall thermal efficiency in demanding services.",
-        "Extreme Operating Capability: Diffusion-bonded construction supports severe service conditions up to 1000 bar and temperatures as high as 850℃.",
-        "Custom Flow Geometry: Different channel and corrugation patterns can be engineered to match specific flow rate, pressure drop, and thermal load requirements.",
-        "High Structural Integrity: Specialized product structure and solid-state diffusion bonding improve leak resistance and operational safety under high temperature and pressure.",
-        "Lightweight and Space Saving: High surface-area density delivers close temperature approach, lower weight, and excellent space utilization."
-      ],
-      "zh": [
-        "结构紧凑：相比传统管壳式换热器，PCHE 具有更小的体积和占地，适合空间受限场景。",
-        "高效换热：微通道结构带来更高的传热系数和更优的热效率，可满足严苛换热需求。",
-        "耐高温高压：扩散焊接芯体具备优异的承压和耐温能力，适用于极端工况。",
-        "流道可定制：可根据不同工艺条件定制不同波纹和流道形式，满足多样化应用需求。",
-        "结构安全可靠：特殊产品结构设计可提升高温高压运行下的安全性和密封可靠性。",
-        "轻量省空间：产品重量轻、末端温差小、空间利用率高，适用于高端紧凑系统。"
-      ]
-    },
-    "technical_parameters": {
-      "en": {
-        "Channel Width": "0.4 ~ 4mm",
-        "Plate Material": "304, 316L, 2205, TA1 and titanium alloy, high-temperature alloy",
-        "Plate Thickness": "0.4 ~ 4mm",
-        "Design Temperature": "-196 ~ 850℃",
-        "Heat Transfer Area": "8000㎡",
-        "Max Design Pressure": "1000 Bar"
-      },
-      "zh": {
-        "换热面积": "8000㎡",
-        "板片厚度": "0.4 ~ 4mm",
-        "板片材料": "304、316L、2205、TA1及钛合金、高温合金等",
-        "流道宽度": "0.4 ~ 4mm",
-        "设计温度": "-196 ~ 850℃",
-        "最大设计压力": "1000Bar"
-      }
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "Printed Circuit Heat Exchanger",
-        "meta_description": "Compact diffusion-bonded printed circuit heat exchanger for extreme pressure and temperature applications with high thermal efficiency."
-      },
-      "zh": {
-        "meta_title": "印刷电路板式热交换器",
-        "meta_description": "适用于极端高压高温工况的印刷电路板式热交换器，具备微通道高效换热与紧凑结构优势。"
-      }
-    },
-    "created_at": "2026-05-04T03:22:08.514+00:00",
-    "updated_at": "2026-05-04T11:12:58.784+00:00",
-    "order": 4,
-    "video_link": "",
-    "details": {
-      "en": [
-        {
-          "title": "What is a printed circuit heat exchanger?",
-          "content": "Printed Circuit Heat Exchanger is a highly compact and efficient microchannel heat exchanger designed for extreme operating conditions. It uses chemically etched metal plates and diffusion bonding technology to deliver very high heat transfer performance, pressure resistance, corrosion resistance, and space efficiency in applications where conventional exchangers are too large or cannot withstand the duty."
-        },
-        {
-          "title": "How is Printed Circuit Heat Exchanger constructed?",
-          "content": "Thin metal plates, usually stainless steel, duplex steel, titanium, or high-temperature alloys, are coated and chemically etched to create intricate microchannel patterns. The etched plates are stacked in a defined configuration and diffusion bonded at high temperature and pressure to form a monolithic core, which is then assembled with housing, headers, nozzles, and other external components to make the final exchanger."
-        },
-        {
-          "title": "How is it designed and manufactured?",
-          "content": "PCHE design combines thermal-hydraulic analysis, microchannel geometry optimization, materials engineering, and manufacturability. After selecting base materials and plate thickness, the channel pattern is transferred by photomask and chemically etched, cleaned, stacked, diffusion bonded in a vacuum furnace, and then completed through header assembly, leak testing, and thermal performance validation."
-        }
-      ],
-      "zh": [
-        {
-          "title": "什么是印刷电路板式热交换器？",
-          "content": "印刷电路板式热交换器是一种面向极端工况的高效紧凑型微通道换热器。它通过化学蚀刻在金属板片表面形成精密流道，再通过扩散焊接形成整体式换热芯体，兼具高传热效率、强承压能力、耐腐蚀性和优异的空间利用率。"
-        },
-        {
-          "title": "它是如何构造的？",
-          "content": "PCHE 以薄金属板片为基础，先进行涂覆、曝光和化学蚀刻，形成微通道图案，然后按设计顺序进行堆叠，并在高温高压下通过扩散焊接形成整体芯体。最终再与壳体、封头、接管、法兰等部件装配焊接，形成完整设备。"
-        },
-        {
-          "title": "它如何进行设计和制造？",
-          "content": "PCHE 的设计与制造涉及热工水力分析、微通道几何优化、材料选择和制造工艺控制。工程阶段需要根据压力、温度、压降和换热负荷确定板片厚度与流道形式，再经过光刻蚀刻、清洗、堆叠、真空炉扩散焊接、总装及泄漏和性能测试，确保设备满足严苛工况要求。"
-        }
-      ]
-    }
-  },
-  {
-    "id": "2fd83f09-e7d2-4a91-ab32-127980f67815",
-    "manufacturer_id": "749dc7dd-abfc-4ee5-869b-7e8e9d8d953a",
-    "slug": "high-efficiency-plate-heat-exchanger-aq-aa",
-    "is_visible": true,
-    "name": {
-      "en": "High-Efficiency Plate Heat Exchanger AQ/AA",
-      "zh": "AQ/AA AHRI认证板式换热器"
-    },
-    "short_description": {
-      "en": "AHRI-certified gasketed plate-and-frame heat exchanger for HVAC-R and refrigeration applications.",
-      "zh": "面向暖通制冷应用的 AHRI 认证可拆式板式换热器。"
-    },
-    "full_description": {
-      "en": "The AQ/AA Series is an AHRI-certified gasketed plate-and-frame heat exchanger designed for HVAC-R refrigeration systems. Accessen describes the series as optimized for variable-load heat transfer performance, compatibility with different water qualities and temperatures, and application-specific configuration through multi-angle chevron plates, varied channel depths, and configurable aspect ratios within standardized port sizes.",
-      "zh": "AQ/AA 系列是面向 HVAC-R 制冷系统的 AHRI 认证可拆式板框换热器。根据官网介绍，该系列针对变工况换热性能、不同水质和温度适应性进行了设计，并可通过多角度人字板型、不同流道深度和标准口径下的多种长宽比配置满足具体应用需求。"
-    },
-    "industries": [
-      "1"
-    ],
-    "advantage": {
-      "en": [
-        "AHRI-Certified Performance",
-        "Enhanced Gasket Longevity",
-        "Higher Certified Energy Efficiency",
-        "Configurable Plate Patterns",
-        "Proven Reliability and Stability",
-        "Expanded Accessory Options",
-        "Optimized Flow Distribution",
-        "Clip-On Gaskets",
-        "Self-Locking Alignment System"
-      ],
-      "zh": [
-        "AHRI 认证性能",
-        "更长的密封垫使用寿命",
-        "更高的认证能效表现",
-        "可配置板片纹路方案",
-        "成熟可靠且运行稳定",
-        "配件选项更丰富",
-        "优化流量分配",
-        "卡扣式胶垫",
-        "自锁对中系统"
-      ]
-    },
-    "technical_parameters": {
-      "en": {
-        "Maximum design pressure": "25bar",
-        "Maximum design temperature": "200℃",
-        "Maximum processing capacity": "5,000m³/h",
-        "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254",
-        "Maximum Heat Transfer Capacity": "80MW",
-        "Minimum temperature difference": "0.5-1℃"
-      },
-      "zh": {
-        "最小温差": "0.5-1℃",
-        "主要结构材料": "AISI 304, 316, 316L, TI, SMO254",
-        "最大处理能力": "5,000m³/h",
-        "最大换热能力": "80MW",
-        "最大设计压力": "25bar",
-        "最高设计温度": "200℃"
-      }
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "High-Efficiency Plate Heat Exchanger AQ/AA",
-        "meta_description": "AHRI-certified gasketed plate-and-frame heat exchanger for HVAC-R refrigeration systems with configurable plate geometry and high heat transfer efficiency."
-      },
-      "zh": {
-        "meta_title": "AQ/AA AHRI认证板式换热器",
-        "meta_description": "适用于 HVAC-R 制冷系统的 AHRI 认证板式换热器，具备高效换热和灵活配置优势。"
-      }
-    },
-    "created_at": "2026-05-04T05:31:28.554+00:00",
-    "updated_at": "2026-05-04T11:13:25.651+00:00",
-    "order": 4,
-    "video_link": "",
-    "details": {
-      "en": [
-        {
-          "title": "What applications is the AQ/AA series designed for?",
-          "content": "Accessen positions the AQ/AA Series for HVAC-R refrigeration systems where certified liquid-to-liquid heat exchanger performance and adaptable thermal design are important."
-        },
-        {
-          "title": "How does the design remain flexible?",
-          "content": "The series uses multi-angle chevron plates, different channel depths, and configurable aspect ratios within standard port sizes so that designs can be adapted to different duties and operating conditions."
-        }
-      ],
-      "zh": [
-        {
-          "title": "AQ/AA 系列适用于哪些应用？",
-          "content": "官网将 AQ/AA 系列定位于 HVAC-R 制冷系统，适合对液液换热认证性能和灵活热工设计有要求的场景。"
-        },
-        {
-          "title": "它的设计灵活性体现在哪里？",
-          "content": "该系列可通过多角度人字板型、不同流道深度以及标准口径下可配置的长宽比方案，适配不同工况和换热需求。"
         }
       ]
     }
@@ -1203,7 +1232,7 @@
       }
     },
     "created_at": "2026-05-04T05:31:29.396+00:00",
-    "updated_at": "2026-05-04T11:13:26.271+00:00",
+    "updated_at": "2026-05-09T12:44:27.049+00:00",
     "order": 5,
     "video_link": "",
     "details": {
@@ -1298,7 +1327,7 @@
       }
     },
     "created_at": "2026-05-04T05:31:27.739+00:00",
-    "updated_at": "2026-05-04T11:13:25.015+00:00",
+    "updated_at": "2026-05-09T12:44:26.309+00:00",
     "order": 3,
     "video_link": "",
     "details": {
@@ -1325,193 +1354,100 @@
     }
   },
   {
-    "id": "bc4355a6-9769-48a3-a906-ef3a4bc159db",
+    "id": "2fd83f09-e7d2-4a91-ab32-127980f67815",
     "manufacturer_id": "749dc7dd-abfc-4ee5-869b-7e8e9d8d953a",
-    "slug": "liquid-cooled-hydraulic-power-unit-pheu",
+    "slug": "high-efficiency-plate-heat-exchanger-aq-aa",
     "is_visible": true,
     "name": {
-      "en": "Liquid-Cooled Hydraulic Power Unit PHEU",
-      "zh": "PHEU液冷/水冷水力模块"
+      "en": "High-Efficiency Plate Heat Exchanger AQ/AA",
+      "zh": "AQ/AA AHRI认证板式换热器"
     },
     "short_description": {
-      "en": "Modular primary hydraulic distribution unit for liquid-cooled data centers with integrated PHE, pumps, and water treatment systems.",
-      "zh": "面向液冷数据中心的一次侧水力分配模块，集成板式换热器、水泵和水处理系统。"
+      "en": "AHRI-certified gasketed plate-and-frame heat exchanger for HVAC-R and refrigeration applications.",
+      "zh": "面向暖通制冷应用的 AHRI 认证可拆式板式换热器。"
     },
     "full_description": {
-      "en": "The Liquid-Cooled Hydraulic Power Unit PHEU is a customized primary hydraulic distribution system for liquid cooling applications. Accessen integrates plate heat exchangers, coolant pumps, water treatment systems, piping and valves, and electrical and control systems into a modular package designed to improve thermal efficiency and simplify operation for liquid-cooled data centers.",
-      "zh": "Liquid-Cooled Hydraulic Power Unit PHEU 是一款面向液冷应用的一次侧定制化水力分配系统。根据官网说明，产品将板式换热器、冷却液泵、水处理系统、管路阀门以及电气控制系统集成为模块化单元，以提升液冷数据中心的热效率并简化运行管理。"
+      "en": "The AQ/AA Series is an AHRI-certified gasketed plate-and-frame heat exchanger designed for HVAC-R refrigeration systems. Accessen describes the series as optimized for variable-load heat transfer performance, compatibility with different water qualities and temperatures, and application-specific configuration through multi-angle chevron plates, varied channel depths, and configurable aspect ratios within standardized port sizes.",
+      "zh": "AQ/AA 系列是面向 HVAC-R 制冷系统的 AHRI 认证可拆式板框换热器。根据官网介绍，该系列针对变工况换热性能、不同水质和温度适应性进行了设计，并可通过多角度人字板型、不同流道深度和标准口径下的多种长宽比配置满足具体应用需求。"
     },
-    "industries": [],
+    "industries": [
+      "1"
+    ],
     "advantage": {
       "en": [
-        "Prefabricated Modular Integration",
-        "Plug-and-Play System Commissioning",
-        "Rapid Deployment",
-        "BIM-Optimized Design and Fabrication",
-        "Space-Optimized Configuration",
-        "Robust Heavy-Duty Construction"
+        "AHRI-Certified Performance",
+        "Enhanced Gasket Longevity",
+        "Higher Certified Energy Efficiency",
+        "Configurable Plate Patterns",
+        "Proven Reliability and Stability",
+        "Expanded Accessory Options",
+        "Optimized Flow Distribution",
+        "Clip-On Gaskets",
+        "Self-Locking Alignment System"
       ],
       "zh": [
-        "预制化模块集成",
-        "支持即插即用式系统调试",
-        "快速部署",
-        "BIM 优化设计与制造",
-        "空间利用优化布局",
-        "重载型坚固结构"
+        "AHRI 认证性能",
+        "更长的密封垫使用寿命",
+        "更高的认证能效表现",
+        "可配置板片纹路方案",
+        "成熟可靠且运行稳定",
+        "配件选项更丰富",
+        "优化流量分配",
+        "卡扣式胶垫",
+        "自锁对中系统"
       ]
     },
     "technical_parameters": {
       "en": {
-        "Power Supply": "380V~415VAC/50士1HZ",
-        "Altitude Range": "-30m~2500m",
-        "Primary Side Coolant": "Water/Glycol-based Coolants",
-        "Secondary Side Coolant": "Deionized Water, Glycol, Propylene Glycol, Fluorinated Fluids",
-        "Storage Temperature Range": "-40°C~70°C",
-        "Operating Relative Humidity": "5%~95%",
-        "Operating Temperature Range": "5°C~50°C",
-        "Primary Side Filtration Rating": "200μm~300μm",
-        "Secondary Side Filtration Rating": "100μm~200um"
+        "Maximum design pressure": "25bar",
+        "Maximum design temperature": "200℃",
+        "Maximum processing capacity": "5,000m³/h",
+        "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254",
+        "Maximum Heat Transfer Capacity": "80MW",
+        "Minimum temperature difference": "0.5-1℃"
       },
       "zh": {
-        "电源": "380V~415VAC/50士1HZ",
-        "海拔范围": "-30m~2500m",
-        "存储温度范围": "-40°C~70°C",
-        "运行温度范围": "5°C~50°C",
-        "运行相对湿度": "5%~95%",
-        "一次侧冷却介质": "水 / 乙二醇基冷却液",
-        "一次侧过滤精度": "200μm~300μm",
-        "二次侧冷却介质": "去离子水、乙二醇、丙二醇、含氟流体",
-        "二次侧过滤精度": "100μm~200um"
+        "最小温差": "0.5-1℃",
+        "主要结构材料": "AISI 304, 316, 316L, TI, SMO254",
+        "最大处理能力": "5,000m³/h",
+        "最大换热能力": "80MW",
+        "最大设计压力": "25bar",
+        "最高设计温度": "200℃"
       }
     },
     "seo_data": {
       "en": {
-        "meta_title": "Liquid-Cooled Hydraulic Power Unit PHEU",
-        "meta_description": "Modular liquid-cooled hydraulic power unit integrating PHE, pumps, and water treatment systems for data center liquid cooling infrastructure."
+        "meta_title": "High-Efficiency Plate Heat Exchanger AQ/AA",
+        "meta_description": "AHRI-certified gasketed plate-and-frame heat exchanger for HVAC-R refrigeration systems with configurable plate geometry and high heat transfer efficiency."
       },
       "zh": {
-        "meta_title": "PHEU液冷/水冷水力模块",
-        "meta_description": "面向数据中心液冷基础设施的模块化水力单元，集成板式换热器、水泵和水处理系统。"
+        "meta_title": "AQ/AA AHRI认证板式换热器",
+        "meta_description": "适用于 HVAC-R 制冷系统的 AHRI 认证板式换热器，具备高效换热和灵活配置优势。"
       }
     },
-    "created_at": "2026-05-04T05:31:26.894+00:00",
-    "updated_at": "2026-05-04T11:13:24.349+00:00",
-    "order": 2,
+    "created_at": "2026-05-04T05:31:28.554+00:00",
+    "updated_at": "2026-05-09T12:44:26.738+00:00",
+    "order": 4,
     "video_link": "",
     "details": {
       "en": [
         {
-          "title": "What is included in the PHEU module?",
-          "content": "Accessen states that the PHEU integrates plate heat exchangers, coolant pumps, water treatment systems, piping, valves, and electrical and control systems into one primary hydraulic distribution module."
+          "title": "What applications is the AQ/AA series designed for?",
+          "content": "Accessen positions the AQ/AA Series for HVAC-R refrigeration systems where certified liquid-to-liquid heat exchanger performance and adaptable thermal design are important."
         },
         {
-          "title": "How does it improve project delivery?",
-          "content": "The system uses prefabricated modules, precision jig alignment, and prefabricated piping so that field work only requires threaded or flanged connections, reducing installation time and on-site welding."
+          "title": "How does the design remain flexible?",
+          "content": "The series uses multi-angle chevron plates, different channel depths, and configurable aspect ratios within standard port sizes so that designs can be adapted to different duties and operating conditions."
         }
       ],
       "zh": [
         {
-          "title": "PHEU 模块集成了哪些部件？",
-          "content": "官网说明该模块集成了板式换热器、冷却液泵、水处理系统、管路、阀门以及电气与控制系统，构成一次侧水力分配单元。"
+          "title": "AQ/AA 系列适用于哪些应用？",
+          "content": "官网将 AQ/AA 系列定位于 HVAC-R 制冷系统，适合对液液换热认证性能和灵活热工设计有要求的场景。"
         },
         {
-          "title": "它如何提高项目交付效率？",
-          "content": "产品采用预制化模块、工装对位和预制管路方案，现场仅需螺纹或法兰连接即可完成安装，有助于减少安装周期和现场焊接工作量。"
-        }
-      ]
-    }
-  },
-  {
-    "id": "364aaed9-a30a-4bec-849b-515098364daa",
-    "manufacturer_id": "749dc7dd-abfc-4ee5-869b-7e8e9d8d953a",
-    "slug": "liquid-cooling-distribution-unit-acdu",
-    "is_visible": true,
-    "name": {
-      "en": "Liquid-Cooling Distribution Unit ACDU",
-      "zh": "ACDU高效节能液冷分配单元/液冷系统集成"
-    },
-    "short_description": {
-      "en": "Prefabricated liquid-cooling distribution unit for data centers with natural cooling, adaptive control, and rapid deployment.",
-      "zh": "面向数据中心的预制化液冷分配单元，支持自然冷却、自适应控制与快速部署。"
-    },
-    "full_description": {
-      "en": "The Liquid-Cooling Distribution Unit ACDU is designed for data center cooling systems that require location-independent deployment and compressor-free natural cooling. According to Accessen, the solution lowers overall system PUE, uses intelligent controls with variable-speed pumping and hydraulic flow modulation, and reduces installation complexity through modular prefabrication.",
-      "zh": "Liquid-Cooling Distribution Unit ACDU 面向数据中心液冷系统应用，支持不受地域限制的部署和全气候无压缩机自然冷却。根据官网介绍，该产品可降低整体系统 PUE，并通过智能控制、变频泵和水力流量调节实现持续自适应运行，同时借助模块化预制设计减少现场安装复杂度。"
-    },
-    "industries": [],
-    "advantage": {
-      "en": [
-        "Field-Proven Reliability and Safety",
-        "Rapid Deployment through Modular Prefabrication",
-        "Adaptive Control System",
-        "High-Efficiency Liquid Cooling",
-        "Compressor-Free Natural Cooling"
-      ],
-      "zh": [
-        "经过现场应用验证的可靠性与安全性",
-        "依托模块化预制实现快速部署",
-        "具备自适应控制系统",
-        "高效液冷能力",
-        "支持无压缩机自然冷却"
-      ]
-    },
-    "technical_parameters": {
-      "en": {
-        "Power Supply": "380V~415VAC/50士1HZ",
-        "Altitude Range": "-30m~2500m",
-        "Primary Side Coolant": "Water/ Ethylene Glycol-based Solutions",
-        "Secondary Side Coolant": "Deionized Water/ Ethylene Glycol/ Propylene Glycol/ Fluorinated Fluids",
-        "Primary Filtration Rating": "200μm~300μm",
-        "Storage Temperature Range": "-40°C~70°C",
-        "Operating Relative Humidity": "5%~95%",
-        "Operating Temperature Range": "5°C~50°C",
-        "Secondary Filtration Rating": "100μm~200um"
-      },
-      "zh": {
-        "电源": "380V~415VAC/50士1HZ",
-        "海拔范围": "-30m~2500m",
-        "存储温度范围": "-40°C~70°C",
-        "运行温度范围": "5°C~50°C",
-        "运行相对湿度": "5%~95%",
-        "一次侧冷却介质": "水 / 乙二醇基冷却液",
-        "一次侧过滤精度": "200μm~300μm",
-        "二次侧冷却介质": "去离子水 / 乙二醇 / 丙二醇 / 含氟流体",
-        "二次侧过滤精度": "100μm~200um"
-      }
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "Liquid-Cooling Distribution Unit ACDU",
-        "meta_description": "Prefabricated data center liquid-cooling distribution unit with adaptive control, natural cooling, and rapid deployment features."
-      },
-      "zh": {
-        "meta_title": "ACDU高效节能液冷分配单元/液冷系统集成",
-        "meta_description": "面向数据中心液冷系统的预制化液冷分配单元，具备自然冷却、自适应控制和快速部署能力。"
-      }
-    },
-    "created_at": "2026-05-04T05:31:26.113+00:00",
-    "updated_at": "2026-05-04T11:13:23.743+00:00",
-    "order": 1,
-    "video_link": "",
-    "details": {
-      "en": [
-        {
-          "title": "What is the ACDU used for?",
-          "content": "Accessen positions the ACDU as a liquid-cooling distribution unit for data centers, where it supports compressor-free natural cooling and helps reduce overall PUE in liquid cooling systems."
-        },
-        {
-          "title": "How is deployment simplified?",
-          "content": "The product uses a prefabricated modular design that minimizes installation complexity on site and supports faster project delivery."
-        }
-      ],
-      "zh": [
-        {
-          "title": "ACDU 主要用于什么场景？",
-          "content": "官网将 ACDU 定位为面向数据中心液冷系统的分配单元，可支持无压缩机自然冷却，并帮助降低整体系统 PUE。"
-        },
-        {
-          "title": "它如何缩短部署周期？",
-          "content": "该产品采用预制化模块设计，可减少现场安装复杂度，从而支持更快的项目交付。"
+          "title": "它的设计灵活性体现在哪里？",
+          "content": "该系列可通过多角度人字板型、不同流道深度以及标准口径下可配置的长宽比方案，适配不同工况和换热需求。"
         }
       ]
     }
@@ -1578,7 +1514,7 @@
       }
     },
     "created_at": "2026-05-04T05:31:32.337+00:00",
-    "updated_at": "2026-05-04T11:13:27.256+00:00",
+    "updated_at": "2026-05-09T12:44:27.613+00:00",
     "order": 7,
     "video_link": "",
     "details": {
@@ -1605,91 +1541,193 @@
     }
   },
   {
-    "id": "9e89accc-d0ae-4f29-a32c-16195f4fdea3",
-    "manufacturer_id": "8139c310-96fe-4d28-b92e-f332e8226a5a",
-    "slug": "tubular-heat-exchanger",
+    "id": "364aaed9-a30a-4bec-849b-515098364daa",
+    "manufacturer_id": "749dc7dd-abfc-4ee5-869b-7e8e9d8d953a",
+    "slug": "liquid-cooling-distribution-unit-acdu",
     "is_visible": true,
     "name": {
-      "en": "Tubular Heat Exchanger",
-      "zh": "管壳式热交换器"
+      "en": "Liquid-Cooling Distribution Unit ACDU",
+      "zh": "ACDU高效节能液冷分配单元/液冷系统集成"
     },
     "short_description": {
-      "en": "Shell-and-tube heat exchanger built to ASME and GB standards for high-temperature, high-pressure, and enhanced heat transfer applications.",
-      "zh": "符合ASME、GB150和GB151标准的管壳式热交换器，适用于高温高压和强化传热工况。"
+      "en": "Prefabricated liquid-cooling distribution unit for data centers with natural cooling, adaptive control, and rapid deployment.",
+      "zh": "面向数据中心的预制化液冷分配单元，支持自然冷却、自适应控制与快速部署。"
     },
     "full_description": {
-      "en": "ViEX describes its tubular heat exchanger as a shell-and-tube heat exchanger with mature design, manufacturing, inspection, and maintenance technology, wide material choice, and broad application conditions. The official page says the company holds Chinese pressure vessel D1 and D2 design and manufacturing licenses and focuses on enhanced heat transfer shell-and-tube exchangers using arc tubes, corrugated tubes, spiral tubes, plasma tubes, three-dimensional rib tubes, baffle tubes, and spiral baffles to improve efficiency and reduce pressure loss.",
-      "zh": "ViEX官网将其管壳式热交换器描述为符合ASME、GB150和GB151标准的列管式换热器，具有耐高温高压、设计制造检修技术成熟、选材范围大和适用工况广等特点。官网同时说明公司持有特种设备压力容器D1、D2设计与制造许可证，并重点开发采用弧线管、波节管、螺旋管、等离子管、三维肋管、折流管和螺旋折流板等强化元件的高效管壳式换热器，以提升传热效率并降低阻力损失。"
+      "en": "The Liquid-Cooling Distribution Unit ACDU is designed for data center cooling systems that require location-independent deployment and compressor-free natural cooling. According to Accessen, the solution lowers overall system PUE, uses intelligent controls with variable-speed pumping and hydraulic flow modulation, and reduces installation complexity through modular prefabrication.",
+      "zh": "Liquid-Cooling Distribution Unit ACDU 面向数据中心液冷系统应用，支持不受地域限制的部署和全气候无压缩机自然冷却。根据官网介绍，该产品可降低整体系统 PUE，并通过智能控制、变频泵和水力流量调节实现持续自适应运行，同时借助模块化预制设计减少现场安装复杂度。"
     },
-    "industries": [
-      "2",
-      "4",
-      "6",
-      "9"
-    ],
+    "industries": [],
     "advantage": {
       "en": [
-        "High temperature and high pressure resistance",
-        "Wide material selection and broad duty coverage",
-        "Mature design, manufacturing, and maintenance technology",
-        "Enhanced heat transfer element options",
-        "Improved efficiency and reduced resistance loss"
+        "Field-Proven Reliability and Safety",
+        "Rapid Deployment through Modular Prefabrication",
+        "Adaptive Control System",
+        "High-Efficiency Liquid Cooling",
+        "Compressor-Free Natural Cooling"
       ],
       "zh": [
-        "耐高温高压",
-        "选材范围大、适用工况广",
-        "设计制造检修技术成熟",
-        "具备多种强化传热元件方案",
-        "可提升换热效率并降低阻力损失"
+        "经过现场应用验证的可靠性与安全性",
+        "依托模块化预制实现快速部署",
+        "具备自适应控制系统",
+        "高效液冷能力",
+        "支持无压缩机自然冷却"
       ]
     },
     "technical_parameters": {
       "en": {
-        "Licenses": "Pressure vessel D1 and D2 design and manufacturing licenses",
-        "Standards": "ASME; GB150; GB151; GB/T151-2014; TSG21-2016",
-        "Product types": "Fixed tubesheet; U-tube; Floating head; Stuffing box",
-        "Enhanced elements": "Arc tube; Corrugated tube; Spiral tube; Plasma tube; 3D rib tube; Baffle tube; Spiral baffle plate"
+        "Power Supply": "380V~415VAC/50±1Hz",
+        "Altitude Range": "-30m~2500m",
+        "Primary Side Coolant": "Water/ Ethylene Glycol-based Solutions",
+        "Secondary Side Coolant": "Deionized Water/ Ethylene Glycol/ Propylene Glycol/ Fluorinated Fluids",
+        "Primary Filtration Rating": "200μm~300μm",
+        "Storage Temperature Range": "-40°C~70°C",
+        "Operating Relative Humidity": "5%~95%",
+        "Operating Temperature Range": "5°C~50°C",
+        "Secondary Filtration Rating": "100μm~200μm"
       },
       "zh": {
-        "标准": "ASME；GB150；GB151；GB/T151-2014；TSG21-2016",
-        "资质": "压力容器D1、D2设计和制造许可证",
-        "产品类型": "固定管板式、U型管式、浮头式、填料函式",
-        "强化元件": "弧线管、波节管、螺旋管、等离子管、三维肋管、折流管、螺旋折流板"
+        "电源": "380V~415VAC/50±1Hz",
+        "海拔范围": "-30m~2500m",
+        "存储温度范围": "-40°C~70°C",
+        "运行温度范围": "5°C~50°C",
+        "运行相对湿度": "5%~95%",
+        "一次侧冷却介质": "水 / 乙二醇基冷却液",
+        "一次侧过滤精度": "200μm~300μm",
+        "二次侧冷却介质": "去离子水 / 乙二醇 / 丙二醇 / 含氟流体",
+        "二次侧过滤精度": "100μm~200μm"
       }
     },
     "seo_data": {
       "en": {
-        "meta_title": "Tubular Heat Exchanger | Siping ViEX",
-        "meta_description": "Shell-and-tube heat exchanger designed for high-temperature, high-pressure, and enhanced heat transfer industrial applications."
+        "meta_title": "Liquid-Cooling Distribution Unit ACDU",
+        "meta_description": "Prefabricated data center liquid-cooling distribution unit with adaptive control, natural cooling, and rapid deployment features."
       },
       "zh": {
-        "meta_title": "管壳式热交换器 | 四平维克斯",
-        "meta_description": "符合ASME和GB标准的管壳式热交换器，适用于高温高压及强化传热工业应用。"
+        "meta_title": "ACDU高效节能液冷分配单元/液冷系统集成",
+        "meta_description": "面向数据中心液冷系统的预制化液冷分配单元，具备自然冷却、自适应控制和快速部署能力。"
       }
     },
-    "created_at": "2026-05-04T05:58:35.593+00:00",
-    "updated_at": "2026-05-04T11:13:38.072+00:00",
+    "created_at": "2026-05-04T05:31:26.113+00:00",
+    "updated_at": "2026-05-09T12:44:25.669+00:00",
+    "order": 1,
+    "video_link": "",
+    "details": {
+      "en": [
+        {
+          "title": "What is the ACDU used for?",
+          "content": "Accessen positions the ACDU as a liquid-cooling distribution unit for data centers, where it supports compressor-free natural cooling and helps reduce overall PUE in liquid cooling systems."
+        },
+        {
+          "title": "How is deployment simplified?",
+          "content": "The product uses a prefabricated modular design that minimizes installation complexity on site and supports faster project delivery."
+        }
+      ],
+      "zh": [
+        {
+          "title": "ACDU 主要用于什么场景？",
+          "content": "官网将 ACDU 定位为面向数据中心液冷系统的分配单元，可支持无压缩机自然冷却，并帮助降低整体系统 PUE。"
+        },
+        {
+          "title": "它如何缩短部署周期？",
+          "content": "该产品采用预制化模块设计，可减少现场安装复杂度，从而支持更快的项目交付。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bc4355a6-9769-48a3-a906-ef3a4bc159db",
+    "manufacturer_id": "749dc7dd-abfc-4ee5-869b-7e8e9d8d953a",
+    "slug": "liquid-cooled-hydraulic-power-unit-pheu",
+    "is_visible": true,
+    "name": {
+      "en": "Liquid-Cooled Hydraulic Power Unit PHEU",
+      "zh": "PHEU液冷/水冷水力模块"
+    },
+    "short_description": {
+      "en": "Modular primary hydraulic distribution unit for liquid-cooled data centers with integrated PHE, pumps, and water treatment systems.",
+      "zh": "面向液冷数据中心的一次侧水力分配模块，集成板式换热器、水泵和水处理系统。"
+    },
+    "full_description": {
+      "en": "The Liquid-Cooled Hydraulic Power Unit PHEU is a customized primary hydraulic distribution system for liquid cooling applications. Accessen integrates plate heat exchangers, coolant pumps, water treatment systems, piping and valves, and electrical and control systems into a modular package designed to improve thermal efficiency and simplify operation for liquid-cooled data centers.",
+      "zh": "Liquid-Cooled Hydraulic Power Unit PHEU 是一款面向液冷应用的一次侧定制化水力分配系统。根据官网说明，产品将板式换热器、冷却液泵、水处理系统、管路阀门以及电气控制系统集成为模块化单元，以提升液冷数据中心的热效率并简化运行管理。"
+    },
+    "industries": [],
+    "advantage": {
+      "en": [
+        "Prefabricated Modular Integration",
+        "Plug-and-Play System Commissioning",
+        "Rapid Deployment",
+        "BIM-Optimized Design and Fabrication",
+        "Space-Optimized Configuration",
+        "Robust Heavy-Duty Construction"
+      ],
+      "zh": [
+        "预制化模块集成",
+        "支持即插即用式系统调试",
+        "快速部署",
+        "BIM 优化设计与制造",
+        "空间利用优化布局",
+        "重载型坚固结构"
+      ]
+    },
+    "technical_parameters": {
+      "en": {
+        "Power Supply": "380V~415VAC/50±1Hz",
+        "Altitude Range": "-30m~2500m",
+        "Primary Side Coolant": "Water/Glycol-based Coolants",
+        "Secondary Side Coolant": "Deionized Water, Glycol, Propylene Glycol, Fluorinated Fluids",
+        "Storage Temperature Range": "-40°C~70°C",
+        "Operating Relative Humidity": "5%~95%",
+        "Operating Temperature Range": "5°C~50°C",
+        "Primary Side Filtration Rating": "200μm~300μm",
+        "Secondary Side Filtration Rating": "100μm~200μm"
+      },
+      "zh": {
+        "电源": "380V~415VAC/50±1Hz",
+        "海拔范围": "-30m~2500m",
+        "存储温度范围": "-40°C~70°C",
+        "运行温度范围": "5°C~50°C",
+        "运行相对湿度": "5%~95%",
+        "一次侧冷却介质": "水 / 乙二醇基冷却液",
+        "一次侧过滤精度": "200μm~300μm",
+        "二次侧冷却介质": "去离子水、乙二醇、丙二醇、含氟流体",
+        "二次侧过滤精度": "100μm~200μm"
+      }
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "Liquid-Cooled Hydraulic Power Unit PHEU",
+        "meta_description": "Modular liquid-cooled hydraulic power unit integrating PHE, pumps, and water treatment systems for data center liquid cooling infrastructure."
+      },
+      "zh": {
+        "meta_title": "PHEU液冷/水冷水力模块",
+        "meta_description": "面向数据中心液冷基础设施的模块化水力单元，集成板式换热器、水泵和水处理系统。"
+      }
+    },
+    "created_at": "2026-05-04T05:31:26.894+00:00",
+    "updated_at": "2026-05-09T12:44:25.942+00:00",
     "order": 2,
     "video_link": "",
     "details": {
       "en": [
         {
-          "title": "How does ViEX classify the product?",
-          "content": "The official page introduces four main structural types: fixed tubesheet, U-tube, floating head, and stuffing box shell-and-tube heat exchangers."
+          "title": "What is included in the PHEU module?",
+          "content": "Accessen states that the PHEU integrates plate heat exchangers, coolant pumps, water treatment systems, piping, valves, and electrical and control systems into one primary hydraulic distribution module."
         },
         {
-          "title": "What industries are highlighted?",
-          "content": "The product page points to petroleum refining, chemical industry, electric power, metallurgy, and water conservancy among the main application areas."
+          "title": "How does it improve project delivery?",
+          "content": "The system uses prefabricated modules, precision jig alignment, and prefabricated piping so that field work only requires threaded or flanged connections, reducing installation time and on-site welding."
         }
       ],
       "zh": [
         {
-          "title": "官网列出了哪些主要结构形式？",
-          "content": "官网列出了固定管板式、U型管式、浮头式和填料函式四类主要结构，用于覆盖不同温差、清洗维护和压力工况需求。"
+          "title": "PHEU 模块集成了哪些部件？",
+          "content": "官网说明该模块集成了板式换热器、冷却液泵、水处理系统、管路、阀门以及电气与控制系统，构成一次侧水力分配单元。"
         },
         {
-          "title": "该产品主要用于哪些行业？",
-          "content": "官网强调该类换热器是炼油、化工、电力等行业流程中的重要设备，并已广泛应用于石化、轻工、电力、冶金和水利等领域。"
+          "title": "它如何提高项目交付效率？",
+          "content": "产品采用预制化模块、工装对位和预制管路方案，现场仅需螺纹或法兰连接即可完成安装，有助于减少安装周期和现场焊接工作量。"
         }
       ]
     }
@@ -1758,7 +1796,7 @@
       }
     },
     "created_at": "2026-05-04T05:58:36.964+00:00",
-    "updated_at": "2026-05-04T11:13:38.462+00:00",
+    "updated_at": "2026-05-09T12:44:33.075+00:00",
     "order": 3,
     "video_link": "",
     "details": {
@@ -1850,7 +1888,7 @@
       }
     },
     "created_at": "2026-05-04T05:58:37.881+00:00",
-    "updated_at": "2026-05-04T11:13:39.047+00:00",
+    "updated_at": "2026-05-09T12:44:33.339+00:00",
     "order": 4,
     "video_link": "",
     "details": {
@@ -1951,7 +1989,7 @@
       }
     },
     "created_at": "2026-05-04T05:58:29.897+00:00",
-    "updated_at": "2026-05-04T11:13:37.499+00:00",
+    "updated_at": "2026-05-09T12:44:32.534+00:00",
     "order": 1,
     "video_link": "",
     "details": {
@@ -1973,6 +2011,96 @@
         {
           "title": "ViEX 重点提供哪些板换方案？",
           "content": "官网提到其可拆板式换热器包括集中供热专用、核电专用、空调制冷行业浅密波纹专用、饮品行业专用、冶金专用、石化专用以及可拆式宽通道板式换热器等产品方案。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9e89accc-d0ae-4f29-a32c-16195f4fdea3",
+    "manufacturer_id": "8139c310-96fe-4d28-b92e-f332e8226a5a",
+    "slug": "tubular-heat-exchanger",
+    "is_visible": true,
+    "name": {
+      "en": "Tubular Heat Exchanger",
+      "zh": "管壳式热交换器"
+    },
+    "short_description": {
+      "en": "Shell-and-tube heat exchanger built to ASME and GB standards for high-temperature, high-pressure, and enhanced heat transfer applications.",
+      "zh": "符合ASME、GB150和GB151标准的管壳式热交换器，适用于高温高压和强化传热工况。"
+    },
+    "full_description": {
+      "en": "ViEX describes its tubular heat exchanger as a shell-and-tube heat exchanger with mature design, manufacturing, inspection, and maintenance technology, wide material choice, and broad application conditions. The official page says the company holds Chinese pressure vessel D1 and D2 design and manufacturing licenses and focuses on enhanced heat transfer shell-and-tube exchangers using arc tubes, corrugated tubes, spiral tubes, plasma tubes, three-dimensional rib tubes, baffle tubes, and spiral baffles to improve efficiency and reduce pressure loss.",
+      "zh": "ViEX官网将其管壳式热交换器描述为符合ASME、GB150和GB151标准的列管式换热器，具有耐高温高压、设计制造检修技术成熟、选材范围大和适用工况广等特点。官网同时说明公司持有特种设备压力容器D1、D2设计与制造许可证，并重点开发采用弧线管、波节管、螺旋管、等离子管、三维肋管、折流管和螺旋折流板等强化元件的高效管壳式换热器，以提升传热效率并降低阻力损失。"
+    },
+    "industries": [
+      "2",
+      "4",
+      "6",
+      "9"
+    ],
+    "advantage": {
+      "en": [
+        "High temperature and high pressure resistance",
+        "Wide material selection and broad duty coverage",
+        "Mature design, manufacturing, and maintenance technology",
+        "Enhanced heat transfer element options",
+        "Improved efficiency and reduced resistance loss"
+      ],
+      "zh": [
+        "耐高温高压",
+        "选材范围大、适用工况广",
+        "设计制造检修技术成熟",
+        "具备多种强化传热元件方案",
+        "可提升换热效率并降低阻力损失"
+      ]
+    },
+    "technical_parameters": {
+      "en": {
+        "Licenses": "Pressure vessel D1 and D2 design and manufacturing licenses",
+        "Standards": "ASME; GB150; GB151; GB/T151-2014; TSG21-2016",
+        "Product types": "Fixed tubesheet; U-tube; Floating head; Stuffing box",
+        "Enhanced elements": "Arc tube; Corrugated tube; Spiral tube; Plasma tube; 3D rib tube; Baffle tube; Spiral baffle plate"
+      },
+      "zh": {
+        "标准": "ASME；GB150；GB151；GB/T151-2014；TSG21-2016",
+        "资质": "压力容器D1、D2设计和制造许可证",
+        "产品类型": "固定管板式、U型管式、浮头式、填料函式",
+        "强化元件": "弧线管、波节管、螺旋管、等离子管、三维肋管、折流管、螺旋折流板"
+      }
+    },
+    "seo_data": {
+      "en": {
+        "meta_title": "Tubular Heat Exchanger | Siping ViEX",
+        "meta_description": "Shell-and-tube heat exchanger designed for high-temperature, high-pressure, and enhanced heat transfer industrial applications."
+      },
+      "zh": {
+        "meta_title": "管壳式热交换器 | 四平维克斯",
+        "meta_description": "符合ASME和GB标准的管壳式热交换器，适用于高温高压及强化传热工业应用。"
+      }
+    },
+    "created_at": "2026-05-04T05:58:35.593+00:00",
+    "updated_at": "2026-05-09T12:44:32.782+00:00",
+    "order": 2,
+    "video_link": "",
+    "details": {
+      "en": [
+        {
+          "title": "How does ViEX classify the product?",
+          "content": "The official page introduces four main structural types: fixed tubesheet, U-tube, floating head, and stuffing box shell-and-tube heat exchangers."
+        },
+        {
+          "title": "What industries are highlighted?",
+          "content": "The product page points to petroleum refining, chemical industry, electric power, metallurgy, and water conservancy among the main application areas."
+        }
+      ],
+      "zh": [
+        {
+          "title": "官网列出了哪些主要结构形式？",
+          "content": "官网列出了固定管板式、U型管式、浮头式和填料函式四类主要结构，用于覆盖不同温差、清洗维护和压力工况需求。"
+        },
+        {
+          "title": "该产品主要用于哪些行业？",
+          "content": "官网强调该类换热器是炼油、化工、电力等行业流程中的重要设备，并已广泛应用于石化、轻工、电力、冶金和水利等领域。"
         }
       ]
     }
@@ -2038,7 +2166,7 @@
       }
     },
     "created_at": "2026-05-04T09:45:12.986+00:00",
-    "updated_at": "2026-05-04T11:13:31.744+00:00",
+    "updated_at": "2026-05-09T12:44:30.094+00:00",
     "order": 1,
     "video_link": "",
     "details": {
@@ -2106,7 +2234,7 @@
       }
     },
     "created_at": "2026-05-04T10:23:05.543+00:00",
-    "updated_at": "2026-05-04T11:12:16.747+00:00",
+    "updated_at": "2026-05-09T12:43:38.555+00:00",
     "order": 1,
     "video_link": "",
     "details": {
@@ -2175,76 +2303,7 @@
       }
     },
     "created_at": "2026-05-04T09:45:20.441+00:00",
-    "updated_at": "2026-05-04T11:13:33.363+00:00",
-    "order": 3,
-    "video_link": "",
-    "details": {
-      "en": [],
-      "zh": []
-    }
-  },
-  {
-    "id": "b060b45e-b4a5-4e26-9dfd-c210d547ab9d",
-    "manufacturer_id": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
-    "slug": "wide-channel-welded-plate-heat-exchanger",
-    "is_visible": true,
-    "name": {
-      "en": "Wide Channel Welded Plate Heat Exchanger",
-      "zh": "宽通道焊接式板式热交换器"
-    },
-    "short_description": {
-      "en": "Welded wide-gap plate exchanger for viscous media, fibers, and solid particles.",
-      "zh": "适用于粘稠介质、纤维悬浮物和固体颗粒工况的宽通道焊接式板式热交换器。"
-    },
-    "full_description": {
-      "en": "According to the official product page, the plate uses nest ripple or flat plates as heat transfer elements, and the plate bundle is welded between paired plates. It is designed for sugar, paper making, metallurgy, alcohol, chemical, food, and fuel ethanol processes that handle solid particles, fiber suspensions, and viscous fluids, while aiming to reduce deposition and clogging inside the channel.",
-      "zh": "根据官网介绍，该产品采用窝状波纹或平板板片作为传热元件，两张板片焊接形成板束，并通过相关结构组装成整机。产品专门用于制糖、造纸、冶金、酒精、化工、食品、燃料乙醇等工艺中处理含固体颗粒、纤维悬浮物和粘稠流体的加热或冷却工况，强调通道顺畅、减少沉积和堵塞。"
-    },
-    "industries": [
-      "5",
-      "6",
-      "7"
-    ],
-    "advantage": {
-      "en": [
-        "Designed for media containing solid particles, fiber suspensions, and viscous fluids.",
-        "Wide-gap flow channel is intended to stay smooth and reduce clogging.",
-        "Developed for process heating and cooling in sugar, paper, metallurgy, alcohol, chemical, food, and fuel ethanol service."
-      ],
-      "zh": [
-        "适用于含固体颗粒、纤维悬浮物及粘稠流体的换热工况。",
-        "宽通道结构强调流道顺畅，减少沉积和堵塞风险。",
-        "面向制糖、造纸、冶金、酒精、化工、食品、燃料乙醇等行业的工艺加热与冷却应用。"
-      ]
-    },
-    "technical_parameters": {
-      "en": {
-        "Assembly Area": "≤1000m2",
-        "Design Pressure": "Vacuum ~ 3.5MPa",
-        "Plate Thickness": "1.0 ~ 2.0mm",
-        "Design Temperature": "≤450℃",
-        "Minimum Temperature Difference": "1℃"
-      },
-      "zh": {
-        "最小温差": "1℃",
-        "板片厚度": "1.0 ~ 2.0mm",
-        "组装面积": "≤1000m2",
-        "设计压力": "真空 ~ 3.5MPa",
-        "设计温度": "≤450℃"
-      }
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "Wide Channel Welded Plate Heat Exchanger",
-        "meta_description": "Welded wide-gap plate exchanger for viscous media, fibers, and solid particles."
-      },
-      "zh": {
-        "meta_title": "宽通道焊接式板式热交换器",
-        "meta_description": "适用于粘稠介质、纤维悬浮物和固体颗粒工况的宽通道焊接式板式热交换器。"
-      }
-    },
-    "created_at": "2026-05-04T10:23:07.877+00:00",
-    "updated_at": "2026-05-04T11:12:19.927+00:00",
+    "updated_at": "2026-05-09T12:44:30.774+00:00",
     "order": 3,
     "video_link": "",
     "details": {
@@ -2323,7 +2382,7 @@
       }
     },
     "created_at": "2026-05-04T10:23:09.174+00:00",
-    "updated_at": "2026-05-04T11:12:21.261+00:00",
+    "updated_at": "2026-05-09T12:43:41.989+00:00",
     "order": 5,
     "video_link": "",
     "details": {
@@ -2394,7 +2453,7 @@
       }
     },
     "created_at": "2026-05-04T10:23:10.904+00:00",
-    "updated_at": "2026-05-04T11:12:22.903+00:00",
+    "updated_at": "2026-05-09T12:43:43.639+00:00",
     "order": 7,
     "video_link": "",
     "details": {
@@ -2464,67 +2523,8 @@
       }
     },
     "created_at": "2026-05-04T10:23:07.503+00:00",
-    "updated_at": "2026-05-04T11:12:19.092+00:00",
+    "updated_at": "2026-05-09T12:43:40.887+00:00",
     "order": 2,
-    "video_link": "",
-    "details": {
-      "en": [],
-      "zh": []
-    }
-  },
-  {
-    "id": "f450faa9-e510-42b0-9bc3-ca44d4f32276",
-    "manufacturer_id": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
-    "slug": "plate-heat-exchanger-unit",
-    "is_visible": true,
-    "name": {
-      "en": "Plate Heat Exchanger Unit",
-      "zh": "板式热交换机组"
-    },
-    "short_description": {
-      "en": "Integrated heat exchange skid combining plate heat exchanger, pump, valves, instruments, and controls.",
-      "zh": "集板式换热器、水泵、阀门、仪表和控制系统于一体的成套换热设备。"
-    },
-    "full_description": {
-      "en": "The official product page presents this unit as a complete set of heat exchange equipment integrating a plate heat exchanger, water pump, valves, instruments, and control system. It can be configured with sensors, controllers, electric actuators, remote communication control, heat flow measurement, water treatment, and softened water tank accessories to support steam-water, water-water, and oil-water heat exchange duty.",
-      "zh": "官网介绍显示，该产品是集板式换热器、水泵、阀门、仪表及控制系统于一体的成套换热设备。机组可根据用户需求配置传感器、控制器、电动执行机构、远程通讯、热量计量、水处理及软化水箱等附属系统，适用于汽-水、水-水、油-水等换热工况。"
-    },
-    "industries": [
-      "1",
-      "3",
-      "4"
-    ],
-    "advantage": {
-      "en": [
-        "Integrates plate heat exchanger, pump, valves, instruments, and control system in one unit.",
-        "Supports configurable sensors, controllers, electric actuators, and remote communication control.",
-        "Optional systems include heat metering, water treatment, and softened water tank equipment.",
-        "Officially listed control functions include frequency conversion, constant temperature and pressure supply, auto-start, interlock protection, and on-site data display."
-      ],
-      "zh": [
-        "将板式换热器、水泵、阀门、仪表与控制系统集成为一体。",
-        "可按需配置传感器、控制器、电动执行机构和远程通讯控制。",
-        "可加装热量计量、水处理和软化水箱等附属系统。",
-        "官网列示功能包括变频控制、恒温恒压供给、自启动、联锁保护和就地数据展示。"
-      ]
-    },
-    "technical_parameters": {
-      "en": {},
-      "zh": {}
-    },
-    "seo_data": {
-      "en": {
-        "meta_title": "Plate Heat Exchanger Unit",
-        "meta_description": "Integrated heat exchange skid combining plate heat exchanger, pump, valves, instruments, and controls."
-      },
-      "zh": {
-        "meta_title": "板式热交换机组",
-        "meta_description": "集板式换热器、水泵、阀门、仪表和控制系统于一体的成套换热设备。"
-      }
-    },
-    "created_at": "2026-05-04T10:23:10.035+00:00",
-    "updated_at": "2026-05-04T11:12:22.163+00:00",
-    "order": 6,
     "video_link": "",
     "details": {
       "en": [],
@@ -2594,7 +2594,7 @@
       }
     },
     "created_at": "2026-05-04T10:23:11.531+00:00",
-    "updated_at": "2026-05-04T11:12:23.523+00:00",
+    "updated_at": "2026-05-09T12:43:43.97+00:00",
     "order": 8,
     "video_link": "",
     "details": {

@@ -1,5 +1,18 @@
 [
   {
+    "id": "aaeb8c5c-8250-4208-86bd-8e24ca81e024",
+    "manufacturer_id": "5fb41b48-d202-46e1-b819-0de12c1152fa",
+    "asset_type": "media",
+    "alt_text": "THT Juyuan Modern Industrial Park",
+    "storage_bucket": "assets",
+    "storage_path": "siping-juyuan-welded-plate-heat-exchanger-co-ltd/company_images/tht_juyuan_modern_industrial_park.jpg",
+    "file_name": "tht_juyuan_modern_industrial_park.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T09:44:54.949+00:00",
+    "updated_at": "2026-05-09T12:44:29.914+00:00",
+    "order": 5
+  },
+  {
     "id": "68851f17-ff6b-43cc-995c-e6e9576c2764",
     "manufacturer_id": "5fb41b48-d202-46e1-b819-0de12c1152fa",
     "asset_type": "certificate",
@@ -9,7 +22,7 @@
     "file_name": "environmental_management_system_certificate.png",
     "file_type": "png",
     "created_at": "2026-05-04T09:44:51.308+00:00",
-    "updated_at": "2026-05-04T11:13:28.409+00:00",
+    "updated_at": "2026-05-09T12:44:28.149+00:00",
     "order": 1
   },
   {
@@ -22,7 +35,7 @@
     "file_name": "quality_management_system_certificate.png",
     "file_type": "png",
     "created_at": "2026-05-04T09:44:51.787+00:00",
-    "updated_at": "2026-05-04T11:13:29.009+00:00",
+    "updated_at": "2026-05-09T12:44:28.413+00:00",
     "order": 2
   },
   {
@@ -35,7 +48,7 @@
     "file_name": "occupational_health_and_safety_certificate.png",
     "file_type": "png",
     "created_at": "2026-05-04T09:44:52.136+00:00",
-    "updated_at": "2026-05-04T11:13:29.617+00:00",
+    "updated_at": "2026-05-09T12:44:28.776+00:00",
     "order": 3
   },
   {
@@ -48,7 +61,7 @@
     "file_name": "tht_juyuan_modern_park.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T09:44:52.479+00:00",
-    "updated_at": "2026-05-04T11:13:30.133+00:00",
+    "updated_at": "2026-05-09T12:44:28.972+00:00",
     "order": 1
   },
   {
@@ -61,7 +74,7 @@
     "file_name": "plate_heat_exchanger_workshop.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T09:44:53.223+00:00",
-    "updated_at": "2026-05-04T11:13:30.452+00:00",
+    "updated_at": "2026-05-09T12:44:29.199+00:00",
     "order": 2
   },
   {
@@ -74,7 +87,7 @@
     "file_name": "unit_shop.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T09:44:54.105+00:00",
-    "updated_at": "2026-05-04T11:13:30.987+00:00",
+    "updated_at": "2026-05-09T12:44:29.42+00:00",
     "order": 3
   },
   {
@@ -87,34 +100,8 @@
     "file_name": "new_product_workshop.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T09:44:54.689+00:00",
-    "updated_at": "2026-05-04T11:13:31.262+00:00",
+    "updated_at": "2026-05-09T12:44:29.727+00:00",
     "order": 4
-  },
-  {
-    "id": "aaeb8c5c-8250-4208-86bd-8e24ca81e024",
-    "manufacturer_id": "5fb41b48-d202-46e1-b819-0de12c1152fa",
-    "asset_type": "media",
-    "alt_text": "THT Juyuan Modern Industrial Park",
-    "storage_bucket": "assets",
-    "storage_path": "siping-juyuan-welded-plate-heat-exchanger-co-ltd/company_images/tht_juyuan_modern_industrial_park.jpg",
-    "file_name": "tht_juyuan_modern_industrial_park.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-05-04T09:44:54.949+00:00",
-    "updated_at": "2026-05-04T11:13:31.506+00:00",
-    "order": 5
-  },
-  {
-    "id": "ecf57f73-a447-4ac2-9e36-183617a639c5",
-    "manufacturer_id": "749dc7dd-abfc-4ee5-869b-7e8e9d8d953a",
-    "asset_type": "logo",
-    "alt_text": "Bayer Customer Logo",
-    "storage_bucket": "assets",
-    "storage_path": "shenghai-accessen-co-ltd/company_customers/bayer.jpg",
-    "file_name": "bayer.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-05-04T05:31:23.818+00:00",
-    "updated_at": "2026-05-04T11:13:20.992+00:00",
-    "order": 2
   },
   {
     "id": "5013c35a-b884-46fc-ab8f-3e840193792e",
@@ -126,7 +113,7 @@
     "file_name": "foxconn.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:31:24.025+00:00",
-    "updated_at": "2026-05-04T11:13:21.194+00:00",
+    "updated_at": "2026-05-09T12:44:24.504+00:00",
     "order": 3
   },
   {
@@ -139,7 +126,7 @@
     "file_name": "state_grid_corporation_of_china.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:31:24.5+00:00",
-    "updated_at": "2026-05-04T11:13:21.685+00:00",
+    "updated_at": "2026-05-09T12:44:24.708+00:00",
     "order": 4
   },
   {
@@ -152,7 +139,7 @@
     "file_name": "company_1.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:31:25.257+00:00",
-    "updated_at": "2026-05-04T11:13:21.981+00:00",
+    "updated_at": "2026-05-09T12:44:24.94+00:00",
     "order": 1
   },
   {
@@ -165,7 +152,7 @@
     "file_name": "company_2.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:31:25.472+00:00",
-    "updated_at": "2026-05-04T11:13:22.795+00:00",
+    "updated_at": "2026-05-09T12:44:25.124+00:00",
     "order": 2
   },
   {
@@ -178,7 +165,7 @@
     "file_name": "company_3.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:31:26.013+00:00",
-    "updated_at": "2026-05-04T11:13:23.363+00:00",
+    "updated_at": "2026-05-09T12:44:25.377+00:00",
     "order": 3
   },
   {
@@ -191,7 +178,7 @@
     "file_name": "iso_45001.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:58:27.46+00:00",
-    "updated_at": "2026-05-04T11:13:34.727+00:00",
+    "updated_at": "2026-05-09T12:44:31.307+00:00",
     "order": 1
   },
   {
@@ -204,7 +191,7 @@
     "file_name": "iso_14001.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:58:28.244+00:00",
-    "updated_at": "2026-05-04T11:13:35.24+00:00",
+    "updated_at": "2026-05-09T12:44:31.506+00:00",
     "order": 2
   },
   {
@@ -217,7 +204,7 @@
     "file_name": "iso_9001.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:58:28.786+00:00",
-    "updated_at": "2026-05-04T11:13:35.712+00:00",
+    "updated_at": "2026-05-09T12:44:31.707+00:00",
     "order": 3
   },
   {
@@ -230,7 +217,7 @@
     "file_name": "company_overview_1.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:58:29.263+00:00",
-    "updated_at": "2026-05-04T11:13:36.219+00:00",
+    "updated_at": "2026-05-09T12:44:31.893+00:00",
     "order": 1
   },
   {
@@ -243,21 +230,21 @@
     "file_name": "civil_nuclear_safety_equipment_manufacturing_license.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T10:22:55.092+00:00",
-    "updated_at": "2026-05-04T11:12:04.426+00:00",
+    "updated_at": "2026-05-09T12:43:27.04+00:00",
     "order": 1
   },
   {
-    "id": "2b1cd60c-2559-4cc4-ba78-ed725a8cd4e4",
+    "id": "8418291d-3b2f-4d5f-ab90-3a75170b1860",
     "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "asset_type": "logo",
-    "alt_text": "Sulzer Customer Logo",
+    "asset_type": "certificate",
+    "alt_text": "ASME U Certificate",
     "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_customers/sulzer.png",
-    "file_name": "sulzer.png",
-    "file_type": "png",
-    "created_at": "2026-03-26T01:54:41.145+00:00",
-    "updated_at": "2026-05-04T11:12:29.963+00:00",
-    "order": 5
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/asme_u_certificate.jpg",
+    "file_name": "asme_u_certificate.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-03-26T01:54:21.466+00:00",
+    "updated_at": "2026-05-09T12:43:44.81+00:00",
+    "order": 2
   },
   {
     "id": "e7e3e4f4-435b-473e-9611-7cecaa4cdd6a",
@@ -269,7 +256,7 @@
     "file_name": "vimetco.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:42.772+00:00",
-    "updated_at": "2026-05-04T11:12:30.449+00:00",
+    "updated_at": "2026-05-09T12:43:47.936+00:00",
     "order": 6
   },
   {
@@ -282,7 +269,7 @@
     "file_name": "company.jpg",
     "file_type": "jpg",
     "created_at": "2026-03-26T04:13:31.255+00:00",
-    "updated_at": "2026-05-04T11:12:32.5+00:00",
+    "updated_at": "2026-05-09T12:43:49.745+00:00",
     "order": 1
   },
   {
@@ -295,7 +282,7 @@
     "file_name": "company_2.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-03T12:08:54.643+00:00",
-    "updated_at": "2026-05-04T11:12:35.088+00:00",
+    "updated_at": "2026-05-09T12:43:52.208+00:00",
     "order": 2
   },
   {
@@ -308,7 +295,7 @@
     "file_name": "company_3.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-03T12:08:56.378+00:00",
-    "updated_at": "2026-05-04T11:12:36.591+00:00",
+    "updated_at": "2026-05-09T12:43:53.532+00:00",
     "order": 3
   },
   {
@@ -321,7 +308,7 @@
     "file_name": "company_4.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-03T12:08:57.934+00:00",
-    "updated_at": "2026-05-04T11:12:37.893+00:00",
+    "updated_at": "2026-05-09T12:43:54.821+00:00",
     "order": 4
   },
   {
@@ -334,7 +321,7 @@
     "file_name": "company_5.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-03T12:08:58.835+00:00",
-    "updated_at": "2026-05-04T11:12:38.701+00:00",
+    "updated_at": "2026-05-09T12:43:55.359+00:00",
     "order": 5
   },
   {
@@ -347,7 +334,7 @@
     "file_name": "ahri.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:31:18.818+00:00",
-    "updated_at": "2026-05-04T11:13:14.637+00:00",
+    "updated_at": "2026-05-09T12:44:19.64+00:00",
     "order": 1
   },
   {
@@ -360,34 +347,8 @@
     "file_name": "asme.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:31:19.057+00:00",
-    "updated_at": "2026-05-04T11:13:15.162+00:00",
+    "updated_at": "2026-05-09T12:44:19.86+00:00",
     "order": 2
-  },
-  {
-    "id": "8418291d-3b2f-4d5f-ab90-3a75170b1860",
-    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "asset_type": "certificate",
-    "alt_text": "ASME U Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/asme_u_certificate.jpg",
-    "file_name": "asme_u_certificate.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-03-26T01:54:21.466+00:00",
-    "updated_at": "2026-05-04T11:12:25.103+00:00",
-    "order": 2
-  },
-  {
-    "id": "54e0c63b-071d-46c4-98bc-5e210a3c2541",
-    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "asset_type": "certificate",
-    "alt_text": "ISO 14001 Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_14001.jpg",
-    "file_name": "iso_14001.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-03-26T01:54:25.366+00:00",
-    "updated_at": "2026-05-04T11:12:26.133+00:00",
-    "order": 4
   },
   {
     "id": "e1ab4fc1-6ed3-4831-b742-450db0034fe0",
@@ -399,8 +360,34 @@
     "file_name": "iso_9001_2015.png",
     "file_type": "png",
     "created_at": "2026-05-04T05:31:19.459+00:00",
-    "updated_at": "2026-05-04T11:13:15.838+00:00",
+    "updated_at": "2026-05-09T12:44:20.225+00:00",
     "order": 3
+  },
+  {
+    "id": "5701c029-0279-4dfd-844c-0ceb5b67d448",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "asset_type": "certificate",
+    "alt_text": "CE Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/ce.jpg",
+    "file_name": "ce.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-03-26T01:54:23.675+00:00",
+    "updated_at": "2026-05-09T12:43:45.249+00:00",
+    "order": 3
+  },
+  {
+    "id": "84acf704-8809-4451-83d7-b29b4287010f",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+    "asset_type": "certificate",
+    "alt_text": "ISO 45001 Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_45001.jpg",
+    "file_name": "iso_45001.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-03-26T01:54:27.522+00:00",
+    "updated_at": "2026-05-09T12:43:45.844+00:00",
+    "order": 5
   },
   {
     "id": "ca0900dd-a37b-447a-b8a9-9ed9a82b3f46",
@@ -412,7 +399,7 @@
     "file_name": "introduction_to_accessen.pdf",
     "file_type": "pdf",
     "created_at": "2026-05-04T05:31:21.206+00:00",
-    "updated_at": "2026-05-04T11:13:18.011+00:00",
+    "updated_at": "2026-05-09T12:44:21.679+00:00",
     "order": 1
   },
   {
@@ -425,21 +412,21 @@
     "file_name": "siemens.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:31:23.338+00:00",
-    "updated_at": "2026-05-04T11:13:20.53+00:00",
+    "updated_at": "2026-05-09T12:44:24.164+00:00",
     "order": 1
   },
   {
-    "id": "84acf704-8809-4451-83d7-b29b4287010f",
-    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "asset_type": "certificate",
-    "alt_text": "ISO 45001 Certificate",
+    "id": "ecf57f73-a447-4ac2-9e36-183617a639c5",
+    "manufacturer_id": "749dc7dd-abfc-4ee5-869b-7e8e9d8d953a",
+    "asset_type": "logo",
+    "alt_text": "Bayer Customer Logo",
     "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_45001.jpg",
-    "file_name": "iso_45001.jpg",
+    "storage_path": "shenghai-accessen-co-ltd/company_customers/bayer.jpg",
+    "file_name": "bayer.jpg",
     "file_type": "jpg",
-    "created_at": "2026-03-26T01:54:27.522+00:00",
-    "updated_at": "2026-05-04T11:12:26.858+00:00",
-    "order": 5
+    "created_at": "2026-05-04T05:31:23.818+00:00",
+    "updated_at": "2026-05-09T12:44:24.335+00:00",
+    "order": 2
   },
   {
     "id": "1ee65179-a502-4ec4-88c6-c081a4778598",
@@ -451,7 +438,7 @@
     "file_name": "iso_9001.jpg",
     "file_type": "jpg",
     "created_at": "2026-03-26T01:54:29.196+00:00",
-    "updated_at": "2026-05-04T11:12:27.358+00:00",
+    "updated_at": "2026-05-09T12:43:46.061+00:00",
     "order": 6
   },
   {
@@ -464,7 +451,7 @@
     "file_name": "nb_u_certificate.jpg",
     "file_type": "jpg",
     "created_at": "2026-03-26T01:54:31.343+00:00",
-    "updated_at": "2026-05-04T11:12:27.929+00:00",
+    "updated_at": "2026-05-09T12:43:46.471+00:00",
     "order": 7
   },
   {
@@ -477,7 +464,7 @@
     "file_name": "ohsas_18001.jpg",
     "file_type": "jpg",
     "created_at": "2026-03-26T01:54:32.984+00:00",
-    "updated_at": "2026-05-04T11:12:28.118+00:00",
+    "updated_at": "2026-05-09T12:43:46.674+00:00",
     "order": 8
   },
   {
@@ -490,7 +477,7 @@
     "file_name": "bp.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:34.636+00:00",
-    "updated_at": "2026-05-04T11:12:28.565+00:00",
+    "updated_at": "2026-05-09T12:43:46.931+00:00",
     "order": 1
   },
   {
@@ -503,7 +490,7 @@
     "file_name": "gazprom.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:36.261+00:00",
-    "updated_at": "2026-05-04T11:12:28.771+00:00",
+    "updated_at": "2026-05-09T12:43:47.126+00:00",
     "order": 2
   },
   {
@@ -516,7 +503,7 @@
     "file_name": "riotinto.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:37.91+00:00",
-    "updated_at": "2026-05-04T11:12:29.256+00:00",
+    "updated_at": "2026-05-09T12:43:47.323+00:00",
     "order": 3
   },
   {
@@ -529,34 +516,34 @@
     "file_name": "siemens.png",
     "file_type": "png",
     "created_at": "2026-03-26T01:54:39.54+00:00",
-    "updated_at": "2026-05-04T11:12:29.767+00:00",
+    "updated_at": "2026-05-09T12:43:47.566+00:00",
     "order": 4
   },
   {
-    "id": "5701c029-0279-4dfd-844c-0ceb5b67d448",
+    "id": "2b1cd60c-2559-4cc4-ba78-ed725a8cd4e4",
     "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-    "asset_type": "certificate",
-    "alt_text": "CE Certificate",
+    "asset_type": "logo",
+    "alt_text": "Sulzer Customer Logo",
     "storage_bucket": "assets",
-    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/ce.jpg",
-    "file_name": "ce.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-03-26T01:54:23.675+00:00",
-    "updated_at": "2026-05-04T11:12:25.616+00:00",
-    "order": 3
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_customers/sulzer.png",
+    "file_name": "sulzer.png",
+    "file_type": "png",
+    "created_at": "2026-03-26T01:54:41.145+00:00",
+    "updated_at": "2026-05-09T12:43:47.735+00:00",
+    "order": 5
   },
   {
-    "id": "914e5853-d488-41aa-9554-7c9e81a711f2",
-    "manufacturer_id": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
+    "id": "54e0c63b-071d-46c4-98bc-5e210a3c2541",
+    "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
     "asset_type": "certificate",
-    "alt_text": "Civil Nuclear Safety Equipment Design License",
+    "alt_text": "ISO 14001 Certificate",
     "storage_bucket": "assets",
-    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/company_certifications/civil_nuclear_safety_equipment_design_license.jpg",
-    "file_name": "civil_nuclear_safety_equipment_design_license.jpg",
+    "storage_path": "shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_14001.jpg",
+    "file_name": "iso_14001.jpg",
     "file_type": "jpg",
-    "created_at": "2026-05-04T10:22:56.48+00:00",
-    "updated_at": "2026-05-04T11:12:05.988+00:00",
-    "order": 2
+    "created_at": "2026-03-26T01:54:25.366+00:00",
+    "updated_at": "2026-05-09T12:43:45.559+00:00",
+    "order": 4
   },
   {
     "id": "87e41e23-1772-4f93-b2ec-fea0d62472a6",
@@ -568,21 +555,8 @@
     "file_name": "quality_management_system_certificate.png",
     "file_type": "png",
     "created_at": "2026-05-04T10:22:57.764+00:00",
-    "updated_at": "2026-05-04T11:12:07.644+00:00",
+    "updated_at": "2026-05-09T12:43:30.052+00:00",
     "order": 4
-  },
-  {
-    "id": "77000742-aa5b-40e8-96d8-06139885e2f6",
-    "manufacturer_id": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
-    "asset_type": "certificate",
-    "alt_text": "Occupational Health and Safety Management System Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/company_certifications/occupational_health_and_safety_management_system_certificate.png",
-    "file_name": "occupational_health_and_safety_management_system_certificate.png",
-    "file_type": "png",
-    "created_at": "2026-05-04T10:22:58.396+00:00",
-    "updated_at": "2026-05-04T11:12:08.041+00:00",
-    "order": 5
   },
   {
     "id": "bde25edf-fef2-4fe1-b705-93d0bc2d40df",
@@ -594,21 +568,8 @@
     "file_name": "environmental_management_system_certificate.png",
     "file_type": "png",
     "created_at": "2026-05-04T10:22:59.047+00:00",
-    "updated_at": "2026-05-04T11:12:08.665+00:00",
+    "updated_at": "2026-05-09T12:43:31.567+00:00",
     "order": 6
-  },
-  {
-    "id": "38e88095-14ac-48c9-ab6d-33339b9986f0",
-    "manufacturer_id": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
-    "asset_type": "certificate",
-    "alt_text": "Plate Heat Exchanger Product Safety Registration Certificate",
-    "storage_bucket": "assets",
-    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/company_certifications/plate_heat_exchanger_safety_registration_certificate.jpg",
-    "file_name": "plate_heat_exchanger_safety_registration_certificate.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-05-04T10:22:56.97+00:00",
-    "updated_at": "2026-05-04T11:12:06.753+00:00",
-    "order": 3
   },
   {
     "id": "680ab979-63f6-41fd-ad34-5127a0e99e8f",
@@ -620,7 +581,7 @@
     "file_name": "special_equipment_production_license.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T10:22:59.524+00:00",
-    "updated_at": "2026-05-04T11:12:09.273+00:00",
+    "updated_at": "2026-05-09T12:43:32.241+00:00",
     "order": 7
   },
   {
@@ -633,8 +594,34 @@
     "file_name": "trademark_renewal_registration_certificate.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T10:22:59.862+00:00",
-    "updated_at": "2026-05-04T11:12:09.53+00:00",
+    "updated_at": "2026-05-09T12:43:32.527+00:00",
     "order": 8
+  },
+  {
+    "id": "914e5853-d488-41aa-9554-7c9e81a711f2",
+    "manufacturer_id": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
+    "asset_type": "certificate",
+    "alt_text": "Civil Nuclear Safety Equipment Design License",
+    "storage_bucket": "assets",
+    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/company_certifications/civil_nuclear_safety_equipment_design_license.jpg",
+    "file_name": "civil_nuclear_safety_equipment_design_license.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T10:22:56.48+00:00",
+    "updated_at": "2026-05-09T12:43:28.116+00:00",
+    "order": 2
+  },
+  {
+    "id": "77000742-aa5b-40e8-96d8-06139885e2f6",
+    "manufacturer_id": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
+    "asset_type": "certificate",
+    "alt_text": "Occupational Health and Safety Management System Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/company_certifications/occupational_health_and_safety_management_system_certificate.png",
+    "file_name": "occupational_health_and_safety_management_system_certificate.png",
+    "file_type": "png",
+    "created_at": "2026-05-04T10:22:58.396+00:00",
+    "updated_at": "2026-05-09T12:43:30.961+00:00",
+    "order": 5
   },
   {
     "id": "e92b2b92-eeb4-4b65-be99-3c98ba967145",
@@ -646,7 +633,7 @@
     "file_name": "trademark_registration_certificate.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T10:23:00.411+00:00",
-    "updated_at": "2026-05-04T11:12:10.076+00:00",
+    "updated_at": "2026-05-09T12:43:32.844+00:00",
     "order": 9
   },
   {
@@ -659,7 +646,7 @@
     "file_name": "bank_account_opening_license.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T10:23:00.926+00:00",
-    "updated_at": "2026-05-04T11:12:10.585+00:00",
+    "updated_at": "2026-05-09T12:43:33.141+00:00",
     "order": 10
   },
   {
@@ -672,7 +659,7 @@
     "file_name": "institution_credit_code_certificate.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T10:23:01.269+00:00",
-    "updated_at": "2026-05-04T11:12:11.119+00:00",
+    "updated_at": "2026-05-09T12:43:33.49+00:00",
     "order": 11
   },
   {
@@ -685,7 +672,7 @@
     "file_name": "business_license.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T10:23:02.278+00:00",
-    "updated_at": "2026-05-04T11:12:11.854+00:00",
+    "updated_at": "2026-05-09T12:43:34.019+00:00",
     "order": 12
   },
   {
@@ -698,21 +685,8 @@
     "file_name": "shougang_group.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T10:23:02.511+00:00",
-    "updated_at": "2026-05-04T11:12:12.339+00:00",
+    "updated_at": "2026-05-09T12:43:34.283+00:00",
     "order": 1
-  },
-  {
-    "id": "2b117d72-d21d-486e-bd8c-48b034a5097f",
-    "manufacturer_id": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
-    "asset_type": "logo",
-    "alt_text": "Daikin Customer Logo",
-    "storage_bucket": "assets",
-    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/company_customers/daikin.jpg",
-    "file_name": "daikin.jpg",
-    "file_type": "jpg",
-    "created_at": "2026-05-04T10:23:02.761+00:00",
-    "updated_at": "2026-05-04T11:12:12.82+00:00",
-    "order": 2
   },
   {
     "id": "af8e6d88-e4ce-4ba6-b344-d5fc89197851",
@@ -724,7 +698,7 @@
     "file_name": "sinopec.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T10:23:03.011+00:00",
-    "updated_at": "2026-05-04T11:12:13.359+00:00",
+    "updated_at": "2026-05-09T12:43:34.868+00:00",
     "order": 3
   },
   {
@@ -737,7 +711,7 @@
     "file_name": "cnooc.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T10:23:03.511+00:00",
-    "updated_at": "2026-05-04T11:12:13.595+00:00",
+    "updated_at": "2026-05-09T12:43:35.299+00:00",
     "order": 4
   },
   {
@@ -750,7 +724,7 @@
     "file_name": "cnnc.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T10:23:03.751+00:00",
-    "updated_at": "2026-05-04T11:12:14.075+00:00",
+    "updated_at": "2026-05-09T12:43:35.67+00:00",
     "order": 5
   },
   {
@@ -763,7 +737,7 @@
     "file_name": "company_overview.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T10:23:04.026+00:00",
-    "updated_at": "2026-05-04T11:12:14.593+00:00",
+    "updated_at": "2026-05-09T12:43:36.029+00:00",
     "order": 1
   },
   {
@@ -776,7 +750,7 @@
     "file_name": "company_profile.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T10:23:04.454+00:00",
-    "updated_at": "2026-05-04T11:12:14.835+00:00",
+    "updated_at": "2026-05-09T12:43:36.528+00:00",
     "order": 2
   },
   {
@@ -789,7 +763,7 @@
     "file_name": "company_contact.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T10:23:05.108+00:00",
-    "updated_at": "2026-05-04T11:12:15.793+00:00",
+    "updated_at": "2026-05-09T12:43:37.422+00:00",
     "order": 3
   },
   {
@@ -802,7 +776,7 @@
     "file_name": "company_homepage.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T10:23:05.404+00:00",
-    "updated_at": "2026-05-04T11:12:16.302+00:00",
+    "updated_at": "2026-05-09T12:43:37.774+00:00",
     "order": 4
   },
   {
@@ -815,7 +789,7 @@
     "file_name": "abs.jpg",
     "file_type": "jpg",
     "created_at": "2026-03-26T01:54:19.786+00:00",
-    "updated_at": "2026-05-04T11:12:24.66+00:00",
+    "updated_at": "2026-05-09T12:43:44.577+00:00",
     "order": 1
   },
   {
@@ -828,7 +802,7 @@
     "file_name": "introduction_to_shphe.pdf",
     "file_type": "pdf",
     "created_at": "2026-05-04T06:48:46.43+00:00",
-    "updated_at": "2026-05-04T11:12:41.194+00:00",
+    "updated_at": "2026-05-09T12:43:57.456+00:00",
     "order": 1
   },
   {
@@ -841,7 +815,7 @@
     "file_name": "introduction_to_accessen_data_center_products.pdf",
     "file_type": "pdf",
     "created_at": "2026-05-04T05:31:22.86+00:00",
-    "updated_at": "2026-05-04T11:13:20.019+00:00",
+    "updated_at": "2026-05-09T12:44:23.65+00:00",
     "order": 2
   },
   {
@@ -854,7 +828,7 @@
     "file_name": "company_overview_2.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:58:29.493+00:00",
-    "updated_at": "2026-05-04T11:13:36.682+00:00",
+    "updated_at": "2026-05-09T12:44:32.054+00:00",
     "order": 2
   },
   {
@@ -867,7 +841,33 @@
     "file_name": "company_overview_3.jpg",
     "file_type": "jpg",
     "created_at": "2026-05-04T05:58:29.798+00:00",
-    "updated_at": "2026-05-04T11:13:37.179+00:00",
+    "updated_at": "2026-05-09T12:44:32.272+00:00",
     "order": 3
+  },
+  {
+    "id": "38e88095-14ac-48c9-ab6d-33339b9986f0",
+    "manufacturer_id": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
+    "asset_type": "certificate",
+    "alt_text": "Plate Heat Exchanger Product Safety Registration Certificate",
+    "storage_bucket": "assets",
+    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/company_certifications/plate_heat_exchanger_safety_registration_certificate.jpg",
+    "file_name": "plate_heat_exchanger_safety_registration_certificate.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T10:22:56.97+00:00",
+    "updated_at": "2026-05-09T12:43:29.265+00:00",
+    "order": 3
+  },
+  {
+    "id": "2b117d72-d21d-486e-bd8c-48b034a5097f",
+    "manufacturer_id": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
+    "asset_type": "logo",
+    "alt_text": "Daikin Customer Logo",
+    "storage_bucket": "assets",
+    "storage_path": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/company_customers/daikin.jpg",
+    "file_name": "daikin.jpg",
+    "file_type": "jpg",
+    "created_at": "2026-05-04T10:23:02.761+00:00",
+    "updated_at": "2026-05-09T12:43:34.498+00:00",
+    "order": 2
   }
 ]

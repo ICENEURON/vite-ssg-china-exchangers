@@ -11,7 +11,7 @@
     "Compressor-Free Natural Cooling"
   ],
   "technical_parameters": {
-    "Power Supply": "380V~415VAC/50士1HZ",
+    "Power Supply": "380V~415VAC/50±1Hz",
     "Altitude Range": "-30m~2500m",
     "Primary Side Coolant": "Water/ Ethylene Glycol-based Solutions",
     "Secondary Side Coolant": "Deionized Water/ Ethylene Glycol/ Propylene Glycol/ Fluorinated Fluids",
@@ -19,7 +19,7 @@
     "Storage Temperature Range": "-40°C~70°C",
     "Operating Relative Humidity": "5%~95%",
     "Operating Temperature Range": "5°C~50°C",
-    "Secondary Filtration Rating": "100μm~200um"
+    "Secondary Filtration Rating": "100μm~200μm"
   },
   "video_link": "",
   "details": [

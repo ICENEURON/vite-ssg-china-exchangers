@@ -11,6 +11,8 @@ const repoRoot = path.resolve(__dirname, '..');
 dotenv.config({ path: path.join(__dirname, '.env') });
 
 const SCORE_TABLE = 'manufacturer_scores';
+const SCORE_JSON_PATH = path.join(repoRoot, 'src', 'data', 'manufacturer_scores.json');
+const CONTENT_ARTICLE_SECTIONS = ['posts', 'news'];
 const DEFAULT_RESPONSE_TIME = 'n/a';
 const RESPONSE_TIME_SCORE = {
     within_24h: 10,
@@ -60,10 +62,14 @@ function loadImporterPayload() {
 }
 
 function loadExistingScoreMap() {
-    const existingScores = readJsonFile(path.join(repoRoot, 'src', 'data', 'manufacturer_scores.json'), []);
+    const existingScores = readJsonFile(SCORE_JSON_PATH, []);
     return Array.isArray(existingScores)
         ? new Map(existingScores.map((score) => [score.manufacturer_slug, score]))
         : new Map();
+}
+
+function writeJsonFile(filePath, data) {
+    fs.writeFileSync(filePath, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
 }
 
 function toText(value) {
@@ -147,37 +153,38 @@ function normalizeResponseTime(value) {
     return DEFAULT_RESPONSE_TIME;
 }
 
-function countPublishedArticles(manufacturerSlug, existingScore) {
-    const contentDir = path.join(repoRoot, 'content', 'posts');
-    if (!fs.existsSync(contentDir)) return existingScore?.published_article_count || 0;
-
+function collectMarkdownFiles(directory) {
     const markdownFiles = [];
-    const walk = (directory) => {
-        for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
-            const fullPath = path.join(directory, entry.name);
+    if (!fs.existsSync(directory)) return markdownFiles;
+
+    const walk = (currentDirectory) => {
+        for (const entry of fs.readdirSync(currentDirectory, { withFileTypes: true })) {
+            const fullPath = path.join(currentDirectory, entry.name);
             if (entry.isDirectory()) walk(fullPath);
             if (entry.isFile() && /\.mdx?$/.test(entry.name)) markdownFiles.push(fullPath);
         }
     };
 
-    walk(contentDir);
+    walk(directory);
+    return markdownFiles;
+}
 
+function countPublishedArticles(manufacturerSlug, existingScore) {
+    let hasContentArticleRoot = false;
     const articleSlugs = new Set();
-    for (const filePath of markdownFiles) {
-        const raw = fs.readFileSync(filePath, 'utf8');
-        const containsManufacturer = raw.includes(`manufacturer_slug: ${manufacturerSlug}`)
-            || raw.includes(`manufacturerSlug: ${manufacturerSlug}`)
-            || raw.includes(`manufacturer: ${manufacturerSlug}`)
-            || raw.includes(`manufacturer_slug: "${manufacturerSlug}"`)
-            || raw.includes(`manufacturerSlug: "${manufacturerSlug}"`)
-            || raw.includes(`manufacturer: "${manufacturerSlug}"`);
 
-        if (containsManufacturer) {
-            articleSlugs.add(path.basename(filePath).replace(/\.mdx?$/, ''));
+    for (const section of CONTENT_ARTICLE_SECTIONS) {
+        const sectionDir = path.join(repoRoot, 'content', section);
+        if (fs.existsSync(sectionDir)) hasContentArticleRoot = true;
+
+        const manufacturerDir = path.join(sectionDir, manufacturerSlug);
+        for (const filePath of collectMarkdownFiles(manufacturerDir)) {
+            const articleSlug = path.basename(filePath).replace(/\.mdx?$/, '');
+            articleSlugs.add(`${section}:${articleSlug}`);
         }
     }
 
-    return articleSlugs.size || existingScore?.published_article_count || 0;
+    return hasContentArticleRoot ? articleSlugs.size : existingScore?.published_article_count || 0;
 }
 
 function buildManufacturerScore(item, index, existingScore) {
@@ -199,7 +206,7 @@ function buildManufacturerScore(item, index, existingScore) {
         response_time: responseTime,
         response_time_score: RESPONSE_TIME_SCORE[responseTime] || 0,
         published_article_count: publishedArticleCount,
-        published_article_score: clamp(publishedArticleCount * 5, 0, 10)
+        published_article_score: clamp(publishedArticleCount, 0, 10)
     };
 
     score.overall_score = score.company_intro_score
@@ -232,6 +239,16 @@ async function loadManufacturerIdsBySlug(supabase, slugs) {
 
     if (error) throw error;
     return new Map((data || []).map((manufacturer) => [manufacturer.slug, manufacturer.id]));
+}
+
+async function loadScoresFromSupabase(supabase) {
+    const { data, error } = await supabase
+        .from(SCORE_TABLE)
+        .select('*')
+        .order('order', { ascending: true });
+
+    if (error) throw error;
+    return data || [];
 }
 
 async function updateManufacturerScores({ dryRun = false } = {}) {
@@ -279,6 +296,10 @@ async function updateManufacturerScores({ dryRun = false } = {}) {
 
     if (error) throw error;
     console.log(`✅ 已更新 ${rows.length} 条 manufacturer_scores 记录。`);
+
+    const refreshedScores = await loadScoresFromSupabase(supabase);
+    writeJsonFile(SCORE_JSON_PATH, refreshedScores);
+    console.log(`✅ 已写入 ${path.relative(repoRoot, SCORE_JSON_PATH)}。`);
 }
 
 const dryRun = process.argv.includes('--dry-run');

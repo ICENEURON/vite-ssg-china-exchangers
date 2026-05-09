@@ -36,22 +36,6 @@
     ]
   },
   {
-    "name": "Siping Juyuan Welded Plate Heat Exchanger Co., Ltd.",
-    "short_description": "Manufacturer of welded plate heat exchangers and customized heat transfer solutions for power, petrochemical, marine, HVAC, food, and other industrial applications.",
-    "slug": "siping-juyuan-welded-plate-heat-exchanger-co-ltd",
-    "city": "Siping",
-    "country_name": "China",
-    "industries": [
-      "HVAC",
-      "Petrochemical",
-      "Marine",
-      "Energy",
-      "Chemical Processing",
-      "Food and Beverage",
-      "Power Generation"
-    ]
-  },
-  {
     "name": "Shanghai Heat Transfer Equipment Co., Ltd.",
     "short_description": "Manufacturer of plate heat exchangers and custom heat transfer systems for oil and gas, chemical, power, marine, HVAC, and other industrial sectors.",
     "slug": "shanghai-heat-transfer-equipment-co-ltd",
@@ -84,6 +68,22 @@
       "Chemical Processing",
       "Food and Beverage",
       "Pharmaceuticals",
+      "Power Generation"
+    ]
+  },
+  {
+    "name": "Siping Juyuan Welded Plate Heat Exchanger Co., Ltd.",
+    "short_description": "Manufacturer of welded plate heat exchangers and customized heat transfer solutions for power, petrochemical, marine, HVAC, food, and other industrial applications.",
+    "slug": "siping-juyuan-welded-plate-heat-exchanger-co-ltd",
+    "city": "Siping",
+    "country_name": "China",
+    "industries": [
+      "HVAC",
+      "Petrochemical",
+      "Marine",
+      "Energy",
+      "Chemical Processing",
+      "Food and Beverage",
       "Power Generation"
     ]
   }

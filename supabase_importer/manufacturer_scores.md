@@ -8,13 +8,7 @@ When the user asks to update manufacturer scores based on this document, run the
 node supabase_importer/update-manufacturer-scores.js
 ```
 
-After the Supabase table has been updated, download the table back into the site data files:
-
-```powershell
-npm run sync
-```
-
-This writes `src/data/manufacturer_scores.json`, which is what the frontend imports.
+After the Supabase table has been updated, the script reads the refreshed score rows back from Supabase and writes `src/data/manufacturer_scores.json`, which is what the frontend imports.
 
 To sync all data first and then start the local dev server, run:
 
@@ -28,7 +22,7 @@ For a preview without writing to Supabase, run:
 node supabase_importer/update-manufacturer-scores.js --dry-run
 ```
 
-The script reads all company JSON payloads under `supabase_importer/data`, reads asset declarations from each payload, uses `src/data/manufacturer_scores.json` as a fallback for manually maintained fields, calculates score rows, and upserts them into `public.manufacturer_scores` by `manufacturer_id`.
+The script reads all company JSON payloads under `supabase_importer/data`, reads asset declarations from each payload, uses `src/data/manufacturer_scores.json` as a fallback for manually maintained fields, counts company content under `content/posts` and `content/news`, calculates score rows, upserts them into `public.manufacturer_scores` by `manufacturer_id`, and writes the refreshed table back into `src/data/manufacturer_scores.json`.
 
 ## Required Environment
 
@@ -190,10 +184,10 @@ unknown       => 0 legacy input, normalized to n/a
 
 ### published_article_count and published_article_score
 
-The script counts markdown posts with manufacturer frontmatter references when present. If none are found, it falls back to `src/data/manufacturer_scores.json`.
+The script counts markdown content by manufacturer folder under `content/posts/<manufacturer_slug>` and `content/news/<manufacturer_slug>`. Bilingual files with the same filename slug are counted once per section.
 
 ```txt
-published_article_score = min(published_article_count * 5, 10)
+published_article_score = min(published_article_count, 10)
 ```
 
 ## Important Notes
@@ -201,5 +195,5 @@ published_article_score = min(published_article_count * 5, 10)
 - The script does not modify `supabase_importer/import.js`.
 - Run the normal importer first if manufacturer/product rows or asset rows have changed and are not yet in Supabase.
 - Then run `node supabase_importer/update-manufacturer-scores.js` to refresh `manufacturer_scores`.
-- Then run `npm run sync` to download `manufacturer_scores` into `src/data/manufacturer_scores.json` for the website.
+- The script writes `src/data/manufacturer_scores.json` after a successful Supabase update, so a separate sync is not required just for scores.
 - The script upserts by `manufacturer_id`, and it skips companies not found in the Supabase `manufacturers` table.

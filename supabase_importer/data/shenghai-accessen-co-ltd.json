@@ -229,8 +229,8 @@
               "Primary Side Coolant": "Water/ Ethylene Glycol-based Solutions",
               "Primary Filtration Rating": "200μm~300μm",
               "Secondary Side Coolant": "Deionized Water/ Ethylene Glycol/ Propylene Glycol/ Fluorinated Fluids",
-              "Secondary Filtration Rating": "100μm~200um",
-              "Power Supply": "380V~415VAC/50士1HZ"
+              "Secondary Filtration Rating": "100μm~200μm",
+              "Power Supply": "380V~415VAC/50±1Hz"
             },
             "zh": {
               "存储温度范围": "-40°C~70°C",
@@ -240,8 +240,8 @@
               "一次侧冷却介质": "水 / 乙二醇基冷却液",
               "一次侧过滤精度": "200μm~300μm",
               "二次侧冷却介质": "去离子水 / 乙二醇 / 丙二醇 / 含氟流体",
-              "二次侧过滤精度": "100μm~200um",
-              "电源": "380V~415VAC/50士1HZ"
+              "二次侧过滤精度": "100μm~200μm",
+              "电源": "380V~415VAC/50±1Hz"
             }
           },
           "details": {
@@ -333,8 +333,8 @@
               "Primary Side Coolant": "Water/Glycol-based Coolants",
               "Primary Side Filtration Rating": "200μm~300μm",
               "Secondary Side Coolant": "Deionized Water, Glycol, Propylene Glycol, Fluorinated Fluids",
-              "Secondary Side Filtration Rating": "100μm~200um",
-              "Power Supply": "380V~415VAC/50士1HZ"
+              "Secondary Side Filtration Rating": "100μm~200μm",
+              "Power Supply": "380V~415VAC/50±1Hz"
             },
             "zh": {
               "存储温度范围": "-40°C~70°C",
@@ -344,8 +344,8 @@
               "一次侧冷却介质": "水 / 乙二醇基冷却液",
               "一次侧过滤精度": "200μm~300μm",
               "二次侧冷却介质": "去离子水、乙二醇、丙二醇、含氟流体",
-              "二次侧过滤精度": "100μm~200um",
-              "电源": "380V~415VAC/50士1HZ"
+              "二次侧过滤精度": "100μm~200μm",
+              "电源": "380V~415VAC/50±1Hz"
             }
           },
           "details": {

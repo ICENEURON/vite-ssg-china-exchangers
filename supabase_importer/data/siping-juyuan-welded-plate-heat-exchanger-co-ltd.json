@@ -249,14 +249,14 @@
           "technical_parameters": {
             "en": {
               "Bearing Capacity": "2.1 MPa",
-              "Design Temperature": "350 C",
+              "Design Temperature": "350℃",
               "Installed Area": "880 m2",
               "Plate Thickness": "1.5-2.0 mm",
               "Sheet Material": "304 / 304L / 321 / 316L / dual phase steel",
               "Fixed-pitch Columns": "316L"
             },
             "zh": {
-              "承压能力": "2.1Mpa",
+              "承压能力": "2.1MPa",
               "设计温度": "350℃",
               "装机面积": "880m2",
               "板片厚度": "1.5~2.0mm",
