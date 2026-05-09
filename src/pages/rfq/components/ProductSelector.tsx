@@ -39,7 +39,7 @@ export function ProductSelector({ selected, onSelect, application, onApplication
                     relative flex flex-col items-center p-6 rounded-2xl border-2 transition-all duration-300 text-center
                     ${isSelected
                                     ? 'border-primary bg-primary/5 shadow-lg shadow-primary/10 ring-1 ring-primary'
-                                    : 'border-slate-200 dark:border-slate-800 bg-card hover:border-primary/40 hover:bg-slate-50 dark:hover:bg-slate-900 shadow-sm'}
+                                    : 'border-slate-200 bg-card hover:border-primary/40 hover:bg-slate-50 shadow-sm'}
                 `}
                         >
                             {isSelected && (
@@ -51,7 +51,7 @@ export function ProductSelector({ selected, onSelect, application, onApplication
                             <span className={`text-base font-bold mb-2 ${isSelected ? 'text-primary' : 'text-foreground'}`}>
                                 {p.label}
                             </span>
-                            <span className="text-xs text-slate-500 dark:text-slate-400 font-medium leading-relaxed">{p.desc}</span>
+                            <span className="text-xs text-slate-500 font-medium leading-relaxed">{p.desc}</span>
                         </button>
                     )
                 })}
@@ -59,7 +59,7 @@ export function ProductSelector({ selected, onSelect, application, onApplication
 
             {application !== undefined && onApplicationChange && (
                 <div className="space-y-4 animate-in fade-in slide-in-from-bottom-2">
-                    <h3 className="text-lg font-bold text-slate-900 dark:text-slate-50">{t("intendedApplication")}</h3>
+                    <h3 className="text-lg font-bold text-slate-900">{t("intendedApplication")}</h3>
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                         {applications.map(app => (
                             <button
@@ -67,7 +67,7 @@ export function ProductSelector({ selected, onSelect, application, onApplication
                                 onClick={() => onApplicationChange(app)}
                                 className={`px-4 py-3 text-sm font-medium rounded-xl border transition-all duration-200 ${application === app
                                     ? 'bg-primary text-white border-primary shadow-md shadow-primary/20'
-                                    : 'bg-white dark:bg-slate-950 border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:border-primary/40'
+                                    : 'bg-white border-slate-200 text-slate-600 hover:border-primary/40'
                                     }`}
                             >
                                 {app}

@@ -85,7 +85,7 @@ const Footer = ({ className }: FooterProps) => {
                     src={logo.src}
                     alt={logo.alt}
                     title={logo.title}
-                    className="h-8 w-8 dark:invert"
+                    className="h-8 w-8"
                   />
                   <span className="text-xl font-bold text-foreground">
                     {logo.title}

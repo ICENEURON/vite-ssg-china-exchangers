@@ -69,7 +69,7 @@ export function PlatformValueSection() {
                         </div>
                         <div className="mt-6 flex flex-wrap gap-2">
                             {(t("items.audience.segments", { returnObjects: true }) as string[]).map((segment) => (
-                                <span key={segment} className="rounded-full border border-blue-500/20 bg-blue-500/10 px-3 py-1 text-xs font-semibold text-blue-600 dark:text-blue-300">
+                                <span key={segment} className="rounded-full border border-blue-500/20 bg-blue-500/10 px-3 py-1 text-xs font-semibold text-blue-600">
                                     {segment}
                                 </span>
                             ))}

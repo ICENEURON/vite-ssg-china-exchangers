@@ -17,7 +17,7 @@ export function HeroSection() {
 
     return (
         <section className="relative overflow-hidden bg-slate-50 px-2 py-16 flex flex-col items-center justify-center w-full">
-            <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808014_1px,transparent_1px),linear-gradient(to_bottom,#80808014_1px,transparent_1px)] bg-[size:28px_28px] [mask-image:radial-gradient(ellipse_90%_70%_at_50%_0%,#000_60%,transparent_100%)] pointer-events-none" />
+            <div className="absolute inset-0 bg-grid-hero-center pointer-events-none" />
 
             <div className="container relative mx-auto max-w-6xl pt-16">
                 <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">

@@ -41,7 +41,7 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
         required?: boolean
     ) => (
         <FieldSet className="mb-8">
-            <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{label}{required && <span className="text-red-500"> *</span>}</FieldLabel>
+            <FieldLabel className="text-base font-bold text-slate-900 mb-4">{label}{required && <span className="text-red-500"> *</span>}</FieldLabel>
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
                 {options.map((option) => {
                     const isSelected = currentValue === option.id;
@@ -53,7 +53,7 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                                 relative flex items-center justify-center text-center px-4 py-3 rounded-xl border transition-all duration-200 text-sm font-medium leading-tight
                                 ${isSelected
                                     ? 'border-primary bg-primary/10 text-primary shadow-sm ring-1 ring-primary/50'
-                                    : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 text-slate-600 dark:text-slate-300 hover:border-primary/40'
+                                    : 'border-slate-200 bg-white text-slate-600 hover:border-primary/40'
                                 }
                             `}
                         >
@@ -75,7 +75,7 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                         placeholder={customPlaceholder}
                         value={data[customKey] as string}
                         onChange={(e) => onChange({ [customKey]: e.target.value })}
-                        className="flex h-12 w-full rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                        className="flex h-12 w-full rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
                     />
                 </div>
             )}
@@ -84,51 +84,51 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
 
     return (
         <div className="space-y-2 animate-in fade-in slide-in-from-bottom-4">
-             <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 md:p-10 shadow-sm">
+             <div className="bg-white border border-slate-200 rounded-3xl p-6 md:p-10 shadow-sm">
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                     <FieldSet>
-                        <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{t("step1.firstNameLabel")} <span className="text-red-500">*</span></FieldLabel>
+                        <FieldLabel className="text-base font-bold text-slate-900 mb-4">{t("step1.firstNameLabel")} <span className="text-red-500">*</span></FieldLabel>
                         <input
                             type="text"
                             value={data.firstName}
                             onChange={(e) => onChange({ firstName: e.target.value })}
                             placeholder={t("step1.firstNamePlaceholder")}
-                            className="flex h-12 w-full rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                            className="flex h-12 w-full rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
                         />
                     </FieldSet>
                     <FieldSet>
-                        <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{t("step1.lastNameLabel")} <span className="text-red-500">*</span></FieldLabel>
+                        <FieldLabel className="text-base font-bold text-slate-900 mb-4">{t("step1.lastNameLabel")} <span className="text-red-500">*</span></FieldLabel>
                         <input
                             type="text"
                             value={data.lastName}
                             onChange={(e) => onChange({ lastName: e.target.value })}
                             placeholder={t("step1.lastNamePlaceholder")}
-                            className="flex h-12 w-full rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                            className="flex h-12 w-full rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
                         />
                     </FieldSet>
                 </div>
 
                 <FieldSet className="mb-8">
-                    <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{t("step1.companyLabel")}</FieldLabel>
+                    <FieldLabel className="text-base font-bold text-slate-900 mb-4">{t("step1.companyLabel")}</FieldLabel>
                     <input
                         type="text"
                         value={data.companyName}
                         onChange={(e) => onChange({ companyName: e.target.value })}
                         placeholder={t("step1.companyPlaceholder")}
-                        className="flex h-12 w-full rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                        className="flex h-12 w-full rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
                     />
                 </FieldSet>
 
                 <FieldSet className="mb-8">
-                    <FieldLabel className="text-base font-bold text-slate-900 dark:text-slate-50 mb-4">{t("step1.countryLabel")} <span className="text-red-500">*</span></FieldLabel>
+                    <FieldLabel className="text-base font-bold text-slate-900 mb-4">{t("step1.countryLabel")} <span className="text-red-500">*</span></FieldLabel>
                     <div className="relative">
                         <select
                             value={data.country}
                             onChange={(e) => onChange({ country: e.target.value })}
                             className={`
-                                flex h-12 w-full rounded-xl border bg-white dark:bg-slate-950 px-4 py-2 text-sm ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10 appearance-none
-                                ${data.country ? 'border-primary/50 ring-1 ring-primary/30 text-slate-900 dark:text-slate-100' : 'border-slate-200 dark:border-slate-800 text-slate-500'}
+                                flex h-12 w-full rounded-xl border bg-white px-4 py-2 text-sm ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10 appearance-none
+                                ${data.country ? 'border-primary/50 ring-1 ring-primary/30 text-slate-900' : 'border-slate-200 text-slate-500'}
                             `}
                         >
                             <option value="" disabled>{t("step1.countryPlaceholder")}</option>

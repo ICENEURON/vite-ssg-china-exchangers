@@ -7,13 +7,13 @@ export function AboutHero() {
 
     return (
         <section className="relative py-10 px-2 flex justify-center flex-col items-center justify-center text-center bg-gradient-to-b from-slate-50 from-95% to-transparent overflow-hidden">
-            <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808020_1px,transparent_1px),linear-gradient(to_bottom,#80808020_1px,transparent_1px)] bg-[size:24px_24px] [mask-image:radial-gradient(ellipse_100%_80%_at_0%_0%,#000_70%,transparent_100%)] pointer-events-none" />
+            <div className="absolute inset-0 bg-grid-hero-start pointer-events-none" />
             <div className="container pt-16 px-2 relative max-w-6xl flex flex-col items-center justify-center gap-2 z-10 w-full">
                 <Badge variant="secondary" className="bg-blue-200/80 text-accent border-blue-400/50 hover:bg-blue-200 px-4 py-2 text-sm">
                     {t("pages.about.hero.badge")}
                 </Badge>
 
-                <h1 className="text-4xl md:text-7xl font-bold tracking-tight text-slate-900 dark:text-slate-50 leading-[1.1] p-2 text-center w-full">
+                <h1 className="text-4xl md:text-7xl font-bold tracking-tight text-slate-900 leading-[1.1] p-2 text-center w-full">
                     <Trans
                         i18nKey="pages.about.hero.title"
                         components={{ 1: <span className="text-orange-500" /> }}
@@ -24,7 +24,7 @@ export function AboutHero() {
                     <span className="text-primary block">{t("pages.about.hero.title_highlight")}</span>
                 </h3>
 
-                <p className="text-xl text-slate-600 dark:text-slate-300 w-full text-center leading-relaxed font-light p-2">
+                <p className="text-xl text-slate-600 w-full text-center leading-relaxed font-light p-2">
                     {t("pages.about.hero.description_1")}
                 </p>
 

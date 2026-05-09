@@ -144,7 +144,7 @@ export default function ProductProfilePage() {
                 <link rel="canonical" href={currentUrl} />
             </Head>
 
-            <main className="min-h-screen bg-slate-50/50 dark:bg-zinc-950 text-foreground animate-in fade-in duration-500 pb-20">
+            <main className="min-h-screen bg-slate-50/50 text-foreground animate-in fade-in duration-500 pb-20">
 
                 {/* Header Section */}
                 <section className="bg-slate-900 border-b border-border/40 py-16 pt-24 mt-[-4rem]">
@@ -215,10 +215,10 @@ export default function ProductProfilePage() {
                     {certificates.length > 0 && (
                         <section>
                             <div className="flex items-center gap-3 mb-8">
-                                <div className="p-3 bg-amber-500/10 rounded-xl text-amber-600 dark:text-amber-400">
+                                <div className="p-3 bg-amber-500/10 rounded-xl text-amber-600">
                                     <Shield className="w-6 h-6" />
                                 </div>
-                                <h2 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
+                                <h2 className="text-3xl font-bold tracking-tight text-slate-900">
                                     {t("pages.products.detail.certificates", { defaultValue: 'Certificates' })}
                                 </h2>
                             </div>
@@ -240,7 +240,7 @@ export default function ProductProfilePage() {
                     {details.length > 0 && (
                         <section>
                             <div className="flex items-center gap-3 mb-8">
-                                <div className="p-3 bg-violet-500/10 rounded-xl text-violet-600 dark:text-violet-400">
+                                <div className="p-3 bg-violet-500/10 rounded-xl text-violet-600">
                                     <BookOpen className="w-6 h-6" />
                                 </div>
                                 <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.product_details", { defaultValue: 'Product Details' })}</h2>
@@ -249,7 +249,7 @@ export default function ProductProfilePage() {
                                 {details.map((detail, idx) => (
                                     <div key={idx} className={idx > 0 ? "mt-8 border-t border-border/50 pt-8" : undefined}>
                                         <h3 className="text-xl font-bold mb-4 text-card-foreground">{detail.title}</h3>
-                                        <p className="text-slate-700 dark:text-slate-200 leading-relaxed text-lg">{detail.content}</p>
+                                        <p className="text-slate-700 leading-relaxed text-lg">{detail.content}</p>
                                     </div>
                                 ))}
                             </div>
@@ -280,7 +280,7 @@ export default function ProductProfilePage() {
                     {hasTechnicalParams && (
                         <section>
                             <div className="flex items-center gap-3 mb-8">
-                                <div className="p-3 bg-blue-500/10 rounded-xl text-blue-600 dark:text-blue-400">
+                                <div className="p-3 bg-blue-500/10 rounded-xl text-blue-600">
                                     <Settings className="w-6 h-6" />
                                 </div>
                                 <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.technical_specifications")}</h2>
@@ -289,9 +289,9 @@ export default function ProductProfilePage() {
                                 <table className="w-full text-left border-collapse">
                                     <tbody>
                                         {Object.entries(technicalParams).map(([key, value], index) => (
-                                            <tr key={key} className={`border-b border-border/50 last:border-0 ${index % 2 === 0 ? 'bg-slate-50/50 dark:bg-slate-900/50' : 'bg-transparent'}`}>
-                                                <th className="py-4 px-6 font-semibold text-slate-700 dark:text-slate-200 w-1/3 border-r border-border/50">{key}</th>
-                                                <td className="py-4 px-6 text-slate-900 dark:text-slate-100 font-medium">{String(value)}</td>
+                                            <tr key={key} className={`border-b border-border/50 last:border-0 ${index % 2 === 0 ? 'bg-slate-50/50' : 'bg-transparent'}`}>
+                                                <th className="py-4 px-6 font-semibold text-slate-700 w-1/3 border-r border-border/50">{key}</th>
+                                                <td className="py-4 px-6 text-slate-900 font-medium">{String(value)}</td>
                                             </tr>
                                         ))}
                                     </tbody>
@@ -305,7 +305,7 @@ export default function ProductProfilePage() {
                         <section>
                             <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                                 <div className="flex items-center gap-3">
-                                    <div className="p-3 bg-slate-900/10 rounded-xl text-slate-700 dark:bg-white/10 dark:text-slate-200">
+                                    <div className="p-3 bg-slate-900/10 rounded-xl text-slate-700">
                                         <Factory className="w-6 h-6" />
                                     </div>
                                     <h2 className="text-3xl font-bold tracking-tight">
@@ -324,9 +324,9 @@ export default function ProductProfilePage() {
                                     <Link
                                         key={product.slug}
                                         to={addLanguageToPath(`/products/${manufacturerSlug}/${product.slug}`, currentLanguage)}
-                                        className="group bg-card rounded-xl border border-border/50 shadow-sm overflow-hidden hover:shadow-md hover:border-blue-200 dark:hover:border-blue-900/70 transition-all flex items-center h-[72px]"
+                                        className="group bg-card rounded-xl border border-border/50 shadow-sm overflow-hidden hover:shadow-md hover:border-blue-200 transition-all flex items-center h-[72px]"
                                     >
-                                        <div className="w-24 sm:w-28 self-stretch bg-white dark:bg-zinc-900 flex shrink-0 items-center justify-center border-r border-border/50">
+                                        <div className="w-24 sm:w-28 self-stretch bg-white flex shrink-0 items-center justify-center border-r border-border/50">
                                             {product.image ? (
                                                 <img
                                                     src={product.image.url}
@@ -335,13 +335,13 @@ export default function ProductProfilePage() {
                                                     loading="lazy"
                                                 />
                                             ) : (
-                                                <div className="flex h-full w-full items-center justify-center text-slate-300 dark:text-slate-700">
+                                                <div className="flex h-full w-full items-center justify-center text-slate-300">
                                                     <Factory className="w-12 h-12" />
                                                 </div>
                                             )}
                                         </div>
                                         <div className="min-w-0 flex-1 px-3">
-                                            <span className="block text-xs sm:text-sm font-bold leading-tight text-card-foreground group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2">
+                                            <span className="block text-xs sm:text-sm font-bold leading-tight text-card-foreground group-hover:text-blue-600 transition-colors line-clamp-2">
                                                 {product.name}
                                             </span>
                                         </div>
@@ -355,7 +355,7 @@ export default function ProductProfilePage() {
                     {documents.length > 0 && (
                         <section>
                             <div className="flex items-center gap-3 mb-8">
-                                <div className="p-3 bg-emerald-500/10 rounded-xl text-emerald-600 dark:text-emerald-400">
+                                <div className="p-3 bg-emerald-500/10 rounded-xl text-emerald-600">
                                     <FileText className="w-6 h-6" />
                                 </div>
                                 <h2 className="text-3xl font-bold tracking-tight">{documentDownloadsTitle}</h2>
@@ -364,7 +364,7 @@ export default function ProductProfilePage() {
                                 {documents.map((doc, idx) => (
                                     <div key={idx} className="bg-card p-6 rounded-2xl border border-border/50 shadow-sm flex items-center justify-between gap-4 hover:shadow-md transition-shadow">
                                         <div className="flex items-center gap-4 min-w-0">
-                                            <div className="p-2.5 bg-red-50 dark:bg-red-900/20 rounded-xl shrink-0">
+                                            <div className="p-2.5 bg-red-50 rounded-xl shrink-0">
                                                 <FileText className="w-5 h-5 text-red-500" />
                                             </div>
                                             <div className="min-w-0">
@@ -394,14 +394,14 @@ export default function ProductProfilePage() {
             <div className="fixed bottom-8 right-4 z-50 flex max-w-[calc(100vw-2rem)] flex-col items-end gap-3 sm:right-8 sm:max-w-none">
                 <Link
                     to={addLanguageToPath('/manufacturers', currentLanguage)}
-                    className="flex max-w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-4 font-bold text-slate-800 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.3)] dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:text-blue-400 sm:px-6 group"
+                    className="flex max-w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-4 font-bold text-slate-800 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float sm:px-6 group"
                 >
                     <ArrowLeft className="h-5 w-5 shrink-0 transition-transform group-hover:-translate-x-1" />
                     <span className="truncate">{t("pages.products.detail.back_to_manufacturers", { defaultValue: currentLanguage === 'zh' ? '返回所有工厂' : 'Back to Manufacturers' })}</span>
                 </Link>
                 <Link
                     to={addLanguageToPath('/products', currentLanguage)}
-                    className="flex max-w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-4 font-bold text-slate-800 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.3)] dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:text-blue-400 sm:px-6 group"
+                    className="flex max-w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-4 font-bold text-slate-800 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float sm:px-6 group"
                 >
                     <ArrowLeft className="h-5 w-5 shrink-0 transition-transform group-hover:-translate-x-1" />
                     <span className="truncate">{t("pages.products.detail.back_to_list", { defaultValue: 'Back to Products' })}</span>

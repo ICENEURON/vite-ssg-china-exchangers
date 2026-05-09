@@ -251,7 +251,7 @@ export function ImageCarouselGallery({
   return (
     <>
       <div className={cn('space-y-4', className)}>
-        <div className={cn('relative overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white shadow-sm dark:border-zinc-800 dark:bg-zinc-900', panelClassName)}>
+        <div className={cn('relative overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white shadow-sm', panelClassName)}>
           {isVideo ? (
             <div className={cn('relative block w-full overflow-hidden', aspectClassName)}>
               <iframe
@@ -312,10 +312,10 @@ export function ImageCarouselGallery({
                 key={`${image.src}-${imageIndex}`}
                 type="button"
                 className={cn(
-                  'group shrink-0 overflow-hidden rounded-2xl border bg-white transition-all dark:bg-zinc-900',
+                  'group shrink-0 overflow-hidden rounded-2xl border bg-white transition-all',
                   imageIndex === selectedIndex
                     ? 'border-primary ring-2 ring-primary/20'
-                    : 'border-slate-200 hover:border-slate-300 dark:border-zinc-800 dark:hover:border-zinc-700'
+                    : 'border-slate-200 hover:border-slate-300'
                 )}
                 onClick={() => setSelectedIndex(imageIndex)}
               >
@@ -380,7 +380,7 @@ export function ZoomableImageGrid({
             key={`${image.src}-${imageIndex}`}
             type="button"
             className={cn(
-              'group relative rounded-2xl border border-transparent bg-slate-50 p-6 text-left transition-all duration-300 hover:border-slate-200 hover:bg-white hover:shadow-lg dark:bg-zinc-950 dark:hover:border-zinc-700 dark:hover:bg-zinc-900',
+              'group relative rounded-2xl border border-transparent bg-slate-50 p-6 text-left transition-all duration-300 hover:border-slate-200 hover:bg-white hover:shadow-lg',
               itemClassName
             )}
             onClick={() => {
@@ -396,7 +396,7 @@ export function ZoomableImageGrid({
             <div className="mb-4 flex h-24 w-full items-center justify-center">
               <img src={image.src} alt={image.alt || altFallback} className={cn('max-h-full max-w-full object-contain', imageClassName)} />
             </div>
-            <span className={cn('block text-sm font-bold text-slate-500 transition-colors group-hover:text-slate-800 dark:group-hover:text-slate-200', labelClassName)}>
+            <span className={cn('block text-sm font-bold text-slate-500 transition-colors group-hover:text-slate-800', labelClassName)}>
               {image.alt || altFallback}
             </span>
           </button>

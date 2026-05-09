@@ -48,7 +48,7 @@ export default function LoginPage() {
           {/* Hero */}
           <section className="pt-12 pb-6 px-4">
             <div className="grid mx-auto max-w-5xl text-center gap-6">
-              <h1 className="gradient-text mb-4">{t("pages.login.hero.title")}</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">{t("pages.login.hero.title")}</h1>
               <h4 className="text-xl md:text-2xl text-foreground mb-2">
                 {t("pages.login.hero.subtitle")}
               </h4>

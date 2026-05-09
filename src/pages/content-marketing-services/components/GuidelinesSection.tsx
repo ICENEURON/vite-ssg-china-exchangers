@@ -43,7 +43,7 @@ export function GuidelinesSection() {
                                     <ul className="mt-3 space-y-3 text-sm text-foreground/90">
                                         {(t("accepted.requirements.items", { returnObjects: true }) as string[]).map((item, i) => (
                                             <li key={i} className="flex items-start gap-3">
-                                                <div className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2 shrink-0 shadow-[0_0_6px_rgba(16,185,129,0.4)]"></div>
+                                                <div className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2 shrink-0 shadow-success-glow"></div>
                                                 <span className="text-foreground">{item}</span>
                                             </li>
                                         ))}
@@ -55,7 +55,7 @@ export function GuidelinesSection() {
                                     <ul className="mt-3 space-y-3 text-sm text-foreground/90">
                                         {(t("accepted.topics.items", { returnObjects: true }) as string[]).map((item, i) => (
                                             <li key={i} className="flex items-start gap-3">
-                                                <div className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2 shrink-0 shadow-[0_0_6px_rgba(16,185,129,0.4)]"></div>
+                                                <div className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2 shrink-0 shadow-success-glow"></div>
                                                 <span className="text-foreground">{item}</span>
                                             </li>
                                         ))}

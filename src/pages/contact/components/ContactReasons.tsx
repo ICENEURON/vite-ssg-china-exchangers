@@ -31,10 +31,10 @@ export function ContactReasons() {
                     <Badge variant="secondary" className="bg-blue-200/80 text-accent border-blue-400/50 hover:bg-blue-200 p-2 text-sm text-center">
                         {t("pages.contact.reasons.badge")}
                     </Badge>
-                    <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-50 text-center">
+                    <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 text-center">
                         {t("pages.contact.reasons.title")}
                     </h2>
-                    <p className="text-lg text-slate-600 dark:text-slate-300 font-light text-center p-2">
+                    <p className="text-lg text-slate-600 font-light text-center p-2">
                         {t("pages.contact.reasons.description")}
                     </p>
                 </div>
@@ -43,14 +43,14 @@ export function ContactReasons() {
                     {reasonKeys.map((key) => {
                         const Icon = reasonIcons[key];
                         return (
-                            <Card key={key} className="group flex flex-col items-start justify-start p-6 gap-4 bg-slate-50 dark:bg-slate-900 border-slate-200 dark:border-slate-800 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 cursor-default text-left">
+                            <Card key={key} className="group flex flex-col items-start justify-start p-6 gap-4 bg-slate-50 border-slate-200 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 cursor-default text-left">
                                 <div className="w-12 h-12 p-2 rounded-xl bg-gradient-to-br from-primary/10 to-orange-500/10 flex items-center justify-center group-hover:from-primary/20 group-hover:to-orange-500/20 transition-colors duration-300">
                                     <Icon className="w-6 h-6 text-primary" />
                                 </div>
-                                <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50">
+                                <h3 className="text-lg font-semibold text-slate-900">
                                     {t(`pages.contact.reasons.items.${key}.title`)}
                                 </h3>
-                                <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm">
+                                <p className="text-slate-600 leading-relaxed text-sm">
                                     {t(`pages.contact.reasons.items.${key}.description`)}
                                 </p>
                             </Card>

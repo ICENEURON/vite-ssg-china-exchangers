@@ -45,12 +45,12 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
 
     if (isVerified) {
         return (
-            <div className="w-full max-w-2xl mx-auto bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 shadow-xl text-center">
+            <div className="w-full max-w-2xl mx-auto bg-white border border-slate-200 rounded-3xl p-8 shadow-xl text-center">
                  <div className="h-[250px] flex flex-col items-center justify-center animate-in zoom-in-95 duration-500">
-                    <div className="w-20 h-20 bg-emerald-100 dark:bg-emerald-900/50 rounded-full flex items-center justify-center mb-6">
+                    <div className="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mb-6">
                         <CheckCircle2 className="w-10 h-10 text-emerald-500" />
                     </div>
-                    <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50">{t("step3.verifiedTitle")}</h3>
+                    <h3 className="text-2xl font-bold text-slate-900">{t("step3.verifiedTitle")}</h3>
                     <p className="text-slate-500 mt-2">({email})</p>
                     <div className="mt-8">
                         <Button size="lg" className="h-14 text-base font-bold bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white rounded-xl shadow-lg shadow-primary/20 px-8" onClick={onNext}>
@@ -95,13 +95,13 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
     };
 
     return (
-        <div className="w-full max-w-2xl mx-auto bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 shadow-xl">
+        <div className="w-full max-w-2xl mx-auto bg-white border border-slate-200 rounded-3xl p-8 shadow-xl">
             <div className="text-center mb-10">
                 <div className="w-16 h-16 bg-gradient-to-br from-primary/10 to-orange-500/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
                     <Mail className="w-8 h-8 text-primary" />
                 </div>
-                <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-2">{t("step3.title")}</h2>
-                <p className="text-slate-500 dark:text-slate-400 text-sm max-w-md mx-auto">
+                <h2 className="text-2xl font-bold text-slate-900 mb-2">{t("step3.title")}</h2>
+                <p className="text-slate-500 text-sm max-w-md mx-auto">
                     {t("step3.verifySubtitle")}
                 </p>
             </div>
@@ -109,10 +109,10 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
             {step === "input" && (
                 <div className="space-y-6 animate-in fade-in slide-in-from-bottom-2">
                     <div className="space-y-2">
-                        <label className="text-sm font-semibold text-slate-700 dark:text-slate-300">{t("step3.emailLabel")}</label>
+                        <label className="text-sm font-semibold text-slate-700">{t("step3.emailLabel")}</label>
                         <input
                             type="email"
-                            className="flex h-14 w-full rounded-xl border-2 border-slate-200 dark:border-slate-700 bg-background px-4 py-2 text-lg ring-offset-background transition-all hover:border-primary/40 focus:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                            className="flex h-14 w-full rounded-xl border-2 border-slate-200 bg-background px-4 py-2 text-lg ring-offset-background transition-all hover:border-primary/40 focus:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
                             placeholder={t("step3.emailPlaceholder")}
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
@@ -120,7 +120,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                     </div>
 
                     {domainStatus === "free" && (
-                        <div className="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800/50 rounded-xl p-4 flex gap-3 text-amber-800 dark:text-amber-200">
+                        <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 flex gap-3 text-amber-800">
                             <AlertTriangle className="w-5 h-5 shrink-0 mt-0.5" />
                             <div className="text-sm leading-relaxed">
                                 <span className="font-bold">{t("step3.freeEmailTitle")}</span> {t("step3.freeEmailDesc")}
@@ -129,7 +129,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                     )}
 
                     {domainStatus === "business" && (
-                        <div className="bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800/50 rounded-xl p-4 flex gap-3 text-emerald-800 dark:text-emerald-200">
+                        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-4 flex gap-3 text-emerald-800">
                             <ShieldCheck className="w-5 h-5 shrink-0 mt-0.5" />
                             <div className="text-sm leading-relaxed">
                                 <span className="font-bold">{t("step3.businessEmailTitle")}</span> {t("step3.businessEmailDesc")}
@@ -156,19 +156,19 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
 
             {step === "otp" && (
                 <div className="space-y-6 animate-in slide-in-from-right-4">
-                    <div className="text-center p-4 bg-slate-50 dark:bg-slate-800 rounded-xl">
-                        <p className="text-sm text-slate-600 dark:text-slate-300 mb-1">{t("step3.codeSentTo")}</p>
-                        <p className="font-bold text-slate-900 dark:text-slate-50">{email}</p>
+                    <div className="text-center p-4 bg-slate-50 rounded-xl">
+                        <p className="text-sm text-slate-600 mb-1">{t("step3.codeSentTo")}</p>
+                        <p className="font-bold text-slate-900">{email}</p>
                     </div>
 
                     <div className="space-y-2">
-                        <label className="text-sm font-semibold text-slate-700 dark:text-slate-300">{t("step3.accessCodeLabel")}</label>
+                        <label className="text-sm font-semibold text-slate-700">{t("step3.accessCodeLabel")}</label>
                         <input
                             autoFocus
                             type="text"
                             inputMode="text"
                             autoComplete="one-time-code"
-                            className="flex h-16 w-full rounded-xl border-2 border-slate-200 dark:border-slate-700 bg-background px-4 py-2 text-3xl text-center font-mono ring-offset-background transition-all focus:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                            className="flex h-16 w-full rounded-xl border-2 border-slate-200 bg-background px-4 py-2 text-3xl text-center font-mono ring-offset-background transition-all focus:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
                             placeholder={t("step3.accessCodePlaceholder", { defaultValue: "Code" })}
                             value={otp}
                             onChange={(e) => setOtp(e.target.value)}
@@ -179,7 +179,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                         <Button
                             variant="outline"
                             size="lg"
-                            className="h-14 font-bold border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 rounded-xl px-6"
+                            className="h-14 font-bold border-slate-200 text-slate-600 rounded-xl px-6"
                             onClick={() => {
                                 setStep("input");
                                 setErrorMsg(null);
@@ -207,10 +207,10 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
 
             {step === "success" && (
                 <div className="h-[250px] flex flex-col items-center justify-center animate-in zoom-in-95 duration-500">
-                    <div className="w-20 h-20 bg-emerald-100 dark:bg-emerald-900/50 rounded-full flex items-center justify-center mb-6">
+                    <div className="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mb-6">
                         <CheckCircle2 className="w-10 h-10 text-emerald-500" />
                     </div>
-                    <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50">{t("step3.successTitle")}</h3>
+                    <h3 className="text-2xl font-bold text-slate-900">{t("step3.successTitle")}</h3>
                     <p className="text-slate-500 mt-2">{t("step3.successSubtitle")}</p>
                 </div>
             )}

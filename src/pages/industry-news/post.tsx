@@ -71,7 +71,7 @@ export default function BlogPost() {
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
                     {/* Main Content */}
                     <div className="lg:col-span-3 flex flex-col gap-6">
-                        <article className="prose prose-slate lg:prose-xl dark:prose-invert max-w-none flex flex-col gap-6">
+                        <article className="prose prose-slate lg:prose-xl max-w-none flex flex-col gap-6">
                             <div className="not-prose flex flex-col gap-4 border-b border-border pb-6">
                                 <div className="flex flex-col items-start gap-2 text-sm text-muted">
                                     <div className="flex items-center gap-2">
@@ -80,7 +80,7 @@ export default function BlogPost() {
                                             {new Date(post.date).toISOString().split('T')[0]}
                                         </time>
                                     </div>
-                                    <h1 className="text-2xl md:text-4xl font-extrabold tracking-tight text-slate-900 dark:text-slate-50 p-0 m-0 leading-tight">
+                                    <h1 className="text-2xl md:text-4xl font-extrabold tracking-tight text-slate-900 p-0 m-0 leading-tight">
                                         {post.title}
                                     </h1>
                                     <div className="flex flex-wrap gap-4 mt-2">
@@ -111,7 +111,7 @@ export default function BlogPost() {
                             )}
 
                             <div
-                                className="mt-4 text-slate-700 dark:text-slate-300"
+                                className="mt-4 text-slate-700"
                                 dangerouslySetInnerHTML={{ __html: post.content }}
                             />
                         </article>
@@ -133,7 +133,7 @@ export default function BlogPost() {
                                                 to={rPost.permalink}
                                                 className="group flex flex-col gap-1 py-2 border-b border-slate-100 last:border-0 transition-all"
                                             >
-                                                <span className="text-[10px] text-slate-400 dark:text-slate-500 font-medium">
+                                                <span className="text-[10px] text-slate-400 font-medium">
                                                     {new Date(rPost.date).toISOString().split('T')[0]}
                                                 </span>
                                                 <p className="text-[12px] font-semibold text-slate-800 leading-normal group-hover:text-primary transition-colors">
@@ -155,7 +155,7 @@ export default function BlogPost() {
             <div className="fixed bottom-8 right-4 z-50 flex max-w-[calc(100vw-2rem)] flex-col items-end gap-3 sm:right-8 sm:max-w-none">
                 <Link
                     to={backLink}
-                    className="flex max-w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-4 font-bold text-slate-800 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.3)] dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:text-blue-400 sm:px-6 group"
+                    className="flex max-w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-4 font-bold text-slate-800 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float sm:px-6 group"
                 >
                     <ArrowLeft className="h-5 w-5 shrink-0 transition-transform group-hover:-translate-x-1" />
                     <span className="truncate">{t("pages.news.blog.back_to_list")}</span>

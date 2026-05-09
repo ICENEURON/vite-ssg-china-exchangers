@@ -12,7 +12,7 @@ export function CTASection() {
             <div className="container px-4 mx-auto max-w-4xl text-center">
                 <div className="group relative overflow-hidden rounded-[2.5rem] bg-zinc-950 px-8 py-20 text-center shadow-2xl">
                     {/* Animated background gradient */}
-                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,#3b82f640,transparent_70%)] opacity-40 group-hover:opacity-60 transition-opacity duration-1000" />
+                    <div className="absolute inset-0 bg-primary-radial-glow opacity-40 group-hover:opacity-60 transition-opacity duration-1000" />
 
                     {/* Decorative Elements */}
                     <div className="absolute top-0 right-0 p-12 opacity-5 rotate-12 pointer-events-none">

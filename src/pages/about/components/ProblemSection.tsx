@@ -5,7 +5,7 @@ export function ProblemSection() {
     const { t } = useTranslation("translation");
 
     return (
-        <section className="py-10 px-2 flex justify-center bg-[linear-gradient(to_bottom,transparent,white_10%,white_90%,transparent)] dark:bg-[linear-gradient(to_bottom,transparent,theme(colors.slate.900)_10%,theme(colors.slate.900)_90%,transparent)] relative">
+        <section className="py-10 px-2 flex justify-center bg-section-fade relative">
             <div className="container px-4 max-w-6xl flex flex-col items-center justify-center gap-4 text-center">
                 <div className="grid lg:grid-cols-2 gap-4 w-full justify-items-center">
                     <div className="flex flex-col items-center justify-center p-4 gap-4 w-full lg:order-2">

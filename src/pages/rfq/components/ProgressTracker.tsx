@@ -20,18 +20,18 @@ export function ProgressTracker({ currentStep }: { currentStep: number }) {
                             `}>
                                 <div className={`
                                     w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold
-                                    ${isCompleted || isCurrent ? 'bg-primary text-primary-foreground' : 'bg-slate-200 dark:bg-slate-800 text-slate-500'}
+                                    ${isCompleted || isCurrent ? 'bg-primary text-primary-foreground' : 'bg-slate-200 text-slate-500'}
                                 `}>
                                     {stepNumber}
                                 </div>
-                                <span className={`text-sm font-semibold hidden md:block ${isCurrent ? 'text-primary' : 'text-slate-600 dark:text-slate-400'}`}>
+                                <span className={`text-sm font-semibold hidden md:block ${isCurrent ? 'text-primary' : 'text-slate-600'}`}>
                                     {label}
                                 </span>
                             </div>
 
                             {/* Separator between items */}
                             {index < steps.length - 1 && (
-                                <div className="mx-3 lg:mx-6 w-8 lg:w-16 h-px bg-slate-200 dark:bg-slate-800" />
+                                <div className="mx-3 lg:mx-6 w-8 lg:w-16 h-px bg-slate-200" />
                             )}
                         </div>
                     )

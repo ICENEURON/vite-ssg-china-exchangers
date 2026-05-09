@@ -40,9 +40,9 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceMan
     const renderSummaryItem = (label: string, value: string) => {
         if (!value) return null;
         return (
-            <div className="flex justify-between items-center py-2.5 border-b border-slate-100 dark:border-slate-800/50 last:border-0">
+            <div className="flex justify-between items-center py-2.5 border-b border-slate-100 last:border-0">
                 <span className="text-slate-500 text-sm font-medium">{label}</span>
-                <span className="text-slate-900 dark:text-slate-100 text-sm font-bold text-right max-w-[60%]">{value}</span>
+                <span className="text-slate-900 text-sm font-bold text-right max-w-[60%]">{value}</span>
             </div>
         )
     }
@@ -102,22 +102,22 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceMan
 
     return (
         <div className="max-w-3xl mx-auto space-y-8 animate-in fade-in slide-in-from-bottom-4">
-            <div className="text-center rounded-2xl bg-green-50 dark:bg-green-900/10 border border-green-200 dark:border-green-800 p-6 flex flex-col items-center">
-                <div className="w-12 h-12 bg-green-100 dark:bg-green-800 rounded-full flex items-center justify-center mb-4">
-                    <Check className="w-6 h-6 text-green-600 dark:text-green-400" />
+            <div className="text-center rounded-2xl bg-green-50 border border-green-200 p-6 flex flex-col items-center">
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                    <Check className="w-6 h-6 text-green-600" />
                 </div>
-                <h3 className="text-xl font-bold text-green-800 dark:text-green-300">{t("step4.emailVerifiedTitle")}</h3>
-                <p className="text-sm text-green-600 dark:text-green-400 mt-2">({email})</p>
+                <h3 className="text-xl font-bold text-green-800">{t("step4.emailVerifiedTitle")}</h3>
+                <p className="text-sm text-green-600 mt-2">({email})</p>
             </div>
 
             {/* Privacy Setting */}
-            <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 shadow-sm flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+            <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
                 <div className="flex items-start gap-4">
-                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-colors duration-300 ${isAnonymous ? 'bg-primary/10 dark:bg-primary/20' : 'bg-slate-100 dark:bg-slate-800'}`}>
+                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-colors duration-300 ${isAnonymous ? 'bg-primary/10' : 'bg-slate-100'}`}>
                         {isAnonymous ? <ShieldCheck className="w-6 h-6 text-primary" /> : <User className="w-6 h-6 text-slate-400" />}
                     </div>
                     <div>
-                        <div className="font-bold text-slate-900 dark:text-slate-50">
+                        <div className="font-bold text-slate-900">
                             {isAnonymous ? t("step4.anonymousMode") : t("step4.publicMode")}
                         </div>
                         <div className="text-sm text-slate-500 mt-0.5 max-w-sm">
@@ -132,7 +132,7 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceMan
                     onClick={onToggleAnonymous}
                     className={`
                         relative inline-flex h-8 w-14 shrink-0 cursor-pointer self-end rounded-full border-2 border-transparent transition-colors duration-300 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 sm:self-auto
-                        ${isAnonymous ? 'bg-primary' : 'bg-slate-300 dark:bg-slate-700'}
+                        ${isAnonymous ? 'bg-primary' : 'bg-slate-300'}
                     `}
                 >
                     <span
@@ -145,14 +145,14 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceMan
             </div>
 
             {sourceManufacturerName && (
-                <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 shadow-sm flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+                <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
                     <div className="flex items-start gap-4">
-                        <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-colors duration-300 ${isTargetingSourceManufacturer ? 'bg-emerald-100 dark:bg-emerald-900/30' : 'bg-slate-100 dark:bg-slate-800'}`}>
-                            <Send className={`w-6 h-6 ${isTargetingSourceManufacturer ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-400'}`} />
+                        <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-colors duration-300 ${isTargetingSourceManufacturer ? 'bg-emerald-100' : 'bg-slate-100'}`}>
+                            <Send className={`w-6 h-6 ${isTargetingSourceManufacturer ? 'text-emerald-600' : 'text-slate-400'}`} />
                         </div>
                         <div>
-                            <div className="font-bold text-slate-900 dark:text-slate-50">
-                                {t("step4.sourceManufacturerTargetTitle")} <span className="text-blue-600 dark:text-blue-400">{sourceManufacturerName}</span>
+                            <div className="font-bold text-slate-900">
+                                {t("step4.sourceManufacturerTargetTitle")} <span className="text-blue-600">{sourceManufacturerName}</span>
                             </div>
                             <div className="text-sm text-slate-500 mt-0.5 max-w-sm">
                                 {isTargetingSourceManufacturer
@@ -168,7 +168,7 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceMan
                         onClick={onToggleTargetingSourceManufacturer}
                         className={`
                             relative inline-flex h-8 w-14 shrink-0 cursor-pointer self-end rounded-full border-2 border-transparent transition-colors duration-300 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2 sm:self-auto
-                            ${isTargetingSourceManufacturer ? 'bg-emerald-500' : 'bg-slate-300 dark:bg-slate-700'}
+                            ${isTargetingSourceManufacturer ? 'bg-emerald-500' : 'bg-slate-300'}
                         `}
                     >
                         <span
@@ -182,12 +182,12 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceMan
             )}
 
             {/* Review Summary */}
-            <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 shadow-sm space-y-8 mt-8">
+            <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-8 mt-8">
 
                 {/* Context Section */}
                 <div>
-                    <div className="flex items-center justify-between mb-4 pb-2 border-b border-slate-200 dark:border-slate-800">
-                        <h5 className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest">{t("step4.projectContextTitle")}</h5>
+                    <div className="flex items-center justify-between mb-4 pb-2 border-b border-slate-200">
+                        <h5 className="text-sm font-bold text-slate-900 uppercase tracking-widest">{t("step4.projectContextTitle")}</h5>
                         <button onClick={() => onEditStep(1)} className="text-primary hover:text-primary/80 flex items-center text-xs font-bold transition-colors">
                             <Edit2 className="w-3.5 h-3.5 mr-1.5" /> {t("step4.editBtn")}
                         </button>
@@ -200,15 +200,15 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceMan
 
                 {/* Specs Section */}
                 <div>
-                    <div className="flex items-center justify-between mb-4 pb-2 border-b border-slate-200 dark:border-slate-800">
-                        <h5 className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest">{t("step4.productSpecsTitle")}</h5>
+                    <div className="flex items-center justify-between mb-4 pb-2 border-b border-slate-200">
+                        <h5 className="text-sm font-bold text-slate-900 uppercase tracking-widest">{t("step4.productSpecsTitle")}</h5>
                         <button onClick={() => onEditStep(2)} className="text-primary hover:text-primary/80 flex items-center text-xs font-bold transition-colors">
                             <Edit2 className="w-3.5 h-3.5 mr-1.5" /> {t("step4.editBtn")}
                         </button>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
-                        {renderSideSummary(t("step4.summaryHotSide"), "bg-rose-50 dark:bg-rose-900/10 text-rose-500", {
+                        {renderSideSummary(t("step4.summaryHotSide"), "bg-rose-50 text-rose-500", {
                             mediaName: specs.hotMediaName,
                             inletFluidType: specs.hotInletFluidType,
                             outletFluidType: specs.hotOutletFluidType,
@@ -232,7 +232,7 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceMan
                             flangeStandard: formatOptionValue(flangeStandards, specs.hotFlangeStandard, specs.customHotFlangeStandard),
                         })}
 
-                        {renderSideSummary(t("step4.summaryColdSide"), "bg-blue-50 dark:bg-blue-900/10 text-blue-500", {
+                        {renderSideSummary(t("step4.summaryColdSide"), "bg-blue-50 text-blue-500", {
                             mediaName: specs.coldMediaName,
                             inletFluidType: specs.coldInletFluidType,
                             outletFluidType: specs.coldOutletFluidType,
@@ -256,7 +256,7 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceMan
                             flangeStandard: formatOptionValue(flangeStandards, specs.coldFlangeStandard, specs.customColdFlangeStandard),
                         })}
 
-                        <div className="bg-slate-50 dark:bg-slate-800/50 p-4 rounded-xl md:col-span-2">
+                        <div className="bg-slate-50 p-4 rounded-xl md:col-span-2">
                             <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">{t("step4.summaryGeneralReq")}</div>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <div>
@@ -266,9 +266,9 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceMan
                                     {renderSummaryItem(t("step4.summaryHeatLoad"), specs.heatLoad ? `${specs.heatLoad} kW` : "")}
                                 </div>
                                 {specs.additionalNotes && (
-                                    <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg p-3">
+                                    <div className="bg-white border border-slate-200 rounded-lg p-3">
                                         <div className="text-xs font-bold text-slate-500 mb-1">{t("step4.summaryNotes")}</div>
-                                        <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed break-words">{specs.additionalNotes}</p>
+                                        <p className="text-sm text-slate-700 leading-relaxed break-words">{specs.additionalNotes}</p>
                                     </div>
                                 )}
                             </div>

@@ -183,7 +183,7 @@ export default function ProductsPage() {
                 {/* Hero Section */}
                 <section className="relative overflow-hidden bg-slate-900 py-[61.67px] px-6 md:px-12">
                     {/* Decorative Elements */}
-                    <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-900/40 via-slate-900 to-slate-900" />
+                    <div className="absolute top-0 left-0 w-full h-full bg-product-hero-radial" />
                     <div className="relative max-w-6xl mx-auto z-10 flex flex-col items-center text-center">
                         <Badge className="mb-6 bg-primary/20 text-blue-300 border-none px-4 py-1.5 backdrop-blur-md">
                             {productsT.t("hero.badge")}
@@ -219,7 +219,7 @@ export default function ProductsPage() {
                                             <div className="p-2.5 max-h-[340px] overflow-y-auto custom-scrollbar">
                                                 <button
                                                     onClick={() => setSelectedManufacturerSlugs([])}
-                                                    className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-lg transition-all group ${selectedManufacturerSlugs.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04] dark:hover:bg-white/[0.06]'
+                                                    className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-lg transition-all group ${selectedManufacturerSlugs.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04]'
                                                         }`}
                                                 >
                                                     <span className="font-bold">{productsT.t("filter_all_manufacturers")}</span>
@@ -235,7 +235,7 @@ export default function ProductsPage() {
                                                                 onClick={() => toggleManufacturer(manufacturer.slug)}
                                                                 className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-lg transition-all group ${isSelected
                                                                     ? 'bg-primary/[0.06] text-primary font-semibold'
-                                                                    : 'text-foreground hover:bg-zinc-950/[0.04] dark:hover:bg-white/[0.06]'
+                                                                    : 'text-foreground hover:bg-zinc-950/[0.04]'
                                                                     }`}
                                                             >
                                                                 <span className="text-left leading-tight pr-2">{manufacturer.name}</span>
@@ -265,7 +265,7 @@ export default function ProductsPage() {
                                             <div className="p-2.5 max-h-[340px] overflow-y-auto custom-scrollbar">
                                                 <button
                                                     onClick={() => setSelectedIndustrySlugs([])}
-                                                    className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-lg transition-all group ${selectedIndustrySlugs.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04] dark:hover:bg-white/[0.06]'
+                                                    className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-lg transition-all group ${selectedIndustrySlugs.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04]'
                                                         }`}
                                                 >
                                                     <span className="font-bold">{productsT.t("filter_all")}</span>
@@ -281,7 +281,7 @@ export default function ProductsPage() {
                                                                 onClick={() => toggleIndustry(industry.slug)}
                                                                 className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-lg transition-all group ${isSelected
                                                                     ? 'bg-primary/[0.06] text-primary font-semibold'
-                                                                    : 'text-foreground hover:bg-zinc-950/[0.04] dark:hover:bg-white/[0.06]'
+                                                                    : 'text-foreground hover:bg-zinc-950/[0.04]'
                                                                     }`}
                                                             >
                                                                 <span>{industry.name}</span>
@@ -369,7 +369,7 @@ export default function ProductsPage() {
                                                 {product.name}
                                             </h3>
                                         </div>
-                                        <p className="mt-3 text-sm leading-6 text-zinc-700 dark:text-zinc-300">
+                                        <p className="mt-3 text-sm leading-6 text-zinc-700">
                                             {product.short_description}
                                         </p>
 

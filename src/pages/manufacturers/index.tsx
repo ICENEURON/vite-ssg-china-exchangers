@@ -260,20 +260,20 @@ export default function ManufacturersPage() {
           <div className="container mx-auto px-4 md:px-8 max-w-6xl">
 
             <div className="mb-8">
-              <div className="mb-5 rounded-lg border border-slate-200 bg-slate-50/70 px-4 py-3 dark:border-zinc-800 dark:bg-zinc-900/50">
+              <div className="mb-5 rounded-lg border border-slate-200 bg-slate-50/70 px-4 py-3">
                 <div className="flex items-start gap-3">
-                  <div className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-950/50 dark:text-blue-300">
+                  <div className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600">
                     <Info className="h-4 w-4" />
                   </div>
                   <div className="min-w-0 flex-1">
-                    <p className="text-sm font-medium leading-6 text-slate-700 dark:text-slate-200">
+                    <p className="text-sm font-medium leading-6 text-slate-700">
                       {manufacturersT.t("scoring_note.description")}
                     </p>
                     <div className="mt-2 flex flex-wrap gap-1.5">
                       {scoreDimensions.map((dimension) => (
                         <span
                           key={dimension}
-                          className="inline-flex items-center rounded-md border border-slate-200 bg-white px-2 py-1 text-[11px] font-semibold leading-none text-slate-600 dark:border-zinc-700 dark:bg-zinc-950 dark:text-zinc-300"
+                          className="inline-flex items-center rounded-md border border-slate-200 bg-white px-2 py-1 text-[11px] font-semibold leading-none text-slate-600"
                         >
                           {dimension}
                         </span>
@@ -302,7 +302,7 @@ export default function ManufacturersPage() {
                       <div className="p-2.5 max-h-[340px] overflow-y-auto custom-scrollbar">
                         <button
                           onClick={() => setSelectedIndustrySlugs([])}
-                          className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-lg transition-all group ${selectedIndustrySlugs.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04] dark:hover:bg-white/[0.06]'
+                          className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-lg transition-all group ${selectedIndustrySlugs.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04]'
                             }`}
                         >
                           <span className="font-bold">{manufacturersT.t("filter_all_industries")}</span>
@@ -318,7 +318,7 @@ export default function ManufacturersPage() {
                                 onClick={() => toggleIndustry(industry.slug)}
                                 className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-lg transition-all group ${isSelected
                                   ? 'bg-primary/[0.06] text-primary font-semibold'
-                                  : 'text-foreground hover:bg-zinc-950/[0.04] dark:hover:bg-white/[0.06]'
+                                  : 'text-foreground hover:bg-zinc-950/[0.04]'
                                   }`}
                               >
                                 <span>{industry.name}</span>
@@ -348,7 +348,7 @@ export default function ManufacturersPage() {
                       <div className="p-2.5 max-h-[280px] overflow-y-auto custom-scrollbar">
                         <button
                           onClick={() => setSelectedCities([])}
-                          className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-lg transition-all group ${selectedCities.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04] dark:hover:bg-white/[0.06]'
+                          className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-lg transition-all group ${selectedCities.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04]'
                             }`}
                         >
                           <span className="font-bold">{manufacturersT.t("filter_all_cities")}</span>
@@ -364,7 +364,7 @@ export default function ManufacturersPage() {
                                 onClick={() => toggleCity(city)}
                                 className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-lg transition-all group ${isSelected
                                   ? 'bg-primary/[0.06] text-primary font-semibold'
-                                  : 'text-foreground hover:bg-zinc-950/[0.04] dark:hover:bg-white/[0.06]'
+                                  : 'text-foreground hover:bg-zinc-950/[0.04]'
                                   }`}
                               >
                                 <span>{city}</span>
@@ -387,7 +387,7 @@ export default function ManufacturersPage() {
                     >
                       <ArrowUpDown className="h-4 w-4 text-primary" />
                       <span>{manufacturersT.t("sort_by")}</span>
-                      <span className="text-zinc-600 dark:text-zinc-300">{selectedSortLabel}</span>
+                      <span className="text-zinc-600">{selectedSortLabel}</span>
                       <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${open ? 'rotate-180' : ''}`} />
                     </button>
                   )}
@@ -405,7 +405,7 @@ export default function ManufacturersPage() {
                                 }}
                                 className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-lg transition-all group ${isSelected
                                   ? 'bg-primary/[0.06] text-primary font-semibold'
-                                  : 'text-foreground hover:bg-zinc-950/[0.04] dark:hover:bg-white/[0.06]'
+                                  : 'text-foreground hover:bg-zinc-950/[0.04]'
                                   }`}
                               >
                                 <span>{manufacturersT.t(`sort_options.${option}`)}</span>

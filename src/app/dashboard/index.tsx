@@ -20,7 +20,7 @@ export default function DashboardPage() {
       <div className="space-y-8">
         {/* Welcome Section */}
         <div className="text-center">
-          <h1 className="text-4xl md:text-5xl font-bold gradient-text mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
             {t('pages.dashboard.welcome.title')}
           </h1>
           <p className="text-lg text-muted-foreground mb-2">

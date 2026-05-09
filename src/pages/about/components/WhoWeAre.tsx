@@ -47,7 +47,7 @@ export function WhoWeAre() {
                         {t("pages.about.who_we_are.title")}
                     </h1>
 
-                    <div className="prose prose-xl prose-slate dark:prose-invert max-w-4xl text-foreground leading-relaxed font-light p-2">
+                    <div className="prose prose-xl prose-slate max-w-4xl text-foreground leading-relaxed font-light p-2">
                         <p>{t("pages.about.who_we_are.description")}</p>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ export function WhoWeAre() {
                     </div>
 
                     <div className="flex flex-col items-center justify-center relative w-full p-4">
-                        <div className="relative z-10 bg-white dark:bg-slate-900 p-6 shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] rounded-2xl border border-slate-100 dark:border-slate-800 flex flex-col items-center justify-center gap-4 text-center w-full">
+                        <div className="relative z-10 bg-white p-6 shadow-soft-blue rounded-2xl border border-slate-100 flex flex-col items-center justify-center gap-4 text-center w-full">
                             <div className="absolute -top-5 -right-5 w-16 h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-lg shadow-lg rotate-12">
                                 {t("pages.about.who_we_are.transparency.metric")}
                             </div>
@@ -114,21 +114,21 @@ export function WhoWeAre() {
                                 <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary">
                                     <CheckCircle2 className="w-7 h-7" />
                                 </div>
-                                <h3 className="text-2xl font-bold text-slate-900 dark:text-white mt-2">
+                                <h3 className="text-2xl font-bold text-slate-900 mt-2">
                                     {t("pages.about.who_we_are.transparency.subtitle")}
                                 </h3>
                             </div>
 
-                            <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed p-2">
+                            <p className="text-lg text-slate-600 leading-relaxed p-2">
                                 {t("pages.about.who_we_are.transparency.desc")}
                             </p>
 
-                            <div className="p-4 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-100 dark:border-slate-800 flex items-center justify-center gap-4 w-full">
+                            <div className="p-4 bg-slate-50 rounded-xl border border-slate-100 flex items-center justify-center gap-4 w-full">
                                 <span className="flex h-2.5 w-2.5 relative">
                                     <span className="absolute inline-flex h-full w-full rounded-full bg-green-400"></span>
                                     <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
                                 </span>
-                                <span className="text-sm font-semibold text-slate-700 dark:text-slate-300">
+                                <span className="text-sm font-semibold text-slate-700">
                                     {t("pages.about.who_we_are.transparency.policy_label")}
                                 </span>
                             </div>

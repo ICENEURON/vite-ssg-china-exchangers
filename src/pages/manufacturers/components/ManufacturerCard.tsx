@@ -29,25 +29,25 @@ export function ManufacturerCard({ company }: { company: ManufacturerProps }) {
             label: t("metrics.profile"),
             value: company.ranking.overallScore,
             icon: Gauge,
-            className: "border-slate-200 bg-slate-50 dark:border-slate-700 dark:bg-slate-900/40",
+            className: "border-slate-200 bg-slate-50",
         },
         {
             label: t("metrics.response"),
             value: responseLabel,
             icon: Clock3,
-            className: "border-blue-500/20 bg-blue-50 dark:bg-blue-500/10",
+            className: "border-blue-500/20 bg-blue-50",
         },
         {
             label: t("metrics.products"),
             value: company.ranking.productCount,
             icon: PackageSearch,
-            className: "border-amber-500/25 bg-amber-50 dark:bg-amber-500/10",
+            className: "border-amber-500/25 bg-amber-50",
         },
         {
             label: t("metrics.articles"),
             value: company.ranking.publishedArticleCount,
             icon: FileText,
-            className: "border-teal-500/25 bg-teal-50 dark:bg-teal-500/10",
+            className: "border-teal-500/25 bg-teal-50",
         },
     ];
 
@@ -67,21 +67,21 @@ export function ManufacturerCard({ company }: { company: ManufacturerProps }) {
             </div>
 
             <div className="mt-3 min-w-0">
-                <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-zinc-700 dark:text-zinc-300">
+                <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-zinc-700">
                     <div className="flex items-center gap-1.5 min-w-0">
                         <MapPin className="w-4 h-4" />
                         <span className="truncate">{company.location}</span>
                     </div>
                 </div>
 
-                <p className="mt-3 text-sm leading-6 text-zinc-700 dark:text-zinc-300">
+                <p className="mt-3 text-sm leading-6 text-zinc-700">
                     {company.description}
                 </p>
 
                 <div className="mt-4 grid grid-cols-2 gap-2 md:hidden">
                     {metrics.map((metric) => (
                         <div key={metric.label} className={`rounded-md border px-3 py-2 ${metric.className}`}>
-                            <div className="text-[11px] font-semibold text-zinc-600 dark:text-zinc-300">{metric.label}</div>
+                            <div className="text-[11px] font-semibold text-zinc-600">{metric.label}</div>
                             <div className="mt-1 text-base font-extrabold leading-tight text-foreground">{metric.value}</div>
                         </div>
                     ))}
@@ -97,9 +97,9 @@ export function ManufacturerCard({ company }: { company: ManufacturerProps }) {
                                 className={`group/metric relative flex min-h-12 items-center justify-center gap-1.5 rounded-md border px-2 py-2 ${metric.className}`}
                                 aria-label={`${metric.label}: ${metric.value}`}
                             >
-                                <MetricIcon className="h-3.5 w-3.5 shrink-0 text-zinc-600 dark:text-zinc-300" />
+                                <MetricIcon className="h-3.5 w-3.5 shrink-0 text-zinc-600" />
                                 <span className="text-xs font-semibold leading-none text-foreground">{metric.value}</span>
-                                <span className="pointer-events-none absolute bottom-full left-1/2 z-20 mb-2 w-max max-w-44 -translate-x-1/2 rounded-md bg-zinc-950 px-2.5 py-1.5 text-center text-xs font-semibold leading-tight text-white opacity-0 shadow-lg transition-opacity group-hover/metric:opacity-100 dark:bg-white dark:text-zinc-950">
+                                <span className="pointer-events-none absolute bottom-full left-1/2 z-20 mb-2 w-max max-w-44 -translate-x-1/2 rounded-md bg-zinc-950 px-2.5 py-1.5 text-center text-xs font-semibold leading-tight text-white opacity-0 shadow-lg transition-opacity group-hover/metric:opacity-100">
                                     {metric.label}
                                 </span>
                             </div>

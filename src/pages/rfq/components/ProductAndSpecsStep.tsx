@@ -83,9 +83,9 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
 
     const isGasLiquid = (fluidType: string) => fluidType === "gas_liquid";
 
-    const inputClass = "flex h-11 w-full rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+    const inputClass = "flex h-11 w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
     const selectClass = `${inputClass} pr-10`
-    const sideLabelClass = "text-xs font-semibold text-slate-700 dark:text-slate-300 leading-none mb-2 block uppercase tracking-wider"
+    const sideLabelClass = "text-xs font-semibold text-slate-700 leading-none mb-2 block uppercase tracking-wider"
 
     const renderSideThermalSection = ({
         side,
@@ -442,9 +442,9 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
     return (
         <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4">
 
-            <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 md:p-10 shadow-sm">
+            <div className="bg-white border border-slate-200 rounded-3xl p-6 md:p-10 shadow-sm">
                 <div className="mb-8">
-                    <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50">{t("step2.thermalSpecsTitle")}</h3>
+                    <h3 className="text-xl font-bold text-slate-900">{t("step2.thermalSpecsTitle")}</h3>
                     <p className="text-sm text-slate-500 mt-1">{t("step2.thermalSpecsSubtitle")}</p>
                 </div>
 
@@ -452,25 +452,25 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                     {renderSideThermalSection({
                         side: "hot",
                         title: t("step2.hotSide"),
-                        accentClass: "text-rose-600 dark:text-rose-400",
-                        borderClass: "border-rose-100 dark:border-rose-900/30",
+                        accentClass: "text-rose-600",
+                        borderClass: "border-rose-100",
                         mediaPlaceholder: t("step2.hotMediaPlaceholder"),
                     })}
                     {renderSideThermalSection({
                         side: "cold",
                         title: t("step2.coldSide"),
-                        accentClass: "text-blue-600 dark:text-blue-400",
-                        borderClass: "border-blue-100 dark:border-blue-900/30",
+                        accentClass: "text-blue-600",
+                        borderClass: "border-blue-100",
                         mediaPlaceholder: t("step2.coldMediaPlaceholder"),
                     })}
                 </div>
 
-                <div className="mt-8 border-t border-slate-100 dark:border-slate-800/50 pt-8">
-                    <label className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest mb-3 block">{t("step2.heatLoadLabel")} <span className="text-red-500">*</span></label>
+                <div className="mt-8 border-t border-slate-100 pt-8">
+                    <label className="text-sm font-bold text-slate-900 uppercase tracking-widest mb-3 block">{t("step2.heatLoadLabel")} <span className="text-red-500">*</span></label>
                     <input
                         type="number"
                         step="any"
-                        className="flex h-11 w-full rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                        className="flex h-11 w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
                         value={data.heatLoad}
                         placeholder={t("step2.heatLoadPlaceholder")}
                         onChange={(e) => updateField("heatLoad", e.target.value)}
@@ -478,31 +478,31 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                 </div>
             </div>
 
-            <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 md:p-10 shadow-sm">
+            <div className="bg-white border border-slate-200 rounded-3xl p-6 md:p-10 shadow-sm">
                 <div className="mb-8">
-                    <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50">{t("step2.equipmentParamsTitle")}</h3>
+                    <h3 className="text-xl font-bold text-slate-900">{t("step2.equipmentParamsTitle")}</h3>
                     <p className="text-sm text-slate-500 mt-1">{t("step2.equipmentParamsSubtitle")}</p>
                 </div>
 
                 <div className="space-y-8">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
-                            <label className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest mb-3 block">{t("step2.designPressureLabel")}</label>
+                            <label className="text-sm font-bold text-slate-900 uppercase tracking-widest mb-3 block">{t("step2.designPressureLabel")}</label>
                             <input
                                 type="number"
                                 step="any"
-                                className="flex h-11 w-full rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                                className="flex h-11 w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
                                 value={data.designPressure}
                                 placeholder="0.0"
                                 onChange={(e) => updateField("designPressure", e.target.value)}
                             />
                         </div>
                         <div>
-                            <label className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest mb-3 block">{t("step2.testPressureLabel")}</label>
+                            <label className="text-sm font-bold text-slate-900 uppercase tracking-widest mb-3 block">{t("step2.testPressureLabel")}</label>
                             <input
                                 type="number"
                                 step="any"
-                                className="flex h-11 w-full rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                                className="flex h-11 w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
                                 value={data.testPressure}
                                 placeholder="0.0"
                                 onChange={(e) => updateField("testPressure", e.target.value)}
@@ -511,7 +511,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                     </div>
 
                     <div>
-                        <label className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest mb-4 block">{t("step2.plateMaterialLabel")} <span className="text-red-500">*</span></label>
+                        <label className="text-sm font-bold text-slate-900 uppercase tracking-widest mb-4 block">{t("step2.plateMaterialLabel")} <span className="text-red-500">*</span></label>
                         <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-3">
                             {plateMaterials.map((option) => {
                                 const isSelected = data.plateMaterial === option.id;
@@ -524,7 +524,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                                             relative flex items-center justify-center p-4 rounded-xl border transition-all duration-300 text-center
                                             ${isSelected
                                                 ? 'border-primary bg-primary/10 shadow-sm ring-1 ring-primary/50'
-                                                : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 hover:border-primary/40'
+                                                : 'border-slate-200 bg-white hover:border-primary/40'
                                             }
                                         `}
                                     >
@@ -533,7 +533,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                                                 <Check className="w-3.5 h-3.5" />
                                             </div>
                                         )}
-                                        <span className={`text-sm font-semibold ${isSelected ? 'text-primary' : 'text-slate-700 dark:text-slate-300'}`}>
+                                        <span className={`text-sm font-semibold ${isSelected ? 'text-primary' : 'text-slate-700'}`}>
                                             {option.label}
                                         </span>
                                     </button>
@@ -548,32 +548,32 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                                     placeholder={t("step2.customPlateMaterialPlaceholder")}
                                     value={data.customPlateMaterial || ""}
                                     onChange={(e) => updateField("customPlateMaterial", e.target.value)}
-                                    className="flex h-12 w-full rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                                    className="flex h-12 w-full rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
                                 />
                             </div>
                         )}
                     </div>
 
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 border-t border-slate-100 dark:border-slate-800/50 pt-8">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 border-t border-slate-100 pt-8">
                         {renderSideEquipmentSection({
                             side: "hot",
                             title: t("step2.hotSide"),
-                            accentClass: "text-rose-600 dark:text-rose-400",
-                            borderClass: "border-rose-100 dark:border-rose-900/30",
+                            accentClass: "text-rose-600",
+                            borderClass: "border-rose-100",
                         })}
                         {renderSideEquipmentSection({
                             side: "cold",
                             title: t("step2.coldSide"),
-                            accentClass: "text-blue-600 dark:text-blue-400",
-                            borderClass: "border-blue-100 dark:border-blue-900/30",
+                            accentClass: "text-blue-600",
+                            borderClass: "border-blue-100",
                         })}
                     </div>
 
-                    <div className="border-t border-slate-100 dark:border-slate-800/50 pt-8">
-                        <label className="text-sm font-bold text-slate-900 dark:text-slate-50 uppercase tracking-widest mb-3 block">{t("step2.additionalNotesLabel")}</label>
+                    <div className="border-t border-slate-100 pt-8">
+                        <label className="text-sm font-bold text-slate-900 uppercase tracking-widest mb-3 block">{t("step2.additionalNotesLabel")}</label>
                         <div className="relative">
                             <textarea
-                                className="flex w-full min-h-[120px] rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 px-4 py-3 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10 resize-y"
+                                className="flex w-full min-h-[120px] rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10 resize-y"
                                 placeholder={t("step2.additionalNotesPlaceholder")}
                                 value={data.additionalNotes || ""}
                                 onChange={handleNotesChange}

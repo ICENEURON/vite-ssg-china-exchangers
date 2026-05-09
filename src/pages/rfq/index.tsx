@@ -265,11 +265,11 @@ export default function SmartRfqBuilder() {
         <meta name="description" content={t("description")} />
       </Head>
 
-      <main className="min-h-[80vh] bg-slate-50 dark:bg-slate-950 text-foreground pb-24">
+      <main className="min-h-[80vh] bg-slate-50 text-foreground pb-24">
         {/* Top Navigation Bar */}
-        <div className="sticky top-0 z-40 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+        <div className="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-200">
           <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-            <span className="font-bold text-lg text-slate-900 dark:text-slate-50">{t("navbarTitle")}</span>
+            <span className="font-bold text-lg text-slate-900">{t("navbarTitle")}</span>
           </div>
         </div>
 
@@ -281,7 +281,7 @@ export default function SmartRfqBuilder() {
             {step === 1 && (
               <section>
                 <div className="mb-6">
-                  <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">{t("step1.title")}</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-slate-900">{t("step1.title")}</h2>
                   <p className="text-slate-500 mt-2">{t("step1.subtitle")}</p>
                 </div>
                 <ContextStep
@@ -294,7 +294,7 @@ export default function SmartRfqBuilder() {
             {step === 2 && (
               <section>
                 <div className="mb-6">
-                  <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">{t("step2.title")}</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-slate-900">{t("step2.title")}</h2>
                   <p className="text-slate-500 mt-2">{t("step2.subtitle")}</p>
                 </div>
                 <ProductAndSpecsStep
@@ -307,7 +307,7 @@ export default function SmartRfqBuilder() {
             {step === 3 && (
               <section>
                 <div className="mb-6 text-center">
-                  <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">{t("step3.title")}</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-slate-900">{t("step3.title")}</h2>
                   <p className="text-slate-500 mt-2">{t("step3.subtitle")}</p>
                 </div>
 
@@ -327,7 +327,7 @@ export default function SmartRfqBuilder() {
             {step === 4 && !isSubmitted && (
               <section>
                 <div className="mb-6 text-center">
-                  <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">{t("step4.title")}</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-slate-900">{t("step4.title")}</h2>
                   <p className="text-slate-500 mt-2">{t("step4.subtitle")}</p>
                 </div>
                 <FinalConfirmStep
@@ -357,13 +357,13 @@ export default function SmartRfqBuilder() {
 
             {isSubmitted && (
               <section className="text-center py-20 max-w-2xl mx-auto animate-in zoom-in-95 duration-500">
-                <div className="w-24 h-24 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mx-auto mb-8 border-[6px] border-green-50 dark:border-green-900/10">
-                  <Check className="w-12 h-12 text-green-600 dark:text-green-400 stroke-[3]" />
+                <div className="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-8 border-[6px] border-green-50">
+                  <Check className="w-12 h-12 text-green-600 stroke-[3]" />
                 </div>
-                <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-slate-50 leading-tight mb-6">
+                <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight mb-6">
                   {t("success.title")}
                 </h2>
-                <p className="text-lg text-slate-600 dark:text-slate-400 mb-10 max-w-md mx-auto leading-relaxed">
+                <p className="text-lg text-slate-600 mb-10 max-w-md mx-auto leading-relaxed">
                   {t("success.desc")}
                 </p>
                 <Button className="px-8 h-12 rounded-xl bg-blue-600 text-white hover:bg-blue-700 font-bold shadow-lg shadow-blue-600/20" onClick={() => window.location.href = "/"}>
@@ -377,12 +377,12 @@ export default function SmartRfqBuilder() {
 
         {/* Floating Action Footer */}
         {(!isSubmitted && step < 4) && (
-          <div className="fixed bottom-0 left-0 right-0 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 p-4 shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.1)] z-50">
+          <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-4 shadow-bottom-bar z-50">
             <div className="container mx-auto max-w-4xl flex items-center justify-between">
 
               <div className="flex items-center gap-4">
                 {step > 1 ? (
-                  <Button variant="outline" className="border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 font-bold px-6 h-12 rounded-xl" onClick={handleBack}>
+                  <Button variant="outline" className="border-slate-200 text-slate-600 font-bold px-6 h-12 rounded-xl" onClick={handleBack}>
                     <ArrowLeft className="w-4 h-4 mr-2" /> {t("actions.back")}
                   </Button>
                 ) : (
@@ -394,7 +394,7 @@ export default function SmartRfqBuilder() {
                 <div className="flex items-center gap-4">
                   <Button
                     className={`h-12 rounded-xl px-10 font-bold shadow-lg transition-all ${(step === 1 && !canProceedToStep2) || (step === 2 && !canProceedToStep3)
-                      ? "bg-slate-200 dark:bg-slate-800 text-slate-400 dark:text-slate-600 cursor-not-allowed shadow-none"
+                      ? "bg-slate-200 text-slate-400 cursor-not-allowed shadow-none"
                       : "bg-primary hover:bg-primary/90 text-white shadow-primary/20"
                       }`}
                     onClick={handleNext}
