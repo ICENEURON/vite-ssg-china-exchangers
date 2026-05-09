@@ -1,6 +1,6 @@
 # Website UI and Content Design Strategy / 网站 UI 与内容设计策略
 
-Last updated: 2026-05-09.
+Last updated: 2026-05-10.
 
 This document records the design reasoning for the next full-site UI and content optimization of HeatEx Direct. It is based on the current project positioning, the attached business/SEO documents, the existing homepage implementation, and a design reference review of Thomasnet.
 
@@ -10,11 +10,11 @@ This document records the design reasoning for the next full-site UI and content
 
 HeatEx Direct should feel like a Western industrial information platform, not a generic SaaS landing page, a decorative manufacturer website, or a broad B2B marketplace.
 
-The site is operated by a Melbourne-founded network information services company serving global buyers. Its trust should come from structured supplier information, technical clarity, sourcing workflow support, China heat exchanger sector knowledge, and honest RFQ handling.
+The site should describe its international background as `Australia-based operations`, while keeping the core position clear: a China-focused heat exchanger manufacturer directory and information service for global industrial buyers. Its trust should come from structured supplier information, technical clarity, sourcing workflow support, China heat exchanger sector knowledge, and honest quote request handling.
 
 HeatEx Direct 应该呈现为一个西方审美的工业信息服务平台，而不是普通 SaaS 营销页、装饰型制造业官网，或泛 B2B 市场。
 
-网站由一家创立于澳大利亚墨尔本的网络信息服务公司运营，服务全球买家。它的可信度应该来自结构化供应商信息、技术清晰度、采购流程支持、中国换热器行业知识，以及对 RFQ 当前能力的诚实描述。
+网站应使用“澳洲运营背景”表达国际化运营背景，但核心定位要清楚：面向全球工业买家的中国换热器制造商目录和信息服务。可信度应来自结构化供应商信息、技术清晰度、采购流程支持、中国换热器行业知识，以及对询价当前能力的诚实描述。
 
 ### Core Design Thesis
 
@@ -56,7 +56,7 @@ Thomasnet 可作为参考，是因为它是成熟的西方工业采购与供应�
 
    The page is not minimal in content, but the content is organized into search, popular searches, buyer/supplier blocks, latest insights, browse categories, and footer links. This suits industrial users who scan for practical paths.
 
-5. It treats content as part of the sourcing platform.
+5. It treats content as part of the sourcing experience.
 
    `Latest Insights`, guides, topics, white papers, and category pages all support search visibility and user trust. Content is not a blog decoration; it is part of the platform's information authority.
 
@@ -112,7 +112,7 @@ The current homepage has strong strategic content. Its SEO title, metadata, sche
 
 1. The positioning is accurate.
 
-   The homepage clearly states `China Heat Exchanger Manufacturers`, `global buyers`, `Melbourne-founded`, `structured supplier data`, and `verified-email quote request intake`.
+   The homepage should clearly state `China Heat Exchanger Manufacturers`, `global buyers`, `Australia-based operations`, `structured supplier data`, and `verified-email quote request intake`.
 
 2. The RFQ language is mostly honest.
 
@@ -138,7 +138,7 @@ The current homepage has strong strategic content. Its SEO title, metadata, sche
 
 3. The visual rhythm is too marketing-page-like.
 
-   Many sections use large centered headings and card grids. For an industrial sourcing platform, more list/table/category UI would feel more credible.
+   Many sections use large centered headings and card grids. For an industrial sourcing research service, more list/table/category UI would feel more credible.
 
 4. The statistics module may overemphasize scale.
 
@@ -212,12 +212,12 @@ The homepage should be redesigned as a sourcing entry point. Its structure shoul
 
    Show real directory examples. This helps users and search engines understand that the site contains actual supplier/product data, not just marketing copy.
 
-6. RFQ workflow.
+6. Quote request workflow.
 
-   Present the RFQ flow after the discovery and comparison sections. The message should remain honest:
+   Present the quote request flow after the discovery and comparison sections. The message should remain honest:
 
    ```text
-   Verified-email RFQ intake
+   Verified-email quote request intake
    Structured technical parameters
    Specialist review and follow-up
    Manual/future supplier routing workflow
@@ -225,11 +225,11 @@ The homepage should be redesigned as a sourcing entry point. Its structure shoul
 
 7. Industry News and buyer intelligence.
 
-   Make Industry News a visible acquisition and trust section. It should highlight buyer guides, supplier verification, RFQ checklists, product explainers, application guides, and China market intelligence.
+   Make Industry News a visible acquisition and trust section. It should highlight technical articles, company news, supplier verification, quote request checklists, product explainers, application guides, and China market intelligence.
 
 8. Footer and secondary platform links.
 
-   The footer should continue to support both buyer and supplier journeys, including manufacturer directory, product catalogue, RFQ, About, Industry News, profile update, content marketing, Terms, Privacy, and Contact.
+   The footer should continue to support both buyer and supplier journeys, including manufacturer directory, product catalogue, quote request, About, Industry News, profile update, content marketing, Terms, Privacy, and Contact.
 
 ## 6. SEO and GEO Principles / SEO 与 GEO 原则
 
@@ -239,16 +239,16 @@ SEO 和 GEO 是改版核心。首页既要服务真实买家，也要让搜索�
 
 ### Entity Consistency
 
-Use a stable entity statement across homepage, About, footer, schema, RFQ, and external profiles:
+Use a stable entity statement across homepage, About, footer, schema, quote request pages, and external profiles:
 
 ```text
-HeatEx Direct is an independent industrial sourcing information platform founded in Melbourne, Australia. The company helps global buyers discover, compare, and evaluate Chinese heat exchanger manufacturers through structured factory profiles, product data, technical content, and verified-email RFQ intake.
+HeatEx Direct is an independent information service with Australia-based operations. It helps global industrial buyers discover, compare, and evaluate Chinese heat exchanger manufacturers through structured factory profiles, product data, technical content, and verified-email quote request intake.
 ```
 
 Chinese support statement:
 
 ```text
-HeatEx Direct 是一家创立于澳大利亚墨尔本的独立工业采购信息平台，帮助全球买家通过结构化工厂资料、产品数据、技术内容和邮箱验证 RFQ 流程，发现、比较和评估中国换热器制造商。
+HeatEx Direct 是一项具有澳洲运营背景的独立信息服务，帮助全球工业买家通过结构化工厂资料、产品数据、技术内容和邮箱验证询价流程，发现、比较和评估中国换热器制造商。
 ```
 
 ### Homepage Keyword Responsibilities
@@ -256,13 +256,13 @@ HeatEx Direct 是一家创立于澳大利亚墨尔本的独立工业采购信息
 The homepage should naturally cover these concepts:
 
 - `China heat exchanger manufacturers`
-- `heat exchanger sourcing platform`
+- `heat exchanger sourcing research service`
 - `verified heat exchanger suppliers`
 - `industrial heat exchanger directory`
 - `Chinese heat exchanger manufacturer directory`
 - `global industrial buyers`
 - `structured supplier data`
-- `verified-email RFQ intake`
+- `verified-email quote request intake`
 - `plate heat exchanger manufacturer`
 - `shell and tube heat exchanger supplier`
 - `welded plate heat exchanger`
@@ -277,7 +277,7 @@ The homepage should become the strongest internal linking hub. It should link cl
 - Manufacturer directory.
 - Product catalogue.
 - Core product category pages or filtered product entries.
-- RFQ page.
+- Quote request page.
 - Industry News.
 - Buyer guides and evergreen sourcing articles.
 - Supplier profile update page.
@@ -310,7 +310,7 @@ certificates
 export markets
 technical parameters
 product documentation
-verified-email RFQ intake
+verified-email quote request intake
 stored for platform follow-up
 ```
 
@@ -320,7 +320,7 @@ Avoid:
 best supplier
 guaranteed lowest price
 instant supplier matching
-automatic RFQ distribution
+automatic quote request distribution
 largest supplier network
 ```
 

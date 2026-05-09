@@ -1,6 +1,6 @@
 # Project Overview / 项目介绍
 
-Last updated: 2026-05-08.
+Last updated: 2026-05-10.
 
 ## English
 
@@ -10,7 +10,7 @@ HeatEx Direct is a focused B2B sourcing site for industrial heat exchangers. It 
 
 The project is not a broad marketplace. It is a vertical directory and sourcing bridge for heat exchangers and related thermal transfer equipment.
 
-HeatEx Direct is operated as a network information services company founded in Melbourne, Australia. It serves global buyers rather than only Australian buyers, with a small three-person team combining senior China heat exchanger industry knowledge, international marketing, and software/data engineering.
+HeatEx Direct should be described as an independent information service with Australia-based operations. It serves global buyers rather than only Australian buyers, with a small three-person team combining senior China heat exchanger industry knowledge, international marketing, and software/data engineering.
 
 The site should help buyers answer:
 
@@ -90,7 +90,7 @@ HeatEx Direct 是一个聚焦工业换热器的 B2B 采购网站。它通过结�
 
 这个项目不是综合大卖场，而是换热器和相关热交换设备的垂直目录与采购桥梁。
 
-HeatEx Direct 是一家创立于澳大利亚墨尔本的网络信息服务公司，服务对象是全球采购方，而不只限于澳洲市场。团队目前由三人组成，结合了一名非常熟悉中国换热器行业真实情况的资深行业人员、marketing 能力和技术/数据工程能力。
+HeatEx Direct 应描述为一项具有澳洲运营背景的独立信息服务，服务对象是全球采购方，而不只限于澳洲市场。团队目前由三人组成，结合了一名非常熟悉中国换热器行业真实情况的资深行业人员、marketing 能力和技术/数据工程能力。
 
 网站应帮助买家回答：
 

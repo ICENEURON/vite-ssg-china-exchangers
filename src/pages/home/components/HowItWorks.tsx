@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { ArrowRight, ClipboardList, MailCheck, Scale, Search } from "lucide-react";
+import { ClipboardList, MailCheck, Scale, Search } from "lucide-react";
 
 export function HowItWorks() {
     const { t } = useTranslation("translation");
@@ -12,43 +12,35 @@ export function HowItWorks() {
     const icons = [Search, ClipboardList, MailCheck, Scale];
 
     return (
-        <section className="py-14 px-2 flex justify-center bg-background">
-            <div className="container px-4 max-w-6xl flex flex-col items-center justify-center gap-8">
-                <div className="text-center max-w-3xl">
-                    <p className="text-sm font-semibold text-primary mb-3">
-                        {t("pages.home.howItWorks.eyebrow")}
-                    </p>
-                    <h2 className="text-foreground text-center mb-4">
-                        {t("pages.home.howItWorks.title")}
-                    </h2>
-                    <p className="text-muted leading-relaxed">
-                        {t("pages.home.howItWorks.description")}
-                    </p>
+        <section className="flex justify-center bg-white px-2 py-14">
+            <div className="container flex max-w-6xl flex-col gap-8 px-4">
+                <div>
+                    <div className="max-w-3xl">
+                        <p className="mb-3 inline-flex items-center gap-2 text-sm font-semibold text-primary">
+                            <ClipboardList className="size-4" />
+                            {t("pages.home.howItWorks.eyebrow")}
+                        </p>
+                        <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+                            {t("pages.home.howItWorks.title")}
+                        </h2>
+                        <p className="mt-4 text-sm leading-7 text-muted md:text-base">
+                            {t("pages.home.howItWorks.description")}
+                        </p>
+                    </div>
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 w-full justify-items-center">
+                <div className="grid w-full grid-cols-1 divide-y divide-slate-200 border-y border-slate-200 lg:grid-cols-4 lg:divide-x lg:divide-y-0">
                     {steps.map((step, index) => {
                         const Icon = icons[index] || ClipboardList;
                         return (
-                            <div key={index} className="flex flex-col items-center justify-start text-center p-4 gap-4 w-full">
-                                <div className="w-16 h-16 bg-white border-2 border-primary rounded-full flex items-center justify-center shadow-sm relative">
-                                    <Icon className="h-7 w-7 text-primary" />
-                                    <div className="absolute -top-2 -right-2 bg-orange-500 text-white text-xs font-bold rounded-full w-6 h-6 flex items-center justify-center">
-                                        {index + 1}
-                                    </div>
-                                </div>
-
-                                <h4 className="text-lg font-bold text-foreground p-2">
-                                    {step.title}
-                                </h4>
-                                <p className="text-sm text-muted leading-relaxed p-2">
+                            <div key={step.title} className="py-5 text-left lg:px-5">
+                                <h3 className="flex items-center gap-3 text-base font-bold text-foreground">
+                                    <Icon className="size-5 shrink-0 text-primary" />
+                                    <span>{step.title}</span>
+                                </h3>
+                                <p className="mt-3 text-sm leading-6 text-muted">
                                     {step.body}
                                 </p>
-
-                                {/* Arrow for Mobile */}
-                                {index < steps.length - 1 && (
-                                    <ArrowRight className="block lg:hidden h-6 w-6 text-muted rotate-90" />
-                                )}
                             </div>
                         );
                     })}

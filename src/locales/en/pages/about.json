@@ -1,12 +1,12 @@
 {
-  "title": "About HeatEx Direct | China Heat Exchanger Manufacturer Information Platform",
+  "title": "About HeatEx Direct | China Heat Exchanger Manufacturer Research Service",
   "meta": {
-    "description": "Learn about HeatEx Direct, a Melbourne-founded independent information platform focused on Chinese industrial heat exchanger manufacturer profiles, supplier data, and structured sourcing content.",
-    "keywords": "About HeatEx Direct, China heat exchanger manufacturers, industrial heat exchanger sourcing information, heat exchanger supplier profiles, China industrial sourcing platform"
+    "description": "Learn about HeatEx Direct, an independent information service with Australia-based operations, focused on Chinese industrial heat exchanger manufacturer profiles, supplier data, and structured sourcing content.",
+    "keywords": "About HeatEx Direct, China heat exchanger manufacturers, industrial heat exchanger sourcing research, heat exchanger supplier profiles, China manufacturer directory"
   },
   "og": {
     "title": "About HeatEx Direct - Chinese Heat Exchanger Supplier Information",
-    "description": "HeatEx Direct is an independent sourcing information platform helping global buyers understand Chinese heat exchanger manufacturers, product capabilities, and supplier profiles.",
+    "description": "HeatEx Direct is an independent sourcing research service helping global buyers understand Chinese heat exchanger manufacturers, product capabilities, and supplier profiles.",
     "image": "/static/websites/home-hero.png",
     "url": "{{url}}",
     "type": "website",
@@ -16,7 +16,7 @@
     "badge": "About HeatEx Direct",
     "title": "Who we are: Heat<1>Ex</1> Direct.",
     "title_highlight": "An independent platform for Chinese industrial heat exchanger supplier information.",
-    "description_1": "HeatEx Direct was founded in Melbourne, Australia to organize Chinese heat exchanger manufacturer profiles, product capabilities, sourcing content, and structured quote request intake for global industrial buyers.",
+    "description_1": "HeatEx Direct combines Australia-based operations with a focused Chinese heat exchanger manufacturer directory for global industrial buyers.",
     "description_2_prefix": "We are not building a generic directory.",
     "description_2_highlight": "We organize supplier facts buyers can inspect",
     "description_2_suffix": "so sourcing decisions become clearer."
@@ -24,12 +24,12 @@
   "who_we_are": {
     "badge": "Who We Are",
     "title": "A focused, independent, buyer-oriented heat exchanger information platform",
-    "description": "HeatEx Direct is not a heat exchanger manufacturer, and it is not a general industrial directory that mixes every supplier category together. We are a focused sourcing information platform for industrial heat exchangers, helping buyers understand suppliers before deciding who to contact.",
+    "description": "HeatEx Direct is not a heat exchanger manufacturer, and it is not a general industrial directory that mixes every supplier category together. We are a focused sourcing research service for industrial heat exchangers, helping buyers understand suppliers before deciding who to contact.",
     "story_title": "Why we built this platform",
     "paragraphs": [
       "China has many heat exchanger companies with real manufacturing capability across plate, welded plate, shell-and-tube, air-side equipment, packaged heat exchange units, and related spare parts. For overseas buyers, however, useful supplier information is often scattered across Chinese websites, exhibition materials, product brochures, image folders, and sales conversations.",
       "HeatEx Direct turns that scattered information into a structure that better supports sourcing and technical review. We focus on company background, product scope, industries served, export markets, certificates, media assets, product parameters, and quote request information so buyers can build a clearer basis for judgment before sending a request.",
-      "The platform is operated by a team familiar with the Chinese heat exchanger sector, English-language sourcing content, cross-border supplier communication, and digital content organization. We are based from Melbourne and serve global buyers, but our data focus remains Chinese industrial heat exchanger manufacturers."
+      "The platform is operated by a team familiar with the Chinese heat exchanger sector, English-language sourcing content, cross-border supplier communication, and digital content organization. Its Australia-based operations support a global buyer audience, while the data focus remains Chinese industrial heat exchanger manufacturers."
     ],
     "identity_cards": [
       {

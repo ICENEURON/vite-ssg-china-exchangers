@@ -1,13 +1,12 @@
 import { Building2, Factory, Globe2, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { Badge } from "../../../components/ui/badge";
 import { Label } from "../../../components/ui/label";
 
 export function CompanyIntro() {
     const { t } = useTranslation("translation");
     const facts = t("pages.home.companyIntro.facts", { returnObjects: true }) as string[];
     const paragraphs = t("pages.home.companyIntro.paragraphs", { returnObjects: true }) as string[];
-    const factIcons = [MapPin, Factory, Globe2];
+    const factIcons = [Globe2, MapPin, Factory];
 
     return (
         <section className="py-14 px-2 flex justify-center bg-white">
@@ -25,19 +24,15 @@ export function CompanyIntro() {
                     </p>
                 </div>
 
-                <div className="flex flex-wrap gap-2.5">
+                <div className="grid gap-3 border-y border-slate-200 py-4 md:grid-cols-3">
                     {facts.map((fact, index) => {
                         const Icon = factIcons[index] || Building2;
 
                         return (
-                            <Badge
-                                key={fact}
-                                variant="outline"
-                                className="rounded-full border-slate-200 bg-slate-50 px-3.5 py-2 text-slate-700 shadow-none"
-                            >
+                            <div key={fact} className="flex items-center gap-2 text-sm font-semibold text-slate-700">
                                 <Icon className="size-4 text-primary" />
                                 {fact}
-                            </Badge>
+                            </div>
                         );
                     })}
                 </div>

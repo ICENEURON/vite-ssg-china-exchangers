@@ -1,149 +1,205 @@
 {
-  "title": "HeatEx Direct | China Heat Exchanger Manufacturers for Global Buyers",
+  "title": "HeatEx Direct | Chinese Heat Exchanger Manufacturers and Quote Requests",
   "meta": {
-    "description": "HeatEx Direct is a Melbourne-founded industrial sourcing information platform for global buyers evaluating verified Chinese heat exchanger manufacturers, product capabilities, and structured quote requirements.",
-    "keywords": "China heat exchanger manufacturers, heat exchanger sourcing platform, verified heat exchanger suppliers, industrial heat exchangers, plate heat exchanger manufacturer, shell and tube heat exchanger supplier, heat exchanger quote request"
+    "description": "HeatEx Direct helps global industrial buyers research Chinese heat exchanger manufacturers, compare product capabilities, and submit structured heat exchanger quote requests.",
+    "keywords": "China heat exchanger manufacturers, Chinese heat exchanger suppliers, industrial heat exchanger manufacturers, plate heat exchanger manufacturer, welded plate heat exchanger, shell and tube heat exchanger, air cooled heat exchanger, heat exchanger quote request"
   },
   "og": {
-    "title": "HeatEx Direct - Verified Chinese Heat Exchanger Manufacturer Information",
-    "description": "Discover structured manufacturer profiles, product data, technical sourcing content, and verified-email quote request intake for industrial heat exchangers from China.",
+    "title": "HeatEx Direct - Chinese Heat Exchanger Manufacturer Research",
+    "description": "Research structured manufacturer profiles, compare industrial heat exchanger product capabilities, read technical articles, and submit verified-email quote requests.",
     "image": "/static/websites/home-hero.png",
     "url": "{{url}}",
     "type": "website",
     "site_name": "{{site_name}}"
   },
   "schema": {
-    "organizationDescription": "HeatEx Direct is an independent industrial sourcing information platform founded in Melbourne, Australia. The company helps global buyers discover, compare, and evaluate Chinese heat exchanger manufacturers through structured factory profiles, product data, technical content, and verified-email quote request intake.",
-    "websiteDescription": "A bilingual sourcing information website for Chinese heat exchanger manufacturers, industrial heat exchanger products, supplier verification content, and structured quote request submission."
+    "organizationDescription": "HeatEx Direct is an independent international sourcing research service focused on Chinese heat exchanger manufacturers. It helps global industrial buyers compare product capabilities, review supplier evidence, read technical sourcing content, and submit verified-email quote requests.",
+    "websiteDescription": "A bilingual sourcing research service for global buyers comparing Chinese heat exchanger manufacturers, industrial heat exchanger products, supplier evidence, technical sourcing content, and structured quote request submission.",
+    "categoryListName": "HeatEx Direct heat exchanger product category links",
+    "highlightedArticlesListName": "HeatEx Direct featured company news and technical articles"
   },
   "hero": {
-    "eyebrow": "Independent sourcing intelligence for industrial heat exchangers",
-    "title": "China Heat Exchanger Manufacturers, Organized for Technical Buyers",
-    "subtitle": "HeatEx Direct helps procurement teams, engineers, EPC companies, distributors, and integrators evaluate real Chinese factories with structured supplier data and product capability pages.",
-    "description": "Browse verified manufacturer profiles, compare industrial heat exchanger product categories, read practical sourcing guidance, and send a structured request without creating an account. You only need a verifiable email address so our team can follow up properly.",
-    "cta_primary": "Request for Quote",
+    "eyebrow": "Chinese heat exchanger manufacturer directory",
+    "title": "Find Chinese Heat Exchanger Manufacturers by Product Type, Application, and Technical Fit",
+    "subtitle": "HeatEx Direct helps procurement teams, engineers, EPC companies, distributors, and system integrators worldwide screen real Chinese factories before they start supplier conversations.",
+    "description": "The China focus is deliberate: this is a major manufacturing base for heat exchanger equipment. The service is built for international buyers who need structured profiles, product capability data, application context, supplier evidence, and technical sourcing content in one place.",
+    "cta_primary": "Submit Quote Request",
     "cta_secondary": "Browse Manufacturers",
-    "trust_bar": [
-      "Verified manufacturer profiles",
-      "China industry knowledge",
-      "Structured product data",
-      "Dedicated quote follow-up"
-    ]
-  },
-  "valueProp": {
-    "eyebrow": "Built for trust, search, and technical clarity",
-    "title": "A sourcing site should make supplier facts easier to inspect",
-    "description": "General marketplaces often mix factories, traders, duplicate listings, and promotional claims. HeatEx Direct is designed as a focused information service for one vertical: industrial heat exchangers and related thermal transfer equipment.",
-    "cards": [
+    "paths": [
       {
-        "title": "Real manufacturer context",
-        "body": "Profiles are structured around company background, factory location, product scope, export markets, media, certificates, and available documents so buyers can evaluate the supplier before making contact."
+        "title": "Browse manufacturers",
+        "body": "Start with company profiles, locations, industries, export markets, and available factory evidence."
       },
       {
-        "title": "China-specific industry insight",
-        "body": "The platform is shaped by first-hand knowledge of the Chinese heat exchanger sector, helping buyers understand which factories are relevant for plate, welded plate, shell-and-tube, air-side, and spare-parts requirements."
-      },
-      {
-        "title": "Comparable product information",
-        "body": "Product pages emphasize equipment type, applications, advantages, technical parameters, materials, pressure requirements, and linked manufacturer capability rather than generic sales copy."
-      },
-      {
-        "title": "Dedicated quote follow-up",
-        "body": "The quote request form collects project context and design parameters without requiring account registration. A verifiable email lets our team review the request, clarify missing details, and follow up with relevant sourcing support."
+        "title": "Explore products",
+        "body": "Review plate, welded plate, shell-and-tube, air-side, skid, and spare-parts capabilities."
       }
     ]
   },
+  "valueProp": {
+    "eyebrow": "Supplier data and inspectable evidence",
+    "title": "Supplier information organized for comparison",
+    "description": "HeatEx Direct keeps manufacturer information in a structured format so buyers can compare company background, product scope, documentation, and application fit before contacting suppliers.",
+    "evidence": [
+      {
+        "label": "Company background",
+        "body": "Legal names, locations, short descriptions, business focus, and profile context."
+      },
+      {
+        "label": "Factory and location signals",
+        "body": "City, country, operating context, and available media that help buyers distinguish real manufacturers."
+      },
+      {
+        "label": "Product scope",
+        "body": "Equipment categories, product pages, application sectors, and related manufacturer capability."
+      },
+      {
+        "label": "Technical parameters",
+        "body": "Product descriptions, materials, pressure and temperature relevance, heat load context, and design notes where available."
+      },
+      {
+        "label": "Media assets",
+        "body": "Product images, factory images, documents, certificates, customer logos, and related files when supplied or verified."
+      },
+      {
+        "label": "Certificates and documents",
+        "body": "Available proof points that buyers can review before deeper supplier due diligence."
+      },
+      {
+        "label": "Export and industry fit",
+        "body": "Industries served, export markets, application signals, and product specialization."
+      },
+      {
+        "label": "Buyer intelligence",
+        "body": "Technical articles, supplier updates, market observations, and sourcing guides linked back to directory data."
+      }
+    ],
+    "reviewLabel": "Structured for human and AI discovery",
+    "reviewNote": "This structure supports both human buyers and search or AI systems: manufacturer facts, product relationships, article topics, and quote request workflows are labeled consistently instead of being buried in promotional copy."
+  },
   "companyIntro": {
     "eyebrow": "About HeatEx Direct",
-    "title": "Melbourne-founded, focused on Chinese heat exchanger supplier information",
-    "lead": "For global industrial buyers, we organize Chinese heat exchanger manufacturers, product capabilities, and sourcing content.",
-    "body": "HeatEx Direct focuses on industrial heat exchanger sourcing information, organizing company background, product range, application sectors, and quote parameters so buyers can build a clearer basis for judgment before contacting suppliers.",
+    "title": "A China-focused heat exchanger research service for global buyers",
+    "lead": "HeatEx Direct focuses on Chinese heat exchanger manufacturers because buyers often need a clearer, more comparable view of this manufacturing base before supplier outreach.",
+    "body": "HeatEx Direct organizes manufacturer profiles, product capability data, technical articles, supplier updates, and structured quote request intake for industrial heat exchanger sourcing. The business communication and service model are international, with Australia-based operations supporting a global buyer audience.",
     "paragraphs": [
-      "The platform stays tightly focused on industrial heat exchangers and related thermal transfer equipment instead of mixing in unrelated sectors, generic directories, or large volumes of duplicated supplier listings. The objective is not to make the list bigger, but to help buyers recognize more quickly which manufacturers deserve deeper review.",
-      "The way information is organized also follows a sourcing and technical review workflow. Manufacturer pages aim to bring company background, product scope, served industries, export markets, media assets, and available documents into a structure that is easier to compare, so buyers spend less time cross-checking disconnected pages."
+      "The site is not a manufacturer and does not present itself as a broad marketplace. It is focused on one vertical: heat exchangers and related thermal transfer equipment from Chinese manufacturers serving global industrial buyers.",
+      "The service is designed for procurement managers, engineers, EPC teams, distributors, and system integrators who need a clearer supplier shortlist before they spend time on direct communication, documentation checks, or commercial negotiation."
     ],
     "facts": [
-      "Melbourne, Australia",
-      "China heat exchanger sector",
-      "Global industrial buyers"
+      "Australia-based operations",
+      "Global industrial buyer audience",
+      "China-focused manufacturer directory"
     ]
   },
   "categoryShowcase": {
-    "eyebrow": "Manufacturer and product coverage",
-    "title": "Find suppliers by equipment type, application, and technical fit",
-    "alt": "Industrial heat exchanger manufacturing and sourcing platform",
+    "eyebrow": "Product category directory",
+    "title": "Start from the equipment type buyers actually specify",
+    "alt": "Industrial heat exchanger manufacturer and product research service",
     "imageCaption": "Chinese heat exchanger manufacturer profiles, product capabilities, and sourcing context organized in one place",
-    "description": "Use the directory to move from a broad supplier search to a more technical shortlist. Start with heat exchanger type, application sector, pressure and temperature conditions, material requirements, and export experience, then use manufacturer profiles and product pages to check company background, product capabilities, industries served, export markets, media, and available documentation.",
-    "details": [
-      "Compare supplier capability by equipment type, including plate, welded plate, shell-and-tube, air coolers, packaged heat exchange units, and spare parts.",
-      "Match manufacturers to application scenarios such as chemical processing, food and beverage, HVAC, marine, power, pharmaceuticals, and new energy projects.",
-      "Use profile completeness, product parameters, export markets, image assets, files, and quote signals to turn a broad list into a workable technical shortlist."
+    "viewProducts": "View products",
+    "categories": [
+      {
+        "title": "Plate heat exchangers",
+        "body": "Gasketed and related plate units for HVAC, food, marine, process cooling, and general heat recovery duties.",
+        "terms": ["Gasketed", "Plates", "Gaskets"]
+      },
+      {
+        "title": "Welded plate heat exchangers",
+        "body": "Fully welded, wide-gap, plate-and-shell, and harsh-duty designs for higher pressure or difficult media.",
+        "terms": ["Wide gap", "Plate shell", "Harsh fluids"]
+      },
+      {
+        "title": "Shell-and-tube equipment",
+        "body": "Tubular heat exchangers and pressure-vessel-style equipment for heavy industrial service.",
+        "terms": ["Tubular", "Pressure vessel", "Process duty"]
+      },
+      {
+        "title": "Air-side heat exchange",
+        "body": "Air coolers, air radiators, finned tube equipment, and air-side heat transfer systems.",
+        "terms": ["Air cooler", "Finned tube", "Drying"]
+      },
+      {
+        "title": "Heat exchanger units",
+        "body": "Packaged skids and integrated heat exchange systems with pumps, instruments, valves, and controls.",
+        "terms": ["Skids", "Units", "Controls"]
+      },
+      {
+        "title": "Spare parts and service items",
+        "body": "Replacement plates, gaskets, maintenance-related parts, and documentation for lifecycle support.",
+        "terms": ["Plates", "Gaskets", "Maintenance"]
+      }
     ],
     "cta": "Browse All Manufacturers",
     "secondaryCta": "Explore Products",
     "stats": {
-      "manufacturers": "verified manufacturer profiles in the current directory",
-      "products": "industrial heat exchanger product pages",
-      "industries": "application sectors covered by listed suppliers"
+      "manufacturers": "manufacturer profiles",
+      "products": "product pages",
+      "articles": "published articles"
     },
-    "featuredEyebrow": "Featured manufacturer profiles",
-    "featuredTitle": "Start with suppliers already organized for comparison",
-    "featuredLink": "View full directory",
+    "snapshotEyebrow": "Directory coverage",
+    "snapshotTitle": "Current directory coverage",
+    "snapshotDescription": "These figures show the current scope of manufacturer profiles, product pages, and application sectors in the directory."
+  },
+  "featuredManufacturers": {
+    "eyebrow": "Featured manufacturer profiles",
+    "title": "Start with suppliers already structured for comparison",
+    "description": "Manufacturer profiles bring together company background, product scope, industries served, and available evidence so buyers can inspect supplier fit before making contact.",
+    "cta": "View full directory",
     "viewProfile": "View manufacturer profile"
   },
   "howItWorks": {
     "eyebrow": "Quote request workflow",
-    "title": "Send a useful request without creating an account",
-    "description": "A good heat exchanger quote starts with clear operating conditions. The quote request form helps buyers turn project details into a format that a sourcing specialist and relevant manufacturers can actually work with.",
+    "title": "From supplier research to quote follow-up",
+    "description": "A good heat exchanger quotation starts with clear operating conditions. The request form helps buyers turn project details into a format that a sourcing specialist can review and follow up on.",
     "steps": [
       {
-        "title": "Research suppliers",
-        "body": "Start with manufacturer profiles or product pages to understand factory capability, product fit, industries served, and available trust signals."
+        "title": "Research supplier fit",
+        "body": "Use manufacturer and product pages to understand factory capability, application sectors, and available trust signals."
       },
       {
-        "title": "Prepare specifications",
-        "body": "Enter media, phases, mass flow, temperatures, materials, pressure, flange standards, heat load, and notes in the quote request form."
+        "title": "Prepare technical context",
+        "body": "Enter media, phases, mass flow, temperatures, materials, pressure, flange standards, heat load, and notes."
       },
       {
         "title": "Verify your email",
-        "body": "No account registration is required. Use a verifiable email address so we can confirm the request is real and contact you about project details."
+        "body": "No account registration is required. A verifiable email helps confirm the request is real and supports follow-up."
       },
       {
         "title": "Get specialist follow-up",
-        "body": "A HeatEx Direct team member reviews the request, checks whether key parameters are missing, and follows up with sourcing support for suitable supplier discussions."
+        "body": "The HeatEx Direct team reviews the request, checks for missing parameters, and follows up around suitable supplier discussions."
       }
     ]
   },
-  "industryNews": {
-    "eyebrow": "Industry News and buyer intelligence",
-    "title": "A practical knowledge base for heat exchanger sourcing",
-    "description": "Industry News focuses on heat exchanger industry updates, China market news, new manufacturer content, company product updates, and technical articles written by HeatEx Direct. It tracks supplier and market changes while helping buyers understand products, operating conditions, documentation requirements, and supply-chain differences before they contact factories.",
+  "highlightedArticles": {
+    "eyebrow": "Company news and technical articles",
+    "title": "Recent updates from the heat exchanger directory",
+    "description": "Read company updates, product notes, maintenance articles, and application stories related to listed heat exchanger manufacturers.",
     "cta": "Read Industry News",
-    "secondaryCta": "Request for Quote",
+    "readArticle": "Read article",
+    "typeLabels": {
+      "news": "Company news",
+      "posts": "Technical article"
+    }
+  },
+  "industryNews": {
+    "eyebrow": "Industry News",
+    "title": "A place for companies to share useful information",
+    "description": "Industry News collects company announcements, technical articles, and application notes from the heat exchanger sector. It gives buyers more context without turning the homepage into a long content grid.",
+    "cta": "Read Industry News",
+    "secondaryCta": "Submit Quote Request",
     "pillars": [
       {
-        "title": "Company news and directory updates",
-        "body": "Updates on newly added Chinese heat exchanger manufacturers, product pages, media files, and relevant company developments buyers may want to track."
+        "title": "Company news",
+        "body": "Project updates, new product releases, factory information, and company announcements from listed manufacturers."
       },
       {
-        "title": "China market news",
-        "body": "Coverage of manufacturing clusters, export conditions, industry events, capacity changes, and product trends across the Chinese supply chain."
+        "title": "Technical articles",
+        "body": "Practical writing on equipment types, design parameters, materials, maintenance, and specification preparation."
       },
       {
-        "title": "Supplier verification",
-        "body": "Plain-language notes on factory evidence, business scope, certificates, export experience, and documentation quality."
-      },
-      {
-        "title": "Technical articles and product explainers",
-        "body": "Articles that explain heat exchanger types, design parameters, material choices, pressure and temperature conditions, and what buyers should prepare before requesting a quote."
-      },
-      {
-        "title": "Buyer guides",
-        "body": "Step-by-step sourcing guides for comparing Chinese heat exchanger manufacturers and narrowing a supplier shortlist."
-      },
-      {
-        "title": "Sourcing observations and case signals",
-        "body": "Practical notes on common sourcing questions, missing specifications, document requests, and supplier communication patterns from real buying workflows."
+        "title": "Application notes",
+        "body": "Examples that connect heat exchanger products to HVAC, petrochemical, marine, food, pharmaceutical, power, and energy duties."
       }
     ]
   }

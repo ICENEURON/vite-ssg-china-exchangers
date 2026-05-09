@@ -1,50 +1,52 @@
 import { useTranslation } from "react-i18next";
+import { posts } from ".velite";
+import type { Post } from ".velite";
+import { useCurrentLanguage } from "../../../utils/language-routing";
 
 export function CategoryStats() {
     const { t } = useTranslation("translation");
-    const manufacturers = t("pages.manufacturers.list", { returnObjects: true }) as Array<{
-        industries?: string[];
-    }>;
+    const currentLanguage = useCurrentLanguage();
+    const language = currentLanguage === "zh" ? "zh" : "en";
+    const manufacturers = t("pages.manufacturers.list", { returnObjects: true }) as unknown[];
     const products = t("pages.products.list", { returnObjects: true }) as unknown[];
-    const industryCount = new Set(manufacturers.flatMap((manufacturer) => manufacturer.industries || [])).size;
+    const articleCount = (posts as Post[]).filter((post) => (post.lang || "en") === language).length;
     const stats = [
         {
             value: String(manufacturers.length),
             label: t("pages.home.categoryShowcase.stats.manufacturers"),
             accent: "text-sky-600",
-            glow: "bg-sky-500/10",
+            card: "bg-sky-50 border-sky-100",
         },
         {
             value: `${products.length}+`,
             label: t("pages.home.categoryShowcase.stats.products"),
             accent: "text-emerald-600",
-            glow: "bg-emerald-500/10",
+            card: "bg-emerald-50 border-emerald-100",
         },
         {
-            value: `${industryCount}+`,
-            label: t("pages.home.categoryShowcase.stats.industries"),
+            value: String(articleCount),
+            label: t("pages.home.categoryShowcase.stats.articles"),
             accent: "text-orange-500",
-            glow: "bg-orange-500/10",
+            card: "bg-orange-50 border-orange-100",
         },
     ];
 
     return (
-        <section className="relative px-2 py-8 flex justify-center bg-white">
-            <div className="container relative px-4 max-w-6xl">
+        <section className="flex justify-center bg-white px-2 py-10">
+            <div className="container max-w-6xl px-4">
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
                     {stats.map((stat) => (
-                        <div
+                        <article
                             key={stat.label}
-                            className="relative overflow-hidden rounded-lg border border-slate-200 bg-slate-50 px-6 py-7 text-center shadow-sm"
+                            className={`rounded-md border px-5 py-6 text-center ${stat.card}`}
                         >
-                            <div className={`absolute right-3 top-3 size-20 rounded-full ${stat.glow}`} />
-                            <p className={`relative font-heading text-[clamp(5.75rem,17vw,8rem)] font-extrabold leading-none md:text-[clamp(7rem,10vw,9.75rem)] ${stat.accent}`}>
-                                {stat.value}
-                            </p>
-                            <p className="relative mx-auto mt-3 max-w-[13rem] text-sm font-semibold leading-5 text-slate-700 md:text-base">
+                            <div className="font-heading text-4xl font-extrabold leading-none tracking-normal md:text-5xl lg:text-6xl">
+                                <span className={stat.accent}>{stat.value}</span>
+                            </div>
+                            <div className="mt-3 text-base font-semibold leading-6 text-slate-800">
                                 {stat.label}
-                            </p>
-                        </div>
+                            </div>
+                        </article>
                     ))}
                 </div>
             </div>
