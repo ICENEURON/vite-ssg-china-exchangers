@@ -336,7 +336,7 @@ export default function ProductsPage() {
                                 <Link
                                     key={product.slug}
                                     to={addLanguageToPath(`/products/${product.url}`, currentLanguage)}
-                                    className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/60 hover:shadow-xl hover:shadow-primary/10"
+                                    className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/20 hover:shadow-xl hover:shadow-primary/10"
                                 >
                                     <div className="relative flex h-56 items-center justify-center overflow-hidden bg-white p-4">
                                         {product.images && product.images.length > 0 ? (

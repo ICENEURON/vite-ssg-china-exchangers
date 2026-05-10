@@ -534,7 +534,7 @@ export default function ManufacturerProfilePage() {
                                 <Link
                                     key={index}
                                     to={addLanguageToPath(`/products/${product.url}`, currentLanguage)}
-                                    className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/60 hover:shadow-xl hover:shadow-primary/10"
+                                    className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/20 hover:shadow-xl hover:shadow-primary/10"
                                 >
                                     <div className="relative flex h-56 items-center justify-center overflow-hidden bg-white p-4">
                                         {product.image ? (
@@ -702,9 +702,9 @@ export default function ManufacturerProfilePage() {
             {/* Floating Back Button */}
             <Link
                 to={addLanguageToPath('/manufacturers', currentLanguage)}
-                className="fixed bottom-8 right-8 z-50 flex items-center justify-center gap-2 px-6 py-4 bg-white text-slate-800 rounded-full shadow-2xl border border-slate-200 hover:shadow-float hover:-translate-y-1 hover:text-blue-600 transition-all duration-300 group font-bold"
+                className="fixed bottom-6 right-6 z-50 flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 group hover:shadow-float hover:-translate-y-1 hover:text-blue-600"
             >
-                <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
+                <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-1" />
                 <span>{t(`${SHARED_TK}.back_to_list`, { defaultValue: 'Back to Manufacturers' })}</span>
             </Link>
         </>

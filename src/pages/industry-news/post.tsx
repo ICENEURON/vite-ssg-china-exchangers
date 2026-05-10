@@ -167,12 +167,12 @@ export default function BlogPost() {
                 </div>
             </div>
 
-            <div className="fixed bottom-8 right-4 z-50 flex max-w-[calc(100vw-2rem)] flex-col items-end gap-3 sm:right-8 sm:max-w-none">
+            <div className="fixed bottom-6 right-4 z-50 flex max-w-[calc(100vw-2rem)] flex-col items-end gap-2 sm:right-6 sm:max-w-none">
                 <Link
                     to={backLink}
-                    className="flex max-w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-4 font-bold text-slate-800 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float sm:px-6 group"
+                    className="group flex max-w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float"
                 >
-                    <ArrowLeft className="h-5 w-5 shrink-0 transition-transform group-hover:-translate-x-1" />
+                    <ArrowLeft className="h-4 w-4 shrink-0 transition-transform group-hover:-translate-x-1" />
                     <span className="truncate">{t("pages.news.blog.back_to_catalog", "返回新闻目录")}</span>
                 </Link>
             </div>

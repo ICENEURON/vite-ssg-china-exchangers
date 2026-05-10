@@ -1,12 +1,11 @@
 import { Head } from 'vite-react-ssg'
 import { Link, useParams, Navigate } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
-import { CheckCircle2, Settings, Factory, ArrowLeft, BookOpen, Shield, Download, FileText, Mail } from "lucide-react"
+import { CheckCircle2, Settings, Factory, ArrowLeft, ArrowRight, BookOpen, Download, FileText, Mail } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
 import { useTranslation } from 'react-i18next'
 import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-routing'
-import { QuoteCta } from '../../../components/ui/quote-cta'
 import { RfqLink } from '../../../utils/rfq-routing/link'
 
 interface ProductImageAsset {
@@ -51,6 +50,8 @@ interface ProductData {
 interface RelatedProduct {
     slug: string;
     name: string;
+    shortDescription?: string;
+    industries?: string[];
     image?: ProductImageAsset;
 }
 
@@ -115,6 +116,8 @@ export default function ProductProfilePage() {
             .map(([slug, product]) => ({
                 slug: product.slug || slug,
                 name: product.name,
+                shortDescription: product.short_description,
+                industries: product.industries || [],
                 image: product.images?.[0],
             }))
             .filter((product) => Boolean(product.slug && product.name));
@@ -147,9 +150,9 @@ export default function ProductProfilePage() {
             <main className="min-h-screen bg-slate-50/50 text-foreground animate-in fade-in duration-500 pb-20">
 
                 {/* Header Section */}
-                <section className="bg-slate-900 border-b border-border/40 py-16 pt-24 mt-[-4rem]">
+                <section className="bg-slate-900 border-b border-border/40 py-16 pt-32 mt-[-4rem]">
                     <div className="container max-w-6xl mx-auto px-6">
-                        <div className="flex flex-col md:flex-row gap-12 items-center">
+                        <div className="flex flex-col md:flex-row gap-12 items-start">
 
                             {/* Product Image / Video Gallery */}
                             <div className="w-full md:w-1/2">
@@ -171,13 +174,23 @@ export default function ProductProfilePage() {
                             </div>
 
                             {/* Product Info */}
-                            <div className="w-full md:w-1/2 flex flex-col items-start gap-6">
-                                <Badge variant="secondary" className="bg-primary/20 text-blue-300 border-none px-4 py-1.5 backdrop-blur-md mb-2">
-                                    {t("pages.products.hero.badge")}
-                                </Badge>
+                            <div className="w-full md:w-1/2 flex flex-col items-start gap-6 pt-1">
                                 <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-tight">
                                     {name}
                                 </h1>
+                                {certificates.length > 0 && (
+                                    <div className="inline-flex max-w-full flex-wrap gap-3">
+                                        <ZoomableImageGrid
+                                            images={certificates.map((cert) => ({ src: cert.url, alt: cert.alt_text || 'Certificate' }))}
+                                            altFallback="Certificate"
+                                            className="flex flex-wrap gap-3"
+                                            itemClassName="min-w-0 !bg-transparent !border-0 !shadow-none !rounded-none !p-0 hover:!bg-transparent [&>div:last-of-type]:mb-0 [&>div:last-of-type]:h-auto [&>div:last-of-type]:w-auto"
+                                            imageClassName="h-8 w-auto max-w-[96px] object-contain"
+                                            labelClassName="!hidden"
+                                            showExpandIcon={false}
+                                        />
+                                    </div>
+                                )}
                                 <p className="text-lg text-slate-300 leading-relaxed max-w-2xl font-light">
                                     {description}
                                 </p>
@@ -193,15 +206,15 @@ export default function ProductProfilePage() {
                                 <div className="flex flex-col sm:flex-row gap-4 mt-4 w-full sm:w-auto">
                                     <Button size="lg" className="h-14 px-8 text-lg font-medium shadow-lg hover:scale-105 transition-transform w-full sm:w-auto" asChild>
                                         <Link to={addLanguageToPath(`/manufacturers/${manufacturerSlug}`, currentLanguage)}>
-                                            <Factory className="mr-2 h-5 w-5" /> {t("pages.products.detail.view_manufacturer")}
+                                            <Factory className="mr-2 h-5 w-5" /> {t("pages.products.detail.back_to_manufacturer", { defaultValue: currentLanguage === 'zh' ? '返回制造商页面' : 'Back to Manufacturer Page' })}
                                         </Link>
                                     </Button>
-                                    <QuoteCta size="lg" className="h-14 px-8 text-lg w-full sm:w-auto" asChild>
+                                    <Button size="lg" className="h-14 px-8 text-lg font-medium shadow-lg hover:scale-105 transition-transform w-full sm:w-auto" asChild>
                                         <RfqLink>
-                                            <Mail className="w-5 h-5" />
+                                            <Mail className="mr-2 h-5 w-5" />
                                             {t("navigation.menu.rfq")}
                                         </RfqLink>
-                                    </QuoteCta>
+                                    </Button>
                                 </div>
                             </div>
                         </div>
@@ -210,31 +223,6 @@ export default function ProductProfilePage() {
 
                 {/* Content Sections */}
                 <div className="container max-w-6xl mx-auto px-6 py-16 space-y-24">
-
-                    {/* Certificates */}
-                    {certificates.length > 0 && (
-                        <section>
-                            <div className="flex items-center gap-3 mb-8">
-                                <div className="p-3 bg-amber-500/10 rounded-xl text-amber-600">
-                                    <Shield className="w-6 h-6" />
-                                </div>
-                                <h2 className="text-3xl font-bold tracking-tight text-slate-900">
-                                    {t("pages.products.detail.certificates", { defaultValue: 'Certificates' })}
-                                </h2>
-                            </div>
-                            <div className="inline-flex max-w-full bg-card px-5 py-4 rounded-xl border border-border/50 shadow-sm">
-                                <ZoomableImageGrid
-                                    images={certificates.map((cert) => ({ src: cert.url, alt: cert.alt_text || 'Certificate' }))}
-                                    altFallback="Certificate"
-                                    className="flex flex-wrap gap-3"
-                                    itemClassName="min-w-0 !bg-transparent !border-0 !shadow-none !rounded-none !p-0 hover:!bg-transparent [&>div:last-of-type]:mb-0 [&>div:last-of-type]:h-auto [&>div:last-of-type]:w-auto"
-                                    imageClassName="h-8 w-auto max-w-[96px] object-contain"
-                                    labelClassName="!hidden"
-                                    showExpandIcon={false}
-                                />
-                            </div>
-                        </section>
-                    )}
 
                     {/* Product Details */}
                     {details.length > 0 && (
@@ -245,9 +233,9 @@ export default function ProductProfilePage() {
                                 </div>
                                 <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.product_details", { defaultValue: 'Product Details' })}</h2>
                             </div>
-                            <div className="bg-card p-8 rounded-2xl border border-border/50 shadow-sm">
+                            <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
                                 {details.map((detail, idx) => (
-                                    <div key={idx} className={idx > 0 ? "mt-8 border-t border-border/50 pt-8" : undefined}>
+                                    <div key={idx} className={idx > 0 ? "mt-8 pt-2" : undefined}>
                                         <h3 className="text-xl font-bold mb-4 text-card-foreground">{detail.title}</h3>
                                         <p className="text-slate-700 leading-relaxed text-lg">{detail.content}</p>
                                     </div>
@@ -265,13 +253,15 @@ export default function ProductProfilePage() {
                                 </div>
                                 <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.key_advantages")}</h2>
                             </div>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                {advantages.map((adv: string, idx: number) => (
-                                    <div key={idx} className="bg-card p-6 rounded-2xl border border-border/50 shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow">
-                                        <CheckCircle2 className="w-6 h-6 text-emerald-500 shrink-0 mt-0.5" />
-                                        <span className="text-card-foreground leading-relaxed font-medium">{adv}</span>
-                                    </div>
-                                ))}
+                            <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
+                                <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
+                                    {advantages.map((adv: string, idx: number) => (
+                                        <div key={idx} className="flex items-start gap-4 px-1 py-1">
+                                            <CheckCircle2 className="w-6 h-6 text-emerald-500 shrink-0 mt-0.5" />
+                                            <span className="text-card-foreground leading-relaxed font-medium">{adv}</span>
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
                         </section>
                     )}
@@ -285,13 +275,13 @@ export default function ProductProfilePage() {
                                 </div>
                                 <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.technical_specifications")}</h2>
                             </div>
-                            <div className="bg-card rounded-2xl border border-border/50 overflow-hidden shadow-sm">
+                            <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
                                 <table className="w-full text-left border-collapse">
                                     <tbody>
                                         {Object.entries(technicalParams).map(([key, value], index) => (
-                                            <tr key={key} className={`border-b border-border/50 last:border-0 ${index % 2 === 0 ? 'bg-slate-50/50' : 'bg-transparent'}`}>
-                                                <th className="py-4 px-6 font-semibold text-slate-700 w-1/3 border-r border-border/50">{key}</th>
-                                                <td className="py-4 px-6 text-slate-900 font-medium">{String(value)}</td>
+                                            <tr key={key} className={`border-b border-slate-200 last:border-0 ${index % 2 === 0 ? 'bg-slate-50' : 'bg-white'}`}>
+                                                <th className="w-1/3 border-r border-slate-200 bg-slate-100/80 px-6 py-4 font-semibold text-slate-700">{key}</th>
+                                                <td className="px-6 py-4 font-medium text-slate-900">{String(value)}</td>
                                             </tr>
                                         ))}
                                     </tbody>
@@ -312,26 +302,26 @@ export default function ProductProfilePage() {
                                         {t("pages.products.detail.other_products", { defaultValue: currentLanguage === 'zh' ? '该公司的其他产品' : 'Other Products From This Manufacturer' })}
                                     </h2>
                                 </div>
-                                <Button variant="outline" className="w-full sm:w-auto" asChild>
+                                <Button size="lg" className="h-14 px-8 text-lg font-medium shadow-lg hover:scale-105 transition-transform w-full sm:w-auto" asChild>
                                     <Link to={addLanguageToPath(`/manufacturers/${manufacturerSlug}`, currentLanguage)}>
-                                        <Factory className="mr-2 h-4 w-4" />
+                                        <Factory className="mr-2 h-5 w-5" />
                                         {t("pages.products.detail.back_to_manufacturer", { defaultValue: currentLanguage === 'zh' ? '返回制造商页面' : 'Back to Manufacturer Page' })}
                                     </Link>
                                 </Button>
                             </div>
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                                 {relatedProducts.map((product) => (
                                     <Link
                                         key={product.slug}
                                         to={addLanguageToPath(`/products/${manufacturerSlug}/${product.slug}`, currentLanguage)}
-                                        className="group bg-card rounded-xl border border-border/50 shadow-sm overflow-hidden hover:shadow-md hover:border-blue-200 transition-all flex items-center h-[72px]"
+                                        className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/20 hover:shadow-xl hover:shadow-primary/10"
                                     >
-                                        <div className="w-24 sm:w-28 self-stretch bg-white flex shrink-0 items-center justify-center border-r border-border/50">
+                                        <div className="relative flex h-56 items-center justify-center overflow-hidden bg-white p-4">
                                             {product.image ? (
                                                 <img
                                                     src={product.image.url}
                                                     alt={product.image.alt_text || product.name}
-                                                    className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-105"
+                                                    className="h-full w-full object-contain transition-transform duration-700 ease-in-out group-hover:scale-105 mix-blend-multiply"
                                                     loading="lazy"
                                                 />
                                             ) : (
@@ -340,10 +330,37 @@ export default function ProductProfilePage() {
                                                 </div>
                                             )}
                                         </div>
-                                        <div className="min-w-0 flex-1 px-3">
-                                            <span className="block text-xs sm:text-sm font-bold leading-tight text-card-foreground group-hover:text-blue-600 transition-colors line-clamp-2">
-                                                {product.name}
-                                            </span>
+                                        <div className="flex flex-1 flex-col border-t border-slate-200 p-4">
+                                            <div className="h-14 overflow-hidden">
+                                                <h3
+                                                    className="font-bold text-foreground transition-colors duration-300 group-hover:text-primary"
+                                                    style={{ fontSize: "22px", lineHeight: "28px" }}
+                                                >
+                                                    {product.name}
+                                                </h3>
+                                            </div>
+                                            {product.shortDescription && (
+                                                <p className="mt-3 line-clamp-3 text-sm leading-6 text-zinc-700">
+                                                    {product.shortDescription}
+                                                </p>
+                                            )}
+
+                                            {product.industries && product.industries.length > 0 && (
+                                                <div className="mt-3 flex flex-wrap content-start items-start gap-1.5">
+                                                    {product.industries.slice(0, 3).map((industry, idx) => (
+                                                        <Badge key={`${industry}-${idx}`} variant="secondary" className="rounded-full border-blue-600/20 bg-blue-200/30 px-2 py-0.5 text-[11px] font-bold text-blue-700 hover:bg-blue-200/30">
+                                                            {industry}
+                                                        </Badge>
+                                                    ))}
+                                                </div>
+                                            )}
+
+                                            <div className="mt-auto pt-4">
+                                                <div className="flex items-center text-sm font-semibold text-primary transition-colors duration-300 group-hover:text-orange-600">
+                                                    {t("pages.products.card.explore_details", { defaultValue: currentLanguage === 'zh' ? '查看详情' : 'Explore Details' })}
+                                                    <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+                                                </div>
+                                            </div>
                                         </div>
                                     </Link>
                                 ))}
@@ -391,19 +408,19 @@ export default function ProductProfilePage() {
             </main>
 
             {/* Floating Back Buttons */}
-            <div className="fixed bottom-8 right-4 z-50 flex max-w-[calc(100vw-2rem)] flex-col items-end gap-3 sm:right-8 sm:max-w-none">
+            <div className="fixed bottom-6 right-6 z-50 hidden flex-col items-end gap-2 lg:flex">
                 <Link
                     to={addLanguageToPath('/manufacturers', currentLanguage)}
-                    className="flex max-w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-4 font-bold text-slate-800 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float sm:px-6 group"
+                    className="group flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float"
                 >
-                    <ArrowLeft className="h-5 w-5 shrink-0 transition-transform group-hover:-translate-x-1" />
+                    <ArrowLeft className="h-4 w-4 shrink-0 transition-transform group-hover:-translate-x-1" />
                     <span className="truncate">{t("pages.products.detail.back_to_manufacturers", { defaultValue: currentLanguage === 'zh' ? '返回所有工厂' : 'Back to Manufacturers' })}</span>
                 </Link>
                 <Link
                     to={addLanguageToPath('/products', currentLanguage)}
-                    className="flex max-w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-4 font-bold text-slate-800 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float sm:px-6 group"
+                    className="group flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float"
                 >
-                    <ArrowLeft className="h-5 w-5 shrink-0 transition-transform group-hover:-translate-x-1" />
+                    <ArrowLeft className="h-4 w-4 shrink-0 transition-transform group-hover:-translate-x-1" />
                     <span className="truncate">{t("pages.products.detail.back_to_list", { defaultValue: 'Back to Products' })}</span>
                 </Link>
             </div>
