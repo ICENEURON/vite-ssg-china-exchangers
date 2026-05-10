@@ -33,8 +33,8 @@
           "description": "Use the template to organize company information, product scope, documents, and image notes. After filling it in, send it by email together with images, certificates, brochures, or download links."
         },
         {
-          "title": "Provide images as attachments or links",
-          "description": "Send product images, factory photos, workshop images, certificates, brochures, and logos as email attachments, ZIP files, or cloud download links."
+          "title": "Provide images as email attachments only",
+          "description": "Send product images, factory photos, workshop images, certificates, brochures, and logos as email attachments only."
         },
         {
           "title": "Keep everything in one email thread",
@@ -93,43 +93,23 @@
   },
   "submission": {
     "title": "How to send your update",
-    "description": "Use email as the main submission method. If files are large, include a cloud download link and keep the link active long enough for review.",
+    "description": "",
     "contact": {
       "email_label": "Email",
       "subject_label": "Suggested subject",
-      "subject_value": "[Profile Update] - Your Company Name"
+      "subject_value": "[Profile Update] - Your Company Name",
+      "subject_description": "Use a clear subject line with your company name so our team can connect files to the right profile.",
+      "copied": "Copied!"
     },
     "cta_button": "Send Update Email",
     "required": {
-      "title": "Include in the email",
-      "items": [
-        {
-          "title": "Company and page reference",
-          "description": "Company name, website, existing HeatEx Direct profile link if available, and the person sending the update."
-        },
-        {
-          "title": "What should change",
-          "description": "List the exact fields or sections to update, such as company description, product scope, certificates, images, or contact information."
-        },
-        {
-          "title": "Supporting materials",
-          "description": "Attach brochures, catalogs, certificates, product sheets, public links, or your own profile update document."
-        }
-      ]
+      "title": "Completed Template",
+      "description": "Please send the completed profile update template document as an email attachment."
     },
     "media": {
-      "title": "Images and files",
-      "items": [
-        {
-          "title": "Images",
-          "description": "Send original images where possible. Use clear file names such as product-name-front.jpg, workshop-line.jpg, or company-logo.png."
-        },
-        {
-          "title": "Large files",
-          "description": "For large image sets, videos, catalogs, or compressed folders, send a cloud drive link instead of embedding images inside the email body."
-        }
-      ]
+      "title": "Image Attachments",
+      "description": "Send product images, factory photos, certificates, and logos as email attachments only."
     },
-    "footer_note": "Submitting materials does not guarantee publication. HeatEx Direct may edit, summarize, reject, or request clarification before updating a public page."
+    "footer_note": "Note: Submitted materials will be manually reviewed before the profile is updated."
   }
 }

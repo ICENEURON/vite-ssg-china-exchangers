@@ -21,13 +21,9 @@ export function HeroSection() {
         <section className="relative overflow-hidden bg-slate-50 px-2 py-16 flex flex-col items-center justify-center w-full">
             <div className="absolute inset-0 bg-grid-hero-center pointer-events-none" />
 
-            <div className="container relative mx-auto max-w-6xl pt-16">
-                <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+            <div className="container relative mx-auto max-w-6xl pt-16 px-4">
+                <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
                     <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
-                        <Badge variant="outline" className="border-primary/20 bg-white px-4 py-2 text-primary shadow-sm">
-                            {t("pages.profile.hero.status_badge")}
-                        </Badge>
-
                         <h1 className="max-w-4xl text-4xl font-extrabold tracking-tight text-slate-950 md:text-5xl">
                             {t('pages.profile.hero.title')}
                         </h1>
@@ -52,23 +48,11 @@ export function HeroSection() {
                                     {t('pages.profile.hero.template_cta')}
                                 </a>
                             </Button>
-                            <Button size="lg" variant="outline" className="h-14 border-slate-300 bg-white px-8 text-base font-bold" asChild>
-                                <a href={`mailto:${email}?subject=${subject}`}>
-                                    <Mail className="mr-2 size-5" />
-                                    {t('pages.profile.hero.cta')}
-                                </a>
-                            </Button>
                         </div>
                     </div>
 
                     <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm md:p-8">
-                        <p className="text-sm font-semibold uppercase tracking-wide text-primary">
-                            {t('pages.profile.hero.panel.eyebrow')}
-                        </p>
-                        <h2 className="mt-3 text-2xl font-bold text-slate-950">
-                            {t('pages.profile.hero.panel.title')}
-                        </h2>
-                        <div className="mt-6 grid gap-4">
+                        <div className="grid gap-4">
                             {panelItems.map((item, index) => {
                                 const Icon = panelIcons[index] || FileText;
 

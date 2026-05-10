@@ -33,8 +33,8 @@
           "description": "模板用于统一填写公司信息、产品范围、文件资料和图片说明。填写完成后，可以和图片、证书、样本册等材料一起通过邮件发送。"
         },
         {
-          "title": "图片可以用附件或链接提供",
-          "description": "产品图片、工厂照片、车间图片、证书、样本册和 Logo 可以作为邮件附件、压缩包，或通过云盘下载链接发送。"
+          "title": "图片可以用附件，只能附件。邮件发送。",
+          "description": "产品图片、工厂照片、车间图片、证书、样本册和 Logo 只能作为邮件附件发送。"
         },
         {
           "title": "尽量放在同一封邮件线程里",
@@ -93,43 +93,23 @@
   },
   "submission": {
     "title": "如何发送更新资料",
-    "description": "目前以邮件作为主要提交方式。如果文件较大，请提供云盘下载链接，并保持链接在审核期间可访问。",
+    "description": "",
     "contact": {
       "email_label": "邮箱",
       "subject_label": "建议邮件标题",
-      "subject_value": "[资料更新] - 公司名称"
+      "subject_value": "[资料更新] - 公司名称",
+      "subject_description": "邮件标题请写清公司名称，方便我们把文件对应到正确的制造商页面。",
+      "copied": "已复制"
     },
     "cta_button": "发送更新邮件",
     "required": {
-      "title": "邮件里建议包含",
-      "items": [
-        {
-          "title": "公司和页面信息",
-          "description": "公司名称、官网、已有 HeatEx Direct 页面链接，以及发送资料的联系人身份。"
-        },
-        {
-          "title": "具体要改什么",
-          "description": "请列出需要更新的字段或板块，例如公司介绍、产品范围、证书、图片或联系方式。"
-        },
-        {
-          "title": "支持材料",
-          "description": "可以附上样本册、产品目录、证书、产品数据表、公开链接，或你们自己整理好的资料文档。"
-        }
-      ]
+      "title": "填写好的文档",
+      "description": "请将填写完整的资料更新模板作为邮件附件发送。"
     },
     "media": {
-      "title": "图片和文件怎么发",
-      "items": [
-        {
-          "title": "图片",
-          "description": "尽量发送原图，并使用清楚的文件名，例如 product-name-front.jpg、workshop-line.jpg 或 company-logo.png。"
-        },
-        {
-          "title": "大文件",
-          "description": "如果图片很多、文件较大、包含视频或压缩包，请发送云盘链接，不要只把图片嵌在邮件正文里。"
-        }
-      ]
+      "title": "图片文件附件",
+      "description": "产品图片、工厂照片、车间图片、证书和 Logo 等请使用邮件附件发送。"
     },
-    "footer_note": "提交资料不代表一定发布。HeatEx Direct 可能会在公开页面更新前，对内容进行编辑、摘要、拒绝或要求补充说明。"
+    "footer_note": "提交的资料将由人工审核后更新到公开页面。"
   }
 }
