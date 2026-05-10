@@ -14,6 +14,11 @@ const SCORE_TABLE = 'manufacturer_scores';
 const SCORE_JSON_PATH = path.join(repoRoot, 'src', 'data', 'manufacturer_scores.json');
 const CONTENT_ARTICLE_SECTIONS = ['posts', 'news'];
 const DEFAULT_RESPONSE_TIME = 'n/a';
+const RECENT_UPDATE_SCORE_RULES = [
+    { maxDays: 3, score: 10 },
+    { maxDays: 7, score: 7 },
+    { maxDays: 30, score: 4 }
+];
 const RESPONSE_TIME_SCORE = {
     within_24h: 10,
     within_3_days: 7,
@@ -169,9 +174,22 @@ function collectMarkdownFiles(directory) {
     return markdownFiles;
 }
 
-function countPublishedArticles(manufacturerSlug, existingScore) {
+function extractFrontmatterDate(filePath) {
+    const content = fs.readFileSync(filePath, 'utf8');
+    const match = content.match(/^---\s*[\r\n]+([\s\S]*?)[\r\n]+---/);
+    if (!match) return null;
+
+    const dateMatch = match[1].match(/^date:\s*(.+)$/m);
+    if (!dateMatch) return null;
+
+    const parsedDate = new Date(dateMatch[1].trim());
+    return Number.isNaN(parsedDate.getTime()) ? null : parsedDate;
+}
+
+function getRecentContentUpdateScore(manufacturerSlug, existingScore) {
     let hasContentArticleRoot = false;
-    const articleSlugs = new Set();
+    const now = new Date();
+    let latestArticleDate = null;
 
     for (const section of CONTENT_ARTICLE_SECTIONS) {
         const sectionDir = path.join(repoRoot, 'content', section);
@@ -179,19 +197,32 @@ function countPublishedArticles(manufacturerSlug, existingScore) {
 
         const manufacturerDir = path.join(sectionDir, manufacturerSlug);
         for (const filePath of collectMarkdownFiles(manufacturerDir)) {
-            const articleSlug = path.basename(filePath).replace(/\.mdx?$/, '');
-            articleSlugs.add(`${section}:${articleSlug}`);
+            const articleDate = extractFrontmatterDate(filePath);
+            if (articleDate && (!latestArticleDate || articleDate > latestArticleDate)) {
+                latestArticleDate = articleDate;
+            }
         }
     }
 
-    return hasContentArticleRoot ? articleSlugs.size : existingScore?.published_article_count || 0;
+    if (!hasContentArticleRoot) {
+        return clamp(existingScore?.published_article_score || 0, 0, 10);
+    }
+
+    if (!latestArticleDate) {
+        return 0;
+    }
+
+    const ageInDays = (now.getTime() - latestArticleDate.getTime()) / (1000 * 60 * 60 * 24);
+    const matchingRule = RECENT_UPDATE_SCORE_RULES.find((rule) => ageInDays <= rule.maxDays);
+
+    return matchingRule?.score || 0;
 }
 
 function buildManufacturerScore(item, index, existingScore) {
     const manufacturer = item.manufacturer;
     const products = item.products || [];
     const responseTime = normalizeResponseTime(manufacturer.response_time || item.response_time || existingScore?.response_time);
-    const publishedArticleCount = countPublishedArticles(manufacturer.slug, existingScore);
+    const recentUpdateScore = getRecentContentUpdateScore(manufacturer.slug, existingScore);
     const score = {
         manufacturer_slug: manufacturer.slug,
         order: Number.isInteger(existingScore?.order) ? existingScore.order : index + 1,
@@ -205,8 +236,8 @@ function buildManufacturerScore(item, index, existingScore) {
         partner_logo_score: clamp(getCompanyAssets(item, 'company_customers').length, 0, 10),
         response_time: responseTime,
         response_time_score: RESPONSE_TIME_SCORE[responseTime] || 0,
-        published_article_count: publishedArticleCount,
-        published_article_score: clamp(publishedArticleCount, 0, 10)
+        published_article_count: recentUpdateScore > 0 ? 1 : 0,
+        published_article_score: recentUpdateScore
     };
 
     score.overall_score = score.company_intro_score

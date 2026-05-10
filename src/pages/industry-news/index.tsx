@@ -65,10 +65,10 @@ function FilterButton({
             aria-pressed={active}
             onClick={onClick}
             className={cn(
-                "flex w-full items-start justify-between gap-3 rounded-sm border px-3 py-2 text-left text-sm transition-colors",
+                "flex w-full items-start justify-between gap-3 rounded-lg border border-border/60 bg-white px-3 py-2.5 text-left text-sm font-semibold text-foreground shadow-sm transition-all duration-300",
                 active
-                    ? "border-primary bg-primary text-primary-foreground"
-                    : "border-border bg-background text-foreground hover:bg-accent/50",
+                    ? "border-primary/35 bg-primary/[0.06] text-primary"
+                    : "hover:border-primary/30 hover:bg-blue-50/60",
                 className
             )}
         >
@@ -152,7 +152,7 @@ export default function BlogsPage() {
             : [];
 
         return [
-            { value: 'all' as const, label: t('pages.news.filters.all_companies'), count: getCount('all') },
+            { value: 'all' as const, label: t('pages.news.filters.all'), count: getCount('all') },
             ...heatexDirectOption,
             ...companyItems,
         ];
@@ -248,7 +248,7 @@ export default function BlogsPage() {
                                     onChange={(event) => setSearchQuery(event.target.value)}
                                     placeholder={t('pages.news.search.title_placeholder')}
                                     aria-label={t('pages.news.search.label')}
-                                    className="h-11 rounded-sm border-border bg-background pl-10 text-sm shadow-none focus-visible:border-primary focus-visible:ring-primary/20"
+                                    className="h-11 rounded-lg border-border/60 bg-white pl-10 text-sm shadow-sm focus-visible:border-primary focus-visible:ring-primary/20"
                                 />
                             </div>
 

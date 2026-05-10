@@ -192,7 +192,6 @@ export default function ManufacturersPage() {
         overallScore: signal.overall_score,
         responseTime: signal.response_time,
         responseTierRank: getResponseTierRank(signal.response_time),
-        publishedArticleCount: signal.published_article_count,
         productCount,
       },
     };
@@ -259,21 +258,21 @@ export default function ManufacturersPage() {
         <section className="py-10">
           <div className="container mx-auto px-4 md:px-8 max-w-6xl">
 
-            <div className="mb-8">
-              <div className="mb-5 rounded-lg border border-slate-200 bg-slate-50/70 px-4 py-3">
+            <div className="mb-6">
+              <div className="mb-5 overflow-hidden rounded-2xl border border-blue-900 bg-blue-900 px-4 py-4 shadow-sm shadow-blue-900/60">
                 <div className="flex items-start gap-3">
-                  <div className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600">
+                  <div className="flex h-7 w-7 shrink-0 items-center justify-center text-white">
                     <Info className="h-4 w-4" />
                   </div>
                   <div className="min-w-0 flex-1">
-                    <p className="text-sm font-medium leading-6 text-slate-700">
+                    <p className="text-sm font-semibold leading-6 text-white">
                       {manufacturersT.t("scoring_note.description")}
                     </p>
-                    <div className="mt-2 flex flex-wrap gap-1.5">
+                    <div className="mt-3 flex flex-wrap gap-2">
                       {scoreDimensions.map((dimension) => (
                         <span
                           key={dimension}
-                          className="inline-flex items-center rounded-md border border-slate-200 bg-white px-2 py-1 text-[11px] font-semibold leading-none text-slate-600"
+                          className="inline-flex items-center rounded-full border border-white/30 bg-white px-3 py-1.5 text-[11px] font-bold leading-none text-blue-700 shadow-sm shadow-blue-600/20"
                         >
                           {dimension}
                         </span>
@@ -287,11 +286,11 @@ export default function ManufacturersPage() {
                 <FilterDropdown
                   open={isIndustryDropdownOpen}
                   onOpenChange={(open) => handleDropdownOpenChange("industry", open)}
-                  contentClassName="w-72"
+                  contentClassName="w-72 bg-white"
                   trigger={({ open, triggerProps }) => (
                     <button
                       {...triggerProps}
-                      className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
+                      className="flex items-center gap-2 rounded-lg border border-border/60 bg-white px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
                     >
                       <Filter className="w-4 h-4 text-primary" />
                       <span>{manufacturersT.t("filter_industry")}</span>
@@ -333,11 +332,11 @@ export default function ManufacturersPage() {
                 <FilterDropdown
                   open={isCityDropdownOpen}
                   onOpenChange={(open) => handleDropdownOpenChange("city", open)}
-                  contentClassName="w-60"
+                  contentClassName="w-60 bg-white"
                   trigger={({ open, triggerProps }) => (
                     <button
                       {...triggerProps}
-                      className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
+                      className="flex items-center gap-2 rounded-lg border border-border/60 bg-white px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
                     >
                       <MapPin className="w-4 h-4 text-primary" />
                       <span>{manufacturersT.t("filter_city")}</span>
@@ -379,11 +378,11 @@ export default function ManufacturersPage() {
                 <FilterDropdown
                   open={isSortDropdownOpen}
                   onOpenChange={(open) => handleDropdownOpenChange("sort", open)}
-                  contentClassName="w-72"
+                  contentClassName="w-72 bg-white"
                   trigger={({ open, triggerProps }) => (
                     <button
                       {...triggerProps}
-                      className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
+                      className="flex items-center gap-2 rounded-lg border border-border/60 bg-white px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
                     >
                       <ArrowUpDown className="h-4 w-4 text-primary" />
                       <span>{manufacturersT.t("sort_by")}</span>
@@ -392,29 +391,29 @@ export default function ManufacturersPage() {
                     </button>
                   )}
                 >
-                      <div className="p-2.5">
-                        <div className="grid gap-1">
-                          {sortOptions.map((option) => {
-                            const isSelected = sortKey === option;
-                            return (
-                              <button
-                                key={option}
-                                onClick={() => {
-                                  setSortKey(option);
-                                  closeDropdowns();
-                                }}
-                                className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-lg transition-all group ${isSelected
-                                  ? 'bg-primary/[0.06] text-primary font-semibold'
-                                  : 'text-foreground hover:bg-zinc-950/[0.04]'
-                                  }`}
-                              >
-                                <span>{manufacturersT.t(`sort_options.${option}`)}</span>
-                                {isSelected && <Check className="w-4 h-4 animate-in zoom-in duration-200" />}
-                              </button>
-                            );
-                          })}
-                        </div>
-                      </div>
+                  <div className="p-2.5">
+                    <div className="grid gap-1">
+                      {sortOptions.map((option) => {
+                        const isSelected = sortKey === option;
+                        return (
+                          <button
+                            key={option}
+                            onClick={() => {
+                              setSortKey(option);
+                              closeDropdowns();
+                            }}
+                            className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-lg transition-all group ${isSelected
+                              ? 'bg-primary/[0.06] text-primary font-semibold'
+                              : 'text-foreground hover:bg-zinc-950/[0.04]'
+                              }`}
+                          >
+                            <span>{manufacturersT.t(`sort_options.${option}`)}</span>
+                            {isSelected && <Check className="w-4 h-4 animate-in zoom-in duration-200" />}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
                 </FilterDropdown>
 
                 {hasActiveFilters && (

@@ -184,10 +184,15 @@ unknown       => 0 legacy input, normalized to n/a
 
 ### published_article_count and published_article_score
 
-The script counts markdown content by manufacturer folder under `content/posts/<manufacturer_slug>` and `content/news/<manufacturer_slug>`. Bilingual files with the same filename slug are counted once per section.
+The script no longer scores manufacturers by article quantity. It checks markdown content under `content/posts/<manufacturer_slug>` and `content/news/<manufacturer_slug>`, reads frontmatter `date`, and scores the most recent update recency.
+
+`published_article_count` is retained only for table compatibility and stores `1` when the manufacturer has any scored recent update bucket, otherwise `0`.
 
 ```txt
-published_article_score = min(published_article_count, 10)
+updated within 3 days   => published_article_score = 10
+updated within 1 week   => published_article_score = 7
+updated within 1 month  => published_article_score = 4
+older than 1 month      => published_article_score = 0
 ```
 
 ## Important Notes

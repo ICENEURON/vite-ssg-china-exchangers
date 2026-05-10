@@ -6,6 +6,7 @@ import { useCurrentLanguage, addLanguageToPath } from "../../utils/language-rout
 import { FilterDropdown } from "../../components/ui/filter-dropdown";
 import { ArrowRight, Filter, ChevronDown, X, Check, Factory, Mail } from "lucide-react";
 import { Badge } from "../../components/ui/badge";
+import { PageHero } from "../../components/ui/page-hero";
 import { QuoteCta } from "../../components/ui/quote-cta";
 import { RfqLink } from "../../utils/rfq-routing/link";
 import manufacturerScores from "../../data/manufacturer_scores.json";
@@ -180,22 +181,12 @@ export default function ProductsPage() {
             </Head>
 
             <main className="min-h-screen bg-background pb-20">
-                {/* Hero Section */}
-                <section className="relative overflow-hidden bg-slate-900 py-[61.67px] px-6 md:px-12">
-                    {/* Decorative Elements */}
-                    <div className="absolute top-0 left-0 w-full h-full bg-product-hero-radial" />
-                    <div className="relative max-w-6xl mx-auto z-10 flex flex-col items-center text-center">
-                        <Badge className="mb-6 bg-primary/20 text-blue-300 border-none px-4 py-1.5 backdrop-blur-md">
-                            {productsT.t("hero.badge")}
-                        </Badge>
-                        <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-8 tracking-tight max-w-4xl">
-                            {productsT.t("title")}
-                        </h1>
-                        <p className="text-xl text-slate-300 max-w-3xl leading-relaxed mb-10">
-                            {productsT.t("description")}
-                        </p>
-                    </div>
-                </section>
+                <PageHero
+                    title={productsT.t("hero.title")}
+                    description={productsT.t("hero.description")}
+                    backgroundImageSrc="/static/websites/manufacturers-hero.png"
+                    backgroundImageAlt="Industrial Facility"
+                />
 
                 <section className="py-10">
                     <div className="container mx-auto px-4 md:px-8 max-w-7xl">
@@ -204,11 +195,11 @@ export default function ProductsPage() {
                                 <FilterDropdown
                                     open={isManufacturerDropdownOpen}
                                     onOpenChange={(open) => handleDropdownOpenChange("manufacturer", open)}
-                                    contentClassName="w-80"
+                                    contentClassName="w-80 bg-white"
                                     trigger={({ open, triggerProps }) => (
                                         <button
                                             {...triggerProps}
-                                            className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
+                                            className="flex items-center gap-2 rounded-lg border border-border/60 bg-white px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
                                         >
                                             <Factory className="w-4 h-4 text-primary" />
                                             <span>{productsT.t("filter_manufacturer")}</span>
@@ -250,11 +241,11 @@ export default function ProductsPage() {
                                 <FilterDropdown
                                     open={isIndustryDropdownOpen}
                                     onOpenChange={(open) => handleDropdownOpenChange("industry", open)}
-                                    contentClassName="w-72"
+                                    contentClassName="w-72 bg-white"
                                     trigger={({ open, triggerProps }) => (
                                         <button
                                             {...triggerProps}
-                                            className="flex items-center gap-2 rounded-lg border border-border/60 bg-card px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
+                                            className="flex items-center gap-2 rounded-lg border border-border/60 bg-white px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
                                         >
                                             <Filter className="w-4 h-4 text-primary" />
                                             <span>{productsT.t("filter_by")}</span>
@@ -345,10 +336,9 @@ export default function ProductsPage() {
                                 <Link
                                     key={product.slug}
                                     to={addLanguageToPath(`/products/${product.url}`, currentLanguage)}
-                                    className="group flex h-full flex-col overflow-hidden rounded-lg border border-border/40 bg-card shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-lg"
+                                    className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/60 hover:shadow-xl hover:shadow-primary/10"
                                 >
-                                    <div className="h-56 overflow-hidden bg-white flex items-center justify-center relative p-4">
-                                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300 z-10 pointer-events-none" />
+                                    <div className="relative flex h-56 items-center justify-center overflow-hidden bg-white p-4">
                                         {product.images && product.images.length > 0 ? (
                                             <img
                                                 src={product.images[0].url}
@@ -360,10 +350,10 @@ export default function ProductsPage() {
                                         )}
                                     </div>
 
-                                    <div className="p-4 flex flex-col flex-1 border-t border-border/40">
+                                    <div className="flex flex-1 flex-col border-t border-slate-200 p-4">
                                         <div className="h-14 overflow-hidden">
                                             <h3
-                                                className="font-bold text-foreground transition-colors group-hover:text-primary group-hover:underline"
+                                                className="font-bold text-foreground transition-colors duration-300 group-hover:text-primary"
                                                 style={{ fontSize: "22px", lineHeight: "28px" }}
                                             >
                                                 {product.name}
@@ -382,7 +372,7 @@ export default function ProductsPage() {
                                         </div>
 
                                         <div className="mt-auto pt-4">
-                                            <div className="flex items-center text-sm font-semibold text-primary group-hover:underline">
+                                            <div className="flex items-center text-sm font-semibold text-primary transition-colors duration-300 group-hover:text-orange-600">
                                                 {productsT.t("card.explore_details")}
                                                 <ArrowRight className="w-4 h-4 ml-1.5 group-hover:translate-x-1.5 transition-transform" />
                                             </div>

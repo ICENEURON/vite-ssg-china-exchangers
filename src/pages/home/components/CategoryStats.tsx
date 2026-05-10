@@ -1,15 +1,10 @@
 import { useTranslation } from "react-i18next";
-import { posts } from ".velite";
-import type { Post } from ".velite";
-import { useCurrentLanguage } from "../../../utils/language-routing";
 
 export function CategoryStats() {
     const { t } = useTranslation("translation");
-    const currentLanguage = useCurrentLanguage();
-    const language = currentLanguage === "zh" ? "zh" : "en";
     const manufacturers = t("pages.manufacturers.list", { returnObjects: true }) as unknown[];
     const products = t("pages.products.list", { returnObjects: true }) as unknown[];
-    const articleCount = (posts as Post[]).filter((post) => (post.lang || "en") === language).length;
+    const industries = t("industries", { returnObjects: true }) as unknown[];
     const stats = [
         {
             value: String(manufacturers.length),
@@ -24,8 +19,8 @@ export function CategoryStats() {
             card: "bg-emerald-50 border-emerald-100",
         },
         {
-            value: String(articleCount),
-            label: t("pages.home.categoryShowcase.stats.articles"),
+            value: String(industries.length),
+            label: t("pages.home.categoryShowcase.stats.industries"),
             accent: "text-orange-500",
             card: "bg-orange-50 border-orange-100",
         },

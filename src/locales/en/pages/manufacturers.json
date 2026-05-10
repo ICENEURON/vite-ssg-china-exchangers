@@ -26,35 +26,33 @@
       "Downloadable documents",
       "Partner logos",
       "Response speed",
-      "Published articles"
+      "Recently updated"
     ]
   },
   "title": "Verified Heat Exchanger Manufacturers | HeatEx Direct",
   "meta": {
-    "description": "Browse a focused directory of reviewed Chinese heat exchanger manufacturers with city, industry, profile completeness, response tier, article, and product signals.",
+    "description": "Browse a focused directory of reviewed Chinese heat exchanger manufacturers with city, industry, profile completeness, response tier, and product signals.",
     "keywords": "verified heat exchanger manufacturers, China heat exchanger factories, manufacturer directory, heat exchanger supplier scoring, industrial heat exchanger sourcing"
   },
   "og": {
     "title": "Verified Heat Exchanger Manufacturers | HeatEx Direct",
-    "description": "Browse reviewed Chinese heat exchanger manufacturers with city, industry, profile completeness, response tier, article, and product signals.",
+    "description": "Browse reviewed Chinese heat exchanger manufacturers with city, industry, profile completeness, response tier, and product signals.",
     "image": "/static/websites/home-hero.png",
     "url": "{{url}}",
     "type": "website",
     "site_name": "{{site_name}}"
   },
   "hero": {
-    "badge": "100% Verified Manufacturers",
-    "title": "Find the right verified manufacturer",
-    "description": "We do not chase a bigger list for its own sake. The goal is a smaller, clearer directory where every listed manufacturer has gone through profile review and verification before appearing here."
+    "badge": "",
+    "title": "China Heat Exchanger Manufacturer Directory",
+    "description": "Browse a growing directory of Chinese heat exchanger manufacturers, filter by city and industry, and compare company profiles, product coverage, export markets, and response speed in one place."
   },
   "card": {
     "verified": "VERIFIED",
     "score": "Score",
-    "article_unit": "articles",
     "metrics": {
       "profile": "Overall score",
       "response": "Response speed",
-      "articles": "Published articles",
       "products": "Product count"
     },
     "response_tiers": {

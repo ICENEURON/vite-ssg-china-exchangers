@@ -1,4 +1,4 @@
-import { ArrowRight, Clock3, FileText, Gauge, MapPin, PackageSearch } from "lucide-react"
+import { ArrowRight, Clock3, Gauge, MapPin, PackageSearch } from "lucide-react"
 import { Badge } from "../../../components/ui/badge";
 import { useTranslation } from "react-i18next"
 
@@ -7,7 +7,6 @@ interface RankingSignal {
     overallScore: number;
     responseTime: "within_24h" | "within_3_days" | "within_1_week" | "unknown" | "n/a";
     responseTierRank: number;
-    publishedArticleCount: number;
     productCount: number;
 }
 
@@ -43,21 +42,15 @@ export function ManufacturerCard({ company }: { company: ManufacturerProps }) {
             icon: PackageSearch,
             className: "border-amber-500/25 bg-amber-50",
         },
-        {
-            label: t("metrics.articles"),
-            value: company.ranking.publishedArticleCount,
-            icon: FileText,
-            className: "border-teal-500/25 bg-teal-50",
-        },
     ];
 
     return (
-        <article className="group flex h-full flex-col overflow-visible rounded-lg border border-border/40 bg-card p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-lg">
+        <article className="group flex h-full flex-col overflow-visible rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/60 hover:shadow-xl hover:shadow-primary/10">
             <div className="flex items-start">
                 <a href={company.link} className="min-w-0 flex-1">
                     <div className="h-14 overflow-hidden">
                         <h3
-                            className="font-bold text-foreground transition-colors group-hover:text-primary group-hover:underline"
+                            className="font-bold text-foreground transition-colors duration-300 group-hover:text-primary"
                             style={{ fontSize: "22px", lineHeight: "28px" }}
                         >
                             {company.name}
@@ -69,32 +62,32 @@ export function ManufacturerCard({ company }: { company: ManufacturerProps }) {
             <div className="mt-3 min-w-0">
                 <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-zinc-700">
                     <div className="flex items-center gap-1.5 min-w-0">
-                        <MapPin className="w-4 h-4" />
+                        <MapPin className="w-4 h-4 text-primary transition-colors duration-300 group-hover:text-orange-500" />
                         <span className="truncate">{company.location}</span>
                     </div>
                 </div>
 
-                <p className="mt-3 text-sm leading-6 text-zinc-700">
+                <p className="mt-3 text-sm leading-7 text-zinc-700">
                     {company.description}
                 </p>
 
-                <div className="mt-4 grid grid-cols-2 gap-2 md:hidden">
+                <div className="mt-4 grid grid-cols-3 gap-2 md:hidden">
                     {metrics.map((metric) => (
-                        <div key={metric.label} className={`rounded-md border px-3 py-2 ${metric.className}`}>
-                            <div className="text-[11px] font-semibold text-zinc-600">{metric.label}</div>
-                            <div className="mt-1 text-base font-extrabold leading-tight text-foreground">{metric.value}</div>
+                        <div key={metric.label} className={`flex min-h-16 flex-col items-center justify-center rounded-xl border text-center shadow-sm transition-colors duration-300 ${metric.className}`}>
+                            <div className="text-[11px] font-semibold leading-tight text-zinc-600">{metric.label}</div>
+                            <div className="mt-1 text-sm font-extrabold leading-tight text-foreground">{metric.value}</div>
                         </div>
                     ))}
                 </div>
 
-                <div className="mt-4 hidden grid-cols-4 gap-2 md:grid">
+                <div className="mt-4 hidden grid-cols-3 gap-2 md:grid">
                     {metrics.map((metric) => {
                         const MetricIcon = metric.icon;
 
                         return (
                             <div
                                 key={metric.label}
-                                className={`group/metric relative flex min-h-12 items-center justify-center gap-1.5 rounded-md border px-2 py-2 ${metric.className}`}
+                                className={`group/metric relative flex min-h-12 items-center justify-center gap-1.5 rounded-xl border px-2 py-2 shadow-sm transition-colors duration-300 ${metric.className}`}
                                 aria-label={`${metric.label}: ${metric.value}`}
                             >
                                 <MetricIcon className="h-3.5 w-3.5 shrink-0 text-zinc-600" />
@@ -117,7 +110,7 @@ export function ManufacturerCard({ company }: { company: ManufacturerProps }) {
             </div>
 
             <div className="mt-auto pt-4">
-                <a href={company.link} className="flex items-center text-sm font-semibold text-primary group-hover:underline">
+                <a href={company.link} className="flex items-center text-sm font-semibold text-primary transition-colors duration-300 group-hover:text-orange-600">
                     {t("view_profile")}
                     <ArrowRight className="w-4 h-4 ml-1.5 group-hover:translate-x-1.5 transition-transform" />
                 </a>
