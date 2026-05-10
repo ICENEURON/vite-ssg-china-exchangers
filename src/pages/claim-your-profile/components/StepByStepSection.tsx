@@ -27,7 +27,7 @@ export function StepByStepSection() {
     return (
         <section className="pb-14 px-2 bg-background flex flex-col items-center">
             <div className="container mx-auto max-w-6xl p-4 flex flex-col items-center gap-6">
-                <div className="bg-gray-900 rounded-xl p-6 md:p-10 shadow-2xl relative overflow-hidden w-full flex flex-col items-center">
+                <div className="bg-slate-900 rounded-xl p-6 md:p-10 shadow-2xl relative overflow-hidden w-full flex flex-col items-center">
                     <div className="flex items-center justify-center relative z-10 border-b border-white/10 pb-6 mb-6 md:pb-10 md:mb-10 w-full">
                         <button
                             onClick={handleCopyEmail}

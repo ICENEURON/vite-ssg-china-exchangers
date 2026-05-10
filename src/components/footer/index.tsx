@@ -81,7 +81,7 @@ const Footer = () => {
                   src={logo.src}
                   alt="logo"
                   title={logo.title}
-                  className="h-10 w-auto"
+                  className="h-12 w-auto"
                 />
                 {/* <span className="text-xl font-bold text-navbar-foreground">
                   {logo.title}

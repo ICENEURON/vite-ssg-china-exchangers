@@ -14,11 +14,11 @@
     },
     "hero": {
         "badge": "Factory Article Submissions",
-        "title": "Submit articles for <br /> <0>Industry News</0>",
-        "description": "HeatEx Direct accepts article submissions from Chinese heat exchanger manufacturers. We review technical articles, product updates, application cases, factory news, and market notes, then publish suitable content in Industry News for buyers researching suppliers and equipment options.",
+        "title": "Submit to Industry News",
+        "description": "<0>HeatEx</0> <1>Direct</1> accepts article submissions from Chinese heat exchanger manufacturers. We review technical articles, product updates, application cases, factory news, and market notes, then publish suitable content in Industry News for buyers researching suppliers and equipment options.",
         "email_subject": "[Industry News Submission] - Company Name - Article Topic",
         "buttons": {
-            "start_publishing": "Email an Article Draft"
+            "start_publishing": "View submission email"
         }
     },
     "platform_impact": {
@@ -125,11 +125,11 @@
         "steps": [
             {
                 "title": "Prepare the Article",
-                "description": "Write the draft in .DOCX or .DOC format. Add images as separate files or links, and include basic company and contact details."
+                "description": "Write the article in .DOCX or .DOC format. Add images as separate files or links, and include basic company and contact details."
             },
             {
                 "title": "Send by Email",
-                "description": "Email the draft to our team with the subject '[Industry News Submission] - Company Name - Article Topic'."
+                "description": "Email the article to our team with the subject '[Industry News Submission] - Company Name - Article Topic'."
             },
             {
                 "title": "Review and Publish",
@@ -158,13 +158,13 @@
             "title": "Publication and Review",
             "items": [
                 "**Editorial review**: We decide whether a submission fits Industry News.",
-                "**Formatting**: Approved drafts may be edited for title, structure, readability, and translation.",
+                "**Formatting**: Approved articles may be edited for title, structure, readability, and translation.",
                 "**Publishing**: Suitable articles are published as public Industry News content."
             ]
         }
     },
     "cta": {
-        "title": "Send us your article draft",
+        "title": "Send us your article",
         "description": "Use an editable Word file, attach original images or download links, and include your company name and contact person. We will review whether it fits Industry News.",
         "email_subject": "[Industry News Submission] - Company Name - Article Topic",
         "button": "Email Submission"

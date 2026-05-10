@@ -7,7 +7,7 @@ export function ContactCTA() {
     const checklist = t("pages.contact.cta.checklist", { returnObjects: true }) as string[];
 
     return (
-        <section className="flex justify-center bg-slate-950 px-2 py-16 text-white">
+        <section className="flex justify-center bg-navbar px-2 py-16 text-white">
             <div className="container max-w-5xl px-4">
                 <div className="grid overflow-hidden border border-white/10 bg-white/[0.04] shadow-2xl shadow-black/20 md:grid-cols-[0.95fr_1.05fr]">
                     <div className="flex flex-col gap-5 border-b border-white/10 bg-white/[0.03] p-6 md:border-b-0 md:border-r md:p-8">
