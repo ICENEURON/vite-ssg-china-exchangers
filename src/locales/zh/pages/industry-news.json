@@ -13,8 +13,8 @@
         "site_name": "{{site_name}}"
     },
     "page": {
-        "title": "行业见解",
-        "subtitle": "提供换热器行业最新的市场趋势、物流更新与技术指南。",
+        "title": "行业新闻",
+        "subtitle": "",
         "latest": "最新动态"
     },
     "hero": {
@@ -38,8 +38,9 @@
         "no_results": "没有符合筛选条件的文章。"
     },
     "search": {
-        "label": "搜索文章标题",
-        "placeholder": "按关键词搜索文章标题"
+            "label": "搜索文章标题",
+            "placeholder": "搜索文章、产品、厂家或应用关键词",
+            "title_placeholder": "搜索标题关键词"
     },
     "blog": {
         "not_found_title": "找不到页面",
@@ -48,7 +49,7 @@
         "author": "作者",
         "reviewer": "审阅者",
         "read_time": "阅读时间",
-        "related_posts": "相关文章"
+        "related_posts": "最新文章"
     },
     "pagination": {
         "of": "/",

@@ -13,8 +13,8 @@
         "site_name": "{{site_name}}"
     },
     "page": {
-        "title": "Industry Insights",
-        "subtitle": "Latest market trends, logistics updates, and technical guides for the heat exchanger industry.",
+        "title": "Industry News",
+        "subtitle": "",
         "latest": "Latest Updates"
     },
     "hero": {
@@ -38,8 +38,9 @@
         "no_results": "No articles match these filters."
     },
     "search": {
-        "label": "Search article titles",
-        "placeholder": "Search article titles by keyword"
+            "label": "Search article titles",
+            "placeholder": "Search articles, products, manufacturers, or applications",
+            "title_placeholder": "Search title keywords"
     },
     "blog": {
         "not_found_title": "Page Not Found",
@@ -48,7 +49,7 @@
         "author": "Author",
         "reviewer": "Reviewer",
         "read_time": "Read",
-        "related_posts": "Related Articles"
+        "related_posts": "Latest Articles"
     },
     "pagination": {
         "of": "of",

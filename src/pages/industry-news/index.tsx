@@ -5,8 +5,8 @@ import { posts } from '.velite'
 import { useCurrentLanguage } from '../../utils/language-routing'
 import { NewsHero } from './components/NewsHero'
 import { NewsList } from './components/NewsList'
-import { useMemo, useState, useEffect } from 'react'
-import { Factory, Files, Newspaper, Search } from 'lucide-react'
+import { useMemo, useState, useEffect, useCallback } from 'react'
+import { Factory, Newspaper, Search } from 'lucide-react'
 import {
     Pagination,
     PaginationContent,
@@ -52,11 +52,13 @@ function FilterButton({
     label,
     count,
     onClick,
+    className,
 }: {
     active: boolean;
     label: string;
     count: number;
     onClick: () => void;
+    className?: string;
 }) {
     return (
         <button
@@ -64,14 +66,15 @@ function FilterButton({
             aria-pressed={active}
             onClick={onClick}
             className={cn(
-                "flex w-full items-center justify-between gap-3 rounded-sm border px-3 py-2 text-left text-sm transition-colors",
+                "flex w-full items-start justify-between gap-3 rounded-sm border px-3 py-2 text-left text-sm transition-colors",
                 active
                     ? "border-primary bg-primary text-primary-foreground"
-                    : "border-border bg-background text-foreground hover:bg-accent/50"
+                    : "border-border bg-background text-foreground hover:bg-accent/50",
+                className
             )}
         >
-            <span className="min-w-0 flex-1 truncate">{label}</span>
-            <span className={cn("text-xs", active ? "text-primary-foreground/80" : "text-muted")}>{count}</span>
+            <span className="min-w-0 flex-1 whitespace-normal break-words leading-5">{label}</span>
+            <span className={cn("shrink-0 pt-0.5 text-xs", active ? "text-primary-foreground/80" : "text-muted")}>{count}</span>
         </button>
     );
 }
@@ -87,6 +90,7 @@ export default function BlogsPage() {
     const [contentTypeFilter, setContentTypeFilter] = useState<ContentTypeFilter>('all');
     const [companyFilter, setCompanyFilter] = useState<CompanyFilter>('all');
     const [searchQuery, setSearchQuery] = useState('');
+    const pageSubtitle = t("pages.news.page.subtitle");
 
     // Filter posts by language and sort by date (newest first)
     const languagePosts = useMemo(() => posts
@@ -99,12 +103,12 @@ export default function BlogsPage() {
         .split(/\s+/)
         .filter(Boolean), [searchQuery]);
 
-    const titleMatchesSearch = (title: string) => {
+    const titleMatchesSearch = useCallback((title: string) => {
         if (searchKeywords.length === 0) return true;
 
         const normalizedTitle = title.toLowerCase();
         return searchKeywords.every((keyword) => normalizedTitle.includes(keyword));
-    };
+    }, [searchKeywords]);
 
     const contentTypeOptions = useMemo(() => {
         const getCount = (contentType: ContentTypeFilter) => languagePosts.filter((post) => {
@@ -116,10 +120,10 @@ export default function BlogsPage() {
 
         return [
             { value: 'all' as const, label: t('pages.news.filters.all'), count: getCount('all') },
-            { value: 'posts' as const, label: t('pages.news.content_types.posts'), count: getCount('posts') },
             { value: 'news' as const, label: t('pages.news.content_types.news'), count: getCount('news') },
+            { value: 'posts' as const, label: t('pages.news.content_types.posts'), count: getCount('posts') },
         ];
-    }, [companyFilter, languagePosts, searchKeywords, t]);
+    }, [companyFilter, languagePosts, titleMatchesSearch, t]);
 
     const companyOptions = useMemo(() => {
         const companies = Array.from(new Set(languagePosts.map((post) => post.company).filter(Boolean) as string[]));
@@ -153,14 +157,14 @@ export default function BlogsPage() {
             ...heatexDirectOption,
             ...companyItems,
         ];
-    }, [contentTypeFilter, currentLanguage, languagePosts, searchKeywords, t]);
+    }, [contentTypeFilter, currentLanguage, languagePosts, titleMatchesSearch, t]);
 
     const filteredPosts = useMemo(() => languagePosts.filter((post) => {
         if (contentTypeFilter !== 'all' && post.contentType !== contentTypeFilter) return false;
         if (companyFilter !== 'all' && post.company !== companyFilter) return false;
         if (!titleMatchesSearch(post.title)) return false;
         return true;
-    }), [companyFilter, contentTypeFilter, languagePosts, searchKeywords]);
+    }), [companyFilter, contentTypeFilter, languagePosts, titleMatchesSearch]);
 
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 10;
@@ -199,17 +203,13 @@ export default function BlogsPage() {
                 <div className="container py-12 mx-auto max-w-6xl space-y-8">
                     <div className="grid gap-2 text-center md:text-left">
                         <h1 className="tracking-tight text-foreground">{t("pages.news.page.title")}</h1>
-                        <p className="text-muted">{t("pages.news.page.subtitle")}</p>
+                        {pageSubtitle && <p className="text-muted">{pageSubtitle}</p>}
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-[220px_minmax(0,1fr)] gap-8 items-start">
                         <aside className="space-y-6 lg:sticky lg:top-24">
-                            <div className="space-y-3">
-                                <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
-                                    <Files className="size-4 text-primary" />
-                                    {t('pages.news.filters.content_type')}
-                                </div>
-                                <div className="space-y-2">
+                            <div>
+                                <div className="grid grid-cols-3 gap-2 lg:flex lg:flex-col">
                                     {contentTypeOptions.map((option) => (
                                         <FilterButton
                                             key={option.value}
@@ -217,6 +217,7 @@ export default function BlogsPage() {
                                             label={option.label}
                                             count={option.count}
                                             onClick={() => setContentTypeFilter(option.value)}
+                                            className="min-w-0"
                                         />
                                     ))}
                                 </div>
@@ -242,15 +243,15 @@ export default function BlogsPage() {
                         </aside>
 
                         <div className="space-y-8 min-w-0">
-                            <div className="relative">
-                                <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted" />
+                            <div className="relative hidden lg:block">
+                                <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-primary" />
                                 <Input
                                     type="search"
                                     value={searchQuery}
                                     onChange={(event) => setSearchQuery(event.target.value)}
-                                    placeholder={t('pages.news.search.placeholder')}
+                                    placeholder={t('pages.news.search.title_placeholder')}
                                     aria-label={t('pages.news.search.label')}
-                                    className="h-11 pl-10"
+                                    className="h-11 rounded-sm border-border bg-background pl-10 text-sm shadow-none focus-visible:border-primary focus-visible:ring-primary/20"
                                 />
                             </div>
 
@@ -265,16 +266,7 @@ export default function BlogsPage() {
                             {paginatedPosts.length > 0 && (
                                 <div>
                                     {listPosts.length > 0 && (
-                                        <>
-                                            <div className="mt-12 mb-4 flex flex-row justify-between items-center">
-                                                <h2 className="text-foreground flex items-center gap-2">
-                                                    <span className="w-1 h-8 bg-primary inline-block"></span>
-                                                    {t("pages.news.page.latest")}
-                                                </h2>
-                                            </div>
-
-                                            <NewsList posts={listPosts} />
-                                        </>
+                                        <NewsList posts={listPosts} />
                                     )}
 
                                     {filteredPosts.length > 0 && (
@@ -326,29 +318,6 @@ export default function BlogsPage() {
                                                         </PaginationItem>
                                                     </PaginationContent>
                                                 </Pagination>
-                                            )}
-
-                                            {/* Right: Jump to Page */}
-                                            {totalPages > 1 && (
-                                                <div className="hidden md:flex flex-row items-center gap-2 order-3 whitespace-nowrap">
-                                                    <span className="text-sm text-muted whitespace-nowrap">{t("pages.news.pagination.go_to")}</span>
-                                                    <Input
-                                                        type="number"
-                                                        min={1}
-                                                        max={totalPages}
-                                                        className="w-16 h-8"
-                                                        placeholder={currentPage.toString()}
-                                                        onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) => {
-                                                            if (e.key === 'Enter') {
-                                                                const val = parseInt(e.currentTarget.value);
-                                                                if (!isNaN(val) && val >= 1 && val <= totalPages) {
-                                                                    setCurrentPage(val);
-                                                                    e.currentTarget.value = '';
-                                                                }
-                                                            }
-                                                        }}
-                                                    />
-                                                </div>
                                             )}
                                         </div>
                                     )}
