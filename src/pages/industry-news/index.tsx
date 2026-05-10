@@ -50,13 +50,12 @@ function formatCompanyLabel(company: string, language: string) {
 function FilterButton({
     active,
     label,
-    count,
     onClick,
     className,
 }: {
     active: boolean;
     label: string;
-    count: number;
+    // 移除count
     onClick: () => void;
     className?: string;
 }) {
@@ -74,7 +73,7 @@ function FilterButton({
             )}
         >
             <span className="min-w-0 flex-1 whitespace-normal break-words leading-5">{label}</span>
-            <span className={cn("shrink-0 pt-0.5 text-xs", active ? "text-primary-foreground/80" : "text-muted")}>{count}</span>
+            {/* 移除数字显示 */}
         </button>
     );
 }
@@ -215,7 +214,6 @@ export default function BlogsPage() {
                                             key={option.value}
                                             active={contentTypeFilter === option.value}
                                             label={option.label}
-                                            count={option.count}
                                             onClick={() => setContentTypeFilter(option.value)}
                                             className="min-w-0"
                                         />
@@ -234,7 +232,6 @@ export default function BlogsPage() {
                                             key={option.value}
                                             active={companyFilter === option.value}
                                             label={option.label}
-                                            count={option.count}
                                             onClick={() => setCompanyFilter(option.value)}
                                         />
                                     ))}
@@ -271,10 +268,8 @@ export default function BlogsPage() {
 
                                     {filteredPosts.length > 0 && (
                                         <div className="mt-8 flex flex-col md:flex-row justify-between items-center gap-4 border-t border-border pt-6">
-                                            {/* Left: Results Count */}
-                                            <div className="text-sm text-muted whitespace-nowrap order-2 md:order-1">
-                                                {(currentPage - 1) * itemsPerPage + 1} - {Math.min(currentPage * itemsPerPage, filteredPosts.length)} {t("pages.news.pagination.of")} {filteredPosts.length} {t("pages.news.pagination.results")}
-                                            </div>
+
+                                            {/* 移除结果数，仅保留分页 */}
 
                                             {/* Center: Pagination */}
                                             {totalPages > 1 && (

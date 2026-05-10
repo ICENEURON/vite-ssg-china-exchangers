@@ -6,6 +6,16 @@ import { Head } from 'vite-react-ssg'
 import { useCurrentLanguage, addLanguageToPath } from '../../utils/language-routing'
 import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
+import manufacturersData from '../../data/manufacturers.json';
+// 获取公司名称
+const manufacturerNameBySlug = new Map(
+    (manufacturersData || []).map((manufacturer) => [manufacturer.slug, manufacturer.name])
+);
+function getCompanyName(slug, lang) {
+    const name = manufacturerNameBySlug.get(slug);
+    if (!name) return slug;
+    return lang === 'zh' ? name.zh : name.en;
+}
 
 export default function BlogPost() {
     const { t } = useTranslation("translation");
@@ -71,7 +81,7 @@ export default function BlogPost() {
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
                     {/* Main Content */}
                     <div className="lg:col-span-3 flex flex-col gap-6">
-                        <article className="prose prose-slate lg:prose-xl max-w-none flex flex-col gap-6">
+                        <article className="prose prose-slate max-w-none flex flex-col gap-6 !text-base !leading-relaxed">
                             <div className="not-prose flex flex-col gap-4 border-b border-border pb-6">
                                 <div className="flex flex-col items-start gap-2 text-sm text-muted">
                                     <div className="flex items-center gap-2">
@@ -111,7 +121,7 @@ export default function BlogPost() {
                             )}
 
                             <div
-                                className="mt-4 text-slate-700"
+                                className="mt-4 text-slate-700 !text-base !leading-relaxed prose prose-slate"
                                 dangerouslySetInnerHTML={{ __html: post.content }}
                             />
                         </article>
@@ -139,6 +149,11 @@ export default function BlogPost() {
                                                 <p className="text-[12px] font-semibold text-slate-800 leading-normal group-hover:text-primary transition-colors">
                                                     {rPost.title}
                                                 </p>
+                                                {rPost.company && (
+                                                    <span className="text-[11px] text-slate-500 font-normal mt-[-2px] ml-1">
+                                                        {getCompanyName(rPost.company, currentLanguage)}
+                                                    </span>
+                                                )}
                                             </Link>
                                         ))
                                     ) : (
@@ -158,7 +173,7 @@ export default function BlogPost() {
                     className="flex max-w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-4 font-bold text-slate-800 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float sm:px-6 group"
                 >
                     <ArrowLeft className="h-5 w-5 shrink-0 transition-transform group-hover:-translate-x-1" />
-                    <span className="truncate">{t("pages.news.blog.back_to_list")}</span>
+                    <span className="truncate">{t("pages.news.blog.back_to_catalog", "返回新闻目录")}</span>
                 </Link>
             </div>
         </section>
