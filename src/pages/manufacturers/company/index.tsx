@@ -1,7 +1,7 @@
 
 import { Head } from 'vite-react-ssg'
 import { Link, useParams, Navigate } from "react-router-dom"
-import { BadgeCheck, Factory, ArrowLeft, Star, MapPin, CheckCircle2, ShieldCheck, Award, Users, Globe2, Sparkles, Zap, Flame, Gauge, Mail, Phone, Linkedin, Youtube, ExternalLink, Download, FileText } from "lucide-react"
+import { BadgeCheck, Factory, ArrowLeft, ArrowRight, MapPin, ShieldCheck, Award, Users, Globe2, Package, Sparkles, Zap, Flame, Gauge, Mail, Phone, Linkedin, Youtube, ExternalLink, Download, FileText } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
 import { useTranslation } from 'react-i18next'
@@ -150,6 +150,8 @@ export default function ManufacturerProfilePage() {
     const TK = `pages.manufacturers.${slug}`;
     const documentDownloadsTitle = t(`${SHARED_TK}.document_downloads`, { defaultValue: currentLanguage === 'zh' ? '文档下载' : 'Document Downloads' });
     const downloadLabel = t(`${SHARED_TK}.download`, { defaultValue: currentLanguage === 'zh' ? '下载' : 'Download' });
+    const partnerWithTemplate = t(`${SHARED_TK}.partner_with`, { name: '__NAME__' });
+    const [partnerWithPrefix, partnerWithSuffix] = partnerWithTemplate.split('__NAME__');
 
     // Load manufacturer data dynamically based on the slug. 
     // If it returns a string, it means the key was not found (or returnObjects failed).
@@ -227,7 +229,7 @@ export default function ManufacturerProfilePage() {
     return (
         <>
             <Head>
-                <title>{mfgData.seo_data?.meta_title || `${basicInfo?.name || t(`${SHARED_TK}.page_title`)} - ${t(`${SHARED_TK}.premium_supplier`)}`}</title>
+                <title>{mfgData.seo_data?.meta_title || `${basicInfo?.name || t(`${SHARED_TK}.page_title`)}`}</title>
                 <meta name="description" content={mfgData.seo_data?.meta_description || (Array.isArray(description) ? description.join(' ') : description)?.substring(0, 160) || t(`${SHARED_TK}.meta_description_default`)} />
                 <link rel="canonical" href={currentUrl} />
             </Head>
@@ -243,10 +245,6 @@ export default function ManufacturerProfilePage() {
                     <div className="container relative mx-auto px-4 max-w-7xl">
                         <div className="flex flex-col lg:flex-row gap-12 items-start justify-between">
                             <div className="flex-1 self-start space-y-6">
-                                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gradient-to-r from-amber-500/20 to-orange-500/20 border border-amber-500/30 text-amber-300 font-bold tracking-wider text-xs uppercase shadow-warning-glow">
-                                    <Star className="w-3.5 h-3.5 fill-amber-500 text-amber-500" /> {t(`${SHARED_TK}.premium_supplier`)}
-                                </div>
-
                                 <h1 className="text-4xl lg:text-7xl font-extrabold tracking-tight leading-tight">
                                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-100 via-white to-blue-200 drop-shadow-sm">
                                         {basicInfo?.name}
@@ -280,11 +278,10 @@ export default function ManufacturerProfilePage() {
                             </div>
 
                             {/* Quote request box - frosted glass */}
-                            <div className="w-full max-w-md bg-white/5 backdrop-blur-md border border-white/10 p-8 rounded-3xl shadow-2xl relative overflow-hidden group">
+                            <div className="w-full max-w-md bg-white/5 backdrop-blur-md border border-white/10 p-8 rounded-2xl shadow-2xl relative overflow-hidden group">
                                 <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-purple-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-                                <h3 className="text-xl font-bold text-white mb-2 relative z-10">{t(`${SHARED_TK}.connect_directly`)}</h3>
-                                <p className="text-slate-300 text-sm mb-6 relative z-10">{t(`${SHARED_TK}.connect_description`)}</p>
+                                <p className="text-slate-100 text-sm font-bold mb-6 relative z-10">{t(`${SHARED_TK}.connect_description`)}</p>
 
                                 <QuoteCta size="lg" className="relative z-10 w-full h-14 text-lg" asChild>
                                     <RfqLink>
@@ -369,7 +366,7 @@ export default function ManufacturerProfilePage() {
                             )}
 
                             {/* Description Card */}
-                            <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
+                            <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm">
                                 <h2 className="text-2xl font-bold mb-6 flex items-center gap-3 text-slate-800">
                                     <Factory className="w-6 h-6 text-blue-600" /> {t(`${SHARED_TK}.company_overview`)}
                                 </h2>
@@ -384,18 +381,15 @@ export default function ManufacturerProfilePage() {
                             </div>
 
                             {/* Advantages - Single Line List Style */}
-                            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-3xl border border-blue-100">
-                                <h3 className="text-xl font-bold mb-6 flex items-center gap-2 text-blue-900">
-                                    <Sparkles className="w-5 h-5 text-amber-500" /> {t(`${SHARED_TK}.why_choose_us`)}
-                                </h3>
-                                <div className="space-y-4">
+                            <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm">
+                                <h2 className="text-2xl font-bold mb-6 flex items-center gap-3 text-slate-800">
+                                    <Sparkles className="w-6 h-6 text-blue-600" /> {t(`${SHARED_TK}.why_choose_us`)}
+                                </h2>
+                                <div className="space-y-3">
                                     {advantages?.map((adv: string, i: number) => (
-                                        <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-white border border-transparent shadow-sm hover:border-blue-200 transition-all">
-                                            <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center shrink-0 mt-0.5">
-                                                <CheckCircle2 className="w-5 h-5 text-blue-600" />
-                                            </div>
-                                            <span className="font-medium text-slate-800 text-lg leading-relaxed">{adv}</span>
-                                        </div>
+                                        <p key={i} className="font-medium text-slate-800 text-lg leading-relaxed">
+                                            {adv}
+                                        </p>
                                     ))}
                                 </div>
                             </div>
@@ -404,7 +398,7 @@ export default function ManufacturerProfilePage() {
                         {/* Sidebar - Info Cards */}
                         <div className="lg:col-span-4 space-y-6">
                             {/* Industries Tag Cloud */}
-                            <div className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm h-fit">
+                            <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm h-fit">
                                 <h3 className="font-bold mb-4 flex items-center gap-2 text-slate-800">
                                     <Flame className="w-5 h-5 text-orange-500" /> {t(`${SHARED_TK}.industries_served`)}
                                 </h3>
@@ -419,7 +413,7 @@ export default function ManufacturerProfilePage() {
 
                             {/* Export Markets Tag Cloud */}
                             {exportMarkets.length > 0 && (
-                                <div className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm h-fit">
+                                <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm h-fit">
                                     <h3 className="font-bold mb-4 flex items-center gap-2 text-slate-800">
                                         <Globe2 className="w-5 h-5 text-indigo-500" /> {t(`${SHARED_TK}.export_markets`, { defaultValue: 'Export Markets' })}
                                     </h3>
@@ -443,7 +437,7 @@ export default function ManufacturerProfilePage() {
                                     href={website}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="group block bg-gradient-to-r from-slate-900 to-slate-800 text-white p-6 rounded-3xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all"
+                                    className="group block bg-gradient-to-r from-slate-900 to-slate-800 text-white p-6 rounded-2xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all"
                                 >
                                     <div className="flex justify-between items-center mb-2">
                                         <span className="text-sm font-bold opacity-60 uppercase tracking-widest">{t(`${SHARED_TK}.official_website`)}</span>
@@ -457,7 +451,7 @@ export default function ManufacturerProfilePage() {
 
                             {/* Contact Information */}
                             {(email.length > 0 || phone.length > 0) && (
-                                <div className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm h-fit">
+                                <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm h-fit">
                                     <h3 className="font-bold mb-4 flex items-center gap-2 text-slate-800">
                                         <Phone className="w-5 h-5 text-emerald-500" /> {t(`${SHARED_TK}.contact_info`, { defaultValue: 'Contact Info' })}
                                     </h3>
@@ -480,7 +474,7 @@ export default function ManufacturerProfilePage() {
 
                             {/* Social Media Links */}
                             {socialMediaLinks.length > 0 && (
-                                <div className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm h-fit">
+                                <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm h-fit">
                                     <h3 className="font-bold mb-4 flex items-center gap-2 text-slate-800">
                                         <Globe2 className="w-5 h-5 text-blue-500" /> {t(`${SHARED_TK}.follow_us`, { defaultValue: 'Follow Us' })}
                                     </h3>
@@ -508,9 +502,14 @@ export default function ManufacturerProfilePage() {
 
                     {/* 2. PRODUCT SHOWCASE - Compact & Colorful */}
                     <div className="mb-20">
-                        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+                        <div className="mb-8">
                             <div>
-                                <h2 className="text-3xl font-bold tracking-tight text-slate-900 mb-4">{t(`${SHARED_TK}.product_showcase`)}</h2>
+                                <h2 className="text-3xl font-bold tracking-tight text-slate-900 mb-4 flex items-center gap-3">
+                                    <div className="rounded-xl bg-blue-100 p-3 text-blue-600">
+                                        <Package className="h-5 w-5" />
+                                    </div>
+                                    <span>{t(`${SHARED_TK}.product_showcase`)}</span>
+                                </h2>
                                 {manufacturerProductCategories.length > 0 && (
                                     <div className="flex flex-wrap gap-2 text-sm text-muted-foreground items-center">
                                         <span className="font-semibold text-foreground">{t(`${SHARED_TK}.available_categories`)}</span>
@@ -528,80 +527,64 @@ export default function ManufacturerProfilePage() {
                                     </div>
                                 )}
                             </div>
-                            <div className="h-1 flex-1 bg-slate-100 rounded-full md:ml-4" />
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                             {products?.map((product: Product, index: number) => (
-                                <div key={index} className="flex flex-col bg-white rounded-[2rem] overflow-hidden border border-slate-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300 group">
-                                    {/* Image Section */}
-                                    <div className="aspect-square bg-slate-50 flex flex-col items-center justify-center p-6 border-b border-slate-100 relative">
-                                        <Link to={addLanguageToPath(`/products/${product.url}`, currentLanguage)} className="w-full h-full">
-                                            {product.image ? (
-                                                <div className="w-full h-full relative rounded-2xl overflow-hidden bg-white shadow-sm p-4 cursor-pointer hover:shadow-md transition-shadow flex items-center justify-center">
-                                                    <img src={product.image} alt={product.name} className="max-w-full max-h-full object-contain hover:scale-105 transition-transform duration-500" />
-                                                </div>
-                                            ) : (
-                                                <div className="w-full h-full flex items-center justify-center cursor-pointer">
-                                                    <Gauge className="w-16 h-16 text-slate-300" />
-                                                </div>
-                                            )}
-                                        </Link>
-
-                                        {/* Product Certificates Overlay */}
-                                        {product.certificate && product.certificate.length > 0 && (
-                                            <div className="absolute bottom-4 left-0 w-full px-4 flex justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                                                {product.certificate.slice(0, 3).map((cert: ProductCertificate, cIdx: number) => (
-                                                    <div key={cIdx} className="bg-white/90 backdrop-blur-sm p-1.5 rounded-lg shadow-sm border border-slate-200" title={cert.name}>
-                                                        {cert.image ? (
-                                                            <img src={cert.image} alt={cert.name} className="h-5 w-auto object-contain" />
-                                                        ) : (
-                                                            <span className="text-[10px] font-bold">{cert.name}</span>
-                                                        )}
-                                                    </div>
-                                                ))}
+                                <Link
+                                    key={index}
+                                    to={addLanguageToPath(`/products/${product.url}`, currentLanguage)}
+                                    className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/60 hover:shadow-xl hover:shadow-primary/10"
+                                >
+                                    <div className="relative flex h-56 items-center justify-center overflow-hidden bg-white p-4">
+                                        {product.image ? (
+                                            <img src={product.image} alt={product.name} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700 ease-in-out mix-blend-multiply" />
+                                        ) : (
+                                            <div className="text-slate-400">
+                                                <Gauge className="w-16 h-16 text-slate-300" />
                                             </div>
                                         )}
                                     </div>
 
-                                    {/* Content Section */}
-                                    <div className="flex-1 p-6 flex flex-col">
-                                        <div className="mb-4">
-                                            <Link to={addLanguageToPath(`/products/${product.url}`, currentLanguage)}>
-                                                <h3 className="text-xl font-bold text-slate-900 leading-tight mb-3 hover:text-blue-600 transition-colors cursor-pointer line-clamp-2">
-                                                    {product.name}
-                                                </h3>
-                                            </Link>
-
-                                            {/* Short Description */}
-                                            {product.short_description && (
-                                                <p className="text-slate-600 leading-relaxed text-sm line-clamp-3">
-                                                    {product.short_description}
-                                                </p>
-                                            )}
+                                    <div className="flex flex-1 flex-col border-t border-slate-200 p-4">
+                                        <div className="h-14 overflow-hidden">
+                                            <h3
+                                                className="font-bold text-foreground transition-colors duration-300 group-hover:text-primary"
+                                                style={{ fontSize: "22px", lineHeight: "28px" }}
+                                            >
+                                                {product.name}
+                                            </h3>
                                         </div>
 
-                                        {/* Parameters Grid - Compact */}
-                                        {product.Parameters && product.Parameters.length > 0 && (
-                                            <div className="mt-auto space-y-2">
-                                                <div className="h-px bg-slate-100 mb-4" />
-                                                {product.Parameters.slice(0, 3).map((param: ProductParameter, pIdx: number) => (
-                                                    <div key={pIdx} className="flex justify-between items-center text-xs">
-                                                        <span className="text-slate-500">{param.name}</span>
-                                                        <span className="font-bold text-slate-900">{param.value}</span>
-                                                    </div>
-                                                ))}
-                                            </div>
+                                        {product.short_description && (
+                                            <p className="mt-3 text-sm leading-6 text-zinc-700 line-clamp-3">
+                                                {product.short_description}
+                                            </p>
                                         )}
+
+                                        <div className="mt-3 flex flex-wrap content-start items-start gap-1.5">
+                                            {product.certificate?.slice(0, 3).map((cert: ProductCertificate, cIdx: number) => (
+                                                <Badge key={cIdx} variant="secondary" className="rounded-full border-blue-600/20 bg-blue-200/30 px-2 py-0.5 text-[11px] font-bold text-blue-700 hover:bg-blue-200/30">
+                                                    {cert.name}
+                                                </Badge>
+                                            ))}
+                                        </div>
+
+                                        <div className="mt-auto pt-4">
+                                            <div className="flex items-center text-sm font-semibold text-primary transition-colors duration-300 group-hover:text-orange-600">
+                                                {t(`${SHARED_TK}.technical_specifications`)}
+                                                <ArrowRight className="w-4 h-4 ml-1.5 group-hover:translate-x-1.5 transition-transform" />
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
                             ))}
                         </div>
                     </div>
 
                     {/* 4. FACTORY CERTIFICATES */}
                     <div className="mb-20">
-                        <div className="bg-white rounded-[2rem] p-8 lg:p-10 border border-slate-100 shadow-sm relative overflow-hidden">
+                        <div className="bg-white rounded-2xl p-8 lg:p-10 border border-slate-100 shadow-sm relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/5 rounded-bl-[100px]" />
                             <h3 className="text-2xl font-bold mb-8 flex items-center gap-3 relative z-10">
                                 <div className="p-3 bg-blue-100 text-blue-600 rounded-xl">
@@ -622,7 +605,7 @@ export default function ManufacturerProfilePage() {
                     {/* 4.5 DOCUMENT DOWNLOADS */}
                     {documents.length > 0 && (
                         <div className="mb-20">
-                            <div className="bg-white rounded-[2rem] p-8 lg:p-10 border border-slate-100 shadow-sm relative overflow-hidden">
+                            <div className="bg-white rounded-2xl p-8 lg:p-10 border border-slate-100 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/5 rounded-bl-[100px]" />
                                 <h3 className="text-2xl font-bold mb-8 flex items-center gap-3 relative z-10">
                                     <div className="p-3 bg-emerald-100 text-emerald-600 rounded-xl">
@@ -661,15 +644,17 @@ export default function ManufacturerProfilePage() {
                     {/* 5. TRUSTED CUSTOMERS */}
                     {customers.length > 0 && (
                         <div className="mb-12">
-                            <div className="bg-white rounded-[2rem] p-8 lg:p-10 border border-slate-100 shadow-sm relative overflow-hidden">
+                            <div className="bg-white rounded-2xl p-8 lg:p-10 border border-slate-100 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 left-0 w-64 h-64 bg-amber-500/5 rounded-br-[100px]" />
 
-                                <div className="text-center max-w-2xl mx-auto mb-10 relative z-10">
-                                    <div className="inline-flex p-3 bg-amber-100 text-amber-600 rounded-2xl mb-4">
+                                <div className="mb-10 relative z-10 flex items-center gap-4 text-left">
+                                    <div className="inline-flex p-3 bg-amber-100 text-amber-600 rounded-xl">
                                         <Users className="w-6 h-6" />
                                     </div>
-                                    <h3 className="text-2xl font-bold mb-2">{t(`${SHARED_TK}.trusted_customers`)}</h3>
-                                    <p className="text-slate-500">{t(`${SHARED_TK}.trusted_customers_desc`)}</p>
+                                    <div>
+                                        <h3 className="text-2xl font-bold mb-1">{t(`${SHARED_TK}.trusted_customers`)}</h3>
+                                        <p className="text-slate-500">{t(`${SHARED_TK}.trusted_customers_desc`)}</p>
+                                    </div>
                                 </div>
 
                                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 xl:grid-cols-8 gap-6 relative z-10">
@@ -695,9 +680,10 @@ export default function ManufacturerProfilePage() {
                 <section className="py-20 bg-gradient-to-br from-indigo-900 to-blue-900 text-white text-center relative overflow-hidden">
                     <div className="absolute inset-0 opacity-20 bg-dot-overlay-inverse" />
                     <div className="container relative mx-auto px-4 max-w-2xl">
-                        <BadgeCheck className="w-12 h-12 text-blue-300 mx-auto mb-6 opacity-80" />
                         <h2 className="text-3xl md:text-5xl font-extrabold mb-6 tracking-tight">
-                            {t(`${SHARED_TK}.partner_with`, { name: basicInfo?.name })}
+                            {partnerWithPrefix}
+                            <span className="text-orange-300">{basicInfo?.name}</span>
+                            {partnerWithSuffix}
                         </h2>
                         <p className="text-blue-100 mb-10 text-lg">
                             {t(`${SHARED_TK}.partner_desc`)}
