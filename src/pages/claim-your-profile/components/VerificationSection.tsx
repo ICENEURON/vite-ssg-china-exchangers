@@ -1,4 +1,3 @@
-import { ClipboardCheck, MailCheck, RefreshCw } from "lucide-react"
 import { useTranslation } from "react-i18next"
 
 export function VerificationSection() {
@@ -7,7 +6,6 @@ export function VerificationSection() {
         title: string;
         description: string;
     }>;
-    const icons = [MailCheck, ClipboardCheck, RefreshCw];
 
     return (
         <section className="bg-slate-50 px-2 pt-14 pb-6 flex flex-col items-center">

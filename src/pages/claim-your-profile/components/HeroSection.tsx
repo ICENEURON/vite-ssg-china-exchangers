@@ -1,6 +1,5 @@
 
 import { Button } from "../../../components/ui/button"
-import { Badge } from "../../../components/ui/badge";
 import { CheckCircle2, Download, FileText, ImagePlus, Mail } from "lucide-react"
 import { useTranslation } from "react-i18next"
 
@@ -8,14 +7,12 @@ const templatePath = "/static/websites/manufacturer-profile-update-template.docx
 
 export function HeroSection() {
     const { t } = useTranslation();
-    const email = import.meta.env.VITE_CONTACT_EMAIL;
     const highlights = t("pages.profile.hero.highlights", { returnObjects: true }) as string[];
     const panelItems = t("pages.profile.hero.panel.items", { returnObjects: true }) as Array<{
         title: string;
         description: string;
     }>;
     const panelIcons = [FileText, ImagePlus, Mail];
-    const subject = encodeURIComponent(t("pages.profile.hero.email_subject"));
 
     return (
         <section className="relative overflow-hidden bg-slate-50 px-2 py-16 flex flex-col items-center justify-center w-full">

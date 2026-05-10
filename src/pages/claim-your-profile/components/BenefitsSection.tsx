@@ -1,9 +1,6 @@
 
 import { Building2, Factory, FileText, ImagePlus } from "lucide-react"
 import { useTranslation } from "react-i18next"
-import { Button } from "../../../components/ui/button";
-
-const templatePath = "/static/websites/manufacturer-profile-update-template.docx";
 
 export function BenefitsSection() {
     const { t } = useTranslation();
