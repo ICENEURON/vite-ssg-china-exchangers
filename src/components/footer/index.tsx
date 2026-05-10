@@ -49,12 +49,12 @@ const Footer = () => {
     ],
     [
       {
-        key: "about",
-        url: addLanguageToPath("/about", currentLanguage),
-      },
-      {
         key: "industry-news",
         url: addLanguageToPath("/industry-news", currentLanguage),
+      },
+      {
+        key: "about",
+        url: addLanguageToPath("/about", currentLanguage),
       },
       {
         key: "contact",

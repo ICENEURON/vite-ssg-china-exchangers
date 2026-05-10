@@ -2,9 +2,9 @@
   "menu": {
     "home": "Home",
     "for_buyers_label": "For Buyers",
-    "manufacturers": "Manufacturers",
-    "products": "Products",
-    "rfq": "Get Quote",
+    "manufacturers": "Manufacturer List",
+    "products": "Product Categories",
+    "rfq": "Request Quote",
     "for_manufacturers_label": "For Manufacturers",
     "profile": "Profile Updates",
     "content_marketing_services": "Article Submissions",

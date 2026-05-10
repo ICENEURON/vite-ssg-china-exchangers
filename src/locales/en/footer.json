@@ -3,12 +3,14 @@
     "alt": "HeatEx Direct",
     "title": "HeatEx Direct"
   },
-  "tagline": "Analyst-reviewed sourcing research for industrial thermal equipment.",
+  "tagline": "Connecting global buyers with verified Chinese heat exchanger manufacturers. Compare suppliers, explore products, and request quotes easily.",
+    "categories": "Categories",
+    "resources": "Resources",
   "rfq_label": "Request for Quote",
   "links": {
     "items": {
       "home": "Home",
-      "manufacturers": "Verified Manufacturer Directory",
+      "manufacturers": "Manufacturer List",
       "products": "Product Categories",
       "rfq": "Request for Quote",
       "profile": "Update Your Profile",

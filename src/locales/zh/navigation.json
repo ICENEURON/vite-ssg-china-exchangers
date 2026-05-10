@@ -2,8 +2,8 @@
   "menu": {
     "home": "首页",
     "for_buyers_label": "买家专区",
-    "manufacturers": "制造商",
-    "products": "产品",
+    "manufacturers": "制造商列表",
+    "products": "产品类别",
     "rfq": "提交询价",
     "for_manufacturers_label": "制造商专区",
     "profile": "资料更新",
