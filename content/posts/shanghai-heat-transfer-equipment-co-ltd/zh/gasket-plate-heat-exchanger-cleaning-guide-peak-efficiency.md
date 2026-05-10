@@ -2,13 +2,13 @@
 title: "可拆板式换热器高效清洗指南"
 slug: gasket-plate-heat-exchanger-cleaning-guide-peak-efficiency
 date: 2025-04-15
-author: "HeatEx Direct 编辑团队"
-reviewer: "HeatEx Direct 编辑团队"
+author: "上海板换机械设备有限公司"
+reviewer: "上海板换机械设备有限公司"
 readTime: 6 分钟
 excerpt: 一篇可拆板式换热器清洗流程指南，覆盖准备、拆卸、板片清洗、重新装配、试压和维护记录。
 metaTitle: "可拆板式换热器清洗指南"
 metaDescription: "了解可拆板式换热器清洗流程，包括安全隔离、拆卸、化学清洗、重新装配和压力测试。"
-keywords: ["可拆板式换热器", "板式换热器清洗", "PHE维护", "上海艾克森"]
+keywords: ["可拆板式换热器", "板式换热器清洗", "PHE维护", "上海板换"]
 cover: /static/content_posts_image/gasket-plate-heat-exchanger-cleaning-guide-peak-efficiency/cover.png
 ---
 

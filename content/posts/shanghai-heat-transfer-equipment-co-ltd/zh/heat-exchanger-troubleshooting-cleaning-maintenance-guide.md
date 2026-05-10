@@ -2,13 +2,13 @@
 title: "换热器故障排查、清洗与维护指南"
 slug: heat-exchanger-troubleshooting-cleaning-maintenance-guide
 date: 2025-06-17
-author: "HeatEx Direct 编辑团队"
-reviewer: "HeatEx Direct 编辑团队"
+author: "上海板换机械设备有限公司"
+reviewer: "上海板换机械设备有限公司"
 readTime: 7 分钟
 excerpt: 一篇实用维护指南，覆盖结垢、泄漏、腐蚀、堵塞、清洗方式、检查计划和换热器全生命周期维护。
 metaTitle: "换热器故障排查与维护指南"
 metaDescription: "了解如何识别换热器结垢、泄漏、腐蚀和堵塞，并选择合适的清洗与维护策略。"
-keywords: ["换热器维护", "换热器清洗", "结垢", "腐蚀", "上海艾克森"]
+keywords: ["换热器维护", "换热器清洗", "结垢", "腐蚀", "上海板换"]
 cover: /static/content_posts_image/heat-exchanger-troubleshooting-cleaning-maintenance-guide/cover.png
 ---
 

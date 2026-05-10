@@ -3,7 +3,7 @@ title: "Advanced Analysis on Wide-Gap Welded Plate Heat Exchanger Core Processes
 slug: advanced-analysis-on-wide-gap-welded-plate-heat-exchanger-core-processes-industrial-practice
 date: 2026-04-29
 author: "Shanghai Heat Transfer Equipment Co., Ltd."
-reviewer: "HeatEx Direct Editorial Team"
+reviewer: "Shanghai Heat Transfer Equipment Co., Ltd."
 readTime: 6 minutes
 excerpt: A technical overview of SHPHE wide-gap welded plate heat exchangers, covering free-flow channels, resistance seam welding, material selection, and industrial slurry applications.
 metaTitle: "SHPHE Wide-Gap Welded Plate Heat Exchanger Technical Analysis"

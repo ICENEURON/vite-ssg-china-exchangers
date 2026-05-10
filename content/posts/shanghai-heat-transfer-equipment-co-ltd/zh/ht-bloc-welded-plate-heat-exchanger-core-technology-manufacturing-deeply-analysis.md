@@ -3,7 +3,7 @@ title: "HT-Bloc 焊接板式换热器核心技术与制造分析"
 slug: ht-bloc-welded-plate-heat-exchanger-core-technology-manufacturing-deeply-analysis
 date: 2026-03-23
 author: "上海板换机械设备有限公司"
-reviewer: "HeatEx Direct 编辑团队"
+reviewer: "上海板换机械设备有限公司"
 readTime: 7 分钟
 excerpt: 上海板换 HT-Bloc 焊接板式换热器技术解析，涵盖无垫片结构、波纹流道、对接焊、可清洗性和生命周期价值。
 metaTitle: "上海板换 HT-Bloc 焊接板式换热器技术分析"

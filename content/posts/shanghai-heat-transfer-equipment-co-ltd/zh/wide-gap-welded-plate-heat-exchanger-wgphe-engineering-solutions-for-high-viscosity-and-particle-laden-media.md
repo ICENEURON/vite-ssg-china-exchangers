@@ -3,7 +3,7 @@ title: "高黏度与含颗粒介质的 WGPHE 工程方案"
 slug: wide-gap-welded-plate-heat-exchanger-wgphe-engineering-solutions-for-high-viscosity-and-particle-laden-media
 date: 2026-04-09
 author: "上海板换机械设备有限公司"
-reviewer: "HeatEx Direct 编辑团队"
+reviewer: "上海板换机械设备有限公司"
 readTime: 7 分钟
 excerpt: 面向氧化铝、糖业、发酵、制浆造纸和化工废水等场景的上海板换 WGPHE 工程应用指南。
 metaTitle: "上海板换 WGPHE 高黏度与含颗粒介质方案"

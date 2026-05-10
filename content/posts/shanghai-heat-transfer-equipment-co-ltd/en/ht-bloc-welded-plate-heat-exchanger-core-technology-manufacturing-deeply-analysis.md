@@ -3,7 +3,7 @@ title: "HT-Bloc Welded Plate Heat Exchanger Core Technology and Manufacturing An
 slug: ht-bloc-welded-plate-heat-exchanger-core-technology-manufacturing-deeply-analysis
 date: 2026-03-23
 author: "Shanghai Heat Transfer Equipment Co., Ltd."
-reviewer: "HeatEx Direct Editorial Team"
+reviewer: "Shanghai Heat Transfer Equipment Co., Ltd."
 readTime: 7 minutes
 excerpt: A technical look at SHPHE HT-Bloc welded plate heat exchangers, including gasket-free structure, corrugated flow channels, butt welding, cleanability, and lifecycle value.
 metaTitle: "SHPHE HT-Bloc Welded Plate Heat Exchanger Technology Analysis"

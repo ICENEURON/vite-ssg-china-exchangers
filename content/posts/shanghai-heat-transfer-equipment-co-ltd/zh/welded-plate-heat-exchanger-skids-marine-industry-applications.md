@@ -2,13 +2,13 @@
 title: "焊接板式换热器撬装系统在海工行业的应用"
 slug: welded-plate-heat-exchanger-skids-marine-industry-applications
 date: 2025-03-15
-author: "HeatEx Direct 编辑团队"
-reviewer: "HeatEx Direct 编辑团队"
+author: "上海板换机械设备有限公司"
+reviewer: "上海板换机械设备有限公司"
 readTime: 6 分钟
 excerpt: 介绍焊接板式换热器撬装系统在船舶冷却、海水淡化、暖通、原油处理、液压系统和水产养殖中的应用。
 metaTitle: "海工用焊接板式换热器撬装系统"
 metaDescription: "了解焊接板式换热器撬装系统如何服务船舶冷却、淡水系统、暖通、油品处理、液压和海水养殖场景。"
-keywords: ["焊接板式换热器撬装", "海工换热器", "海水冷却", "四平维克斯"]
+keywords: ["焊接板式换热器撬装", "海工换热器", "海水冷却", "上海板换"]
 cover: /static/content_posts_image/welded-plate-heat-exchanger-skids-marine-industry-applications/cover.png
 ---
 

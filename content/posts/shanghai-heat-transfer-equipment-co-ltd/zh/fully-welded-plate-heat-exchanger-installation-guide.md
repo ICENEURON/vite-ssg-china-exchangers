@@ -2,13 +2,13 @@
 title: "全焊接板式换热器安装指南"
 slug: fully-welded-plate-heat-exchanger-installation-guide
 date: 2025-03-25
-author: "HeatEx Direct 编辑团队"
-reviewer: "HeatEx Direct 编辑团队"
+author: "上海板换机械设备有限公司"
+reviewer: "上海板换机械设备有限公司"
 readTime: 7 分钟
 excerpt: 一篇面向现场的全焊接板式换热器安装指南，覆盖基础、吊装、管道、仪表、调试和运行管理。
 metaTitle: "全焊接板式换热器安装指南"
 metaDescription: "了解全焊接板式换热器安装步骤，包括现场检查、吊装、管道应力控制、仪表安装和调试。"
-keywords: ["全焊接板式换热器", "焊接板式换热器", "安装", "四平巨元"]
+keywords: ["全焊接板式换热器", "焊接板式换热器", "安装", "上海板换"]
 cover: /static/content_posts_image/fully-welded-plate-heat-exchanger-installation-guide/cover.png
 ---
 

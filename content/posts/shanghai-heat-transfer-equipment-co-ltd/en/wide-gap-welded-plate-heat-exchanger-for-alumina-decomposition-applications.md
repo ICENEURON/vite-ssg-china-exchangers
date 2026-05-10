@@ -3,7 +3,7 @@ title: "Wide-Gap Welded Plate Heat Exchanger for Alumina Decomposition Applicati
 slug: wide-gap-welded-plate-heat-exchanger-for-alumina-decomposition-applications
 date: 2026-04-20
 author: "Shanghai Heat Transfer Equipment Co., Ltd."
-reviewer: "HeatEx Direct Editorial Team"
+reviewer: "Shanghai Heat Transfer Equipment Co., Ltd."
 readTime: 5 minutes
 excerpt: How SHPHE wide-gap welded plate heat exchangers address scaling, slurry flow, and maintainability challenges in alumina decomposition and precipitation cooling.
 metaTitle: "Wide-Gap Welded Plate Heat Exchanger for Alumina Decomposition"

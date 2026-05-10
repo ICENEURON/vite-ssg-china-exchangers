@@ -2,13 +2,13 @@
 title: "Gasket Plate Heat Exchanger Cleaning Guide for Peak Efficiency"
 slug: gasket-plate-heat-exchanger-cleaning-guide-peak-efficiency
 date: 2025-04-15
-author: "HeatEx Direct Editorial Team"
-reviewer: "HeatEx Direct Editorial Team"
+author: "Shanghai Heat Transfer Equipment Co., Ltd."
+reviewer: "Shanghai Heat Transfer Equipment Co., Ltd."
 readTime: 6 minutes
 excerpt: A step-by-step guide to cleaning gasketed plate heat exchangers, from preparation and disassembly to plate washing, reassembly, testing, and records.
 metaTitle: "Gasket Plate Heat Exchanger Cleaning Guide"
 metaDescription: "A practical cleaning workflow for gasketed plate heat exchangers, including safety, disassembly, chemical cleaning, reassembly, and pressure testing."
-keywords: ["Gasket Plate Heat Exchanger", "Plate Heat Exchanger Cleaning", "PHE Maintenance", "Shanghai Accessen"]
+keywords: ["Gasket Plate Heat Exchanger", "Plate Heat Exchanger Cleaning", "PHE Maintenance", "Shanghai Heat Transfer"]
 cover: /static/content_posts_image/gasket-plate-heat-exchanger-cleaning-guide-peak-efficiency/cover.png
 ---
 

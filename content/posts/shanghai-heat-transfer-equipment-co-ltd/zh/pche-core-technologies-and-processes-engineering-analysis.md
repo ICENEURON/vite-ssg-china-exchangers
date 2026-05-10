@@ -2,13 +2,13 @@
 title: "PCHE核心技术：蚀刻、扩散焊与工业应用"
 slug: pche-core-technologies-and-processes-engineering-analysis
 date: 2026-02-27
-author: "HeatEx Direct 编辑团队"
-reviewer: "HeatEx Direct 编辑团队"
+author: "上海板换机械设备有限公司"
+reviewer: "上海板换机械设备有限公司"
 readTime: 8 分钟
 excerpt: 一篇关于印刷电路板式换热器的技术指南，覆盖微通道、化学蚀刻、扩散焊和高压能源应用。
 metaTitle: "PCHE核心技术与工业应用"
 metaDescription: "了解PCHE如何通过蚀刻微通道和扩散焊结构服务氢能、超临界二氧化碳、海工和先进电力场景。"
-keywords: ["PCHE", "印刷电路板式换热器", "扩散焊", "微通道换热器", "兰州兰石"]
+keywords: ["PCHE", "印刷电路板式换热器", "扩散焊", "微通道换热器", "上海板换"]
 cover: /static/content_posts_image/pche-core-technologies-and-processes-engineering-analysis/cover.jpg
 ---
 

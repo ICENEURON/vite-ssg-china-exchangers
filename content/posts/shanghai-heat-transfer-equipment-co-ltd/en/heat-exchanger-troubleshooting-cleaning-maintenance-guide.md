@@ -2,13 +2,13 @@
 title: "Heat Exchanger Troubleshooting, Cleaning, and Maintenance Guide"
 slug: heat-exchanger-troubleshooting-cleaning-maintenance-guide
 date: 2025-06-17
-author: "HeatEx Direct Editorial Team"
-reviewer: "HeatEx Direct Editorial Team"
+author: "Shanghai Heat Transfer Equipment Co., Ltd."
+reviewer: "Shanghai Heat Transfer Equipment Co., Ltd."
 readTime: 7 minutes
 excerpt: A practical maintenance guide covering fouling, leakage, corrosion, blockage, cleaning methods, inspections, and lifecycle care for heat exchangers.
 metaTitle: "Heat Exchanger Troubleshooting and Maintenance Guide"
 metaDescription: "Learn how to detect heat exchanger fouling, leakage, corrosion, and blockage, then choose practical cleaning and maintenance strategies."
-keywords: ["Heat Exchanger Maintenance", "Heat Exchanger Cleaning", "Fouling", "Corrosion", "Shanghai Accessen"]
+keywords: ["Heat Exchanger Maintenance", "Heat Exchanger Cleaning", "Fouling", "Corrosion", "Shanghai Heat Transfer"]
 cover: /static/content_posts_image/heat-exchanger-troubleshooting-cleaning-maintenance-guide/cover.png
 ---
 

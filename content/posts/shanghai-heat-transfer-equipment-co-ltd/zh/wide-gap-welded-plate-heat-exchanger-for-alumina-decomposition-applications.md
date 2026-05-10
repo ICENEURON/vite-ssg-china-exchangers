@@ -3,7 +3,7 @@ title: "氧化铝分解工况用宽通道焊接板式换热器"
 slug: wide-gap-welded-plate-heat-exchanger-for-alumina-decomposition-applications
 date: 2026-04-20
 author: "上海板换机械设备有限公司"
-reviewer: "HeatEx Direct 编辑团队"
+reviewer: "上海板换机械设备有限公司"
 readTime: 5 分钟
 excerpt: 上海板换宽通道焊接板式换热器如何应对氧化铝分解和晶种冷却中的结垢、浆料流动和可维护性挑战。
 metaTitle: "氧化铝分解用宽通道焊接板式换热器"

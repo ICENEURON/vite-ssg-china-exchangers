@@ -2,13 +2,13 @@
 title: "Marine Applications of Welded Plate Heat Exchanger Skids"
 slug: welded-plate-heat-exchanger-skids-marine-industry-applications
 date: 2025-03-15
-author: "HeatEx Direct Editorial Team"
-reviewer: "HeatEx Direct Editorial Team"
+author: "Shanghai Heat Transfer Equipment Co., Ltd."
+reviewer: "Shanghai Heat Transfer Equipment Co., Ltd."
 readTime: 6 minutes
 excerpt: An overview of welded plate heat exchanger skids in marine cooling, desalination, HVAC, crude oil treatment, hydraulic systems, and aquaculture.
 metaTitle: "Welded Plate Heat Exchanger Skids for Marine Applications"
 metaDescription: "Explore how welded plate heat exchanger skids support marine cooling, freshwater systems, HVAC, oil processing, hydraulics, and aquaculture."
-keywords: ["Welded Plate Heat Exchanger Skid", "Marine Heat Exchanger", "Seawater Cooling", "Siping ViEX"]
+keywords: ["Welded Plate Heat Exchanger Skid", "Marine Heat Exchanger", "Seawater Cooling", "Shanghai Heat Transfer"]
 cover: /static/content_posts_image/welded-plate-heat-exchanger-skids-marine-industry-applications/cover.png
 ---
 

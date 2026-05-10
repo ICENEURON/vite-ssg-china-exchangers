@@ -3,7 +3,7 @@ title: "宽通道焊接板式换热器核心工艺与工业应用分析"
 slug: advanced-analysis-on-wide-gap-welded-plate-heat-exchanger-core-processes-industrial-practice
 date: 2026-04-29
 author: "上海板换机械设备有限公司"
-reviewer: "HeatEx Direct 编辑团队"
+reviewer: "上海板换机械设备有限公司"
 readTime: 6 分钟
 excerpt: 上海板换宽通道焊接板式换热器技术概览，涵盖自由流道、电阻缝焊、材料选择以及工业浆料场景。
 metaTitle: "上海板换宽通道焊接板式换热器技术分析"

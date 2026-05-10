@@ -3,7 +3,7 @@ title: "WGPHE Solutions for High-Viscosity and Particle-Laden Media"
 slug: wide-gap-welded-plate-heat-exchanger-wgphe-engineering-solutions-for-high-viscosity-and-particle-laden-media
 date: 2026-04-09
 author: "Shanghai Heat Transfer Equipment Co., Ltd."
-reviewer: "HeatEx Direct Editorial Team"
+reviewer: "Shanghai Heat Transfer Equipment Co., Ltd."
 readTime: 7 minutes
 excerpt: A process-engineering guide to SHPHE WGPHE applications in alumina, sugar, fermentation, pulp and paper, and chemical wastewater services.
 metaTitle: "SHPHE WGPHE Solutions for Viscous and Particle-Laden Media"

@@ -2,13 +2,13 @@
 title: "PCHE Core Technologies: Etching, Diffusion Bonding, and Industrial Use"
 slug: pche-core-technologies-and-processes-engineering-analysis
 date: 2026-02-27
-author: "HeatEx Direct Editorial Team"
-reviewer: "HeatEx Direct Editorial Team"
+author: "Shanghai Heat Transfer Equipment Co., Ltd."
+reviewer: "Shanghai Heat Transfer Equipment Co., Ltd."
 readTime: 8 minutes
 excerpt: A technical guide to printed circuit heat exchangers, covering microchannels, chemical etching, diffusion bonding, and high-pressure energy applications.
 metaTitle: "PCHE Core Technologies and Industrial Applications"
 metaDescription: "Understand how PCHEs use etched microchannels and diffusion bonding to serve hydrogen, sCO2, offshore, and advanced power applications."
-keywords: ["PCHE", "Printed Circuit Heat Exchanger", "Diffusion Bonding", "Microchannel Heat Exchanger", "Lanzhou Lanshi"]
+keywords: ["PCHE", "Printed Circuit Heat Exchanger", "Diffusion Bonding", "Microchannel Heat Exchanger", "Shanghai Heat Transfer"]
 cover: /static/content_posts_image/pche-core-technologies-and-processes-engineering-analysis/cover.jpg
 ---
 

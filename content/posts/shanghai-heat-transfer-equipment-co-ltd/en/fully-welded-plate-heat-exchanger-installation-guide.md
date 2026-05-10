@@ -2,13 +2,13 @@
 title: "Fully Welded Plate Heat Exchanger Installation Guide"
 slug: fully-welded-plate-heat-exchanger-installation-guide
 date: 2025-03-25
-author: "HeatEx Direct Editorial Team"
-reviewer: "HeatEx Direct Editorial Team"
+author: "Shanghai Heat Transfer Equipment Co., Ltd."
+reviewer: "Shanghai Heat Transfer Equipment Co., Ltd."
 readTime: 7 minutes
 excerpt: A field-focused guide to installing fully welded plate heat exchangers, covering foundation, lifting, piping, instrumentation, commissioning, and operation.
 metaTitle: "Fully Welded Plate Heat Exchanger Installation Guide"
 metaDescription: "Review installation steps for fully welded plate heat exchangers, including site checks, lifting, piping stress control, instrument setup, and commissioning."
-keywords: ["Fully Welded Plate Heat Exchanger", "Welded Plate Heat Exchanger", "Installation", "Siping Juyuan"]
+keywords: ["Fully Welded Plate Heat Exchanger", "Welded Plate Heat Exchanger", "Installation", "Shanghai Heat Transfer"]
 cover: /static/content_posts_image/fully-welded-plate-heat-exchanger-installation-guide/cover.png
 ---
 
