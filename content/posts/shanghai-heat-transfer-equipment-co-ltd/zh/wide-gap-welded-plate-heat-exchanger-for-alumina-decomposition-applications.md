@@ -13,9 +13,6 @@ cover: /static/content_posts_image/wide-gap-welded-plate-heat-exchanger-for-alum
 ---
 
 氧化铝分解和晶种冷却会给换热器带来特殊压力。工艺母液通常呈碱性、温度较高、含颗粒，并且容易结晶。如果换热器通道过窄，结垢和颗粒堆积会缩短运行周期；如果为了避免堵塞而采用过大的设备，能效和安装经济性又会受到影响。
-
-<img src="/static/content_posts_image/wide-gap-welded-plate-heat-exchanger-for-alumina-decomposition-applications/cover.png" alt="氧化铝浆料工况用宽通道焊接板式通道结构" width="640" />
-
 上海板换的宽通道焊接板式换热器正是针对这种取舍而设计。设备采用焊接板束和更宽的流道，可处理浆料和结晶性介质，同时保留板式设备紧凑、高效的传热特性。
 
 ## 氧化铝工况的运行挑战

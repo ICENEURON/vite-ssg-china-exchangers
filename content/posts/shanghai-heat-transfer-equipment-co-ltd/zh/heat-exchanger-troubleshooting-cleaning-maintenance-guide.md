@@ -13,9 +13,6 @@ cover: /static/content_posts_image/heat-exchanger-troubleshooting-cleaning-maint
 ---
 
 换热器很少在没有征兆的情况下突然失效。多数性能问题都是逐步形成的，例如结垢、泄漏、腐蚀、流量分配不均或运行管理不到位。因此，维护工作不应只是故障后的修理，而应是一套持续诊断系统，用来保护能效、开车率和工艺安全。
-
-<img src="/static/content_posts_image/heat-exchanger-troubleshooting-cleaning-maintenance-guide/cover.png" alt="换热器常见运行故障" width="640" />
-
 ## 常见故障类型
 
 结垢是热性能下降最常见的原因。水垢、悬浮固体、生物膜、油污或腐蚀产物都会增加传热面热阻。操作人员通常会先看到端温差变化、出口温度异常或能耗上升，随后才出现必须停机处理的情况。

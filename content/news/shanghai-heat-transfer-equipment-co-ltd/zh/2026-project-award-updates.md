@@ -13,9 +13,6 @@ cover: /static/content_posts_image/2026-project-award-updates/cover.jpg
 ---
 
 上海板换机械设备有限公司在 2026 年初披露了一系列项目中标进展，覆盖海上天然气、化肥、化工材料、制糖、油田和氧化铝等应用场景。
-
-<img src="/static/content_posts_image/2026-project-award-updates/cover.jpg" alt="与上海板换项目更新相关的上海城市天际线" width="640" />
-
 这些项目反映出上海板换板式换热器产品组合的应用广度，包括印刷电路板式换热器（PCHE）、HT-Bloc 焊接板式换热器、常规板式换热器以及宽通道焊接板式换热器。
 
 ## 已披露的 2026 年项目

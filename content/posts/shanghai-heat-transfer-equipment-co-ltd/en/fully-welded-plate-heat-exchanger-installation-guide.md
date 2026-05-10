@@ -13,9 +13,6 @@ cover: /static/content_posts_image/fully-welded-plate-heat-exchanger-installatio
 ---
 
 Fully welded plate heat exchangers are selected for duties where gasketed equipment may be limited by pressure, temperature, aggressive media, or leakage risk. Their performance depends not only on design and fabrication, but also on installation quality. Poor foundation work, pipe stress, rough lifting, or rushed commissioning can shorten service life before the exchanger has completed its first operating cycle.
-
-<img src="/static/content_posts_image/fully-welded-plate-heat-exchanger-installation-guide/cover.png" alt="Fully welded plate heat exchanger installation preparation" width="640" />
-
 ## 1. Confirm Site and Foundation Conditions
 
 Before equipment arrival, confirm that the installation area provides enough space for lifting, operation, inspection, and future maintenance. The foundation must carry the equipment weight, fluid weight, operating vibration, and connected piping loads. Its surface should be level, clean, and cured to the required strength.

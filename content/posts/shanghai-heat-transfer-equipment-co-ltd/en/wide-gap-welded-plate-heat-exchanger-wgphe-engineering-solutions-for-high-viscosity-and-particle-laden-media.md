@@ -13,9 +13,6 @@ cover: /static/content_posts_image/wide-gap-welded-plate-heat-exchanger-wgphe-en
 ---
 
 Many industrial heat exchanger failures begin with a mismatch between channel design and fluid behavior. A clean-service exchanger may perform well during commissioning, then rapidly lose capacity when exposed to high viscosity, solids, fibers, crystals, or corrosive wastewater.
-
-<img src="/static/content_posts_image/wide-gap-welded-plate-heat-exchanger-wgphe-engineering-solutions-for-high-viscosity-and-particle-laden-media/cover.jpg" alt="Horizontal wide-gap welded plate heat exchanger for difficult process media" width="640" />
-
 SHPHE's wide gap welded plate heat exchanger (WGPHE) targets that problem by combining wider channels, welded construction, and plate geometry selected for the fluid. The goal is not just higher heat transfer coefficient. It is stable heat transfer in media that normally causes blockage, erosion, or cleaning downtime.
 
 ## Alumina and Mineral Slurry

@@ -13,9 +13,6 @@ cover: /static/content_posts_image/gasket-plate-heat-exchanger-cleaning-guide-pe
 ---
 
 可拆板式换热器之所以高效，是因为冷热流体通过薄而带波纹的板片近距离换热。但同样由于结构紧凑，结垢、垫片损坏或夹紧尺寸错误都会迅速影响性能。标准化清洗流程可以恢复换热能力，同时降低重新装配后的泄漏风险。
-
-<img src="/static/content_posts_image/gasket-plate-heat-exchanger-cleaning-guide-peak-efficiency/cover.png" alt="可拆板式换热器清洗流程" width="640" />
-
 ## 1. 准备作业区域
 
 打开设备前，应先完成压力、热源、电源和泵系统隔离，安全排空介质，并确认设备温度已经降至可维护范围。准备软刷、非研磨清洁垫、经确认可用的清洗药剂、清水、扭矩扳手、必要的吊装辅助和个人防护用品。

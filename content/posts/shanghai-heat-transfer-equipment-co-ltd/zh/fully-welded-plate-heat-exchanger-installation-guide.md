@@ -13,9 +13,6 @@ cover: /static/content_posts_image/fully-welded-plate-heat-exchanger-installatio
 ---
 
 全焊接板式换热器通常用于压力、温度、腐蚀性介质或泄漏风险使垫片式设备受限的场景。它的性能不仅取决于设计和制造，也取决于安装质量。基础不平、管道应力过大、吊装粗放或调试过快，都可能在设备进入稳定运行前就埋下隐患。
-
-<img src="/static/content_posts_image/fully-welded-plate-heat-exchanger-installation-guide/cover.png" alt="全焊接板式换热器安装准备" width="640" />
-
 ## 1. 确认现场和基础条件
 
 设备到场前，应确认安装区域有足够空间用于吊装、运行、检查和后续维护。基础必须能够承受设备重量、介质重量、运行振动以及连接管道载荷。基础表面应平整、清洁，并达到规定强度。

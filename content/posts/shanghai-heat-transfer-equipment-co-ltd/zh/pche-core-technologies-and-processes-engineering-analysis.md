@@ -13,9 +13,6 @@ cover: /static/content_posts_image/pche-core-technologies-and-processes-engineer
 ---
 
 印刷电路板式换热器通常简称 PCHE，是一种围绕精密微通道和固态连接工艺建立起来的紧凑型换热技术。它不是普通板式换热器的小型化版本，而是一条完全不同的制造路线。正因为如此，PCHE 才会被用于氢能、超临界二氧化碳、海上天然气、核能辅助系统等高要求能源场景。
-
-<img src="/static/content_posts_image/pche-core-technologies-and-processes-engineering-analysis/cover.jpg" alt="工业换热器制造车间" width="640" />
-
 ## PCHE的核心差异
 
 PCHE 的制造从金属薄板开始。制造商先通过化学蚀刻在板片表面形成细小流道，流道形态可以是直线、折线、蛇形或针对特定物性变化优化的结构。随后，多层板片按冷热流体路径堆叠，并在高温、高压和受控气氛下进行扩散焊，最终形成一个内部带流道的金属块体。

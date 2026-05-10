@@ -13,9 +13,6 @@ cover: /static/content_posts_image/welded-plate-heat-exchanger-skids-marine-indu
 ---
 
 Marine engineering places unusual demands on heat transfer equipment. Space is limited, weight matters, installation windows are short, and equipment may be exposed to vibration, salt atmosphere, and variable operating loads. Welded plate heat exchanger skids answer these constraints by combining the exchanger, pumps, valves, instruments, piping, and controls on a factory-built base frame.
-
-<img src="/static/content_posts_image/welded-plate-heat-exchanger-skids-marine-industry-applications/cover.png" alt="Welded plate heat exchanger skid for marine service" width="640" />
-
 ## Why Skid Integration Helps
 
 A skid-mounted heat exchanger package reduces site work. Instead of assembling separate components in a crowded machinery room or offshore module, the system can be pre-fabricated, pressure-tested, wired, and documented before shipment. This shortens installation time and improves quality control.

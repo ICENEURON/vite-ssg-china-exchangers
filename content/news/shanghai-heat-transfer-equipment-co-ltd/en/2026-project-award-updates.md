@@ -13,9 +13,6 @@ cover: /static/content_posts_image/2026-project-award-updates/cover.jpg
 ---
 
 Shanghai Heat Transfer Equipment Co., Ltd. reported a series of project awards in early 2026, covering offshore natural gas, fertilizer, chemical materials, sugar, oilfield, and alumina applications.
-
-<img src="/static/content_posts_image/2026-project-award-updates/cover.jpg" alt="Shanghai skyline associated with SHPHE project updates" width="640" />
-
 The awards show a broad application mix for SHPHE's plate heat exchanger portfolio, including printed circuit heat exchangers (PCHE), HT-Bloc welded plate heat exchangers, conventional plate heat exchangers, and wide-gap welded plate heat exchangers.
 
 ## Reported 2026 Awards

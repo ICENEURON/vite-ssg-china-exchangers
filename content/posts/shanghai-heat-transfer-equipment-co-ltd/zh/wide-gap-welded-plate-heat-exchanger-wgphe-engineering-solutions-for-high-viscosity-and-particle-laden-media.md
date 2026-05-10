@@ -13,9 +13,6 @@ cover: /static/content_posts_image/wide-gap-welded-plate-heat-exchanger-wgphe-en
 ---
 
 许多工业换热器故障，最初都来自通道设计与流体行为之间的不匹配。一台清洁工况换热器在调试阶段可能表现良好，但一旦遇到高黏度、固体颗粒、纤维、结晶物或腐蚀性废水，就可能迅速损失能力。
-
-<img src="/static/content_posts_image/wide-gap-welded-plate-heat-exchanger-wgphe-engineering-solutions-for-high-viscosity-and-particle-laden-media/cover.jpg" alt="用于复杂过程介质的卧式宽通道焊接板式换热器" width="640" />
-
 上海板换的宽通道焊接板式换热器（WGPHE）正是针对这一问题，将更宽的通道、焊接结构和按流体特性选择的板型结合起来。目标不只是更高传热系数，而是在容易堵塞、磨蚀或增加清洗停机的介质中实现稳定传热。
 
 ## 氧化铝与矿物浆料

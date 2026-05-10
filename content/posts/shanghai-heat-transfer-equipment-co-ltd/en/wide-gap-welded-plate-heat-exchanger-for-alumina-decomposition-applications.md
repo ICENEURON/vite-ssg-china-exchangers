@@ -13,9 +13,6 @@ cover: /static/content_posts_image/wide-gap-welded-plate-heat-exchanger-for-alum
 ---
 
 Alumina decomposition and precipitation cooling place unusual stress on heat exchangers. Process liquor can be alkaline, hot, particle-laden, and prone to crystallization. If the exchanger channel is too narrow, scaling and particle accumulation shorten operating cycles. If the equipment is oversized to avoid plugging, energy efficiency and installation economics suffer.
-
-<img src="/static/content_posts_image/wide-gap-welded-plate-heat-exchanger-for-alumina-decomposition-applications/cover.png" alt="Wide-gap welded plate channel patterns for alumina slurry service" width="640" />
-
 SHPHE's wide-gap welded plate heat exchanger is designed for this tradeoff. The unit uses a welded plate bundle with wider flow passages, allowing it to process slurry and crystallizing media while retaining the compact heat transfer behavior associated with plate-type equipment.
 
 ## Operating Challenges in Alumina Service

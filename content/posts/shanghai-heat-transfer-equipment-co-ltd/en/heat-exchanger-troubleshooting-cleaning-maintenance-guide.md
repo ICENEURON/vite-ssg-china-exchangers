@@ -13,9 +13,6 @@ cover: /static/content_posts_image/heat-exchanger-troubleshooting-cleaning-maint
 ---
 
 Heat exchangers rarely fail without warning. Most performance problems develop gradually through fouling, leakage, corrosion, flow imbalance, or poor operating discipline. A good maintenance program is therefore not only a repair activity; it is a continuous diagnostic system that protects energy efficiency, production uptime, and process safety.
-
-<img src="/static/content_posts_image/heat-exchanger-troubleshooting-cleaning-maintenance-guide/cover.png" alt="Common operational failures of heat exchangers" width="640" />
-
 ## Common Failure Modes
 
 Fouling is the most common cause of lost thermal performance. Scale, suspended solids, biological growth, oil films, or corrosion products create thermal resistance on the heat transfer surface. Operators may notice a smaller temperature approach, higher outlet temperatures, or rising energy use before a shutdown becomes necessary.

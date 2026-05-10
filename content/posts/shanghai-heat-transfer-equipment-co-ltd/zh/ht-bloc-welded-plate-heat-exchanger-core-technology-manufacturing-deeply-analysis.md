@@ -13,9 +13,6 @@ cover: /static/content_posts_image/ht-bloc-welded-plate-heat-exchanger-core-tech
 ---
 
 HT-Bloc 焊接板式换热器面向需要板式传热效率、但又不能接受橡胶密封垫温度和压力限制的过程装置。它尤其适用于炼化、化工、电力以及其他连续生产行业，因为这些行业停机成本高，泄漏风险也必须被严格控制。
-
-<img src="/static/content_posts_image/ht-bloc-welded-plate-heat-exchanger-core-technology-manufacturing-deeply-analysis/cover.png" alt="上海板换 HT-Bloc 焊接板式换热器产品系列" width="640" />
-
 上海板换 HT-Bloc 将全焊接板束与可拆外框结合起来。该结构旨在提供高湍流和紧凑传热，同时保留检查和机械清洗通道。
 
 ## 为什么需要 HT-Bloc

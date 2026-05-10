@@ -13,9 +13,6 @@ cover: /static/content_posts_image/ht-bloc-welded-plate-heat-exchanger-core-tech
 ---
 
 The HT-Bloc welded plate heat exchanger is designed for process plants that need plate-type thermal efficiency without the temperature and pressure limitations of rubber gaskets. It is especially relevant in refining, chemicals, power, and other continuous-process industries where shutdowns are expensive and leakage risk must be tightly controlled.
-
-<img src="/static/content_posts_image/ht-bloc-welded-plate-heat-exchanger-core-technology-manufacturing-deeply-analysis/cover.png" alt="SHPHE HT-Bloc welded plate heat exchanger product family" width="640" />
-
 SHPHE's HT-Bloc combines a fully welded plate pack with a removable external frame. This structure is intended to deliver high turbulence and compact heat transfer while preserving access for inspection and mechanical cleaning.
 
 ## Why HT-Bloc Exists

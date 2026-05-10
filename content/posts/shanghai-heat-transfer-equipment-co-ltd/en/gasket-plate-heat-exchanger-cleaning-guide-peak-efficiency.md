@@ -13,9 +13,6 @@ cover: /static/content_posts_image/gasket-plate-heat-exchanger-cleaning-guide-pe
 ---
 
 Gasketed plate heat exchangers are efficient because they place fluids close to each other across thin corrugated plates. The same compact geometry also means that fouling, gasket damage, or incorrect tightening can quickly affect performance. A structured cleaning process helps restore heat duty while reducing the risk of leaks after reassembly.
-
-<img src="/static/content_posts_image/gasket-plate-heat-exchanger-cleaning-guide-peak-efficiency/cover.png" alt="Gasket plate heat exchanger cleaning workflow" width="640" />
-
 ## 1. Prepare the Work Area
 
 Before opening the exchanger, isolate the unit from pressure, heat, electrical sources, and any connected pump system. Drain the fluids safely and confirm that the equipment has cooled to a serviceable temperature. Prepare soft brushes, non-abrasive pads, approved cleaning chemicals, clean water, a torque wrench, lifting support if required, and personal protective equipment.

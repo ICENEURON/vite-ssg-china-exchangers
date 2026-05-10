@@ -13,9 +13,6 @@ cover: /static/content_posts_image/welded-plate-heat-exchanger-skids-marine-indu
 ---
 
 海工项目对换热设备有特殊要求。空间有限、重量敏感、安装窗口短，设备还可能长期面对振动、盐雾和波动负荷。焊接板式换热器撬装系统把换热器、泵、阀门、仪表、管路和控制系统集成在工厂预制底座上，正好回应了这些约束。
-
-<img src="/static/content_posts_image/welded-plate-heat-exchanger-skids-marine-industry-applications/cover.png" alt="海工用焊接板式换热器撬装系统" width="640" />
-
 ## 撬装集成的价值
 
 撬装换热系统可以减少现场工作量。相比在拥挤机舱或海上模块内逐个安装部件，撬装系统可以在工厂完成预制、试压、接线和文件整理后发运，从而缩短现场安装时间并提升质量可控性。

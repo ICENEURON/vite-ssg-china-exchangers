@@ -13,9 +13,6 @@ cover: /static/content_posts_image/pche-core-technologies-and-processes-engineer
 ---
 
 Printed circuit heat exchangers, usually shortened to PCHEs, are a compact heat exchanger technology built around precision microchannels and solid-state bonding. They are not a small variation of a plate heat exchanger. The manufacturing route is fundamentally different, and that difference explains why PCHEs are being evaluated for hydrogen, supercritical carbon dioxide, offshore gas, nuclear auxiliary systems, and other demanding energy applications.
-
-<img src="/static/content_posts_image/pche-core-technologies-and-processes-engineering-analysis/cover.jpg" alt="Industrial heat exchanger manufacturing facility" width="640" />
-
 ## What Makes a PCHE Different
 
 A PCHE starts with metal plates that are chemically etched to form fine flow channels. These channels may be straight, zigzag, serpentine, or optimized for a specific fluid property curve. After etching, the plates are stacked and diffusion bonded under high temperature, high pressure, and controlled atmosphere conditions. The result is a compact metallic block with internal flow paths and no rubber gasket between the process streams.

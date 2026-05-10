@@ -13,9 +13,6 @@ cover: /static/content_posts_image/advanced-analysis-on-wide-gap-welded-plate-he
 ---
 
 宽通道焊接板式换热器主要面向过程工程中较难处理的一类工况：介质价值高、磨蚀性强、黏度高、含纤维，或容易快速结垢。在这类场景中，传统可拆式板式换热器传热效率高，但容易堵塞；管壳式设备通道更宽，却往往占地更大，合金材料消耗也更高。
-
-<img src="/static/content_posts_image/advanced-analysis-on-wide-gap-welded-plate-heat-exchanger-core-processes-industrial-practice/cover.jpg" alt="上海板换焊接板式换热器产品视图" width="640" />
-
 上海板换将宽通道焊接板式换热器（WGPHE）定位为两类设备之间的折中方案。该设计把宽自由流道与全焊接板束结合起来，使设备能够处理浆料、纸浆、工艺母液以及其他复杂流体，同时不依赖橡胶密封垫。
 
 ## 为什么宽通道设计重要

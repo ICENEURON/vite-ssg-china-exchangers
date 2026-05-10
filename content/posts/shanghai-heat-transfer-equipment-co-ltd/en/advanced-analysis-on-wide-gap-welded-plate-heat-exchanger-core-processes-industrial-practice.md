@@ -13,9 +13,6 @@ cover: /static/content_posts_image/advanced-analysis-on-wide-gap-welded-plate-he
 ---
 
 Wide-gap welded plate heat exchangers are built for a difficult corner of process engineering: services where the fluid is valuable, abrasive, viscous, fiber-rich, or quick to foul. In these duties, conventional gasketed plate heat exchangers may transfer heat efficiently but clog too easily, while shell-and-tube equipment may keep flowing but require a larger footprint and more alloy material.
-
-<img src="/static/content_posts_image/advanced-analysis-on-wide-gap-welded-plate-heat-exchanger-core-processes-industrial-practice/cover.jpg" alt="SHPHE welded plate heat exchanger product view" width="640" />
-
 Shanghai Heat Transfer Equipment Co., Ltd. positions its wide-gap welded plate heat exchanger (WGPHE) as a bridge between those two extremes. The design combines wide free-flow passages with a fully welded plate pack so the unit can handle slurry, pulp, process liquor, and other difficult streams without relying on elastomer gaskets.
 
 ## Why Wide-Gap Design Matters
