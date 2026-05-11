@@ -32,8 +32,8 @@ const env = Object.fromEntries(
     })
 );
 
-const url = env['VITE_SUPABASE_URL'];
-const key = env['VITE_SUPABASE_SERVICE_ROLE_KEY'];
+const url = env['SUPABASE_URL'] || env['VITE_SUPABASE_URL'];
+const key = env['SUPABASE_SERVICE_ROLE_KEY'] || env['VITE_SUPABASE_SERVICE_ROLE_KEY'];
 
 if (!url || !key) {
   console.error("Missing SUPABASE URL or SERVICE ROLE KEY");

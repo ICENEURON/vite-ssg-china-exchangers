@@ -28,15 +28,15 @@ const env = Object.fromEntries(
     })
 );
 
-const url = env['VITE_SUPABASE_URL'];
-const serviceRoleKey = env['VITE_SUPABASE_SERVICE_ROLE_KEY'];
-const anonKey = env['VITE_SUPABASE_ANON_KEY'];
+const url = env['SUPABASE_URL'] || env['VITE_SUPABASE_URL'];
+const serviceRoleKey = env['SUPABASE_SERVICE_ROLE_KEY'] || env['VITE_SUPABASE_SERVICE_ROLE_KEY'];
+const anonKey = env['SUPABASE_ANON_KEY'] || env['VITE_SUPABASE_ANON_KEY'];
 
 // 首选 Service Role Key，因为它拥有最高权限，可以绕过所有 RLS 安全策略直接读取数据
 const key = serviceRoleKey || anonKey;
 
 if (!url || !key) {
-  console.error("Missing VITE_SUPABASE_URL or VITE_SUPABASE_ANON_KEY/VITE_SUPABASE_SERVICE_ROLE_KEY in .env.local");
+  console.error("Missing SUPABASE_URL or SUPABASE_ANON_KEY/SUPABASE_SERVICE_ROLE_KEY in .env.local");
   process.exit(1);
 }
 

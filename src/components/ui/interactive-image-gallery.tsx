@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { ArrowLeft, ArrowRight, Expand, X } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
 import { cn } from '../../utils/cn'
 import { Button } from './button'
@@ -53,6 +54,7 @@ function getNextZoom(currentZoom: number, deltaY: number) {
 }
 
 function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps) {
+  const { t } = useTranslation("translation")
   const [zoom, setZoom] = useState(1)
   const [pan, setPan] = useState({ x: 0, y: 0 })
   const [isDragging, setIsDragging] = useState(false)
@@ -128,7 +130,7 @@ function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps
       <button
         type="button"
         className="absolute inset-0 z-0 h-full w-full cursor-zoom-out"
-        aria-label="Close image preview"
+        aria-label={t("ui.accessibility.close_image_preview")}
         onClick={onClose}
       />
 
@@ -140,7 +142,7 @@ function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps
         onClick={onClose}
       >
         <X className="h-4 w-4" />
-        <span className="sr-only">Close image preview</span>
+        <span className="sr-only">{t("ui.accessibility.close_image_preview")}</span>
       </Button>
 
       <div className="relative z-10 flex h-full flex-col px-4 py-4 sm:px-6 sm:py-6">
@@ -155,7 +157,7 @@ function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps
                 onClick={() => onIndexChange(clampIndex(index - 1, images.length))}
               >
                 <ArrowLeft className="h-4 w-4" />
-                <span className="sr-only">Previous image</span>
+                <span className="sr-only">{t("ui.accessibility.previous_image")}</span>
               </Button>
               <Button
                 type="button"
@@ -165,7 +167,7 @@ function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps
                 onClick={() => onIndexChange(clampIndex(index + 1, images.length))}
               >
                 <ArrowRight className="h-4 w-4" />
-                <span className="sr-only">Next image</span>
+                <span className="sr-only">{t("ui.accessibility.next_image")}</span>
               </Button>
             </>
           )}
@@ -186,7 +188,7 @@ function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps
           >
             <img
               src={currentImage.src}
-              alt={currentImage.alt || 'Preview image'}
+              alt={currentImage.alt || t("ui.image.preview_image")}
               draggable={false}
               className="max-h-full max-w-full rounded-2xl object-contain shadow-2xl will-change-transform select-none"
               style={{ transform: `scale(${zoom}) translate(${pan.x / zoom}px, ${pan.y / zoom}px)`, transition: isDragging ? 'none' : 'transform 150ms' }}
@@ -206,7 +208,7 @@ function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps
                 )}
                 onClick={() => onIndexChange(imageIndex)}
               >
-                <img src={image.src} alt={image.alt || 'Preview thumbnail'} className="h-full w-full object-cover" />
+                <img src={image.src} alt={image.alt || t("ui.image.preview_thumbnail")} className="h-full w-full object-cover" />
               </button>
             ))}
           </div>
@@ -229,6 +231,7 @@ export function ImageCarouselGallery({
     () => images.filter((image) => Boolean(image?.src)).map((image) => ({ src: image.src, alt: image.alt || altFallback, type: image.type || 'image' })),
     [altFallback, images]
   )
+  const { t } = useTranslation("translation")
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [lightboxOpen, setLightboxOpen] = useState(false)
 
@@ -289,7 +292,7 @@ export function ImageCarouselGallery({
                 onClick={() => setSelectedIndex((current) => clampIndex(current - 1, galleryImages.length))}
               >
                 <ArrowLeft className="h-4 w-4" />
-                <span className="sr-only">Previous image</span>
+                <span className="sr-only">{t("ui.accessibility.previous_image")}</span>
               </Button>
               <Button
                 type="button"
@@ -299,7 +302,7 @@ export function ImageCarouselGallery({
                 onClick={() => setSelectedIndex((current) => clampIndex(current + 1, galleryImages.length))}
               >
                 <ArrowRight className="h-4 w-4" />
-                <span className="sr-only">Next image</span>
+                <span className="sr-only">{t("ui.accessibility.next_image")}</span>
               </Button>
             </>
           )}

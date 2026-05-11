@@ -1,6 +1,7 @@
 import * as React from "react"
 import useEmblaCarousel from "embla-carousel-react"
 import { ArrowLeft, ArrowRight } from "lucide-react"
+import { useTranslation } from "react-i18next"
 
 import { cn } from "../../utils/cn"
 import { Button } from "../ui/button"
@@ -122,6 +123,7 @@ const CarouselPrevious = React.forwardRef<
   HTMLButtonElement,
   React.ComponentProps<typeof Button>
 >(({ className, variant = "outline", size = "icon", ...props }, ref) => {
+  const { t } = useTranslation("translation")
   const { orientation, scrollPrev } = useCarousel()
 
   return (
@@ -140,7 +142,7 @@ const CarouselPrevious = React.forwardRef<
       {...props}
     >
       <ArrowLeft className="h-4 w-4" />
-      <span className="sr-only">Previous slide</span>
+      <span className="sr-only">{t("ui.accessibility.previous_slide")}</span>
     </Button>
   )
 })
@@ -150,6 +152,7 @@ const CarouselNext = React.forwardRef<
   HTMLButtonElement,
   React.ComponentProps<typeof Button>
 >(({ className, variant = "outline", size = "icon", ...props }, ref) => {
+  const { t } = useTranslation("translation")
   const { orientation, scrollNext } = useCarousel()
 
   return (
@@ -168,7 +171,7 @@ const CarouselNext = React.forwardRef<
       {...props}
     >
       <ArrowRight className="h-4 w-4" />
-      <span className="sr-only">Next slide</span>
+      <span className="sr-only">{t("ui.accessibility.next_slide")}</span>
     </Button>
   )
 })

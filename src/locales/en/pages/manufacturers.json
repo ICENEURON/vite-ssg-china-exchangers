@@ -27,19 +27,6 @@
   },
   "card": {
     "verified": "VERIFIED",
-    "score": "Score",
-    "metrics": {
-      "profile": "Overall score",
-      "response": "Response speed",
-      "products": "Product count"
-    },
-    "response_tiers": {
-      "within_24h": "< 1 Day",
-      "within_3_days": "< 3 Day",
-      "within_1_week": "< 7 Day",
-      "n/a": "n/a",
-      "unknown": "n/a"
-    },
     "view_profile": "View Profile"
   },
   "company": {
@@ -52,6 +39,7 @@
     "start_inquiry": "Start Your Inquiry",
     "verified_contact": "Verified Contact",
     "response_time": "< {{hours}}h Response",
+    "response_speed_label": "Response speed",
     "timely_response": "Timely",
     "iso_certified": "ISO Certified",
     "asme_stamp": "ASME Stamp",

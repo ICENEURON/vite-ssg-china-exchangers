@@ -249,7 +249,7 @@ export function Navigation() {
                             variant="ghost"
                             size="sm"
                             className="h-8 w-8 p-0 text-navbar-foreground hover:text-navbar-foreground"
-                            aria-label="Toggle mobile menu"
+                            aria-label={t("ui.accessibility.toggle_mobile_menu")}
                             onClick={(e) => {
                                 e.stopPropagation();
                                 setIsMobileMenuOpen((prev) => !prev);

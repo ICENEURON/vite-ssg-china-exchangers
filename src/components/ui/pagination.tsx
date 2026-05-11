@@ -1,19 +1,28 @@
 
 import * as React from "react"
 import { ChevronLeft, ChevronRight, MoreHorizontal } from "lucide-react"
+import { useTranslation } from "react-i18next"
 
 import { cn } from "../../utils/cn"
 import { buttonVariants, type ButtonProps } from "../../components/ui/button"
 
 const Pagination = ({ className, ...props }: React.ComponentProps<"nav">) => (
-    <nav
-        role="navigation"
-        aria-label="pagination"
-        className={cn("mx-auto flex w-full justify-center", className)}
-        {...props}
-    />
+    <PaginationRoot className={className} {...props} />
 )
 Pagination.displayName = "Pagination"
+
+const PaginationRoot = ({ className, ...props }: React.ComponentProps<"nav">) => {
+    const { t } = useTranslation("translation")
+
+    return (
+        <nav
+            role="navigation"
+            aria-label={t("ui.accessibility.pagination")}
+            className={cn("mx-auto flex w-full justify-center", className)}
+            {...props}
+        />
+    )
+}
 
 const PaginationContent = React.forwardRef<
     HTMLUListElement,
@@ -65,33 +74,41 @@ PaginationLink.displayName = "PaginationLink"
 const PaginationPrevious = ({
     className,
     ...props
-}: React.ComponentProps<typeof PaginationLink>) => (
-    <PaginationLink
-        aria-label="Go to previous page"
-        size="default"
-        variant="nonbackground"
-        className={cn("gap-1 pl-2.5 hover:text-accent", className)}
-        {...props}
-    >
-        <ChevronLeft className="h-4 w-4" />
-    </PaginationLink>
-)
+}: React.ComponentProps<typeof PaginationLink>) => {
+    const { t } = useTranslation("translation")
+
+    return (
+        <PaginationLink
+            aria-label={t("ui.accessibility.previous_page")}
+            size="default"
+            variant="nonbackground"
+            className={cn("gap-1 pl-2.5 hover:text-accent", className)}
+            {...props}
+        >
+            <ChevronLeft className="h-4 w-4" />
+        </PaginationLink>
+    )
+}
 PaginationPrevious.displayName = "PaginationPrevious"
 
 const PaginationNext = ({
     className,
     ...props
-}: React.ComponentProps<typeof PaginationLink>) => (
-    <PaginationLink
-        aria-label="Go to next page"
-        size="default"
-        variant="nonbackground"
-        className={cn("gap-1 pr-2.5 hover:text-accent", className)}
-        {...props}
-    >
-        <ChevronRight className="h-4 w-4" />
-    </PaginationLink>
-)
+}: React.ComponentProps<typeof PaginationLink>) => {
+    const { t } = useTranslation("translation")
+
+    return (
+        <PaginationLink
+            aria-label={t("ui.accessibility.next_page")}
+            size="default"
+            variant="nonbackground"
+            className={cn("gap-1 pr-2.5 hover:text-accent", className)}
+            {...props}
+        >
+            <ChevronRight className="h-4 w-4" />
+        </PaginationLink>
+    )
+}
 PaginationNext.displayName = "PaginationNext"
 
 const PaginationEllipsis = ({

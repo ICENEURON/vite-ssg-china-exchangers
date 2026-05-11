@@ -27,19 +27,6 @@
   },
   "card": {
     "verified": "已验证",
-    "score": "评分",
-    "metrics": {
-      "profile": "综合分数",
-      "response": "回复速度",
-      "products": "产品数量"
-    },
-    "response_tiers": {
-      "within_24h": "< 1 Day",
-      "within_3_days": "< 3 Day",
-      "within_1_week": "< 7 Day",
-      "n/a": "n/a",
-      "unknown": "n/a"
-    },
     "view_profile": "查看资料"
   },
   "company": {
@@ -52,6 +39,7 @@
     "start_inquiry": "开始询价",
     "verified_contact": "验证联系人",
     "response_time": "< {{hours}} 小时回复",
+    "response_speed_label": "回复速度",
     "timely_response": "及时",
     "iso_certified": "ISO 认证",
     "asme_stamp": "ASME 钢印",

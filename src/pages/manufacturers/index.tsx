@@ -31,53 +31,19 @@ interface Industry {
   name: string;
 }
 
-interface ManufacturerScore {
-  id: string;
-  manufacturer_id: string;
+interface ManufacturerScoreRecord {
   manufacturer_slug: string;
   order: number;
-  overall_score: number;
-  company_intro_score?: number;
-  product_info_score?: number;
-  export_market_score?: number;
-  video_count_score?: number;
-  social_media_score?: number;
-  factory_certification_score?: number;
-  downloadable_document_score?: number;
-  partner_logo_score?: number;
-  response_time: ResponseTimeTier;
-  response_time_score?: number;
-  published_article_count: number;
-  published_article_score?: number;
-  created_at: string;
-  updated_at: string;
 }
 
 interface ManufacturerScoreFile {
-  records: ManufacturerScore[];
+  records: ManufacturerScoreRecord[];
 }
 
-type ManufacturerScoreSource = ManufacturerScore[] | ManufacturerScoreFile;
-type ResponseTimeTier = "within_24h" | "within_3_days" | "within_1_week" | "unknown" | "n/a";
-
+type ManufacturerScoreSource = ManufacturerScoreRecord[] | ManufacturerScoreFile;
 type ManufacturerDropdown = "industry" | "city";
 
-const fallbackSignal: Omit<ManufacturerScore, "id" | "manufacturer_id" | "manufacturer_slug" | "created_at" | "updated_at"> = {
-  order: 999,
-  overall_score: 0,
-  company_intro_score: 0,
-  product_info_score: 0,
-  export_market_score: 0,
-  video_count_score: 0,
-  social_media_score: 0,
-  factory_certification_score: 0,
-  downloadable_document_score: 0,
-  partner_logo_score: 0,
-  response_time: "unknown",
-  response_time_score: 0,
-  published_article_count: 0,
-  published_article_score: 0,
-};
+const fallbackManufacturerOrder = 999;
 
 function getManufacturerScoreRecords(source: ManufacturerScoreSource) {
   return Array.isArray(source) ? source : source.records;
@@ -145,12 +111,12 @@ export default function ManufacturersPage() {
   ), []);
 
   const rankedManufacturers = useMemo(() => manufacturers.map((manufacturer) => {
-    const signal = signalsBySlug.get(manufacturer.slug) || fallbackSignal;
+    const order = signalsBySlug.get(manufacturer.slug)?.order ?? fallbackManufacturerOrder;
 
     return {
       ...manufacturer,
       ranking: {
-        order: signal.order,
+        order,
       },
     };
   }), [manufacturers, signalsBySlug]);
@@ -355,7 +321,6 @@ export default function ManufacturersPage() {
                     description: company.short_description || '',
                     tags: company.industries || [],
                     link: addLanguageToPath(`/manufacturers/${company.slug}`, currentLanguage),
-                    ranking: company.ranking,
                   }}
                 />
               ))}

@@ -43,13 +43,13 @@ export function TechSpecsForm({ units, onUnitChange, specs, onChange }: TechSpec
                         onClick={() => onUnitChange("metric")}
                         className={`text-sm px-6 py-2 rounded-lg font-semibold transition-all duration-300 ${units === "metric" ? "bg-white shadow-md text-primary" : "text-slate-500 hover:text-slate-700"}`}
                     >
-                        Metric (°C, m³/h)
+                        {t("unitMetric")}
                     </button>
                     <button
                         onClick={() => onUnitChange("imperial")}
                         className={`text-sm px-6 py-2 rounded-lg font-semibold transition-all duration-300 ${units === "imperial" ? "bg-white shadow-md text-primary" : "text-slate-500 hover:text-slate-700"}`}
                     >
-                        Imperial (°F, GPM)
+                        {t("unitImperial")}
                     </button>
                 </div>
             </div>

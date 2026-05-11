@@ -79,7 +79,7 @@ const Footer = () => {
               >
                 <img
                   src={logo.src}
-                  alt="logo"
+                  alt={t("ui.image.logo_alt")}
                   title={logo.title}
                   className="h-12 w-auto"
                 />

@@ -87,8 +87,8 @@ export default function ProductProfilePage() {
     const location = useLocation();
     const { t } = useTranslation();
     const currentLanguage = useCurrentLanguage();
-    const documentDownloadsTitle = t("pages.products.detail.document_downloads", { defaultValue: currentLanguage === 'zh' ? '文档下载' : 'Document Downloads' });
-    const downloadLabel = t("pages.products.detail.download", { defaultValue: currentLanguage === 'zh' ? '下载' : 'Download' });
+    const documentDownloadsTitle = t("pages.products.detail.document_downloads");
+    const downloadLabel = t("pages.products.detail.download");
 
     // Construct dynamic path: pages.products.shanghai-heat-transfer-equipment-co-ltd.ht-bloc-welded-plate-heat-exchanger
     const TK = `pages.products.${manufacturerSlug}.${productSlug}`;
@@ -168,7 +168,7 @@ export default function ProductProfilePage() {
                                 ) : (
                                     <div className="rounded-2xl overflow-hidden relative">
                                         <div className="flex aspect-[4/3] items-center justify-center rounded-xl border border-slate-700 text-slate-400">
-                                            {t("pages.products.detail.no_image", { defaultValue: 'No product image available' })}
+                                            {t("pages.products.detail.no_image")}
                                         </div>
                                     </div>
                                 )}
@@ -207,7 +207,7 @@ export default function ProductProfilePage() {
                                 <div className="flex flex-col sm:flex-row gap-4 mt-4 w-full sm:w-auto">
                                     <Button size="lg" className="h-14 px-8 text-lg font-medium shadow-lg hover:scale-105 transition-transform w-full sm:w-auto" asChild>
                                         <Link to={addLanguageToPath(`/manufacturers/${manufacturerSlug}`, currentLanguage)}>
-                                            <Factory className="mr-2 h-5 w-5" /> {t("pages.products.detail.back_to_manufacturer", { defaultValue: currentLanguage === 'zh' ? '返回制造商页面' : 'Back to Manufacturer Page' })}
+                                            <Factory className="mr-2 h-5 w-5" /> {t("pages.products.detail.back_to_manufacturer")}
                                         </Link>
                                     </Button>
                                     <Button size="lg" className="h-14 px-8 text-lg font-medium shadow-lg hover:scale-105 transition-transform w-full sm:w-auto" asChild>
@@ -232,7 +232,7 @@ export default function ProductProfilePage() {
                                 <div className="p-3 bg-violet-500/10 rounded-xl text-violet-600">
                                     <BookOpen className="w-6 h-6" />
                                 </div>
-                                <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.product_details", { defaultValue: 'Product Details' })}</h2>
+                                <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.product_details")}</h2>
                             </div>
                             <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
                                 {details.map((detail, idx) => (
@@ -300,13 +300,13 @@ export default function ProductProfilePage() {
                                         <Factory className="w-6 h-6" />
                                     </div>
                                     <h2 className="text-3xl font-bold tracking-tight">
-                                        {t("pages.products.detail.other_products", { defaultValue: currentLanguage === 'zh' ? '该公司的其他产品' : 'Other Products From This Manufacturer' })}
+                                        {t("pages.products.detail.other_products")}
                                     </h2>
                                 </div>
                                 <Button size="lg" className="h-14 px-8 text-lg font-medium shadow-lg hover:scale-105 transition-transform w-full sm:w-auto" asChild>
                                     <Link to={addLanguageToPath(`/manufacturers/${manufacturerSlug}`, currentLanguage)}>
                                         <Factory className="mr-2 h-5 w-5" />
-                                        {t("pages.products.detail.back_to_manufacturer", { defaultValue: currentLanguage === 'zh' ? '返回制造商页面' : 'Back to Manufacturer Page' })}
+                                        {t("pages.products.detail.back_to_manufacturer")}
                                     </Link>
                                 </Button>
                             </div>
@@ -358,7 +358,7 @@ export default function ProductProfilePage() {
 
                                             <div className="mt-auto pt-4">
                                                 <div className="flex items-center text-sm font-semibold text-primary transition-colors duration-300 group-hover:text-orange-600">
-                                                    {t("pages.products.card.explore_details", { defaultValue: currentLanguage === 'zh' ? '查看详情' : 'Explore Details' })}
+                                                    {t("pages.products.card.explore_details")}
                                                     <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                                                 </div>
                                             </div>
@@ -415,14 +415,14 @@ export default function ProductProfilePage() {
                     className="group flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float"
                 >
                     <ArrowLeft className="h-4 w-4 shrink-0 transition-transform group-hover:-translate-x-1" />
-                    <span className="truncate">{t("pages.products.detail.back_to_manufacturers", { defaultValue: currentLanguage === 'zh' ? '返回所有工厂' : 'Back to Manufacturers' })}</span>
+                    <span className="truncate">{t("pages.products.detail.back_to_manufacturers")}</span>
                 </Link>
                 <Link
                     to={addLanguageToPath('/products', currentLanguage)}
                     className="group flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float"
                 >
                     <ArrowLeft className="h-4 w-4 shrink-0 transition-transform group-hover:-translate-x-1" />
-                    <span className="truncate">{t("pages.products.detail.back_to_list", { defaultValue: 'Back to Products' })}</span>
+                    <span className="truncate">{t("pages.products.detail.back_to_list")}</span>
                 </Link>
             </div>
         </>

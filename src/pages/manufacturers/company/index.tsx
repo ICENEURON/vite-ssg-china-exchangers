@@ -114,8 +114,8 @@ export default function ManufacturerProfilePage() {
 
     const SHARED_TK = "pages.manufacturers.company";
     const TK = `pages.manufacturers.${slug}`;
-    const documentDownloadsTitle = t(`${SHARED_TK}.document_downloads`, { defaultValue: currentLanguage === 'zh' ? '文档下载' : 'Document Downloads' });
-    const downloadLabel = t(`${SHARED_TK}.download`, { defaultValue: currentLanguage === 'zh' ? '下载' : 'Download' });
+    const documentDownloadsTitle = t(`${SHARED_TK}.document_downloads`);
+    const downloadLabel = t(`${SHARED_TK}.download`);
     const partnerWithTemplate = t(`${SHARED_TK}.partner_with`, { name: '__NAME__' });
     const [partnerWithPrefix, partnerWithSuffix] = partnerWithTemplate.split('__NAME__');
 
@@ -141,7 +141,7 @@ export default function ManufacturerProfilePage() {
         business_license: true,
         export_experience: true,
     };
-    const responseTimeLabel = t(`${SHARED_TK}.timely_response`, { defaultValue: currentLanguage === 'zh' ? '及时' : 'Timely' });
+    const responseTimeLabel = t(`${SHARED_TK}.timely_response`);
 
     const description = mfgData.full_description;
     const advantages = mfgData.advantages || [];
@@ -256,7 +256,7 @@ export default function ManufacturerProfilePage() {
                                 <div className="mt-6 pt-6 border-t border-white/10 flex flex-col gap-3 text-sm font-semibold text-slate-200 relative z-10">
                                     <div className="flex min-w-0 items-center gap-3 whitespace-nowrap">
                                         <Zap className="h-5 w-5 shrink-0 text-amber-400" />
-                                        <span>{t('pages.manufacturers.card.metrics.response')}: {responseTimeLabel}</span>
+                                        <span>{t(`${SHARED_TK}.response_speed_label`)}: {responseTimeLabel}</span>
                                     </div>
                                 </div>
                             </div>
@@ -374,7 +374,7 @@ export default function ManufacturerProfilePage() {
                             {exportMarkets.length > 0 && (
                                 <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm h-fit">
                                     <h3 className="font-bold mb-4 flex items-center gap-2 text-slate-800">
-                                        <Globe2 className="w-5 h-5 text-indigo-500" /> {t(`${SHARED_TK}.export_markets`, { defaultValue: 'Export Markets' })}
+                                        <Globe2 className="w-5 h-5 text-indigo-500" /> {t(`${SHARED_TK}.export_markets`)}
                                     </h3>
                                     <div className="flex flex-wrap gap-2">
                                         {exportMarkets.map((code: string, i: number) => {
@@ -412,7 +412,7 @@ export default function ManufacturerProfilePage() {
                             {(email.length > 0 || phone.length > 0) && (
                                 <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm h-fit">
                                     <h3 className="font-bold mb-4 flex items-center gap-2 text-slate-800">
-                                        <Phone className="w-5 h-5 text-emerald-500" /> {t(`${SHARED_TK}.contact_info`, { defaultValue: 'Contact Info' })}
+                                        <Phone className="w-5 h-5 text-emerald-500" /> {t(`${SHARED_TK}.contact_info`)}
                                     </h3>
                                     <div className="space-y-3">
                                         {email.length > 0 && (
@@ -435,7 +435,7 @@ export default function ManufacturerProfilePage() {
                             {socialMediaLinks.length > 0 && (
                                 <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm h-fit">
                                     <h3 className="font-bold mb-4 flex items-center gap-2 text-slate-800">
-                                        <Globe2 className="w-5 h-5 text-blue-500" /> {t(`${SHARED_TK}.follow_us`, { defaultValue: 'Follow Us' })}
+                                        <Globe2 className="w-5 h-5 text-blue-500" /> {t(`${SHARED_TK}.follow_us`)}
                                     </h3>
                                     <div className="flex items-center gap-3">
                                         {socialMediaLinks.map((link, i) => {
@@ -554,7 +554,7 @@ export default function ManufacturerProfilePage() {
                             <div className="relative z-10">
                                 <ZoomableImageGrid
                                     images={certificates.map((cert) => ({ src: cert.url, alt: cert.alt_text }))}
-                                    altFallback={t(`${SHARED_TK}.certificate`, { defaultValue: 'Certificate' })}
+                                    altFallback={t(`${SHARED_TK}.certificate`)}
                                     imageClassName="filter grayscale transition-all duration-300 group-hover:grayscale-0"
                                 />
                             </div>
@@ -664,7 +664,7 @@ export default function ManufacturerProfilePage() {
                 className="fixed bottom-6 right-6 z-50 flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 group hover:shadow-float hover:-translate-y-1 hover:text-blue-600"
             >
                 <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-1" />
-                <span>{t(`${SHARED_TK}.back_to_list`, { defaultValue: 'Back to Manufacturers' })}</span>
+                <span>{t(`${SHARED_TK}.back_to_list`)}</span>
             </Link>
         </>
     )

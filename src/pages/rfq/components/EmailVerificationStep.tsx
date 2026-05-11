@@ -169,7 +169,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                             inputMode="text"
                             autoComplete="one-time-code"
                             className="flex h-16 w-full rounded-xl border-2 border-slate-200 bg-background px-4 py-2 text-3xl text-center font-mono ring-offset-background transition-all focus:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
-                            placeholder={t("step3.accessCodePlaceholder", { defaultValue: "Code" })}
+                            placeholder={t("step3.accessCodePlaceholder")}
                             value={otp}
                             onChange={(e) => setOtp(e.target.value)}
                         />

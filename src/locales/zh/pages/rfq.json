@@ -227,6 +227,8 @@
   "step2": {
     "title": "2. 设计与设备参数",
     "subtitle": "填写冷热侧介质和关键设备参数，未知项可留空。",
+    "unitMetric": "公制 (°C, m³/h)",
+    "unitImperial": "英制 (°F, GPM)",
     "thermalSpecsTitle": "热工与性能参数",
     "thermalSpecsSubtitle": "流体类型按进口和出口分别填写；质量流量为必填；当某一端流体类型为气液时，对应气相分率必填。",
     "equipmentParamsTitle": "设备参数",
@@ -270,6 +272,7 @@
     "additionalNotesPlaceholder": "是否有特定的材质要求？尺寸限制？认证需求？(最多500字符)"
   },
   "step3": {
+    "accessCodePlaceholder": "验证码",
     "title": "3. 身份验证",
     "subtitle": "在匹配工厂之前，请验证您的电子邮件以确保您是真实用户。",
     "verifiedTitle": "邮箱已验证！",

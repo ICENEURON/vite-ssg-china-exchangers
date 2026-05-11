@@ -7,8 +7,10 @@
 
 # Avoid content negotiation rewriting clean URLs to the wrong resource.
 <IfModule mod_negotiation.c>
-    Options -MultiViews
+    Options -MultiViews -Indexes
 </IfModule>
+
+DirectorySlash Off
 
 # Enable gzip/deflate compression
 <IfModule mod_deflate.c>
@@ -44,19 +46,29 @@ ErrorDocument 404 /404.html
 RewriteEngine On
 RewriteBase /
 
-# Serve existing files and directories directly
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^ - [L]
+# Canonical host and protocol
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^__SITE_HOST_REGEX__$ [NC]
+RewriteRule ^ __SITE_ORIGIN__%{REQUEST_URI} [R=301,L]
 
-# Map clean URLs to generated .html files
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.+?)/?$ $1.html [L]
+# Normalize trailing slash for content routes
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteCond %{REQUEST_URI} !^/$
+RewriteCond %{REQUEST_URI} .+/$
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+# Serve real files directly
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
 
 # Map directory-style routes to generated index.html files when present
 RewriteCond %{REQUEST_FILENAME}/index.html -f
 RewriteRule ^(.+?)/?$ $1/index.html [L]
 
+# Map clean URLs to generated .html files
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+
 # Everything else returns the static 404 page
 RewriteRule ^404\.html$ - [L]
-RewriteRule ^ - [L,R=404]
+RewriteRule ^ - [R=404,L]

@@ -185,7 +185,7 @@ export default function ProductsPage() {
                     title={productsT.t("hero.title")}
                     description={productsT.t("hero.description")}
                     backgroundImageSrc="/static/websites/manufacturers-hero.png"
-                    backgroundImageAlt="Industrial Facility"
+                    backgroundImageAlt={t("ui.image.industrial_facility")}
                 />
 
                 <section className="py-10">

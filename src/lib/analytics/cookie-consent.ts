@@ -9,6 +9,20 @@ let gaLoaded = false;
 let cookieConsentInitialized = false;
 let learnMoreRoutingInitialized = false;
 
+function getSiteHostname() {
+  const configuredSiteUrl = import.meta.env.VITE_SITE_URL;
+
+  if (configuredSiteUrl) {
+    try {
+      return new URL(configuredSiteUrl).hostname;
+    } catch {
+      // Fall back to the current host when the configured URL is malformed.
+    }
+  }
+
+  return window.location.hostname;
+}
+
 function getCurrentLanguage() {
   return window.__LANGUAGE__ === 'zh' || window.location.pathname.startsWith('/zh') ? 'zh' : 'en';
 }
@@ -106,6 +120,8 @@ export function initializeCookieConsent() {
   initializeDataLayer();
   routeLearnMoreToPrivacy();
 
+  const cookieDomainLabel = getSiteHostname();
+
   CookieConsent.run({
     mode: 'opt-in',
     cookie: {
@@ -176,7 +192,7 @@ export function initializeCookieConsent() {
                   body: [
                     {
                       name: '_ga, _ga_*',
-                      domain: 'heatexdirect.com',
+                      domain: cookieDomainLabel,
                       desc: 'Measures site usage when analytics is accepted.',
                     },
                   ],
@@ -217,7 +233,7 @@ export function initializeCookieConsent() {
                   body: [
                     {
                       name: '_ga, _ga_*',
-                      domain: 'heatexdirect.com',
+                      domain: cookieDomainLabel,
                       desc: '在你同意分析后，用于衡量网站使用情况。',
                     },
                   ],

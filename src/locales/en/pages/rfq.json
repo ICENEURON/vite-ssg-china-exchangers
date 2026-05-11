@@ -227,6 +227,8 @@
   "step2": {
     "title": "2. Design & Equipment Parameters",
     "subtitle": "Provide the hot-side and cold-side media data plus key equipment parameters.",
+    "unitMetric": "Metric (°C, m³/h)",
+    "unitImperial": "Imperial (°F, GPM)",
     "thermalSpecsTitle": "Thermal & Performance Specifications",
     "thermalSpecsSubtitle": "Fill fluid type separately for inlet and outlet. Mass flow is required. If either end is gas-liquid, the matching gas phase fraction is required.",
     "equipmentParamsTitle": "Equipment Parameters",
@@ -270,6 +272,7 @@
     "additionalNotesPlaceholder": "Any specific materials required? Dimensions constraints? Certifications needed? (Max 500 characters)"
   },
   "step3": {
+    "accessCodePlaceholder": "Code",
     "title": "3. Verification",
     "subtitle": "Please verify your email to ensure you are a real user before connecting with factories.",
     "verifiedTitle": "Email Already Verified!",

@@ -16,4 +16,4 @@ function QuoteCta({
     );
 }
 
-export { QuoteCta, QUOTE_CTA_CLASS };
+export { QuoteCta };

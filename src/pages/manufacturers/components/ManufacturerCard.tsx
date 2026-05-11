@@ -2,10 +2,6 @@ import { ArrowRight, MapPin } from "lucide-react"
 import { Badge } from "../../../components/ui/badge";
 import { useTranslation } from "react-i18next"
 
-interface RankingSignal {
-    order: number;
-}
-
 interface ManufacturerProps {
     id: string;
     name: string;
@@ -13,7 +9,6 @@ interface ManufacturerProps {
     description: string;
     tags: string[];
     link: string;
-    ranking: RankingSignal;
 }
 
 export function ManufacturerCard({ company }: { company: ManufacturerProps }) {

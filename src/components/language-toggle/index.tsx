@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { useCurrentLanguage, addLanguageToPath, getPathWithoutLanguage } from '../../utils/language-routing';
 import type { Language } from '../../utils/language-routing';
 import { languages as languageConfigs } from '../../locales';
@@ -7,6 +8,7 @@ import { Button } from '../ui/button';
 import { Globe, Check } from 'lucide-react';
 
 export function LanguageToggle() {
+  const { t } = useTranslation("translation");
   const navigate = useNavigate();
   const location = useLocation();
   const currentLanguage = useCurrentLanguage();
@@ -107,7 +109,7 @@ export function LanguageToggle() {
         onClick={() => setIsOpen(true)}
         type="button"
         aria-expanded={isOpen}
-        aria-label="Select language"
+        aria-label={t("ui.accessibility.select_language")}
         className="text-navbar-foreground hover:text-navbar-foreground hover:bg-accent/40"
       >
         <Globe className="h-4 w-4" />

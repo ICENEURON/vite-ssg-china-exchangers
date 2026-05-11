@@ -1,0 +1,21 @@
+{
+  "accessibility": {
+    "toggle_mobile_menu": "Toggle mobile menu",
+    "toggle_theme": "Toggle theme",
+    "select_language": "Select language",
+    "close_image_preview": "Close image preview",
+    "previous_image": "Previous image",
+    "next_image": "Next image",
+    "previous_slide": "Previous slide",
+    "next_slide": "Next slide",
+    "pagination": "Pagination",
+    "previous_page": "Go to previous page",
+    "next_page": "Go to next page"
+  },
+  "image": {
+    "logo_alt": "HeatEx Direct logo",
+    "industrial_facility": "Industrial facility",
+    "preview_image": "Preview image",
+    "preview_thumbnail": "Preview thumbnail"
+  }
+}
