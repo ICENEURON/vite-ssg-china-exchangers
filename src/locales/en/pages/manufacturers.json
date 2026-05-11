@@ -7,36 +7,14 @@
   "filter_by": "Filter by Industry",
   "filter_industry": "Industry",
   "filter_city": "City",
-  "sort_by": "Sort by",
-  "sort_placeholder": "Select",
-  "sort_options": {
-    "profile": "Overall score",
-    "response": "Response speed",
-    "products": "Product count"
-  },
-  "scoring_note": {
-    "description": "Overall score is out of 100. Each of these 10 dimensions contributes up to 10 points.",
-    "dimensions": [
-      "Company intro",
-      "Product info",
-      "Export markets",
-      "Video count",
-      "Social media",
-      "Factory certification",
-      "Downloadable documents",
-      "Partner logos",
-      "Response speed",
-      "Recently updated"
-    ]
-  },
   "title": "Verified Heat Exchanger Manufacturers | HeatEx Direct",
   "meta": {
-    "description": "Browse a focused directory of reviewed Chinese heat exchanger manufacturers with city, industry, profile completeness, response tier, and product signals.",
-    "keywords": "verified heat exchanger manufacturers, China heat exchanger factories, manufacturer directory, heat exchanger supplier scoring, industrial heat exchanger sourcing"
+    "description": "Browse a focused directory of reviewed Chinese heat exchanger manufacturers with city, industry, company profile, product coverage, and export market details.",
+    "keywords": "verified heat exchanger manufacturers, China heat exchanger factories, manufacturer directory, industrial heat exchanger sourcing"
   },
   "og": {
     "title": "Verified Heat Exchanger Manufacturers | HeatEx Direct",
-    "description": "Browse reviewed Chinese heat exchanger manufacturers with city, industry, profile completeness, response tier, and product signals.",
+    "description": "Browse reviewed Chinese heat exchanger manufacturers and quickly narrow suppliers by city and industry.",
     "image": "/static/websites/home-hero.png",
     "url": "{{url}}",
     "type": "website",
@@ -45,7 +23,7 @@
   "hero": {
     "badge": "",
     "title": "China Heat Exchanger Manufacturer Directory",
-    "description": "Browse a growing directory of Chinese heat exchanger manufacturers, filter by city and industry, and compare company profiles, product coverage, export markets, and response speed in one place."
+    "description": "Browse a growing directory of Chinese heat exchanger manufacturers, filter by city and industry, and compare company profiles, product coverage, and export markets in one place."
   },
   "card": {
     "verified": "VERIFIED",
@@ -74,6 +52,7 @@
     "start_inquiry": "Start Your Inquiry",
     "verified_contact": "Verified Contact",
     "response_time": "< {{hours}}h Response",
+    "timely_response": "Timely",
     "iso_certified": "ISO Certified",
     "asme_stamp": "ASME Stamp",
     "business_license": "Business Lic.",

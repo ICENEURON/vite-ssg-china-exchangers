@@ -9,7 +9,6 @@ import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-r
 import { QuoteCta } from '../../../components/ui/quote-cta'
 import { RfqLink } from '../../../utils/rfq-routing/link'
 import countriesData from '../../../data/countries.json'
-import manufacturerScores from '../../../data/manufacturer_scores.json'
 
 interface ImageAsset {
     alt_text?: string;
@@ -37,40 +36,6 @@ interface CountryData {
     id: string;
     name: string;
     name_zh?: string;
-}
-
-type ResponseTimeTier = "within_24h" | "within_3_days" | "within_1_week" | "unknown" | "n/a";
-
-interface ManufacturerScore {
-    id: string;
-    manufacturer_id: string;
-    manufacturer_slug: string;
-    order: number;
-    overall_score: number;
-    company_intro_score?: number;
-    product_info_score?: number;
-    export_market_score?: number;
-    video_count_score?: number;
-    social_media_score?: number;
-    factory_certification_score?: number;
-    downloadable_document_score?: number;
-    partner_logo_score?: number;
-    response_time: ResponseTimeTier;
-    response_time_score?: number;
-    published_article_count: number;
-    published_article_score?: number;
-    created_at: string;
-    updated_at: string;
-}
-
-interface ManufacturerScoreFile {
-    records: ManufacturerScore[];
-}
-
-type ManufacturerScoreSource = ManufacturerScore[] | ManufacturerScoreFile;
-
-function getManufacturerScoreRecords(source: ManufacturerScoreSource) {
-    return Array.isArray(source) ? source : source.records;
 }
 
 interface ManufacturerData {
@@ -176,10 +141,7 @@ export default function ManufacturerProfilePage() {
         business_license: true,
         export_experience: true,
     };
-    const rankingSignal = getManufacturerScoreRecords(manufacturerScores as ManufacturerScoreSource).find((record) => record.manufacturer_slug === slug);
-    const overallScore = rankingSignal?.overall_score ?? 0;
-    const responseTimeTier = rankingSignal?.response_time ?? "unknown";
-    const responseTimeLabel = t(`pages.manufacturers.card.response_tiers.${responseTimeTier}`);
+    const responseTimeLabel = t(`${SHARED_TK}.timely_response`, { defaultValue: currentLanguage === 'zh' ? '及时' : 'Timely' });
 
     const description = mfgData.full_description;
     const advantages = mfgData.advantages || [];
@@ -292,10 +254,6 @@ export default function ManufacturerProfilePage() {
                                 </QuoteCta>
 
                                 <div className="mt-6 pt-6 border-t border-white/10 flex flex-col gap-3 text-sm font-semibold text-slate-200 relative z-10">
-                                    <div className="flex min-w-0 items-center gap-3 whitespace-nowrap">
-                                        <Gauge className="h-5 w-5 shrink-0 text-emerald-400" />
-                                        <span>{t('pages.manufacturers.card.metrics.profile')}: {overallScore}</span>
-                                    </div>
                                     <div className="flex min-w-0 items-center gap-3 whitespace-nowrap">
                                         <Zap className="h-5 w-5 shrink-0 text-amber-400" />
                                         <span>{t('pages.manufacturers.card.metrics.response')}: {responseTimeLabel}</span>

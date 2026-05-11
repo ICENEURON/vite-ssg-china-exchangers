@@ -7,36 +7,14 @@
   "filter_by": "按行业筛选",
   "filter_industry": "行业",
   "filter_city": "城市",
-  "sort_by": "排序",
-  "sort_placeholder": "选择",
-  "sort_options": {
-    "profile": "综合分数",
-    "response": "回复速度",
-    "products": "产品数量"
-  },
-  "scoring_note": {
-    "description": "综合分数满分 100 分，以下 10 个维度各占 10 分。",
-    "dimensions": [
-      "公司介绍",
-      "产品信息",
-      "出口市场",
-      "视频数量",
-      "社交媒体",
-      "工厂认证",
-      "可下载文件",
-      "合作客户标识",
-      "回复速度",
-      "最近是否有更新"
-    ]
-  },
   "title": "已验证换热器制造商目录 | HeatEx Direct",
   "meta": {
-    "description": "浏览经过资料核对的中国换热器制造商目录，可按城市、行业筛选，并参考资料完整度、回复速度档位和产品数量等信号。",
-    "keywords": "已验证换热器制造商, 中国换热器厂家, 换热器供应商目录, 制造商评分, 工业换热器采购"
+    "description": "浏览经过资料核对的中国换热器制造商目录，可按城市、行业筛选，并快速查看公司资料、产品覆盖和出口市场信息。",
+    "keywords": "已验证换热器制造商, 中国换热器厂家, 换热器供应商目录, 工业换热器采购"
   },
   "og": {
     "title": "已验证换热器制造商目录 | HeatEx Direct",
-    "description": "浏览经过资料核对的中国换热器制造商，并参考城市、行业、资料完整度、回复速度档位和产品数量等信号。",
+    "description": "浏览经过资料核对的中国换热器制造商，并按城市和行业快速查找合适供应商。",
     "image": "/static/websites/home-hero.png",
     "url": "{{url}}",
     "type": "website",
@@ -45,7 +23,7 @@
   "hero": {
     "badge": "",
     "title": "中国换热器制造商目录",
-    "description": "浏览持续扩展的中国换热器制造商目录，按城市和行业筛选，并快速比较公司资料、产品覆盖、出口市场与回复速度等关键信息。"
+    "description": "浏览持续扩展的中国换热器制造商目录，按城市和行业筛选，并快速比较公司资料、产品覆盖与出口市场等关键信息。"
   },
   "card": {
     "verified": "已验证",
@@ -74,6 +52,7 @@
     "start_inquiry": "开始询价",
     "verified_contact": "验证联系人",
     "response_time": "< {{hours}} 小时回复",
+    "timely_response": "及时",
     "iso_certified": "ISO 认证",
     "asme_stamp": "ASME 钢印",
     "business_license": "营业执照",

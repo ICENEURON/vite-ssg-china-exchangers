@@ -3,7 +3,7 @@ import { useState, useMemo } from 'react'
 import { Head } from 'vite-react-ssg'
 import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { ArrowUpDown, ChevronDown, X, Check, Filter, MapPin, Info } from 'lucide-react';
+import { ChevronDown, X, Check, Filter, MapPin } from 'lucide-react';
 import { FilterDropdown } from "../../components/ui/filter-dropdown"
 import { ManufacturerCard } from "./components/ManufacturerCard"
 import { HeroSection } from "./components/HeroSection"
@@ -29,12 +29,6 @@ interface Industry {
   id: number;
   slug: string;
   name: string;
-}
-
-interface ProductListItem {
-  manufacturer?: {
-    slug?: string;
-  };
 }
 
 interface ManufacturerScore {
@@ -64,10 +58,9 @@ interface ManufacturerScoreFile {
 }
 
 type ManufacturerScoreSource = ManufacturerScore[] | ManufacturerScoreFile;
-
 type ResponseTimeTier = "within_24h" | "within_3_days" | "within_1_week" | "unknown" | "n/a";
-type SortKey = "profile" | "response" | "products";
-type ManufacturerDropdown = "industry" | "city" | "sort";
+
+type ManufacturerDropdown = "industry" | "city";
 
 const fallbackSignal: Omit<ManufacturerScore, "id" | "manufacturer_id" | "manufacturer_slug" | "created_at" | "updated_at"> = {
   order: 999,
@@ -86,21 +79,6 @@ const fallbackSignal: Omit<ManufacturerScore, "id" | "manufacturer_id" | "manufa
   published_article_score: 0,
 };
 
-function getResponseTierRank(tier: ResponseTimeTier) {
-  switch (tier) {
-    case "within_24h":
-      return 1;
-    case "within_3_days":
-      return 2;
-    case "within_1_week":
-      return 3;
-    case "n/a":
-    case "unknown":
-    default:
-      return 4;
-  }
-}
-
 function getManufacturerScoreRecords(source: ManufacturerScoreSource) {
   return Array.isArray(source) ? source : source.records;
 }
@@ -116,15 +94,12 @@ export default function ManufacturersPage() {
 
   const industries = t("industries", { returnObjects: true }) as Industry[];
   const manufacturers = manufacturersT.t("list", { returnObjects: true }) as Manufacturer[];
-  const products = t("pages.products.list", { returnObjects: true }) as ProductListItem[];
 
   const [selectedIndustrySlugs, setSelectedIndustrySlugs] = useState<string[]>([]);
   const [selectedCities, setSelectedCities] = useState<string[]>([]);
-  const [sortKey, setSortKey] = useState<SortKey>("profile");
   const [openDropdown, setOpenDropdown] = useState<ManufacturerDropdown | null>(null);
   const isIndustryDropdownOpen = openDropdown === "industry";
   const isCityDropdownOpen = openDropdown === "city";
-  const isSortDropdownOpen = openDropdown === "sort";
   const closeDropdowns = () => setOpenDropdown(null);
   const handleDropdownOpenChange = (dropdown: ManufacturerDropdown, open: boolean) => {
     setOpenDropdown(open ? dropdown : null);
@@ -169,33 +144,16 @@ export default function ManufacturersPage() {
     getManufacturerScoreRecords(manufacturerScores as ManufacturerScoreSource).map(signal => [signal.manufacturer_slug, signal])
   ), []);
 
-  const productCountsByManufacturer = useMemo(() => {
-    const counts = new Map<string, number>();
-
-    products.forEach((product) => {
-      const slug = product.manufacturer?.slug;
-      if (!slug) return;
-      counts.set(slug, (counts.get(slug) || 0) + 1);
-    });
-
-    return counts;
-  }, [products]);
-
   const rankedManufacturers = useMemo(() => manufacturers.map((manufacturer) => {
     const signal = signalsBySlug.get(manufacturer.slug) || fallbackSignal;
-    const productCount = productCountsByManufacturer.get(manufacturer.slug) || 0;
 
     return {
       ...manufacturer,
       ranking: {
         order: signal.order,
-        overallScore: signal.overall_score,
-        responseTime: signal.response_time,
-        responseTierRank: getResponseTierRank(signal.response_time),
-        productCount,
       },
     };
-  }), [manufacturers, productCountsByManufacturer, signalsBySlug]);
+  }), [manufacturers, signalsBySlug]);
 
   const filteredManufacturers = useMemo(() => {
     const selectedIndustryNames = selectedIndustrySlugs.length > 0
@@ -211,29 +169,15 @@ export default function ManufacturersPage() {
       return matchesIndustry && matchesCity;
     });
 
-    return [...filtered].sort((a, b) => {
-      switch (sortKey) {
-        case "profile":
-          return b.ranking.overallScore - a.ranking.overallScore;
-        case "response":
-          return a.ranking.responseTierRank - b.ranking.responseTierRank;
-        case "products":
-          return b.ranking.productCount - a.ranking.productCount;
-        default:
-          return b.ranking.overallScore - a.ranking.overallScore;
-      }
-    });
-  }, [selectedIndustrySlugs, selectedCities, rankedManufacturers, industries, sortKey]);
+    return [...filtered].sort((a, b) => a.ranking.order - b.ranking.order);
+  }, [selectedIndustrySlugs, selectedCities, rankedManufacturers, industries]);
 
   const selectedIndustries = useMemo(() =>
     industries.filter(i => selectedIndustrySlugs.includes(i.slug)),
     [industries, selectedIndustrySlugs]
   );
 
-  const sortOptions = ["profile", "response", "products"] as SortKey[];
   const hasActiveFilters = selectedIndustrySlugs.length > 0 || selectedCities.length > 0;
-  const selectedSortLabel = manufacturersT.t(`sort_options.${sortKey}`);
-  const scoreDimensions = manufacturersT.t("scoring_note.dimensions", { returnObjects: true }) as string[];
 
   return (
     <>
@@ -259,29 +203,6 @@ export default function ManufacturersPage() {
           <div className="container mx-auto px-4 md:px-8 max-w-6xl">
 
             <div className="mb-6">
-              <div className="mb-5 overflow-hidden rounded-2xl border border-blue-900 bg-blue-900 px-4 py-4 shadow-sm shadow-blue-900/60">
-                <div className="flex items-start gap-3">
-                  <div className="flex h-7 w-7 shrink-0 items-center justify-center text-white">
-                    <Info className="h-4 w-4" />
-                  </div>
-                  <div className="min-w-0 flex-1">
-                    <p className="text-sm font-semibold leading-6 text-white">
-                      {manufacturersT.t("scoring_note.description")}
-                    </p>
-                    <div className="mt-3 flex flex-wrap gap-2">
-                      {scoreDimensions.map((dimension) => (
-                        <span
-                          key={dimension}
-                          className="inline-flex items-center rounded-full border border-white/30 bg-white px-3 py-1.5 text-[11px] font-bold leading-none text-blue-700 shadow-sm shadow-blue-600/20"
-                        >
-                          {dimension}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-
               <div className="mb-4 flex flex-wrap items-center gap-x-5 gap-y-3">
                 <FilterDropdown
                   open={isIndustryDropdownOpen}
@@ -373,47 +294,6 @@ export default function ManufacturersPage() {
                           })}
                         </div>
                       </div>
-                </FilterDropdown>
-
-                <FilterDropdown
-                  open={isSortDropdownOpen}
-                  onOpenChange={(open) => handleDropdownOpenChange("sort", open)}
-                  contentClassName="w-72 bg-white"
-                  trigger={({ open, triggerProps }) => (
-                    <button
-                      {...triggerProps}
-                      className="flex items-center gap-2 rounded-lg border border-border/60 bg-white px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
-                    >
-                      <ArrowUpDown className="h-4 w-4 text-primary" />
-                      <span>{manufacturersT.t("sort_by")}</span>
-                      <span className="text-zinc-600">{selectedSortLabel}</span>
-                      <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${open ? 'rotate-180' : ''}`} />
-                    </button>
-                  )}
-                >
-                  <div className="p-2.5">
-                    <div className="grid gap-1">
-                      {sortOptions.map((option) => {
-                        const isSelected = sortKey === option;
-                        return (
-                          <button
-                            key={option}
-                            onClick={() => {
-                              setSortKey(option);
-                              closeDropdowns();
-                            }}
-                            className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-lg transition-all group ${isSelected
-                              ? 'bg-primary/[0.06] text-primary font-semibold'
-                              : 'text-foreground hover:bg-zinc-950/[0.04]'
-                              }`}
-                          >
-                            <span>{manufacturersT.t(`sort_options.${option}`)}</span>
-                            {isSelected && <Check className="w-4 h-4 animate-in zoom-in duration-200" />}
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
                 </FilterDropdown>
 
                 {hasActiveFilters && (
