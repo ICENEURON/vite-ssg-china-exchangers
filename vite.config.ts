@@ -18,6 +18,11 @@ type BlogRouteEntry = {
   permalink?: string;
 };
 
+type LanguagesConfig = Record<string, {
+  flag: string;
+  name: string;
+}>;
+
 // Custom plugin to replace environment variables in HTML
 function htmlEnvReplace(env: Record<string, string>) {
   return {
@@ -102,13 +107,32 @@ export default defineConfig(({ mode }) => {
       includedRoutes(paths: string[]) {
         const staticRoutes = paths.filter(path => !path.includes(':'))
         const enableBlog = env.VITE_ENABLE_BLOG === 'true';
+        const defaultLanguage = env.VITE_DEFAULT_LANGUAGE || 'en';
         
         // Base static routes with dynamic blog & manufacturers appended
         let allSSGRoutes = [...staticRoutes];
 
+        const addLocalizedVariants = (route: string) => {
+          const variants = [route];
+
+          try {
+            const languages = require('./src/locales/languages.json') as LanguagesConfig;
+
+            Object.keys(languages)
+              .filter((language) => language !== defaultLanguage)
+              .forEach((language) => {
+                variants.push(`/${language}${route}`);
+              });
+          } catch (e) {
+            console.warn('Failed to load languages for localized SSG routes', e);
+          }
+
+          return variants;
+        };
+
         try {
           const mfgList = require('./src/locales/en/pages/manufacturers/list.json') as ManufacturerRouteEntry[];
-          const mfgRoutes = mfgList.map((mfg) => `/manufacturers/${mfg.slug}`);
+          const mfgRoutes = mfgList.flatMap((mfg) => addLocalizedVariants(`/manufacturers/${mfg.slug}`));
           allSSGRoutes = [...allSSGRoutes, ...mfgRoutes];
         } catch (e) {
              console.warn('Failed to load manufacturers for SSG', e);
@@ -116,7 +140,7 @@ export default defineConfig(({ mode }) => {
 
         try {
           const productList = require('./src/locales/en/pages/products/list.json') as ProductRouteEntry[];
-          const productRoutes = productList.map((product) => `/products/${product.url}`);
+          const productRoutes = productList.flatMap((product) => addLocalizedVariants(`/products/${product.url}`));
           allSSGRoutes = [...allSSGRoutes, ...productRoutes];
         } catch (e) {
              console.warn('Failed to load products for SSG', e);

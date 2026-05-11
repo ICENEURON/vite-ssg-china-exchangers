@@ -1,5 +1,5 @@
 import { Head } from 'vite-react-ssg'
-import { Link, useParams, Navigate } from "react-router-dom"
+import { Link, useLocation, useParams, Navigate } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
 import { CheckCircle2, Settings, Factory, ArrowLeft, ArrowRight, BookOpen, Download, FileText, Mail } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
@@ -84,6 +84,7 @@ function getYoutubeEmbedUrl(url: string): string | null {
 
 export default function ProductProfilePage() {
     const { manufacturerSlug, productSlug } = useParams<{ manufacturerSlug: string, productSlug: string }>();
+    const location = useLocation();
     const { t } = useTranslation();
     const currentLanguage = useCurrentLanguage();
     const documentDownloadsTitle = t("pages.products.detail.document_downloads", { defaultValue: currentLanguage === 'zh' ? '文档下载' : 'Document Downloads' });
@@ -137,7 +138,7 @@ export default function ProductProfilePage() {
     ];
 
     const siteUrl = import.meta.env.VITE_SITE_URL || 'http://localhost';
-    const currentUrl = `${siteUrl}/products/${manufacturerSlug}/${productSlug}`;
+    const currentUrl = new URL(location.pathname, siteUrl).href;
 
     return (
         <>

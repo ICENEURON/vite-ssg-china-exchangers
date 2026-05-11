@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "concurrently \"velite dev\" \"vite-react-ssg dev\"",
     "dev:sync": "npm run sync && npm run dev",
-    "build": "velite build && vite-react-ssg build",
+    "build": "velite build && vite-react-ssg build && node src/scripts/generate-sitemap.js",
     "build:spa": "tsc -b && velite build && vite build",
     "lint": "eslint .",
     "sync": "node src/scripts/sync-all.js",

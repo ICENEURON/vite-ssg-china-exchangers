@@ -1,6 +1,6 @@
 
 import { Head } from 'vite-react-ssg'
-import { Link, useParams, Navigate } from "react-router-dom"
+import { Link, useLocation, useParams, Navigate } from "react-router-dom"
 import { BadgeCheck, Factory, ArrowLeft, ArrowRight, MapPin, ShieldCheck, Award, Users, Globe2, Package, Sparkles, Zap, Flame, Gauge, Mail, Phone, Linkedin, Youtube, ExternalLink, Download, FileText } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
@@ -143,6 +143,7 @@ function getDocumentDisplayName(document: DocumentAsset): string {
 
 export default function ManufacturerProfilePage() {
     const { slug } = useParams<{ slug: string }>();
+    const location = useLocation();
     const { t } = useTranslation();
     const currentLanguage = useCurrentLanguage();
 
@@ -224,7 +225,7 @@ export default function ManufacturerProfilePage() {
     };
 
     const siteUrl = import.meta.env.VITE_SITE_URL || 'http://localhost';
-    const currentUrl = `${siteUrl}/manufacturers/${slug}`;
+    const currentUrl = new URL(location.pathname, siteUrl).href;
 
     return (
         <>
