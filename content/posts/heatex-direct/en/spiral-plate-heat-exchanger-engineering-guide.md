@@ -4,7 +4,7 @@ slug: spiral-plate-heat-exchanger-engineering-guide
 date: 2026-03-27
 author: "HeatEx Direct Editorial Team"
 reviewer: "HeatEx Direct Editorial Team"
-readTime: 9 minutes
+readTime: 5 minutes
 excerpt: A rewritten technical guide to spiral plate heat exchangers, covering origin, structure, welding, forming, industrial selection, competitive landscape, and China market trends.
 metaTitle: "Spiral Plate Heat Exchanger Engineering and Selection Guide"
 metaDescription: "Learn how spiral plate heat exchangers work, when to select them, and what manufacturing and market factors buyers should evaluate."

@@ -12,8 +12,6 @@ keywords: ["SHPHE", "Shanghai Heat Transfer", "Heat Exchanger", "Plate Heat Exch
 cover: /static/content_posts_image/technical-analysis-industrial-applications-of-ht-bloc-all-welded-plate-heat-exchangers/cover.jpg
 ---
 
-<img src="/static/content_posts_image/technical-analysis-industrial-applications-of-ht-bloc-all-welded-plate-heat-exchangers/cover.jpg" alt="HT-Bloc welded plate heat exchanger" width="640" />
-
 **1. Energy Efficiency and Safety Transformation in the Petrochemical Industry**
 
 The petrochemical industry is a typical high-risk, high-complexity industrial sector, which has stringent requirements for equipment safety and reliability. From crude oil entering the refinery to its transformation into plastics, fuels, or chemicals, heat transfer is critical. In this domain, HT-Bloc represents not merely a replacement for legacy equipment but a fundamental process optimization solution.

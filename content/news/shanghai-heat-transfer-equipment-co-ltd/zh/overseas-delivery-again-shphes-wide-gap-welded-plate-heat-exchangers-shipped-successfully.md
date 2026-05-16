@@ -12,8 +12,6 @@ keywords: ["上海板换机械设备有限公司", "项目新闻", "换热器", 
 cover: /static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png
 ---
 
-<img src="/static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png" alt="上海板换机械设备有限公司 wide-gap welded plate heat exchangers shipment" width="640" />
-
 近日，上海板换机械设备有限公司为澳大利亚某领先矿业企业完成了宽间隙焊接板式换热器的生产和发货。
 
 作为采矿和铝行业的全球巨头，客户对设备性能、质量规格和运行稳定性执行严格的标准。

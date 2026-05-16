@@ -4,7 +4,7 @@ slug: spiral-plate-heat-exchanger-engineering-guide
 date: 2026-03-27
 author: "HeatEx Direct 编辑团队"
 reviewer: "HeatEx Direct 编辑团队"
-readTime: 9 分钟
+readTime: 4 分钟
 excerpt: 一篇重新撰写的螺旋板式换热器技术指南，覆盖起源、结构、焊接、成型、工业选型、竞争格局和中国市场趋势。
 metaTitle: "螺旋板式换热器工程与选型指南"
 metaDescription: "了解螺旋板式换热器如何工作、何时适用，以及采购方应评估哪些制造和市场因素。"

@@ -4,7 +4,7 @@ slug: application-of-printed-circuit-heat-exchangers-pche-in-the-flng-industry
 date: 2026-03-06
 author: "Shanghai Heat Transfer Equipment Co., Ltd."
 reviewer: "Shanghai Heat Transfer Equipment Co., Ltd."
-readTime: 5 minutes
+readTime: 6 minutes
 excerpt: "Floating Liquefied Natural Gas (FLNG) facilities serve as the core equipment for the development of deep-sea natural gas resources. By integrating the entire onshore natural gas processing…"
 metaTitle: "Application of Printed Circuit Heat Exchangers (PCHE) in the FLNG Industry"
 metaDescription: "Floating Liquefied Natural Gas (FLNG) facilities serve as the core equipment for the development of deep-sea natural gas resources. By integrating the entire onshore natural gas processing flow onto a mobile offshore platform, FLNG enables the integrated operation of natural gas covering extracti..."
@@ -12,8 +12,6 @@ keywords: ["SHPHE", "Shanghai Heat Transfer", "Heat Exchanger", "Plate Heat Exch
 cover: /static/content_posts_image/application-of-printed-circuit-heat-exchangers-pche-in-the-flng-industry/cover.png
 ---
 Floating Liquefied Natural Gas (FLNG) facilities serve as the core equipment for the development of deep-sea natural gas resources. By integrating the entire onshore natural gas processing flow onto a mobile offshore platform, FLNG enables the integrated operation of natural gas covering extraction, purification, liquefaction, storage, and offloading.
-
-<img src="/static/content_posts_image/application-of-printed-circuit-heat-exchangers-pche-in-the-flng-industry/cover.png" alt="PCHE_4" width="640" />
 
 **1**
 

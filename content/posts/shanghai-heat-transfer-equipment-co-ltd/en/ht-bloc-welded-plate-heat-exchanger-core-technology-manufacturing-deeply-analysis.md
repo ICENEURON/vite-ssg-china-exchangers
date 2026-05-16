@@ -31,8 +31,6 @@ While efficient (K-values up to 7000 W/m²·K), GPHEs are constrained by their s
 
 Fully Welded Plate Pack: The heat transfer core is laser/plasma welded, forming a gasket-free pressure vessel. It handles temperatures from -50°C to 400°C and pressures from vacuum to 4.0 MPa. Accessible Frame (4-Side Openable): Unlike fully enclosed shell-and-plate units, the HT-Bloc is equipped with four-side removable panels, enabling mechanical cleaning (e.g., high-pressure water jetting) of flow channels — an essential capability for fouling-prone process services.
 
-<img src="/static/content_posts_image/ht-bloc-welded-plate-heat-exchanger-core-technology-manufacturing-deeply-analysis/cover.png" alt="HTBLOC_1" width="640" />
-
 **3.2 Technology Comparison: HT-Bloc vs. Traditional Units**
 
 **Feature**

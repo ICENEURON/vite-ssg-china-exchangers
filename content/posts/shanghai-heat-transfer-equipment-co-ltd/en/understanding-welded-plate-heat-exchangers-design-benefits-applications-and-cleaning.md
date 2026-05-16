@@ -61,8 +61,6 @@ Welded plate heat exchangers are pivotal components in various industrial proces
 
 : Ensures that the two fluids remain separated, preventing cross-contamination.
 
-<img src="/static/content_posts_image/understanding-welded-plate-heat-exchangers-design-benefits-applications-and-cleaning/cover.png" alt="Welded Plate Heat Exchanger" width="640" />
-
 **Design and Construction of Welded Plate Heat Exchangers**
 
 ****The design of WPHEs is crucial for their performance and longevity. Key design considerations include:**

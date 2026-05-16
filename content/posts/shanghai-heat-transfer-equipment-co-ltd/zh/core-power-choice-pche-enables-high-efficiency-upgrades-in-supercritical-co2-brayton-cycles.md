@@ -4,7 +4,7 @@ slug: core-power-choice-pche-enables-high-efficiency-upgrades-in-supercritical-c
 date: 2026-02-02
 author: "上海板换机械设备有限公司"
 reviewer: "上海板换机械设备有限公司"
-readTime: 4 分钟
+readTime: 3 分钟
 excerpt: "在全球碳达峰和碳中和目标指引下，超临界二氧化碳（S-CO2）布雷顿循环发电技术以其热效率高、系统设计紧凑、耗水量低等优点成为能源转型的焦点。普里..."
 metaTitle: "核心动力选择：PCHE 实现超临界二氧化碳布雷顿循环的高效升级"
 metaDescription: "在全球碳达峰和碳中和目标指引下，超临界二氧化碳（S-CO2）布雷顿循环发电技术以其热效率高、系统设计紧凑、耗水量低等优点成为能源转型的焦点。普里..."
@@ -14,8 +14,6 @@ cover: /static/content_posts_image/core-power-choice-pche-enables-high-efficienc
 在全球碳达峰和碳中和目标指引下，超临界二氧化碳（S-CO2）布雷顿循环发电技术以其热效率高、系统设计紧凑、耗水量低等优点成为能源转型的焦点。印刷电路热交换器（PCHE）作为该循环的关键换热部件，直接决定系统的性能和商业价值。
 
 本文分析了循环的工艺流程，解释了传统换热器在此应用中的局限性，并展示了 PCHE 的核心技术优势。
-
-<img src="/static/content_posts_image/core-power-choice-pche-enables-high-efficiency-upgrades-in-supercritical-co2-brayton-cycles/cover.jpg" alt="2_pche_1" width="640" />
 
 ###
 1. 超临界二氧化碳布雷顿循环发电核心工艺

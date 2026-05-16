@@ -4,7 +4,7 @@ slug: applications-of-welded-plate-heat-exchanger-skids-in-marine-industry
 date: 2025-03-15
 author: "上海板换机械设备有限公司"
 reviewer: "上海板换机械设备有限公司"
-readTime: 3 分钟
+readTime: 2 分钟
 excerpt: "简介 板式换热器撬块是以板式换热器为核心部件，结合泵、阀门、仪表、管道和PLC控制系统，预装在钢基撬块上的集成系统。该模块化系统可以轻松运输、定位、..."
 metaTitle: "焊接板式换热器橇在船舶工业中的应用"
 metaDescription: "简介 板式换热器撬块是以板式换热器为核心部件，结合泵、阀门、仪表、管道和PLC控制系统，预装在钢基撬块上的集成系统。该模块化系统可以轻松运输、定位、..."
@@ -24,8 +24,6 @@ cover: /static/content_posts_image/applications-of-welded-plate-heat-exchanger-s
 **海水冷却系统**
 
 ****在游轮、液化天然气运输船和集装箱船等大型船舶上，发动机和机械会产生大量热量。高温淡水循环吸收热量，然后通过板式换热器橇块将其传递给低温淡水。随后，低温水在海水冷却器中被海水冷却，从而保持船舶设备的最佳运行温度。
-
-<img src="/static/content_posts_image/applications-of-welded-plate-heat-exchanger-skids-in-marine-industry/cover.png" alt="图片1" width="640" />
 
 **淡水供应系统**
 

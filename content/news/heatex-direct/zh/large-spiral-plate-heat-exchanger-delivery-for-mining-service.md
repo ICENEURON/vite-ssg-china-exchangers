@@ -4,7 +4,7 @@ slug: large-spiral-plate-heat-exchanger-delivery-for-mining-service
 date: 2025-12-24
 author: "HeatEx Direct 编辑团队"
 reviewer: "HeatEx Direct 编辑团队"
-readTime: 4 分钟
+readTime: 2 分钟
 excerpt: Nexson Group 披露交付一台大型液-液螺旋板式换热器，用于矿物浆液冷却与溶剂加热的组合工况。
 metaTitle: "大型螺旋板式换热器交付矿业浆液工况"
 metaDescription: "基于行业公开信息重写的新闻简报，解析 Nexson 大型螺旋板式换热器交付及其对浆液换热应用的意义。"

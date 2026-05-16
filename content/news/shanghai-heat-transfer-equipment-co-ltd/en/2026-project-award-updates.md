@@ -4,15 +4,13 @@ slug: 2026-project-award-updates
 date: 2026-04-29
 author: "Shanghai Heat Transfer Equipment Co., Ltd."
 reviewer: "HeatEx Direct Editorial Team"
-readTime: 3 minutes
+readTime: 2 minutes
 excerpt: SHPHE reports multiple 2026 project awards across offshore gas, natural gas treatment, fertilizer, chemical materials, sugar, oilfield, and alumina applications.
 metaTitle: "SHPHE 2026 Project Award Updates"
 metaDescription: "A concise summary of SHPHE's 2026 project award updates, including PCHE, HT-Bloc, plate heat exchanger, and wide-gap welded plate heat exchanger supply."
 keywords: ["SHPHE News", "Project Award", "PCHE", "HT-Bloc", "Plate Heat Exchanger", "Wide Gap Welded Plate Heat Exchanger"]
 cover: /static/content_posts_image/2026-project-award-updates/cover.png
 ---
-
-<img src="/static/content_posts_image/2026-project-award-updates/cover.png" alt="SHPHE project award updates" width="640" />
 
 Shanghai Heat Transfer Equipment Co., Ltd. reported a series of project awards in early 2026, covering offshore natural gas, fertilizer, chemical materials, sugar, oilfield, and alumina applications.
 The awards show a broad application mix for SHPHE's plate heat exchanger portfolio, including printed circuit heat exchangers (PCHE), HT-Bloc welded plate heat exchangers, conventional plate heat exchangers, and wide-gap welded plate heat exchangers.

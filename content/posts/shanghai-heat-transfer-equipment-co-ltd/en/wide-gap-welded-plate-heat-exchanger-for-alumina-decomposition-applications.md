@@ -27,8 +27,6 @@ To resolve these inherent hydraulic and thermal limitations, **Shanghai Heat Tra
 
 The unique wide-gap design, combined with the combination of dimple pattern and studded flat pattern, can form various flow channel forms to meet the needs of different working conditions. It is particularly suitable for handling complex media that are difficult for traditional plate heat exchangers to cope with, such as slurries, sludges, fiber-containing media, and high-viscosity fluids.
 
-<img src="/static/content_posts_image/wide-gap-welded-plate-heat-exchanger-for-alumina-decomposition-applications/cover.png" alt="welded_plate_photo_1" width="640" />
-
 **Operational Economy and Maintenance:** The Wide-Gap WPHE maintains excellent anti-clogging performance while retaining the advantage of high heat transfer coefficient of plate heat exchangers.Under the same heat exchange load conditions, its equipment volume and weight are much smaller than those of shell-and-tube exchangers, enabling more compact installation. Both cold and hot sides can be designed as detachable structures to facilitate mechanical cleaning, reducing downtime and lifecycle costs.
 
 The Wide-Gap WPHE offers two installation forms: vertical and horizontal, and can be customized according to users’ actual needs.

@@ -4,15 +4,13 @@ slug: overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipp
 date: 2026-05-11
 author: "Shanghai Heat Transfer Equipment Co., Ltd."
 reviewer: "Shanghai Heat Transfer Equipment Co., Ltd."
-readTime: 1 minutes
+readTime: 1 minute
 excerpt: "Recently, SHPHE completed production and shipment of wide-gap welded plate heat exchangers for a leading Australian mining enterprise. As a global powerhouse in the mining and aluminum secto"
 metaTitle: "Overseas Delivery Again! SHPHE’s Wide-Gap Welded Plate Heat Exchangers Shipped Successfully"
 metaDescription: "Recently, SHPHE completed production and shipment of wide-gap welded plate heat exchangers for a leading Australian mining enterprise. As a global powerhouse in the mining and aluminum secto"
 keywords: ["SHPHE", "Company News", "Heat Exchanger", "Plate Heat Exchanger"]
 cover: /static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png
 ---
-
-<img src="/static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png" alt="SHPHE wide-gap welded plate heat exchangers shipment" width="640" />
 
 Recently, SHPHE completed production and shipment of wide-gap welded plate heat exchangers for a leading Australian mining enterprise.
 

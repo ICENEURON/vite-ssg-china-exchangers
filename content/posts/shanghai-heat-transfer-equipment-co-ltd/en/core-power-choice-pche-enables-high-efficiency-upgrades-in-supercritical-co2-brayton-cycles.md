@@ -13,8 +13,6 @@ cover: /static/content_posts_image/core-power-choice-pche-enables-high-efficienc
 ---
 Under the guidance of global carbon peaking and carbon neutrality goals, supercritical carbon dioxide (S-CO₂) Brayton cycle power generation technology, with its high thermal efficiency, compact system design, and low water consumption, has become a central focus of the energy transition. The Printed Circuit Heat Exchanger (PCHE), as the key heat exchange component of this cycle, directly determines the system’s performance and commercial value. This article analyzes the cycle’s process flow, explains the limitations of traditional heat exchangers in this application, and demonstrates the core technical advantages of PCHE.
 
-<img src="/static/content_posts_image/core-power-choice-pche-enables-high-efficiency-upgrades-in-supercritical-co2-brayton-cycles/cover.jpg" alt="2_pche_1" width="640" />
-
 ###
 1. Supercritical CO₂ Brayton Cycle Power Generation Core Process
 

@@ -4,7 +4,7 @@ slug: application-of-printed-circuit-heat-exchangers-pche-in-the-flng-industry
 date: 2026-03-06
 author: "上海板换机械设备有限公司"
 reviewer: "上海板换机械设备有限公司"
-readTime: 6 分钟
+readTime: 4 分钟
 excerpt: "浮式液化天然气（FLNG）设施是深海天然气资源开发的核心装备。 FLNG通过将整个陆上天然气处理流程集成到移动式海上平台上，实现了天然气涵盖开采的一体化运营。"
 metaTitle: "印刷电路热交换器（PCHE）在FLNG行业的应用"
 metaDescription: "浮式液化天然气（FLNG）设施是深海天然气资源开发的核心装备。 FLNG通过将整个陆上天然气处理流程集成到移动式海上平台上，实现了天然气涵盖开采的一体化运营。"
@@ -12,8 +12,6 @@ keywords: ["上海板换机械设备有限公司", "上海板换机械设备有�
 cover: /static/content_posts_image/application-of-printed-circuit-heat-exchangers-pche-in-the-flng-industry/cover.png
 ---
 浮式液化天然气（FLNG）设施是深海天然气资源开发的核心装备。 FLNG通过将整个陆上天然气处理流程集成到海上移动平台上，实现了天然气的提取、净化、液化、储存和卸载的一体化操作。
-
-<img src="/static/content_posts_image/application-of-printed-circuit-heat-exchangers-pche-in-the-flng-industry/cover.png" alt="PCHE_4" width="640" />
 
 **1**
 

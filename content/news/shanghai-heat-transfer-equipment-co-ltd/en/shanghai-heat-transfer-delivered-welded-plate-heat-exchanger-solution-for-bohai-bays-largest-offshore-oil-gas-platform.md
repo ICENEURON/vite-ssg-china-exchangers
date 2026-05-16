@@ -13,8 +13,6 @@ cover: /static/content_posts_image/shanghai-heat-transfer-delivered-welded-plate
 ---
 Recently, an offshore oil and gas platform equipped with **plate heat exchanger** skids from our company departed from Qingdao port and has entered the marine operation phase. This platform features multiple pioneering technologies and sets new records for weight and scale among offshore platforms in the Bohai region.
 
-<img src="/static/content_posts_image/shanghai-heat-transfer-delivered-welded-plate-heat-exchanger-solution-for-bohai-bays-largest-offshore-oil-gas-platform/cover.png" alt="Shanghai Heat Transfer Delivered Welded Plate Heat Exchanger Solution for Bohai Bay's Largest Offshore Oil & Gas Platform" width="640" />
-
 In this mega-project, **Shanghai Heat Transfer** leveraged its deep expertise in thermal exchange solutions by adopting an advanced skid-mounted, integrated modular design concept. The company provided customized plate heat exchanger skids and successfully completed their delivery. Our technical team was deeply involved in the early-stage design, maintained strict quality control during manufacturing, and completed rigorous Factory Acceptance Testing (FAT). This successful delivery fully demonstrates our company's technical capability in meeting demanding thermal exchange requirements under challenging conditions such as high salinity environments on offshore platforms and limited space.
 
 <img src="/static/content_posts_image/shanghai-heat-transfer-delivered-welded-plate-heat-exchanger-solution-for-bohai-bays-largest-offshore-oil-gas-platform/image-02.png" alt="Shanghai Heat Transfer Delivered Welded Plate Heat Exchanger Solution for Bohai Bay's Largest Offshore Oil & Gas Platform1" width="640" />
