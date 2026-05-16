@@ -4,7 +4,7 @@ slug: 2026-project-award-updates
 date: 2026-04-29
 author: "Shanghai Heat Transfer Equipment Co., Ltd."
 reviewer: "HeatEx Direct Editorial Team"
-readTime: 2 minutes
+readTime: 1 minute
 excerpt: SHPHE reports multiple 2026 project awards across offshore gas, natural gas treatment, fertilizer, chemical materials, sugar, oilfield, and alumina applications.
 metaTitle: "SHPHE 2026 Project Award Updates"
 metaDescription: "A concise summary of SHPHE's 2026 project award updates, including PCHE, HT-Bloc, plate heat exchanger, and wide-gap welded plate heat exchanger supply."
@@ -26,13 +26,3 @@ The company listed the following project updates:
 - April 2026: Wanhua Chemical iron phosphate cathode material project, supplying plate heat exchangers for multiple iron phosphate water treatment applications.
 - January 2026: Sugar mill project in Colombia, supplying wide-gap welded plate heat exchangers.
 - February 2026: Alumina project in Guinea, supplying plate heat exchangers for a closed water system.
-
-## What the Awards Indicate
-
-The project list is notable because it spans both clean and difficult heat transfer services. PCHE and HT-Bloc awards point toward compact, high-integrity heat exchange in gas processing and solvent circulation. Wide-gap welded plate heat exchanger awards point toward services with solids, fibers, or viscous fluids, such as sugar processing.
-
-For buyers comparing suppliers, this mix suggests that SHPHE is positioning itself not as a single-product manufacturer, but as a process heat transfer supplier with several plate-based equipment families.
-
-## Takeaway
-
-The 2026 awards reinforce SHPHE's activity in energy, chemical, food processing, and minerals-related projects. For procurement teams, the relevant signal is the breadth of project references across PCHE, HT-Bloc, standard plate heat exchangers, and wide-gap welded plate heat exchangers.
