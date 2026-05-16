@@ -2,7 +2,7 @@
   {
     "slug": "qhb-welded-wide-channel-plate-heat-exchanger",
     "manufacturer": {
-      "slug": "siping-juyuan-welded-plate-heat-exchanger-co-ltd",
+      "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
       "name": "四平巨元焊接板式换热器有限公司"
     },
     "name": "QHB型焊接宽通道板式热交换器",
@@ -14,14 +14,60 @@
     "images": [
       {
         "alt_text": "QHB Welded Wide Channel Plate Heat Exchanger",
-        "url": "/storage/assets/siping-juyuan-welded-plate-heat-exchanger-co-ltd/product_images/qhb_welded_wide_channel_plate_heat_exchanger_1.jpg"
+        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/qhb_welded_wide_channel_plate_heat_exchanger_1.jpg"
       },
       {
         "alt_text": "QHB Welded Wide Channel Plate Heat Exchanger View 2",
-        "url": "/storage/assets/siping-juyuan-welded-plate-heat-exchanger-co-ltd/product_images/qhb_welded_wide_channel_plate_heat_exchanger_2.jpg"
+        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/qhb_welded_wide_channel_plate_heat_exchanger_2.jpg"
       }
     ],
-    "url": "siping-juyuan-welded-plate-heat-exchanger-co-ltd/qhb-welded-wide-channel-plate-heat-exchanger"
+    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/qhb-welded-wide-channel-plate-heat-exchanger"
+  },
+  {
+    "slug": "au-an-as-ap-ac-series-gasketed-plate-heat-exchanger-i",
+    "manufacturer": {
+      "slug": "shanghai-accessen-co-ltd",
+      "name": "上海艾克森股份有限公司"
+    },
+    "name": "AU,AN,AS,AP,AC工业可拆垫片式换热器-I",
+    "short_description": "适用于工业场景的可拆垫片式板式换热器，兼具高效换热、灵活配置和便于维护的特点。",
+    "industries": [
+      "石油化工",
+      "船舶/海工",
+      "能源",
+      "化工",
+      "食品与饮料",
+      "制药",
+      "发电/电力"
+    ],
+    "images": [
+      {
+        "alt_text": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I",
+        "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/au_an_as_ap_ac_series_gasketed_plate_heat_exchanger_i.png"
+      }
+    ],
+    "url": "shanghai-accessen-co-ltd/au-an-as-ap-ac-series-gasketed-plate-heat-exchanger-i"
+  },
+  {
+    "slug": "plate-heat-exchanger-unit",
+    "manufacturer": {
+      "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
+      "name": "兰州兰石换热设备有限责任公司"
+    },
+    "name": "板式热交换机组",
+    "short_description": "集板式换热器、水泵、阀门、仪表和控制系统于一体的成套换热设备。",
+    "industries": [
+      "暖通空调",
+      "船舶/海工",
+      "能源"
+    ],
+    "images": [
+      {
+        "alt_text": "Plate Heat Exchanger Unit",
+        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_heat_exchanger_unit_1.jpg"
+      }
+    ],
+    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/plate-heat-exchanger-unit"
   },
   {
     "slug": "all-welded-plate-heat-exchanger",
@@ -48,31 +94,6 @@
     "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/all-welded-plate-heat-exchanger"
   },
   {
-    "slug": "au-an-as-ap-ac-series-gasketed-plate-heat-exchanger-i",
-    "manufacturer": {
-      "slug": "shenghai-accessen-co-ltd",
-      "name": "上海艾克森股份有限公司"
-    },
-    "name": "AU,AN,AS,AP,AC工业可拆垫片式换热器-I",
-    "short_description": "适用于工业场景的可拆垫片式板式换热器，兼具高效换热、灵活配置和便于维护的特点。",
-    "industries": [
-      "石油化工",
-      "船舶/海工",
-      "能源",
-      "化工",
-      "食品与饮料",
-      "制药",
-      "发电/电力"
-    ],
-    "images": [
-      {
-        "alt_text": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I",
-        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/au_an_as_ap_ac_series_gasketed_plate_heat_exchanger_i.png"
-      }
-    ],
-    "url": "shenghai-accessen-co-ltd/au-an-as-ap-ac-series-gasketed-plate-heat-exchanger-i"
-  },
-  {
     "slug": "wide-channel-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
@@ -94,25 +115,48 @@
     "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/wide-channel-welded-plate-heat-exchanger"
   },
   {
-    "slug": "plate-heat-exchanger-unit",
+    "slug": "round-shell-heat-exchanger",
     "manufacturer": {
       "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
       "name": "兰州兰石换热设备有限责任公司"
     },
-    "name": "板式热交换机组",
-    "short_description": "集板式换热器、水泵、阀门、仪表和控制系统于一体的成套换热设备。",
+    "name": "圆壳式热交换器",
+    "short_description": "兼具板式高效与管壳耐压特性的圆壳式焊接板式热交换器。",
     "industries": [
       "暖通空调",
-      "船舶/海工",
-      "能源"
+      "石油化工",
+      "化工",
+      "制药",
+      "发电/电力"
     ],
     "images": [
       {
-        "alt_text": "Plate Heat Exchanger Unit",
-        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_heat_exchanger_unit_1.jpg"
+        "alt_text": "Round Shell Heat Exchanger",
+        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/round_shell_heat_exchanger_1.jpg"
       }
     ],
-    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/plate-heat-exchanger-unit"
+    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/round-shell-heat-exchanger"
+  },
+  {
+    "slug": "spiral-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+      "name": "四平维克斯换热设备有限公司"
+    },
+    "name": "螺旋板式换热器",
+    "short_description": "符合JB/T4751-2003和GB150-1998标准的螺旋板式换热器，提供可拆和不可拆结构选择。",
+    "industries": [
+      "石油化工",
+      "化工",
+      "食品与饮料"
+    ],
+    "images": [
+      {
+        "alt_text": "Spiral Plate Heat Exchanger",
+        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/spiral_plate_heat_exchanger.png"
+      }
+    ],
+    "url": "siping-viex-heat-exchange-equipment-co-ltd/spiral-plate-heat-exchanger"
   },
   {
     "slug": "air-radiator",
@@ -135,27 +179,6 @@
       }
     ],
     "url": "siping-viex-heat-exchange-equipment-co-ltd/air-radiator"
-  },
-  {
-    "slug": "spiral-plate-heat-exchanger",
-    "manufacturer": {
-      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
-      "name": "四平维克斯换热设备有限公司"
-    },
-    "name": "螺旋板式换热器",
-    "short_description": "符合JB/T4751-2003和GB150-1998标准的螺旋板式换热器，提供可拆和不可拆结构选择。",
-    "industries": [
-      "石油化工",
-      "化工",
-      "食品与饮料"
-    ],
-    "images": [
-      {
-        "alt_text": "Spiral Plate Heat Exchanger",
-        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/spiral_plate_heat_exchanger.png"
-      }
-    ],
-    "url": "siping-viex-heat-exchange-equipment-co-ltd/spiral-plate-heat-exchanger"
   },
   {
     "slug": "ht-bloc-welded-plate-heat-exchanger",
@@ -223,73 +246,6 @@
     "url": "shanghai-heat-transfer-equipment-co-ltd/gasketed-plate-heat-exchanger"
   },
   {
-    "slug": "printed-circuit-heat-exchanger",
-    "manufacturer": {
-      "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "上海板换机械设备有限公司"
-    },
-    "name": "印刷电路板式热交换器",
-    "short_description": "适用于极端高压高温工况的紧凑型微通道扩散焊接换热器。",
-    "industries": [
-      "暖通空调",
-      "船舶/海工",
-      "能源"
-    ],
-    "images": [
-      {
-        "alt_text": "Printed Circuit Heat Exchanger",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_1.jpg"
-      },
-      {
-        "alt_text": "Printed Circuit Heat Exchanger Structure",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_2.png"
-      },
-      {
-        "alt_text": "Printed Circuit Heat Exchanger Detail",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_3.jpg"
-      }
-    ],
-    "url": "shanghai-heat-transfer-equipment-co-ltd/printed-circuit-heat-exchanger"
-  },
-  {
-    "slug": "wide-gap-welded-plate-heat-exchanger",
-    "manufacturer": {
-      "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "上海板换机械设备有限公司"
-    },
-    "name": "宽通道焊接板式热交换器",
-    "short_description": "适用于高粘度、含纤维及含固体颗粒介质的无胶垫宽通道焊接换热器。",
-    "industries": [
-      "石油化工",
-      "化工",
-      "食品与饮料",
-      "制药"
-    ],
-    "images": [
-      {
-        "alt_text": "Wide Gap Welded Plate Heat Exchanger",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_1.png"
-      },
-      {
-        "alt_text": "Wide Gap Welded Plate Heat Exchanger Structure",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_2.png"
-      },
-      {
-        "alt_text": "Wide Gap Welded Plate Heat Exchanger Flow Channel",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_3.jpg"
-      },
-      {
-        "alt_text": "Wide Gap Welded Plate Heat Exchanger Detail",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_4.jpg"
-      },
-      {
-        "alt_text": "Wide Gap Welded Plate Heat Exchanger Plate Pattern",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_5.png"
-      }
-    ],
-    "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
-  },
-  {
     "slug": "plate-air-preheater",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
@@ -322,6 +278,35 @@
       }
     ],
     "url": "shanghai-heat-transfer-equipment-co-ltd/plate-air-preheater"
+  },
+  {
+    "slug": "printed-circuit-heat-exchanger",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "上海板换机械设备有限公司"
+    },
+    "name": "印刷电路板式热交换器",
+    "short_description": "适用于极端高压高温工况的紧凑型微通道扩散焊接换热器。",
+    "industries": [
+      "暖通空调",
+      "船舶/海工",
+      "能源"
+    ],
+    "images": [
+      {
+        "alt_text": "Printed Circuit Heat Exchanger",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_1.jpg"
+      },
+      {
+        "alt_text": "Printed Circuit Heat Exchanger Structure",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_2.png"
+      },
+      {
+        "alt_text": "Printed Circuit Heat Exchanger Detail",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_3.jpg"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/printed-circuit-heat-exchanger"
   },
   {
     "slug": "tp-welded-plate-heat-exchanger",
@@ -363,9 +348,83 @@
     "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
   },
   {
+    "slug": "wide-gap-welded-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "上海板换机械设备有限公司"
+    },
+    "name": "宽通道焊接板式热交换器",
+    "short_description": "适用于高粘度、含纤维及含固体颗粒介质的无胶垫宽通道焊接换热器。",
+    "industries": [
+      "石油化工",
+      "化工",
+      "食品与饮料",
+      "制药"
+    ],
+    "images": [
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_1.png"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Structure",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_2.png"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Flow Channel",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_3.jpg"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Detail",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_4.jpg"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Plate Pattern",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_5.png"
+      }
+    ],
+    "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
+  },
+  {
+    "slug": "outdoor-prefabricated-integrated-cooling-station-ais",
+    "manufacturer": {
+      "slug": "shanghai-accessen-co-ltd",
+      "name": "上海艾克森股份有限公司"
+    },
+    "name": "AIS室外预制化集成冷站",
+    "short_description": "面向数据中心高效冷却基础设施的室外预制化集成冷站，可支持快速部署。",
+    "industries": [],
+    "images": [
+      {
+        "alt_text": "Outdoor Prefabricated Integrated Cooling Station AIS",
+        "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/outdoor_prefabricated_integrated_cooling_station_ais.png"
+      }
+    ],
+    "url": "shanghai-accessen-co-ltd/outdoor-prefabricated-integrated-cooling-station-ais"
+  },
+  {
+    "slug": "high-efficiency-plate-heat-exchanger-aq-aa",
+    "manufacturer": {
+      "slug": "shanghai-accessen-co-ltd",
+      "name": "上海艾克森股份有限公司"
+    },
+    "name": "AQ/AA AHRI认证板式换热器",
+    "short_description": "面向暖通制冷应用的 AHRI 认证可拆式板式换热器。",
+    "industries": [
+      "暖通空调"
+    ],
+    "images": [
+      {
+        "alt_text": "High-Efficiency Plate Heat Exchanger AQ/AA",
+        "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/high_efficiency_plate_heat_exchanger_aq_aa.png"
+      }
+    ],
+    "url": "shanghai-accessen-co-ltd/high-efficiency-plate-heat-exchanger-aq-aa"
+  },
+  {
     "slug": "a-bloc-fully-welded-removable-plate-heat-exchanger",
     "manufacturer": {
-      "slug": "shenghai-accessen-co-ltd",
+      "slug": "shanghai-accessen-co-ltd",
       "name": "上海艾克森股份有限公司"
     },
     "name": "A-BLOC全焊接六面可拆式换热器",
@@ -379,51 +438,32 @@
     "images": [
       {
         "alt_text": "A-BLOC Fully Welded Removable Plate Heat Exchanger",
-        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/a_bloc_fully_welded_removable_plate_heat_exchanger.png"
+        "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/a_bloc_fully_welded_removable_plate_heat_exchanger.png"
       }
     ],
-    "url": "shenghai-accessen-co-ltd/a-bloc-fully-welded-removable-plate-heat-exchanger"
+    "url": "shanghai-accessen-co-ltd/a-bloc-fully-welded-removable-plate-heat-exchanger"
   },
   {
-    "slug": "outdoor-prefabricated-integrated-cooling-station-ais",
+    "slug": "liquid-cooling-distribution-unit-acdu",
     "manufacturer": {
-      "slug": "shenghai-accessen-co-ltd",
+      "slug": "shanghai-accessen-co-ltd",
       "name": "上海艾克森股份有限公司"
     },
-    "name": "AIS室外预制化集成冷站",
-    "short_description": "面向数据中心高效冷却基础设施的室外预制化集成冷站，可支持快速部署。",
+    "name": "ACDU高效节能液冷分配单元/液冷系统集成",
+    "short_description": "面向数据中心的预制化液冷分配单元，支持自然冷却、自适应控制与快速部署。",
     "industries": [],
     "images": [
       {
-        "alt_text": "Outdoor Prefabricated Integrated Cooling Station AIS",
-        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/outdoor_prefabricated_integrated_cooling_station_ais.png"
+        "alt_text": "Liquid-Cooling Distribution Unit ACDU",
+        "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooling_distribution_unit_acdu.png"
       }
     ],
-    "url": "shenghai-accessen-co-ltd/outdoor-prefabricated-integrated-cooling-station-ais"
-  },
-  {
-    "slug": "high-efficiency-plate-heat-exchanger-aq-aa",
-    "manufacturer": {
-      "slug": "shenghai-accessen-co-ltd",
-      "name": "上海艾克森股份有限公司"
-    },
-    "name": "AQ/AA AHRI认证板式换热器",
-    "short_description": "面向暖通制冷应用的 AHRI 认证可拆式板式换热器。",
-    "industries": [
-      "暖通空调"
-    ],
-    "images": [
-      {
-        "alt_text": "High-Efficiency Plate Heat Exchanger AQ/AA",
-        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/high_efficiency_plate_heat_exchanger_aq_aa.png"
-      }
-    ],
-    "url": "shenghai-accessen-co-ltd/high-efficiency-plate-heat-exchanger-aq-aa"
+    "url": "shanghai-accessen-co-ltd/liquid-cooling-distribution-unit-acdu"
   },
   {
     "slug": "awps-series-plate-shell-heat-exchanger-i",
     "manufacturer": {
-      "slug": "shenghai-accessen-co-ltd",
+      "slug": "shanghai-accessen-co-ltd",
       "name": "上海艾克森股份有限公司"
     },
     "name": "AWPS全焊接板壳式换热器-I",
@@ -437,32 +477,15 @@
     "images": [
       {
         "alt_text": "AWPS Series Plate-Shell Heat Exchanger - I",
-        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/awps_series_plate_shell_heat_exchanger_i.png"
+        "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/awps_series_plate_shell_heat_exchanger_i.png"
       }
     ],
-    "url": "shenghai-accessen-co-ltd/awps-series-plate-shell-heat-exchanger-i"
-  },
-  {
-    "slug": "liquid-cooling-distribution-unit-acdu",
-    "manufacturer": {
-      "slug": "shenghai-accessen-co-ltd",
-      "name": "上海艾克森股份有限公司"
-    },
-    "name": "ACDU高效节能液冷分配单元/液冷系统集成",
-    "short_description": "面向数据中心的预制化液冷分配单元，支持自然冷却、自适应控制与快速部署。",
-    "industries": [],
-    "images": [
-      {
-        "alt_text": "Liquid-Cooling Distribution Unit ACDU",
-        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/liquid_cooling_distribution_unit_acdu.png"
-      }
-    ],
-    "url": "shenghai-accessen-co-ltd/liquid-cooling-distribution-unit-acdu"
+    "url": "shanghai-accessen-co-ltd/awps-series-plate-shell-heat-exchanger-i"
   },
   {
     "slug": "liquid-cooled-hydraulic-power-unit-pheu",
     "manufacturer": {
-      "slug": "shenghai-accessen-co-ltd",
+      "slug": "shanghai-accessen-co-ltd",
       "name": "上海艾克森股份有限公司"
     },
     "name": "PHEU液冷/水冷水力模块",
@@ -471,52 +494,10 @@
     "images": [
       {
         "alt_text": "Liquid-Cooled Hydraulic Power Unit PHEU",
-        "url": "/storage/assets/shenghai-accessen-co-ltd/product_images/liquid_cooled_hydraulic_power_unit_pheu.png"
+        "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooled_hydraulic_power_unit_pheu.png"
       }
     ],
-    "url": "shenghai-accessen-co-ltd/liquid-cooled-hydraulic-power-unit-pheu"
-  },
-  {
-    "slug": "heat-exchanger-unit",
-    "manufacturer": {
-      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
-      "name": "四平维克斯换热设备有限公司"
-    },
-    "name": "换热机组",
-    "short_description": "用于供暖、空调和生活热水场景的成套换热机组，支持自动控制、节能运行和远程通信。",
-    "industries": [
-      "暖通空调",
-      "能源"
-    ],
-    "images": [
-      {
-        "alt_text": "Heat Exchanger Unit",
-        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/heat_exchanger_unit.jpg"
-      }
-    ],
-    "url": "siping-viex-heat-exchange-equipment-co-ltd/heat-exchanger-unit"
-  },
-  {
-    "slug": "air-heat-exchanger",
-    "manufacturer": {
-      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
-      "name": "四平维克斯换热设备有限公司"
-    },
-    "name": "空气换热器",
-    "short_description": "以翅片管为核心传热部件的空气换热器，可用于空气加热或冷却，适合水源不足工况。",
-    "industries": [
-      "暖通空调",
-      "食品加工",
-      "食品与饮料",
-      "制药"
-    ],
-    "images": [
-      {
-        "alt_text": "Air Heat Exchanger",
-        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_heat_exchanger.jpg"
-      }
-    ],
-    "url": "siping-viex-heat-exchange-equipment-co-ltd/air-heat-exchanger"
+    "url": "shanghai-accessen-co-ltd/liquid-cooled-hydraulic-power-unit-pheu"
   },
   {
     "slug": "plate-heat-exchanger",
@@ -568,9 +549,51 @@
     "url": "siping-viex-heat-exchange-equipment-co-ltd/tubular-heat-exchanger"
   },
   {
+    "slug": "heat-exchanger-unit",
+    "manufacturer": {
+      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+      "name": "四平维克斯换热设备有限公司"
+    },
+    "name": "换热机组",
+    "short_description": "用于供暖、空调和生活热水场景的成套换热机组，支持自动控制、节能运行和远程通信。",
+    "industries": [
+      "暖通空调",
+      "能源"
+    ],
+    "images": [
+      {
+        "alt_text": "Heat Exchanger Unit",
+        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/heat_exchanger_unit.jpg"
+      }
+    ],
+    "url": "siping-viex-heat-exchange-equipment-co-ltd/heat-exchanger-unit"
+  },
+  {
+    "slug": "air-heat-exchanger",
+    "manufacturer": {
+      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+      "name": "四平维克斯换热设备有限公司"
+    },
+    "name": "空气换热器",
+    "short_description": "以翅片管为核心传热部件的空气换热器，可用于空气加热或冷却，适合水源不足工况。",
+    "industries": [
+      "暖通空调",
+      "食品加工",
+      "食品与饮料",
+      "制药"
+    ],
+    "images": [
+      {
+        "alt_text": "Air Heat Exchanger",
+        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_heat_exchanger.jpg"
+      }
+    ],
+    "url": "siping-viex-heat-exchange-equipment-co-ltd/air-heat-exchanger"
+  },
+  {
     "slug": "plate-frame-welded-heat-exchanger",
     "manufacturer": {
-      "slug": "siping-juyuan-welded-plate-heat-exchanger-co-ltd",
+      "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
       "name": "四平巨元焊接板式换热器有限公司"
     },
     "name": "板框式焊接式热交换器",
@@ -579,10 +602,10 @@
     "images": [
       {
         "alt_text": "Plate-frame Welded Heat Exchanger",
-        "url": "/storage/assets/siping-juyuan-welded-plate-heat-exchanger-co-ltd/product_images/plate_frame_welded_heat_exchanger_1.jpg"
+        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/plate_frame_welded_heat_exchanger_1.jpg"
       }
     ],
-    "url": "siping-juyuan-welded-plate-heat-exchanger-co-ltd/plate-frame-welded-heat-exchanger"
+    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/plate-frame-welded-heat-exchanger"
   },
   {
     "slug": "plate-and-frame-heat-exchanger",
@@ -613,7 +636,7 @@
   {
     "slug": "bky-welded-plate-heat-exchanger",
     "manufacturer": {
-      "slug": "siping-juyuan-welded-plate-heat-exchanger-co-ltd",
+      "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
       "name": "四平巨元焊接板式换热器有限公司"
     },
     "name": "BKY型焊接板式热交换器",
@@ -622,10 +645,10 @@
     "images": [
       {
         "alt_text": "BKY Welded Plate Heat Exchanger View 2",
-        "url": "/storage/assets/siping-juyuan-welded-plate-heat-exchanger-co-ltd/product_images/bky_welded_plate_heat_exchanger_2.jpg"
+        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/bky_welded_plate_heat_exchanger_2.jpg"
       }
     ],
-    "url": "siping-juyuan-welded-plate-heat-exchanger-co-ltd/bky-welded-plate-heat-exchanger"
+    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/bky-welded-plate-heat-exchanger"
   },
   {
     "slug": "detachable-plate-heat-exchanger",
@@ -694,28 +717,5 @@
       }
     ],
     "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/microchannel-compact-welded-plate-heat-exchanger-pche"
-  },
-  {
-    "slug": "round-shell-heat-exchanger",
-    "manufacturer": {
-      "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
-      "name": "兰州兰石换热设备有限责任公司"
-    },
-    "name": "圆壳式热交换器",
-    "short_description": "兼具板式高效与管壳耐压特性的圆壳式焊接板式热交换器。",
-    "industries": [
-      "暖通空调",
-      "石油化工",
-      "化工",
-      "制药",
-      "发电/电力"
-    ],
-    "images": [
-      {
-        "alt_text": "Round Shell Heat Exchanger",
-        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/round_shell_heat_exchanger_1.jpg"
-      }
-    ],
-    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/round-shell-heat-exchanger"
   }
 ]

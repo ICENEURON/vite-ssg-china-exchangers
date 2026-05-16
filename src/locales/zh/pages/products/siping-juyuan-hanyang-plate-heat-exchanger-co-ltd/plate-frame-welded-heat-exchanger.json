@@ -1,0 +1,37 @@
+{
+  "slug": "plate-frame-welded-heat-exchanger",
+  "name": "板框式焊接式热交换器",
+  "full_description": "板框式换热器是巨元瀚洋公司的专利产品，属于焊接板式换热器的一种。官网介绍显示，该产品融合国际先进传热技术，具有结构紧凑、适用于特殊介质、可按用户需求执行 API 662 和 ASME 等标准的特点。",
+  "industries": [],
+  "advantage": [
+    "传热系数高、阻力损失小。",
+    "工况适应性强，可灵活设置流程组合。",
+    "与钎焊式板式换热器相比具有更好的可清洗性能。",
+    "耐温承压能力强，适应特殊介质。",
+    "占地空间更小。"
+  ],
+  "technical_parameters": {
+    "换热面积": "一般不超过350㎡",
+    "板对间隙": "4.0mm / 4.5mm / 8.0mm / 12mm",
+    "板片厚度": "0.8mm",
+    "板片材质": "TP304、TP316L、TP304L、TP317L、254SMO、Titanium、N6、S31803（SAF2205）、904L",
+    "设计压力": "不大于2.5MPa"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "板框式焊接式热交换器",
+    "meta_description": "具有高传热效率、较强可清洗性和紧凑结构的板框式焊接换热器。"
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate-frame Welded Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/plate_frame_welded_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

@@ -41,7 +41,7 @@
         "项目应用基础扎实：官网披露已有 20000 多个应用案例，并通过较大的服务网络支持项目交付与售后。"
       ]
     },
-    "slug": "shenghai-accessen-co-ltd",
+    "slug": "shanghai-accessen-co-ltd",
     "website": "https://www.accessen.com/",
     "email": [
       "info@accessen.cn"
@@ -85,7 +85,7 @@
       "meta_description": "Manufacturer of plate heat exchangers, liquid cooling distribution units, prefabricated integrated cooling stations, and fully welded heat exchange systems in Shanghai, China."
     },
     "created_at": "2026-05-04T05:31:18.525+00:00",
-    "updated_at": "2026-05-09T12:44:19.305+00:00",
+    "updated_at": "2026-05-16T13:45:50.884+00:00",
     "video_link": "",
     "social_media_links": [
       {
@@ -185,7 +185,7 @@
       "meta_description": "Chinese heat exchanger manufacturer offering plate heat exchangers, shell-and-tube heat exchangers, air heat exchangers, spiral plate heat exchangers, and heat exchanger units."
     },
     "created_at": "2026-05-04T05:58:27.134+00:00",
-    "updated_at": "2026-05-09T12:44:31.038+00:00",
+    "updated_at": "2026-05-16T13:46:52.104+00:00",
     "video_link": "",
     "social_media_links": []
   },
@@ -297,7 +297,7 @@
       "meta_description": "Verified heat exchanger manufacturer in Shanghai, China, with plate heat exchanger and welded heat exchanger capabilities."
     },
     "created_at": "2026-03-13T13:34:27.03+00:00",
-    "updated_at": "2026-05-09T12:43:44.287+00:00",
+    "updated_at": "2026-05-16T13:46:15.593+00:00",
     "video_link": "https://youtu.be/Ne39IAdzFYw",
     "social_media_links": [
       {
@@ -311,6 +311,86 @@
         "is_visible": true
       }
     ]
+  },
+  {
+    "id": "5fb41b48-d202-46e1-b819-0de12c1152fa",
+    "name": {
+      "en": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
+      "zh": "四平巨元焊接板式换热器有限公司"
+    },
+    "short_description": {
+      "en": "Manufacturer of welded plate heat exchangers and customized heat transfer solutions for power, petrochemical, marine, HVAC, food, and other industrial applications.",
+      "zh": "面向电力、石油化工、船舶、暖通、食品等工业场景提供焊接板式换热器及定制化传热解决方案的制造商。"
+    },
+    "full_description": {
+      "en": [
+        "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd. traces its roots to the Welded Plate Division established by Siping Juyuan Hanyang Plate Heat Exchanger Equipment Co., Ltd. in 1998. Since its inception, the team has focused on the research and development of fully welded plate heat exchanger technology, process, and structure.",
+        "The company offers a broad range of fully welded heat exchange products with new technologies, processes, and structures. According to the official company profile, these products are used to provide individualized and specialized solutions for military, nuclear, biomass, power, petroleum, chemical, metallurgical, shipbuilding, central heating, air conditioning and refrigeration, food and beverage, seawater desalination, and distributed energy applications.",
+        "The company states that it relies on customer resources together with big data and Internet of Things concepts to build a product operation parameter database and a product life cycle service system, while continuing to improve its products, innovation capability, and service quality."
+      ],
+      "zh": [
+        "四平巨元焊接板式换热器有限公司前身为四平市巨元瀚洋板式换热设备有限公司于1998年成立的焊接板事业部，长期从事全焊接板式换热器技术、工艺、结构的研发与科技创新工作。",
+        "公司以全新技术、工艺、结构的全焊接换热产品为载体，为军工、核能、生物质能、电力、石油、化工、冶金、船舶、集中供热、空调制冷、食品饮料、海水淡化、分布式能源等行业提供个性化、专业化解决方案。",
+        "官网介绍显示，公司依托客户资源，以大数据和物联网理念建立产品运行参数数据库和产品全生命周期服务系统，并持续改进、创新、学习和提高，为客户提供更专业的产品与更完善的服务。"
+      ]
+    },
+    "advantages": {
+      "en": [
+        "Long-term specialization in welded plate heat exchanger technology dating back to the original welded plate division established in 1998.",
+        "Broad welded product portfolio covering multiple structures such as plate-frame, wide-channel, and specialized cooling applications.",
+        "Application coverage across power, petrochemical, marine, HVAC, food and beverage, and other industrial sectors mentioned on the official website.",
+        "Official company profile highlights ongoing research, process innovation, and structural innovation for fully welded heat exchange products.",
+        "The company states that it uses product operation data and lifecycle service concepts to support more tailored industrial solutions."
+      ],
+      "zh": [
+        "焊接板技术积累深厚，源自1998年成立的焊接板事业部，长期专注于全焊接板式换热器研发。",
+        "产品结构覆盖较广，包含板框式、宽通道式及专用冷却器等多类焊接换热产品。",
+        "官网明确覆盖电力、石油化工、船舶、暖通、食品饮料等多个工业应用领域。",
+        "强调围绕全焊接换热产品持续进行技术、工艺和结构创新。",
+        "依托产品运行参数数据库和全生命周期服务系统，面向客户提供更有针对性的解决方案。"
+      ]
+    },
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
+    "website": "http://en.tht.cn/",
+    "email": [],
+    "phone": [
+      "+8618543431901"
+    ],
+    "country_id": "CN",
+    "country_name": {
+      "en": "China",
+      "zh": "中国"
+    },
+    "city": {
+      "en": "Siping",
+      "zh": "四平"
+    },
+    "address": {
+      "en": "No. 5 Nanhuan West Road, Zhanqian Street, Tiexi District, Siping, Jilin, China",
+      "zh": "吉林省四平市铁西区站前街南环西路5号"
+    },
+    "established_year": "",
+    "factory_area": "",
+    "employee_count": "",
+    "industries": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "9"
+    ],
+    "export_markets": [],
+    "is_visible": true,
+    "seo_data": {
+      "meta_title": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd. | Welded Heat Exchanger Manufacturer",
+      "meta_description": "Chinese manufacturer of welded plate heat exchangers and industrial heat transfer solutions for power, petrochemical, marine, HVAC, and related sectors."
+    },
+    "created_at": "2026-05-04T09:44:50.812+00:00",
+    "updated_at": "2026-05-16T13:46:47.546+00:00",
+    "video_link": "",
+    "social_media_links": []
   },
   {
     "id": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
@@ -404,87 +484,7 @@
       "meta_description": "Lanzhou-based manufacturer of plate heat exchangers, welded heat exchangers, PCHE systems, and heat exchange units for industrial applications."
     },
     "created_at": "2026-05-04T10:22:53.727+00:00",
-    "updated_at": "2026-05-09T12:43:24.086+00:00",
-    "video_link": "",
-    "social_media_links": []
-  },
-  {
-    "id": "5fb41b48-d202-46e1-b819-0de12c1152fa",
-    "name": {
-      "en": "Siping Juyuan Welded Plate Heat Exchanger Co., Ltd.",
-      "zh": "四平巨元焊接板式换热器有限公司"
-    },
-    "short_description": {
-      "en": "Manufacturer of welded plate heat exchangers and customized heat transfer solutions for power, petrochemical, marine, HVAC, food, and other industrial applications.",
-      "zh": "面向电力、石油化工、船舶、暖通、食品等工业场景提供焊接板式换热器及定制化传热解决方案的制造商。"
-    },
-    "full_description": {
-      "en": [
-        "Siping Juyuan Welded Plate Heat Exchanger Co., Ltd. traces its roots to the Welded Plate Division established by Siping Juyuan Hanyang Plate Heat Exchanger Equipment Co., Ltd. in 1998. Since its inception, the team has focused on the research and development of fully welded plate heat exchanger technology, process, and structure.",
-        "The company offers a broad range of fully welded heat exchange products with new technologies, processes, and structures. According to the official company profile, these products are used to provide individualized and specialized solutions for military, nuclear, biomass, power, petroleum, chemical, metallurgical, shipbuilding, central heating, air conditioning and refrigeration, food and beverage, seawater desalination, and distributed energy applications.",
-        "The company states that it relies on customer resources together with big data and Internet of Things concepts to build a product operation parameter database and a product life cycle service system, while continuing to improve its products, innovation capability, and service quality."
-      ],
-      "zh": [
-        "四平巨元焊接板式换热器有限公司前身为四平市巨元瀚洋板式换热设备有限公司于1998年成立的焊接板事业部，长期从事全焊接板式换热器技术、工艺、结构的研发与科技创新工作。",
-        "公司以全新技术、工艺、结构的全焊接换热产品为载体，为军工、核能、生物质能、电力、石油、化工、冶金、船舶、集中供热、空调制冷、食品饮料、海水淡化、分布式能源等行业提供个性化、专业化解决方案。",
-        "官网介绍显示，公司依托客户资源，以大数据和物联网理念建立产品运行参数数据库和产品全生命周期服务系统，并持续改进、创新、学习和提高，为客户提供更专业的产品与更完善的服务。"
-      ]
-    },
-    "advantages": {
-      "en": [
-        "Long-term specialization in welded plate heat exchanger technology dating back to the original welded plate division established in 1998.",
-        "Broad welded product portfolio covering multiple structures such as plate-frame, wide-channel, and specialized cooling applications.",
-        "Application coverage across power, petrochemical, marine, HVAC, food and beverage, and other industrial sectors mentioned on the official website.",
-        "Official company profile highlights ongoing research, process innovation, and structural innovation for fully welded heat exchange products.",
-        "The company states that it uses product operation data and lifecycle service concepts to support more tailored industrial solutions."
-      ],
-      "zh": [
-        "焊接板技术积累深厚，源自1998年成立的焊接板事业部，长期专注于全焊接板式换热器研发。",
-        "产品结构覆盖较广，包含板框式、宽通道式及专用冷却器等多类焊接换热产品。",
-        "官网明确覆盖电力、石油化工、船舶、暖通、食品饮料等多个工业应用领域。",
-        "强调围绕全焊接换热产品持续进行技术、工艺和结构创新。",
-        "依托产品运行参数数据库和全生命周期服务系统，面向客户提供更有针对性的解决方案。"
-      ]
-    },
-    "slug": "siping-juyuan-welded-plate-heat-exchanger-co-ltd",
-    "website": "http://www.wphetht.cn/",
-    "email": [],
-    "phone": [
-      "+8618543431901"
-    ],
-    "country_id": "CN",
-    "country_name": {
-      "en": "China",
-      "zh": "中国"
-    },
-    "city": {
-      "en": "Siping",
-      "zh": "四平"
-    },
-    "address": {
-      "en": "No. 5 Nanhuan West Road, Zhanqian Street, Tiexi District, Siping, Jilin, China",
-      "zh": "吉林省四平市铁西区站前街南环西路5号"
-    },
-    "established_year": "",
-    "factory_area": "",
-    "employee_count": "",
-    "industries": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "6",
-      "7",
-      "9"
-    ],
-    "export_markets": [],
-    "is_visible": true,
-    "seo_data": {
-      "meta_title": "Siping Juyuan Welded Plate Heat Exchanger Co., Ltd. | Welded Heat Exchanger Manufacturer",
-      "meta_description": "Chinese manufacturer of welded plate heat exchangers and industrial heat transfer solutions for power, petrochemical, marine, HVAC, and related sectors."
-    },
-    "created_at": "2026-05-04T09:44:50.812+00:00",
-    "updated_at": "2026-05-09T12:44:27.871+00:00",
+    "updated_at": "2026-05-16T13:44:37.728+00:00",
     "video_link": "",
     "social_media_links": []
   }

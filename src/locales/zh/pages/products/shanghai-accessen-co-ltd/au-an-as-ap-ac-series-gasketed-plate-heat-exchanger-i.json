@@ -1,0 +1,57 @@
+{
+  "slug": "au-an-as-ap-ac-series-gasketed-plate-heat-exchanger-i",
+  "name": "AU,AN,AS,AP,AC工业可拆垫片式换热器-I",
+  "full_description": "AU,AN,AS,AP,AC 工业可拆垫片式换热器-I 面向众多工业应用场景，可在兼顾高传热系数的同时提供较好的经济性、安全性、可靠性以及拆洗维护便利性。官网说明该系列采用免粘卡扣式垫片和多种专业板型，以覆盖不同处理量、水质和温度条件下的工业应用需求。",
+  "industries": [
+    "石油化工",
+    "船舶/海工",
+    "能源",
+    "化工",
+    "食品与饮料",
+    "制药",
+    "发电/电力"
+  ],
+  "advantage": [
+    "改进后的导流区使流体分配更均匀",
+    "免粘卡扣式密封垫片",
+    "板片大小与角度组合更充分利用压降",
+    "附件选择更多",
+    "消除污垢堆积区",
+    "波纹与流道设计强化湍流与换热系数",
+    "板片四角自锁装置保证不错位",
+    "标准屋顶垫片与防漏设计延长垫片寿命"
+  ],
+  "technical_parameters": {
+    "温度": "最小温差：0.5-1℃ 最大耐温：200℃",
+    "板片材质": "AISI 304、316、316L、TI、254SMO...",
+    "最大处理量": "5000m³/h",
+    "最大换热量": "80MW",
+    "最大设计压力": "25bar"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "这款工业可拆式板换的灵活性体现在哪里？",
+      "content": "官网说明该系列可通过板片大小、角度、沟槽深度和同口径下不同长宽比的组合，适配不同工业工况和换热需求。"
+    },
+    {
+      "title": "它为什么更便于维护？",
+      "content": "产品采用免粘卡扣式垫片、改进导流区和板片四角自锁装置，有助于减少污垢堆积并提升拆装与维护便利性。"
+    }
+  ],
+  "seo_data": {
+    "meta_title": "AU,AN,AS,AP,AC工业可拆垫片式换热器-I",
+    "meta_description": "适用于多种工业工况的可拆垫片式板式换热器，具备高效换热、灵活配置和维护方便等特点。"
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/au_an_as_ap_ac_series_gasketed_plate_heat_exchanger_i.png"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

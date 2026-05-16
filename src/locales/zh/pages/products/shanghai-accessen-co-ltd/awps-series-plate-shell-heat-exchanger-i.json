@@ -1,0 +1,49 @@
+{
+  "slug": "awps-series-plate-shell-heat-exchanger-i",
+  "name": "AWPS全焊接板壳式换热器-I",
+  "full_description": "AWPS 全焊接板壳式换热器-I 是一种适用于工业高温高压工况的新型高效换热器。官网说明其结合了可拆式板式换热器的传热特性和管壳式设备的耐温耐压能力，并保留可拆洗结构，以实现较低运行费用和更方便的维护。",
+  "industries": [
+    "石油化工",
+    "能源",
+    "化工",
+    "发电/电力"
+  ],
+  "advantage": [
+    "保留了可拆式换热器的传热特性",
+    "污垢系数低",
+    "耐高温",
+    "耐高压",
+    "可拆洗且无垫片老化，运行费用低"
+  ],
+  "technical_parameters": {
+    "最大耐温": "500℃",
+    "板片材质": "AISI 304L、316L、Titanium、Hastelloy、254SMO...",
+    "最大设计压力": "80bar"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "AWPS 相比传统管壳式设备的优势是什么？",
+      "content": "官网将 AWPS 定位为兼具板式高效换热和管壳式耐高温高压能力的替代方案，可在苛刻工业工况下有效替代传统管壳式换热器。"
+    },
+    {
+      "title": "它在维护方面有什么优势？",
+      "content": "产品可拆洗，且不存在垫片老化问题，有助于降低长期运行维护成本。"
+    }
+  ],
+  "seo_data": {
+    "meta_title": "AWPS全焊接板壳式换热器-I",
+    "meta_description": "适用于高温高压工业工况的全焊接板壳式换热器，兼具高效换热、耐压耐温和便于清洗维护等特点。"
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "AWPS Series Plate-Shell Heat Exchanger - I",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/awps_series_plate_shell_heat_exchanger_i.png"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

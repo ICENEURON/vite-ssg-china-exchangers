@@ -2,7 +2,7 @@
   {
     "name": "上海艾克森股份有限公司",
     "short_description": "专注于低碳数据中心与换热解决方案，提供板式换热器、全焊式换热器及系统集成热管理设备的换热解决方案提供商。",
-    "slug": "shenghai-accessen-co-ltd",
+    "slug": "shanghai-accessen-co-ltd",
     "city": "上海",
     "country_name": "中国",
     "industries": [
@@ -54,6 +54,22 @@
     ]
   },
   {
+    "name": "四平巨元焊接板式换热器有限公司",
+    "short_description": "面向电力、石油化工、船舶、暖通、食品等工业场景提供焊接板式换热器及定制化传热解决方案的制造商。",
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
+    "city": "四平",
+    "country_name": "中国",
+    "industries": [
+      "暖通空调",
+      "石油化工",
+      "船舶/海工",
+      "能源",
+      "化工",
+      "食品与饮料",
+      "发电/电力"
+    ]
+  },
+  {
     "name": "兰州兰石换热设备有限责任公司",
     "short_description": "面向能源、石油化工、暖通、船舶、制药、食品等行业提供板式换热器、焊接式换热器、PCHE 及换热机组的制造商。",
     "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
@@ -68,22 +84,6 @@
       "化工",
       "食品与饮料",
       "制药",
-      "发电/电力"
-    ]
-  },
-  {
-    "name": "四平巨元焊接板式换热器有限公司",
-    "short_description": "面向电力、石油化工、船舶、暖通、食品等工业场景提供焊接板式换热器及定制化传热解决方案的制造商。",
-    "slug": "siping-juyuan-welded-plate-heat-exchanger-co-ltd",
-    "city": "四平",
-    "country_name": "中国",
-    "industries": [
-      "暖通空调",
-      "石油化工",
-      "船舶/海工",
-      "能源",
-      "化工",
-      "食品与饮料",
       "发电/电力"
     ]
   }

@@ -1,0 +1,907 @@
+[
+  {
+    "local_assets_dir": "shanghai-accessen-co-ltd",
+    "manufacturer": {
+      "slug": "shanghai-accessen-co-ltd",
+      "name": {
+        "en": "Shanghai Accessen Co., Ltd.",
+        "zh": "上海艾克森股份有限公司"
+      },
+      "short_description": {
+        "en": "Provider of low-carbon data center and heat exchange solutions, specializing in plate heat exchangers, fully welded exchangers, and integrated thermal systems.",
+        "zh": "专注于低碳数据中心与换热解决方案，提供板式换热器、全焊式换热器及系统集成热管理设备的换热解决方案提供商。"
+      },
+      "full_description": {
+        "en": [
+          "Shanghai Accessen Co., Ltd. is a heat exchange solution provider specializing in the R&D, manufacturing, sales, and service of heat exchange equipment. The company focuses on low-carbon data center solutions and broader thermal management applications across heating, refrigeration, and industrial sectors.",
+          "Its manufacturing base spans more than 100,000 square meters across the Xiechun Road factory in Shanghai and the Taicang Port Area factory. Accessen supports customers through a direct sales and service network covering major cities in China as well as overseas markets including Hong Kong, Singapore, Malaysia, and Thailand.",
+          "Accessen serves data center, HVAC, refrigeration, energy and power, steel and metallurgy, petrochemical, food and pharmaceutical, new energy electronics, marine and offshore, and environmental treatment applications. The company positions plate heat exchange and system integration as its two core technologies.",
+          "Its AS-standard product portfolio includes plate heat exchangers and units, fully welded plate-shell and plate-frame heat exchangers, fully welded air heat exchangers, process water cooling systems, waste heat recovery systems, and prefabricated integrated cooling stations. The company states compliance with international standards and certifications including ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, and GB."
+        ],
+        "zh": [
+          "上海艾克森股份有限公司是专业从事换热设备研发、制造、销售及服务的换热解决方案提供商，重点面向低碳数据中心以及供热、制冷和工业等热管理场景提供产品与服务。",
+          "公司生产总部位于中国上海黄渡工业园，拥有谢春路工厂和太仓港区工厂，制造基地总面积超过 100000 平方米。艾克森建立了覆盖全国主要省市并延伸至香港、新加坡、马来西亚、泰国等市场的销售与服务网络。",
+          "公司服务领域涵盖数据中心、暖通空调、制冷冷却、能源电力、钢铁冶金、石油化工、食品医药、新能源电子、船舶海工及环保处理等细分市场，并以板式换热和系统集成为两大核心技术。",
+          "其 AS 标准产品体系覆盖板式换热器、板式换热机组、全焊板壳式换热器、全焊板框式换热器、全焊空气换热器、工艺水冷却系统、余热回收系统和预装式集成冷站等，并宣称产品符合 ASME、CE、AHRI、API、DNV、GL、LR、ABS、BV、NK、KR、CCS、RINA、RS、CCC、GB 等国际规范和标准。"
+        ]
+      },
+      "advantages": {
+        "en": [
+          "Large-Scale Manufacturing Base: Accessen operates more than 100,000 square meters of manufacturing space across its Shanghai and Taicang facilities.",
+          "Dual Core Competence: The company emphasizes plate heat exchange technology and system integration as its core technical capabilities.",
+          "Broad Product Portfolio: Products cover plate heat exchangers, fully welded exchangers, process cooling systems, waste heat recovery systems, and prefabricated integrated cooling stations.",
+          "International Standards and Certifications: The company highlights compliance with ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, and GB standards and certifications.",
+          "Extensive Service Coverage: Direct sales and service support covers major Chinese markets and selected overseas markets including Hong Kong, Singapore, Malaysia, and Thailand.",
+          "Proven Deployment Scale: Accessen states it has delivered solutions across more than 20,000 implementation cases and supports customers through a large service network."
+        ],
+        "zh": [
+          "规模化制造基础：公司在上海和太仓拥有超过 100000 平方米的制造基地。",
+          "核心技术明确：以板式换热和系统集成为两大核心技术，支撑多场景热管理解决方案。",
+          "产品体系完整：覆盖板式换热器、全焊式换热器、工艺冷却系统、余热回收系统和预装式集成冷站等产品。",
+          "国际规范与认证覆盖广：官网明确列出 ASME、CE、AHRI、API、DNV、GL、LR、ABS、BV、NK、KR、CCS、RINA、RS、CCC、GB 等标准和认证。",
+          "服务网络覆盖广：拥有覆盖国内主要省市并延伸至部分海外市场的直属销售与服务网络。",
+          "项目应用基础扎实：官网披露已有 20000 多个应用案例，并通过较大的服务网络支持项目交付与售后。"
+        ]
+      },
+      "website": "https://www.accessen.com/",
+      "video_link": "",
+      "social_media_links": [
+        {
+          "url": "https://www.linkedin.com/company/shanghai-accessen-co-ltd/",
+          "platform": "linkedin",
+          "is_visible": true
+        },
+        {
+          "url": "https://youtube.com/@accessen",
+          "platform": "youtube",
+          "is_visible": true
+        }
+      ],
+      "email": [
+        "info@accessen.cn"
+      ],
+      "phone": [
+        "+86 21 6959 5555",
+        "+86 21 6958 5555",
+        "4006-191-191"
+      ],
+      "country_id": "CN",
+      "country_name": {
+        "en": "China",
+        "zh": "中国"
+      },
+      "city": {
+        "en": "Shanghai",
+        "zh": "上海"
+      },
+      "address": {
+        "en": "No. 1458 Xiechun Road, Jiading District, Shanghai, China",
+        "zh": "上海市嘉定区谢春路1458号"
+      },
+      "established_year": "2002",
+      "factory_area": "100000m2",
+      "employee_count": "600+",
+      "industries": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "export_markets": [],
+      "is_visible": true,
+      "seo_data": {
+        "meta_title": "Shanghai Accessen Co., Ltd. | Heat Exchange and Low-Carbon Data Center Solutions",
+        "meta_description": "Manufacturer of plate heat exchangers, liquid cooling distribution units, prefabricated integrated cooling stations, and fully welded heat exchange systems in Shanghai, China."
+      }
+    },
+    "company_assets": [
+      {
+        "order": 1,
+        "asset_type": "certificate",
+        "folder": "company_certifications",
+        "file_name": "ahri.jpg",
+        "alt_text": "AHRI Certification"
+      },
+      {
+        "order": 2,
+        "asset_type": "certificate",
+        "folder": "company_certifications",
+        "file_name": "asme.jpg",
+        "alt_text": "ASME Certification"
+      },
+      {
+        "order": 3,
+        "asset_type": "certificate",
+        "folder": "company_certifications",
+        "file_name": "iso_9001_2015.png",
+        "alt_text": "ISO 9001:2015 Certification"
+      },
+      {
+        "order": 1,
+        "asset_type": "document",
+        "folder": "company_docs",
+        "file_name": "introduction_to_accessen.pdf",
+        "alt_text": "Introduction to Accessen"
+      },
+      {
+        "order": 2,
+        "asset_type": "document",
+        "folder": "company_docs",
+        "file_name": "introduction_to_accessen_data_center_products.pdf",
+        "alt_text": "Introduction to Accessen Data Center Products"
+      },
+      {
+        "order": 1,
+        "asset_type": "logo",
+        "folder": "company_customers",
+        "file_name": "siemens.jpg",
+        "alt_text": "Siemens Customer Logo"
+      },
+      {
+        "order": 2,
+        "asset_type": "logo",
+        "folder": "company_customers",
+        "file_name": "bayer.jpg",
+        "alt_text": "Bayer Customer Logo"
+      },
+      {
+        "order": 3,
+        "asset_type": "logo",
+        "folder": "company_customers",
+        "file_name": "foxconn.jpg",
+        "alt_text": "Foxconn Customer Logo"
+      },
+      {
+        "order": 4,
+        "asset_type": "logo",
+        "folder": "company_customers",
+        "file_name": "state_grid_corporation_of_china.jpg",
+        "alt_text": "State Grid Corporation of China Customer Logo"
+      },
+      {
+        "order": 1,
+        "asset_type": "media",
+        "folder": "company_images",
+        "file_name": "company_1.jpg",
+        "alt_text": "Accessen Xie Chun Road Base Welding Line"
+      },
+      {
+        "order": 2,
+        "asset_type": "media",
+        "folder": "company_images",
+        "file_name": "company_2.jpg",
+        "alt_text": "Accessen Plate-Shell Heat Exchanger Welding Line"
+      },
+      {
+        "order": 3,
+        "asset_type": "media",
+        "folder": "company_images",
+        "file_name": "company_3.jpg",
+        "alt_text": "Accessen Intelligent Control Workshop"
+      }
+    ],
+    "products": [
+      {
+        "product": {
+          "order": 1,
+          "slug": "liquid-cooling-distribution-unit-acdu",
+          "is_visible": true,
+          "name": {
+            "en": "Liquid-Cooling Distribution Unit ACDU",
+            "zh": "ACDU高效节能液冷分配单元/液冷系统集成"
+          },
+          "short_description": {
+            "en": "Prefabricated liquid-cooling distribution unit for data centers with natural cooling, adaptive control, and rapid deployment.",
+            "zh": "面向数据中心的预制化液冷分配单元，支持自然冷却、自适应控制与快速部署。"
+          },
+          "full_description": {
+            "en": "The Liquid-Cooling Distribution Unit ACDU is designed for data center cooling systems that require location-independent deployment and compressor-free natural cooling. According to Accessen, the solution lowers overall system PUE, uses intelligent controls with variable-speed pumping and hydraulic flow modulation, and reduces installation complexity through modular prefabrication.",
+            "zh": "Liquid-Cooling Distribution Unit ACDU 面向数据中心液冷系统应用，支持不受地域限制的部署和全气候无压缩机自然冷却。根据官网介绍，该产品可降低整体系统 PUE，并通过智能控制、变频泵和水力流量调节实现持续自适应运行，同时借助模块化预制设计减少现场安装复杂度。"
+          },
+          "industries": [],
+          "advantage": {
+            "en": [
+              "Field-Proven Reliability and Safety",
+              "Rapid Deployment through Modular Prefabrication",
+              "Adaptive Control System",
+              "High-Efficiency Liquid Cooling",
+              "Compressor-Free Natural Cooling"
+            ],
+            "zh": [
+              "经过现场应用验证的可靠性与安全性",
+              "依托模块化预制实现快速部署",
+              "具备自适应控制系统",
+              "高效液冷能力",
+              "支持无压缩机自然冷却"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Storage Temperature Range": "-40°C~70°C",
+              "Operating Temperature Range": "5°C~50°C",
+              "Operating Relative Humidity": "5%~95%",
+              "Altitude Range": "-30m~2500m",
+              "Primary Side Coolant": "Water/ Ethylene Glycol-based Solutions",
+              "Primary Filtration Rating": "200μm~300μm",
+              "Secondary Side Coolant": "Deionized Water/ Ethylene Glycol/ Propylene Glycol/ Fluorinated Fluids",
+              "Secondary Filtration Rating": "100μm~200μm",
+              "Power Supply": "380V~415VAC/50±1Hz"
+            },
+            "zh": {
+              "存储温度范围": "-40°C~70°C",
+              "运行温度范围": "5°C~50°C",
+              "运行相对湿度": "5%~95%",
+              "海拔范围": "-30m~2500m",
+              "一次侧冷却介质": "水 / 乙二醇基冷却液",
+              "一次侧过滤精度": "200μm~300μm",
+              "二次侧冷却介质": "去离子水 / 乙二醇 / 丙二醇 / 含氟流体",
+              "二次侧过滤精度": "100μm~200μm",
+              "电源": "380V~415VAC/50±1Hz"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "What is the ACDU used for?",
+                "content": "Accessen positions the ACDU as a liquid-cooling distribution unit for data centers, where it supports compressor-free natural cooling and helps reduce overall PUE in liquid cooling systems."
+              },
+              {
+                "title": "How is deployment simplified?",
+                "content": "The product uses a prefabricated modular design that minimizes installation complexity on site and supports faster project delivery."
+              }
+            ],
+            "zh": [
+              {
+                "title": "ACDU 主要用于什么场景？",
+                "content": "官网将 ACDU 定位为面向数据中心液冷系统的分配单元，可支持无压缩机自然冷却，并帮助降低整体系统 PUE。"
+              },
+              {
+                "title": "它如何缩短部署周期？",
+                "content": "该产品采用预制化模块设计，可减少现场安装复杂度，从而支持更快的项目交付。"
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Liquid-Cooling Distribution Unit ACDU",
+              "meta_description": "Prefabricated data center liquid-cooling distribution unit with adaptive control, natural cooling, and rapid deployment features."
+            },
+            "zh": {
+              "meta_title": "ACDU高效节能液冷分配单元/液冷系统集成",
+              "meta_description": "面向数据中心液冷系统的预制化液冷分配单元，具备自然冷却、自适应控制和快速部署能力。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "liquid_cooling_distribution_unit_acdu.png",
+            "alt_text": "Liquid-Cooling Distribution Unit ACDU"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 2,
+          "slug": "liquid-cooled-hydraulic-power-unit-pheu",
+          "is_visible": true,
+          "name": {
+            "en": "Liquid-Cooled Hydraulic Power Unit PHEU",
+            "zh": "PHEU液冷/水冷水力模块"
+          },
+          "short_description": {
+            "en": "Modular primary hydraulic distribution unit for liquid-cooled data centers with integrated PHE, pumps, and water treatment systems.",
+            "zh": "面向液冷数据中心的一次侧水力分配模块，集成板式换热器、水泵和水处理系统。"
+          },
+          "full_description": {
+            "en": "The Liquid-Cooled Hydraulic Power Unit PHEU is a customized primary hydraulic distribution system for liquid cooling applications. Accessen integrates plate heat exchangers, coolant pumps, water treatment systems, piping and valves, and electrical and control systems into a modular package designed to improve thermal efficiency and simplify operation for liquid-cooled data centers.",
+            "zh": "Liquid-Cooled Hydraulic Power Unit PHEU 是一款面向液冷应用的一次侧定制化水力分配系统。根据官网说明，产品将板式换热器、冷却液泵、水处理系统、管路阀门以及电气控制系统集成为模块化单元，以提升液冷数据中心的热效率并简化运行管理。"
+          },
+          "industries": [],
+          "advantage": {
+            "en": [
+              "Prefabricated Modular Integration",
+              "Plug-and-Play System Commissioning",
+              "Rapid Deployment",
+              "BIM-Optimized Design and Fabrication",
+              "Space-Optimized Configuration",
+              "Robust Heavy-Duty Construction"
+            ],
+            "zh": [
+              "预制化模块集成",
+              "支持即插即用式系统调试",
+              "快速部署",
+              "BIM 优化设计与制造",
+              "空间利用优化布局",
+              "重载型坚固结构"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Storage Temperature Range": "-40°C~70°C",
+              "Operating Temperature Range": "5°C~50°C",
+              "Operating Relative Humidity": "5%~95%",
+              "Altitude Range": "-30m~2500m",
+              "Primary Side Coolant": "Water/Glycol-based Coolants",
+              "Primary Side Filtration Rating": "200μm~300μm",
+              "Secondary Side Coolant": "Deionized Water, Glycol, Propylene Glycol, Fluorinated Fluids",
+              "Secondary Side Filtration Rating": "100μm~200μm",
+              "Power Supply": "380V~415VAC/50±1Hz"
+            },
+            "zh": {
+              "存储温度范围": "-40°C~70°C",
+              "运行温度范围": "5°C~50°C",
+              "运行相对湿度": "5%~95%",
+              "海拔范围": "-30m~2500m",
+              "一次侧冷却介质": "水 / 乙二醇基冷却液",
+              "一次侧过滤精度": "200μm~300μm",
+              "二次侧冷却介质": "去离子水、乙二醇、丙二醇、含氟流体",
+              "二次侧过滤精度": "100μm~200μm",
+              "电源": "380V~415VAC/50±1Hz"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "What is included in the PHEU module?",
+                "content": "Accessen states that the PHEU integrates plate heat exchangers, coolant pumps, water treatment systems, piping, valves, and electrical and control systems into one primary hydraulic distribution module."
+              },
+              {
+                "title": "How does it improve project delivery?",
+                "content": "The system uses prefabricated modules, precision jig alignment, and prefabricated piping so that field work only requires threaded or flanged connections, reducing installation time and on-site welding."
+              }
+            ],
+            "zh": [
+              {
+                "title": "PHEU 模块集成了哪些部件？",
+                "content": "官网说明该模块集成了板式换热器、冷却液泵、水处理系统、管路、阀门以及电气与控制系统，构成一次侧水力分配单元。"
+              },
+              {
+                "title": "它如何提高项目交付效率？",
+                "content": "产品采用预制化模块、工装对位和预制管路方案，现场仅需螺纹或法兰连接即可完成安装，有助于减少安装周期和现场焊接工作量。"
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Liquid-Cooled Hydraulic Power Unit PHEU",
+              "meta_description": "Modular liquid-cooled hydraulic power unit integrating PHE, pumps, and water treatment systems for data center liquid cooling infrastructure."
+            },
+            "zh": {
+              "meta_title": "PHEU液冷/水冷水力模块",
+              "meta_description": "面向数据中心液冷基础设施的模块化水力单元，集成板式换热器、水泵和水处理系统。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "liquid_cooled_hydraulic_power_unit_pheu.png",
+            "alt_text": "Liquid-Cooled Hydraulic Power Unit PHEU"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 3,
+          "slug": "outdoor-prefabricated-integrated-cooling-station-ais",
+          "is_visible": true,
+          "name": {
+            "en": "Outdoor Prefabricated Integrated Cooling Station AIS",
+            "zh": "AIS室外预制化集成冷站"
+          },
+          "short_description": {
+            "en": "Outdoor prefabricated integrated cooling plant for rapid deployment of high-efficiency data center cooling infrastructure.",
+            "zh": "面向数据中心高效冷却基础设施的室外预制化集成冷站，可支持快速部署。"
+          },
+          "full_description": {
+            "en": "The AIS prefabricated integrated cooling plant integrates chillers, plate heat exchangers, pumps, cooling towers, valves, control systems, and ancillary components into a factory-manufactured and pre-assembled outdoor cooling station. Accessen states that the system reduces on-site construction complexity, eliminates the need for a dedicated plant room, and enables rapid commissioning once water and electrical connections are completed.",
+            "zh": "AIS室外预制化集成冷站将冷水机组、板式换热器、水泵、冷却塔、阀门、控制系统及辅助部件集成为工厂制造、预装配的室外冷却站。根据官网说明，该系统可降低现场施工复杂度，无需单独机房，在完成水电连接后即可快速投运。"
+          },
+          "industries": [],
+          "advantage": {
+            "en": [
+              "AHRI Certified",
+              "Optimized Structure and System",
+              "Enhanced Energy Efficiency Certification",
+              "Available in Outdoor Configurations",
+              "Reliable and Stable Performance",
+              "Rapid Deployment",
+              "Pre-integrated and Pre-assembled",
+              "Modular Design",
+              "Reduced On-Site Workload"
+            ],
+            "zh": [
+              "AHRI 认证",
+              "结构与系统优化设计",
+              "强化节能表现",
+              "支持室外型配置",
+              "运行可靠稳定",
+              "快速部署",
+              "预集成与预装配",
+              "模块化设计",
+              "显著减少现场工作量"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Maximum processing capacity": "5,000m³/h",
+              "Maximum design pressure": "25bar",
+              "Minimum temperature difference": "0.5-1℃",
+              "Maximum design temperature": "200℃",
+              "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254..."
+            },
+            "zh": {
+              "最大处理能力": "5,000m³/h",
+              "最大设计压力": "25bar",
+              "最小温差": "0.5-1℃",
+              "最高设计温度": "200℃",
+              "主要结构材料": "AISI 304, 316, 316L, TI, SMO254..."
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "What is integrated inside the AIS station?",
+                "content": "Accessen describes the AIS as an integrated outdoor cooling station that combines chillers, plate heat exchangers, pumps, cooling towers, valves, intelligent controls, and supporting components into a factory-preassembled package."
+              },
+              {
+                "title": "Why is it suitable for fast-track projects?",
+                "content": "Because the modules are preassembled in the factory and only require site foundation preparation plus water and electrical connections, the AIS helps shorten on-site construction and commissioning time."
+              }
+            ],
+            "zh": [
+              {
+                "title": "AIS 冷站集成了哪些核心设备？",
+                "content": "官网说明 AIS 将冷水机组、板式换热器、水泵、冷却塔、阀门、智能控制系统及相关辅助部件集成为工厂预装的室外冷站。"
+              },
+              {
+                "title": "为什么它适合快速交付项目？",
+                "content": "由于模块在工厂内完成预装配，现场仅需完成基础、水路和电气连接，因此有助于缩短土建、安装和调试周期。"
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Outdoor Prefabricated Integrated Cooling Station AIS",
+              "meta_description": "Outdoor prefabricated integrated cooling station for data centers with factory pre-assembly, modular design, and rapid deployment benefits."
+            },
+            "zh": {
+              "meta_title": "AIS室外预制化集成冷站",
+              "meta_description": "面向数据中心的室外预制化集成冷站，具备工厂预装、模块化设计和快速部署优势。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "outdoor_prefabricated_integrated_cooling_station_ais.png",
+            "alt_text": "Outdoor Prefabricated Integrated Cooling Station AIS"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 4,
+          "slug": "high-efficiency-plate-heat-exchanger-aq-aa",
+          "is_visible": true,
+          "name": {
+            "en": "High-Efficiency Plate Heat Exchanger AQ/AA",
+            "zh": "AQ/AA AHRI认证板式换热器"
+          },
+          "short_description": {
+            "en": "AHRI-certified gasketed plate-and-frame heat exchanger for HVAC-R and refrigeration applications.",
+            "zh": "面向暖通制冷应用的 AHRI 认证可拆式板式换热器。"
+          },
+          "full_description": {
+            "en": "The AQ/AA Series is an AHRI-certified gasketed plate-and-frame heat exchanger designed for HVAC-R refrigeration systems. Accessen describes the series as optimized for variable-load heat transfer performance, compatibility with different water qualities and temperatures, and application-specific configuration through multi-angle chevron plates, varied channel depths, and configurable aspect ratios within standardized port sizes.",
+            "zh": "AQ/AA 系列是面向 HVAC-R 制冷系统的 AHRI 认证可拆式板框换热器。根据官网介绍，该系列针对变工况换热性能、不同水质和温度适应性进行了设计，并可通过多角度人字板型、不同流道深度和标准口径下的多种长宽比配置满足具体应用需求。"
+          },
+          "industries": [
+            "1"
+          ],
+          "advantage": {
+            "en": [
+              "AHRI-Certified Performance",
+              "Enhanced Gasket Longevity",
+              "Higher Certified Energy Efficiency",
+              "Configurable Plate Patterns",
+              "Proven Reliability and Stability",
+              "Expanded Accessory Options",
+              "Optimized Flow Distribution",
+              "Clip-On Gaskets",
+              "Self-Locking Alignment System"
+            ],
+            "zh": [
+              "AHRI 认证性能",
+              "更长的密封垫使用寿命",
+              "更高的认证能效表现",
+              "可配置板片纹路方案",
+              "成熟可靠且运行稳定",
+              "配件选项更丰富",
+              "优化流量分配",
+              "卡扣式胶垫",
+              "自锁对中系统"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Maximum processing capacity": "5,000m³/h",
+              "Maximum design pressure": "25bar",
+              "Minimum temperature difference": "0.5-1℃",
+              "Maximum design temperature": "200℃",
+              "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254",
+              "Maximum Heat Transfer Capacity": "80MW"
+            },
+            "zh": {
+              "最大处理能力": "5,000m³/h",
+              "最大设计压力": "25bar",
+              "最小温差": "0.5-1℃",
+              "最高设计温度": "200℃",
+              "主要结构材料": "AISI 304, 316, 316L, TI, SMO254",
+              "最大换热能力": "80MW"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "What applications is the AQ/AA series designed for?",
+                "content": "Accessen positions the AQ/AA Series for HVAC-R refrigeration systems where certified liquid-to-liquid heat exchanger performance and adaptable thermal design are important."
+              },
+              {
+                "title": "How does the design remain flexible?",
+                "content": "The series uses multi-angle chevron plates, different channel depths, and configurable aspect ratios within standard port sizes so that designs can be adapted to different duties and operating conditions."
+              }
+            ],
+            "zh": [
+              {
+                "title": "AQ/AA 系列适用于哪些应用？",
+                "content": "官网将 AQ/AA 系列定位于 HVAC-R 制冷系统，适合对液液换热认证性能和灵活热工设计有要求的场景。"
+              },
+              {
+                "title": "它的设计灵活性体现在哪里？",
+                "content": "该系列可通过多角度人字板型、不同流道深度以及标准口径下可配置的长宽比方案，适配不同工况和换热需求。"
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "High-Efficiency Plate Heat Exchanger AQ/AA",
+              "meta_description": "AHRI-certified gasketed plate-and-frame heat exchanger for HVAC-R refrigeration systems with configurable plate geometry and high heat transfer efficiency."
+            },
+            "zh": {
+              "meta_title": "AQ/AA AHRI认证板式换热器",
+              "meta_description": "适用于 HVAC-R 制冷系统的 AHRI 认证板式换热器，具备高效换热和灵活配置优势。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "high_efficiency_plate_heat_exchanger_aq_aa.png",
+            "alt_text": "High-Efficiency Plate Heat Exchanger AQ/AA"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 5,
+          "slug": "a-bloc-fully-welded-removable-plate-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "A-BLOC Fully Welded Removable Plate Heat Exchanger",
+            "zh": "A-BLOC全焊接六面可拆式换热器"
+          },
+          "short_description": {
+            "en": "Compact removable welded plate heat exchanger for high-temperature and high-pressure industrial duty.",
+            "zh": "适用于高温高压工况、结构紧凑且便于拆洗的全焊可拆式板式换热器。"
+          },
+          "full_description": {
+            "en": "The A-BLOC Fully Welded Removable Plate Heat Exchanger is designed for high-temperature and high-pressure conditions. Accessen describes it as a compact exchanger with strong thermal shock resistance that can complete cooling and condensation in one unit while reducing installation space and simplifying cleaning through a removable multi-side structure.",
+            "zh": "A-BLOC 全焊接六面可拆式换热器可用于高温、高压条件，其结构紧凑，耐热冲击性能突出，能够在同一台换热器内完成冷却和冷凝，并通过多面可拆结构提升拆卸和清洗便利性。"
+          },
+          "industries": [
+            "2",
+            "4",
+            "6",
+            "9"
+          ],
+          "advantage": {
+            "en": [
+              "True counter-current efficient heat exchange",
+              "Compact structure",
+              "Small footprint and lightweight",
+              "Flexible expansion to resist thermal stress",
+              "Removable multi-side design",
+              "High-pressure water jet cleaning"
+            ],
+            "zh": [
+              "纯逆流高效换热",
+              "结构紧凑",
+              "占地小、重量轻",
+              "自由伸缩抗热应力",
+              "六面可以拆卸",
+              "支持高压水枪清洗"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Maximum processing capacity": "1500m³/h",
+              "Maximum design pressure": "40bar",
+              "Maximum temperature resistance": "350℃",
+              "Plate material": "AISI304, 316, 254, Ti"
+            },
+            "zh": {
+              "最大处理量": "1500m3/h",
+              "最大设计压力": "40bar",
+              "最大耐温": "350℃",
+              "板片材质": "AISI 304、316、254、Ti"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "Why is A-BLOC suited to severe process duty?",
+                "content": "Accessen positions A-BLOC for high-temperature and high-pressure service, highlighting compact structure, thermal shock resistance, and the ability to combine cooling and condensation in one unit."
+              },
+              {
+                "title": "How is maintenance simplified?",
+                "content": "The welded plate pack is installed in a removable structure that allows disassembly and mechanical cleaning, including high-pressure water jet cleaning, while helping maintain heat transfer efficiency."
+              }
+            ],
+            "zh": [
+              {
+                "title": "A-BLOC 为什么适合高温高压工况？",
+                "content": "官网说明该产品适用于高温高压条件，兼具结构紧凑、耐热冲击和可在同一设备内完成冷却与冷凝等特点。"
+              },
+              {
+                "title": "它如何方便维护和清洗？",
+                "content": "产品采用可拆式结构，便于拆卸和机械清洗，并可使用高压水枪清洗，以维持换热效率并降低运行维护难度。"
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "A-BLOC Fully Welded Removable Plate Heat Exchanger",
+              "meta_description": "Compact removable welded plate heat exchanger for high-temperature and high-pressure industrial applications with efficient counter-current heat transfer."
+            },
+            "zh": {
+              "meta_title": "A-BLOC全焊接六面可拆式换热器",
+              "meta_description": "适用于高温高压工业工况的全焊可拆式板式换热器，兼具结构紧凑、高效换热和便于清洗维护等优势。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "a_bloc_fully_welded_removable_plate_heat_exchanger.png",
+            "alt_text": "A-BLOC Fully Welded Removable Plate Heat Exchanger"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 6,
+          "slug": "au-an-as-ap-ac-series-gasketed-plate-heat-exchanger-i",
+          "is_visible": true,
+          "name": {
+            "en": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I",
+            "zh": "AU,AN,AS,AP,AC工业可拆垫片式换热器-I"
+          },
+          "short_description": {
+            "en": "Industrial gasketed plate heat exchanger with configurable plate patterns, high heat transfer efficiency, and easy maintenance.",
+            "zh": "适用于工业场景的可拆垫片式板式换热器，兼具高效换热、灵活配置和便于维护的特点。"
+          },
+          "full_description": {
+            "en": "The AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I is designed for industrial applications where high heat transfer efficiency, cost-effectiveness, safety, reliability, and ease of maintenance are required. Accessen states that the series uses glue-free clip-on gaskets and multiple specialized plate patterns to cover a wide range of capacities, fluid qualities, and operating temperatures.",
+            "zh": "AU,AN,AS,AP,AC 工业可拆垫片式换热器-I 面向众多工业应用场景，可在兼顾高传热系数的同时提供较好的经济性、安全性、可靠性以及拆洗维护便利性。官网说明该系列采用免粘卡扣式垫片和多种专业板型，以覆盖不同处理量、水质和温度条件下的工业应用需求。"
+          },
+          "industries": [
+            "2",
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "advantage": {
+            "en": [
+              "Improved flow distribution area",
+              "Glue-free clip-on sealing gaskets",
+              "Optimized plate size and angle combinations",
+              "More optional accessories",
+              "Reduced fouling accumulation areas",
+              "Strong turbulence for enhanced heat transfer",
+              "Self-locking plate corners",
+              "Leak-proof roof-type gasket design"
+            ],
+            "zh": [
+              "改进后的导流区使流体分配更均匀",
+              "免粘卡扣式密封垫片",
+              "板片大小与角度组合更充分利用压降",
+              "附件选择更多",
+              "消除污垢堆积区",
+              "波纹与流道设计强化湍流与换热系数",
+              "板片四角自锁装置保证不错位",
+              "标准屋顶垫片与防漏设计延长垫片寿命"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Maximum processing capacity": "5000m³/h",
+              "Maximum design pressure": "25bar",
+              "Maximum heat transfer": "80MW",
+              "Temperature": "Minimum temperature difference: 0.5-1℃, Maximum temperature resistance: 200℃",
+              "Plate material": "AISI 304, 316, 316L, TI, SMO254..."
+            },
+            "zh": {
+              "最大处理量": "5000m³/h",
+              "最大设计压力": "25bar",
+              "最大换热量": "80MW",
+              "温度": "最小温差：0.5-1℃ 最大耐温：200℃",
+              "板片材质": "AISI 304、316、316L、TI、254SMO..."
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "What makes this industrial gasketed series flexible?",
+                "content": "Accessen highlights the use of multiple plate angles, groove depths, and aspect ratios within the same port size so the exchanger can be adapted to different industrial duties and operating conditions."
+              },
+              {
+                "title": "How does it support easier maintenance?",
+                "content": "The design uses glue-free clip-on gaskets, improved flow distribution, and plate corner alignment features to simplify servicing and help reduce fouling-related downtime."
+              }
+            ],
+            "zh": [
+              {
+                "title": "这款工业可拆式板换的灵活性体现在哪里？",
+                "content": "官网说明该系列可通过板片大小、角度、沟槽深度和同口径下不同长宽比的组合，适配不同工业工况和换热需求。"
+              },
+              {
+                "title": "它为什么更便于维护？",
+                "content": "产品采用免粘卡扣式垫片、改进导流区和板片四角自锁装置，有助于减少污垢堆积并提升拆装与维护便利性。"
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I",
+              "meta_description": "Industrial gasketed plate heat exchanger with configurable plate geometry, glue-free gaskets, and high heat transfer efficiency for demanding process applications."
+            },
+            "zh": {
+              "meta_title": "AU,AN,AS,AP,AC工业可拆垫片式换热器-I",
+              "meta_description": "适用于多种工业工况的可拆垫片式板式换热器，具备高效换热、灵活配置和维护方便等特点。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "au_an_as_ap_ac_series_gasketed_plate_heat_exchanger_i.png",
+            "alt_text": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 7,
+          "slug": "awps-series-plate-shell-heat-exchanger-i",
+          "is_visible": true,
+          "name": {
+            "en": "AWPS Series Plate-Shell Heat Exchanger - I",
+            "zh": "AWPS全焊接板壳式换热器-I"
+          },
+          "short_description": {
+            "en": "High-temperature and high-pressure plate-shell heat exchanger for industrial applications as an efficient alternative to shell-and-tube equipment.",
+            "zh": "适用于工业高温高压工况、可作为传统管壳式设备高效替代方案的全焊接板壳式换热器。"
+          },
+          "full_description": {
+            "en": "The AWPS Series Plate-Shell Heat Exchanger - I is designed for high-temperature and high-pressure industrial applications. Accessen describes it as combining the heat transfer characteristics of gasketed plate exchangers with the pressure and temperature resistance associated with shell-and-tube equipment, while retaining a removable structure for cleaning.",
+            "zh": "AWPS 全焊接板壳式换热器-I 是一种适用于工业高温高压工况的新型高效换热器。官网说明其结合了可拆式板式换热器的传热特性和管壳式设备的耐温耐压能力，并保留可拆洗结构，以实现较低运行费用和更方便的维护。"
+          },
+          "industries": [
+            "2",
+            "4",
+            "6",
+            "9"
+          ],
+          "advantage": {
+            "en": [
+              "Retains heat transfer characteristics of gasketed exchangers",
+              "Low fouling coefficient",
+              "High temperature resistance",
+              "High pressure resistance",
+              "Removable for cleaning with no gasket aging"
+            ],
+            "zh": [
+              "保留了可拆式换热器的传热特性",
+              "污垢系数低",
+              "耐高温",
+              "耐高压",
+              "可拆洗且无垫片老化，运行费用低"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Maximum design pressure": "80bar",
+              "Maximum temperature resistance": "500℃",
+              "Plate material": "AISI304L, 316L, Titanium, Hastelloy, SMO254..."
+            },
+            "zh": {
+              "最大设计压力": "80bar",
+              "最大耐温": "500℃",
+              "板片材质": "AISI 304L、316L、Titanium、Hastelloy、254SMO..."
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "How does AWPS differ from conventional shell-and-tube equipment?",
+                "content": "Accessen positions AWPS as a high-efficiency alternative that combines plate-type heat transfer performance with stronger pressure and temperature resistance, helping replace shell-and-tube exchangers in demanding industrial service."
+              },
+              {
+                "title": "What maintenance benefit is highlighted?",
+                "content": "The product is described as removable for cleaning and avoids gasket aging, which helps lower operating costs over time."
+              }
+            ],
+            "zh": [
+              {
+                "title": "AWPS 相比传统管壳式设备的优势是什么？",
+                "content": "官网将 AWPS 定位为兼具板式高效换热和管壳式耐高温高压能力的替代方案，可在苛刻工业工况下有效替代传统管壳式换热器。"
+              },
+              {
+                "title": "它在维护方面有什么优势？",
+                "content": "产品可拆洗，且不存在垫片老化问题，有助于降低长期运行维护成本。"
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "AWPS Series Plate-Shell Heat Exchanger - I",
+              "meta_description": "Industrial plate-shell heat exchanger for high-temperature and high-pressure service, combining strong thermal performance with removable cleaning access."
+            },
+            "zh": {
+              "meta_title": "AWPS全焊接板壳式换热器-I",
+              "meta_description": "适用于高温高压工业工况的全焊接板壳式换热器，兼具高效换热、耐压耐温和便于清洗维护等特点。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "awps_series_plate_shell_heat_exchanger_i.png",
+            "alt_text": "AWPS Series Plate-Shell Heat Exchanger - I"
+          }
+        ]
+      }
+    ]
+  }
+]

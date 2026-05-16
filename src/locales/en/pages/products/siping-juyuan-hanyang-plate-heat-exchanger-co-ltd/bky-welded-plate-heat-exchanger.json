@@ -1,0 +1,37 @@
+{
+  "slug": "bky-welded-plate-heat-exchanger",
+  "name": "BKY Welded Plate Heat Exchanger",
+  "full_description": "The official BKY product page describes this model as a patented welded plate heat exchanger product from Juyuan Hanyang. It uses a plate-frame style welded structure, combines advanced international heat transfer technology, and is intended for compact, high-efficiency heat transfer service under demanding media conditions.",
+  "industries": [],
+  "advantage": [
+    "High heat transfer coefficient and low resistance loss.",
+    "Strong adaptability to working conditions and flexible process combinations.",
+    "Better cleanability than brazed plate heat exchangers.",
+    "Strong temperature and pressure resistance for special media.",
+    "Smaller footprint."
+  ],
+  "technical_parameters": {
+    "Plate Material": "TP304, TP316L, TP304L, TP317L, 254SMO, Titanium, N6, S31803 (SAF2205), 904L",
+    "Plate Pair Gap": "4.0 mm / 4.5 mm / 8.0 mm / 12 mm",
+    "Design Pressure": "Up to 2.5 MPa",
+    "Plate Thickness": "0.8 mm",
+    "Maximum Heat Transfer Area": "Up to 350㎡"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "BKY Welded Plate Heat Exchanger",
+    "meta_description": "Patented BKY welded plate heat exchanger with compact structure, strong cleanability, and flexible process configuration."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "BKY Welded Plate Heat Exchanger View 2",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/bky_welded_plate_heat_exchanger_2.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}
