@@ -106,6 +106,14 @@ function getDocumentDisplayName(document: DocumentAsset): string {
     }
 }
 
+function normalizeFactoryArea(value?: string): string | null {
+    if (!value?.trim()) {
+        return null;
+    }
+
+    return value.replace(/\s*(m2|m²|㎡|平方米)$/iu, '').trim() || null;
+}
+
 export default function ManufacturerProfilePage() {
     const { slug } = useParams<{ slug: string }>();
     const location = useLocation();
@@ -142,6 +150,12 @@ export default function ManufacturerProfilePage() {
         export_experience: true,
     };
     const responseTimeLabel = t(`${SHARED_TK}.timely_response`);
+    const factoryAreaLabel = normalizeFactoryArea(basicInfo.factory_area)
+        ? t(`${SHARED_TK}.factory_area_summary`, { value: normalizeFactoryArea(basicInfo.factory_area) })
+        : null;
+    const employeeCountLabel = basicInfo.employee_count?.trim()
+        ? t(`${SHARED_TK}.employee_count_summary`, { value: basicInfo.employee_count.trim() })
+        : null;
 
     const description = mfgData.full_description;
     const advantages = mfgData.advantages || [];
@@ -223,12 +237,12 @@ export default function ManufacturerProfilePage() {
                                         )}
                                         {basicInfo?.factory_area && (
                                             <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
-                                                <Globe2 className="w-4 h-4 text-purple-400" /> {basicInfo.factory_area}
+                                                <Globe2 className="w-4 h-4 text-purple-400" /> {factoryAreaLabel}
                                             </div>
                                         )}
                                         {basicInfo?.employee_count && (
                                             <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
-                                                <Users className="w-4 h-4 text-orange-400" /> {basicInfo.employee_count}
+                                                <Users className="w-4 h-4 text-orange-400" /> {employeeCountLabel}
                                             </div>
                                         )}
                                     </div>
