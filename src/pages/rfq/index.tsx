@@ -14,6 +14,7 @@ import type { RFQSubmissionData } from "../../lib/supabase/db"
 import { getPathWithoutLanguage, useCurrentLanguage } from "../../utils/language-routing"
 import { QUOTE_REQUEST_SOURCE_URL_STORAGE_KEY } from "../../utils/rfq-routing/link"
 import manufacturersData from "../../data/manufacturers.json"
+import { resources } from "../../locales/resources"
 
 interface SourceManufacturer {
   slug: string;
@@ -23,12 +24,58 @@ interface SourceManufacturer {
   };
 }
 
+type LocaleCode = "en" | "zh";
+type LocalizedLabel = Record<LocaleCode, string>;
+type LocaleOption = { id: string; label: string };
+type RfqLocale = typeof resources.en.translation.pages.rfq;
+
+const LOCALE_CODES: LocaleCode[] = ["en", "zh"];
+
+function getRfqLocale(locale: LocaleCode): RfqLocale {
+  return resources[locale].translation.pages.rfq;
+}
+
+function getRfqParameterLabel(key: keyof RfqLocale["parameterLabels"]): LocalizedLabel {
+  return {
+    en: getRfqLocale("en").parameterLabels[key],
+    zh: getRfqLocale("zh").parameterLabels[key],
+  };
+}
+
+function sameLocalizedLabel(value: string): LocalizedLabel {
+  return { en: value, zh: value };
+}
+
+function getLocalizedOptionLabels(collection: "fluidTypes" | "plateMaterials" | "flangeStandards") {
+  const optionLabels: Record<string, LocalizedLabel> = {};
+
+  LOCALE_CODES.forEach((locale) => {
+    (getRfqLocale(locale)[collection] as LocaleOption[]).forEach((option) => {
+      optionLabels[option.id] = {
+        ...(optionLabels[option.id] || sameLocalizedLabel(option.id)),
+        [locale]: option.label,
+      };
+    });
+  });
+
+  return optionLabels;
+}
+
+function scrollToTop() {
+  if (typeof window === "undefined") return;
+
+  window.setTimeout(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, 0);
+}
+
 function normalizeRfqSourcePath(value: string | null) {
   if (!value) return null;
 
   try {
     const path = new URL(value, "https://local.invalid").pathname || "/";
-    return getPathWithoutLanguage(path) === "/quote-request" ? null : path;
+    const stripped = getPathWithoutLanguage(path);
+    return stripped === "/quote-request" ? null : stripped;
   } catch {
     return null;
   }
@@ -67,6 +114,27 @@ export default function SmartRfqBuilder() {
     return selectedValue === "other" ? customValue.trim() : selectedValue;
   }
 
+  const parameterValue = (value: string, label: LocalizedLabel, unit: string | null = null) => ({
+    label,
+    value: value.trim() || null,
+    unit,
+  });
+  const fluidTypeLabels = getLocalizedOptionLabels("fluidTypes");
+  const materialLabels = getLocalizedOptionLabels("plateMaterials");
+  const flangeStandardLabels = getLocalizedOptionLabels("flangeStandards");
+  const optionParameter = (value: string, customValue: string, label: LocalizedLabel, options: Record<string, LocalizedLabel>) => {
+    const resolvedValue = resolveCustomSelectValue(value, customValue);
+    return {
+      label,
+      value: resolvedValue || null,
+      optionId: value || null,
+      optionLabel: value === "other" && customValue.trim()
+        ? sameLocalizedLabel(customValue.trim())
+        : value ? options[value] || sameLocalizedLabel(value) : null,
+      unit: null,
+    };
+  };
+
   // Form Data
   const [contextData, setContextData] = useState<RqfContextData>({
     firstName: "",
@@ -84,6 +152,8 @@ export default function SmartRfqBuilder() {
     hotOutletFluidType: "",
     hotInletMassFlow: "",
     hotOutletMassFlow: "",
+    hotInletVolumeFlow: "",
+    hotOutletVolumeFlow: "",
     hotInletGasPhaseFraction: "",
     hotOutletGasPhaseFraction: "",
     hotIn: "",
@@ -101,6 +171,8 @@ export default function SmartRfqBuilder() {
     coldOutletFluidType: "",
     coldInletMassFlow: "",
     coldOutletMassFlow: "",
+    coldInletVolumeFlow: "",
+    coldOutletVolumeFlow: "",
     coldInletGasPhaseFraction: "",
     coldOutletGasPhaseFraction: "",
     coldIn: "",
@@ -116,14 +188,27 @@ export default function SmartRfqBuilder() {
     heatLoad: "",
     plateMaterial: "",
     customPlateMaterial: "",
-    designPressure: "",
-    testPressure: "",
+    designCode: "",
+    hotDesignPressure: "",
+    hotTestPressure: "",
+    coldDesignPressure: "",
+    coldTestPressure: "",
     hotDesignTemperature: "",
     coldDesignTemperature: "",
     hotFlangeStandard: "",
     customHotFlangeStandard: "",
     coldFlangeStandard: "",
     customColdFlangeStandard: "",
+    hotInletFlangeNominalDiameter: "",
+    hotOutletFlangeNominalDiameter: "",
+    coldInletFlangeNominalDiameter: "",
+    coldOutletFlangeNominalDiameter: "",
+    hotFlangeMaterial: "",
+    coldFlangeMaterial: "",
+    hotFlangePressureRating: "",
+    coldFlangePressureRating: "",
+    hotFlangeTypeSealingFace: "",
+    coldFlangeTypeSealingFace: "",
     additionalNotes: ""
   })
 
@@ -142,17 +227,34 @@ export default function SmartRfqBuilder() {
     contextData.industry !== "" &&
     (contextData.industry !== "other" || contextData.customIndustry.trim() !== "");
 
+  const hasSideMassFlow = (side: "hot" | "cold") => (
+    specsData[`${side}InletMassFlow` as keyof RfqProductSpecsData].trim() !== "" ||
+    specsData[`${side}OutletMassFlow` as keyof RfqProductSpecsData].trim() !== ""
+  );
+
+  const hasValidSideFluidTypes = (side: "hot" | "cold") => {
+    const inletFluidType = specsData[`${side}InletFluidType` as keyof RfqProductSpecsData];
+
+    return inletFluidType !== "";
+  };
+
+  const hasRequiredGasFraction = (side: "hot" | "cold") => {
+    const inletFluidType = specsData[`${side}InletFluidType` as keyof RfqProductSpecsData];
+    const outletFluidType = specsData[`${side}OutletFluidType` as keyof RfqProductSpecsData];
+    const inletGasPhaseFraction = specsData[`${side}InletGasPhaseFraction` as keyof RfqProductSpecsData];
+    const outletGasPhaseFraction = specsData[`${side}OutletGasPhaseFraction` as keyof RfqProductSpecsData];
+
+    return (!requiresGasPhaseFraction(inletFluidType) || inletGasPhaseFraction.trim() !== "") &&
+      (!requiresGasPhaseFraction(outletFluidType) || outletGasPhaseFraction.trim() !== "");
+  };
+
   const canProceedToStep3 =
-    specsData.hotInletFluidType !== "" &&
-    specsData.hotOutletFluidType !== "" &&
-    specsData.coldInletFluidType !== "" &&
-    specsData.coldOutletFluidType !== "" &&
-    (specsData.hotInletMassFlow.trim() !== "" || specsData.hotOutletMassFlow.trim() !== "") &&
-    (specsData.coldInletMassFlow.trim() !== "" || specsData.coldOutletMassFlow.trim() !== "") &&
-    (!requiresGasPhaseFraction(specsData.hotInletFluidType) || specsData.hotInletGasPhaseFraction.trim() !== "") &&
-    (!requiresGasPhaseFraction(specsData.hotOutletFluidType) || specsData.hotOutletGasPhaseFraction.trim() !== "") &&
-    (!requiresGasPhaseFraction(specsData.coldInletFluidType) || specsData.coldInletGasPhaseFraction.trim() !== "") &&
-    (!requiresGasPhaseFraction(specsData.coldOutletFluidType) || specsData.coldOutletGasPhaseFraction.trim() !== "") &&
+    hasValidSideFluidTypes("hot") &&
+    hasValidSideFluidTypes("cold") &&
+    hasSideMassFlow("hot") &&
+    hasSideMassFlow("cold") &&
+    hasRequiredGasFraction("hot") &&
+    hasRequiredGasFraction("cold") &&
     specsData.heatLoad.trim() !== "" &&
     specsData.plateMaterial !== "" &&
     (specsData.plateMaterial !== "other" || specsData.customPlateMaterial.trim() !== "") &&
@@ -161,19 +263,111 @@ export default function SmartRfqBuilder() {
     specsData.coldFlangeStandard !== "" &&
     (specsData.coldFlangeStandard !== "other" || specsData.customColdFlangeStandard.trim() !== "");
 
+  const getSpecValue = (field: keyof RfqProductSpecsData) => specsData[field] || "";
+  const getEndpointValue = (side: "hot" | "cold", endpoint: "inlet" | "outlet", suffix: string) => {
+    const field = `${side}${endpoint === "inlet" ? "Inlet" : "Outlet"}${suffix}` as keyof RfqProductSpecsData;
+    const value = getSpecValue(field);
+    if (endpoint === "inlet" || value.trim() !== "") return value;
+
+    const copyableSuffixes = ["FluidType", "MassFlow", "VolumeFlow", "GasPhaseFraction", "Density", "SpecificHeat", "Conductivity", "Viscosity"];
+    if (!copyableSuffixes.includes(suffix)) return value;
+
+    return getSpecValue(`${side}Inlet${suffix}` as keyof RfqProductSpecsData);
+  };
+
+  const buildEndpointPayload = (side: "hot" | "cold", endpoint: "inlet" | "outlet") => {
+    const tempField = `${side}${endpoint === "inlet" ? "In" : "Out"}` as keyof RfqProductSpecsData;
+    const inletTempField = `${side}In` as keyof RfqProductSpecsData;
+    const phaseValue = getEndpointValue(side, endpoint, "FluidType");
+    const temperatureValue = endpoint === "outlet" && !specsData[tempField].trim() ? specsData[inletTempField] : specsData[tempField];
+
+    return {
+      label: endpoint === "inlet" ? getRfqParameterLabel("inlet") : getRfqParameterLabel("outlet"),
+      fluidType: {
+        label: getRfqParameterLabel("fluidType"),
+        value: phaseValue || null,
+        optionLabel: phaseValue ? fluidTypeLabels[phaseValue] || sameLocalizedLabel(phaseValue) : null,
+        unit: null,
+      },
+      massFlow: parameterValue(getEndpointValue(side, endpoint, "MassFlow"), getRfqParameterLabel("massFlow"), "kg/h"),
+      volumeFlow: parameterValue(getEndpointValue(side, endpoint, "VolumeFlow"), getRfqParameterLabel("volumeFlow"), "m3/h"),
+      gasPhaseFraction: parameterValue(getEndpointValue(side, endpoint, "GasPhaseFraction"), getRfqParameterLabel("gasPhaseFraction"), null),
+      temperature: parameterValue(temperatureValue, getRfqParameterLabel("temperature"), "degC"),
+      density: parameterValue(getEndpointValue(side, endpoint, "Density"), getRfqParameterLabel("density"), "kg/m3"),
+      specificHeat: parameterValue(getEndpointValue(side, endpoint, "SpecificHeat"), getRfqParameterLabel("specificHeat"), "kJ/kg.degC"),
+      thermalConductivity: parameterValue(getEndpointValue(side, endpoint, "Conductivity"), getRfqParameterLabel("thermalConductivity"), "W/m.degC"),
+      dynamicViscosity: parameterValue(getEndpointValue(side, endpoint, "Viscosity"), getRfqParameterLabel("dynamicViscosity"), "cp"),
+    };
+  };
+
+  const buildThermalSidePayload = (side: "hot" | "cold") => ({
+    label: side === "hot" ? getRfqParameterLabel("hotSide") : getRfqParameterLabel("coldSide"),
+    mediaName: parameterValue(specsData[`${side}MediaName` as keyof RfqProductSpecsData], getRfqParameterLabel("mediaName"), null),
+    inlet: buildEndpointPayload(side, "inlet"),
+    outlet: buildEndpointPayload(side, "outlet"),
+  });
+
+  const buildEquipmentSidePayload = (side: "hot" | "cold") => ({
+    label: side === "hot" ? getRfqParameterLabel("hotSide") : getRfqParameterLabel("coldSide"),
+    mechanical: {
+      designPressure: parameterValue(specsData[`${side}DesignPressure` as keyof RfqProductSpecsData], getRfqParameterLabel("designPressure"), "MPa"),
+      testPressure: parameterValue(specsData[`${side}TestPressure` as keyof RfqProductSpecsData], getRfqParameterLabel("testPressure"), "MPa"),
+      designTemperature: parameterValue(specsData[`${side}DesignTemperature` as keyof RfqProductSpecsData], getRfqParameterLabel("designTemperature"), "degC"),
+      flangeStandard: optionParameter(
+        specsData[`${side}FlangeStandard` as keyof RfqProductSpecsData],
+        specsData[`custom${side === "hot" ? "Hot" : "Cold"}FlangeStandard` as keyof RfqProductSpecsData],
+        getRfqParameterLabel("flangeStandard"),
+        flangeStandardLabels
+      ),
+      flangeNominalDiameter: {
+        label: getRfqParameterLabel("flangeNominalDiameter"),
+        unit: "mm/DN",
+        inlet: parameterValue(specsData[`${side}InletFlangeNominalDiameter` as keyof RfqProductSpecsData], getRfqParameterLabel("inlet"), "mm/DN"),
+        outlet: parameterValue(specsData[`${side}OutletFlangeNominalDiameter` as keyof RfqProductSpecsData], getRfqParameterLabel("outlet"), "mm/DN"),
+      },
+      flangeMaterial: parameterValue(specsData[`${side}FlangeMaterial` as keyof RfqProductSpecsData], getRfqParameterLabel("flangeMaterial"), null),
+      flangePressureRating: parameterValue(specsData[`${side}FlangePressureRating` as keyof RfqProductSpecsData], getRfqParameterLabel("flangePressureRating"), null),
+      flangeTypeSealingFace: parameterValue(specsData[`${side}FlangeTypeSealingFace` as keyof RfqProductSpecsData], getRfqParameterLabel("flangeTypeSealingFace"), null),
+    },
+  });
+
+  const buildParametersPayload = (): RFQSubmissionData["parameters"] => ({
+    schemaVersion: "rfq_parameters_v2",
+    unitSystem: "metric",
+    languageLabels: ["en", "zh"],
+    thermal: {
+      label: getRfqParameterLabel("thermal"),
+      hot: buildThermalSidePayload("hot"),
+      cold: buildThermalSidePayload("cold"),
+      heatLoad: parameterValue(specsData.heatLoad, getRfqParameterLabel("heatLoad"), "kW"),
+    },
+    equipment: {
+      label: getRfqParameterLabel("equipment"),
+      hot: buildEquipmentSidePayload("hot"),
+      cold: buildEquipmentSidePayload("cold"),
+      designCode: parameterValue(specsData.designCode, getRfqParameterLabel("designCode"), null),
+      plateMaterial: optionParameter(specsData.plateMaterial, specsData.customPlateMaterial, getRfqParameterLabel("plateMaterial"), materialLabels),
+    },
+  });
+
+  const goToStep = (nextStep: number) => {
+    setStep(nextStep);
+    scrollToTop();
+  }
+
   const handleNext = () => {
     if (step === 1 && canProceedToStep2) {
-      setStep(2);
+      goToStep(2);
     } else if (step === 2 && canProceedToStep3) {
-      if (isVerified) setStep(4);
-      else setStep(3);
+      if (isVerified) goToStep(4);
+      else goToStep(3);
     } else if (step === 3 && isVerified) {
-      setStep(4);
+      goToStep(4);
     }
   }
 
   const handleBack = () => {
-    if (step > 1) setStep(s => s - 1);
+    if (step > 1) goToStep(step - 1);
   }
 
   const handleSubmit = async () => {
@@ -196,50 +390,7 @@ export default function SmartRfqBuilder() {
       is_stealth: isAnonymous,
       source_url: sourceUrl || null,
       is_targeting_source_manufacturer: Boolean(sourceManufacturer && isTargetingSourceManufacturer),
-      parameters: {
-        hotMediaName: specsData.hotMediaName,
-        hotInletFluidType: specsData.hotInletFluidType,
-        hotOutletFluidType: specsData.hotOutletFluidType,
-        hotInletMassFlow: specsData.hotInletMassFlow,
-        hotOutletMassFlow: specsData.hotOutletMassFlow,
-        hotInletGasPhaseFraction: specsData.hotInletGasPhaseFraction,
-        hotOutletGasPhaseFraction: specsData.hotOutletGasPhaseFraction,
-        hotIn: specsData.hotIn,
-        hotOut: specsData.hotOut,
-        hotInletDensity: specsData.hotInletDensity,
-        hotOutletDensity: specsData.hotOutletDensity,
-        hotInletSpecificHeat: specsData.hotInletSpecificHeat,
-        hotOutletSpecificHeat: specsData.hotOutletSpecificHeat,
-        hotInletConductivity: specsData.hotInletConductivity,
-        hotOutletConductivity: specsData.hotOutletConductivity,
-        hotInletViscosity: specsData.hotInletViscosity,
-        hotOutletViscosity: specsData.hotOutletViscosity,
-        coldMediaName: specsData.coldMediaName,
-        coldInletFluidType: specsData.coldInletFluidType,
-        coldOutletFluidType: specsData.coldOutletFluidType,
-        coldInletMassFlow: specsData.coldInletMassFlow,
-        coldOutletMassFlow: specsData.coldOutletMassFlow,
-        coldInletGasPhaseFraction: specsData.coldInletGasPhaseFraction,
-        coldOutletGasPhaseFraction: specsData.coldOutletGasPhaseFraction,
-        coldIn: specsData.coldIn,
-        coldOut: specsData.coldOut,
-        coldInletDensity: specsData.coldInletDensity,
-        coldOutletDensity: specsData.coldOutletDensity,
-        coldInletSpecificHeat: specsData.coldInletSpecificHeat,
-        coldOutletSpecificHeat: specsData.coldOutletSpecificHeat,
-        coldInletConductivity: specsData.coldInletConductivity,
-        coldOutletConductivity: specsData.coldOutletConductivity,
-        coldInletViscosity: specsData.coldInletViscosity,
-        coldOutletViscosity: specsData.coldOutletViscosity,
-        heatLoad: specsData.heatLoad,
-        plateMaterial: resolveCustomSelectValue(specsData.plateMaterial, specsData.customPlateMaterial),
-        designPressure: specsData.designPressure,
-        testPressure: specsData.testPressure,
-        hotDesignTemperature: specsData.hotDesignTemperature,
-        coldDesignTemperature: specsData.coldDesignTemperature,
-        hotFlangeStandard: resolveCustomSelectValue(specsData.hotFlangeStandard, specsData.customHotFlangeStandard),
-        coldFlangeStandard: resolveCustomSelectValue(specsData.coldFlangeStandard, specsData.customColdFlangeStandard),
-      }
+      parameters: buildParametersPayload()
     }
 
     try {
@@ -273,16 +424,16 @@ export default function SmartRfqBuilder() {
           </div>
         </div>
 
-        <div className="container mx-auto px-4 max-w-4xl pt-8">
+        <div className="container mx-auto px-4 max-w-6xl pt-8">
           <ProgressTracker currentStep={step} />
 
           <div className="mt-8">
 
             {step === 1 && (
               <section>
-                <div className="mb-6">
-                  <h2 className="text-2xl md:text-3xl font-bold text-slate-900">{t("step1.title")}</h2>
-                  <p className="text-slate-500 mt-2">{t("step1.subtitle")}</p>
+                <div className="mx-auto mb-6 max-w-2xl text-center">
+                  <h2 className="text-xl font-bold text-slate-900 md:text-3xl">{t("step1.title")}</h2>
+                  <p className="mt-2 text-sm text-slate-500 md:text-base">{t("step1.subtitle")}</p>
                 </div>
                 <ContextStep
                   data={contextData}
@@ -293,9 +444,9 @@ export default function SmartRfqBuilder() {
 
             {step === 2 && (
               <section>
-                <div className="mb-6">
-                  <h2 className="text-2xl md:text-3xl font-bold text-slate-900">{t("step2.title")}</h2>
-                  <p className="text-slate-500 mt-2">{t("step2.subtitle")}</p>
+                <div className="mx-auto mb-6 max-w-2xl text-center">
+                  <h2 className="text-xl font-bold text-slate-900 md:text-3xl">{t("step2.title")}</h2>
+                  <p className="mt-2 text-sm text-slate-500 md:text-base">{t("step2.subtitle")}</p>
                 </div>
                 <ProductAndSpecsStep
                   data={specsData}
@@ -306,19 +457,19 @@ export default function SmartRfqBuilder() {
 
             {step === 3 && (
               <section>
-                <div className="mb-6 text-center">
+                <div className="mx-auto mb-6 max-w-2xl text-center">
                   <h2 className="text-2xl md:text-3xl font-bold text-slate-900">{t("step3.title")}</h2>
-                  <p className="text-slate-500 mt-2">{t("step3.subtitle")}</p>
+                  <p className="mt-2 text-slate-500">{t("step3.subtitle")}</p>
                 </div>
 
                 <EmailVerificationStep
                   email={email}
                   setEmail={setEmail}
                   isVerified={isVerified}
-                  onNext={() => setStep(4)}
+                  onNext={() => goToStep(4)}
                   onVerify={() => {
                     setIsVerified(true);
-                    setStep(4);
+                    goToStep(4);
                   }}
                 />
               </section>
@@ -339,7 +490,7 @@ export default function SmartRfqBuilder() {
                   isTargetingSourceManufacturer={isTargetingSourceManufacturer}
                   onToggleAnonymous={() => setIsAnonymous(!isAnonymous)}
                   onToggleTargetingSourceManufacturer={() => setIsTargetingSourceManufacturer(!isTargetingSourceManufacturer)}
-                  onEditStep={(s) => setStep(s)}
+                  onEditStep={(s) => goToStep(s)}
                 />
 
                 <div className="mt-12 flex justify-center">

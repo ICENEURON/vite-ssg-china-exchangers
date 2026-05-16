@@ -6,8 +6,9 @@ import { getSupabaseClient } from './client'
  */
 export async function sendVerificationOTP(email: string) {
   const supabase = await getSupabaseClient()
+  const normalizedEmail = email.trim().toLowerCase()
   const { data, error } = await supabase.auth.signInWithOtp({
-    email,
+    email: normalizedEmail,
     options: {
       shouldCreateUser: true, // Automatically create the user if they don't exist
     }
@@ -26,9 +27,11 @@ export async function sendVerificationOTP(email: string) {
  */
 export async function verifyOTPCode(email: string, token: string) {
   const supabase = await getSupabaseClient()
+  const normalizedEmail = email.trim().toLowerCase()
+  const normalizedToken = token.trim()
   const { data, error } = await supabase.auth.verifyOtp({
-    email,
-    token,
+    email: normalizedEmail,
+    token: normalizedToken,
     type: 'email'
   })
 

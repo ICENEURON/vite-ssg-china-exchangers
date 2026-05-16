@@ -1,6 +1,6 @@
 import { getSupabaseClient } from './client'
 
-export type RFQParameters = Record<string, string>;
+export type RFQParameters = Record<string, unknown>;
 
 export interface RFQSubmissionData {
   first_name: string;
@@ -26,12 +26,14 @@ export async function submitRFQ(data: RFQSubmissionData) {
   const { data: { session } } = await supabase.auth.getSession();
   console.log("[submitRFQ] Current session:", session ? "Authenticated" : "Anonymous", session?.user?.email);
 
-  const { data: result, error } = await supabase
+  const { data: result, error, status, statusText } = await supabase
     .from('rfqs')
     .insert([data])
 
   if (error) {
     console.error("[submitRFQ] Supabase Error Details:", {
+      status,
+      statusText,
       message: error.message,
       details: error.details,
       hint: error.hint,
@@ -39,6 +41,12 @@ export async function submitRFQ(data: RFQSubmissionData) {
     });
     throw error
   }
+
+  console.log("[submitRFQ] Insert accepted:", {
+    status,
+    statusText,
+    hasResult: result != null,
+  });
 
   return result
 }

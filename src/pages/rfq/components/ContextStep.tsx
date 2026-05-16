@@ -1,4 +1,3 @@
-import { FieldSet, FieldLabel } from "../../../components/ui/field"
 import { Check } from "lucide-react"
 import { useTranslation } from "react-i18next"
 import rawCountries from "../../../data/countries.json"
@@ -29,8 +28,13 @@ const COUNTRIES = rawCountries
 export function ContextStep({ data, onChange }: ContextStepProps) {
     const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
     const industries = t("industries", { returnObjects: true }) as {id: string, label: string}[];
+    const inputClass = "h-9 w-full rounded-md border border-slate-200 bg-white px-3 py-1 text-xs ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 sm:h-10 sm:text-sm";
+    const requiredInputClass = inputClass;
+    const requiredInputStyle = undefined;
+    const labelClass = "mb-1.5 block text-[9px] font-bold tracking-wide text-slate-700 sm:text-[11px]";
+    const requiredLabelClass = "mb-1.5 block text-[9px] font-bold tracking-wide text-slate-700 sm:text-[11px]";
+    const requiredMark = <span className="ml-1 text-red-500">*</span>;
 
-    // Helper to render a selection group using simple grid of buttons
     const renderSelectionGroup = (
         label: string, 
         options: {id: string, label: string}[], 
@@ -40,9 +44,9 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
         customPlaceholder?: string,
         required?: boolean
     ) => (
-        <FieldSet className="mb-8">
-            <FieldLabel className="text-base font-bold text-slate-900 mb-4">{label}{required && <span className="text-red-500"> *</span>}</FieldLabel>
-            <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
+        <div>
+            <label className={required ? requiredLabelClass : labelClass}>{label}{required && requiredMark}</label>
+            <div className="grid grid-cols-2 gap-2 rounded-md md:grid-cols-3">
                 {options.map((option) => {
                     const isSelected = currentValue === option.id;
                     return (
@@ -50,16 +54,16 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                             key={option.id}
                             onClick={() => onChange({ [fieldKey]: option.id })}
                             className={`
-                                relative flex items-center justify-center text-center px-4 py-3 rounded-xl border transition-all duration-200 text-sm font-medium leading-tight
+                                relative flex min-h-9 items-center justify-center rounded-md border px-2 py-1.5 text-center text-[11px] font-semibold leading-tight transition-all duration-200 sm:min-h-10 sm:px-3 sm:py-2 sm:text-xs
                                 ${isSelected
-                                    ? 'border-primary bg-primary/10 text-primary shadow-sm ring-1 ring-primary/50'
+                                    ? 'border-primary bg-primary/10 text-primary shadow-sm ring-1 ring-primary/40'
                                     : 'border-slate-200 bg-white text-slate-600 hover:border-primary/40'
                                 }
                             `}
                         >
                             {isSelected && (
-                                <div className="absolute -top-1.5 -right-1.5 bg-primary text-white rounded-full p-0.5">
-                                    <Check className="w-3.5 h-3.5" />
+                                <div className="absolute -right-1 -top-1 rounded-full bg-primary p-0.5 text-white">
+                                    <Check className="h-3 w-3" />
                                 </div>
                             )}
                             {option.label}
@@ -69,66 +73,64 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
             </div>
             
             {customKey && currentValue === "other" && (
-                <div className="mt-4 animate-in fade-in slide-in-from-top-2">
+                <div className="mt-3 animate-in fade-in slide-in-from-top-2">
                     <input
                         type="text"
                         placeholder={customPlaceholder}
                         value={data[customKey] as string}
                         onChange={(e) => onChange({ [customKey]: e.target.value })}
-                        className="flex h-12 w-full rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                        className={(required && !(data[customKey] as string).trim()) ? requiredInputClass : inputClass}
+                        style={(required && !(data[customKey] as string).trim()) ? requiredInputStyle : undefined}
                     />
                 </div>
             )}
-        </FieldSet>
+        </div>
     )
 
     return (
-        <div className="space-y-2 animate-in fade-in slide-in-from-bottom-4">
-             <div className="bg-white border border-slate-200 rounded-3xl p-6 md:p-10 shadow-sm">
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                    <FieldSet>
-                        <FieldLabel className="text-base font-bold text-slate-900 mb-4">{t("step1.firstNameLabel")} <span className="text-red-500">*</span></FieldLabel>
+        <div className="animate-in fade-in slide-in-from-bottom-4">
+            <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
+                <div className="grid grid-cols-2 gap-3">
+                    <div>
+                        <label className={requiredLabelClass}>{t("step1.firstNameLabel")}{requiredMark}</label>
                         <input
                             type="text"
                             value={data.firstName}
                             onChange={(e) => onChange({ firstName: e.target.value })}
-                            placeholder={t("step1.firstNamePlaceholder")}
-                            className="flex h-12 w-full rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                            className={data.firstName.trim() ? inputClass : requiredInputClass}
+                            style={data.firstName.trim() ? undefined : requiredInputStyle}
                         />
-                    </FieldSet>
-                    <FieldSet>
-                        <FieldLabel className="text-base font-bold text-slate-900 mb-4">{t("step1.lastNameLabel")} <span className="text-red-500">*</span></FieldLabel>
+                    </div>
+                    <div>
+                        <label className={requiredLabelClass}>{t("step1.lastNameLabel")}{requiredMark}</label>
                         <input
                             type="text"
                             value={data.lastName}
                             onChange={(e) => onChange({ lastName: e.target.value })}
-                            placeholder={t("step1.lastNamePlaceholder")}
-                            className="flex h-12 w-full rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                            className={data.lastName.trim() ? inputClass : requiredInputClass}
+                            style={data.lastName.trim() ? undefined : requiredInputStyle}
                         />
-                    </FieldSet>
-                </div>
+                    </div>
 
-                <FieldSet className="mb-8">
-                    <FieldLabel className="text-base font-bold text-slate-900 mb-4">{t("step1.companyLabel")}</FieldLabel>
+                    <div className="col-span-2">
+                    <label className={labelClass}>{t("step1.companyLabel")}</label>
                     <input
                         type="text"
                         value={data.companyName}
                         onChange={(e) => onChange({ companyName: e.target.value })}
-                        placeholder={t("step1.companyPlaceholder")}
-                        className="flex h-12 w-full rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                        className={inputClass}
                     />
-                </FieldSet>
+                    </div>
 
-                <FieldSet className="mb-8">
-                    <FieldLabel className="text-base font-bold text-slate-900 mb-4">{t("step1.countryLabel")} <span className="text-red-500">*</span></FieldLabel>
+                    <div className="col-span-2">
+                    <label className={requiredLabelClass}>{t("step1.countryLabel")}{requiredMark}</label>
                     <div className="relative">
                         <select
                             value={data.country}
                             onChange={(e) => onChange({ country: e.target.value })}
                             className={`
-                                flex h-12 w-full rounded-xl border bg-white px-4 py-2 text-sm ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10 appearance-none
-                                ${data.country ? 'border-primary/50 ring-1 ring-primary/30 text-slate-900' : 'border-slate-200 text-slate-500'}
+                                h-9 w-full appearance-none rounded-md border border-slate-200 bg-white px-3 py-1 text-xs ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 sm:h-10 sm:text-sm
+                                ${data.country ? 'text-slate-900' : 'text-slate-500'}
                             `}
                         >
                             <option value="" disabled>{t("step1.countryPlaceholder")}</option>
@@ -142,9 +144,12 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                             </svg>
                         </div>
                     </div>
-                </FieldSet>
+                    </div>
 
-                {renderSelectionGroup(t("step1.industryLabel"), industries, data.industry, "industry", "customIndustry", t("step1.customIndustryPlaceholder"), true)}
+                    <div className="col-span-2">
+                        {renderSelectionGroup(t("step1.industryLabel"), industries, data.industry, "industry", "customIndustry", t("step1.customIndustryPlaceholder"), true)}
+                    </div>
+                </div>
              </div>
         </div>
     )

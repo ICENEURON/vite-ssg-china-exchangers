@@ -13,7 +13,8 @@ function normalizeRfqSourcePath(value: string | null) {
 
     try {
         const path = new URL(value, "https://local.invalid").pathname || "/";
-        return getPathWithoutLanguage(path) === "/quote-request" ? null : path;
+        const stripped = getPathWithoutLanguage(path);
+        return stripped === "/quote-request" ? null : stripped;
     } catch {
         return null;
     }
@@ -27,7 +28,9 @@ function getCurrentSourcePath(pathname: string, search: string) {
         return currentSource || storedSource || "/";
     }
 
-    return normalizeRfqSourcePath(pathname) || "/";
+    // Strip language prefix so SSR (built per /, /zh, etc.) and client hydration
+    // agree on the same canonical source path.
+    return normalizeRfqSourcePath(getPathWithoutLanguage(pathname)) || "/";
 }
 
 function buildRfqPath(pathname: string, search: string, currentLanguage: Language) {

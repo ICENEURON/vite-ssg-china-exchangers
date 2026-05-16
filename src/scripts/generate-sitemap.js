@@ -18,9 +18,6 @@ const outputPaths = [
 
 const siteUrl = (env.VITE_SITE_URL || process.env.VITE_SITE_URL || 'https://heatexdirect.com').replace(/\/$/, '');
 const siteName = env.VITE_SITE_TITLE || process.env.VITE_SITE_TITLE || 'HeatEx Direct';
-const siteOrigin = new URL(siteUrl).origin;
-const siteHost = new URL(siteUrl).hostname.toLowerCase();
-const escapedSiteHost = siteHost.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const supportedLanguages = ['en', 'zh'];
 const countriesByCode = new Map(readJson(countriesPath).map((country) => [country.id, country]));
 const localeJsonCache = new Map();
@@ -48,8 +45,7 @@ function writeText(filePath, content) {
 function renderTemplate(content) {
   return content
     .replace(/__SITE_URL__/g, siteUrl)
-    .replace(/__SITE_ORIGIN__/g, siteOrigin)
-    .replace(/__SITE_HOST_REGEX__/g, escapedSiteHost);
+    ;
 }
 
 function getLocaleJson(language, ...segments) {

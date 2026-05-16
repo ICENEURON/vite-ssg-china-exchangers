@@ -1,4 +1,4 @@
-import { Check } from "lucide-react"
+import type { ChangeEvent } from "react"
 import { useTranslation } from "react-i18next"
 
 export interface RfqProductSpecsData {
@@ -7,6 +7,8 @@ export interface RfqProductSpecsData {
     hotOutletFluidType: string;
     hotInletMassFlow: string;
     hotOutletMassFlow: string;
+    hotInletVolumeFlow: string;
+    hotOutletVolumeFlow: string;
     hotInletGasPhaseFraction: string;
     hotOutletGasPhaseFraction: string;
     hotIn: string;
@@ -24,6 +26,8 @@ export interface RfqProductSpecsData {
     coldOutletFluidType: string;
     coldInletMassFlow: string;
     coldOutletMassFlow: string;
+    coldInletVolumeFlow: string;
+    coldOutletVolumeFlow: string;
     coldInletGasPhaseFraction: string;
     coldOutletGasPhaseFraction: string;
     coldIn: string;
@@ -39,14 +43,27 @@ export interface RfqProductSpecsData {
     heatLoad: string;
     plateMaterial: string;
     customPlateMaterial: string;
-    designPressure: string;
-    testPressure: string;
+    designCode: string;
+    hotDesignPressure: string;
+    hotTestPressure: string;
+    coldDesignPressure: string;
+    coldTestPressure: string;
     hotDesignTemperature: string;
     coldDesignTemperature: string;
     hotFlangeStandard: string;
     customHotFlangeStandard: string;
     coldFlangeStandard: string;
     customColdFlangeStandard: string;
+    hotInletFlangeNominalDiameter: string;
+    hotOutletFlangeNominalDiameter: string;
+    coldInletFlangeNominalDiameter: string;
+    coldOutletFlangeNominalDiameter: string;
+    hotFlangeMaterial: string;
+    coldFlangeMaterial: string;
+    hotFlangePressureRating: string;
+    coldFlangePressureRating: string;
+    hotFlangeTypeSealingFace: string;
+    coldFlangeTypeSealingFace: string;
     additionalNotes: string;
 }
 
@@ -65,46 +82,134 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
     const fluidTypes = t("fluidTypes", { returnObjects: true }) as Option[];
     const plateMaterials = t("plateMaterials", { returnObjects: true }) as Option[];
     const flangeStandards = t("flangeStandards", { returnObjects: true }) as Option[];
-    
-    // Basic anti-injection to prevent basic script tags or SQL patterns, plus a 500-char limit
+
     const MAX_NOTES_LENGTH = 500;
-    const handleNotesChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
-        let value = e.target.value;
+    const isGasLiquid = (fluidType: string) => fluidType === "gas_liquid";
+
+    const inputClass = "h-9 w-full rounded-md border border-slate-200 bg-white px-2 py-1 text-[11px] ring-offset-background transition-all [appearance:textfield] focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 sm:h-10 sm:text-xs [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+    const invalidInputClass = ""
+    const disabledInputClass = `${inputClass} cursor-not-allowed !border-slate-200 !bg-slate-100 text-slate-400 ring-0`
+    const selectClass = `${inputClass} appearance-none px-2 pr-7 text-[10px] sm:px-3 sm:pr-8 sm:text-[11px]`
+    const compactLabelClass = "text-[9px] font-semibold text-slate-600 leading-tight sm:text-[10px]"
+    const requiredLabelClass = "text-[9px] font-semibold leading-tight text-slate-700 sm:text-[10px]"
+    const sectionLabelClass = "text-[10px] font-bold tracking-wide text-slate-800 sm:text-[11px]"
+    const invalidInputStyle: React.CSSProperties | undefined = undefined;
+    const disabledInputStyle = { backgroundColor: "#f1f5f9", borderColor: "#e2e8f0" };
+
+    const requiredBadge = <span className="ml-1 text-sm font-black leading-none text-red-500">*</span>
+
+    const selectChevron = (
+        <svg
+            aria-hidden="true"
+            className="pointer-events-none absolute right-1.5 top-1/2 h-3 w-3 -translate-y-1/2 text-slate-400 sm:right-2 sm:h-3.5 sm:w-3.5"
+            viewBox="0 0 20 20"
+            fill="none"
+            stroke="currentColor"
+        >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 8l4 4 4-4" />
+        </svg>
+    )
+
+    const handleNotesChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
+        let value = event.target.value;
         if (value.length > MAX_NOTES_LENGTH) return;
-        
-        // Strip out basic angle brackets to prevent obvious HTML/Script injection
+
         value = value.replace(/[<>]/g, "");
         onChange({ additionalNotes: value });
     }
 
-    const updateField = (field: keyof RfqProductSpecsData, value: string) => {
-        onChange({ [field]: value } as Partial<RfqProductSpecsData>);
+    const mirrorOutlet = (field: keyof RfqProductSpecsData, value: string) => {
+        const fieldName = String(field);
+        const side = fieldName.startsWith("hot") ? "hot" : fieldName.startsWith("cold") ? "cold" : null;
+        if (!side) return {};
+
+        if (fieldName === `${side}In`) return { [`${side}Out`]: value };
+
+        const mirroredFields = [
+            "FluidType",
+            "MassFlow",
+            "VolumeFlow",
+            "GasPhaseFraction",
+            "Density",
+            "SpecificHeat",
+            "Conductivity",
+            "Viscosity",
+            "FlangeNominalDiameter",
+        ];
+        const mirroredSuffix = mirroredFields.find((suffix) => fieldName === `${side}Inlet${suffix}`);
+
+        return mirroredSuffix ? { [`${side}Outlet${mirroredSuffix}`]: value } : {};
     }
 
-    const isGasLiquid = (fluidType: string) => fluidType === "gas_liquid";
+    const updateField = (field: keyof RfqProductSpecsData, value: string) => {
+        const fieldName = String(field);
+        const side = fieldName.startsWith("hot") ? "hot" : fieldName.startsWith("cold") ? "cold" : null;
+        const gasFractionReset = side && fieldName.endsWith("FluidType") && !isGasLiquid(value)
+            ? fieldName.includes("Inlet")
+                ? {
+                    [`${side}InletGasPhaseFraction`]: "",
+                    [`${side}OutletGasPhaseFraction`]: "",
+                }
+                : { [`${side}OutletGasPhaseFraction`]: "" }
+            : {};
 
-    const inputClass = "flex h-11 w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
-    const selectClass = `${inputClass} pr-10`
-    const sideLabelClass = "text-xs font-semibold text-slate-700 leading-none mb-2 block uppercase tracking-wider"
+        onChange({ [field]: value, ...mirrorOutlet(field, value), ...gasFractionReset } as Partial<RfqProductSpecsData>);
+    }
+
+    const renderInput = (field: keyof RfqProductSpecsData, placeholder = "", type: "text" = "text", disabled = false, invalid = false) => (
+        <input
+            type={type}
+            className={disabled ? disabledInputClass : `${inputClass} ${invalid ? invalidInputClass : ""}`}
+            style={disabled ? disabledInputStyle : invalid ? invalidInputStyle : undefined}
+            value={data[field] || ""}
+            placeholder={placeholder}
+            disabled={disabled}
+            onChange={(event) => updateField(field, event.target.value)}
+        />
+    )
+
+    const renderRow = ({
+        label,
+        inletField,
+        outletField,
+        placeholder,
+        type = "text",
+        required = false,
+        inletDisabled = false,
+        outletDisabled = false,
+    }: {
+        label: string;
+        inletField: keyof RfqProductSpecsData;
+        outletField: keyof RfqProductSpecsData;
+        placeholder?: string;
+        type?: "text";
+        required?: boolean;
+        inletDisabled?: boolean;
+        outletDisabled?: boolean;
+    }) => (
+        <div className="grid grid-cols-[minmax(48px,0.58fr)_minmax(0,1.2fr)_minmax(0,1.2fr)] items-center gap-2">
+            <div className={required ? requiredLabelClass : compactLabelClass}>{label}{required && requiredBadge}</div>
+            <div>{renderInput(inletField, placeholder, type, inletDisabled, required && !(data[inletField] || data[outletField]))}</div>
+            <div>{renderInput(outletField, placeholder, type, outletDisabled, required && !(data[inletField] || data[outletField]))}</div>
+        </div>
+    )
 
     const renderSideThermalSection = ({
         side,
         title,
         accentClass,
-        borderClass,
-        mediaPlaceholder,
     }: {
         side: "hot" | "cold";
         title: string;
         accentClass: string;
-        borderClass: string;
-        mediaPlaceholder: string;
     }) => {
         const mediaNameField = `${side}MediaName` as keyof RfqProductSpecsData;
         const inletFluidTypeField = `${side}InletFluidType` as keyof RfqProductSpecsData;
         const outletFluidTypeField = `${side}OutletFluidType` as keyof RfqProductSpecsData;
         const inletMassFlowField = `${side}InletMassFlow` as keyof RfqProductSpecsData;
         const outletMassFlowField = `${side}OutletMassFlow` as keyof RfqProductSpecsData;
+        const inletVolumeFlowField = `${side}InletVolumeFlow` as keyof RfqProductSpecsData;
+        const outletVolumeFlowField = `${side}OutletVolumeFlow` as keyof RfqProductSpecsData;
         const inletGasPhaseFractionField = `${side}InletGasPhaseFraction` as keyof RfqProductSpecsData;
         const outletGasPhaseFractionField = `${side}OutletGasPhaseFraction` as keyof RfqProductSpecsData;
         const inletField = `${side}In` as keyof RfqProductSpecsData;
@@ -119,254 +224,84 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
         const outletViscosityField = `${side}OutletViscosity` as keyof RfqProductSpecsData;
         const inletFluidTypeValue = data[inletFluidTypeField] || "";
         const outletFluidTypeValue = data[outletFluidTypeField] || "";
+        const inletGasPhaseFractionRequired = isGasLiquid(inletFluidTypeValue);
+        const outletGasPhaseFractionRequired = isGasLiquid(outletFluidTypeValue);
+        const sideFrameClass = side === "hot" ? "border-orange-300 bg-orange-50/20" : "border-blue-300 bg-blue-50/20";
 
         return (
-            <div className={`space-y-6 ${side === "cold" ? `lg:border-l lg:pl-8 ${borderClass}` : ""}`}>
-                <div className={`flex items-center gap-3 border-b ${borderClass} pb-3`}>
-                    <span className={`text-sm font-bold uppercase tracking-widest ${accentClass}`}>{title}</span>
+            <div className={`min-w-0 space-y-3 rounded-lg border-2 p-3 shadow-sm ${sideFrameClass}`}>
+                <div className="border-b border-slate-100 pb-2">
+                    <span className={`text-xs font-bold tracking-wide ${accentClass}`}>{title}</span>
                 </div>
 
-                <div className="space-y-4">
-                    <div>
-                        <label className={sideLabelClass}>{t("step2.mediaNameLabel")}</label>
-                        <input
-                            className={inputClass}
-                            placeholder={mediaPlaceholder}
-                            value={data[mediaNameField] || ""}
-                            onChange={(e) => updateField(mediaNameField, e.target.value)}
-                        />
+                <div>
+                    <label className={compactLabelClass}>{t("step2.mediaNameLabel")}</label>
+                    <input
+                        className={inputClass}
+                        value={data[mediaNameField] || ""}
+                        onChange={(event) => updateField(mediaNameField, event.target.value)}
+                    />
+                </div>
+
+                <div className="space-y-2 rounded-md bg-slate-50 p-2">
+                    <div className="grid grid-cols-[minmax(48px,0.58fr)_minmax(0,1.2fr)_minmax(0,1.2fr)] items-end gap-2">
+                        <div className={requiredLabelClass}>{t("step2.fluidTypeLabel")}{requiredBadge}</div>
+                        <div className={compactLabelClass}>{t("step2.inletPropertyLabel")}</div>
+                        <div className={compactLabelClass}>{t("step2.outletPropertyLabel")}</div>
                     </div>
-
-                    <div>
-                        <label className={sideLabelClass}>{t("step2.fluidTypeLabel")} <span className="text-red-500">*</span></label>
-                        <div className="grid grid-cols-2 gap-3">
-                            <div>
-                                <label className={`${sideLabelClass} text-[11px] mb-1`}>{t("step2.inletFluidTypeLabel")}</label>
-                                <select
-                                    className={selectClass}
-                                    value={inletFluidTypeValue}
-                                    onChange={(e) => updateField(inletFluidTypeField, e.target.value)}
-                                >
-                                    <option value="">{t("step2.fluidTypePlaceholder")}</option>
-                                    {fluidTypes.map((option) => (
-                                        <option key={option.id} value={option.id}>{option.label}</option>
-                                    ))}
-                                </select>
-                            </div>
-                            <div>
-                                <label className={`${sideLabelClass} text-[11px] mb-1`}>{t("step2.outletFluidTypeLabel")}</label>
-                                <select
-                                    className={selectClass}
-                                    value={outletFluidTypeValue}
-                                    onChange={(e) => updateField(outletFluidTypeField, e.target.value)}
-                                >
-                                    <option value="">{t("step2.fluidTypePlaceholder")}</option>
-                                    {fluidTypes.map((option) => (
-                                        <option key={option.id} value={option.id}>{option.label}</option>
-                                    ))}
-                                </select>
-                            </div>
+                    <div className="grid grid-cols-[minmax(48px,0.58fr)_minmax(0,1.2fr)_minmax(0,1.2fr)] items-center gap-2">
+                        <div />
+                        <div className="relative">
+                            <select
+                                className={selectClass}
+                                value={inletFluidTypeValue}
+                                onChange={(event) => updateField(inletFluidTypeField, event.target.value)}
+                            >
+                                <option value="">{t("step2.fluidTypePlaceholder")}</option>
+                                {fluidTypes.map((option) => (
+                                    <option key={option.id} value={option.id}>{option.label}</option>
+                                ))}
+                            </select>
+                            {selectChevron}
                         </div>
-                    </div>
-
-                    {(isGasLiquid(inletFluidTypeValue) || isGasLiquid(outletFluidTypeValue)) && (
-                        <div className="animate-in fade-in slide-in-from-top-2">
-                            <label className={sideLabelClass}>{t("step2.gasPhaseFractionLabel")} <span className="text-red-500">*</span></label>
-                            <div className="grid grid-cols-2 gap-3">
-                                <div>
-                                    {isGasLiquid(inletFluidTypeValue) && (
-                                        <>
-                                            <label className={`${sideLabelClass} text-[11px] mb-1`}>{t("step2.inletGasPhaseFractionLabel")}</label>
-                                            <input
-                                                className={inputClass}
-                                                value={data[inletGasPhaseFractionField] || ""}
-                                                placeholder={t("step2.gasPhaseFractionPlaceholder")}
-                                                onChange={(e) => updateField(inletGasPhaseFractionField, e.target.value)}
-                                            />
-                                        </>
-                                    )}
-                                </div>
-                                <div>
-                                    {isGasLiquid(outletFluidTypeValue) && (
-                                        <>
-                                            <label className={`${sideLabelClass} text-[11px] mb-1`}>{t("step2.outletGasPhaseFractionLabel")}</label>
-                                            <input
-                                                className={inputClass}
-                                                value={data[outletGasPhaseFractionField] || ""}
-                                                placeholder={t("step2.gasPhaseFractionPlaceholder")}
-                                                onChange={(e) => updateField(outletGasPhaseFractionField, e.target.value)}
-                                            />
-                                        </>
-                                    )}
-                                </div>
-                            </div>
-                        </div>
-                    )}
-
-                    <div>
-                        <label className={sideLabelClass}>{t("step2.massFlowLabel")} <span className="text-red-500">*</span></label>
-                        <div className="grid grid-cols-2 gap-3">
-                            <div>
-                                <label className={`${sideLabelClass} text-[11px] mb-1`}>{t("step2.inletMassFlowLabel")}</label>
-                                <input
-                                    type="number"
-                                    step="any"
-                                    className={inputClass}
-                                    value={data[inletMassFlowField] || ""}
-                                    placeholder={t("step2.massFlowPlaceholder")}
-                                    onChange={(e) => updateField(inletMassFlowField, e.target.value)}
-                                />
-                            </div>
-                            <div>
-                                <label className={`${sideLabelClass} text-[11px] mb-1`}>{t("step2.outletMassFlowLabel")}</label>
-                                <input
-                                    type="number"
-                                    step="any"
-                                    className={inputClass}
-                                    value={data[outletMassFlowField] || ""}
-                                    placeholder={t("step2.massFlowPlaceholder")}
-                                    onChange={(e) => updateField(outletMassFlowField, e.target.value)}
-                                />
-                            </div>
+                        <div className="relative">
+                            <select
+                                className={selectClass}
+                                value={outletFluidTypeValue}
+                                onChange={(event) => updateField(outletFluidTypeField, event.target.value)}
+                            >
+                                <option value="">{t("step2.fluidTypePlaceholder")}</option>
+                                {fluidTypes.map((option) => (
+                                    <option key={option.id} value={option.id}>{option.label}</option>
+                                ))}
+                            </select>
+                            {selectChevron}
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-2 gap-3">
-                        <div>
-                            <label className={sideLabelClass}>{t("step2.inletTempLabel")}</label>
-                            <input
-                                type="number"
-                                step="any"
-                                className={inputClass}
-                                value={data[inletField] || ""}
-                                placeholder="0.0"
-                                onChange={(e) => updateField(inletField, e.target.value)}
-                            />
+                    <div className="grid grid-cols-[minmax(48px,0.58fr)_minmax(0,1.2fr)_minmax(0,1.2fr)] items-center gap-2">
+                        <div className={inletGasPhaseFractionRequired || outletGasPhaseFractionRequired ? requiredLabelClass : compactLabelClass}>
+                            {t("step2.gasPhaseFractionLabel")}{(inletGasPhaseFractionRequired || outletGasPhaseFractionRequired) && requiredBadge}
                         </div>
-                        <div>
-                            <label className={sideLabelClass}>{t("step2.outletTempLabel")}</label>
-                            <input
-                                type="number"
-                                step="any"
-                                className={inputClass}
-                                value={data[outletField] || ""}
-                                placeholder="0.0"
-                                onChange={(e) => updateField(outletField, e.target.value)}
-                            />
-                        </div>
+                        <div>{renderInput(inletGasPhaseFractionField, "", "text", !inletGasPhaseFractionRequired, inletGasPhaseFractionRequired && !data[inletGasPhaseFractionField])}</div>
+                        <div>{renderInput(outletGasPhaseFractionField, "", "text", !outletGasPhaseFractionRequired, outletGasPhaseFractionRequired && !data[outletGasPhaseFractionField])}</div>
                     </div>
-
-                    <div>
-                        <label className={sideLabelClass}>{t("step2.densityLabel")}</label>
-                        <div className="grid grid-cols-2 gap-3">
-                            <div>
-                                <label className={`${sideLabelClass} text-[11px] mb-1`}>{t("step2.inletPropertyLabel")}</label>
-                                <input
-                                    type="number"
-                                    step="any"
-                                    className={inputClass}
-                                    value={data[inletDensityField] || ""}
-                                    placeholder="0.0"
-                                    onChange={(e) => updateField(inletDensityField, e.target.value)}
-                                />
-                            </div>
-                            <div>
-                                <label className={`${sideLabelClass} text-[11px] mb-1`}>{t("step2.outletPropertyLabel")}</label>
-                                <input
-                                    type="number"
-                                    step="any"
-                                    className={inputClass}
-                                    value={data[outletDensityField] || ""}
-                                    placeholder="0.0"
-                                    onChange={(e) => updateField(outletDensityField, e.target.value)}
-                                />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <label className={sideLabelClass}>{t("step2.specificHeatLabel")}</label>
-                        <div className="grid grid-cols-2 gap-3">
-                            <div>
-                                <label className={`${sideLabelClass} text-[11px] mb-1`}>{t("step2.inletPropertyLabel")}</label>
-                                <input
-                                    type="number"
-                                    step="any"
-                                    className={inputClass}
-                                    value={data[inletSpecificHeatField] || ""}
-                                    placeholder="0.0"
-                                    onChange={(e) => updateField(inletSpecificHeatField, e.target.value)}
-                                />
-                            </div>
-                            <div>
-                                <label className={`${sideLabelClass} text-[11px] mb-1`}>{t("step2.outletPropertyLabel")}</label>
-                                <input
-                                    type="number"
-                                    step="any"
-                                    className={inputClass}
-                                    value={data[outletSpecificHeatField] || ""}
-                                    placeholder="0.0"
-                                    onChange={(e) => updateField(outletSpecificHeatField, e.target.value)}
-                                />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <label className={sideLabelClass}>{t("step2.conductivityLabel")}</label>
-                        <div className="grid grid-cols-2 gap-3">
-                            <div>
-                                <label className={`${sideLabelClass} text-[11px] mb-1`}>{t("step2.inletPropertyLabel")}</label>
-                                <input
-                                    type="number"
-                                    step="any"
-                                    className={inputClass}
-                                    value={data[inletConductivityField] || ""}
-                                    placeholder="0.0"
-                                    onChange={(e) => updateField(inletConductivityField, e.target.value)}
-                                />
-                            </div>
-                            <div>
-                                <label className={`${sideLabelClass} text-[11px] mb-1`}>{t("step2.outletPropertyLabel")}</label>
-                                <input
-                                    type="number"
-                                    step="any"
-                                    className={inputClass}
-                                    value={data[outletConductivityField] || ""}
-                                    placeholder="0.0"
-                                    onChange={(e) => updateField(outletConductivityField, e.target.value)}
-                                />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <label className={sideLabelClass}>{t("step2.viscosityLabel")}</label>
-                        <div className="grid grid-cols-2 gap-3">
-                            <div>
-                                <label className={`${sideLabelClass} text-[11px] mb-1`}>{t("step2.inletPropertyLabel")}</label>
-                                <input
-                                    type="number"
-                                    step="any"
-                                    className={inputClass}
-                                    value={data[inletViscosityField] || ""}
-                                    placeholder="0.0"
-                                    onChange={(e) => updateField(inletViscosityField, e.target.value)}
-                                />
-                            </div>
-                            <div>
-                                <label className={`${sideLabelClass} text-[11px] mb-1`}>{t("step2.outletPropertyLabel")}</label>
-                                <input
-                                    type="number"
-                                    step="any"
-                                    className={inputClass}
-                                    value={data[outletViscosityField] || ""}
-                                    placeholder="0.0"
-                                    onChange={(e) => updateField(outletViscosityField, e.target.value)}
-                                />
-                            </div>
-                        </div>
-                    </div>
+                    {renderRow({
+                        label: t("step2.massFlowLabel"),
+                        inletField: inletMassFlowField,
+                        outletField: outletMassFlowField,
+                        required: true,
+                    })}
+                    {renderRow({
+                        label: t("step2.volumeFlowLabel"),
+                        inletField: inletVolumeFlowField,
+                        outletField: outletVolumeFlowField,
+                    })}
+                    {renderRow({ label: t("step2.temperatureLabel"), inletField, outletField })}
+                    {renderRow({ label: t("step2.densityLabel"), inletField: inletDensityField, outletField: outletDensityField })}
+                    {renderRow({ label: t("step2.specificHeatLabel"), inletField: inletSpecificHeatField, outletField: outletSpecificHeatField })}
+                    {renderRow({ label: t("step2.conductivityLabel"), inletField: inletConductivityField, outletField: outletConductivityField })}
+                    {renderRow({ label: t("step2.viscosityLabel"), inletField: inletViscosityField, outletField: outletViscosityField })}
                 </div>
             </div>
         )
@@ -376,211 +311,189 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
         side,
         title,
         accentClass,
-        borderClass,
     }: {
         side: "hot" | "cold";
         title: string;
         accentClass: string;
-        borderClass: string;
     }) => {
+        const designPressureField = `${side}DesignPressure` as keyof RfqProductSpecsData;
+        const testPressureField = `${side}TestPressure` as keyof RfqProductSpecsData;
         const designTemperatureField = `${side}DesignTemperature` as keyof RfqProductSpecsData;
         const flangeStandardField = `${side}FlangeStandard` as keyof RfqProductSpecsData;
         const customFlangeStandardField = `custom${side === "hot" ? "Hot" : "Cold"}FlangeStandard` as keyof RfqProductSpecsData;
+        const inletFlangeNominalDiameterField = `${side}InletFlangeNominalDiameter` as keyof RfqProductSpecsData;
+        const outletFlangeNominalDiameterField = `${side}OutletFlangeNominalDiameter` as keyof RfqProductSpecsData;
+        const flangeMaterialField = `${side}FlangeMaterial` as keyof RfqProductSpecsData;
+        const flangePressureRatingField = `${side}FlangePressureRating` as keyof RfqProductSpecsData;
+        const flangeTypeSealingFaceField = `${side}FlangeTypeSealingFace` as keyof RfqProductSpecsData;
         const flangeStandardValue = data[flangeStandardField] || "";
+        const sideFrameClass = side === "hot" ? "border-orange-300 bg-orange-50/20" : "border-blue-300 bg-blue-50/20";
 
         return (
-            <div className={`space-y-6 ${side === "cold" ? `lg:border-l lg:pl-8 ${borderClass}` : ""}`}>
-                <div className={`flex items-center gap-3 border-b ${borderClass} pb-3`}>
-                    <span className={`text-sm font-bold uppercase tracking-widest ${accentClass}`}>{title}</span>
+            <div className={`min-w-0 space-y-3 rounded-lg border-2 p-3 shadow-sm ${sideFrameClass}`}>
+                <div className="border-b border-slate-100 pb-2">
+                    <span className={`text-xs font-bold tracking-wide ${accentClass}`}>{title}</span>
                 </div>
 
-                <div className="space-y-4">
-                    <div className="grid grid-cols-1 gap-3">
-                        <div>
-                            <label className={sideLabelClass}>{t("step2.designTemperatureLabel")}</label>
-                            <input
-                                type="number"
-                                step="any"
-                                className={inputClass}
-                                value={data[designTemperatureField] || ""}
-                                placeholder="0.0"
-                                onChange={(e) => updateField(designTemperatureField, e.target.value)}
-                            />
-                        </div>
-                    </div>
-
+                <div className="grid grid-cols-2 gap-2">
                     <div>
-                        <label className={sideLabelClass}>{t("step2.flangeStandardLabel")} <span className="text-red-500">*</span></label>
+                        <label className={compactLabelClass}>{t("step2.designPressureLabel")}</label>
+                        {renderInput(designPressureField)}
+                    </div>
+                    <div>
+                        <label className={compactLabelClass}>{t("step2.testPressureLabel")}</label>
+                        {renderInput(testPressureField)}
+                    </div>
+                </div>
+
+                <div>
+                    <label className={compactLabelClass}>{t("step2.designTemperatureLabel")}</label>
+                    {renderInput(designTemperatureField)}
+                </div>
+
+                <div>
+                    <label className={requiredLabelClass}>{t("step2.flangeStandardLabel")}{requiredBadge}</label>
+                    <div className="relative">
                         <select
                             className={selectClass}
                             value={flangeStandardValue}
-                            onChange={(e) => updateField(flangeStandardField, e.target.value)}
+                            onChange={(event) => updateField(flangeStandardField, event.target.value)}
                         >
                             <option value="">{t("step2.flangeStandardPlaceholder")}</option>
                             {flangeStandards.map((option) => (
                                 <option key={option.id} value={option.id}>{option.label}</option>
                             ))}
                         </select>
+                        {selectChevron}
                     </div>
+                </div>
 
-                    {flangeStandardValue === "other" && (
-                        <div className="animate-in fade-in slide-in-from-top-2">
-                            <label className={sideLabelClass}>{t("step2.flangeStandardLabel")} <span className="text-red-500">*</span></label>
-                            <input
-                                className={inputClass}
-                                value={data[customFlangeStandardField] || ""}
-                                placeholder={t("step2.customFlangeStandardPlaceholder")}
-                                onChange={(e) => updateField(customFlangeStandardField, e.target.value)}
-                            />
-                        </div>
-                    )}
+                {flangeStandardValue === "other" && (
+                    <div>
+                        <label className={compactLabelClass}>{t("step2.customFlangeStandardLabel")}</label>
+                        {renderInput(customFlangeStandardField, t("step2.customFlangeStandardPlaceholder"), "text", false, !data[customFlangeStandardField])}
+                    </div>
+                )}
+
+                <div className="space-y-2 rounded-md bg-slate-50 p-2">
+                    <div className="grid grid-cols-[minmax(48px,0.58fr)_minmax(0,1.2fr)_minmax(0,1.2fr)] gap-2">
+                        <div />
+                        <div className={compactLabelClass}>{t("step2.inletPropertyLabel")}</div>
+                        <div className={compactLabelClass}>{t("step2.outletPropertyLabel")}</div>
+                    </div>
+                    {renderRow({
+                        label: t("step2.flangeNominalDiameterLabel"),
+                        inletField: inletFlangeNominalDiameterField,
+                        outletField: outletFlangeNominalDiameterField,
+                        placeholder: t("step2.flangeNominalDiameterPlaceholder"),
+                        type: "text",
+                    })}
+                </div>
+
+                <div>
+                    <label className={compactLabelClass}>{t("step2.flangeMaterialLabel")}</label>
+                    {renderInput(flangeMaterialField, t("step2.flangeMaterialPlaceholder"), "text")}
+                </div>
+                <div>
+                    <label className={compactLabelClass}>{t("step2.flangePressureRatingLabel")}</label>
+                    {renderInput(flangePressureRatingField, t("step2.flangePressureRatingPlaceholder"), "text")}
+                </div>
+                <div>
+                    <label className={compactLabelClass}>{t("step2.flangeTypeSealingFaceLabel")}</label>
+                    {renderInput(flangeTypeSealingFaceField, t("step2.flangeTypeSealingFacePlaceholder"), "text")}
                 </div>
             </div>
         )
     }
 
     return (
-        <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4">
-
-            <div className="bg-white border border-slate-200 rounded-3xl p-6 md:p-10 shadow-sm">
-                <div className="mb-8">
-                    <h3 className="text-xl font-bold text-slate-900">{t("step2.thermalSpecsTitle")}</h3>
-                    <p className="text-sm text-slate-500 mt-1">{t("step2.thermalSpecsSubtitle")}</p>
+        <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4">
+            <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
+                <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+                    <div>
+                        <h3 className="text-base font-bold text-slate-900 sm:text-lg">{t("step2.thermalSpecsTitle")}</h3>
+                        {t("step2.thermalSpecsSubtitle") && <p className="mt-1 text-[11px] text-slate-500 sm:text-xs">{t("step2.thermalSpecsSubtitle")}</p>}
+                    </div>
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
                     {renderSideThermalSection({
                         side: "hot",
                         title: t("step2.hotSide"),
                         accentClass: "text-rose-600",
-                        borderClass: "border-rose-100",
-                        mediaPlaceholder: t("step2.hotMediaPlaceholder"),
                     })}
                     {renderSideThermalSection({
                         side: "cold",
                         title: t("step2.coldSide"),
                         accentClass: "text-blue-600",
-                        borderClass: "border-blue-100",
-                        mediaPlaceholder: t("step2.coldMediaPlaceholder"),
                     })}
                 </div>
 
-                <div className="mt-8 border-t border-slate-100 pt-8">
-                    <label className="text-sm font-bold text-slate-900 uppercase tracking-widest mb-3 block">{t("step2.heatLoadLabel")} <span className="text-red-500">*</span></label>
-                    <input
-                        type="number"
-                        step="any"
-                        className="flex h-11 w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
-                        value={data.heatLoad}
-                        placeholder={t("step2.heatLoadPlaceholder")}
-                        onChange={(e) => updateField("heatLoad", e.target.value)}
-                    />
+                <div className="mt-4 border-t border-slate-100 pt-4">
+                    <label className={requiredLabelClass}>{t("step2.heatLoadLabel")}{requiredBadge}</label>
+                    {renderInput("heatLoad", "", "text", false, !data.heatLoad)}
                 </div>
             </div>
 
-            <div className="bg-white border border-slate-200 rounded-3xl p-6 md:p-10 shadow-sm">
-                <div className="mb-8">
-                    <h3 className="text-xl font-bold text-slate-900">{t("step2.equipmentParamsTitle")}</h3>
-                    <p className="text-sm text-slate-500 mt-1">{t("step2.equipmentParamsSubtitle")}</p>
+            <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
+                <div className="mb-4">
+                    <h3 className="text-base font-bold text-slate-900 sm:text-lg">{t("step2.equipmentParamsTitle")}</h3>
+                    {t("step2.equipmentParamsSubtitle") && <p className="mt-1 text-[11px] text-slate-500 sm:text-xs">{t("step2.equipmentParamsSubtitle")}</p>}
                 </div>
 
-                <div className="space-y-8">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div>
-                            <label className="text-sm font-bold text-slate-900 uppercase tracking-widest mb-3 block">{t("step2.designPressureLabel")}</label>
-                            <input
-                                type="number"
-                                step="any"
-                                className="flex h-11 w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
-                                value={data.designPressure}
-                                placeholder="0.0"
-                                onChange={(e) => updateField("designPressure", e.target.value)}
-                            />
-                        </div>
-                        <div>
-                            <label className="text-sm font-bold text-slate-900 uppercase tracking-widest mb-3 block">{t("step2.testPressureLabel")}</label>
-                            <input
-                                type="number"
-                                step="any"
-                                className="flex h-11 w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
-                                value={data.testPressure}
-                                placeholder="0.0"
-                                onChange={(e) => updateField("testPressure", e.target.value)}
-                            />
-                        </div>
-                    </div>
-
+                <div className="grid grid-cols-1 gap-3">
                     <div>
-                        <label className="text-sm font-bold text-slate-900 uppercase tracking-widest mb-4 block">{t("step2.plateMaterialLabel")} <span className="text-red-500">*</span></label>
-                        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-3">
-                            {plateMaterials.map((option) => {
-                                const isSelected = data.plateMaterial === option.id;
-                                return (
-                                    <button
-                                        type="button"
-                                        key={option.id}
-                                        onClick={() => updateField("plateMaterial", option.id)}
-                                        className={`
-                                            relative flex items-center justify-center p-4 rounded-xl border transition-all duration-300 text-center
-                                            ${isSelected
-                                                ? 'border-primary bg-primary/10 shadow-sm ring-1 ring-primary/50'
-                                                : 'border-slate-200 bg-white hover:border-primary/40'
-                                            }
-                                        `}
-                                    >
-                                        {isSelected && (
-                                            <div className="absolute top-2 right-2 bg-primary text-white rounded-full p-0.5">
-                                                <Check className="w-3.5 h-3.5" />
-                                            </div>
-                                        )}
-                                        <span className={`text-sm font-semibold ${isSelected ? 'text-primary' : 'text-slate-700'}`}>
-                                            {option.label}
-                                        </span>
-                                    </button>
-                                )
-                            })}
-                        </div>
-
-                        {data.plateMaterial === "other" && (
-                            <div className="mt-4 animate-in fade-in slide-in-from-top-2">
-                                <input
-                                    type="text"
-                                    placeholder={t("step2.customPlateMaterialPlaceholder")}
-                                    value={data.customPlateMaterial || ""}
-                                    onChange={(e) => updateField("customPlateMaterial", e.target.value)}
-                                    className="flex h-12 w-full rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
-                                />
-                            </div>
-                        )}
+                        <label className={sectionLabelClass}>{t("step2.designCodeLabel")}</label>
+                        {renderInput("designCode", t("step2.designCodePlaceholder"), "text")}
                     </div>
-
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 border-t border-slate-100 pt-8">
-                        {renderSideEquipmentSection({
-                            side: "hot",
-                            title: t("step2.hotSide"),
-                            accentClass: "text-rose-600",
-                            borderClass: "border-rose-100",
-                        })}
-                        {renderSideEquipmentSection({
-                            side: "cold",
-                            title: t("step2.coldSide"),
-                            accentClass: "text-blue-600",
-                            borderClass: "border-blue-100",
-                        })}
-                    </div>
-
-                    <div className="border-t border-slate-100 pt-8">
-                        <label className="text-sm font-bold text-slate-900 uppercase tracking-widest mb-3 block">{t("step2.additionalNotesLabel")}</label>
+                    <div>
+                        <label className={requiredLabelClass}>{t("step2.plateMaterialLabel")}{requiredBadge}</label>
                         <div className="relative">
-                            <textarea
-                                className="flex w-full min-h-[120px] rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10 resize-y"
-                                placeholder={t("step2.additionalNotesPlaceholder")}
-                                value={data.additionalNotes || ""}
-                                onChange={handleNotesChange}
-                            />
-                            <div className={`absolute bottom-3 right-4 text-xs font-semibold ${data.additionalNotes?.length > MAX_NOTES_LENGTH - 50 ? 'text-amber-500' : 'text-slate-400'}`}>
-                                {data.additionalNotes?.length || 0} / {MAX_NOTES_LENGTH}
-                            </div>
+                            <select
+                                className={selectClass}
+                                value={data.plateMaterial}
+                                onChange={(event) => updateField("plateMaterial", event.target.value)}
+                            >
+                                <option value="">{t("step2.plateMaterialPlaceholder")}</option>
+                                {plateMaterials.map((option) => (
+                                    <option key={option.id} value={option.id}>{option.label}</option>
+                                ))}
+                            </select>
+                            {selectChevron}
+                        </div>
+                    </div>
+                </div>
+
+                {data.plateMaterial === "other" && (
+                    <div className="mt-3">
+                        {renderInput("customPlateMaterial", t("step2.customPlateMaterialPlaceholder"), "text", false, !data.customPlateMaterial)}
+                    </div>
+                )}
+
+                <div className="mt-4 grid grid-cols-1 gap-3 border-t border-slate-100 pt-4 md:grid-cols-2">
+                    {renderSideEquipmentSection({
+                        side: "hot",
+                        title: t("step2.hotSide"),
+                        accentClass: "text-rose-600",
+                    })}
+                    {renderSideEquipmentSection({
+                        side: "cold",
+                        title: t("step2.coldSide"),
+                        accentClass: "text-blue-600",
+                    })}
+                </div>
+
+                <div className="mt-4 border-t border-slate-100 pt-4">
+                    <label className={sectionLabelClass}>{t("step2.additionalNotesLabel")}</label>
+                    <div className="relative mt-1">
+                        <textarea
+                            className="flex w-full min-h-[100px] rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 resize-y"
+                            placeholder={t("step2.additionalNotesPlaceholder")}
+                            value={data.additionalNotes || ""}
+                            onChange={handleNotesChange}
+                        />
+                        <div className={`absolute bottom-3 right-4 text-xs font-semibold ${data.additionalNotes?.length > MAX_NOTES_LENGTH - 50 ? "text-amber-500" : "text-slate-400"}`}>
+                            {data.additionalNotes?.length || 0} / {MAX_NOTES_LENGTH}
                         </div>
                     </div>
                 </div>
