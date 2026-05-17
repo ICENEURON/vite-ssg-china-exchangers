@@ -23,6 +23,8 @@
     ],
     "cta": "发送资料更新邮件",
     "template_cta": "下载资料更新模板",
+    "company_template_cta": "公司模板",
+    "product_template_cta": "产品模板",
     "email_subject": "[资料更新] - 公司名称",
     "panel": {
       "eyebrow": "更新方式",

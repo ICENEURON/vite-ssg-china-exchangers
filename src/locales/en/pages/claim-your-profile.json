@@ -23,6 +23,8 @@
     ],
     "cta": "Email Profile Update",
     "template_cta": "Download Update Template",
+    "company_template_cta": "Company Template",
+    "product_template_cta": "Product Template",
     "email_subject": "[Profile Update] - Your Company Name",
     "panel": {
       "eyebrow": "How updates work",

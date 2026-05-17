@@ -3,7 +3,8 @@ import { Button } from "../../../components/ui/button"
 import { CheckCircle2, Download, FileText, ImagePlus, Mail } from "lucide-react"
 import { useTranslation } from "react-i18next"
 
-const templatePath = "/static/websites/manufacturer-profile-update-template.docx";
+const companyTemplatePath = "/static/websites/company_information_update_template.docx";
+const productTemplatePath = "/static/websites/product_information_update_template.docx";
 
 export function HeroSection() {
     const { t } = useTranslation();
@@ -19,8 +20,8 @@ export function HeroSection() {
             <div className="absolute inset-0 bg-grid-hero-center pointer-events-none" />
 
             <div className="container relative mx-auto max-w-6xl px-4 pt-8">
-                <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
-                    <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
+                <div className="grid gap-8 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:items-start">
+                    <div className="flex min-w-0 flex-col items-center gap-5 text-center lg:items-start lg:text-left">
                         <h1 className="max-w-4xl text-4xl font-extrabold tracking-tight text-slate-950 md:text-5xl">
                             {t('pages.profile.hero.title')}
                         </h1>
@@ -38,17 +39,23 @@ export function HeroSection() {
                             ))}
                         </div>
 
-                        <div className="mt-3 flex flex-col gap-3 sm:flex-row">
-                            <Button size="lg" className="h-14 px-8 text-base font-bold" asChild>
-                                <a href={templatePath} download>
+                        <div className="mt-3 flex max-w-full flex-col gap-3 sm:flex-row sm:flex-wrap">
+                            <Button size="lg" className="h-14 px-6 text-base font-bold" asChild>
+                                <a href={companyTemplatePath} download>
                                     <Download className="mr-2 size-5" />
-                                    {t('pages.profile.hero.template_cta')}
+                                    {t('pages.profile.hero.company_template_cta')}
+                                </a>
+                            </Button>
+                            <Button size="lg" className="h-14 border border-slate-200 bg-white px-6 text-base font-bold text-slate-950 shadow-sm transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700 hover:shadow-md" asChild>
+                                <a href={productTemplatePath} download>
+                                    <Download className="mr-2 size-5" />
+                                    {t('pages.profile.hero.product_template_cta')}
                                 </a>
                             </Button>
                         </div>
                     </div>
 
-                    <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm md:p-8">
+                    <div className="min-w-0 rounded-lg border border-slate-200 bg-white p-6 shadow-sm md:p-8">
                         <div className="grid gap-4">
                             {panelItems.map((item, index) => {
                                 const Icon = panelIcons[index] || FileText;
