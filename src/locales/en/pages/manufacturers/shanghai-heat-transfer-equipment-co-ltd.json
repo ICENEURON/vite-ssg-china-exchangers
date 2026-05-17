@@ -82,36 +82,16 @@
   ],
   "certifications": [
     {
-      "alt_text": "ABS Certificate",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/abs.jpg"
+      "alt_text": "ABS Type Approval Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/abs_type_approval_certificate.jpg"
     },
     {
-      "alt_text": "ASME U Certificate",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/asme_u_certificate.jpg"
+      "alt_text": "CE SGS Certificate of Verification",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/ce_sgs_certificate_of_verification.jpg"
     },
     {
-      "alt_text": "CE Certificate",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/ce.jpg"
-    },
-    {
-      "alt_text": "ISO 14001 Certificate",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_14001.jpg"
-    },
-    {
-      "alt_text": "ISO 45001 Certificate",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_45001.jpg"
-    },
-    {
-      "alt_text": "ISO 9001 Certificate",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/iso_9001.jpg"
-    },
-    {
-      "alt_text": "NB U Certificate",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/nb_u_certificate.jpg"
-    },
-    {
-      "alt_text": "OHSAS 18001 Certificate",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/ohsas_18001.jpg"
+      "alt_text": "National Board U Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_certifications/national_board_u_certificate.jpg"
     }
   ],
   "customers": [
@@ -142,24 +122,24 @@
   ],
   "images": [
     {
-      "alt_text": "Shanghai Heat Transfer Equipment Factory View 1",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company.jpg"
+      "alt_text": "Shanghai Heat Transfer Equipment Factory Exterior",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/shphe_factory_exterior.jpg"
     },
     {
-      "alt_text": "Shanghai Heat Transfer Equipment Factory View 2",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company_2.jpg"
+      "alt_text": "Shanghai Heat Transfer Equipment Large Heat Exchanger Shipment",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/shphe_large_heat_exchanger_shipment.jpg"
     },
     {
-      "alt_text": "Shanghai Heat Transfer Equipment Factory View 3",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company_3.jpg"
+      "alt_text": "Shanghai Heat Transfer Equipment Automated Manufacturing Line",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/shphe_automated_manufacturing_line.jpg"
     },
     {
-      "alt_text": "Shanghai Heat Transfer Equipment Factory View 4",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company_4.jpg"
+      "alt_text": "Shanghai Heat Transfer Equipment Plate Press Workshop",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/shphe_plate_press_workshop.jpg"
     },
     {
-      "alt_text": "Shanghai Heat Transfer Equipment Factory View 5",
-      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/company_5.jpg"
+      "alt_text": "Shanghai Heat Transfer Equipment Heat Exchanger Assembly Inspection",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/company_images/shphe_heat_exchanger_assembly_inspection.jpg"
     }
   ],
   "documents": [

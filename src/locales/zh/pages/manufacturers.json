@@ -36,6 +36,7 @@
     "premium_supplier": "优质供应商",
     "connect_directly": "直接联系",
     "connect_description": "直接向工厂工程团队获取报价",
+    "connect_note": "提交规格、数量和交期需求，我们会协助把询价信息传达给对应工厂团队。",
     "start_inquiry": "开始询价",
     "verified_contact": "验证联系人",
     "response_time": "< {{hours}} 小时回复",

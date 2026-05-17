@@ -1,35 +1,41 @@
 {
-  "name": "四平巨元焊接板式换热器有限公司",
+  "name": "四平市巨元瀚洋板式换热器有限公司",
   "full_description": [
-    "四平巨元焊接板式换热器有限公司前身为四平市巨元瀚洋板式换热设备有限公司于1998年成立的焊接板事业部，长期从事全焊接板式换热器技术、工艺、结构的研发与科技创新工作。",
-    "公司以全新技术、工艺、结构的全焊接换热产品为载体，为军工、核能、生物质能、电力、石油、化工、冶金、船舶、集中供热、空调制冷、食品饮料、海水淡化、分布式能源等行业提供个性化、专业化解决方案。",
-    "官网介绍显示，公司依托客户资源，以大数据和物联网理念建立产品运行参数数据库和产品全生命周期服务系统，并持续改进、创新、学习和提高，为客户提供更专业的产品与更完善的服务。"
+    "四平市巨元瀚洋板式换热器有限公司是 THT 巨元集团全资子公司，官网将其定位为国内高效换热系统解决方案集成服务商。官方企业介绍显示，公司始创于1986年。",
+    "公司占地面积16.5万平方米，建筑面积4万余平方米，年生产能力为板式换热器100万平方米、系统集成装置5000台套。",
+    "官网介绍显示，巨元瀚洋是板式换热器和板式换热机组相关国家标准的主要起草或参与单位，亦为全国锅炉压力容器标准化技术委员会委员单位，以及美国传热协会、美国空调供热制冷工业协会成员单位。官网列出其具备民用核安全设备设计制造许可证、板式热交换器产品安全注册证、板式热交换器节能注册证、D级压力容器设计制造许可证、SCADA自控系统软件著作权、ASME认证、AHRI认证及质量/环境/职业健康安全管理体系认证。",
+    "公司官网披露其拥有开卷、校平、剪切、层压生产线，4套万吨压机板片生产线（最大吨位5万吨），以及4200mm×1800mm整体下料机等智能数控制造装备。其产品体系包括可拆式板、半焊式、全焊式、换热集成系统及智慧供热信息平台5个产品群，形成100余种换热产品。",
+    "官网资料显示，公司业务覆盖全球31个国家和地区、108个行业，并持续为国内外客户提供20万余台套产品及服务，行业覆盖军工、核能、生物质能、电力、石油、化工、冶金、船舶、集中供热、空调制冷、食品饮料、海水淡化等领域。"
   ],
   "advantages": [
-    "焊接板技术积累深厚，源自1998年成立的焊接板事业部，长期专注于全焊接板式换热器研发。",
-    "产品结构覆盖较广，包含板框式、宽通道式及专用冷却器等多类焊接换热产品。",
-    "官网明确覆盖电力、石油化工、船舶、暖通、食品饮料等多个工业应用领域。",
-    "强调围绕全焊接换热产品持续进行技术、工艺和结构创新。",
-    "依托产品运行参数数据库和全生命周期服务系统，面向客户提供更有针对性的解决方案。"
+    "始创于1986年，官网披露年产能为板式换热器100万平方米、系统集成装置5000台套。",
+    "当前产品体系覆盖可拆式、半焊式、全焊式、换热集成系统及智慧供热信息平台。",
+    "官网列出其参与板式换热器及换热机组相关标准起草，并拥有多项行业组织成员身份。",
+    "资质覆盖民用核安全设备许可证、板式换热器安全/节能注册、ASME、AHRI、压力容器许可及管理体系认证。",
+    "制造能力包括开卷校平剪切层压生产线、4套万吨压机板片生产线、最大5万吨压制能力及大型数控设备。",
+    "官网披露业务覆盖31个国家和地区、108个行业，并已提供20万余台套产品及服务。"
   ],
   "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
   "website": "http://en.tht.cn/",
   "video_link": "",
   "social_media_links": [],
-  "email": [],
+  "email": [
+    "zhancucai@tht.cn"
+  ],
   "phone": [
-    "+8618543431901"
+    "400-677-2292",
+    "400-656-7811"
   ],
   "country_name": "中国",
   "city": "四平",
-  "address": "吉林省四平市铁西区站前街南环西路5号",
-  "established_year": "",
-  "factory_area": "",
+  "address": "中国吉林省四平市南环西路5号THT巨元工业园",
+  "established_year": "1986",
+  "factory_area": "165000m2",
   "employee_count": "",
   "export_markets": [],
   "seo_data": {
-    "meta_title": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd. | Welded Heat Exchanger Manufacturer",
-    "meta_description": "Chinese manufacturer of welded plate heat exchangers and industrial heat transfer solutions for power, petrochemical, marine, HVAC, and related sectors."
+    "meta_title": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd. | THT Juyuan Heat Exchange Solutions",
+    "meta_description": "Chinese heat exchange system solution provider and plate heat exchanger manufacturer offering detachable, semi-welded, fully welded, integrated-unit, and smart heating products."
   },
   "industries": [
     "暖通空调",
@@ -40,65 +46,79 @@
     "食品与饮料",
     "发电/电力"
   ],
-  "certifications": [
-    {
-      "alt_text": "Environmental Management System Certificate",
-      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/company_certifications/environmental_management_system_certificate.png"
-    },
-    {
-      "alt_text": "Quality Management System Certificate",
-      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/company_certifications/quality_management_system_certificate.png"
-    },
-    {
-      "alt_text": "Occupational Health and Safety Management System Certificate",
-      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/company_certifications/occupational_health_and_safety_certificate.png"
-    }
-  ],
+  "certifications": [],
   "customers": [],
   "images": [
     {
-      "alt_text": "THT Juyuan Modern Park",
-      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/company_images/tht_juyuan_modern_park.jpg"
+      "alt_text": "THT Juyuan Factory Sign",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/company_images/tht_juyuan_factory_sign.jpg"
     },
     {
-      "alt_text": "Plate Heat Exchanger Workshop",
-      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/company_images/plate_heat_exchanger_workshop.jpg"
+      "alt_text": "THT Juyuan Heat Exchange Unit Assembly",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/company_images/tht_juyuan_heat_exchange_unit_assembly.jpg"
     },
     {
-      "alt_text": "Unit Shop",
-      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/company_images/unit_shop.jpg"
-    },
-    {
-      "alt_text": "New Product Workshop",
-      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/company_images/new_product_workshop.jpg"
-    },
-    {
-      "alt_text": "THT Juyuan Modern Industrial Park",
-      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/company_images/tht_juyuan_modern_industrial_park.jpg"
+      "alt_text": "THT Juyuan Plate Heat Exchanger Workshop",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/company_images/tht_juyuan_plate_heat_exchanger_workshop.jpg"
     }
   ],
   "documents": [],
   "products": [
     {
-      "slug": "plate-frame-welded-heat-exchanger",
-      "name": "板框式焊接式热交换器",
-      "image": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/plate_frame_welded_heat_exchanger_1.jpg",
-      "short_description": "适用于紧凑型高效工业工况的专利板框式焊接换热器。",
-      "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/plate-frame-welded-heat-exchanger"
+      "slug": "primary-energy-efficiency-plate-heat-exchanger",
+      "name": "一级能效板式热交换器",
+      "image": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/primary_energy_efficiency_plate_heat_exchanger_1.jpg",
+      "short_description": "依据中国换热器能效测试评价规则完成测试评价的一级能效板式热交换器系列。",
+      "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/primary-energy-efficiency-plate-heat-exchanger"
     },
     {
-      "slug": "qhb-welded-wide-channel-plate-heat-exchanger",
-      "name": "QHB型焊接宽通道板式热交换器",
-      "image": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/qhb_welded_wide_channel_plate_heat_exchanger_1.jpg",
-      "short_description": "适用于颗粒、纤维及高黏度介质工况的全焊接夹紧式宽通道板式换热器。",
-      "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/qhb-welded-wide-channel-plate-heat-exchanger"
+      "slug": "standardized-heat-exchange-unit",
+      "name": "标准化换热机组",
+      "image": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/standardized_heat_exchange_unit_1.jpg",
+      "short_description": "采用配置、结构和控制程序标准化设计的换热机组，官网列示其压降指标低于对应国标参考值。",
+      "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/standardized-heat-exchange-unit"
     },
     {
-      "slug": "bky-welded-plate-heat-exchanger",
-      "name": "BKY型焊接板式热交换器",
-      "image": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/bky_welded_plate_heat_exchanger_2.jpg",
-      "short_description": "具有紧凑结构和灵活流程组合能力的专利焊接板式换热器。",
-      "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/bky-welded-plate-heat-exchanger"
+      "slug": "semi-welded-plate-heat-exchanger",
+      "name": "半焊式板式热交换器",
+      "image": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.jpg",
+      "short_description": "采用激光焊接和板对焊接工艺、适用于单侧介质需要焊接密封工况的半焊式板式热交换器。",
+      "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/semi-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "block-heat-exchanger",
+      "name": "板框式热交换器",
+      "image": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/block_heat_exchanger_1.jpg",
+      "short_description": "融合板式换热效率与焊接密封、耐温耐压能力的专利板框式热交换器。",
+      "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/block-heat-exchanger"
+    },
+    {
+      "slug": "plate-tube-shell-heat-exchanger",
+      "name": "板（管）壳式换热器",
+      "image": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/plate_tube_shell_heat_exchanger_1.jpg",
+      "short_description": "采用焊接板束及成熟检验规程、面向特种工况的板（管）壳式换热器平台。",
+      "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/plate-tube-shell-heat-exchanger"
+    },
+    {
+      "slug": "fully-welded-wide-channel-plate-heat-exchanger",
+      "name": "全焊式宽通道板式热交换器",
+      "image": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/fully_welded_wide_channel_plate_heat_exchanger_1.jpg",
+      "short_description": "面向含大量固体颗粒、纤维悬浮物及粘稠流体工况的全焊式宽通道板式热交换器。",
+      "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/fully-welded-wide-channel-plate-heat-exchanger"
+    },
+    {
+      "slug": "waste-heat-recovery-special-heat-exchanger",
+      "name": "余热回收专用特种热交换器",
+      "image": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/waste_heat_recovery_special_heat_exchanger_1.jpg",
+      "short_description": "面向工业废水、废气、烟气、原生污水等余热回收系统的焊接板式特种热交换器。",
+      "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/waste-heat-recovery-special-heat-exchanger"
+    },
+    {
+      "slug": "brazed-plate-heat-exchanger",
+      "name": "钎焊板式换热器",
+      "image": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/brazed_plate_heat_exchanger_1.jpg",
+      "short_description": "具备高度紊流传热、较高耐温耐压能力及小体积轻重量特点的钎焊板式换热器。",
+      "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/brazed-plate-heat-exchanger"
     }
   ]
 }

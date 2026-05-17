@@ -36,6 +36,7 @@
     "premium_supplier": "Premium Supplier",
     "connect_directly": "Connect Directly",
     "connect_description": "Get a quote directly from the factory engineering team.",
+    "connect_note": "Share your specifications, quantity, and timeline so we can route the inquiry to the right factory team.",
     "start_inquiry": "Start Your Inquiry",
     "verified_contact": "Verified Contact",
     "response_time": "< {{hours}}h Response",

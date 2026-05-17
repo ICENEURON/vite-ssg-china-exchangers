@@ -1,871 +1,777 @@
 [
-    {
-        "local_assets_dir": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
-        "manufacturer": {
-            "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
-            "name": {
-                "en": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
-                "zh": "兰州兰石换热设备有限责任公司"
-            },
-            "short_description": {
-                "en": "Manufacturer of plate heat exchangers, welded heat exchangers, PCHE systems, and heat exchange units for energy, petrochemical, HVAC, marine, pharmaceutical, and food industries.",
-                "zh": "面向能源、石油化工、暖通、船舶、制药、食品等行业提供板式换热器、焊接式换热器、PCHE 及换热机组的制造商。"
-            },
-            "full_description": {
-                "en": [
-                    "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd. was established in 2002 through the restructuring of the former plate heat exchanger plant of Lanzhou Petrochemical Machinery General Plant. It is a subsidiary of the listed company Lanshi Heavy Equipment and focuses on the research, design, manufacturing, and engineering service of plate heat exchangers.",
-                    "The company is one of the drafting units for GB16409-1996 Plate Heat Exchanger, GB/T28185-2011 Heat Exchange Unit for Urban Heating, and the Ministry of Construction industry standard CJ/T191-2004 Plate Heat Exchange Unit. Its products are used in energy saving and environmental protection, nuclear power, aerospace, petrochemical, HVAC, marine, metallurgy, bio-energy, power generation, pharmaceuticals, textile, paper, and food sectors.",
-                    "Tracing its technical heritage to 1965, when China’s first plate heat exchanger was developed, the company has built more than 100 heat exchanger series and achieved multiple domestic industry firsts. After moving to Lanzhou New Area in 2014, its production area expanded to more than 530,000 square meters with nearly 200 additional equipment sets. The company also reports exports to Russia, Finland, Sri Lanka, Pakistan, Mongolia, and Vietnam.",
-                    "The company states that it has obtained ISO 14001 environmental management certification, occupational health and safety system certification, ASME-related qualifications, pressure vessel qualifications, nuclear quality assurance qualifications, and product safety registration management credentials. It also states that it can design and manufacture in accordance with Chinese national and industry standards as well as ASME and European PED standards."
-                ],
-                "zh": [
-                    "兰州兰石换热设备有限责任公司成立于2002年，由原兰州石油化工机器总厂板式换热器厂改制而来，是上市公司兰石重装公司下属的专业从事板式热交换器研发、设计、生产和工程服务的子公司。",
-                    "公司也是 GB16409-1996《板式换热器》、GB/T28185-2011《城镇供热用换热机组》以及建设部行业标准 CJ/T191-2004《板式换热机组》的起草单位之一。产品主要应用于节能环保、核电、航空航天、石油化工、暖通空调、船舶、冶金、生物能源、电力、制药、纺织、造纸、食品等领域。",
-                    "公司技术渊源可追溯到 1965 年中国第一台板式热交换器的研制。根据官网介绍，公司先后研发成功了 100 多种系列热交换器产品，取得多项国内和行业首创成果；2014 年整体搬迁至兰州新区后，生产作业面积扩大到 53 万余平方米，新增设备近 200 台套。官网同时提到公司产品出口至俄罗斯、芬兰、斯里兰卡、巴基斯坦、蒙古、越南等国家和地区。",
-                    "公司官网表示，其已取得 ISO14001 环境管理体系、职业健康安全体系、ASME、压力容器、核质保体系、安全注册管理体系等相关资质，并可按照国家及行业标准、美国 ASME 及欧洲 PED 等标准进行设计和制造。"
-                ]
-            },
-            "advantages": {
-                "en": [
-                    "Dedicated plate heat exchanger specialist under Lanshi Heavy Equipment with in-house R&D, design, manufacturing, and engineering service capability.",
-                    "One of the drafting units for major Chinese standards covering plate heat exchangers and urban heating heat exchange units.",
-                    "Technical heritage linked to China’s first plate heat exchanger development and a product portfolio of more than 100 heat exchanger series.",
-                    "Large manufacturing base in Lanzhou New Area with more than 530,000 square meters of production area and nearly 200 additional equipment sets after relocation.",
-                    "Broad industry coverage across petrochemical, HVAC, marine, bio-energy, pharmaceuticals, food, and power-related applications.",
-                    "Verified company qualifications shown on the official site include nuclear safety licenses, product safety registration, management system certificates, and special equipment production license."
-                ],
-                "zh": [
-                    "依托兰石重装平台，具备板式换热器研发、设计、制造与工程服务的一体化能力。",
-                    "是板式换热器及城镇供热换热机组等多项国家和行业标准的起草单位之一。",
-                    "技术积累可追溯至中国第一台板式热交换器的研制，已形成 100 多种系列热交换器产品。",
-                    "兰州新区制造基地生产作业面积超过 53 万平方米，搬迁后新增近 200 台套设备。",
-                    "产品覆盖石油化工、暖通、船舶、生物能源、制药、食品、电力等多个行业应用。",
-                    "官网展示了民用核安全许可证、板式热交换器产品安全注册证、管理体系证书及特种设备生产许可证等资质。"
-                ]
-            },
-            "website": "http://lsphe.lansland.com/sites/Satellite?c=Page&d=&rendermode=preview&cid=1484715242166&pagename=LS_ENHT%2FPage%2FLSHTIndex",
-            "video_link": "",
-            "social_media_links": [],
-            "email": [
-                "lspheinfo@lansland.com"
-            ],
-            "phone": [
-                "0931-2354209",
-                "400-855-3000"
-            ],
-            "country_id": "CN",
-            "country_name": {
-                "en": "China",
-                "zh": "中国"
-            },
-            "city": {
-                "en": "Lanzhou",
-                "zh": "兰州"
-            },
-            "address": {
-                "en": "No. 520, West Section of Huanghe Avenue, Lanzhou New District, Lanzhou City, Gansu Province, China",
-                "zh": "甘肃省兰州市兰州新区黄河大道西段520号"
-            },
-            "established_year": "2002",
-            "factory_area": "530000m2",
-            "employee_count": "",
-            "industries": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7",
-                "8",
-                "9"
-            ],
-            "export_markets": [
-                "RU",
-                "FI",
-                "LK",
-                "PK",
-                "MN",
-                "VN"
-            ],
-            "is_visible": true,
-            "seo_data": {
-                "meta_title": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd. | Plate Heat Exchanger Manufacturer",
-                "meta_description": "Lanzhou-based manufacturer of plate heat exchangers, welded heat exchangers, PCHE systems, and heat exchange units for industrial applications."
-            }
-        },
-        "company_assets": [
-            {
-                "order": 1,
-                "asset_type": "certificate",
-                "folder": "company_certifications",
-                "file_name": "civil_nuclear_safety_equipment_manufacturing_license.jpg",
-                "alt_text": "Civil Nuclear Safety Equipment Manufacturing License"
-            },
-            {
-                "order": 2,
-                "asset_type": "certificate",
-                "folder": "company_certifications",
-                "file_name": "civil_nuclear_safety_equipment_design_license.jpg",
-                "alt_text": "Civil Nuclear Safety Equipment Design License"
-            },
-            {
-                "order": 3,
-                "asset_type": "certificate",
-                "folder": "company_certifications",
-                "file_name": "plate_heat_exchanger_safety_registration_certificate.jpg",
-                "alt_text": "Plate Heat Exchanger Product Safety Registration Certificate"
-            },
-            {
-                "order": 4,
-                "asset_type": "certificate",
-                "folder": "company_certifications",
-                "file_name": "quality_management_system_certificate.png",
-                "alt_text": "Quality Management System Certificate"
-            },
-            {
-                "order": 5,
-                "asset_type": "certificate",
-                "folder": "company_certifications",
-                "file_name": "occupational_health_and_safety_management_system_certificate.png",
-                "alt_text": "Occupational Health and Safety Management System Certificate"
-            },
-            {
-                "order": 6,
-                "asset_type": "certificate",
-                "folder": "company_certifications",
-                "file_name": "environmental_management_system_certificate.png",
-                "alt_text": "Environmental Management System Certificate"
-            },
-            {
-                "order": 7,
-                "asset_type": "certificate",
-                "folder": "company_certifications",
-                "file_name": "special_equipment_production_license.jpg",
-                "alt_text": "Special Equipment Production License"
-            },
-            {
-                "order": 8,
-                "asset_type": "certificate",
-                "folder": "company_certifications",
-                "file_name": "trademark_renewal_registration_certificate.jpg",
-                "alt_text": "Trademark Renewal Registration Certificate"
-            },
-            {
-                "order": 9,
-                "asset_type": "certificate",
-                "folder": "company_certifications",
-                "file_name": "trademark_registration_certificate.jpg",
-                "alt_text": "Trademark Registration Certificate"
-            },
-            {
-                "order": 10,
-                "asset_type": "certificate",
-                "folder": "company_certifications",
-                "file_name": "bank_account_opening_license.jpg",
-                "alt_text": "Bank Account Opening License"
-            },
-            {
-                "order": 11,
-                "asset_type": "certificate",
-                "folder": "company_certifications",
-                "file_name": "institution_credit_code_certificate.jpg",
-                "alt_text": "Institution Credit Code Certificate"
-            },
-            {
-                "order": 12,
-                "asset_type": "certificate",
-                "folder": "company_certifications",
-                "file_name": "business_license.jpg",
-                "alt_text": "Business License"
-            },
-            {
-                "order": 1,
-                "asset_type": "logo",
-                "folder": "company_customers",
-                "file_name": "shougang_group.jpg",
-                "alt_text": "Shougang Group Customer Logo"
-            },
-            {
-                "order": 2,
-                "asset_type": "logo",
-                "folder": "company_customers",
-                "file_name": "daikin.jpg",
-                "alt_text": "Daikin Customer Logo"
-            },
-            {
-                "order": 3,
-                "asset_type": "logo",
-                "folder": "company_customers",
-                "file_name": "sinopec.jpg",
-                "alt_text": "Sinopec Customer Logo"
-            },
-            {
-                "order": 4,
-                "asset_type": "logo",
-                "folder": "company_customers",
-                "file_name": "cnooc.jpg",
-                "alt_text": "CNOOC Customer Logo"
-            },
-            {
-                "order": 5,
-                "asset_type": "logo",
-                "folder": "company_customers",
-                "file_name": "cnnc.jpg",
-                "alt_text": "CNNC Customer Logo"
-            },
-            {
-                "order": 1,
-                "asset_type": "media",
-                "folder": "company_images",
-                "file_name": "company_overview.jpg",
-                "alt_text": "Lanzhou Lanshi Heat Exchange Company Overview"
-            },
-            {
-                "order": 2,
-                "asset_type": "media",
-                "folder": "company_images",
-                "file_name": "company_profile.jpg",
-                "alt_text": "Lanzhou Lanshi Heat Exchange Production Base"
-            },
-            {
-                "order": 3,
-                "asset_type": "media",
-                "folder": "company_images",
-                "file_name": "company_contact.jpg",
-                "alt_text": "Lanzhou Lanshi Heat Exchange Facility"
-            },
-            {
-                "order": 4,
-                "asset_type": "media",
-                "folder": "company_images",
-                "file_name": "company_homepage.jpg",
-                "alt_text": "Lanzhou Lanshi Heat Exchange Homepage Visual"
-            }
+  {
+    "local_assets_dir": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
+    "manufacturer": {
+      "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
+      "name": {
+        "en": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
+        "zh": "兰州兰石换热设备有限责任公司"
+      },
+      "short_description": {
+        "en": "Manufacturer of plate heat exchangers, welded heat exchangers, PCHE systems, and heat exchange units for energy, petrochemical, HVAC, marine, pharmaceutical, and food industries.",
+        "zh": "面向能源、石油化工、暖通、船舶、制药、食品等行业提供板式换热器、焊接式换热器、PCHE 及换热机组的制造商。"
+      },
+      "full_description": {
+        "en": [
+          "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd. was established in 2002 through the restructuring of the former plate heat exchanger plant of Lanzhou Petrochemical Machinery General Plant. It is a subsidiary of the listed company Lanshi Heavy Equipment and focuses on the research, design, manufacturing, and engineering service of plate heat exchangers.",
+          "The company is one of the drafting units for GB16409-1996 Plate Heat Exchanger, GB/T28185-2011 Heat Exchange Unit for Urban Heating, and the Ministry of Construction industry standard CJ/T191-2004 Plate Heat Exchange Unit. Its products are used in energy saving and environmental protection, nuclear power, aerospace, petrochemical, HVAC, marine, metallurgy, bio-energy, power generation, pharmaceuticals, textile, paper, and food sectors.",
+          "Its technical heritage dates to 1965, when China’s first plate heat exchanger was developed. The official profile states that the company has developed more than 100 heat exchanger series over the past 60 years, including domestic firsts in all-welded plate heat exchangers, wide-channel welded plate heat exchangers, large nuclear-power plate heat exchangers, high-pressure H350 plate heat exchangers, PCHE products, deep-corrugated large plate heat exchangers for nuclear power, modular large air preheaters, and all-welded plate heat exchangers for liquid-air energy storage.",
+          "After moving to Lanzhou New Area in 2014, the company expanded its production area to more than 530,000 square meters and added nearly 200 sets of equipment. The official profile also lists exports to Russia, Finland, Sri Lanka, Pakistan, Mongolia, Vietnam, and other countries and regions.",
+          "The company states that it has obtained ISO 14001 environmental management certification, occupational health and safety system certification, ASME-related qualifications, pressure vessel qualifications, nuclear quality assurance qualifications, and product safety registration management credentials. It can design and manufacture according to Chinese national and industry standards as well as ASME and European PED standards."
         ],
-        "products": [
-            {
-                "product": {
-                    "order": 1,
-                    "slug": "plate-and-frame-heat-exchanger",
-                    "is_visible": true,
-                    "name": {
-                        "en": "Plate and Frame Heat Exchanger",
-                        "zh": "LS-BLOC焊接式板式热交换器"
-                    },
-                    "short_description": {
-                        "en": "Hexahedron detachable welded plate exchanger for high-pressure and high-temperature process duty.",
-                        "zh": "采用六面体可拆卸结构、适用于高温高压工况的焊接板式换热器。"
-                    },
-                    "full_description": {
-                        "en": "This product uses an all-welded plate pack with a hexahedron detachable structure so that the equipment can meet mechanical and chemical cleaning requirements. According to the official product page, it retains the high heat transfer efficiency and compact structure of a traditional plate heat exchanger while allowing use under higher pressure and temperature conditions in petroleum, chemical, electric power, pharmaceutical, metallurgy, and refrigeration service.",
-                        "zh": "该产品采用全焊接板束设计，壳体为六面体可拆卸结构，可满足设备内部机械清洗和化学清洗需求。官网介绍显示，该产品既保持了传统板式换热器传热效率高、结构紧凑的优点，又可在更高压力和温度条件下使用，适用于石油、化工、电力、制药、冶金、制冷等行业。"
-                    },
-                    "industries": [
-                        "2",
-                        "6",
-                        "8",
-                        "9"
-                    ],
-                    "advantage": {
-                        "en": [
-                            "Hexahedron detachable structure supports mechanical and chemical cleaning inside the equipment.",
-                            "Keeps the high heat transfer efficiency and compact structure of a plate heat exchanger.",
-                            "Suitable for higher pressure and temperature conditions than conventional detachable plate equipment."
-                        ],
-                        "zh": [
-                            "六面体可拆卸结构便于设备内部进行机械清洗和化学清洗。",
-                            "兼具板式换热器高传热效率和结构紧凑的特点。",
-                            "可在更高压力和温度条件下使用，适合更严苛工况。"
-                        ]
-                    },
-                    "technical_parameters": {
-                        "en": {
-                            "Design Temperature": "-200 ~ 350℃",
-                            "Design Pressure": "Vacuum ~ 3.2MPa",
-                            "Assembly Area": "≤2500㎡",
-                            "Minimum Temperature Difference": "2℃"
-                        },
-                        "zh": {
-                            "设计温度": "-200 ~ 350℃",
-                            "设计压力": "真空 ~ 3.2MPa",
-                            "组装面积": "≤2500㎡",
-                            "最小温差": "2℃"
-                        }
-                    },
-                    "details": {
-                        "en": [],
-                        "zh": []
-                    },
-                    "video_link": "",
-                    "seo_data": {
-                        "en": {
-                            "meta_title": "Plate and Frame Heat Exchanger",
-                            "meta_description": "Hexahedron detachable welded plate exchanger for high-pressure and high-temperature process duty."
-                        },
-                        "zh": {
-                            "meta_title": "LS-BLOC焊接式板式热交换器",
-                            "meta_description": "采用六面体可拆卸结构、适用于高温高压工况的焊接板式换热器。"
-                        }
-                    }
-                },
-                "product_assets": [
-                    {
-                        "order": 1,
-                        "asset_type": "gallery_image",
-                        "folder": "product_images",
-                        "file_name": "ls_bloc_welded_plate_heat_exchanger_1.png",
-                        "alt_text": "LS-BLOC Welded Plate Heat Exchanger"
-                    },
-                    {
-                        "order": 2,
-                        "asset_type": "gallery_image",
-                        "folder": "product_images",
-                        "file_name": "plate_and_frame_heat_exchanger_1.jpg",
-                        "alt_text": "Plate and Frame Heat Exchanger"
-                    }
-                ]
-            },
-            {
-                "product": {
-                    "order": 2,
-                    "slug": "microchannel-compact-welded-plate-heat-exchanger-pche",
-                    "is_visible": true,
-                    "name": {
-                        "en": "Microchannel Compact Welded Plate Heat Exchanger (PCHE)",
-                        "zh": "微通道高效紧凑型焊接式板式热交换器（PCHE）"
-                    },
-                    "short_description": {
-                        "en": "Microchannel compact welded plate heat exchanger for high-efficiency heat transfer in advanced energy systems.",
-                        "zh": "面向先进能源系统的微通道高效紧凑型焊接式板式热交换器。"
-                    },
-                    "full_description": {
-                        "en": "The official product page describes PCHE as one of the most efficient and compact new heat exchangers, offering very high safety and stability. It is presented as a microchannel heat exchanger developed for high-efficiency heat transfer systems in micro and small gas turbines, LNG, heat pumps, nuclear power, hydrogen energy, supercritical CO2 power generation, and energy storage applications.",
-                        "zh": "官网介绍显示，PCHE 是一种目前极为高效且紧凑的新型热交换器，具有很高的安全性和稳定性。该产品面向微小型燃机、液化天然气、热泵、核电、氢能、超临界二氧化碳发电以及储能等领域的高效传热系统开发。"
-                    },
-                    "industries": [
-                        "1",
-                        "2",
-                        "4",
-                        "9"
-                    ],
-                    "advantage": {
-                        "en": [
-                            "Officially stated heat transfer efficiency above 98%.",
-                            "Officially stated pressure resistance above 90MPa.",
-                            "Officially stated operating temperature range from -196℃ to 800℃.",
-                            "Officially stated compactness up to 2500 m2/m3."
-                        ],
-                        "zh": [
-                            "官网标注传热效率可达 98% 以上。",
-                            "官网标注承压能力可达 90MPa 以上。",
-                            "官网标注耐温范围为 -196℃ 至 800℃。",
-                            "官网标注紧凑度最高可达 2500 m2/m3。"
-                        ]
-                    },
-                    "technical_parameters": {
-                        "en": {
-                            "Heat Transfer Efficiency": ">98%",
-                            "Pressure Resistance": ">90MPa",
-                            "Temperature Range": "-196 ~ 800℃",
-                            "Compactness": "2500 m2/m3"
-                        },
-                        "zh": {
-                            "传热效率": ">98%",
-                            "承压能力": ">90MPa",
-                            "耐温范围": "-196 ~ 800℃",
-                            "紧凑度": "2500 m2/m3"
-                        }
-                    },
-                    "details": {
-                        "en": [],
-                        "zh": []
-                    },
-                    "video_link": "",
-                    "seo_data": {
-                        "en": {
-                            "meta_title": "Microchannel Compact Welded Plate Heat Exchanger (PCHE)",
-                            "meta_description": "Microchannel compact welded plate heat exchanger for high-efficiency heat transfer in advanced energy systems."
-                        },
-                        "zh": {
-                            "meta_title": "微通道高效紧凑型焊接式板式热交换器（PCHE）",
-                            "meta_description": "面向先进能源系统的微通道高效紧凑型焊接式板式热交换器。"
-                        }
-                    }
-                },
-                "product_assets": [
-                    {
-                        "order": 1,
-                        "asset_type": "gallery_image",
-                        "folder": "product_images",
-                        "file_name": "microchannel_compact_welded_plate_heat_exchanger_pche_1.jpg",
-                        "alt_text": "Microchannel Compact Welded Plate Heat Exchanger PCHE"
-                    }
-                ]
-            },
-            {
-                "product": {
-                    "order": 3,
-                    "slug": "wide-channel-welded-plate-heat-exchanger",
-                    "is_visible": true,
-                    "name": {
-                        "en": "Wide Channel Welded Plate Heat Exchanger",
-                        "zh": "宽通道焊接式板式热交换器"
-                    },
-                    "short_description": {
-                        "en": "Welded wide-gap plate exchanger for viscous media, fibers, and solid particles.",
-                        "zh": "适用于粘稠介质、纤维悬浮物和固体颗粒工况的宽通道焊接式板式热交换器。"
-                    },
-                    "full_description": {
-                        "en": "According to the official product page, the plate uses nest ripple or flat plates as heat transfer elements, and the plate bundle is welded between paired plates. It is designed for sugar, paper making, metallurgy, alcohol, chemical, food, and fuel ethanol processes that handle solid particles, fiber suspensions, and viscous fluids, while aiming to reduce deposition and clogging inside the channel.",
-                        "zh": "根据官网介绍，该产品采用窝状波纹或平板板片作为传热元件，两张板片焊接形成板束，并通过相关结构组装成整机。产品专门用于制糖、造纸、冶金、酒精、化工、食品、燃料乙醇等工艺中处理含固体颗粒、纤维悬浮物和粘稠流体的加热或冷却工况，强调通道顺畅、减少沉积和堵塞。"
-                    },
-                    "industries": [
-                        "5",
-                        "6",
-                        "7"
-                    ],
-                    "advantage": {
-                        "en": [
-                            "Designed for media containing solid particles, fiber suspensions, and viscous fluids.",
-                            "Wide-gap flow channel is intended to stay smooth and reduce clogging.",
-                            "Developed for process heating and cooling in sugar, paper, metallurgy, alcohol, chemical, food, and fuel ethanol service."
-                        ],
-                        "zh": [
-                            "适用于含固体颗粒、纤维悬浮物及粘稠流体的换热工况。",
-                            "宽通道结构强调流道顺畅，减少沉积和堵塞风险。",
-                            "面向制糖、造纸、冶金、酒精、化工、食品、燃料乙醇等行业的工艺加热与冷却应用。"
-                        ]
-                    },
-                    "technical_parameters": {
-                        "en": {
-                            "Design Temperature": "≤450℃",
-                            "Design Pressure": "Vacuum ~ 3.5MPa",
-                            "Assembly Area": "≤1000m2",
-                            "Minimum Temperature Difference": "1℃",
-                            "Plate Thickness": "1.0 ~ 2.0mm"
-                        },
-                        "zh": {
-                            "设计温度": "≤450℃",
-                            "设计压力": "真空 ~ 3.5MPa",
-                            "组装面积": "≤1000m2",
-                            "最小温差": "1℃",
-                            "板片厚度": "1.0 ~ 2.0mm"
-                        }
-                    },
-                    "details": {
-                        "en": [],
-                        "zh": []
-                    },
-                    "video_link": "",
-                    "seo_data": {
-                        "en": {
-                            "meta_title": "Wide Channel Welded Plate Heat Exchanger",
-                            "meta_description": "Welded wide-gap plate exchanger for viscous media, fibers, and solid particles."
-                        },
-                        "zh": {
-                            "meta_title": "宽通道焊接式板式热交换器",
-                            "meta_description": "适用于粘稠介质、纤维悬浮物和固体颗粒工况的宽通道焊接式板式热交换器。"
-                        }
-                    }
-                },
-                "product_assets": [
-                    {
-                        "order": 1,
-                        "asset_type": "gallery_image",
-                        "folder": "product_images",
-                        "file_name": "wide_channel_welded_plate_heat_exchanger_1.jpg",
-                        "alt_text": "Wide Channel Welded Plate Heat Exchanger"
-                    }
-                ]
-            },
-            {
-                "product": {
-                    "order": 4,
-                    "slug": "all-welded-plate-heat-exchanger",
-                    "is_visible": true,
-                    "name": {
-                        "en": "All-Welded Plate Heat Exchanger",
-                        "zh": "全焊式板式热交换器"
-                    },
-                    "short_description": {
-                        "en": "Fully welded plate exchanger installed inside a shell for high-pressure and high-temperature duty.",
-                        "zh": "板束焊接于壳体内部、适用于高压高温工况的全焊式板式热交换器。"
-                    },
-                    "full_description": {
-                        "en": "The official page states that the plate is formed by an automatic production line and the plate bundles are welded by a dedicated program-controlled automatic welding machine. All plate bundles are welded inside the shell, and the cover plate can be opened for mechanical cleaning. The product is positioned as a compact and efficient alternative to shell-and-tube heat exchangers for central heating, metallurgy, petrochemical, chemical, electric power, medicine, food, and related service.",
-                        "zh": "官网介绍显示，该产品板片由全自动生产线压制成型，板束间采用专用程控自动焊机焊接，全部板束焊接在壳体内，并可打开盖板进行机械清洗。产品兼具板式换热器的高效传热与结构紧凑优势，以及管壳式换热器耐高压、耐高温特性，可用于集中供热、冶金、石化、化工、电力、医药、食品等行业。"
-                    },
-                    "industries": [
-                        "1",
-                        "2",
-                        "6",
-                        "7",
-                        "8",
-                        "9"
-                    ],
-                    "advantage": {
-                        "en": [
-                            "Plate bundles are fully welded inside the shell.",
-                            "Cover plate can be opened for mechanical cleaning.",
-                            "Flow channel structure is intended to prevent medium leakage and fluid crossover.",
-                            "Combines compact structure and high heat transfer efficiency with higher pressure and temperature resistance."
-                        ],
-                        "zh": [
-                            "板束全部焊接于壳体内部。",
-                            "盖板可打开，便于机械清洗流道。",
-                            "特殊流道结构强调防止串液和外漏。",
-                            "兼具结构紧凑、高传热效率以及耐高压耐高温特性。"
-                        ]
-                    },
-                    "technical_parameters": {
-                        "en": {
-                            "Design Pressure": "Vacuum ~ 6.0MPa",
-                            "Assembly Area": "≤6000m2",
-                            "Minimum Temperature Difference": "1℃",
-                            "Plate Thickness": "0.5 ~ 1.2mm"
-                        },
-                        "zh": {
-                            "设计压力": "真空 ~ 6.0MPa",
-                            "组装面积": "≤6000m2",
-                            "最小温差": "1℃",
-                            "板片厚度": "0.5 ~ 1.2mm"
-                        }
-                    },
-                    "details": {
-                        "en": [],
-                        "zh": []
-                    },
-                    "video_link": "",
-                    "seo_data": {
-                        "en": {
-                            "meta_title": "All-Welded Plate Heat Exchanger",
-                            "meta_description": "Fully welded plate exchanger installed inside a shell for high-pressure and high-temperature duty."
-                        },
-                        "zh": {
-                            "meta_title": "全焊式板式热交换器",
-                            "meta_description": "板束焊接于壳体内部、适用于高压高温工况的全焊式板式热交换器。"
-                        }
-                    }
-                },
-                "product_assets": [
-                    {
-                        "order": 1,
-                        "asset_type": "gallery_image",
-                        "folder": "product_images",
-                        "file_name": "all_welded_plate_heat_exchanger_1.jpg",
-                        "alt_text": "All-Welded Plate Heat Exchanger"
-                    }
-                ]
-            },
-            {
-                "product": {
-                    "order": 5,
-                    "slug": "detachable-plate-heat-exchanger",
-                    "is_visible": true,
-                    "name": {
-                        "en": "Detachable Plate Heat Exchanger",
-                        "zh": "可拆式板式热交换器"
-                    },
-                    "short_description": {
-                        "en": "Gasketed detachable plate exchanger for heating, cooling, evaporation, condensation, sterilization, and heat recovery.",
-                        "zh": "适用于加热、冷却、蒸发、冷凝、灭菌及余热回收的可拆式板式热交换器。"
-                    },
-                    "full_description": {
-                        "en": "The official page describes this product as a heat exchanger assembled from multiple heat exchange plates sealed by gaskets and compressed by clamping bolts. The corner holes form continuous channels that distribute media between alternating plates so that two fluids can flow in counter-current arrangement. The product is presented for central heating, air conditioning, nuclear power, metallurgy, petroleum, chemical industry, shipping, medicine, food, paper, textile, and other process conditions including heating, cooling, evaporation, condensation, sterilization, and waste heat recovery.",
-                        "zh": "官网介绍显示，该产品由多张换热板片组成，四周通过密封垫片密封，并由夹紧螺柱压紧；角孔形成连续流道，使两种介质在相邻板片间逆流流动并进行换热。产品适用于集中供热、空调、核电、冶金、石油、化工、船舶、医药、食品、造纸、纺织等行业，可用于加热、冷却、蒸发、冷凝、灭菌及余热回收等工况。"
-                    },
-                    "industries": [
-                        "1",
-                        "2",
-                        "3",
-                        "6",
-                        "7",
-                        "8",
-                        "9"
-                    ],
-                    "advantage": {
-                        "en": [
-                            "Alternating plate channels enable counter-current heat transfer between two media.",
-                            "Detachable gasketed construction supports servicing and inspection.",
-                            "Suitable for multiple process duties including heating, cooling, evaporation, condensation, sterilization, and waste heat recovery.",
-                            "Officially listed for broad use across central heating, air conditioning, marine, petroleum, chemical, medicine, and food applications."
-                        ],
-                        "zh": [
-                            "相邻板片形成交替流道，可实现两种介质逆流换热。",
-                            "可拆式密封垫结构便于维护和检修。",
-                            "适用于加热、冷却、蒸发、冷凝、灭菌和余热回收等多种工艺。",
-                            "官网列示其应用覆盖供热、空调、船舶、石油、化工、医药、食品等多个领域。"
-                        ]
-                    },
-                    "technical_parameters": {
-                        "en": {
-                            "Design Pressure": "0.6 ~ 2.5MPa",
-                            "Design Temperature": "-40 ~ 180℃",
-                            "Plate Thickness": "0.4 ~ 1.0mm",
-                            "Single Plate Area": "0.03 ~ 3.65m2",
-                            "Port Diameter": "DN32 ~ DN500",
-                            "Assembly Area": "3800m2",
-                            "Maximum Capacity": "4200m3/h"
-                        },
-                        "zh": {
-                            "设计压力": "0.6 ~ 2.5MPa",
-                            "设计温度": "-40 ~ 180℃",
-                            "板片厚度": "0.4 ~ 1.0mm",
-                            "单板面积": "0.03 ~ 3.65m2",
-                            "接口口径": "DN32 ~ DN500",
-                            "组装面积": "3800m2",
-                            "最大处理量": "4200m3/h"
-                        }
-                    },
-                    "details": {
-                        "en": [],
-                        "zh": []
-                    },
-                    "video_link": "",
-                    "seo_data": {
-                        "en": {
-                            "meta_title": "Detachable Plate Heat Exchanger",
-                            "meta_description": "Gasketed detachable plate exchanger for heating, cooling, evaporation, condensation, sterilization, and heat recovery."
-                        },
-                        "zh": {
-                            "meta_title": "可拆式板式热交换器",
-                            "meta_description": "适用于加热、冷却、蒸发、冷凝、灭菌及余热回收的可拆式板式热交换器。"
-                        }
-                    }
-                },
-                "product_assets": [
-                    {
-                        "order": 1,
-                        "asset_type": "gallery_image",
-                        "folder": "product_images",
-                        "file_name": "detachable_plate_heat_exchanger_1.jpg",
-                        "alt_text": "Detachable Plate Heat Exchanger"
-                    }
-                ]
-            },
-            {
-                "product": {
-                    "order": 6,
-                    "slug": "plate-heat-exchanger-unit",
-                    "is_visible": true,
-                    "name": {
-                        "en": "Plate Heat Exchanger Unit",
-                        "zh": "板式热交换机组"
-                    },
-                    "short_description": {
-                        "en": "Integrated heat exchange skid combining plate heat exchanger, pump, valves, instruments, and controls.",
-                        "zh": "集板式换热器、水泵、阀门、仪表和控制系统于一体的成套换热设备。"
-                    },
-                    "full_description": {
-                        "en": "The official product page presents this unit as a complete set of heat exchange equipment integrating a plate heat exchanger, water pump, valves, instruments, and control system. It can be configured with sensors, controllers, electric actuators, remote communication control, heat flow measurement, water treatment, and softened water tank accessories to support steam-water, water-water, and oil-water heat exchange duty.",
-                        "zh": "官网介绍显示，该产品是集板式换热器、水泵、阀门、仪表及控制系统于一体的成套换热设备。机组可根据用户需求配置传感器、控制器、电动执行机构、远程通讯、热量计量、水处理及软化水箱等附属系统，适用于汽-水、水-水、油-水等换热工况。"
-                    },
-                    "industries": [
-                        "1",
-                        "3",
-                        "4"
-                    ],
-                    "advantage": {
-                        "en": [
-                            "Integrates plate heat exchanger, pump, valves, instruments, and control system in one unit.",
-                            "Supports configurable sensors, controllers, electric actuators, and remote communication control.",
-                            "Optional systems include heat metering, water treatment, and softened water tank equipment.",
-                            "Officially listed control functions include frequency conversion, constant temperature and pressure supply, auto-start, interlock protection, and on-site data display."
-                        ],
-                        "zh": [
-                            "将板式换热器、水泵、阀门、仪表与控制系统集成为一体。",
-                            "可按需配置传感器、控制器、电动执行机构和远程通讯控制。",
-                            "可加装热量计量、水处理和软化水箱等附属系统。",
-                            "官网列示功能包括变频控制、恒温恒压供给、自启动、联锁保护和就地数据展示。"
-                        ]
-                    },
-                    "technical_parameters": {
-                        "en": {},
-                        "zh": {}
-                    },
-                    "details": {
-                        "en": [],
-                        "zh": []
-                    },
-                    "video_link": "",
-                    "seo_data": {
-                        "en": {
-                            "meta_title": "Plate Heat Exchanger Unit",
-                            "meta_description": "Integrated heat exchange skid combining plate heat exchanger, pump, valves, instruments, and controls."
-                        },
-                        "zh": {
-                            "meta_title": "板式热交换机组",
-                            "meta_description": "集板式换热器、水泵、阀门、仪表和控制系统于一体的成套换热设备。"
-                        }
-                    }
-                },
-                "product_assets": [
-                    {
-                        "order": 1,
-                        "asset_type": "gallery_image",
-                        "folder": "product_images",
-                        "file_name": "plate_heat_exchanger_unit_1.jpg",
-                        "alt_text": "Plate Heat Exchanger Unit"
-                    }
-                ]
-            },
-            {
-                "product": {
-                    "order": 7,
-                    "slug": "plate-and-shell-heat-exchanger",
-                    "is_visible": true,
-                    "name": {
-                        "en": "Plate and Shell Heat Exchanger",
-                        "zh": "板壳式热交换器"
-                    },
-                    "short_description": {
-                        "en": "Compact high-efficiency shell-and-plate exchanger for refinery, petrochemical, and gas processing service.",
-                        "zh": "面向炼油、石化和气体处理工况的紧凑高效板壳式热交换器。"
-                    },
-                    "full_description": {
-                        "en": "The official product page describes this model as an advanced high-efficiency and energy-saving heat exchanger that uses corrugated plates as heat transfer elements, consisting of an internal welded plate bundle and an external shell. It is presented for catalytic reforming, xylene isomerization, toluene disproportionation, propane and propylene condensation, amine solution heat exchange, and other liquid-liquid, vapor-liquid, gas-liquid, and gas-gas processes in oil refining, petrochemical, and gas processing industries.",
-                        "zh": "官网介绍显示，该产品采用波纹板片作为传热元件，由内部焊接板束和外部壳体组成，是一种高效节能型板壳式热交换器。其应用工况包括炼油、石油化工及气体处理行业中的催化重整、二甲苯异构化、甲苯歧化、丙烷/丙烯冷凝、胺液换热以及多种液液、汽液、气液和气气换热过程。"
-                    },
-                    "industries": [
-                        "2",
-                        "4",
-                        "6"
-                    ],
-                    "advantage": {
-                        "en": [
-                            "Combines the compactness and efficiency of plate heat exchangers with shell-side pressure and temperature resistance.",
-                            "Gasket-free welded structure is presented for high-temperature and high-pressure duty.",
-                            "Official page highlights lower weight and smaller size than shell-and-tube alternatives."
-                        ],
-                        "zh": [
-                            "兼具板式换热器的紧凑高效和壳体设备的耐压耐温特性。",
-                            "无密封垫焊接结构适用于高温高压工况。",
-                            "官网强调其相较管壳式换热器更轻、更小，可节约空间。"
-                        ]
-                    },
-                    "technical_parameters": {
-                        "en": {
-                            "Design Temperature": "≤580℃",
-                            "Design Pressure": "≤6.0MPa",
-                            "Assembly Area": "≤20000m2",
-                            "Plate Thickness": "0.7 ~ 1.2mm",
-                            "Minimum Temperature Difference": "1℃",
-                            "Plate Material": "304, 316L, 321, 254SMO, etc."
-                        },
-                        "zh": {
-                            "设计温度": "≤580℃",
-                            "设计压力": "≤6.0MPa",
-                            "组装面积": "≤20000m2",
-                            "板片厚度": "0.7 ~ 1.2mm",
-                            "最小温差": "1℃",
-                            "板片材质": "304, 316L, 321, 254SMO 等"
-                        }
-                    },
-                    "details": {
-                        "en": [],
-                        "zh": []
-                    },
-                    "video_link": "",
-                    "seo_data": {
-                        "en": {
-                            "meta_title": "Plate and Shell Heat Exchanger",
-                            "meta_description": "Compact high-efficiency shell-and-plate exchanger for refinery, petrochemical, and gas processing service."
-                        },
-                        "zh": {
-                            "meta_title": "板壳式热交换器",
-                            "meta_description": "面向炼油、石化和气体处理工况的紧凑高效板壳式热交换器。"
-                        }
-                    }
-                },
-                "product_assets": [
-                    {
-                        "order": 1,
-                        "asset_type": "gallery_image",
-                        "folder": "product_images",
-                        "file_name": "plate_and_shell_heat_exchanger_1.jpg",
-                        "alt_text": "Plate and Shell Heat Exchanger"
-                    }
-                ]
-            },
-            {
-                "product": {
-                    "order": 8,
-                    "slug": "round-shell-heat-exchanger",
-                    "is_visible": true,
-                    "name": {
-                        "en": "Round Shell Heat Exchanger",
-                        "zh": "圆壳式热交换器"
-                    },
-                    "short_description": {
-                        "en": "Round-shell welded plate exchanger combining plate efficiency with shell-and-tube pressure resistance.",
-                        "zh": "兼具板式高效与管壳耐压特性的圆壳式焊接板式热交换器。"
-                    },
-                    "full_description": {
-                        "en": "According to the official English product page, this heat exchanger is assembled from welded plates, shell, and beam flange components so that cold and hot media flow alternately inside the equipment. It is presented as keeping the high efficiency and compact structure of a plate heat exchanger while also providing the high-temperature and high-pressure resistance associated with shell-and-tube equipment for petroleum, chemical, electric power, pharmaceutical, metallurgy, refrigeration, and related industries.",
-                        "zh": "根据官网英文产品页介绍，该产品由焊接板片、壳体和梁法兰等部件组成，使冷热介质在设备内部交替流动。其定位是在保持板式换热器高效传热和结构紧凑优势的同时，具备类似管壳设备的耐高温、耐高压能力，可用于石油、化工、电力、制药、冶金、制冷等行业。"
-                    },
-                    "industries": [
-                        "1",
-                        "2",
-                        "6",
-                        "8",
-                        "9"
-                    ],
-                    "advantage": {
-                        "en": [
-                            "Keeps the high heat transfer efficiency of plate heat exchangers.",
-                            "Maintains a compact structure for process installations with limited space.",
-                            "Adds higher temperature and pressure resistance associated with shell-and-tube duty."
-                        ],
-                        "zh": [
-                            "保持板式换热器高传热效率的优势。",
-                            "结构紧凑，适合空间受限的工艺安装。",
-                            "兼具更高的耐温耐压能力。"
-                        ]
-                    },
-                    "technical_parameters": {
-                        "en": {
-                            "Design Temperature": "-200 ~ 400℃",
-                            "Design Pressure": "Vacuum ~ 10MPa",
-                            "Assembly Area": "≤95m2",
-                            "Minimum Temperature Difference": "2℃",
-                            "Plate Thickness": "0.5 ~ 1.2mm"
-                        },
-                        "zh": {
-                            "设计温度": "-200 ~ 400℃",
-                            "设计压力": "真空 ~ 10MPa",
-                            "组装面积": "≤95m2",
-                            "最小温差": "2℃",
-                            "板片厚度": "0.5 ~ 1.2mm"
-                        }
-                    },
-                    "details": {
-                        "en": [],
-                        "zh": []
-                    },
-                    "video_link": "",
-                    "seo_data": {
-                        "en": {
-                            "meta_title": "Round Shell Heat Exchanger",
-                            "meta_description": "Round-shell welded plate exchanger combining plate efficiency with shell-and-tube pressure resistance."
-                        },
-                        "zh": {
-                            "meta_title": "圆壳式热交换器",
-                            "meta_description": "兼具板式高效与管壳耐压特性的圆壳式焊接板式热交换器。"
-                        }
-                    }
-                },
-                "product_assets": [
-                    {
-                        "order": 1,
-                        "asset_type": "gallery_image",
-                        "folder": "product_images",
-                        "file_name": "round_shell_heat_exchanger_1.jpg",
-                        "alt_text": "Round Shell Heat Exchanger"
-                    }
-                ]
-            }
+        "zh": [
+          "兰州兰石换热设备有限责任公司成立于2002年，由原兰州石油化工机器总厂板式换热器厂改制而来，是上市公司兰石重装公司下属的专业从事板式热交换器研发、设计、生产和工程服务的子公司。",
+          "公司也是 GB16409-1996《板式换热器》、GB/T28185-2011《城镇供热用换热机组》以及建设部行业标准 CJ/T191-2004《板式换热机组》的起草单位之一。产品主要应用于节能环保、核电、航空航天、石油化工、暖通空调、船舶、冶金、生物能源、电力、制药、纺织、造纸、食品等领域。",
+          "公司技术渊源可追溯到1965年中国第一台板式热交换器的研制。官网介绍显示，60年来公司先后研发成功100多种系列热交换器产品，在全焊式板式热交换器、宽通道焊接式板式热交换器、核电用大型板式热交换器、H350系列高承压大型板式热交换器、微通道高效紧凑型焊接式板式热交换器（PCHE）、核电用大型深波纹板式热交换器、模块化大型空气预热器以及液态空气储能领域用全焊接板式热交换器等方向取得多项国内和行业首创成果。",
+          "2014年公司整体搬迁至兰州新区后，生产作业面积扩大到53万余平方米，新增设备近200台套。官网同时提到公司产品出口至俄罗斯、芬兰、斯里兰卡、巴基斯坦、蒙古、越南等众多国家和地区。",
+          "公司官网表示，其已取得 ISO14001 环境管理体系、职业健康安全体系、ASME、压力容器、核质保体系、安全注册管理体系等相关资质，并可按照国家及行业标准、美国 ASME 及欧洲 PED 等标准进行设计和制造。"
         ]
-    }
+      },
+      "advantages": {
+        "en": [
+          "Dedicated plate heat exchanger specialist under Lanshi Heavy Equipment with in-house R&D, design, manufacturing, and engineering service capability.",
+          "One of the drafting units for major Chinese standards covering plate heat exchangers and urban heating heat exchange units.",
+          "Technical heritage linked to China’s first plate heat exchanger development and more than 100 heat exchanger series developed over 60 years.",
+          "Large manufacturing base in Lanzhou New Area with more than 530,000 square meters of production area and nearly 200 additional equipment sets after relocation.",
+          "Broad industry coverage across petrochemical, HVAC, marine, bio-energy, pharmaceuticals, food, nuclear power, aerospace, and power-related applications.",
+          "Officially listed qualifications include nuclear safety licenses, product safety registration, management system certificates, ASME-related qualifications, and pressure-vessel capabilities."
+        ],
+        "zh": [
+          "依托兰石重装平台，具备板式换热器研发、设计、制造与工程服务的一体化能力。",
+          "是板式换热器及城镇供热换热机组等多项国家和行业标准的起草单位之一。",
+          "技术积累可追溯至中国第一台板式热交换器的研制，60年来已形成100多种系列热交换器产品。",
+          "兰州新区制造基地生产作业面积超过53万平方米，搬迁后新增近200台套设备。",
+          "产品覆盖石油化工、暖通、船舶、生物能源、制药、食品、核电、航空航天、电力等多个行业应用。",
+          "官网展示了民用核安全许可证、板式热交换器产品安全注册证、管理体系证书、ASME相关资质及压力容器能力。"
+        ]
+      },
+      "website": "http://lsphe.lansland.com/sites/Satellite?c=Page&d=&rendermode=preview&cid=1484715242166&pagename=LS_ENHT%2FPage%2FLSHTIndex",
+      "video_link": "",
+      "social_media_links": [],
+      "email": [
+        "lspheinfo@lansland.com"
+      ],
+      "phone": [
+        "0931-2354209",
+        "400-855-3000"
+      ],
+      "country_id": "CN",
+      "country_name": {
+        "en": "China",
+        "zh": "中国"
+      },
+      "city": {
+        "en": "Lanzhou",
+        "zh": "兰州"
+      },
+      "address": {
+        "en": "No. 520, West Section of Huanghe Avenue, Lanzhou New District, Lanzhou City, Gansu Province, China",
+        "zh": "甘肃省兰州市兰州新区黄河大道西段520号"
+      },
+      "established_year": "2002",
+      "factory_area": "530000m2",
+      "employee_count": "",
+      "industries": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "export_markets": [
+        "RU",
+        "FI",
+        "LK",
+        "PK",
+        "MN",
+        "VN"
+      ],
+      "is_visible": true,
+      "seo_data": {
+        "meta_title": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd. | Plate Heat Exchanger Manufacturer",
+        "meta_description": "Lanzhou-based manufacturer of plate heat exchangers, welded heat exchangers, PCHE systems, and heat exchange units for industrial applications."
+      }
+    },
+    "company_assets": [
+      {
+        "order": 1,
+        "asset_type": "certificate",
+        "folder": "company_certifications",
+        "file_name": "plate_heat_exchanger_safety_registration_certificate.jpg",
+        "alt_text": "Plate Heat Exchanger Safety Registration Certificate"
+      },
+      {
+        "order": 1,
+        "asset_type": "logo",
+        "folder": "company_customers",
+        "file_name": "shougang_group.jpg",
+        "alt_text": "Shougang Group Customer Logo"
+      },
+      {
+        "order": 2,
+        "asset_type": "logo",
+        "folder": "company_customers",
+        "file_name": "daikin.jpg",
+        "alt_text": "Daikin Customer Logo"
+      },
+      {
+        "order": 3,
+        "asset_type": "logo",
+        "folder": "company_customers",
+        "file_name": "sinopec.jpg",
+        "alt_text": "Sinopec Customer Logo"
+      },
+      {
+        "order": 4,
+        "asset_type": "logo",
+        "folder": "company_customers",
+        "file_name": "cnooc.jpg",
+        "alt_text": "CNOOC Customer Logo"
+      },
+      {
+        "order": 5,
+        "asset_type": "logo",
+        "folder": "company_customers",
+        "file_name": "cnnc.jpg",
+        "alt_text": "CNNC Customer Logo"
+      },
+      {
+        "order": 1,
+        "asset_type": "media",
+        "folder": "company_images",
+        "file_name": "lanshi_lanzhou_new_area_factory_gate.jpg",
+        "alt_text": "Lanzhou Lanshi Heat Exchange Lanzhou New Area Factory Gate"
+      }
+    ],
+    "products": [
+      {
+        "product": {
+          "order": 1,
+          "slug": "ls-bloc-welded-plate-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "LS-BLOC Welded Plate Heat Exchanger",
+            "zh": "LS-BLOC焊接式板式热交换器"
+          },
+          "short_description": {
+            "en": "Hexahedron removable all-welded plate exchanger for high-pressure and high-temperature process duty.",
+            "zh": "采用六面体可拆卸结构、适用于高温高压工况的焊接板式换热器。"
+          },
+          "full_description": {
+            "en": "This product uses an all-welded plate pack with a hexahedron detachable structure so that the equipment can meet mechanical and chemical cleaning requirements. According to the official product page, it retains the high heat transfer efficiency and compact structure of a traditional plate heat exchanger while allowing use under higher pressure and temperature conditions in petroleum, chemical, electric power, pharmaceutical, metallurgy, and refrigeration service.",
+            "zh": "该产品采用全焊接板束设计，壳体为六面体可拆卸结构，可满足设备内部机械清洗和化学清洗需求。官网介绍显示，该产品既保持了传统板式换热器传热效率高、结构紧凑的优点，又可在更高压力和温度条件下使用，适用于石油、化工、电力、制药、冶金、制冷等行业。"
+          },
+          "industries": [
+            "2",
+            "6",
+            "8",
+            "9"
+          ],
+          "advantage": {
+            "en": [
+              "Hexahedron detachable structure supports mechanical and chemical cleaning inside the equipment.",
+              "Keeps the high heat transfer efficiency and compact structure of a plate heat exchanger.",
+              "Suitable for higher pressure and temperature conditions than conventional detachable plate equipment."
+            ],
+            "zh": [
+              "六面体可拆卸结构便于设备内部进行机械清洗和化学清洗。",
+              "兼具板式换热器高传热效率和结构紧凑的特点。",
+              "可在更高压力和温度条件下使用，适合更严苛工况。"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Design Temperature": "-200 ~ 350℃",
+              "Design Pressure": "Vacuum ~ 3.2MPa",
+              "Assembly Area": "≤2500㎡",
+              "Minimum Temperature Difference": "2℃"
+            },
+            "zh": {
+              "设计温度": "-200 ~ 350℃",
+              "设计压力": "真空 ~ 3.2MPa",
+              "组装面积": "≤2500㎡",
+              "最小温差": "2℃"
+            }
+          },
+          "details": {
+            "en": [],
+            "zh": []
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "LS-BLOC Welded Plate Heat Exchanger",
+              "meta_description": "Hexahedron removable all-welded plate exchanger for high-pressure and high-temperature process duty."
+            },
+            "zh": {
+              "meta_title": "LS-BLOC焊接式板式热交换器",
+              "meta_description": "采用六面体可拆卸结构、适用于高温高压工况的焊接板式换热器。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "ls_bloc_welded_plate_heat_exchanger_1.png",
+            "alt_text": "LS-BLOC Welded Plate Heat Exchanger"
+          },
+          {
+            "order": 2,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "plate_and_frame_heat_exchanger_1.jpg",
+            "alt_text": "LS-BLOC Welded Plate Heat Exchanger"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 2,
+          "slug": "microchannel-compact-welded-plate-heat-exchanger-pche",
+          "is_visible": true,
+          "name": {
+            "en": "Microchannel Compact Welded Plate Heat Exchanger (PCHE)",
+            "zh": "微通道高效紧凑型焊接式板式热交换器（PCHE）"
+          },
+          "short_description": {
+            "en": "Microchannel compact welded plate heat exchanger for high-efficiency heat transfer in advanced energy systems.",
+            "zh": "面向先进能源系统的微通道高效紧凑型焊接式板式热交换器。"
+          },
+          "full_description": {
+            "en": "The official product page describes PCHE as one of the most efficient and compact new heat exchangers, offering very high safety and stability. It is presented as a microchannel heat exchanger developed for high-efficiency heat transfer systems in micro and small gas turbines, LNG, heat pumps, nuclear power, hydrogen energy, supercritical CO2 power generation, and energy storage applications.",
+            "zh": "官网介绍显示，PCHE 是一种目前极为高效且紧凑的新型热交换器，具有很高的安全性和稳定性。该产品面向微小型燃机、液化天然气、热泵、核电、氢能、超临界二氧化碳发电以及储能等领域的高效传热系统开发。"
+          },
+          "industries": [
+            "1",
+            "2",
+            "4",
+            "9"
+          ],
+          "advantage": {
+            "en": [
+              "Officially stated heat transfer efficiency above 98%.",
+              "Officially stated pressure resistance above 90MPa.",
+              "Officially stated operating temperature range from -196℃ to 800℃.",
+              "Officially stated compactness up to 2500 m2/m3."
+            ],
+            "zh": [
+              "官网标注传热效率可达 98% 以上。",
+              "官网标注承压能力可达 90MPa 以上。",
+              "官网标注耐温范围为 -196℃ 至 800℃。",
+              "官网标注紧凑度最高可达 2500 m2/m3。"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Heat Transfer Efficiency": ">98%",
+              "Pressure Resistance": ">90MPa",
+              "Temperature Range": "-196 ~ 800℃",
+              "Compactness": "2500 m2/m3"
+            },
+            "zh": {
+              "传热效率": ">98%",
+              "承压能力": ">90MPa",
+              "耐温范围": "-196 ~ 800℃",
+              "紧凑度": "2500 m2/m3"
+            }
+          },
+          "details": {
+            "en": [],
+            "zh": []
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Microchannel Compact Welded Plate Heat Exchanger (PCHE)",
+              "meta_description": "Microchannel compact welded plate heat exchanger for high-efficiency heat transfer in advanced energy systems."
+            },
+            "zh": {
+              "meta_title": "微通道高效紧凑型焊接式板式热交换器（PCHE）",
+              "meta_description": "面向先进能源系统的微通道高效紧凑型焊接式板式热交换器。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "microchannel_compact_welded_plate_heat_exchanger_pche_1.jpg",
+            "alt_text": "Microchannel Compact Welded Plate Heat Exchanger PCHE"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 3,
+          "slug": "wide-channel-welded-plate-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "Wide Channel Welded Plate Heat Exchanger",
+            "zh": "宽通道焊接式板式热交换器"
+          },
+          "short_description": {
+            "en": "Welded wide-gap plate exchanger for viscous media, fibers, and solid particles.",
+            "zh": "适用于粘稠介质、纤维悬浮物和固体颗粒工况的宽通道焊接式板式热交换器。"
+          },
+          "full_description": {
+            "en": "According to the official product page, the plate uses nest ripple or flat plates as heat transfer elements, and the plate bundle is welded between paired plates. It is designed for sugar, paper making, metallurgy, alcohol, chemical, food, and fuel ethanol processes that handle solid particles, fiber suspensions, and viscous fluids, while aiming to reduce deposition and clogging inside the channel.",
+            "zh": "根据官网介绍，该产品采用窝状波纹或平板板片作为传热元件，两张板片焊接形成板束，并通过相关结构组装成整机。产品专门用于制糖、造纸、冶金、酒精、化工、食品、燃料乙醇等工艺中处理含固体颗粒、纤维悬浮物和粘稠流体的加热或冷却工况，强调通道顺畅、减少沉积和堵塞。"
+          },
+          "industries": [
+            "5",
+            "6",
+            "7"
+          ],
+          "advantage": {
+            "en": [
+              "Designed for media containing solid particles, fiber suspensions, and viscous fluids.",
+              "Wide-gap flow channel is intended to stay smooth and reduce clogging.",
+              "Developed for process heating and cooling in sugar, paper, metallurgy, alcohol, chemical, food, and fuel ethanol service."
+            ],
+            "zh": [
+              "适用于含固体颗粒、纤维悬浮物及粘稠流体的换热工况。",
+              "宽通道结构强调流道顺畅，减少沉积和堵塞风险。",
+              "面向制糖、造纸、冶金、酒精、化工、食品、燃料乙醇等行业的工艺加热与冷却应用。"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Design Temperature": "≤450℃",
+              "Design Pressure": "Vacuum ~ 3.5MPa",
+              "Assembly Area": "≤3000m2",
+              "Minimum Temperature Difference": "1℃",
+              "Plate Thickness": "1.0 ~ 2.0mm"
+            },
+            "zh": {
+              "设计温度": "≤450℃",
+              "设计压力": "真空 ~ 3.5MPa",
+              "组装面积": "≤3000m2",
+              "最小温差": "1℃",
+              "板片厚度": "1.0 ~ 2.0mm"
+            }
+          },
+          "details": {
+            "en": [],
+            "zh": []
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Wide Channel Welded Plate Heat Exchanger",
+              "meta_description": "Welded wide-gap plate exchanger for viscous media, fibers, and solid particles."
+            },
+            "zh": {
+              "meta_title": "宽通道焊接式板式热交换器",
+              "meta_description": "适用于粘稠介质、纤维悬浮物和固体颗粒工况的宽通道焊接式板式热交换器。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "wide_channel_welded_plate_heat_exchanger_1.jpg",
+            "alt_text": "Wide Channel Welded Plate Heat Exchanger"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 4,
+          "slug": "all-welded-plate-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "All-Welded Plate Heat Exchanger",
+            "zh": "全焊式板式热交换器"
+          },
+          "short_description": {
+            "en": "Fully welded plate exchanger installed inside a shell for high-pressure and high-temperature duty.",
+            "zh": "板束焊接于壳体内部、适用于高压高温工况的全焊式板式热交换器。"
+          },
+          "full_description": {
+            "en": "The official page states that the plate is formed by an automatic production line and the plate bundles are welded by a dedicated program-controlled automatic welding machine. All plate bundles are welded inside the shell, and the cover plate can be opened for mechanical cleaning. The product is positioned as a compact and efficient alternative to shell-and-tube heat exchangers for central heating, metallurgy, petrochemical, chemical, electric power, medicine, food, and related service.",
+            "zh": "官网介绍显示，该产品板片由全自动生产线压制成型，板束间采用专用程控自动焊机焊接，全部板束焊接在壳体内，并可打开盖板进行机械清洗。产品兼具板式换热器的高效传热与结构紧凑优势，以及管壳式换热器耐高压、耐高温特性，可用于集中供热、冶金、石化、化工、电力、医药、食品等行业。"
+          },
+          "industries": [
+            "1",
+            "2",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "advantage": {
+            "en": [
+              "Plate bundles are fully welded inside the shell.",
+              "Cover plate can be opened for mechanical cleaning.",
+              "Flow channel structure is intended to prevent medium leakage and fluid crossover.",
+              "Combines compact structure and high heat transfer efficiency with higher pressure and temperature resistance."
+            ],
+            "zh": [
+              "板束全部焊接于壳体内部。",
+              "盖板可打开，便于机械清洗流道。",
+              "特殊流道结构强调防止串液和外漏。",
+              "兼具结构紧凑、高传热效率以及耐高压耐高温特性。"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Design Temperature": "-200 ~ 900℃",
+              "Design Pressure": "Vacuum ~ 6.0MPa",
+              "Assembly Area": "≤30000m2",
+              "Minimum Temperature Difference": "1℃",
+              "Plate Thickness": "0.5 ~ 1.2mm"
+            },
+            "zh": {
+              "设计温度": "-200 ~ 900℃",
+              "设计压力": "真空 ~ 6.0MPa",
+              "组装面积": "≤30000m2",
+              "最小温差": "1℃",
+              "板片厚度": "0.5 ~ 1.2mm"
+            }
+          },
+          "details": {
+            "en": [],
+            "zh": []
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "All-Welded Plate Heat Exchanger",
+              "meta_description": "Fully welded plate exchanger installed inside a shell for high-pressure and high-temperature duty."
+            },
+            "zh": {
+              "meta_title": "全焊式板式热交换器",
+              "meta_description": "板束焊接于壳体内部、适用于高压高温工况的全焊式板式热交换器。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "all_welded_plate_heat_exchanger_1.jpg",
+            "alt_text": "All-Welded Plate Heat Exchanger"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 5,
+          "slug": "detachable-plate-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "Detachable Plate Heat Exchanger",
+            "zh": "可拆式板式热交换器"
+          },
+          "short_description": {
+            "en": "Gasketed detachable plate exchanger for heating, cooling, evaporation, condensation, sterilization, and heat recovery.",
+            "zh": "适用于加热、冷却、蒸发、冷凝、灭菌及余热回收的可拆式板式热交换器。"
+          },
+          "full_description": {
+            "en": "The official page describes this product as a heat exchanger assembled from multiple heat exchange plates sealed by gaskets and compressed by clamping bolts. The corner holes form continuous channels that distribute media between alternating plates so that two fluids can flow in counter-current arrangement. The product is presented for central heating, air conditioning, nuclear power, metallurgy, petroleum, chemical industry, shipping, medicine, food, paper, textile, and other process conditions including heating, cooling, evaporation, condensation, sterilization, and waste heat recovery.",
+            "zh": "官网介绍显示，该产品由多张换热板片组成，四周通过密封垫片密封，并由夹紧螺柱压紧；角孔形成连续流道，使两种介质在相邻板片间逆流流动并进行换热。产品适用于集中供热、空调、核电、冶金、石油、化工、船舶、医药、食品、造纸、纺织等行业，可用于加热、冷却、蒸发、冷凝、灭菌及余热回收等工况。"
+          },
+          "industries": [
+            "1",
+            "2",
+            "3",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "advantage": {
+            "en": [
+              "Alternating plate channels enable counter-current heat transfer between two media.",
+              "Detachable gasketed construction supports servicing and inspection.",
+              "Suitable for multiple process duties including heating, cooling, evaporation, condensation, sterilization, and waste heat recovery.",
+              "Officially listed for broad use across central heating, air conditioning, marine, petroleum, chemical, medicine, and food applications."
+            ],
+            "zh": [
+              "相邻板片形成交替流道，可实现两种介质逆流换热。",
+              "可拆式密封垫结构便于维护和检修。",
+              "适用于加热、冷却、蒸发、冷凝、灭菌和余热回收等多种工艺。",
+              "官网列示其应用覆盖供热、空调、船舶、石油、化工、医药、食品等多个领域。"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Design Pressure": "0.6 ~ 2.5MPa",
+              "Design Temperature": "-40 ~ 180℃",
+              "Plate Thickness": "0.4 ~ 1.0mm",
+              "Single Plate Area": "0.03 ~ 4.15m2",
+              "Port Diameter": "DN32 ~ DN650",
+              "Assembly Area": "≤5000m2",
+              "Maximum Capacity": "5000m3/h"
+            },
+            "zh": {
+              "设计压力": "0.6 ~ 2.5MPa",
+              "设计温度": "-40 ~ 180℃",
+              "板片厚度": "0.4 ~ 1.0mm",
+              "单板面积": "0.03 ~ 4.15m2",
+              "接管直径": "DN32 ~ DN650",
+              "组装面积": "≤5000m2",
+              "最大处理量": "5000m3/h"
+            }
+          },
+          "details": {
+            "en": [],
+            "zh": []
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Detachable Plate Heat Exchanger",
+              "meta_description": "Gasketed detachable plate exchanger for heating, cooling, evaporation, condensation, sterilization, and heat recovery."
+            },
+            "zh": {
+              "meta_title": "可拆式板式热交换器",
+              "meta_description": "适用于加热、冷却、蒸发、冷凝、灭菌及余热回收的可拆式板式热交换器。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "detachable_plate_heat_exchanger_1.jpg",
+            "alt_text": "Detachable Plate Heat Exchanger"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 6,
+          "slug": "plate-heat-exchanger-unit",
+          "is_visible": true,
+          "name": {
+            "en": "Plate Heat Exchanger Unit",
+            "zh": "板式热交换机组"
+          },
+          "short_description": {
+            "en": "Integrated heat exchange skid combining plate heat exchanger, pump, valves, instruments, and controls.",
+            "zh": "集板式换热器、水泵、阀门、仪表和控制系统于一体的成套换热设备。"
+          },
+          "full_description": {
+            "en": "The official product page presents this unit as a complete set of heat exchange equipment integrating a plate heat exchanger, water pump, valves, instruments, and control system. It can be configured with sensors, controllers, electric actuators, remote communication control, heat flow measurement, water treatment, and softened water tank accessories to support steam-water, water-water, and oil-water heat exchange duty.",
+            "zh": "官网介绍显示，该产品是集板式换热器、水泵、阀门、仪表及控制系统于一体的成套换热设备。机组可根据用户需求配置传感器、控制器、电动执行机构、远程通讯、热量计量、水处理及软化水箱等附属系统，适用于汽-水、水-水、油-水等换热工况。"
+          },
+          "industries": [
+            "1",
+            "3",
+            "4"
+          ],
+          "advantage": {
+            "en": [
+              "Integrates plate heat exchanger, pump, valves, instruments, and control system in one unit.",
+              "Supports configurable sensors, controllers, electric actuators, and remote communication control.",
+              "Optional systems include heat metering, water treatment, and softened water tank equipment.",
+              "Officially listed control functions include frequency conversion, constant temperature and pressure supply, auto-start, interlock protection, and on-site data display."
+            ],
+            "zh": [
+              "将板式换热器、水泵、阀门、仪表与控制系统集成为一体。",
+              "可按需配置传感器、控制器、电动执行机构和远程通讯控制。",
+              "可加装热量计量、水处理和软化水箱等附属系统。",
+              "官网列示功能包括变频控制、恒温恒压供给、自启动、联锁保护和就地数据展示。"
+            ]
+          },
+          "technical_parameters": {
+            "en": {},
+            "zh": {}
+          },
+          "details": {
+            "en": [],
+            "zh": []
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Plate Heat Exchanger Unit",
+              "meta_description": "Integrated heat exchange skid combining plate heat exchanger, pump, valves, instruments, and controls."
+            },
+            "zh": {
+              "meta_title": "板式热交换机组",
+              "meta_description": "集板式换热器、水泵、阀门、仪表和控制系统于一体的成套换热设备。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "plate_heat_exchanger_unit_1.jpg",
+            "alt_text": "Plate Heat Exchanger Unit"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 7,
+          "slug": "plate-and-shell-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "Plate and Shell Heat Exchanger",
+            "zh": "板壳式热交换器"
+          },
+          "short_description": {
+            "en": "Compact high-efficiency shell-and-plate exchanger for refinery, petrochemical, and gas processing service.",
+            "zh": "面向炼油、石化和气体处理工况的紧凑高效板壳式热交换器。"
+          },
+          "full_description": {
+            "en": "The official product page describes this model as an advanced high-efficiency and energy-saving heat exchanger that uses corrugated plates as heat transfer elements, consisting of an internal welded plate bundle and an external shell. It is presented for catalytic reforming, xylene isomerization, toluene disproportionation, propane and propylene condensation, amine solution heat exchange, and other liquid-liquid, vapor-liquid, gas-liquid, and gas-gas processes in oil refining, petrochemical, and gas processing industries.",
+            "zh": "官网介绍显示，该产品采用波纹板片作为传热元件，由内部焊接板束和外部壳体组成，是一种高效节能型板壳式热交换器。其应用工况包括炼油、石油化工及气体处理行业中的催化重整、二甲苯异构化、甲苯歧化、丙烷/丙烯冷凝、胺液换热以及多种液液、汽液、气液和气气换热过程。"
+          },
+          "industries": [
+            "2",
+            "4",
+            "6"
+          ],
+          "advantage": {
+            "en": [
+              "Combines the compactness and efficiency of plate heat exchangers with shell-side pressure and temperature resistance.",
+              "Gasket-free welded structure is presented for high-temperature and high-pressure duty.",
+              "Official page highlights lower weight and smaller size than shell-and-tube alternatives."
+            ],
+            "zh": [
+              "兼具板式换热器的紧凑高效和壳体设备的耐压耐温特性。",
+              "无密封垫焊接结构适用于高温高压工况。",
+              "官网强调其相较管壳式换热器更轻、更小，可节约空间。"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Design Temperature": "≤580℃",
+              "Design Pressure": "≤6.0MPa",
+              "Assembly Area": "≤20000m2",
+              "Plate Thickness": "0.7 ~ 1.2mm",
+              "Minimum Temperature Difference": "1℃",
+              "Plate Material": "304, 316L, 321, 254SMO, etc."
+            },
+            "zh": {
+              "设计温度": "≤580℃",
+              "设计压力": "≤6.0MPa",
+              "组装面积": "≤20000m2",
+              "板片厚度": "0.7 ~ 1.2mm",
+              "最小温差": "1℃",
+              "板片材质": "304, 316L, 321, 254SMO 等"
+            }
+          },
+          "details": {
+            "en": [],
+            "zh": []
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Plate and Shell Heat Exchanger",
+              "meta_description": "Compact high-efficiency shell-and-plate exchanger for refinery, petrochemical, and gas processing service."
+            },
+            "zh": {
+              "meta_title": "板壳式热交换器",
+              "meta_description": "面向炼油、石化和气体处理工况的紧凑高效板壳式热交换器。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "plate_and_shell_heat_exchanger_1.jpg",
+            "alt_text": "Plate and Shell Heat Exchanger"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 8,
+          "slug": "round-shell-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "Round Shell Heat Exchanger",
+            "zh": "圆壳式热交换器"
+          },
+          "short_description": {
+            "en": "Round-shell welded plate exchanger combining plate efficiency with shell-and-tube pressure resistance.",
+            "zh": "兼具板式高效与管壳耐压特性的圆壳式焊接板式热交换器。"
+          },
+          "full_description": {
+            "en": "According to the official English product page, this heat exchanger is assembled from welded plates, shell, and beam flange components so that cold and hot media flow alternately inside the equipment. It is presented as keeping the high efficiency and compact structure of a plate heat exchanger while also providing the high-temperature and high-pressure resistance associated with shell-and-tube equipment for petroleum, chemical, electric power, pharmaceutical, metallurgy, refrigeration, and related industries.",
+            "zh": "根据官网英文产品页介绍，该产品由焊接板片、壳体和梁法兰等部件组成，使冷热介质在设备内部交替流动。其定位是在保持板式换热器高效传热和结构紧凑优势的同时，具备类似管壳设备的耐高温、耐高压能力，可用于石油、化工、电力、制药、冶金、制冷等行业。"
+          },
+          "industries": [
+            "1",
+            "2",
+            "6",
+            "8",
+            "9"
+          ],
+          "advantage": {
+            "en": [
+              "Keeps the high heat transfer efficiency of plate heat exchangers.",
+              "Maintains a compact structure for process installations with limited space.",
+              "Adds higher temperature and pressure resistance associated with shell-and-tube duty."
+            ],
+            "zh": [
+              "保持板式换热器高传热效率的优势。",
+              "结构紧凑，适合空间受限的工艺安装。",
+              "兼具更高的耐温耐压能力。"
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Design Temperature": "-200 ~ 400℃",
+              "Design Pressure": "Vacuum ~ 10MPa",
+              "Assembly Area": "≤95m2",
+              "Minimum Temperature Difference": "2℃",
+              "Plate Thickness": "0.5 ~ 1.2mm"
+            },
+            "zh": {
+              "设计温度": "-200 ~ 400℃",
+              "设计压力": "真空 ~ 10MPa",
+              "组装面积": "≤95m2",
+              "最小温差": "2℃",
+              "板片厚度": "0.5 ~ 1.2mm"
+            }
+          },
+          "details": {
+            "en": [],
+            "zh": []
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "Round Shell Heat Exchanger",
+              "meta_description": "Round-shell welded plate exchanger combining plate efficiency with shell-and-tube pressure resistance."
+            },
+            "zh": {
+              "meta_title": "圆壳式热交换器",
+              "meta_description": "兼具板式高效与管壳耐压特性的圆壳式焊接板式热交换器。"
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "round_shell_heat_exchanger_1.jpg",
+            "alt_text": "Round Shell Heat Exchanger"
+          }
+        ]
+      }
+    ]
+  }
 ]

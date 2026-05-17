@@ -1,18 +1,20 @@
 {
   "name": "上海艾克森股份有限公司",
   "full_description": [
-    "上海艾克森股份有限公司是专业从事换热设备研发、制造、销售及服务的换热解决方案提供商，重点面向低碳数据中心以及供热、制冷和工业等热管理场景提供产品与服务。",
-    "公司生产总部位于中国上海黄渡工业园，拥有谢春路工厂和太仓港区工厂，制造基地总面积超过 100000 平方米。艾克森建立了覆盖全国主要省市并延伸至香港、新加坡、马来西亚、泰国等市场的销售与服务网络。",
+    "上海艾克森股份有限公司是专业从事换热设备研发、制造、销售及服务的低碳数据中心冷却和换热解决方案提供商，重点面向供热、制冷、数据中心冷却和工业热管理场景提供产品与服务。",
+    "公司生产总部位于中国上海黄渡工业园，拥有谢春路工厂和太仓港区工厂，制造基地总面积超过 100000 平方米。艾克森建立了覆盖国内主要市场并延伸至香港、新加坡、马来西亚、泰国等地区的销售与服务网络。",
     "公司服务领域涵盖数据中心、暖通空调、制冷冷却、能源电力、钢铁冶金、石油化工、食品医药、新能源电子、船舶海工及环保处理等细分市场，并以板式换热和系统集成为两大核心技术。",
-    "其 AS 标准产品体系覆盖板式换热器、板式换热机组、全焊板壳式换热器、全焊板框式换热器、全焊空气换热器、工艺水冷却系统、余热回收系统和预装式集成冷站等，并宣称产品符合 ASME、CE、AHRI、API、DNV、GL、LR、ABS、BV、NK、KR、CCS、RINA、RS、CCC、GB 等国际规范和标准。"
+    "其 AS 标准产品体系覆盖板式换热器、板式换热机组、全焊板壳式换热器、全焊板框式换热器、全焊空气换热器、工艺水冷却系统、余热回收系统、魔方箱式换热站和预装式集成冷站等。",
+    "官网披露产品符合 ASME、CE、AHRI、API、DNV、GL、LR、ABS、BV、NK、KR、CCS、RINA、RS、CCC、GB 等国际规范和标准，并拥有 ISO 9001、ISO 14001、ISO 45001、ASME、AHRI、板式换热器 A5 级安全认证、板式换热器中国能效认证等资质，同时拥有上百项专利和软件著作权，并参与多项国家及行业标准起草。"
   ],
   "advantages": [
     "规模化制造基础：公司在上海和太仓拥有超过 100000 平方米的制造基地。",
     "核心技术明确：以板式换热和系统集成为两大核心技术，支撑多场景热管理解决方案。",
-    "产品体系完整：覆盖板式换热器、全焊式换热器、工艺冷却系统、余热回收系统和预装式集成冷站等产品。",
-    "国际规范与认证覆盖广：官网明确列出 ASME、CE、AHRI、API、DNV、GL、LR、ABS、BV、NK、KR、CCS、RINA、RS、CCC、GB 等标准和认证。",
-    "服务网络覆盖广：拥有覆盖国内主要省市并延伸至部分海外市场的直属销售与服务网络。",
-    "项目应用基础扎实：官网披露已有 20000 多个应用案例，并通过较大的服务网络支持项目交付与售后。"
+    "产品体系完整：覆盖板式换热器、板式换热机组、全焊式换热器、工艺冷却系统、余热回收系统、箱式换热站和预装式集成冷站等产品。",
+    "国际规范与认证覆盖广：官网明确列出 ASME、CE、AHRI、API、DNV、GL、LR、ABS、BV、NK、KR、CCS、RINA、RS、CCC、GB、ISO 9001、ISO 14001、ISO 45001 等标准和认证。",
+    "质量与工程能力较强：官网介绍其配置自动切割和焊接机器人、40000 吨液压机、专用自动焊接系统及整机性能测试平台。",
+    "服务网络覆盖广：拥有覆盖国内主要市场并延伸至香港、新加坡、马来西亚、泰国等地区的直属销售与服务网络。",
+    "项目应用基础扎实：官网披露已有 20000 多个应用案例，并服务 10000 多个全球客户。"
   ],
   "slug": "shanghai-accessen-co-ltd",
   "website": "https://www.accessen.com/",
@@ -30,11 +32,13 @@
     }
   ],
   "email": [
+    "acs@accessen.com",
     "info@accessen.cn"
   ],
   "phone": [
-    "+86 21 6959 5555",
-    "+86 21 6958 5555",
+    "+86 21 6910 5061",
+    "+86 21 6958 5365",
+    "+86 21 6959 0007",
     "4006-191-191"
   ],
   "country_name": "中国",
@@ -43,7 +47,13 @@
   "established_year": "2002",
   "factory_area": "100000m2",
   "employee_count": "600+",
-  "export_markets": [],
+  "export_markets": [
+    "CN",
+    "HK",
+    "SG",
+    "MY",
+    "TH"
+  ],
   "seo_data": {
     "meta_title": "Shanghai Accessen Co., Ltd. | Heat Exchange and Low-Carbon Data Center Solutions",
     "meta_description": "Manufacturer of plate heat exchangers, liquid cooling distribution units, prefabricated integrated cooling stations, and fully welded heat exchange systems in Shanghai, China."
@@ -61,16 +71,20 @@
   ],
   "certifications": [
     {
-      "alt_text": "AHRI Certification",
-      "url": "/storage/assets/shanghai-accessen-co-ltd/company_certifications/ahri.jpg"
+      "alt_text": "ISO 9001:2015 Quality Management System Certificate",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/company_certifications/iso_9001_2015_quality_management_certificate.png"
     },
     {
-      "alt_text": "ASME Certification",
-      "url": "/storage/assets/shanghai-accessen-co-ltd/company_certifications/asme.jpg"
+      "alt_text": "ISO 14001:2015 Environmental Management System Certificate",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/company_certifications/iso_14001_2015_environmental_management_certificate.png"
     },
     {
-      "alt_text": "ISO 9001:2015 Certification",
-      "url": "/storage/assets/shanghai-accessen-co-ltd/company_certifications/iso_9001_2015.png"
+      "alt_text": "ISO 45001:2018 Occupational Health and Safety Management System Certificate",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/company_certifications/iso_45001_2018_occupational_health_safety_certificate.png"
+    },
+    {
+      "alt_text": "ClassNK Plate Heat Exchanger Certificate",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/company_certifications/class_nk_plate_heat_exchanger_certificate.jpg"
     }
   ],
   "customers": [
@@ -93,16 +107,12 @@
   ],
   "images": [
     {
-      "alt_text": "Accessen Xie Chun Road Base Welding Line",
-      "url": "/storage/assets/shanghai-accessen-co-ltd/company_images/company_1.jpg"
+      "alt_text": "Accessen Outdoor Integrated Cooling Station",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/company_images/accessen_outdoor_integrated_cooling_station.jpg"
     },
     {
-      "alt_text": "Accessen Plate-Shell Heat Exchanger Welding Line",
-      "url": "/storage/assets/shanghai-accessen-co-ltd/company_images/company_2.jpg"
-    },
-    {
-      "alt_text": "Accessen Intelligent Control Workshop",
-      "url": "/storage/assets/shanghai-accessen-co-ltd/company_images/company_3.jpg"
+      "alt_text": "Accessen Cooling Station Piping Room",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/company_images/accessen_cooling_station_piping_room.jpg"
     }
   ],
   "documents": [

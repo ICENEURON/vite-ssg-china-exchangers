@@ -1,18 +1,19 @@
 {
   "name": "四平维克斯换热设备有限公司",
   "full_description": [
-    "四平维克斯换热设备有限公司是经营换热设备的专业制造公司。官网介绍其前身为始建于1963年的四平换热器总厂，是机械部换热设备定点生产厂，长期专业生产各种热交换设备及压力容器产品。",
-    "1993年，公司与法国维卡勃公司合资合作，全套引进具有国际水平的热交换器产品、制造技术、专有技术和工艺加工装备，开始批量制造V系列板式换热器、换热机组等产品。",
-    "2002年，企业改制为四平维克斯换热设备有限公司，继续生产制造引进的板式换热器及换热机组，同时开发了多种具有自主知识产权的民族品牌产品。英文官网还将其描述为ViEX Group核心成员，具备覆盖设计、制造、研发、销售与服务的全球化体系。",
-    "官网资料显示，公司园林式工厂占地面积6万平方米，建筑面积2.6万平方米，厂房面积1.5万平方米，拥有专业设备310台套，年生产能力包括板式换热器20万平方米、压力容器及管壳式和空气类换热器3000吨、集成式换热成套设备500套，并获得国家高新技术企业、吉林省质量奖等荣誉。"
+    "四平维克斯换热设备有限公司是经营换热设备的专业制造公司。根据中文官网介绍，其前身为始建于1963年的四平换热器总厂，是机械部换热设备定点生产厂，长期专业生产各种热交换设备及压力容器产品。",
+    "1993年，公司与法国维卡勃公司合资合作，全套引进具有国际水平的热交换器产品、制造技术、专有技术和工艺加工装备，开始批量制造 V 系列板式热交换器、热交换机组等产品。",
+    "2002年，企业改制为四平维克斯换热设备有限公司，继续生产制造引进的板式换热器及换热机组，同时开发了多种具有自主知识产权的民族品牌产品。英文官网还将其描述为 ViEX Group 核心成员，具备覆盖设计、制造、研发、销售与服务的全球化体系。",
+    "中文官网资料显示，公司园林式工厂占地面积6万平方米，建筑面积2.6万平方米，厂房面积1.5万平方米，拥有专业设备310台套、固定员工124人、专业技术人员36人、产品设计研发人员12人、管理人员25人。公司年生产能力包括板式热交换器20万平方米、压力容器及管壳式和空气类换热器3000吨、集成式换热成套设备500套，并获得吉林省质量奖。"
   ],
   "advantages": [
     "源自1963年创建的四平换热器总厂，具备较长的换热设备制造历史。",
     "通过与法国维卡勃合作，引进了国际水平的板式换热器产品、技术和工艺装备。",
     "产品覆盖板式、管壳式、螺旋板式、空气类换热器、换热机组及压力容器，产品线较完整。",
-    "官网披露工厂占地6万平方米，拥有310台套专业设备，制造基础较完善。",
+    "官网披露工厂占地6万平方米、厂房1.5万平方米，拥有310台套专业设备。",
+    "中文官网资料列出固定员工124人，其中专业技术人员36人、产品设计研发人员12人。",
     "具备板式换热器、压力容器和成套换热设备的规模化年产能力。",
-    "官网展示其获得国家高新技术企业、吉林省质量奖等荣誉。"
+    "官网展示其获得吉林省质量奖等荣誉。"
   ],
   "slug": "siping-viex-heat-exchange-equipment-co-ltd",
   "website": "http://www.spviex.com/",
@@ -30,7 +31,7 @@
   "address": "中国吉林省四平市铁东区南一经街5665号",
   "established_year": "1963",
   "factory_area": "60000m2",
-  "employee_count": "",
+  "employee_count": "124",
   "export_markets": [],
   "seo_data": {
     "meta_title": "Siping ViEX Heat Exchange Equipment Co., Ltd. | Heat Exchanger Manufacturer",
@@ -49,31 +50,27 @@
   ],
   "certifications": [
     {
-      "alt_text": "Occupational Health and Safety Management System Certification",
-      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_certifications/iso_45001.jpg"
+      "alt_text": "ISO 9001 Quality Management System Certificate",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_certifications/iso_9001_quality_management_certificate.jpg"
     },
     {
-      "alt_text": "Environmental Management System Certification",
-      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_certifications/iso_14001.jpg"
+      "alt_text": "ISO 14001 Environmental Management System Certificate",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_certifications/iso_14001_environmental_management_certificate.jpg"
     },
     {
-      "alt_text": "Quality Management System Certification",
-      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_certifications/iso_9001.jpg"
+      "alt_text": "ISO 45001 Occupational Health and Safety Management System Certificate",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_certifications/iso_45001_occupational_health_safety_certificate.jpg"
     }
   ],
   "customers": [],
   "images": [
     {
-      "alt_text": "ViEX Company Overview Image 1",
-      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_images/company_overview_1.jpg"
+      "alt_text": "ViEX Factory Exterior",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_images/viex_factory_exterior.jpg"
     },
     {
-      "alt_text": "ViEX Company Overview Image 2",
-      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_images/company_overview_2.jpg"
-    },
-    {
-      "alt_text": "ViEX Company Overview Image 3",
-      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_images/company_overview_3.jpg"
+      "alt_text": "ViEX Heat Exchanger Unit Workshop",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_images/viex_heat_exchanger_unit_workshop.jpg"
     }
   ],
   "documents": [],

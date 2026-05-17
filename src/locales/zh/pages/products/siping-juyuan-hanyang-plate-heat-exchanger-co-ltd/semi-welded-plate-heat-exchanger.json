@@ -1,0 +1,39 @@
+{
+  "slug": "semi-welded-plate-heat-exchanger",
+  "name": "半焊式板式热交换器",
+  "full_description": "官网介绍半焊式板式热交换器采用国际先进的光纤激光焊接设备和现代激光焊接技术。相较其他焊接方式，页面强调单焊缝工艺、热影响区小、焊后变形小、焊接过程自动检测、焊接速度快及残余应力较小等特点，并说明该产品取得国家焊接板式热交换器 B2-B3 级安全注册认证。",
+  "industries": [
+    "石油化工",
+    "能源",
+    "化工",
+    "制药",
+    "发电/电力"
+  ],
+  "advantage": [
+    "激光焊接热影响区小、焊后变形小。",
+    "焊接过程中可自动检测，有助于控制焊缝质量。",
+    "导板可进行力学性能试验，用于验证板对焊接质量。",
+    "官网列出国家焊接板式热交换器 B2-B3 级安全注册认证。"
+  ],
+  "technical_parameters": {
+    "安全注册": "焊接板式热交换器 B2-B3 级安全注册",
+    "焊接方式": "光纤激光焊接、数控缝焊"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "半焊式板式热交换器",
+    "meta_description": "采用激光焊接和板对焊接工艺、适用于单侧介质需要焊接密封工况的半焊式板式热交换器。"
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Semi-Welded Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

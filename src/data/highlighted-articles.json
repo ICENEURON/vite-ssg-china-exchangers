@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-09",
-  "description": "Manual homepage highlight configuration for featured manufacturer articles in Industry News.",
+  "lastUpdated": "2026-05-17",
+  "description": "Automatically generated homepage highlight configuration using the latest news article for each company. Shanghai Heat Transfer Equipment Co., Ltd. is pinned first.",
   "items": [
     {
       "priority": 1,
@@ -11,133 +11,115 @@
         "zh": "上海板换机械设备有限公司"
       },
       "contentType": "news",
-      "articleSlug": "2026-project-award-updates",
+      "articleSlug": "overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully",
       "articleTitle": {
-        "en": "2026 Project Award Updates",
-        "zh": "2026 年项目中标更新"
+        "en": "Overseas Delivery Again! SHPHE’s Wide-Gap Welded Plate Heat Exchangers Shipped Successfully",
+        "zh": "再次海外发货！上海板换机械设备有限公司宽间隙焊接板式换热器顺利发货"
       },
       "shortDescription": {
-        "en": "SHPHE's 2026 project awards show active supply across offshore gas, fertilizer, chemical, sugar, oilfield, and alumina heat transfer applications.",
-        "zh": "上海板换 2026 年项目中标动态，体现其在海上天然气、化肥、化工、制糖、油田和氧化铝等换热场景中的活跃供货能力。"
+        "en": "Recently, SHPHE completed production and shipment of wide-gap welded plate heat exchangers for a leading Australian mining enterprise. As a global powerhouse in the mining and aluminum secto",
+        "zh": "近日，上海板换机械设备有限公司为澳大利亚某领先矿业企业完成了宽间隙焊接板式换热器的生产和发货。作为采矿和铝行业的全球巨头，客户对设备性能、质量规格和操作执行严格的标准。"
       },
+      "date": "2026-05-11",
       "paths": {
-        "en": "news/shanghai-heat-transfer-equipment-co-ltd/en/2026-project-award-updates.md",
-        "zh": "news/shanghai-heat-transfer-equipment-co-ltd/zh/2026-project-award-updates.md"
+        "en": "news/shanghai-heat-transfer-equipment-co-ltd/en/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully.md",
+        "zh": "news/shanghai-heat-transfer-equipment-co-ltd/zh/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully.md"
       }
     },
     {
       "priority": 2,
+      "companyId": "749dc7dd-abfc-4ee5-869b-7e8e9d8d953a",
+      "companySlug": "shanghai-accessen-co-ltd",
+      "companyName": {
+        "en": "Shanghai Accessen Co., Ltd.",
+        "zh": "上海艾克森股份有限公司"
+      },
+      "contentType": "news",
+      "articleSlug": "accessen-prefabricated-cooling-station-dcwf-2026-recap",
+      "articleTitle": {
+        "en": "Accessen's Prefabricated Cooling Station Concludes at DCWF 2026",
+        "zh": "上海艾克森股份有限公司预制化集成冷站亮相 DCWF 2026 并圆满收官"
+      },
+      "shortDescription": {
+        "en": "Shanghai Accessen showcased prefabricated integrated cooling station solutions at Data Centre World Frankfurt 2026.",
+        "zh": "上海艾克森股份有限公司在 Data Centre World Frankfurt 2026 展示预制化集成冷站解决方案并圆满收官。"
+      },
+      "date": "2026-05-14",
+      "paths": {
+        "en": "news/shanghai-accessen-co-ltd/en/accessen-prefabricated-cooling-station-dcwf-2026-recap.md",
+        "zh": "news/shanghai-accessen-co-ltd/zh/accessen-prefabricated-cooling-station-dcwf-2026-recap.md"
+      }
+    },
+    {
+      "priority": 3,
       "companyId": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
       "companySlug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
       "companyName": {
         "en": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
         "zh": "兰州兰石换热设备有限责任公司"
       },
-      "contentType": "posts",
-      "articleSlug": "pche-core-technologies-and-processes-engineering-analysis",
+      "contentType": "news",
+      "articleSlug": "lanshi-torch-project-plate-heat-exchangers-shipped",
       "articleTitle": {
-        "en": "PCHE Core Technologies: Etching, Diffusion Bonding, and Industrial Use",
-        "zh": "PCHE核心技术：蚀刻、扩散焊与工业应用"
+        "en": "Lanzhou Lanshi Heat Exchange Ships 10 Removable Plate Heat Exchangers for the Torch Project",
+        "zh": "兰州兰石换热设备有限责任公司10台“火炬工程”项目可拆式板式热交换器顺利完工发运"
       },
       "shortDescription": {
-        "en": "A technical guide explaining how etched microchannels and diffusion bonding make PCHEs relevant for hydrogen, sCO2, offshore, and advanced energy duties.",
-        "zh": "这篇技术指南说明蚀刻微通道和扩散焊如何让 PCHE 适用于氢能、超临界二氧化碳、海工和先进能源等高要求工况。"
+        "en": "Lanzhou Lanshi Heat Exchange Equipment completed factory acceptance and shipment for 10 removable plate heat exchangers used in the Torch Project water-cooling system.",
+        "zh": "兰州兰石换热设备有限责任公司承制的“火炬工程水冷系统板式热交换器”项目10台可拆式板式热交换器顺利通过出厂验收并发运。"
       },
+      "date": "2026-04-29",
       "paths": {
-        "en": "posts/lanzhou-lanshi-heat-exchange-equipment-co-ltd/en/pche-core-technologies-and-processes-engineering-analysis.md",
-        "zh": "posts/lanzhou-lanshi-heat-exchange-equipment-co-ltd/zh/pche-core-technologies-and-processes-engineering-analysis.md"
-      }
-    },
-    {
-      "priority": 3,
-      "companyId": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
-      "companySlug": "shanghai-heat-transfer-equipment-co-ltd",
-      "companyName": {
-        "en": "Shanghai Heat Transfer Equipment Co., Ltd.",
-        "zh": "上海板换机械设备有限公司"
-      },
-      "contentType": "posts",
-      "articleSlug": "wide-gap-welded-plate-heat-exchanger-wgphe-engineering-solutions-for-high-viscosity-and-particle-laden-media",
-      "articleTitle": {
-        "en": "WGPHE Solutions for High-Viscosity and Particle-Laden Media",
-        "zh": "高黏度与含颗粒介质的 WGPHE 工程方案"
-      },
-      "shortDescription": {
-        "en": "A process-engineering article on wide-gap welded plate heat exchangers for alumina, sugar, fermentation, pulp and paper, and chemical wastewater service.",
-        "zh": "面向氧化铝、糖业、发酵、制浆造纸和化工废水等复杂介质的宽通道焊接板式换热器工程应用文章。"
-      },
-      "paths": {
-        "en": "posts/shanghai-heat-transfer-equipment-co-ltd/en/wide-gap-welded-plate-heat-exchanger-wgphe-engineering-solutions-for-high-viscosity-and-particle-laden-media.md",
-        "zh": "posts/shanghai-heat-transfer-equipment-co-ltd/zh/wide-gap-welded-plate-heat-exchanger-wgphe-engineering-solutions-for-high-viscosity-and-particle-laden-media.md"
+        "en": "news/lanzhou-lanshi-heat-exchange-equipment-co-ltd/en/lanshi-torch-project-plate-heat-exchangers-shipped.md",
+        "zh": "news/lanzhou-lanshi-heat-exchange-equipment-co-ltd/zh/lanshi-torch-project-plate-heat-exchangers-shipped.md"
       }
     },
     {
       "priority": 4,
-      "companyId": "749dc7dd-abfc-4ee5-869b-7e8e9d8d953a",
-      "companySlug": "shenghai-accessen-co-ltd",
+      "companyId": "heatex-direct",
+      "companySlug": "heatex-direct",
       "companyName": {
-        "en": "Shanghai Accessen Co., Ltd.",
-        "zh": "上海艾克森股份有限公司"
+        "en": "HeatEx Direct",
+        "zh": "HeatEx Direct"
       },
-      "contentType": "posts",
-      "articleSlug": "heat-exchanger-troubleshooting-cleaning-maintenance-guide",
+      "contentType": "news",
+      "articleSlug": "large-spiral-plate-heat-exchanger-delivery-for-mining-service",
       "articleTitle": {
-        "en": "Heat Exchanger Troubleshooting, Cleaning, and Maintenance Guide",
-        "zh": "换热器故障排查、清洗与维护指南"
+        "en": "Large Spiral Plate Heat Exchanger Delivered for Mining Service",
+        "zh": "大型螺旋板式换热器交付矿业浆液工况"
       },
       "shortDescription": {
-        "en": "A practical maintenance guide covering fouling, leakage, corrosion, blockage, cleaning methods, inspection routines, and lifecycle care.",
-        "zh": "一篇实用维护指南，覆盖结垢、泄漏、腐蚀、堵塞、清洗方式、检查计划和换热器全生命周期维护。"
+        "en": "Nexson Group has reported delivery of a very large liquid-liquid spiral plate heat exchanger for mineral slurry cooling and solvent heating service.",
+        "zh": "Nexson Group 披露交付一台大型液-液螺旋板式换热器，用于矿物浆液冷却与溶剂加热的组合工况。"
       },
+      "date": "2025-12-24",
       "paths": {
-        "en": "posts/shenghai-accessen-co-ltd/en/heat-exchanger-troubleshooting-cleaning-maintenance-guide.md",
-        "zh": "posts/shenghai-accessen-co-ltd/zh/heat-exchanger-troubleshooting-cleaning-maintenance-guide.md"
+        "en": "news/heatex-direct/en/large-spiral-plate-heat-exchanger-delivery-for-mining-service.md",
+        "zh": "news/heatex-direct/zh/large-spiral-plate-heat-exchanger-delivery-for-mining-service.md"
       }
     },
     {
       "priority": 5,
-      "companyId": "8139c310-96fe-4d28-b92e-f332e8226a5a",
-      "companySlug": "siping-viex-heat-exchange-equipment-co-ltd",
-      "companyName": {
-        "en": "Siping ViEX Heat Exchange Equipment Co., Ltd.",
-        "zh": "四平维克斯换热设备有限公司"
-      },
-      "contentType": "posts",
-      "articleSlug": "welded-plate-heat-exchanger-skids-marine-industry-applications",
-      "articleTitle": {
-        "en": "Marine Applications of Welded Plate Heat Exchanger Skids",
-        "zh": "焊接板式换热器撬装系统在海工行业的应用"
-      },
-      "shortDescription": {
-        "en": "An application article on welded plate heat exchanger skids for marine cooling, desalination, HVAC, crude oil treatment, hydraulic systems, and aquaculture.",
-        "zh": "介绍焊接板式换热器撬装系统在船舶冷却、海水淡化、暖通、原油处理、液压系统和水产养殖中的应用。"
-      },
-      "paths": {
-        "en": "posts/siping-viex-heat-exchange-equipment-co-ltd/en/welded-plate-heat-exchanger-skids-marine-industry-applications.md",
-        "zh": "posts/siping-viex-heat-exchange-equipment-co-ltd/zh/welded-plate-heat-exchanger-skids-marine-industry-applications.md"
-      }
-    },
-    {
-      "priority": 6,
       "companyId": "5fb41b48-d202-46e1-b819-0de12c1152fa",
-      "companySlug": "siping-juyuan-welded-plate-heat-exchanger-co-ltd",
+      "companySlug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
       "companyName": {
-        "en": "Siping Juyuan Welded Plate Heat Exchanger Co., Ltd.",
+        "en": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
         "zh": "四平市巨元瀚洋板式换热器有限公司"
       },
-      "contentType": "posts",
-      "articleSlug": "fully-welded-plate-heat-exchanger-installation-guide",
+      "contentType": "news",
+      "articleSlug": "nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization",
       "articleTitle": {
-        "en": "Fully Welded Plate Heat Exchanger Installation Guide",
-        "zh": "全焊接板式换热器安装指南"
+        "en": "Siping Juyuan Hanyang Advances Nuclear Deep-Corrugated Titanium Plate Localization",
+        "zh": "四平市巨元瀚洋板式换热器有限公司核电深波纹钛板换热器实现全面国产化"
       },
       "shortDescription": {
-        "en": "A field-focused installation guide covering foundation checks, lifting, piping stress control, instrumentation, commissioning, and long-term operation.",
-        "zh": "面向现场安装的全焊接板式换热器指南，覆盖基础检查、吊装、管道应力控制、仪表、调试和长期运行。"
+        "en": "Siping Juyuan Hanyang joined a project that validated domestic titanium plate use in nuclear-grade plate heat exchangers.",
+        "zh": "四平市巨元瀚洋板式换热器有限公司参与的国产钛板核级板式换热器应用研究通过科技成果鉴定，推动核电关键换热材料国产替代。"
       },
+      "date": "2025-08-01",
       "paths": {
-        "en": "posts/siping-juyuan-welded-plate-heat-exchanger-co-ltd/en/fully-welded-plate-heat-exchanger-installation-guide.md",
-        "zh": "posts/siping-juyuan-welded-plate-heat-exchanger-co-ltd/zh/fully-welded-plate-heat-exchanger-installation-guide.md"
+        "en": "news/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/en/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization.md",
+        "zh": "news/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/zh/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization.md"
       }
     }
   ]

@@ -17,9 +17,10 @@
     "Combines compact structure and high heat transfer efficiency with higher pressure and temperature resistance."
   ],
   "technical_parameters": {
-    "Assembly Area": "≤6000m2",
+    "Assembly Area": "≤30000m2",
     "Design Pressure": "Vacuum ~ 6.0MPa",
     "Plate Thickness": "0.5 ~ 1.2mm",
+    "Design Temperature": "-200 ~ 900℃",
     "Minimum Temperature Difference": "1℃"
   },
   "video_link": "",

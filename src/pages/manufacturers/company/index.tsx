@@ -1,7 +1,7 @@
 
 import { Head } from 'vite-react-ssg'
 import { Link, useLocation, useParams, Navigate } from "react-router-dom"
-import { BadgeCheck, Factory, ArrowLeft, ArrowRight, MapPin, ShieldCheck, Award, Users, Globe2, Package, Sparkles, Zap, Flame, Gauge, Mail, Phone, Linkedin, Youtube, ExternalLink, Download, FileText } from "lucide-react"
+import { BadgeCheck, Factory, ArrowLeft, ArrowRight, MapPin, ShieldCheck, Award, Users, Globe2, Package, Sparkles, Flame, Gauge, Mail, Phone, Linkedin, Youtube, ExternalLink, Download, FileText } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
 import { useTranslation } from 'react-i18next'
@@ -149,7 +149,6 @@ export default function ManufacturerProfilePage() {
         business_license: true,
         export_experience: true,
     };
-    const responseTimeLabel = t(`${SHARED_TK}.timely_response`);
     const factoryAreaLabel = normalizeFactoryArea(basicInfo.factory_area)
         ? t(`${SHARED_TK}.factory_area_summary`, { value: normalizeFactoryArea(basicInfo.factory_area) })
         : null;
@@ -258,7 +257,10 @@ export default function ManufacturerProfilePage() {
                             <div className="w-full max-w-md bg-white/5 backdrop-blur-md border border-white/10 p-8 rounded-2xl shadow-2xl relative overflow-hidden group">
                                 <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-purple-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-                                <p className="text-slate-100 text-sm font-bold mb-6 relative z-10">{t(`${SHARED_TK}.connect_description`)}</p>
+                                <div className="relative z-10 mb-6 space-y-3">
+                                    <p className="text-lg font-bold leading-snug text-white">{t(`${SHARED_TK}.connect_description`)}</p>
+                                    <p className="text-sm leading-6 text-slate-300">{t(`${SHARED_TK}.connect_note`)}</p>
+                                </div>
 
                                 <QuoteCta size="lg" className="relative z-10 w-full h-14 text-lg" asChild>
                                     <RfqLink>
@@ -266,13 +268,6 @@ export default function ManufacturerProfilePage() {
                                         {t("navigation.menu.rfq")}
                                     </RfqLink>
                                 </QuoteCta>
-
-                                <div className="mt-6 pt-6 border-t border-white/10 flex flex-col gap-3 text-sm font-semibold text-slate-200 relative z-10">
-                                    <div className="flex min-w-0 items-center gap-3 whitespace-nowrap">
-                                        <Zap className="h-5 w-5 shrink-0 text-amber-400" />
-                                        <span>{t(`${SHARED_TK}.response_speed_label`)}: {responseTimeLabel}</span>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>

@@ -10,7 +10,8 @@ const scripts = [
   'fetch-storage.js',
   'generate-common-locales.js',
   'generate-manufacturer-locales.js',
-  'generate-product-locales.js'
+  'generate-product-locales.js',
+  'update-highlighted-articles.js'
 ];
 
 function runScript(scriptName) {

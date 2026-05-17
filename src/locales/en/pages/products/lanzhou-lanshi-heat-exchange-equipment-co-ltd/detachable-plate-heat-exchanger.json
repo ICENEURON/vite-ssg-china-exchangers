@@ -18,12 +18,12 @@
     "Officially listed for broad use across central heating, air conditioning, marine, petroleum, chemical, medicine, and food applications."
   ],
   "technical_parameters": {
-    "Assembly Area": "3800m2",
-    "Port Diameter": "DN32 ~ DN500",
+    "Assembly Area": "≤5000m2",
+    "Port Diameter": "DN32 ~ DN650",
     "Design Pressure": "0.6 ~ 2.5MPa",
     "Plate Thickness": "0.4 ~ 1.0mm",
-    "Maximum Capacity": "4200m3/h",
-    "Single Plate Area": "0.03 ~ 3.65m2",
+    "Maximum Capacity": "5000m3/h",
+    "Single Plate Area": "0.03 ~ 4.15m2",
     "Design Temperature": "-40 ~ 180℃"
   },
   "video_link": "",
