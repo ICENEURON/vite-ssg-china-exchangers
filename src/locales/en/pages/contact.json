@@ -19,7 +19,9 @@
     "description": " is an independent information service for global buyers evaluating Chinese heat exchanger manufacturers. We organize supplier data, product scope, content leads, and follow-up requests into clear paths so the next step is easier to choose.",
     "primary_cta": "Update supplier profile",
     "secondary_cta": "Submit article request",
-    "email_prefix": "Email us at:"
+    "email_prefix": "Email us at:",
+    "copy_email": "Copy",
+    "email_copied": "Copied"
   },
   "paths": {
     "badge": "Contact routes",
@@ -27,23 +29,23 @@
     "description": "Quote requests, profile updates, article submissions, and corrections each have their own starting point so the details are easier to handle.",
     "items": {
       "buyer": {
-        "title": "Buyer or engineering inquiry",
-        "description": "Submit project context and technical parameters through the quote request form.",
-        "action": "Start quote request"
+        "title": "Buyer questions or supplier research",
+        "description": "Ask about listed factories, request more detail, or check companies and products not yet covered on the platform.",
+        "action": "Email the team"
       },
       "supplier": {
-        "title": "Manufacturer profile update",
+        "title": "Company or product information update",
         "description": "Correct company data, add verification material, or update product scope.",
-        "action": "Update profile"
+        "action": "Update information"
       },
       "content": {
-        "title": "Technical content or case study",
-        "description": "Send article ideas, company news, product explainers, or case-study material.",
-        "action": "Discuss content"
+        "title": "Article publication request",
+        "description": "Submit article ideas, company news, product explainers, or case-study material.",
+        "action": "Submit article request"
       },
       "correction": {
-        "title": "Data correction or support",
-        "description": "Report incorrect page data, broken links, language issues, or platform questions.",
+        "title": "Other questions or data updates",
+        "description": "Report incorrect page data, broken links, language issues, or other platform questions.",
         "action": "Email support"
       }
     }
@@ -53,9 +55,9 @@
     "note": "Messages are reviewed manually and routed for sourcing research, profile data, content review, or support.",
     "checklist_title": "Helpful details to include",
     "checklist": [
-      "Your role and the reason for contacting us.",
-      "For sourcing needs: equipment type, application, media, temperature, pressure, material, and quantity.",
-      "For profile or content updates: company name, page link, source material, and files if available."
+      "Clearly state who you are and what you need.",
+      "Include supporting attachments if available.",
+      "Use or specify an email address that can reliably receive replies."
     ]
   }
 }

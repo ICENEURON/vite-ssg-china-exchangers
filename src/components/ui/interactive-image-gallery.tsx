@@ -153,7 +153,7 @@ function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps
                 type="button"
                 variant="outline"
                 size="icon"
-                className="absolute left-0 top-1/2 z-20 -translate-y-1/2 border-white/20 bg-white/10 text-white hover:bg-white/20 sm:left-4"
+                className="absolute left-0 top-1/2 z-20 -translate-y-1/2 rounded-full border-0 bg-white/20 text-black shadow-lg hover:bg-white hover:text-primary sm:left-4"
                 onClick={() => onIndexChange(clampIndex(index - 1, images.length))}
               >
                 <ArrowLeft className="h-4 w-4" />
@@ -163,7 +163,7 @@ function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps
                 type="button"
                 variant="outline"
                 size="icon"
-                className="absolute right-0 top-1/2 z-20 -translate-y-1/2 border-white/20 bg-white/10 text-white hover:bg-white/20 sm:right-4"
+                className="absolute right-0 top-1/2 z-20 -translate-y-1/2 rounded-full border-0 bg-white/20 text-black shadow-lg hover:bg-white hover:text-primary sm:right-4"
                 onClick={() => onIndexChange(clampIndex(index + 1, images.length))}
               >
                 <ArrowRight className="h-4 w-4" />
@@ -288,7 +288,7 @@ export function ImageCarouselGallery({
                 type="button"
                 variant="outline"
                 size="icon"
-                className="absolute left-4 top-1/2 z-10 -translate-y-1/2 border-white/70 bg-white/90 shadow-lg hover:bg-white"
+                className="absolute left-4 top-1/2 z-10 -translate-y-1/2 rounded-full border-0 bg-white/20 text-black shadow-lg hover:bg-white hover:text-primary"
                 onClick={() => setSelectedIndex((current) => clampIndex(current - 1, galleryImages.length))}
               >
                 <ArrowLeft className="h-4 w-4" />
@@ -298,7 +298,7 @@ export function ImageCarouselGallery({
                 type="button"
                 variant="outline"
                 size="icon"
-                className="absolute right-4 top-1/2 z-10 -translate-y-1/2 border-white/70 bg-white/90 shadow-lg hover:bg-white"
+                className="absolute right-4 top-1/2 z-10 -translate-y-1/2 rounded-full border-0 bg-white/20 text-black shadow-lg hover:bg-white hover:text-primary"
                 onClick={() => setSelectedIndex((current) => clampIndex(current + 1, galleryImages.length))}
               >
                 <ArrowRight className="h-4 w-4" />

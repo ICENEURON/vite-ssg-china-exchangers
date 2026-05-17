@@ -1,3 +1,4 @@
+import type { MouseEvent } from "react";
 import { useTranslation } from "react-i18next";
 import {
     ArrowRight,
@@ -7,7 +8,6 @@ import {
     PackageSearch,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import { RfqLink } from "../../../utils/rfq-routing/link";
 import { addLanguageToPath, useCurrentLanguage } from "../../../utils/language-routing";
 
 const pathIcons = {
@@ -19,10 +19,14 @@ const pathIcons = {
 
 const pathKeys = ["buyer", "supplier", "content", "correction"] as const;
 
+function scrollToEmail(event: MouseEvent<HTMLAnchorElement>) {
+    event.preventDefault();
+    document.getElementById("contact-email")?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 export function ContactReasons() {
     const { t } = useTranslation("translation");
     const currentLanguage = useCurrentLanguage();
-    const email = import.meta.env.VITE_CONTACT_EMAIL;
     const updateProfilePath = addLanguageToPath("/update-your-profile", currentLanguage);
     const contentMarketingPath = addLanguageToPath("/content-marketing-services", currentLanguage);
 
@@ -65,9 +69,9 @@ export function ContactReasons() {
 
                         if (key === "buyer") {
                             return (
-                                <RfqLink key={key} className={cardClassName}>
+                                <a key={key} href="#contact-email" className={cardClassName} onClick={scrollToEmail}>
                                     {content}
-                                </RfqLink>
+                                </a>
                             );
                         }
 
@@ -88,7 +92,7 @@ export function ContactReasons() {
                         }
 
                         return (
-                            <a key={key} href={`mailto:${email}`} className={cardClassName}>
+                            <a key={key} href="#contact-email" className={cardClassName} onClick={scrollToEmail}>
                                 {content}
                             </a>
                         );

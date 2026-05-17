@@ -1,10 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import { QuoteCta } from "../../../components/ui/quote-cta";
 import { BrandText } from "../../../components/ui/brand-text";
-import { ArrowRight, Factory, Mail, PackageSearch } from "lucide-react";
+import { ArrowRight, Factory, PackageSearch } from "lucide-react";
 import { addLanguageToPath, useCurrentLanguage } from "../../../utils/language-routing";
-import { RfqLink } from "../../../utils/rfq-routing/link";
 
 export function HeroSection() {
     const { t } = useTranslation("translation");
@@ -43,16 +41,7 @@ export function HeroSection() {
                     </p>
                 </div>
 
-                <div className="flex flex-col gap-3 sm:flex-row">
-                    <QuoteCta size="lg" asChild>
-                        <RfqLink>
-                            <Mail className="w-5 h-5" />
-                            {t("navigation.menu.rfq")}
-                        </RfqLink>
-                    </QuoteCta>
-                </div>
-
-                <div className="grid max-w-4xl gap-5 border-t border-white/15 pt-5 md:grid-cols-2">
+                <div className="mt-5 grid max-w-[45rem] gap-5 md:grid-cols-2">
                     {paths.map((path, index) => {
                         const Icon = pathIcons[index] || Factory;
                         const isActive = activePathIndex === index;
@@ -83,7 +72,7 @@ export function HeroSection() {
                             </>
                         );
 
-                        const className = `group rounded-sm border p-4 text-left transition-all duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ${isActive ? "border-white bg-white" : "border-white/15 bg-white/5"}`;
+                        const className = `group min-h-[136px] rounded-sm border p-5 text-left transition-all duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ${isActive ? "border-white bg-white" : "border-white/15 bg-white/5"}`;
 
                         return (
                             <a

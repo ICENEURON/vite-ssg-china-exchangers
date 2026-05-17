@@ -1,6 +1,7 @@
 import { Head } from 'vite-react-ssg'
 import { Link, useLocation, useParams, Navigate } from "react-router-dom"
 import { Button } from "../../../components/ui/button"
+import { QuoteCta } from "../../../components/ui/quote-cta"
 import { CheckCircle2, Settings, Factory, ArrowLeft, ArrowRight, BookOpen, Download, FileText, Mail } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
@@ -210,12 +211,12 @@ export default function ProductProfilePage() {
                                             <Factory className="mr-2 h-5 w-5" /> {t("pages.products.detail.back_to_manufacturer")}
                                         </Link>
                                     </Button>
-                                    <Button size="lg" className="h-14 px-8 text-lg font-medium shadow-lg hover:scale-105 transition-transform w-full sm:w-auto" asChild>
+                                    <QuoteCta size="lg" className="h-14 px-8 text-lg w-full sm:w-auto" asChild>
                                         <RfqLink>
                                             <Mail className="mr-2 h-5 w-5" />
                                             {t("navigation.menu.rfq")}
                                         </RfqLink>
-                                    </Button>
+                                    </QuoteCta>
                                 </div>
                             </div>
                         </div>
