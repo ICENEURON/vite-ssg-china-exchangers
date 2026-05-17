@@ -18,6 +18,7 @@ const outputPaths = [
 
 const siteUrl = (env.VITE_SITE_URL || process.env.VITE_SITE_URL || 'https://heatexdirect.com').replace(/\/$/, '');
 const siteName = env.VITE_SITE_TITLE || process.env.VITE_SITE_TITLE || 'HeatEx Direct';
+const shouldNoindex = String(env.VITE_SITE_NOINDEX || process.env.VITE_SITE_NOINDEX || '').toLowerCase() === 'true';
 const supportedLanguages = ['en', 'zh'];
 const countriesByCode = new Map(readJson(countriesPath).map((country) => [country.id, country]));
 const localeJsonCache = new Map();
@@ -418,6 +419,22 @@ function injectStructuredData(routeEntries) {
   console.log(`Updated structured data for ${manifest.filter((entry) => !entry.schemaTypes.includes('already-injected')).length} pages.`);
 }
 
+function syncNoindexMeta(routeEntries) {
+  routeEntries.forEach(({ filePath }) => {
+    const html = readText(filePath);
+    const withoutNoindex = html.replace(/\n?\s*<meta\s+name=["']robots["']\s+content=["']noindex,\s*nofollow["']\s*\/?>/i, '');
+    const updatedHtml = shouldNoindex
+      ? withoutNoindex.replace('</head>', '    <meta name="robots" content="noindex, nofollow" />\n</head>')
+      : withoutNoindex;
+
+    if (updatedHtml !== html) {
+      writeText(filePath, updatedHtml);
+    }
+  });
+
+  console.log(`${shouldNoindex ? 'Added' : 'Removed'} noindex meta for ${routeEntries.length} pages.`);
+}
+
 function writeRobotsTxt() {
   const robotsTemplatePath = path.join(webDir, 'robots.txt');
   const robotsTemplate = fs.existsSync(robotsTemplatePath)
@@ -558,6 +575,7 @@ function buildSitemap() {
 
   copyDeploymentFiles();
   injectStructuredData(routes);
+  syncNoindexMeta(routes);
 
   console.log(`Generated sitemap with ${routes.length} URLs.`);
 }

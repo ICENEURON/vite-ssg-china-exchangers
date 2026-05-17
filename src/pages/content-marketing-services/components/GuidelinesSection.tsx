@@ -5,14 +5,14 @@ export function GuidelinesSection() {
     const { t } = useTranslation("translation", { keyPrefix: "pages.cms.guidelines" });
 
     return (
-        <section className="py-12 px-4">
+        <section className="px-4 py-8 md:py-10">
             <div className="container px-4 mx-auto max-w-5xl">
-                <div className="text-center mb-8">
+                <div className="mb-6 text-center md:mb-7">
                     <h2 className="text-3xl font-bold tracking-tight mb-2">{t("title")}</h2>
                     <p className="text-muted">{t("description")}</p>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-8">
+                <div className="grid gap-5 md:grid-cols-2 md:gap-6">
                     {/* The "YES" Column */}
                     <div className="rounded-2xl border border-green-500/20 bg-gradient-to-b from-green-500/5 to-transparent p-1 overflow-hidden">
                         <div className="rounded-xl p-8 h-full bg-green-500/5 backdrop-blur-sm">
@@ -21,7 +21,7 @@ export function GuidelinesSection() {
                                 <h3 className="text-2xl font-extrabold leading-tight text-foreground">{t("accepted.title")}</h3>
                             </div>
 
-                            <div className="space-y-6">
+                            <div className="space-y-4 md:space-y-5">
                                 <div>
                                     <span className="text-xs font-bold text-green-500/80 uppercase tracking-wider">{t("accepted.formats.title")}</span>
                                     <div className="mt-3 flex flex-wrap gap-3">
@@ -69,7 +69,7 @@ export function GuidelinesSection() {
                                 <h3 className="text-2xl font-extrabold leading-tight text-foreground">{t("rejected.title")}</h3>
                             </div>
 
-                            <div className="space-y-6">
+                            <div className="space-y-4 md:space-y-5">
                                 <div className="mt-1 flex flex-wrap gap-3">
                                     <span className="text-xs font-bold text-red-500/80 uppercase tracking-wider">{t("rejected.formats.title")}</span>
                                     <div>

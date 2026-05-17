@@ -11,10 +11,10 @@ export function BenefitsSection() {
     const icons = [Building2, Factory, FileText, ImagePlus];
 
     return (
-        <section className="bg-white px-2 py-14 flex flex-col items-center">
+        <section className="bg-white px-2 py-10 md:py-12 flex flex-col items-center">
             <div className="container mx-auto max-w-6xl flex flex-col gap-8 p-4">
                 <div className="max-w-3xl">
-                    <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">{t('pages.profile.update_scope.title')}</h2>
+                    <h2 className="mt-1 text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">{t('pages.profile.update_scope.title')}</h2>
                     <p className="mt-4 text-lg leading-8 text-slate-600">{t('pages.profile.update_scope.description')}</p>
                 </div>
 

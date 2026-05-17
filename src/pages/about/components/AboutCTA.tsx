@@ -32,7 +32,7 @@ export function AboutCTA() {
                     <div className="mt-2 flex w-full items-center justify-center gap-3 border-t border-white/10 p-4 text-gray-400">
                         <Mail className="w-5 h-5 shrink-0" />
                         <span className="text-md font-medium">
-                            {t("pages.about.cta.email_text")} <a href={`mailto:${email}`} className="text-white hover:text-primary transition-colors">{email}</a>
+                            <span className="hidden md:inline">{t("pages.about.cta.email_text")} </span><a href={`mailto:${email}`} className="text-white hover:text-primary transition-colors">{email}</a>
                         </span>
                     </div>
                 </div>

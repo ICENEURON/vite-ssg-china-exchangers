@@ -16,7 +16,7 @@ export function HeroSection() {
     };
 
     return (
-        <section className="relative overflow-hidden py-10 px-2">
+        <section className="relative overflow-hidden px-2 py-8 md:py-10">
             {/* Background Gradients */}
             <div className="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 blur-3xl opacity-20 pointer-events-none">
                 <div className="aspect-square w-[800px] rounded-full bg-foreground/40 mix-blend-multiply" />
@@ -31,7 +31,7 @@ export function HeroSection() {
             {/* Bottom Fade */}
             <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent pointer-events-none" />
 
-            <div className="container relative pt-16 px-2 mx-auto max-w-5xl text-center">
+            <div className="container relative mx-auto max-w-5xl px-2 pt-8 text-center md:pt-12">
                 {/* Badge removed per requirement */}
 
                 <h1 className="font-extrabold tracking-tight mb-6">

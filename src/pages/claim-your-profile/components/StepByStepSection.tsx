@@ -31,10 +31,10 @@ export function StepByStepSection() {
                     <div className="flex items-center justify-center relative z-10 border-b border-white/10 pb-6 mb-6 md:pb-10 md:mb-10 w-full">
                         <button
                             onClick={handleCopyEmail}
-                            className="group relative flex flex-row items-center justify-center gap-4 transition-all duration-300 cursor-pointer"
+                            className="group relative flex flex-row items-center justify-center gap-2 transition-all duration-300 cursor-pointer md:gap-4"
                         >
-                            <Mail className="w-7 h-7 md:w-8 md:h-8 text-primary shrink-0 transition-transform group-hover:scale-110" />
-                            <span className="font-semibold text-2xl md:text-3xl tracking-tight text-white group-hover:underline underline-offset-4 transition-all">
+                            <Mail className="h-5 w-5 shrink-0 text-primary transition-transform group-hover:scale-110 md:h-8 md:w-8" />
+                            <span className="text-base font-semibold tracking-tight text-white transition-all group-hover:underline underline-offset-4 md:text-3xl">
                                 {email}
                             </span>
                             <div className="absolute left-full ml-4 top-1/2 -translate-y-1/2 pointer-events-none">

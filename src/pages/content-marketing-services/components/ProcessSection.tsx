@@ -13,9 +13,9 @@ export function ProcessSection() {
     }));
 
     return (
-        <section className="py-12 px-4">
+        <section className="px-4 py-8 md:py-10">
             <div className="container px-4 mx-auto max-w-6xl">
-                <div className="text-center mb-12">
+                <div className="mb-8 text-center md:mb-10">
                     <h2 className="tracking-tight">{t('title')}</h2>
                 </div>
 
@@ -23,7 +23,7 @@ export function ProcessSection() {
                     {/* Connecting Line (Desktop) */}
                     <div className="hidden md:block absolute top-12 left-0 w-full h-0.5 bg-gradient-to-r from-muted via-primary/50 to-muted" />
 
-                    <div className="grid gap-12 md:grid-cols-3">
+                    <div className="grid gap-8 md:grid-cols-3 md:gap-10">
                         {steps.map((step, i) => (
                             <div key={i} className="relative flex flex-col items-center text-center group">
                                 {/* Icon Wrapper */}

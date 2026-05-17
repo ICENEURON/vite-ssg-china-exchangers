@@ -23,12 +23,12 @@ export function HeroSection() {
             <div className="absolute inset-0 -z-10 bg-gradient-to-b from-navbar/90 via-navbar/82 to-navbar" />
 
             <div className="container z-10 flex max-w-6xl flex-col justify-center gap-7 px-4">
-                <p className="w-fit rounded-full border border-orange-300/35 bg-orange-300/10 px-3 py-1.5 text-sm font-semibold text-orange-100 shadow-sm shadow-black/10">
+                <p className="hidden w-fit rounded-full border border-orange-300/35 bg-orange-300/10 px-3 py-1.5 text-sm font-semibold text-orange-100 shadow-sm shadow-black/10 md:block">
                     {t("pages.home.hero.eyebrow")}
                 </p>
 
                 <div className="max-w-5xl space-y-5">
-                    <h1 className="max-w-4xl text-4xl font-bold leading-tight text-white md:text-6xl">
+                    <h1 className="home-hero-title max-w-4xl font-bold text-white">
                         {t("pages.home.hero.title")}
                     </h1>
 

@@ -12,7 +12,7 @@ export function CategoryShowcase() {
     }>;
 
     return (
-        <section className="flex justify-center bg-white px-2 py-14">
+        <section className="flex justify-center bg-white px-2 pb-14 pt-8">
             <div className="container flex max-w-6xl flex-col gap-8 px-4">
                 <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
                     <div>

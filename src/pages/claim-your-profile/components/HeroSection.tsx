@@ -18,7 +18,7 @@ export function HeroSection() {
         <section className="relative overflow-hidden bg-slate-50 px-2 py-16 flex flex-col items-center justify-center w-full">
             <div className="absolute inset-0 bg-grid-hero-center pointer-events-none" />
 
-            <div className="container relative mx-auto max-w-6xl pt-16 px-4">
+            <div className="container relative mx-auto max-w-6xl px-4 pt-8">
                 <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
                     <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
                         <h1 className="max-w-4xl text-4xl font-extrabold tracking-tight text-slate-950 md:text-5xl">

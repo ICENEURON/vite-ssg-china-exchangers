@@ -210,51 +210,61 @@ export default function ManufacturerProfilePage() {
                 <link rel="canonical" href={currentUrl} />
             </Head>
 
-            <main className="min-h-screen bg-slate-50/50 text-foreground animate-in fade-in duration-500">
+            <main className="min-h-screen w-full max-w-full bg-slate-50/50 text-foreground animate-in fade-in duration-500">
 
                 {/* HERO SECTION - Vibrant Dark Gradient */}
-                <section className="relative overflow-hidden py-24 bg-gradient-to-br from-indigo-950 via-slate-900 to-zinc-950 text-white">
+                <section className="relative w-full max-w-full overflow-hidden py-24 bg-gradient-to-br from-indigo-950 via-slate-900 to-zinc-950 text-white">
                     {/* Abstract Shapes */}
-                    <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-blue-500/10 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/3" />
-                    <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-purple-500/10 rounded-full blur-[100px] translate-y-1/3 -translate-x-1/4" />
+                    <div
+                        className="pointer-events-none absolute right-0 top-0 rounded-full bg-blue-500/10 blur-[120px] -translate-y-1/2 translate-x-1/3"
+                        style={{ width: 'min(800px, 140vw)', height: 'min(800px, 140vw)' }}
+                    />
+                    <div
+                        className="pointer-events-none absolute bottom-0 left-0 rounded-full bg-purple-500/10 blur-[100px] translate-y-1/3 -translate-x-1/4"
+                        style={{ width: 'min(600px, 125vw)', height: 'min(600px, 125vw)' }}
+                    />
 
-                    <div className="container relative mx-auto px-4 max-w-7xl">
-                        <div className="flex flex-col lg:flex-row gap-12 items-start justify-between">
-                            <div className="flex-1 self-start space-y-6">
-                                <h1 className="text-4xl lg:text-7xl font-extrabold tracking-tight leading-tight">
+                    <div className="container relative mx-auto w-full max-w-7xl px-4">
+                        <div className="flex w-full max-w-full min-w-0 flex-col items-start justify-between gap-12 lg:flex-row">
+                            <div className="min-w-0 flex-1 self-start space-y-6">
+                                <h1 className="break-words text-4xl lg:text-7xl font-extrabold tracking-tight leading-tight">
                                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-100 via-white to-blue-200 drop-shadow-sm">
                                         {basicInfo?.name}
                                     </span>
                                 </h1>
 
-                                <div className="space-y-3 text-slate-300 text-sm font-medium">
+                                <div className="min-w-0 space-y-3 text-slate-300 text-sm font-medium">
                                     <div className="flex flex-wrap items-center gap-4">
                                         {basicInfo?.established && (
-                                            <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
-                                                <Factory className="w-4 h-4 text-emerald-400" /> {t(`${SHARED_TK}.established`, { year: basicInfo.established })}
+                                            <div className="flex max-w-full min-w-0 items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 backdrop-blur-sm transition-colors hover:bg-white/10">
+                                                <Factory className="h-4 w-4 shrink-0 text-emerald-400" />
+                                                <span className="min-w-0 break-words">{t(`${SHARED_TK}.established`, { year: basicInfo.established })}</span>
                                             </div>
                                         )}
                                         {basicInfo?.factory_area && (
-                                            <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
-                                                <Globe2 className="w-4 h-4 text-purple-400" /> {factoryAreaLabel}
+                                            <div className="flex max-w-full min-w-0 items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 backdrop-blur-sm transition-colors hover:bg-white/10">
+                                                <Globe2 className="h-4 w-4 shrink-0 text-purple-400" />
+                                                <span className="min-w-0 break-words">{factoryAreaLabel}</span>
                                             </div>
                                         )}
                                         {basicInfo?.employee_count && (
-                                            <div className="flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
-                                                <Users className="w-4 h-4 text-orange-400" /> {employeeCountLabel}
+                                            <div className="flex max-w-full min-w-0 items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 backdrop-blur-sm transition-colors hover:bg-white/10">
+                                                <Users className="h-4 w-4 shrink-0 text-orange-400" />
+                                                <span className="min-w-0 break-words">{employeeCountLabel}</span>
                                             </div>
                                         )}
                                     </div>
                                     {basicInfo?.address && (
-                                        <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
-                                            <MapPin className="w-4 h-4 text-blue-400" /> {basicInfo.address}
+                                        <div className="inline-flex max-w-full min-w-0 items-start gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-2 backdrop-blur-sm transition-colors hover:bg-white/10 sm:items-center sm:rounded-full">
+                                            <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-blue-400 sm:mt-0" />
+                                            <span className="min-w-0 break-words leading-6">{basicInfo.address}</span>
                                         </div>
                                     )}
                                 </div>
                             </div>
 
                             {/* Quote request box - frosted glass */}
-                            <div className="w-full max-w-md bg-white/5 backdrop-blur-md border border-white/10 p-8 rounded-2xl shadow-2xl relative overflow-hidden group">
+                            <div className="group relative w-full max-w-full rounded-2xl border border-white/10 bg-white/5 p-6 shadow-2xl backdrop-blur-md sm:max-w-md sm:p-8">
                                 <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-purple-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                                 <div className="relative z-10 mb-6 space-y-3">
@@ -274,9 +284,9 @@ export default function ManufacturerProfilePage() {
                 </section>
 
                 {/* VERIFICATION STRIP - Clean & Trustworthy */}
-                <div className="border-b bg-white shadow-sm sticky top-0 z-40 backdrop-blur-xl bg-white/80">
-                    <div className="container mx-auto px-4 max-w-7xl">
-                        <div className="grid grid-cols-2 sm:flex sm:flex-row justify-between w-full">
+                <div className="sticky top-0 z-40 w-full max-w-full border-b bg-white/80 shadow-sm backdrop-blur-xl">
+                    <div className="container mx-auto w-full max-w-7xl px-4">
+                        <div className="grid w-full max-w-full grid-cols-2 justify-between sm:flex sm:flex-row">
                             {[
                                 { icon: ShieldCheck, label: t(`${SHARED_TK}.iso_certified`), active: verifiedInfo?.iso, color: "text-emerald-500" },
                                 { icon: Award, label: t(`${SHARED_TK}.asme_stamp`), active: verifiedInfo?.ASME, color: "text-blue-500" },
@@ -290,9 +300,9 @@ export default function ManufacturerProfilePage() {
                                 if (index === 3) borderClasses = "border-none";
 
                                 return (
-                                    <div key={index} className={`flex-1 py-4 px-2 sm:px-4 flex items-center justify-center gap-2 sm:gap-3 hover:bg-slate-50 transition-colors min-w-[120px] border-slate-100 ${borderClasses}`}>
+                                    <div key={index} className={`flex min-w-0 flex-1 items-center justify-center gap-2 border-slate-100 px-2 py-4 transition-colors hover:bg-slate-50 sm:min-w-[120px] sm:gap-3 sm:px-4 ${borderClasses}`}>
                                         <item.icon className={`w-6 h-6 ${item.active ? item.color : "text-slate-300"}`} />
-                                        <div className="flex items-center gap-2 whitespace-nowrap leading-tight">
+                                        <div className="flex min-w-0 flex-wrap items-center justify-center gap-x-2 gap-y-0.5 leading-tight sm:flex-nowrap">
                                             <div className={`font-bold text-xs sm:text-sm ${item.active ? "text-slate-900" : "text-slate-400"}`}>{item.label}</div>
                                             <div className="text-xs sm:text-sm font-semibold text-slate-500">{item.active ? t(`${SHARED_TK}.verified`) : t(`${SHARED_TK}.not_available`)}</div>
                                         </div>
@@ -304,13 +314,13 @@ export default function ManufacturerProfilePage() {
                 </div>
 
                 {/* MAIN CONTENT AREA */}
-                <div className="container mx-auto px-4 max-w-7xl py-12 lg:py-16">
+                <div className="container mx-auto w-full max-w-7xl px-4 py-12 lg:py-16">
 
                     {/* 1. OVERVIEW & ADVANTAGES (Combined Flow) */}
-                    <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 mb-20">
-                        <div className="lg:col-span-8 space-y-8">
+                    <div className="mb-20 grid w-full max-w-full min-w-0 gap-8 lg:grid-cols-12 lg:gap-12">
+                        <div className="min-w-0 space-y-8 lg:col-span-8">
                             {gallerySlides.length > 0 && (
-                                <div className="w-full">
+                                <div className="w-full max-w-full min-w-0">
                                     <div className="mb-4 flex items-center gap-3">
                                         <div className="rounded-2xl bg-indigo-100 p-3 text-indigo-600">
                                             <Factory className="h-5 w-5" />
@@ -334,7 +344,7 @@ export default function ManufacturerProfilePage() {
                             )}
 
                             {/* Description Card */}
-                            <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm">
+                            <div className="w-full max-w-full rounded-2xl border border-slate-100 bg-white p-6 shadow-sm sm:p-8">
                                 <h2 className="text-2xl font-bold mb-6 flex items-center gap-3 text-slate-800">
                                     <Factory className="w-6 h-6 text-blue-600" /> {t(`${SHARED_TK}.company_overview`)}
                                 </h2>
@@ -349,7 +359,7 @@ export default function ManufacturerProfilePage() {
                             </div>
 
                             {/* Advantages - Single Line List Style */}
-                            <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm">
+                            <div className="w-full max-w-full rounded-2xl border border-slate-100 bg-white p-6 shadow-sm sm:p-8">
                                 <h2 className="text-2xl font-bold mb-6 flex items-center gap-3 text-slate-800">
                                     <Sparkles className="w-6 h-6 text-blue-600" /> {t(`${SHARED_TK}.why_choose_us`)}
                                 </h2>
@@ -364,9 +374,9 @@ export default function ManufacturerProfilePage() {
                         </div>
 
                         {/* Sidebar - Info Cards */}
-                        <div className="lg:col-span-4 space-y-6">
+                        <div className="min-w-0 space-y-6 lg:col-span-4">
                             {/* Industries Tag Cloud */}
-                            <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm h-fit">
+                            <div className="h-fit w-full max-w-full rounded-2xl border border-slate-100 bg-white p-6 shadow-sm">
                                 <h3 className="font-bold mb-4 flex items-center gap-2 text-slate-800">
                                     <Flame className="w-5 h-5 text-orange-500" /> {t(`${SHARED_TK}.industries_served`)}
                                 </h3>
@@ -381,7 +391,7 @@ export default function ManufacturerProfilePage() {
 
                             {/* Export Markets Tag Cloud */}
                             {exportMarkets.length > 0 && (
-                                <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm h-fit">
+                                <div className="h-fit w-full max-w-full rounded-2xl border border-slate-100 bg-white p-6 shadow-sm">
                                     <h3 className="font-bold mb-4 flex items-center gap-2 text-slate-800">
                                         <Globe2 className="w-5 h-5 text-indigo-500" /> {t(`${SHARED_TK}.export_markets`)}
                                     </h3>
@@ -405,7 +415,7 @@ export default function ManufacturerProfilePage() {
                                     href={website}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="group block bg-gradient-to-r from-slate-900 to-slate-800 text-white p-6 rounded-2xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all"
+                                    className="group block w-full max-w-full rounded-2xl bg-gradient-to-r from-slate-900 to-slate-800 p-6 text-white shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl"
                                 >
                                     <div className="flex justify-between items-center mb-2">
                                         <span className="text-sm font-bold opacity-60 uppercase tracking-widest">{t(`${SHARED_TK}.official_website`)}</span>
@@ -419,7 +429,7 @@ export default function ManufacturerProfilePage() {
 
                             {/* Contact Information */}
                             {(email.length > 0 || phone.length > 0) && (
-                                <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm h-fit">
+                                <div className="h-fit w-full max-w-full rounded-2xl border border-slate-100 bg-white p-6 shadow-sm">
                                     <h3 className="font-bold mb-4 flex items-center gap-2 text-slate-800">
                                         <Phone className="w-5 h-5 text-emerald-500" /> {t(`${SHARED_TK}.contact_info`)}
                                     </h3>
@@ -442,7 +452,7 @@ export default function ManufacturerProfilePage() {
 
                             {/* Social Media Links */}
                             {socialMediaLinks.length > 0 && (
-                                <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm h-fit">
+                                <div className="h-fit w-full max-w-full rounded-2xl border border-slate-100 bg-white p-6 shadow-sm">
                                     <h3 className="font-bold mb-4 flex items-center gap-2 text-slate-800">
                                         <Globe2 className="w-5 h-5 text-blue-500" /> {t(`${SHARED_TK}.follow_us`)}
                                     </h3>
@@ -469,10 +479,10 @@ export default function ManufacturerProfilePage() {
                     </div>
 
                     {/* 2. PRODUCT SHOWCASE - Compact & Colorful */}
-                    <div className="mb-20">
+                    <div className="mb-20 w-full max-w-full min-w-0">
                         <div className="mb-8">
                             <div>
-                                <h2 className="text-3xl font-bold tracking-tight text-slate-900 mb-4 flex items-center gap-3">
+                                <h2 className="mb-4 flex max-w-full min-w-0 items-center gap-3 break-words text-3xl font-bold tracking-tight text-slate-900">
                                     <div className="rounded-xl bg-blue-100 p-3 text-blue-600">
                                         <Package className="h-5 w-5" />
                                     </div>
@@ -497,12 +507,12 @@ export default function ManufacturerProfilePage() {
                             </div>
                         </div>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                        <div className="grid w-full max-w-full min-w-0 grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                             {products?.map((product: Product, index: number) => (
                                 <Link
                                     key={index}
                                     to={addLanguageToPath(`/products/${product.url}`, currentLanguage)}
-                                    className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/20 hover:shadow-xl hover:shadow-primary/10"
+                                    className="group flex h-full min-w-0 max-w-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/20 hover:shadow-xl hover:shadow-primary/10"
                                 >
                                     <div className="relative flex h-56 items-center justify-center overflow-hidden bg-white p-4">
                                         {product.image ? (
@@ -551,8 +561,8 @@ export default function ManufacturerProfilePage() {
                     </div>
 
                     {/* 4. FACTORY CERTIFICATES */}
-                    <div className="mb-20">
-                        <div className="bg-white rounded-2xl p-8 lg:p-10 border border-slate-100 shadow-sm relative overflow-hidden">
+                    <div className="mb-20 w-full max-w-full min-w-0">
+                        <div className="relative w-full max-w-full overflow-hidden rounded-2xl border border-slate-100 bg-white p-6 shadow-sm sm:p-8 lg:p-10">
                             <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/5 rounded-bl-[100px]" />
                             <h3 className="text-2xl font-bold mb-8 flex items-center gap-3 relative z-10">
                                 <div className="p-3 bg-blue-100 text-blue-600 rounded-xl">
@@ -572,8 +582,8 @@ export default function ManufacturerProfilePage() {
 
                     {/* 4.5 DOCUMENT DOWNLOADS */}
                     {documents.length > 0 && (
-                        <div className="mb-20">
-                            <div className="bg-white rounded-2xl p-8 lg:p-10 border border-slate-100 shadow-sm relative overflow-hidden">
+                        <div className="mb-20 w-full max-w-full min-w-0">
+                            <div className="relative w-full max-w-full overflow-hidden rounded-2xl border border-slate-100 bg-white p-6 shadow-sm sm:p-8 lg:p-10">
                                 <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/5 rounded-bl-[100px]" />
                                 <h3 className="text-2xl font-bold mb-8 flex items-center gap-3 relative z-10">
                                     <div className="p-3 bg-emerald-100 text-emerald-600 rounded-xl">
@@ -583,7 +593,7 @@ export default function ManufacturerProfilePage() {
                                 </h3>
                                 <div className="space-y-4 relative z-10">
                                     {documents.map((doc, idx) => (
-                                        <div key={idx} className="flex items-center justify-between gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100 hover:border-emerald-200 hover:shadow-sm transition-all">
+                                        <div key={idx} className="flex w-full max-w-full min-w-0 flex-col gap-4 rounded-xl border border-slate-100 bg-slate-50 p-4 transition-all hover:border-emerald-200 hover:shadow-sm sm:flex-row sm:items-center sm:justify-between">
                                             <div className="flex items-center gap-4 min-w-0">
                                                 <div className="p-2 bg-red-50 rounded-lg shrink-0">
                                                     <FileText className="w-5 h-5 text-red-500" />
@@ -597,7 +607,7 @@ export default function ManufacturerProfilePage() {
                                                 download={getDocumentDisplayName(doc)}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm rounded-xl shadow-sm hover:shadow-md transition-all hover:scale-[1.02]"
+                                                className="inline-flex w-full shrink-0 items-center justify-center gap-2 rounded-xl bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:scale-[1.02] hover:bg-emerald-700 hover:shadow-md sm:w-auto"
                                             >
                                                 <Download className="w-4 h-4" />
                                                 {downloadLabel}
@@ -611,8 +621,8 @@ export default function ManufacturerProfilePage() {
 
                     {/* 5. TRUSTED CUSTOMERS */}
                     {customers.length > 0 && (
-                        <div className="mb-12">
-                            <div className="bg-white rounded-2xl p-8 lg:p-10 border border-slate-100 shadow-sm relative overflow-hidden">
+                        <div className="mb-12 w-full max-w-full min-w-0">
+                            <div className="relative w-full max-w-full overflow-hidden rounded-2xl border border-slate-100 bg-white p-6 shadow-sm sm:p-8 lg:p-10">
                                 <div className="absolute top-0 left-0 w-64 h-64 bg-amber-500/5 rounded-br-[100px]" />
 
                                 <div className="mb-10 relative z-10 flex items-center gap-4 text-left">
@@ -645,12 +655,12 @@ export default function ManufacturerProfilePage() {
                 </div>
 
                 {/* FINAL CTA - Gradient */}
-                <section className="py-20 bg-gradient-to-br from-indigo-900 to-blue-900 text-white text-center relative overflow-hidden">
+                <section className="relative w-full max-w-full overflow-hidden bg-gradient-to-br from-indigo-900 to-blue-900 py-20 text-center text-white">
                     <div className="absolute inset-0 opacity-20 bg-dot-overlay-inverse" />
-                    <div className="container relative mx-auto px-4 max-w-2xl">
+                    <div className="container relative mx-auto w-full max-w-2xl px-4">
                         <h2 className="text-3xl md:text-5xl font-extrabold mb-6 tracking-tight">
                             {partnerWithPrefix}
-                            <span className="text-orange-300">{basicInfo?.name}</span>
+                            <span className="break-words text-orange-300">{basicInfo?.name}</span>
                             {partnerWithSuffix}
                         </h2>
                         <p className="text-blue-100 mb-10 text-lg">
@@ -670,7 +680,7 @@ export default function ManufacturerProfilePage() {
             {/* Floating Back Button */}
             <Link
                 to={addLanguageToPath('/manufacturers', currentLanguage)}
-                className="fixed bottom-6 right-6 z-50 flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 group hover:shadow-float hover:-translate-y-1 hover:text-blue-600"
+                className="group fixed bottom-6 right-4 z-50 flex max-w-[calc(100vw-2rem)] items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float sm:right-6"
             >
                 <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-1" />
                 <span>{t(`${SHARED_TK}.back_to_list`)}</span>

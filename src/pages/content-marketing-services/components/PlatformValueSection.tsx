@@ -6,7 +6,7 @@ export function PlatformValueSection() {
     const { t } = useTranslation("translation", { keyPrefix: "pages.cms.platform_impact" });
 
     return (
-        <section className="pt-12 pb-20">
+        <section className="pt-8 pb-12 md:pt-10 md:pb-14">
             <div className="container px-4 mx-auto max-w-6xl">
 
                 <div className="mb-5 grid gap-3 md:grid-cols-3">
@@ -27,7 +27,7 @@ export function PlatformValueSection() {
                 </div>
 
                 {/* Bento Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
 
                     {/* Card 1: SEO Dominance (Large - Spans 2 cols) */}
                     <div className="group relative overflow-hidden rounded-2xl border border-slate-800 bg-slate-900 text-white p-8 md:col-span-2 flex flex-col justify-between transition-colors hover:border-blue-600 min-h-[300px] md:min-h-[300px]">
@@ -84,7 +84,7 @@ export function PlatformValueSection() {
                     </div>
 
                     {/* Card 4: Industry News Publishing */}
-                    <div className="group relative overflow-hidden rounded-2xl border border-slate-800 bg-slate-900 text-white p-8 md:col-span-2 grid grid-cols-1 sm:grid-cols-3 gap-8 items-center transition-all hover:ring-2 ring-blue-400/40">
+                    <div className="group relative grid grid-cols-1 items-center gap-5 overflow-hidden rounded-2xl border border-slate-800 bg-slate-900 p-8 text-white transition-all ring-blue-400/40 hover:ring-2 sm:grid-cols-3 md:col-span-2 md:gap-8">
                         <div className="relative overflow-hidden rounded-lg border border-white/10 bg-white/5 p-4 w-full min-h-[160px] sm:col-span-1">
                             <div className="flex items-center gap-3 mb-3 pb-3 border-b border-white/10">
                                 <div className="w-8 h-8 rounded-full bg-gradient-to-br from-orange-400 to-red-500" />

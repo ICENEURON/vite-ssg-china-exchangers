@@ -224,12 +224,12 @@ export default function ProductProfilePage() {
                 </section>
 
                 {/* Content Sections */}
-                <div className="container max-w-6xl mx-auto px-6 py-16 space-y-24">
+                <div className="container max-w-6xl mx-auto px-6 py-10 md:py-12 space-y-14 md:space-y-16">
 
                     {/* Product Details */}
                     {details.length > 0 && (
                         <section>
-                            <div className="flex items-center gap-3 mb-8">
+                            <div className="flex items-center gap-3 mb-5 md:mb-6">
                                 <div className="p-3 bg-violet-500/10 rounded-xl text-violet-600">
                                     <BookOpen className="w-6 h-6" />
                                 </div>
@@ -237,8 +237,8 @@ export default function ProductProfilePage() {
                             </div>
                             <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
                                 {details.map((detail, idx) => (
-                                    <div key={idx} className={idx > 0 ? "mt-8 pt-2" : undefined}>
-                                        <h3 className="text-xl font-bold mb-4 text-card-foreground">{detail.title}</h3>
+                                    <div key={idx} className={idx > 0 ? "mt-6 pt-1" : undefined}>
+                                        <h3 className="text-xl font-bold mb-3 text-card-foreground">{detail.title}</h3>
                                         <p className="text-slate-700 leading-relaxed text-lg">{detail.content}</p>
                                     </div>
                                 ))}
@@ -249,7 +249,7 @@ export default function ProductProfilePage() {
                     {/* Advantages */}
                     {advantages && advantages.length > 0 && (
                         <section>
-                            <div className="flex items-center gap-3 mb-8">
+                            <div className="flex items-center gap-3 mb-5 md:mb-6">
                                 <div className="p-3 bg-primary/10 rounded-xl text-primary">
                                     <CheckCircle2 className="w-6 h-6" />
                                 </div>
@@ -271,7 +271,7 @@ export default function ProductProfilePage() {
                     {/* Technical Parameters */}
                     {hasTechnicalParams && (
                         <section>
-                            <div className="flex items-center gap-3 mb-8">
+                            <div className="flex items-center gap-3 mb-5 md:mb-6">
                                 <div className="p-3 bg-blue-500/10 rounded-xl text-blue-600">
                                     <Settings className="w-6 h-6" />
                                 </div>
@@ -295,7 +295,7 @@ export default function ProductProfilePage() {
                     {/* More Products From This Manufacturer */}
                     {relatedProducts.length > 0 && (
                         <section>
-                            <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                            <div className="mb-5 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between md:mb-6">
                                 <div className="flex items-center gap-3">
                                     <div className="p-3 bg-slate-900/10 rounded-xl text-slate-700">
                                         <Factory className="w-6 h-6" />
@@ -373,7 +373,7 @@ export default function ProductProfilePage() {
                     {/* Document Downloads */}
                     {documents.length > 0 && (
                         <section>
-                            <div className="flex items-center gap-3 mb-8">
+                            <div className="flex items-center gap-3 mb-5 md:mb-6">
                                 <div className="p-3 bg-emerald-500/10 rounded-xl text-emerald-600">
                                     <FileText className="w-6 h-6" />
                                 </div>

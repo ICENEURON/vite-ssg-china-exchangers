@@ -83,10 +83,15 @@ function loadGa4() {
   gaLoaded = true;
   window[`ga-disable-${gaMeasurementId}`] = false;
 
-  const script = document.createElement('script');
-  script.async = true;
-  script.src = `https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`;
-  document.head.appendChild(script);
+  const scriptUrl = `https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`;
+  const existingScript = document.querySelector(`script[src="${scriptUrl}"]`);
+
+  if (!existingScript) {
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = scriptUrl;
+    document.head.appendChild(script);
+  }
 
   window.gtag?.('js', new Date());
   window.gtag?.('config', gaMeasurementId, {

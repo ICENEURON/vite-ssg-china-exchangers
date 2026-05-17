@@ -208,7 +208,7 @@ export default function BlogsPage() {
                     <div className="grid grid-cols-1 lg:grid-cols-[220px_minmax(0,1fr)] gap-8 items-start">
                         <aside className="space-y-6 lg:sticky lg:top-24">
                             <div>
-                                <div className="grid grid-cols-3 gap-2 lg:flex lg:flex-col">
+                                <div className="space-y-2">
                                     {contentTypeOptions.map((option) => (
                                         <FilterButton
                                             key={option.value}

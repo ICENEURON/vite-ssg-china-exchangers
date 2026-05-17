@@ -116,6 +116,21 @@
   min-width: 9rem;
 }
 
+@media (max-width: 640px) {
+  #cc-main .cm--bar .cm__body {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #cc-main .cm--bar .cm__texts {
+    padding-top: 1.75rem;
+  }
+
+  #cc-main .cm--bar .cm__btns {
+    padding-bottom: 1.75rem;
+  }
+}
+
 #cc-main .cm__title {
   font-size: 1rem;
   line-height: 1.3;
