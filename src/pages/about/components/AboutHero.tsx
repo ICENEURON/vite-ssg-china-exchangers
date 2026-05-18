@@ -13,7 +13,7 @@ export function AboutHero() {
 
             <div className="container z-10 flex max-w-6xl flex-col justify-center gap-7 px-4">
                 <div className="max-w-5xl space-y-5">
-                    <h1 className="max-w-4xl text-4xl font-bold leading-tight text-white md:text-6xl">
+                    <h1 className="max-w-4xl font-bold leading-tight text-white md:text-6xl">
                         <Trans
                             i18nKey="pages.about.hero.title"
                             components={{ 1: <span className="text-orange-300" /> }}

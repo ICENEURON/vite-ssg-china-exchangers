@@ -22,21 +22,17 @@ export function ContactHero() {
     };
 
     return (
-        <section className="relative isolate flex min-h-[460px] justify-center overflow-hidden bg-navbar px-2 py-14 text-navbar-foreground">
+        <section className="relative isolate flex min-h-[380px] justify-center overflow-hidden bg-navbar px-2 py-10 text-navbar-foreground">
             <div className="absolute inset-0 -z-20 bg-[url('/static/websites/home-hero.png')] bg-cover bg-center opacity-30" />
             <div className="absolute inset-0 -z-10 bg-gradient-to-b from-navbar/92 via-navbar/86 to-navbar" />
 
-            <div className="container z-10 flex max-w-6xl flex-col justify-start gap-7 px-4 pt-4">
+            <div className="container z-10 flex max-w-6xl flex-col justify-start gap-5 px-4 pt-9">
                 <div className="max-w-5xl space-y-5">
                     <h1 className="max-w-4xl text-4xl font-bold leading-tight text-white md:text-6xl">
                         {t("pages.contact.hero.title_prefix")}
                         <BrandName />
                         {t("pages.contact.hero.title_suffix")}
                     </h1>
-
-                    <p className="max-w-3xl text-lg leading-8 text-gray-100 md:text-xl">
-                        {t("pages.contact.hero.subtitle")}
-                    </p>
 
                     <p className="max-w-3xl text-sm leading-7 text-gray-300 md:text-base">
                         <BrandName />

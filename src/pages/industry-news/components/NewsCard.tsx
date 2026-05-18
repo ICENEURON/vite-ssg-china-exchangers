@@ -40,9 +40,9 @@ export function NewsCard({ post }: NewsCardProps) {
                     </span>
                 </div>
 
-                <h3 className="font-bold text-foreground leading-tight group-hover:text-primary transition-colors font-serif">
+                <h4 className="font-bold text-foreground leading-tight group-hover:text-primary transition-colors font-serif">
                     {post.title}
-                </h3>
+                </h4>
 
                 {post.excerpt && (
                     <p className="text-sm text-muted line-clamp-2 mb-4 leading-relaxed">

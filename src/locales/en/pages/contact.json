@@ -13,47 +13,46 @@
     "site_name": "{{site_name}}"
   },
   "hero": {
-    "title_prefix": "Contact the team behind ",
+    "title_prefix": "Contact ",
     "title_suffix": "",
-    "subtitle": "For quote follow-up, supplier profile updates, content submissions, or data corrections, start here.",
-    "description": " is an independent information service for global buyers evaluating Chinese heat exchanger manufacturers. We organize supplier data, product scope, content leads, and follow-up requests into clear paths so the next step is easier to choose.",
+    "description": " helps global buyers review Chinese heat exchanger manufacturers, product information, and supporting materials. Contact us about sourcing enquiries, manufacturer updates, article submissions, or corrections.",
     "copy_email": "Copy",
     "email_copied": "Copied"
   },
   "paths": {
-    "title": "What would you like to contact us about?",
-    "description": "Quote requests, profile updates, article submissions, and corrections each have their own starting point so the details are easier to handle.",
+    "title": "What can we help with?",
+    "description": "Choose the option that best matches your enquiry, whether it is about sourcing, manufacturer information, article submissions, or page corrections.",
     "items": {
       "buyer": {
-        "title": "Buyer questions or supplier research",
-        "description": "Ask about listed factories, request more detail, or check companies and products not yet covered on the platform.",
-        "action": "Email the team"
+        "title": "Sourcing Enquiries",
+        "description": "Ask about listed manufacturers, product information, or Chinese heat exchanger suppliers not yet covered on the platform.",
+        "action": "Email the Team"
       },
       "supplier": {
-        "title": "Company or product information update",
-        "description": "Correct company data, add verification material, or update product scope.",
-        "action": "Update information"
+        "title": "Profile Updates",
+        "description": "Update company details, product scope, certificates, images, or other supporting materials.",
+        "action": "Update Information"
       },
       "content": {
-        "title": "Article publication request",
-        "description": "Submit article ideas, company news, product explainers, or case-study material.",
-        "action": "Submit article request"
+        "title": "Article Submissions",
+        "description": "Submit company news, product articles, technical explainers, project stories, or case-study material.",
+        "action": "Submit Article"
       },
       "correction": {
-        "title": "Other questions or data updates",
-        "description": "Report incorrect page data, broken links, language issues, or other platform questions.",
-        "action": "Email support"
+        "title": "Corrections",
+        "description": "Report incorrect information, broken links, language issues, or other website questions.",
+        "action": "Email Support"
       }
     }
   },
   "cta": {
-    "email_label": "Email Us Directly",
-    "note": "Messages are reviewed manually and routed for sourcing research, profile data, content review, or support.",
+    "email_label": "Email Us",
+    "note": "We review messages manually and follow up on sourcing enquiries, profile updates, article submissions, and support requests.",
     "checklist_title": "Helpful details to include",
     "checklist": [
-      "Clearly state who you are and what you need.",
-      "Include supporting attachments if available.",
-      "Use or specify an email address that can reliably receive replies."
+      "Tell us who you are and what you need.",
+      "Include supporting files or links if available.",
+      "Use an email address that can receive replies."
     ]
   }
 }
