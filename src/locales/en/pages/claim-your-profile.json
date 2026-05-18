@@ -13,86 +13,86 @@
     "site_name": "{{site_name}}"
   },
   "hero": {
-    "title": "Update and improve your manufacturer profile.",
-    "description": "If your company page needs new content, corrected information, updated product details, better images, certificates, brochures, or additional media files, send the materials to our team by email. We review the request and update the public profile where the information is relevant and verifiable.",
+    "title": "Update Your Manufacturer Profile",
+    "description": "Manufacturers can use the templates below to submit updated product details, images, certificates, brochures, and other supporting media. We review each request and update the public profile where the information is relevant and verifiable.",
     "highlights": [
-      "Email-based submission",
+      "Email-based updates",
       "Images and files accepted",
-      "Profile update template available"
+      "Profile templates available"
     ],
     "company_template_cta": "Company Template",
     "product_template_cta": "Product Template",
     "panel": {
       "items": [
         {
-          "title": "Download the profile update template first",
-          "description": "Use the template to organize company information, product scope, documents, and image notes. After filling it in, send it by email together with images, certificates, brochures, or download links."
+          "title": "Start with the template",
+          "description": "Use the template to organize company details, product scope, documents, and image notes before sending your update."
         },
         {
-          "title": "Provide images as email attachments only",
-          "description": "Send product images, factory photos, workshop images, certificates, brochures, and logos as email attachments only."
+          "title": "Attach your files",
+          "description": "Send product images, factory photos, certificates, brochures, logos, and other supporting files by email."
         },
         {
-          "title": "Keep everything in one email thread",
-          "description": "Use a clear subject line with your company name so our team can connect files, corrections, and follow-up questions to the right profile."
+          "title": "Use one email thread",
+          "description": "Include your company name in the subject line so we can connect updates, files, and follow-up questions to the right profile."
         }
       ]
     }
   },
   "update_scope": {
-    "title": "Any profile content that helps buyers understand your company can be reviewed",
-    "description": "The goal is not to publish promotional statements without context. We prefer specific information that improves buyer understanding, technical comparison, and profile accuracy.",
+    "title": "What You Can Update",
+    "description": "We prefer clear, specific information that helps buyers understand your company, products, documents, and real manufacturing capability.",
     "items": [
       {
-        "title": "Company information",
+        "title": "Company Information",
         "description": "Company name, location, website, year founded, business scope, export markets, core industries, and contact details."
       },
       {
-        "title": "Product capabilities",
-        "description": "Heat exchanger types, applications, materials, pressure and temperature ranges, product series, design standards, and available models."
+        "title": "Product Information",
+        "description": "Heat exchanger types, applications, materials, pressure and temperature ranges, product series, standards, and available models."
       },
       {
-        "title": "Documents and certificates",
-        "description": "Brochures, catalogs, datasheets, certificates, manuals, public-source references, and product files that can support the page."
+        "title": "Documents and Certificates",
+        "description": "Brochures, catalogues, datasheets, certificates, manuals, public references, and other product or company files."
       },
       {
-        "title": "Images and media",
-        "description": "Product photos, workshop photos, factory exterior, process images, logos, exhibition images, and other media suitable for public display."
+        "title": "Images and Media",
+        "description": "Product photos, factory photos, workshop images, process images, logos, exhibition photos, and other media suitable for public display."
       }
     ]
   },
   "process": {
-    "title": "We review updates before changing the public page",
-    "description": "Every update request is handled manually. We may edit language, ask for clarification, or decline content that is incomplete, unverifiable, unrelated, or too promotional.",
+    "title": "How Profile Updates Are Reviewed",
+    "description": "All update requests are reviewed manually. We may edit wording, ask for clarification, or decline content that is incomplete, unrelated, unverifiable, or too promotional.",
     "steps": [
       {
         "title": "Send materials by email",
-        "description": "Include the profile link if available, your company name, the fields to update, and any files or image links."
+        "description": "Include your company name, profile link if available, completed template, and supporting files."
       },
       {
-        "title": "We check and organize the content",
-        "description": "Our team reviews whether the information belongs on the profile, whether files are usable, and whether the wording needs editing."
+        "title": "We review the content",
+        "description": "We check whether the information is relevant, clear, usable, and suitable for the public profile."
       },
       {
         "title": "Approved updates go live",
-        "description": "Relevant updates are added to the manufacturer profile, product pages, or file/media areas after review."
+        "description": "Relevant updates may be added to the manufacturer profile, product pages, or media sections after review."
       }
     ]
   },
   "submission": {
     "contact": {
       "subject_label": "Suggested subject",
-      "subject_description": "Use a clear subject line with your company name so our team can connect files to the right profile.",
+      "subject_description": "Use a clear subject line with your company name so we can match the update to the right profile.",
       "copied": "Copied!"
     },
     "required": {
       "title": "Completed Template",
-      "description": "Please send the completed profile update template document as an email attachment."
+      "description": "Please send the completed profile update template as an email attachment."
     },
     "media": {
-      "title": "Image Attachments",
-      "description": "Send product images, factory photos, certificates, and logos as email attachments only."
+      "title": "File Attachments",
+      "description": "Send product images, factory photos, certificates, brochures, logos, and other supporting files as email attachments."
     },
-    "footer_note": "Note: Submitted materials will be manually reviewed before the profile is updated."
+    "footer_note": "Submitted materials are reviewed manually before any public profile update is made."
   }
 }
