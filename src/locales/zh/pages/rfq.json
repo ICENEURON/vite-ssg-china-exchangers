@@ -382,7 +382,7 @@
     "summaryColdSide": "冷侧",
     "summaryInlet": "进口温度",
     "summaryOutlet": "出口温度",
-    "submitBtn": "提交询价单",
+    "submitBtn": "获取报价",
     "otherPrefix": "其他"
   },
   "parameterLabels": {

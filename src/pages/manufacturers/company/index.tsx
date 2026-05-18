@@ -275,7 +275,7 @@ export default function ManufacturerProfilePage() {
                                 <QuoteCta size="lg" className="relative z-10 w-full h-14 text-lg" asChild>
                                     <RfqLink>
                                         <Mail className="w-5 h-5" />
-                                        {t("navigation.menu.rfq")}
+                                        {t(`${SHARED_TK}.quote_here`)}
                                     </RfqLink>
                                 </QuoteCta>
                             </div>
@@ -669,7 +669,7 @@ export default function ManufacturerProfilePage() {
                         <QuoteCta size="lg" className="h-16 px-10 text-xl" asChild>
                             <RfqLink>
                                 <Mail className="w-5 h-5" />
-                                {t("navigation.menu.rfq")}
+                                {t(`${SHARED_TK}.quote_here`)}
                             </RfqLink>
                         </QuoteCta>
                     </div>

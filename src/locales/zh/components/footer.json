@@ -6,13 +6,13 @@
   "tagline": "连接全球买家与中国优质换热器制造商，轻松对比厂家、查找产品、提交询价。",
   "categories": "分类",
   "resources": "资源",
-  "rfq_label": "提交询价",
+  "rfq_label": "获取报价",
   "links": {
     "items": {
       "home": "首页",
       "manufacturers": "制造商列表",
       "products": "产品类别",
-      "rfq": "提交询价",
+      "rfq": "获取报价",
       "profile": "更新厂家资料",
       "content-marketing-services": "行业资讯投稿",
       "industry-news": "行业新闻",
