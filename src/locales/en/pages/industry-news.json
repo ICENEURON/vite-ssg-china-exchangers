@@ -14,14 +14,7 @@
     },
     "page": {
         "title": "Industry News",
-        "subtitle": "",
-        "latest": "Latest Updates"
-    },
-    "hero": {
-        "title": "Strategic Content That Drives Growth",
-        "subtitle": "Elevate your brand with data-driven content strategies.",
-        "intro": "We help B2B manufacturers and exporters connect with their audience through high-quality, SEO-optimized content. From industry-news posts to technical whitepapers, our team delivers content that builds trust and generates leads.",
-        "badge": "News"
+        "subtitle": ""
     },
     "card": {
         "read": "Read Article"
@@ -31,15 +24,12 @@
         "posts": "Technical Article"
     },
     "filters": {
-        "content_type": "Content Type",
         "company": "Company",
         "all": "All",
-        "all_companies": "All Companies",
         "no_results": "No articles match these filters."
     },
     "search": {
             "label": "Search article titles",
-            "placeholder": "Search articles, products, manufacturers, or applications",
             "title_placeholder": "Search title keywords"
     },
     "blog": {
@@ -48,13 +38,7 @@
         "back_to_list": "Back to List",
         "back_to_catalog": "Back to News Catalog",
         "author": "Author",
-        "reviewer": "Reviewer",
         "read_time": "Read",
         "related_posts": "Latest Articles"
-    },
-    "pagination": {
-        "of": "of",
-        "results": "Results",
-        "go_to": "Go to"
     }
 }

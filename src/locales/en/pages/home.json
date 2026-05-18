@@ -19,12 +19,10 @@
     "highlightedArticlesListName": "HeatEx Direct featured company news and technical articles"
   },
   "hero": {
-    "eyebrow": "Chinese heat exchanger manufacturer directory",
+    "eyebrow": "Chinese heat exchanger manufacturer platform",
     "title": "Find Chinese Heat Exchanger Manufacturers by Product Type, Application, and Technical Fit",
     "subtitle": "HeatEx Direct helps procurement teams, engineers, EPC companies, distributors, and system integrators worldwide research Chinese heat exchanger manufacturers before starting supplier conversations.",
     "description": "The platform organizes manufacturer profiles, product categories, application sectors, available factory evidence, technical notes, and quote request information into one sourcing workflow.",
-    "cta_primary": "Submit Quote Request",
-    "cta_secondary": "Browse Manufacturers",
     "paths": [
       {
         "title": "Browse manufacturers",
@@ -64,89 +62,50 @@
       {
         "label": "Certificates and documents",
         "body": "Available proof points that buyers can review before deeper supplier due diligence."
-      },
-      {
-        "label": "Export and industry fit",
-        "body": "Industries served, export markets, application signals, and product specialization."
-      },
-      {
-        "label": "Buyer intelligence",
-        "body": "Technical articles, supplier updates, market observations, and sourcing guides linked back to directory data."
       }
-    ],
-    "reviewLabel": "Structured for human and AI discovery",
-    "reviewNote": "This structure supports both human buyers and search or AI systems: manufacturer facts, product relationships, article topics, and quote request workflows are labeled consistently instead of being buried in promotional copy."
-  },
-  "companyIntro": {
-    "eyebrow": "About HeatEx Direct",
-    "title": "A China-focused heat exchanger research service for global buyers",
-    "lead": "HeatEx Direct focuses on Chinese heat exchanger manufacturers because buyers often need a clearer, more comparable view of this manufacturing base before supplier outreach.",
-    "body": "HeatEx Direct organizes manufacturer profiles, product capability data, technical articles, supplier updates, and structured quote request intake for industrial heat exchanger sourcing. The business communication and service model are international, with Australia-based operations supporting a global buyer audience.",
-    "paragraphs": [
-      "The site is not a manufacturer and does not present itself as a broad marketplace. It is focused on one vertical: heat exchangers and related thermal transfer equipment from Chinese manufacturers serving global industrial buyers.",
-      "The service is designed for procurement managers, engineers, EPC teams, distributors, and system integrators who need a clearer supplier shortlist before they spend time on direct communication, documentation checks, or commercial negotiation."
-    ],
-    "facts": [
-      "Australia-based operations",
-      "Global industrial buyer audience",
-      "China-focused manufacturer directory"
     ]
   },
   "categoryShowcase": {
-    "eyebrow": "Product category directory",
+    "eyebrow": "Product category platform",
     "title": "Start from the equipment type buyers actually specify",
-    "alt": "Industrial heat exchanger manufacturer and product research service",
-    "imageCaption": "Chinese heat exchanger manufacturer profiles, product capabilities, and sourcing context organized in one place",
-    "viewProducts": "View products",
     "categories": [
       {
         "title": "Plate heat exchangers",
-        "body": "Gasketed and related plate units for HVAC, food, marine, process cooling, and general heat recovery duties.",
-        "terms": ["Gasketed", "Plates", "Gaskets"]
+        "body": "Gasketed and related plate units for HVAC, food, marine, process cooling, and general heat recovery duties."
       },
       {
         "title": "Welded plate heat exchangers",
-        "body": "Fully welded, wide-gap, plate-and-shell, and harsh-duty designs for higher pressure or difficult media.",
-        "terms": ["Wide gap", "Plate shell", "Harsh fluids"]
+        "body": "Fully welded, wide-gap, plate-and-shell, and harsh-duty designs for higher pressure or difficult media."
       },
       {
         "title": "Shell-and-tube equipment",
-        "body": "Tubular heat exchangers and pressure-vessel-style equipment for heavy industrial service.",
-        "terms": ["Tubular", "Pressure vessel", "Process duty"]
+        "body": "Tubular heat exchangers and pressure-vessel-style equipment for heavy industrial service."
       },
       {
         "title": "Air-side heat exchange",
-        "body": "Air coolers, air radiators, finned tube equipment, and air-side heat transfer systems.",
-        "terms": ["Air cooler", "Finned tube", "Drying"]
+        "body": "Air coolers, air radiators, finned tube equipment, and air-side heat transfer systems."
       },
       {
         "title": "Heat exchanger units",
-        "body": "Packaged skids and integrated heat exchange systems with pumps, instruments, valves, and controls.",
-        "terms": ["Skids", "Units", "Controls"]
+        "body": "Packaged skids and integrated heat exchange systems with pumps, instruments, valves, and controls."
       },
       {
         "title": "Spare parts and service items",
-        "body": "Replacement plates, gaskets, maintenance-related parts, and documentation for lifecycle support.",
-        "terms": ["Plates", "Gaskets", "Maintenance"]
+        "body": "Replacement plates, gaskets, maintenance-related parts, and documentation for lifecycle support."
       }
     ],
-    "cta": "Browse All Manufacturers",
     "secondaryCta": "Explore Products",
     "stats": {
       "manufacturers": "manufacturer profiles",
       "products": "product pages",
       "industries": "industries covered"
-    },
-    "snapshotEyebrow": "Directory coverage",
-    "snapshotTitle": "Current directory coverage",
-    "snapshotDescription": "These figures show the current scope of manufacturer profiles, product pages, and application sectors in the directory."
+    }
   },
   "featuredManufacturers": {
     "eyebrow": "Featured manufacturer profiles",
     "title": "Start with suppliers already structured for comparison",
     "description": "Manufacturer profiles bring together company background, product scope, industries served, and available evidence so buyers can inspect supplier fit before making contact.",
-    "cta": "View full directory",
-    "viewProfile": "View manufacturer profile"
+    "cta": "View manufacturer platform"
   },
   "howItWorks": {
     "eyebrow": "Quote request workflow",
@@ -173,10 +132,9 @@
   },
   "highlightedArticles": {
     "eyebrow": "Company news and technical articles",
-    "title": "Recent updates from the heat exchanger directory",
+    "title": "Recent updates from the heat exchanger platform",
     "description": "Read company updates, product notes, maintenance articles, and application stories related to listed heat exchanger manufacturers.",
     "cta": "Read Industry News",
-    "readArticle": "Read article",
     "typeLabels": {
       "news": "Company news",
       "posts": "Technical article"
@@ -186,8 +144,6 @@
     "eyebrow": "Industry News",
     "title": "A place for companies to share useful information",
     "description": "Industry News collects company announcements, technical articles, and application notes from the heat exchanger sector. It gives buyers more context without turning the homepage into a long content grid.",
-    "cta": "Read Industry News",
-    "secondaryCta": "Submit Quote Request",
     "pillars": [
       {
         "title": "Company news",
@@ -196,10 +152,6 @@
       {
         "title": "Technical articles",
         "body": "Practical writing on equipment types, design parameters, materials, maintenance, and specification preparation."
-      },
-      {
-        "title": "Application notes",
-        "body": "Examples that connect heat exchanger products to HVAC, petrochemical, marine, food, pharmaceutical, power, and energy duties."
       }
     ]
   }

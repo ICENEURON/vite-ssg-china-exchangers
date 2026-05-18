@@ -2,7 +2,7 @@
   "title": "HeatEx Direct | China Heat Exchanger Manufacturer Research Service",
   "meta": {
     "description": "HeatEx Direct is an independent information service with Australia-based operations, focused on Chinese industrial heat exchanger manufacturer profiles, supplier data, and structured sourcing content.",
-    "keywords": "HeatEx Direct, China heat exchanger manufacturers, industrial heat exchanger sourcing research, heat exchanger supplier profiles, China manufacturer directory"
+    "keywords": "HeatEx Direct, China heat exchanger manufacturers, industrial heat exchanger sourcing research, heat exchanger supplier profiles, China manufacturer platform"
   },
   "og": {
     "title": "HeatEx Direct - Chinese Heat Exchanger Supplier Information",
@@ -13,13 +13,9 @@
     "site_name": "{{site_name}}"
   },
   "hero": {
-    "badge": "Platform Positioning",
     "title": "An Independent Information Platform for <1>Chinese Heat Exchanger</1> Manufacturers",
     "title_highlight": "HeatEx Direct helps global industrial buyers discover, compare, and evaluate Chinese heat exchanger manufacturers before entering supplier discussions.",
     "description_1": "We organize supplier information scattered across Chinese websites, public sources, exhibition materials, product brochures, image files, and sales conversations into a structure better suited to sourcing and technical review.",
-    "description_2_prefix": "We are not building a generic directory.",
-    "description_2_highlight": "We organize supplier facts buyers can inspect",
-    "description_2_suffix": "so sourcing decisions become clearer.",
     "highlights": [
       "Independent information platform with Australia-based operations.",
       "Focused on Chinese industrial heat exchanger manufacturers.",
@@ -27,9 +23,7 @@
     ]
   },
   "who_we_are": {
-    "badge": "Platform Note",
-    "title": "A focused, independent, buyer-oriented heat exchanger information platform",
-    "description": "HeatEx Direct is not a heat exchanger manufacturer, and it is not a general industrial directory that mixes every supplier category together. We are a focused sourcing research service for industrial heat exchangers, helping buyers understand suppliers before deciding who to contact.",
+    "description": "HeatEx Direct is not a heat exchanger manufacturer, and it is not a general industrial listing that mixes every supplier category together. We are a focused sourcing research service for industrial heat exchangers, helping buyers understand suppliers before deciding who to contact.",
     "story_title": "Why HeatEx Direct exists",
     "identity_separator": ". ",
     "paragraphs": [
@@ -44,7 +38,7 @@
       },
       {
         "title": "We focus only on heat exchangers",
-        "body": "Our content is built around industrial heat exchangers, thermal transfer equipment, related product capabilities, and sourcing parameters, reducing unrelated directory noise."
+        "body": "Our content is built around industrial heat exchangers, thermal transfer equipment, related product capabilities, and sourcing parameters, reducing unrelated listing noise."
       },
       {
         "title": "We serve global industrial buyers",
@@ -66,38 +60,17 @@
       }
     },
     "transparency": {
-      "title": "Our Platform Principles",
       "subtitle": "View the most current accurate information available",
-      "metric": "0",
-      "desc": "We keep available profiles, product pages, and industry content current where possible, while making sources, supplier capability, and content boundaries clearer than generic promotional copy.",
-      "policy_label": "Independent, inspectable, buyer-oriented"
+      "desc": "We keep available profiles, product pages, and industry content current where possible, while making sources, supplier capability, and content boundaries clearer than generic promotional copy."
     }
   },
   "advantages": {
-    "badge": "Information Structure",
     "title": "Turning supplier information into sourcing material buyers can judge",
     "descriptions": [
       "Many buyers do not lack supplier names; they lack structured information that helps them judge those suppliers. HeatEx Direct places supplier background, product capability, application sectors, export markets, certificates, files, and quote parameters into one reading flow, reducing the risk of judging companies only by introductions or sales claims.",
       "Before contacting suppliers, buyers can see which companies deserve deeper review, which products are closer to the project requirement, whether the available material is credible enough, and what operating or quote information is still missing.",
       "This keeps supplier comparison from stopping at names, scale, or marketing language, and brings it back to more practical questions: whether the company actually makes the relevant equipment, whether the material can be cross-checked, whether the capability fits the target industry, and whether the quote discussion already has clear technical boundaries."
-    ],
-    "visual": {
-      "header_standard": "Generic Search",
-      "header_us": "HeatEx Direct",
-      "row_1": {
-        "standard": "Scattered and repeated pages",
-        "us": "Manufacturer and product data organized together"
-      },
-      "row_2": {
-        "standard": "Names and sales claims only",
-        "us": "Compare by capability, sector, and parameters"
-      },
-      "row_3": {
-        "standard": "Mass quote requests with unclear specs",
-        "us": "Prepare operating conditions first"
-      },
-      "footer": "Less noise. More information buyers can actually judge."
-    }
+    ]
   },
   "verification": {
     "title": "How we organize supplier profiles",
@@ -123,8 +96,8 @@
   },
   "cta": {
     "title": "View current manufacturer profiles",
-    "subtitle": "Start with the directory to review the latest organized company background, product capability, and available files.",
-    "button": "View Manufacturer Directory",
+    "subtitle": "Start with the platform to review the latest organized company background, product capability, and available files.",
+    "button": "View Manufacturer Platform",
     "email_text": "Questions? Email us:"
   }
 }

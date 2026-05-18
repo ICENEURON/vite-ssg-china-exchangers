@@ -1,19 +1,17 @@
 {
-  "filter_all": "所有行业",
   "filter_all_industries": "所有行业",
   "filter_all_cities": "所有城市",
   "no_results": "没有找到匹配当前筛选条件的制造商。",
   "clear_all": "清除全部",
-  "filter_by": "按行业筛选",
   "filter_industry": "行业",
   "filter_city": "城市",
-  "title": "已验证换热器制造商目录 | HeatEx Direct",
+  "title": "已验证换热器制造商平台 | HeatEx Direct",
   "meta": {
-    "description": "浏览经过资料核对的中国换热器制造商目录，可按城市、行业筛选，并快速查看公司资料、产品覆盖和出口市场信息。",
-    "keywords": "已验证换热器制造商, 中国换热器厂家, 换热器供应商目录, 工业换热器采购"
+    "description": "浏览经过资料核对的中国换热器制造商平台，可按城市、行业筛选，并快速查看公司资料、产品覆盖和出口市场信息。",
+    "keywords": "已验证换热器制造商, 中国换热器厂家, 换热器供应商平台, 工业换热器采购"
   },
   "og": {
-    "title": "已验证换热器制造商目录 | HeatEx Direct",
+    "title": "已验证换热器制造商平台 | HeatEx Direct",
     "description": "浏览经过资料核对的中国换热器制造商，并按城市和行业快速查找合适供应商。",
     "image": "/static/websites/home-hero.png",
     "url": "{{url}}",
@@ -21,9 +19,8 @@
     "site_name": "{{site_name}}"
   },
   "hero": {
-    "badge": "",
-    "title": "中国换热器制造商目录",
-    "description": "浏览持续扩展的中国换热器制造商目录，按城市和行业筛选，并快速比较公司资料、产品覆盖与出口市场等关键信息。"
+    "title": "中国换热器制造商平台",
+    "description": "浏览持续扩展的中国换热器制造商平台，按城市和行业筛选，并快速比较公司资料、产品覆盖与出口市场等关键信息。"
   },
   "card": {
     "verified": "已验证",
@@ -33,15 +30,8 @@
     "page_title": "制造商简介",
     "meta_description_default": "制造商简介",
     "back_to_list": "返回所有工厂",
-    "premium_supplier": "优质供应商",
-    "connect_directly": "直接联系",
     "connect_description": "直接向工厂工程团队获取报价",
     "connect_note": "提交规格、数量和交期需求，我们会协助把询价信息传达给对应工厂团队。",
-    "start_inquiry": "开始询价",
-    "verified_contact": "验证联系人",
-    "response_time": "< {{hours}} 小时回复",
-    "response_speed_label": "回复速度",
-    "timely_response": "及时",
     "iso_certified": "ISO 认证",
     "asme_stamp": "ASME 钢印",
     "business_license": "营业执照",
@@ -54,16 +44,13 @@
     "official_website": "官方网站",
     "visit_manufacturer": "访问制造商网站",
     "product_showcase": "产品展示",
-    "certified_quality": "认证质量",
     "technical_specifications": "技术规格",
     "factory_gallery": "工厂图库",
-    "factory_gallery_hint": "点击图片可放大查看。",
     "factory_certifications": "工厂认证",
     "trusted_customers": "全球领先客户信赖",
     "trusted_customers_desc": "为各行业的主要参与者提供卓越产品。",
     "partner_with": "与 {{name}} 合作",
     "partner_desc": "获得经过验证的产品质量、更直接的工厂沟通渠道，以及更具竞争力的工厂直销价格",
-    "start_project": "立即开始您的项目",
     "established": "成立于 {{year}}",
     "factory_area_summary": "占地面积 {{value}} 平方米",
     "employee_count_summary": "公司人数 {{value}}",

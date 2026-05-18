@@ -13,16 +13,13 @@
         "site_name": "{{site_name}}"
     },
     "hero": {
-        "badge": "Factory Article Submissions",
         "title": "Submit to Industry News",
         "description": "<0>HeatEx</0> <1>Direct</1> accepts article submissions from Chinese heat exchanger manufacturers. We review technical articles, product updates, application cases, factory news, and market notes, then publish suitable content in Industry News for buyers researching suppliers and equipment options.",
-        "email_subject": "[Industry News Submission] - Company Name - Article Topic",
         "buttons": {
             "start_publishing": "View submission email"
         }
     },
     "platform_impact": {
-        "title": "What Industry News Publishes",
         "description": "Industry News is not a press-release wall. It is a buyer-facing editorial area for useful heat exchanger information, manufacturer updates, technical explanations, China market notes, and practical sourcing context.",
         "overview": [
             {
@@ -56,12 +53,7 @@
             },
             "screening": {
                 "title": "How We Screen Submissions",
-                "description": "Every article is reviewed before publication. We may edit titles, structure, wording, translations, images, and links so the final article fits the site and stays useful to buyers.",
-                "items": [
-                    "Relevant to industrial heat exchangers or nearby thermal equipment",
-                    "Specific enough to help buyers make comparisons",
-                    "No misleading claims, unsupported rankings, or excessive promotion"
-                ]
+                "description": "Every article is reviewed before publication. We may edit titles, structure, wording, translations, images, and links so the final article fits the site and stays useful to buyers."
             },
             "verified": {
                 "title": "A Useful Public Content Asset",
@@ -137,36 +129,8 @@
             }
         ]
     },
-    "services": {
-        "strategy": {
-            "title": "Content Strategy",
-            "items": [
-                "**Topic selection**: Choose article angles that buyers actually search for.",
-                "**Editorial structure**: Turn factory information into a readable technical article.",
-                "**Buyer context**: Connect product claims to applications, conditions, and sourcing questions."
-            ]
-        },
-        "creation": {
-            "title": "Content Creation",
-            "items": [
-                "**Technical articles**: Practical explanations of products, materials, performance, and applications.",
-                "**Case studies**: Project and application stories with enough context to help buyers understand use cases.",
-                "**Company updates**: New product lines, certificates, factory capabilities, and public manufacturer news."
-            ]
-        },
-        "distribution": {
-            "title": "Publication and Review",
-            "items": [
-                "**Editorial review**: We decide whether a submission fits Industry News.",
-                "**Formatting**: Approved articles may be edited for title, structure, readability, and translation.",
-                "**Publishing**: Suitable articles are published as public Industry News content."
-            ]
-        }
-    },
     "cta": {
         "title": "Send us your article",
-        "description": "Use an editable Word file, attach original images or download links, and include your company name and contact person. We will review whether it fits Industry News.",
-        "email_subject": "[Industry News Submission] - Company Name - Article Topic",
-        "button": "Email Submission"
+        "description": "Use an editable Word file, attach original images or download links, and include your company name and contact person. We will review whether it fits Industry News."
     }
 }

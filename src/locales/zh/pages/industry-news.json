@@ -14,14 +14,7 @@
     },
     "page": {
         "title": "行业新闻",
-        "subtitle": "",
-        "latest": "最新动态"
-    },
-    "hero": {
-        "title": "推动增长的策略性内容",
-        "subtitle": "以数据驱动的内容策略提升您的品牌价值。",
-        "intro": "我们通过高质量、符合 SEO 优化的内容，协助 B2B 制造商和出口商与其目标受众建立连接。从行业新闻文章到技术白皮书，我们的团队致力于提供能够建立信任并产生潜在客户的优质内容。",
-        "badge": "新闻"
+        "subtitle": ""
     },
     "card": {
         "read": "阅读文章"
@@ -31,15 +24,12 @@
         "posts": "技术文章"
     },
     "filters": {
-        "content_type": "内容类型",
         "company": "公司",
         "all": "全部",
-        "all_companies": "全部公司",
         "no_results": "没有符合筛选条件的文章。"
     },
     "search": {
             "label": "搜索文章标题",
-            "placeholder": "搜索文章、产品、厂家或应用关键词",
             "title_placeholder": "搜索标题关键词"
     },
     "blog": {
@@ -48,13 +38,7 @@
         "back_to_list": "返回列表",
         "back_to_catalog": "返回新闻目录",
         "author": "作者",
-        "reviewer": "审阅者",
         "read_time": "阅读时间",
         "related_posts": "最新文章"
-    },
-    "pagination": {
-        "of": "/",
-        "results": "条结果",
-        "go_to": "前往"
     }
 }

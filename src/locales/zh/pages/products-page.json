@@ -6,34 +6,26 @@
   "filter_by": "行业",
   "filter_manufacturer": "制造商",
   "title": "工业换热器",
-  "description": "浏览中国工业换热器产品目录，按制造商与行业筛选，并快速查看板式、焊接板式、管壳式、空冷器及换热机组等产品资料。",
+  "description": "浏览中国工业换热器产品资料，按制造商与行业筛选，并快速查看板式、焊接板式、管壳式、空冷器及换热机组等产品信息。",
   "hero": {
-    "badge": "",
-    "title": "工业换热器产品目录",
-    "description": "浏览持续扩展的工业换热器产品目录，按制造商与行业筛选，并快速比较产品类型、应用方向和基础资料。"
+    "title": "工业换热器产品资料",
+    "description": "浏览持续扩展的工业换热器产品资料，按制造商与行业筛选，并快速比较产品类型、应用方向和基础资料。"
   },
   "card": {
     "no_image": "无可用图片",
-    "explore_details": "查看详情",
-    "more_industries": "还有 {{count}} 个"
+    "explore_details": "查看详情"
   },
   "cta": {
     "title": "不确定您需要哪种产品？",
-    "description": "我们的互动式询价工具可以帮助您指定应用参数，我们将为您匹配能够生产所需换热器的已验证制造商。",
-    "button": "立即创建询价需求"
+    "description": "我们的互动式询价工具可以帮助您指定应用参数，我们将为您匹配能够生产所需换热器的已验证制造商。"
   },
   "detail": {
-    "view_manufacturer": "查看制造商",
     "back_to_manufacturer": "返回制造商页面",
     "back_to_manufacturers": "返回所有工厂",
     "back_to_list": "返回所有产品",
-    "request_quote": "请求报价",
     "key_advantages": "主要优势",
     "product_details": "产品详情",
     "technical_specifications": "技术规格",
-    "certificates": "证书",
-    "certifications": "认证",
-    "certificate_alt": "证书",
     "other_products": "该公司的其他产品",
     "document_downloads": "文档下载",
     "download": "下载"

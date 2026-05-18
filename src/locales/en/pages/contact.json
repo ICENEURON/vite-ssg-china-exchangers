@@ -17,14 +17,10 @@
     "title_suffix": "",
     "subtitle": "For quote follow-up, supplier profile updates, content submissions, or data corrections, start here.",
     "description": " is an independent information service for global buyers evaluating Chinese heat exchanger manufacturers. We organize supplier data, product scope, content leads, and follow-up requests into clear paths so the next step is easier to choose.",
-    "primary_cta": "Update supplier profile",
-    "secondary_cta": "Submit article request",
-    "email_prefix": "Email us at:",
     "copy_email": "Copy",
     "email_copied": "Copied"
   },
   "paths": {
-    "badge": "Contact routes",
     "title": "What would you like to contact us about?",
     "description": "Quote requests, profile updates, article submissions, and corrections each have their own starting point so the details are easier to handle.",
     "items": {

@@ -6,34 +6,26 @@
   "filter_by": "Industry",
   "filter_manufacturer": "Manufacturer",
   "title": "Industrial Heat Exchangers",
-  "description": "Browse an industrial heat exchanger product directory covering Chinese manufacturers, and filter by manufacturer and industry to compare plate, welded plate, shell and tube, air cooler, and heat exchange unit products.",
+  "description": "Browse industrial heat exchanger product profiles covering Chinese manufacturers, and filter by manufacturer and industry to compare plate, welded plate, shell and tube, air cooler, and heat exchange unit products.",
   "hero": {
-    "badge": "",
-    "title": "Industrial Heat Exchanger Product Directory",
-    "description": "Browse a growing directory of industrial heat exchanger products, filter by manufacturer and industry, and compare product types, application fit, and core profile details in one place."
+    "title": "Industrial Heat Exchanger Product Catalog",
+    "description": "Browse a growing set of industrial heat exchanger product profiles, filter by manufacturer and industry, and compare product types, application fit, and core profile details in one place."
   },
   "card": {
     "no_image": "No Image Available",
-    "explore_details": "Explore Details",
-    "more_industries": "+{{count}} more"
+    "explore_details": "Explore Details"
   },
   "cta": {
     "title": "Not Sure Which Product You Need?",
-    "description": "Our interactive quote request tool helps you specify your application parameters, and we'll match you with verified manufacturers who produce the exact heat exchanger you need.",
-    "button": "Build Request for Quote Now"
+    "description": "Our interactive quote request tool helps you specify your application parameters, and we'll match you with verified manufacturers who produce the exact heat exchanger you need."
   },
   "detail": {
-    "view_manufacturer": "View Manufacturer",
     "back_to_manufacturer": "Back to Manufacturer Page",
     "back_to_manufacturers": "Back to Manufacturers",
     "back_to_list": "Back to Products",
-    "request_quote": "Request Quote",
     "key_advantages": "Key Advantages",
     "product_details": "Product Details",
     "technical_specifications": "Technical Specifications",
-    "certificates": "Certificates",
-    "certifications": "Certifications",
-    "certificate_alt": "Certificate",
     "other_products": "Other Products From This Manufacturer",
     "document_downloads": "Document Downloads",
     "download": "Download"

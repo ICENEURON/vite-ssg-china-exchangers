@@ -13,7 +13,6 @@
     "site_name": "{{site_name}}"
   },
   "hero": {
-    "status_badge": "Manufacturer Profile Updates",
     "title": "Update and improve your manufacturer profile.",
     "description": "If your company page needs new content, corrected information, updated product details, better images, certificates, brochures, or additional media files, send the materials to our team by email. We review the request and update the public profile where the information is relevant and verifiable.",
     "highlights": [
@@ -21,14 +20,9 @@
       "Images and files accepted",
       "Profile update template available"
     ],
-    "cta": "Email Profile Update",
-    "template_cta": "Download Update Template",
     "company_template_cta": "Company Template",
     "product_template_cta": "Product Template",
-    "email_subject": "[Profile Update] - Your Company Name",
     "panel": {
-      "eyebrow": "How updates work",
-      "title": "Send the materials first. We will review the page before publishing.",
       "items": [
         {
           "title": "Download the profile update template first",
@@ -46,7 +40,6 @@
     }
   },
   "update_scope": {
-    "eyebrow": "What can be updated",
     "title": "Any profile content that helps buyers understand your company can be reviewed",
     "description": "The goal is not to publish promotional statements without context. We prefer specific information that improves buyer understanding, technical comparison, and profile accuracy.",
     "items": [
@@ -66,16 +59,9 @@
         "title": "Images and media",
         "description": "Product photos, workshop photos, factory exterior, process images, logos, exhibition images, and other media suitable for public display."
       }
-    ],
-    "template": {
-      "title": "Downloadable update document",
-      "description": "Manufacturers can download the standard profile update template and fill in company, product, document, and image details in one format. Send the completed file with related images, certificates, brochures, or download links.",
-      "status": "Template status: available for download.",
-      "cta": "Download template"
-    }
+    ]
   },
   "process": {
-    "eyebrow": "Review process",
     "title": "We review updates before changing the public page",
     "description": "Every update request is handled manually. We may edit language, ask for clarification, or decline content that is incomplete, unverifiable, unrelated, or too promotional.",
     "steps": [
@@ -94,16 +80,11 @@
     ]
   },
   "submission": {
-    "title": "How to send your update",
-    "description": "",
     "contact": {
-      "email_label": "Email",
       "subject_label": "Suggested subject",
-      "subject_value": "[Profile Update] - Your Company Name",
       "subject_description": "Use a clear subject line with your company name so our team can connect files to the right profile.",
       "copied": "Copied!"
     },
-    "cta_button": "Send Update Email",
     "required": {
       "title": "Completed Template",
       "description": "Please send the completed profile update template document as an email attachment."
