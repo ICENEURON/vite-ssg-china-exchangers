@@ -3,6 +3,14 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { loadEnv } from 'vite';
 
+// Post-build tasks for static output in dist/:
+// - generate canonical sitemap.xml at the project root and in dist/
+// - exclude individual Industry News article pages from the sitemap for now
+// - copy deployment files such as robots.txt and .htaccess into dist/
+// - inject structured data into manufacturer and product detail pages
+// - sync robots noindex meta based on VITE_SITE_NOINDEX
+// - normalize critical head meta in generated HTML
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..', '..');
@@ -142,94 +150,6 @@ function buildBreadcrumbList(items) {
   };
 }
 
-function buildCollectionSchemas(route) {
-  const { language, normalizedRoute } = parseRoute(route);
-
-  if (normalizedRoute === '/manufacturers') {
-    const pageData = getLocaleJson(language, 'manufacturers.json');
-    const items = getLocaleJson(language, 'manufacturers', 'list.json') || [];
-    const pageTitle = pageData?.title || `${siteName} Manufacturers`;
-    const pageDescription = pageData?.meta?.description || pageData?.hero?.description || '';
-
-    return [
-      {
-        '@context': 'https://schema.org',
-        '@type': 'CollectionPage',
-        name: pageTitle,
-        description: pageDescription,
-        url: toAbsoluteUrl(route),
-        inLanguage: language,
-        isPartOf: {
-          '@type': 'WebSite',
-          name: siteName,
-          url: siteUrl,
-        },
-      },
-      {
-        '@context': 'https://schema.org',
-        '@type': 'ItemList',
-        name: pageData?.hero?.title || pageTitle,
-        itemListOrder: 'https://schema.org/ItemListOrderAscending',
-        numberOfItems: items.length,
-        itemListElement: items.map((item, index) => ({
-          '@type': 'ListItem',
-          position: index + 1,
-          name: item.name,
-          url: toAbsoluteUrl(getLocalizedRoute(`/manufacturers/${item.slug}`, language)),
-          description: item.short_description,
-        })),
-      },
-      buildBreadcrumbList([
-        { name: siteName, route: getLocalizedRoute('/', language) },
-        { name: pageData?.hero?.title || pageTitle, route },
-      ]),
-    ];
-  }
-
-  if (normalizedRoute === '/products') {
-    const pageData = getLocaleJson(language, 'products-page.json');
-    const items = getLocaleJson(language, 'products', 'list.json') || [];
-    const pageTitle = pageData?.title || `${siteName} Products`;
-    const pageDescription = pageData?.description || pageData?.hero?.description || '';
-
-    return [
-      {
-        '@context': 'https://schema.org',
-        '@type': 'CollectionPage',
-        name: pageTitle,
-        description: pageDescription,
-        url: toAbsoluteUrl(route),
-        inLanguage: language,
-        isPartOf: {
-          '@type': 'WebSite',
-          name: siteName,
-          url: siteUrl,
-        },
-      },
-      {
-        '@context': 'https://schema.org',
-        '@type': 'ItemList',
-        name: pageData?.hero?.title || pageTitle,
-        itemListOrder: 'https://schema.org/ItemListOrderAscending',
-        numberOfItems: items.length,
-        itemListElement: items.map((item, index) => ({
-          '@type': 'ListItem',
-          position: index + 1,
-          name: item.name,
-          url: toAbsoluteUrl(getLocalizedRoute(`/products/${item.url}`, language)),
-          description: item.short_description,
-        })),
-      },
-      buildBreadcrumbList([
-        { name: siteName, route: getLocalizedRoute('/', language) },
-        { name: pageData?.hero?.title || pageTitle, route },
-      ]),
-    ];
-  }
-
-  return [];
-}
-
 function resolveExportMarkets(exportMarkets) {
   return (exportMarkets || [])
     .map((code) => countriesByCode.get(code)?.name || code)
@@ -360,11 +280,6 @@ function buildProductSchemas(route, manufacturerSlug, productSlug) {
 
 function getStructuredDataForRoute(route) {
   const { normalizedRoute } = parseRoute(route);
-  const collectionSchemas = buildCollectionSchemas(route);
-
-  if (collectionSchemas.length > 0) {
-    return collectionSchemas;
-  }
 
   const manufacturerMatch = normalizedRoute.match(/^\/manufacturers\/([^/]+)$/);
 
@@ -417,23 +332,6 @@ function injectStructuredData(routeEntries) {
   writeText(path.join(distDir, 'structured-data-manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`);
 
   console.log(`Updated structured data for ${manifest.filter((entry) => !entry.schemaTypes.includes('already-injected')).length} pages.`);
-}
-
-function removeLegacyTemplateStructuredData(routeEntries) {
-  const legacyOrganizationSchemaPattern = /\n?\s*<script\s+type=["']application\/ld\+json["']\s*>\s*\{\s*"@context"\s*:\s*"https:\/\/schema\.org"\s*,\s*"@type"\s*:\s*"Organization"\s*,\s*"name"\s*:\s*"HeatEx Direct"\s*,\s*"url"\s*:\s*"https:\/\/heatexdirect\.com\/?"\s*,\s*"logo"\s*:\s*"https:\/\/heatexdirect\.com\/?static\/websites\/logo\.png"\s*,\s*"description"\s*:\s*"Source Industrial Heat Exchangers Direct from Verified Chinese Factories\."\s*,\s*"sameAs"\s*:\s*\[\s*\]\s*\}\s*<\/script>/gi;
-  let updatedCount = 0;
-
-  routeEntries.forEach(({ filePath }) => {
-    const html = readText(filePath);
-    const updatedHtml = html.replace(legacyOrganizationSchemaPattern, '');
-
-    if (updatedHtml !== html) {
-      writeText(filePath, updatedHtml);
-      updatedCount += 1;
-    }
-  });
-
-  console.log(`Removed legacy template structured data from ${updatedCount} pages.`);
 }
 
 function syncNoindexMeta(routeEntries) {
@@ -534,6 +432,14 @@ function toRoute(filePath) {
   return null;
 }
 
+function isIndustryNewsArticleRoute(route) {
+  return route.startsWith('/industry-news/') || route.startsWith('/zh/industry-news/');
+}
+
+function shouldIncludeInSitemap(route) {
+  return !isIndustryNewsArticleRoute(route);
+}
+
 function getPriority(route) {
   if (route === '/' || route === '/zh') return '1.0';
   if (route === '/manufacturers' || route === '/products' || route === '/zh/manufacturers' || route === '/zh/products') return '0.9';
@@ -586,7 +492,7 @@ function buildSitemap() {
     .map((filePath) => {
       const route = toRoute(filePath);
 
-      if (!route) {
+      if (!route || !shouldIncludeInSitemap(route)) {
         return null;
       }
 
@@ -611,7 +517,6 @@ function buildSitemap() {
 
   copyDeploymentFiles();
   injectStructuredData(routes);
-  removeLegacyTemplateStructuredData(routes);
   syncNoindexMeta(routes);
   syncCriticalHeadMeta(routes);
 

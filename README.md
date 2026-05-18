@@ -11,7 +11,7 @@ HeatEx Direct is a bilingual static B2B sourcing site for industrial heat exchan
 | Item | Current state |
 | --- | --- |
 | Site name | HeatEx Direct |
-| Domain | `https://heatexdirect.com/` |
+| Domain | `https://heatexdirect.com` |
 | Runtime languages | `en`, `zh` |
 | Public catalogue | Static pages generated from `src/locales/{en,zh}` |
 | Backend | Supabase DB, Supabase Storage bucket `assets`, Supabase Auth |
@@ -57,7 +57,7 @@ Do not commit real `.env` files.
 | Variable | Purpose |
 | --- | --- |
 | `VITE_SITE_TITLE` | Site title for metadata. |
-| `VITE_SITE_URL` | Canonical base URL, currently `https://heatexdirect.com/`. |
+| `VITE_SITE_URL` | Canonical base URL, currently `https://heatexdirect.com`. |
 | `VITE_CONTACT_EMAIL` | Public contact email. |
 | `VITE_GA_MEASUREMENT_ID` | Optional GA4 measurement ID. Analytics loads only after cookie consent is accepted. |
 | `VITE_SUPABASE_URL` | Supabase project URL. |
@@ -126,7 +126,7 @@ Supabase DB + Storage
 
 ### Deployment
 
-1. Confirm production env values, especially `VITE_SITE_URL=https://heatexdirect.com/`.
+1. Confirm production env values, especially `VITE_SITE_URL=https://heatexdirect.com`.
 2. Run `pnpm sync` if catalogue data changed.
 3. Run `pnpm lint`.
 4. Run `pnpm build`.
@@ -153,7 +153,7 @@ HeatEx Direct 是一个中英文双语的静态 B2B 换热器采购网站。它�
 | 项目 | 当前状态 |
 | --- | --- |
 | 网站名称 | HeatEx Direct |
-| 域名 | `https://heatexdirect.com/` |
+| 域名 | `https://heatexdirect.com` |
 | 运行语言 | `en`, `zh` |
 | 公开目录 | 从 `src/locales/{en,zh}` 生成静态页面 |
 | 后端 | Supabase DB、Supabase Storage `assets` bucket、Supabase Auth |
@@ -199,7 +199,7 @@ HeatEx Direct 是一个中英文双语的静态 B2B 换热器采购网站。它�
 | 变量 | 用途 |
 | --- | --- |
 | `VITE_SITE_TITLE` | 元数据中的网站标题。 |
-| `VITE_SITE_URL` | canonical 基础地址，当前为 `https://heatexdirect.com/`。 |
+| `VITE_SITE_URL` | canonical 基础地址，当前为 `https://heatexdirect.com`。 |
 | `VITE_CONTACT_EMAIL` | 公开联系邮箱。 |
 | `VITE_GA_MEASUREMENT_ID` | 可选 GA4 Measurement ID。只有在用户同意 Cookie 分析后才加载 Analytics。 |
 | `VITE_SUPABASE_URL` | Supabase 项目 URL。 |
@@ -268,7 +268,7 @@ Supabase DB + Storage
 
 ### 部署
 
-1. 确认生产环境变量，特别是 `VITE_SITE_URL=https://heatexdirect.com/`。
+1. 确认生产环境变量，特别是 `VITE_SITE_URL=https://heatexdirect.com`。
 2. 如果目录数据变化，运行 `pnpm sync`。
 3. 运行 `pnpm lint`。
 4. 运行 `pnpm build`。

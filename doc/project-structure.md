@@ -155,9 +155,10 @@ Current RFQ insert fields are `first_name`, `last_name`, `company_name`, `countr
 | `src/scripts/sync-all.js` | Runs the full sync pipeline. |
 | `src/scripts/fetch-data.js` | Pulls selected Supabase tables to `src/data`. |
 | `src/scripts/fetch-storage.js` | Downloads Storage bucket assets to `public/storage/assets`. |
-| `src/scripts/generate-common-locales.js` | Generates industry/country locale files. |
-| `src/scripts/generate-manufacturer-locales.js` | Generates manufacturer locale JSON. |
-| `src/scripts/generate-product-locales.js` | Generates product locale JSON. |
+| `src/scripts/update-locales.js` | Updates common, manufacturer, and product locale JSON. |
+| `src/scripts/update-highlighted-articles.js` | Updates homepage highlighted industry news data. |
+| `src/scripts/after-build.js` | Runs post-build tasks: sitemap, deployment files, structured data, noindex, and generated HTML head cleanup. |
+| `src/scripts/delete-manufacturers.js` | Manual maintenance helper for deleting configured manufacturers. |
 | `src/scripts/remove-locale.js` | Locale maintenance helper. |
 | `supabase_importer/import.js` | Imports local curated JSON/assets into Supabase. |
 
@@ -314,8 +315,9 @@ Supabase 有三个角色：
 | `src/scripts/sync-all.js` | 运行完整同步流程。 |
 | `src/scripts/fetch-data.js` | 拉取指定 Supabase 表到 `src/data`。 |
 | `src/scripts/fetch-storage.js` | 下载 Storage bucket 资产到 `public/storage/assets`。 |
-| `src/scripts/generate-common-locales.js` | 生成行业/国家 locale 文件。 |
-| `src/scripts/generate-manufacturer-locales.js` | 生成制造商 locale JSON。 |
-| `src/scripts/generate-product-locales.js` | 生成产品 locale JSON。 |
+| `src/scripts/update-locales.js` | 更新 common、制造商和产品 locale JSON。 |
+| `src/scripts/update-highlighted-articles.js` | 更新首页高亮行业新闻数据。 |
+| `src/scripts/after-build.js` | 运行构建后任务：sitemap、部署文件、结构化数据、noindex 和生成 HTML 的 head 清理。 |
+| `src/scripts/delete-manufacturers.js` | 手动维护 helper，用于删除配置的厂家。 |
 | `src/scripts/remove-locale.js` | locale 维护 helper。 |
 | `supabase_importer/import.js` | 将本地精选 JSON/资产导入 Supabase。 |

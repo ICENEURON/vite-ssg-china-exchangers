@@ -8,9 +8,7 @@ const __dirname = path.dirname(__filename);
 const scripts = [
   'fetch-data.js',
   'fetch-storage.js',
-  'generate-common-locales.js',
-  'generate-manufacturer-locales.js',
-  'generate-product-locales.js',
+  'update-locales.js',
   'update-highlighted-articles.js'
 ];
 
