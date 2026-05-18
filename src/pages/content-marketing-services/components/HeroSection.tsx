@@ -5,7 +5,6 @@ import { useTranslation, Trans } from "react-i18next"
 
 export function HeroSection() {
     const { t } = useTranslation("translation", { keyPrefix: "pages.cms.hero" });
-    const { t: tp } = useTranslation("translation", { keyPrefix: "pages.cms.platform_impact" });
 
     const handleScrollToEmail: React.MouseEventHandler<HTMLAnchorElement> = (e) => {
         e.preventDefault();
@@ -38,7 +37,7 @@ export function HeroSection() {
                     {t("title")}
                 </h1>
 
-                <p className="mt-6 text-xl text-muted max-w-2xl mx-auto leading-relaxed">
+                <p className="mt-6 text-xl text-muted max-w-3xl mx-auto leading-relaxed">
                     <Trans
                         i18nKey="pages.cms.hero.description"
                         components={[
@@ -47,8 +46,6 @@ export function HeroSection() {
                         ]}
                     />
                 </p>
-
-                <p className="text-lg text-muted">{tp("description")}</p>
 
                 <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
                     <Button size="lg" className="h-14 px-8 text-lg rounded-full group" asChild>

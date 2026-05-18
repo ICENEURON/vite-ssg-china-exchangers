@@ -10,7 +10,7 @@ export function PlatformValueSection() {
             <div className="container px-4 mx-auto max-w-6xl">
 
                 <div className="mb-5 grid gap-3 md:grid-cols-3">
-                    {(t("overview", { returnObjects: true }) as { label: string; value: string }[]).map((item, index) => {
+                    {(t("items.overview", { returnObjects: true }) as { label: string; value: string }[]).map((item, index) => {
                         const icons = [Newspaper, Users, ClipboardCheck];
                         const Icon = icons[index] || Newspaper;
 

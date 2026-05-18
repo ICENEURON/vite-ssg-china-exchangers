@@ -14,8 +14,8 @@ export function GuidelinesSection() {
 
                 <div className="grid gap-5 md:grid-cols-2 md:gap-6">
                     {/* The "YES" Column */}
-                    <div className="rounded-2xl border border-green-500/20 bg-gradient-to-b from-green-500/5 to-transparent p-1 overflow-hidden">
-                        <div className="rounded-xl p-8 h-full bg-green-500/5 backdrop-blur-sm">
+                    <div className="overflow-hidden rounded-2xl bg-green-500/10">
+                        <div className="h-full p-8">
                             <div className="flex items-center gap-3 mb-6">
                                 <CheckCircle className="h-6 w-6 shrink-0 text-green-500" />
                                 <h3 className="text-2xl font-extrabold leading-tight text-foreground">{t("accepted.title")}</h3>
@@ -62,8 +62,8 @@ export function GuidelinesSection() {
                     </div>
 
                     {/* The "NO" Column */}
-                    <div className="rounded-2xl border border-red-500/20 bg-gradient-to-b from-red-500/5 to-transparent p-1 overflow-hidden">
-                        <div className="rounded-xl p-8 h-full bg-red-500/5 backdrop-blur-sm">
+                    <div className="overflow-hidden rounded-2xl bg-red-500/10">
+                        <div className="h-full p-8">
                             <div className="flex items-center gap-3 mb-6">
                                 <XCircle className="h-6 w-6 shrink-0 text-red-500" />
                                 <h3 className="text-2xl font-extrabold leading-tight text-foreground">{t("rejected.title")}</h3>

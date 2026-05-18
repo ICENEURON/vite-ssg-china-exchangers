@@ -37,8 +37,10 @@ export function CTASection() {
                         </p>
 
                         <div className="flex flex-row gap-4 justify-center">
-                            <Button size="lg" className="h-14 px-8 text-lg rounded-full bg-white text-zinc-950 hover:bg-zinc-200" onClick={copyEmail}>
-                                {email}
+                            <Button size="lg" className="h-14 rounded-full bg-white px-8 hover:bg-white" onClick={copyEmail}>
+                                <h4 className="text-zinc-950 hover:text-blue-600">
+                                    {email}
+                                </h4>
                             </Button>
                         </div>
                     </div>
