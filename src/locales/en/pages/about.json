@@ -13,28 +13,27 @@
     "site_name": "{{site_name}}"
   },
   "hero": {
-    "title": "An Independent Information Platform for <1>Chinese Heat Exchanger</1> Manufacturers",
-    "title_highlight": "HeatEx Direct helps global industrial buyers discover, compare, and evaluate Chinese heat exchanger manufacturers before entering supplier discussions.",
-    "description_1": "We organize supplier information scattered across Chinese websites, public sources, exhibition materials, product brochures, image files, and sales conversations into a structure better suited to sourcing and technical review.",
+    "title": "An Independent Platform for Chinese Heat Exchanger Manufacturer Information",
+    "title_highlight": "HeatEx Direct is an independent information platform that helps global industrial buyers understand Chinese heat exchanger manufacturers before starting supplier conversations.",
+    "description_1": "We organize manufacturer profiles, product information, application sectors, public materials, factory evidence, brochures, images, and technical notes into a clearer structure for sourcing research and engineering review.",
     "highlights": [
       "Independent information platform with Australia-based operations.",
       "Focused on Chinese industrial heat exchanger manufacturers.",
-      "Built for procurement, engineering, EPC, distributor, and system integrator review."
+      "Built for procurement, engineering, project contractor, distributor, and system integrator review."
     ]
   },
   "who_we_are": {
-    "description": "HeatEx Direct is not a heat exchanger manufacturer, and it is not a general industrial listing that mixes every supplier category together. We are a focused sourcing research service for industrial heat exchangers, helping buyers understand suppliers before deciding who to contact.",
     "story_title": "Why HeatEx Direct exists",
-    "identity_separator": ". ",
+    "description": "HeatEx Direct gathers practical, up-to-date industrial information to support sourcing research for industrial heat exchangers. We help global buyers better understand Chinese manufacturers, product capabilities, and the Chinese heat exchanger market before deciding who to contact.",
     "paragraphs": [
-      "China has many heat exchanger companies with real manufacturing capability across plate, welded plate, shell-and-tube, air-side equipment, packaged heat exchange units, and related spare parts. For overseas buyers, however, useful supplier information is often scattered across Chinese websites, exhibition materials, product brochures, image folders, and sales conversations.",
-      "HeatEx Direct turns that scattered information into a structure that better supports sourcing and technical review. We focus on company background, product scope, industries served, export markets, certificates, media assets, product parameters, and quote request information so buyers can build a clearer basis for judgment before sending a request.",
-      "The platform is operated by a team familiar with the Chinese heat exchanger sector, English-language sourcing content, cross-border supplier communication, and digital content organization. Its Australia-based operations support a global buyer audience, while the data focus remains Chinese industrial heat exchanger manufacturers."
+      "China has many heat exchanger companies with real manufacturing capability across different industrial applications. For overseas buyers, however, useful supplier information is often scattered across Chinese websites, public materials, exhibition documents, product brochures, images, and factory media.",
+      "HeatEx Direct turns that scattered information into a clearer structure for sourcing research and technical review. We focus on company background, product scope, industries served, export markets, certificates, media assets, product details, technical parameters, and application information so buyers can form a clearer view before making contact.",
+      "The platform is Australia-based and focused on organizing Chinese heat exchanger manufacturer information for global industrial buyers."
     ],
     "identity_cards": [
       {
         "title": "We are an independent information platform",
-        "body": "We do not represent a single factory, and we do not design supplier pages as one-company advertisements. The goal is to make supplier facts easier to compare."
+        "body": "We do not represent a single factory, and we do not present supplier pages as one-company advertisements. The goal is to make manufacturer information easier to review, understand, and use."
       },
       {
         "title": "We focus only on heat exchangers",
@@ -42,62 +41,61 @@
       },
       {
         "title": "We serve global industrial buyers",
-        "body": "Procurement teams, engineers, EPC companies, distributors, and integrators can use the platform to build shortlists and submit structured project requirements."
+        "body": "Procurement teams, engineers, project contractors, distributors, and system integrators can use the platform to review manufacturers and submit structured project requirements through Get Quote."
       }
-    ],
-    "features": {
-      "experience": {
-        "title": "Supplier information organization",
-        "desc": "We place company background, product scope, application sectors, export markets, and available documents into a consistent structure to reduce repeated cross-checking."
-      },
-      "verification": {
-        "title": "A preference for inspectable facts",
-        "desc": "Manufacturer pages aim to show information buyers can cross-check, including company details, product images, certificates, product parameters, and public-source signals."
-      },
-      "connect": {
-        "title": "Connecting technical needs to supplier capability",
-        "desc": "We break sourcing needs into equipment type, operating conditions, materials, pressure and temperature requirements, applications, and documentation needs."
-      }
-    },
-    "transparency": {
-      "subtitle": "View the most current accurate information available",
-      "desc": "We keep available profiles, product pages, and industry content current where possible, while making sources, supplier capability, and content boundaries clearer than generic promotional copy."
-    }
+    ]
   },
   "advantages": {
-    "title": "Turning supplier information into sourcing material buyers can judge",
+    "title": "Structured Supplier Information",
     "descriptions": [
-      "Many buyers do not lack supplier names; they lack structured information that helps them judge those suppliers. HeatEx Direct places supplier background, product capability, application sectors, export markets, certificates, files, and quote parameters into one reading flow, reducing the risk of judging companies only by introductions or sales claims.",
-      "Before contacting suppliers, buyers can see which companies deserve deeper review, which products are closer to the project requirement, whether the available material is credible enough, and what operating or quote information is still missing.",
-      "This keeps supplier comparison from stopping at names, scale, or marketing language, and brings it back to more practical questions: whether the company actually makes the relevant equipment, whether the material can be cross-checked, whether the capability fits the target industry, and whether the quote discussion already has clear technical boundaries."
+      "Many buyers already have supplier names, but not enough structured information to understand whether those suppliers are relevant, credible, and worth deeper review.",
+      "HeatEx Direct organizes scattered supplier information into clearer sourcing material, helping buyers look beyond company introductions and sales claims before starting supplier conversations."
+    ],
+    "items": [
+      {
+        "title": "Organized Information",
+        "desc": "We organize scattered supplier information into a clearer structure for early sourcing review."
+      },
+      {
+        "title": "Checkable Facts",
+        "desc": "Manufacturer pages highlight details buyers can review, such as company info, product evidence, documents, and public signals."
+      },
+      {
+        "title": "Product Fit",
+        "desc": "Supplier information is organized around equipment type, application needs, operating conditions, and available documents."
+      },
+      {
+        "title": "Clear Boundaries",
+        "desc": "We make available facts, checkable materials, and missing information easier to separate from general promotional claims."
+      }
     ]
   },
   "verification": {
-    "title": "How we organize supplier profiles",
-    "description": "This page does not claim to replace a buyer's final due diligence. It explains how we structure public and supplier-provided information so it is easier to inspect.",
+    "title": "What We Include In Each Profile",
+    "description": "We organize manufacturer information into practical sections so buyers can quickly understand who the supplier is, what they make, where their products are used, and what supporting materials are available.",
     "steps": {
       "scope": {
-        "title": "Company background and business scope",
-        "description": "We organize company name, location, business direction, product range, and public information so buyers can first understand whether the company belongs in the relevant equipment category."
+        "title": "Company Background",
+        "description": "Company name, location, business focus, product range, and public information for basic supplier review."
       },
       "database": {
-        "title": "Product capability and applications",
-        "description": "We summarize supplier capability by equipment type, materials, pressure and temperature conditions, industries served, and product page content for technical screening."
+        "title": "Product Capability",
+        "description": "Equipment types, materials, application areas, operating conditions, and related product information for technical screening."
       },
       "shipping": {
-        "title": "Files, media, and public signals",
-        "description": "Where available, we connect image assets, certificates, website content, brochures, and other materials so profiles go beyond plain text descriptions."
+        "title": "Files and Media",
+        "description": "Available images, certificates, brochures, website content, factory materials, and other supporting files."
       },
       "location": {
-        "title": "Structured quote request information",
-        "description": "The quote form collects media, flow, temperatures, pressure, materials, standards, and project notes to reduce information gaps between buyers and suppliers."
+        "title": "Project Requirements",
+        "description": "The Get Quote form collects key project details so suitable manufacturers can provide more relevant quotation feedback."
       }
     }
   },
   "cta": {
-    "title": "View current manufacturer profiles",
-    "subtitle": "Start with the platform to review the latest organized company background, product capability, and available files.",
-    "button": "View Manufacturer Platform",
+    "title": "Browse manufacturer profiles",
+    "subtitle": "Review listed manufacturers, product coverage, applications, and supporting materials.",
+    "button": "Browse Manufacturers",
     "email_text": "Questions? Email us:"
   }
 }

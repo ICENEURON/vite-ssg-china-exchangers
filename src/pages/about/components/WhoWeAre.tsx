@@ -9,7 +9,6 @@ export function WhoWeAre() {
         title: string;
         body: string;
     }>;
-    const identitySeparator = t("pages.about.who_we_are.identity_separator");
     const identityIcons = [ShieldCheck, PackageSearch, Globe2];
 
     return (
@@ -40,7 +39,7 @@ export function WhoWeAre() {
                                         <div className="flex items-center gap-2.5">
                                             <Icon className="size-5 shrink-0 text-primary" />
                                             <h3 className="text-base font-bold leading-6 text-foreground md:text-lg">
-                                                {card.title}{identitySeparator}
+                                                {card.title}
                                             </h3>
                                         </div>
                                         <p className="mt-2 text-sm leading-6 text-muted md:ml-7 md:text-base">

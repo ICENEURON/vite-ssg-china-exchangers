@@ -5,28 +5,11 @@ import { BrandText } from "../../../components/ui/brand-text";
 export function ProblemSection() {
     const { t } = useTranslation("translation");
     const descriptions = t("pages.about.advantages.descriptions", { returnObjects: true }) as string[];
-    const featureItems = [
-        {
-            icon: History,
-            title: t("pages.about.who_we_are.features.experience.title"),
-            desc: t("pages.about.who_we_are.features.experience.desc"),
-        },
-        {
-            icon: ShieldCheck,
-            title: t("pages.about.who_we_are.features.verification.title"),
-            desc: t("pages.about.who_we_are.features.verification.desc"),
-        },
-        {
-            icon: Globe2,
-            title: t("pages.about.who_we_are.features.connect.title"),
-            desc: t("pages.about.who_we_are.features.connect.desc"),
-        },
-        {
-            icon: FileStack,
-            title: t("pages.about.who_we_are.transparency.subtitle"),
-            desc: t("pages.about.who_we_are.transparency.desc"),
-        },
-    ];
+    const featureItems = t("pages.about.advantages.items", { returnObjects: true }) as Array<{
+        title: string;
+        desc: string;
+    }>;
+    const featureIcons = [History, ShieldCheck, Globe2, FileStack];
 
     return (
         <section className="flex justify-center bg-slate-50 px-2 py-14">
@@ -47,7 +30,7 @@ export function ProblemSection() {
 
                     <div className="grid overflow-hidden border border-slate-200 bg-white md:grid-cols-2">
                         {featureItems.map((item, index) => {
-                            const Icon = item.icon;
+                            const Icon = featureIcons[index] || History;
                             const borderClassName = [
                                 index > 0 ? "border-t" : "",
                                 index === 1 ? "md:border-t-0 md:border-l" : "",
@@ -62,9 +45,9 @@ export function ProblemSection() {
                                 >
                                     <div className="flex items-center gap-3 text-foreground">
                                         <Icon className="size-5 shrink-0 text-primary transition-transform duration-200 group-hover:translate-x-0.5" />
-                                        <h3 className="text-base font-bold leading-6 md:text-lg">
+                                        <h4 className="text-base font-bold leading-6 md:text-lg">
                                             {item.title}
-                                        </h3>
+                                        </h4>
                                     </div>
                                     <p className="mt-4 text-sm leading-7 text-muted">
                                         {item.desc}
