@@ -25,16 +25,16 @@
     "panel": {
       "items": [
         {
-          "title": "Start with the template",
-          "description": "Use the template to organize company details, product scope, documents, and image notes before sending your update."
+          "title": "Send materials by email",
+          "description": "Include your company name, profile link if available, completed template, and supporting files."
         },
         {
-          "title": "Attach your files",
-          "description": "Send product images, factory photos, certificates, brochures, logos, and other supporting files by email."
+          "title": "We review the content",
+          "description": "We check whether the information is relevant, clear, usable, and suitable for the public profile."
         },
         {
-          "title": "Use one email thread",
-          "description": "Include your company name in the subject line so we can connect updates, files, and follow-up questions to the right profile."
+          "title": "Approved updates go live",
+          "description": "Relevant updates may be added to the manufacturer profile, product pages, or media sections after review."
         }
       ]
     }
@@ -63,21 +63,7 @@
   },
   "process": {
     "title": "How Profile Updates Are Reviewed",
-    "description": "All update requests are reviewed manually. We may edit wording, ask for clarification, or decline content that is incomplete, unrelated, unverifiable, or too promotional.",
-    "steps": [
-      {
-        "title": "Send materials by email",
-        "description": "Include your company name, profile link if available, completed template, and supporting files."
-      },
-      {
-        "title": "We review the content",
-        "description": "We check whether the information is relevant, clear, usable, and suitable for the public profile."
-      },
-      {
-        "title": "Approved updates go live",
-        "description": "Relevant updates may be added to the manufacturer profile, product pages, or media sections after review."
-      }
-    ]
+    "description": "All update requests are reviewed manually. We may edit wording, ask for clarification, or decline content that is incomplete, unrelated, unverifiable, or too promotional."
   },
   "submission": {
     "contact": {
