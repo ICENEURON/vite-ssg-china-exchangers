@@ -3,7 +3,7 @@ import 'vanilla-cookieconsent/dist/cookieconsent.css';
 import './cookie-consent.css';
 
 const analyticsCategory = 'analytics';
-const gaMeasurementId = import.meta.env.VITE_GA_MEASUREMENT_ID;
+const gaMeasurementId = import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-077PBFJFEZ';
 
 let gaLoaded = false;
 let cookieConsentInitialized = false;
@@ -59,9 +59,15 @@ function routeLearnMoreToPrivacy() {
 
 function initializeDataLayer() {
   window.dataLayer = window.dataLayer || [];
-  window.gtag = (...args) => {
+  window.gtag = window.gtag || ((...args) => {
     window.dataLayer?.push(args);
-  };
+  });
+
+  const hasConsentDefault = window.dataLayer.some(
+    (entry) => Array.isArray(entry) && entry[0] === 'consent' && entry[1] === 'default',
+  );
+
+  if (hasConsentDefault) return;
 
   window.gtag('consent', 'default', {
     ad_personalization: 'denied',

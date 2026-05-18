@@ -419,6 +419,23 @@ function injectStructuredData(routeEntries) {
   console.log(`Updated structured data for ${manifest.filter((entry) => !entry.schemaTypes.includes('already-injected')).length} pages.`);
 }
 
+function removeLegacyTemplateStructuredData(routeEntries) {
+  const legacyOrganizationSchemaPattern = /\n?\s*<script\s+type=["']application\/ld\+json["']\s*>\s*\{\s*"@context"\s*:\s*"https:\/\/schema\.org"\s*,\s*"@type"\s*:\s*"Organization"\s*,\s*"name"\s*:\s*"HeatEx Direct"\s*,\s*"url"\s*:\s*"https:\/\/heatexdirect\.com\/?"\s*,\s*"logo"\s*:\s*"https:\/\/heatexdirect\.com\/?static\/websites\/logo\.png"\s*,\s*"description"\s*:\s*"Source Industrial Heat Exchangers Direct from Verified Chinese Factories\."\s*,\s*"sameAs"\s*:\s*\[\s*\]\s*\}\s*<\/script>/gi;
+  let updatedCount = 0;
+
+  routeEntries.forEach(({ filePath }) => {
+    const html = readText(filePath);
+    const updatedHtml = html.replace(legacyOrganizationSchemaPattern, '');
+
+    if (updatedHtml !== html) {
+      writeText(filePath, updatedHtml);
+      updatedCount += 1;
+    }
+  });
+
+  console.log(`Removed legacy template structured data from ${updatedCount} pages.`);
+}
+
 function syncNoindexMeta(routeEntries) {
   routeEntries.forEach(({ filePath }) => {
     const html = readText(filePath);
@@ -433,6 +450,25 @@ function syncNoindexMeta(routeEntries) {
   });
 
   console.log(`${shouldNoindex ? 'Added' : 'Removed'} noindex meta for ${routeEntries.length} pages.`);
+}
+
+function syncCriticalHeadMeta(routeEntries) {
+  routeEntries.forEach(({ filePath }) => {
+    const html = readText(filePath);
+    const withoutCriticalMeta = html
+      .replace(/\n?\s*<meta\s+charset=["']UTF-8["']\s*\/?>/i, '')
+      .replace(/\n?\s*<meta\s+name=["']viewport["']\s+content=["']width=device-width,\s*initial-scale=1\.0["']\s*\/?>/i, '');
+    const updatedHtml = withoutCriticalMeta.replace(
+      /<head([^>]*)>\s*/i,
+      '<head$1>\n    <meta charset="UTF-8" />\n    <meta name="viewport" content="width=device-width, initial-scale=1.0" />\n',
+    );
+
+    if (updatedHtml !== html) {
+      writeText(filePath, updatedHtml);
+    }
+  });
+
+  console.log(`Normalized critical head meta for ${routeEntries.length} pages.`);
 }
 
 function writeRobotsTxt() {
@@ -575,7 +611,9 @@ function buildSitemap() {
 
   copyDeploymentFiles();
   injectStructuredData(routes);
+  removeLegacyTemplateStructuredData(routes);
   syncNoindexMeta(routes);
+  syncCriticalHeadMeta(routes);
 
   console.log(`Generated sitemap with ${routes.length} URLs.`);
 }
