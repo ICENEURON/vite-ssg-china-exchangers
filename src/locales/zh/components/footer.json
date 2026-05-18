@@ -3,7 +3,7 @@
     "alt": "HeatEx Direct",
     "title": "HeatEx Direct"
   },
-  "tagline": "连接全球买家与中国优质换热器制造商，轻松对比厂家、查找产品、提交询价。",
+  "tagline": "HeatEx Direct 帮助全球买家比较中国换热器制造商、浏览产品类别，并提交换热器需求以获得制造商报价反馈。",
   "categories": "分类",
   "resources": "资源",
   "rfq_label": "获取报价",
@@ -13,8 +13,8 @@
       "manufacturers": "制造商列表",
       "products": "产品类别",
       "rfq": "获取报价",
-      "profile": "更新厂家资料",
-      "content-marketing-services": "行业资讯投稿",
+      "profile": "资料更新",
+      "content-marketing-services": "文章投稿",
       "industry-news": "行业新闻",
       "about": "关于我们",
       "contact": "联系我们"
@@ -27,6 +27,6 @@
     "and": "和",
     "privacy": "隐私政策",
     "afterLinks": "。",
-    "entityStatement": "HeatEx Direct 专注整理中国换热器制造商信息，帮助全球工业买家比较厂家资料、了解产品能力，并提交询价需求。"
+    "entityStatement": "HeatEx Direct 整理中国换热器制造商信息，帮助全球工业买家比较供应商资料、了解产品能力，并提交报价请求。"
   }
 }

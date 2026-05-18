@@ -37,12 +37,12 @@ export function CategoryShowcase() {
                     {categories.map((category) => (
                         <article
                             key={category.title}
-                            className="grid gap-4 py-5 text-left md:grid-cols-[minmax(0,0.38fr)_minmax(0,1fr)] md:items-start md:px-4"
+                            className="grid gap-4 py-5 text-left md:grid-cols-[minmax(0,0.45fr)_minmax(0,1fr)] md:items-start md:px-4"
                         >
                             <div>
-                                <h3 className="text-base font-semibold text-foreground">
+                                <h4 className="text-base font-semibold text-foreground">
                                     {category.title}
-                                </h3>
+                                </h4>
                             </div>
                             <p className="text-sm leading-6 text-muted">{category.body}</p>
                         </article>

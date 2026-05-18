@@ -41,7 +41,7 @@ export function HeroSection() {
                     </p>
                 </div>
 
-                <div className="mt-5 grid max-w-[45rem] gap-5 md:grid-cols-2">
+                <div className="mt-5 grid max-w-[50rem] gap-5 md:grid-cols-2">
                     {paths.map((path, index) => {
                         const Icon = pathIcons[index] || Factory;
                         const isActive = activePathIndex === index;

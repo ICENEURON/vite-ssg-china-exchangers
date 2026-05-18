@@ -25,7 +25,7 @@ export function HowItWorks() {
                             {t("pages.home.howItWorks.title")}
                         </h2>
                         <p className="mt-4 text-sm leading-7 text-muted md:text-base">
-                            {t("pages.home.howItWorks.description")}
+                            <BrandText text={t("pages.home.howItWorks.description")} />
                         </p>
                     </div>
                 </div>

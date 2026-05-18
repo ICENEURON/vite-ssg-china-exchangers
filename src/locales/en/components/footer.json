@@ -3,7 +3,7 @@
     "alt": "HeatEx Direct",
     "title": "HeatEx Direct"
   },
-  "tagline": "Connecting global buyers with verified Chinese heat exchanger manufacturers. Compare suppliers, explore products, and request quotes easily.",
+  "tagline": "HeatEx Direct helps global buyers compare Chinese heat exchanger manufacturers, explore product categories, and submit heat exchanger requirements for manufacturer quotation feedback.",
   "categories": "Categories",
   "resources": "Resources",
   "rfq_label": "Get Quote",
@@ -13,8 +13,8 @@
       "manufacturers": "Manufacturer List",
       "products": "Product Categories",
       "rfq": "Get Quote",
-      "profile": "Update Your Profile",
-      "content-marketing-services": "Submit Articles",
+      "profile": "Profile Updates",
+      "content-marketing-services": "Article Submissions",
       "industry-news": "Industry News",
       "about": "About Us",
       "contact": "Contact Us"
