@@ -19,7 +19,6 @@ type BlogRouteEntry = {
 };
 
 type LanguagesConfig = Record<string, {
-  flag: string;
   name: string;
 }>;
 

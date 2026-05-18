@@ -311,7 +311,6 @@
     "sendingBtn": "发送中...",
     "codeSentTo": "验证码已发送至",
     "accessCodeLabel": "验证码",
-    "accessCodePlaceholder": "验证码",
     "verifyBtn": "验证邮箱",
     "verifyingBtn": "验证中...",
     "errors": {

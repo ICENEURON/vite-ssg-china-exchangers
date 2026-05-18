@@ -118,7 +118,7 @@ export function LanguageToggle() {
       {isOpen && (
         <div className="absolute right-0 top-full z-50 min-w-[120px] pt-2">
           <div className="flex flex-col gap-2 border border-border/50 bg-navbar p-2 shadow">
-            {Object.entries(languageConfigs).map(([code, { name, flag }]) => (
+            {Object.entries(languageConfigs).map(([code, { name }]) => (
               <Button
                 key={code}
                 variant="ghost"
@@ -127,7 +127,6 @@ export function LanguageToggle() {
                 type="button"
                 className="w-full px-3 py-2 text-left hover:bg-accent/40 hover:text-navbar-foreground flex items-center gap-2 text-sm transition-colors h-auto justify-start focus:bg-accent/70 focus:text-navbar-foreground rounded-none text-navbar-foreground"
               >
-                <span>{flag}</span>
                 <span>{name}</span>
                 {currentLanguage === code && (
                   <Check className="h-4 w-4 ml-auto text-red-500" />

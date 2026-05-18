@@ -2,7 +2,6 @@ import languagesData from './languages.json';
 
 // 从 JSON 文件推导出语言配置类型
 export type LanguageConfig = {
-  flag: string;
   name: string;
 };
 

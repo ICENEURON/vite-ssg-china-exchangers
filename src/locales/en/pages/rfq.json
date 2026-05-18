@@ -311,7 +311,6 @@
     "sendingBtn": "Sending...",
     "codeSentTo": "Code sent to",
     "accessCodeLabel": "Verification Code",
-    "accessCodePlaceholder": "Code",
     "verifyBtn": "Verify Your Email",
     "verifyingBtn": "Verifying...",
     "errors": {

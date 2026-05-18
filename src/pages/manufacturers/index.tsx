@@ -3,7 +3,7 @@ import { useState, useMemo } from 'react'
 import { Head } from 'vite-react-ssg'
 import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { ChevronDown, X, Check, Filter, MapPin } from 'lucide-react';
+import { ChevronDown, X, Check, Filter } from 'lucide-react';
 import { FilterDropdown } from "../../components/ui/filter-dropdown"
 import { ManufacturerCard } from "./components/ManufacturerCard"
 import { HeroSection } from "./components/HeroSection"
@@ -41,7 +41,7 @@ interface ManufacturerScoreFile {
 }
 
 type ManufacturerScoreSource = ManufacturerScoreRecord[] | ManufacturerScoreFile;
-type ManufacturerDropdown = "industry" | "city";
+type ManufacturerDropdown = "industry";
 
 const fallbackManufacturerOrder = 999;
 
@@ -62,10 +62,8 @@ export default function ManufacturersPage() {
   const manufacturers = manufacturersT.t("list", { returnObjects: true }) as Manufacturer[];
 
   const [selectedIndustrySlugs, setSelectedIndustrySlugs] = useState<string[]>([]);
-  const [selectedCities, setSelectedCities] = useState<string[]>([]);
   const [openDropdown, setOpenDropdown] = useState<ManufacturerDropdown | null>(null);
   const isIndustryDropdownOpen = openDropdown === "industry";
-  const isCityDropdownOpen = openDropdown === "city";
   const closeDropdowns = () => setOpenDropdown(null);
   const handleDropdownOpenChange = (dropdown: ManufacturerDropdown, open: boolean) => {
     setOpenDropdown(open ? dropdown : null);
@@ -83,28 +81,10 @@ export default function ManufacturersPage() {
     setSelectedIndustrySlugs(prev => prev.filter(s => s !== slug));
   };
 
-  const toggleCity = (city: string) => {
-    setSelectedCities(prev =>
-      prev.includes(city)
-        ? prev.filter(currentCity => currentCity !== city)
-        : [...prev, city]
-    );
-  };
-
-  const removeCity = (city: string) => {
-    setSelectedCities(prev => prev.filter(currentCity => currentCity !== city));
-  };
-
   const clearAll = () => {
     setSelectedIndustrySlugs([]);
-    setSelectedCities([]);
     closeDropdowns();
   };
-
-  const cities = useMemo(() => (
-    Array.from(new Set(manufacturers.map(manufacturer => manufacturer.city).filter(Boolean) as string[]))
-      .sort((a, b) => a.localeCompare(b))
-  ), [manufacturers]);
 
   const signalsBySlug = useMemo(() => new Map(
     getManufacturerScoreRecords(manufacturerScores as ManufacturerScoreSource).map(signal => [signal.manufacturer_slug, signal])
@@ -130,20 +110,19 @@ export default function ManufacturersPage() {
 
     const filtered = rankedManufacturers.filter(manufacturer => {
       const matchesIndustry = selectedIndustryNames.length === 0 || manufacturer.industries?.some(industryName => selectedIndustryNames.includes(industryName));
-      const matchesCity = selectedCities.length === 0 || (manufacturer.city ? selectedCities.includes(manufacturer.city) : false);
 
-      return matchesIndustry && matchesCity;
+      return matchesIndustry;
     });
 
     return [...filtered].sort((a, b) => a.ranking.order - b.ranking.order);
-  }, [selectedIndustrySlugs, selectedCities, rankedManufacturers, industries]);
+  }, [selectedIndustrySlugs, rankedManufacturers, industries]);
 
   const selectedIndustries = useMemo(() =>
     industries.filter(i => selectedIndustrySlugs.includes(i.slug)),
     [industries, selectedIndustrySlugs]
   );
 
-  const hasActiveFilters = selectedIndustrySlugs.length > 0 || selectedCities.length > 0;
+  const hasActiveFilters = selectedIndustrySlugs.length > 0;
 
   return (
     <>
@@ -216,52 +195,6 @@ export default function ManufacturersPage() {
                       </div>
                 </FilterDropdown>
 
-                <FilterDropdown
-                  open={isCityDropdownOpen}
-                  onOpenChange={(open) => handleDropdownOpenChange("city", open)}
-                  contentClassName="w-60 bg-white"
-                  trigger={({ open, triggerProps }) => (
-                    <button
-                      {...triggerProps}
-                      className="flex items-center gap-2 rounded-lg border border-border/60 bg-white px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
-                    >
-                      <MapPin className="w-4 h-4 text-primary" />
-                      <span>{manufacturersT.t("filter_city")}</span>
-                      <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${open ? 'rotate-180' : ''}`} />
-                    </button>
-                  )}
-                >
-                      <div className="p-2.5 max-h-[280px] overflow-y-auto custom-scrollbar">
-                        <button
-                          onClick={() => setSelectedCities([])}
-                          className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-lg transition-all group ${selectedCities.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04]'
-                            }`}
-                        >
-                          <span className="font-bold">{manufacturersT.t("filter_all_cities")}</span>
-                          {selectedCities.length === 0 && <Check className="w-4 h-4" />}
-                        </button>
-                        <div className="h-px bg-border/40 my-2 mx-2" />
-                        <div className="grid gap-1">
-                          {cities.map((city) => {
-                            const isSelected = selectedCities.includes(city);
-                            return (
-                              <button
-                                key={city}
-                                onClick={() => toggleCity(city)}
-                                className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-lg transition-all group ${isSelected
-                                  ? 'bg-primary/[0.06] text-primary font-semibold'
-                                  : 'text-foreground hover:bg-zinc-950/[0.04]'
-                                  }`}
-                              >
-                                <span>{city}</span>
-                                {isSelected && <Check className="w-4 h-4 animate-in zoom-in duration-200" />}
-                              </button>
-                            );
-                          })}
-                        </div>
-                      </div>
-                </FilterDropdown>
-
                 {hasActiveFilters && (
                   <button
                     onClick={clearAll}
@@ -286,21 +219,6 @@ export default function ManufacturersPage() {
                         onClick={() => removeIndustry(industry.slug)}
                         className="hover:bg-primary/20 rounded-full p-1 transition-all group-hover:scale-110 flex items-center justify-center"
                         aria-label={`Remove ${industry.name}`}
-                      >
-                        <X className="w-3.5 h-3.5" />
-                      </button>
-                    </div>
-                  ))}
-                  {selectedCities.map((city) => (
-                    <div
-                      key={city}
-                      className="inline-flex items-center justify-center gap-1 rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-xs font-bold text-primary shadow-sm transition-all hover:shadow-md group"
-                    >
-                      <span className="leading-none">{city}</span>
-                      <button
-                        onClick={() => removeCity(city)}
-                        className="hover:bg-primary/20 rounded-full p-1 transition-all group-hover:scale-110 flex items-center justify-center"
-                        aria-label={`Remove ${city}`}
                       >
                         <X className="w-3.5 h-3.5" />
                       </button>
