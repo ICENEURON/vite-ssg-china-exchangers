@@ -97,6 +97,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
     const disabledInputStyle = { backgroundColor: "#f1f5f9", borderColor: "#e2e8f0" };
 
     const requiredBadge = <span className="ml-1 text-sm font-black leading-none text-red-500">*</span>
+    const getFieldId = (field: keyof RfqProductSpecsData) => `rfq-${String(field)}`;
 
     const selectChevron = (
         <svg
@@ -158,6 +159,9 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
 
     const renderInput = (field: keyof RfqProductSpecsData, placeholder = "", type: "text" = "text", disabled = false, invalid = false) => (
         <input
+            id={getFieldId(field)}
+            name={String(field)}
+            aria-label={String(field)}
             type={type}
             className={disabled ? disabledInputClass : `${inputClass} ${invalid ? invalidInputClass : ""}`}
             style={disabled ? disabledInputStyle : invalid ? invalidInputStyle : undefined}
@@ -235,8 +239,10 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                 </div>
 
                 <div>
-                    <label className={compactLabelClass}>{t("step2.mediaNameLabel")}</label>
+                    <label htmlFor={getFieldId(mediaNameField)} className={compactLabelClass}>{t("step2.mediaNameLabel")}</label>
                     <input
+                        id={getFieldId(mediaNameField)}
+                        name={String(mediaNameField)}
                         className={inputClass}
                         value={data[mediaNameField] || ""}
                         onChange={(event) => updateField(mediaNameField, event.target.value)}
@@ -253,6 +259,9 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                         <div />
                         <div className="relative">
                             <select
+                                id={getFieldId(inletFluidTypeField)}
+                                name={String(inletFluidTypeField)}
+                                aria-label={`${title} ${t("step2.inletPropertyLabel")} ${t("step2.fluidTypeLabel")}`}
                                 className={selectClass}
                                 value={inletFluidTypeValue}
                                 onChange={(event) => updateField(inletFluidTypeField, event.target.value)}
@@ -266,6 +275,9 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                         </div>
                         <div className="relative">
                             <select
+                                id={getFieldId(outletFluidTypeField)}
+                                name={String(outletFluidTypeField)}
+                                aria-label={`${title} ${t("step2.outletPropertyLabel")} ${t("step2.fluidTypeLabel")}`}
                                 className={selectClass}
                                 value={outletFluidTypeValue}
                                 onChange={(event) => updateField(outletFluidTypeField, event.target.value)}
@@ -337,24 +349,26 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
 
                 <div className="grid grid-cols-2 gap-2">
                     <div>
-                        <label className={compactLabelClass}>{t("step2.designPressureLabel")}</label>
+                        <label htmlFor={getFieldId(designPressureField)} className={compactLabelClass}>{t("step2.designPressureLabel")}</label>
                         {renderInput(designPressureField)}
                     </div>
                     <div>
-                        <label className={compactLabelClass}>{t("step2.testPressureLabel")}</label>
+                        <label htmlFor={getFieldId(testPressureField)} className={compactLabelClass}>{t("step2.testPressureLabel")}</label>
                         {renderInput(testPressureField)}
                     </div>
                 </div>
 
                 <div>
-                    <label className={compactLabelClass}>{t("step2.designTemperatureLabel")}</label>
+                    <label htmlFor={getFieldId(designTemperatureField)} className={compactLabelClass}>{t("step2.designTemperatureLabel")}</label>
                     {renderInput(designTemperatureField)}
                 </div>
 
                 <div>
-                    <label className={requiredLabelClass}>{t("step2.flangeStandardLabel")}{requiredBadge}</label>
+                    <label htmlFor={getFieldId(flangeStandardField)} className={requiredLabelClass}>{t("step2.flangeStandardLabel")}{requiredBadge}</label>
                     <div className="relative">
                         <select
+                            id={getFieldId(flangeStandardField)}
+                            name={String(flangeStandardField)}
                             className={selectClass}
                             value={flangeStandardValue}
                             onChange={(event) => updateField(flangeStandardField, event.target.value)}
@@ -370,7 +384,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
 
                 {flangeStandardValue === "other" && (
                     <div>
-                        <label className={compactLabelClass}>{t("step2.customFlangeStandardLabel")}</label>
+                        <label htmlFor={getFieldId(customFlangeStandardField)} className={compactLabelClass}>{t("step2.customFlangeStandardLabel")}</label>
                         {renderInput(customFlangeStandardField, t("step2.customFlangeStandardPlaceholder"), "text", false, !data[customFlangeStandardField])}
                     </div>
                 )}
@@ -391,15 +405,15 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                 </div>
 
                 <div>
-                    <label className={compactLabelClass}>{t("step2.flangeMaterialLabel")}</label>
+                    <label htmlFor={getFieldId(flangeMaterialField)} className={compactLabelClass}>{t("step2.flangeMaterialLabel")}</label>
                     {renderInput(flangeMaterialField, t("step2.flangeMaterialPlaceholder"), "text")}
                 </div>
                 <div>
-                    <label className={compactLabelClass}>{t("step2.flangePressureRatingLabel")}</label>
+                    <label htmlFor={getFieldId(flangePressureRatingField)} className={compactLabelClass}>{t("step2.flangePressureRatingLabel")}</label>
                     {renderInput(flangePressureRatingField, t("step2.flangePressureRatingPlaceholder"), "text")}
                 </div>
                 <div>
-                    <label className={compactLabelClass}>{t("step2.flangeTypeSealingFaceLabel")}</label>
+                    <label htmlFor={getFieldId(flangeTypeSealingFaceField)} className={compactLabelClass}>{t("step2.flangeTypeSealingFaceLabel")}</label>
                     {renderInput(flangeTypeSealingFaceField, t("step2.flangeTypeSealingFacePlaceholder"), "text")}
                 </div>
             </div>
@@ -430,7 +444,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                 </div>
 
                 <div className="mt-4 border-t border-slate-100 pt-4">
-                    <label className={requiredLabelClass}>{t("step2.heatLoadLabel")}{requiredBadge}</label>
+                    <label htmlFor={getFieldId("heatLoad")} className={requiredLabelClass}>{t("step2.heatLoadLabel")}{requiredBadge}</label>
                     {renderInput("heatLoad", "", "text", false, !data.heatLoad)}
                 </div>
             </div>
@@ -443,13 +457,15 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
 
                 <div className="grid grid-cols-1 gap-3">
                     <div>
-                        <label className={sectionLabelClass}>{t("step2.designCodeLabel")}</label>
+                        <label htmlFor={getFieldId("designCode")} className={sectionLabelClass}>{t("step2.designCodeLabel")}</label>
                         {renderInput("designCode", t("step2.designCodePlaceholder"), "text")}
                     </div>
                     <div>
-                        <label className={requiredLabelClass}>{t("step2.plateMaterialLabel")}{requiredBadge}</label>
+                        <label htmlFor={getFieldId("plateMaterial")} className={requiredLabelClass}>{t("step2.plateMaterialLabel")}{requiredBadge}</label>
                         <div className="relative">
                             <select
+                                id={getFieldId("plateMaterial")}
+                                name="plateMaterial"
                                 className={selectClass}
                                 value={data.plateMaterial}
                                 onChange={(event) => updateField("plateMaterial", event.target.value)}
@@ -484,9 +500,11 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                 </div>
 
                 <div className="mt-4 border-t border-slate-100 pt-4">
-                    <label className={sectionLabelClass}>{t("step2.additionalNotesLabel")}</label>
+                    <label htmlFor={getFieldId("additionalNotes")} className={sectionLabelClass}>{t("step2.additionalNotesLabel")}</label>
                     <div className="relative mt-1">
                         <textarea
+                            id={getFieldId("additionalNotes")}
+                            name="additionalNotes"
                             className="flex w-full min-h-[100px] rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 resize-y"
                             placeholder={t("step2.additionalNotesPlaceholder")}
                             value={data.additionalNotes || ""}

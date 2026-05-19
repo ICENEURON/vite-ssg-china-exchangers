@@ -10,6 +10,7 @@ import { loadEnv } from 'vite';
 // - inject structured data into manufacturer and product detail pages
 // - sync robots noindex meta based on VITE_SITE_NOINDEX
 // - normalize critical head meta in generated HTML
+// - ensure the deployment 404 page uses the React site layout and is noindexed
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -369,6 +370,40 @@ function syncCriticalHeadMeta(routeEntries) {
   console.log(`Normalized critical head meta for ${routeEntries.length} pages.`);
 }
 
+function ensureNoindexMeta(html) {
+  const withoutNoindex = html.replace(/\n?\s*<meta\s+name=["']robots["']\s+content=["']noindex,\s*nofollow["']\s*\/?>/i, '');
+
+  return withoutNoindex.replace('</head>', '    <meta name="robots" content="noindex, nofollow" />\n</head>');
+}
+
+function normalizeCriticalHeadMeta(html) {
+  const withoutCriticalMeta = html
+    .replace(/\n?\s*<meta\s+charset=["']UTF-8["']\s*\/?>/i, '')
+    .replace(/\n?\s*<meta\s+name=["']viewport["']\s+content=["']width=device-width,\s*initial-scale=1\.0["']\s*\/?>/i, '');
+
+  return withoutCriticalMeta.replace(
+    /<head([^>]*)>\s*/i,
+    '<head$1>\n    <meta charset="UTF-8" />\n    <meta name="viewport" content="width=device-width, initial-scale=1.0" />\n',
+  );
+}
+
+function syncNotFoundPage() {
+  const notFoundPath = path.join(distDir, '404.html');
+
+  if (!fs.existsSync(notFoundPath)) {
+    throw new Error(`404 page was not generated: ${notFoundPath}`);
+  }
+
+  const html = readText(notFoundPath);
+  const updatedHtml = ensureNoindexMeta(normalizeCriticalHeadMeta(html));
+
+  if (updatedHtml !== html) {
+    writeText(notFoundPath, updatedHtml);
+  }
+
+  console.log('Synced custom 404 page.');
+}
+
 function writeRobotsTxt() {
   const robotsTemplatePath = path.join(webDir, 'robots.txt');
   const robotsTemplate = fs.existsSync(robotsTemplatePath)
@@ -519,6 +554,7 @@ function buildSitemap() {
   injectStructuredData(routes);
   syncNoindexMeta(routes);
   syncCriticalHeadMeta(routes);
+  syncNotFoundPage();
 
   console.log(`Generated sitemap with ${routes.length} URLs.`);
 }

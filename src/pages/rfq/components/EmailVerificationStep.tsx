@@ -61,6 +61,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
 
     const showSendError = step === "input" && errorMsg;
     const showVerifyError = step === "otp" && errorMsg;
+    const isEmailReady = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
 
     useEffect(() => {
         if (!email.includes("@")) {
@@ -159,10 +160,13 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
         <div className="w-full max-w-2xl mx-auto">
             {step === "input" && (
                 <div className="space-y-6 animate-in fade-in slide-in-from-bottom-2">
-                    <div className="space-y-2">
-                        <label className="text-sm font-semibold text-slate-700">{t("step3.emailLabel")}</label>
+                    <div>
                         <input
+                            id="rfq-email"
+                            name="email"
                             type="email"
+                            autoComplete="email"
+                            aria-label={t("step3.emailLabel")}
                             className="flex h-14 w-full rounded-xl border-2 border-slate-200 bg-background px-4 py-2 text-lg ring-offset-background transition-all hover:border-primary/40 focus:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
                             placeholder={t("step3.emailPlaceholder")}
                             value={email}
@@ -191,7 +195,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                     <Button
                         size="lg"
                         className="w-full h-14 text-base font-bold bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white rounded-xl shadow-lg shadow-primary/20"
-                        disabled={domainStatus === "unknown" || isLoading}
+                        disabled={!isEmailReady || isLoading}
                         onClick={handleSendCode}
                     >
                         {isLoading ? t("step3.sendingBtn") : t("step3.sendBtn")}
@@ -207,13 +211,12 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
 
             {step === "otp" && (
                 <div className="space-y-6 animate-in slide-in-from-right-4">
-                    <div className="text-center p-4 bg-slate-50 rounded-xl">
-                        <p className="mb-3 text-xl font-black tracking-tight text-slate-900 sm:text-2xl">{t("step3.codeSentTo")}</p>
-                        <h3 className="tracking-tight text-blue-700">{email}</h3>
+                    <div className="text-center">
+                        <p className="text-sm font-semibold uppercase tracking-wide text-blue-700">{t("step3.codeSentTo")}</p>
+                        <p className="mt-2 truncate text-lg font-bold text-slate-900">{email}</p>
                     </div>
 
                     <div className="space-y-2">
-                        <label className="text-sm font-semibold text-slate-700">{t("step3.accessCodeLabel")}</label>
                         <div
                             className={`relative overflow-hidden rounded-2xl border px-3 py-4 ring-offset-background transition-all focus-within:outline-none sm:px-5 ${isOtpFocused
                                 ? "border-primary/30 bg-white shadow-lg shadow-primary/10 ring-4 ring-primary/10"
@@ -224,6 +227,8 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                             <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-linear-to-r from-blue-100/50 via-blue-50/15 to-transparent" />
                             <input
                                 ref={otpInputRef}
+                                id="rfq-verification-code"
+                                name="verificationCode"
                                 autoFocus
                                 type="text"
                                 inputMode="numeric"

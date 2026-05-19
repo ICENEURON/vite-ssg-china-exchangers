@@ -35,7 +35,7 @@ export function CategoryStats() {
                             key={stat.label}
                             className={`rounded-md border px-5 py-6 text-center ${stat.card}`}
                         >
-                            <div className="font-heading text-4xl font-extrabold leading-none tracking-normal md:text-5xl lg:text-6xl">
+                            <div className="text-4xl font-extrabold leading-none tracking-normal md:text-5xl lg:text-6xl">
                                 <span className={stat.accent}>{stat.value}</span>
                             </div>
                             <div className="mt-3 text-base font-semibold leading-6 text-slate-800">

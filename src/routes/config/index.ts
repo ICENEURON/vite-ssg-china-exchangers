@@ -97,6 +97,7 @@ const allRoutes: RouteDef[] = [
 
     { path: "/terms", element: TermsPage, auth: "public", nav: "none", mobile: "none", label: "Terms", translationKey: "navigation.menu.terms" },
     { path: "/privacy", element: PrivacyPage, auth: "public", nav: "none", mobile: "none", label: "Privacy", translationKey: "navigation.menu.privacy" },
+    { path: "/404", element: NotFoundPage, auth: "public", nav: "none", mobile: "none", label: "NotFound" },
     { path: "*", element: NotFoundPage, auth: "public", nav: "none", mobile: "none", label: "NotFound" },
 ]
 

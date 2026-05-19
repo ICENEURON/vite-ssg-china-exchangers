@@ -5,17 +5,17 @@ export function ProgressTracker({ currentStep }: { currentStep: number }) {
     const steps = [t("context"), t("specifications"), t("verification"), t("submit")]
 
     return (
-        <div className="w-full py-4 mb-4">
-            <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:flex-wrap md:items-center md:justify-center">
+        <div className="w-full py-4 px-8 mb-4">
+            <div className="grid grid-cols-2 justify-items-start gap-3 md:flex md:flex-row md:flex-wrap md:items-center md:justify-center md:gap-4">
                 {steps.map((label, index) => {
                     const stepNumber = index + 1;
                     const isCompleted = currentStep > stepNumber;
                     const isCurrent = currentStep === stepNumber;
 
                     return (
-                        <div key={label} className="flex flex-col items-center md:flex-row md:items-center">
+                        <div key={label} className="flex min-w-0 items-center justify-start md:flex-row md:items-center">
                             <div className={`
-                                flex items-center justify-center gap-2 text-center transition-all duration-300
+                                flex min-w-0 items-center justify-start gap-2 text-left transition-all duration-300
                                 ${isCurrent ? 'opacity-100' : isCompleted ? 'opacity-70' : 'opacity-40 grayscale'}
                             `}>
                                 <div className={`
@@ -24,7 +24,7 @@ export function ProgressTracker({ currentStep }: { currentStep: number }) {
                                 `}>
                                     {stepNumber}
                                 </div>
-                                <span className={`text-sm font-semibold ${isCurrent ? 'text-primary' : 'text-slate-600'}`}>
+                                <span className={`min-w-0 text-sm font-semibold leading-tight ${isCurrent ? 'text-primary' : 'text-slate-600'}`}>
                                     {label}
                                 </span>
                             </div>

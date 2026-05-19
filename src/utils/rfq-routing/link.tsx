@@ -1,4 +1,4 @@
-import { forwardRef } from "react";
+import { forwardRef, useEffect, useState } from "react";
 import { Link, useLocation, type LinkProps } from "react-router-dom";
 import { addLanguageToPath, getPathWithoutLanguage, useCurrentLanguage, type Language } from "../language-routing";
 
@@ -49,7 +49,14 @@ export const RfqLink = forwardRef<HTMLAnchorElement, RfqLinkProps>(function RfqL
 ) {
     const currentLanguage = useCurrentLanguage();
     const location = useLocation();
-    const to = buildRfqPath(location.pathname, location.search, currentLanguage);
+    const [isHydrated, setIsHydrated] = useState(false);
+    const pathname = isHydrated ? location.pathname : "/";
+    const search = isHydrated ? location.search : "";
+    const to = buildRfqPath(pathname, search, currentLanguage);
+
+    useEffect(() => {
+        setIsHydrated(true);
+    }, []);
 
     return (
         <Link

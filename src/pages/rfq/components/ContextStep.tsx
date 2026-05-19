@@ -45,12 +45,13 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
         required?: boolean
     ) => (
         <div>
-            <label className={required ? requiredLabelClass : labelClass}>{label}{required && requiredMark}</label>
+            <div className={required ? requiredLabelClass : labelClass}>{label}{required && requiredMark}</div>
             <div className="grid grid-cols-2 gap-2 rounded-md md:grid-cols-3">
                 {options.map((option) => {
                     const isSelected = currentValue === option.id;
                     return (
                         <button
+                            type="button"
                             key={option.id}
                             onClick={() => onChange({ [fieldKey]: option.id })}
                             className={`
@@ -75,6 +76,8 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
             {customKey && currentValue === "other" && (
                 <div className="mt-3 animate-in fade-in slide-in-from-top-2">
                     <input
+                        id={`rfq-${String(customKey)}`}
+                        name={String(customKey)}
                         type="text"
                         placeholder={customPlaceholder}
                         value={data[customKey] as string}
@@ -92,9 +95,12 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
             <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
                 <div className="grid grid-cols-2 gap-3">
                     <div>
-                        <label className={requiredLabelClass}>{t("step1.firstNameLabel")}{requiredMark}</label>
+                        <label htmlFor="rfq-firstName" className={requiredLabelClass}>{t("step1.firstNameLabel")}{requiredMark}</label>
                         <input
+                            id="rfq-firstName"
+                            name="firstName"
                             type="text"
+                            autoComplete="given-name"
                             value={data.firstName}
                             onChange={(e) => onChange({ firstName: e.target.value })}
                             className={data.firstName.trim() ? inputClass : requiredInputClass}
@@ -102,9 +108,12 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                         />
                     </div>
                     <div>
-                        <label className={requiredLabelClass}>{t("step1.lastNameLabel")}{requiredMark}</label>
+                        <label htmlFor="rfq-lastName" className={requiredLabelClass}>{t("step1.lastNameLabel")}{requiredMark}</label>
                         <input
+                            id="rfq-lastName"
+                            name="lastName"
                             type="text"
+                            autoComplete="family-name"
                             value={data.lastName}
                             onChange={(e) => onChange({ lastName: e.target.value })}
                             className={data.lastName.trim() ? inputClass : requiredInputClass}
@@ -113,9 +122,12 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                     </div>
 
                     <div className="col-span-2">
-                    <label className={labelClass}>{t("step1.companyLabel")}</label>
+                    <label htmlFor="rfq-companyName" className={labelClass}>{t("step1.companyLabel")}</label>
                     <input
+                        id="rfq-companyName"
+                        name="companyName"
                         type="text"
+                        autoComplete="organization"
                         value={data.companyName}
                         onChange={(e) => onChange({ companyName: e.target.value })}
                         className={inputClass}
@@ -123,9 +135,12 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                     </div>
 
                     <div className="col-span-2">
-                    <label className={requiredLabelClass}>{t("step1.countryLabel")}{requiredMark}</label>
+                    <label htmlFor="rfq-country" className={requiredLabelClass}>{t("step1.countryLabel")}{requiredMark}</label>
                     <div className="relative">
                         <select
+                            id="rfq-country"
+                            name="country"
+                            autoComplete="country-name"
                             value={data.country}
                             onChange={(e) => onChange({ country: e.target.value })}
                             className={`
