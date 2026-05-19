@@ -7,7 +7,7 @@
   "og": {
     "title": "HeatEx Direct - 中国换热器供应商信息",
     "description": "HeatEx Direct 是一项独立采购研究服务，帮助全球买家了解中国换热器制造商、产品能力和供应商资料。",
-    "image": "/static/websites/home-hero.png",
+    "image": "/static/websites/about-hero.png",
     "url": "{{url}}",
     "type": "website",
     "site_name": "{{site_name}}"

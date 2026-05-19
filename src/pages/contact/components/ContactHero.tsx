@@ -23,7 +23,7 @@ export function ContactHero() {
 
     return (
         <section className="relative isolate flex min-h-[380px] justify-center overflow-hidden bg-navbar px-2 py-10 text-navbar-foreground">
-            <div className="absolute inset-0 -z-20 bg-[url('/static/websites/home-hero.png')] bg-cover bg-center opacity-30" />
+            <div className="absolute inset-0 -z-20 bg-[url('/static/websites/contact-hero.png')] bg-cover bg-center opacity-30" />
             <div className="absolute inset-0 -z-10 bg-gradient-to-b from-navbar/92 via-navbar/86 to-navbar" />
 
             <div className="container z-10 flex max-w-6xl flex-col justify-start gap-5 px-4 pt-9">

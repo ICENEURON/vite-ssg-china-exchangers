@@ -184,7 +184,7 @@ export default function ProductsPage() {
                 <PageHero
                     title={productsT.t("hero.title")}
                     description={productsT.t("hero.description")}
-                    backgroundImageSrc="/static/websites/manufacturers-hero.png"
+                    backgroundImageSrc="/static/websites/product-hero.png"
                     backgroundImageAlt={t("ui.image.industrial_facility")}
                 />
 
