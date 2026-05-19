@@ -29,7 +29,7 @@ export default function HomePage() {
       "@type": "Organization",
       name: siteName || "HeatEx Direct",
       url: siteUrl,
-      logo: new URL("/static/websites/logo.png", siteUrl).href,
+      logo: new URL("/static/websites/logo_v1_light.png", siteUrl).href,
       description: t("pages.home.schema.organizationDescription"),
       areaServed: "Worldwide",
       knowsAbout: [

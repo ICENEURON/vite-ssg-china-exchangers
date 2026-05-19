@@ -21,7 +21,8 @@ import {
     NavigationMenuList,
 } from "../ui/navigation-menu";
 import { NavPopup, ListItem } from "./nav-popup";
-import logoLight from "../../assets/logos/logo_new.png";
+
+const logoSrc = "/static/websites/logo_v1_light.png";
 
 export function Navigation() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -196,7 +197,7 @@ export function Navigation() {
             <header className="fixed top-0 left-0 right-0 z-50 bg-navbar border-b border-border/20">
                 <div className="container mx-auto flex h-20 items-center px-4 md:px-6 max-w-8xl">
                     <Link to={getLocalizedPath("/")} className="mr-6 flex items-center">
-                        <img src={logoLight} alt={t('navigation.logo')} className="h-12 w-auto" />
+                        <img src={logoSrc} alt={t('navigation.logo')} className="h-[30px] w-[90px] object-contain opacity-90 transition-opacity duration-200 hover:opacity-100" />
                     </Link>
 
                     {/* Left Navigation (Desktop) */}

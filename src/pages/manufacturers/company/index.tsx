@@ -7,6 +7,7 @@ import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/
 import { useTranslation } from 'react-i18next'
 import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-routing'
 import { QuoteCta } from '../../../components/ui/quote-cta'
+import { BrandText } from '../../../components/ui/brand-text'
 import { RfqLink } from '../../../utils/rfq-routing/link'
 import countriesData from '../../../data/countries.json'
 
@@ -269,7 +270,9 @@ export default function ManufacturerProfilePage() {
 
                                 <div className="relative z-10 mb-6 space-y-3">
                                     <p className="text-lg font-bold leading-snug text-white">{t(`${SHARED_TK}.connect_description`)}</p>
-                                    <p className="text-sm leading-6 text-slate-300">{t(`${SHARED_TK}.connect_note`)}</p>
+                                    <p className="text-sm leading-6 text-slate-300">
+                                        <BrandText text={t(`${SHARED_TK}.connect_note`)} directClassName="text-orange-300" />
+                                    </p>
                                 </div>
 
                                 <QuoteCta size="lg" className="relative z-10 w-full h-14 text-lg" asChild>

@@ -1,5 +1,4 @@
 import { cn } from "../../utils/cn";
-import Logo from "../../assets/logos/logo_new.png";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 import {
@@ -20,7 +19,7 @@ const Footer = () => {
   }, []);
 
   const logo = {
-    src: Logo,
+    src: "/static/websites/logo_v1_light.png",
     alt: t("footer.logo.alt"),
     title: t("footer.logo.title"),
     url: addLanguageToPath("/", currentLanguage),
@@ -81,7 +80,7 @@ const Footer = () => {
                   src={logo.src}
                   alt={t("ui.image.logo_alt")}
                   title={logo.title}
-                  className="h-12 w-auto"
+                  className="h-[30px] w-[90px] object-contain opacity-90 transition-opacity duration-200 hover:opacity-100"
                 />
                 {/* <span className="text-xl font-bold text-navbar-foreground">
                   {logo.title}
