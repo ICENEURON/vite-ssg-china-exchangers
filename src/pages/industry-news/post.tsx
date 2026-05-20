@@ -2,7 +2,7 @@ import { posts } from '.velite'
 import { useParams, Link } from 'react-router-dom'
 import { FileQuestion, Clock, User, BookOpen, ArrowLeft } from 'lucide-react'
 import { Button } from '../../components/ui/button'
-import { Head } from 'vite-react-ssg'
+import { SeoHead } from '../../components/seo/SeoHead'
 import { useCurrentLanguage, addLanguageToPath } from '../../utils/language-routing'
 import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
@@ -11,7 +11,7 @@ import manufacturersData from '../../data/manufacturers.json';
 const manufacturerNameBySlug = new Map(
     (manufacturersData || []).map((manufacturer) => [manufacturer.slug, manufacturer.name])
 );
-function getCompanyName(slug, lang) {
+function getCompanyName(slug: string, lang: string) {
     const name = manufacturerNameBySlug.get(slug);
     if (!name) return slug;
     return lang === 'zh' ? name.zh : name.en;
@@ -20,7 +20,8 @@ function getCompanyName(slug, lang) {
 export default function BlogPost() {
     const { t } = useTranslation("translation");
     const location = useLocation();
-    const siteUrl = import.meta.env.VITE_SITE_URL;
+    const siteUrl = import.meta.env.VITE_SITE_URL || "https://heatexdirect.com";
+    const siteName = import.meta.env.VITE_SITE_TITLE || "HeatEx Direct";
     const currentUrl = new URL(location.pathname, siteUrl).href;
 
     const { contentType, slug } = useParams()
@@ -69,13 +70,14 @@ export default function BlogPost() {
 
     return (
         <section className="py-10 px-2 flex justify-center bg-background">
-            <Head>
-                <title>{post.metaTitle || post.title}</title>
-                <link rel="canonical" href={currentUrl} />
-                <meta name="title" content={post.metaTitle || post.title} />
-                <meta name="description" content={post.metaDescription || post.excerpt || post.title} />
-                {post.keywords && <meta name="keywords" content={post.keywords.join(', ')} />}
-            </Head>
+            <SeoHead
+                title={post.metaTitle || post.title}
+                description={post.metaDescription || post.excerpt || post.title}
+                keywords={post.keywords?.join(', ')}
+                canonicalUrl={currentUrl}
+                ogType="article"
+                siteName={siteName}
+            />
 
             <div className="container pt-16 px-4 max-w-6xl flex flex-col gap-8">
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">

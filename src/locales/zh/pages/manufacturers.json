@@ -10,11 +10,7 @@
   },
   "og": {
     "title": "已验证换热器制造商平台 | HeatEx Direct",
-    "description": "浏览经过资料核对的中国换热器制造商，并按行业快速查找合适供应商。",
-    "image": "/static/websites/home-hero.png",
-    "url": "{{url}}",
-    "type": "website",
-    "site_name": "{{site_name}}"
+    "description": "浏览经过资料核对的中国换热器制造商，并按行业快速查找合适供应商。"
   },
   "hero": {
     "title": "中国换热器制造商",

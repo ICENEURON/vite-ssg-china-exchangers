@@ -1,13 +1,17 @@
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { useLocation, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import { Head } from 'vite-react-ssg'
+import { SeoHead } from "../../components/seo/SeoHead"
 import { Button } from "../../components/ui/button"
 import { getSupabaseClient } from "../../lib/supabase/client"
 
 export default function SignUpPage() {
   const { t } = useTranslation('translation')
   const nav = useNavigate()
+  const location = useLocation()
+  const siteUrl = import.meta.env.VITE_SITE_URL || "https://heatexdirect.com"
+  const siteName = import.meta.env.VITE_SITE_TITLE || "HeatEx Direct"
+  const currentUrl = new URL(location.pathname, siteUrl).href
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [confirmPassword, setConfirmPassword] = useState("")
@@ -48,13 +52,15 @@ export default function SignUpPage() {
 
   return (
     <>
-      <Head>
-        <title>{t('pages.register.title')}</title>
-        <meta name="description" content={t('pages.register.meta.description')} />
-        <meta name="keywords" content={t('pages.register.meta.keywords')} />
-        <meta property="og:title" content={t('pages.register.og.title')} />
-        <meta property="og:description" content={t('pages.register.og.description')} />
-      </Head>
+      <SeoHead
+        title={t('pages.register.title')}
+        description={t('pages.register.meta.description')}
+        keywords={t('pages.register.meta.keywords')}
+        canonicalUrl={currentUrl}
+        ogTitle={t('pages.register.og.title')}
+        ogDescription={t('pages.register.og.description')}
+        siteName={siteName}
+      />
 
       <div className="min-h-[60vh] flex items-center justify-center">
         <div className="w-full max-w-5xl space-y-8">

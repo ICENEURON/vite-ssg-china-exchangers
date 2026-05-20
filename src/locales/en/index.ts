@@ -6,7 +6,7 @@ import home from './pages/home.json';
 import manufacturers from './pages/manufacturers.json';
 import manufacturersList from './pages/manufacturers/list.json';
 import rfq from './pages/rfq.json';
-import profile from './pages/claim-your-profile.json';
+import profile from './pages/update-your-profile.json';
 import cms from './pages/content-marketing-services.json';
 import about from './pages/about.json';
 import news from './pages/industry-news.json';

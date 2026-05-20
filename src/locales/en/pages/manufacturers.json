@@ -10,11 +10,7 @@
   },
   "og": {
     "title": "Verified Heat Exchanger Manufacturers | HeatEx Direct",
-    "description": "Browse reviewed Chinese heat exchanger manufacturers and quickly narrow suppliers by industry.",
-    "image": "/static/websites/home-hero.png",
-    "url": "{{url}}",
-    "type": "website",
-    "site_name": "{{site_name}}"
+    "description": "Browse reviewed Chinese heat exchanger manufacturers and quickly narrow suppliers by industry."
   },
   "hero": {
     "title": "Chinese Heat Exchanger Manufacturers",

@@ -82,7 +82,6 @@ src/utils/                   Routing, theme, language, class helpers
 | `/products/:manufacturerSlug/:productSlug` | Product profile, generated from product list JSON. |
 | `/rfq` | Smart RFQ builder. |
 | `/update-your-profile` | Manufacturer profile update page. |
-| `/claim-your-profile` | Legacy redirect to `/update-your-profile`. |
 | `/content-marketing-services` | Supplier content marketing page. |
 | `/about`, `/contact`, `/terms`, `/privacy` | Static public pages. |
 | `/industry-news`, `/industry-news/:contentType/:slug` | Industry article routes when `VITE_ENABLE_BLOG=true`; company folders are not exposed in public URLs. |
@@ -242,7 +241,6 @@ src/utils/                   路由、主题、语言、class 工具
 | `/products/:manufacturerSlug/:productSlug` | 产品详情页，从产品 list JSON 生成。 |
 | `/rfq` | 智能 RFQ 表单。 |
 | `/update-your-profile` | 制造商资料更新页。 |
-| `/claim-your-profile` | 旧路径，重定向到 `/update-your-profile`。 |
 | `/content-marketing-services` | 供应商内容营销页。 |
 | `/about`, `/contact`, `/terms`, `/privacy` | 静态公开页面。 |
 | `/industry-news`, `/industry-news/:contentType/:slug` | `VITE_ENABLE_BLOG=true` 时启用的行业文章路由；公司文件夹不显示在公开 URL 中。 |

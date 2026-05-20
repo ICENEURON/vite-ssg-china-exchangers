@@ -96,7 +96,7 @@ The detailed technical map is in `doc/project-structure.md`.
 
 The route source is `src/routes/config/index.ts`. English uses root paths; Chinese routes use the `/zh` prefix.
 
-Public routes include `/`, `/manufacturers`, `/manufacturers/:slug`, `/products`, `/products/:manufacturerSlug/:productSlug`, `/rfq`, `/update-your-profile`, `/content-marketing-services`, `/about`, `/contact`, `/terms`, and `/privacy`. The legacy `/claim-your-profile` route redirects to `/update-your-profile`.
+Public routes include `/`, `/manufacturers`, `/manufacturers/:slug`, `/products`, `/products/:manufacturerSlug/:productSlug`, `/rfq`, `/update-your-profile`, `/content-marketing-services`, `/about`, `/contact`, `/terms`, and `/privacy`.
 
 `/industry-news` and `/industry-news/:contentType/:slug` are included only when `VITE_ENABLE_BLOG=true`. `/login`, `/register`, and `/dashboard` are active only when `VITE_ENABLE_AUTH=true`.
 
@@ -238,7 +238,7 @@ supabase_importer/              本地 JSON/资产导入 Supabase 的工作流
 
 路由源是 `src/routes/config/index.ts`。英文使用根路径，中文使用 `/zh` 前缀。
 
-公开路由包括 `/`、`/manufacturers`、`/manufacturers/:slug`、`/products`、`/products/:manufacturerSlug/:productSlug`、`/rfq`、`/update-your-profile`、`/content-marketing-services`、`/about`、`/contact`、`/terms`、`/privacy`。旧的 `/claim-your-profile` 会重定向到 `/update-your-profile`。
+公开路由包括 `/`、`/manufacturers`、`/manufacturers/:slug`、`/products`、`/products/:manufacturerSlug/:productSlug`、`/rfq`、`/update-your-profile`、`/content-marketing-services`、`/about`、`/contact`、`/terms`、`/privacy`。
 
 `/industry-news` 和 `/industry-news/:contentType/:slug` 只有在 `VITE_ENABLE_BLOG=true` 时启用。`/login`、`/register`、`/dashboard` 只有在 `VITE_ENABLE_AUTH=true` 时启用。
 

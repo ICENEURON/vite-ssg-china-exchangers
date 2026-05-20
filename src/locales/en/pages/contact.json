@@ -6,11 +6,7 @@
   },
   "og": {
     "title": "Contact HeatEx Direct",
-    "description": "Contact HeatEx Direct about heat exchanger sourcing, manufacturer profiles, product pages, content partnerships, or supplier information corrections.",
-    "image": "/static/websites/contact-hero.png",
-    "url": "{{url}}",
-    "type": "website",
-    "site_name": "{{site_name}}"
+    "description": "Contact HeatEx Direct about heat exchanger sourcing, manufacturer profiles, product pages, content partnerships, or supplier information corrections."
   },
   "hero": {
     "title_prefix": "Contact ",

@@ -6,17 +6,11 @@
   },
   "og": {
     "title": "HeatEx Direct - Chinese Heat Exchanger Manufacturer Research",
-    "description": "Research structured manufacturer profiles, compare industrial heat exchanger product capabilities, read technical articles, and submit verified-email quote requests.",
-    "image": "/static/websites/home-hero.png",
-    "url": "{{url}}",
-    "type": "website",
-    "site_name": "{{site_name}}"
+    "description": "Research structured manufacturer profiles, compare industrial heat exchanger product capabilities, read technical articles, and submit verified-email quote requests."
   },
   "schema": {
     "organizationDescription": "HeatEx Direct is an independent international sourcing research service focused on Chinese heat exchanger manufacturers. It helps global industrial buyers compare product capabilities, review supplier evidence, read technical sourcing content, and submit verified-email quote requests.",
-    "websiteDescription": "A bilingual sourcing research service for global buyers comparing Chinese heat exchanger manufacturers, industrial heat exchanger products, supplier evidence, technical sourcing content, and structured quote request submission.",
-    "categoryListName": "HeatEx Direct heat exchanger product category links",
-    "highlightedArticlesListName": "HeatEx Direct featured company news and technical articles"
+    "websiteDescription": "A bilingual sourcing research service for global buyers comparing Chinese heat exchanger manufacturers, industrial heat exchanger products, supplier evidence, technical sourcing content, and structured quote request submission."
   },
   "hero": {
     "eyebrow": "Chinese heat exchanger manufacturer platform",
@@ -40,7 +34,7 @@
     "description": "Explore structured profiles covering company background, product scope, application industries, export markets, factory evidence, and available technical information.",
     "cta": "Browse All Manufacturers"
   },
- "categoryShowcase": {
+  "categoryShowcase": {
     "eyebrow": "Explore Heat Exchanger Products",
     "title": "Start with the equipment type your project needs",
     "secondaryCta": "Explore Products",
@@ -72,7 +66,7 @@
       "industries": "Industrial application sectors"
     }
   },
- "industryNews": {
+  "industryNews": {
     "eyebrow": "Industry News",
     "title": "Read company updates and technical articles from the heat exchanger industry",
     "pillars": [

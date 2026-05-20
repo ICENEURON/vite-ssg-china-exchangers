@@ -1,6 +1,4 @@
 import type { ComponentType } from "react"
-import { createElement } from "react"
-import { Navigate, useLocation } from "react-router-dom"
 
 import HomePage from "../../pages/home"
 
@@ -13,7 +11,7 @@ import ProductProfilePage from "../../pages/products/product"
 import FaqPage from "../../pages/rfq"
 
 import AboutPage from "../../pages/about"
-import DocsPage from "../../pages/claim-your-profile"
+import DocsPage from "../../pages/update-your-profile"
 import ContentMarketingServicesPage from "../../pages/content-marketing-services"
 
 import LoginPage from "../../pages/login"
@@ -27,7 +25,6 @@ import NotFoundPage from "../../pages/404"
 import BlogIndex from "../../pages/industry-news"
 import BlogPost from "../../pages/industry-news/post"
 import ContactPage from "../../pages/contact"
-import { addLanguageToPath, getLanguageFromPath } from "../../utils/language-routing"
 
 // import ComponentsPage from "../../pages/components"
 
@@ -45,22 +42,6 @@ export type RouteDef = {
     translationKey?: string
 }
 
-function LegacyProfileRedirect() {
-    const location = useLocation()
-    const language = getLanguageFromPath(location.pathname)
-    const targetPath = addLanguageToPath("/update-your-profile", language)
-
-    return createElement(Navigate, {
-        to: {
-            pathname: targetPath,
-            search: location.search,
-            hash: location.hash,
-        },
-        replace: true,
-    })
-}
-
-
 const blogEnvValue = import.meta.env.VITE_ENABLE_BLOG;
 const enableBlog = blogEnvValue === "true";
 
@@ -76,7 +57,6 @@ const allRoutes: RouteDef[] = [
     { path: "/quote-request", element: FaqPage, auth: "public", nav: "none", mobile: "public", label: "Get Quote", translationKey: "navigation.menu.rfq" },
 
     { path: "/update-your-profile", element: DocsPage, auth: "public", nav: "public", mobile: "public", label: "Update Your Profile", translationKey: "navigation.menu.profile" },
-    { path: "/claim-your-profile", element: LegacyProfileRedirect, auth: "public", nav: "none", mobile: "none", label: "Legacy Profile Redirect" },
 
     { path: "/content-marketing-services", element: ContentMarketingServicesPage, auth: "public", nav: "none", mobile: "public", label: "Submit Articles", translationKey: "navigation.menu.content_marketing_services" },
 

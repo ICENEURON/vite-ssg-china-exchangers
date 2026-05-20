@@ -1,5 +1,6 @@
-import { Head } from 'vite-react-ssg'
+import { useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { SeoHead } from '../../components/seo/SeoHead'
 
 type LegalSection = {
   title: string
@@ -12,17 +13,23 @@ function getLegalTitle(title: string) {
 
 export default function PrivacyPage() {
   const { t } = useTranslation('translation')
+  const location = useLocation()
+  const siteUrl = import.meta.env.VITE_SITE_URL || "https://heatexdirect.com"
+  const siteName = import.meta.env.VITE_SITE_TITLE || "HeatEx Direct"
+  const currentUrl = new URL(location.pathname, siteUrl).href
   const sections = Object.values(
     t('pages.privacy.sections', { returnObjects: true }) as Record<string, LegalSection>
   )
 
   return (
     <>
-      <Head>
-        <title>{t('pages.privacy.title')}</title>
-        <meta name="description" content={t('pages.privacy.meta.description')} />
-        <meta name="keywords" content={t('pages.privacy.meta.keywords')} />
-      </Head>
+      <SeoHead
+        title={t('pages.privacy.title')}
+        description={t('pages.privacy.meta.description')}
+        keywords={t('pages.privacy.meta.keywords')}
+        canonicalUrl={currentUrl}
+        siteName={siteName}
+      />
 
       <main className="min-h-screen w-full flex flex-col items-center bg-white px-4 py-16">
         <article className="w-full max-w-4xl">

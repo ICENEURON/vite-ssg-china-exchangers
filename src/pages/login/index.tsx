@@ -1,7 +1,7 @@
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { useLocation, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import { Head } from 'vite-react-ssg'
+import { SeoHead } from "../../components/seo/SeoHead"
 import { Button } from "../../components/ui/button"
 import { useAuth } from "../../context/auth"
 import { useCurrentLanguage } from "../../utils/language-routing"
@@ -11,7 +11,11 @@ export default function LoginPage() {
   const { t } = useTranslation('translation')
   const { signIn } = useAuth()
   const nav = useNavigate()
+  const location = useLocation()
   const currentLanguage = useCurrentLanguage()
+  const siteUrl = import.meta.env.VITE_SITE_URL || "https://heatexdirect.com"
+  const siteName = import.meta.env.VITE_SITE_TITLE || "HeatEx Direct"
+  const currentUrl = new URL(location.pathname, siteUrl).href
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [loading, setLoading] = useState(false)
@@ -34,13 +38,15 @@ export default function LoginPage() {
 
   return (
     <>
-      <Head>
-        <title>{t('pages.login.title')}</title>
-        <meta name="description" content={t('pages.login.meta.description')} />
-        <meta name="keywords" content={t('pages.login.meta.keywords')} />
-        <meta property="og:title" content={t('pages.login.og.title')} />
-        <meta property="og:description" content={t('pages.login.og.description')} />
-      </Head>
+      <SeoHead
+        title={t('pages.login.title')}
+        description={t('pages.login.meta.description')}
+        keywords={t('pages.login.meta.keywords')}
+        canonicalUrl={currentUrl}
+        ogTitle={t('pages.login.og.title')}
+        ogDescription={t('pages.login.og.description')}
+        siteName={siteName}
+      />
 
       <div className="min-h-[60vh] flex items-center justify-center">
         <div className="w-full max-w-5xl space-y-8">

@@ -1,6 +1,6 @@
 
-import { Head } from 'vite-react-ssg'
 import { Link, useLocation, useParams, Navigate } from "react-router-dom"
+import { SeoHead } from '../../../components/seo/SeoHead'
 import { BadgeCheck, Factory, ArrowLeft, ArrowRight, MapPin, ShieldCheck, Award, Users, Globe2, Package, Sparkles, Flame, Gauge, Mail, Phone, Linkedin, Youtube, ExternalLink, Download, FileText } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
@@ -200,16 +200,20 @@ export default function ManufacturerProfilePage() {
         youtube: Youtube,
     };
 
-    const siteUrl = import.meta.env.VITE_SITE_URL || 'http://localhost';
+    const siteUrl = import.meta.env.VITE_SITE_URL || 'https://heatexdirect.com';
+    const siteName = import.meta.env.VITE_SITE_TITLE || 'HeatEx Direct';
     const currentUrl = new URL(location.pathname, siteUrl).href;
+    const metaTitle = mfgData.seo_data?.meta_title || `${basicInfo?.name || t(`${SHARED_TK}.page_title`)}`;
+    const metaDescription = mfgData.seo_data?.meta_description || (Array.isArray(description) ? description.join(' ') : description)?.substring(0, 160) || t(`${SHARED_TK}.meta_description_default`);
 
     return (
         <>
-            <Head>
-                <title>{mfgData.seo_data?.meta_title || `${basicInfo?.name || t(`${SHARED_TK}.page_title`)}`}</title>
-                <meta name="description" content={mfgData.seo_data?.meta_description || (Array.isArray(description) ? description.join(' ') : description)?.substring(0, 160) || t(`${SHARED_TK}.meta_description_default`)} />
-                <link rel="canonical" href={currentUrl} />
-            </Head>
+            <SeoHead
+                title={metaTitle}
+                description={metaDescription}
+                canonicalUrl={currentUrl}
+                siteName={siteName}
+            />
 
             <main className="min-h-screen w-full max-w-full bg-slate-50/50 text-foreground animate-in fade-in duration-500">
 

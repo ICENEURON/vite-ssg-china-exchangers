@@ -1,21 +1,28 @@
 import { useTranslation } from "react-i18next"
-import { Head } from 'vite-react-ssg'
+import { useLocation } from "react-router-dom"
+import { SeoHead } from "../../components/seo/SeoHead"
 import { Button } from "../../components/ui/button"
 import { useAuth } from "../../context/auth"
 
 export default function DashboardPage() {
   const { t } = useTranslation('translation')
   const { user, signOut } = useAuth()
+  const location = useLocation()
+  const siteUrl = import.meta.env.VITE_SITE_URL || "https://heatexdirect.com"
+  const siteName = import.meta.env.VITE_SITE_TITLE || "HeatEx Direct"
+  const currentUrl = new URL(location.pathname, siteUrl).href
 
   return (
     <>
-      <Head>
-        <title>{t('pages.dashboard.title')}</title>
-        <meta name="description" content={t('pages.dashboard.meta.description')} />
-        <meta name="keywords" content={t('pages.dashboard.meta.keywords')} />
-        <meta property="og:title" content={t('pages.dashboard.og.title')} />
-        <meta property="og:description" content={t('pages.dashboard.og.description')} />
-      </Head>
+      <SeoHead
+        title={t('pages.dashboard.title')}
+        description={t('pages.dashboard.meta.description')}
+        keywords={t('pages.dashboard.meta.keywords')}
+        canonicalUrl={currentUrl}
+        ogTitle={t('pages.dashboard.og.title')}
+        ogDescription={t('pages.dashboard.og.description')}
+        siteName={siteName}
+      />
 
       <div className="space-y-8">
         {/* Welcome Section */}

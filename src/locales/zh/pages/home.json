@@ -6,17 +6,11 @@
   },
   "og": {
     "title": "HeatEx Direct - 中国换热器制造商研究",
-    "description": "研究结构化制造商资料，比较工业换热器产品能力，阅读技术文章，并提交经过邮箱验证的报价请求。",
-    "image": "/static/websites/home-hero.png",
-    "url": "{{url}}",
-    "type": "website",
-    "site_name": "{{site_name}}"
+    "description": "研究结构化制造商资料，比较工业换热器产品能力，阅读技术文章，并提交经过邮箱验证的报价请求。"
   },
   "schema": {
     "organizationDescription": "HeatEx Direct 是一项专注中国换热器制造商的独立国际采购研究服务，帮助全球工业买家比较产品能力、查看供应商证据、阅读技术采购内容，并提交经过邮箱验证的报价请求。",
-    "websiteDescription": "面向全球买家的中英双语采购研究服务，用于比较中国换热器制造商、工业换热器产品、供应商证据、技术采购内容和结构化报价请求提交。",
-    "categoryListName": "HeatEx Direct 换热器产品类别链接",
-    "highlightedArticlesListName": "HeatEx Direct 精选公司新闻与技术文章"
+    "websiteDescription": "面向全球买家的中英双语采购研究服务，用于比较中国换热器制造商、工业换热器产品、供应商证据、技术采购内容和结构化报价请求提交。"
   },
   "hero": {
     "eyebrow": "中国换热器制造商平台",

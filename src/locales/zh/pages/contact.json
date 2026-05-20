@@ -6,11 +6,7 @@
   },
   "og": {
     "title": "联系 HeatEx Direct",
-    "description": "关于换热器采购、厂家资料、产品页面、内容合作或信息纠错，请联系 HeatEx Direct 团队。",
-    "image": "/static/websites/contact-hero.png",
-    "url": "{{url}}",
-    "type": "website",
-    "site_name": "{{site_name}}"
+    "description": "关于换热器采购、厂家资料、产品页面、内容合作或信息纠错，请联系 HeatEx Direct 团队。"
   },
   "hero": {
     "title_prefix": "联系 ",

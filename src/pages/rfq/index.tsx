@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
-import { Head } from 'vite-react-ssg'
-import { useSearchParams } from "react-router-dom"
+import { useLocation, useSearchParams } from "react-router-dom"
+import { SeoHead } from '../../components/seo/SeoHead'
 import { Button } from "../../components/ui/button"
 import { ArrowLeft, ArrowRight, Check } from "lucide-react"
 import { ProgressTracker } from "./components/ProgressTracker"
@@ -96,7 +96,11 @@ function getSourceManufacturerSlug(sourceUrl: string | null) {
 export default function SmartRfqBuilder() {
   const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
   const currentLanguage = useCurrentLanguage();
+  const location = useLocation();
   const [searchParams] = useSearchParams();
+  const siteUrl = import.meta.env.VITE_SITE_URL || "https://heatexdirect.com";
+  const siteName = import.meta.env.VITE_SITE_TITLE || "HeatEx Direct";
+  const currentUrl = new URL(location.pathname, siteUrl).href;
 
   const sourceUrl = normalizeRfqSourcePath(searchParams.get("source_url"))
     || normalizeRfqSourcePath(typeof window !== "undefined" ? window.sessionStorage.getItem(QUOTE_REQUEST_SOURCE_URL_STORAGE_KEY) : null);
@@ -411,10 +415,15 @@ export default function SmartRfqBuilder() {
 
   return (
     <>
-      <Head>
-        <title>{t("title")}</title>
-        <meta name="description" content={t("description")} />
-      </Head>
+      <SeoHead
+        title={t("title")}
+        description={t("description")}
+        keywords={t("meta.keywords", { defaultValue: "" })}
+        canonicalUrl={currentUrl}
+        ogTitle={t("og.title", { defaultValue: t("title") })}
+        ogDescription={t("og.description", { defaultValue: t("description") })}
+        siteName={siteName}
+      />
 
       <main className="min-h-[80vh] bg-slate-50 text-foreground pb-24">
         {/* Top Navigation Bar */}

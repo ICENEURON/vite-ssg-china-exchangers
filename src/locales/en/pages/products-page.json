@@ -30,5 +30,13 @@
     "document_downloads": "Document Downloads",
     "download": "Download"
   },
-  "categories": {}
+  "categories": {},
+  "meta": {
+    "description": "Browse industrial heat exchanger product profiles covering Chinese manufacturers, and filter by manufacturer and industry to compare plate, welded plate, shell and tube, air cooler, and heat exchange unit products.",
+    "keywords": "industrial heat exchanger products, plate heat exchanger products, welded plate heat exchanger, shell and tube heat exchanger, air cooled heat exchanger, China heat exchanger manufacturers"
+  },
+  "og": {
+    "title": "Industrial Heat Exchangers",
+    "description": "Browse industrial heat exchanger product profiles covering Chinese manufacturers, and filter by manufacturer and industry to compare plate, welded plate, shell and tube, air cooler, and heat exchange unit products."
+  }
 }

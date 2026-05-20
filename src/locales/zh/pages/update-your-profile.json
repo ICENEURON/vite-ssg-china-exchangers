@@ -6,11 +6,7 @@
   },
   "og": {
     "title": "更新制造商资料 - HeatEx Direct",
-    "description": "通过邮件提交厂家信息、产品资料、图片文件和纠错内容，由 HeatEx Direct 审核后更新页面。",
-    "image": "/static/websites/home-hero.png",
-    "url": "{{url}}",
-    "type": "website",
-    "site_name": "{{site_name}}"
+    "description": "通过邮件提交厂家信息、产品资料、图片文件和纠错内容，由 HeatEx Direct 审核后更新页面。"
   },
   "hero": {
     "title": "更新您的制造商资料",

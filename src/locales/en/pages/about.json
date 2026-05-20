@@ -6,11 +6,7 @@
   },
   "og": {
     "title": "HeatEx Direct - Chinese Heat Exchanger Supplier Information",
-    "description": "HeatEx Direct is an independent sourcing research service helping global buyers understand Chinese heat exchanger manufacturers, product capabilities, and supplier profiles.",
-    "image": "/static/websites/about-hero.png",
-    "url": "{{url}}",
-    "type": "website",
-    "site_name": "{{site_name}}"
+    "description": "HeatEx Direct is an independent sourcing research service helping global buyers understand Chinese heat exchanger manufacturers, product capabilities, and supplier profiles."
   },
   "hero": {
     "title": "An Independent Platform for Chinese Heat Exchanger Manufacturer Information",

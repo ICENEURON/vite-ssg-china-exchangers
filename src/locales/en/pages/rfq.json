@@ -421,5 +421,12 @@
   "actions": {
     "back": "Back",
     "continue": "Continue"
+  },
+  "meta": {
+    "keywords": "heat exchanger quote request, heat exchanger RFQ, plate heat exchanger quotation, industrial heat exchanger specifications, heat exchanger manufacturer quote"
+  },
+  "og": {
+    "title": "Smart Quote Request Builder - Get Custom Heat Exchanger Quotes",
+    "description": "Build a professional quote request in minutes. Anonymous mode available. Get quotes from verified manufacturers."
   }
 }

@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react'
-import { Head } from 'vite-react-ssg'
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { SeoHead } from '../../components/seo/SeoHead'
 import { useCurrentLanguage, addLanguageToPath } from "../../utils/language-routing";
 import { FilterDropdown } from "../../components/ui/filter-dropdown";
 import { ArrowRight, Filter, ChevronDown, X, Check, Factory, Mail } from "lucide-react";
@@ -60,6 +60,10 @@ export default function ProductsPage() {
     const { t } = useTranslation();
     const productsT = useTranslation("translation", { keyPrefix: "pages.products" });
     const currentLanguage = useCurrentLanguage();
+    const location = useLocation();
+    const siteUrl = import.meta.env.VITE_SITE_URL || "https://heatexdirect.com";
+    const siteName = import.meta.env.VITE_SITE_TITLE || "HeatEx Direct";
+    const currentUrl = new URL(location.pathname, siteUrl).href;
 
     // Safely parse the products from translation JSON list
     const productsList = productsT.t("list", { returnObjects: true }) as ProductListItem[];
@@ -175,10 +179,15 @@ export default function ProductsPage() {
 
     return (
         <>
-            <Head>
-                <title>{productsT.t("title")}</title>
-                <meta name="description" content={productsT.t("description")} />
-            </Head>
+            <SeoHead
+                title={productsT.t("title")}
+                description={productsT.t("meta.description", { defaultValue: productsT.t("description") })}
+                keywords={productsT.t("meta.keywords", { defaultValue: "" })}
+                canonicalUrl={currentUrl}
+                ogTitle={productsT.t("og.title", { defaultValue: productsT.t("title") })}
+                ogDescription={productsT.t("og.description", { defaultValue: productsT.t("description") })}
+                siteName={siteName}
+            />
 
             <main className="min-h-screen bg-background pb-20">
                 <PageHero

@@ -1,8 +1,8 @@
 
 import { useState, useMemo } from 'react'
-import { Head } from 'vite-react-ssg'
 import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { SeoHead } from '../../components/seo/SeoHead'
 import { ChevronDown, X, Check, Filter } from 'lucide-react';
 import { FilterDropdown } from "../../components/ui/filter-dropdown"
 import { ManufacturerCard } from "./components/ManufacturerCard"
@@ -54,8 +54,8 @@ export default function ManufacturersPage() {
   const manufacturersT = useTranslation("translation", { keyPrefix: "pages.manufacturers" });
   const location = useLocation();
   const currentLanguage = useCurrentLanguage();
-  const siteUrl = import.meta.env.VITE_SITE_URL;
-  const siteName = import.meta.env.VITE_SITE_TITLE;
+  const siteUrl = import.meta.env.VITE_SITE_URL || "https://heatexdirect.com";
+  const siteName = import.meta.env.VITE_SITE_TITLE || "HeatEx Direct";
   const currentUrl = new URL(location.pathname, siteUrl).href;
 
   const industries = t("industries", { returnObjects: true }) as Industry[];
@@ -126,19 +126,15 @@ export default function ManufacturersPage() {
 
   return (
     <>
-      <Head>
-        <title>{manufacturersT.t("title")}</title>
-        <link rel="canonical" href={currentUrl} />
-        <meta name="title" content={manufacturersT.t("title")} />
-        <meta name="description" content={manufacturersT.t("meta.description")} />
-        <meta name="keywords" content={manufacturersT.t("meta.keywords")} />
-        <meta property="og:title" content={manufacturersT.t("og.title")} />
-        <meta property="og:description" content={manufacturersT.t("og.description")} />
-        <meta property="og:image" content={manufacturersT.t("og.image")} />
-        <meta property="og:url" content={manufacturersT.t("og.url", { url: currentUrl })} />
-        <meta property="og:type" content={manufacturersT.t("og.type")} />
-        <meta property="og:site_name" content={manufacturersT.t("og.site_name", { site_name: siteName })} />
-      </Head>
+      <SeoHead
+        title={manufacturersT.t("title")}
+        description={manufacturersT.t("meta.description")}
+        keywords={manufacturersT.t("meta.keywords")}
+        canonicalUrl={currentUrl}
+        ogTitle={manufacturersT.t("og.title")}
+        ogDescription={manufacturersT.t("og.description")}
+        siteName={siteName}
+      />
 
       <main className="min-h-screen bg-background">
 

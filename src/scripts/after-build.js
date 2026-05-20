@@ -49,7 +49,31 @@ function readText(filePath) {
 }
 
 function writeText(filePath, content) {
-  fs.writeFileSync(filePath, content, 'utf8');
+  const maxAttempts = 5;
+
+  if (fs.existsSync(filePath) && readText(filePath) === content) {
+    return;
+  }
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    const tempPath = `${filePath}.${process.pid}.${attempt}.tmp`;
+
+    try {
+      fs.writeFileSync(tempPath, content, 'utf8');
+      fs.renameSync(tempPath, filePath);
+      return;
+    } catch (error) {
+      if (fs.existsSync(tempPath)) {
+        fs.rmSync(tempPath, { force: true });
+      }
+
+      if (attempt === maxAttempts) {
+        throw error;
+      }
+
+      Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 100 * attempt);
+    }
+  }
 }
 
 function renderTemplate(content) {
@@ -151,6 +175,28 @@ function buildBreadcrumbList(items) {
   };
 }
 
+function firstText(value) {
+  if (Array.isArray(value)) {
+    return value.find((item) => typeof item === 'string' && item.trim()) || value.join(' ');
+  }
+
+  return value;
+}
+
+function truncateText(value, maxLength = 320) {
+  if (!value || typeof value !== 'string') {
+    return undefined;
+  }
+
+  const normalized = value.replace(/\s+/g, ' ').trim();
+
+  if (normalized.length <= maxLength) {
+    return normalized;
+  }
+
+  return `${normalized.slice(0, maxLength - 3).trim()}...`;
+}
+
 function resolveExportMarkets(exportMarkets) {
   return (exportMarkets || [])
     .map((code) => countriesByCode.get(code)?.name || code)
@@ -166,9 +212,9 @@ function buildManufacturerSchemas(route, manufacturerSlug) {
     return [];
   }
 
-  const description = Array.isArray(manufacturer.full_description)
-    ? manufacturer.full_description.join(' ')
-    : manufacturer.full_description;
+  const description = truncateText(
+    manufacturer.seo_data?.meta_description || firstText(manufacturer.full_description),
+  );
   const sameAs = [manufacturer.website, ...(manufacturer.social_media_links || []).filter((link) => link.is_visible !== false).map((link) => link.url)]
     .filter(Boolean);
   const contactPoints = [];
@@ -234,9 +280,9 @@ function buildProductSchemas(route, manufacturerSlug, productSlug) {
     return [];
   }
 
-  const description = Array.isArray(product.full_description)
-    ? product.full_description.join(' ')
-    : product.full_description;
+  const description = truncateText(
+    product.seo_data?.meta_description || product.short_description || firstText(product.full_description),
+  );
   const brandName = manufacturer?.name || manufacturerSlug;
   const technicalParameters = product.technical_parameters || {};
 
@@ -387,21 +433,28 @@ function normalizeCriticalHeadMeta(html) {
   );
 }
 
-function syncNotFoundPage() {
-  const notFoundPath = path.join(distDir, '404.html');
+function syncNotFoundPages() {
+  const notFoundPaths = [
+    path.join(distDir, '404.html'),
+    ...supportedLanguages
+      .filter((language) => language !== 'en')
+      .map((language) => path.join(distDir, language, '404.html')),
+  ].filter((filePath) => fs.existsSync(filePath));
 
-  if (!fs.existsSync(notFoundPath)) {
-    throw new Error(`404 page was not generated: ${notFoundPath}`);
+  if (notFoundPaths.length === 0) {
+    throw new Error(`404 page was not generated: ${path.join(distDir, '404.html')}`);
   }
 
-  const html = readText(notFoundPath);
-  const updatedHtml = ensureNoindexMeta(normalizeCriticalHeadMeta(html));
+  notFoundPaths.forEach((notFoundPath) => {
+    const html = readText(notFoundPath);
+    const updatedHtml = ensureNoindexMeta(normalizeCriticalHeadMeta(html));
 
-  if (updatedHtml !== html) {
-    writeText(notFoundPath, updatedHtml);
-  }
+    if (updatedHtml !== html) {
+      writeText(notFoundPath, updatedHtml);
+    }
+  });
 
-  console.log('Synced custom 404 page.');
+  console.log(`Synced ${notFoundPaths.length} custom 404 pages.`);
 }
 
 function writeRobotsTxt() {
@@ -483,8 +536,8 @@ function getPriority(route) {
   if (route.startsWith('/products/') || route.startsWith('/zh/products/')) return '0.8';
   if (route === '/industry-news' || route === '/zh/industry-news') return '0.7';
   if (route.startsWith('/industry-news/') || route.startsWith('/zh/industry-news/')) return '0.7';
-  if (route === '/about' || route === '/contact' || route === '/update-your-profile' || route === '/claim-your-profile') return '0.7';
-  if (route === '/zh/about' || route === '/zh/contact' || route === '/zh/update-your-profile' || route === '/zh/claim-your-profile') return '0.7';
+  if (route === '/about' || route === '/contact' || route === '/update-your-profile') return '0.7';
+  if (route === '/zh/about' || route === '/zh/contact' || route === '/zh/update-your-profile') return '0.7';
   if (route === '/terms' || route === '/privacy' || route === '/zh/terms' || route === '/zh/privacy') return '0.3';
   return '0.6';
 }
@@ -523,11 +576,11 @@ function buildSitemap() {
     throw new Error(`Dist directory not found: ${distDir}`);
   }
 
-  const routes = walkHtmlFiles(distDir)
+  const allRoutes = walkHtmlFiles(distDir)
     .map((filePath) => {
       const route = toRoute(filePath);
 
-      if (!route || !shouldIncludeInSitemap(route)) {
+      if (!route) {
         return null;
       }
 
@@ -542,21 +595,22 @@ function buildSitemap() {
     .filter(Boolean)
     .sort((a, b) => a.route.localeCompare(b.route));
 
-  const routeSet = new Set(routes.map(({ route }) => route));
+  const sitemapRoutes = allRoutes.filter(({ route }) => shouldIncludeInSitemap(route));
+  const routeSet = new Set(sitemapRoutes.map(({ route }) => route));
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${routes.map(({ route, lastmod }) => `  <url>\n    <loc>${escapeXml(`${siteUrl}${route}`)}</loc>${buildAlternateLinks(route, routeSet)}\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>${getChangefreq(route)}</changefreq>\n    <priority>${getPriority(route)}</priority>\n  </url>`).join('\n')}\n</urlset>\n`;
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${sitemapRoutes.map(({ route, lastmod }) => `  <url>\n    <loc>${escapeXml(`${siteUrl}${route}`)}</loc>${buildAlternateLinks(route, routeSet)}\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>${getChangefreq(route)}</changefreq>\n    <priority>${getPriority(route)}</priority>\n  </url>`).join('\n')}\n</urlset>\n`;
 
   outputPaths.forEach((outputPath) => {
     writeText(outputPath, xml);
   });
 
   copyDeploymentFiles();
-  injectStructuredData(routes);
-  syncNoindexMeta(routes);
-  syncCriticalHeadMeta(routes);
-  syncNotFoundPage();
+  injectStructuredData(allRoutes);
+  syncNoindexMeta(allRoutes);
+  syncCriticalHeadMeta(allRoutes);
+  syncNotFoundPages();
 
-  console.log(`Generated sitemap with ${routes.length} URLs.`);
+  console.log(`Generated sitemap with ${sitemapRoutes.length} URLs.`);
 }
 
 buildSitemap();

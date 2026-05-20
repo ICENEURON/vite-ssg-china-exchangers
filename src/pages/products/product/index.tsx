@@ -1,5 +1,5 @@
-import { Head } from 'vite-react-ssg'
 import { Link, useLocation, useParams, Navigate } from "react-router-dom"
+import { SeoHead } from '../../../components/seo/SeoHead'
 import { Button } from "../../../components/ui/button"
 import { QuoteCta } from "../../../components/ui/quote-cta"
 import { CheckCircle2, Settings, Factory, ArrowLeft, ArrowRight, BookOpen, Download, FileText, Mail } from "lucide-react"
@@ -138,16 +138,20 @@ export default function ProductProfilePage() {
         ...images.map(img => ({ type: 'image' as const, src: img.url, alt: img.alt_text || name }))
     ];
 
-    const siteUrl = import.meta.env.VITE_SITE_URL || 'http://localhost';
+    const siteUrl = import.meta.env.VITE_SITE_URL || 'https://heatexdirect.com';
+    const siteName = import.meta.env.VITE_SITE_TITLE || 'HeatEx Direct';
     const currentUrl = new URL(location.pathname, siteUrl).href;
+    const metaTitle = productData.seo_data?.meta_title || `${name} - Product Details`;
+    const metaDescription = productData.seo_data?.meta_description || description?.substring(0, 160);
 
     return (
         <>
-            <Head>
-                <title>{productData.seo_data?.meta_title || `${name} - Product Details`}</title>
-                <meta name="description" content={productData.seo_data?.meta_description || description?.substring(0, 160)} />
-                <link rel="canonical" href={currentUrl} />
-            </Head>
+            <SeoHead
+                title={metaTitle}
+                description={metaDescription}
+                canonicalUrl={currentUrl}
+                siteName={siteName}
+            />
 
             <main className="min-h-screen bg-slate-50/50 text-foreground animate-in fade-in duration-500 pb-20">
 
