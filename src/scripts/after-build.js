@@ -286,42 +286,61 @@ function buildProductSchemas(route, manufacturerSlug, productSlug) {
   const description = truncateText(
     product.seo_data?.meta_description || product.short_description || firstText(product.full_description),
   );
-  const brandName = manufacturer?.name || manufacturerSlug;
   const technicalParameters = product.technical_parameters || {};
+  const url = toAbsoluteUrl(route);
+  const imageUrls = (product.images || []).map((image) => toAbsoluteUrl(image.url)).filter(Boolean);
+  const manufacturerUrl = manufacturer
+    ? toAbsoluteUrl(getLocalizedRoute(`/manufacturers/${manufacturerSlug}`, language))
+    : undefined;
+  const productTopic = {
+    '@type': 'Thing',
+    name: product.name,
+    description,
+    identifier: product.slug,
+    url,
+    image: imageUrls,
+    additionalProperty: Object.entries(technicalParameters).map(([name, value]) => ({
+      '@type': 'PropertyValue',
+      name,
+      value,
+    })),
+  };
 
   return [
     {
       '@context': 'https://schema.org',
-      '@type': 'Product',
+      '@type': 'WebPage',
+      '@id': `${url}#webpage`,
       name: product.name,
       description,
-      sku: product.slug,
-      url: toAbsoluteUrl(route),
-      image: (product.images || []).map((image) => toAbsoluteUrl(image.url)).filter(Boolean),
-      category: (product.industries || []).join(', ') || undefined,
-      brand: {
-        '@type': 'Brand',
-        name: brandName,
-      },
-      manufacturer: manufacturer ? {
-        '@type': 'Organization',
-        name: manufacturer.name,
-        url: toAbsoluteUrl(getLocalizedRoute(`/manufacturers/${manufacturerSlug}`, language)),
-      } : undefined,
-      additionalProperty: Object.entries(technicalParameters).map(([name, value]) => ({
-        '@type': 'PropertyValue',
-        name,
-        value,
-      })),
-      isRelatedTo: (product.industries || []).map((industry) => ({
-        '@type': 'DefinedTerm',
-        name: industry,
-      })),
+      url,
       inLanguage: language,
+      isPartOf: {
+        '@type': 'WebSite',
+        name: siteName,
+        url: siteUrl,
+      },
+      primaryImageOfPage: imageUrls[0] ? {
+        '@type': 'ImageObject',
+        url: imageUrls[0],
+      } : undefined,
+      about: productTopic,
+      mentions: [
+        manufacturer ? {
+          '@type': 'Organization',
+          name: manufacturer.name,
+          url: manufacturerUrl,
+        } : null,
+        ...(product.industries || []).map((industry) => ({
+          '@type': 'DefinedTerm',
+          name: industry,
+        })),
+      ].filter(Boolean),
+      keywords: (product.industries || []).join(', ') || undefined,
     },
     buildBreadcrumbList([
       { name: siteName, route: getLocalizedRoute('/', language) },
-      { name: language === 'zh' ? '产品' : 'Products', route: getLocalizedRoute('/products', language) },
+      { name: language === 'zh' ? '\u4ea7\u54c1' : 'Products', route: getLocalizedRoute('/products', language) },
       manufacturer ? { name: manufacturer.name, route: getLocalizedRoute(`/manufacturers/${manufacturerSlug}`, language) } : null,
       { name: product.name, route },
     ].filter(Boolean)),
