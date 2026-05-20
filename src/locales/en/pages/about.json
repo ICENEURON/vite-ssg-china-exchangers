@@ -1,7 +1,7 @@
 {
   "title": "HeatEx Direct | China Heat Exchanger Manufacturer Research Service",
   "meta": {
-    "description": "HeatEx Direct is an independent information service with Australia-based operations, focused on Chinese industrial heat exchanger manufacturer profiles, supplier data, and structured sourcing content.",
+    "description": "HeatEx Direct is an independent information service focused on Chinese industrial heat exchanger manufacturer profiles, supplier data, and structured sourcing content.",
     "keywords": "HeatEx Direct, China heat exchanger manufacturers, industrial heat exchanger sourcing research, heat exchanger supplier profiles, China manufacturer platform"
   },
   "og": {
@@ -13,7 +13,7 @@
     "title_highlight": "HeatEx Direct is an independent information platform that helps global industrial buyers understand Chinese heat exchanger manufacturers before starting supplier conversations.",
     "description_1": "We organize manufacturer profiles, product information, application sectors, public materials, factory evidence, brochures, images, and technical notes into a clearer structure for sourcing research and engineering review.",
     "highlights": [
-      "Independent information platform serving global manufacturers.",
+      "Independent information platform serving global buyers.",
       "Focused on Chinese industrial heat exchanger manufacturers.",
       "Built for procurement, engineering, project contractor, distributor, and system integrator review."
     ]
@@ -83,7 +83,7 @@
       },
       "location": {
         "title": "Project Requirements",
-        "description": "The Get Quote form collects key project details so suitable manufacturers can provide more relevant quotation feedback."
+        "description": "The Request for Quote form collects key project details so suitable manufacturers can provide more relevant quotation feedback."
       }
     }
   },

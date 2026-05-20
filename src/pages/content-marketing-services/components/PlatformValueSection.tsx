@@ -4,26 +4,39 @@ import { useTranslation } from "react-i18next"
 
 export function PlatformValueSection() {
     const { t } = useTranslation("translation", { keyPrefix: "pages.cms.platform_impact" });
+    const overviewItems = t("items.overview", { returnObjects: true }) as { label: string; value: string }[];
+    const publishedIn = overviewItems[0];
+    const editorialRule = overviewItems[2];
+    const audienceCard = { label: t("items.audience.title"), value: t("items.audience.description") };
+    const audienceSegments = t("items.audience.segments", { returnObjects: true }) as string[];
 
     return (
         <section className="pt-8 pb-12 md:pt-10 md:pb-14">
             <div className="container px-4 mx-auto max-w-6xl">
 
                 <div className="mb-5 grid gap-3 md:grid-cols-3">
-                    {(t("items.overview", { returnObjects: true }) as { label: string; value: string }[]).map((item, index) => {
-                        const icons = [Newspaper, Users, ClipboardCheck];
-                        const Icon = icons[index] || Newspaper;
+                    <div className="rounded-xl border border-border/30 bg-card p-5">
+                        <div className="mb-6 flex items-center gap-3">
+                            <Newspaper className="h-6 w-6 shrink-0 text-accent" />
+                            <h4 className="text-2xl font-extrabold leading-tight">{publishedIn.label}</h4>
+                        </div>
+                        <p className="text-muted">{publishedIn.value}</p>
+                    </div>
 
-                        return (
-                            <div key={item.label} className="rounded-xl border border-border/30 bg-card p-5">
-                                <div className="mb-6 flex items-center gap-3">
-                                    <Icon className="h-6 w-6 shrink-0 text-accent" />
-                                    <h4 className="text-2xl font-extrabold leading-tight">{item.label}</h4>
-                                </div>
-                                <p className="text-muted">{item.value}</p>
-                            </div>
-                        )
-                    })}
+                    <div className="rounded-xl border border-border/30 bg-card p-5 md:col-span-2">
+                        <div className="mb-6 flex items-center gap-3">
+                            <Users className="h-6 w-6 shrink-0 text-accent" />
+                            <h4 className="text-2xl font-extrabold leading-tight">{audienceCard.label}</h4>
+                        </div>
+                        <p className="text-muted">{audienceCard.value}</p>
+                        <div className="mt-4 flex flex-wrap gap-2">
+                            {audienceSegments.map((segment) => (
+                                <span key={segment} className="rounded-full border border-blue-500/20 bg-blue-500/10 px-3 py-1 text-xs font-semibold text-blue-600">
+                                    {segment}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
                 </div>
 
                 {/* Bento Grid */}
@@ -55,20 +68,13 @@ export function PlatformValueSection() {
 
 
                     {/* Card 2: Direct Audience */}
-                    <div className="group relative rounded-2xl border border-border/20 bg-card p-8 min-h-[300px] flex flex-col justify-between hover:border-primary/50 transition-colors">
+                    <div className="group relative rounded-2xl border border-border/20 bg-card p-8 min-h-[300px] flex flex-col justify-between hover:border-purple-500/30 transition-colors">
                         <div>
                             <div className="mb-6 flex items-center gap-3">
-                                <Users className="h-6 w-6 shrink-0 text-blue-500" />
-                                <h4 className="text-2xl font-extrabold leading-tight">{t("items.audience.title")}</h4>
+                                <ClipboardCheck className="h-6 w-6 shrink-0 text-purple-500" />
+                                <h4 className="text-2xl font-extrabold leading-tight">{editorialRule.label}</h4>
                             </div>
-                            <p className="text-muted">{t("items.audience.description")}</p>
-                        </div>
-                        <div className="mt-6 flex flex-wrap gap-2">
-                            {(t("items.audience.segments", { returnObjects: true }) as string[]).map((segment) => (
-                                <span key={segment} className="rounded-full border border-blue-500/20 bg-blue-500/10 px-3 py-1 text-xs font-semibold text-blue-600">
-                                    {segment}
-                                </span>
-                            ))}
+                            <p className="text-muted">{editorialRule.value}</p>
                         </div>
                     </div>
 

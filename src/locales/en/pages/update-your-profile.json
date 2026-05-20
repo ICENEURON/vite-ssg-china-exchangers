@@ -10,7 +10,7 @@
   },
   "hero": {
     "title": "Update Your Manufacturer Profile",
-    "description": "Manufacturers can use the templates below to submit updated product details, images, certificates, brochures, and other supporting media. We review each request and update the public profile where the information is relevant and verifiable.",
+    "description": "Manufacturers can use the templates below to submit updated manufacturer information, product details, images, certificates, brochures, and other supporting media. We review all details and update the public profile where the information is relevant and verifiable.",
     "highlights": [
       "Email-based updates",
       "Images and files accepted",
@@ -30,7 +30,7 @@
         },
         {
           "title": "Approved updates go live",
-          "description": "Relevant updates may be added to the manufacturer profile, product pages, or media sections after review."
+          "description": "Relevant updates will be added to the manufacturer profile, product pages, or media sections after review."
         }
       ]
     }
@@ -58,7 +58,7 @@
     ]
   },
   "process": {
-    "title": "How Profile Updates Are Reviewed",
+    "title": "How Profile Are Reviewed",
     "description": "All update requests are reviewed manually. We may edit wording, ask for clarification, or decline content that is incomplete, unrelated, unverifiable, or too promotional."
   },
   "submission": {
@@ -75,6 +75,6 @@
       "title": "File Attachments",
       "description": "Send product images, factory photos, certificates, brochures, logos, and other supporting files as email attachments."
     },
-    "footer_note": "Submitted materials are reviewed manually before any public profile update is made."
+    "footer_note": "All submitted materials will be manually reviewed before any updates are made."
   }
 }

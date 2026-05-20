@@ -14,7 +14,7 @@
   },
   "hero": {
     "eyebrow": "Chinese heat exchanger manufacturer platform",
-    "title": "Source Chinese Heat Exchanger Manufacturers with Clear Product, Application, and Factory Information",
+    "title": "Source Chinese Heat Exchanger Manufacturers with Clear Factory, Product, and Application Information",
     "subtitle": "HeatEx Direct helps global procurement teams, engineers, project contractors, distributors, and system integrators identify, evaluate, and compare Chinese heat exchanger manufacturers before starting supplier conversations.",
     "description": "The platform brings together manufacturer profiles, product categories, application sectors, factory evidence, technical notes, and a Get Quote workflow that helps buyers submit project requirements and receive quotation feedback from suitable manufacturers.",
     "paths": [
@@ -30,13 +30,13 @@
   },
   "featuredManufacturers": {
     "eyebrow": "Featured Manufacturers",
-    "title": "Start with structured manufacturer profiles built for supplier comparison",
+    "title": "Start with structured manufacturer profiles for supplier comparison",
     "description": "Explore structured profiles covering company background, product scope, application industries, export markets, factory evidence, and available technical information.",
     "cta": "Browse All Manufacturers"
   },
   "categoryShowcase": {
     "eyebrow": "Explore Heat Exchanger Products",
-    "title": "Start with the equipment type your project needs",
+    "title": "Start with the equipment type you need",
     "secondaryCta": "Explore Products",
     "categories": [
       {

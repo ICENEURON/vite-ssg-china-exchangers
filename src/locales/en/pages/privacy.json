@@ -2,7 +2,7 @@
   "title": "Privacy Policy | HeatEx Direct",
   "meta": {
     "description": "Privacy policy for HeatEx Direct, explaining how we handle quote request data, contact details, manufacturer profile updates, cookies, GA4 analytics, supplier communications, and international business inquiries.",
-    "keywords": "HeatEx Direct privacy policy, heat exchanger sourcing privacy, quote request data privacy, GA4 cookie policy, Australian privacy policy"
+    "keywords": "HeatEx Direct privacy policy, heat exchanger sourcing privacy, quote request data privacy, GA4 cookie policy, international privacy policy"
   },
   "hero": {
     "title": "Privacy Policy",
@@ -96,7 +96,7 @@
     "internationalTransfers": {
       "title": "International Transfers and Processing",
       "content": [
-        "HeatEx Direct is operated from Australia and serves an international industrial audience. Information may be stored, accessed, or processed in Australia and in other countries where our hosting, database, email, analytics, security, or business service providers operate.",
+        "HeatEx Direct serves an international industrial audience. Information may be stored, accessed, or processed in countries where our hosting, database, email, analytics, security, or business service providers operate.",
         "Privacy and data protection laws may differ between countries. Where required, we aim to use reasonable safeguards for cross-border processing and to share only the information needed for the relevant service or workflow."
       ]
     },
@@ -128,17 +128,17 @@
         "If we send optional marketing or newsletter messages in the future, we will provide a reasonable way to opt out where required by applicable law."
       ]
     },
-    "australianPrivacy": {
-      "title": "Australian Privacy Context",
+    "privacyContext": {
+      "title": "Privacy Law Context",
       "content": [
-        "HeatEx Direct is operated from Australia and aims to handle personal information transparently and responsibly. Where applicable, the Privacy Act 1988 (Cth) and the Australian Privacy Principles may require clear notice about collection, use, disclosure, security, access, correction, and cross-border handling of personal information.",
-        "This policy is designed to provide that notice in practical website terms. It does not limit privacy rights that cannot be excluded under applicable Australian law."
+        "HeatEx Direct aims to handle personal information transparently and responsibly. Where applicable, privacy and data protection laws may require clear notice about collection, use, disclosure, security, access, correction, and cross-border handling of personal information.",
+        "This policy is designed to provide that notice in practical website terms. It does not limit privacy rights that cannot be excluded under applicable law."
       ]
     },
     "euUkVisitors": {
-      "title": "EU, UK, and Other Non-Australian Visitors",
+      "title": "EU, UK, and Other International Visitors",
       "content": [
-        "Although HeatEx Direct is operated from Australia, privacy, cookie, and electronic communications laws in other regions may apply in some circumstances, especially where a website offers goods or services to individuals in those regions or monitors their behavior. The EU and UK rules around analytics cookies are stricter than Australian notice-based practice in many cases.",
+        "Privacy, cookie, and electronic communications laws in different regions may apply in some circumstances, especially where a website offers goods or services to individuals in those regions or monitors their behavior. The EU and UK rules around analytics cookies can require additional consent and transparency measures.",
         "Where GDPR, UK GDPR, ePrivacy rules, or similar laws apply, visitors may have additional rights such as access, correction, deletion, objection, restriction, portability, withdrawal of consent, and complaint to a supervisory authority. Our current cookie implementation is designed to avoid loading non-essential analytics before acceptance."
       ]
     },

@@ -5,7 +5,6 @@ import { loadEnv } from 'vite';
 
 // Post-build tasks for static output in dist/:
 // - generate canonical sitemap.xml at the project root and in dist/
-// - exclude individual Industry News article pages from the sitemap for now
 // - copy deployment files such as robots.txt and .htaccess into dist/
 // - inject structured data into manufacturer and product detail pages
 // - sync robots noindex meta based on VITE_SITE_NOINDEX
@@ -26,6 +25,8 @@ const outputPaths = [
 ];
 
 const siteUrl = (env.VITE_SITE_URL || process.env.VITE_SITE_URL || 'https://heatexdirect.com').replace(/\/$/, '');
+const siteHost = new URL(siteUrl).host;
+const siteHostRegex = siteHost.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const siteName = env.VITE_SITE_TITLE || process.env.VITE_SITE_TITLE || 'HeatEx Direct';
 const shouldNoindex = String(env.VITE_SITE_NOINDEX || process.env.VITE_SITE_NOINDEX || '').toLowerCase() === 'true';
 const supportedLanguages = ['en', 'zh'];
@@ -79,6 +80,8 @@ function writeText(filePath, content) {
 function renderTemplate(content) {
   return content
     .replace(/__SITE_URL__/g, siteUrl)
+    .replace(/__SITE_HOST__/g, siteHost)
+    .replace(/__SITE_HOST_REGEX__/g, siteHostRegex)
     ;
 }
 
@@ -520,12 +523,8 @@ function toRoute(filePath) {
   return null;
 }
 
-function isIndustryNewsArticleRoute(route) {
-  return route.startsWith('/industry-news/') || route.startsWith('/zh/industry-news/');
-}
-
 function shouldIncludeInSitemap(route) {
-  return !isIndustryNewsArticleRoute(route);
+  return true;
 }
 
 function getPriority(route) {

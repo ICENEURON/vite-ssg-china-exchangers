@@ -10,7 +10,7 @@
   },
   "hero": {
     "title": "Submit Industry News Articles",
-    "description": "<0>HeatEx</0> <1>Direct</1> accepts technical articles, product updates, project stories, factory news, and application cases from Chinese heat exchanger manufacturers for editorial review and possible publication.",
+    "description": "<0>HeatEx</0> <1>Direct</1> accepts technical articles, product updates, project stories, factory news, and application cases from Chinese heat exchanger manufacturers for editorial review and publication.",
     "buttons": {
       "start_publishing": "How to Submit"
     }
@@ -20,7 +20,7 @@
       "overview": [
         {
           "label": "Published In",
-          "value": "Approved submissions are published in Industry News after editorial review."
+          "value": "Approved submissions are published in Industry News."
         },
         {
           "label": "Reader Focus",
@@ -51,8 +51,8 @@
         "description": "Every submission is reviewed before publication. We may edit titles, structure, wording, translations, images, and links to fit the site."
       },
       "verified": {
-        "title": "Public Supporting Content",
-        "description": "A published article can support your manufacturer profile and help explain your products, applications, project experience, or company updates.",
+        "title": "Grow Brand Visibility",
+        "description": "A published article can help more buyers notice your brand, understand your strengths, and build confidence in your products, applications, and project experience.",
         "badge": "NEWS",
         "tags": {
           "visibility": "Industry News",
@@ -64,7 +64,7 @@
   },
   "guidelines": {
     "title": "Submission Guidelines",
-    "description": "Send editable article files, clearly named media, and content that is useful for heat exchanger buyers.",
+    "description": "Send editable article files, clearly media, and content that is useful for heat exchanger buyers.",
     "accepted": {
       "title": "What We Accept",
       "formats": {
@@ -78,8 +78,8 @@
         "title": "Files and Media",
         "items": [
           "Send the article body as an editable Word file.",
-          "Send images as original JPG, PNG, or WebP files with clear file names. Large media can be shared through a cloud download link.",
-          "Include your company name, contact person, website, suggested title, and any related manufacturer or product page."
+          "Send images as original JPG, PNG, or WebP files with clear file names.",
+          "Include your company name, contact person, website, and any related manufacturer or product page."
         ]
       },
       "topics": {
@@ -94,8 +94,8 @@
     "rejected": {
       "title": "What We Cannot Use",
       "formats": {
-        "title": "Unsupported Main Files",
-        "description": "PDF-only articles, TXT files, Pages files, screenshots, or Google Doc links are <0>not accepted</0> as the main submission. We need editable Word files for review, formatting, and translation."
+        "title": "Unsupported Files",
+        "description": "PDF-only articles, screenshots, or Google Doc links are <0>not accepted</0> as the main submission. We need editable Word files for review, formatting, and translation."
       },
       "content": {
         "title": "Content We Avoid",
