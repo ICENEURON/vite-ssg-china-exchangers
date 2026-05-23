@@ -1,0 +1,131 @@
+{
+  "title": "Submit Industry News Articles | HeatEx Direct",
+  "meta": {
+    "description": "Chinese heat exchanger manufacturers can submit technical articles, product updates, case studies, and market notes for editorial review and possible publication in HeatEx Direct Industry News.",
+    "keywords": "heat exchanger article submission, industry news submission, China heat exchanger manufacturers, technical articles, product updates, case studies, HeatEx Direct"
+  },
+  "og": {
+    "title": "Submit Industry News Articles | HeatEx Direct",
+    "description": "Submit manufacturer articles, technical notes, case studies, and product updates for editorial review and possible publication in HeatEx Direct Industry News."
+  },
+  "hero": {
+    "title": "Submit Industry News Articles",
+    "description": "<0>HeatEx</0> <1>Direct</1> accepts technical articles, product updates, project stories, factory news, and application cases from Chinese heat exchanger manufacturers for editorial review and publication.",
+    "buttons": {
+      "start_publishing": "How to Submit"
+    }
+  },
+  "platform_impact": {
+    "items": {
+      "overview": [
+        {
+          "label": "Published In",
+          "value": "Approved submissions are published in Industry News."
+        },
+        {
+          "label": "Reader Focus",
+          "value": "Content is written for buyers, engineers, distributors, and procurement teams researching heat exchanger suppliers."
+        },
+        {
+          "label": "Editorial Rule",
+          "value": "We prefer clear, relevant, and checkable material that helps buyers understand products, applications, or manufacturer capability."
+        }
+      ],
+      "seo": {
+        "title": "Show Your Expertise",
+        "description": "Industry News helps more buyers see your technical knowledge, product experience, application cases, and international communication capability."
+      },
+      "audience": {
+        "title": "Who Will Read It",
+        "description": "Your articles are written for buyers, engineers, procurement teams, distributors, and project owners looking for practical heat exchanger information before contacting suppliers.",
+        "segments": [
+          "Industrial buyers",
+          "Engineers",
+          "Procurement teams",
+          "Distributors",
+          "Project owners"
+        ]
+      },
+      "screening": {
+        "title": "Editorial Review",
+        "description": "Every submission is reviewed before publication. We may edit titles, structure, wording, translations, images, and links to fit the site."
+      },
+      "verified": {
+        "title": "Grow Brand Visibility",
+        "description": "A published article can help more buyers notice your brand, understand your strengths, and build confidence in your products, applications, and project experience.",
+        "badge": "NEWS",
+        "tags": {
+          "visibility": "Industry News",
+          "trust": "Editorial Review",
+          "expert": "Buyer Context"
+        }
+      }
+    }
+  },
+  "guidelines": {
+    "title": "Submission Guidelines",
+    "description": "Send editable article files, clearly media, and content that is useful for heat exchanger buyers.",
+    "accepted": {
+      "title": "What We Accept",
+      "formats": {
+        "title": "Article File Formats",
+        "types": [
+          ".DOCX",
+          ".DOC"
+        ]
+      },
+      "requirements": {
+        "title": "Files and Media",
+        "items": [
+          "Send the article body as an editable Word file.",
+          "Send images as original JPG, PNG, or WebP files with clear file names.",
+          "Include your company name, contact person, website, and any related manufacturer or product page."
+        ]
+      },
+      "topics": {
+        "title": "Suitable Topics",
+        "items": [
+          "Technical articles about heat exchanger design, materials, applications, maintenance, testing, or troubleshooting",
+          "Factory updates, production capability, new product series, certificates, exhibitions, or major project references",
+          "Application case studies, China heat exchanger market notes, and industry trends"
+        ]
+      }
+    },
+    "rejected": {
+      "title": "What We Cannot Use",
+      "formats": {
+        "title": "Unsupported Files",
+        "description": "PDF-only articles, screenshots, or Google Doc links are <0>not accepted</0> as the main submission. We need editable Word files for review, formatting, and translation."
+      },
+      "content": {
+        "title": "Content We Avoid",
+        "items": [
+          "Pure advertising copy, slogans, exaggerated rankings, or unsupported claims such as 'No. 1' or 'best in China'",
+          "Generic AI text without real technical detail, factory context, product data, images, or buyer value",
+          "Unrelated company news, copied third-party articles, confidential customer data, or content that cannot be checked"
+        ]
+      }
+    }
+  },
+  "process": {
+    "title": "How to Submit",
+    "steps": [
+      {
+        "title": "Prepare Your Article",
+        "description": "Send the article as an editable .DOCX or .DOC file, with images and company details included."
+      },
+      {
+        "title": "Email the Team",
+        "description": "Use the subject line: '[Industry News Submission] - Company Name - Article Topic'."
+      },
+      {
+        "title": "Editorial Review",
+        "description": "We review the article for relevance, clarity, file quality, and buyer value before publication."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Send Us Your Article",
+    "description": "Email your editable article file, supporting images, company name, and contact person. We will review whether it is suitable for Industry News."
+  }
+}

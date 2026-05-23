@@ -1,0 +1,147 @@
+{
+  "title": "HeatEx Direct | Chinese Heat Exchanger Manufacturers Platform",
+  "meta": {
+    "description": "HeatEx Direct helps global industrial buyers research Chinese heat exchanger manufacturers, compare product capabilities, and submit structured heat exchanger quote requests.",
+    "keywords": "China heat exchanger manufacturers, Chinese heat exchanger suppliers, industrial heat exchanger manufacturers, plate heat exchanger manufacturer, welded plate heat exchanger, shell and tube heat exchanger, air cooled heat exchanger, heat exchanger quote request"
+  },
+  "og": {
+    "title": "HeatEx Direct - Chinese Heat Exchanger Manufacturer Research",
+    "description": "Research structured manufacturer profiles, compare industrial heat exchanger product capabilities, read technical articles, and submit verified-email quote requests."
+  },
+  "schema": {
+    "organizationDescription": "HeatEx Direct is an independent international sourcing research service focused on Chinese heat exchanger manufacturers. It helps global industrial buyers compare product capabilities, review supplier evidence, read technical sourcing content, and submit verified-email quote requests.",
+    "websiteDescription": "A bilingual sourcing research service for global buyers comparing Chinese heat exchanger manufacturers, industrial heat exchanger products, supplier evidence, technical sourcing content, and structured quote request submission."
+  },
+  "hero": {
+    "eyebrow": "Chinese heat exchanger manufacturer platform",
+    "title": "Source Chinese Heat Exchanger Manufacturers with Clear Factory, Product, and Application Information",
+    "subtitle": "HeatEx Direct helps global procurement teams, engineers, project contractors, distributors, and system integrators identify, evaluate, and compare Chinese heat exchanger manufacturers before starting supplier conversations.",
+    "description": "The platform brings together manufacturer profiles, product categories, application sectors, factory evidence, technical notes, and a Get Quote workflow that helps buyers submit project requirements and receive quotation feedback from suitable manufacturers.",
+    "paths": [
+      {
+        "title": "Browse manufacturers",
+        "body": "Review manufacturer profiles, factory locations, product scope, industries served, export markets, and available evidence."
+      },
+      {
+        "title": "Explore products",
+        "body": "View product details, technical parameters, advantages, applications, materials, and related manufacturers."
+      }
+    ]
+  },
+  "featuredManufacturers": {
+    "eyebrow": "Featured Manufacturers",
+    "title": "Start with structured manufacturer profiles for supplier comparison",
+    "description": "Explore structured profiles covering company background, product scope, application industries, export markets, factory evidence, and available technical information.",
+    "cta": "Browse All Manufacturers"
+  },
+  "categoryShowcase": {
+    "eyebrow": "Explore Heat Exchanger Products",
+    "title": "Start with the equipment type you need",
+    "secondaryCta": "Explore Products",
+    "categories": [
+      {
+        "title": "Plate Heat Exchangers",
+        "body": "Gasketed and related plate heat exchangers for HVAC, food processing, marine systems, process cooling, and general heat recovery applications."
+      },
+      {
+        "title": "Welded Plate Heat Exchangers",
+        "body": "Fully welded, wide-gap, plate-and-shell, and harsh-duty plate heat exchangers for higher pressure, higher temperature, corrosive media, or difficult fluids."
+      },
+      {
+        "title": "Shell-and-Tube Heat Exchangers",
+        "body": "Tubular heat exchangers and pressure-vessel-style equipment for petrochemical, energy, power, marine, and heavy industrial service."
+      },
+      {
+        "title": "Air-Side Heat Exchange Equipment",
+        "body": "Air coolers, air radiators, finned tube heat exchangers, and air-side thermal systems for cooling, heating, ventilation, and industrial process duties."
+      },
+      {
+        "title": "Spare Parts and Service Items",
+        "body": "Replacement plates, gaskets, maintenance parts, documentation, and service-related components for heat exchanger lifecycle support."
+      }
+    ],
+    "stats": {
+      "manufacturers": "Chinese manufacturer profiles",
+      "products": "Heat exchanger product pages",
+      "industries": "Industrial application sectors"
+    }
+  },
+  "industryNews": {
+    "eyebrow": "Industry News",
+    "title": "Read company updates and technical articles from the heat exchanger industry",
+    "pillars": [
+      {
+        "title": "Company news",
+        "body": "Company announcements, project deliveries, product launches, factory updates, and export news from listed heat exchanger manufacturers."
+      },
+      {
+        "title": "Technical articles",
+        "body": "Practical articles covering heat exchanger types, technical parameters, materials, applications, maintenance, and specification guidance."
+      }
+    ]
+  },
+  "highlightedArticles": {
+    "eyebrow": "Latest Heat Exchanger Industry News",
+    "title": "Recent manufacturer updates, product notes, and technical articles",
+    "description": "Explore company news, project deliveries, product updates, maintenance guidance, and application stories from listed heat exchanger manufacturers and related technical topics.",
+    "cta": "Read Industry News",
+    "typeLabels": {
+      "news": "Company news",
+      "posts": "Technical article"
+    }
+  },
+  "valueProp": {
+    "eyebrow": "Supplier Information and Evidence",
+    "title": "Structured manufacturer data for easier comparison",
+    "description": "HeatEx Direct organizes manufacturer information into clear, comparable sections so buyers can review company background, product scope, technical details, media, documents, and application fit before contacting suppliers.",
+    "evidence": [
+      {
+        "label": "Company Background",
+        "body": "Legal company names, locations, business focus, short descriptions, and profile context for each listed manufacturer."
+      },
+      {
+        "label": "Factory Location",
+        "body": "Factory locations, operating context, available facility media, and location details that help buyers understand the manufacturer's real-world presence."
+      },
+      {
+        "label": "Product Scope",
+        "body": "Heat exchanger categories, product pages, application sectors, and related manufacturing capabilities connected to each supplier profile."
+      },
+      {
+        "label": "Technical Details",
+        "body": "Product descriptions, materials, pressure and temperature relevance, application notes, heat load context, and design information where available."
+      },
+      {
+        "label": "Media and Visual Evidence",
+        "body": "Product images, factory photos, certificates, documents, customer logos, and related files when supplied or verified."
+      },
+      {
+        "label": "Certificates and Documents",
+        "body": "Available certificates, documents, qualification materials, and other proof points that buyers can review before deeper supplier due diligence."
+      }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "Get Quote Workflow",
+    "title": "Submit requirements and receive manufacturer quotation feedback",
+    "description": "A useful heat exchanger quotation starts with clear operating conditions. The Get Quote form helps buyers submit project details so HeatEx Direct can review the information, share it with suitable manufacturers, and collect quotation feedback for the buyer to compare.",
+    "steps": [
+      {
+        "title": "Check Fit",
+        "body": "Use manufacturer and product pages to review supplier capability, application experience, and available evidence."
+      },
+      {
+        "title": "Submit Details",
+        "body": "Share your operating conditions, material needs, project notes, and other key requirements through the Get Quote form."
+      },
+      {
+        "title": "Verify Email",
+        "body": "No account registration is required. Email verification helps confirm the request and enables follow-up."
+      },
+      {
+        "title": "Receive Feedback",
+        "body": "HeatEx Direct reviews your request, shares it with suitable manufacturers, and returns quotation feedback for your reference."
+      }
+    ]
+  }
+}

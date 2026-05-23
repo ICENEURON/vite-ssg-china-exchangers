@@ -1,0 +1,172 @@
+{
+  "title": "Privacy Policy | HeatEx Direct",
+  "meta": {
+    "description": "Privacy policy for HeatEx Direct, explaining how we handle quote request data, contact details, manufacturer profile updates, cookies, GA4 analytics, supplier communications, and international business inquiries.",
+    "keywords": "HeatEx Direct privacy policy, heat exchanger sourcing privacy, quote request data privacy, GA4 cookie policy, international privacy policy"
+  },
+  "hero": {
+    "title": "Privacy Policy",
+    "subtitle": "This policy explains what information HeatEx Direct collects, how we obtain it, why we use it, when it may be shared, and what choices you have when using this industrial sourcing research service."
+  },
+  "sections": {
+    "scope": {
+      "title": "Scope of This Policy",
+      "content": [
+        "This policy applies to information collected through HeatEx Direct website pages, quote request forms, contact forms, manufacturer profile update workflows, login or registration features, content and partnership inquiries, cookie notices, analytics tools, and related communications.",
+        "This policy does not apply to third-party websites, suppliers, manufacturers, file hosts, analytics providers, advertising networks, social platforms, or other services that we do not own or control. Those parties may have their own privacy policies and terms."
+      ]
+    },
+    "informationProvided": {
+      "title": "Information You Provide Directly",
+      "content": [
+        "We may collect information that you provide directly, including name, email address, phone number, company name, job title, country or region, website, message content, uploaded files, manufacturer profile updates, article or news submissions, partnership requests, and other information included in a form or email.",
+        "If you submit information on behalf of a company, manufacturer, or other organization, you are responsible for ensuring that you have authority to provide that information and that it is accurate, current, and not confidential beyond what you intend to share with us."
+      ]
+    },
+    "rfqData": {
+      "title": "Quote Requests, Sourcing, and Technical Data",
+      "content": [
+        "When you submit a quote request or sourcing request, we may collect project context and technical parameters, such as equipment type, industry, application, media, phase, flow rate, inlet and outlet temperatures, pressure, design standards, materials, quantity, project location, timeline, budget notes, documentation, and other technical comments.",
+        "Quote request data may include commercially sensitive project information. You should avoid submitting trade secrets, export-controlled technical data, or confidential information unless it is necessary for the request and you are authorized to share it."
+      ]
+    },
+    "emailVerification": {
+      "title": "Email Verification and Account Data",
+      "content": [
+        "Some workflows may use email verification, one-time tokens, registration, login, or protected dashboard features. We process this information to confirm that a submitted email is valid, reduce abuse, secure access, review requests, and support workflow-related communication.",
+        "We may also keep basic records of account status, authentication events, submitted requests, profile update activity, and support communication where reasonably needed for security, fraud prevention, platform operation, or legal compliance."
+      ]
+    },
+    "manufacturerData": {
+      "title": "Manufacturer, Supplier, and Public-Source Information",
+      "content": [
+        "Manufacturer profiles may be built from public information, supplier-provided materials, websites, brochures, certificates, media files, product catalogs, public registries, trade-show materials, and editorial research. Some of this information may identify business contacts or representatives.",
+        "If a manufacturer or authorized representative asks us to correct, complete, or update a profile, we may collect company descriptions, product information, contact details, media assets, certificates, files, source references, and other materials needed to review the request. Approved profile content may be published on the website."
+      ]
+    },
+    "automaticData": {
+      "title": "Automatically Collected Technical Data",
+      "content": [
+        "When you visit the website, we may collect technical and usage data such as IP address, browser type, device type, operating system, pages visited, referral URL, approximate location, language preference, interaction events, timestamps, and diagnostic logs.",
+        "This information may be collected through hosting logs, security tools, cookies, browser storage, analytics tools, or similar technologies. It helps us operate the site, understand performance, detect abuse, fix errors, and improve navigation and content quality."
+      ]
+    },
+    "cookies": {
+      "title": "Cookies and Similar Technologies",
+      "content": [
+        "Cookies are small files or browser storage entries used to operate a website, remember basic choices, measure usage, and support security or analytics. HeatEx Direct may use necessary cookies for core website functions, cookie preference storage, language routing, login or verification workflows, and abuse prevention.",
+        "We may also use analytics cookies or similar identifiers to understand aggregate website usage, such as which pages are visited, how visitors move through the site, and whether content is useful. As currently configured, non-essential analytics are loaded only after cookie acceptance."
+      ]
+    },
+    "ga4": {
+      "title": "Google Analytics 4 and Site Measurement",
+      "content": [
+        "HeatEx Direct may use Google Analytics 4 or similar analytics services to measure website traffic and improve content, navigation, and performance. Analytics data may include device and browser information, approximate location, page paths, events, referral data, and pseudonymous identifiers.",
+        "Analytics providers may process data on servers outside your country. We configure analytics to support site measurement rather than targeted advertising. If analytics is disabled or not accepted, the website should remain usable, although we may receive less information about site performance."
+      ]
+    },
+    "useOfInformation": {
+      "title": "How We Use Information",
+      "content": [
+        "We use information to operate and secure the website, respond to messages, review quote request submissions, verify contact details, clarify missing technical information, improve manufacturer profiles, manage content submissions, publish approved materials, analyze site performance, prevent spam and abuse, maintain business records, and comply with legal obligations.",
+        "We may also use business contact information to follow up on a request you submitted, respond to supplier profile issues, discuss content or partnership inquiries, or send workflow-related updates."
+      ]
+    },
+    "sharing": {
+      "title": "When Information May Be Shared",
+      "content": [
+        "We do not sell your contact information to marketing data brokers. We may share information with service providers who help us host the website, manage databases, process forms, send email, secure the platform, provide analytics, or support business operations. These providers should use the information only for the services they provide to us.",
+        "Where appropriate for sourcing follow-up, we may share relevant quote request or contact details with potential suppliers, manufacturers, partners, or team members involved in reviewing the request. We share only what is reasonably needed for the relevant workflow."
+      ]
+    },
+    "supplierCommunication": {
+      "title": "Communications With Suppliers or Manufacturers",
+      "content": [
+        "If you ask to contact a supplier, submit a quote request, request technical follow-up, or provide information intended for manufacturer review, relevant details may be shared with a supplier or partner so they can evaluate or respond to the inquiry.",
+        "Once you communicate directly with a supplier, manufacturer, or third-party website, their own privacy practices and terms may apply. HeatEx Direct does not control how independent suppliers handle information you provide directly to them."
+      ]
+    },
+    "publicContent": {
+      "title": "Public Content and Profile Materials",
+      "content": [
+        "Manufacturer profiles, product pages, industry articles, images, documents, public-source references, and editorial summaries may be published on the website. If you provide materials for publication, you confirm that you have the right to share them and understand that approved materials may become publicly accessible.",
+        "Do not submit personal information, confidential information, or third-party intellectual property for publication unless you have the necessary authority and understand the consequences of publication."
+      ]
+    },
+    "internationalTransfers": {
+      "title": "International Transfers and Processing",
+      "content": [
+        "HeatEx Direct serves an international industrial audience. Information may be stored, accessed, or processed in countries where our hosting, database, email, analytics, security, or business service providers operate.",
+        "Privacy and data protection laws may differ between countries. Where required, we aim to use reasonable safeguards for cross-border processing and to share only the information needed for the relevant service or workflow."
+      ]
+    },
+    "retention": {
+      "title": "Retention",
+      "content": [
+        "We keep information for as long as reasonably needed to operate the website, respond to inquiries, review quote requests, manage manufacturer profiles, maintain business records, prevent abuse, resolve disputes, improve content, and meet legal or operational requirements.",
+        "Retention periods may vary depending on the type of information, the workflow involved, whether the information has been published, whether it is needed for security or audit purposes, and whether legal obligations require longer retention."
+      ]
+    },
+    "security": {
+      "title": "Security",
+      "content": [
+        "We use reasonable technical and organizational measures to protect information against unauthorized access, loss, misuse, alteration, or disclosure. These measures may include access controls, hosted infrastructure security, authentication workflows, and limited access to operational data.",
+        "No online transmission, storage system, email workflow, or website can be guaranteed to be completely secure. You should take care when deciding what technical or commercial information to submit."
+      ]
+    },
+    "choices": {
+      "title": "Your Choices and Requests",
+      "content": [
+        "You may contact us to request access to, correction of, update of, or deletion of information you submitted, subject to reasonable identity verification, legal requirements, security needs, public-interest considerations, and operational limits. Manufacturers may also ask us to review outdated or inaccurate profile materials.",
+        "You can control cookies through the cookie notice where available and through browser settings. Blocking cookies may affect language preference, login, verification, or other website functions."
+      ]
+    },
+    "communications": {
+      "title": "Email and Communication Preferences",
+      "content": [
+        "We may send service-related messages in response to quote requests, profile updates, account actions, verification workflows, contact forms, or content inquiries. These messages are part of the workflow you initiated.",
+        "If we send optional marketing or newsletter messages in the future, we will provide a reasonable way to opt out where required by applicable law."
+      ]
+    },
+    "privacyContext": {
+      "title": "Privacy Law Context",
+      "content": [
+        "HeatEx Direct aims to handle personal information transparently and responsibly. Where applicable, privacy and data protection laws may require clear notice about collection, use, disclosure, security, access, correction, and cross-border handling of personal information.",
+        "This policy is designed to provide that notice in practical website terms. It does not limit privacy rights that cannot be excluded under applicable law."
+      ]
+    },
+    "euUkVisitors": {
+      "title": "EU, UK, and Other International Visitors",
+      "content": [
+        "Privacy, cookie, and electronic communications laws in different regions may apply in some circumstances, especially where a website offers goods or services to individuals in those regions or monitors their behavior. The EU and UK rules around analytics cookies can require additional consent and transparency measures.",
+        "Where GDPR, UK GDPR, ePrivacy rules, or similar laws apply, visitors may have additional rights such as access, correction, deletion, objection, restriction, portability, withdrawal of consent, and complaint to a supervisory authority. Our current cookie implementation is designed to avoid loading non-essential analytics before acceptance."
+      ]
+    },
+    "children": {
+      "title": "Children",
+      "content": [
+        "HeatEx Direct is a B2B industrial sourcing information website and is not directed to children. We do not knowingly collect personal information from children. If you believe a child has provided information to us, please contact us so we can review the matter."
+      ]
+    },
+    "thirdPartySites": {
+      "title": "Third-Party Websites and Services",
+      "content": [
+        "The website may link to third-party websites, supplier pages, public registries, file hosts, videos, maps, analytics services, or social platforms. We are not responsible for the privacy practices, security, content, or terms of third-party websites or services.",
+        "You should review the privacy policy and terms of any third-party service before submitting information to it or relying on it."
+      ]
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "content": [
+        "We may update this Privacy Policy as the website, quote request workflow, profile update process, analytics configuration, service providers, or legal requirements change. Updated versions will be posted on this page with a revised date.",
+        "Your continued use of the website after an update means that you have had an opportunity to review the updated policy."
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "content": [
+        "If you have questions about this Privacy Policy, want to request correction or deletion of information you submitted, or need to raise a privacy concern, please use the contact details listed on the Contact page and include enough context for us to identify the relevant request, page, account, or workflow."
+      ]
+    }
+  }
+}

@@ -10,6 +10,7 @@
     "build": "velite build && vite-react-ssg build && node src/scripts/after-build.js",
     "build:spa": "tsc -b && velite build && vite build",
     "lint": "eslint .",
+    "import": "cd supabase_importer && node import.js",
     "sync": "node src/scripts/sync-all.js",
     "preview": "vite preview"
   },

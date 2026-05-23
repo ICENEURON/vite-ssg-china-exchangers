@@ -1,0 +1,25 @@
+{
+  "menu": {
+    "home": "首页",
+    "for_buyers_label": "买家专区",
+    "manufacturers": "制造商列表",
+    "products": "产品类别",
+    "rfq": "获取报价",
+    "for_manufacturers_label": "制造商专区",
+    "profile": "资料更新",
+    "content_marketing_services": "文章投稿",
+    "about": "关于我们",
+    "industry-news": "行业新闻",
+    "contact": "联系我们",
+    "login": "登录",
+    "register": "注册",
+    "dashboard": "控制台",
+    "logout": "退出登录",
+    "terms": "条款",
+    "privacy": "隐私"
+  },
+  "breadcrumb": {
+    "home": "首页"
+  },
+  "logo": "HeatEx Direct"
+}

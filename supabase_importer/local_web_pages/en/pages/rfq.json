@@ -1,0 +1,432 @@
+{
+  "industries": [
+    {
+      "id": "hvac",
+      "label": "HVAC & building services"
+    },
+    {
+      "id": "food",
+      "label": "Food, dairy & beverage"
+    },
+    {
+      "id": "chemicals",
+      "label": "Chemicals & petrochemicals"
+    },
+    {
+      "id": "marine",
+      "label": "Marine & transportation"
+    },
+    {
+      "id": "power",
+      "label": "Power generation & energy"
+    },
+    {
+      "id": "pharma",
+      "label": "Pharmaceuticals & biotech"
+    },
+    {
+      "id": "pulp",
+      "label": "Pulp & paper"
+    },
+    {
+      "id": "water",
+      "label": "Water & waste treatment"
+    },
+    {
+      "id": "mining",
+      "label": "Mining & minerals"
+    },
+    {
+      "id": "other",
+      "label": "Other"
+    }
+  ],
+  "timelines": [
+    {
+      "id": "in_stock",
+      "label": "In stock / quick ship (1-2 weeks)"
+    },
+    {
+      "id": "standard",
+      "label": "Standard production (3-6 weeks)"
+    },
+    {
+      "id": "custom",
+      "label": "Custom / large scale (7-12 weeks)"
+    },
+    {
+      "id": "project",
+      "label": "Long lead time / project (12+ weeks)"
+    },
+    {
+      "id": "planning",
+      "label": "Planning phase (no immediate need)"
+    },
+    {
+      "id": "other",
+      "label": "Other"
+    }
+  ],
+  "quantities": [
+    {
+      "id": "1_unit",
+      "label": "1 unit (replacement / sample)"
+    },
+    {
+      "id": "2_5_units",
+      "label": "2-5 units (small system)"
+    },
+    {
+      "id": "6_20_units",
+      "label": "6-20 units (medium system)"
+    },
+    {
+      "id": "20_plus_units",
+      "label": "20+ units (large scale project)"
+    },
+    {
+      "id": "other",
+      "label": "Other"
+    }
+  ],
+  "productTypes": [
+    {
+      "id": "gasketed_phe",
+      "label": "Gasketed plate heat exchanger"
+    },
+    {
+      "id": "brazed_phe",
+      "label": "Brazed plate heat exchanger"
+    },
+    {
+      "id": "welded_phe",
+      "label": "Welded plate heat exchanger"
+    },
+    {
+      "id": "shell_tube",
+      "label": "Shell & tube heat exchanger"
+    },
+    {
+      "id": "air_cooled",
+      "label": "Air cooled heat exchanger"
+    },
+    {
+      "id": "spares",
+      "label": "Spare parts (plates, gaskets)"
+    },
+    {
+      "id": "other",
+      "label": "Other"
+    }
+  ],
+  "fluidTypes": [
+    {
+      "id": "single_liquid",
+      "label": "Single-phase liquid"
+    },
+    {
+      "id": "single_gas",
+      "label": "Single-phase gas"
+    },
+    {
+      "id": "gas_liquid",
+      "label": "Gas-liquid"
+    },
+    {
+      "id": "solid_liquid",
+      "label": "Solid-liquid"
+    }
+  ],
+  "plateMaterials": [
+    {
+      "id": "s30403",
+      "label": "S30403"
+    },
+    {
+      "id": "s30408",
+      "label": "S30408"
+    },
+    {
+      "id": "s31603",
+      "label": "S31603"
+    },
+    {
+      "id": "254smo",
+      "label": "254SMO"
+    },
+    {
+      "id": "904l",
+      "label": "904L"
+    },
+    {
+      "id": "ta1",
+      "label": "TA1"
+    },
+    {
+      "id": "ta9",
+      "label": "TA9"
+    },
+    {
+      "id": "ni",
+      "label": "Ni"
+    },
+    {
+      "id": "c276",
+      "label": "C-276"
+    },
+    {
+      "id": "other",
+      "label": "Other"
+    }
+  ],
+  "flangeStandards": [
+    {
+      "id": "asme_b16_5_2025",
+      "label": "ASME B 16.5-2025"
+    },
+    {
+      "id": "en1092_1_2024",
+      "label": "EN1092-1-2024"
+    },
+    {
+      "id": "gost_33259_2015",
+      "label": "GOST 33259-2015"
+    },
+    {
+      "id": "other",
+      "label": "Other"
+    }
+  ],
+  "steps": {
+    "context": "Context",
+    "specifications": "Design Parameters",
+    "verification": "Verification",
+    "submit": "Submit"
+  },
+  "title": "Smart Quote Request Builder - Get Custom Heat Exchanger Quotes",
+  "description": "Build a professional quote request in minutes. Anonymous mode available. Get quotes from verified manufacturers.",
+  "navbarTitle": "Smart Quote Request Builder",
+  "step1": {
+    "title": "1. Project context",
+    "subtitle": "Share the basic project context so we can route the quote request accurately.",
+    "firstNameLabel": "First name",
+    "firstNamePlaceholder": "",
+    "lastNameLabel": "Last name",
+    "lastNamePlaceholder": "",
+    "companyLabel": "Company name",
+    "companyPlaceholder": "",
+    "countryLabel": "Destination country / region",
+    "industryLabel": "Industry / application",
+    "countryPlaceholder": "Select",
+    "requiredHint": "",
+    "customIndustryPlaceholder": "Please specify your industry...",
+    "quantityLabel": "Required quantity",
+    "customQuantityPlaceholder": "Please specify the required quantity...",
+    "timelineLabel": "Expected delivery timeline",
+    "customTimelinePlaceholder": "Please specify your timeline expectations..."
+  },
+  "step2": {
+    "title": "2. Design & equipment parameters",
+    "subtitle": "Provide the hot-side and cold-side media data plus key equipment parameters.",
+    "unitMetric": "Metric (°C, m³/h)",
+    "unitImperial": "Imperial (°F, GPM)",
+    "thermalSpecsTitle": "Thermal & performance specifications",
+    "thermalSpecsSubtitle": "",
+    "equipmentParamsTitle": "Equipment parameters",
+    "equipmentParamsSubtitle": "",
+    "hotSide": "Hot side",
+    "coldSide": "Cold side",
+    "requiredBadge": "Required",
+    "requiredHint": "",
+    "singlePhaseSharedBadge": "Single-phase: outlet properties copied",
+    "autoCopiedLabel": "",
+    "mediaNameLabel": "Media name",
+    "hotMediaPlaceholder": "",
+    "coldMediaPlaceholder": "",
+    "fluidTypeLabel": "Fluid type",
+    "inletFluidTypeLabel": "Inlet",
+    "outletFluidTypeLabel": "Outlet",
+    "fluidTypePlaceholder": "Select",
+    "massFlowLabel": "Mass flow (kg/h)",
+    "inletMassFlowLabel": "Inlet",
+    "outletMassFlowLabel": "Outlet",
+    "massFlowPlaceholder": "",
+    "volumeFlowLabel": "Volume flow (m3/h)",
+    "flowRequirementLabel": "",
+    "inletVolumeFlowLabel": "Inlet",
+    "outletVolumeFlowLabel": "Outlet",
+    "volumeFlowPlaceholder": "",
+    "gasPhaseFractionLabel": "Gas phase fraction",
+    "inletGasPhaseFractionLabel": "Inlet",
+    "outletGasPhaseFractionLabel": "Outlet",
+    "gasPhaseFractionPlaceholder": "0.15 or 15%",
+    "inletPropertyLabel": "Inlet",
+    "outletPropertyLabel": "Outlet",
+    "inletTempLabel": "Inlet temperature (°C)",
+    "outletTempLabel": "Outlet temperature (°C)",
+    "temperatureLabel": "Temperature (°C)",
+    "densityLabel": "Density (kg/m3)",
+    "specificHeatLabel": "Specific heat (kJ/kg·°C)",
+    "conductivityLabel": "Thermal conductivity (W/m·°C)",
+    "viscosityLabel": "Dynamic viscosity (cp)",
+    "plateMaterialLabel": "Plate material",
+    "plateMaterialPlaceholder": "Select",
+    "customPlateMaterialPlaceholder": "Please specify the plate material...",
+    "designCodeLabel": "Design code",
+    "designCodePlaceholder": "GB/T 151, ASME VIII, HG/T20592-2009",
+    "designPressureLabel": "Design pressure (MPa)",
+    "testPressureLabel": "Test pressure (MPa)",
+    "designTemperatureLabel": "Design temperature (°C)",
+    "flangeStandardLabel": "Flange standard",
+    "flangeStandardPlaceholder": "Select",
+    "customFlangeStandardLabel": "Other flange standard",
+    "customFlangeStandardPlaceholder": "HG/T20592-2009",
+    "flangeNominalDiameterLabel": "Nozzle flange nominal diameter",
+    "flangeNominalDiameterPlaceholder": "DN100",
+    "flangeMaterialLabel": "Nozzle flange material",
+    "flangeMaterialPlaceholder": "S31603",
+    "flangePressureRatingLabel": "Flange pressure rating",
+    "flangePressureRatingPlaceholder": "PN16, PN63, Class 150",
+    "flangeTypeSealingFaceLabel": "Flange type / sealing face",
+    "flangeTypeSealingFacePlaceholder": "B/RF, WN/RF",
+    "heatLoadLabel": "Heat load (kW)",
+    "heatLoadPlaceholder": "1500",
+    "additionalNotesLabel": "Additional notes / custom requirements",
+    "additionalNotesPlaceholder": "Any specific materials required? Dimensions constraints? Certifications needed? (Max 500 characters)"
+  },
+  "step3": {
+    "accessCodePlaceholder": "Code",
+    "title": "3. Verification",
+    "subtitle": "Verify your email so factories can reply to a real request.",
+    "verifiedTitle": "Email Already Verified!",
+    "continueBtn": "Continue to Final Submission",
+    "verifySubtitle": "To ensure high-quality supplier matching & protect your identity, please verify your email address.",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Email",
+    "freeEmailTitle": "Personal Email Detected.",
+    "freeEmailDesc": "Your request will be distributed to a maximum of 2 factories. Use a business email to reach 5+ verified factories.",
+    "businessEmailTitle": "Business email helps your request stand out.",
+    "businessEmailDesc": "It can reach 5+ verified factories while keeping your identity protected.",
+    "sendBtn": "Send Verification Code",
+    "sendingBtn": "Sending...",
+    "codeSentTo": "Code sent to",
+    "accessCodeLabel": "Verification Code",
+    "verifyBtn": "Verify Your Email",
+    "verifyingBtn": "Verifying...",
+    "errors": {
+      "rateLimit": "For security purposes, you can only request this after {{seconds}} seconds.",
+      "network": "Unable to reach the verification service. Please check your network or try again later.",
+      "invalidCode": "Invalid or expired verification code",
+      "sendFailed": "Failed to send verification code. Please try again.",
+      "verifyFailed": "Verification failed. Please try again."
+    },
+    "successTitle": "Email Verified!",
+    "successSubtitle": "Proceeding to final confirmation..."
+  },
+  "step4": {
+    "title": "4. Confirm & submit",
+    "subtitle": "Review your quote request details and choose your privacy settings.",
+    "emailVerifiedTitle": "Email verified successfully!",
+    "anonymousMode": "Anonymous mode",
+    "publicMode": "Public mode",
+    "anonymousModeDesc": "Factories cannot see your email directly. We manage communication.",
+    "publicModeDesc": "Factories can see your email information directly.",
+    "sourceManufacturerTargetTitle": "Send to",
+    "sourceManufacturerTargetEnabledDesc": "Because you entered from a related page, this quote request will be sent to that company. Other quote opportunities may be routed to other manufacturers.",
+    "sourceManufacturerTargetDisabledDesc": "This quote request will not be specifically sent to the source company. It will be routed like a general quote request.",
+    "projectContextTitle": "1. Project context",
+    "productSpecsTitle": "2. Design & equipment parameters",
+    "editBtn": "Edit",
+    "summaryCountry": "Country / region",
+    "summaryIndustry": "Industry / application",
+    "summaryGeneralReq": "Equipment parameters & notes",
+    "summaryMediaName": "Media name",
+    "summaryFluidType": "Fluid type",
+    "summaryInletFluidType": "Inlet fluid type",
+    "summaryOutletFluidType": "Outlet fluid type",
+    "summaryMassFlow": "Mass flow",
+    "summaryInletMassFlow": "Inlet mass flow",
+    "summaryOutletMassFlow": "Outlet mass flow",
+    "summaryInletVolumeFlow": "Inlet volume flow",
+    "summaryOutletVolumeFlow": "Outlet volume flow",
+    "summaryGasPhaseFraction": "Gas phase fraction",
+    "summaryInletGasPhaseFraction": "Inlet gas phase fraction",
+    "summaryOutletGasPhaseFraction": "Outlet gas phase fraction",
+    "summaryDesignPress": "Design pressure",
+    "summaryTestPress": "Test pressure",
+    "summaryDesignTemp": "Design temperature",
+    "summaryDesignCode": "Design code",
+    "summaryDensity": "Density",
+    "summaryInletDensity": "Inlet density",
+    "summaryOutletDensity": "Outlet density",
+    "summarySpecificHeat": "Specific heat",
+    "summaryInletSpecificHeat": "Inlet specific heat",
+    "summaryOutletSpecificHeat": "Outlet specific heat",
+    "summaryConductivity": "Thermal conductivity",
+    "summaryInletConductivity": "Inlet thermal conductivity",
+    "summaryOutletConductivity": "Outlet thermal conductivity",
+    "summaryViscosity": "Dynamic viscosity",
+    "summaryInletViscosity": "Inlet dynamic viscosity",
+    "summaryOutletViscosity": "Outlet dynamic viscosity",
+    "summaryPlateMaterial": "Plate material",
+    "summaryFlangeStandard": "Flange standard",
+    "summaryInletFlangeNominalDiameter": "Inlet nozzle flange nominal diameter",
+    "summaryOutletFlangeNominalDiameter": "Outlet nozzle flange nominal diameter",
+    "summaryFlangeMaterial": "Nozzle flange material",
+    "summaryFlangePressureRating": "Flange pressure rating",
+    "summaryFlangeTypeSealingFace": "Flange type / sealing face",
+    "summaryHeatLoad": "Heat load",
+    "summaryNotes": "Additional notes",
+    "summaryHotSide": "Hot side",
+    "summaryColdSide": "Cold side",
+    "summaryInlet": "Inlet temp",
+    "summaryOutlet": "Outlet temp",
+    "submitBtn": "Get Quote",
+    "otherPrefix": "Other"
+  },
+  "parameterLabels": {
+    "inlet": "Inlet",
+    "outlet": "Outlet",
+    "fluidType": "Fluid type",
+    "massFlow": "Mass flow",
+    "volumeFlow": "Volume flow",
+    "gasPhaseFraction": "Gas phase fraction",
+    "temperature": "Temperature",
+    "density": "Density",
+    "specificHeat": "Specific heat",
+    "thermalConductivity": "Thermal conductivity",
+    "dynamicViscosity": "Dynamic viscosity",
+    "hotSide": "Hot side",
+    "coldSide": "Cold side",
+    "mediaName": "Media name",
+    "designPressure": "Design pressure",
+    "testPressure": "Test pressure",
+    "designTemperature": "Design temperature",
+    "flangeStandard": "Flange standard",
+    "flangeNominalDiameter": "Nozzle flange nominal diameter",
+    "flangeMaterial": "Nozzle flange material",
+    "flangePressureRating": "Flange pressure rating",
+    "flangeTypeSealingFace": "Flange type / sealing face",
+    "thermal": "Thermal and performance parameters",
+    "equipment": "Equipment parameters",
+    "heatLoad": "Heat load",
+    "designCode": "Design code",
+    "plateMaterial": "Plate material"
+  },
+  "success": {
+    "title": "Submitted!",
+    "desc": "We have successfully processed your quote request. We will be in touch shortly to assist you with the next steps.",
+    "homeBtn": "Return to Home"
+  },
+  "actions": {
+    "back": "Back",
+    "continue": "Continue"
+  },
+  "meta": {
+    "keywords": "heat exchanger quote request, heat exchanger RFQ, plate heat exchanger quotation, industrial heat exchanger specifications, heat exchanger manufacturer quote"
+  },
+  "og": {
+    "title": "Smart Quote Request Builder - Get Custom Heat Exchanger Quotes",
+    "description": "Build a professional quote request in minutes. Anonymous mode available. Get quotes from verified manufacturers."
+  }
+}

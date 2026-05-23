@@ -10,11 +10,33 @@ dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+const SHOULD_IMPORT_MANUFACTURER_DATA = false;
+const SHOULD_IMPORT_INDUSTRIES = true;
+const SHOULD_UPLOAD_LOCAL_CONTENTS = true;
+const SHOULD_UPLOAD_LOCAL_WEB_PAGES = true;
+
 // 初始化 Supabase 客户端 (使用 Service Role 绕过 RLS)
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY);
 
 // 目标 Storage Bucket，所有公司与产品资源统一进入 assets bucket
 const TARGET_BUCKET = 'assets';
+const CONTENTS_BUCKET = 'contents';
+const WEBPAGES_BUCKET = 'webpages';
+const INDUSTRIES_JSON_PATH = path.join(__dirname, 'web_data', 'industries.json');
+
+const FOLDER_UPLOAD_TARGETS = [
+    {
+        enabled: SHOULD_UPLOAD_LOCAL_CONTENTS,
+        localFolder: 'local_contents',
+        bucket: CONTENTS_BUCKET
+    },
+    {
+        enabled: SHOULD_UPLOAD_LOCAL_WEB_PAGES,
+        localFolder: 'local_web_pages',
+        bucket: WEBPAGES_BUCKET,
+        ignoredExtensions: new Set(['.csv'])
+    }
+];
 
 const STORAGE_FOLDER_ALIASES = {
     company_docs: 'company_doc',
@@ -68,6 +90,155 @@ function resolveLocalAssetPath(localAssetsDir, folder, normalizedFolder, fileNam
     }
 
     return path.join(__dirname, 'local_assets', localAssetsDir, folder, fileName);
+}
+
+function getFilesRecursively(directory) {
+    const entries = fs.readdirSync(directory, { withFileTypes: true });
+    const files = [];
+
+    for (const entry of entries) {
+        const entryPath = path.join(directory, entry.name);
+
+        if (entry.isDirectory()) {
+            files.push(...getFilesRecursively(entryPath));
+            continue;
+        }
+
+        if (entry.isFile()) {
+            files.push(entryPath);
+        }
+    }
+
+    return files;
+}
+
+function getStoragePath(localRoot, filePath) {
+    return path.relative(localRoot, filePath).split(path.sep).join('/');
+}
+
+async function listStorageFilesRecursively(bucket, prefix = '') {
+    const files = [];
+    let offset = 0;
+    const limit = 1000;
+
+    while (true) {
+        const { data: entries, error: listError } = await supabase.storage
+            .from(bucket)
+            .list(prefix, {
+                limit,
+                offset,
+                sortBy: { column: 'name', order: 'asc' }
+            });
+
+        if (listError) {
+            throw new Error(`读取 bucket 文件列表失败 [${bucket}/${prefix}]: ${listError.message}`);
+        }
+
+        if (!entries || entries.length === 0) {
+            break;
+        }
+
+        for (const entry of entries) {
+            const storagePath = prefix ? `${prefix}/${entry.name}` : entry.name;
+
+            if (entry.id === null) {
+                files.push(...await listStorageFilesRecursively(bucket, storagePath));
+                continue;
+            }
+
+            files.push(storagePath);
+        }
+
+        if (entries.length < limit) {
+            break;
+        }
+
+        offset += limit;
+    }
+
+    return files;
+}
+
+async function removeOrphanedStorageFiles(bucket, expectedStoragePaths) {
+    const existingStoragePaths = await listStorageFilesRecursively(bucket);
+    const orphanedStoragePaths = existingStoragePaths.filter(storagePath => !expectedStoragePaths.has(storagePath));
+
+    if (orphanedStoragePaths.length === 0) {
+        console.log(`🧹 ${bucket} bucket 没有需要删除的冗余文件。`);
+        return;
+    }
+
+    console.log(`🧹 ${bucket} bucket 发现 ${orphanedStoragePaths.length} 个本地已移除的文件，开始删除...`);
+
+    for (let index = 0; index < orphanedStoragePaths.length; index += 100) {
+        const batch = orphanedStoragePaths.slice(index, index + 100);
+        const { error: removeError } = await supabase.storage.from(bucket).remove(batch);
+
+        if (removeError) {
+            console.error(`❌ 删除冗余文件失败 [${bucket}]:`, removeError.message);
+            continue;
+        }
+
+        for (const storagePath of batch) {
+            console.log(`🗑️ 已删除: ${bucket}/${storagePath}`);
+        }
+    }
+}
+
+async function uploadLocalFolderToBucket(localFolder, bucket, options = {}) {
+    const localRoot = path.join(__dirname, localFolder);
+
+    if (!fs.existsSync(localRoot)) {
+        console.warn(`⚠️ 本地目录不存在，跳过上传: ${localRoot}`);
+        return;
+    }
+
+    const files = getFilesRecursively(localRoot)
+        .filter(filePath => !options.ignoredExtensions?.has(path.extname(filePath).toLowerCase()));
+    const expectedStoragePaths = new Set(files.map(filePath => getStoragePath(localRoot, filePath)));
+    console.log(`\n📤 开始上传 ${localFolder} 到 ${bucket} bucket，共 ${files.length} 个文件...`);
+
+    let successCount = 0;
+    let failureCount = 0;
+
+    for (const filePath of files) {
+        const storagePath = getStoragePath(localRoot, filePath);
+        const fileBuffer = fs.readFileSync(filePath);
+        const contentType = mime.lookup(filePath) || 'application/octet-stream';
+
+        const { error: uploadError } = await supabase.storage
+            .from(bucket)
+            .upload(storagePath, fileBuffer, {
+                upsert: true,
+                contentType
+            });
+
+        if (uploadError) {
+            failureCount += 1;
+            console.error(`❌ 上传失败 [${bucket}/${storagePath}]:`, uploadError.message);
+            continue;
+        }
+
+        successCount += 1;
+        console.log(`✅ 已上传: ${bucket}/${storagePath}`);
+    }
+
+    console.log(`📦 ${bucket} bucket 上传完成：成功 ${successCount} 个，失败 ${failureCount} 个。`);
+
+    await removeOrphanedStorageFiles(bucket, expectedStoragePaths);
+}
+
+async function uploadConfiguredLocalFolders() {
+    for (const target of FOLDER_UPLOAD_TARGETS) {
+        if (!target.enabled) {
+            console.log(`⏭️ 跳过 ${target.localFolder} 上传，flag 为 false。`);
+            continue;
+        }
+
+        await uploadLocalFolderToBucket(target.localFolder, target.bucket, {
+            ignoredExtensions: target.ignoredExtensions
+        });
+    }
 }
 
 async function findOrCreateManufacturer(manufacturer) {
@@ -151,6 +322,73 @@ async function findOrCreateProduct(product, manufacturerId) {
     }
 
     return createdProduct.id;
+}
+
+function readIndustries() {
+    if (!fs.existsSync(INDUSTRIES_JSON_PATH)) {
+        throw new Error(`找不到 industries JSON 文件: ${INDUSTRIES_JSON_PATH}`);
+    }
+
+    const industries = JSON.parse(fs.readFileSync(INDUSTRIES_JSON_PATH, 'utf8'));
+
+    if (!Array.isArray(industries)) {
+        throw new Error('industries.json 必须是数组。');
+    }
+
+    return industries.map((industry) => {
+        if (!industry.id || !industry.slug || !industry.name || typeof industry.name !== 'object') {
+            throw new Error(`industries.json 数据格式不正确: ${JSON.stringify(industry)}`);
+        }
+
+        return {
+            id: Number(industry.id),
+            slug: industry.slug,
+            name: industry.name,
+            is_visible: Boolean(industry.is_visible)
+        };
+    });
+}
+
+async function syncIndustries() {
+    const industries = readIndustries();
+    const expectedIds = new Set(industries.map((industry) => industry.id));
+
+    console.log(`\n🏷️ 开始同步 industries 表，共 ${industries.length} 条记录...`);
+
+    const { error: upsertError } = await supabase
+        .from('industries')
+        .upsert(industries, { onConflict: 'id' });
+
+    if (upsertError) {
+        throw new Error(`industries 表 upsert 失败: ${upsertError.message}`);
+    }
+
+    const { data: existingIndustries, error: selectError } = await supabase
+        .from('industries')
+        .select('id');
+
+    if (selectError) {
+        throw new Error(`读取 industries 表失败: ${selectError.message}`);
+    }
+
+    for (const existingIndustry of existingIndustries || []) {
+        if (expectedIds.has(Number(existingIndustry.id))) {
+            continue;
+        }
+
+        const { error: deleteError } = await supabase
+            .from('industries')
+            .delete()
+            .eq('id', existingIndustry.id);
+
+        if (deleteError) {
+            throw new Error(`删除冗余 industry 失败 [${existingIndustry.id}]: ${deleteError.message}`);
+        }
+
+        console.log(`🗑️ 已删除本地 JSON 不存在的 industry: ${existingIndustry.id}`);
+    }
+
+    console.log('✅ industries 表同步完成。');
 }
 
 /**
@@ -402,4 +640,20 @@ async function runImport() {
     console.log('\n🎉 所有公司数据和文件导入完成！');
 }
 
-runImport().catch(console.error);
+async function main() {
+    if (SHOULD_IMPORT_INDUSTRIES) {
+        await syncIndustries();
+    } else {
+        console.log('⏭️ 跳过 industries 表同步，flag 为 false。');
+    }
+
+    if (SHOULD_IMPORT_MANUFACTURER_DATA) {
+        await runImport();
+    } else {
+        console.log('⏭️ 跳过公司/产品数据导入，flag 为 false。');
+    }
+
+    await uploadConfiguredLocalFolders();
+}
+
+main().catch(console.error);

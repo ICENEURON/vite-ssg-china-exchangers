@@ -1,0 +1,46 @@
+{
+  "title": "Development Dashboard",
+  "meta": {
+    "description": "Your personal development dashboard showcasing React, Vite, TailwindCSS, and Shadcn UI components in action.",
+    "keywords": "dashboard, react, vite, tailwindcss, shadcn, development, components, ui"
+  },
+  "og": {
+    "title": "Development Dashboard - React + Vite + TailwindCSS + Shadcn",
+    "description": "Interactive dashboard demonstrating the power of modern web development tools."
+  },
+  "welcome": {
+    "title": "Welcome to Your Dashboard",
+    "subtitle": "Signed in as {{email}}",
+    "description": "Explore the capabilities of our technology stack through this interactive dashboard."
+  },
+  "sections": {
+    "components": {
+      "title": "UI Components Showcase",
+      "description": "Interactive examples of Shadcn UI components"
+    },
+    "performance": {
+      "title": "Performance Metrics",
+      "description": "Real-time application performance indicators"
+    },
+    "development": {
+      "title": "Development Tools",
+      "description": "Useful tools and utilities for development"
+    },
+    "theming": {
+      "title": "Theme Configuration",
+      "description": "Customize the application appearance"
+    }
+  },
+  "stats": {
+    "components": "50+ Components",
+    "themes": "Light & Dark Modes",
+    "responsive": "Fully Responsive",
+    "accessible": "WCAG Compliant"
+  },
+  "actions": {
+    "sign_out": "Sign out",
+    "view_code": "View Source Code",
+    "download": "Download Project",
+    "customize": "Customize Theme"
+  }
+}

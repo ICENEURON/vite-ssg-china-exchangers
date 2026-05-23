@@ -1,0 +1,60 @@
+{
+  "filter_all_industries": "All Industries",
+  "no_results": "No manufacturers found matching the selected filters.",
+  "clear_all": "Clear All",
+  "filter_industry": "Industry",
+  "title": "Verified Heat Exchanger Manufacturers | HeatEx Direct",
+  "meta": {
+    "description": "Browse a focused platform of reviewed Chinese heat exchanger manufacturers with industry, company profile, product coverage, and export market details.",
+    "keywords": "verified heat exchanger manufacturers, China heat exchanger factories, manufacturer platform, industrial heat exchanger sourcing"
+  },
+  "og": {
+    "title": "Verified Heat Exchanger Manufacturers | HeatEx Direct",
+    "description": "Browse reviewed Chinese heat exchanger manufacturers and quickly narrow suppliers by industry."
+  },
+  "hero": {
+    "title": "Chinese Heat Exchanger Manufacturers",
+    "description": "Browse listed Chinese heat exchanger manufacturers and review their company profiles, product coverage, application experience, and export markets to identify suppliers that fit your sourcing needs."
+  },
+  "card": {
+    "verified": "VERIFIED",
+    "view_profile": "View Profile"
+  },
+  "company": {
+    "page_title": "Manufacturer Profile",
+    "meta_description_default": "Manufacturer Profile",
+    "back_to_list": "Back to Manufacturers",
+    "connect_description": "Submit your project requirements and get manufacturer quote feedback.",
+    "connect_note": "Share your specs, quantity, and project needs. HeatEx Direct will organize the inquiry and pass it to matching heat exchanger manufacturers for follow-up.",
+    "quote_here": "Request for Quote",
+    "iso_certified": "ISO Certified",
+    "asme_stamp": "ASME Stamp",
+    "business_license": "Business Lic.",
+    "global_trade": "Global Trade",
+    "verified": "Reviewed",
+    "not_available": "N/A",
+    "company_overview": "Company Overview",
+    "why_choose_us": "Why Choose Us",
+    "industries_served": "Industries Served",
+    "official_website": "Official Website",
+    "visit_manufacturer": "Visit Manufacturer Website ",
+    "product_showcase": "Product Showcase",
+    "technical_specifications": "Technical Specifications",
+    "factory_gallery": "Factory Gallery",
+    "factory_certifications": "Factory Certifications",
+    "trusted_customers": "Trusted by Global Leaders",
+    "trusted_customers_desc": "Delivering excellence to major players across industries.",
+    "partner_with": "Partner with {{name}}",
+    "partner_desc": "Get verified quality and direct-from-factory pricing.",
+    "established": "Est. {{year}}",
+    "factory_area_summary": "Site area {{value}} m²",
+    "employee_count_summary": "Employees {{value}}",
+    "available_categories": "Available Product Categories:",
+    "export_markets": "Export Markets",
+    "contact_info": "Contact Info",
+    "certificate": "Certificate",
+    "follow_us": "Follow Us",
+    "document_downloads": "Document Downloads",
+    "download": "Download"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "title": "登录您的账号",
+  "meta": {
+    "description": "登录以访问您的个人仪表板，探索 React、Vite、TailwindCSS 和 Shadcn UI 组件。",
+    "keywords": "登录, 认证, react, 仪表板, 账号"
+  },
+  "og": {
+    "title": "登录 - React + Vite + TailwindCSS + Shadcn",
+    "description": "访问您的开发仪表板，探索现代网页技术。"
+  },
+  "hero": {
+    "title": "欢迎回来",
+    "subtitle": "登录以访问您的开发仪表板并探索我们的技术栈。"
+  },
+  "form": {
+    "email": "电子邮件",
+    "password": "密码",
+    "signin": "登录",
+    "signing_in": "登录中...",
+    "forgot_password": "忘记密码？",
+    "no_account": "还没有账号？",
+    "signup_link": "在此注册"
+  },
+  "benefits": {
+    "title": "您将获得的功能：",
+    "items": [
+      "互动式组件展示",
+      "实时代码示例",
+      "性能指标",
+      "自定义工具"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "title": "Update Your Manufacturer Profile | HeatEx Direct",
+  "meta": {
+    "description": "Update a Chinese heat exchanger manufacturer profile on HeatEx Direct by emailing company information, product details, files, certificates, images, and correction requests.",
+    "keywords": "update manufacturer profile, HeatEx Direct supplier profile, Chinese heat exchanger manufacturer update, supplier images, product files"
+  },
+  "og": {
+    "title": "Update Your Manufacturer Profile - HeatEx Direct",
+    "description": "Send updated manufacturer information, product details, images, files, and corrections to HeatEx Direct by email for review."
+  },
+  "hero": {
+    "title": "Update Your Manufacturer Profile",
+    "description": "Manufacturers can use the templates below to submit updated manufacturer information, product details, images, certificates, brochures, and other supporting media. We review all details and update the public profile where the information is relevant and verifiable.",
+    "highlights": [
+      "Email-based updates",
+      "Images and files accepted",
+      "Profile templates available"
+    ],
+    "company_template_cta": "Company Template",
+    "product_template_cta": "Product Template",
+    "panel": {
+      "items": [
+        {
+          "title": "Send materials by email",
+          "description": "Include your company name, profile link if available, completed template, and supporting files."
+        },
+        {
+          "title": "We review the content",
+          "description": "We check whether the information is relevant, clear, usable, and suitable for the public profile."
+        },
+        {
+          "title": "Approved updates go live",
+          "description": "Relevant updates will be added to the manufacturer profile, product pages, or media sections after review."
+        }
+      ]
+    }
+  },
+  "update_scope": {
+    "title": "What You Can Update",
+    "description": "We prefer clear, specific information that helps buyers understand your company, products, documents, and real manufacturing capability.",
+    "items": [
+      {
+        "title": "Company Information",
+        "description": "Company name, location, website, year founded, business scope, export markets, core industries, and contact details."
+      },
+      {
+        "title": "Product Information",
+        "description": "Heat exchanger types, applications, materials, pressure and temperature ranges, product series, standards, and available models."
+      },
+      {
+        "title": "Documents and Certificates",
+        "description": "Brochures, catalogues, datasheets, certificates, manuals, public references, and other product or company files."
+      },
+      {
+        "title": "Images and Media",
+        "description": "Product photos, factory photos, workshop images, process images, logos, exhibition photos, and other media suitable for public display."
+      }
+    ]
+  },
+  "process": {
+    "title": "How Profile Are Reviewed",
+    "description": "All update requests are reviewed manually. We may edit wording, ask for clarification, or decline content that is incomplete, unrelated, unverifiable, or too promotional."
+  },
+  "submission": {
+    "contact": {
+      "subject_label": "Suggested subject",
+      "subject_description": "Use a clear subject line with your company name so we can match the update to the right profile.",
+      "copied": "Copied!"
+    },
+    "required": {
+      "title": "Completed Template",
+      "description": "Please send the completed profile update template as an email attachment."
+    },
+    "media": {
+      "title": "File Attachments",
+      "description": "Send product images, factory photos, certificates, brochures, logos, and other supporting files as email attachments."
+    },
+    "footer_note": "All submitted materials will be manually reviewed before any updates are made."
+  }
+}

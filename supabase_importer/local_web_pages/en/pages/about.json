@@ -1,0 +1,96 @@
+{
+  "title": "HeatEx Direct | China Heat Exchanger Manufacturer Research Service",
+  "meta": {
+    "description": "HeatEx Direct is an independent information service focused on Chinese industrial heat exchanger manufacturer profiles, supplier data, and structured sourcing content.",
+    "keywords": "HeatEx Direct, China heat exchanger manufacturers, industrial heat exchanger sourcing research, heat exchanger supplier profiles, China manufacturer platform"
+  },
+  "og": {
+    "title": "HeatEx Direct - Chinese Heat Exchanger Supplier Information",
+    "description": "HeatEx Direct is an independent sourcing research service helping global buyers understand Chinese heat exchanger manufacturers, product capabilities, and supplier profiles."
+  },
+  "hero": {
+    "title": "An Independent Platform for Chinese Heat Exchanger Manufacturer Information",
+    "title_highlight": "HeatEx Direct is an independent information platform that helps global industrial buyers understand Chinese heat exchanger manufacturers before starting supplier conversations.",
+    "description_1": "We organize manufacturer profiles, product information, application sectors, public materials, factory evidence, brochures, images, and technical notes into a clearer structure for sourcing research and engineering review.",
+    "highlights": [
+      "Independent information platform serving global buyers.",
+      "Focused on Chinese industrial heat exchanger manufacturers.",
+      "Built for procurement, engineering, project contractor, distributor, and system integrator review."
+    ]
+  },
+  "who_we_are": {
+    "story_title": "Why HeatEx Direct exists",
+    "description": "HeatEx Direct gathers practical, up-to-date industrial information to support sourcing research for industrial heat exchangers. We help global buyers better understand Chinese manufacturers, product capabilities, and the Chinese heat exchanger market before deciding who to contact.",
+    "paragraphs": [
+      "China has many heat exchanger companies with real manufacturing capability across different industrial applications. For overseas buyers, however, useful supplier information is often scattered across Chinese websites, public materials, exhibition documents, product brochures, images, and factory media.",
+      "HeatEx Direct turns that scattered information into a clearer structure for sourcing research and technical review. We focus on company background, product scope, industries served, export markets, certificates, media assets, product details, technical parameters, and application information so buyers can form a clearer view before making contact."
+    ],
+    "identity_cards": [
+      {
+        "title": "We are an independent information platform",
+        "body": "We do not represent a single factory, and we do not present supplier pages as one-company advertisements. The goal is to make manufacturer information easier to review, understand, and use."
+      },
+      {
+        "title": "We focus only on heat exchangers",
+        "body": "Our content is built around industrial heat exchangers, thermal transfer equipment, related product capabilities, and sourcing parameters, reducing unrelated listing noise."
+      },
+      {
+        "title": "We serve global industrial buyers",
+        "body": "Procurement teams, engineers, project contractors, distributors, and system integrators can use the platform to review manufacturers and submit structured project requirements through the 'Request for Quote' form."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Structured Supplier Information",
+    "descriptions": [
+      "Many buyers already have supplier names, but not enough structured information to understand whether those suppliers are relevant, credible, and worth deeper review.",
+      "HeatEx Direct organizes scattered supplier information into clearer sourcing material, helping buyers look beyond company introductions and sales claims before starting supplier conversations."
+    ],
+    "items": [
+      {
+        "title": "Organized Information",
+        "desc": "We organize scattered supplier information into a clearer structure for early sourcing review."
+      },
+      {
+        "title": "Checkable Facts",
+        "desc": "Manufacturer pages highlight details buyers can review, such as company info, product evidence, documents, and public signals."
+      },
+      {
+        "title": "Product Fit",
+        "desc": "Supplier information is organized around equipment type, application needs, operating conditions, and available documents."
+      },
+      {
+        "title": "Clear Boundaries",
+        "desc": "We make available facts, checkable materials, and missing information easier to separate from general promotional claims."
+      }
+    ]
+  },
+  "verification": {
+    "title": "What We Include In Each Profile",
+    "description": "We organize manufacturer information into practical sections so buyers can quickly understand who the supplier is, what they make, where their products are used, and what supporting materials are available.",
+    "steps": {
+      "scope": {
+        "title": "Company Background",
+        "description": "Company name, location, business focus, product range, and public information for basic supplier review."
+      },
+      "database": {
+        "title": "Product Capability",
+        "description": "Equipment types, materials, application areas, operating conditions, and related product information for technical screening."
+      },
+      "shipping": {
+        "title": "Files and Media",
+        "description": "Available images, certificates, brochures, website content, factory materials, and other supporting files."
+      },
+      "location": {
+        "title": "Project Requirements",
+        "description": "The Request for Quote form collects key project details so suitable manufacturers can provide more relevant quotation feedback."
+      }
+    }
+  },
+  "cta": {
+    "title": "Browse Manufacturer Profiles",
+    "subtitle": "Review listed manufacturers, product coverage, applications, and supporting materials.",
+    "button": "Browse Manufacturers",
+    "email_text": "Questions? Email us:"
+  }
+}

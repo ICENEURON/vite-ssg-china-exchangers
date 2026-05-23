@@ -1,0 +1,40 @@
+{
+  "title": "HeatEx Direct | 工业换热器制造商",
+  "meta": {
+    "description": "直接从经过验证的中国工厂采购工业换热器。人工核实营业执照、生产范围和 ASME 证书。",
+    "keywords": "换热器, 中国制造商, 工业采购, ASME, ISO, 板式换热器, 管壳式换热器"
+  },
+  "og": {
+    "title": "HeatEx Direct - 验证工厂直连",
+    "description": "直接从经过验证的中国工厂采购工业换热器。人工核实营业执照、生产范围和 ASME 证书。"
+  },
+  "page": {
+    "title": "行业新闻",
+    "subtitle": ""
+  },
+  "card": {
+    "read": "阅读文章"
+  },
+  "content_types": {
+    "news": "新闻",
+    "posts": "技术文章"
+  },
+  "filters": {
+    "company": "公司",
+    "all": "全部",
+    "no_results": "没有符合筛选条件的文章。"
+  },
+  "search": {
+    "label": "搜索文章标题",
+    "title_placeholder": "搜索标题关键词"
+  },
+  "blog": {
+    "not_found_title": "找不到页面",
+    "not_found_desc": "您正在寻找的文章可能已被移除、更改名称，或是暂时无法使用。",
+    "back_to_list": "返回列表",
+    "back_to_catalog": "返回新闻目录",
+    "author": "作者",
+    "read_time": "阅读时间",
+    "related_posts": "最新文章"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Create Your Account",
+  "meta": {
+    "description": "Create a HeatEx Direct account for protected buyer and supplier features.",
+    "keywords": "register, HeatEx Direct, buyer account, supplier account, heat exchangers"
+  },
+  "og": {
+    "title": "Register - HeatEx Direct",
+    "description": "Create a HeatEx Direct account for sourcing and supplier collaboration features."
+  },
+  "hero": {
+    "title": "Create a HeatEx Direct Account",
+    "subtitle": "Access future quote request, profile management, and supplier collaboration features."
+  },
+  "form": {
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "create_account": "Create account",
+    "creating": "Creating account...",
+    "have_account": "Already have an account?",
+    "signin_link": "Sign in here"
+  },
+  "benefits": {
+    "title": "Account access can support",
+    "items": [
+      "Protected buyer workflows",
+      "Future quote request status visibility",
+      "Supplier profile update management",
+      "Technical content and profile updates",
+      "Future platform collaboration tools"
+    ]
+  },
+  "messages": {
+    "success_message": "Account created successfully! Please check your email to confirm your registration.",
+    "welcome": "Welcome to HeatEx Direct."
+  }
+}
