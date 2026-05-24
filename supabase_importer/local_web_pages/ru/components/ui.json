@@ -1,0 +1,21 @@
+{
+  "accessibility": {
+    "toggle_mobile_menu": "Переключить мобильное меню",
+    "toggle_theme": "Переключить тему",
+    "select_language": "Выберите язык",
+    "close_image_preview": "Закрыть предварительный просмотр изображения",
+    "previous_image": "Предыдущее изображение",
+    "next_image": "Следующее изображение",
+    "previous_slide": "Предыдущий слайд",
+    "next_slide": "Следующий слайд",
+    "pagination": "Пагинация",
+    "previous_page": "Перейти на предыдущую страницу",
+    "next_page": "Перейти на следующую страницу"
+  },
+  "image": {
+    "logo_alt": "Логотип HeatEx Direct",
+    "industrial_facility": "Промышленный объект",
+    "preview_image": "Предварительный просмотр изображения",
+    "preview_thumbnail": "Миниатюра для предварительного просмотра"
+  }
+}

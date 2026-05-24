@@ -4,7 +4,8 @@
     "slug": "hvac",
     "name": {
       "en": "HVAC",
-      "zh": "暖通空调"
+      "zh": "暖通空调",
+      "ru": "ОВК"
     },
     "is_visible": true
   },
@@ -13,7 +14,8 @@
     "slug": "petrochemical",
     "name": {
       "en": "Petrochemical",
-      "zh": "石油化工"
+      "zh": "石油化工",
+      "ru": "Нефтехимия"
     },
     "is_visible": true
   },
@@ -22,7 +24,8 @@
     "slug": "marine",
     "name": {
       "en": "Marine",
-      "zh": "船舶/海工"
+      "zh": "船舶/海工",
+      "ru": "Морская отрасль"
     },
     "is_visible": true
   },
@@ -31,7 +34,8 @@
     "slug": "energy",
     "name": {
       "en": "Energy",
-      "zh": "能源"
+      "zh": "能源",
+      "ru": "Энергетика"
     },
     "is_visible": true
   },
@@ -40,7 +44,8 @@
     "slug": "food-processing",
     "name": {
       "en": "Food Processing",
-      "zh": "食品加工"
+      "zh": "食品加工",
+      "ru": "Пищевая переработка"
     },
     "is_visible": true
   },
@@ -49,7 +54,8 @@
     "slug": "chemical-processing",
     "name": {
       "en": "Chemical Processing",
-      "zh": "化工"
+      "zh": "化工",
+      "ru": "Химическая промышленность"
     },
     "is_visible": true
   },
@@ -58,7 +64,8 @@
     "slug": "food-and-beverage",
     "name": {
       "en": "Food and Beverage",
-      "zh": "食品与饮料"
+      "zh": "食品与饮料",
+      "ru": "Пищевая промышленность и напитки"
     },
     "is_visible": true
   },
@@ -67,7 +74,8 @@
     "slug": "pharmaceuticals",
     "name": {
       "en": "Pharmaceuticals",
-      "zh": "制药"
+      "zh": "制药",
+      "ru": "Фармацевтика"
     },
     "is_visible": true
   },
@@ -76,7 +84,8 @@
     "slug": "power-generation",
     "name": {
       "en": "Power Generation",
-      "zh": "发电/电力"
+      "zh": "发电/电力",
+      "ru": "Электроэнергетика"
     },
     "is_visible": true
   }
