@@ -1,9 +1,19 @@
 import * as CookieConsent from 'vanilla-cookieconsent';
 import 'vanilla-cookieconsent/dist/cookieconsent.css';
 import './cookie-consent.css';
+import enCookie from '../../locales/en/components/cookie.json';
+import ruCookie from '../../locales/ru/components/cookie.json';
+import zhCookie from '../../locales/zh/components/cookie.json';
 
 const analyticsCategory = 'analytics';
 const gaMeasurementId = import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-077PBFJFEZ';
+const cookieTranslations = {
+  en: enCookie,
+  ru: ruCookie,
+  zh: zhCookie,
+} as const;
+
+type CookieLanguage = keyof typeof cookieTranslations;
 
 let gaLoaded = false;
 let cookieConsentInitialized = false;
@@ -23,12 +33,71 @@ function getSiteHostname() {
   return window.location.hostname;
 }
 
-function getCurrentLanguage() {
-  return window.__LANGUAGE__ === 'zh' || window.location.pathname.startsWith('/zh') ? 'zh' : 'en';
+function isCookieLanguage(language: string | undefined): language is CookieLanguage {
+  return Boolean(language && language in cookieTranslations);
+}
+
+function getCurrentLanguage(): CookieLanguage {
+  if (isCookieLanguage(window.__LANGUAGE__)) return window.__LANGUAGE__;
+
+  const pathLanguage = window.location.pathname.replace(/^\//, '').split('/')[0];
+  return isCookieLanguage(pathLanguage) ? pathLanguage : 'en';
+}
+
+function getLocalizedPath(language: CookieLanguage, path: string) {
+  return language === 'en' ? path : `/${language}${path}`;
 }
 
 function getLocalizedPrivacyPath() {
-  return getCurrentLanguage() === 'zh' ? '/zh/privacy' : '/privacy';
+  return getLocalizedPath(getCurrentLanguage(), '/privacy');
+}
+
+function interpolateLinks(text: string, language: CookieLanguage) {
+  return text
+    .replaceAll('{{privacyPath}}', getLocalizedPath(language, '/privacy'))
+    .replaceAll('{{termsPath}}', getLocalizedPath(language, '/terms'));
+}
+
+function buildCookieTranslation(language: CookieLanguage, cookieDomainLabel: string) {
+  const translation = cookieTranslations[language];
+  const necessarySection = translation.preferencesModal.sections.necessary;
+  const analyticsSection = translation.preferencesModal.sections.analytics;
+
+  return {
+    consentModal: {
+      ...translation.consentModal,
+      description: interpolateLinks(translation.consentModal.description, language),
+    },
+    preferencesModal: {
+      title: translation.preferencesModal.title,
+      acceptAllBtn: translation.preferencesModal.acceptAllBtn,
+      acceptNecessaryBtn: translation.preferencesModal.acceptNecessaryBtn,
+      savePreferencesBtn: translation.preferencesModal.savePreferencesBtn,
+      closeIconLabel: translation.preferencesModal.closeIconLabel,
+      sections: [
+        {
+          title: necessarySection.title,
+          description: necessarySection.description,
+          linkedCategory: 'necessary',
+        },
+        {
+          title: analyticsSection.title,
+          description: analyticsSection.description,
+          linkedCategory: analyticsCategory,
+          cookieTable: {
+            headers: analyticsSection.tableHeaders,
+            body: [
+              {
+                name: analyticsSection.tableBody.name,
+                domain: cookieDomainLabel,
+                desc: analyticsSection.tableBody.desc,
+              },
+            ],
+          },
+        },
+      ],
+    },
+  };
 }
 
 function routeLearnMoreToPrivacy() {
@@ -145,7 +214,7 @@ export function initializeCookieConsent() {
         layout: 'bar',
         position: 'bottom',
         equalWeightButtons: false,
-        flipButtons: true,
+        flipButtons: false,
       },
       preferencesModal: {
         layout: 'box',
@@ -171,88 +240,9 @@ export function initializeCookieConsent() {
       default: getCurrentLanguage(),
       autoDetect: 'document',
       translations: {
-        en: {
-          consentModal: {
-            title: 'Cookie Policy',
-            description: 'HeatEx Direct uses cookies to operate the website and understand site usage. By using this site and selecting Accept Terms, you agree to our <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Use</a>.',
-            acceptAllBtn: 'Accept Terms',
-            showPreferencesBtn: 'Learn More',
-            closeIconLabel: 'Close',
-          },
-          preferencesModal: {
-            title: 'Cookie preferences',
-            acceptAllBtn: 'Accept all',
-            savePreferencesBtn: 'Save',
-            closeIconLabel: 'Close',
-            sections: [
-              {
-                title: 'Necessary cookies',
-                description: 'Required for core site features and remembering your cookie choice.',
-                linkedCategory: 'necessary',
-              },
-              {
-                title: 'Analytics cookies',
-                description: 'Helps us understand how visitors use the site so we can improve content and navigation.',
-                linkedCategory: analyticsCategory,
-                cookieTable: {
-                  headers: {
-                    name: 'Cookie',
-                    domain: 'Domain',
-                    desc: 'Purpose',
-                  },
-                  body: [
-                    {
-                      name: '_ga, _ga_*',
-                      domain: cookieDomainLabel,
-                      desc: 'Measures site usage when analytics is accepted.',
-                    },
-                  ],
-                },
-              },
-            ],
-          },
-        },
-        zh: {
-          consentModal: {
-            title: 'Cookie 政策',
-            description: 'HeatEx Direct 使用 Cookie 来运行网站并了解网站使用情况。当你使用本网站并选择接受条款时，即表示你同意我们的 <a href="/zh/privacy">隐私政策</a> 和 <a href="/zh/terms">使用条款</a>。',
-            acceptAllBtn: '接受条款',
-            showPreferencesBtn: '了解更多',
-            closeIconLabel: '关闭',
-          },
-          preferencesModal: {
-            title: 'Cookie 偏好设置',
-            acceptAllBtn: '全部同意',
-            savePreferencesBtn: '保存',
-            closeIconLabel: '关闭',
-            sections: [
-              {
-                title: '必要 Cookie',
-                description: '用于网站核心功能，并记住你的 Cookie 选择。',
-                linkedCategory: 'necessary',
-              },
-              {
-                title: '分析 Cookie',
-                description: '帮助我们了解访客如何使用网站，以改进内容和导航。',
-                linkedCategory: analyticsCategory,
-                cookieTable: {
-                  headers: {
-                    name: 'Cookie',
-                    domain: '域名',
-                    desc: '用途',
-                  },
-                  body: [
-                    {
-                      name: '_ga, _ga_*',
-                      domain: cookieDomainLabel,
-                      desc: '在你同意分析后，用于衡量网站使用情况。',
-                    },
-                  ],
-                },
-              },
-            ],
-          },
-        },
+        en: buildCookieTranslation('en', cookieDomainLabel),
+        ru: buildCookieTranslation('ru', cookieDomainLabel),
+        zh: buildCookieTranslation('zh', cookieDomainLabel),
       },
     },
     onConsent: syncAnalyticsState,

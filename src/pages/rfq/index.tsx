@@ -18,32 +18,32 @@ import { resources } from "../../locales/resources"
 
 interface SourceManufacturer {
   slug: string;
-  name: {
-    en: string;
-    zh: string;
-  };
+  name: Partial<Record<LocaleCode, string>> & { en: string };
 }
 
-type LocaleCode = "en" | "zh";
+type LocaleCode = keyof typeof resources;
 type LocalizedLabel = Record<LocaleCode, string>;
 type LocaleOption = { id: string; label: string };
 type RfqLocale = typeof resources.en.translation.pages.rfq;
 
-const LOCALE_CODES: LocaleCode[] = ["en", "zh"];
+const LOCALE_CODES = Object.keys(resources) as LocaleCode[];
 
 function getRfqLocale(locale: LocaleCode): RfqLocale {
-  return resources[locale].translation.pages.rfq;
+  return resources[locale].translation.pages.rfq as RfqLocale;
 }
 
 function getRfqParameterLabel(key: keyof RfqLocale["parameterLabels"]): LocalizedLabel {
-  return {
-    en: getRfqLocale("en").parameterLabels[key],
-    zh: getRfqLocale("zh").parameterLabels[key],
-  };
+  return LOCALE_CODES.reduce((labels, locale) => {
+    labels[locale] = getRfqLocale(locale).parameterLabels[key] || getRfqLocale("en").parameterLabels[key];
+    return labels;
+  }, {} as LocalizedLabel);
 }
 
 function sameLocalizedLabel(value: string): LocalizedLabel {
-  return { en: value, zh: value };
+  return LOCALE_CODES.reduce((labels, locale) => {
+    labels[locale] = value;
+    return labels;
+  }, {} as LocalizedLabel);
 }
 
 function getLocalizedOptionLabels(collection: "fluidTypes" | "plateMaterials" | "flangeStandards") {

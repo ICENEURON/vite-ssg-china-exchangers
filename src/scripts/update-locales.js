@@ -7,7 +7,17 @@ const __dirname = path.dirname(__filename);
 
 const dataDir = path.resolve(__dirname, '../data');
 const localesDir = path.resolve(__dirname, '../locales');
-const fallbackLanguages = ['en', 'zh'];
+const fallbackLanguages = getConfiguredLanguages();
+
+function getConfiguredLanguages() {
+  try {
+    const languages = JSON.parse(fs.readFileSync(path.join(localesDir, 'languages.json'), 'utf-8'));
+    const languageCodes = Object.keys(languages);
+    return languageCodes.length > 0 ? languageCodes : ['en', 'zh'];
+  } catch {
+    return ['en', 'zh'];
+  }
+}
 
 function ensureLocalesDir() {
   fs.mkdirSync(localesDir, { recursive: true });

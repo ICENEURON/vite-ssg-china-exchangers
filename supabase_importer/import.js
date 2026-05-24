@@ -5,15 +5,26 @@ import path from 'path';
 import mime from 'mime-types';
 import { fileURLToPath } from 'url';
 
-dotenv.config();
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const SHOULD_IMPORT_MANUFACTURER_DATA = false;
-const SHOULD_IMPORT_INDUSTRIES = true;
-const SHOULD_UPLOAD_LOCAL_CONTENTS = true;
-const SHOULD_UPLOAD_LOCAL_WEB_PAGES = true;
+dotenv.config({ path: path.join(__dirname, '.env') });
+dotenv.config();
+
+function readBooleanFlag(name, fallback) {
+    const value = process.env[name];
+
+    if (value === undefined || value === '') {
+        return fallback;
+    }
+
+    return !['0', 'false', 'no', 'off'].includes(value.toLowerCase());
+}
+
+const SHOULD_IMPORT_MANUFACTURER_DATA = readBooleanFlag('SHOULD_IMPORT_MANUFACTURER_DATA', true);
+const SHOULD_IMPORT_INDUSTRIES = readBooleanFlag('SHOULD_IMPORT_INDUSTRIES', true);
+const SHOULD_UPLOAD_LOCAL_CONTENTS = readBooleanFlag('SHOULD_UPLOAD_LOCAL_CONTENTS', true);
+const SHOULD_UPLOAD_LOCAL_WEB_PAGES = readBooleanFlag('SHOULD_UPLOAD_LOCAL_WEB_PAGES', true);
 
 // 初始化 Supabase 客户端 (使用 Service Role 绕过 RLS)
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY);

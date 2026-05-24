@@ -1,6 +1,7 @@
 import navigation from './components/navigation.json';
 import footer from './components/footer.json';
 import ui from './components/ui.json';
+import cookie from './components/cookie.json';
 import industries from './common/industries.json';
 import home from './pages/home.json';
 import manufacturers from './pages/manufacturers.json';
@@ -64,6 +65,7 @@ export default {
   navigation,
   footer,
   ui,
+  cookie,
   industries,
   pages: {
     home,

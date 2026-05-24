@@ -1,0 +1,432 @@
+{
+  "industries": [
+    {
+      "id": "hvac",
+      "label": "ОВиК и строительные услуги"
+    },
+    {
+      "id": "food",
+      "label": "Продукты питания, молочные продукты и напитки"
+    },
+    {
+      "id": "chemicals",
+      "label": "Химия и нефтехимия"
+    },
+    {
+      "id": "marine",
+      "label": "Морской транспорт и транспорт"
+    },
+    {
+      "id": "power",
+      "label": "Производство электроэнергии и энергетика"
+    },
+    {
+      "id": "pharma",
+      "label": "Фармацевтика и биотехнологии"
+    },
+    {
+      "id": "pulp",
+      "label": "Целлюлоза и бумага"
+    },
+    {
+      "id": "water",
+      "label": "Очистка воды и отходов"
+    },
+    {
+      "id": "mining",
+      "label": "Горное дело и полезные ископаемые"
+    },
+    {
+      "id": "other",
+      "label": "Другое"
+    }
+  ],
+  "timelines": [
+    {
+      "id": "in_stock",
+      "label": "В наличии / быстрая доставка (1-2 недели)"
+    },
+    {
+      "id": "standard",
+      "label": "Стандартное производство (3-6 недель)"
+    },
+    {
+      "id": "custom",
+      "label": "Индивидуальный/крупномасштабный (7-12 недель)"
+    },
+    {
+      "id": "project",
+      "label": "Длительное время выполнения проекта (12+ недель)"
+    },
+    {
+      "id": "planning",
+      "label": "Этап планирования (нет непосредственной необходимости)"
+    },
+    {
+      "id": "other",
+      "label": "Другое"
+    }
+  ],
+  "quantities": [
+    {
+      "id": "1_unit",
+      "label": "1 единица (замена/образец)"
+    },
+    {
+      "id": "2_5_units",
+      "label": "2-5 единиц (маленькая система)"
+    },
+    {
+      "id": "6_20_units",
+      "label": "6-20 единиц (средняя система)"
+    },
+    {
+      "id": "20_plus_units",
+      "label": "20+ единиц (крупномасштабный проект)"
+    },
+    {
+      "id": "other",
+      "label": "Другое"
+    }
+  ],
+  "productTypes": [
+    {
+      "id": "gasketed_phe",
+      "label": "Разборный пластинчатый теплообменник"
+    },
+    {
+      "id": "brazed_phe",
+      "label": "Паяный пластинчатый теплообменник"
+    },
+    {
+      "id": "welded_phe",
+      "label": "Сварной пластинчатый теплообменник"
+    },
+    {
+      "id": "shell_tube",
+      "label": "Кожухотрубный теплообменник"
+    },
+    {
+      "id": "air_cooled",
+      "label": "Теплообменник с воздушным охлаждением"
+    },
+    {
+      "id": "spares",
+      "label": "Запасные части (пластины, прокладки)"
+    },
+    {
+      "id": "other",
+      "label": "Другое"
+    }
+  ],
+  "fluidTypes": [
+    {
+      "id": "single_liquid",
+      "label": "Однофазная жидкость"
+    },
+    {
+      "id": "single_gas",
+      "label": "Однофазный газ"
+    },
+    {
+      "id": "gas_liquid",
+      "label": "Газ-жидкость"
+    },
+    {
+      "id": "solid_liquid",
+      "label": "Твердое тело-жидкость"
+    }
+  ],
+  "plateMaterials": [
+    {
+      "id": "s30403",
+      "label": "S30403"
+    },
+    {
+      "id": "s30408",
+      "label": "S30408"
+    },
+    {
+      "id": "s31603",
+      "label": "S31603"
+    },
+    {
+      "id": "254smo",
+      "label": "254СМО"
+    },
+    {
+      "id": "904l",
+      "label": "904Л"
+    },
+    {
+      "id": "ta1",
+      "label": "ТА1"
+    },
+    {
+      "id": "ta9",
+      "label": "ТА9"
+    },
+    {
+      "id": "ni",
+      "label": "Ни"
+    },
+    {
+      "id": "c276",
+      "label": "С-276"
+    },
+    {
+      "id": "other",
+      "label": "Другое"
+    }
+  ],
+  "flangeStandards": [
+    {
+      "id": "asme_b16_5_2025",
+      "label": "АСМЭ Б 16.5-2025"
+    },
+    {
+      "id": "en1092_1_2024",
+      "label": "ЭН1092-1-2024"
+    },
+    {
+      "id": "gost_33259_2015",
+      "label": "ГОСТ 33259-2015."
+    },
+    {
+      "id": "other",
+      "label": "Другое"
+    }
+  ],
+  "steps": {
+    "context": "Контекст",
+    "specifications": "Параметры конструкции",
+    "verification": "Проверка",
+    "submit": "Отправить"
+  },
+  "title": "Интеллектуальный конструктор запросов цен — получение индивидуальных расценок на теплообменники",
+  "description": "Создайте профессиональный запрос ценового предложения за считанные минуты. Доступен анонимный режим. Получите предложения от проверенных производителей.",
+  "navbarTitle": "Интеллектуальный конструктор запросов котировок",
+  "step1": {
+    "title": "1. Контекст проекта",
+    "subtitle": "Поделитесь базовым контекстом проекта, чтобы мы могли точно направить запрос цен.",
+    "firstNameLabel": "Имя",
+    "firstNamePlaceholder": "",
+    "lastNameLabel": "Фамилия",
+    "lastNamePlaceholder": "",
+    "companyLabel": "Название компании",
+    "companyPlaceholder": "",
+    "countryLabel": "Страна/регион назначения",
+    "industryLabel": "Отрасль/применение",
+    "countryPlaceholder": "Выбрать",
+    "requiredHint": "",
+    "customIndustryPlaceholder": "Укажите сферу деятельности...",
+    "quantityLabel": "Требуемое количество",
+    "customQuantityPlaceholder": "Укажите необходимое количество...",
+    "timelineLabel": "Ожидаемый график доставки",
+    "customTimelinePlaceholder": "Уточните, пожалуйста, ваши ожидания по срокам..."
+  },
+  "step2": {
+    "title": "2. Параметры конструкции и оборудования",
+    "subtitle": "Предоставьте данные о горячей и холодной стороне среды, а также ключевые параметры оборудования.",
+    "unitMetric": "Метрическая система (°C, м³/h)",
+    "unitImperial": "Британский (°F, галлон в минуту)",
+    "thermalSpecsTitle": "Тепловые и эксплуатационные характеристики",
+    "thermalSpecsSubtitle": "",
+    "equipmentParamsTitle": "Параметры оборудования",
+    "equipmentParamsSubtitle": "",
+    "hotSide": "Горячая сторона",
+    "coldSide": "Холодная сторона",
+    "requiredBadge": "Требуется",
+    "requiredHint": "",
+    "singlePhaseSharedBadge": "Однофазный: свойства розетки скопированы",
+    "autoCopiedLabel": "",
+    "mediaNameLabel": "Название СМИ",
+    "hotMediaPlaceholder": "",
+    "coldMediaPlaceholder": "",
+    "fluidTypeLabel": "Тип жидкости",
+    "inletFluidTypeLabel": "Входное отверстие",
+    "outletFluidTypeLabel": "Выход",
+    "fluidTypePlaceholder": "Выбрать",
+    "massFlowLabel": "Массовый расход (кг/h)",
+    "inletMassFlowLabel": "Входное отверстие",
+    "outletMassFlowLabel": "Выход",
+    "massFlowPlaceholder": "",
+    "volumeFlowLabel": "Объемный расход (м3/h)",
+    "flowRequirementLabel": "",
+    "inletVolumeFlowLabel": "Входное отверстие",
+    "outletVolumeFlowLabel": "Выход",
+    "volumeFlowPlaceholder": "",
+    "gasPhaseFractionLabel": "Фракция газовой фазы",
+    "inletGasPhaseFractionLabel": "Входное отверстие",
+    "outletGasPhaseFractionLabel": "Выход",
+    "gasPhaseFractionPlaceholder": "0,15 или 15%",
+    "inletPropertyLabel": "Входное отверстие",
+    "outletPropertyLabel": "Выход",
+    "inletTempLabel": "Температура на входе (°C)",
+    "outletTempLabel": "Температура на выходе (°C)",
+    "temperatureLabel": "Температура (°С)",
+    "densityLabel": "Плотность (кг/m3)",
+    "specificHeatLabel": "Удельная теплоемкость (кДж/kg·°C)",
+    "conductivityLabel": "Теплопроводность (Вт/m·°C)",
+    "viscosityLabel": "Динамическая вязкость (сП)",
+    "plateMaterialLabel": "Материал пластины",
+    "plateMaterialPlaceholder": "Выбрать",
+    "customPlateMaterialPlaceholder": "Уточните, пожалуйста, материал пластины...",
+    "designCodeLabel": "Проектный код",
+    "designCodePlaceholder": "GB/T 151, ASME VIII, HG/T20592-2009",
+    "designPressureLabel": "Расчетное давление (МПа)",
+    "testPressureLabel": "Испытательное давление (МПа)",
+    "designTemperatureLabel": "Расчетная температура (°C)",
+    "flangeStandardLabel": "Фланец стандартный",
+    "flangeStandardPlaceholder": "Выбрать",
+    "customFlangeStandardLabel": "Другой стандарт фланца",
+    "customFlangeStandardPlaceholder": "HG/T20592-2009",
+    "flangeNominalDiameterLabel": "Номинальный диаметр фланца сопла",
+    "flangeNominalDiameterPlaceholder": "Ду100",
+    "flangeMaterialLabel": "Материал фланца сопла",
+    "flangeMaterialPlaceholder": "S31603",
+    "flangePressureRatingLabel": "Номинальное давление фланца",
+    "flangePressureRatingPlaceholder": "Ру16, Ру63, класс 150",
+    "flangeTypeSealingFaceLabel": "Тип фланца/уплотняющая поверхность",
+    "flangeTypeSealingFacePlaceholder": "B/RF, WN/RF",
+    "heatLoadLabel": "Тепловая нагрузка (кВт)",
+    "heatLoadPlaceholder": "1500",
+    "additionalNotesLabel": "Дополнительные примечания/индивидуальные требования",
+    "additionalNotesPlaceholder": "Требуются какие-то конкретные материалы? Ограничения по размерам? Сертификаты нужны? (Макс. 500 символов)"
+  },
+  "step3": {
+    "accessCodePlaceholder": "Код",
+    "title": "3. Проверка",
+    "subtitle": "Подтвердите свою электронную почту, чтобы фабрики могли ответить на реальный запрос.",
+    "verifiedTitle": "Электронная почта уже проверена!",
+    "continueBtn": "Перейти к окончательной отправке",
+    "verifySubtitle": "Чтобы обеспечить качественный подбор поставщиков и защитить свою личность, подтвердите свой адрес электронной почты.",
+    "emailLabel": "Адрес электронной почты",
+    "emailPlaceholder": "электронная почта",
+    "freeEmailTitle": "Обнаружен личный адрес электронной почты.",
+    "freeEmailDesc": "Ваш запрос будет распространен максимум на 2 фабрики. Используйте корпоративную электронную почту, чтобы связаться с более чем 5 проверенными фабриками.",
+    "businessEmailTitle": "Деловая электронная почта поможет вашему запросу выделиться.",
+    "businessEmailDesc": "Он может достигать 5+ проверенных фабрик, сохраняя при этом вашу личность защищенной.",
+    "sendBtn": "Отправить код подтверждения",
+    "sendingBtn": "Отправка...",
+    "codeSentTo": "Код отправлен на",
+    "accessCodeLabel": "Код подтверждения",
+    "verifyBtn": "Подтвердите свой адрес электронной почты",
+    "verifyingBtn": "Проверка...",
+    "errors": {
+      "rateLimit": "В целях безопасности вы можете запросить это только через {{seconds}} секунд.",
+      "network": "Не удалось связаться со службой проверки. Пожалуйста, проверьте свою сеть или повторите попытку позже.",
+      "invalidCode": "Неверный или просроченный код подтверждения",
+      "sendFailed": "Не удалось отправить код подтверждения. Пожалуйста, попробуйте еще раз.",
+      "verifyFailed": "Проверка не удалась. Пожалуйста, попробуйте еще раз."
+    },
+    "successTitle": "Электронная почта проверена!",
+    "successSubtitle": "Переходим к окончательному подтверждению..."
+  },
+  "step4": {
+    "title": "4. Подтвердите и отправьте",
+    "subtitle": "Просмотрите детали запроса ценового предложения и выберите настройки конфиденциальности.",
+    "emailVerifiedTitle": "Электронная почта успешно подтверждена!",
+    "anonymousMode": "Анонимный режим",
+    "publicMode": "Публичный режим",
+    "anonymousModeDesc": "Фабрики не могут видеть вашу электронную почту напрямую. Мы управляем общением.",
+    "publicModeDesc": "Фабрики могут напрямую видеть информацию о вашей электронной почте.",
+    "sourceManufacturerTargetTitle": "Отправить",
+    "sourceManufacturerTargetEnabledDesc": "Поскольку вы вошли со связанной страницы, этот запрос цен будет отправлен этой компании. Другие возможности предложения могут быть направлены другим производителям.",
+    "sourceManufacturerTargetDisabledDesc": "Этот запрос ценового предложения не будет специально отправлен исходной компании. Он будет перенаправлен как общий запрос котировок.",
+    "projectContextTitle": "1. Контекст проекта",
+    "productSpecsTitle": "2. Параметры конструкции и оборудования",
+    "editBtn": "Редактировать",
+    "summaryCountry": "Страна/регион",
+    "summaryIndustry": "Отрасль/применение",
+    "summaryGeneralReq": "Параметры оборудования и примечания",
+    "summaryMediaName": "Название СМИ",
+    "summaryFluidType": "Тип жидкости",
+    "summaryInletFluidType": "Тип входной жидкости",
+    "summaryOutletFluidType": "Тип выходной жидкости",
+    "summaryMassFlow": "Массовый расход",
+    "summaryInletMassFlow": "Входной массовый расход",
+    "summaryOutletMassFlow": "Массовый расход на выходе",
+    "summaryInletVolumeFlow": "Объемный расход на входе",
+    "summaryOutletVolumeFlow": "Объемный расход на выходе",
+    "summaryGasPhaseFraction": "Фракция газовой фазы",
+    "summaryInletGasPhaseFraction": "Доля газовой фазы на входе",
+    "summaryOutletGasPhaseFraction": "Доля газовой фазы на выходе",
+    "summaryDesignPress": "Расчетное давление",
+    "summaryTestPress": "Испытательное давление",
+    "summaryDesignTemp": "Расчетная температура",
+    "summaryDesignCode": "Проектный код",
+    "summaryDensity": "Плотность",
+    "summaryInletDensity": "Входная плотность",
+    "summaryOutletDensity": "Плотность на выходе",
+    "summarySpecificHeat": "Удельная теплоемкость",
+    "summaryInletSpecificHeat": "Удельная теплоемкость на входе",
+    "summaryOutletSpecificHeat": "Удельная теплоемкость на выходе",
+    "summaryConductivity": "Теплопроводность",
+    "summaryInletConductivity": "Входная теплопроводность",
+    "summaryOutletConductivity": "Выходная теплопроводность",
+    "summaryViscosity": "Динамическая вязкость",
+    "summaryInletViscosity": "Входная динамическая вязкость",
+    "summaryOutletViscosity": "Динамическая вязкость на выходе",
+    "summaryPlateMaterial": "Материал пластины",
+    "summaryFlangeStandard": "Фланец стандартный",
+    "summaryInletFlangeNominalDiameter": "Номинальный диаметр фланца впускного патрубка",
+    "summaryOutletFlangeNominalDiameter": "Номинальный диаметр фланца выпускного патрубка",
+    "summaryFlangeMaterial": "Материал фланца сопла",
+    "summaryFlangePressureRating": "Номинальное давление фланца",
+    "summaryFlangeTypeSealingFace": "Тип фланца/уплотняющая поверхность",
+    "summaryHeatLoad": "Тепловая нагрузка",
+    "summaryNotes": "Дополнительные примечания",
+    "summaryHotSide": "Горячая сторона",
+    "summaryColdSide": "Холодная сторона",
+    "summaryInlet": "Температура на входе",
+    "summaryOutlet": "Температура на выходе",
+    "submitBtn": "Получить цену",
+    "otherPrefix": "Другое"
+  },
+  "parameterLabels": {
+    "inlet": "Входное отверстие",
+    "outlet": "Выход",
+    "fluidType": "Тип жидкости",
+    "massFlow": "Массовый расход",
+    "volumeFlow": "Объемный расход",
+    "gasPhaseFraction": "Фракция газовой фазы",
+    "temperature": "Температура",
+    "density": "Плотность",
+    "specificHeat": "Удельная теплоемкость",
+    "thermalConductivity": "Теплопроводность",
+    "dynamicViscosity": "Динамическая вязкость",
+    "hotSide": "Горячая сторона",
+    "coldSide": "Холодная сторона",
+    "mediaName": "Название СМИ",
+    "designPressure": "Расчетное давление",
+    "testPressure": "Испытательное давление",
+    "designTemperature": "Расчетная температура",
+    "flangeStandard": "Фланец стандартный",
+    "flangeNominalDiameter": "Номинальный диаметр фланца сопла",
+    "flangeMaterial": "Материал фланца сопла",
+    "flangePressureRating": "Номинальное давление фланца",
+    "flangeTypeSealingFace": "Тип фланца/уплотняющая поверхность",
+    "thermal": "Тепловые и эксплуатационные параметры",
+    "equipment": "Параметры оборудования",
+    "heatLoad": "Тепловая нагрузка",
+    "designCode": "Проектный код",
+    "plateMaterial": "Материал пластины"
+  },
+  "success": {
+    "title": "Отправлено!",
+    "desc": "Мы успешно обработали ваш запрос цен. Мы свяжемся с вами в ближайшее время, чтобы помочь вам с дальнейшими шагами.",
+    "homeBtn": "Вернуться домой"
+  },
+  "actions": {
+    "back": "Назад",
+    "continue": "Продолжить"
+  },
+  "meta": {
+    "keywords": "запрос цен на теплообменник, запрос предложений по теплообменнику, предложение по пластинчатому теплообменнику, характеристики промышленных теплообменников, предложение производителя теплообменника"
+  },
+  "og": {
+    "title": "Интеллектуальный конструктор запросов цен — получение индивидуальных расценок на теплообменники",
+    "description": "Создайте профессиональный запрос ценового предложения за считанные минуты. Доступен анонимный режим. Получите предложения от проверенных производителей."
+  }
+}

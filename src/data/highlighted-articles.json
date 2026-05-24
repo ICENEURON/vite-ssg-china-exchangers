@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20",
+  "lastUpdated": "2026-05-24",
   "description": "Automatically generated homepage highlight configuration using the latest news article for each company. Shanghai Heat Transfer Equipment Co., Ltd. is pinned first.",
   "items": [
     {
@@ -8,6 +8,7 @@
       "companySlug": "shanghai-heat-transfer-equipment-co-ltd",
       "companyName": {
         "en": "Shanghai Heat Transfer Equipment Co., Ltd.",
+        "ru": "Shanghai Heat Transfer Equipment Co., Ltd.",
         "zh": "上海板换机械设备有限公司"
       },
       "contentType": "news",
@@ -32,6 +33,7 @@
       "companySlug": "shanghai-accessen-co-ltd",
       "companyName": {
         "en": "Shanghai Accessen Co., Ltd.",
+        "ru": "Shanghai Accessen Co., Ltd.",
         "zh": "上海艾克森股份有限公司"
       },
       "contentType": "news",
@@ -56,6 +58,7 @@
       "companySlug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
       "companyName": {
         "en": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
+        "ru": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
         "zh": "兰州兰石换热设备有限责任公司"
       },
       "contentType": "news",
@@ -80,7 +83,8 @@
       "companySlug": "heatex-direct",
       "companyName": {
         "en": "HeatEx Direct",
-        "zh": "HeatEx Direct"
+        "zh": "HeatEx Direct",
+        "ru": "HeatEx Direct"
       },
       "contentType": "news",
       "articleSlug": "large-spiral-plate-heat-exchanger-delivery-for-mining-service",
@@ -104,6 +108,7 @@
       "companySlug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
       "companyName": {
         "en": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
+        "ru": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
         "zh": "四平市巨元瀚洋板式换热器有限公司"
       },
       "contentType": "news",

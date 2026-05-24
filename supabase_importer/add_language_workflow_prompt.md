@@ -17,7 +17,7 @@
 2. 注册前端语言入口：
    - `src/locales/languages.json` 添加 `{LANG}` 和显示名 `{LANG_NAME}`
    - `src/locales/resources.ts` import `./{LANG}` 并加入 `resources`
-   - 新建 `src/locales/{LANG}/index.ts`，结构镜像 `src/locales/en/index.ts` 或 `src/locales/zh/index.ts`
+   - 新建 `src/locales/{LANG}/index.ts`。不要静态 import 还未 sync 下载的 JSON；用 `import.meta.glob('./**/*.json')` 读取已有文件，并在缺文件时回退到 `src/locales/en`
 
 ## 严禁修改
 
@@ -25,7 +25,7 @@
 - 不要修改 `src/data/`
 - 不要生成或提交 `src/locales/{LANG}` 下由 sync 下载的 JSON 文件，只保留 `src/locales/{LANG}/index.ts`
 - 不要修改 `.velite/`、`dist/`、`sitemap.xml`
-- 不要改同步脚本、页面组件或数据消费逻辑，除非手动 import + sync + build 后证明确实需要
+- 不要改同步脚本、页面组件或数据消费逻辑，除非手动 import + sync + build 后证明确实有语言硬编码
 
 ## 翻译规则
 
@@ -46,14 +46,16 @@
 4. 给 `supabase_importer/data/*.json` 和 `supabase_importer/web_data/industries.json` 补 `{LANG}` 字段。
 5. 只添加 `src/locales/{LANG}/index.ts`，不要添加其它 `src/locales/{LANG}` JSON。
 6. 更新 `src/locales/languages.json` 和 `src/locales/resources.ts`。
-7. 检查 git 状态，确认没有 `content/`、`src/data/`、`.velite/`、`sitemap.xml`、`dist/` 变化。
+7. 检查 `supabase_importer/import.js` 会导入公司/产品数据。默认应导入；如只想上传 Storage，可临时设置 `SHOULD_IMPORT_MANUFACTURER_DATA=false`。
+8. 跑 TypeScript/build 后，如果发现 `en | zh`、`language === 'zh'`、`supportedLanguages = ['en', 'zh']` 之类硬编码，改为从 `resources` 或 `src/locales/languages.json` 推导。
+9. 检查 git 状态，确认没有 `content/`、`src/data/`、`.velite/`、`sitemap.xml`、`dist/` 变化。
 
 ## 用户手动验证流程
 
 用户运行现有导入和同步流程后再验证：
 
 ```bash
-node supabase_importer/import.js
+pnpm run import
 pnpm run sync
 pnpm run lint
 pnpm run build

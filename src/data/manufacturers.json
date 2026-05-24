@@ -3,10 +3,12 @@
     "id": "749dc7dd-abfc-4ee5-869b-7e8e9d8d953a",
     "name": {
       "en": "Shanghai Accessen Co., Ltd.",
+      "ru": "Shanghai Accessen Co., Ltd.",
       "zh": "上海艾克森股份有限公司"
     },
     "short_description": {
       "en": "Provider of low-carbon data center cooling and heat exchange solutions, specializing in plate heat exchangers, fully welded exchangers, and prefabricated integrated thermal systems.",
+      "ru": "Поставщик низкоуглеродных решений для охлаждения и теплообмена центров обработки данных, специализирующийся на пластинчатых теплообменниках, цельносварных теплообменниках и сборных интегрированных тепловых системах.",
       "zh": "专注于低碳数据中心冷却与换热解决方案，提供板式换热器、全焊式换热器及预制化系统集成热管理设备。"
     },
     "full_description": {
@@ -16,6 +18,13 @@
         "Accessen serves data center, HVAC, refrigeration, energy and power, steel and metallurgy, petrochemical, food and pharmaceutical, new energy electronics, marine and offshore engineering, and environmental treatment applications. The company positions plate heat exchange and system integration as its two core technologies.",
         "Its AS-standard product portfolio includes plate heat exchangers and units, fully welded plate-shell and plate-frame heat exchangers, fully welded air heat exchangers, process water cooling systems, waste heat recovery systems, AMOBILE containerized heat exchange stations, and prefabricated integrated cooling stations.",
         "Accessen states that its products comply with ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, GB, and other international standards. The company also reports ISO 9001, ISO 14001, ISO 45001, ASME, AHRI, Class A5 safety certification for plate heat exchangers, China energy efficiency certification for plate heat exchangers, over 100 patents and software copyrights, and participation in national and industry standard drafting."
+      ],
+      "ru": [
+        "Shanghai Accessen Co., Ltd. — поставщик низкоуглеродных решений для охлаждения и теплообмена для центров обработки данных, специализирующийся на исследованиях и разработках, производстве, продаже и обслуживании теплообменного оборудования. Его приложения охватывают отопление, охлаждение, охлаждение центров обработки данных и промышленное управление температурным режимом.",
+        "Компания Accessen со штаб-квартирой в промышленном парке Хуанду в Шанхае управляет производственными мощностями площадью более 100 000 квадратных метров на территории дорожной фабрики Сечунь и фабрики в портовой зоне Тайцан. Сеть прямых продаж и обслуживания охватывает основные рынки Китая и зарубежные регионы, включая Гонконг, Сингапур, Малайзию и Таиланд.",
+        "Accessen обслуживает центры обработки данных, системы отопления, вентиляции и кондиционирования, холодильную, энергетическую, сталелитейную и металлургическую, нефтехимическую, пищевую и фармацевтическую отрасли, новую энергетическую электронику, морское и морское машиностроение, а также приложения для очистки окружающей среды. Компания позиционирует пластинчатый теплообмен и системную интеграцию как две основные технологии.",
+        "Ассортимент продукции, соответствующей стандарту AS, включает пластинчатые теплообменники и агрегаты, цельносварные пластинчато-корпусные и пластинчатые теплообменники, цельносварные воздушные теплообменники, системы охлаждения технологической воды, системы рекуперации отработанного тепла, контейнерные теплообменные станции AMOBILE и сборные интегрированные станции охлаждения.",
+        "Accessen заявляет, что ее продукция соответствует стандартам ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, GB и другим международным стандартам. Компания также сообщает о сертификатах безопасности пластинчатых теплообменников ISO 9001, ISO 14001, ISO 45001, ASME, AHRI, классе A5, китайском сертификате энергоэффективности пластинчатых теплообменников, более 100 патентах и ​​авторских правах на программное обеспечение, а также участии в разработке национальных и отраслевых стандартов."
       ],
       "zh": [
         "上海艾克森股份有限公司是专业从事换热设备研发、制造、销售及服务的低碳数据中心冷却和换热解决方案提供商，重点面向供热、制冷、数据中心冷却和工业热管理场景提供产品与服务。",
@@ -34,6 +43,15 @@
         "Quality and Engineering Capability: The official profile highlights automated cutting and welding robots, a 40,000-ton hydraulic press, automatic welding systems, and full-performance testing platforms.",
         "Extensive Service Coverage: Direct sales and service support covers major Chinese markets and selected overseas markets including Hong Kong, Singapore, Malaysia, and Thailand.",
         "Proven Deployment Scale: Accessen states it has delivered more than 20,000 implementation cases and serves over 10,000 global clients."
+      ],
+      "ru": [
+        "Крупномасштабная производственная база: Accessen управляет более чем 100 000 квадратных метров производственных площадей на своих предприятиях в Шанхае и Тайцане.",
+        "Компетенция Dual Core: компания выделяет технологию пластинчатого теплообменника и системную интеграцию в качестве своих основных технических возможностей.",
+        "Широкий ассортимент продукции: Продукция охватывает пластинчатые теплообменники, пластинчатые теплообменники, цельносварные теплообменники, технологические системы охлаждения, системы рекуперации отходящего тепла, контейнерные теплообменные станции и сборные интегрированные охлаждающие станции.",
+        "Международные стандарты и сертификаты: Accessen обозначает соответствие стандартам ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, GB, ISO 9001, ISO 14001 и ISO 45001.",
+        "Качество и инженерные возможности. В официальном профиле представлены автоматизированные роботы для резки и сварки, гидравлический пресс усилием 40 000 тонн, автоматические сварочные системы и полнофункциональные испытательные платформы.",
+        "Обширный охват услуг: прямые продажи и сервисная поддержка охватывают основные рынки Китая и некоторые зарубежные рынки, включая Гонконг, Сингапур, Малайзию и Таиланд.",
+        "Проверенный масштаб развертывания: Accessen заявляет, что реализовал более 20 000 случаев внедрения и обслуживает более 10 000 клиентов по всему миру."
       ],
       "zh": [
         "规模化制造基础：公司在上海和太仓拥有超过 100000 平方米的制造基地。",
@@ -60,14 +78,17 @@
     "country_id": "CN",
     "country_name": {
       "en": "China",
+      "ru": "Китай",
       "zh": "中国"
     },
     "city": {
       "en": "Shanghai",
+      "ru": "Шанхай",
       "zh": "上海"
     },
     "address": {
       "en": "No. 1458 Xiechun Road, Jiading District, Shanghai, China",
+      "ru": "№ 1458 Xiechun Road, район Цзядин, Шанхай, Китай",
       "zh": "上海市嘉定区谢春路1458号"
     },
     "established_year": "2002",
@@ -97,7 +118,7 @@
       "meta_description": "Manufacturer of plate heat exchangers, liquid cooling distribution units, prefabricated integrated cooling stations, and fully welded heat exchange systems in Shanghai, China."
     },
     "created_at": "2026-05-04T05:31:18.525+00:00",
-    "updated_at": "2026-05-17T05:31:20.921+00:00",
+    "updated_at": "2026-05-24T08:22:22.648+00:00",
     "video_link": "",
     "social_media_links": [
       {
@@ -116,10 +137,12 @@
     "id": "8139c310-96fe-4d28-b92e-f332e8226a5a",
     "name": {
       "en": "Siping ViEX Heat Exchange Equipment Co., Ltd.",
+      "ru": "Siping ViEX Heat Exchange Equipment Co., Ltd.",
       "zh": "四平维克斯换热设备有限公司"
     },
     "short_description": {
       "en": "Professional manufacturer of heat exchange equipment and pressure vessel products, covering plate, tubular, spiral, air-side, and integrated heat exchange solutions.",
+      "ru": "Профессиональный производитель теплообменного оборудования и изделий для сосудов под давлением, покрывающих пластин, трубчатых, спиральных, воздушных и интегрированных решений для теплообмена.",
       "zh": "专业从事换热设备及压力容器产品制造，产品覆盖板式、管壳式、螺旋板式、空气类换热器及换热机组。"
     },
     "full_description": {
@@ -128,6 +151,12 @@
         "In 1993, the company cooperated with France’s VICARB and introduced a complete set of internationally advanced heat exchanger products, manufacturing technology, proprietary know-how, and processing equipment. It then began batch production of V series plate heat exchangers and heat exchanger units.",
         "In 2002, the company was restructured as Siping ViEX Heat Exchange Equipment Co., Ltd. and continued manufacturing imported plate heat exchangers and heat exchange units while also developing multiple products with independent intellectual property. The English homepage describes the company as a core member of ViEX Group with global design, manufacturing, development, research, sales, and service resources.",
         "The official Chinese profile states that the garden-style factory covers 60,000 square meters, with 26,000 square meters of building area, 15,000 square meters of workshop area, 310 sets of professional equipment, 124 fixed employees, 36 technical personnel, 12 design and R&D personnel, and 25 management personnel. The company lists annual capacity of 200,000 square meters of plate heat exchangers, 3,000 tons of pressure vessels, shell-and-tube and air heat exchangers, and 500 sets of integrated heat exchange equipment, and highlights the Jilin Provincial Quality Award."
+      ],
+      "ru": [
+        "Siping ViEX Heat Exchange Equipment Co., Ltd. — профессиональный производитель теплообменного оборудования. Согласно официальному китайскому профилю, его предшественником был завод по производству теплообменников Siping, основанный в 1963 году, который служил назначенным заводом по производству теплообменного оборудования при Министерстве машиностроения Китая, производя различное теплообменное оборудование и продукцию для сосудов под давлением.",
+        "В 1993 году компания сотрудничала с французской компанией VICARB и представила полный набор передовых на международном уровне теплообменников, производственных технологий, запатентованных ноу-хау и технологического оборудования. Затем было начато серийное производство пластинчатых теплообменников серии V и теплообменных агрегатов.",
+        "В 2002 году компания была реорганизована в Siping ViEX Heat Exchange Equipment Co., Ltd. и продолжила производство импортных пластинчатых теплообменников и теплообменных агрегатов, а также разрабатывала множество продуктов с независимой интеллектуальной собственностью. На домашней странице на английском языке компания описывается как основной член группы ViEX с глобальными ресурсами в области проектирования, производства, разработки, исследований, продаж и обслуживания.",
+        "В официальном китайском профиле указано, что фабрика в садовом стиле занимает площадь 60 000 квадратных метров, из них 26 000 квадратных метров площади зданий, 15 000 квадратных метров цехов, 310 комплектов профессионального оборудования, 124 постоянных сотрудника, 36 технических сотрудников, 12 специалистов по проектированию и исследованиям и разработкам, а также 25 управленческих сотрудников. Компания сообщает о годовой мощности 200 000 квадратных метров пластинчатых теплообменников, 3 000 тонн сосудов под давлением, кожухотрубных и воздушных теплообменников, а также 500 комплектов интегрированного теплообменного оборудования и отмечает награду за качество провинции Цзилинь."
       ],
       "zh": [
         "四平维克斯换热设备有限公司是经营换热设备的专业制造公司。根据中文官网介绍，其前身为始建于1963年的四平换热器总厂，是机械部换热设备定点生产厂，长期专业生产各种热交换设备及压力容器产品。",
@@ -145,6 +174,15 @@
         "Official Chinese profile lists 124 fixed employees, including 36 technical personnel and 12 design/R&D personnel.",
         "Large stated production capacity for plate heat exchangers, pressure vessels, air heat exchangers, and integrated heat exchange equipment.",
         "Officially highlighted recipient of the Jilin Provincial Quality Award."
+      ],
+      "ru": [
+        "Долгая история производства уходит корнями в завод по производству теплообменников Siping, основанный в 1963 году.",
+        "Внедрил международную технологию и оборудование для пластинчатых теплообменников в сотрудничестве с французской компанией VICARB.",
+        "Широкий ассортимент продукции включает пластинчатые, трубчатые, спиральные пластинчатые теплообменники, теплообменники со стороны воздуха, интегрированные агрегаты и сосуды под давлением.",
+        "Масштабная производственная база с площадью 60 000 квадратных метров, цехами площадью 15 000 квадратных метров и 310 комплектами профессионального оборудования.",
+        "В официальном китайском профиле указано 124 постоянных сотрудника, в том числе 36 технических специалистов и 12 дизайнеров/R&D.",
+        "Большие заявленные производственные мощности по производству пластинчатых теплообменников, сосудов под давлением, воздушных теплообменников и интегрированного теплообменного оборудования.",
+        "Официально отмеченный лауреат Премии качества провинции Цзилинь."
       ],
       "zh": [
         "源自1963年创建的四平换热器总厂，具备较长的换热设备制造历史。",
@@ -168,14 +206,17 @@
     "country_id": "CN",
     "country_name": {
       "en": "China",
+      "ru": "Китай",
       "zh": "中国"
     },
     "city": {
       "en": "Siping",
+      "ru": "Потягивая",
       "zh": "四平"
     },
     "address": {
       "en": "No. 5665 Nan Yijing Street, Tiedong District, Siping, Jilin, China",
+      "ru": "№ 5665 улица Нань Ицзин, район Тидун, Сыпин, Цзилинь, Китай",
       "zh": "中国吉林省四平市铁东区南一经街5665号"
     },
     "established_year": "1963",
@@ -199,96 +240,7 @@
       "meta_description": "Chinese heat exchanger manufacturer offering plate heat exchangers, shell-and-tube heat exchangers, air heat exchangers, spiral plate heat exchangers, and heat exchanger units."
     },
     "created_at": "2026-05-04T05:58:27.134+00:00",
-    "updated_at": "2026-05-17T05:32:11.397+00:00",
-    "video_link": "",
-    "social_media_links": []
-  },
-  {
-    "id": "5fb41b48-d202-46e1-b819-0de12c1152fa",
-    "name": {
-      "en": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
-      "zh": "四平市巨元瀚洋板式换热器有限公司"
-    },
-    "short_description": {
-      "en": "Heat exchange system solution provider and plate heat exchanger manufacturer covering detachable, semi-welded, fully welded, integrated-unit, and smart heating solutions.",
-      "zh": "面向可拆式、半焊式、全焊式、换热集成系统及智慧供热信息平台提供板式换热器和高效换热系统解决方案的制造商。"
-    },
-    "full_description": {
-      "en": [
-        "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd. is a wholly owned subsidiary of THT Juyuan Group and positions itself as an integrated service provider for efficient heat exchange system solutions in China. The official company profile states that the company was founded in 1986.",
-        "The company covers an area of 165,000 square meters with a building area of more than 40,000 square meters. It lists annual capacity of 1,000,000 square meters of plate heat exchangers and 5,000 sets of system integration devices.",
-        "Juyuan Hanyang is listed by the official profile as a drafting or participating unit for plate heat exchanger and plate heat exchanger unit standards, a member of the National Boiler and Pressure Vessel Standardization Technical Committee, and a member of relevant American heat transfer and HVAC industry associations. The profile also lists civil nuclear safety equipment design and manufacturing licenses, plate heat exchanger safety and energy-saving registrations, pressure vessel design and manufacturing licenses, SCADA software copyright registration, ASME certification, AHRI certification, and quality, environmental, and occupational health and safety management system certification.",
-        "The official profile describes an advanced plate heat exchanger production line, including uncoiling, leveling, shearing, laminating, four 10,000-ton press plate production lines with maximum press capacity of 50,000 tons, and large intelligent CNC equipment. Its product system includes detachable plate, semi-welded, fully welded, heat exchange integrated system, and smart heating information platform product groups, with more than 100 heat exchange product types.",
-        "According to the official profile, the company’s business reaches 31 countries and regions and 108 industries, and it has supplied more than 200,000 products and services to domestic and overseas customers across military, nuclear energy, biomass energy, power, petroleum, chemical, metallurgy, shipbuilding, central heating, air conditioning and refrigeration, food and beverage, seawater desalination, and related industries."
-      ],
-      "zh": [
-        "四平市巨元瀚洋板式换热器有限公司是 THT 巨元集团全资子公司，官网将其定位为国内高效换热系统解决方案集成服务商。官方企业介绍显示，公司始创于1986年。",
-        "公司占地面积16.5万平方米，建筑面积4万余平方米，年生产能力为板式换热器100万平方米、系统集成装置5000台套。",
-        "官网介绍显示，巨元瀚洋是板式换热器和板式换热机组相关国家标准的主要起草或参与单位，亦为全国锅炉压力容器标准化技术委员会委员单位，以及美国传热协会、美国空调供热制冷工业协会成员单位。官网列出其具备民用核安全设备设计制造许可证、板式热交换器产品安全注册证、板式热交换器节能注册证、D级压力容器设计制造许可证、SCADA自控系统软件著作权、ASME认证、AHRI认证及质量/环境/职业健康安全管理体系认证。",
-        "公司官网披露其拥有开卷、校平、剪切、层压生产线，4套万吨压机板片生产线（最大吨位5万吨），以及4200mm×1800mm整体下料机等智能数控制造装备。其产品体系包括可拆式板、半焊式、全焊式、换热集成系统及智慧供热信息平台5个产品群，形成100余种换热产品。",
-        "官网资料显示，公司业务覆盖全球31个国家和地区、108个行业，并持续为国内外客户提供20万余台套产品及服务，行业覆盖军工、核能、生物质能、电力、石油、化工、冶金、船舶、集中供热、空调制冷、食品饮料、海水淡化等领域。"
-      ]
-    },
-    "advantages": {
-      "en": [
-        "Founded in 1986 with official profile capacity of 1,000,000 square meters of plate heat exchangers and 5,000 integrated-system units per year.",
-        "Current product system covers detachable, semi-welded, fully welded, integrated heat exchange systems, and smart heating information platforms.",
-        "Officially listed standard drafting and association roles across Chinese plate heat exchanger standards and heat transfer industry organizations.",
-        "Certification coverage includes civil nuclear safety equipment licenses, plate heat exchanger safety and energy-saving registrations, ASME, AHRI, pressure-vessel licenses, and management system certification.",
-        "Advanced production capability includes uncoiling, leveling, shearing, laminating lines, four 10,000-ton press lines with maximum 50,000-ton pressing capacity, and large CNC equipment.",
-        "Business coverage stated by the official profile reaches 31 countries and regions, 108 industries, and more than 200,000 supplied products and services."
-      ],
-      "zh": [
-        "始创于1986年，官网披露年产能为板式换热器100万平方米、系统集成装置5000台套。",
-        "当前产品体系覆盖可拆式、半焊式、全焊式、换热集成系统及智慧供热信息平台。",
-        "官网列出其参与板式换热器及换热机组相关标准起草，并拥有多项行业组织成员身份。",
-        "资质覆盖民用核安全设备许可证、板式换热器安全/节能注册、ASME、AHRI、压力容器许可及管理体系认证。",
-        "制造能力包括开卷校平剪切层压生产线、4套万吨压机板片生产线、最大5万吨压制能力及大型数控设备。",
-        "官网披露业务覆盖31个国家和地区、108个行业，并已提供20万余台套产品及服务。"
-      ]
-    },
-    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
-    "website": "http://en.tht.cn/",
-    "email": [
-      "zhancucai@tht.cn"
-    ],
-    "phone": [
-      "400-677-2292",
-      "400-656-7811"
-    ],
-    "country_id": "CN",
-    "country_name": {
-      "en": "China",
-      "zh": "中国"
-    },
-    "city": {
-      "en": "Siping",
-      "zh": "四平"
-    },
-    "address": {
-      "en": "THT Industrial Park, No. 5 Nanhuan West Road, Siping, Jilin, China",
-      "zh": "中国吉林省四平市南环西路5号THT巨元工业园"
-    },
-    "established_year": "1986",
-    "factory_area": "165000m2",
-    "employee_count": "",
-    "industries": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "6",
-      "7",
-      "9"
-    ],
-    "export_markets": [],
-    "is_visible": true,
-    "seo_data": {
-      "meta_title": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd. | THT Juyuan Heat Exchange Solutions",
-      "meta_description": "Chinese heat exchange system solution provider and plate heat exchanger manufacturer offering detachable, semi-welded, fully welded, integrated-unit, and smart heating products."
-    },
-    "created_at": "2026-05-04T09:44:50.812+00:00",
-    "updated_at": "2026-05-17T05:32:08.037+00:00",
+    "updated_at": "2026-05-24T08:23:48.665+00:00",
     "video_link": "",
     "social_media_links": []
   },
@@ -296,10 +248,12 @@
     "id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
     "name": {
       "en": "Shanghai Heat Transfer Equipment Co., Ltd.",
+      "ru": "Shanghai Heat Transfer Equipment Co., Ltd.",
       "zh": "上海板换机械设备有限公司"
     },
     "short_description": {
       "en": "Manufacturer of plate heat exchangers and custom heat transfer systems for oil and gas, chemical, power, marine, HVAC, and other industrial sectors.",
+      "ru": "Производитель пластинчатых теплообменников и нестандартных систем теплопередачи для нефтегазовой, химической, энергетической, морской, HVAC и других отраслей промышленности.",
       "zh": "面向石油天然气、化工、电力、船舶、暖通等工业领域的板式热交换器及定制传热系统制造商。"
     },
     "full_description": {
@@ -308,6 +262,12 @@
         "SHPHE’s main products include plate and frame heat exchangers, wide-gap welded plate heat exchangers, HT-Bloc welded plate heat exchangers, TP welded plate heat exchangers, and plate air preheaters. With advanced engineering, manufacturing, welding, and testing capabilities, the company provides customized heat transfer solutions for complex industrial operating conditions.",
         "Driven by continuous innovation, SHPHE has developed multiple high-pressure and large-scale heat exchanger products, including large plate heat exchangers for FPSO applications, 5 MPa high-pressure plate heat exchangers, 9.6 MPa internal plate heaters for strippers, and large HT-Bloc welded plate heat exchangers rated for 6.4 MPa and 410°C.",
         "The company holds multiple certifications, including quality, environmental, and occupational health and safety management system certifications, special equipment production license for pressure vessels, plate heat exchanger safety and energy-saving registrations, and international certificates such as ASME, CCS, CE, BV, ABS, GL, and NK. SHPHE has also participated in drafting national and industry standards, and has supplied equipment and services to major domestic and international customers including CNPC, Sinopec, CNOOC, BASF, LANXESS, BP, POSCO, Rio Tinto, Petronas, and others."
+      ],
+      "ru": [
+        "Shanghai Heat Transfer Equipment Co., Ltd. (SHPHE) — высокотехнологичный производитель и поставщик решений, специализирующийся на проектировании, производстве, монтаже и обслуживании пластинчатых теплообменников и комплексных систем теплопередачи. Компания обслуживает клиентов в нефтегазовой, морской, климатической, химической, пищевой и фармацевтической, энергетической, биоэнергетической, металлургической, машиностроительной, целлюлозно-бумажной и сталелитейной промышленности.",
+        "Основная продукция SHPHE включает пластинчатые и рамные теплообменники, сварные пластинчатые теплообменники с широким зазором, сварные пластинчатые теплообменники HT-Bloc, сварные пластинчатые теплообменники TP и пластинчатые воздухоподогреватели. Обладая передовыми возможностями проектирования, производства, сварки и испытаний, компания предлагает индивидуальные решения по теплопередаче для сложных промышленных условий эксплуатации.",
+        "Благодаря постоянным инновациям компания SHPHE разработала множество крупногабаритных теплообменников высокого давления, в том числе большие пластинчатые теплообменники для применений FPSO, пластинчатые теплообменники высокого давления 5 МПа, внутренние пластинчатые нагреватели 9,6 МПа для стрипперов и большие сварные пластинчатые теплообменники HT-Bloc, рассчитанные на 6,4 МПа и 410 °C.",
+        "Компания имеет множество сертификатов, в том числе сертификаты системы управления качеством, окружающей средой, охраной труда и безопасностью, лицензию на производство специального оборудования для сосудов под давлением, регистрацию безопасности пластинчатых теплообменников и энергосбережения, а также международные сертификаты, такие как ASME, CCS, CE, BV, ABS, GL и NK. SHPHE также участвовал в разработке национальных и отраслевых стандартов и поставлял оборудование и услуги крупным отечественным и международным клиентам, включая CNPC, Sinopec, CNOOC, BASF, LANXESS, BP, POSCO, Rio Tinto, Petronas и других."
       ],
       "zh": [
         "上海板换机械设备有限公司（SHPHE）是一家技术型制造企业及解决方案提供商，专业从事板式热交换器及成套传热系统的设计、制造、安装和服务。公司长期服务于石油天然气、船舶、暖通空调、化工、食品医药、电力、生物能源、冶金、机械制造、造纸、钢铁等行业客户。",
@@ -325,6 +285,15 @@
         "Standards Drafting Experience: Participated in drafting national and industry standards for heat exchanger energy efficiency testing, plate and frame heat exchangers, welded plate heat exchangers, and procurement specifications.",
         "Global Service Network: Based in Shanghai with global sales and service coverage, supporting customers across Asia, Europe, North America, South America, and Oceania.",
         "Trusted by Major Industrial Customers: Supplied equipment and services to leading domestic and multinational companies across oil and gas, chemical, marine, metallurgy, power, HVAC, and other sectors."
+      ],
+      "ru": [
+        "Специализированный опыт в области теплообменников: сосредоточен на пластинчатых теплообменниках и комплексных системах теплопередачи, обладая глубокими техническими знаниями в сложных промышленных приложениях.",
+        "Передовые разработки и производство. Мощные возможности проектирования, производства, сварки и испытаний позволяют создавать индивидуальные решения для сложных условий эксплуатации.",
+        "Возможность работы с высоким давлением и в больших масштабах: проверенный опыт разработки теплообменников высокого давления и больших размеров, включая приложения на 5 МПа, 6,4 МПа и 9,6 МПа.",
+        "Сертифицированное качество и соответствие: имеет сертификаты системы управления, лицензию на производство сосудов под давлением, регистрацию безопасности пластинчатых теплообменников и энергосбережения, а также международные сертификаты, включая ASME, CCS, CE, BV, ABS, GL и NK.",
+        "Опыт разработки стандартов: Участвовал в разработке национальных и отраслевых стандартов для испытаний энергоэффективности теплообменников, пластинчатых и рамных теплообменников, сварных пластинчатых теплообменников, а также спецификаций на закупки.",
+        "Глобальная сеть обслуживания: базируется в Шанхае, имеет глобальное покрытие продаж и обслуживания и поддерживает клиентов в Азии, Европе, Северной Америке, Южной Америке и Океании.",
+        "Доверяют крупные промышленные клиенты: поставляли оборудование и услуги ведущим отечественным и транснациональным компаниям в нефтегазовой, химической, морской, металлургической, энергетической, HVAC и других отраслях."
       ],
       "zh": [
         "专业换热器技术积累：长期专注于板式热交换器及成套传热系统，在复杂工业工况应用方面具备深厚技术经验。",
@@ -347,14 +316,17 @@
     "country_id": "CN",
     "country_name": {
       "en": "China",
+      "ru": "Китай",
       "zh": "中国"
     },
     "city": {
       "en": "Shanghai",
+      "ru": "Шанхай",
       "zh": "上海"
     },
     "address": {
       "en": "No. 99 Shanning Road, Jinshan District, Shanghai, China",
+      "ru": "№ 99 Shanning Road, район Цзиньшань, Шанхай, Китай",
       "zh": "上海市金山区山宁路99号"
     },
     "established_year": "2005",
@@ -400,7 +372,7 @@
       "meta_description": "Verified heat exchanger manufacturer in Shanghai, China, with plate heat exchanger and welded heat exchanger capabilities."
     },
     "created_at": "2026-03-13T13:34:27.03+00:00",
-    "updated_at": "2026-05-17T05:31:34.454+00:00",
+    "updated_at": "2026-05-24T08:22:38.946+00:00",
     "video_link": "https://youtu.be/Ne39IAdzFYw",
     "social_media_links": [
       {
@@ -416,13 +388,124 @@
     ]
   },
   {
+    "id": "5fb41b48-d202-46e1-b819-0de12c1152fa",
+    "name": {
+      "en": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
+      "ru": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
+      "zh": "四平市巨元瀚洋板式换热器有限公司"
+    },
+    "short_description": {
+      "en": "Heat exchange system solution provider and plate heat exchanger manufacturer covering detachable, semi-welded, fully welded, integrated-unit, and smart heating solutions.",
+      "ru": "Поставщик решений для систем теплообмена и производитель пластинчатых теплообменников, предлагающий съемные, полусварные, цельносварные, интегрированные и интеллектуальные решения для отопления.",
+      "zh": "面向可拆式、半焊式、全焊式、换热集成系统及智慧供热信息平台提供板式换热器和高效换热系统解决方案的制造商。"
+    },
+    "full_description": {
+      "en": [
+        "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd. is a wholly owned subsidiary of THT Juyuan Group and positions itself as an integrated service provider for efficient heat exchange system solutions in China. The official company profile states that the company was founded in 1986.",
+        "The company covers an area of 165,000 square meters with a building area of more than 40,000 square meters. It lists annual capacity of 1,000,000 square meters of plate heat exchangers and 5,000 sets of system integration devices.",
+        "Juyuan Hanyang is listed by the official profile as a drafting or participating unit for plate heat exchanger and plate heat exchanger unit standards, a member of the National Boiler and Pressure Vessel Standardization Technical Committee, and a member of relevant American heat transfer and HVAC industry associations. The profile also lists civil nuclear safety equipment design and manufacturing licenses, plate heat exchanger safety and energy-saving registrations, pressure vessel design and manufacturing licenses, SCADA software copyright registration, ASME certification, AHRI certification, and quality, environmental, and occupational health and safety management system certification.",
+        "The official profile describes an advanced plate heat exchanger production line, including uncoiling, leveling, shearing, laminating, four 10,000-ton press plate production lines with maximum press capacity of 50,000 tons, and large intelligent CNC equipment. Its product system includes detachable plate, semi-welded, fully welded, heat exchange integrated system, and smart heating information platform product groups, with more than 100 heat exchange product types.",
+        "According to the official profile, the company’s business reaches 31 countries and regions and 108 industries, and it has supplied more than 200,000 products and services to domestic and overseas customers across military, nuclear energy, biomass energy, power, petroleum, chemical, metallurgy, shipbuilding, central heating, air conditioning and refrigeration, food and beverage, seawater desalination, and related industries."
+      ],
+      "ru": [
+        "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd. является дочерней компанией, находящейся в полной собственности THT Juyuan Group, и позиционирует себя как поставщик комплексных услуг по разработке эффективных систем теплообмена в Китае. В официальном профиле компании указано, что компания была основана в 1986 году.",
+        "Компания занимает территорию площадью 165 000 квадратных метров с площадью здания более 40 000 квадратных метров. В нем указана годовая мощность 1 000 000 квадратных метров пластинчатых теплообменников и 5 000 комплектов устройств системной интеграции.",
+        "Компания Juyuan Hanyang указана в официальном профиле как разработчик или участвующее подразделение по разработке стандартов на пластинчатые теплообменники и пластинчатые теплообменники, член Национального технического комитета по стандартизации котлов и сосудов под давлением, а также член соответствующих американских отраслевых ассоциаций по теплопередаче и HVAC. В профиле также перечислены лицензии на разработку и производство гражданского оборудования для ядерной безопасности, регистрации безопасности пластинчатых теплообменников и энергосбережения, лицензии на проектирование и производство сосудов под давлением, регистрацию авторских прав на программное обеспечение SCADA, сертификацию ASME, сертификацию AHRI, а также сертификацию системы управления качеством, окружающей средой, охраной труда и безопасностью.",
+        "В официальном профиле описывается передовая линия по производству пластинчатых теплообменников, включающая размотку, правку, резку, ламинирование, четыре линии по производству прессовых пластин мощностью 10 000 тонн с максимальной производительностью пресса 50 000 тонн и большое интеллектуальное оборудование с ЧПУ. Ее система продуктов включает в себя съемные пластины, полусварные, цельносварные, интегрированные системы теплообмена и группы продуктов интеллектуальной информационной платформы отопления, включающие более 100 типов теплообменных продуктов.",
+        "Согласно официальному профилю, бизнес компании охватывает 31 страну и регион и 108 отраслей, и она поставила более 200 000 продуктов и услуг отечественным и зарубежным клиентам в военной, атомной энергетике, энергетике биомассы, энергетике, нефтяной, химической, металлургической, судостроительной, центральном отоплении, кондиционировании и охлаждении, продуктах питания и напитках, опреснении морской воды и смежных отраслях."
+      ],
+      "zh": [
+        "四平市巨元瀚洋板式换热器有限公司是 THT 巨元集团全资子公司，官网将其定位为国内高效换热系统解决方案集成服务商。官方企业介绍显示，公司始创于1986年。",
+        "公司占地面积16.5万平方米，建筑面积4万余平方米，年生产能力为板式换热器100万平方米、系统集成装置5000台套。",
+        "官网介绍显示，巨元瀚洋是板式换热器和板式换热机组相关国家标准的主要起草或参与单位，亦为全国锅炉压力容器标准化技术委员会委员单位，以及美国传热协会、美国空调供热制冷工业协会成员单位。官网列出其具备民用核安全设备设计制造许可证、板式热交换器产品安全注册证、板式热交换器节能注册证、D级压力容器设计制造许可证、SCADA自控系统软件著作权、ASME认证、AHRI认证及质量/环境/职业健康安全管理体系认证。",
+        "公司官网披露其拥有开卷、校平、剪切、层压生产线，4套万吨压机板片生产线（最大吨位5万吨），以及4200mm×1800mm整体下料机等智能数控制造装备。其产品体系包括可拆式板、半焊式、全焊式、换热集成系统及智慧供热信息平台5个产品群，形成100余种换热产品。",
+        "官网资料显示，公司业务覆盖全球31个国家和地区、108个行业，并持续为国内外客户提供20万余台套产品及服务，行业覆盖军工、核能、生物质能、电力、石油、化工、冶金、船舶、集中供热、空调制冷、食品饮料、海水淡化等领域。"
+      ]
+    },
+    "advantages": {
+      "en": [
+        "Founded in 1986 with official profile capacity of 1,000,000 square meters of plate heat exchangers and 5,000 integrated-system units per year.",
+        "Current product system covers detachable, semi-welded, fully welded, integrated heat exchange systems, and smart heating information platforms.",
+        "Officially listed standard drafting and association roles across Chinese plate heat exchanger standards and heat transfer industry organizations.",
+        "Certification coverage includes civil nuclear safety equipment licenses, plate heat exchanger safety and energy-saving registrations, ASME, AHRI, pressure-vessel licenses, and management system certification.",
+        "Advanced production capability includes uncoiling, leveling, shearing, laminating lines, four 10,000-ton press lines with maximum 50,000-ton pressing capacity, and large CNC equipment.",
+        "Business coverage stated by the official profile reaches 31 countries and regions, 108 industries, and more than 200,000 supplied products and services."
+      ],
+      "ru": [
+        "Основана в 1986 году с официальной мощностью 1 000 000 квадратных метров пластинчатых теплообменников и 5 000 единиц интегрированных систем в год.",
+        "Текущая система продуктов охватывает съемные, полусварные, цельносварные, интегрированные системы теплообмена, а также информационные платформы для интеллектуального отопления.",
+        "Официально перечислены функции разработки стандартов и ассоциации между китайскими стандартами пластинчатых теплообменников и организациями отрасли теплопередачи.",
+        "Сертификация включает лицензии на гражданское оборудование ядерной безопасности, регистрацию безопасности пластинчатых теплообменников и энергосбережения, ASME, AHRI, лицензии на сосуды под давлением и сертификацию систем управления.",
+        "Передовые производственные возможности включают линии размотки, правки, резки и ламинирования, четыре прессовые линии по 10 000 тонн с максимальной мощностью прессования 50 000 тонн, а также крупное оборудование с ЧПУ.",
+        "Бизнес-охват, заявленный официальным профилем, охватывает 31 страну и регион, 108 отраслей и более 200 000 поставляемых товаров и услуг."
+      ],
+      "zh": [
+        "始创于1986年，官网披露年产能为板式换热器100万平方米、系统集成装置5000台套。",
+        "当前产品体系覆盖可拆式、半焊式、全焊式、换热集成系统及智慧供热信息平台。",
+        "官网列出其参与板式换热器及换热机组相关标准起草，并拥有多项行业组织成员身份。",
+        "资质覆盖民用核安全设备许可证、板式换热器安全/节能注册、ASME、AHRI、压力容器许可及管理体系认证。",
+        "制造能力包括开卷校平剪切层压生产线、4套万吨压机板片生产线、最大5万吨压制能力及大型数控设备。",
+        "官网披露业务覆盖31个国家和地区、108个行业，并已提供20万余台套产品及服务。"
+      ]
+    },
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
+    "website": "http://en.tht.cn/",
+    "email": [
+      "zhancucai@tht.cn"
+    ],
+    "phone": [
+      "400-677-2292",
+      "400-656-7811"
+    ],
+    "country_id": "CN",
+    "country_name": {
+      "en": "China",
+      "ru": "Китай",
+      "zh": "中国"
+    },
+    "city": {
+      "en": "Siping",
+      "ru": "Потягивая",
+      "zh": "四平"
+    },
+    "address": {
+      "en": "THT Industrial Park, No. 5 Nanhuan West Road, Siping, Jilin, China",
+      "ru": "Индустриальный парк THT, № 5 Nanhuan West Road, Сыпин, Цзилинь, Китай",
+      "zh": "中国吉林省四平市南环西路5号THT巨元工业园"
+    },
+    "established_year": "1986",
+    "factory_area": "165000m2",
+    "employee_count": "",
+    "industries": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "9"
+    ],
+    "export_markets": [],
+    "is_visible": true,
+    "seo_data": {
+      "meta_title": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd. | THT Juyuan Heat Exchange Solutions",
+      "meta_description": "Chinese heat exchange system solution provider and plate heat exchanger manufacturer offering detachable, semi-welded, fully welded, integrated-unit, and smart heating products."
+    },
+    "created_at": "2026-05-04T09:44:50.812+00:00",
+    "updated_at": "2026-05-24T08:23:44.717+00:00",
+    "video_link": "",
+    "social_media_links": []
+  },
+  {
     "id": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
     "name": {
       "en": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
+      "ru": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
       "zh": "兰州兰石换热设备有限责任公司"
     },
     "short_description": {
       "en": "Manufacturer of plate heat exchangers, welded heat exchangers, PCHE systems, and heat exchange units for energy, petrochemical, HVAC, marine, pharmaceutical, and food industries.",
+      "ru": "Производитель пластинчатых теплообменников, сварных теплообменников, систем PCHE и теплообменных агрегатов для энергетической, нефтехимической, климатической, морской, фармацевтической и пищевой промышленности.",
       "zh": "面向能源、石油化工、暖通、船舶、制药、食品等行业提供板式换热器、焊接式换热器、PCHE 及换热机组的制造商。"
     },
     "full_description": {
@@ -432,6 +515,13 @@
         "Its technical heritage dates to 1965, when China’s first plate heat exchanger was developed. The official profile states that the company has developed more than 100 heat exchanger series over the past 60 years, including domestic firsts in all-welded plate heat exchangers, wide-channel welded plate heat exchangers, large nuclear-power plate heat exchangers, high-pressure H350 plate heat exchangers, PCHE products, deep-corrugated large plate heat exchangers for nuclear power, modular large air preheaters, and all-welded plate heat exchangers for liquid-air energy storage.",
         "After moving to Lanzhou New Area in 2014, the company expanded its production area to more than 530,000 square meters and added nearly 200 sets of equipment. The official profile also lists exports to Russia, Finland, Sri Lanka, Pakistan, Mongolia, Vietnam, and other countries and regions.",
         "The company states that it has obtained ISO 14001 environmental management certification, occupational health and safety system certification, ASME-related qualifications, pressure vessel qualifications, nuclear quality assurance qualifications, and product safety registration management credentials. It can design and manufacture according to Chinese national and industry standards as well as ASME and European PED standards."
+      ],
+      "ru": [
+        "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd. была основана в 2002 году в результате реструктуризации бывшего завода по производству пластинчатых теплообменников Ланьчжоуского нефтехимического машиностроительного завода. Это дочерняя компания зарегистрированной на бирже компании Lanshi Heavy Equipment, специализирующаяся на исследованиях, проектировании, производстве и инженерном обслуживании пластинчатых теплообменников.",
+        "Компания является одним из разработчиков пластинчатого теплообменника GB16409-1996, блока теплообменника GB/T28185-2011 для городского отопления и отраслевого стандарта Министерства строительства CJ/T191-2004 блока пластинчатого теплообменника. Ее продукция используется в энергосбережении и защите окружающей среды, атомной энергетике, аэрокосмической, нефтехимической, HVAC, морской, металлургической, биоэнергетической, энергетической, фармацевтической, текстильной, бумажной и пищевой отраслях.",
+        "Его техническое наследие восходит к 1965 году, когда был разработан первый в Китае пластинчатый теплообменник. В официальном профиле указано, что компания разработала более 100 серий теплообменников за последние 60 лет, в том числе отечественные новинки в области цельносварных пластинчатых теплообменников, ширококанальных сварных пластинчатых теплообменников, больших пластинчатых теплообменников для атомных электростанций, пластинчатых теплообменников высокого давления H350, продуктов PCHE, крупногофрированных пластинчатых теплообменников для атомной энергетики, модульных больших воздухоподогревателей и цельносварных пластинчатых теплообменников для Жидкостно-воздушный накопитель энергии.",
+        "Переехав в новый район Ланьчжоу в 2014 году, компания расширила свою производственную площадь до более чем 530 000 квадратных метров и добавила почти 200 комплектов оборудования. В официальном профиле также указан экспорт в Россию, Финляндию, Шри-Ланку, Пакистан, Монголию, Вьетнам и другие страны и регионы.",
+        "Компания заявляет, что она получила сертификат экологического менеджмента ISO 14001, сертификацию системы охраны труда и техники безопасности, квалификацию ASME, квалификацию сосудов под давлением, квалификацию обеспечения качества ядерной продукции и полномочия управления регистрацией безопасности продукции. Он может проектировать и производить в соответствии с китайскими национальными и отраслевыми стандартами, а также стандартами ASME и европейскими стандартами PED."
       ],
       "zh": [
         "兰州兰石换热设备有限责任公司成立于2002年，由原兰州石油化工机器总厂板式换热器厂改制而来，是上市公司兰石重装公司下属的专业从事板式热交换器研发、设计、生产和工程服务的子公司。",
@@ -449,6 +539,14 @@
         "Large manufacturing base in Lanzhou New Area with more than 530,000 square meters of production area and nearly 200 additional equipment sets after relocation.",
         "Broad industry coverage across petrochemical, HVAC, marine, bio-energy, pharmaceuticals, food, nuclear power, aerospace, and power-related applications.",
         "Officially listed qualifications include nuclear safety licenses, product safety registration, management system certificates, ASME-related qualifications, and pressure-vessel capabilities."
+      ],
+      "ru": [
+        "Специализированный специалист по пластинчатым теплообменникам в компании Lanshi Heavy Equipment с собственными возможностями исследований и разработок, проектирования, производства и инженерного обслуживания.",
+        "Одно из подразделений по разработке основных китайских стандартов, охватывающих пластинчатые теплообменники и теплообменные агрегаты городского отопления.",
+        "Техническое наследие связано с разработкой первого в Китае пластинчатого теплообменника и более чем 100 сериями теплообменников, разработанными за 60 лет.",
+        "Крупная производственная база в новом районе Ланьчжоу с более чем 530 000 квадратных метров производственных площадей и почти 200 дополнительными комплектами оборудования после переезда.",
+        "Широкий охват отраслей нефтехимии, систем отопления, вентиляции и кондиционирования воздуха, судоходства, биоэнергетики, фармацевтики, пищевой промышленности, атомной энергетики, аэрокосмической промышленности и энергетики.",
+        "Официально перечисленные квалификации включают лицензии на ядерную безопасность, регистрацию безопасности продукции, сертификаты системы управления, квалификации, связанные с ASME, и возможности работы с сосудами под давлением."
       ],
       "zh": [
         "依托兰石重装平台，具备板式换热器研发、设计、制造与工程服务的一体化能力。",
@@ -471,14 +569,17 @@
     "country_id": "CN",
     "country_name": {
       "en": "China",
+      "ru": "Китай",
       "zh": "中国"
     },
     "city": {
       "en": "Lanzhou",
+      "ru": "Ланьчжоу",
       "zh": "兰州"
     },
     "address": {
       "en": "No. 520, West Section of Huanghe Avenue, Lanzhou New District, Lanzhou City, Gansu Province, China",
+      "ru": "№ 520, западная часть проспекта Хуанхэ, новый район Ланьчжоу, город Ланьчжоу, провинция Ганьсу, Китай",
       "zh": "甘肃省兰州市兰州新区黄河大道西段520号"
     },
     "established_year": "2002",
@@ -509,7 +610,7 @@
       "meta_description": "Lanzhou-based manufacturer of plate heat exchangers, welded heat exchangers, PCHE systems, and heat exchange units for industrial applications."
     },
     "created_at": "2026-05-04T10:22:53.727+00:00",
-    "updated_at": "2026-05-17T05:30:59.524+00:00",
+    "updated_at": "2026-05-24T08:22:04.104+00:00",
     "video_link": "",
     "social_media_links": []
   }

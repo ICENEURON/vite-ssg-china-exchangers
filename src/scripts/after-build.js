@@ -17,6 +17,7 @@ const projectRoot = path.resolve(__dirname, '..', '..');
 const distDir = path.join(projectRoot, 'dist');
 const webDir = path.join(projectRoot, 'src', 'web');
 const localesDir = path.join(projectRoot, 'src', 'locales');
+const languagesPath = path.join(localesDir, 'languages.json');
 const countriesPath = path.join(projectRoot, 'src', 'data', 'countries.json');
 const env = loadEnv(process.env.NODE_ENV || 'production', projectRoot, '');
 const outputPaths = [
@@ -29,7 +30,8 @@ const siteHost = new URL(siteUrl).host;
 const siteHostRegex = siteHost.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const siteName = env.VITE_SITE_TITLE || process.env.VITE_SITE_TITLE || 'HeatEx Direct';
 const shouldNoindex = String(env.VITE_SITE_NOINDEX || process.env.VITE_SITE_NOINDEX || '').toLowerCase() === 'true';
-const supportedLanguages = ['en', 'zh'];
+const defaultLanguage = 'en';
+const supportedLanguages = Object.keys(readJson(languagesPath));
 const countriesByCode = new Map(readJson(countriesPath).map((country) => [country.id, country]));
 const localeJsonCache = new Map();
 
@@ -116,20 +118,28 @@ function toAbsoluteUrl(value) {
 }
 
 function getLocalizedRoute(route, language) {
-  if (language === 'zh') {
-    return route === '/' ? '/zh' : `/zh${route}`;
+  if (language === defaultLanguage) {
+    return route;
   }
 
-  return route;
+  return route === '/' ? `/${language}` : `/${language}${route}`;
 }
 
 function parseRoute(route) {
-  if (route === '/zh' || route.startsWith('/zh/')) {
-    const normalizedRoute = route === '/zh' ? '/' : route.slice(3);
-    return { language: 'zh', normalizedRoute };
+  const nonDefaultLanguages = supportedLanguages
+    .filter((language) => language !== defaultLanguage)
+    .sort((a, b) => b.length - a.length);
+
+  for (const language of nonDefaultLanguages) {
+    const prefix = `/${language}`;
+
+    if (route === prefix || route.startsWith(`${prefix}/`)) {
+      const normalizedRoute = route === prefix ? '/' : route.slice(prefix.length);
+      return { language, normalizedRoute };
+    }
   }
 
-  return { language: 'en', normalizedRoute: route };
+  return { language: defaultLanguage, normalizedRoute: route };
 }
 
 function getAlternateRoutes(route, routeSet) {
@@ -184,6 +194,12 @@ function firstText(value) {
   }
 
   return value;
+}
+
+function getLocalizedPageLabel(language, pageFile, fallback) {
+  const page = getLocaleJson(language, pageFile);
+
+  return page?.hero?.title || page?.title || fallback;
 }
 
 function truncateText(value, maxLength = 320) {
@@ -268,7 +284,7 @@ function buildManufacturerSchemas(route, manufacturerSlug) {
     },
     buildBreadcrumbList([
       { name: siteName, route: getLocalizedRoute('/', language) },
-      { name: language === 'zh' ? '制造商' : 'Manufacturers', route: getLocalizedRoute('/manufacturers', language) },
+      { name: getLocalizedPageLabel(language, 'manufacturers.json', 'Manufacturers'), route: getLocalizedRoute('/manufacturers', language) },
       { name: manufacturer.name, route },
     ]),
   ];
@@ -340,7 +356,7 @@ function buildProductSchemas(route, manufacturerSlug, productSlug) {
     },
     buildBreadcrumbList([
       { name: siteName, route: getLocalizedRoute('/', language) },
-      { name: language === 'zh' ? '\u4ea7\u54c1' : 'Products', route: getLocalizedRoute('/products', language) },
+      { name: getLocalizedPageLabel(language, 'products-page.json', 'Products'), route: getLocalizedRoute('/products', language) },
       manufacturer ? { name: manufacturer.name, route: getLocalizedRoute(`/manufacturers/${manufacturerSlug}`, language) } : null,
       { name: product.name, route },
     ].filter(Boolean)),
@@ -459,7 +475,7 @@ function syncNotFoundPages() {
   const notFoundPaths = [
     path.join(distDir, '404.html'),
     ...supportedLanguages
-      .filter((language) => language !== 'en')
+      .filter((language) => language !== defaultLanguage)
       .map((language) => path.join(distDir, language, '404.html')),
   ].filter((filePath) => fs.existsSync(filePath));
 
@@ -547,33 +563,36 @@ function shouldIncludeInSitemap(route) {
 }
 
 function getPriority(route) {
-  if (route === '/' || route === '/zh') return '1.0';
-  if (route === '/manufacturers' || route === '/products' || route === '/zh/manufacturers' || route === '/zh/products') return '0.9';
-  if (route === '/quote-request' || route === '/zh/quote-request') return '0.9';
-  if (route.startsWith('/manufacturers/') || route.startsWith('/zh/manufacturers/')) return '0.8';
-  if (route.startsWith('/products/') || route.startsWith('/zh/products/')) return '0.8';
-  if (route === '/industry-news' || route === '/zh/industry-news') return '0.7';
-  if (route.startsWith('/industry-news/') || route.startsWith('/zh/industry-news/')) return '0.7';
-  if (route === '/about' || route === '/contact' || route === '/update-your-profile') return '0.7';
-  if (route === '/zh/about' || route === '/zh/contact' || route === '/zh/update-your-profile') return '0.7';
-  if (route === '/terms' || route === '/privacy' || route === '/zh/terms' || route === '/zh/privacy') return '0.3';
+  const { normalizedRoute } = parseRoute(route);
+
+  if (normalizedRoute === '/') return '1.0';
+  if (normalizedRoute === '/manufacturers' || normalizedRoute === '/products') return '0.9';
+  if (normalizedRoute === '/quote-request') return '0.9';
+  if (normalizedRoute.startsWith('/manufacturers/')) return '0.8';
+  if (normalizedRoute.startsWith('/products/')) return '0.8';
+  if (normalizedRoute === '/industry-news') return '0.7';
+  if (normalizedRoute.startsWith('/industry-news/')) return '0.7';
+  if (normalizedRoute === '/about' || normalizedRoute === '/contact' || normalizedRoute === '/update-your-profile') return '0.7';
+  if (normalizedRoute === '/terms' || normalizedRoute === '/privacy') return '0.3';
   return '0.6';
 }
 
 function getChangefreq(route) {
-  if (route === '/' || route === '/zh' || route === '/manufacturers' || route === '/products' || route === '/zh/manufacturers' || route === '/zh/products') {
+  const { normalizedRoute } = parseRoute(route);
+
+  if (normalizedRoute === '/' || normalizedRoute === '/manufacturers' || normalizedRoute === '/products') {
     return 'weekly';
   }
 
-  if (route.startsWith('/industry-news/') || route.startsWith('/zh/industry-news/')) {
+  if (normalizedRoute.startsWith('/industry-news/')) {
     return 'monthly';
   }
 
-  if (route.startsWith('/manufacturers/') || route.startsWith('/products/') || route.startsWith('/zh/manufacturers/') || route.startsWith('/zh/products/')) {
+  if (normalizedRoute.startsWith('/manufacturers/') || normalizedRoute.startsWith('/products/')) {
     return 'weekly';
   }
 
-  if (route === '/terms' || route === '/privacy' || route === '/zh/terms' || route === '/zh/privacy') {
+  if (normalizedRoute === '/terms' || normalizedRoute === '/privacy') {
     return 'yearly';
   }
 

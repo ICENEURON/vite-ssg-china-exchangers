@@ -8,23 +8,26 @@ const projectRoot = path.resolve(__dirname, '../..');
 
 const newsDir = path.join(projectRoot, 'content/news');
 const dataDir = path.join(projectRoot, 'src/data');
+const localesDir = path.join(projectRoot, 'src/locales');
+const languagesPath = path.join(localesDir, 'languages.json');
 const manufacturersPath = path.join(dataDir, 'manufacturers.json');
 const highlightedArticlesPath = path.join(dataDir, 'highlighted-articles.json');
 const featuredFirstCompanySlug = 'shanghai-heat-transfer-equipment-co-ltd';
-const languages = ['en', 'zh'];
+const languages = Object.keys(readJson(languagesPath));
 
 const fallbackCompanies = {
   'heatex-direct': {
     id: 'heatex-direct',
-    name: {
-      en: 'HeatEx Direct',
-      zh: 'HeatEx Direct'
-    }
+    name: toLocalizedValue('HeatEx Direct')
   }
 };
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+}
+
+function toLocalizedValue(value) {
+  return Object.fromEntries(languages.map((language) => [language, value]));
 }
 
 function stripWrappingQuotes(value) {
@@ -91,10 +94,7 @@ function getCompanyMeta(companySlug, manufacturersBySlug) {
 
   return fallbackCompanies[companySlug] || {
     id: companySlug,
-    name: {
-      en: companySlug,
-      zh: companySlug
-    }
+    name: toLocalizedValue(companySlug)
   };
 }
 

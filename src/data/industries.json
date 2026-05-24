@@ -4,6 +4,7 @@
     "slug": "hvac",
     "name": {
       "en": "HVAC",
+      "ru": "ОВК",
       "zh": "暖通空调"
     },
     "is_visible": true
@@ -13,6 +14,7 @@
     "slug": "petrochemical",
     "name": {
       "en": "Petrochemical",
+      "ru": "Нефтехимия",
       "zh": "石油化工"
     },
     "is_visible": true
@@ -22,6 +24,7 @@
     "slug": "marine",
     "name": {
       "en": "Marine",
+      "ru": "Морская отрасль",
       "zh": "船舶/海工"
     },
     "is_visible": true
@@ -31,6 +34,7 @@
     "slug": "energy",
     "name": {
       "en": "Energy",
+      "ru": "Энергетика",
       "zh": "能源"
     },
     "is_visible": true
@@ -40,6 +44,7 @@
     "slug": "food-processing",
     "name": {
       "en": "Food Processing",
+      "ru": "Пищевая переработка",
       "zh": "食品加工"
     },
     "is_visible": true
@@ -49,6 +54,7 @@
     "slug": "chemical-processing",
     "name": {
       "en": "Chemical Processing",
+      "ru": "Химическая промышленность",
       "zh": "化工"
     },
     "is_visible": true
@@ -58,6 +64,7 @@
     "slug": "food-and-beverage",
     "name": {
       "en": "Food and Beverage",
+      "ru": "Пищевая промышленность и напитки",
       "zh": "食品与饮料"
     },
     "is_visible": true
@@ -67,6 +74,7 @@
     "slug": "pharmaceuticals",
     "name": {
       "en": "Pharmaceuticals",
+      "ru": "Фармацевтика",
       "zh": "制药"
     },
     "is_visible": true
@@ -76,6 +84,7 @@
     "slug": "power-generation",
     "name": {
       "en": "Power Generation",
+      "ru": "Электроэнергетика",
       "zh": "发电/电力"
     },
     "is_visible": true
