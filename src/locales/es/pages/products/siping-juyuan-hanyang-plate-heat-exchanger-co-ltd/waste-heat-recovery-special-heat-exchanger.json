@@ -1,0 +1,38 @@
+{
+  "slug": "waste-heat-recovery-special-heat-exchanger",
+  "name": "Special intercambiador de calor para Recuperacion de calor residual",
+  "full_description": "la pagina oficial lists THT soldado intercambiadores de calor de placas para intercambiadores de calor, air coolers, air preheaters, compressor interstage coolers, ammonia coolers, crude oil y residual-oil exchangers, power-plant air enfriamiento, placa evaporative air enfriamiento, MDEA solucion heat exchange, y placa economizers. lo says el waste-recuperacion de calor soldado intercambiador de calor de placas es mainly utilizados para industrial aguas residuales y exhaust gas, multi-effect evaporacion tail gas en corn deep-procesamiento, urban raw sewage, y recuperacion de calor de flue gas generated por various fuels. la pagina emphasizes confiable sellado, long-cycle operation, baja leakage y clogging risk, convenient mantenimiento y limpieza, y baja mantenimiento costos.",
+  "industries": [
+    "HVAC",
+    "Petroquimica",
+    "Energia",
+    "Procesamiento quimico",
+    "Generacion electrica"
+  ],
+  "advantage": [
+    "Targets industrial aguas residuales, exhaust gas, flue gas, sewage, y evaporative tail-gas recuperacion de calor.",
+    "confiable soldado sellado para long-cycle operation.",
+    "disenado un reduce leakage y clogging risk.",
+    "Convenient mantenimiento y limpieza con baja mantenimiento costos."
+  ],
+  "technical_parameters": {
+    "Typical Duties": "Industrial aguas residuales y exhaust gas, corn deep-procesamiento evaporacion tail gas, urban raw sewage, fuel flue-gas recuperacion de calor"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Special intercambiador de calor para Recuperacion de calor residual",
+    "meta_description": "Soldado intercambiador de calor de placas solucion para industrial aguas residuales, exhaust gas, flue gas, sewage, y other waste-recuperacion de calor sistemas."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Special Heat Exchanger for Waste Heat Recovery",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/waste_heat_recovery_special_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

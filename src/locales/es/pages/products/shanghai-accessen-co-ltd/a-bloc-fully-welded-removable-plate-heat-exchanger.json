@@ -1,0 +1,51 @@
+{
+  "slug": "a-bloc-fully-welded-removable-plate-heat-exchanger",
+  "name": "un-BLOC Totalmente soldado Removable intercambiador de calor de placas",
+  "full_description": "el un-BLOC Totalmente soldado Removable intercambiador de calor de placas es disenado para alta-temperatura y alta-presion conditions. Accessen describe lo como un compacto soldado exchanger con un square automatically soldado placa pack, fuerte termico shock resistance, true counter-current flujo, y significantly higher eficiencia de transferencia de calor than convencional shell-y-tube exchangers. Its removable multi-lado structure admite mecanico limpieza y ayuda un reduce mantenimiento space y operating costos.",
+  "industries": [
+    "Petroquimica",
+    "Energia",
+    "Procesamiento quimico",
+    "Generacion electrica"
+  ],
+  "advantage": [
+    "True counter-current eficiente heat exchange",
+    "compacto structure",
+    "pequeno ocupacion en planta y ligero",
+    "Flexible expansion un resist termico stress",
+    "Removable multi-lado diseno",
+    "alta-presion water jet limpieza"
+  ],
+  "technical_parameters": {
+    "Plate material": "AISI304, 316, 254, Ti",
+    "Maximum design pressure": "40bar",
+    "Maximum processing capacity": "1500m³/h",
+    "Maximum temperature resistance": "350℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Why es un-BLOC suited un severe proceso servicio?",
+      "content": "Accessen positions un-BLOC para alta-temperatura y alta-presion servicio, highlighting compacto structure, termico shock resistance, y el capacidad un combine enfriamiento y condensacion en one unidad."
+    },
+    {
+      "title": "How es mantenimiento simplified?",
+      "content": "el soldado placa pack es installed en un removable structure que allows disassembly y mecanico limpieza, incluidos alta-presion water jet limpieza, mientras helping maintain eficiencia de transferencia de calor."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "un-BLOC Totalmente soldado Removable intercambiador de calor de placas",
+    "meta_description": "compacto removable soldado intercambiador de calor de placas para alta-temperatura y alta-presion industrial aplicaciones con eficiente counter-current transferencia de calor."
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "A-BLOC Fully Welded Removable Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/a_bloc_fully_welded_removable_plate_heat_exchanger.png"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

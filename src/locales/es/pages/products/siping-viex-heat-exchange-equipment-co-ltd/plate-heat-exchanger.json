@@ -1,0 +1,58 @@
+{
+  "slug": "plate-heat-exchanger",
+  "name": "intercambiador de calor de placas",
+  "full_description": "ViEX intercambiadores de calor de placas son detachable intercambiadores de calor de placas utilizados para calentamiento, enfriamiento, evaporacion, condensacion, esterilizacion, y recuperacion de calor. la pagina oficial del producto destaca alta eficiencia de transferencia de calor, baja resistance loss, compacto structure, sensitive control de temperatura, convenient assembly y disassembly, y long vida util. lo tambien indica que under el same perdida de presion, el coeficiente de transferencia de calor puede reach 3 un 5 times que de shell-y-tube intercambiadores de calor, el ocupacion en planta puede ser about one third, y el metal consumption about two thirds, con average temperatura difference como baja como 1 degree Celsius.",
+  "industries": [
+    "HVAC",
+    "Petroquimica",
+    "Maritimo",
+    "Energia",
+    "Procesamiento de alimentos",
+    "Procesamiento quimico",
+    "Alimentos y bebidas",
+    "Farmaceutica",
+    "Generacion electrica"
+  ],
+  "advantage": [
+    "alta eficiencia de transferencia de calor",
+    "baja resistance loss",
+    "compacto structure y pequeno ocupacion en planta",
+    "Convenient assembly y disassembly",
+    "Flexible operation y broad medios adaptability",
+    "Average temperatura difference puede ser como baja como 1 degree Celsius"
+  ],
+  "technical_parameters": {
+    "Series": "V serie detachable intercambiadores de calor de placas",
+    "Footprint": "About one third de shell-y-tube intercambiadores de calor",
+    "Standards": "NB/T__PROTECTED_0__; GB16409-1996",
+    "Metal consumption": "About two thirds de shell-y-tube intercambiadores de calor",
+    "Heat transfer coefficient": "3-5 times shell-y-tube intercambiadores de calor under el same perdida de presion",
+    "Minimum average temperature difference": "como baja como 1℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "donde es el producto utilizados?",
+      "content": "la pagina oficial lists calentamiento, enfriamiento, evaporacion, condensacion, esterilizacion, y recuperacion de calor servicios, y says el producto es widely utilizados en petroleum, quimico ingenieria, metallurgy, mining, electric power, nuclear power, central calentamiento, shipping, farmaceuticos, food, electronics, automotive, light textile, y papermaking industrias."
+    },
+    {
+      "title": "que variants does ViEX highlight?",
+      "content": "ViEX destaca detachable intercambiadores de calor de placas para central calentamiento, nuclear power, aire acondicionado y enfriamiento, beverage procesamiento, metallurgy, petroquimicos, y removable wide-canal servicios."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "intercambiador de calor de placas | Siping ViEX",
+    "meta_description": "V serie detachable intercambiador de calor de placas para calentamiento, enfriamiento, evaporacion, condensacion, esterilizacion, y recuperacion de calor aplicaciones."
+  },
+  "manufacturer": {
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Heat Exchanger",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/plate_heat_exchanger.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

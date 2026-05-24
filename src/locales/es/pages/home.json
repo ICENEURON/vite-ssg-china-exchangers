@@ -1,0 +1,147 @@
+{
+  "title": "HeatEx Direct | Plataforma de fabricantes chinos de intercambiadores de calor",
+  "meta": {
+    "description": "HeatEx Direct ayuda a compradores industriales globales a investigar fabricantes chinos de intercambiadores de calor, comparar capacidades de producto y enviar solicitudes estructuradas de cotización.",
+    "keywords": "fabricantes chinos de intercambiadores de calor, proveedores chinos de intercambiadores de calor, fabricantes industriales de intercambiadores de calor, fabricante de intercambiadores de calor de placas, intercambiador de calor de placas soldadas, intercambiador de calor de carcasa y tubos, intercambiador de calor refrigerado por aire, solicitud de cotización de intercambiador de calor"
+  },
+  "og": {
+    "title": "HeatEx Direct - Investigación sobre fabricantes chinos de intercambiadores de calor",
+    "description": "Investigue perfiles estructurados de fabricantes, compare capacidades de productos de intercambiadores de calor industriales, lea artículos técnicos y envíe solicitudes de cotización con correo electrónico verificado."
+  },
+  "schema": {
+    "organizationDescription": "HeatEx Direct es un servicio internacional independiente de investigación de abastecimiento centrado en fabricantes chinos de intercambiadores de calor. Ayuda a compradores industriales globales a comparar capacidades de producto, revisar evidencias de proveedores, leer contenido técnico de abastecimiento y enviar solicitudes de cotización con correo electrónico verificado.",
+    "websiteDescription": "Servicio bilingüe de investigación de abastecimiento para compradores globales que comparan fabricantes chinos de intercambiadores de calor, productos industriales de intercambio térmico, evidencias de proveedores, contenido técnico y envíos estructurados de solicitudes de cotización."
+  },
+  "hero": {
+    "eyebrow": "Plataforma de fabricantes chinos de intercambiadores de calor",
+    "title": "Obtenga fabricantes chinos de intercambiadores de calor con información clara sobre fábricas, productos y aplicaciones",
+    "subtitle": "HeatEx Direct ayuda a equipos globales de compras, ingenieros, contratistas de proyectos, distribuidores e integradores de sistemas a identificar, evaluar y comparar fabricantes chinos de intercambiadores de calor antes de iniciar conversaciones con proveedores.",
+    "description": "La plataforma reúne perfiles de fabricantes, categorías de productos, sectores de aplicación, evidencias de fábrica, notas técnicas y un flujo de trabajo de solicitud de cotización que ayuda a los compradores a enviar requisitos de proyecto y recibir comentarios de cotización de fabricantes adecuados.",
+    "paths": [
+      {
+        "title": "Explorar fabricantes",
+        "body": "Revise los perfiles de fabricante, las ubicaciones de las fábricas, el alcance del producto, las industrias atendidas, los mercados de exportación y la evidencia disponible."
+      },
+      {
+        "title": "Explorar productos",
+        "body": "Vea detalles del producto, parámetros técnicos, ventajas, aplicaciones, materiales y fabricantes relacionados."
+      }
+    ]
+  },
+  "featuredManufacturers": {
+    "eyebrow": "Fabricantes destacados",
+    "title": "Comience con perfiles estructurados de fabricantes para comparar proveedores",
+    "description": "Explore perfiles estructurados que cubren los antecedentes de la empresa, el alcance del producto, las industrias de aplicación, los mercados de exportación, la evidencia de la fábrica y la información técnica disponible.",
+    "cta": "Explorar todos los fabricantes"
+  },
+  "categoryShowcase": {
+    "eyebrow": "Explore los productos de intercambiadores de calor",
+    "title": "Comience con el tipo de equipo que necesita",
+    "secondaryCta": "Explorar productos",
+    "categories": [
+      {
+        "title": "Intercambiadores de calor de placas",
+        "body": "Intercambiadores de calor de placas con juntas y equipos relacionados para HVAC, procesamiento de alimentos, sistemas marinos, enfriamiento de procesos y aplicaciones generales de recuperación de calor."
+      },
+      {
+        "title": "Intercambiadores de calor de placas soldadas",
+        "body": "Intercambiadores de placas totalmente soldadas, de paso ancho, de placas y carcasa, y de servicio severo para mayor presión, mayor temperatura, medios corrosivos o fluidos difíciles."
+      },
+      {
+        "title": "Intercambiadores de calor de carcasa y tubos",
+        "body": "Intercambiadores tubulares y equipos tipo recipiente a presión para servicios petroquímicos, energéticos, marítimos e industriales pesados."
+      },
+      {
+        "title": "Equipo de intercambio de calor del lado aire",
+        "body": "Enfriadores de aire, radiadores, intercambiadores de tubos aleteados y sistemas térmicos del lado aire para refrigeración, calefacción, ventilación y procesos industriales."
+      },
+      {
+        "title": "Piezas de repuesto y artículos de servicio",
+        "body": "Placas de repuesto, juntas, piezas de mantenimiento, documentación y componentes de servicio para respaldar el ciclo de vida del intercambiador de calor."
+      }
+    ],
+    "stats": {
+      "manufacturers": "Perfiles de fabricantes chinos",
+      "products": "Páginas de productos de intercambiadores de calor",
+      "industries": "Sectores de aplicación industrial"
+    }
+  },
+  "industryNews": {
+    "eyebrow": "Noticias de la industria",
+    "title": "Lea actualizaciones de empresas y artículos técnicos del sector de intercambiadores de calor",
+    "pillars": [
+      {
+        "title": "Noticias de la empresa",
+        "body": "Anuncios de empresa, entregas de proyectos, lanzamientos de productos, actualizaciones de fábrica y noticias de exportación de fabricantes de intercambiadores de calor listados."
+      },
+      {
+        "title": "Artículos técnicos",
+        "body": "Artículos prácticos sobre tipos de intercambiadores de calor, parámetros técnicos, materiales, aplicaciones, mantenimiento y orientación de especificaciones."
+      }
+    ]
+  },
+  "highlightedArticles": {
+    "eyebrow": "Últimas noticias de la industria de intercambiadores de calor",
+    "title": "Actualizaciones recientes de fabricantes, notas de productos y artículos técnicos",
+    "description": "Explore noticias de empresa, entregas de proyectos, actualizaciones de productos, guías de mantenimiento e historias de aplicación de fabricantes de intercambiadores de calor listados y temas técnicos relacionados.",
+    "cta": "Leer noticias de la industria",
+    "typeLabels": {
+      "news": "Noticias de la empresa",
+      "posts": "Artículo técnico"
+    }
+  },
+  "valueProp": {
+    "eyebrow": "Información y evidencia del proveedor",
+    "title": "Datos estructurados de fabricantes para facilitar la comparación",
+    "description": "HeatEx Direct organiza la información de fabricantes en secciones claras y comparables para que los compradores puedan revisar antecedentes de empresa, alcance de producto, detalles técnicos, medios, documentos y adecuación de aplicación antes de contactar a proveedores.",
+    "evidence": [
+      {
+        "label": "Antecedentes de la empresa",
+        "body": "Nombres legales de empresas, ubicaciones, enfoque comercial, descripciones breves y contexto del perfil de cada fabricante enumerado."
+      },
+      {
+        "label": "Ubicación de la fábrica",
+        "body": "Ubicaciones de fábrica, contexto operativo, medios disponibles de las instalaciones y detalles de ubicación que ayudan a los compradores a comprender la presencia real del fabricante."
+      },
+      {
+        "label": "Alcance del producto",
+        "body": "Categorías de intercambiadores de calor, páginas de productos, sectores de aplicación y capacidades de fabricación relacionadas vinculadas a cada perfil de proveedor."
+      },
+      {
+        "label": "Detalles técnicos",
+        "body": "Descripciones de productos, materiales, relevancia de presión y temperatura, notas de aplicación, contexto de carga de calor e información de diseño cuando esté disponible."
+      },
+      {
+        "label": "Medios y evidencia visual",
+        "body": "Imágenes de productos, fotografías de fábrica, certificados, documentos, logotipos de clientes y archivos relacionados cuando se suministran o verifican."
+      },
+      {
+        "label": "Certificados y Documentos",
+        "body": "Certificados, documentos, materiales de calificación y otras evidencias disponibles que los compradores pueden revisar antes de una debida diligencia más profunda del proveedor."
+      }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "Flujo de solicitud de cotización",
+    "title": "Envíe requisitos y reciba comentarios de cotización de fabricantes",
+    "description": "Una cotización útil de intercambiador de calor empieza con condiciones operativas claras. El formulario de solicitud de cotización ayuda a los compradores a enviar detalles del proyecto para que HeatEx Direct pueda revisar la información, compartirla con fabricantes adecuados y recopilar comentarios de cotización para su comparación.",
+    "steps": [
+      {
+        "title": "Comprobar ajuste",
+        "body": "Utilice las páginas de fabricantes y productos para revisar capacidad del proveedor, experiencia en aplicaciones y evidencias disponibles."
+      },
+      {
+        "title": "Enviar detalles",
+        "body": "Comparta sus condiciones operativas, necesidades de materiales, notas del proyecto y otros requisitos clave a través del formulario Obtener cotización."
+      },
+      {
+        "title": "Verificar correo electrónico",
+        "body": "No es necesario registrar una cuenta. La verificación por correo electrónico ayuda a confirmar la solicitud y habilita seguimiento."
+      },
+      {
+        "title": "Recibir comentarios",
+        "body": "HeatEx Direct revisa su solicitud, la comparte con fabricantes adecuados y le devuelve comentarios sobre la cotización para su referencia."
+      }
+    ]
+  }
+}

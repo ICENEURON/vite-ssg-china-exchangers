@@ -1,0 +1,96 @@
+{
+  "title": "HeatEx Direct | Servicio de investigación del fabricante de intercambiadores de calor de China",
+  "meta": {
+    "description": "HeatEx Direct es un servicio independiente de información centrado en perfiles de fabricantes chinos de intercambiadores de calor industriales, datos de proveedores y contenido estructurado de abastecimiento.",
+    "keywords": "HeatEx Direct, fabricantes chinos de intercambiadores de calor, investigación de abastecimiento industrial de intercambiadores de calor, perfiles de proveedores de intercambiadores de calor, plataforma de fabricantes de China"
+  },
+  "og": {
+    "title": "HeatEx Direct - Información del proveedor chino de intercambiadores de calor",
+    "description": "HeatEx Direct es un servicio independiente de investigación de abastecimiento que ayuda a compradores globales a comprender fabricantes chinos de intercambiadores de calor, capacidades de producto y perfiles de proveedores."
+  },
+  "hero": {
+    "title": "Una plataforma independiente para información sobre fabricantes chinos de intercambiadores de calor",
+    "title_highlight": "HeatEx Direct es una plataforma de información independiente que ayuda a compradores industriales globales a comprender fabricantes chinos de intercambiadores de calor antes de iniciar conversaciones con proveedores.",
+    "description_1": "Organizamos perfiles de fabricantes, información de productos, sectores de aplicación, materiales públicos, evidencias de fábrica, folletos, imágenes y notas técnicas en una estructura más clara para investigación de abastecimiento y revisión de ingeniería.",
+    "highlights": [
+      "Plataforma de información independiente para compradores globales.",
+      "Centrada en fabricantes chinos de intercambiadores de calor industriales.",
+      "Diseñado para revisión de adquisiciones, ingeniería, contratistas de proyectos, distribuidores e integradores de sistemas."
+    ]
+  },
+  "who_we_are": {
+    "story_title": "Por qué existe HeatEx Direct",
+    "description": "HeatEx Direct recopila información industrial práctica y actualizada para apoyar la investigación de abastecimiento de intercambiadores de calor industriales. Ayudamos a compradores globales a comprender mejor a los fabricantes chinos, sus capacidades de producto y el mercado chino de intercambiadores de calor antes de decidir a quién contactar.",
+    "paragraphs": [
+      "China cuenta con muchas empresas de intercambiadores de calor con capacidad real de fabricación en distintas aplicaciones industriales. Sin embargo, para compradores extranjeros, la información útil sobre proveedores suele estar dispersa en sitios web chinos, materiales públicos, documentos de ferias, folletos de productos, imágenes y medios de fábrica.",
+      "HeatEx Direct convierte esa información dispersa en una estructura más clara para investigación de abastecimiento y revisión técnica. Nos centramos en antecedentes de empresa, alcance de producto, industrias atendidas, mercados de exportación, certificados, activos multimedia, detalles de producto, parámetros técnicos e información de aplicación para que los compradores tengan una visión más clara antes de contactar."
+    ],
+    "identity_cards": [
+      {
+        "title": "Somos una plataforma de información independiente",
+        "body": "No representamos a una sola fábrica ni presentamos páginas de proveedores como anuncios de una única empresa. El objetivo es hacer que la información de fabricantes sea más fácil de revisar, comprender y utilizar."
+      },
+      {
+        "title": "Nos centramos solo en intercambiadores de calor",
+        "body": "Nuestro contenido se basa en intercambiadores de calor industriales, equipos de transferencia térmica, capacidades de productos relacionados y parámetros de abastecimiento, reduciendo el ruido de listados no relacionados."
+      },
+      {
+        "title": "Servimos a compradores industriales globales",
+        "body": "Los equipos de adquisiciones, ingenieros, contratistas de proyectos, distribuidores e integradores de sistemas pueden usar la plataforma para revisar fabricantes y enviar requisitos estructurados del proyecto a través del formulario 'Solicitud de cotización'."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Información estructurada del proveedor",
+    "descriptions": [
+      "Muchos compradores ya tienen nombres de proveedores, pero no suficiente información estructurada para comprender si esos proveedores son relevantes, creíbles y merecen una revisión más profunda.",
+      "HeatEx Direct organiza información dispersa de proveedores en material de abastecimiento más claro, ayudando a los compradores a mirar más allá de presentaciones de empresa y afirmaciones de venta antes de iniciar conversaciones con proveedores."
+    ],
+    "items": [
+      {
+        "title": "Información organizada",
+        "desc": "Organizamos información dispersa de proveedores en una estructura más clara para la revisión temprana de abastecimiento."
+      },
+      {
+        "title": "Hechos comprobables",
+        "desc": "Las páginas de fabricantes resaltan detalles que los compradores pueden revisar, como información de empresa, evidencias de producto, documentos y señales públicas."
+      },
+      {
+        "title": "Ajuste del producto",
+        "desc": "La información del proveedor está organizada según el tipo de equipo, las necesidades de aplicación, las condiciones operativas y los documentos disponibles."
+      },
+      {
+        "title": "Límites claros",
+        "desc": "Hacemos que los datos disponibles, los materiales verificables y la información faltante sean más fáciles de separar de las afirmaciones promocionales generales."
+      }
+    ]
+  },
+  "verification": {
+    "title": "Qué incluimos en cada perfil",
+    "description": "Organizamos la información de fabricantes en secciones prácticas para que los compradores puedan comprender rápidamente quién es el proveedor, qué fabrica, dónde se utilizan sus productos y qué materiales de apoyo están disponibles.",
+    "steps": {
+      "scope": {
+        "title": "Antecedentes de la empresa",
+        "description": "Nombre de empresa, ubicación, enfoque comercial, gama de productos e información pública para una revisión básica del proveedor."
+      },
+      "database": {
+        "title": "Capacidad del producto",
+        "description": "Tipos de equipos, materiales, áreas de aplicación, condiciones de funcionamiento e información relacionada del producto para evaluación técnica."
+      },
+      "shipping": {
+        "title": "Archivos y medios",
+        "description": "Imágenes disponibles, certificados, folletos, contenido del sitio web, materiales de fábrica y otros archivos de respaldo."
+      },
+      "location": {
+        "title": "Requisitos del proyecto",
+        "description": "El formulario de solicitud de cotización recopila detalles clave del proyecto para que los fabricantes adecuados puedan proporcionar comentarios de cotización más relevantes."
+      }
+    }
+  },
+  "cta": {
+    "title": "Explorar perfiles de fabricantes",
+    "subtitle": "Revise fabricantes listados, cobertura de productos, aplicaciones y materiales de apoyo.",
+    "button": "Explorar fabricantes",
+    "email_text": "¿Preguntas? Envíenos un correo electrónico:"
+  }
+}

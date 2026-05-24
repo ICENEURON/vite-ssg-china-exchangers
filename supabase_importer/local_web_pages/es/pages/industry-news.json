@@ -1,0 +1,40 @@
+{
+  "title": "HeatEx Direct | Fabricante de intercambiadores de calor industriales",
+  "meta": {
+    "description": "Obtenga intercambiadores de calor industriales directamente de fábricas chinas verificadas. Licencias comerciales, alcances de producción y certificados ASME verificados manualmente.",
+    "keywords": "Intercambiadores de calor, Fabricante de China, Abastecimiento industrial, ASME, ISO, Intercambiadores de calor de placas, Carcasa y tubos"
+  },
+  "og": {
+    "title": "HeatEx Direct - Directo de fábrica verificado",
+    "description": "Obtenga intercambiadores de calor industriales directamente de fábricas chinas verificadas. Licencias comerciales, alcances de producción y certificados ASME verificados manualmente."
+  },
+  "page": {
+    "title": "Noticias de la industria",
+    "subtitle": ""
+  },
+  "card": {
+    "read": "Leer artículo"
+  },
+  "content_types": {
+    "news": "Noticias",
+    "posts": "Artículo técnico"
+  },
+  "filters": {
+    "company": "Compañía",
+    "all": "Todo",
+    "no_results": "Ningún artículo coincide con estos filtros."
+  },
+  "search": {
+    "label": "Buscar títulos de artículos",
+    "title_placeholder": "Palabras clave del título de búsqueda"
+  },
+  "blog": {
+    "not_found_title": "Página no encontrada",
+    "not_found_desc": "Es posible que el artículo que está buscando se haya eliminado, haya cambiado de nombre o no esté disponible temporalmente.",
+    "back_to_list": "Volver a la lista",
+    "back_to_catalog": "Volver al catálogo de noticias",
+    "author": "Autor",
+    "read_time": "Leer",
+    "related_posts": "Últimos artículos"
+  }
+}

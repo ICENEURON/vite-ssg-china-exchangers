@@ -18,9 +18,9 @@
     ]
   },
   {
-    "name": "Siping ViEX Heat Exchange Equipment Co., Ltd.",
-    "short_description": "Professional manufacturer of heat exchange equipment and pressure vessel products, covering plate, tubular, spiral, air-side, and integrated heat exchange solutions.",
-    "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+    "name": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
+    "short_description": "Heat exchange system solution provider and plate heat exchanger manufacturer covering detachable, semi-welded, fully welded, integrated-unit, and smart heating solutions.",
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
     "city": "Siping",
     "country_name": "China",
     "industries": [
@@ -28,10 +28,8 @@
       "Petrochemical",
       "Marine",
       "Energy",
-      "Food Processing",
       "Chemical Processing",
       "Food and Beverage",
-      "Pharmaceuticals",
       "Power Generation"
     ]
   },
@@ -54,9 +52,9 @@
     ]
   },
   {
-    "name": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
-    "short_description": "Heat exchange system solution provider and plate heat exchanger manufacturer covering detachable, semi-welded, fully welded, integrated-unit, and smart heating solutions.",
-    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
+    "name": "Siping ViEX Heat Exchange Equipment Co., Ltd.",
+    "short_description": "Professional manufacturer of heat exchange equipment and pressure vessel products, covering plate, tubular, spiral, air-side, and integrated heat exchange solutions.",
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd",
     "city": "Siping",
     "country_name": "China",
     "industries": [
@@ -64,8 +62,10 @@
       "Petrochemical",
       "Marine",
       "Energy",
+      "Food Processing",
       "Chemical Processing",
       "Food and Beverage",
+      "Pharmaceuticals",
       "Power Generation"
     ]
   },

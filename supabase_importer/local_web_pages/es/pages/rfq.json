@@ -1,0 +1,432 @@
+{
+  "industries": [
+    {
+      "id": "hvac",
+      "label": "HVAC e instalaciones de edificios"
+    },
+    {
+      "id": "food",
+      "label": "Alimentos, lácteos y bebidas"
+    },
+    {
+      "id": "chemicals",
+      "label": "Productos químicos y petroquímicos"
+    },
+    {
+      "id": "marine",
+      "label": "Marina y transporte"
+    },
+    {
+      "id": "power",
+      "label": "Generación eléctrica y energía"
+    },
+    {
+      "id": "pharma",
+      "label": "Productos farmacéuticos y biotecnología"
+    },
+    {
+      "id": "pulp",
+      "label": "Pulpa y papel"
+    },
+    {
+      "id": "water",
+      "label": "Tratamiento de aguas y residuos"
+    },
+    {
+      "id": "mining",
+      "label": "Minería y minerales"
+    },
+    {
+      "id": "other",
+      "label": "Otro"
+    }
+  ],
+  "timelines": [
+    {
+      "id": "in_stock",
+      "label": "En stock / envío rápido (1-2 semanas)"
+    },
+    {
+      "id": "standard",
+      "label": "Producción estándar (3-6 semanas)"
+    },
+    {
+      "id": "custom",
+      "label": "Personalizado / gran escala (7-12 semanas)"
+    },
+    {
+      "id": "project",
+      "label": "Largo plazo de entrega/proyecto (más de 12 semanas)"
+    },
+    {
+      "id": "planning",
+      "label": "Fase de planificación (sin necesidad inmediata)"
+    },
+    {
+      "id": "other",
+      "label": "Otro"
+    }
+  ],
+  "quantities": [
+    {
+      "id": "1_unit",
+      "label": "1 unidad (repuesto/muestra)"
+    },
+    {
+      "id": "2_5_units",
+      "label": "2-5 unidades (sistema pequeño)"
+    },
+    {
+      "id": "6_20_units",
+      "label": "6-20 unidades (sistema mediano)"
+    },
+    {
+      "id": "20_plus_units",
+      "label": "Más de 20 unidades (proyecto a gran escala)"
+    },
+    {
+      "id": "other",
+      "label": "Otro"
+    }
+  ],
+  "productTypes": [
+    {
+      "id": "gasketed_phe",
+      "label": "Intercambiador de calor de placas con juntas"
+    },
+    {
+      "id": "brazed_phe",
+      "label": "Intercambiador de calor de placas soldadas por brasaje"
+    },
+    {
+      "id": "welded_phe",
+      "label": "Intercambiador de calor de placas soldadas"
+    },
+    {
+      "id": "shell_tube",
+      "label": "Intercambiador de calor de carcasa y tubos"
+    },
+    {
+      "id": "air_cooled",
+      "label": "Intercambiador de calor refrigerado por aire"
+    },
+    {
+      "id": "spares",
+      "label": "Repuestos (placas, juntas)"
+    },
+    {
+      "id": "other",
+      "label": "Otro"
+    }
+  ],
+  "fluidTypes": [
+    {
+      "id": "single_liquid",
+      "label": "Líquido monofásico"
+    },
+    {
+      "id": "single_gas",
+      "label": "Gas monofásico"
+    },
+    {
+      "id": "gas_liquid",
+      "label": "Gas-líquido"
+    },
+    {
+      "id": "solid_liquid",
+      "label": "Sólido-líquido"
+    }
+  ],
+  "plateMaterials": [
+    {
+      "id": "s30403",
+      "label": "S30403"
+    },
+    {
+      "id": "s30408",
+      "label": "S30408"
+    },
+    {
+      "id": "s31603",
+      "label": "S31603"
+    },
+    {
+      "id": "254smo",
+      "label": "254SMO"
+    },
+    {
+      "id": "904l",
+      "label": "904L"
+    },
+    {
+      "id": "ta1",
+      "label": "TA1"
+    },
+    {
+      "id": "ta9",
+      "label": "TA9"
+    },
+    {
+      "id": "ni",
+      "label": "Ni"
+    },
+    {
+      "id": "c276",
+      "label": "C-276"
+    },
+    {
+      "id": "other",
+      "label": "Otro"
+    }
+  ],
+  "flangeStandards": [
+    {
+      "id": "asme_b16_5_2025",
+      "label": "ASME B 16.5-2025"
+    },
+    {
+      "id": "en1092_1_2024",
+      "label": "EN1092-1-2024"
+    },
+    {
+      "id": "gost_33259_2015",
+      "label": "GOST 33259-2015"
+    },
+    {
+      "id": "other",
+      "label": "Otro"
+    }
+  ],
+  "steps": {
+    "context": "Contexto",
+    "specifications": "Parámetros de diseño",
+    "verification": "Verificación",
+    "submit": "Enviar"
+  },
+  "title": "Generador inteligente de solicitudes de cotización - Obtenga cotizaciones personalizadas de intercambiadores de calor",
+  "description": "Prepare una solicitud de cotización profesional en minutos. Modo anónimo disponible. Obtenga cotizaciones de fabricantes verificados.",
+  "navbarTitle": "Generador inteligente de solicitudes de cotización",
+  "step1": {
+    "title": "1. Contexto del proyecto",
+    "subtitle": "Comparta el contexto básico del proyecto para que podamos dirigir la solicitud de cotización con precisión.",
+    "firstNameLabel": "Nombre",
+    "firstNamePlaceholder": "",
+    "lastNameLabel": "Apellido",
+    "lastNamePlaceholder": "",
+    "companyLabel": "Nombre de la empresa",
+    "companyPlaceholder": "",
+    "countryLabel": "País/región de destino",
+    "industryLabel": "Industria / aplicación",
+    "countryPlaceholder": "Seleccionar",
+    "requiredHint": "",
+    "customIndustryPlaceholder": "Especifique su industria...",
+    "quantityLabel": "Cantidad requerida",
+    "customQuantityPlaceholder": "Especifique la cantidad requerida...",
+    "timelineLabel": "Plazo de entrega previsto",
+    "customTimelinePlaceholder": "Especifique sus expectativas de plazo..."
+  },
+  "step2": {
+    "title": "2. Parámetros de diseño y equipo",
+    "subtitle": "Proporcione los datos de los medios del lado caliente y del lado frío, además de los parámetros clave del equipo.",
+    "unitMetric": "Métrico (°C, m³/h)",
+    "unitImperial": "Imperial (°F, GPM)",
+    "thermalSpecsTitle": "Especificaciones térmicas y de rendimiento",
+    "thermalSpecsSubtitle": "",
+    "equipmentParamsTitle": "Parámetros del equipo",
+    "equipmentParamsSubtitle": "",
+    "hotSide": "Lado caliente",
+    "coldSide": "Lado frío",
+    "requiredBadge": "Requerido",
+    "requiredHint": "",
+    "singlePhaseSharedBadge": "Monofásico: propiedades de salida copiadas",
+    "autoCopiedLabel": "",
+    "mediaNameLabel": "Nombre del medio",
+    "hotMediaPlaceholder": "",
+    "coldMediaPlaceholder": "",
+    "fluidTypeLabel": "Tipo de fluido",
+    "inletFluidTypeLabel": "Entrada",
+    "outletFluidTypeLabel": "Salida",
+    "fluidTypePlaceholder": "Seleccionar",
+    "massFlowLabel": "Flujo másico (kg/h)",
+    "inletMassFlowLabel": "Entrada",
+    "outletMassFlowLabel": "Salida",
+    "massFlowPlaceholder": "",
+    "volumeFlowLabel": "Caudal volumétrico (m3/h)",
+    "flowRequirementLabel": "",
+    "inletVolumeFlowLabel": "Entrada",
+    "outletVolumeFlowLabel": "Salida",
+    "volumeFlowPlaceholder": "",
+    "gasPhaseFractionLabel": "Fracción de fase gaseosa",
+    "inletGasPhaseFractionLabel": "Entrada",
+    "outletGasPhaseFractionLabel": "Salida",
+    "gasPhaseFractionPlaceholder": "0,15 o 15%",
+    "inletPropertyLabel": "Entrada",
+    "outletPropertyLabel": "Salida",
+    "inletTempLabel": "Temperatura de entrada (°C)",
+    "outletTempLabel": "Temperatura de salida (°C)",
+    "temperatureLabel": "Temperatura (°C)",
+    "densityLabel": "Densidad (kg/m3)",
+    "specificHeatLabel": "Calor específico (kJ/kg·°C)",
+    "conductivityLabel": "Conductividad térmica (W/m·°C)",
+    "viscosityLabel": "Viscosidad dinámica (cp)",
+    "plateMaterialLabel": "Material de la placa",
+    "plateMaterialPlaceholder": "Seleccionar",
+    "customPlateMaterialPlaceholder": "Especifique el material de la placa...",
+    "designCodeLabel": "Código de diseño",
+    "designCodePlaceholder": "GB/T 151, ASME VIII, HG/T20592-2009",
+    "designPressureLabel": "Presión de diseño (MPa)",
+    "testPressureLabel": "Presión de prueba (MPa)",
+    "designTemperatureLabel": "Temperatura de diseño (°C)",
+    "flangeStandardLabel": "Estándar de brida",
+    "flangeStandardPlaceholder": "Seleccionar",
+    "customFlangeStandardLabel": "Otro estándar de brida",
+    "customFlangeStandardPlaceholder": "HG/T20592-2009",
+    "flangeNominalDiameterLabel": "Diámetro nominal de la brida de la conexión",
+    "flangeNominalDiameterPlaceholder": "DN100",
+    "flangeMaterialLabel": "Material de la brida de la conexión",
+    "flangeMaterialPlaceholder": "S31603",
+    "flangePressureRatingLabel": "Clase de presión de la brida",
+    "flangePressureRatingPlaceholder": "PN16, PN63, Clase 150",
+    "flangeTypeSealingFaceLabel": "Tipo de brida/cara de sellado",
+    "flangeTypeSealingFacePlaceholder": "B/RF, WN/RF",
+    "heatLoadLabel": "Carga térmica (kW)",
+    "heatLoadPlaceholder": "1500",
+    "additionalNotesLabel": "Notas adicionales/requisitos personalizados",
+    "additionalNotesPlaceholder": "¿Se requiere algún material específico? ¿Restricciones de dimensiones? ¿Se necesitan certificaciones? (Máximo 500 caracteres)"
+  },
+  "step3": {
+    "accessCodePlaceholder": "Código",
+    "title": "3. Verificación",
+    "subtitle": "Verifique su correo electrónico para que las fábricas puedan responder a una solicitud real.",
+    "verifiedTitle": "¡Correo electrónico ya verificado!",
+    "continueBtn": "Continuar al envío final",
+    "verifySubtitle": "Para garantizar una asignación de proveedores de alta calidad y proteger su identidad, verifique su dirección de correo electrónico.",
+    "emailLabel": "Dirección de correo electrónico",
+    "emailPlaceholder": "Correo electrónico",
+    "freeEmailTitle": "Correo electrónico personal detectado.",
+    "freeEmailDesc": "Su solicitud se distribuirá a un máximo de 2 fábricas. Utilice un correo electrónico comercial para llegar a más de 5 fábricas verificadas.",
+    "businessEmailTitle": "El correo electrónico comercial ayuda a que su solicitud se destaque.",
+    "businessEmailDesc": "Puede llegar a más de 5 fábricas verificadas manteniendo su identidad protegida.",
+    "sendBtn": "Enviar código de verificación",
+    "sendingBtn": "Envío...",
+    "codeSentTo": "Código enviado a",
+    "accessCodeLabel": "Código de verificación",
+    "verifyBtn": "Verifique su correo electrónico",
+    "verifyingBtn": "Verificando...",
+    "errors": {
+      "rateLimit": "Por motivos de seguridad, solo puede solicitar esto después de {{seconds}} segundos.",
+      "network": "No se puede comunicar con el servicio de verificación. Verifique su red o vuelva a intentarlo más tarde.",
+      "invalidCode": "Código de verificación no válido o caducado",
+      "sendFailed": "No se pudo enviar el código de verificación. Inténtelo de nuevo.",
+      "verifyFailed": "La verificación falló. Inténtelo de nuevo."
+    },
+    "successTitle": "¡Correo electrónico verificado!",
+    "successSubtitle": "Procediendo a la confirmación final..."
+  },
+  "step4": {
+    "title": "4. Confirmar y enviar",
+    "subtitle": "Revise sus datos de solicitud de cotización y elija su configuración de privacidad.",
+    "emailVerifiedTitle": "¡Correo electrónico verificado exitosamente!",
+    "anonymousMode": "Modo anónimo",
+    "publicMode": "Modo público",
+    "anonymousModeDesc": "Las fábricas no pueden ver su correo electrónico directamente. Gestionamos la comunicación.",
+    "publicModeDesc": "Las fábricas pueden ver su información de correo electrónico directamente.",
+    "sourceManufacturerTargetTitle": "Enviar a",
+    "sourceManufacturerTargetEnabledDesc": "Como llegó desde una página relacionada, esta solicitud de cotización se enviará a esa empresa. Otras oportunidades de cotización pueden dirigirse a otros fabricantes.",
+    "sourceManufacturerTargetDisabledDesc": "Esta solicitud de cotización no se enviará específicamente a la empresa de origen. Se gestionará como una solicitud de cotización general.",
+    "projectContextTitle": "1. Contexto del proyecto",
+    "productSpecsTitle": "2. Parámetros de diseño y equipo",
+    "editBtn": "Editar",
+    "summaryCountry": "País/región",
+    "summaryIndustry": "Industria / aplicación",
+    "summaryGeneralReq": "Parámetros y notas del equipo",
+    "summaryMediaName": "Nombre del medio",
+    "summaryFluidType": "Tipo de fluido",
+    "summaryInletFluidType": "Tipo de fluido de entrada",
+    "summaryOutletFluidType": "Tipo de fluido de salida",
+    "summaryMassFlow": "Flujo másico",
+    "summaryInletMassFlow": "Flujo másico de entrada",
+    "summaryOutletMassFlow": "Flujo másico de salida",
+    "summaryInletVolumeFlow": "Flujo volumétrico de entrada",
+    "summaryOutletVolumeFlow": "Flujo volumétrico de salida",
+    "summaryGasPhaseFraction": "Fracción de fase gaseosa",
+    "summaryInletGasPhaseFraction": "Fracción de fase gaseosa de entrada",
+    "summaryOutletGasPhaseFraction": "Fracción de la fase gaseosa de salida",
+    "summaryDesignPress": "Presión de diseño",
+    "summaryTestPress": "Presión de prueba",
+    "summaryDesignTemp": "Temperatura de diseño",
+    "summaryDesignCode": "Código de diseño",
+    "summaryDensity": "Densidad",
+    "summaryInletDensity": "Densidad de entrada",
+    "summaryOutletDensity": "Densidad de salida",
+    "summarySpecificHeat": "Calor específico",
+    "summaryInletSpecificHeat": "Calor específico de entrada",
+    "summaryOutletSpecificHeat": "Calor específico de salida",
+    "summaryConductivity": "Conductividad térmica",
+    "summaryInletConductivity": "Conductividad térmica de entrada",
+    "summaryOutletConductivity": "Conductividad térmica de salida",
+    "summaryViscosity": "Viscosidad dinámica",
+    "summaryInletViscosity": "Viscosidad dinámica de entrada",
+    "summaryOutletViscosity": "Viscosidad dinámica de salida",
+    "summaryPlateMaterial": "Material de la placa",
+    "summaryFlangeStandard": "Estándar de brida",
+    "summaryInletFlangeNominalDiameter": "Diámetro nominal de la brida de la boquilla de entrada",
+    "summaryOutletFlangeNominalDiameter": "Diámetro nominal de la brida de la boquilla de salida",
+    "summaryFlangeMaterial": "Material de la brida de la boquilla",
+    "summaryFlangePressureRating": "Clase de presión de la brida",
+    "summaryFlangeTypeSealingFace": "Tipo de brida/cara de sellado",
+    "summaryHeatLoad": "Carga térmica",
+    "summaryNotes": "Notas adicionales",
+    "summaryHotSide": "Lado caliente",
+    "summaryColdSide": "Lado frío",
+    "summaryInlet": "Temperatura de entrada",
+    "summaryOutlet": "Temperatura de salida",
+    "submitBtn": "Obtener cotización",
+    "otherPrefix": "Otro"
+  },
+  "parameterLabels": {
+    "inlet": "Entrada",
+    "outlet": "Salida",
+    "fluidType": "Tipo de fluido",
+    "massFlow": "Flujo másico",
+    "volumeFlow": "Caudal volumétrico",
+    "gasPhaseFraction": "Fracción de fase gaseosa",
+    "temperature": "Temperatura",
+    "density": "Densidad",
+    "specificHeat": "Calor específico",
+    "thermalConductivity": "Conductividad térmica",
+    "dynamicViscosity": "Viscosidad dinámica",
+    "hotSide": "Lado caliente",
+    "coldSide": "Lado frío",
+    "mediaName": "Nombre del medio",
+    "designPressure": "Presión de diseño",
+    "testPressure": "Presión de prueba",
+    "designTemperature": "Temperatura de diseño",
+    "flangeStandard": "Estándar de brida",
+    "flangeNominalDiameter": "Diámetro nominal de la brida de la conexión",
+    "flangeMaterial": "Material de la brida de la conexión",
+    "flangePressureRating": "Clase de presión de la brida",
+    "flangeTypeSealingFace": "Tipo de brida/cara de sellado",
+    "thermal": "Parámetros térmicos y de rendimiento",
+    "equipment": "Parámetros del equipo",
+    "heatLoad": "Carga térmica",
+    "designCode": "Código de diseño",
+    "plateMaterial": "Material de la placa"
+  },
+  "success": {
+    "title": "¡Enviado!",
+    "desc": "Hemos procesado con éxito su solicitud de cotización. Nos comunicaremos en breve para ayudarle con los próximos pasos.",
+    "homeBtn": "Volver al inicio"
+  },
+  "actions": {
+    "back": "Atrás",
+    "continue": "Continuar"
+  },
+  "meta": {
+    "keywords": "solicitud de cotización de intercambiador de calor, RFQ de intercambiador de calor, cotización de intercambiador de calor de placas, especificaciones de intercambiador de calor industrial, cotización de fabricante de intercambiadores de calor"
+  },
+  "og": {
+    "title": "Generador inteligente de solicitudes de cotización - Obtenga cotizaciones personalizadas de intercambiadores de calor",
+    "description": "Prepare una solicitud de cotización profesional en minutos. Modo anónimo disponible. Obtenga cotizaciones de fabricantes verificados."
+  }
+}

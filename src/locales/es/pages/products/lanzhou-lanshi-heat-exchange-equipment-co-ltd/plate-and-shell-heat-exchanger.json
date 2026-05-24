@@ -1,0 +1,40 @@
+{
+  "slug": "plate-and-shell-heat-exchanger",
+  "name": "Intercambiador de calor de placas y carcasa",
+  "full_description": "La página oficial del producto describe este modelo como un intercambiador de calor avanzado de alta eficiencia y ahorro de energía que utiliza placas corrugadas como elementos de transferencia de calor, que consta de un haz de placas soldadas internas y una carcasa externa. Se presenta para reformado catalítico, isomerización de xileno, desproporción de tolueno, condensación de propano y propileno, intercambio de calor de solución de amina y otros procesos líquido-líquido, vapor-líquido, gas-líquido y gas-gas en las industrias de refinación de petróleo, petroquímica y procesamiento de gas.",
+  "industries": [
+    "Petroquimica",
+    "Energia",
+    "Procesamiento quimico"
+  ],
+  "advantage": [
+    "Combina la compacidad y eficiencia de los intercambiadores de calor de placas con resistencia a la presión y temperatura del lado de la carcasa.",
+    "Se presenta una estructura soldada sin juntas para trabajos a alta temperatura y alta presión.",
+    "La página oficial destaca un peso y un tamaño más reducidos que las alternativas de carcasa y tubo."
+  ],
+  "technical_parameters": {
+    "Assembly Area": "≤20000m2",
+    "Plate Material": "304, 316L, 321, 254SMO, etc.",
+    "Design Pressure": "≤6.0MPa",
+    "Plate Thickness": "0,7 ~ 1,2 mm",
+    "Design Temperature": "≤580℃",
+    "Minimum Temperature Difference": "1℃"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Intercambiador de calor de placas y carcasa",
+    "meta_description": "Intercambiador compacto de carcasa y placas de alta eficiencia para servicios de procesamiento de gases, petroquímicos y refinerías."
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate and Shell Heat Exchanger",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_and_shell_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

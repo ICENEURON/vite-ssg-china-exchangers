@@ -1,0 +1,39 @@
+{
+  "slug": "brazed-plate-heat-exchanger",
+  "name": "Brazed intercambiador de calor de placas",
+  "full_description": "la pagina oficial lists brazed placa producto de intercambio de calor caracteristicas como alta turbulence y very alta transferencia de calor rendimiento, alta temperatura y presion resistance, y pequeno size con light peso. lo explains que el brazing filler es heated de solid un liquid, fills gaps formed por placa soporte points mediante wetting y capillary action, y forms el connection entre different materiales despues de enfriamiento. la pagina lists copper-based solder foil, nickel-based solder paste, y iron-based solder paste.",
+  "industries": [
+    "HVAC",
+    "Energia",
+    "Procesamiento de alimentos",
+    "Procesamiento quimico",
+    "Alimentos y bebidas",
+    "Farmaceutica"
+  ],
+  "advantage": [
+    "alta turbulence y alta heat-transfer rendimiento.",
+    "Alta temperatura y presion resistance.",
+    "compacto size y baja peso.",
+    "Multiple filler metal options: copper-based, nickel-based, y iron-based brazing materiales."
+  ],
+  "technical_parameters": {
+    "Brazing Materials": "Copper-based solder foil; nickel-based solder paste; iron-based solder paste"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Brazed intercambiador de calor de placas",
+    "meta_description": "compacto brazed intercambiador de calor de placas con alta turbulence transferencia de calor, alta temperatura y presion resistance, y baja peso."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Brazed Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/brazed_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

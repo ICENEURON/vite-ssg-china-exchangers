@@ -1,0 +1,60 @@
+{
+  "filter_all_industries": "Todas las industrias",
+  "no_results": "No se encontraron fabricantes que coincidan con los filtros seleccionados.",
+  "clear_all": "Borrar todo",
+  "filter_industry": "Industria",
+  "title": "Fabricantes verificados de intercambiadores de calor | HeatEx Direct",
+  "meta": {
+    "description": "Explore una plataforma especializada de fabricantes chinos de intercambiadores de calor revisados, con detalles de industria, perfil de empresa, cobertura de productos y mercados de exportación.",
+    "keywords": "fabricantes verificados de intercambiadores de calor, fábricas de intercambiadores de calor en China, plataforma de fabricantes, abastecimiento industrial de intercambiadores de calor"
+  },
+  "og": {
+    "title": "Fabricantes verificados de intercambiadores de calor | HeatEx Direct",
+    "description": "Explore fabricantes chinos de intercambiadores de calor revisados y filtre rápidamente proveedores por industria."
+  },
+  "hero": {
+    "title": "Fabricantes chinos de intercambiadores de calor",
+    "description": "Explore fabricantes chinos de intercambiadores de calor listados y revise sus perfiles de empresa, cobertura de productos, experiencia en aplicaciones y mercados de exportación para identificar proveedores adecuados para sus necesidades de abastecimiento."
+  },
+  "card": {
+    "verified": "VERIFICADO",
+    "view_profile": "Ver perfil"
+  },
+  "company": {
+    "page_title": "Perfil del fabricante",
+    "meta_description_default": "Perfil del fabricante",
+    "back_to_list": "Volver a Fabricantes",
+    "connect_description": "Envíe los requisitos de su proyecto y reciba comentarios de cotización del fabricante.",
+    "connect_note": "Comparta sus especificaciones, cantidad y necesidades del proyecto. HeatEx Direct organizará la consulta y la remitirá a fabricantes de intercambiadores de calor compatibles para seguimiento.",
+    "quote_here": "Solicitud de Cotización",
+    "iso_certified": "Certificación ISO",
+    "asme_stamp": "Sello ASME",
+    "business_license": "Licencia comercial",
+    "global_trade": "Comercio mundial",
+    "verified": "Revisado",
+    "not_available": "N/D",
+    "company_overview": "Descripción general de la empresa",
+    "why_choose_us": "¿Por qué elegirnos?",
+    "industries_served": "Industrias atendidas",
+    "official_website": "Sitio web oficial",
+    "visit_manufacturer": "Visite el sitio web del fabricante",
+    "product_showcase": "Exhibición de productos",
+    "technical_specifications": "Especificaciones técnicas",
+    "factory_gallery": "Galería de fábrica",
+    "factory_certifications": "Certificaciones de fábrica",
+    "trusted_customers": "Con la confianza de los líderes globales",
+    "trusted_customers_desc": "Servicio de excelencia para actores líderes en múltiples industrias.",
+    "partner_with": "Asóciese con {{name}}",
+    "partner_desc": "Obtenga calidad verificada y precios directos de fábrica.",
+    "established": "Fundada en {{year}}",
+    "factory_area_summary": "Área del sitio {{value}} m²",
+    "employee_count_summary": "Empleados {{value}}",
+    "available_categories": "Categorías de productos disponibles:",
+    "export_markets": "Mercados de exportación",
+    "contact_info": "Información de contacto",
+    "certificate": "Certificado",
+    "follow_us": "Síganos",
+    "document_downloads": "Descargas de documentos",
+    "download": "Descargar"
+  }
+}

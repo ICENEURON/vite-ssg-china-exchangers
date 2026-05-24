@@ -1,0 +1,53 @@
+{
+  "slug": "high-efficiency-plate-heat-exchanger-aq-aa",
+  "name": "alta-Eficiencia intercambiador de calor de placas AQ/AA",
+  "full_description": "el AQ/AA serie es un AHRI-certified con juntas placa-y-frame intercambiador de calor disenado para HVAC-R enfriamiento sistemas. Accessen describe el serie como optimized para variable-load transferencia de calor rendimiento, compatibility con different water qualities y temperatures, y aplicacion-specific configuration mediante multi-angle chevron plates, varied canal depths, y configurable aspect ratios within standardized port sizes.",
+  "industries": [
+    "HVAC"
+  ],
+  "advantage": [
+    "AHRI-Certified Rendimiento",
+    "Enhanced Gasket Longevity",
+    "Higher Certified Eficiencia energetica",
+    "Configurable placa Patterns",
+    "Proven Fiabilidad y Stability",
+    "Expanded Accessory Options",
+    "Optimized distribucion del flujo",
+    "Clip-en Gaskets",
+    "Self-Locking Alignment Sistema"
+  ],
+  "technical_parameters": {
+    "Maximum design pressure": "25bar",
+    "Maximum design temperature": "200℃",
+    "Maximum processing capacity": "5,000m³/h",
+    "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254",
+    "Maximum Heat Transfer Capacity": "80MW",
+    "Minimum temperature difference": "0.5-1℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "que aplicaciones es el AQ/AA serie disenado para?",
+      "content": "Accessen positions el AQ/AA serie para HVAC-R enfriamiento sistemas donde certified liquid-un-liquid intercambiador de calor rendimiento y adaptable termico diseno son importante."
+    },
+    {
+      "title": "How does el diseno remain flexible?",
+      "content": "el serie usa multi-angle chevron plates, different canal depths, y configurable aspect ratios within norma port sizes so que disenos puede ser adapted un different servicios y condiciones de operacion."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "alta-Eficiencia intercambiador de calor de placas AQ/AA",
+    "meta_description": "AHRI-certified con juntas placa-y-frame intercambiador de calor para HVAC-R enfriamiento sistemas con configurable placa geometria y alta eficiencia de transferencia de calor."
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "High-Efficiency Plate Heat Exchanger AQ/AA",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/high_efficiency_plate_heat_exchanger_aq_aa.png"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

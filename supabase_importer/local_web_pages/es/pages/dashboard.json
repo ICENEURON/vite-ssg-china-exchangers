@@ -1,0 +1,46 @@
+{
+  "title": "Panel de desarrollo",
+  "meta": {
+    "description": "Su panel de desarrollo personal que muestra los componentes de React, Vite, TailwindCSS y Shadcn UI en acción.",
+    "keywords": "tablero, reaccionar, vite, tailwindcss, shadcn, desarrollo, componentes, ui"
+  },
+  "og": {
+    "title": "Panel de desarrollo: React + Vite + TailwindCSS + Shadcn",
+    "description": "Panel interactivo que demuestra el poder de las herramientas modernas de desarrollo web."
+  },
+  "welcome": {
+    "title": "Bienvenido a su panel de control",
+    "subtitle": "Iniciado sesión como {{email}}",
+    "description": "Explore las capacidades de nuestra pila de tecnología a través de este panel interactivo."
+  },
+  "sections": {
+    "components": {
+      "title": "Muestra de componentes de la interfaz de usuario",
+      "description": "Ejemplos interactivos de componentes de Shadcn UI"
+    },
+    "performance": {
+      "title": "Métricas de rendimiento",
+      "description": "Indicadores de rendimiento de aplicaciones en tiempo real"
+    },
+    "development": {
+      "title": "Herramientas de desarrollo",
+      "description": "Herramientas y utilidades útiles para el desarrollo."
+    },
+    "theming": {
+      "title": "Configuración del tema",
+      "description": "Personaliza la apariencia de la aplicación"
+    }
+  },
+  "stats": {
+    "components": "Más de 50 componentes",
+    "themes": "Modos claro y oscuro",
+    "responsive": "Totalmente responsivo",
+    "accessible": "Cumple con las WCAG"
+  },
+  "actions": {
+    "sign_out": "desconectar",
+    "view_code": "Ver código fuente",
+    "download": "Descargar proyecto",
+    "customize": "Personalizar tema"
+  }
+}

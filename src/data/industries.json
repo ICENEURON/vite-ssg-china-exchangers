@@ -4,6 +4,7 @@
     "slug": "hvac",
     "name": {
       "en": "HVAC",
+      "es": "HVAC",
       "ru": "ОВК",
       "zh": "暖通空调"
     },
@@ -14,6 +15,7 @@
     "slug": "petrochemical",
     "name": {
       "en": "Petrochemical",
+      "es": "Petroquimica",
       "ru": "Нефтехимия",
       "zh": "石油化工"
     },
@@ -24,6 +26,7 @@
     "slug": "marine",
     "name": {
       "en": "Marine",
+      "es": "Maritimo",
       "ru": "Морская отрасль",
       "zh": "船舶/海工"
     },
@@ -34,6 +37,7 @@
     "slug": "energy",
     "name": {
       "en": "Energy",
+      "es": "Energia",
       "ru": "Энергетика",
       "zh": "能源"
     },
@@ -44,6 +48,7 @@
     "slug": "food-processing",
     "name": {
       "en": "Food Processing",
+      "es": "Procesamiento de alimentos",
       "ru": "Пищевая переработка",
       "zh": "食品加工"
     },
@@ -54,6 +59,7 @@
     "slug": "chemical-processing",
     "name": {
       "en": "Chemical Processing",
+      "es": "Procesamiento quimico",
       "ru": "Химическая промышленность",
       "zh": "化工"
     },
@@ -64,6 +70,7 @@
     "slug": "food-and-beverage",
     "name": {
       "en": "Food and Beverage",
+      "es": "Alimentos y bebidas",
       "ru": "Пищевая промышленность и напитки",
       "zh": "食品与饮料"
     },
@@ -74,6 +81,7 @@
     "slug": "pharmaceuticals",
     "name": {
       "en": "Pharmaceuticals",
+      "es": "Farmaceutica",
       "ru": "Фармацевтика",
       "zh": "制药"
     },
@@ -84,6 +92,7 @@
     "slug": "power-generation",
     "name": {
       "en": "Power Generation",
+      "es": "Generacion electrica",
       "ru": "Электроэнергетика",
       "zh": "发电/电力"
     },

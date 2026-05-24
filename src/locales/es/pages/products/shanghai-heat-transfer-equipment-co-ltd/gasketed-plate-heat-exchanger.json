@@ -1,0 +1,95 @@
+{
+  "slug": "gasketed-plate-heat-exchanger",
+  "name": "con juntas intercambiador de calor de placas",
+  "full_description": "placa y frame intercambiador de calor es composed de corrugated metal plates sealed por gaskets y compressed dentro de un frame por tie rods con locking nuts. el port holes form continuous canales so el two fluids flujo en countercurrent entre el transferencia de calor plates, delivering alta coeficiente de transferencia de calor, baja ensuciamiento resistance, compacto ocupacion en planta, convenient mantenimiento y limpieza, pequeno end approach temperatura, y light overall peso.",
+  "industries": [
+    "HVAC",
+    "Petroquimica",
+    "Maritimo",
+    "Energia",
+    "Procesamiento de alimentos",
+    "Procesamiento quimico",
+    "Farmaceutica"
+  ],
+  "advantage": [
+    "alta Eficiencia: Multiple first-class energy-eficiencia producto disenos ayudar balance fuerte termico rendimiento con lower energy consumption.",
+    "Broad producto Coverage: el producto serie cubre DN32 un DN500, de soporte un wide range de exigente proceso conditions.",
+    "compacto y Servicioable: el exchanger combines compacto structure, clean appearance, y convenient limpieza y descaling para longer vida util.",
+    "Flexible Ingenieria: Advanced simulation capacidades y customizable models soporte producto optimization para different servicios.",
+    "confiable Sellado: con juntas construccion y reinforced placa diseno improve sellado rendimiento under alta-presion conditions.",
+    "Material Versatility: placa y gasket material options include austenitic acero inoxidable, duplex steel, titanium, nickel alloys, NBR, EPDM, FKM, y PTFE-cushion soluciones."
+  ],
+  "technical_parameters": {
+    "Max Area": "4000㎡",
+    "Nozzle Size": "DN32 ~ DN500",
+    "Profile Depth": "1.8 ~ 10.0mm",
+    "Plate Material": "Austenitic acero inoxidable, Duplex steel, Titanium y titanium alloy, Nickel y nickel alloy",
+    "Design Pressure": "Vacuum ~ 3.6MPa",
+    "Gasket Material": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, PTFE cushion",
+    "Plate Thickness": "0.4 ~ 1.0mm",
+    "Design Temperature": "<=180℃"
+  },
+  "video_link": "https://www.youtube.com/watch?v=AK423r7fJuU",
+  "details": [
+    {
+      "title": "que es un con juntas intercambiador de calor de placas?",
+      "content": "un con juntas intercambiador de calor de placas es built de corrugated metal transferencia de calor plates sealed por gaskets y clamped together within un frame. la placa port holes form continuous canales que distribute caliente y frio medios hacia alternating passages, donde el two fluids flujo en countercurrent una achieve eficiente transferencia de calor."
+    },
+    {
+      "title": "Why choose este placa y frame diseno?",
+      "content": "Comparard con convencional shell y tube equipos, este diseno offers un much higher coeficiente de transferencia de calor, lower ensuciamiento factor, menor end approach temperatura, lighter peso, y un significantly menor ocupacion en planta. el modular placa pack tambien makes capacity adjustment, inspeccion, mantenimiento, y limpieza mas convenient."
+    },
+    {
+      "title": "How es lo disenado y manufactured?",
+      "content": "el transferencia de calor placa es el nucleo element y es developed con CAD, CFD, CAE, y CAM tools una optimize placa geometria, sellado, y presion resistance. During ingenieria, el required servicio, caudal, temperatura program, perdida de presion, placa pattern, materiales, pass arrangement, y gasket seleccion son defined first, then el frame, nozzles, y placa pack son manufactured y assembled antes de presion, leak, y rendimiento testing."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "con juntas intercambiador de calor de placas",
+    "meta_description": "compacto placa y frame intercambiador de calor con eficiente termico transfer, easy mantenimiento, y broad material y size options."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_2.jpg"
+    },
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_3.jpg"
+    },
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger Plate Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_4.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

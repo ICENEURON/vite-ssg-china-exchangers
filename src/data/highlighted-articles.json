@@ -8,6 +8,7 @@
       "companySlug": "shanghai-heat-transfer-equipment-co-ltd",
       "companyName": {
         "en": "Shanghai Heat Transfer Equipment Co., Ltd.",
+        "es": "Shanghai transferencia de calor equipos Co., Ltd.",
         "ru": "Shanghai Heat Transfer Equipment Co., Ltd.",
         "zh": "上海板换机械设备有限公司"
       },
@@ -33,6 +34,7 @@
       "companySlug": "shanghai-accessen-co-ltd",
       "companyName": {
         "en": "Shanghai Accessen Co., Ltd.",
+        "es": "Shanghai Accessen Co., Ltd.",
         "ru": "Shanghai Accessen Co., Ltd.",
         "zh": "上海艾克森股份有限公司"
       },
@@ -58,6 +60,7 @@
       "companySlug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
       "companyName": {
         "en": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
+        "es": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
         "ru": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
         "zh": "兰州兰石换热设备有限责任公司"
       },
@@ -84,7 +87,8 @@
       "companyName": {
         "en": "HeatEx Direct",
         "zh": "HeatEx Direct",
-        "ru": "HeatEx Direct"
+        "ru": "HeatEx Direct",
+        "es": "HeatEx Direct"
       },
       "contentType": "news",
       "articleSlug": "large-spiral-plate-heat-exchanger-delivery-for-mining-service",
@@ -108,6 +112,7 @@
       "companySlug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
       "companyName": {
         "en": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
+        "es": "Siping Juyuan Hanyang intercambiador de calor de placas Co., Ltd.",
         "ru": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
         "zh": "四平市巨元瀚洋板式换热器有限公司"
       },

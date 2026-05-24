@@ -1,0 +1,94 @@
+{
+  "slug": "tp-welded-plate-heat-exchanger",
+  "name": "TP Soldado intercambiador de calor de placas",
+  "full_description": "la placa packs estan soldados together por advanced automatic soldadura machines y installed dentro de un shell que puede ser opened para mecanico limpieza del canales de flujo. el unique canal configuration prevents fluido cross-contamination y external leakage. TP Soldado intercambiador de calor de placas combines el alta eficiencia de transferencia de calor y compacto structure de intercambiadores de calor de placas con el alta-presion y alta-temperatura resistance de shell y tube exchangers, hacer lo una ideal replacement para tubular equipos en special transferencia de calor procesos. lo es widely utilizados en petroquimico, generacion electrica, metallurgy, HVAC, food, y farmaceutico industrias.",
+  "industries": [
+    "Petroquimica",
+    "Maritimo",
+    "Procesamiento de alimentos",
+    "Procesamiento quimico",
+    "Farmaceutica"
+  ],
+  "advantage": [
+    "Expansion Joint Diseno: una unique expansion joint structure es suitable para servicios con grande temperatura differences.",
+    "Countercurrent transferencia de calor: Contraflujo arrangement improves el logarithmic mean temperatura difference correction factor y enhances termico rendimiento.",
+    "Round Shell Strength: el cylindrical shell form ayuda un reduce soldadura deformation y improves presion resistance y structural stability.",
+    "Hybrid flujo Rendimiento: la placa lado provides fuerte turbulence y alta eficiencia de transferencia de calor, mientras la carcasa lado offers baja flujo resistance y fuerte presion-bearing capacidad.",
+    "Totalmente soldado Seguridad: el all-soldado construccion es safe y confiable para alta-temperatura, alta-presion, y hazardous medios aplicaciones.",
+    "Maintainable Structure: el housing puede ser opened para mecanico limpieza, giving el unidad better servicioability than fully sealed soldado alternatives."
+  ],
+  "technical_parameters": {
+    "Max Area": "15000㎡",
+    "Plate Material": "Austenitic acero inoxidable, Duplex acero inoxidable, 254SMO, Titanium y titanium alloy, Nickel y nickel alloy, Hastelloy",
+    "Design Pressure": "Vacuum ~ 6.0MPa",
+    "Plate Thickness": "0.6 ~ 1.5mm",
+    "Design Temperature": "-196 ~ 900℃"
+  },
+  "video_link": "https://www.youtube.com/watch?v=S_2LrC6tOMk",
+  "details": [
+    {
+      "title": "que es TP Soldado intercambiador de calor de placas?",
+      "content": "TP Soldado intercambiador de calor de placas es un hybrid exchanger que combines el structural caracteristicas de shell y tube intercambiadores de calor con el compactoness y alta eficiencia de transferencia de calor de intercambiadores de calor de placas. lo es suitable para liquido-liquido, gas-gas, y liquid-gas transferencia de calor servicios donde ambos eficiencia termica y resistencia mecanica son importante."
+    },
+    {
+      "title": "How es TP Soldado intercambiador de calor de placas constructed?",
+      "content": "el primary components include one o mas soldado placa packs, shell y placa frame sections, clamping bolts, caliente y frio lado inlet y outlet connections, baffle plates, y soporte structures. la placa pack es formed por stacking y soldadura corrugated plates, y depending en la aplicacion, la carcasa-lado y placa-lado housings puede ser soldado o bolted para flexibility en operation y mantenimiento."
+    },
+    {
+      "title": "How es lo disenado y manufactured?",
+      "content": "Diseno se centra en optimized placa geometria, placa spacing, multi-pass contraflujo o crossflow arrangement, y presion-drop control. Seleccion de materiales puede include acero inoxidable, titanium, Hastelloy, y other corrosion-resistant alloys. Fabricacion relies en precision soldadura y robust assembly methods una ensure seamless connections, structural integrity, y dependable rendimiento under severe condiciones de operacion."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "TP Soldado intercambiador de calor de placas",
+    "meta_description": "Hybrid soldado intercambiador de calor de placas combining placa eficiencia con shell-y-tube durability para alta-presion y alta-temperatura servicio."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Flow Path",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_3.jpg"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_4.jpg"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Application",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_5.png"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

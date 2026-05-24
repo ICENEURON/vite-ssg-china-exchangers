@@ -1,0 +1,44 @@
+{
+  "slug": "standardized-heat-exchange-unit",
+  "name": "Standardized calor intercambio unidad",
+  "full_description": "THT describe el standardized heat exchange unidad como un producto built de professional seleccion la practica, standardized configuration, standardized structure, standardized control programs, modular produccion, y fabrica inspeccion. el producto pagina comparars THT targets con national reference values, incluidos placa exchanger perdida de presion de 40kPa versus 50kPa, primary-lado unidad perdida de presion de 60kPa versus 100kPa, y secondary-lado unidad perdida de presion de 80kPa versus 100kPa. lo tambien emphasizes quick installation, directo start despues de piping y power connection, unmanned operation, y energy-eficiencia analysis.",
+  "industries": [
+    "HVAC",
+    "Energia",
+    "Generacion electrica"
+  ],
+  "advantage": [
+    "Standardized configuration, structure, y control program.",
+    "Modular assembly y fabrica inspeccion soporte shorter entrega y easier installation.",
+    "oficial comparison lists lower presion-drop targets than el cited national reference values.",
+    "admite unmanned operation y energy-eficiencia analysis."
+  ],
+  "technical_parameters": {
+    "Control": "Standardized control program con energy-eficiencia analysis",
+    "Plate Exchanger Pressure Drop": "THT 40kPa; national reference 50kPa",
+    "Unit Pressure Drop - Primary Side": "THT 60kPa; national reference 100kPa",
+    "Unit Pressure Drop - Secondary Side": "THT 80kPa; national reference 100kPa"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "How es el unidad entregado?",
+      "content": "la pagina oficial describe standardized y modular assembly, automatic sizing y cutting, intelligent soldadura, surface treatment, module assembly, presion debugging, y fabrica inspeccion."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Standardized calor intercambio unidad",
+    "meta_description": "Standardized heat exchange unidad con modular configuration, standardized control program, y lower presion-drop targets than el national reference values listed por THT."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Standardized Heat Exchange Unit",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/standardized_heat_exchange_unit_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

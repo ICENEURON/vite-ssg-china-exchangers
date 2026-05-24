@@ -1,0 +1,39 @@
+{
+  "slug": "semi-welded-plate-heat-exchanger",
+  "name": "Semisoldado intercambiador de calor de placas",
+  "full_description": "la pagina oficial says THT usa advanced fiber-laser soldadura machines y modern laser soldadura tecnologia para semisoldado intercambiadores de calor de placas. Comparard con other soldadura methods, la pagina destaca una sola-weld proceso, pequeno heat-affected zone, baja post-weld deformation, automatic inspeccion during soldadura, fast soldadura speed, y baja residual-stress ratio. la pagina tambien indica que el producto ha obtained B2-B3 level seguridad registration certificacion para soldado intercambiadores de calor de placas.",
+  "industries": [
+    "Petroquimica",
+    "Energia",
+    "Procesamiento quimico",
+    "Farmaceutica",
+    "Generacion electrica"
+  ],
+  "advantage": [
+    "Laser soldadura proceso con pequeno heat-affected zone y baja deformation.",
+    "Automatic inspeccion during soldadura ayuda un control calidad de soldadura.",
+    "Guide-placa mecanico tests puede verify placa-pair soldadura calidad.",
+    "Officially listed B2-B3 seguridad registration certificacion para soldado intercambiadores de calor de placas."
+  ],
+  "technical_parameters": {
+    "Welding Method": "Fiber laser soldadura y CNC seam soldadura",
+    "Safety Registration": "B2-B3 level soldado intercambiador de calor de placas seguridad registration"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Semisoldado intercambiador de calor de placas",
+    "meta_description": "Semisoldado intercambiador de calor de placas usando laser soldadura y placa-pair soldadura procesos para servicios donde one lado requires soldado sellado."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Semi-Welded Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

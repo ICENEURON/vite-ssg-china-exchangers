@@ -1,0 +1,85 @@
+{
+  "slug": "printed-circuit-heat-exchanger",
+  "name": "circuito impreso intercambiador de calor",
+  "full_description": "circuito impreso intercambiador de calor (PCHE) es una alta-eficiencia microchannel soldado intercambiador de calor de placas con una extremely compacto structure. Thin metal plates son chemically etched un form precise canales de flujo, then stacked y diffusion bonded hacia un monolithic transferencia de calor nucleo. el nucleo es assembled y soldado con el housing, headers, nozzles, flanges, y other components un form un complete exchanger. PCHE es disenado para exigente aplicaciones requiring alta eficiencia termica y compacto ocupacion en planta, incluidos nuclear energy, maritimo, oil y gas, aerospace, generacion electrica, LNG, hydrocarbon procesamiento, y nuevo energy sistemas.",
+  "industries": [
+    "HVAC",
+    "Maritimo",
+    "Energia"
+  ],
+  "advantage": [
+    "Compactoness: el PCHE ocupacion en planta puede ser 5 un 10 times menor than convencional shell y tube exchangers, hacer lo ideal para space-constrained sistemas.",
+    "alta Eficiencia: Microchannel geometria provides very alta transferencia de calor rendimiento y puede achieve up un 98% overall eficiencia termica en exigente servicios.",
+    "Extreme Operating capacidad: Diffusion-bonded construccion admite severe servicio conditions up un 1000 bar y temperatures como alta como 850℃.",
+    "Custom flujo geometria: Different canal y corrugation patterns puede ser engineered un match specific caudal, perdida de presion, y termico load requisitos.",
+    "alta Structural Integrity: Specialized producto structure y solid-state diffusion bonding improve leak resistance y operational seguridad under alta temperatura y presion.",
+    "Ligero y Space Saving: alta surface-area density delivers close temperatura approach, lower peso, y excellent space utilization."
+  ],
+  "technical_parameters": {
+    "Channel Width": "0.4 ~ 4mm",
+    "Plate Material": "304, 316L, 2205, TA1 y titanium alloy, alta-temperatura alloy",
+    "Plate Thickness": "0.4 ~ 4mm",
+    "Design Temperature": "-196 ~ 850℃",
+    "Heat Transfer Area": "8000㎡",
+    "Max Design Pressure": "1000 Bar"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "que es un circuito impreso intercambiador de calor?",
+      "content": "circuito impreso intercambiador de calor es un highly compacto y eficiente microchannel intercambiador de calor disenado para extreme condiciones de operacion. lo usa chemically etched metal plates y diffusion bonding tecnologia un deliver very alta transferencia de calor rendimiento, presion resistance, resistencia a la corrosion, y space eficiencia en aplicaciones donde convencional exchangers son too grande o cannot withstand el servicio."
+    },
+    {
+      "title": "How es circuito impreso intercambiador de calor constructed?",
+      "content": "Thin metal plates, usually acero inoxidable, duplex steel, titanium, o alta-temperatura alloys, son coated y chemically etched un create intricate microchannel patterns. el etched plates son stacked en un defined configuration y diffusion bonded at alta temperatura y presion un form un monolithic nucleo, which es then assembled con housing, headers, nozzles, y other external components un make el final exchanger."
+    },
+    {
+      "title": "How es lo disenado y manufactured?",
+      "content": "PCHE diseno combines termico-hydraulic analysis, microchannel geometria optimization, materiales ingenieria, y manufacturability. despues de selecting base materiales y placa thickness, el canal pattern es transferred por photomask y chemically etched, cleaned, stacked, diffusion bonded en un vacuum furnace, y then completed mediante header assembly, leak testing, y termico rendimiento validation."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "circuito impreso intercambiador de calor",
+    "meta_description": "compacto diffusion-bonded circuito impreso intercambiador de calor para extreme presion y temperatura aplicaciones con alta eficiencia termica."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Printed Circuit Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_1.jpg"
+    },
+    {
+      "alt_text": "Printed Circuit Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Printed Circuit Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_3.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

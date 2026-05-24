@@ -1,0 +1,39 @@
+{
+  "slug": "plate-tube-shell-heat-exchanger",
+  "name": "placa (Tube) Shell intercambiador de calor",
+  "full_description": "el pagina oficial explains que el plate es el core heat-transfer component de el plate-shell intercambiador de calor. THT lists plate structures incluidos chocolate-shaped ripple, horizontal ripple, oblique ripple, y herringbone ripple forms. Plates son formed through one-piece pressing y then edge-cut por laser para consistent dimensions. After each single plate tube y plate bundle es soldado, un air-tightness test de 0.6-0.7MPa es performed. el page indica que part de el shell-type equipos can withstand 6.0MPa operating pressure y has been used en nuclear power, military, y other major equipos projects.",
+  "industries": [
+    "Petroquimica",
+    "Energia",
+    "Procesamiento quimico",
+    "Generacion electrica"
+  ],
+  "advantage": [
+    "Multiple placa corrugation structures para different condiciones de operacion.",
+    "One-piece placa pressing y laser edge cutting improve dimensional consistency.",
+    "Each soldado placa tube y paquete de placas receives air-tightness testing.",
+    "Part del shell equipos puede withstand 6.0MPa operating presion."
+  ],
+  "technical_parameters": {
+    "Plate Forms": "Chocolate-shaped ripple, horizontal ripple, oblique ripple, herringbone ripple",
+    "Air-Tightness Test": "0.6-0.7MPa after soldadura",
+    "Operating Pressure": "Some shell-type equipos puede withstand 6.0MPa"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "placa (Tube) Shell intercambiador de calor",
+    "meta_description": "placa-shell y tube-intercambiador de calor de placas plataforma usando soldado paquetes de placas y mature inspeccion procedures para special-servicio aplicaciones."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate (Tube) Shell Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/plate_tube_shell_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

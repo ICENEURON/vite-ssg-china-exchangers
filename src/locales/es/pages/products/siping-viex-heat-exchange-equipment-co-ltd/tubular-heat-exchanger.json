@@ -1,0 +1,50 @@
+{
+  "slug": "tubular-heat-exchanger",
+  "name": "intercambiador de calor tubular",
+  "full_description": "ViEX describe its tubular intercambiador de calor como un shell-y-tube intercambiador de calor con mature diseno, fabricacion, inspeccion, y mantenimiento tecnologia, wide eleccion de material, y amplia aplicacion conditions. la pagina oficial says la empresa holds Chinese recipiente un presion D1 y D2 diseno y fabricacion licenses y se centra en enhanced transferencia de calor shell-y-tube exchangers usando arc tubes, corrugated tubes, spiral tubes, plasma tubes, tres-dimensional rib tubes, baffle tubes, y spiral baffles una improve eficiencia y reduce presion loss.",
+  "industries": [
+    "Petroquimica",
+    "Energia",
+    "Procesamiento quimico",
+    "Generacion electrica"
+  ],
+  "advantage": [
+    "Alta temperatura y alta presion resistance",
+    "Wide seleccion de materiales y broad servicio coverage",
+    "Mature diseno, fabricacion, y mantenimiento tecnologia",
+    "Enhanced transferencia de calor element options",
+    "Improved eficiencia y reduced resistance loss"
+  ],
+  "technical_parameters": {
+    "Licenses": "Recipiente un presion D1 y D2 diseno y fabricacion licenses",
+    "Standards": "ASME; GB150; GB151; GB/T__PROTECTED_0__; TSG21-2016",
+    "Product types": "Fixed tubesheet; U-tube; Floating head; Stuffing box",
+    "Enhanced elements": "Arc tube; Corrugated tube; Spiral tube; Plasma tube; 3D rib tube; Baffle tube; Spiral baffle placa"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "How does ViEX classify el producto?",
+      "content": "la pagina oficial introduces four main structural types: fixed tubesheet, U-tube, floating head, y stuffing box shell-y-tube intercambiadores de calor."
+    },
+    {
+      "title": "que industrias son highlighted?",
+      "content": "el producto pagina apunta a petroleum refining, quimico industria, electric power, metallurgy, y water conservancy among el main aplicacion areas."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Tubular intercambiador de calor | Siping ViEX",
+    "meta_description": "Shell-y-tube intercambiador de calor disenado para alta-temperatura, alta-presion, y enhanced transferencia de calor industrial aplicaciones."
+  },
+  "manufacturer": {
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Tubular Heat Exchanger",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/tubular_heat_exchanger.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

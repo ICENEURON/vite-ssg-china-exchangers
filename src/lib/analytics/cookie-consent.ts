@@ -2,6 +2,7 @@ import * as CookieConsent from 'vanilla-cookieconsent';
 import 'vanilla-cookieconsent/dist/cookieconsent.css';
 import './cookie-consent.css';
 import enCookie from '../../locales/en/components/cookie.json';
+import esCookie from '../../locales/es/components/cookie.json';
 import ruCookie from '../../locales/ru/components/cookie.json';
 import zhCookie from '../../locales/zh/components/cookie.json';
 
@@ -9,6 +10,7 @@ const analyticsCategory = 'analytics';
 const gaMeasurementId = import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-077PBFJFEZ';
 const cookieTranslations = {
   en: enCookie,
+  es: esCookie,
   ru: ruCookie,
   zh: zhCookie,
 } as const;
@@ -241,6 +243,7 @@ export function initializeCookieConsent() {
       autoDetect: 'document',
       translations: {
         en: buildCookieTranslation('en', cookieDomainLabel),
+        es: buildCookieTranslation('es', cookieDomainLabel),
         ru: buildCookieTranslation('ru', cookieDomainLabel),
         zh: buildCookieTranslation('zh', cookieDomainLabel),
       },

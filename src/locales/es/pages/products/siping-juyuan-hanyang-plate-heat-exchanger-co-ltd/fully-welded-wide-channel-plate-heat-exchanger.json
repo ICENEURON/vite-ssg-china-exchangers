@@ -1,0 +1,39 @@
+{
+  "slug": "fully-welded-wide-channel-plate-heat-exchanger",
+  "name": "Totalmente soldado Wide canal intercambiador de calor de placas",
+  "full_description": "el pagina oficial says el totalmente soldado wide channel plate intercambiador de calor es created para special customer needs y es particularly suitable para media containing large amounts de solid particles, fiber suspensions, y viscous fluids en metallurgy, papermaking, sugar, alcohol, chemical ingenieria, y sewage treatment procesoes. el producto uses large single plates, con maximum length over 10,000mm y width de 1,200mm. Plate spacing columns son laser soldado, long soldaduras son seam soldado, outer-end soldaduras use automatic argon arc soldadura, y each plate pair receives 0.6-0.7MPa air-tightness testing after soldadura.",
+  "industries": [
+    "Petroquimica",
+    "Procesamiento de alimentos",
+    "Procesamiento quimico",
+    "Alimentos y bebidas"
+  ],
+  "advantage": [
+    "Wide-canal diseno para solids, fibers, y viscous medios.",
+    "grande single placa size admite exigente industrial procesos.",
+    "Laser soldadura, seam soldadura, y automatic argon arc soldadura se utilizan para different weld positions.",
+    "Each placa pair receives air-tightness testing despues de soldadura."
+  ],
+  "technical_parameters": {
+    "Air-Tightness Test": "0.6-0.7MPa after each plate pair es soldado",
+    "Single Plate Width": "1200mm",
+    "Maximum Single Plate Length": ">10000mm"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Totalmente soldado Wide canal intercambiador de calor de placas",
+    "meta_description": "Totalmente soldado wide-canal intercambiador de calor de placas para solid-particle, fiber-suspension, y viscous-fluido servicios."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Fully Welded Wide Channel Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/fully_welded_wide_channel_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

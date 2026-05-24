@@ -3,7 +3,7 @@ title: "Siping Juyuan Hanyang Поддержал экваториальную с
 slug: supporting-deepwater-geophysical-fleet-equatorial-seismic-operation
 date: 2017-07-18
 author: "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
-reviewer: "HeatEx Direct Editorial Team"
+reviewer: "Редакция HeatEx Direct"
 readTime: "2 минуты"
 excerpt: "Siping Juyuan Hanyang поставила центральные охладители для геофизических судов Haiyang Shiyou 720 и 721."
 metaTitle: "Корпус теплообменника глубоководного геофизического судна"

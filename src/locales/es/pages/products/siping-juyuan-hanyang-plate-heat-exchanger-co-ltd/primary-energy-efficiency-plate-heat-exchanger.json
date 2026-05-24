@@ -1,0 +1,48 @@
+{
+  "slug": "primary-energy-efficiency-plate-heat-exchanger",
+  "name": "Primary Eficiencia energetica intercambiador de calor de placas",
+  "full_description": "el pagina oficial del productoo indica que after el release de TSG R0010-2019, Intercambiador de calor Eficiencia energetica Testing y Evaluation Rules, THT Juyuan had eight plate series tested y evaluard por el National Heat Exchange Producto Calidad Supervision y Inspeccion Center y meeting Level-1 energy-eficiencia requisitos para high-eficiencia plate intercambiadores de calor: Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B, y P45A-H. el empresa also identifies itself como one de el drafting units de NB/T__PROTECTED_1__ Plate Intercambiador de calor.",
+  "industries": [
+    "HVAC",
+    "Petroquimica",
+    "Energia",
+    "Procesamiento de alimentos",
+    "Procesamiento quimico",
+    "Alimentos y bebidas",
+    "Farmaceutica",
+    "Generacion electrica"
+  ],
+  "advantage": [
+    "Eight listed placa serie meet Level-1 energy-eficiencia requisitos.",
+    "Officially connected con NB/T__PROTECTED_0__ intercambiador de calor de placas norma drafting.",
+    "la pagina destaca corrugation diseno y gasket fixing/sealing improvements para transfer eficiencia y fiabilidad."
+  ],
+  "technical_parameters": {
+    "Referenced Standard": "NB/T__PROTECTED_0__",
+    "Maximum Design Pressure": "3.2MPa",
+    "Maximum Design Temperature": "150℃",
+    "Level-1 Energy-Efficiency Plate Series": "Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B, P45A-H"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "que makes lo different?",
+      "content": "la pagina oficial presents el producto como un Level-1 energy-eficiencia intercambiador de calor de placas family, soporteed por national testing y evaluation y por la empresa’s role en intercambiador de calor de placas norma drafting."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Primary Eficiencia energetica intercambiador de calor de placas",
+    "meta_description": "Level-1 energy-eficiencia intercambiador de calor de placas serie tested under China’s intercambiador de calor energy-eficiencia evaluation rules."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Primary Energy Efficiency Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/primary_energy_efficiency_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

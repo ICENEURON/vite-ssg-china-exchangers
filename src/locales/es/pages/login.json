@@ -1,0 +1,33 @@
+{
+  "title": "Inicia sesión en tu cuenta",
+  "meta": {
+    "description": "Inicie sesión para acceder a su panel personal y explorar los componentes de React, Vite, TailwindCSS y Shadcn UI.",
+    "keywords": "iniciar sesión, iniciar sesión, autenticación, reaccionar, panel de control, cuenta"
+  },
+  "og": {
+    "title": "Iniciar sesión - React + Vite + TailwindCSS + Shadcn",
+    "description": "Acceda a su panel de desarrollo y explore tecnologías web modernas."
+  },
+  "hero": {
+    "title": "Bienvenido de nuevo",
+    "subtitle": "Inicie sesión para acceder a su panel de desarrollo y explorar nuestra pila de tecnología."
+  },
+  "form": {
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "signin": "Iniciar sesión",
+    "signing_in": "Iniciando sesión...",
+    "forgot_password": "¿Olvidaste tu contraseña?",
+    "no_account": "¿No tienes una cuenta?",
+    "signup_link": "Regístrate aquí"
+  },
+  "benefits": {
+    "title": "A qué tendrás acceso:",
+    "items": [
+      "Muestra interactiva de componentes",
+      "Ejemplos de código en vivo",
+      "Métricas de rendimiento",
+      "Herramientas de personalización"
+    ]
+  }
+}

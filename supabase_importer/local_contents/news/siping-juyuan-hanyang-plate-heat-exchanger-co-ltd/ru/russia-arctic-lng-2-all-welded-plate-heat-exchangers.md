@@ -3,7 +3,7 @@ title: "Siping Juyuan Hanyang поставляет цельносварные п
 slug: russia-arctic-lng-2-all-welded-plate-heat-exchangers
 date: 2024-01-31
 author: "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
-reviewer: "HeatEx Direct Editorial Team"
+reviewer: "Редакция HeatEx Direct"
 readTime: "2 минуты"
 excerpt: "Компания Siping Juyuan Hanyang поставила 80 цельносварных пластинчатых теплообменников для российского проекта Arctic LNG 2."
 metaTitle: "Arctic LNG 2 Цельносварные пластинчатые теплообменники"

@@ -1,0 +1,39 @@
+{
+  "slug": "wide-channel-welded-plate-heat-exchanger",
+  "name": "Intercambiador de calor de placas soldadas de canal ancho",
+  "full_description": "Según la página oficial del producto, la placa utiliza placas planas o onduladas nido como elementos de transferencia de calor, y el conjunto de placas está soldado entre placas emparejadas. Está diseñado para procesos de azúcar, fabricación de papel, metalurgia, alcohol, productos químicos, alimentos y etanol combustible que manejan partículas sólidas, suspensiones de fibras y fluidos viscosos, al tiempo que tiene como objetivo reducir la deposición y la obstrucción dentro del canal.",
+  "industries": [
+    "Procesamiento de alimentos",
+    "Procesamiento quimico",
+    "Alimentos y bebidas"
+  ],
+  "advantage": [
+    "Diseñado para medios que contienen partículas sólidas, suspensiones de fibras y fluidos viscosos.",
+    "El canal de flujo de espacio amplio está diseñado para permanecer suave y reducir la obstrucción.",
+    "Desarrollado para procesos de calentamiento y enfriamiento en servicios de azúcar, papel, metalurgia, alcohol, productos químicos, alimentos y etanol combustible."
+  ],
+  "technical_parameters": {
+    "Assembly Area": "≤3000m2",
+    "Design Pressure": "Vacío ~ 3,5 MPa",
+    "Plate Thickness": "1,0 ~ 2,0 mm",
+    "Design Temperature": "≤450 ℃",
+    "Minimum Temperature Difference": "1℃"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Intercambiador de calor de placas soldadas de canal ancho",
+    "meta_description": "Intercambiador de placas soldadas de gran espacio para medios viscosos, fibras y partículas sólidas."
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Wide Channel Welded Plate Heat Exchanger",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/wide_channel_welded_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

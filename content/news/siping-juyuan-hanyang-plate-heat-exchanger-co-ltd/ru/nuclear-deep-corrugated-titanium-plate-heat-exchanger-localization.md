@@ -3,7 +3,7 @@ title: "Siping Juyuan Hanyang Улучшает локализацию ядерн
 slug: nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization
 date: 2025-08-01
 author: "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
-reviewer: "HeatEx Direct Editorial Team"
+reviewer: "Редакция HeatEx Direct"
 readTime: "2 минуты"
 excerpt: "Siping Juyuan Hanyang присоединился к проекту, который подтвердил использование отечественных титановых пластин в пластинчатых теплообменниках ядерного класса."
 metaTitle: "Локализация ядерного титанового пластинчатого теплообменника"

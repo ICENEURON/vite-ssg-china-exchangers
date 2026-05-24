@@ -1,0 +1,42 @@
+{
+  "filter_all": "Todas las industrias",
+  "filter_all_manufacturers": "Todos los fabricantes",
+  "no_results": "No se encontraron productos que coincidan con los filtros seleccionados.",
+  "clear_all": "Borrar todo",
+  "filter_by": "Industria",
+  "filter_manufacturer": "Fabricante",
+  "title": "Intercambiadores de calor industriales",
+  "description": "Explore perfiles de productos de intercambiadores de calor industriales de fabricantes chinos y filtre por fabricante e industria para comparar equipos de placas, placas soldadas, carcasa y tubos, enfriadores de aire y unidades de intercambio térmico.",
+  "hero": {
+    "title": "Catálogo de productos de intercambiadores de calor industriales",
+    "description": "Explore categorías de productos de intercambiadores de calor industriales y consulte detalles técnicos, aplicaciones, ventajas, información de materiales y fabricantes relacionados para cada producto."
+  },
+  "card": {
+    "no_image": "No hay imagen disponible",
+    "explore_details": "Explorar detalles"
+  },
+  "cta": {
+    "title": "¿No estás seguro de qué producto necesitas?",
+    "description": "Nuestra herramienta interactiva de solicitud de cotización le ayuda a especificar los parámetros de su aplicación y a conectarse con fabricantes verificados que producen el intercambiador de calor exacto que necesita."
+  },
+  "detail": {
+    "back_to_manufacturer": "Volver a la página del fabricante",
+    "back_to_manufacturers": "Volver a Fabricantes",
+    "back_to_list": "Volver a Productos",
+    "key_advantages": "Ventajas clave",
+    "product_details": "Detalles del producto",
+    "technical_specifications": "Especificaciones técnicas",
+    "other_products": "Otros productos de este fabricante",
+    "document_downloads": "Descargas de documentos",
+    "download": "Descargar"
+  },
+  "categories": {},
+  "meta": {
+    "description": "Explore perfiles de productos de intercambiadores de calor industriales de fabricantes chinos y filtre por fabricante e industria para comparar equipos de placas, placas soldadas, carcasa y tubos, enfriadores de aire y unidades de intercambio térmico.",
+    "keywords": "productos de intercambiadores de calor industriales, productos de intercambiadores de calor de placas, intercambiador de calor de placas soldadas, intercambiador de calor de carcasa y tubos, intercambiador de calor refrigerado por aire, fabricantes chinos de intercambiadores de calor"
+  },
+  "og": {
+    "title": "Intercambiadores de calor industriales",
+    "description": "Explore perfiles de productos de intercambiadores de calor industriales de fabricantes chinos y filtre por fabricante e industria para comparar equipos de placas, placas soldadas, carcasa y tubos, enfriadores de aire y unidades de intercambio térmico."
+  }
+}

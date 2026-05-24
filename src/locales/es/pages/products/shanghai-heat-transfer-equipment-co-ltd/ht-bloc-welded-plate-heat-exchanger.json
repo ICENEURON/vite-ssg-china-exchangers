@@ -1,0 +1,79 @@
+{
+  "slug": "ht-bloc-welded-plate-heat-exchanger",
+  "name": "HT-BLOC Soldado intercambiador de calor de placas",
+  "full_description": "Totalmente soldado intercambiadores de calor de placas assembled en un removable frame, offering alta eficiencia de transferencia de calor, compacto structure, y ease de mantenimiento. Ideal para alta-temperatura y alta-presion aplicaciones en el petroleum, quimico, generacion electrica, farmaceutico, metallurgical, y enfriamiento industrias.",
+  "industries": [
+    "Petroquimica",
+    "Procesamiento quimico"
+  ],
+  "advantage": [
+    "Totalmente soldado: el gasket-free construccion enables robust operation en higher presion y alta temperatura environments, ensuring leak-resistant rendimiento para critical aplicaciones.",
+    "Easy para Limpieza: Accessible transferencia de calor canales allow para effective removal de depositos y scale mediante mecanico flushing, quimico limpieza, o ultrasonic limpieza.",
+    "Openable: Bolted connection es disenado un facilitate easy access y versatility por enabling all four sides un ser openable, allowing para greater flexibility during installation, mantenimiento, y inspeccion.",
+    "pequeno ocupacion en planta: disenado una ocupan minimal space without compromising en capacity, significantly reducing ocupacion en planta comparard un tradicional shell y tube intercambiadores de calor.",
+    "alta Eficiencia: Innovations en placa geometria y flujo dynamics further increase eficiencia termica mientras reducing energy consumption, aligning con global energy conservation goals.",
+    "Durability: Constructed de alta-calidad materiales y utilizing precision soldadura techniques, built un withstand harsh condiciones de operacion y ensure long-term fiabilidad."
+  ],
+  "technical_parameters": {
+    "Area": "6.6 ~ 870㎡",
+    "Plate material": "304, 304L, 316L, 254SMO, C-276, Titanium",
+    "Design Pressure": "-0.1 ~ 4.0MPa",
+    "Plate Thickness": "0.8 – 2mm",
+    "Design Temperature": "-40 ~ 400℃"
+  },
+  "video_link": "https://www.youtube.com/watch?v=j61c5dnKP78",
+  "details": [
+    {
+      "title": "que es HT Bloc soldado intercambiador de calor?",
+      "content": "HT-BLOC Soldado intercambiador de calor de placas es un type de intercambiador de calor de placas disenado para eficiente termico transfer entre two fluids. Unlike tradicional intercambiadores de calor, HT-BLOC soldado PHE es made up de placa pack y frame. Soldado block intercambiador de calor combines el alta eficiencia de transferencia de calor de intercambiadores de calor de placas y el alta presion y temperatura resistance de shell y tube intercambiadores de calor."
+    },
+    {
+      "title": "How una assemble HT-BLOC Soldado intercambiador de calor de placas?",
+      "content": "la placa pack es formed por soldadura un certain number de plates, then lo es installed hacia un frame, which es configured por four corner girders, top y bottom plates y four lado cubre. Totalmente soldado intercambiador de calor de placas utilizes interchangeable components y standardized modules, allowing para easy customization y scalability. este modularity ensures que Compabloc intercambiadores de calor puede ser tailored un meet specific industrial requisitos, enhancing ambos rendimiento y fiabilidad."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "HT-BLOC Soldado intercambiador de calor de placas",
+    "meta_description": "compacto soldado bloc exchanger para alta-presion industrial servicio."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "HT-BLOC Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_1.png"
+    },
+    {
+      "alt_text": "HT-BLOC Welded Plate Heat Exchanger Internal Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_2.png"
+    },
+    {
+      "alt_text": "HT-BLOC Welded Plate Heat Exchanger Installation",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_3.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

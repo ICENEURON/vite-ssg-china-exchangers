@@ -3,7 +3,7 @@ title: "Siping Juyuan Hanyang расширяет международное со
 slug: expanding-international-cooperation-and-foreign-trade-strength-at-canton-fair
 date: 2024-11-19
 author: "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
-reviewer: "HeatEx Direct Editorial Team"
+reviewer: "Редакция HeatEx Direct"
 readTime: "1 минута"
 excerpt: "Siping Juyuan Hanyang представила теплообменную продукцию на 136-й Кантонской ярмарке и привлекла международных покупателей."
 metaTitle: "Siping Juyuan Hanyang на 136-й Кантонской ярмарке"
@@ -15,7 +15,7 @@ cover: /static/content_posts_image/expanding-international-cooperation-and-forei
 
 Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd. принял участие в 136-й Китайской ярмарке импорта и экспорта в Гуанчжоу. Посредством демонстраций продукции, встреч на местах и ​​дискуссий с покупателями компания представила международным покупателям свое теплообменное оборудование, портфель высокоэффективных продуктов и возможности обслуживания.
 
-<img src="/static/content_posts_image/expanding-international-cooperation-and-foreign-trade-strength-at-canton-fair/image-02.png" alt="Siping Juyuan Hanyang расширяет международное сотрудничество на Кантонской ярмарке body image 1" width="640" />
+<img src="/static/content_posts_image/expanding-international-cooperation-and-foreign-trade-strength-at-canton-fair/image-02.png" alt="Siping Juyuan Hanyang расширяет международное сотрудничество на Кантонской ярмарке изображение в тексте 1" width="640" />
 
 ## Теплообменные продукты на 136-й Кантонской ярмарке
 

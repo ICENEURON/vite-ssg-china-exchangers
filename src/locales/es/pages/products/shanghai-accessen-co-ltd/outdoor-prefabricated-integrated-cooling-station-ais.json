@@ -1,0 +1,50 @@
+{
+  "slug": "outdoor-prefabricated-integrated-cooling-station-ais",
+  "name": "Outdoor Prefabricado e integrado enfriamiento Station AIS",
+  "full_description": "el AIS prefabricado e integrado enfriamiento plant integrates chillers, intercambiadores de calor de placas, pumps, enfriamiento towers, valves, control sistemas, y ancillary components hacia un fabrica-manufactured y pre-assembled outdoor enfriamiento station. Accessen indica que el sistema reduce en-site construccion complexity, eliminates el need para un dedicated plant room, y enables rapid commissioning once water y electrical connections son completed.",
+  "industries": [],
+  "advantage": [
+    "AHRI Certified",
+    "Optimized Structure y Sistema",
+    "Enhanced Eficiencia energetica Certificacion",
+    "Available en Outdoor Configurations",
+    "confiable y Stable Rendimiento",
+    "Rapid Deployment",
+    "Pre-integrated y Pre-assembled",
+    "Modular Diseno",
+    "Reduced en-Site Workload"
+  ],
+  "technical_parameters": {
+    "Maximum design pressure": "25bar",
+    "Maximum design temperature": "200℃",
+    "Maximum processing capacity": "5,000m³/h",
+    "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254...",
+    "Minimum temperature difference": "0.5-1℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "que es integrated dentro del AIS station?",
+      "content": "Accessen describe el AIS como una integrated outdoor enfriamiento station que combines chillers, intercambiadores de calor de placas, pumps, enfriamiento towers, valves, intelligent controls, y de soporte components hacia un fabrica-preassembled package."
+    },
+    {
+      "title": "Why es lo suitable para fast-track proyectos?",
+      "content": "porque el modules son preassembled en el fabrica y solo require site foundation preparation plus water y electrical connections, el AIS ayuda un shorten en-site construccion y commissioning time."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Outdoor Prefabricado e integrado enfriamiento Station AIS",
+    "meta_description": "Outdoor prefabricado e integrado enfriamiento station para datos centers con fabrica pre-assembly, modular diseno, y rapid deployment beneficios."
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Outdoor Prefabricated Integrated Cooling Station AIS",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/outdoor_prefabricated_integrated_cooling_station_ais.png"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

@@ -3,7 +3,7 @@ title: "Обновления о наградах проекта 2026 г."
 slug: 2026-project-award-updates
 date: 2026-04-29
 author: "Shanghai Heat Transfer Equipment Co., Ltd."
-reviewer: "HeatEx Direct Editorial Team"
+reviewer: "Редакция HeatEx Direct"
 readTime: "1 минута"
 excerpt: "SHPHE сообщает о нескольких наградах за проекты 2026 года в области морского газа, очистки природного газа, удобрений, химических материалов, сахара, нефтяных месторождений и глинозема."
 metaTitle: "SHPHE Новости о наградах за проект 2026 г."

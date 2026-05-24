@@ -1,0 +1,49 @@
+{
+  "slug": "awps-series-plate-shell-heat-exchanger-i",
+  "name": "AWPS serie placa-Shell intercambiador de calor - I",
+  "full_description": "el AWPS serie placa-Shell intercambiador de calor - I es disenado para alta-temperatura y alta-presion industrial aplicaciones. Accessen describe lo como combining el transferencia de calor characteristics de con juntas placa exchangers con el presion y temperatura resistance associated con shell-y-tube equipos, mientras retaining un removable structure para limpieza.",
+  "industries": [
+    "Petroquimica",
+    "Energia",
+    "Procesamiento quimico",
+    "Generacion electrica"
+  ],
+  "advantage": [
+    "Retains transferencia de calor characteristics de con juntas exchangers",
+    "baja ensuciamiento coefficient",
+    "Alta temperatura resistance",
+    "Alta presion resistance",
+    "Removable para limpieza con no gasket aging"
+  ],
+  "technical_parameters": {
+    "Plate material": "AISI304L, 316L, Titanium, Hastelloy, SMO254...",
+    "Maximum design pressure": "80bar",
+    "Maximum temperature resistance": "500℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "How does AWPS differ de convencional shell-y-tube equipos?",
+      "content": "Accessen positions AWPS como una alta-eficiencia alternative que combines placa-type transferencia de calor rendimiento con stronger presion y temperatura resistance, helping replace shell-y-tube exchangers en exigente industrial servicio."
+    },
+    {
+      "title": "que mantenimiento benefit es highlighted?",
+      "content": "el producto es descrito como removable para limpieza y avoids gasket aging, which ayuda un lower operating costos over time."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "AWPS serie placa-Shell intercambiador de calor - I",
+    "meta_description": "Industrial placa-shell intercambiador de calor para alta-temperatura y alta-presion servicio, combining fuerte termico rendimiento con removable acceso para limpieza."
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "AWPS Series Plate-Shell Heat Exchanger - I",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/awps_series_plate_shell_heat_exchanger_i.png"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

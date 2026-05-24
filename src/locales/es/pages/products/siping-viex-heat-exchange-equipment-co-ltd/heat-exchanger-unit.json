@@ -1,0 +1,49 @@
+{
+  "slug": "heat-exchanger-unit",
+  "name": "Unidad de intercambio de calor",
+  "full_description": "ViEX positions el intercambiador de calor unidad como un complete station package que combines intercambiador de calor, circulating pump, make-up pump, y control sistema un realize automatic y eficiente heat exchange. la pagina oficial explains control de temperatura, variable flujo regulation, combinado temperatura y flujo regulation, fully automatic field control, y sin supervision comunicacion remota control, y says el unidad puede ser applied un calentamiento, aire acondicionado, y domestic agua caliente sistemas usando vapor o alta-temperatura agua caliente como el heat buscar proveedores de.",
+  "industries": [
+    "HVAC",
+    "Energia"
+  ],
+  "advantage": [
+    "baja total investment",
+    "Saves mas de 70 percent de floor area",
+    "Integrated diseno, supply, installation, commissioning, y despues de-sales servicio",
+    "admite automatic en-site o remote sin supervision control",
+    "puede ser configured con international brand components"
+  ],
+  "technical_parameters": {
+    "Control modes": "Control de temperatura; Variable flujo regulation; temperatura y flujo regulation",
+    "Heating media": "Vapor below 300℃; alta-temperatura agua caliente",
+    "Automation levels": "Single-loop control de temperatura; Fully automatic field control; Sin supervision comunicacion remota control",
+    "Typical duty points": "130/80℃ un 95/70℃; 115/65℃ un 55/80℃; 7/12℃ un 8/13℃",
+    "Standards referenced on page": "CJ/T 191-2004; GB/T 29466-2012"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "How does el unidad save energy?",
+      "content": "el oficial description explains que el unidad adjusts primary network flujo based en secondary network water supply temperatura y outdoor temperatura, mientras variable-frequency pumps puede regulate secondary network flujo una achieve grande temperatura difference y pequeno flujo operation."
+    },
+    {
+      "title": "que configuration levels son available?",
+      "content": "ViEX lists single-loop control de temperatura, fully automatic field control que still requires regular inspeccion, y sin supervision comunicacion remota control con transmission de temperatura, presion, flujo, valve, pump, y water level signals."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "intercambiador de calor unidad | Siping ViEX",
+    "meta_description": "Integrated intercambiador de calor unidad para calentamiento, aire acondicionado, y domestic agua caliente sistemas con control automatico y comunicacion remota options."
+  },
+  "manufacturer": {
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Heat Exchanger Unit",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/heat_exchanger_unit.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

@@ -1,0 +1,80 @@
+{
+  "title": "Actualice su perfil de fabricante | HeatEx Direct",
+  "meta": {
+    "description": "Actualice el perfil de un fabricante chino de intercambiadores de calor en HeatEx Direct enviando por correo electrónico información de la empresa, detalles de productos, archivos, certificados, imágenes y solicitudes de corrección.",
+    "keywords": "actualizar perfil de fabricante, perfil de proveedor HeatEx Direct, actualización de fabricante chino de intercambiadores de calor, imágenes de proveedor, archivos de producto"
+  },
+  "og": {
+    "title": "Actualice su perfil de fabricante - HeatEx Direct",
+    "description": "Envíe información actualizada del fabricante, detalles de productos, imágenes, archivos y correcciones a HeatEx Direct por correo electrónico para su revisión."
+  },
+  "hero": {
+    "title": "Actualice su perfil de fabricante",
+    "description": "Los fabricantes pueden usar las plantillas siguientes para enviar información actualizada de la empresa, detalles de productos, imágenes, certificados, folletos y otros materiales de apoyo. Revisamos todos los datos y actualizamos el perfil público cuando la información es relevante y verificable.",
+    "highlights": [
+      "Actualizaciones por correo electrónico",
+      "Se aceptan imágenes y archivos",
+      "Plantillas de perfil disponibles"
+    ],
+    "company_template_cta": "Plantilla de empresa",
+    "product_template_cta": "Plantilla de producto",
+    "panel": {
+      "items": [
+        {
+          "title": "Envíe materiales por correo electrónico",
+          "description": "Incluya el nombre de su empresa, el enlace del perfil si está disponible, la plantilla completada y los archivos de apoyo."
+        },
+        {
+          "title": "Revisamos el contenido",
+          "description": "Comprobamos si la información es relevante, clara, utilizable y adecuada para el perfil público."
+        },
+        {
+          "title": "Las actualizaciones aprobadas se publican",
+          "description": "Las actualizaciones relevantes se añadirán al perfil del fabricante, a las páginas de productos o a las secciones multimedia después de la revisión."
+        }
+      ]
+    }
+  },
+  "update_scope": {
+    "title": "Qué puede actualizar",
+    "description": "Preferimos información clara y específica que ayude a los compradores a comprender su empresa, sus productos, sus documentos y su capacidad real de fabricación.",
+    "items": [
+      {
+        "title": "Información de la empresa",
+        "description": "Nombre de la empresa, ubicación, sitio web, año de fundación, ámbito de negocio, mercados de exportación, industrias principales y datos de contacto."
+      },
+      {
+        "title": "Información de productos",
+        "description": "Tipos de intercambiadores de calor, aplicaciones, materiales, rangos de presión y temperatura, series de productos, normas y modelos disponibles."
+      },
+      {
+        "title": "Documentos y certificados",
+        "description": "Folletos, catálogos, fichas técnicas, certificados, manuales, referencias públicas y otros archivos de producto o empresa."
+      },
+      {
+        "title": "Imágenes y medios",
+        "description": "Fotos de productos, fotos de fábrica, imágenes del taller, imágenes de procesos, logotipos, fotos de exposiciones y otros medios adecuados para publicación."
+      }
+    ]
+  },
+  "process": {
+    "title": "Cómo se revisan los perfiles",
+    "description": "Todas las solicitudes de actualización se revisan manualmente. Podemos editar la redacción, pedir aclaraciones o rechazar contenido incompleto, no relacionado, no verificable o demasiado promocional."
+  },
+  "submission": {
+    "contact": {
+      "subject_label": "Asunto sugerido",
+      "subject_description": "Use un asunto claro con el nombre de su empresa para que podamos asociar la actualización con el perfil correcto.",
+      "copied": "¡Copiado!"
+    },
+    "required": {
+      "title": "Plantilla completada",
+      "description": "Envíe la plantilla de actualización de perfil completada como archivo adjunto por correo electrónico."
+    },
+    "media": {
+      "title": "Archivos adjuntos",
+      "description": "Envíe imágenes de productos, fotos de fábrica, certificados, folletos, logotipos y otros archivos de apoyo como adjuntos de correo electrónico."
+    },
+    "footer_note": "Todos los materiales enviados se revisarán manualmente antes de realizar cualquier actualización."
+  }
+}

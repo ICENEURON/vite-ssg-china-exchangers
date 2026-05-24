@@ -1,0 +1,89 @@
+{
+  "slug": "plate-air-preheater",
+  "name": "placa Air Preheater",
+  "full_description": "placa air preheater es una ahorro energetico y environmentally friendly recuperacion de calor device. Flat o corrugated plates estan soldados o mechanically fixed around el periphery un form placa packs, y el full unidad adopts un modular building-block diseno con flexible configurations y fuerte structural adaptability. lo es disenado un recover waste heat de industrial exhaust gases y transfer lo una incoming combustion o proceso air, improving eficiencia termica, reducing fresh fuel demand, y lowering emissions. con proprietary Air Film tecnologia, lo puede effectively mitigate acid dew point corrosion y es widely utilizados en refining, quimico, steel, metallurgy, y power industrias.",
+  "industries": [
+    "Petroquimica",
+    "Maritimo",
+    "Procesamiento quimico",
+    "Alimentos y bebidas"
+  ],
+  "advantage": [
+    "alta Energy recuperacion: Waste heat es effectively reused, reducing fresh fuel demand y improving overall energy utilization.",
+    "Dew Point Corrosion Protection: el patented Air Film tecnologia ayuda un prevent acid dew point corrosion caused por locally baja temperatures.",
+    "Modular y Flexible Diseno: Building-block modular diseno improves maintainability, transportability, upgradeability, y flexibility en size adjustment.",
+    "Broad Gas-Gas Applicability: Suitable para multiple atmospheric y baja-presion gas-un-gas heat exchange servicios con ahorro energetico y environmental beneficios.",
+    "alta termico Rendimiento: placa transferencia de calor elements puede deliver 1 un 3 times el coeficiente de transferencia de calor de tubular elements mientras balancing perdida de presion mediante optimized canal geometria.",
+    "Safe y Maintainable: Totalmente soldado placa packs offer good sellado rendimiento, baja leakage risk, reduced ash accumulation, y convenient limpieza y mantenimiento, incluidos online limpieza options."
+  ],
+  "technical_parameters": {
+    "Max Area": "40000㎡",
+    "Plate Material": "304, 316L, 2205, 310S, 904L, Corten-un",
+    "Design Pressure": "Vacuum ~ 0.6MPa",
+    "Plate Thickness": "0.6 ~ 2.0mm",
+    "Design Temperature": "-20 ~ 800℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "que es placa Air Preheater?",
+      "content": "placa Air Preheater es un gas-un-gas intercambiador de calor utilizados un recover heat de caliente exhaust gas y transfer lo una incoming combustion o proceso air. lo typically operates en contraflujo o crossflow arrangements usando flat o corrugated metal plates que form alternating caliente y frio canales de flujo. por reque cubre waste heat, lo improves sistema eficiencia, reduce fuel consumption, y lowers greenhouse gas emissions."
+    },
+    {
+      "title": "Why choose un placa air preheater?",
+      "content": "Comparard con convencional tubular air preheaters, placa air preheaters offer un much larger transferencia de calor surface area per unidad volume, higher coeficiente de transferencia de calors, compacto structure, lower peso, y fuerte flexibility mediante modular assembly. Air Film tecnologia, corrosion-resistant materiales, bypass regulation, y graded seleccion de materiales puede tambien ayudar address acid dew point corrosion y reduce lifecycle costos."
+    },
+    {
+      "title": "How es lo disenado y manufactured?",
+      "content": "el producto es based en modular transferencia de calor unidades such como X brick, E brick, C brick, y S brick, which simplify transportation y en-site assembly para grande sistemas. Diseno tambien considers seleccion de materiales, airflow configuration, termico stress management, y corrosion protection. Measures such como termico compensation, expansion joints, baja-CTE material use, predictive analysis, y bypass control ayudar ensure durability, recuperacion de calor rendimiento, y operational seguridad."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "placa Air Preheater",
+    "meta_description": "Modular placa air preheater para industrial recuperacion de calor residual con alta eficiencia termica y dew point corrosion protection."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Air Preheater",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_1.jpg"
+    },
+    {
+      "alt_text": "Plate Air Preheater Module",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_2.jpg"
+    },
+    {
+      "alt_text": "Plate Air Preheater Installation",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_3.jpg"
+    },
+    {
+      "alt_text": "Plate Air Preheater Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

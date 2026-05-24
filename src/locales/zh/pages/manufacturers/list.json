@@ -18,9 +18,9 @@
     ]
   },
   {
-    "name": "四平维克斯换热设备有限公司",
-    "short_description": "专业从事换热设备及压力容器产品制造，产品覆盖板式、管壳式、螺旋板式、空气类换热器及换热机组。",
-    "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+    "name": "四平市巨元瀚洋板式换热器有限公司",
+    "short_description": "面向可拆式、半焊式、全焊式、换热集成系统及智慧供热信息平台提供板式换热器和高效换热系统解决方案的制造商。",
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
     "city": "四平",
     "country_name": "中国",
     "industries": [
@@ -28,10 +28,8 @@
       "石油化工",
       "船舶/海工",
       "能源",
-      "食品加工",
       "化工",
       "食品与饮料",
-      "制药",
       "发电/电力"
     ]
   },
@@ -54,9 +52,9 @@
     ]
   },
   {
-    "name": "四平市巨元瀚洋板式换热器有限公司",
-    "short_description": "面向可拆式、半焊式、全焊式、换热集成系统及智慧供热信息平台提供板式换热器和高效换热系统解决方案的制造商。",
-    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
+    "name": "四平维克斯换热设备有限公司",
+    "short_description": "专业从事换热设备及压力容器产品制造，产品覆盖板式、管壳式、螺旋板式、空气类换热器及换热机组。",
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd",
     "city": "四平",
     "country_name": "中国",
     "industries": [
@@ -64,8 +62,10 @@
       "石油化工",
       "船舶/海工",
       "能源",
+      "食品加工",
       "化工",
       "食品与饮料",
+      "制药",
       "发电/电力"
     ]
   },

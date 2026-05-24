@@ -1,0 +1,39 @@
+{
+  "slug": "block-heat-exchanger",
+  "name": "intercambiador de calor tipo bloque",
+  "full_description": "el pagina oficial describe THT’s block intercambiador de calor como un patented producto con independent intellectual property rights, patent number 200520127761.X, belonging un el soldado plate intercambiador de calor category. It uses plates como transferencia de calor components y combines el ventajas de plate intercambiadores de calor y spiral plate intercambiadores de calor. el page indica que it follows NB/T__PROTECTED_1__ y GB150-1998, y can also follow API662 y ASME according un user requisitos.",
+  "industries": [
+    "Petroquimica",
+    "Energia",
+    "Procesamiento quimico",
+    "Farmaceutica",
+    "Generacion electrica"
+  ],
+  "advantage": [
+    "Patented producto con independent intellectual property rights.",
+    "Combines alta eficiencia de transferencia de calor, compacto structure, alta-temperatura resistance, sellado rendimiento, y fiabilidad.",
+    "Automatic soldadura y weld-image tracking se utilizan un control calidad de soldadura.",
+    "compacto block structure puede reduce space y construccion costos versus detachable intercambiadores de calor de placas."
+  ],
+  "technical_parameters": {
+    "Standards": "NB/T__PROTECTED_0__; GB150-1998; API662 y ASME en solicitud",
+    "Patent No.": "200520127761.X"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "intercambiador de calor tipo bloque",
+    "meta_description": "Patented soldado block intercambiador de calor combining intercambiador de calor de placas eficiencia con fuerte sellado, presion, y temperatura capacidad."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Block Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/block_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}
