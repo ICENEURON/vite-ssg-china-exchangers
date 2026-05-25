@@ -1,7 +1,7 @@
 ﻿---
 title: "Datos comerciales HS 841950 de unidades de intercambio de calor no domésticas"
 slug: hs-841950-non-domestic-heat-exchange-units-data
-date: 2026-05-25
+date: 2025-03-12
 author: "Equipo editorial de HeatEx Direct"
 reviewer: "Equipo editorial de HeatEx Direct"
 readTime: 4 minutos

@@ -1,7 +1,7 @@
 ---
 title: "Grand échangeur de chaleur à plaques en spirale livré pour le service minier"
 slug: large-spiral-plate-heat-exchanger-delivery-for-mining-service
-date: 2025-12-24
+date: 2025-02-12
 author: "Équipe éditoriale de HeatEx Direct"
 reviewer: "Équipe éditoriale de HeatEx Direct"
 readTime: "2 minutes"

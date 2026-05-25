@@ -1,7 +1,7 @@
 ﻿---
 title: "中国非家用换热装置出口十年数据：2015-2024"
 slug: china-heat-exchanger-exports-2015-2024-official-data
-date: 2026-05-25
+date: 2025-04-12
 author: "HeatEx Direct 编辑团队"
 reviewer: "HeatEx Direct 编辑团队"
 readTime: 6 分钟

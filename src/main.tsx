@@ -58,4 +58,9 @@ const routes: RouteObject[] = [
   },
 ];
 
-export const createRoot = ViteReactSSG({ routes });
+export const createRoot = ViteReactSSG({ routes }, ({ routePath }) => {
+  if (typeof window === "undefined") {
+    globalThis.__SSR_PATHNAME__ = routePath;
+    syncLanguageToPath(routePath || "/");
+  }
+});

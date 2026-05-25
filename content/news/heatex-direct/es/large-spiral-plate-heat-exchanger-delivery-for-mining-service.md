@@ -1,7 +1,7 @@
 ---
 title: "Intercambiador de calor de placas en espiral de gran tamaño entregado para servicios de minería"
 slug: large-spiral-plate-heat-exchanger-delivery-for-mining-service
-date: 2025-12-24
+date: 2025-02-12
 author: "Equipo editorial HeatEx Direct"
 reviewer: "Equipo editorial HeatEx Direct"
 readTime: "2 minutos"

@@ -1,7 +1,7 @@
 ---
 title: "大型螺旋板式换热器交付矿业浆液工况"
 slug: large-spiral-plate-heat-exchanger-delivery-for-mining-service
-date: 2025-12-24
+date: 2025-02-12
 author: "HeatEx Direct 编辑团队"
 reviewer: "HeatEx Direct 编辑团队"
 readTime: 2 分钟

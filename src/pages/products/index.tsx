@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react'
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 import { SeoHead } from '../../components/seo/SeoHead'
-import { useCurrentLanguage, addLanguageToPath } from "../../utils/language-routing";
+import { addLanguageToPath, getLanguageFromPath } from "../../utils/language-routing";
 import { FilterDropdown } from "../../components/ui/filter-dropdown";
 import { ArrowRight, Filter, ChevronDown, X, Check, Factory, Mail } from "lucide-react";
 import { Badge } from "../../components/ui/badge";
@@ -10,6 +10,7 @@ import { PageHero } from "../../components/ui/page-hero";
 import { QuoteCta } from "../../components/ui/quote-cta";
 import { RfqLink } from "../../utils/rfq-routing/link";
 import manufacturerScores from "../../data/manufacturer_scores.json";
+import { resources } from "../../locales/resources";
 
 interface Industry {
     id: number;
@@ -49,6 +50,10 @@ interface ManufacturerScoreFile {
 
 type ManufacturerScoreSource = ManufacturerScore[] | ManufacturerScoreFile;
 
+type ProductsTranslationData = {
+    list?: ProductListItem[];
+};
+
 const fallbackManufacturerOrder = 999;
 type ProductDropdown = "manufacturer" | "industry";
 
@@ -56,17 +61,27 @@ function getManufacturerScoreRecords(source: ManufacturerScoreSource) {
     return Array.isArray(source) ? source : source.records;
 }
 
+function getProductsTranslationData(language: keyof typeof resources): ProductsTranslationData {
+    return resources[language].translation.pages.products as ProductsTranslationData;
+}
+
+function getCurrentPathname(pathname: string) {
+    return typeof window === "undefined" && globalThis.__SSR_PATHNAME__ ? globalThis.__SSR_PATHNAME__ : pathname;
+}
+
 export default function ProductsPage() {
-    const { t } = useTranslation();
-    const productsT = useTranslation("translation", { keyPrefix: "pages.products" });
-    const currentLanguage = useCurrentLanguage();
     const location = useLocation();
+    const currentPathname = getCurrentPathname(location.pathname);
+    const currentLanguage = getLanguageFromPath(currentPathname);
+    const { i18n } = useTranslation();
+    const t = i18n.getFixedT(currentLanguage);
+    const productsT = i18n.getFixedT(currentLanguage, "translation", "pages.products");
     const siteUrl = import.meta.env.VITE_SITE_URL || "https://heatexdirect.com";
     const siteName = import.meta.env.VITE_SITE_TITLE || "HeatEx Direct";
     const currentUrl = new URL(location.pathname, siteUrl).href;
 
     // Safely parse the products from translation JSON list
-    const productsList = productsT.t("list", { returnObjects: true }) as ProductListItem[];
+    const productsList = getProductsTranslationData(currentLanguage).list || getProductsTranslationData("en").list || [];
     const industries = t("industries", { returnObjects: true }) as Industry[];
 
     const [selectedIndustrySlugs, setSelectedIndustrySlugs] = useState<string[]>([]);
@@ -180,19 +195,19 @@ export default function ProductsPage() {
     return (
         <>
             <SeoHead
-                title={productsT.t("title")}
-                description={productsT.t("meta.description", { defaultValue: productsT.t("description") })}
-                keywords={productsT.t("meta.keywords", { defaultValue: "" })}
+                title={productsT("title")}
+                description={productsT("meta.description", { defaultValue: productsT("description") })}
+                keywords={productsT("meta.keywords", { defaultValue: "" })}
                 canonicalUrl={currentUrl}
-                ogTitle={productsT.t("og.title", { defaultValue: productsT.t("title") })}
-                ogDescription={productsT.t("og.description", { defaultValue: productsT.t("description") })}
+                ogTitle={productsT("og.title", { defaultValue: productsT("title") })}
+                ogDescription={productsT("og.description", { defaultValue: productsT("description") })}
                 siteName={siteName}
             />
 
             <main className="min-h-screen bg-background pb-20">
                 <PageHero
-                    title={productsT.t("hero.title")}
-                    description={productsT.t("hero.description")}
+                    title={productsT("hero.title")}
+                    description={productsT("hero.description")}
                     backgroundImageSrc="/static/websites/product-hero.png"
                     backgroundImageAlt={t("ui.image.industrial_facility")}
                 />
@@ -211,7 +226,7 @@ export default function ProductsPage() {
                                             className="flex items-center gap-2 rounded-lg border border-border/60 bg-white px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
                                         >
                                             <Factory className="w-4 h-4 text-primary" />
-                                            <span>{productsT.t("filter_manufacturer")}</span>
+                                            <span>{productsT("filter_manufacturer")}</span>
                                             <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${open ? 'rotate-180' : ''}`} />
                                         </button>
                                     )}
@@ -222,7 +237,7 @@ export default function ProductsPage() {
                                                     className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-lg transition-all group ${selectedManufacturerSlugs.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04]'
                                                         }`}
                                                 >
-                                                    <span className="font-bold">{productsT.t("filter_all_manufacturers")}</span>
+                                                    <span className="font-bold">{productsT("filter_all_manufacturers")}</span>
                                                     {selectedManufacturerSlugs.length === 0 && <Check className="w-4 h-4" />}
                                                 </button>
                                                 <div className="h-px bg-border/40 my-2 mx-2" />
@@ -257,7 +272,7 @@ export default function ProductsPage() {
                                             className="flex items-center gap-2 rounded-lg border border-border/60 bg-white px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
                                         >
                                             <Filter className="w-4 h-4 text-primary" />
-                                            <span>{productsT.t("filter_by")}</span>
+                                            <span>{productsT("filter_by")}</span>
                                             <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${open ? 'rotate-180' : ''}`} />
                                         </button>
                                     )}
@@ -268,7 +283,7 @@ export default function ProductsPage() {
                                                     className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-lg transition-all group ${selectedIndustrySlugs.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04]'
                                                         }`}
                                                 >
-                                                    <span className="font-bold">{productsT.t("filter_all")}</span>
+                                                    <span className="font-bold">{productsT("filter_all")}</span>
                                                     {selectedIndustrySlugs.length === 0 && <Check className="w-4 h-4" />}
                                                 </button>
                                                 <div className="h-px bg-border/40 my-2 mx-2" />
@@ -299,7 +314,7 @@ export default function ProductsPage() {
                                         className="flex items-center justify-center gap-2 rounded-lg px-3 py-2 text-sm font-bold text-red-500 transition-all hover:bg-red-500/10 hover:text-red-400 active:scale-95"
                                     >
                                         <X className="w-4 h-4" />
-                                        {productsT.t("clear_all")}
+                                        {productsT("clear_all")}
                                     </button>
                                 )}
                             </div>
@@ -355,7 +370,7 @@ export default function ProductsPage() {
                                                 className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700 ease-in-out mix-blend-multiply"
                                             />
                                         ) : (
-                                            <div className="text-slate-400">{productsT.t("card.no_image")}</div>
+                                            <div className="text-slate-400">{productsT("card.no_image")}</div>
                                         )}
                                     </div>
 
@@ -382,7 +397,7 @@ export default function ProductsPage() {
 
                                         <div className="mt-auto pt-4">
                                             <div className="flex items-center text-sm font-semibold text-primary transition-colors duration-300 group-hover:text-orange-600">
-                                                {productsT.t("card.explore_details")}
+                                                {productsT("card.explore_details")}
                                                 <ArrowRight className="w-4 h-4 ml-1.5 group-hover:translate-x-1.5 transition-transform" />
                                             </div>
                                         </div>
@@ -396,13 +411,13 @@ export default function ProductsPage() {
                                         <Filter className="w-8 h-8 text-muted-foreground/50" />
                                     </div>
                                     <h3 className="text-lg font-medium text-foreground mb-2">
-                                        {productsT.t("no_results")}
+                                        {productsT("no_results")}
                                     </h3>
                                     <button
                                         onClick={clearAll}
                                         className="text-primary hover:underline font-medium"
                                     >
-                                        {productsT.t("clear_all")}
+                                        {productsT("clear_all")}
                                     </button>
                                 </div>
                             )}
@@ -417,10 +432,10 @@ export default function ProductsPage() {
                         <div className="absolute bottom-0 left-0 p-32 bg-orange-500/10 rounded-full blur-[100px] -ml-16 -mb-16 pointer-events-none" />
 
                         <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 relative z-10">
-                            {productsT.t("cta.title")}
+                            {productsT("cta.title")}
                         </h2>
                         <p className="text-blue-200 text-lg mb-10 max-w-2xl mx-auto relative z-10">
-                            {productsT.t("cta.description")}
+                            {productsT("cta.description")}
                         </p>
                         <QuoteCta size="lg" className="relative z-10 text-lg h-14 px-8" asChild>
                             <RfqLink>

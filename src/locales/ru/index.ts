@@ -22,6 +22,17 @@ function readPageFile(path: string, fallbackKey: string) {
   return readLocaleFile(path, fallback.pages[fallbackKey]);
 }
 
+function cloneProductSections(products: TranslationTree = {}) {
+  return Object.fromEntries(
+    Object.entries(products).map(([key, value]) => [
+      key,
+      value && typeof value === 'object' && !Array.isArray(value)
+        ? { ...(value as TranslationTree) }
+        : value,
+    ])
+  ) as Record<string, unknown>;
+}
+
 const navigation = readLocaleFile('./components/navigation.json', fallback.navigation);
 const footer = readLocaleFile('./components/footer.json', fallback.footer);
 const ui = readLocaleFile('./components/ui.json', fallback.ui);
@@ -62,11 +73,11 @@ for (const path in mfgFiles) {
 
 // --- Dynamic Imports for Products ---
 const productFiles = import.meta.glob<TranslationTree>('./pages/products/**/*.json', { eager: true, import: 'default' });
-const productsData: Record<string, unknown> = {
+const productsData: Record<string, unknown> = cloneProductSections({
   ...fallback.pages.products,
   ...productsPage,
-  list: productsList
-};
+});
+productsData.list = productsList;
 
 for (const path in productFiles) {
   const parts = path.split('/');

@@ -1,7 +1,7 @@
 ---
 title: "تم تسليم مبادل حراري ذو لوحة حلزونية كبيرة لخدمة التعدين"
 slug: large-spiral-plate-heat-exchanger-delivery-for-mining-service
-date: 2025-12-24
+date: 2025-02-12
 author: "فريق التحرير HeatEx Direct"
 reviewer: "فريق التحرير HeatEx Direct"
 readTime: "2 دقيقة"

@@ -1,7 +1,7 @@
 ---
 title: "Large Spiral Plate Heat Exchanger Delivered for Mining Service"
 slug: large-spiral-plate-heat-exchanger-delivery-for-mining-service
-date: 2025-12-24
+date: 2025-02-12
 author: "HeatEx Direct Editorial Team"
 reviewer: "HeatEx Direct Editorial Team"
 readTime: 2 minutes

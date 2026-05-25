@@ -1,7 +1,7 @@
 ---
 title: "Большой спиральный пластинчатый теплообменник доставлен для горнодобывающей промышленности"
 slug: large-spiral-plate-heat-exchanger-delivery-for-mining-service
-date: 2025-12-24
+date: 2025-02-12
 author: "Редакция HeatEx Direct"
 reviewer: "Редакция HeatEx Direct"
 readTime: "2 минуты"

@@ -1,7 +1,7 @@
 ﻿---
 title: "Торговые данные HS 841950 по недомашним теплообменным установкам"
 slug: hs-841950-non-domestic-heat-exchange-units-data
-date: 2026-05-25
+date: 2025-03-12
 author: "Редакция HeatEx Direct"
 reviewer: "Редакция HeatEx Direct"
 readTime: "4 минуты"

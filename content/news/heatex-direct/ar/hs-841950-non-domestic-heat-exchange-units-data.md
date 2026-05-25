@@ -1,7 +1,7 @@
 ﻿---
 title: "بيانات تجارة HS 841950 لوحدات التبادل الحراري غير المنزلية"
 slug: hs-841950-non-domestic-heat-exchange-units-data
-date: 2026-05-25
+date: 2025-03-12
 author: "فريق تحرير HeatEx Direct"
 reviewer: "فريق تحرير HeatEx Direct"
 readTime: "4 دقائق"

@@ -6,8 +6,9 @@ import { CheckCircle2, Settings, Factory, ArrowLeft, ArrowRight, BookOpen, Downl
 import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
 import { useTranslation } from 'react-i18next'
-import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-routing'
+import { addLanguageToPath, getLanguageFromPath } from '../../../utils/language-routing'
 import { RfqLink } from '../../../utils/rfq-routing/link'
+import { resources } from '../../../locales/resources'
 
 interface ProductImageAsset {
     alt_text?: string;
@@ -56,6 +57,16 @@ interface RelatedProduct {
     image?: ProductImageAsset;
 }
 
+type ProductsTranslationData = Record<string, unknown>;
+
+function getProductsTranslationData(language: keyof typeof resources): ProductsTranslationData {
+    return resources[language].translation.pages.products as ProductsTranslationData;
+}
+
+function getCurrentPathname(pathname: string) {
+    return typeof window === "undefined" && globalThis.__SSR_PATHNAME__ ? globalThis.__SSR_PATHNAME__ : pathname;
+}
+
 function getDocumentDisplayName(document: ProductDocumentAsset): string {
     if (document.file_name?.trim()) {
         return document.file_name.trim();
@@ -86,19 +97,22 @@ function getYoutubeEmbedUrl(url: string): string | null {
 export default function ProductProfilePage() {
     const { manufacturerSlug, productSlug } = useParams<{ manufacturerSlug: string, productSlug: string }>();
     const location = useLocation();
-    const { t } = useTranslation();
-    const currentLanguage = useCurrentLanguage();
+    const currentPathname = getCurrentPathname(location.pathname);
+    const currentLanguage = getLanguageFromPath(currentPathname);
+    const { i18n } = useTranslation();
+    const t = i18n.getFixedT(currentLanguage);
     const documentDownloadsTitle = t("pages.products.detail.document_downloads");
     const downloadLabel = t("pages.products.detail.download");
 
     // Construct dynamic path: pages.products.shanghai-heat-transfer-equipment-co-ltd.ht-bloc-welded-plate-heat-exchanger
-    const TK = `pages.products.${manufacturerSlug}.${productSlug}`;
+    const productsData = getProductsTranslationData(currentLanguage);
+    const fallbackProductsData = getProductsTranslationData("en");
+    const manufacturerProducts = productsData[manufacturerSlug || ""] as Record<string, ProductData> | undefined;
+    const fallbackManufacturerProducts = fallbackProductsData[manufacturerSlug || ""] as Record<string, ProductData> | undefined;
 
-    // Load product data dynamically based on the slug. 
-    // If it returns a string, it means the key was not found (or returnObjects failed).
-    const productData = t(TK, { returnObjects: true, defaultValue: null }) as ProductData | string | null;
+    const productData = manufacturerProducts?.[productSlug || ""] || fallbackManufacturerProducts?.[productSlug || ""] || null;
 
-    if (!productData || typeof productData === 'string') {
+    if (!productData) {
         return <Navigate to="/404" replace />;
     }
 
@@ -110,10 +124,8 @@ export default function ProductProfilePage() {
     const certificates = productData.certificates || [];
     const details = productData.details || [];
     const documents = productData.documents || [];
-    const manufacturerProductData = t(`pages.products.${manufacturerSlug}`, { returnObjects: true, defaultValue: {} }) as Record<string, ProductData> | string;
-    const relatedProducts: RelatedProduct[] = typeof manufacturerProductData === 'string'
-        ? []
-        : Object.entries(manufacturerProductData)
+    const manufacturerProductData = manufacturerProducts || fallbackManufacturerProducts || {};
+    const relatedProducts: RelatedProduct[] = Object.entries(manufacturerProductData)
             .filter(([slug, product]) => slug !== productSlug && product && typeof product === 'object' && typeof product.name === 'string')
             .map(([slug, product]) => ({
                 slug: product.slug || slug,

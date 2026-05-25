@@ -506,9 +506,15 @@ function writeRobotsTxt() {
 
 function copyDeploymentFiles() {
   const htaccessPath = path.join(webDir, '.htaccess');
+  const sitemapStylesheetPath = path.join(webDir, 'sitemap.xsl');
 
   if (fs.existsSync(htaccessPath)) {
     writeText(path.join(distDir, '.htaccess'), renderTemplate(readText(htaccessPath)));
+  }
+
+  if (fs.existsSync(sitemapStylesheetPath)) {
+    writeText(path.join(projectRoot, 'sitemap.xsl'), renderTemplate(readText(sitemapStylesheetPath)));
+    writeText(path.join(distDir, 'sitemap.xsl'), renderTemplate(readText(sitemapStylesheetPath)));
   }
 
   writeRobotsTxt();
@@ -560,6 +566,38 @@ function toRoute(filePath) {
 
 function shouldIncludeInSitemap(route) {
   return true;
+}
+
+function isArticleRoute(route) {
+  const { normalizedRoute } = parseRoute(route);
+
+  return normalizedRoute.startsWith('/industry-news/') && normalizedRoute !== '/industry-news';
+}
+
+function getLanguageSortIndex(route) {
+  const { language } = parseRoute(route);
+  const index = supportedLanguages.indexOf(language);
+
+  return index === -1 ? supportedLanguages.length : index;
+}
+
+function compareSitemapRoutes(first, second) {
+  const firstIsArticle = isArticleRoute(first.route);
+  const secondIsArticle = isArticleRoute(second.route);
+
+  if (firstIsArticle !== secondIsArticle) {
+    return firstIsArticle ? 1 : -1;
+  }
+
+  const firstParsed = parseRoute(first.route);
+  const secondParsed = parseRoute(second.route);
+  const normalizedComparison = firstParsed.normalizedRoute.localeCompare(secondParsed.normalizedRoute);
+
+  if (normalizedComparison !== 0) {
+    return normalizedComparison;
+  }
+
+  return getLanguageSortIndex(first.route) - getLanguageSortIndex(second.route);
 }
 
 function getPriority(route) {
@@ -630,12 +668,12 @@ function buildSitemap() {
       };
     })
     .filter(Boolean)
-    .sort((a, b) => a.route.localeCompare(b.route));
+    .sort(compareSitemapRoutes);
 
   const sitemapRoutes = allRoutes.filter(({ route }) => shouldIncludeInSitemap(route));
   const routeSet = new Set(sitemapRoutes.map(({ route }) => route));
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${sitemapRoutes.map(({ route, lastmod }) => `  <url>\n    <loc>${escapeXml(`${siteUrl}${route}`)}</loc>${buildAlternateLinks(route, routeSet)}\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>${getChangefreq(route)}</changefreq>\n    <priority>${getPriority(route)}</priority>\n  </url>`).join('\n')}\n</urlset>\n`;
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${sitemapRoutes.map(({ route, lastmod }) => `  <url>\n    <loc>${escapeXml(`${siteUrl}${route}`)}</loc>${buildAlternateLinks(route, routeSet)}\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>${getChangefreq(route)}</changefreq>\n    <priority>${getPriority(route)}</priority>\n  </url>`).join('\n')}\n</urlset>\n`;
 
   outputPaths.forEach((outputPath) => {
     writeText(outputPath, xml);

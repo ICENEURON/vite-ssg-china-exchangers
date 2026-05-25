@@ -113,6 +113,7 @@ export default defineConfig(({ mode }) => {
       }
     },
     ssgOptions: {
+      concurrency: 1,
       includedRoutes(paths: string[]) {
         const staticRoutes = paths.filter(path => !path.includes(':'))
         const enableBlog = env.VITE_ENABLE_BLOG === 'true';

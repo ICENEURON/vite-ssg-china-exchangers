@@ -14,6 +14,9 @@ export function ContactHero() {
     const { t } = useTranslation("translation");
     const [copied, setCopied] = useState(false);
     const email = import.meta.env.VITE_CONTACT_EMAIL;
+    const titlePrefix = t("pages.contact.hero.title_prefix").trim();
+    const titleSuffix = t("pages.contact.hero.title_suffix").trim();
+    const description = t("pages.contact.hero.description").trim();
 
     const copyEmail = async () => {
         await navigator.clipboard.writeText(email);
@@ -29,14 +32,16 @@ export function ContactHero() {
             <div className="container z-10 flex max-w-6xl flex-col justify-start gap-5 px-4 pt-9">
                 <div className="max-w-5xl space-y-5">
                     <h1 className="max-w-4xl text-4xl font-bold leading-tight text-white md:text-6xl">
-                        {t("pages.contact.hero.title_prefix")}
+                        {titlePrefix}
+                        {titlePrefix ? " " : ""}
                         <BrandName />
-                        {t("pages.contact.hero.title_suffix")}
+                        {titleSuffix ? ` ${titleSuffix}` : ""}
                     </h1>
 
                     <p className="max-w-3xl text-sm leading-7 text-gray-300 md:text-base">
                         <BrandName />
-                        {t("pages.contact.hero.description")}
+                        {" "}
+                        {description}
                     </p>
 
                     <button

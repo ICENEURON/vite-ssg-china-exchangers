@@ -22,25 +22,26 @@ interface SourceManufacturer {
 }
 
 type LocaleCode = keyof typeof resources;
-type LocalizedLabel = Record<LocaleCode, string>;
 type LocaleOption = { id: string; label: string };
 type RfqLocale = typeof resources.en.translation.pages.rfq;
 
-const LOCALE_CODES = Object.keys(resources) as LocaleCode[];
+const LABEL_LOCALE_CODES = ["en", "zh"] as const satisfies readonly LocaleCode[];
+type LabelLocaleCode = typeof LABEL_LOCALE_CODES[number];
+type LocalizedLabel = Record<LabelLocaleCode, string>;
 
 function getRfqLocale(locale: LocaleCode): RfqLocale {
   return resources[locale].translation.pages.rfq as RfqLocale;
 }
 
 function getRfqParameterLabel(key: keyof RfqLocale["parameterLabels"]): LocalizedLabel {
-  return LOCALE_CODES.reduce((labels, locale) => {
+  return LABEL_LOCALE_CODES.reduce((labels, locale) => {
     labels[locale] = getRfqLocale(locale).parameterLabels[key] || getRfqLocale("en").parameterLabels[key];
     return labels;
   }, {} as LocalizedLabel);
 }
 
 function sameLocalizedLabel(value: string): LocalizedLabel {
-  return LOCALE_CODES.reduce((labels, locale) => {
+  return LABEL_LOCALE_CODES.reduce((labels, locale) => {
     labels[locale] = value;
     return labels;
   }, {} as LocalizedLabel);
@@ -49,7 +50,7 @@ function sameLocalizedLabel(value: string): LocalizedLabel {
 function getLocalizedOptionLabels(collection: "fluidTypes" | "plateMaterials" | "flangeStandards") {
   const optionLabels: Record<string, LocalizedLabel> = {};
 
-  LOCALE_CODES.forEach((locale) => {
+  LABEL_LOCALE_CODES.forEach((locale) => {
     (getRfqLocale(locale)[collection] as LocaleOption[]).forEach((option) => {
       optionLabels[option.id] = {
         ...(optionLabels[option.id] || sameLocalizedLabel(option.id)),
@@ -338,6 +339,7 @@ export default function SmartRfqBuilder() {
   const buildParametersPayload = (): RFQSubmissionData["parameters"] => ({
     schemaVersion: "rfq_parameters_v2",
     unitSystem: "metric",
+    userLanguage: currentLanguage,
     languageLabels: ["en", "zh"],
     thermal: {
       label: getRfqParameterLabel("thermal"),
