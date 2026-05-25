@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useLocation, useSearchParams } from "react-router-dom"
 import { SeoHead } from '../../components/seo/SeoHead'
 import { Button } from "../../components/ui/button"
@@ -224,6 +224,10 @@ export default function SmartRfqBuilder() {
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [isSubmitting, setIsSubmitting] = useState(false)
 
+  useEffect(() => {
+    if (isSubmitted) scrollToTop();
+  }, [isSubmitted]);
+
   // Validation Logic
   const canProceedToStep2 =
     contextData.firstName.trim() !== "" &&
@@ -403,7 +407,6 @@ export default function SmartRfqBuilder() {
       await submitRFQ(submissionPayload);
       if (typeof window !== "undefined") {
         window.sessionStorage.removeItem(QUOTE_REQUEST_SOURCE_URL_STORAGE_KEY);
-        window.scrollTo({ top: 0, behavior: "smooth" });
       }
       setIsSubmitted(true);
     } catch (error: unknown) {

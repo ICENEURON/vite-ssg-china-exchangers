@@ -18,10 +18,9 @@ export function ManufacturerCard({ company }: { company: ManufacturerProps }) {
         <article className="group flex h-full flex-col overflow-visible rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/20 hover:shadow-xl hover:shadow-primary/10">
             <div className="flex items-start">
                 <a href={company.link} className="min-w-0 flex-1">
-                    <div className="h-14 overflow-hidden">
+                    <div className="min-h-[3.5rem]">
                         <h3
-                            className="font-bold text-foreground transition-colors duration-300 group-hover:text-primary"
-                            style={{ fontSize: "22px", lineHeight: "28px" }}
+                            className="text-base font-bold leading-6 text-foreground transition-colors duration-300 group-hover:text-primary md:text-[22px] md:leading-7"
                         >
                             {company.name}
                         </h3>

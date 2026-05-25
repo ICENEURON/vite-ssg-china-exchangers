@@ -17,6 +17,12 @@ function getCompanyName(slug: string, lang: string) {
     return lang === 'zh' ? name.zh : name.en;
 }
 
+function wrapScrollableTables(content: string) {
+    return content
+        .replace(/<table(\s|>)/g, '<div class="my-6 max-w-full overflow-x-auto"><table$1')
+        .replace(/<\/table>/g, '</table></div>');
+}
+
 export default function BlogPost() {
     const { t } = useTranslation("translation");
     const location = useLocation();
@@ -40,6 +46,7 @@ export default function BlogPost() {
         return true;
     });
     const post = sortedPosts[currentIndex];
+    const postContent = post ? wrapScrollableTables(post.content) : "";
 
     const relatedPosts = post
         ? sortedPosts.filter((rPost) => rPost.permalink !== post.permalink).slice(0, 5)
@@ -82,8 +89,8 @@ export default function BlogPost() {
             <div className="container pt-16 px-4 max-w-6xl flex flex-col gap-8">
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
                     {/* Main Content */}
-                    <div className="lg:col-span-3 flex flex-col gap-6">
-                        <article className="prose prose-slate max-w-none flex flex-col gap-6 !text-base !leading-relaxed">
+                    <div className="min-w-0 lg:col-span-3 flex flex-col gap-6">
+                        <article className="prose prose-slate max-w-none min-w-0 flex flex-col gap-6 !text-base !leading-relaxed">
                             <div className="not-prose flex flex-col gap-4 border-b border-border pb-6">
                                 <div className="flex flex-col items-start gap-2 text-sm text-muted">
                                     <div className="flex items-center gap-2">
@@ -123,8 +130,8 @@ export default function BlogPost() {
                             )}
 
                             <div
-                                className="mt-4 text-slate-700 !text-base !leading-relaxed prose prose-slate"
-                                dangerouslySetInnerHTML={{ __html: post.content }}
+                                className="mt-4 min-w-0 max-w-full overflow-x-clip text-slate-700 !text-base !leading-relaxed prose prose-slate [&_table]:min-w-max [&_th]:whitespace-nowrap [&_td]:whitespace-nowrap"
+                                dangerouslySetInnerHTML={{ __html: postContent }}
                             />
                         </article>
                     </div>
@@ -175,7 +182,7 @@ export default function BlogPost() {
                     className="group flex max-w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float"
                 >
                     <ArrowLeft className="h-4 w-4 shrink-0 transition-transform group-hover:-translate-x-1" />
-                    <span className="truncate">{t("pages.news.blog.back_to_catalog", "返回新闻目录")}</span>
+                    <span className="truncate">{t("pages.news.blog.back_to_catalog", "返回新闻")}</span>
                 </Link>
             </div>
         </section>

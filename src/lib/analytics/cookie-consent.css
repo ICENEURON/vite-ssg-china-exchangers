@@ -142,7 +142,35 @@
   }
 
   #cc-main .cm--bar .cm__btns {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
     padding-bottom: 1.75rem;
+  }
+
+  #cc-main .cm--bar .cm__btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+    margin: 0 !important;
+  }
+
+  #cc-main .cm--bar .cm__btn {
+    width: 100%;
+  }
+
+  #cc-main .cm--bar .cm__btn[data-role="all"] {
+    order: 1;
+  }
+
+  #cc-main .cm--bar .cm__btn[data-role="necessary"] {
+    order: 2;
+  }
+
+  #cc-main .cm--bar .cm__btn[data-role="show"] {
+    order: 3;
   }
 }
 

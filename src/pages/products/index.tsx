@@ -375,10 +375,9 @@ export default function ProductsPage() {
                                     </div>
 
                                     <div className="flex flex-1 flex-col border-t border-slate-200 p-4">
-                                        <div className="h-14 overflow-hidden">
+                                        <div className="min-h-[3.5rem]">
                                             <h3
-                                                className="font-bold text-foreground transition-colors duration-300 group-hover:text-primary"
-                                                style={{ fontSize: "22px", lineHeight: "28px" }}
+                                                className="text-base font-bold leading-6 text-foreground transition-colors duration-300 group-hover:text-primary md:text-[22px] md:leading-7"
                                             >
                                                 {product.name}
                                             </h3>
