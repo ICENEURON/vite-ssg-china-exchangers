@@ -4,22 +4,8 @@ import { useTranslation } from 'react-i18next';
 import { useCurrentLanguage, addLanguageToPath, getPathWithoutLanguage } from '../../utils/language-routing';
 import type { Language } from '../../utils/language-routing';
 import { languages as languageConfigs } from '../../locales';
-import countries from '../../data/countries.json';
 import { Button } from '../ui/button';
 import { Globe, Check } from 'lucide-react';
-
-type Country = {
-  id: string;
-  name: string;
-};
-
-const countriesById = new Map((countries as Country[]).map((country) => [country.id, country]));
-
-function getCountryFlag(countryId: string) {
-  return countryId
-    .toUpperCase()
-    .replace(/[A-Z]/g, (char) => String.fromCodePoint(char.charCodeAt(0) + 127397));
-}
 
 export function LanguageToggle() {
   const { t } = useTranslation("translation");
@@ -132,9 +118,7 @@ export function LanguageToggle() {
       {isOpen && (
         <div className="absolute right-0 top-full z-50 min-w-[120px] pt-2">
           <div className="flex flex-col gap-2 border border-border/50 bg-navbar p-2 shadow">
-            {Object.entries(languageConfigs).map(([code, { name, countryId }]) => {
-              const country = countriesById.get(countryId);
-
+            {Object.entries(languageConfigs).map(([code, { name }]) => {
               return (
                 <Button
                   key={code}
@@ -142,12 +126,9 @@ export function LanguageToggle() {
                   size="sm"
                   onClick={() => handleLanguageChange(code as Language)}
                   type="button"
-                  title={country ? `${name} - ${country.name}` : name}
+                  title={name}
                   className="w-full px-3 py-2 text-left hover:bg-accent/40 hover:text-navbar-foreground flex items-center gap-2 text-sm transition-colors h-auto justify-start focus:bg-accent/70 focus:text-navbar-foreground rounded-none text-navbar-foreground"
                 >
-                  <span className="text-base leading-none" aria-hidden="true">
-                    {getCountryFlag(countryId)}
-                  </span>
                   <span>{name}</span>
                   {currentLanguage === code && (
                     <Check className="h-4 w-4 ml-auto text-red-500" />

@@ -291,7 +291,7 @@ export default function ManufacturerProfilePage() {
                 </section>
 
                 {/* VERIFICATION STRIP - Clean & Trustworthy */}
-                <div className="sticky top-0 z-40 w-full max-w-full border-b bg-white/80 shadow-sm backdrop-blur-xl">
+                <div className="w-full max-w-full border-b bg-white/80 shadow-sm backdrop-blur-xl">
                     <div className="container mx-auto w-full max-w-7xl px-4">
                         <div className="grid w-full max-w-full grid-cols-2 justify-between sm:flex sm:flex-row">
                             {[
