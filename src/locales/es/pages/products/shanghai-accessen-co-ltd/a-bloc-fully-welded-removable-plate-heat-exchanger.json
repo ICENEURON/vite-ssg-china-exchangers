@@ -1,20 +1,20 @@
 {
   "slug": "a-bloc-fully-welded-removable-plate-heat-exchanger",
-  "name": "un-BLOC Totalmente soldado Removable intercambiador de calor de placas",
-  "full_description": "el un-BLOC Totalmente soldado Removable intercambiador de calor de placas es disenado para alta-temperatura y alta-presion conditions. Accessen describe lo como un compacto soldado exchanger con un square automatically soldado placa pack, fuerte termico shock resistance, true counter-current flujo, y significantly higher eficiencia de transferencia de calor than convencional shell-y-tube exchangers. Its removable multi-lado structure admite mecanico limpieza y ayuda un reduce mantenimiento space y operating costos.",
+  "name": "Intercambiador de calor de placas extraíbles totalmente soldado A-BLOC",
+  "full_description": "El intercambiador de calor de placas extraíbles totalmente soldado A-BLOC está diseñado para condiciones de alta temperatura y alta presión. Accessen lo describe como un intercambiador soldado compacto con un paquete de placas cuadradas soldadas automáticamente, fuerte resistencia al choque térmico, verdadero flujo en contracorriente y una eficiencia de transferencia de calor significativamente mayor que los intercambiadores de carcasa y tubos convencionales. Su estructura removible de múltiples lados admite la limpieza mecánica y ayuda a reducir el espacio de mantenimiento y el costo operativo.",
   "industries": [
-    "Petroquimica",
-    "Energia",
-    "Procesamiento quimico",
-    "Generacion electrica"
+    "petroquímica",
+    "Energía",
+    "Procesamiento químico",
+    "Generación de energía"
   ],
   "advantage": [
-    "True counter-current eficiente heat exchange",
-    "compacto structure",
-    "pequeno ocupacion en planta y ligero",
-    "Flexible expansion un resist termico stress",
-    "Removable multi-lado diseno",
-    "alta-presion water jet limpieza"
+    "Verdadero intercambio de calor eficiente a contracorriente",
+    "Estructura compacta",
+    "Tamaño reducido y peso ligero",
+    "Expansión flexible para resistir el estrés térmico.",
+    "Diseño de múltiples lados extraíble",
+    "Limpieza con chorro de agua a alta presión"
   ],
   "technical_parameters": {
     "Plate material": "AISI304, 316, 254, Ti",
@@ -25,17 +25,17 @@
   "video_link": "",
   "details": [
     {
-      "title": "Why es un-BLOC suited un severe proceso servicio?",
-      "content": "Accessen positions un-BLOC para alta-temperatura y alta-presion servicio, highlighting compacto structure, termico shock resistance, y el capacidad un combine enfriamiento y condensacion en one unidad."
+      "title": "¿Por qué A-BLOC es adecuado para tareas de procesos severos?",
+      "content": "Accessen posiciona A-BLOC para servicio de alta temperatura y alta presión, destacando la estructura compacta, la resistencia al choque térmico y la capacidad de combinar refrigeración y condensación en una sola unidad."
     },
     {
-      "title": "How es mantenimiento simplified?",
-      "content": "el soldado placa pack es installed en un removable structure que allows disassembly y mecanico limpieza, incluidos alta-presion water jet limpieza, mientras helping maintain eficiencia de transferencia de calor."
+      "title": "¿Cómo se simplifica el mantenimiento?",
+      "content": "El paquete de placas soldadas está instalado en una estructura extraíble que permite el desmontaje y la limpieza mecánica, incluida la limpieza con chorro de agua a alta presión, al tiempo que ayuda a mantener la eficiencia de la transferencia de calor."
     }
   ],
   "seo_data": {
-    "meta_title": "un-BLOC Totalmente soldado Removable intercambiador de calor de placas",
-    "meta_description": "compacto removable soldado intercambiador de calor de placas para alta-temperatura y alta-presion industrial aplicaciones con eficiente counter-current transferencia de calor."
+    "meta_title": "Intercambiador de calor de placas extraíbles totalmente soldado A-BLOC",
+    "meta_description": "Intercambiador de calor de placas soldadas extraíble y compacto para aplicaciones industriales de alta temperatura y alta presión con eficiente transferencia de calor a contracorriente."
   },
   "manufacturer": {
     "slug": "shanghai-accessen-co-ltd"

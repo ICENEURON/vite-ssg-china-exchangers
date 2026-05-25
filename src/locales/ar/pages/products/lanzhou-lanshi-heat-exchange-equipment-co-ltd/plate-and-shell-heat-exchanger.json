@@ -1,0 +1,40 @@
+{
+  "slug": "plate-and-shell-heat-exchanger",
+  "name": "لوحة وشل مبادل حراري",
+  "full_description": "تصف صفحة المنتج الرسمية هذا النموذج بأنه مبادل حراري متطور عالي الكفاءة وموفر للطاقة يستخدم الألواح المموجة كعناصر نقل الحرارة، ويتكون من حزمة ألواح ملحومة داخلية وغطاء خارجي. يتم تقديمه للإصلاح التحفيزي، وأيزومرة الزيلين، وعدم تناسب التولوين، وتكثيف البروبان والبروبيلين، والتبادل الحراري لمحلول الأمين، وغيرها من عمليات السائل والسائل والبخار والسائل والغاز السائل والغاز في صناعات تكرير النفط والبتروكيماويات ومعالجة الغاز.",
+  "industries": [
+    "البتروكيماويات",
+    "الطاقة",
+    "المعالجة الكيميائية"
+  ],
+  "advantage": [
+    "يجمع بين ضغط وكفاءة المبادلات الحرارية للوحة مع الضغط من جانب الغلاف ومقاومة درجات الحرارة.",
+    "يتم تقديم هيكل ملحوم خالي من الحشيات لدرجات الحرارة العالية والضغط العالي.",
+    "تسلط الصفحة الرسمية الضوء على وزن أقل وحجم أصغر من بدائل الغلاف والأنبوب."
+  ],
+  "technical_parameters": {
+    "Assembly Area": "≥20000 م2",
+    "Plate Material": "304، 316L، 321، 254SMO، الخ.",
+    "Design Pressure": ".06.0MPa",
+    "Plate Thickness": "0.7 ~ 1.2 ملم",
+    "Design Temperature": "≥580 درجة مئوية",
+    "Minimum Temperature Difference": "1 درجة مئوية"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "لوحة وشل مبادل حراري",
+    "meta_description": "مبادل مدمج ذو غلاف ولوحة عالي الكفاءة لخدمات التكرير والبتروكيماويات ومعالجة الغاز."
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate and Shell Heat Exchanger",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_and_shell_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

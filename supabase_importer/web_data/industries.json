@@ -5,8 +5,10 @@
     "name": {
       "en": "HVAC",
       "zh": "暖通空调",
-      "ru": "ОВК",
-      "es": "HVAC"
+      "ru": "HVAC",
+      "es": "HVAC",
+      "fr": "HVAC",
+      "ar": "HVAC"
     },
     "is_visible": true
   },
@@ -16,8 +18,10 @@
     "name": {
       "en": "Petrochemical",
       "zh": "石油化工",
-      "ru": "Нефтехимия",
-      "es": "Petroquimica"
+      "ru": "нефтехимическая",
+      "es": "petroquímica",
+      "fr": "Pétrochimie",
+      "ar": "البتروكيماويات"
     },
     "is_visible": true
   },
@@ -27,8 +31,10 @@
     "name": {
       "en": "Marine",
       "zh": "船舶/海工",
-      "ru": "Морская отрасль",
-      "es": "Maritimo"
+      "ru": "Морской",
+      "es": "marina",
+      "fr": "Marin",
+      "ar": "البحرية"
     },
     "is_visible": true
   },
@@ -38,8 +44,10 @@
     "name": {
       "en": "Energy",
       "zh": "能源",
-      "ru": "Энергетика",
-      "es": "Energia"
+      "ru": "Энергия",
+      "es": "Energía",
+      "fr": "Énergie",
+      "ar": "الطاقة"
     },
     "is_visible": true
   },
@@ -49,8 +57,10 @@
     "name": {
       "en": "Food Processing",
       "zh": "食品加工",
-      "ru": "Пищевая переработка",
-      "es": "Procesamiento de alimentos"
+      "ru": "Пищевая промышленность",
+      "es": "Procesamiento de alimentos",
+      "fr": "Transformation des aliments",
+      "ar": "تجهيز الأغذية"
     },
     "is_visible": true
   },
@@ -60,8 +70,10 @@
     "name": {
       "en": "Chemical Processing",
       "zh": "化工",
-      "ru": "Химическая промышленность",
-      "es": "Procesamiento quimico"
+      "ru": "Химическая обработка",
+      "es": "Procesamiento químico",
+      "fr": "Traitement chimique",
+      "ar": "المعالجة الكيميائية"
     },
     "is_visible": true
   },
@@ -71,8 +83,10 @@
     "name": {
       "en": "Food and Beverage",
       "zh": "食品与饮料",
-      "ru": "Пищевая промышленность и напитки",
-      "es": "Alimentos y bebidas"
+      "ru": "Еда и напитки",
+      "es": "Alimentos y Bebidas",
+      "fr": "Nourriture et boissons",
+      "ar": "الأطعمة والمشروبات"
     },
     "is_visible": true
   },
@@ -83,7 +97,9 @@
       "en": "Pharmaceuticals",
       "zh": "制药",
       "ru": "Фармацевтика",
-      "es": "Farmaceutica"
+      "es": "Productos farmacéuticos",
+      "fr": "Produits pharmaceutiques",
+      "ar": "المستحضرات الصيدلانية"
     },
     "is_visible": true
   },
@@ -93,8 +109,10 @@
     "name": {
       "en": "Power Generation",
       "zh": "发电/电力",
-      "ru": "Электроэнергетика",
-      "es": "Generacion electrica"
+      "ru": "Производство электроэнергии",
+      "es": "Generación de energía",
+      "fr": "Production d'énergie",
+      "ar": "توليد الطاقة"
     },
     "is_visible": true
   }

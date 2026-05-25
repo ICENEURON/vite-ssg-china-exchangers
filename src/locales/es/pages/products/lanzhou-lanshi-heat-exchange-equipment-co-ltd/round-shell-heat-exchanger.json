@@ -4,10 +4,10 @@
   "full_description": "Según la página oficial del producto en inglés, este intercambiador de calor se ensambla a partir de placas soldadas, carcasa y componentes de brida de viga para que los medios fríos y calientes fluyan alternativamente dentro del equipo. Se presenta manteniendo la alta eficiencia y la estructura compacta de un intercambiador de calor de placas y al mismo tiempo proporciona la resistencia a altas temperaturas y altas presiones asociadas con los equipos de carcasa y tubos para industrias petroleras, químicas, de energía eléctrica, farmacéuticas, metalúrgicas, de refrigeración y relacionadas.",
   "industries": [
     "HVAC",
-    "Petroquimica",
-    "Procesamiento quimico",
-    "Farmaceutica",
-    "Generacion electrica"
+    "petroquímica",
+    "Procesamiento químico",
+    "Productos farmacéuticos",
+    "Generación de energía"
   ],
   "advantage": [
     "Mantiene la alta eficiencia de transferencia de calor de los intercambiadores de calor de placas.",

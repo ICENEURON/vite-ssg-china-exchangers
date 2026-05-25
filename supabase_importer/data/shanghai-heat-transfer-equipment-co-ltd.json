@@ -7,13 +7,17 @@
         "en": "Shanghai Heat Transfer Equipment Co., Ltd.",
         "zh": "上海板换机械设备有限公司",
         "ru": "Shanghai Heat Transfer Equipment Co., Ltd.",
-        "es": "Shanghai transferencia de calor equipos Co., Ltd."
+        "es": "Shanghai Heat Transfer Equipment Co., Ltd.",
+        "fr": "Shanghai Heat Transfer Equipment Co., Ltd.",
+        "ar": "Shanghai Heat Transfer Equipment Co., Ltd."
       },
       "short_description": {
         "en": "Manufacturer of plate heat exchangers and custom heat transfer systems for oil and gas, chemical, power, marine, HVAC, and other industrial sectors.",
         "zh": "面向石油天然气、化工、电力、船舶、暖通等工业领域的板式热交换器及定制传热系统制造商。",
-        "ru": "Производитель пластинчатых теплообменников и нестандартных систем теплопередачи для нефтегазовой, химической, энергетической, морской, HVAC и других отраслей промышленности.",
-        "es": "Fabricante de intercambiadores de calor de placas y custom transferencia de calor sistemas para oil y gas, quimico, power, maritimo, HVAC, y other industrial sectors."
+        "ru": "Производитель пластинчатых теплообменников и систем теплопередачи на заказ для нефтегазовой, химической, энергетической, морской, HVAC и других отраслей промышленности.",
+        "es": "Fabricante de intercambiadores de calor de placas y sistemas de transferencia de calor personalizados para los sectores de petróleo y gas, químico, energético, marino, HVAC y otros sectores industriales.",
+        "fr": "Fabricant d'échangeurs de chaleur à plaques et de systèmes de transfert de chaleur personnalisés pour les secteurs pétrolier et gazier, chimique, électrique, maritime, HVAC et autres secteurs industriels.",
+        "ar": "الشركة المصنعة للمبادلات الحرارية اللوحية وأنظمة نقل الحرارة المخصصة لقطاعات النفط والغاز والكيماويات والطاقة والبحرية وHVAC والقطاعات الصناعية الأخرى."
       },
       "full_description": {
         "en": [
@@ -29,16 +33,28 @@
           "公司拥有质量、环境、职业健康安全管理体系认证，特种设备生产许可（压力容器），板式热交换器产品安全注册和节能注册，以及ASME、CCS、CE、BV、ABS、GL、NK等多项证书。同时，公司参与了多项国家和行业标准起草，并已为中石油、中石化、中海油、BASF、LANXESS、BP、POSCO、Rio Tinto、Petronas等众多国内外工业客户提供换热设备和相关服务。"
         ],
         "ru": [
-          "Shanghai Heat Transfer Equipment Co., Ltd. (SHPHE) — высокотехнологичный производитель и поставщик решений, специализирующийся на проектировании, производстве, монтаже и обслуживании пластинчатых теплообменников и комплексных систем теплопередачи. Компания обслуживает клиентов в нефтегазовой, морской, климатической, химической, пищевой и фармацевтической, энергетической, биоэнергетической, металлургической, машиностроительной, целлюлозно-бумажной и сталелитейной промышленности.",
+          "Shanghai Heat Transfer Equipment Co., Ltd. (SHPHE) — высокотехнологичный производитель и поставщик решений, специализирующийся на проектировании, производстве, установке и обслуживании пластинчатых теплообменников и комплексных систем теплопередачи. Компания обслуживает клиентов в нефтегазовой, морской, химической, пищевой и фармацевтической, энергетической, биоэнергетической, металлургической, машиностроительной, целлюлозно-бумажной и сталелитейной промышленности.",
           "Основная продукция SHPHE включает пластинчатые и рамные теплообменники, сварные пластинчатые теплообменники с широким зазором, сварные пластинчатые теплообменники HT-Bloc, сварные пластинчатые теплообменники TP и пластинчатые воздухоподогреватели. Обладая передовыми возможностями проектирования, производства, сварки и испытаний, компания предлагает индивидуальные решения по теплопередаче для сложных промышленных условий эксплуатации.",
-          "Благодаря постоянным инновациям компания SHPHE разработала множество крупногабаритных теплообменников высокого давления, в том числе большие пластинчатые теплообменники для применений FPSO, пластинчатые теплообменники высокого давления 5 МПа, внутренние пластинчатые нагреватели 9,6 МПа для стрипперов и большие сварные пластинчатые теплообменники HT-Bloc, рассчитанные на 6,4 МПа и 410 °C.",
-          "Компания имеет множество сертификатов, в том числе сертификаты системы управления качеством, окружающей средой, охраной труда и безопасностью, лицензию на производство специального оборудования для сосудов под давлением, регистрацию безопасности пластинчатых теплообменников и энергосбережения, а также международные сертификаты, такие как ASME, CCS, CE, BV, ABS, GL и NK. SHPHE также участвовал в разработке национальных и отраслевых стандартов и поставлял оборудование и услуги крупным отечественным и международным клиентам, включая CNPC, Sinopec, CNOOC, BASF, LANXESS, BP, POSCO, Rio Tinto, Petronas и других."
+          "Благодаря постоянным инновациям компания SHPHE разработала множество крупногабаритных теплообменников высокого давления, в том числе большие пластинчатые теплообменники для применений FPSO, 5 пластинчатых теплообменников высокого давления MPa, 9,6 внутренних пластинчатых нагревателей MPa для съемников и большие сварные пластинчатые теплообменники HT-Bloc, рассчитанные на 6,4 MPa и 410°С.",
+          "Компания имеет множество сертификатов, в том числе сертификаты системы управления качеством, окружающей средой, охраной труда и безопасностью, лицензию на производство специального оборудования для сосудов под давлением, регистрацию безопасности пластинчатых теплообменников и энергосбережения, а также международные сертификаты, такие как ASME, CCS, CE, BV, ABS, GL и NK. SHPHE также участвовал в разработке национальных и отраслевых стандартов и поставлял оборудование и услуги крупным отечественным и международным клиентам, включая CNPC, Sinopec, CNOOC, BASF, LANXESS, BP, POSCO, Rio Tinto, Petronas и другим."
         ],
         "es": [
-          "Shanghai transferencia de calor equipos Co., Ltd. (SHPHE) es un tecnologia-driven fabricante y proveedor de soluciones specializing en el diseno, fabricacion, installation, y servicio de intercambiadores de calor de placas y complete transferencia de calor sistemas. la empresa serves customers across oil y gas, maritimo, HVAC, quimico, alimentario y farmaceutico, power, bioenergy, metallurgy, machinery, pulpa y papel, y steel industrias.",
-          "SHPHE’s main productos include placa y frame intercambiadores de calor, de canal ancho soldado intercambiadores de calor de placas, HT-BLOC soldado intercambiadores de calor de placas, TP soldado intercambiadores de calor de placas, y placa air preheaters. con advanced ingenieria, fabricacion, soldadura, y testing capacidades, la empresa provides customized transferencia de calor soluciones para complex industrial condiciones de operacion.",
-          "Driven por continuous innovation, SHPHE ha developed multiple alta-presion y grande-scale productos de intercambio de calor, incluidos grande intercambiadores de calor de placas para FPSO aplicaciones, 5 MPa alta-presion intercambiadores de calor de placas, 9.6 MPa internal placa heaters para strippers, y grande HT-BLOC soldado intercambiadores de calor de placas rated para 6.4 MPa y 410°C.",
-          "la empresa holds multiple certificaciones, incluidos calidad, environmental, y occupational health y seguridad management sistema certificaciones, special equipos produccion license para recipiente un presions, intercambiador de calor de placas seguridad y ahorro energetico registrations, y international certificados such como ASME, CCS, CE, BV, ABS, GL, y NK. SHPHE ha tambien participated en drafting national y industria normas, y ha supplied equipos y servicios una importante domestic y international customers incluidos CNPC, Sinopec, CNOOC, BASF, LANXESS, BP, POSCO, Rio Tinto, Petronas, y others."
+          "Shanghai Heat Transfer Equipment Co., Ltd. (SHPHE) es un fabricante tecnológico y proveedor de soluciones que se especializa en el diseño, fabricación, instalación y servicio de intercambiadores de calor de placas y sistemas completos de transferencia de calor. La empresa presta servicios a clientes de las industrias de petróleo y gas, marina, química, alimentaria y farmacéutica, eléctrica, bioenergía, metalurgia, maquinaria, pulpa y papel y siderúrgica.",
+          "Los principales productos de SHPHE incluyen intercambiadores de calor de placas y marcos, intercambiadores de calor de placas soldadas de gran espacio, intercambiadores de calor de placas soldadas HT-Bloc, intercambiadores de calor de placas soldadas TP y precalentadores de aire de placas. Con capacidades avanzadas de ingeniería, fabricación, soldadura y pruebas, la empresa ofrece soluciones personalizadas de transferencia de calor para condiciones operativas industriales complejas.",
+          "Impulsado por la innovación continua, SHPHE ha desarrollado múltiples productos de intercambiadores de calor de alta presión y a gran escala, incluidos intercambiadores de calor de placas grandes para aplicaciones FPSO, 5 intercambiadores de calor de placas de alta presión MPa, calentadores de placas internos 9,6 MPa para strippers y grandes intercambiadores de calor de placas soldadas HT-Bloc con clasificación para 6,4 MPa y 410 °C.",
+          "La empresa cuenta con múltiples certificaciones, incluidas certificaciones de sistemas de gestión de seguridad y salud ocupacional, medioambientales y de calidad, licencias de producción de equipos especiales para recipientes a presión, registros de ahorro de energía y seguridad de intercambiadores de calor de placas, y certificados internacionales como ASME, CCS, CE, BV, ABS, GL y NK. SHPHE también ha participado en la redacción de estándares nacionales e industriales, y ha suministrado equipos y servicios a importantes clientes nacionales e internacionales, incluidos CNPC, Sinopec, CNOOC, BASF, LANXESS, BP, POSCO, Rio Tinto, Petronas y otros."
+        ],
+        "fr": [
+          "Shanghai Heat Transfer Equipment Co., Ltd. (SHPHE) est un fabricant et fournisseur de solutions axé sur la technologie, spécialisé dans la conception, la fabrication, l'installation et l'entretien d'échangeurs de chaleur à plaques et de systèmes complets de transfert de chaleur. La société sert des clients dans les secteurs du pétrole et du gaz, de la marine, de la chimie, de l'alimentation et de la pharmacie, de l'énergie, de la bioénergie, de la métallurgie, des machines, des pâtes et papiers et de l'acier.",
+          "Les principaux produits de SHPHE comprennent des échangeurs de chaleur à plaques et à châssis, des échangeurs de chaleur à plaques soudées à grand écart, des échangeurs de chaleur à plaques soudées HT-Bloc, des échangeurs de chaleur à plaques soudées TP et des préchauffeurs d'air à plaques. Grâce à des capacités avancées d'ingénierie, de fabrication, de soudage et de test, la société propose des solutions de transfert de chaleur personnalisées pour des conditions de fonctionnement industrielles complexes.",
+          "Poussé par une innovation continue, SHPHE a développé plusieurs produits d'échangeurs de chaleur à haute pression et à grande échelle, notamment de grands échangeurs de chaleur à plaques pour les applications FPSO, 5 échangeurs de chaleur à plaques haute pression MPa, 9,6 réchauffeurs à plaques internes MPa pour les décapants et de grands échangeurs de chaleur à plaques soudées HT-Bloc évalués pour 6,4 MPa et 410°C.",
+          "L'entreprise détient plusieurs certifications, notamment des certifications de système de gestion de la qualité, de l'environnement et de la santé et de la sécurité au travail, une licence de production d'équipements spéciaux pour les récipients sous pression, des enregistrements de sécurité et d'économie d'énergie pour les échangeurs de chaleur à plaques, ainsi que des certificats internationaux tels que ASME, CCS, CE, BV, ABS, GL et NK. SHPHE a également participé à l'élaboration de normes nationales et industrielles et a fourni des équipements et des services à d'importants clients nationaux et internationaux, notamment CNPC, Sinopec, CNOOC, BASF, LANXESS, BP, POSCO, Rio Tinto, Petronas et autres."
+        ],
+        "ar": [
+          "Shanghai Heat Transfer Equipment Co., Ltd. (SHPHE) هي شركة تصنيع تعتمد على التكنولوجيا ومزودة حلول متخصصة في تصميم وتصنيع وتركيب وخدمة المبادلات الحرارية اللوحية وأنظمة نقل الحرارة الكاملة. تخدم الشركة العملاء في قطاعات النفط والغاز والبحرية وHVAC والكيميائية والأغذية والأدوية والطاقة والطاقة الحيوية والمعادن والآلات ولب الورق والورق والصناعات الفولاذية.",
+          "تشمل المنتجات الرئيسية لشركة SHPHE المبادلات الحرارية ذات الألواح والإطارات، والمبادلات الحرارية ذات الألواح الملحومة واسعة الفجوة، والمبادلات الحرارية ذات الألواح الملحومة HT-Bloc، والمبادلات الحرارية ذات الألواح الملحومة TP، وأجهزة التسخين المسبق لألواح الهواء. بفضل القدرات الهندسية والتصنيع واللحام والاختبار المتقدمة، توفر الشركة حلولًا مخصصة لنقل الحرارة لظروف التشغيل الصناعية المعقدة.",
+          "مدفوعة بالابتكار المستمر، قامت SHPHE بتطوير العديد من منتجات المبادلات الحرارية ذات الضغط العالي والواسعة النطاق، بما في ذلك المبادلات الحرارية ذات الألواح الكبيرة لتطبيقات FPSO، و5 مبادلات حرارية ذات ألواح عالية الضغط MPa، وسخانات الألواح الداخلية 9.6 MPa للمتعريات، ومبادلات حرارية كبيرة ذات ألواح ملحومة HT-Bloc مصنفة لـ 6.4 MPa و 410 درجة مئوية.",
+          "حصلت الشركة على شهادات متعددة، بما في ذلك شهادات نظام إدارة الجودة والبيئة والصحة والسلامة المهنية، ورخصة إنتاج المعدات الخاصة لأوعية الضغط، وتسجيلات سلامة المبادلات الحرارية وتوفير الطاقة، وشهادات دولية مثل ASME، وCCS، وCE، وBV، وABS، وGL، وNK. شاركت SHPHE أيضًا في صياغة المعايير الوطنية والصناعية، وقدمت المعدات والخدمات للعملاء المحليين والدوليين الرئيسيين بما في ذلك CNPC، Sinopec، CNOOC، BASF، LANXESS، BP، POSCO، Rio Tinto، Petronas، وغيرها."
         ]
       },
       "advantages": {
@@ -63,20 +79,38 @@
         "ru": [
           "Специализированный опыт в области теплообменников: сосредоточен на пластинчатых теплообменниках и комплексных системах теплопередачи, обладая глубокими техническими знаниями в сложных промышленных приложениях.",
           "Передовые разработки и производство. Мощные возможности проектирования, производства, сварки и испытаний позволяют создавать индивидуальные решения для сложных условий эксплуатации.",
-          "Возможность работы с высоким давлением и в больших масштабах: проверенный опыт разработки теплообменников высокого давления и больших размеров, включая приложения на 5 МПа, 6,4 МПа и 9,6 МПа.",
+          "Возможность работы с высоким давлением и в больших масштабах: проверенный опыт разработки теплообменников высокого давления и больших размеров, включая 5 MPa, 6,4 MPa и 9,6 MPa.",
           "Сертифицированное качество и соответствие: имеет сертификаты системы управления, лицензию на производство сосудов под давлением, регистрацию безопасности пластинчатых теплообменников и энергосбережения, а также международные сертификаты, включая ASME, CCS, CE, BV, ABS, GL и NK.",
           "Опыт разработки стандартов: Участвовал в разработке национальных и отраслевых стандартов для испытаний энергоэффективности теплообменников, пластинчатых и рамных теплообменников, сварных пластинчатых теплообменников, а также спецификаций на закупки.",
           "Глобальная сеть обслуживания: базируется в Шанхае, имеет глобальное покрытие продаж и обслуживания и поддерживает клиентов в Азии, Европе, Северной Америке, Южной Америке и Океании.",
-          "Доверяют крупные промышленные клиенты: поставляли оборудование и услуги ведущим отечественным и транснациональным компаниям в нефтегазовой, химической, морской, металлургической, энергетической, HVAC и других отраслях."
+          "Нам доверяют крупные промышленные клиенты: поставлялось оборудование и услуги ведущим отечественным и транснациональным компаниям в нефтегазовой, химической, морской, металлургической, энергетической, HVAC и других отраслях."
         ],
         "es": [
-          "Specialized intercambiador de calor Expertise: Focused en intercambiadores de calor de placas y complete transferencia de calor sistemas, con deep technical knowledge across exigente industrial aplicaciones.",
-          "Advanced Ingenieria y Fabricacion: fuerte diseno, produccion, soldadura, y testing capacidades soporte customized soluciones para complex condiciones de operacion.",
-          "alta-presion y grande-Scale capacidad: Proven development experience en alta-presion y grande-size intercambiadores de calor, incluidos 5 MPa, 6.4 MPa, y 9.6 MPa aplicaciones.",
-          "Certified Calidad y Compliance: Holds management sistema certificaciones, recipiente un presion produccion license, intercambiador de calor de placas seguridad y ahorro energetico registrations, y international certificados incluidos ASME, CCS, CE, BV, ABS, GL, y NK.",
-          "Normas Drafting Experience: Participated en drafting national y industria normas para intercambiador de calor eficiencia energetica testing, placa y frame intercambiadores de calor, soldado intercambiadores de calor de placas, y procurement specifications.",
-          "Global servicio Network: Based en Shanghai con global sales y servicio coverage, de soporte customers across Asia, Europe, North America, South America, y Oceania.",
-          "Trusted por importante Industrial Customers: Supplied equipos y servicios un leading domestic y multinational companies across oil y gas, quimico, maritimo, metallurgy, power, HVAC, y other sectors."
+          "Experiencia especializada en intercambiadores de calor: centrado en intercambiadores de calor de placas y sistemas completos de transferencia de calor, con un profundo conocimiento técnico en aplicaciones industriales exigentes.",
+          "Ingeniería y fabricación avanzadas: sólidas capacidades de diseño, producción, soldadura y pruebas respaldan soluciones personalizadas para condiciones operativas complejas.",
+          "Capacidad de alta presión y gran escala: experiencia comprobada en desarrollo de intercambiadores de calor de alta presión y de gran tamaño, incluidas aplicaciones 5 MPa, 6.4 MPa y 9.6 MPa.",
+          "Calidad y cumplimiento certificados: posee certificaciones de sistemas de gestión, licencia de producción de recipientes a presión, registros de ahorro de energía y seguridad de intercambiadores de calor de placas y certificados internacionales que incluyen ASME, CCS, CE, BV, ABS, GL y NK.",
+          "Experiencia en redacción de estándares: Participó en la redacción de estándares nacionales e industriales para pruebas de eficiencia energética de intercambiadores de calor, intercambiadores de calor de placas y marcos, intercambiadores de calor de placas soldadas y especificaciones de adquisiciones.",
+          "Red de servicio global: con sede en Shanghai con cobertura de servicio y ventas globales, brindando soporte a clientes en Asia, Europa, América del Norte, América del Sur y Oceanía.",
+          "Con la confianza de los principales clientes industriales: suministró equipos y servicios a empresas nacionales y multinacionales líderes en los sectores de petróleo y gas, química, marina, metalurgia, energía, y otros sectores."
+        ],
+        "fr": [
+          "Expertise spécialisée en échangeurs de chaleur: axée sur les échangeurs de chaleur à plaques et les systèmes complets de transfert de chaleur, avec une connaissance technique approfondie des applications industrielles exigeantes.",
+          "Ingénierie et fabrication avancées: de solides capacités de conception, de production, de soudage et de test prennent en charge des solutions personnalisées pour des conditions de fonctionnement complexes.",
+          "Capacité haute pression et à grande échelle: expérience éprouvée en matière de développement d'échangeurs de chaleur haute pression et de grande taille, notamment les applications 5 MPa, 6.4 MPa et 9.6 MPa.",
+          "Qualité et conformité certifiées: détient des certifications de système de gestion, une licence de production d'appareils sous pression, des enregistrements de sécurité d'échangeur thermique à plaques et d'économie d'énergie, ainsi que des certificats internationaux, notamment ASME, CCS, CE, BV, ABS, GL et NK.",
+          "Expérience en rédaction de normes: Participation à la rédaction de normes nationales et industrielles pour les tests d'efficacité énergétique des échangeurs de chaleur, les échangeurs de chaleur à plaques et à châssis, les échangeurs de chaleur à plaques soudées et les spécifications d'approvisionnement.",
+          "Réseau de service mondial: basé à Shanghai avec une couverture mondiale de ventes et de services, aidant les clients en Asie, en Europe, en Amérique du Nord, en Amérique du Sud et en Océanie.",
+          "Approuvé par les principaux clients industriels: fourniture d'équipements et de services aux principales entreprises nationales et multinationales des secteurs du pétrole et du gaz, de la chimie, de la marine, de la métallurgie, de l'énergie, du HVAC et d'autres secteurs."
+        ],
+        "ar": [
+          "خبرة متخصصة في المبادلات الحرارية: تركز على المبادلات الحرارية اللوحية وأنظمة نقل الحرارة الكاملة، مع معرفة تقنية عميقة عبر التطبيقات الصناعية كثيرة المتطلبات.",
+          "الهندسة والتصنيع المتقدمان: تدعم إمكانيات التصميم والإنتاج واللحام والاختبار القوية الحلول المخصصة لظروف التشغيل المعقدة.",
+          "قدرة الضغط العالي والواسعة النطاق: خبرة تطوير مثبتة في المبادلات الحرارية ذات الضغط العالي والكبيرة الحجم، بما في ذلك 5 تطبيقات MPa و6.4 MPa و9.6 MPa.",
+          "الجودة والامتثال المعتمدان: حاصل على شهادات نظام الإدارة، وترخيص إنتاج أوعية الضغط، وتسجيلات سلامة المبادلات الحرارية اللوحية وتوفير الطاقة، والشهادات الدولية بما في ذلك ASME، وCCS، وCE، وBV، وABS، وGL، وNK.",
+          "تجربة صياغة المعايير: شارك في صياغة المعايير الوطنية والصناعية لاختبار كفاءة استخدام الطاقة في المبادلات الحرارية، والمبادلات الحرارية للوحة والإطار، والمبادلات الحرارية للوحة الملحومة، ومواصفات المشتريات.",
+          "شبكة الخدمات العالمية: يقع مقرها في شنغهاي وتتمتع بتغطية المبيعات والخدمات العالمية، وتدعم العملاء في جميع أنحاء آسيا وأوروبا وأمريكا الشمالية وأمريكا الجنوبية وأوقيانوسيا.",
+          "موثوق به من قبل كبار العملاء الصناعيين: توفير المعدات والخدمات للشركات المحلية والمتعددة الجنسيات الرائدة في قطاعات النفط والغاز والكيماويات والبحرية والمعادن والطاقة وHVAC وغيرها من القطاعات."
         ]
       },
       "website": "https://www.shphe-en.com/",
@@ -104,19 +138,25 @@
         "en": "China",
         "zh": "中国",
         "ru": "Китай",
-        "es": "China"
+        "es": "China",
+        "fr": "Chine",
+        "ar": "الصين"
       },
       "city": {
         "en": "Shanghai",
         "zh": "上海",
         "ru": "Шанхай",
-        "es": "Shanghai"
+        "es": "Shangai",
+        "fr": "Shanghai",
+        "ar": "شنغهاي"
       },
       "address": {
         "en": "No. 99 Shanning Road, Jinshan District, Shanghai, China",
         "zh": "上海市金山区山宁路99号",
         "ru": "№ 99 Shanning Road, район Цзиньшань, Шанхай, Китай",
-        "es": "No. 99 Shanning Road, Jinshan District, Shanghai, China"
+        "es": "No. 99 Shanning Road, distrito de Jinshan, Shanghai, China",
+        "fr": "No. 99 Shanning Road, district de Jinshan, Shanghai, Chine",
+        "ar": "رقم 99 طريق شانينغ، منطقة جينشان، شنغهاي، الصين"
       },
       "established_year": "2005",
       "factory_area": "20000m2",
@@ -234,7 +274,9 @@
           "en": "Company Introduction Brochure",
           "zh": "公司简介手册",
           "ru": "Брошюра о компании",
-          "es": "Empresa introduccion Brochure"
+          "es": "Folleto de introducción de la empresa",
+          "fr": "Brochure de présentation de l'entreprise",
+          "ar": "كتيب تعريفي عن الشركة"
         }
       },
       {
@@ -282,20 +324,26 @@
           "name": {
             "en": "HT-BLOC Welded Plate Heat Exchanger",
             "zh": "HT-BLOC 焊接板式换热器",
-            "ru": "Сварной пластинчатый теплообменник HT-BLOC",
-            "es": "HT-BLOC Soldado intercambiador de calor de placas"
+            "ru": "HT-BLOC Сварной пластинчатый теплообменник",
+            "es": "Intercambiador de calor de placas soldadas HT-BLOC",
+            "fr": "Échangeur de chaleur à plaques soudées HT-BLOC",
+            "ar": "HT-BLOC مبادل حراري للوحة الملحومة"
           },
           "short_description": {
             "en": "Compact welded bloc exchanger for high-pressure industrial duty",
             "zh": "适用于高压工业工况的紧凑型焊接块式换热器",
             "ru": "Компактный сварной блочный теплообменник для промышленного применения под высоким давлением",
-            "es": "compacto soldado bloc exchanger para alta-presion industrial servicio"
+            "es": "Intercambiador de bloques compacto soldado para uso industrial de alta presión",
+            "fr": "Échangeur compact à blocs soudés pour usage industriel haute pression",
+            "ar": "مبادل كتلة ملحومة مدمج للخدمة الصناعية ذات الضغط العالي"
           },
           "full_description": {
             "en": "Fully welded plate heat exchangers assembled in a removable frame, offering high heat transfer efficiency, compact structure, and ease of maintenance. Ideal for high-temperature and high-pressure applications in the petroleum, chemical, power generation, pharmaceutical, metallurgical, and refrigeration industries.",
             "zh": "全新设计的焊接板式热交换器，板束板片间采用对接焊结构，全焊接的板束组装在可拆卸框架内，既保持了传统板式热交换器传热效率高、结构紧凑、方便清洗检修的优点，又可以在更高的温度和压力下使用，在石油、化工、电力、制药、冶金、制冷等行业正得到越来越广泛的应用。",
             "ru": "Цельносварные пластинчатые теплообменники, собранные в съемной раме, обеспечивают высокую эффективность теплопередачи, компактную конструкцию и простоту обслуживания. Идеально подходит для применения при высоких температурах и высоком давлении в нефтяной, химической, энергетической, фармацевтической, металлургической и холодильной промышленности.",
-            "es": "Totalmente soldado intercambiadores de calor de placas assembled en un removable frame, offering alta eficiencia de transferencia de calor, compacto structure, y ease de mantenimiento. Ideal para alta-temperatura y alta-presion aplicaciones en el petroleum, quimico, generacion electrica, farmaceutico, metallurgical, y enfriamiento industrias."
+            "es": "Intercambiadores de calor de placas completamente soldadas ensambladas en un marco extraíble, que ofrecen alta eficiencia de transferencia de calor, estructura compacta y facilidad de mantenimiento. Ideal para aplicaciones de alta temperatura y alta presión en las industrias petrolera, química, de generación de energía, farmacéutica, metalúrgica y de refrigeración.",
+            "fr": "Échangeurs de chaleur à plaques entièrement soudés assemblés dans un cadre amovible, offrant une efficacité de transfert de chaleur élevée, une structure compacte et une facilité de maintenance. Idéal pour les applications à haute température et haute pression dans les industries pétrolière, chimique, de production d'énergie, pharmaceutique, métallurgique et de réfrigération.",
+            "ar": "يتم تجميع المبادلات الحرارية ذات الألواح الملحومة بالكامل في إطار قابل للإزالة، مما يوفر كفاءة عالية في نقل الحرارة، وهيكل مدمج، وسهولة الصيانة. مثالية لتطبيقات درجات الحرارة العالية والضغط العالي في الصناعات البترولية والكيميائية وتوليد الطاقة والأدوية والمعادن والتبريد."
           },
           "industries": [
             "2",
@@ -327,12 +375,28 @@
               "Долговечность: Изготовлен из высококачественных материалов с использованием методов точной сварки, рассчитан на работу в суровых условиях и обеспечивает долгосрочную надежность."
             ],
             "es": [
-              "Totalmente soldado: el gasket-free construccion enables robust operation en higher presion y alta temperatura environments, ensuring leak-resistant rendimiento para critical aplicaciones.",
-              "Easy para Limpieza: Accessible transferencia de calor canales allow para effective removal de depositos y scale mediante mecanico flushing, quimico limpieza, o ultrasonic limpieza.",
-              "Openable: Bolted connection es disenado un facilitate easy access y versatility por enabling all four sides un ser openable, allowing para greater flexibility during installation, mantenimiento, y inspeccion.",
-              "pequeno ocupacion en planta: disenado una ocupan minimal space without compromising en capacity, significantly reducing ocupacion en planta comparard un tradicional shell y tube intercambiadores de calor.",
-              "alta Eficiencia: Innovations en placa geometria y flujo dynamics further increase eficiencia termica mientras reducing energy consumption, aligning con global energy conservation goals.",
-              "Durability: Constructed de alta-calidad materiales y utilizing precision soldadura techniques, built un withstand harsh condiciones de operacion y ensure long-term fiabilidad."
+              "Totalmente soldado: la construcción sin juntas permite un funcionamiento robusto en entornos de alta presión y temperatura, lo que garantiza un rendimiento resistente a fugas para aplicaciones críticas.",
+              "Fácil de limpiar: Los canales de transferencia de calor accesibles permiten la eliminación efectiva de depósitos y sarro mediante lavado mecánico, limpieza química o limpieza ultrasónica.",
+              "Se puede abrir: la conexión atornillada está diseñada para facilitar el acceso fácil y la versatilidad al permitir que los cuatro lados se puedan abrir, lo que permite una mayor flexibilidad durante la instalación, el mantenimiento y la inspección.",
+              "Tamaño reducido: Diseñado para ocupar un espacio mínimo sin comprometer la capacidad, lo que reduce significativamente el tamaño en comparación con los intercambiadores de calor de carcasa y tubos tradicionales.",
+              "Alta eficiencia: las innovaciones en la geometría de las placas y la dinámica del flujo aumentan aún más la eficiencia térmica al tiempo que reducen el consumo de energía, alineándose con los objetivos globales de conservación de energía.",
+              "Durabilidad: Construido con materiales de alta calidad y utilizando técnicas de soldadura de precisión, construido para soportar condiciones operativas duras y garantizar confiabilidad a largo plazo."
+            ],
+            "fr": [
+              "Entièrement soudé: la construction sans joint permet un fonctionnement robuste dans des environnements à pression et température élevées, garantissant des performances anti-fuite pour les applications critiques.",
+              "Facile à nettoyer: les canaux de transfert de chaleur accessibles permettent une élimination efficace des dépôts et du tartre grâce à un rinçage mécanique, un nettoyage chimique ou un nettoyage par ultrasons.",
+              "Ouvrable: la connexion boulonnée est conçue pour faciliter l'accès et la polyvalence en permettant aux quatre côtés d'être ouverts, permettant une plus grande flexibilité lors de l'installation, de la maintenance et de l'inspection.",
+              "Faible encombrement: conçu pour occuper un minimum d'espace sans compromettre la capacité, réduisant considérablement l'encombrement par rapport aux échangeurs de chaleur à calandre et à tubes traditionnels.",
+              "Haute efficacité: les innovations dans la géométrie des plaques et la dynamique des flux augmentent encore l'efficacité thermique tout en réduisant la consommation d'énergie, ce qui s'aligne sur les objectifs mondiaux d'économie d'énergie.",
+              "Durabilité: construit à partir de matériaux de haute qualité et utilisant des techniques de soudage de précision, conçu pour résister à des conditions de fonctionnement difficiles et garantir une fiabilité à long terme."
+            ],
+            "ar": [
+              "ملحومة بالكامل: يتيح التصميم الخالي من الحشيات التشغيل القوي في بيئات الضغط العالي ودرجات الحرارة المرتفعة، مما يضمن أداء مقاوم للتسرب للتطبيقات المهمة.",
+              "سهلة التنظيف: تسمح قنوات نقل الحرارة التي يمكن الوصول إليها بالإزالة الفعالة للرواسب والحجم من خلال التنظيف الميكانيكي، أو التنظيف الكيميائي، أو التنظيف بالموجات فوق الصوتية.",
+              "قابلة للفتح: تم تصميم الوصلة المثبتة بمسامير لتسهيل الوصول إليها وتعدد الاستخدامات من خلال تمكين الجوانب الأربعة من أن تكون قابلة للفتح، مما يسمح بمرونة أكبر أثناء التثبيت والصيانة والفحص.",
+              "مساحة صغيرة: تم تصميمها لتشغل مساحة صغيرة دون المساس بالسعة، مما يقلل بشكل كبير من المساحة مقارنة بالمبادلات الحرارية التقليدية ذات الغلاف والأنبوب.",
+              "الكفاءة العالية: تعمل الابتكارات في هندسة الصفائح وديناميكيات التدفق على زيادة الكفاءة الحرارية مع تقليل استهلاك الطاقة، بما يتماشى مع الأهداف العالمية للحفاظ على الطاقة.",
+              "المتانة: مصنوعة من مواد عالية الجودة وتستخدم تقنيات لحام دقيقة، ومصممة لتحمل ظروف التشغيل القاسية وضمان الموثوقية على المدى الطويل."
             ]
           },
           "technical_parameters": {
@@ -351,18 +415,32 @@
               "板片材质": "304, 304L, 316L, 254SMO, C-276, Titanium"
             },
             "ru": {
-              "Площадь": "6.6 ~ 870 м²",
-              "Толщина пластины": "0,8 – 2 мм",
-              "Расчетная температура": "-40 ~ 400℃",
-              "Расчетное давление": "-0,1 ~ 4,0 МПа",
-              "Материал пластины": "304, 304Л, 316Л, 254СМО, С-276, Титан"
+              "Area": "6,6 ~ 870㎡",
+              "Plate Thickness": "0,8 – 2 мм",
+              "Design Temperature": "-40 ~ 400 ℃",
+              "Design Pressure": "-0,1 ~ 4,0 МПа",
+              "Plate material": "304, 304Л, 316Л, 254СМО, С-276, Титан"
             },
             "es": {
-              "Area": "6.6 ~ 870㎡",
-              "Plate Thickness": "0.8 – 2mm",
+              "Area": "6,6 ~ 870㎡",
+              "Plate Thickness": "0,8 – 2 mm",
               "Design Temperature": "-40 ~ 400℃",
+              "Design Pressure": "-0,1 ~ 4,0MPa",
+              "Plate material": "304, 304L, 316L, 254SMO, C-276, Titanio"
+            },
+            "fr": {
+              "Area": "6,6 ~ 870㎡",
+              "Plate Thickness": "0,8 – 2 mm",
+              "Design Temperature": "-40 ~ 400 ℃",
+              "Design Pressure": "-0,1 ~ 4,0MPa",
+              "Plate material": "304, 304L, 316L, 254SMO, C-276, titane"
+            },
+            "ar": {
+              "Area": "6.6 ~ 870㎡",
+              "Plate Thickness": "0.8 - 2 ملم",
+              "Design Temperature": "-40 ~ 400 درجة مئوية",
               "Design Pressure": "-0.1 ~ 4.0MPa",
-              "Plate material": "304, 304L, 316L, 254SMO, C-276, Titanium"
+              "Plate material": "304، 304L، 316L، 254SMO، C-276، التيتانيوم"
             }
           },
           "details": {
@@ -392,18 +470,38 @@
                 "content": "HT-Bloc Сварной пластинчатый теплообменник — это тип пластинчатого теплообменника, предназначенный для эффективной теплопередачи между двумя жидкостями. В отличие от традиционных теплообменников, сварной теплообменник HT-Bloc состоит из пакета пластин и рамы. Сварной блочный теплообменник сочетает в себе высокую эффективность теплопередачи пластинчатых теплообменников и высокую устойчивость к давлению и температуре кожухотрубных теплообменников."
               },
               {
-                "title": "Как собрать HT-Bloc Сварной пластинчатый теплообменник?",
+                "title": "Как собрать сварной пластинчатый теплообменник HT-Bloc?",
                 "content": "Пакет пластин формируется путем сварки определенного количества пластин, затем он устанавливается в раму, состоящую из четырех угловых балок, верхних и нижних пластин и четырех боковых крышек. В цельносварном пластинчатом теплообменнике используются взаимозаменяемые компоненты и стандартизированные модули, что обеспечивает легкую настройку и масштабируемость. Такая модульность гарантирует, что теплообменники Compabloc могут быть адаптированы к конкретным промышленным требованиям, повышая как производительность, так и надежность."
               }
             ],
             "es": [
               {
-                "title": "que es HT Bloc soldado intercambiador de calor?",
-                "content": "HT-BLOC Soldado intercambiador de calor de placas es un type de intercambiador de calor de placas disenado para eficiente termico transfer entre two fluids. Unlike tradicional intercambiadores de calor, HT-BLOC soldado PHE es made up de placa pack y frame. Soldado block intercambiador de calor combines el alta eficiencia de transferencia de calor de intercambiadores de calor de placas y el alta presion y temperatura resistance de shell y tube intercambiadores de calor."
+                "title": "¿Qué es el intercambiador de calor soldado HT Bloc?",
+                "content": "El intercambiador de calor de placas soldadas HT-Bloc es un tipo de intercambiador de calor de placas diseñado para una transferencia térmica eficiente entre dos fluidos. A diferencia de los intercambiadores de calor tradicionales, el PHE soldado HT-Bloc se compone de un paquete de placas y un marco. El intercambiador de calor de bloque soldado combina la alta eficiencia de transferencia de calor de los intercambiadores de calor de placas y la resistencia a alta presión y temperatura de los intercambiadores de calor de carcasa y tubos."
               },
               {
-                "title": "How una assemble HT-BLOC Soldado intercambiador de calor de placas?",
-                "content": "la placa pack es formed por soldadura un certain number de plates, then lo es installed hacia un frame, which es configured por four corner girders, top y bottom plates y four lado cubre. Totalmente soldado intercambiador de calor de placas utilizes interchangeable components y standardized modules, allowing para easy customization y scalability. este modularity ensures que Compabloc intercambiadores de calor puede ser tailored un meet specific industrial requisitos, enhancing ambos rendimiento y fiabilidad."
+                "title": "¿Cómo montar el intercambiador de calor de placas soldadas HT-Bloc?",
+                "content": "El paquete de placas se forma soldando un cierto número de placas, luego se instala en un marco, que está configurado por cuatro vigas de esquina, placas superior e inferior y cuatro cubiertas laterales. El intercambiador de calor de placas completamente soldado utiliza componentes intercambiables y módulos estandarizados, lo que permite una fácil personalización y escalabilidad. Esta modularidad garantiza que los intercambiadores de calor Compabloc puedan adaptarse para cumplir con requisitos industriales específicos, mejorando tanto el rendimiento como la confiabilidad."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Qu’est-ce que l’échangeur de chaleur soudé HT Bloc?",
+                "content": "L'échangeur de chaleur à plaques soudées HT-Bloc est un type d'échangeur de chaleur à plaques conçu pour un transfert thermique efficace entre deux fluides. Contrairement aux échangeurs de chaleur traditionnels, le PHE soudé HT-Bloc est composé d'un jeu de plaques et d'un cadre. L'échangeur de chaleur à blocs soudés combine l'efficacité de transfert de chaleur élevée des échangeurs de chaleur à plaques et la résistance élevée à la pression et à la température des échangeurs de chaleur à calandre et à tubes."
+              },
+              {
+                "title": "Comment assembler l'échangeur de chaleur à plaques soudées HT-Bloc?",
+                "content": "Le paquet de plaques est formé en soudant un certain nombre de plaques, puis il est installé dans un cadre configuré par quatre poutres d'angle, des plaques supérieure et inférieure et quatre couvercles latéraux. L'échangeur de chaleur à plaques entièrement soudées utilise des composants interchangeables et des modules standardisés, permettant une personnalisation et une évolutivité faciles. Cette modularité garantit que les échangeurs de chaleur Compabloc peuvent être adaptés pour répondre à des exigences industrielles spécifiques, améliorant à la fois les performances et la fiabilité."
+              }
+            ],
+            "ar": [
+              {
+                "title": "ما هو المبادل الحراري الملحوم HT Bloc؟",
+                "content": "المبادل الحراري للوحة الملحومة HT-Bloc هو نوع من المبادلات الحرارية للوحة المصممة لنقل الحرارة بكفاءة بين سائلين. على عكس المبادلات الحرارية التقليدية، فإن PHE الملحومة HT-Bloc تتكون من حزمة لوحة وإطار. يجمع المبادل الحراري للكتلة الملحومة بين الكفاءة العالية في نقل الحرارة للمبادلات الحرارية اللوحية والمقاومة العالية للضغط ودرجة الحرارة للمبادلات الحرارية ذات الغلاف والأنبوب."
+              },
+              {
+                "title": "كيفية تجميع المبادل الحراري للوحة الملحومة HT-Bloc؟",
+                "content": "يتم تشكيل حزمة الألواح عن طريق لحام عدد معين من الألواح، ثم يتم تثبيتها في إطار، والذي يتم تكوينه بواسطة أربع عوارض زاوية، وألواح علوية وسفلية وأربعة أغطية جانبية. يستخدم المبادل الحراري للوحة الملحومة بالكامل مكونات قابلة للتبديل ووحدات موحدة، مما يسمح بسهولة التخصيص وقابلية التوسع. تضمن هذه الوحدة إمكانية تصميم المبادلات الحرارية من Compabloc لتلبية متطلبات صناعية محددة، مما يعزز الأداء والموثوقية."
               }
             ]
           },
@@ -418,12 +516,20 @@
               "meta_description": "适用于高压工业工况的紧凑型焊接块式换热器。"
             },
             "ru": {
-              "meta_title": "Сварной пластинчатый теплообменник HT-BLOC",
+              "meta_title": "HT-BLOC Сварной пластинчатый теплообменник",
               "meta_description": "Компактный сварной блочный теплообменник для промышленного применения под высоким давлением."
             },
             "es": {
-              "meta_title": "HT-BLOC Soldado intercambiador de calor de placas",
-              "meta_description": "compacto soldado bloc exchanger para alta-presion industrial servicio."
+              "meta_title": "Intercambiador de calor de placas soldadas HT-BLOC",
+              "meta_description": "Intercambiador compacto de bloques soldados para servicio industrial de alta presión."
+            },
+            "fr": {
+              "meta_title": "Échangeur de chaleur à plaques soudées HT-BLOC",
+              "meta_description": "Échangeur compact à blocs soudés pour usage industriel haute pression."
+            },
+            "ar": {
+              "meta_title": "HT-BLOC مبادل حراري للوحة الملحومة",
+              "meta_description": "مبادل كتلة ملحومة مدمج للخدمة الصناعية ذات الضغط العالي."
             }
           }
         },
@@ -495,19 +601,25 @@
             "en": "Gasketed Plate Heat Exchanger",
             "zh": "可拆卸板式热交换器",
             "ru": "Разборный пластинчатый теплообменник",
-            "es": "con juntas intercambiador de calor de placas"
+            "es": "Intercambiador de calor de placas con juntas",
+            "fr": "Échangeur de chaleur à plaques avec joints",
+            "ar": "مبادل حراري لوحة طوقا"
           },
           "short_description": {
             "en": "Compact plate and frame exchanger with high heat transfer efficiency and easy maintenance.",
             "zh": "结构紧凑、传热效率高且便于维护清洗的可拆卸板式热交换器。",
             "ru": "Компактный пластинчатый теплообменник с высокой эффективностью теплопередачи и простотой обслуживания.",
-            "es": "compacto placa y frame exchanger con alta eficiencia de transferencia de calor y easy mantenimiento."
+            "es": "Intercambiador de placas y marco compacto con alta eficiencia de transferencia de calor y fácil mantenimiento.",
+            "fr": "Échangeur à plaques et à cadre compact avec une efficacité de transfert thermique élevée et un entretien facile.",
+            "ar": "لوحة مدمجة ومبادل إطار مع كفاءة عالية في نقل الحرارة وسهولة الصيانة."
           },
           "full_description": {
             "en": "Plate and frame heat exchanger is composed of corrugated metal plates sealed by gaskets and compressed inside a frame by tie rods with locking nuts. The port holes form continuous channels so the two fluids flow in countercurrent between the heat transfer plates, delivering high heat transfer coefficient, low fouling resistance, compact footprint, convenient maintenance and cleaning, small end approach temperature, and light overall weight.",
             "zh": "可拆卸板式热交换器由多张冲压成波纹槽的金属换热板片按一定间隔交替叠装而成，每张板片由胶垫密封，并通过夹紧螺柱压紧在框架内。板片角孔形成连续流道，介质从入口进入后被分配到板间通道内，两种介质在通道内逆流换热，从而实现热介质降温和冷介质升温。该产品具有传热系数高、污垢系数低、结构紧凑、占地空间小、检修清洗方便、末端温差小和重量轻等特点。",
             "ru": "Пластинчато-рамочный теплообменник состоит из гофрированных металлических пластин, уплотненных прокладками и сжатых внутри каркаса стяжками со стопорными гайками. Портовые отверстия образуют непрерывные каналы, поэтому две жидкости текут в противотоке между пластинами теплопередачи, обеспечивая высокий коэффициент теплопередачи, низкую устойчивость к загрязнению, компактность, удобство обслуживания и очистки, малую температуру на конце и малый общий вес.",
-            "es": "placa y frame intercambiador de calor es composed de corrugated metal plates sealed por gaskets y compressed dentro de un frame por tie rods con locking nuts. el port holes form continuous canales so el two fluids flujo en countercurrent entre el transferencia de calor plates, delivering alta coeficiente de transferencia de calor, baja ensuciamiento resistance, compacto ocupacion en planta, convenient mantenimiento y limpieza, pequeno end approach temperatura, y light overall peso."
+            "es": "El intercambiador de calor de placa y marco está compuesto por placas de metal corrugado selladas por juntas y comprimidas dentro de un marco mediante tirantes con tuercas de seguridad. Los orificios de los puertos forman canales continuos para que los dos fluidos fluyan en contracorriente entre las placas de transferencia de calor, lo que brinda un alto coeficiente de transferencia de calor, baja resistencia a la suciedad, espacio compacto, mantenimiento y limpieza convenientes, temperatura de aproximación final pequeña y peso total liviano.",
+            "fr": "L'échangeur de chaleur à plaques et à cadre est composé de plaques de métal ondulé scellées par des joints et comprimées à l'intérieur d'un cadre par des tirants avec écrous de verrouillage. Les trous forment des canaux continus de sorte que les deux fluides circulent à contre-courant entre les plaques de transfert de chaleur, offrant un coefficient de transfert de chaleur élevé, une faible résistance à l'encrassement, un encombrement compact, un entretien et un nettoyage pratiques, une température d'approche des petites extrémités et un poids global léger.",
+            "ar": "يتكون المبادل الحراري للوحة والإطار من صفائح معدنية مموجة محكمة الغلق بواسطة حشيات ومضغوطة داخل الإطار بواسطة قضبان ربط مع صواميل قفل. تشكل فتحات المنافذ قنوات مستمرة بحيث يتدفق السائلان في تيار معاكس بين ألواح نقل الحرارة، مما يوفر معامل نقل حرارة عالي، ومقاومة منخفضة للقاذورات، وبصمة مدمجة، وصيانة وتنظيف مريحين، ودرجة حرارة اقتراب نهائية صغيرة، ووزن إجمالي خفيف."
           },
           "industries": [
             "1",
@@ -544,12 +656,28 @@
               "Универсальность материалов. Варианты материалов пластин и прокладок включают аустенитную нержавеющую сталь, дуплексную сталь, титан, никелевые сплавы, NBR, EPDM, FKM и прокладки из ПТФЭ."
             ],
             "es": [
-              "alta Eficiencia: Multiple first-class energy-eficiencia producto disenos ayudar balance fuerte termico rendimiento con lower energy consumption.",
-              "Broad producto Coverage: el producto serie cubre DN32 un DN500, de soporte un wide range de exigente proceso conditions.",
-              "compacto y Servicioable: el exchanger combines compacto structure, clean appearance, y convenient limpieza y descaling para longer vida util.",
-              "Flexible Ingenieria: Advanced simulation capacidades y customizable models soporte producto optimization para different servicios.",
-              "confiable Sellado: con juntas construccion y reinforced placa diseno improve sellado rendimiento under alta-presion conditions.",
-              "Material Versatility: placa y gasket material options include austenitic acero inoxidable, duplex steel, titanium, nickel alloys, NBR, EPDM, FKM, y PTFE-cushion soluciones."
+              "Alta eficiencia: múltiples diseños de productos de eficiencia energética de primera clase ayudan a equilibrar un rendimiento térmico sólido con un menor consumo de energía.",
+              "Amplia cobertura de productos: la serie de productos cubre DN32 a DN500 y admite una amplia gama de condiciones de proceso exigentes.",
+              "Compacto y útil: el intercambiador combina una estructura compacta, una apariencia limpia y una limpieza y descalcificación convenientes para una vida útil más larga.",
+              "Ingeniería flexible: capacidades de simulación avanzadas y modelos personalizables respaldan la optimización del producto para diferentes tareas.",
+              "Sellado confiable: la construcción con juntas y el diseño de placa reforzada mejoran el rendimiento del sellado en condiciones de alta presión.",
+              "Versatilidad del material: Las opciones de materiales para placas y juntas incluyen acero inoxidable austenítico, acero dúplex, titanio, aleaciones de níquel, NBR, EPDM, FKM y soluciones de cojín de PTFE."
+            ],
+            "fr": [
+              "Haute efficacité: plusieurs conceptions de produits économes en énergie de première classe aident à équilibrer de fortes performances thermiques avec une consommation d'énergie réduite.",
+              "Large couverture de produits: la série de produits couvre le DN32 au DN500, prenant en charge un large éventail de conditions de processus exigeantes.",
+              "Compact et utilisable: l'échangeur combine une structure compacte, une apparence propre et un nettoyage et un détartrage pratiques pour une durée de vie plus longue.",
+              "Ingénierie flexible: des capacités de simulation avancées et des modèles personnalisables prennent en charge l'optimisation des produits pour différentes tâches.",
+              "Étanchéité fiable: la construction avec joint d'étanchéité et la conception de la plaque renforcée améliorent les performances d'étanchéité dans des conditions de haute pression.",
+              "Polyvalence des matériaux: les options de matériaux pour les plaques et les joints incluent l'acier inoxydable austénitique, l'acier duplex, le titane, les alliages de nickel, les solutions de NBR, d'EPDM, de FKM et de coussins en PTFE."
+            ],
+            "ar": [
+              "كفاءة عالية: تساعد تصميمات المنتجات المتعددة ذات كفاءة استخدام الطاقة من الدرجة الأولى على تحقيق التوازن بين الأداء الحراري القوي وانخفاض استهلاك الطاقة.",
+              "تغطية واسعة للمنتج: تغطي سلسلة المنتجات DN32 إلى DN500، مما يدعم نطاقًا واسعًا من ظروف العمليات الصعبة.",
+              "صغير الحجم وقابل للخدمة: يجمع المبادل بين الهيكل المدمج والمظهر النظيف والتنظيف وإزالة الترسبات الكلسية بشكل مريح من أجل عمر خدمة أطول.",
+              "الهندسة المرنة: تدعم إمكانات المحاكاة المتقدمة والنماذج القابلة للتخصيص تحسين المنتج للقيام بواجبات مختلفة.",
+              "الختم الموثوق: يعمل البناء ذو الحشيات وتصميم اللوحة المعززة على تحسين أداء الختم في ظل ظروف الضغط العالي.",
+              "تعدد استخدامات المواد: تشتمل خيارات مواد الألواح والحشية على الفولاذ الأوستنيتي المقاوم للصدأ، والفولاذ المزدوج، والتيتانيوم، وسبائك النيكل، وحلول وسائد NBR، وEPDM، وFKM، وPTFE."
             ]
           },
           "technical_parameters": {
@@ -574,24 +702,44 @@
               "胶垫材质": "丁腈（食品）橡胶、氢化丁腈橡胶、三元乙丙（食品）橡胶、耐高温三元乙丙橡胶、氟橡胶、聚四氟乙烯包覆橡胶"
             },
             "ru": {
-              "Размер сопла": "Ду32 ~ Ду500",
-              "Толщина пластины": "0,4 ~ 1,0 мм",
-              "Глубина профиля": "1,8 ~ 10,0 мм",
-              "Расчетная температура": "<=180℃",
-              "Расчетное давление": "Вакуум ~ 3,6 МПа",
-              "Макс. площадь": "4000 м²",
-              "Материал пластины": "Аустенитная нержавеющая сталь, Дуплексная сталь, Титан и титановые сплавы, Никель и никелевые сплавы",
-              "Материал прокладки": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, подушка из ПТФЭ"
+              "Nozzle Size": "Ду32 ~ Ду500",
+              "Plate Thickness": "0,4 ~ 1,0 мм",
+              "Profile Depth": "1,8 ~ 10,0 мм",
+              "Design Temperature": "<= 180 ℃",
+              "Design Pressure": "Вакуум ~ 3,6 МПа",
+              "Max Area": "4000㎡",
+              "Plate Material": "Аустенитная нержавеющая сталь, Дуплексная сталь, Титан и титановые сплавы, Никель и никелевые сплавы",
+              "Gasket Material": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, подушка из ПТФЭ"
             },
             "es": {
               "Nozzle Size": "DN32 ~ DN500",
-              "Plate Thickness": "0.4 ~ 1.0mm",
-              "Profile Depth": "1.8 ~ 10.0mm",
-              "Design Temperature": "<=180℃",
-              "Design Pressure": "Vacuum ~ 3.6MPa",
+              "Plate Thickness": "0,4 ~ 1,0 mm",
+              "Profile Depth": "1,8 ~ 10,0 mm",
+              "Design Temperature": "<= 180 ℃",
+              "Design Pressure": "Vacío ~ 3,6 MPa",
               "Max Area": "4000㎡",
-              "Plate Material": "Austenitic acero inoxidable, Duplex steel, Titanium y titanium alloy, Nickel y nickel alloy",
-              "Gasket Material": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, PTFE cushion"
+              "Plate Material": "Acero inoxidable austenítico, Acero dúplex, Titanio y aleación de titanio, Níquel y aleación de níquel",
+              "Gasket Material": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, cojín de PTFE"
+            },
+            "fr": {
+              "Nozzle Size": "DN32 ~ DN500",
+              "Plate Thickness": "0,4 ~ 1,0 mm",
+              "Profile Depth": "1,8 ~ 10,0 mm",
+              "Design Temperature": "<=180℃",
+              "Design Pressure": "Vide ~ 3,6 MPa",
+              "Max Area": "4000㎡",
+              "Plate Material": "Acier inoxydable austénitique, Acier duplex, Titane et alliage de titane, Nickel et alliage de nickel",
+              "Gasket Material": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, coussin PTFE"
+            },
+            "ar": {
+              "Nozzle Size": "DN32 ~ DN500",
+              "Plate Thickness": "0.4 ~ 1.0 ملم",
+              "Profile Depth": "1.8 ~ 10.0 ملم",
+              "Design Temperature": "<=180 درجة مئوية",
+              "Design Pressure": "فراغ ~ 3.6MPa",
+              "Max Area": "4000㎡",
+              "Plate Material": "الفولاذ الأوستنيتي المقاوم للصدأ، الفولاذ المزدوج، سبائك التيتانيوم والتيتانيوم، النيكل وسبائك النيكل",
+              "Gasket Material": "وسادة NBR (NS)، HNBR، EPDM (ES)، H-EPDM، FKM، PTFE"
             }
           },
           "details": {
@@ -639,16 +787,44 @@
             ],
             "es": [
               {
-                "title": "que es un con juntas intercambiador de calor de placas?",
-                "content": "un con juntas intercambiador de calor de placas es built de corrugated metal transferencia de calor plates sealed por gaskets y clamped together within un frame. la placa port holes form continuous canales que distribute caliente y frio medios hacia alternating passages, donde el two fluids flujo en countercurrent una achieve eficiente transferencia de calor."
+                "title": "¿Qué es un intercambiador de calor de placas con juntas?",
+                "content": "Un intercambiador de calor de placas con juntas se construye a partir de placas de transferencia de calor de metal corrugado selladas por juntas y sujetas entre sí dentro de un marco. Los orificios de la placa forman canales continuos que distribuyen medios fríos y calientes en pasajes alternos, donde los dos fluidos fluyen en contracorriente para lograr una transferencia de calor eficiente."
               },
               {
-                "title": "Why choose este placa y frame diseno?",
-                "content": "Comparard con convencional shell y tube equipos, este diseno offers un much higher coeficiente de transferencia de calor, lower ensuciamiento factor, menor end approach temperatura, lighter peso, y un significantly menor ocupacion en planta. el modular placa pack tambien makes capacity adjustment, inspeccion, mantenimiento, y limpieza mas convenient."
+                "title": "¿Por qué elegir este diseño de placa y marco?",
+                "content": "En comparación con los equipos de carcasa y tubos convencionales, este diseño ofrece un coeficiente de transferencia de calor mucho más alto, un factor de incrustación más bajo, una temperatura de aproximación final más pequeña, un peso más liviano y una huella significativamente más pequeña. El paquete de placas modulares también hace que el ajuste de capacidad, la inspección, el mantenimiento y la limpieza sean más convenientes."
               },
               {
-                "title": "How es lo disenado y manufactured?",
-                "content": "el transferencia de calor placa es el nucleo element y es developed con CAD, CFD, CAE, y CAM tools una optimize placa geometria, sellado, y presion resistance. During ingenieria, el required servicio, caudal, temperatura program, perdida de presion, placa pattern, materiales, pass arrangement, y gasket seleccion son defined first, then el frame, nozzles, y placa pack son manufactured y assembled antes de presion, leak, y rendimiento testing."
+                "title": "¿Cómo se diseña y fabrica?",
+                "content": "La placa de transferencia de calor es el elemento central y se desarrolla con herramientas CAD, CFD, CAE y CAM para optimizar la geometría, el sellado y la resistencia a la presión de la placa. Durante la ingeniería, primero se definen el servicio requerido, el caudal, el programa de temperatura, la caída de presión, el patrón de placas, los materiales, la disposición de los pasos y la selección de juntas, luego se fabrican y ensamblan el marco, las boquillas y el paquete de placas antes de las pruebas de presión, fugas y rendimiento."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Qu'est-ce qu'un échangeur de chaleur à plaques et joints?",
+                "content": "Un échangeur de chaleur à plaques avec joints est construit à partir de plaques de transfert de chaleur en métal ondulé scellées par des joints et serrées ensemble dans un cadre. Les orifices de la plaque forment des canaux continus qui distribuent les fluides chauds et froids dans des passages alternés, où les deux fluides circulent à contre-courant pour obtenir un transfert de chaleur efficace."
+              },
+              {
+                "title": "Pourquoi choisir ce design de plaque et de cadre?",
+                "content": "Par rapport aux équipements à calandre et tubes conventionnels, cette conception offre un coefficient de transfert thermique beaucoup plus élevé, un facteur d'encrassement inférieur, une température d'approche finale plus faible, un poids plus léger et un encombrement nettement réduit. Le pack de plaques modulaires facilite également l’ajustement de la capacité, l’inspection, la maintenance et le nettoyage."
+              },
+              {
+                "title": "Comment est-il conçu et fabriqué?",
+                "content": "La plaque de transfert de chaleur est l'élément central et est développée avec des outils de CAO, CFD, CAE et CAM pour optimiser la géométrie, l'étanchéité et la résistance à la pression de la plaque. Au cours de l'ingénierie, le service requis, le débit, le programme de température, la chute de pression, le modèle de plaque, les matériaux, la disposition des passes et la sélection des joints sont définis en premier, puis le cadre, les buses et le jeu de plaques sont fabriqués et assemblés avant les tests de pression, de fuite et de performance."
+              }
+            ],
+            "ar": [
+              {
+                "title": "ما هو المبادل الحراري للوحة طوقا؟",
+                "content": "تم بناء المبادل الحراري ذو الصفائح ذات الحشيات من صفائح نقل الحرارة المعدنية المموجة والمختومة بواسطة حشيات ومثبتة معًا داخل إطار. تشكل فتحات منافذ اللوحة قنوات مستمرة تعمل على توزيع الوسائط الساخنة والباردة في ممرات متناوبة، حيث يتدفق السائلان في تيار معاكس لتحقيق نقل الحرارة بكفاءة."
+              },
+              {
+                "title": "لماذا تختار تصميم اللوحة والإطار هذا؟",
+                "content": "بالمقارنة مع معدات الغلاف والأنابيب التقليدية، يوفر هذا التصميم معامل نقل حرارة أعلى بكثير، وعامل قاذورات أقل، ودرجة حرارة اقتراب نهائية أصغر، ووزن أخف، ومساحة أصغر بكثير. تعمل حزمة اللوحة المعيارية أيضًا على جعل ضبط السعة والفحص والصيانة والتنظيف أكثر ملاءمة."
+              },
+              {
+                "title": "وكيف يتم تصميمها وتصنيعها؟",
+                "content": "تعتبر لوحة نقل الحرارة هي العنصر الأساسي وتم تطويرها باستخدام أدوات CAD، وCFD، وCAE، وCAM لتحسين هندسة اللوحة، والختم، ومقاومة الضغط. أثناء الهندسة، يتم تحديد الواجب المطلوب ومعدل التدفق وبرنامج درجة الحرارة وانخفاض الضغط ونمط اللوحة والمواد وترتيب المرور واختيار الحشية أولاً، ثم يتم تصنيع الإطار والفوهات وحزمة اللوحة وتجميعها قبل اختبار الضغط والتسرب والأداء."
               }
             ]
           },
@@ -667,8 +843,16 @@
               "meta_description": "Компактный пластинчатый теплообменник с рамой и эффективной теплопередачей, простым обслуживанием и широким выбором материалов и размеров."
             },
             "es": {
-              "meta_title": "con juntas intercambiador de calor de placas",
-              "meta_description": "compacto placa y frame intercambiador de calor con eficiente termico transfer, easy mantenimiento, y broad material y size options."
+              "meta_title": "Intercambiador de calor de placas con juntas",
+              "meta_description": "Intercambiador de calor de placa y marco compacto con transferencia térmica eficiente, fácil mantenimiento y amplias opciones de materiales y tamaños."
+            },
+            "fr": {
+              "meta_title": "Échangeur de chaleur à plaques avec joints",
+              "meta_description": "Échangeur de chaleur à plaques et à cadre compact avec un transfert thermique efficace, une maintenance facile et de larges options de matériaux et de tailles."
+            },
+            "ar": {
+              "meta_title": "مبادل حراري لوحة طوقا",
+              "meta_description": "مبادل حراري للوحة والإطار مدمج مع نقل حراري فعال، وسهولة الصيانة، وخيارات واسعة من المواد والحجم."
             }
           }
         },
@@ -747,19 +931,25 @@
             "en": "Wide Gap Welded Plate Heat Exchanger",
             "zh": "宽通道焊接板式热交换器",
             "ru": "Сварной пластинчатый теплообменник с широким зазором",
-            "es": "canal ancho Soldado intercambiador de calor de placas"
+            "es": "Intercambiador de calor de placas soldadas con espacio amplio",
+            "fr": "Échangeur de chaleur à plaques soudées à grand écart",
+            "ar": "مبادل حراري ذو فجوة واسعة"
           },
           "short_description": {
             "en": "Gasket-free wide gap exchanger for viscous, fiber-laden, and particle-containing fluids.",
             "zh": "适用于高粘度、含纤维及含固体颗粒介质的无胶垫宽通道焊接换热器。",
             "ru": "Безпрокладочный широкозазорный теплообменник для вязких, волокнистых и содержащих частицы жидкостей.",
-            "es": "Gasket-free canal ancho exchanger para viscous, fiber-laden, y particle-containing fluids."
+            "es": "Intercambiador de espacio amplio sin juntas para fluidos viscosos, cargados de fibras y que contienen partículas.",
+            "fr": "Échangeur à large espace sans joint pour fluides visqueux, chargés de fibres et contenant des particules.",
+            "ar": "مبادل ذو فجوة واسعة بدون حشية للسوائل اللزجة والمحملة بالألياف والسوائل المحتوية على جزيئات."
           },
           "full_description": {
             "en": "Wide Gap Welded Plate Heat Exchanger is available in dimple and studded plate patterns. The plates are welded around the periphery to form media channels, eliminating the rubber gasket sealing structure used in gasketed plate heat exchangers. It is designed for heating or cooling processes involving fluids with large solid particles, fiber suspensions, viscous media, or high-temperature duties in sugar, pulp and paper, metallurgy, ethanol, petrochemical, and related industries. With specially engineered wide gap channels, the exchanger delivers high heat transfer efficiency, low pressure drop, smooth flow without dead zones, and strong anti-clogging performance under demanding operating conditions.",
             "zh": "宽通道焊接板式热交换器有窝状和柱状两种板片形式，板片之间形成介质流道，周边通过焊接密封，替代了可拆卸板式热交换器的橡胶垫密封结构，适用于制糖、造纸、冶金、酒精、石油、化工等行业中处理含有大量固体颗粒、纤维悬浮物，以及粘稠状或高温流体的加热或冷却。由于热交换板片结构的特殊设计，该产品在同工况下可实现更高的传热效率和更低的压降损失，宽间隙流道内流体流动顺畅、无滞留、无死区，可有效防止流道堵塞并减缓磨蚀现象。",
             "ru": "Сварной пластинчатый теплообменник с широким зазором доступен с пластинами с углублениями и шипами. Пластины приварены по периферии для образования каналов для среды, что исключает необходимость использования уплотнительной конструкции с резиновыми прокладками, используемой в разборных пластинчатых теплообменниках. Он предназначен для процессов нагрева или охлаждения, связанных с жидкостями с крупными твердыми частицами, суспензиями волокон, вязкими средами или высокотемпературными режимами в сахарной, целлюлозно-бумажной, металлургической, этанольной, нефтехимической и смежных отраслях промышленности. Благодаря специально разработанным каналам с широким зазором теплообменник обеспечивает высокую эффективность теплопередачи, низкий перепад давления, плавный поток без мертвых зон и надежную защиту от засорения в сложных условиях эксплуатации.",
-            "es": "canal ancho Soldado intercambiador de calor de placas es available en dimple y studded placa patterns. el plates estan soldados around el periphery un form medios canales, eliminating el rubber gasket sellado structure utilizados en con juntas intercambiadores de calor de placas. lo es disenado para calentamiento o enfriamiento procesos involving fluids con grande solid particles, fiber suspensions, viscous medios, o alta-temperatura servicios en sugar, pulpa y papel, metallurgy, ethanol, petroquimico, y related industrias. con specially engineered canal ancho canales, el exchanger delivers alta eficiencia de transferencia de calor, baja perdida de presion, smooth flujo without zonas muertas, y fuerte anti-clogging rendimiento under exigente condiciones de operacion."
+            "es": "El intercambiador de calor de placas soldadas de espacio ancho está disponible en patrones de placas con hoyuelos y clavos. Las placas están soldadas alrededor de la periferia para formar canales de medios, eliminando la estructura de sellado de junta de goma utilizada en los intercambiadores de calor de placas con juntas. Está diseñado para procesos de calentamiento o enfriamiento que involucran fluidos con partículas sólidas grandes, suspensiones de fibras, medios viscosos o tareas de alta temperatura en industrias de azúcar, pulpa y papel, metalurgia, etanol, petroquímica e industrias relacionadas. Con canales de espacio amplio especialmente diseñados, el intercambiador ofrece una alta eficiencia de transferencia de calor, baja caída de presión, flujo suave sin zonas muertas y un sólido rendimiento antiobstrucción en condiciones operativas exigentes.",
+            "fr": "L'échangeur de chaleur à plaques soudées à large écart est disponible en modèles de plaques à fossettes et à clous. Les plaques sont soudées autour de la périphérie pour former des canaux média, éliminant ainsi la structure d'étanchéité avec joint en caoutchouc utilisée dans les échangeurs de chaleur à plaques avec joint. Il est conçu pour les processus de chauffage ou de refroidissement impliquant des fluides contenant de grosses particules solides, des suspensions de fibres, des milieux visqueux ou des tâches à haute température dans les industries du sucre, des pâtes et papiers, de la métallurgie, de l'éthanol, de la pétrochimie et des industries connexes. Avec des canaux à large espace spécialement conçus, l'échangeur offre une efficacité de transfert de chaleur élevée, une faible perte de charge, un écoulement fluide sans zones mortes et de fortes performances anti-colmatage dans des conditions de fonctionnement exigeantes.",
+            "ar": "يتوفر المبادل الحراري للوحة الملحومة واسعة الفجوة في أنماط الألواح الخافتة والمرصعة. يتم لحام الألواح حول المحيط لتشكيل قنوات الوسائط، مما يؤدي إلى التخلص من هيكل ختم الحشية المطاطية المستخدم في المبادلات الحرارية ذات الألواح الحشية. إنه مصمم لعمليات التسخين أو التبريد التي تتضمن سوائل تحتوي على جزيئات صلبة كبيرة، أو معلقات ألياف، أو وسائط لزجة، أو واجبات ذات درجة حرارة عالية في السكر واللب والورق والمعادن والإيثانول والبتروكيماويات والصناعات ذات الصلة. بفضل قنوات الفجوة الواسعة المصممة خصيصًا، يوفر المبادل كفاءة عالية في نقل الحرارة، وانخفاض الضغط المنخفض، والتدفق السلس بدون مناطق ميتة، وأداء قوي ضد الانسداد في ظل ظروف التشغيل الصعبة."
           },
           "industries": [
             "2",
@@ -790,11 +980,25 @@
               "Полностью сварная долговечность: сварное уплотнение без прокладок обеспечивает надежную работу при высоких температурах и давлениях."
             ],
             "es": [
-              "Bionic-Inspired canal Diseno: Combines biomimetic concepts con ingenieria diseno un maximize eficiencia energetica en canal ancho canales de flujo.",
-              "Enhanced Turbulence: Local turbulence intensification breaks termico boundary layers y improves el field synergy angle para higher eficiencia de transferencia de calor.",
-              "Anti-Ensuciamiento Rendimiento: Higher cizallamiento en pared stress ayuda un reduce ensuciamiento, extend limpieza intervals, y lengthen equipos vida util.",
-              "canal ancho Anti-Clogging flujo: Special canal geometria enables smooth handling de viscous fluids, fiber suspensions, y coarse particles con minimal obstruccion risk.",
-              "Totalmente soldado Durability: Gasket-free soldado sellado admite confiable operation en higher temperatura y presion aplicaciones."
+              "Diseño de canales de inspiración biónica: combina conceptos biomiméticos con diseño de ingeniería para maximizar la eficiencia energética en canales de flujo con espacios amplios.",
+              "Turbulencia mejorada: la intensificación de la turbulencia local rompe las capas límite térmicas y mejora el ángulo de sinergia del campo para una mayor eficiencia de transferencia de calor.",
+              "Rendimiento antiincrustante: una mayor tensión de corte en la pared ayuda a reducir la incrustación, extender los intervalos de limpieza y prolongar la vida útil del equipo.",
+              "Flujo antiobstrucción de amplio espacio: la geometría especial del canal permite un manejo suave de fluidos viscosos, suspensiones de fibras y partículas gruesas con un riesgo mínimo de obstrucción.",
+              "Durabilidad totalmente soldada: el sellado soldado sin juntas admite un funcionamiento confiable en aplicaciones de mayor temperatura y presión."
+            ],
+            "fr": [
+              "Conception de canaux d'inspiration bionique: combine des concepts biomimétiques avec une conception technique pour maximiser l'efficacité énergétique dans les canaux d'écoulement à large espace.",
+              "Turbulence améliorée: l'intensification de la turbulence locale brise les couches limites thermiques et améliore l'angle de synergie de champ pour une efficacité de transfert de chaleur plus élevée.",
+              "Performance anti-salissure: une contrainte de cisaillement plus élevée des parois aide à réduire l'encrassement, à prolonger les intervalles de nettoyage et à prolonger la durée de vie de l'équipement.",
+              "Débit anti-colmatage à large espace: la géométrie spéciale du canal permet une manipulation fluide des fluides visqueux, des suspensions de fibres et des particules grossières avec un risque de blocage minimal.",
+              "Durabilité entièrement soudée: le joint soudé sans joint permet un fonctionnement fiable dans les applications à température et pression plus élevées."
+            ],
+            "ar": [
+              "تصميم قناة مستوحى من الأجهزة الإلكترونية: يجمع بين مفاهيم المحاكاة الحيوية والتصميم الهندسي لتحقيق أقصى قدر من كفاءة الطاقة في قنوات التدفق ذات الفجوات الواسعة.",
+              "الاضطراب المعزز: يؤدي تكثيف الاضطراب المحلي إلى كسر طبقات الحدود الحرارية وتحسين زاوية تآزر المجال لزيادة كفاءة نقل الحرارة.",
+              "أداء مضاد للقاذورات: يساعد ضغط القص العالي للجدار على تقليل الأوساخ وإطالة فترات التنظيف وإطالة عمر خدمة المعدات.",
+              "تدفق واسع النطاق مضاد للانسداد: تتيح هندسة القناة الخاصة التعامل السلس مع السوائل اللزجة وتعليقات الألياف والجزيئات الخشنة مع الحد الأدنى من خطر الانسداد.",
+              "متانة ملحومة بالكامل: يدعم الختم الملحوم الخالي من الحشية التشغيل الموثوق به في تطبيقات درجات الحرارة والضغط المرتفعة."
             ]
           },
           "technical_parameters": {
@@ -817,22 +1021,40 @@
               "板片材料": "奥氏体不锈钢、双相不锈钢、镍及镍合金、哈氏合金"
             },
             "ru": {
-              "Тарелка": "Плоская пластина с ямочками и шипами",
-              "Разрыв канала": "8 ~ 30 мм",
-              "Толщина пластины": "1,0 ~ 2,5 мм",
-              "Расчетная температура": "<=350℃",
-              "Расчетное давление": "Вакуум ~ 3,5 МПа",
-              "Макс. площадь": "2000 м²",
-              "Материал пластины": "Аустенитная нержавеющая сталь, Дуплексная нержавеющая сталь, Никель и никелевые сплавы, Хастеллой"
+              "Plate Pattern": "Плоская пластина с ямочками и шипами",
+              "Channel Gap": "8 ~ 30 мм",
+              "Plate Thickness": "1,0 ~ 2,5 мм",
+              "Design Temperature": "<= 350 ℃",
+              "Design Pressure": "Вакуум ~ 3,5 МПа",
+              "Max Area": "2000㎡",
+              "Plate Material": "Аустенитная нержавеющая сталь, Дуплексная нержавеющая сталь, Никель и никелевые сплавы, Хастеллой"
             },
             "es": {
-              "Plate Pattern": "Dimple, studded flat placa",
-              "Channel Gap": "8 ~ 30mm",
-              "Plate Thickness": "1.0 ~ 2.5mm",
-              "Design Temperature": "<=350℃",
-              "Design Pressure": "Vacuum ~ 3.5MPa",
+              "Plate Pattern": "Placa plana con hoyuelos y tachuelas",
+              "Channel Gap": "8 ~ 30 mm",
+              "Plate Thickness": "1,0 ~ 2,5 mm",
+              "Design Temperature": "<= 350 ℃",
+              "Design Pressure": "Vacío ~ 3,5 MPa",
               "Max Area": "2000㎡",
-              "Plate Material": "Austenitic acero inoxidable, Duplex acero inoxidable, Nickel y nickel alloy, Hastelloy"
+              "Plate Material": "Acero inoxidable austenítico, Acero inoxidable dúplex, Níquel y aleación de níquel, Hastelloy"
+            },
+            "fr": {
+              "Plate Pattern": "Plaque plate à fossettes et cloutées",
+              "Channel Gap": "8 ~ 30mm",
+              "Plate Thickness": "1,0 ~ 2,5 mm",
+              "Design Temperature": "<=350℃",
+              "Design Pressure": "Vide ~ 3,5 MPa",
+              "Max Area": "2000㎡",
+              "Plate Material": "Acier inoxydable austénitique, Acier inoxydable duplex, Nickel et alliage de nickel, Hastelloy"
+            },
+            "ar": {
+              "Plate Pattern": "لوحة مسطحة مدملة ومرصعة",
+              "Channel Gap": "8 ~ 30 ملم",
+              "Plate Thickness": "1.0 ~ 2.5 ملم",
+              "Design Temperature": "<=350 درجة مئوية",
+              "Design Pressure": "فراغ ~ 3.5MPa",
+              "Max Area": "2000㎡",
+              "Plate Material": "الفولاذ المقاوم للصدأ الأوستنيتي، الفولاذ المقاوم للصدأ المزدوج، سبائك النيكل والنيكل، Hastelloy"
             }
           },
           "details": {
@@ -880,16 +1102,44 @@
             ],
             "es": [
               {
-                "title": "que es un canal ancho soldado intercambiador de calor de placas?",
-                "content": "canal ancho Soldado intercambiador de calor de placas caracteristicas un totalmente soldado, gasket-free construccion con specially disenado canal ancho canales. lo retains el beneficios de alta eficiencia de transferencia de calor y baja perdida de presion mientras allowing solid-containing, fibrous, y viscous medios un pass smoothly without creating zonas muertas que puede lead una obstruccion."
+                "title": "¿Qué es un intercambiador de calor de placas soldadas con espacio amplio?",
+                "content": "El intercambiador de calor de placas soldadas con espacio amplio presenta una construcción totalmente soldada y sin juntas con canales de espacio amplio especialmente diseñados. Conserva los beneficios de una alta eficiencia de transferencia de calor y una baja caída de presión, al tiempo que permite que los medios viscosos, fibrosos y que contienen sólidos pasen suavemente sin crear zonas muertas que puedan provocar obstrucciones."
               },
               {
-                "title": "How es el canal de flujo constructed?",
-                "content": "Each canal de flujo es formed por soldadura plates together. Depending en la placa pattern, one lado puede ser created por spot-soldado contact points entre dimple plates, dimple y flat plates, o flat plates con soldado studs, mientras el opposite lado forms un wider no-contact canal para viscous fluids o medios containing coarse particles y fibers."
+                "title": "¿Cómo se construye el canal de flujo?",
+                "content": "Cada canal de flujo está formado soldando placas entre sí. Dependiendo del patrón de la placa, un lado puede crearse mediante puntos de contacto soldados por puntos entre placas con hoyuelos, placas con hoyuelos y planas, o placas planas con pernos soldados, mientras que el lado opuesto forma un canal más amplio sin contacto para fluidos viscosos o medios que contienen partículas y fibras gruesas."
               },
               {
-                "title": "How es lo disenado y manufactured?",
-                "content": "el producto es thermally disenado por optimizing placa geometria, espaciado de canales, multi-pass contraflujo arrangement, y perdida de presion management para canal ancho servicio. Seleccion de materiales puede include acero inoxidable, duplex acero inoxidable, Hastelloy, y other corrosion-resistant alloys, mientras precision soldadura y controlled assembly ensure leak resistance, structural integrity, y confiable long-term operation."
+                "title": "¿Cómo se diseña y fabrica?",
+                "content": "El producto está diseñado térmicamente optimizando la geometría de la placa, el espaciado de los canales, la disposición de contraflujo de múltiples pasos y la gestión de la caída de presión para un servicio con espacios amplios. La selección de materiales puede incluir acero inoxidable, acero inoxidable dúplex, Hastelloy y otras aleaciones resistentes a la corrosión, mientras que la soldadura de precisión y el ensamblaje controlado garantizan resistencia a fugas, integridad estructural y un funcionamiento confiable a largo plazo."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Qu'est-ce qu'un échangeur de chaleur à plaques soudées à grand écart?",
+                "content": "L'échangeur de chaleur à plaques soudées à large écart présente une construction entièrement soudée et sans joint avec des canaux à large écart spécialement conçus. Il conserve les avantages d'une efficacité de transfert de chaleur élevée et d'une faible perte de charge tout en permettant aux supports solides, fibreux et visqueux de passer en douceur sans créer de zones mortes pouvant entraîner un blocage."
+              },
+              {
+                "title": "Comment le canal d’écoulement est-il construit?",
+                "content": "Chaque canal d'écoulement est formé en soudant des plaques ensemble. En fonction du modèle de plaque, un côté peut être créé par des points de contact soudés par points entre des plaques à fossettes, des plaques à fossettes et plates, ou des plaques plates avec des goujons soudés, tandis que le côté opposé forme un canal sans contact plus large pour les fluides visqueux ou les milieux contenant des particules grossières et des fibres."
+              },
+              {
+                "title": "Comment est-il conçu et fabriqué?",
+                "content": "Le produit est conçu thermiquement en optimisant la géométrie des plaques, l'espacement des canaux, la disposition à contre-courant multi-passes et la gestion des chutes de pression pour un service à grand espace. La sélection des matériaux peut inclure l'acier inoxydable, l'acier inoxydable duplex, l'Hastelloy et d'autres alliages résistants à la corrosion, tandis que le soudage de précision et l'assemblage contrôlé garantissent la résistance aux fuites, l'intégrité structurelle et un fonctionnement fiable à long terme."
+              }
+            ],
+            "ar": [
+              {
+                "title": "ما هو المبادل الحراري للوحة الملحومة ذو الفجوة الواسعة؟",
+                "content": "يتميز المبادل الحراري ذو الألواح الملحومة ذات الفجوة العريضة ببنية ملحومة بالكامل وخالية من الحشيات مع قنوات ذات فجوة واسعة مصممة خصيصًا. إنه يحتفظ بفوائد كفاءة نقل الحرارة العالية وانخفاض الضغط مع السماح للوسائط الصلبة والليفية واللزجة بالمرور بسلاسة دون إنشاء مناطق ميتة يمكن أن تؤدي إلى الانسداد."
+              },
+              {
+                "title": "كيف يتم بناء قناة التدفق؟",
+                "content": "يتم تشكيل كل قناة تدفق عن طريق لحام الألواح معًا. اعتمادًا على نمط اللوحة، يمكن إنشاء جانب واحد عن طريق نقاط اتصال ملحومة موضعيًا بين الصفائح الغمازة أو الصفائح المسطحة أو الصفائح المسطحة ذات المسامير الملحومة، بينما يشكل الجانب المقابل قناة أوسع لعدم الاتصال للسوائل اللزجة أو الوسائط التي تحتوي على جزيئات وألياف خشنة."
+              },
+              {
+                "title": "وكيف يتم تصميمها وتصنيعها؟",
+                "content": "تم تصميم المنتج حراريًا من خلال تحسين هندسة اللوحة، وتباعد القنوات، وترتيب التدفق المعاكس متعدد التمريرات، وإدارة انخفاض الضغط لخدمة الفجوة الواسعة. يمكن أن يشمل اختيار المواد الفولاذ المقاوم للصدأ، والفولاذ المقاوم للصدأ المزدوج، وHastelloy، وغيرها من السبائك المقاومة للتآكل، بينما يضمن اللحام الدقيق والتجميع المتحكم فيه مقاومة التسرب، والسلامة الهيكلية، والتشغيل الموثوق به على المدى الطويل."
               }
             ]
           },
@@ -908,8 +1158,16 @@
               "meta_description": "Сварной пластинчатый теплообменник с широким зазором для вязких, волокнистых и содержащих твердые среды жидкостей с каналами, препятствующими засорению, и конструкцией без прокладок."
             },
             "es": {
-              "meta_title": "canal ancho Soldado intercambiador de calor de placas",
-              "meta_description": "canal ancho soldado intercambiador de calor de placas para viscous, fibrous, y solid-containing fluids con anti-clogging canales y gasket-free construccion."
+              "meta_title": "Intercambiador de calor de placas soldadas con espacio amplio",
+              "meta_description": "Intercambiador de calor de placas soldadas de espacio amplio para fluidos viscosos, fibrosos y que contienen sólidos con canales antiobstrucción y construcción sin juntas."
+            },
+            "fr": {
+              "meta_title": "Échangeur de chaleur à plaques soudées à grand écart",
+              "meta_description": "Échangeur de chaleur à plaques soudées à grand espace pour fluides visqueux, fibreux et solides avec canaux anti-colmatage et construction sans joint."
+            },
+            "ar": {
+              "meta_title": "مبادل حراري ذو فجوة واسعة",
+              "meta_description": "مبادل حراري ذو فجوة واسعة للسوائل اللزجة والليفية والصلبة مع قنوات مضادة للانسداد وبنية خالية من الحشيات."
             }
           }
         },
@@ -995,19 +1253,25 @@
             "en": "Printed Circuit Heat Exchanger",
             "zh": "印刷电路板式热交换器",
             "ru": "Печатный теплообменник",
-            "es": "circuito impreso intercambiador de calor"
+            "es": "Intercambiador de calor de circuito impreso",
+            "fr": "Échangeur de chaleur à circuit imprimé",
+            "ar": "مبادل حراري للدائرة المطبوعة"
           },
           "short_description": {
             "en": "Compact microchannel diffusion-bonded heat exchanger for extreme pressure and temperature service.",
             "zh": "适用于极端高压高温工况的紧凑型微通道扩散焊接换热器。",
             "ru": "Компактный микроканальный диффузионный теплообменник для работы при экстремальных давлениях и температурах.",
-            "es": "compacto microchannel diffusion-bonded intercambiador de calor para extreme presion y temperatura servicio."
+            "es": "Intercambiador de calor compacto por difusión de microcanales para servicio de presión y temperatura extremas.",
+            "fr": "Échangeur de chaleur compact à microcanaux liés par diffusion pour un service à pression et température extrêmes.",
+            "ar": "مبادل حراري صغير الحجم مرتبط بانتشار القنوات الصغيرة لخدمة الضغط الشديد ودرجة الحرارة."
           },
           "full_description": {
             "en": "Printed Circuit Heat Exchanger (PCHE) is a high-efficiency microchannel welded plate heat exchanger with an extremely compact structure. Thin metal plates are chemically etched to form precise flow channels, then stacked and diffusion bonded into a monolithic heat transfer core. The core is assembled and welded with the housing, headers, nozzles, flanges, and other components to form a complete exchanger. PCHE is designed for demanding applications requiring high thermal efficiency and compact footprint, including nuclear energy, marine, oil and gas, aerospace, power generation, LNG, hydrocarbon processing, and new energy systems.",
             "zh": "印刷电路板式热交换器（PCHE）是一种高效紧凑的微通道焊接板式热交换器，采用金属板片作为主要换热元件。金属板片通过化学蚀刻形成介质流道，并将板片堆叠通过扩散焊接形成换热芯体。换热芯体再与壳体、封头、接管、法兰等零部件装配焊接形成完整热交换器。该产品适用于核能、船舶、石油石化、航空航天、电力、新能源等行业，尤其适合对换热效率和空间利用要求严格的高端工况。",
             "ru": "Печатный теплообменник (PCHE) представляет собой высокоэффективный микроканальный сварной пластинчатый теплообменник с чрезвычайно компактной конструкцией. Тонкие металлические пластины подвергаются химическому травлению для формирования точных каналов потока, затем складываются стопкой и диффузионно соединяются в монолитный теплообменный сердечник. Сердечник собирается и сваривается с корпусом, коллекторами, патрубками, фланцами и другими компонентами, образуя целостный теплообменник. PCHE предназначен для требовательных приложений, требующих высокой тепловой эффективности и компактности, включая атомную энергетику, судоходство, нефть и газ, аэрокосмическую промышленность, производство электроэнергии, СПГ, переработку углеводородов и новые энергетические системы.",
-            "es": "circuito impreso intercambiador de calor (PCHE) es una alta-eficiencia microchannel soldado intercambiador de calor de placas con una extremely compacto structure. Thin metal plates son chemically etched un form precise canales de flujo, then stacked y diffusion bonded hacia un monolithic transferencia de calor nucleo. el nucleo es assembled y soldado con el housing, headers, nozzles, flanges, y other components un form un complete exchanger. PCHE es disenado para exigente aplicaciones requiring alta eficiencia termica y compacto ocupacion en planta, incluidos nuclear energy, maritimo, oil y gas, aerospace, generacion electrica, LNG, hydrocarbon procesamiento, y nuevo energy sistemas."
+            "es": "El intercambiador de calor de circuito impreso (PCHE) es un intercambiador de calor de placas soldadas de microcanales de alta eficiencia con una estructura extremadamente compacta. Las placas de metal delgadas se graban químicamente para formar canales de flujo precisos, luego se apilan y se unen por difusión en un núcleo monolítico de transferencia de calor. El núcleo se ensambla y suelda con la carcasa, los cabezales, las boquillas, las bridas y otros componentes para formar un intercambiador completo. PCHE está diseñado para aplicaciones exigentes que requieren alta eficiencia térmica y espacio compacto, incluyendo energía nuclear, marina, petróleo y gas, aeroespacial, generación de energía, GNL, procesamiento de hidrocarburos y nuevos sistemas energéticos.",
+            "fr": "L'échangeur de chaleur à circuit imprimé (PCHE) est un échangeur de chaleur à plaques soudées à microcanaux à haut rendement avec une structure extrêmement compacte. De fines plaques métalliques sont gravées chimiquement pour former des canaux d'écoulement précis, puis empilées et liées par diffusion dans un noyau de transfert de chaleur monolithique. Le noyau est assemblé et soudé avec le boîtier, les collecteurs, les buses, les brides et d'autres composants pour former un échangeur complet. Le PCHE est conçu pour les applications exigeantes nécessitant une efficacité thermique élevée et un encombrement réduit, notamment l'énergie nucléaire, la marine, le pétrole et le gaz, l'aérospatiale, la production d'électricité, le GNL, le traitement des hydrocarbures et les nouveaux systèmes énergétiques.",
+            "ar": "المبادل الحراري للدائرة المطبوعة (PCHE) عبارة عن مبادل حراري للوحة ملحومة ذات قناة صغيرة عالية الكفاءة مع هيكل مدمج للغاية. يتم حفر الألواح المعدنية الرقيقة كيميائيًا لتشكيل قنوات تدفق دقيقة، ثم يتم تكديسها ونشرها في قلب متجانس لنقل الحرارة. يتم تجميع القلب ولحامه مع الغلاف والرؤوس والفوهات والفلنجات والمكونات الأخرى لتشكيل مبادل كامل. تم تصميم PCHE للتطبيقات الصعبة التي تتطلب كفاءة حرارية عالية وبصمة مدمجة، بما في ذلك الطاقة النووية، والبحرية، والنفط والغاز، والفضاء، وتوليد الطاقة، والغاز الطبيعي المسال، ومعالجة المواد الهيدروكربونية، وأنظمة الطاقة الجديدة."
           },
           "industries": [
             "1",
@@ -1034,18 +1298,34 @@
             "ru": [
               "Компактность: занимаемая площадь PCHE может быть в 5–10 раз меньше, чем у обычных кожухотрубных теплообменников, что делает его идеальным для систем с ограниченным пространством.",
               "Высокая эффективность: геометрия микроканалов обеспечивает очень высокую эффективность теплопередачи и позволяет достичь общего теплового КПД до 98% в требовательных сервисах.",
-              "Экстремальные эксплуатационные возможности: конструкция с диффузионной сваркой выдерживает суровые условия эксплуатации до 1000 бар и температуры до 850 ℃.",
+              "Экстремальные эксплуатационные возможности: конструкция с диффузионной связкой выдерживает суровые условия эксплуатации до 1000 bar и температуры до 850 ℃.",
               "Нестандартная геометрия потока: различные схемы каналов и гофров могут быть спроектированы в соответствии с конкретными требованиями к скорости потока, перепаду давления и тепловой нагрузке.",
               "Высокая структурная целостность: Специализированная структура продукта и твердотельная диффузионная сварка повышают устойчивость к утечкам и эксплуатационную безопасность при высоких температурах и давлениях.",
               "Легкий вес и экономия места: высокая плотность поверхности обеспечивает близкий температурный режим, меньший вес и превосходное использование пространства."
             ],
             "es": [
-              "Compactoness: el PCHE ocupacion en planta puede ser 5 un 10 times menor than convencional shell y tube exchangers, hacer lo ideal para space-constrained sistemas.",
-              "alta Eficiencia: Microchannel geometria provides very alta transferencia de calor rendimiento y puede achieve up un 98% overall eficiencia termica en exigente servicios.",
-              "Extreme Operating capacidad: Diffusion-bonded construccion admite severe servicio conditions up un 1000 bar y temperatures como alta como 850℃.",
-              "Custom flujo geometria: Different canal y corrugation patterns puede ser engineered un match specific caudal, perdida de presion, y termico load requisitos.",
-              "alta Structural Integrity: Specialized producto structure y solid-state diffusion bonding improve leak resistance y operational seguridad under alta temperatura y presion.",
-              "Ligero y Space Saving: alta surface-area density delivers close temperatura approach, lower peso, y excellent space utilization."
+              "Compacidad: El tamaño del PCHE puede ser de 5 a 10 veces más pequeño que el de los intercambiadores de carcasa y tubos convencionales, lo que lo hace ideal para sistemas con espacio limitado.",
+              "Alta eficiencia: la geometría de microcanal proporciona un rendimiento de transferencia de calor muy alto y puede alcanzar hasta un 98 % de eficiencia térmica general en servicios exigentes.",
+              "Capacidad operativa extrema: la construcción unida por difusión soporta condiciones de servicio severas de hasta 1000 bar y temperaturas de hasta 850 ℃.",
+              "Geometría de flujo personalizada: se pueden diseñar diferentes patrones de canales y corrugaciones para cumplir con los requisitos específicos de caudal, caída de presión y carga térmica.",
+              "Alta integridad estructural: la estructura especializada del producto y la unión por difusión de estado sólido mejoran la resistencia a las fugas y la seguridad operativa en condiciones de alta temperatura y presión.",
+              "Peso ligero y ahorro de espacio: la alta densidad de superficie ofrece una temperatura cercana, menor peso y una excelente utilización del espacio."
+            ],
+            "fr": [
+              "Compacité: L'encombrement du PCHE peut être 5 à 10 fois plus petit que celui des échangeurs à calandre et tubes classiques, ce qui le rend idéal pour les systèmes à espace limité.",
+              "Haute efficacité: la géométrie des microcanaux offre des performances de transfert de chaleur très élevées et peut atteindre jusqu'à 98 % d'efficacité thermique globale dans les services exigeants.",
+              "Capacité de fonctionnement extrême: la construction liée par diffusion prend en charge des conditions de service sévères jusqu'à 1 000 bar et des températures aussi élevées que 850 ℃.",
+              "Géométrie de débit personnalisée: différents modèles de canaux et d'ondulations peuvent être conçus pour répondre aux exigences spécifiques en matière de débit, de chute de pression et de charge thermique.",
+              "Intégrité structurelle élevée: la structure spécialisée du produit et la liaison par diffusion à l'état solide améliorent la résistance aux fuites et la sécurité opérationnelle à haute température et pression.",
+              "Léger et peu encombrant: la densité de surface élevée permet une approche de température proche, un poids réduit et une excellente utilisation de l'espace."
+            ],
+            "ar": [
+              "الاكتناز: يمكن أن تكون مساحة PCHE أصغر من 5 إلى 10 مرات من المبادلات التقليدية ذات الغلاف والأنابيب، مما يجعلها مثالية للأنظمة ذات المساحة المحدودة.",
+              "كفاءة عالية: توفر هندسة القنوات الدقيقة أداءً عاليًا للغاية في نقل الحرارة ويمكنها تحقيق كفاءة حرارية إجمالية تصل إلى 98% في الخدمات المطلوبة.",
+              "قدرة تشغيل فائقة: يدعم البناء المرتبط بالانتشار ظروف الخدمة القاسية التي تصل إلى 1000 bar ودرجات حرارة تصل إلى 850 درجة مئوية.",
+              "هندسة التدفق المخصصة: يمكن تصميم أنماط مختلفة من القنوات والتموجات لتتناسب مع معدل التدفق المحدد، وانخفاض الضغط، ومتطلبات الحمل الحراري.",
+              "سلامة هيكلية عالية: يعمل هيكل المنتج المتخصص ورابط نشر الحالة الصلبة على تحسين مقاومة التسرب والسلامة التشغيلية تحت درجة الحرارة والضغط العاليين.",
+              "خفيف الوزن وموفر للمساحة: توفر الكثافة العالية لمساحة السطح درجة حرارة قريبة ووزن أقل واستخدامًا ممتازًا للمساحة."
             ]
           },
           "technical_parameters": {
@@ -1066,20 +1346,36 @@
               "板片材料": "304、316L、2205、TA1及钛合金、高温合金等"
             },
             "ru": {
-              "Максимальное расчетное давление": "1000 Бар",
-              "Расчетная температура": "-196 ~ 850℃",
-              "Площадь теплопередачи": "8000 м²",
-              "Толщина пластины": "0,4 ~ 4 мм",
-              "Ширина канала": "0,4 ~ 4 мм",
-              "Материал пластины": "304, 316L, 2205, ТА1 и титановый сплав, жаропрочный сплав"
+              "Max Design Pressure": "1000 Бар",
+              "Design Temperature": "-196 ~ 850 ℃",
+              "Heat Transfer Area": "8000㎡",
+              "Plate Thickness": "0,4 ~ 4 мм",
+              "Channel Width": "0,4 ~ 4 мм",
+              "Plate Material": "304, 316L, 2205, ТА1 и титановый сплав, жаропрочный сплав"
             },
             "es": {
-              "Max Design Pressure": "1000 Bar",
+              "Max Design Pressure": "1000 barras",
               "Design Temperature": "-196 ~ 850℃",
               "Heat Transfer Area": "8000㎡",
-              "Plate Thickness": "0.4 ~ 4mm",
-              "Channel Width": "0.4 ~ 4mm",
-              "Plate Material": "304, 316L, 2205, TA1 y titanium alloy, alta-temperatura alloy"
+              "Plate Thickness": "0,4 ~ 4mm",
+              "Channel Width": "0,4 ~ 4mm",
+              "Plate Material": "304, 316L, 2205, TA1 y aleación de titanio, aleación de alta temperatura"
+            },
+            "fr": {
+              "Max Design Pressure": "1000 barres",
+              "Design Temperature": "-196 ~ 850 ℃",
+              "Heat Transfer Area": "8000㎡",
+              "Plate Thickness": "0,4 ~ 4 mm",
+              "Channel Width": "0,4 ~ 4 mm",
+              "Plate Material": "304, 316L, 2205, TA1 et alliage de titane, alliage haute température"
+            },
+            "ar": {
+              "Max Design Pressure": "1000 بار",
+              "Design Temperature": "-196 ~ 850 درجة مئوية",
+              "Heat Transfer Area": "8000㎡",
+              "Plate Thickness": "0.4 ~ 4 ملم",
+              "Channel Width": "0.4 ~ 4 ملم",
+              "Plate Material": "304، 316L، 2205، TA1 وسبائك التيتانيوم، سبائك درجة الحرارة العالية"
             }
           },
           "details": {
@@ -1127,16 +1423,44 @@
             ],
             "es": [
               {
-                "title": "que es un circuito impreso intercambiador de calor?",
-                "content": "circuito impreso intercambiador de calor es un highly compacto y eficiente microchannel intercambiador de calor disenado para extreme condiciones de operacion. lo usa chemically etched metal plates y diffusion bonding tecnologia un deliver very alta transferencia de calor rendimiento, presion resistance, resistencia a la corrosion, y space eficiencia en aplicaciones donde convencional exchangers son too grande o cannot withstand el servicio."
+                "title": "¿Qué es un intercambiador de calor de circuito impreso?",
+                "content": "El intercambiador de calor de circuito impreso es un intercambiador de calor de microcanales altamente compacto y eficiente diseñado para condiciones operativas extremas. Utiliza placas metálicas grabadas químicamente y tecnología de unión por difusión para ofrecer un rendimiento de transferencia de calor, resistencia a la presión, resistencia a la corrosión y eficiencia de espacio muy altos en aplicaciones donde los intercambiadores convencionales son demasiado grandes o no pueden soportar el trabajo."
               },
               {
-                "title": "How es circuito impreso intercambiador de calor constructed?",
-                "content": "Thin metal plates, usually acero inoxidable, duplex steel, titanium, o alta-temperatura alloys, son coated y chemically etched un create intricate microchannel patterns. el etched plates son stacked en un defined configuration y diffusion bonded at alta temperatura y presion un form un monolithic nucleo, which es then assembled con housing, headers, nozzles, y other external components un make el final exchanger."
+                "title": "¿Cómo se construye el intercambiador de calor de circuito impreso?",
+                "content": "Placas metálicas delgadas, generalmente de acero inoxidable, acero dúplex, titanio o aleaciones de alta temperatura, se recubren y se graban químicamente para crear intrincados patrones de microcanales. Las placas grabadas se apilan en una configuración definida y se unen por difusión a alta temperatura y presión para formar un núcleo monolítico, que luego se ensambla con carcasa, cabezales, boquillas y otros componentes externos para formar el intercambiador final."
               },
               {
-                "title": "How es lo disenado y manufactured?",
-                "content": "PCHE diseno combines termico-hydraulic analysis, microchannel geometria optimization, materiales ingenieria, y manufacturability. despues de selecting base materiales y placa thickness, el canal pattern es transferred por photomask y chemically etched, cleaned, stacked, diffusion bonded en un vacuum furnace, y then completed mediante header assembly, leak testing, y termico rendimiento validation."
+                "title": "¿Cómo se diseña y fabrica?",
+                "content": "El diseño PCHE combina análisis termohidráulico, optimización de la geometría de microcanales, ingeniería de materiales y capacidad de fabricación. Después de seleccionar los materiales base y el espesor de la placa, el patrón del canal se transfiere mediante una fotomáscara y se graba químicamente, se limpia, se apila, se une por difusión en un horno de vacío y luego se completa mediante el ensamblaje del cabezal, las pruebas de fugas y la validación del rendimiento térmico."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Qu'est-ce qu'un échangeur thermique à circuit imprimé?",
+                "content": "L'échangeur de chaleur à circuit imprimé est un échangeur de chaleur à microcanaux très compact et efficace conçu pour des conditions de fonctionnement extrêmes. Il utilise des plaques métalliques gravées chimiquement et une technologie de liaison par diffusion pour offrir des performances de transfert de chaleur, une résistance à la pression, une résistance à la corrosion et une efficacité d'espace très élevées dans les applications où les échangeurs conventionnels sont trop grands ou ne peuvent pas résister à leurs exigences."
+              },
+              {
+                "title": "Comment est construit l’échangeur de chaleur à circuit imprimé?",
+                "content": "De fines plaques métalliques, généralement en acier inoxydable, en acier duplex, en titane ou en alliages haute température, sont revêtues et gravées chimiquement pour créer des motifs de microcanaux complexes. Les plaques gravées sont empilées dans une configuration définie et liées par diffusion à haute température et pression pour former un noyau monolithique, qui est ensuite assemblé avec un boîtier, des collecteurs, des buses et d'autres composants externes pour constituer l'échangeur final."
+              },
+              {
+                "title": "Comment est-il conçu et fabriqué?",
+                "content": "La conception du PCHE combine l'analyse thermohydraulique, l'optimisation de la géométrie des microcanaux, l'ingénierie des matériaux et la fabricabilité. Après avoir sélectionné les matériaux de base et l'épaisseur de la plaque, le motif de canal est transféré par photomasque et gravé chimiquement, nettoyé, empilé, lié par diffusion dans un four sous vide, puis complété par l'assemblage du collecteur, des tests d'étanchéité et une validation des performances thermiques."
+              }
+            ],
+            "ar": [
+              {
+                "title": "ما هو المبادل الحراري للدائرة المطبوعة؟",
+                "content": "المبادل الحراري للدائرة المطبوعة عبارة عن مبادل حراري صغير الحجم وفعال للغاية مصمم لظروف التشغيل القاسية. إنها تستخدم صفائح معدنية محفورة كيميائيًا وتقنية ربط الانتشار لتوفير أداء عالي جدًا في نقل الحرارة، ومقاومة الضغط، ومقاومة التآكل، وكفاءة المساحة في التطبيقات التي تكون فيها المبادلات التقليدية كبيرة جدًا أو لا يمكنها تحمل المهمة."
+              },
+              {
+                "title": "كيف يتم بناء المبادل الحراري للدائرة المطبوعة؟",
+                "content": "يتم طلاء الألواح المعدنية الرقيقة، والتي عادة ما تكون من الفولاذ المقاوم للصدأ، أو الفولاذ المزدوج، أو التيتانيوم، أو السبائك ذات درجة الحرارة العالية، وحفرها كيميائيًا لإنشاء أنماط معقدة من القنوات الدقيقة. يتم تكديس الألواح المحفورة في تكوين محدد وانتشار مرتبط عند درجة حرارة وضغط مرتفعين لتشكيل قلب متجانس، والذي يتم تجميعه بعد ذلك مع السكن والرؤوس والفوهات والمكونات الخارجية الأخرى لصنع المبادل النهائي."
+              },
+              {
+                "title": "وكيف يتم تصميمها وتصنيعها؟",
+                "content": "يجمع تصميم PCHE بين التحليل الحراري الهيدروليكي وتحسين هندسة القنوات الدقيقة وهندسة المواد وقابلية التصنيع. بعد اختيار المواد الأساسية وسمك اللوحة، يتم نقل نمط القناة عن طريق قناع ضوئي وحفره كيميائيًا، وتنظيفه، وتكديسه، ونشره في فرن فراغ، ثم يتم إكماله من خلال تجميع الرأس، واختبار التسرب، والتحقق من الأداء الحراري."
               }
             ]
           },
@@ -1155,8 +1479,16 @@
               "meta_description": "Компактный теплообменник с печатной платой с диффузионной сваркой для работы в условиях экстремальных давлений и температур с высоким тепловым КПД."
             },
             "es": {
-              "meta_title": "circuito impreso intercambiador de calor",
-              "meta_description": "compacto diffusion-bonded circuito impreso intercambiador de calor para extreme presion y temperatura aplicaciones con alta eficiencia termica."
+              "meta_title": "Intercambiador de calor de circuito impreso",
+              "meta_description": "Intercambiador de calor de circuito impreso compacto por difusión para aplicaciones de presión y temperatura extremas con alta eficiencia térmica."
+            },
+            "fr": {
+              "meta_title": "Échangeur de chaleur à circuit imprimé",
+              "meta_description": "Échangeur de chaleur compact à circuit imprimé lié par diffusion pour les applications à pression et température extrêmes avec une efficacité thermique élevée."
+            },
+            "ar": {
+              "meta_title": "مبادل حراري للدائرة المطبوعة",
+              "meta_description": "مبادل حراري مدمج للدائرة المطبوعة مرتبط بالانتشار لتطبيقات الضغط الشديد ودرجة الحرارة بكفاءة حرارية عالية."
             }
           }
         },
@@ -1228,19 +1560,25 @@
             "en": "TP Welded Plate Heat Exchanger",
             "zh": "TP混合板式热交换器",
             "ru": "Сварной пластинчатый теплообменник TP",
-            "es": "TP Soldado intercambiador de calor de placas"
+            "es": "Intercambiador de calor de placas soldadas TP",
+            "fr": "Échangeur de chaleur à plaques soudées TP",
+            "ar": "مبادل حراري للوحة الملحومة TP"
           },
           "short_description": {
             "en": "Hybrid fully welded exchanger combining plate efficiency with shell-and-tube pressure and temperature resistance.",
             "zh": "兼具板式高效换热与管壳式耐高温高压特性的全焊接混合板式热交换器。",
             "ru": "Гибридный цельносварной теплообменник, сочетающий пластинчатую эффективность с кожухотрубной устойчивостью к давлению и температуре.",
-            "es": "Hybrid totalmente soldado exchanger combining placa eficiencia con shell-y-tube presion y temperatura resistance."
+            "es": "Intercambiador híbrido totalmente soldado que combina eficiencia de placas con resistencia a la presión y temperatura de carcasa y tubos.",
+            "fr": "Échangeur hybride entièrement soudé alliant efficacité à plaques et résistance à la pression et à la température.",
+            "ar": "مبادل هجين ملحوم بالكامل يجمع بين كفاءة اللوحة وضغط الغلاف والأنبوب ومقاومة درجات الحرارة."
           },
           "full_description": {
             "en": "The plate packs are welded together by advanced automatic welding machines and installed inside a shell that can be opened for mechanical cleaning of the flow channels. The unique channel configuration prevents fluid cross-contamination and external leakage. TP Welded Plate Heat Exchanger combines the high heat transfer efficiency and compact structure of plate heat exchangers with the high-pressure and high-temperature resistance of shell and tube exchangers, making it an ideal replacement for tubular equipment in special heat transfer processes. It is widely used in petrochemical, power generation, metallurgy, HVAC, food, and pharmaceutical industries.",
             "zh": "板束间采用先进的自动焊机焊接，全部板束焊接在壳体内，可以将壳体打开进行机械清洗流道，特殊的流道结构保证介质之间不会串液和外漏，既具有板式热交换器的高效传热和结构紧凑的优点，又具有管壳式热交换器耐高压、高温的特性，是一些特殊热交换工艺中替代管壳式热交换器的理想设备。已广泛应用于石油化工、电力、冶金、暖通空调、食品医药等行业。",
-            "ru": "Пакеты пластин свариваются вместе с помощью современных автоматических сварочных аппаратов и устанавливаются внутри корпуса, который можно открыть для механической очистки проточных каналов. Уникальная конфигурация каналов предотвращает перекрестное загрязнение жидкости и внешние утечки. Сварной пластинчатый теплообменник TP сочетает в себе высокую эффективность теплопередачи и компактную конструкцию пластинчатых теплообменников с устойчивостью кожухотрубных теплообменников к высокому давлению и высоким температурам, что делает его идеальной заменой трубчатого оборудования в специальных процессах теплопередачи. Он широко используется в нефтехимической, энергетической, металлургической, HVAC, пищевой и фармацевтической промышленности.",
-            "es": "la placa packs estan soldados together por advanced automatic soldadura machines y installed dentro de un shell que puede ser opened para mecanico limpieza del canales de flujo. el unique canal configuration prevents fluido cross-contamination y external leakage. TP Soldado intercambiador de calor de placas combines el alta eficiencia de transferencia de calor y compacto structure de intercambiadores de calor de placas con el alta-presion y alta-temperatura resistance de shell y tube exchangers, hacer lo una ideal replacement para tubular equipos en special transferencia de calor procesos. lo es widely utilizados en petroquimico, generacion electrica, metallurgy, HVAC, food, y farmaceutico industrias."
+            "ru": "Пакеты пластин свариваются вместе с помощью современных автоматических сварочных аппаратов и устанавливаются внутри корпуса, который можно открыть для механической очистки проточных каналов. Уникальная конфигурация каналов предотвращает перекрестное загрязнение жидкости и внешние утечки. Сварной пластинчатый теплообменник TP сочетает в себе высокую эффективность теплопередачи и компактную конструкцию пластинчатых теплообменников с устойчивостью кожухотрубных теплообменников к высокому давлению и высоким температурам, что делает его идеальной заменой трубчатого оборудования в специальных процессах теплопередачи. Он широко используется в нефтехимической, энергетической, металлургической, пищевой и фармацевтической промышленности.",
+            "es": "Los paquetes de placas se sueldan entre sí mediante máquinas de soldadura automáticas avanzadas y se instalan dentro de una carcasa que se puede abrir para la limpieza mecánica de los canales de flujo. La configuración única del canal evita la contaminación cruzada de fluidos y las fugas externas. El intercambiador de calor de placas soldadas TP combina la alta eficiencia de transferencia de calor y la estructura compacta de los intercambiadores de calor de placas con la resistencia a alta presión y alta temperatura de los intercambiadores de carcasa y tubos, lo que lo convierte en un reemplazo ideal para equipos tubulares en procesos especiales de transferencia de calor. Es ampliamente utilizado en las industrias petroquímica, de generación de energía, metalúrgica, alimentaria y farmacéutica.",
+            "fr": "Les paquets de plaques sont soudés ensemble par des machines de soudage automatiques avancées et installés à l'intérieur d'une coque qui peut être ouverte pour le nettoyage mécanique des canaux d'écoulement. La configuration unique des canaux empêche la contamination croisée des fluides et les fuites externes. L'échangeur de chaleur à plaques soudées TP combine l'efficacité élevée du transfert de chaleur et la structure compacte des échangeurs de chaleur à plaques avec la résistance aux hautes pressions et aux températures élevées des échangeurs à calandre et à tubes, ce qui en fait un remplacement idéal pour les équipements tubulaires dans les processus de transfert de chaleur spéciaux. Il est largement utilisé dans les industries pétrochimiques, de production d’énergie, de métallurgie, HVAC, alimentaires et pharmaceutiques.",
+            "ar": "يتم لحام حزم الألواح معًا بواسطة آلات لحام أوتوماتيكية متقدمة ويتم تثبيتها داخل غلاف يمكن فتحه للتنظيف الميكانيكي لقنوات التدفق. يمنع تكوين القناة الفريد تلوث السوائل والتسرب الخارجي. يجمع المبادل الحراري للوحة الملحومة TP بين كفاءة نقل الحرارة العالية والهيكل المدمج للمبادلات الحرارية للوحة مع مقاومة الضغط العالي ودرجة الحرارة العالية لمبادلات الغلاف والأنبوب، مما يجعله بديلاً مثاليًا للمعدات الأنبوبية في عمليات نقل الحرارة الخاصة. يتم استخدامه على نطاق واسع في الصناعات البتروكيماوية وتوليد الطاقة والمعادن وHVAC والمواد الغذائية والصناعات الدوائية."
           },
           "industries": [
             "2",
@@ -1275,12 +1613,28 @@
               "Удобная в обслуживании конструкция: корпус можно открыть для механической очистки, что повышает удобство обслуживания устройства по сравнению с полностью герметичными сварными вариантами."
             ],
             "es": [
-              "Expansion Joint Diseno: una unique expansion joint structure es suitable para servicios con grande temperatura differences.",
-              "Countercurrent transferencia de calor: Contraflujo arrangement improves el logarithmic mean temperatura difference correction factor y enhances termico rendimiento.",
-              "Round Shell Strength: el cylindrical shell form ayuda un reduce soldadura deformation y improves presion resistance y structural stability.",
-              "Hybrid flujo Rendimiento: la placa lado provides fuerte turbulence y alta eficiencia de transferencia de calor, mientras la carcasa lado offers baja flujo resistance y fuerte presion-bearing capacidad.",
-              "Totalmente soldado Seguridad: el all-soldado construccion es safe y confiable para alta-temperatura, alta-presion, y hazardous medios aplicaciones.",
-              "Maintainable Structure: el housing puede ser opened para mecanico limpieza, giving el unidad better servicioability than fully sealed soldado alternatives."
+              "Diseño de junta de expansión: una estructura única de junta de expansión es adecuada para tareas con grandes diferencias de temperatura.",
+              "Transferencia de calor a contracorriente: la disposición de contraflujo mejora el factor de corrección de diferencia de temperatura media logarítmica y mejora el rendimiento térmico.",
+              "Resistencia de la carcasa redonda: la forma de la carcasa cilíndrica ayuda a reducir la deformación de la soldadura y mejora la resistencia a la presión y la estabilidad estructural.",
+              "Rendimiento de flujo híbrido: el lado de la placa proporciona una fuerte turbulencia y una alta eficiencia de transferencia de calor, mientras que el lado de la carcasa ofrece una baja resistencia al flujo y una fuerte capacidad de soportar presión.",
+              "Seguridad totalmente soldada: la construcción totalmente soldada es segura y confiable para aplicaciones de alta temperatura, alta presión y medios peligrosos.",
+              "Estructura mantenible: La carcasa se puede abrir para limpieza mecánica, lo que brinda a la unidad una mejor capacidad de servicio que las alternativas soldadas completamente selladas."
+            ],
+            "fr": [
+              "Conception du joint de dilatation: une structure de joint de dilatation unique convient aux tâches présentant de grandes différences de température.",
+              "Transfert de chaleur à contre-courant: la disposition à contre-courant améliore le facteur de correction logarithmique de la différence de température moyenne et améliore les performances thermiques.",
+              "Résistance de la coque ronde: la forme de la coque cylindrique aide à réduire la déformation du soudage et améliore la résistance à la pression et la stabilité structurelle.",
+              "Performances d'écoulement hybride: le côté plaque offre de fortes turbulences et une efficacité de transfert de chaleur élevée, tandis que le côté coque offre une faible résistance à l'écoulement et une forte capacité de charge.",
+              "Sécurité entièrement soudée: la construction entièrement soudée est sûre et fiable pour les applications à haute température, haute pression et avec des fluides dangereux.",
+              "Structure maintenable: le boîtier peut être ouvert pour un nettoyage mécanique, ce qui confère à l'unité une meilleure facilité d'entretien que les alternatives soudées entièrement scellées."
+            ],
+            "ar": [
+              "تصميم وصلة التمدد: هيكل وصلة التمدد الفريد مناسب للمهام ذات الاختلافات الكبيرة في درجات الحرارة.",
+              "نقل الحرارة المعاكس: يعمل ترتيب التدفق المعاكس على تحسين عامل تصحيح فرق درجة الحرارة اللوغاريتمي ويعزز الأداء الحراري.",
+              "قوة الغلاف الدائري: يساعد شكل الغلاف الأسطواني على تقليل تشوه اللحام وتحسين مقاومة الضغط والاستقرار الهيكلي.",
+              "أداء التدفق الهجين: يوفر جانب اللوحة اضطرابًا قويًا وكفاءة عالية في نقل الحرارة، بينما يوفر جانب الغلاف مقاومة منخفضة للتدفق وقدرة قوية على تحمل الضغط.",
+              "السلامة الملحومة بالكامل: البناء الملحوم بالكامل آمن وموثوق به لتطبيقات الوسائط ذات درجات الحرارة العالية والضغط العالي والخطرة.",
+              "هيكل قابل للصيانة: يمكن فتح الهيكل للتنظيف الميكانيكي، مما يمنح الوحدة إمكانية الخدمة بشكل أفضل من البدائل الملحومة المغلقة بالكامل."
             ]
           },
           "technical_parameters": {
@@ -1299,18 +1653,32 @@
               "板片材料": "奥氏体不锈钢、双相不锈钢、254SMO、钛及钛合金、镍及镍合金、哈氏合金"
             },
             "ru": {
-              "Расчетная температура": "-196 ~ 900℃",
-              "Расчетное давление": "Вакуум ~ 6,0 МПа",
-              "Макс. площадь": "15000 м²",
-              "Толщина пластины": "0,6 ~ 1,5 мм",
-              "Материал пластины": "Аустенитная нержавеющая сталь, Дуплексная нержавеющая сталь, 254SMO, Титан и титановые сплавы, Никель и никелевые сплавы, Хастеллой"
+              "Design Temperature": "-196 ~ 900 ℃",
+              "Design Pressure": "Вакуум ~ 6,0 МПа",
+              "Max Area": "15000㎡",
+              "Plate Thickness": "0,6 ~ 1,5 мм",
+              "Plate Material": "Аустенитная нержавеющая сталь, Дуплексная нержавеющая сталь, 254SMO, Титан и титановые сплавы, Никель и никелевые сплавы, Хастеллой"
             },
             "es": {
               "Design Temperature": "-196 ~ 900℃",
-              "Design Pressure": "Vacuum ~ 6.0MPa",
+              "Design Pressure": "Vacío ~ 6,0 MPa",
               "Max Area": "15000㎡",
-              "Plate Thickness": "0.6 ~ 1.5mm",
-              "Plate Material": "Austenitic acero inoxidable, Duplex acero inoxidable, 254SMO, Titanium y titanium alloy, Nickel y nickel alloy, Hastelloy"
+              "Plate Thickness": "0,6 ~ 1,5 mm",
+              "Plate Material": "Acero inoxidable austenítico, Acero inoxidable dúplex, 254SMO, Titanio y aleación de titanio, Níquel y aleación de níquel, Hastelloy"
+            },
+            "fr": {
+              "Design Temperature": "-196 ~ 900 ℃",
+              "Design Pressure": "Vide ~ 6,0 MPa",
+              "Max Area": "15 000㎡",
+              "Plate Thickness": "0,6 ~ 1,5 mm",
+              "Plate Material": "Acier inoxydable austénitique, Acier inoxydable duplex, 254SMO, Titane et alliage de titane, Nickel et alliage de nickel, Hastelloy"
+            },
+            "ar": {
+              "Design Temperature": "-196 ~ 900 درجة مئوية",
+              "Design Pressure": "فراغ ~ 6.0MPa",
+              "Max Area": "15000㎡",
+              "Plate Thickness": "0.6 ~ 1.5 ملم",
+              "Plate Material": "الفولاذ المقاوم للصدأ الأوستنيتي، الفولاذ المقاوم للصدأ المزدوج، 254SMO، سبائك التيتانيوم والتيتانيوم، سبائك النيكل والنيكل، Hastelloy"
             }
           },
           "details": {
@@ -1349,7 +1717,7 @@
               },
               {
                 "title": "Как устроен сварной пластинчатый теплообменник TP?",
-                "content": "Основные компоненты включают один или несколько сварных пакетов пластин, секции корпуса и пластин, зажимные болты, впускные и выпускные соединения горячей и холодной стороны, перегородки и опорные конструкции. Пакет пластин формируется путем укладки и сварки гофрированных пластин, и в зависимости от применения корпуса со стороны корпуса и со стороны пластины могут быть сварены или скреплены болтами для обеспечения гибкости в эксплуатации и обслуживании."
+                "content": "Основные компоненты включают в себя один или несколько сварных пакетов пластин, секции корпуса и пластин, зажимные болты, впускные и выпускные соединения горячей и холодной стороны, перегородки и опорные конструкции. Пакет пластин формируется путем укладки и сварки гофрированных пластин, и в зависимости от применения корпуса со стороны корпуса и со стороны пластины могут быть сварены или скреплены болтами для обеспечения гибкости в эксплуатации и обслуживании."
               },
               {
                 "title": "Как он спроектирован и изготовлен?",
@@ -1358,16 +1726,44 @@
             ],
             "es": [
               {
-                "title": "que es TP Soldado intercambiador de calor de placas?",
-                "content": "TP Soldado intercambiador de calor de placas es un hybrid exchanger que combines el structural caracteristicas de shell y tube intercambiadores de calor con el compactoness y alta eficiencia de transferencia de calor de intercambiadores de calor de placas. lo es suitable para liquido-liquido, gas-gas, y liquid-gas transferencia de calor servicios donde ambos eficiencia termica y resistencia mecanica son importante."
+                "title": "¿Qué es el intercambiador de calor de placas soldadas TP?",
+                "content": "El intercambiador de calor de placas soldadas TP es un intercambiador híbrido que combina las características estructurales de los intercambiadores de calor de carcasa y tubos con la compacidad y la alta eficiencia de transferencia de calor de los intercambiadores de calor de placas. Es adecuado para tareas de transferencia de calor líquido-líquido, gas-gas y líquido-gas donde tanto la eficiencia térmica como la resistencia mecánica son importantes."
               },
               {
-                "title": "How es TP Soldado intercambiador de calor de placas constructed?",
-                "content": "el primary components include one o mas soldado placa packs, shell y placa frame sections, clamping bolts, caliente y frio lado inlet y outlet connections, baffle plates, y soporte structures. la placa pack es formed por stacking y soldadura corrugated plates, y depending en la aplicacion, la carcasa-lado y placa-lado housings puede ser soldado o bolted para flexibility en operation y mantenimiento."
+                "title": "¿Cómo se construye el intercambiador de calor de placas soldadas TP?",
+                "content": "Los componentes principales incluyen uno o más paquetes de placas soldadas, secciones de carcasa y marco de placas, pernos de sujeción, conexiones de entrada y salida del lado frío y caliente, placas deflectoras y estructuras de soporte. El paquete de placas se forma apilando y soldando placas corrugadas y, según la aplicación, los alojamientos del lado de la carcasa y de la placa se pueden soldar o atornillar para lograr flexibilidad en la operación y el mantenimiento."
               },
               {
-                "title": "How es lo disenado y manufactured?",
-                "content": "Diseno se centra en optimized placa geometria, placa spacing, multi-pass contraflujo o crossflow arrangement, y presion-drop control. Seleccion de materiales puede include acero inoxidable, titanium, Hastelloy, y other corrosion-resistant alloys. Fabricacion relies en precision soldadura y robust assembly methods una ensure seamless connections, structural integrity, y dependable rendimiento under severe condiciones de operacion."
+                "title": "¿Cómo se diseña y fabrica?",
+                "content": "El diseño se centra en la geometría optimizada de las placas, el espaciado de las placas, la disposición de contraflujo o flujo cruzado de múltiples pasos y el control de la caída de presión. La selección de materiales puede incluir acero inoxidable, titanio, Hastelloy y otras aleaciones resistentes a la corrosión. La fabricación se basa en soldaduras de precisión y métodos de ensamblaje robustos para garantizar conexiones perfectas, integridad estructural y rendimiento confiable en condiciones operativas severas."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Qu'est-ce qu'un échangeur de chaleur à plaques soudées TP?",
+                "content": "L'échangeur de chaleur à plaques soudées TP est un échangeur hybride qui combine les caractéristiques structurelles des échangeurs de chaleur à calandre et à tubes avec la compacité et l'efficacité élevée du transfert de chaleur des échangeurs de chaleur à plaques. Il convient aux tâches de transfert de chaleur liquide-liquide, gaz-gaz et liquide-gaz où l'efficacité thermique et la résistance mécanique sont importantes."
+              },
+              {
+                "title": "Comment l'échangeur de chaleur à plaques soudées TP est-il construit?",
+                "content": "Les composants principaux comprennent un ou plusieurs paquets de plaques soudées, des sections de coque et de cadre de plaques, des boulons de serrage, des connexions d'entrée et de sortie côté chaud et froid, des déflecteurs et des structures de support. Le paquet de plaques est formé par empilement et soudage de plaques ondulées et, selon l'application, les boîtiers côté coque et côté plaque peuvent être soudés ou boulonnés pour une flexibilité d'exploitation et de maintenance."
+              },
+              {
+                "title": "Comment est-il conçu et fabriqué?",
+                "content": "La conception se concentre sur la géométrie optimisée des plaques, l’espacement des plaques, la disposition à contre-courant ou à flux transversal multi-passes et le contrôle des chutes de pression. La sélection de matériaux peut inclure l'acier inoxydable, le titane, l'Hastelloy et d'autres alliages résistants à la corrosion. La fabrication s'appuie sur un soudage de précision et des méthodes d'assemblage robustes pour garantir des connexions sans couture, une intégrité structurelle et des performances fiables dans des conditions de fonctionnement difficiles."
+              }
+            ],
+            "ar": [
+              {
+                "title": "ما هو المبادل الحراري للوحة الملحومة TP؟",
+                "content": "مبادل حراري للوحة الملحومة TP عبارة عن مبادل هجين يجمع بين الميزات الهيكلية للمبادلات الحرارية ذات الغلاف والأنبوب مع الاكتناز وكفاءة نقل الحرارة العالية للمبادلات الحرارية للوحة. إنها مناسبة لواجبات نقل الحرارة السائلة والسائلة والغازية والغازية السائلة حيث تكون الكفاءة الحرارية والقوة الميكانيكية مهمة."
+              },
+              {
+                "title": "كيف يتم بناء المبادل الحراري للوحة الملحومة TP؟",
+                "content": "تشتمل المكونات الأساسية على واحدة أو أكثر من مجموعات الألواح الملحومة، وأقسام إطار الهيكل واللوحة، ومسامير التثبيت، ووصلات المدخل والمخرج الجانبية الساخنة والباردة، والألواح الحاجزة، وهياكل الدعم. يتم تشكيل مجموعة الألواح عن طريق تكديس ولحام الألواح المموجة، واعتمادًا على التطبيق، يمكن لحام أو تثبيت مبيتات جانب الغلاف وجانب اللوحة من أجل المرونة في التشغيل والصيانة."
+              },
+              {
+                "title": "وكيف يتم تصميمها وتصنيعها؟",
+                "content": "يركز التصميم على هندسة اللوحة المحسنة، وتباعد الألواح، والتدفق المعاكس متعدد التمريرات أو ترتيب التدفق المتقاطع، والتحكم في انخفاض الضغط. قد يشمل اختيار المواد الفولاذ المقاوم للصدأ والتيتانيوم والهاستيلوي والسبائك الأخرى المقاومة للتآكل. يعتمد التصنيع على اللحام الدقيق وطرق التجميع القوية لضمان التوصيلات السلسة والسلامة الهيكلية والأداء الموثوق في ظل ظروف التشغيل القاسية."
               }
             ]
           },
@@ -1386,8 +1782,16 @@
               "meta_description": "Гибридный сварной пластинчатый теплообменник, сочетающий в себе эффективность пластин и долговечность кожухотрубного аппарата для работы при высоких давлениях и температурах."
             },
             "es": {
-              "meta_title": "TP Soldado intercambiador de calor de placas",
-              "meta_description": "Hybrid soldado intercambiador de calor de placas combining placa eficiencia con shell-y-tube durability para alta-presion y alta-temperatura servicio."
+              "meta_title": "Intercambiador de calor de placas soldadas TP",
+              "meta_description": "Intercambiador de calor de placas soldadas híbrido que combina la eficiencia de las placas con la durabilidad de la carcasa y los tubos para servicio de alta presión y alta temperatura."
+            },
+            "fr": {
+              "meta_title": "Échangeur de chaleur à plaques soudées TP",
+              "meta_description": "Échangeur de chaleur hybride à plaques soudées combinant l'efficacité des plaques avec la durabilité des coques et des tubes pour un service à haute pression et à haute température."
+            },
+            "ar": {
+              "meta_title": "مبادل حراري للوحة الملحومة TP",
+              "meta_description": "مبادل حراري للوحة ملحومة هجين يجمع بين كفاءة اللوحة ومتانة الهيكل والأنبوب من أجل خدمة الضغط العالي ودرجة الحرارة العالية."
             }
           }
         },
@@ -1473,19 +1877,25 @@
             "en": "Plate Air Preheater",
             "zh": "空气预热器",
             "ru": "Пластинчатый подогреватель воздуха",
-            "es": "placa Air Preheater"
+            "es": "Precalentador de aire de placa",
+            "fr": "Préchauffeur d'air à plaques",
+            "ar": "لوحة التسخين الهوائي"
           },
           "short_description": {
             "en": "Modular plate air preheater for gas-to-gas heat recovery with strong corrosion control and energy-saving performance.",
             "zh": "适用于气-气余热回收、兼顾防露点腐蚀与节能环保的模块化板式空气预热器。",
             "ru": "Модульный пластинчатый воздухоподогреватель для рекуперации тепла при переходе от газа к газу с надежной защитой от коррозии и энергосберегающими характеристиками.",
-            "es": "Modular placa air preheater para gas-un-gas recuperacion de calor con fuerte corrosion control y ahorro energetico rendimiento."
+            "es": "Precalentador de aire de placa modular para recuperación de calor de gas a gas con un fuerte control de la corrosión y rendimiento de ahorro de energía.",
+            "fr": "Préchauffeur d'air à plaques modulaire pour la récupération de chaleur gaz à gaz avec un fort contrôle de la corrosion et des performances d'économie d'énergie.",
+            "ar": "جهاز التسخين المسبق للهواء ذو اللوحة المعيارية لاستعادة الحرارة من الغاز إلى الغاز مع التحكم القوي في التآكل والأداء الموفر للطاقة."
           },
           "full_description": {
             "en": "Plate air preheater is an energy-saving and environmentally friendly heat recovery device. Flat or corrugated plates are welded or mechanically fixed around the periphery to form plate packs, and the full unit adopts a modular building-block design with flexible configurations and strong structural adaptability. It is designed to recover waste heat from industrial exhaust gases and transfer it to incoming combustion or process air, improving thermal efficiency, reducing fresh fuel demand, and lowering emissions. With proprietary Air Film technology, it can effectively mitigate acid dew point corrosion and is widely used in refining, chemical, steel, metallurgy, and power industries.",
             "zh": "空气预热器是一种节能环保设备，使用平板或波纹板，板片周边通过焊接或机械固定形成板束，整机采用积木式设计，组合方式灵活多变，结构适应性强，特有的空气膜技术能够有效解决露点腐蚀问题，适用于炼油、化工、钢铁、冶金、电力工业等行业。通过回收高温烟气或工艺废气中的余热并预热空气，可有效减少新鲜燃料消耗，提高能源利用效率，并降低排放。",
             "ru": "Пластинчатый воздухоподогреватель является энергосберегающим и экологически чистым устройством рекуперации тепла. Плоские или гофрированные пластины привариваются или механически закрепляются по периферии, образуя пакеты пластин, а весь блок имеет модульную конструкцию из строительных блоков с гибкими конфигурациями и высокой структурной адаптируемостью. Он предназначен для рекуперации отходящего тепла из промышленных выхлопных газов и передачи его в поступающий для горения или технологический воздух, что повышает термический КПД, снижает потребность в свежем топливе и снижает выбросы. Благодаря запатентованной технологии Air Film он может эффективно смягчать кислотную коррозию точки росы и широко используется в нефтеперерабатывающей, химической, сталелитейной, металлургической и энергетической промышленности.",
-            "es": "placa air preheater es una ahorro energetico y environmentally friendly recuperacion de calor device. Flat o corrugated plates estan soldados o mechanically fixed around el periphery un form placa packs, y el full unidad adopts un modular building-block diseno con flexible configurations y fuerte structural adaptability. lo es disenado un recover waste heat de industrial exhaust gases y transfer lo una incoming combustion o proceso air, improving eficiencia termica, reducing fresh fuel demand, y lowering emissions. con proprietary Air Film tecnologia, lo puede effectively mitigate acid dew point corrosion y es widely utilizados en refining, quimico, steel, metallurgy, y power industrias."
+            "es": "El precalentador de aire de placas es un dispositivo de recuperación de calor que ahorra energía y es respetuoso con el medio ambiente. Las placas planas u corrugadas se sueldan o fijan mecánicamente alrededor de la periferia para formar paquetes de placas, y la unidad completa adopta un diseño de bloque de construcción modular con configuraciones flexibles y una fuerte adaptabilidad estructural. Está diseñado para recuperar el calor residual de los gases de escape industriales y transferirlo al aire de combustión o de proceso entrante, mejorando la eficiencia térmica, reduciendo la demanda de combustible fresco y disminuyendo las emisiones. Con la tecnología patentada Air Film, puede mitigar eficazmente la corrosión del punto de rocío ácido y se usa ampliamente en las industrias de refinación, química, acero, metalurgia y energía.",
+            "fr": "Le préchauffeur d'air à plaques est un dispositif de récupération de chaleur économe en énergie et respectueux de l'environnement. Les plaques plates ou ondulées sont soudées ou fixées mécaniquement autour de la périphérie pour former des paquets de plaques, et l'unité complète adopte une conception modulaire avec des configurations flexibles et une forte adaptabilité structurelle. Il est conçu pour récupérer la chaleur perdue des gaz d'échappement industriels et la transférer vers l'air de combustion ou de traitement entrant, améliorant ainsi l'efficacité thermique, réduisant la demande de carburant neuf et réduisant les émissions. Grâce à la technologie exclusive Air Film, il peut atténuer efficacement la corrosion par point de rosée acide et est largement utilisé dans les industries du raffinage, de la chimie, de l'acier, de la métallurgie et de l'énergie.",
+            "ar": "إن جهاز التسخين المسبق للهواء اللوحي عبارة عن جهاز لاستعادة الحرارة موفر للطاقة وصديق للبيئة. يتم لحام الألواح المسطحة أو المموجة أو تثبيتها ميكانيكيًا حول المحيط لتشكيل حزم الألواح، وتتبنى الوحدة الكاملة تصميمًا معياريًا لبنة البناء مع تكوينات مرنة وقدرة هيكلية قوية على التكيف. وهو مصمم لاستعادة الحرارة المهدورة من غازات العادم الصناعية ونقلها إلى الاحتراق الوارد أو الهواء المعالج، وتحسين الكفاءة الحرارية، وتقليل الطلب على الوقود الطازج، وخفض الانبعاثات. بفضل تقنية Air Film الخاصة، يمكنها التخفيف بشكل فعال من تآكل نقطة الندى الحمضية وتستخدم على نطاق واسع في صناعات التكرير والكيماويات والصلب والمعادن والطاقة."
           },
           "industries": [
             "2",
@@ -1519,12 +1929,28 @@
               "Безопасность и удобство обслуживания: цельносварные пакеты пластин обеспечивают хорошую герметичность, низкий риск утечек, снижение накопления золы, а также удобную очистку и обслуживание, включая возможность онлайн-очистки."
             ],
             "es": [
-              "alta Energy recuperacion: Waste heat es effectively reused, reducing fresh fuel demand y improving overall energy utilization.",
-              "Dew Point Corrosion Protection: el patented Air Film tecnologia ayuda un prevent acid dew point corrosion caused por locally baja temperatures.",
-              "Modular y Flexible Diseno: Building-block modular diseno improves maintainability, transportability, upgradeability, y flexibility en size adjustment.",
-              "Broad Gas-Gas Applicability: Suitable para multiple atmospheric y baja-presion gas-un-gas heat exchange servicios con ahorro energetico y environmental beneficios.",
-              "alta termico Rendimiento: placa transferencia de calor elements puede deliver 1 un 3 times el coeficiente de transferencia de calor de tubular elements mientras balancing perdida de presion mediante optimized canal geometria.",
-              "Safe y Maintainable: Totalmente soldado placa packs offer good sellado rendimiento, baja leakage risk, reduced ash accumulation, y convenient limpieza y mantenimiento, incluidos online limpieza options."
+              "Alta recuperación de energía: el calor residual se reutiliza eficazmente, lo que reduce la demanda de combustible fresco y mejora la utilización general de la energía.",
+              "Protección contra la corrosión del punto de rocío: la tecnología patentada Air Film ayuda a prevenir la corrosión del punto de rocío ácido causada por las bajas temperaturas locales.",
+              "Diseño modular y flexible: el diseño modular de bloques de construcción mejora la mantenibilidad, la transportabilidad, la capacidad de actualización y la flexibilidad en el ajuste de tamaño.",
+              "Amplia aplicabilidad gas-gas: Adecuado para múltiples tareas de intercambio de calor atmosférico y de gas a gas a baja presión con beneficios ambientales y de ahorro de energía.",
+              "Alto rendimiento térmico: los elementos de transferencia de calor de placa pueden ofrecer de 1 a 3 veces el coeficiente de transferencia de calor de los elementos tubulares y, al mismo tiempo, equilibran la caída de presión a través de una geometría de canal optimizada.",
+              "Seguro y fácil de mantener: los paquetes de placas completamente soldados ofrecen un buen rendimiento de sellado, bajo riesgo de fugas, reducción de la acumulación de cenizas y una limpieza y mantenimiento convenientes, incluidas opciones de limpieza en línea."
+            ],
+            "fr": [
+              "Récupération d'énergie élevée: la chaleur résiduelle est réutilisée efficacement, réduisant ainsi la demande de carburant neuf et améliorant l'utilisation globale de l'énergie.",
+              "Protection contre la corrosion au point de rosée: La technologie brevetée Air Film aide à prévenir la corrosion acide au point de rosée causée par des températures localement basses.",
+              "Conception modulaire et flexible: la conception modulaire par blocs améliore la maintenabilité, la transportabilité, l'évolutivité et la flexibilité d'ajustement de la taille.",
+              "Large applicabilité gaz-gaz: convient à de multiples tâches d'échange thermique gaz-gaz atmosphérique et basse pression avec des avantages en matière d'économie d'énergie et d'environnement.",
+              "Hautes performances thermiques: les éléments de transfert de chaleur à plaques peuvent fournir 1 à 3 fois le coefficient de transfert de chaleur des éléments tubulaires tout en équilibrant la chute de pression grâce à une géométrie de canal optimisée.",
+              "Sûr et maintenable: les paquets de plaques entièrement soudés offrent de bonnes performances d’étanchéité, un faible risque de fuite, une accumulation réduite de cendres et un nettoyage et un entretien pratiques, y compris des options de nettoyage en ligne."
+            ],
+            "ar": [
+              "استرداد عالي للطاقة: تتم إعادة استخدام الحرارة المهدرة بشكل فعال، مما يقلل الطلب على الوقود الطازج ويحسن الاستخدام العام للطاقة.",
+              "الحماية من التآكل عند نقطة الندى: تساعد تقنية Air Film الحاصلة على براءة اختراع على منع التآكل في نقطة الندى الحمضية الناتجة عن درجات الحرارة المنخفضة محليًا.",
+              "التصميم المعياري والمرن: يعمل التصميم المعياري الأساسي على تحسين إمكانية الصيانة وإمكانية النقل وإمكانية الترقية والمرونة في تعديل الحجم.",
+              "قابلية تطبيق الغاز على نطاق واسع: مناسب لمهام التبادل الحراري من غاز إلى غاز في الغلاف الجوي ومنخفض الضغط مع فوائد موفرة للطاقة وبيئية.",
+              "الأداء الحراري العالي: يمكن لعناصر نقل الحرارة للوحة أن توفر من 1 إلى 3 أضعاف معامل نقل الحرارة للعناصر الأنبوبية مع موازنة انخفاض الضغط من خلال هندسة القناة المُحسّنة.",
+              "آمنة وقابلة للصيانة: توفر عبوات الألواح الملحومة بالكامل أداءً جيدًا للإغلاق، ومخاطر منخفضة للتسرب، وتقليل تراكم الرماد، والتنظيف والصيانة المريحة، بما في ذلك خيارات التنظيف عبر الإنترنت."
             ]
           },
           "technical_parameters": {
@@ -1543,18 +1969,32 @@
               "板片材料": "304，316L，2205，310S，904L，Corten-A等"
             },
             "ru": {
-              "Расчетная температура": "-20 ~ 800℃",
-              "Расчетное давление": "Вакуум ~ 0,6 МПа",
-              "Макс. площадь": "40000 м²",
-              "Толщина пластины": "0,6 ~ 2,0 мм",
-              "Материал пластины": "304, 316Л, 2205, 310С, 904Л, Кортен-А"
+              "Design Temperature": "-20 ~ 800 ℃",
+              "Design Pressure": "Вакуум ~ 0,6 МПа",
+              "Max Area": "40000㎡",
+              "Plate Thickness": "0,6 ~ 2,0 мм",
+              "Plate Material": "304, 316Л, 2205, 310С, 904Л, Кортен-А"
             },
             "es": {
               "Design Temperature": "-20 ~ 800℃",
-              "Design Pressure": "Vacuum ~ 0.6MPa",
+              "Design Pressure": "Vacío ~ 0,6 MPa",
               "Max Area": "40000㎡",
-              "Plate Thickness": "0.6 ~ 2.0mm",
-              "Plate Material": "304, 316L, 2205, 310S, 904L, Corten-un"
+              "Plate Thickness": "0,6 ~ 2,0 mm",
+              "Plate Material": "304, 316L, 2205, 310S, 904L, Corten-A"
+            },
+            "fr": {
+              "Design Temperature": "-20 ~ 800 ℃",
+              "Design Pressure": "Vide ~ 0,6MPa",
+              "Max Area": "40 000㎡",
+              "Plate Thickness": "0,6 ~ 2,0 mm",
+              "Plate Material": "304, 316L, 2205, 310S, 904L, Corten-A"
+            },
+            "ar": {
+              "Design Temperature": "-20 ~ 800 درجة مئوية",
+              "Design Pressure": "فراغ ~ 0.6MPa",
+              "Max Area": "40000㎡",
+              "Plate Thickness": "0.6 ~ 2.0 ملم",
+              "Plate Material": "304، 316L، 2205، 310S، 904L، كورتين-A"
             }
           },
           "details": {
@@ -1602,16 +2042,44 @@
             ],
             "es": [
               {
-                "title": "que es placa Air Preheater?",
-                "content": "placa Air Preheater es un gas-un-gas intercambiador de calor utilizados un recover heat de caliente exhaust gas y transfer lo una incoming combustion o proceso air. lo typically operates en contraflujo o crossflow arrangements usando flat o corrugated metal plates que form alternating caliente y frio canales de flujo. por reque cubre waste heat, lo improves sistema eficiencia, reduce fuel consumption, y lowers greenhouse gas emissions."
+                "title": "¿Qué es el precalentador de aire de placas?",
+                "content": "El precalentador de aire de placas es un intercambiador de calor de gas a gas que se utiliza para recuperar calor de los gases de escape calientes y transferirlo al aire de combustión o de proceso entrante. Por lo general, opera en disposiciones de contraflujo o flujo cruzado utilizando placas metálicas planas o corrugadas que forman canales de flujo frío y caliente alternos. Al recuperar el calor residual, mejora la eficiencia del sistema, reduce el consumo de combustible y disminuye las emisiones de gases de efecto invernadero."
               },
               {
-                "title": "Why choose un placa air preheater?",
-                "content": "Comparard con convencional tubular air preheaters, placa air preheaters offer un much larger transferencia de calor surface area per unidad volume, higher coeficiente de transferencia de calors, compacto structure, lower peso, y fuerte flexibility mediante modular assembly. Air Film tecnologia, corrosion-resistant materiales, bypass regulation, y graded seleccion de materiales puede tambien ayudar address acid dew point corrosion y reduce lifecycle costos."
+                "title": "¿Por qué elegir un precalentador de aire de placas?",
+                "content": "En comparación con los precalentadores de aire tubulares convencionales, los precalentadores de aire de placas ofrecen una superficie de transferencia de calor mucho mayor por unidad de volumen, coeficientes de transferencia de calor más altos, estructura compacta, menor peso y gran flexibilidad a través del ensamblaje modular. La tecnología Air Film, los materiales resistentes a la corrosión, la regulación de derivación y la selección de materiales graduados también pueden ayudar a abordar la corrosión del punto de rocío ácido y reducir el costo del ciclo de vida."
               },
               {
-                "title": "How es lo disenado y manufactured?",
-                "content": "el producto es based en modular transferencia de calor unidades such como X brick, E brick, C brick, y S brick, which simplify transportation y en-site assembly para grande sistemas. Diseno tambien considers seleccion de materiales, airflow configuration, termico stress management, y corrosion protection. Measures such como termico compensation, expansion joints, baja-CTE material use, predictive analysis, y bypass control ayudar ensure durability, recuperacion de calor rendimiento, y operational seguridad."
+                "title": "¿Cómo se diseña y fabrica?",
+                "content": "El producto se basa en unidades modulares de transferencia de calor, como ladrillos X, ladrillos E, ladrillos C y ladrillos S, que simplifican el transporte y el montaje in situ para sistemas grandes. El diseño también considera la selección de materiales, la configuración del flujo de aire, el manejo del estrés térmico y la protección contra la corrosión. Medidas como la compensación térmica, las juntas de expansión, el uso de materiales con bajo CTE, el análisis predictivo y el control de derivación ayudan a garantizar la durabilidad, el rendimiento de la recuperación de calor y la seguridad operativa."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Qu'est-ce qu'un préchauffeur d'air à plaques?",
+                "content": "Le préchauffeur d'air à plaques est un échangeur de chaleur gaz-gaz utilisé pour récupérer la chaleur des gaz d'échappement chauds et la transférer vers l'air de combustion ou de traitement entrant. Il fonctionne généralement dans des configurations à contre-courant ou à flux transversal utilisant des plaques métalliques plates ou ondulées qui forment des canaux d'écoulement chaud et froid alternés. En récupérant la chaleur perdue, il améliore l’efficacité du système, réduit la consommation de carburant et diminue les émissions de gaz à effet de serre."
+              },
+              {
+                "title": "Pourquoi choisir un préchauffeur d'air à plaques?",
+                "content": "Par rapport aux préchauffeurs d'air tubulaires conventionnels, les préchauffeurs d'air à plaques offrent une surface de transfert de chaleur par unité de volume beaucoup plus grande, des coefficients de transfert de chaleur plus élevés, une structure compacte, un poids inférieur et une forte flexibilité grâce à un assemblage modulaire. La technologie Air Film, les matériaux résistants à la corrosion, la régulation de dérivation et la sélection de matériaux classés peuvent également aider à lutter contre la corrosion acide au point de rosée et à réduire le coût du cycle de vie."
+              },
+              {
+                "title": "Comment est-il conçu et fabriqué?",
+                "content": "Le produit est basé sur des unités de transfert de chaleur modulaires telles que la brique X, la brique E, la brique C et la brique S, qui simplifient le transport et l'assemblage sur site pour les grands systèmes. La conception prend également en compte la sélection des matériaux, la configuration du flux d'air, la gestion des contraintes thermiques et la protection contre la corrosion. Des mesures telles que la compensation thermique, les joints de dilatation, l'utilisation de matériaux à faible CTE, l'analyse prédictive et le contrôle de dérivation contribuent à garantir la durabilité, les performances de récupération de chaleur et la sécurité de fonctionnement."
+              }
+            ],
+            "ar": [
+              {
+                "title": "ما هو سخان الهواء لوحة؟",
+                "content": "جهاز التسخين المسبق للهواء اللوحي عبارة عن مبادل حراري من الغاز إلى الغاز يستخدم لاستعادة الحرارة من غاز العادم الساخن ونقلها إلى الاحتراق الوارد أو هواء المعالجة. تعمل عادةً في ترتيبات التدفق المعاكس أو التدفق المتقاطع باستخدام ألواح معدنية مسطحة أو مموجة تشكل قنوات تدفق ساخنة وباردة متناوبة. ومن خلال استعادة الحرارة المهدرة، فإنه يعمل على تحسين كفاءة النظام، ويقلل من استهلاك الوقود، ويقلل من انبعاثات الغازات الدفيئة."
+              },
+              {
+                "title": "لماذا تختار لوحة التسخين الهوائي؟",
+                "content": "بالمقارنة مع أجهزة التسخين المسبق للهواء الأنبوبي التقليدية، توفر أجهزة التسخين المسبق للهواء اللوحي مساحة أكبر بكثير لنقل الحرارة لكل وحدة حجم، ومعاملات نقل حرارة أعلى، وهيكل مدمج، ووزن أقل، ومرونة قوية من خلال التجميع المعياري. يمكن أن تساعد أيضًا تقنية Air Film والمواد المقاومة للتآكل وتنظيم الالتفافية واختيار المواد المتدرجة في معالجة التآكل الناتج عن نقطة الندى الحمضية وتقليل تكلفة دورة الحياة."
+              },
+              {
+                "title": "وكيف يتم تصميمها وتصنيعها؟",
+                "content": "يعتمد المنتج على وحدات نقل الحرارة المعيارية مثل الطوب X، والطوب E، والطوب C، والطوب S، مما يبسط عملية النقل والتجميع في الموقع للأنظمة الكبيرة. يأخذ التصميم أيضًا في الاعتبار اختيار المواد، وتكوين تدفق الهواء، وإدارة الإجهاد الحراري، والحماية من التآكل. تساعد إجراءات مثل التعويض الحراري، ومفاصل التمدد، واستخدام مواد CTE المنخفضة، والتحليل التنبؤي، والتحكم في التجاوز على ضمان المتانة، وأداء استعادة الحرارة، والسلامة التشغيلية."
               }
             ]
           },
@@ -1630,8 +2098,16 @@
               "meta_description": "Модульный пластинчатый воздухоподогреватель для рекуперации тепла промышленных отходов с высоким тепловым КПД и защитой от коррозии при точке росы."
             },
             "es": {
-              "meta_title": "placa Air Preheater",
-              "meta_description": "Modular placa air preheater para industrial recuperacion de calor residual con alta eficiencia termica y dew point corrosion protection."
+              "meta_title": "Precalentador de aire de placa",
+              "meta_description": "Precalentador de aire de placas modular para recuperación de calor residual industrial con alta eficiencia térmica y protección contra la corrosión del punto de rocío."
+            },
+            "fr": {
+              "meta_title": "Préchauffeur d'air à plaques",
+              "meta_description": "Préchauffeur d'air à plaques modulaire pour la récupération de chaleur industrielle avec une efficacité thermique élevée et une protection contre la corrosion du point de rosée."
+            },
+            "ar": {
+              "meta_title": "لوحة التسخين الهوائي",
+              "meta_description": "سخان هواء لوحي معياري لاستعادة حرارة النفايات الصناعية بكفاءة حرارية عالية وحماية من التآكل عند نقطة الندى."
             }
           }
         },

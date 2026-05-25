@@ -1,0 +1,39 @@
+{
+  "slug": "plate-tube-shell-heat-exchanger",
+  "name": "Échangeur de chaleur à plaques (tubes) et coque",
+  "full_description": "La page officielle explique que la plaque est le composant central de transfert de chaleur de l'échangeur de chaleur à plaques et calandre. THT répertorie les structures de plaques, notamment les ondulations en forme de chocolat, les ondulations horizontales, les ondulations obliques et les ondulations en forme de chevrons. Les plaques sont formées par pressage d’une seule pièce, puis découpées au laser pour des dimensions constantes. Après le soudage de chaque tube à plaque et faisceau de plaques, un test d'étanchéité à l'air de 0,6 à 0,7 MPa est effectué. La page indique qu'une partie de l'équipement de type obus peut résister à une pression de fonctionnement de 6,0 MPa et a été utilisée dans des projets nucléaires, militaires et d'autres projets d'équipement majeurs.",
+  "industries": [
+    "Pétrochimie",
+    "Énergie",
+    "Traitement chimique",
+    "Production d'énergie"
+  ],
+  "advantage": [
+    "Structures d'ondulation à plaques multiples pour différentes conditions de fonctionnement.",
+    "Le pressage de plaques monobloc et la découpe des bords au laser améliorent la cohérence dimensionnelle.",
+    "Chaque tube de plaque soudée et chaque faisceau de plaques sont soumis à des tests d'étanchéité à l'air.",
+    "Une partie de l'équipement de coque peut résister à une pression de fonctionnement de 6,0 MPa."
+  ],
+  "technical_parameters": {
+    "Plate Forms": "Ondulation en forme de chocolat, ondulation horizontale, ondulation oblique, ondulation à chevrons",
+    "Air-Tightness Test": "0,6-0,7MPa après soudage",
+    "Operating Pressure": "Certains équipements de type coque peuvent résister à 6,0 MPa"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur à plaques (tubes) et coque",
+    "meta_description": "Plate-forme d'échangeur de chaleur à plaques et plaques tubulaires utilisant des faisceaux de plaques soudées et des procédures d'inspection sophistiquées pour les applications spéciales."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate (Tube) Shell Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/plate_tube_shell_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

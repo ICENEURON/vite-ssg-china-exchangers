@@ -1,41 +1,41 @@
 {
   "slug": "air-heat-exchanger",
-  "name": "intercambiador de calor de aire",
-  "full_description": "la pagina oficial del producto describe el air intercambiador de calor como el main equipos utilizados en devices que cool o heat air con caliente y frio medios. lo puede heat air con alta-temperatura water, vapor, o alta-temperatura transferencia de calor oil, y cool air con salmuera o baja-temperatura water. ViEX destaca finned tubes como el nucleo transferencia de calor component y states el producto es especially suitable para caliente air calentamiento, aire acondicionado, enfriamiento, condensacion, dehumidification, y drying aplicaciones en environments con limited water buscar proveedores des.",
+  "name": "Intercambiador de calor de aire",
+  "full_description": "La página oficial del producto describe el intercambiador de calor de aire como el equipo principal utilizado en dispositivos que enfrían o calientan aire con medios fríos y calientes. Puede calentar aire con agua a alta temperatura, vapor o aceite de transferencia de calor a alta temperatura y enfriar aire con salmuera o agua a baja temperatura. ViEX destaca los tubos con aletas como el componente central de transferencia de calor y afirma que el producto es especialmente adecuado para aplicaciones de calefacción de aire caliente, aire acondicionado, refrigeración, condensación, deshumidificación y secado en entornos con fuentes de agua limitadas.",
   "industries": [
     "HVAC",
     "Procesamiento de alimentos",
-    "Alimentos y bebidas",
-    "Farmaceutica"
+    "Alimentos y Bebidas",
+    "Productos farmacéuticos"
   ],
   "advantage": [
-    "Suitable para calentamiento o enfriamiento air con multiple medios",
-    "alta heat exchange eficiencia de finned tube structure",
-    "pequeno termico resistance y alta strength",
-    "fuerte anti-corrosion rendimiento",
-    "disenado para confiable long-term frio y caliente servicio"
+    "Adecuado para calentar o enfriar aire con múltiples medios.",
+    "Alta eficiencia de intercambio de calor gracias a la estructura de tubo con aletas",
+    "Pequeña resistencia térmica y alta resistencia.",
+    "Fuerte rendimiento anticorrosión",
+    "Diseñado para servicio confiable en frío y calor a largo plazo"
   ],
   "technical_parameters": {
-    "Fin materials": "Aluminum alloy; Copper; Carbon steel; acero inoxidable",
-    "Finned tube types": "enrolladas L type; Bimetal rolled DR type; Embedded G type; Soldado type",
-    "Gas side pressure": "Within ±20kPa(g)",
-    "Tube side pressure": "menos than o equal un 2.5MPa",
-    "Base tube materials": "Carbon steel; Copper; Titanium; acero inoxidable"
+    "Fin materials": "Aleación de aluminio; Cobre; Acero carbono; Acero inoxidable",
+    "Finned tube types": "Herida tipo L; Tipo DR laminado bimetálico; Tipo G integrado; tipo soldado",
+    "Gas side pressure": "Dentro de ±20kPa(g)",
+    "Tube side pressure": "Menor o igual a 2.5MPa",
+    "Base tube materials": "Acero al carbono; Cobre; Titanio; Acero inoxidable"
   },
   "video_link": "",
   "details": [
     {
-      "title": "que does el producto do?",
-      "content": "lo es utilizados como el main equipos de intercambio de calor para enfriamiento o calentamiento air, incluidos caliente air calentamiento, aire acondicionado, enfriamiento, condensacion, dehumidification, y drying aplicaciones."
+      "title": "¿Qué hace el producto?",
+      "content": "Se utiliza como el principal equipo de intercambio de calor para enfriar o calentar aire, incluidas aplicaciones de calefacción de aire caliente, aire acondicionado, refrigeración, condensación, deshumidificación y secado."
     },
     {
-      "title": "que diseno points does ViEX emphasize?",
-      "content": "la pagina emphasizes finned tubes, especially commonly utilizados DR type bimetal rolled tubes, along con compacto structure, grande transferencia de calor area per unidad volume, y confiable long-term anti-corrosion rendimiento."
+      "title": "¿Qué puntos de diseño enfatiza ViEX?",
+      "content": "La página enfatiza los tubos con aletas, especialmente los tubos laminados bimetálicos tipo DR de uso común, junto con una estructura compacta, una gran área de transferencia de calor por unidad de volumen y un rendimiento anticorrosión confiable a largo plazo."
     }
   ],
   "seo_data": {
-    "meta_title": "Air intercambiador de calor | Siping ViEX",
-    "meta_description": "Finned-tube air intercambiador de calor para calentamiento, enfriamiento, condensacion, dehumidification, y drying servicios across industrial aplicaciones."
+    "meta_title": "Intercambiador de calor de aire | Siping ViEX",
+    "meta_description": "Intercambiador de calor de aire de tubos con aletas para tareas de calefacción, refrigeración, condensación, deshumidificación y secado en aplicaciones industriales."
   },
   "manufacturer": {
     "slug": "siping-viex-heat-exchange-equipment-co-ltd"

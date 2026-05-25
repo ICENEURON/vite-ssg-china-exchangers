@@ -1,27 +1,27 @@
 {
   "title": "Contáctenos | HeatEx Direct",
   "meta": {
-    "description": "Comuníquese con HeatEx Direct para consultas de abastecimiento de intercambiadores de calor industriales, actualizaciones de perfiles de fabricantes chinos, correcciones de páginas de productos, contenido del sector, soporte de cotizaciones y alianzas con proveedores.",
-    "keywords": "Contacto HeatEx Direct, consulta de abastecimiento de intercambiadores de calor, actualización de perfil de fabricante chino de intercambiadores de calor, cotización de intercambiador de calor industrial, alianza con proveedor"
+    "description": "Comuníquese con HeatEx Direct si tiene preguntas sobre abastecimiento de intercambiadores de calor industriales, actualizaciones de perfiles de fabricantes chinos, correcciones en la página de productos, contenido de la industria, soporte para cotizaciones y asociaciones con proveedores.",
+    "keywords": "Comuníquese con HeatEx Direct, consulta sobre abastecimiento de intercambiadores de calor, actualización del perfil del fabricante chino de intercambiadores de calor, cotización de intercambiadores de calor industriales, asociación con proveedores"
   },
   "og": {
     "title": "Contacto HeatEx Direct",
-    "description": "Comuníquese con HeatEx Direct sobre abastecimiento de intercambiadores de calor, perfiles de fabricantes, páginas de productos, alianzas de contenido o correcciones de información de proveedores."
+    "description": "Comuníquese con HeatEx Direct sobre abastecimiento de intercambiadores de calor, perfiles de fabricantes, páginas de productos, asociaciones de contenido o correcciones de información de proveedores."
   },
   "hero": {
     "title_prefix": "Contacto",
     "title_suffix": "",
-    "description": "ayuda a compradores globales a revisar fabricantes chinos de intercambiadores de calor, información de productos y materiales de apoyo. Contáctenos sobre consultas de abastecimiento, actualizaciones de fabricantes, envíos de artículos o correcciones.",
+    "description": "ayuda a los compradores globales a revisar los fabricantes chinos de intercambiadores de calor, la información de productos y los materiales de apoyo. Contáctenos sobre consultas de abastecimiento, actualizaciones de fabricantes, envíos de artículos o correcciones.",
     "copy_email": "Copiar",
-    "email_copied": "Copiado"
+    "email_copied": "copiado"
   },
   "paths": {
     "title": "¿En qué podemos ayudar?",
-    "description": "Elija la opción que mejor se adapte a su consulta, ya sea sobre abastecimiento, información de fabricantes, envíos de artículos o correcciones de páginas.",
+    "description": "Elija la opción que mejor se adapte a su consulta, ya sea sobre abastecimiento, información del fabricante, envío de artículos o correcciones de página.",
     "items": {
       "buyer": {
         "title": "Consultas sobre abastecimiento",
-        "description": "Pregunte sobre fabricantes listados, información de productos o proveedores chinos de intercambiadores de calor que aún no estén cubiertos en la plataforma.",
+        "description": "Pregunte sobre los fabricantes listados, la información de productos o los proveedores chinos de intercambiadores de calor que aún no están cubiertos en la plataforma.",
         "action": "Envíe un correo electrónico al equipo"
       },
       "supplier": {
@@ -43,7 +43,7 @@
   },
   "cta": {
     "email_label": "Envíenos un correo electrónico",
-    "note": "Revisamos los mensajes manualmente y damos seguimiento a consultas de abastecimiento, actualizaciones de perfil, envíos de artículos y solicitudes de soporte.",
+    "note": "Revisamos los mensajes manualmente y damos seguimiento a consultas de abastecimiento, actualizaciones de perfiles, envíos de artículos y solicitudes de soporte.",
     "checklist_title": "Detalles útiles para incluir",
     "checklist": [
       "Cuéntanos quién eres y qué necesitas.",

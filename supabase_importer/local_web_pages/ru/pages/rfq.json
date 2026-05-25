@@ -2,7 +2,7 @@
   "industries": [
     {
       "id": "hvac",
-      "label": "ОВиК и строительные услуги"
+      "label": "HVAC и строительные услуги"
     },
     {
       "id": "food",
@@ -38,7 +38,7 @@
     },
     {
       "id": "other",
-      "label": "Другое"
+      "label": "Другой"
     }
   ],
   "timelines": [
@@ -64,7 +64,7 @@
     },
     {
       "id": "other",
-      "label": "Другое"
+      "label": "Другой"
     }
   ],
   "quantities": [
@@ -86,7 +86,7 @@
     },
     {
       "id": "other",
-      "label": "Другое"
+      "label": "Другой"
     }
   ],
   "productTypes": [
@@ -116,7 +116,7 @@
     },
     {
       "id": "other",
-      "label": "Другое"
+      "label": "Другой"
     }
   ],
   "fluidTypes": [
@@ -152,19 +152,19 @@
     },
     {
       "id": "254smo",
-      "label": "254СМО"
+      "label": "254SMO"
     },
     {
       "id": "904l",
-      "label": "904Л"
+      "label": "904L"
     },
     {
       "id": "ta1",
-      "label": "ТА1"
+      "label": "TA1"
     },
     {
       "id": "ta9",
-      "label": "ТА9"
+      "label": "TA9"
     },
     {
       "id": "ni",
@@ -172,36 +172,36 @@
     },
     {
       "id": "c276",
-      "label": "С-276"
+      "label": "C-276"
     },
     {
       "id": "other",
-      "label": "Другое"
+      "label": "Другой"
     }
   ],
   "flangeStandards": [
     {
       "id": "asme_b16_5_2025",
-      "label": "АСМЭ Б 16.5-2025"
+      "label": "ASME B 16.5-2025"
     },
     {
       "id": "en1092_1_2024",
-      "label": "ЭН1092-1-2024"
+      "label": "EN1092-1-2024"
     },
     {
       "id": "gost_33259_2015",
-      "label": "ГОСТ 33259-2015."
+      "label": "GOST 33259-2015"
     },
     {
       "id": "other",
-      "label": "Другое"
+      "label": "Другой"
     }
   ],
   "steps": {
     "context": "Контекст",
     "specifications": "Параметры конструкции",
     "verification": "Проверка",
-    "submit": "Отправить"
+    "submit": "Представлять на рассмотрение"
   },
   "title": "Интеллектуальный конструктор запросов цен — получение индивидуальных расценок на теплообменники",
   "description": "Создайте профессиональный запрос ценового предложения за считанные минуты. Доступен анонимный режим. Получите предложения от проверенных производителей.",
@@ -217,7 +217,7 @@
     "companyPlaceholder": "",
     "countryLabel": "Страна/регион назначения",
     "industryLabel": "Отрасль/применение",
-    "countryPlaceholder": "Выбрать",
+    "countryPlaceholder": "Выбирать",
     "requiredHint": "",
     "customIndustryPlaceholder": "Укажите сферу деятельности...",
     "quantityLabel": "Требуемое количество",
@@ -228,7 +228,7 @@
   "step2": {
     "title": "2. Параметры конструкции и оборудования",
     "subtitle": "Предоставьте данные о горячей и холодной стороне среды, а также ключевые параметры оборудования.",
-    "unitMetric": "Метрическая система (°C, м³/h)",
+    "unitMetric": "Метрическая система (°C, м³/ч)",
     "unitImperial": "Британский (°F, галлон в минуту)",
     "thermalSpecsTitle": "Тепловые и эксплуатационные характеристики",
     "thermalSpecsSubtitle": "",
@@ -236,7 +236,7 @@
     "equipmentParamsSubtitle": "",
     "hotSide": "Горячая сторона",
     "coldSide": "Холодная сторона",
-    "requiredBadge": "Требуется",
+    "requiredBadge": "Необходимый",
     "requiredHint": "",
     "singlePhaseSharedBadge": "Однофазный: свойства розетки скопированы",
     "autoCopiedLabel": "",
@@ -246,12 +246,12 @@
     "fluidTypeLabel": "Тип жидкости",
     "inletFluidTypeLabel": "Входное отверстие",
     "outletFluidTypeLabel": "Выход",
-    "fluidTypePlaceholder": "Выбрать",
-    "massFlowLabel": "Массовый расход (кг/h)",
+    "fluidTypePlaceholder": "Выбирать",
+    "massFlowLabel": "Массовый расход (кг/ч)",
     "inletMassFlowLabel": "Входное отверстие",
     "outletMassFlowLabel": "Выход",
     "massFlowPlaceholder": "",
-    "volumeFlowLabel": "Объемный расход (м3/h)",
+    "volumeFlowLabel": "Объемный расход (м3/ч)",
     "flowRequirementLabel": "",
     "inletVolumeFlowLabel": "Входное отверстие",
     "outletVolumeFlowLabel": "Выход",
@@ -265,30 +265,30 @@
     "inletTempLabel": "Температура на входе (°C)",
     "outletTempLabel": "Температура на выходе (°C)",
     "temperatureLabel": "Температура (°С)",
-    "densityLabel": "Плотность (кг/m3)",
-    "specificHeatLabel": "Удельная теплоемкость (кДж/kg·°C)",
-    "conductivityLabel": "Теплопроводность (Вт/m·°C)",
+    "densityLabel": "Плотность (кг/м3)",
+    "specificHeatLabel": "Удельная теплоемкость (кДж/кг·°C)",
+    "conductivityLabel": "Теплопроводность (Вт/м·°C)",
     "viscosityLabel": "Динамическая вязкость (сП)",
     "plateMaterialLabel": "Материал пластины",
-    "plateMaterialPlaceholder": "Выбрать",
+    "plateMaterialPlaceholder": "Выбирать",
     "customPlateMaterialPlaceholder": "Уточните, пожалуйста, материал пластины...",
     "designCodeLabel": "Проектный код",
-    "designCodePlaceholder": "GB/T 151, ASME VIII, HG/T20592-2009",
-    "designPressureLabel": "Расчетное давление (МПа)",
-    "testPressureLabel": "Испытательное давление (МПа)",
+    "designCodePlaceholder": "ГБ/Т 151, КЗС0СЗК VIII, ХГ/Т20592-2009",
+    "designPressureLabel": "Расчетное давление (MPa)",
+    "testPressureLabel": "Испытательное давление (MPa)",
     "designTemperatureLabel": "Расчетная температура (°C)",
     "flangeStandardLabel": "Фланец стандартный",
-    "flangeStandardPlaceholder": "Выбрать",
+    "flangeStandardPlaceholder": "Выбирать",
     "customFlangeStandardLabel": "Другой стандарт фланца",
     "customFlangeStandardPlaceholder": "HG/T20592-2009",
     "flangeNominalDiameterLabel": "Номинальный диаметр фланца сопла",
-    "flangeNominalDiameterPlaceholder": "Ду100",
+    "flangeNominalDiameterPlaceholder": "DN100",
     "flangeMaterialLabel": "Материал фланца сопла",
     "flangeMaterialPlaceholder": "S31603",
     "flangePressureRatingLabel": "Номинальное давление фланца",
     "flangePressureRatingPlaceholder": "Ру16, Ру63, класс 150",
     "flangeTypeSealingFaceLabel": "Тип фланца/уплотняющая поверхность",
-    "flangeTypeSealingFacePlaceholder": "B/RF, WN/RF",
+    "flangeTypeSealingFacePlaceholder": "Б/РФ, ЗН/РФ",
     "heatLoadLabel": "Тепловая нагрузка (кВт)",
     "heatLoadPlaceholder": "1500",
     "additionalNotesLabel": "Дополнительные примечания/индивидуальные требования",
@@ -302,7 +302,7 @@
     "continueBtn": "Перейти к окончательной отправке",
     "verifySubtitle": "Чтобы обеспечить качественный подбор поставщиков и защитить свою личность, подтвердите свой адрес электронной почты.",
     "emailLabel": "Адрес электронной почты",
-    "emailPlaceholder": "электронная почта",
+    "emailPlaceholder": "Электронная почта",
     "freeEmailTitle": "Обнаружен личный адрес электронной почты.",
     "freeEmailDesc": "Ваш запрос будет распространен максимум на 2 фабрики. Используйте корпоративную электронную почту, чтобы связаться с более чем 5 проверенными фабриками.",
     "businessEmailTitle": "Деловая электронная почта поможет вашему запросу выделиться.",
@@ -310,7 +310,7 @@
     "sendBtn": "Отправить код подтверждения",
     "sendingBtn": "Отправка...",
     "codeSentTo": "Код отправлен на",
-    "accessCodeLabel": "Код подтверждения",
+    "accessCodeLabel": "Проверочный код",
     "verifyBtn": "Подтвердите свой адрес электронной почты",
     "verifyingBtn": "Проверка...",
     "errors": {
@@ -382,7 +382,7 @@
     "summaryInlet": "Температура на входе",
     "summaryOutlet": "Температура на выходе",
     "submitBtn": "Получить цену",
-    "otherPrefix": "Другое"
+    "otherPrefix": "Другой"
   },
   "parameterLabels": {
     "inlet": "Входное отверстие",
@@ -414,16 +414,16 @@
     "plateMaterial": "Материал пластины"
   },
   "success": {
-    "title": "Отправлено!",
+    "title": "Поданный!",
     "desc": "Мы успешно обработали ваш запрос цен. Мы свяжемся с вами в ближайшее время, чтобы помочь вам с дальнейшими шагами.",
     "homeBtn": "Вернуться домой"
   },
   "actions": {
     "back": "Назад",
-    "continue": "Продолжить"
+    "continue": "Продолжать"
   },
   "meta": {
-    "keywords": "запрос цен на теплообменник, запрос предложений по теплообменнику, предложение по пластинчатому теплообменнику, характеристики промышленных теплообменников, предложение производителя теплообменника"
+    "keywords": "запрос цен на теплообменник, теплообменник RFQ, предложение по пластинчатому теплообменнику, характеристики промышленных теплообменников, предложение производителя теплообменника"
   },
   "og": {
     "title": "Интеллектуальный конструктор запросов цен — получение индивидуальных расценок на теплообменники",

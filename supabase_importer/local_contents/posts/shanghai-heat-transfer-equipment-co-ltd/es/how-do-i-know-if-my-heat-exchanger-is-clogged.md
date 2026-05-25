@@ -2,13 +2,13 @@
 title: "¿Cómo sé si mi intercambiador de calor está obstruido?"
 slug: how-do-i-know-if-my-heat-exchanger-is-clogged
 date: 2024-10-15
-author: "Equipo de transferencia de calor de Shanghai Co., Ltd."
-reviewer: "Equipo de transferencia de calor de Shanghai Co., Ltd."
-readTime: 3 minutos
-excerpt: "Los intercambiadores de calor son componentes importantes en una variedad de aplicaciones industriales, ya que proporcionan una transferencia de calor eficiente entre dos fluidos. Entre ellos destaca el intercambiador de calor de placas soldadas…"
+author: "Shanghai Heat Transfer Equipment Co., Ltd."
+reviewer: "Shanghai Heat Transfer Equipment Co., Ltd."
+readTime: "3 minutos"
+excerpt: "Los intercambiadores de calor son componentes importantes en una variedad de aplicaciones industriales, ya que proporcionan una transferencia de calor eficiente entre dos fluidos."
 metaTitle: "¿Cómo sé si mi intercambiador de calor está obstruido?"
 metaDescription: "Los intercambiadores de calor son componentes importantes en una variedad de aplicaciones industriales, ya que proporcionan una transferencia de calor eficiente entre dos fluidos. Entre ellos, el intercambiador de calor de placas soldadas destaca por su diseño compacto y alta eficiencia térmica. Sin embargo, como cualquier sistema mecánico, puede experimentar..."
-keywords: ["SHPHE","Transferencia de calor de Shanghái","Intercambiador de calor","Intercambiador de calor de placas"]
+keywords: ["SHPHE","Shanghai Heat Transfer","Intercambiador de calor","Intercambiador de calor de placas"]
 cover: /static/content_posts_image/how-do-i-know-if-my-heat-exchanger-is-clogged/cover.png
 ---
 Los intercambiadores de calor son componentes importantes en una variedad de aplicaciones industriales, ya que proporcionan una transferencia de calor eficiente entre dos fluidos. Entre ellos, los intercambiadores de calor de placas soldadas destacan por su diseño compacto y alta eficiencia térmica. Sin embargo, como cualquier sistema mecánico, pueden experimentar problemas, incluida la obstrucción. Saber cómo identificar un intercambiador de calor de placas soldadas obstruido es fundamental para mantener un rendimiento óptimo y evitar costosos tiempos de inactividad.

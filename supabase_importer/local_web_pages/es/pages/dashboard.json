@@ -40,7 +40,7 @@
   "actions": {
     "sign_out": "desconectar",
     "view_code": "Ver código fuente",
-    "download": "Descargar proyecto",
+    "download": "Descargar Proyecto",
     "customize": "Personalizar tema"
   }
 }

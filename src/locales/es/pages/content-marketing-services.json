@@ -1,16 +1,16 @@
 {
   "title": "Enviar artículos de noticias de la industria | HeatEx Direct",
   "meta": {
-    "description": "Los fabricantes chinos de intercambiadores de calor pueden enviar artículos técnicos, actualizaciones de productos, estudios de caso y notas de mercado para revisión editorial y posible publicación en Noticias de la industria de HeatEx Direct.",
-    "keywords": "envío de artículos sobre intercambiadores de calor, envío de noticias de la industria, fabricantes chinos de intercambiadores de calor, artículos técnicos, actualizaciones de productos, estudios de caso, HeatEx Direct"
+    "description": "Los fabricantes chinos de intercambiadores de calor pueden enviar artículos técnicos, actualizaciones de productos, estudios de casos y notas de mercado para revisión editorial y posible publicación en HeatEx Direct Industry News.",
+    "keywords": "Envío de artículos sobre intercambiadores de calor, envío de noticias de la industria, fabricantes de intercambiadores de calor de China, artículos técnicos, actualizaciones de productos, estudios de casos, HeatEx Direct"
   },
   "og": {
     "title": "Enviar artículos de noticias de la industria | HeatEx Direct",
-    "description": "Envíe artículos de fabricantes, notas técnicas, estudios de caso y actualizaciones de productos para revisión editorial y posible publicación en Noticias de la industria de HeatEx Direct."
+    "description": "Envíe artículos de fabricantes, notas técnicas, estudios de casos y actualizaciones de productos para revisión editorial y posible publicación en HeatEx Direct Industry News."
   },
   "hero": {
     "title": "Enviar artículos de noticias de la industria",
-    "description": "<0>HeatEx</0> <1>Direct</1> acepta artículos técnicos, actualizaciones de productos, historias de proyectos, noticias de fábrica y casos de aplicación de fabricantes chinos de intercambiadores de calor para revisión editorial y publicación.",
+    "description": "<0>HeatEx</0> <1>Direct</1> acepta artículos técnicos, actualizaciones de productos, historias de proyectos, noticias de fábricas y casos de aplicaciones de fabricantes chinos de intercambiadores de calor para revisión editorial y publicación.",
     "buttons": {
       "start_publishing": "Cómo enviar"
     }
@@ -20,27 +20,27 @@
       "overview": [
         {
           "label": "Publicado en",
-          "value": "Los envíos aprobados se publican en Noticias de la industria."
+          "value": "Los envíos aprobados se publican en Industry News."
         },
         {
           "label": "Enfoque del lector",
-          "value": "El contenido está escrito para compradores, ingenieros, distribuidores y equipos de compras que investigan proveedores de intercambiadores de calor."
+          "value": "El contenido está escrito para compradores, ingenieros, distribuidores y equipos de adquisiciones que investigan proveedores de intercambiadores de calor."
         },
         {
           "label": "Regla editorial",
-          "value": "Preferimos material claro, relevante y verificable que ayude a los compradores a comprender productos, aplicaciones o capacidades del fabricante."
+          "value": "Preferimos material claro, relevante y verificable que ayude a los compradores a comprender los productos, las aplicaciones o la capacidad del fabricante."
         }
       ],
       "seo": {
         "title": "Muestre su experiencia",
-        "description": "Noticias de la industria ayuda a más compradores a ver su conocimiento técnico, experiencia de producto, casos de aplicación y capacidad de comunicación internacional."
+        "description": "Industry News ayuda a más compradores a ver su conocimiento técnico, experiencia en productos, casos de aplicación y capacidad de comunicación internacional."
       },
       "audience": {
         "title": "¿Quién lo leerá?",
-        "description": "Sus artículos están escritos para compradores, ingenieros, equipos de compras, distribuidores y propietarios de proyectos que buscan información práctica sobre intercambiadores de calor antes de contactar a proveedores.",
+        "description": "Sus artículos están escritos para compradores, ingenieros, equipos de adquisiciones, distribuidores y propietarios de proyectos que buscan información práctica sobre intercambiadores de calor antes de contactar a los proveedores.",
         "segments": [
           "Compradores industriales",
-          "Ingenieros",
+          "ingenieros",
           "Equipos de adquisiciones",
           "Distribuidores",
           "Propietarios del proyecto"
@@ -52,8 +52,8 @@
       },
       "verified": {
         "title": "Aumentar la visibilidad de la marca",
-        "description": "Un artículo publicado puede ayudar a que más compradores conozcan su marca, comprendan sus fortalezas y generen confianza en sus productos, aplicaciones y experiencia en proyectos.",
-        "badge": "NOTICIAS",
+        "description": "Un artículo publicado puede ayudar a que más compradores noten su marca, comprendan sus fortalezas y generen confianza en sus productos, aplicaciones y experiencia en proyectos.",
+        "badge": "NEWS",
         "tags": {
           "visibility": "Noticias de la industria",
           "trust": "Revisión editorial",
@@ -64,7 +64,7 @@
   },
   "guidelines": {
     "title": "Directrices de envío",
-    "description": "Envíe archivos de artículos editables, medios claros y contenido útil para compradores de intercambiadores de calor.",
+    "description": "Envíe archivos de artículos editables, claramente multimedia y contenido que sea útil para los compradores de intercambiadores de calor.",
     "accepted": {
       "title": "Lo que aceptamos",
       "formats": {
@@ -79,15 +79,15 @@
         "items": [
           "Envíe el cuerpo del artículo como un archivo de Word editable.",
           "Envíe imágenes como archivos JPG, PNG o WebP originales con nombres de archivo claros.",
-          "Incluya el nombre de su empresa, la persona de contacto, el sitio web y cualquier fabricante o página de producto relacionada."
+          "Incluya el nombre de su empresa, la persona de contacto, el sitio web y cualquier fabricante o página de producto relacionado."
         ]
       },
       "topics": {
         "title": "Temas adecuados",
         "items": [
-          "Artículos técnicos sobre diseño, materiales, aplicaciones, mantenimiento, pruebas o resolución de problemas de intercambiadores de calor",
+          "Artículos técnicos sobre diseño, materiales, aplicaciones, mantenimiento, pruebas o resolución de problemas de intercambiadores de calor.",
           "Actualizaciones de fábrica, capacidad de producción, nuevas series de productos, certificados, exposiciones o referencias de proyectos importantes.",
-          "Estudios de caso de aplicación, notas sobre el mercado chino de intercambiadores de calor y tendencias de la industria"
+          "Estudios de casos de aplicación, notas del mercado de intercambiadores de calor de China y tendencias de la industria"
         ]
       }
     },
@@ -95,13 +95,13 @@
       "title": "Lo que no podemos usar",
       "formats": {
         "title": "Archivos no compatibles",
-        "description": "Los artículos solo en PDF, las capturas de pantalla o los enlaces de Google Docs <0>no se aceptan</0> como envío principal. Necesitamos archivos de Word editables para revisarlos, formatearlos y traducirlos."
+        "description": "Los artículos solo en PDF, las capturas de pantalla o los enlaces de Google Docs <0> no se aceptan </0> como envío principal. Necesitamos archivos de Word editables para revisarlos, formatearlos y traducirlos."
       },
       "content": {
         "title": "Contenido que evitamos",
         "items": [
           "Textos publicitarios puros, lemas, clasificaciones exageradas o afirmaciones sin fundamento como 'No. 1' o 'mejor en China'",
-          "Texto genérico de IA sin detalles técnicos reales, contexto de fábrica, datos de producto, imágenes o valor para el comprador",
+          "Texto de IA genérico sin detalles técnicos reales, contexto de fábrica, datos de producto, imágenes o valor para el comprador.",
           "Noticias de la empresa no relacionadas, artículos copiados de terceros, datos confidenciales de clientes o contenido que no se puede comprobar"
         ]
       }
@@ -112,7 +112,7 @@
     "steps": [
       {
         "title": "Prepare su artículo",
-        "description": "Envíe el artículo como un archivo .DOCX o .DOC editable, con imágenes y datos de la empresa incluidos."
+        "description": "Envíe el artículo como un archivo.DOCX o.DOC editable, con imágenes y detalles de la empresa incluidos."
       },
       {
         "title": "Envíe un correo electrónico al equipo",
@@ -120,12 +120,12 @@
       },
       {
         "title": "Revisión editorial",
-        "description": "Revisamos la relevancia, claridad, calidad de archivo y valor para el comprador antes de la publicación."
+        "description": "Revisamos el artículo para determinar su relevancia, claridad, calidad del archivo y valor para el comprador antes de su publicación."
       }
     ]
   },
   "cta": {
     "title": "Envíanos tu artículo",
-    "description": "Envíe por correo electrónico el archivo editable del artículo, imágenes de apoyo, nombre de la empresa y persona de contacto. Revisaremos si es adecuado para Noticias de la industria."
+    "description": "Envíe por correo electrónico el archivo de su artículo editable, las imágenes de respaldo, el nombre de la empresa y la persona de contacto. Revisaremos si es adecuado para Industry News."
   }
 }

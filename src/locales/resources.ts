@@ -2,6 +2,8 @@ import en from './en';
 import zh from './zh';
 import ru from './ru';
 import es from './es';
+import fr from './fr';
+import ar from './ar';
 
 export const resources = {
   en: {
@@ -15,6 +17,12 @@ export const resources = {
   },
   es: {
     translation: es,
+  },
+  fr: {
+    translation: fr,
+  },
+  ar: {
+    translation: ar,
   },
 } as const;
 

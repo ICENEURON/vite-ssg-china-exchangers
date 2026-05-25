@@ -4,6 +4,11 @@ import fs from 'fs';
 import path from 'path';
 import mime from 'mime-types';
 import { fileURLToPath } from 'url';
+import {
+    loadAssetSyncManifest,
+    shouldProcessContentStoragePath,
+    shouldProcessLocalAsset
+} from '../src/scripts/asset-sync-manifest.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -34,6 +39,8 @@ const TARGET_BUCKET = 'assets';
 const CONTENTS_BUCKET = 'contents';
 const WEBPAGES_BUCKET = 'webpages';
 const INDUSTRIES_JSON_PATH = path.join(__dirname, 'web_data', 'industries.json');
+const assetSyncManifest = loadAssetSyncManifest();
+const VERBOSE = process.env.SYNC_VERBOSE === '1';
 
 const FOLDER_UPLOAD_TARGETS = [
     {
@@ -205,7 +212,11 @@ async function uploadLocalFolderToBucket(localFolder, bucket, options = {}) {
     }
 
     const files = getFilesRecursively(localRoot)
-        .filter(filePath => !options.ignoredExtensions?.has(path.extname(filePath).toLowerCase()));
+        .filter(filePath => !options.ignoredExtensions?.has(path.extname(filePath).toLowerCase()))
+        .filter(filePath => {
+            const storagePath = getStoragePath(localRoot, filePath);
+            return options.storagePathFilter ? options.storagePathFilter(storagePath) : true;
+        });
     const expectedStoragePaths = new Set(files.map(filePath => getStoragePath(localRoot, filePath)));
     console.log(`\n📤 开始上传 ${localFolder} 到 ${bucket} bucket，共 ${files.length} 个文件...`);
 
@@ -231,10 +242,17 @@ async function uploadLocalFolderToBucket(localFolder, bucket, options = {}) {
         }
 
         successCount += 1;
-        console.log(`✅ 已上传: ${bucket}/${storagePath}`);
+        if (VERBOSE) {
+            console.log(`✅ 已上传: ${bucket}/${storagePath}`);
+        }
     }
 
     console.log(`📦 ${bucket} bucket 上传完成：成功 ${successCount} 个，失败 ${failureCount} 个。`);
+
+    if (options.skipOrphanCleanup) {
+        console.log(`⏭️ ${bucket} bucket 使用资产清单过滤，跳过远端冗余文件删除。`);
+        return;
+    }
 
     await removeOrphanedStorageFiles(bucket, expectedStoragePaths);
 }
@@ -246,8 +264,14 @@ async function uploadConfiguredLocalFolders() {
             continue;
         }
 
+        const filtersContentAssets = target.localFolder === 'local_contents' && assetSyncManifest.enabled;
+
         await uploadLocalFolderToBucket(target.localFolder, target.bucket, {
-            ignoredExtensions: target.ignoredExtensions
+            ignoredExtensions: target.ignoredExtensions,
+            storagePathFilter: filtersContentAssets
+                ? storagePath => shouldProcessContentStoragePath(assetSyncManifest, storagePath)
+                : undefined,
+            skipOrphanCleanup: filtersContentAssets
         });
     }
 }
@@ -414,6 +438,13 @@ async function processAndUploadAsset(localAssetsDir, mfgSlug, assetData, foreign
 
     // 拼接云端 Storage 路径: <slug>/<folder>/<file>
     const storagePath = `${mfgSlug}/${normalizedFolder}/${file_name}`;
+
+    if (!shouldProcessLocalAsset(assetSyncManifest, storagePath)) {
+        if (VERBOSE) {
+            console.log(`⏭️ 跳过未列入资产清单的文件: ${TARGET_BUCKET}/${storagePath}`);
+        }
+        return;
+    }
 
     if (!fs.existsSync(localPath)) {
         console.warn(`⚠️ 找不到本地文件: ${localPath}，跳过此附件。`);

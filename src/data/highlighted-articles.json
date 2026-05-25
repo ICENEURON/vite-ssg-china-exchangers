@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24",
+  "lastUpdated": "2026-05-25",
   "description": "Automatically generated homepage highlight configuration using the latest news article for each company. Shanghai Heat Transfer Equipment Co., Ltd. is pinned first.",
   "items": [
     {
@@ -7,8 +7,10 @@
       "companyId": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
       "companySlug": "shanghai-heat-transfer-equipment-co-ltd",
       "companyName": {
+        "ar": "Shanghai Heat Transfer Equipment Co., Ltd.",
         "en": "Shanghai Heat Transfer Equipment Co., Ltd.",
-        "es": "Shanghai transferencia de calor equipos Co., Ltd.",
+        "es": "Shanghai Heat Transfer Equipment Co., Ltd.",
+        "fr": "Shanghai Heat Transfer Equipment Co., Ltd.",
         "ru": "Shanghai Heat Transfer Equipment Co., Ltd.",
         "zh": "上海板换机械设备有限公司"
       },
@@ -33,8 +35,10 @@
       "companyId": "749dc7dd-abfc-4ee5-869b-7e8e9d8d953a",
       "companySlug": "shanghai-accessen-co-ltd",
       "companyName": {
+        "ar": "Shanghai Accessen Co., Ltd.",
         "en": "Shanghai Accessen Co., Ltd.",
         "es": "Shanghai Accessen Co., Ltd.",
+        "fr": "Shanghai Accessen Co., Ltd.",
         "ru": "Shanghai Accessen Co., Ltd.",
         "zh": "上海艾克森股份有限公司"
       },
@@ -59,8 +63,10 @@
       "companyId": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
       "companySlug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
       "companyName": {
+        "ar": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
         "en": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
         "es": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
+        "fr": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
         "ru": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
         "zh": "兰州兰石换热设备有限责任公司"
       },
@@ -88,7 +94,9 @@
         "en": "HeatEx Direct",
         "zh": "HeatEx Direct",
         "ru": "HeatEx Direct",
-        "es": "HeatEx Direct"
+        "es": "HeatEx Direct",
+        "fr": "HeatEx Direct",
+        "ar": "HeatEx Direct"
       },
       "contentType": "news",
       "articleSlug": "large-spiral-plate-heat-exchanger-delivery-for-mining-service",
@@ -111,8 +119,10 @@
       "companyId": "5fb41b48-d202-46e1-b819-0de12c1152fa",
       "companySlug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
       "companyName": {
+        "ar": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
         "en": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
-        "es": "Siping Juyuan Hanyang intercambiador de calor de placas Co., Ltd.",
+        "es": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
+        "fr": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
         "ru": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
         "zh": "四平市巨元瀚洋板式换热器有限公司"
       },

@@ -1,19 +1,19 @@
 ---
-title: "Core Power Choice:PCHEpermite actualizaciones de alta eficiencia en ciclos Brayton de CO₂ supercrítico"
+title: "Core Power Choice: PCHE permite actualizaciones de alta eficiencia en ciclos Brayton de CO₂"
 slug: core-power-choice-pche-enables-high-efficiency-upgrades-in-supercritical-co2-brayton-cycles
 date: 2026-02-02
-author: "Equipo de transferencia de calor de Shanghai Co., Ltd."
-reviewer: "Equipo de transferencia de calor de Shanghai Co., Ltd."
-readTime: 4 minutos
-excerpt: "Bajo la guía de los objetivos globales de neutralidad de carbono y pico de carbono, la tecnología de generación de energía del ciclo Brayton de dióxido de carbono supercrítico (S-CO₂), con su alta eficiencia térmica, co…"
-metaTitle: "Core Power Choice:PCHEpermite actualizaciones de alta eficiencia en ciclos Brayton de CO₂ supercrítico"
+author: "Shanghai Heat Transfer Equipment Co., Ltd."
+reviewer: "Shanghai Heat Transfer Equipment Co., Ltd."
+readTime: "4 minutos"
+excerpt: "Bajo la guía de los objetivos globales de neutralidad de carbono y pico de carbono, la tecnología de generación de energía del ciclo Brayton de dióxido de carbono supercrítico (S-CO₂), con su alta..."
+metaTitle: "Core Power Choice: PCHE permite actualizaciones de alta eficiencia en ciclos Brayton de CO₂ supercríticos"
 metaDescription: "Bajo la guía de los objetivos globales de neutralidad y pico de carbono, la tecnología de generación de energía del ciclo Brayton con dióxido de carbono supercrítico (S-CO₂), con su alta eficiencia térmica, diseño de sistema compacto y bajo consumo de agua, se ha convertido en un foco central de la transición energética. El Pri..."
-keywords: ["SHPHE","Transferencia de calor de Shanghái","Intercambiador de calor","Intercambiador de calor de placas"]
+keywords: ["SHPHE","Shanghai Heat Transfer","Intercambiador de calor","Intercambiador de calor de placas"]
 cover: /static/content_posts_image/core-power-choice-pche-enables-high-efficiency-upgrades-in-supercritical-co2-brayton-cycles/cover.jpg
 ---
 Bajo la guía de los objetivos globales de neutralidad y pico de carbono, la tecnología de generación de energía del ciclo Brayton con dióxido de carbono supercrítico (S-CO₂) se ha convertido en un foco central de la transición energética debido a su alta eficiencia térmica, diseño de sistema compacto y bajo consumo de agua. El intercambiador de calor de circuito impreso (PCHE), como componente clave de intercambio de calor de este ciclo, determina directamente el rendimiento y el valor comercial del sistema.
 
-Este artículo analiza el flujo del proceso del ciclo, explica las limitaciones de los intercambiadores de calor tradicionales en esta aplicación y demuestra las principales ventajas técnicas dePCHE.
+Este artículo analiza el flujo del proceso del ciclo, explica las limitaciones de los intercambiadores de calor tradicionales en esta aplicación y demuestra las principales ventajas técnicas de PCHE.
 
 ## 1. Proceso central de generación de energía del ciclo Brayton con CO₂ supercrítico
 
@@ -25,13 +25,13 @@ Los recuperadores y el enfriador manejan más del 90% del trabajo de intercambio
 
 ## 2. Limitaciones de los intercambiadores de calor tradicionales
 
-Las condiciones del ciclo de CO₂ supercrítico se caracterizan por alta presión (8-23 MPa, alcanzando más de 30 MPa en el extremo superior), alta temperatura (500-800 °C), propiedades del fluido que cambian rápidamente y pequeños diferenciales de temperatura para el intercambio de calor. Los intercambiadores de calor tradicionales luchan por adaptarse a estas condiciones. Los intercambiadores de calor de carcasa y tubos requieren paredes significativamente engrosadas bajo alta presión, y un recuperador de este tipo de 50 MW puede alcanzar un volumen de varios cientos de metros cúbicos, más de cinco veces el de unPCHE, lo que resulta en una huella muy grande.
+Las condiciones del ciclo supercrítico de CO₂ se caracterizan por alta presión (8-23 MPa, alcanzando más de 30 MPa en el extremo superior), alta temperatura (500-800 °C), propiedades del fluido que cambian rápidamente y pequeños diferenciales de temperatura para el intercambio de calor. Los intercambiadores de calor tradicionales luchan por adaptarse a estas condiciones. Los intercambiadores de calor de carcasa y tubos requieren paredes significativamente engrosadas bajo alta presión, y un recuperador de este tipo de 50 MW puede alcanzar un volumen de varios cientos de metros cúbicos, más de cinco veces el de un PCHE, lo que resulta en una huella muy grande.
 
-Los intercambiadores de calor de placas y aletas tienen costuras soldadas que son propensas a sufrir fugas y una tolerancia de presión máxima inferior a 15 MPa, lo que no puede cumplir con los requisitos de los sistemas de media y alta presión. Además, los intercambiadores tradicionales suelen tener bajos coeficientes de transferencia de calor y grandes caídas de presión, lo que representa más del 60 % de la pérdida total de presión del sistema. Según las estimaciones, esto puede provocar una caída de entre 3 y 5 puntos porcentuales en la eficiencia neta de un sistema de 10 MW.
+Los intercambiadores de calor de placas y aletas tienen costuras soldadas que son propensas a sufrir fugas y una tolerancia de presión máxima inferior a 15 MPa, que no puede cumplir con los requisitos de los sistemas de media y alta presión. Además, los intercambiadores tradicionales suelen tener bajos coeficientes de transferencia de calor y grandes caídas de presión, lo que representa más del 60 % de la pérdida total de presión del sistema. Según las estimaciones, esto puede provocar una caída de entre 3 y 5 puntos porcentuales en la eficiencia neta de un sistema de 10 MW.
 
 Además, con una superficie específica inferior a 500 m²/m³, los intercambiadores de calor tradicionales no cumplen con las necesidades de integración de sistemas compactos.
 
-## 3. Ventajas técnicas principales dePCHE
+## 3. Ventajas técnicas principales de PCHE
 
 Los PCHE se fabrican utilizando una combinación de tecnologías de grabado químico y unión por difusión al vacío, junto con un diseño de microcanales que normalmente oscila entre 0,1 y 2 mm. Esto los hace muy adecuados para las exigentes condiciones operativas de los sistemas de CO₂ supercríticos. Las principales ventajas técnicas incluyen:
 
@@ -41,7 +41,7 @@ Los PCHE pueden soportar presiones de hasta 100 MPa y temperaturas superiores a 
 
 ### Eficiencia de transferencia de calor ultraalta
 
-Los PCHE ofrecen una eficiencia de transferencia de calor ultraalta, con coeficientes de transferencia de calor que oscilan entre 2000 y 5000 W/(m²·K), que es de 2 a 4 veces mayor que el de los intercambiadores de calor convencionales. Las diferencias de temperatura de aproximación pueden ser tan bajas como 2-3 K. En sistemas de escala de megavatios, los recuperadoresPCHEpueden alcanzar hasta un 95 % de efectividad, lo que resulta en una mejora de la eficiencia térmica de 20 %-25 %.
+Los PCHE ofrecen una eficiencia de transferencia de calor ultraalta, con coeficientes de transferencia de calor que oscilan entre 2000 y 5000 W/(m²·K), que es de 2 a 4 veces mayor que el de los intercambiadores de calor convencionales. Las diferencias de temperatura de aproximación pueden ser tan bajas como 2-3 K. En sistemas de escala de megavatios, los recuperadores PCHE pueden alcanzar hasta un 95% de efectividad, lo que resulta en una mejora de la eficiencia térmica del 20%-25%.
 
 ### Baja caída de presión y eficiencia energética mejorada
 
@@ -55,10 +55,10 @@ Los PCHE presentan una superficie específica superior a 2500 m²/m³, lo que pe
 
 Los PCHE se pueden fabricar a medida utilizando acero inoxidable, aleaciones a base de níquel y otros materiales adecuados. Esto garantiza un rendimiento confiable bajo propiedades de fluidos que cambian rápidamente y compatibilidad con diversos entornos de trabajo.
 
-<img src="/static/content_posts_image/core-power-choice-pche-enables-high-efficiency-upgrades-in-supercritical-co2-brayton-cycles/image-02.png" alt="2_pche_2" width="640" />
+<img src="/static/content_posts_image/core-power-choice-pche-enables-high-efficiency-upgrades-in-supercritical-co2-brayton-cycles/image-02.png" alt="2_pche_2" ancho="640" />
 
 ## 4. Conclusión
 
-Actualmente, los productosPCHEfabricados por Shanghai Heat Transfer Equipment Co., Ltd. han satisfecho las necesidades de los sistemas de ciclo Brayton de CO₂ supercrítico para componentes centrales de intercambio de calor, incluido el recuperador de alta temperatura, el recuperador de baja temperatura y el preenfriador. Estas unidades pueden adaptarse a las duras condiciones operativas del fluido de trabajo de CO₂ supercrítico, incluidas alta presión, alta temperatura y propiedades muy variables, al tiempo que ofrecen un excelente rendimiento de transferencia de calor, pérdidas de caída de presión controlables y una gran adaptabilidad a condiciones cambiantes.
+Actualmente, los productos PCHE fabricados por Shanghai Heat Transfer Equipment Co., Ltd. han satisfecho las necesidades de los sistemas de ciclo Brayton de CO₂ supercrítico para componentes centrales de intercambio de calor, incluido el recuperador de alta temperatura, el recuperador de baja temperatura y el preenfriador. Estas unidades pueden adaptarse a las duras condiciones operativas del fluido de trabajo de CO₂ supercrítico, incluidas alta presión, alta temperatura y propiedades muy variables, al tiempo que ofrecen un excelente rendimiento de transferencia de calor, pérdidas de caída de presión controlables y una gran adaptabilidad a condiciones cambiantes.
 
-Shanghai Heat Transfer Equipment Co., Ltd. puede proporcionar soluciones personalizadas para ayudar a que su proyecto logre una mayor eficiencia térmica, un menor consumo de energía y costos optimizados. ElegirPCHEsignifica elegir un futuro energético eficiente, confiable y con bajas emisiones de carbono.
+Shanghai Heat Transfer Equipment Co., Ltd. puede proporcionar soluciones personalizadas para ayudar a que su proyecto logre una mayor eficiencia térmica, un menor consumo de energía y costos optimizados. Elegir PCHE significa elegir un futuro energético eficiente, confiable y con bajas emisiones de carbono.

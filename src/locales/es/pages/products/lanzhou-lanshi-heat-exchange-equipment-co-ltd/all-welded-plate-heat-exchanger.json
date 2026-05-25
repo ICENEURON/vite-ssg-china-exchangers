@@ -4,11 +4,11 @@
   "full_description": "La página oficial afirma que la placa está formada por una línea de producción automática y los paquetes de placas se sueldan mediante una máquina soldadora automática controlada por programa. Todos los haces de placas están soldados dentro de la carcasa y la placa de cubierta se puede abrir para su limpieza mecánica. El producto se posiciona como una alternativa compacta y eficiente a los intercambiadores de calor de carcasa y tubos para calefacción central, metalurgia, petroquímica, química, energía eléctrica, medicina, alimentos y servicios relacionados.",
   "industries": [
     "HVAC",
-    "Petroquimica",
-    "Procesamiento quimico",
-    "Alimentos y bebidas",
-    "Farmaceutica",
-    "Generacion electrica"
+    "petroquímica",
+    "Procesamiento químico",
+    "Alimentos y Bebidas",
+    "Productos farmacéuticos",
+    "Generación de energía"
   ],
   "advantage": [
     "Los haces de placas están completamente soldados dentro del armazón.",

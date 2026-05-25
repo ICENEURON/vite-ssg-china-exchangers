@@ -4,12 +4,12 @@
   "full_description": "La página oficial describe este producto como un intercambiador de calor ensamblado a partir de múltiples placas de intercambio de calor selladas con juntas y comprimidas con pernos de sujeción. Los orificios de las esquinas forman canales continuos que distribuyen los medios entre placas alternas para que dos fluidos puedan fluir en contracorriente. El producto se presenta para calefacción central, aire acondicionado, energía nuclear, metalurgia, petróleo, industria química, transporte marítimo, medicina, alimentos, papel, textiles y otras condiciones de proceso que incluyen calefacción, refrigeración, evaporación, condensación, esterilización y recuperación de calor residual.",
   "industries": [
     "HVAC",
-    "Petroquimica",
-    "Maritimo",
-    "Procesamiento quimico",
-    "Alimentos y bebidas",
-    "Farmaceutica",
-    "Generacion electrica"
+    "petroquímica",
+    "marina",
+    "Procesamiento químico",
+    "Alimentos y Bebidas",
+    "Productos farmacéuticos",
+    "Generación de energía"
   ],
   "advantage": [
     "Los canales de placa alternos permiten la transferencia de calor a contracorriente entre dos medios.",

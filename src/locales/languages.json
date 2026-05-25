@@ -10,5 +10,11 @@
   },
   "es": {
     "name": "Español"
+  },
+  "fr": {
+    "name": "Français"
+  },
+  "ar": {
+    "name": "العربية"
   }
 }

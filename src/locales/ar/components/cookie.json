@@ -1,0 +1,36 @@
+{
+  "consentModal": {
+    "title": "سياسة ملفات تعريف الارتباط",
+    "description": "تستخدم HeatEx Direct ملفات تعريف الارتباط لتشغيل الموقع وفهم طريقة استخدامه. باستخدام هذا الموقع واختيار قبول الشروط، فإنك توافق على <a href='{{privacyPath}}'>سياسة الخصوصية</a> و<a href='{{termsPath}}'>شروط الاستخدام</a> الخاصة بنا.",
+    "acceptAllBtn": "قبول الشروط",
+    "acceptNecessaryBtn": "الضرورية فقط",
+    "showPreferencesBtn": "معرفة المزيد",
+    "closeIconLabel": "إغلاق"
+  },
+  "preferencesModal": {
+    "title": "تفضيلات ملفات تعريف الارتباط",
+    "acceptAllBtn": "قبول الكل",
+    "acceptNecessaryBtn": "الضرورية فقط",
+    "savePreferencesBtn": "حفظ",
+    "closeIconLabel": "إغلاق",
+    "sections": {
+      "necessary": {
+        "title": "ملفات تعريف الارتباط الضرورية",
+        "description": "مطلوبة للميزات الأساسية في الموقع ولتذكر اختيارك بشأن ملفات تعريف الارتباط."
+      },
+      "analytics": {
+        "title": "ملفات تعريف ارتباط التحليلات",
+        "description": "تساعدنا على فهم كيفية استخدام الزوار للموقع حتى نتمكن من تحسين المحتوى والتنقل.",
+        "tableHeaders": {
+          "name": "ملف تعريف الارتباط",
+          "domain": "النطاق",
+          "desc": "الغرض"
+        },
+        "tableBody": {
+          "name": "_ga, _ga_*",
+          "desc": "يقيس استخدام الموقع عند قبول التحليلات."
+        }
+      }
+    }
+  }
+}

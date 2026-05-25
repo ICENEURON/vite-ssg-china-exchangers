@@ -1,0 +1,33 @@
+{
+  "title": "Connectez-vous à votre compte",
+  "meta": {
+    "description": "Connectez-vous pour accéder à votre tableau de bord personnel et explorez les composants de l'interface utilisateur React, Vite, TailwindCSS et Shadcn.",
+    "keywords": "connexion, connexion, authentification, réaction, tableau de bord, compte"
+  },
+  "og": {
+    "title": "Connexion - React + Vite + TailwindCSS + Shadcn",
+    "description": "Accédez à votre tableau de bord de développement et explorez les technologies Web modernes."
+  },
+  "hero": {
+    "title": "Content de te revoir",
+    "subtitle": "Connectez-vous pour accéder à votre tableau de bord de développement et explorer notre pile technologique."
+  },
+  "form": {
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "signin": "Se connecter",
+    "signing_in": "Connexion...",
+    "forgot_password": "Vous avez oublié votre mot de passe?",
+    "no_account": "Vous n'avez pas de compte?",
+    "signup_link": "Inscrivez-vous ici"
+  },
+  "benefits": {
+    "title": "À quoi vous aurez accès:",
+    "items": [
+      "Vitrine interactive des composants",
+      "Exemples de code en direct",
+      "Mesures de performances",
+      "Outils de personnalisation"
+    ]
+  }
+}

@@ -1,21 +1,21 @@
 {
   "slug": "liquid-cooled-hydraulic-power-unit-pheu",
-  "name": "Liquid-Cooled Hydraulic Power unidad PHEU",
-  "full_description": "el Liquid-Cooled Hydraulic Power unidad PHEU es un customized primary hydraulic distribution sistema para liquid enfriamiento aplicaciones. Accessen integrates intercambiadores de calor de placas, coolant pumps, water treatment sistemas, piping y valves, y electrical y control sistemas hacia un modular package disenado una improve eficiencia termica y simplify operation para liquid-cooled datos centers.",
+  "name": "Unidad de potencia hidráulica refrigerada por líquido PHEU",
+  "full_description": "La unidad de energía hidráulica enfriada por líquido PHEU es un sistema de distribución hidráulica primaria personalizado para aplicaciones de refrigeración líquida. Accessen integra intercambiadores de calor de placas, bombas de refrigerante, sistemas de tratamiento de agua, tuberías y válvulas, y sistemas eléctricos y de control en un paquete modular diseñado para mejorar la eficiencia térmica y simplificar el funcionamiento de los centros de datos refrigerados por líquido.",
   "industries": [],
   "advantage": [
-    "Prefabricated Modular Integration",
-    "Plug-y-Play Sistema Commissioning",
-    "Rapid Deployment",
-    "BIM-Optimized Diseno y Fabrication",
-    "Space-Optimized Configuration",
-    "Robust Heavy-servicio Construccion"
+    "Integración Modular Prefabricada",
+    "Puesta en marcha del sistema Plug-and-Play",
+    "Implementación rápida",
+    "Diseño y fabricación optimizados para BIM",
+    "Configuración optimizada para el espacio",
+    "Construcción robusta y resistente"
   ],
   "technical_parameters": {
-    "Power Supply": "380V~415VAC/50±1Hz",
+    "Power Supply": "380V~415VCA/50±1Hz",
     "Altitude Range": "-30m~2500m",
-    "Primary Side Coolant": "Water/Glycol-based Coolants",
-    "Secondary Side Coolant": "Deionized Water, Glycol, Propylene Glycol, Fluorinated Fluids",
+    "Primary Side Coolant": "Refrigerantes a base de agua/glicol",
+    "Secondary Side Coolant": "Agua desionizada, glicol, propilenglicol, fluidos fluorados",
     "Storage Temperature Range": "-40°C~70°C",
     "Operating Relative Humidity": "5%~95%",
     "Operating Temperature Range": "5°C~50°C",
@@ -25,17 +25,17 @@
   "video_link": "",
   "details": [
     {
-      "title": "que es included en el PHEU module?",
-      "content": "Accessen indica que el PHEU integrates intercambiadores de calor de placas, coolant pumps, water treatment sistemas, piping, valves, y electrical y control sistemas hacia one primary hydraulic distribution module."
+      "title": "¿Qué incluye el módulo PHEU?",
+      "content": "Accessen afirma que el PHEU integra intercambiadores de calor de placas, bombas de refrigerante, sistemas de tratamiento de agua, tuberías, válvulas y sistemas eléctricos y de control en un módulo de distribución hidráulica primaria."
     },
     {
-      "title": "How does lo improve proyecto entrega?",
-      "content": "el sistema usa prefabricated modules, precision jig alignment, y prefabricated piping so que field work solo requires thleered o flanged connections, reducing installation time y en-site soldadura."
+      "title": "¿Cómo mejora la ejecución del proyecto?",
+      "content": "El sistema utiliza módulos prefabricados, alineación de plantilla de precisión y tuberías prefabricadas para que el trabajo de campo solo requiera conexiones roscadas o bridadas, lo que reduce el tiempo de instalación y la soldadura en el sitio."
     }
   ],
   "seo_data": {
-    "meta_title": "Liquid-Cooled Hydraulic Power unidad PHEU",
-    "meta_description": "Modular liquid-cooled hydraulic power unidad integrating PHE, pumps, y water treatment sistemas para datos center liquid enfriamiento infrastructure."
+    "meta_title": "Unidad de potencia hidráulica refrigerada por líquido PHEU",
+    "meta_description": "Unidad de energía hidráulica modular refrigerada por líquido que integra PHE, bombas y sistemas de tratamiento de agua para la infraestructura de refrigeración líquida del centro de datos."
   },
   "manufacturer": {
     "slug": "shanghai-accessen-co-ltd"

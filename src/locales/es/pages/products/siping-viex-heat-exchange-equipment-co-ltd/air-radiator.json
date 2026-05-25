@@ -1,39 +1,39 @@
 {
   "slug": "air-radiator",
   "name": "Radiador de aire",
-  "full_description": "ViEX describe el air radiator, tambien called una air heater, como equipos de intercambio de calor utilizados para air calentamiento en caliente air drying devices. la pagina oficial indica que vapor o agua caliente flows mediante el steel tube mientras heat es transferred en el air passing mediante el fins fuera del tightly enrolladas o rolled steel pipe, providing alta-speed transferencia de calor surface, vibration resistance, resistencia a la corrosion, y long vida util.",
+  "full_description": "ViEX describe el radiador de aire, también llamado calentador de aire, como un equipo de intercambio de calor utilizado para calentar aire en dispositivos de secado de aire caliente. La página oficial indica que el vapor o el agua caliente fluye a través del tubo de acero mientras que el calor se transfiere al aire que pasa a través de las aletas fuera del tubo de acero enrollado o enrollado herméticamente, lo que proporciona una superficie de transferencia de calor de alta velocidad, resistencia a las vibraciones, resistencia a la corrosión y una larga vida útil.",
   "industries": [
     "HVAC",
     "Procesamiento de alimentos",
-    "Alimentos y bebidas",
-    "Farmaceutica"
+    "Alimentos y Bebidas",
+    "Productos farmacéuticos"
   ],
   "advantage": [
-    "disenado para air calentamiento en caliente air drying devices",
-    "alta-speed transferencia de calor surface",
-    "fuerte vibration resistance",
-    "resistencia a la corrosion",
-    "Long vida util"
+    "Diseñado para calentar aire en dispositivos de secado de aire caliente.",
+    "Superficie de transferencia de calor de alta velocidad",
+    "Fuerte resistencia a las vibraciones",
+    "Resistencia a la corrosión",
+    "Larga vida útil"
   ],
   "technical_parameters": {
-    "Structure": "Tight o rolled finned steel tube",
-    "Application": "Air calentamiento en caliente air drying devices",
+    "Structure": "Tubo de acero con aletas estancas o enrolladas",
+    "Application": "Calentamiento de aire en dispositivos de secado de aire caliente.",
     "Heating medium": "Vapor o agua caliente"
   },
   "video_link": "",
   "details": [
     {
-      "title": "que es el main caso de uso?",
-      "content": "la pagina oficial presents el producto como una air calentamiento intercambiador de calor para caliente air drying devices."
+      "title": "¿Cuál es el caso de uso principal?",
+      "content": "La página oficial presenta el producto como un intercambiador de calor de calentamiento de aire para dispositivos de secado de aire caliente."
     },
     {
-      "title": "que rendimiento characteristics son emphasized?",
-      "content": "ViEX emphasizes alta-speed transferencia de calor surface, fuerte vibration resistance, resistencia a la corrosion, y long vida util."
+      "title": "¿Qué características de desempeño se enfatizan?",
+      "content": "ViEX enfatiza la superficie de transferencia de calor de alta velocidad, la fuerte resistencia a las vibraciones, la resistencia a la corrosión y la larga vida útil."
     }
   ],
   "seo_data": {
-    "meta_title": "Air Radiator | Siping ViEX",
-    "meta_description": "Air radiator y air heater para caliente air drying devices con finned steel tube transferencia de calor diseno."
+    "meta_title": "Radiador de aire | Siping ViEX",
+    "meta_description": "Radiador de aire y calentador de aire para dispositivos de secado de aire caliente con diseño de transferencia de calor de tubo de acero con aletas."
   },
   "manufacturer": {
     "slug": "siping-viex-heat-exchange-equipment-co-ltd"

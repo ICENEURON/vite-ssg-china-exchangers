@@ -31,6 +31,8 @@ const env = Object.fromEntries(
 const url = env['SUPABASE_URL'] || env['VITE_SUPABASE_URL'];
 const serviceRoleKey = env['SUPABASE_SERVICE_ROLE_KEY'] || env['VITE_SUPABASE_SERVICE_ROLE_KEY'];
 const anonKey = env['SUPABASE_ANON_KEY'] || env['VITE_SUPABASE_ANON_KEY'];
+const VERBOSE = process.env.SYNC_VERBOSE === '1';
+const savedTables = [];
 
 // 首选 Service Role Key，因为它拥有最高权限，可以绕过所有 RLS 安全策略直接读取数据
 const key = serviceRoleKey || anonKey;
@@ -43,8 +45,48 @@ if (!url || !key) {
 // Initialize Supabase Client
 const supabase = createClient(url, key);
 
+function isRetriableFileError(error) {
+  return ['EBUSY', 'EPERM', 'EACCES', 'UNKNOWN'].includes(error?.code);
+}
+
+function wait(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function writeJsonFile(outPath, data) {
+  const dir = path.dirname(outPath);
+  const json = JSON.stringify(data, null, 2);
+  const tempPath = path.join(
+    dir,
+    `.${path.basename(outPath)}.${process.pid}.${Date.now()}.tmp`
+  );
+
+  fs.mkdirSync(dir, { recursive: true });
+
+  for (let attempt = 0; attempt < 6; attempt += 1) {
+    try {
+      await fs.promises.writeFile(tempPath, json);
+      await fs.promises.rename(tempPath, outPath);
+      return;
+    } catch (error) {
+      if (!isRetriableFileError(error) || attempt === 5) {
+        try {
+          await fs.promises.unlink(tempPath);
+        } catch {
+          // Best-effort cleanup only.
+        }
+        throw error;
+      }
+
+      await wait(150 * (attempt + 1));
+    }
+  }
+}
+
 async function fetchTable(tableName, columns = '*', options = {}) {
-  console.log(`Fetching ${tableName} from Supabase...`);
+  if (VERBOSE) {
+    console.log(`Fetching ${tableName} from Supabase...`);
+  }
   let query = supabase.from(tableName).select(columns);
 
   if (options.orderBy) {
@@ -59,13 +101,14 @@ async function fetchTable(tableName, columns = '*', options = {}) {
   }
 
   const outPath = path.resolve(__dirname, `../data/${tableName}.json`);
-  fs.mkdirSync(path.dirname(outPath), { recursive: true });
-  fs.writeFileSync(outPath, JSON.stringify(data, null, 2));
-  console.log(`✅ Saved ${data.length} records to src/data/${tableName}.json`);
+  await writeJsonFile(outPath, data);
+  savedTables.push({ tableName, count: data.length });
 }
 
 async function fetchAssetTable(tableName) {
-  console.log(`Fetching ${tableName} from Supabase (assets bucket only)...`);
+  if (VERBOSE) {
+    console.log(`Fetching ${tableName} from Supabase (assets bucket only)...`);
+  }
   const { data, error } = await supabase
     .from(tableName)
     .select('*')
@@ -77,9 +120,8 @@ async function fetchAssetTable(tableName) {
   }
 
   const outPath = path.resolve(__dirname, `../data/${tableName}.json`);
-  fs.mkdirSync(path.dirname(outPath), { recursive: true });
-  fs.writeFileSync(outPath, JSON.stringify(data, null, 2));
-  console.log(`✅ Saved ${data.length} assets records to src/data/${tableName}.json`);
+  await writeJsonFile(outPath, data);
+  savedTables.push({ tableName, count: data.length });
 }
 
 async function main() {
@@ -91,6 +133,8 @@ async function main() {
   await fetchTable('products');
   await fetchAssetTable('product_assets');
   // We explicitly do NOT fetch 'rfqs' here
+  const totalRecords = savedTables.reduce((total, table) => total + table.count, 0);
+  console.log(`✅ Data sync complete. Saved ${totalRecords} records across ${savedTables.length} files.`);
 }
 
 main();

@@ -1,0 +1,60 @@
+{
+  "filter_all_industries": "Tous les secteurs",
+  "no_results": "Aucun fabricant trouvé correspondant aux filtres sélectionnés.",
+  "clear_all": "Tout effacer",
+  "filter_industry": "Industrie",
+  "title": "Fabricants d'échangeurs de chaleur vérifiés | HeatEx Direct",
+  "meta": {
+    "description": "Parcourez une plate-forme ciblée de fabricants chinois d'échangeurs de chaleur examinés avec le secteur, le profil de l'entreprise, la couverture des produits et les détails du marché d'exportation.",
+    "keywords": "fabricants d'échangeurs de chaleur vérifiés, usines d'échangeurs de chaleur en Chine, plate-forme de fabricant, approvisionnement en échangeurs de chaleur industriels"
+  },
+  "og": {
+    "title": "Fabricants d'échangeurs de chaleur vérifiés | HeatEx Direct",
+    "description": "Parcourez les fabricants chinois d’échangeurs de chaleur examinés et sélectionnez rapidement les fournisseurs par secteur."
+  },
+  "hero": {
+    "title": "Fabricants chinois d’échangeurs de chaleur",
+    "description": "Parcourez les fabricants chinois d'échangeurs de chaleur répertoriés et examinez leurs profils d'entreprise, leur couverture de produits, leur expérience en matière d'application et leurs marchés d'exportation pour identifier les fournisseurs qui répondent à vos besoins d'approvisionnement."
+  },
+  "card": {
+    "verified": "VERIFIED",
+    "view_profile": "Voir le profil"
+  },
+  "company": {
+    "page_title": "Profil du fabricant",
+    "meta_description_default": "Profil du fabricant",
+    "back_to_list": "Retour aux fabricants",
+    "connect_description": "Soumettez les exigences de votre projet et obtenez les commentaires du fabricant sur les devis.",
+    "connect_note": "Partagez vos spécifications, votre quantité et les besoins de votre projet. HeatEx Direct organisera la demande et la transmettra aux fabricants d'échangeurs de chaleur correspondants pour suivi.",
+    "quote_here": "Demande de devis",
+    "iso_certified": "Certifié ISO",
+    "asme_stamp": "Timbre ASME",
+    "business_license": "Licence Commerciale.",
+    "global_trade": "Commerce mondial",
+    "verified": "Révisé",
+    "not_available": "N/A",
+    "company_overview": "Présentation de l'entreprise",
+    "why_choose_us": "Pourquoi nous choisir",
+    "industries_served": "Industries desservies",
+    "official_website": "Site officiel",
+    "visit_manufacturer": "Visitez le site Web du fabricant",
+    "product_showcase": "Vitrine de produits",
+    "technical_specifications": "Spécifications techniques",
+    "factory_gallery": "Galerie d'usine",
+    "factory_certifications": "Certifications d'usine",
+    "trusted_customers": "Approuvé par les leaders mondiaux",
+    "trusted_customers_desc": "Offrir l’excellence aux acteurs majeurs de tous les secteurs.",
+    "partner_with": "Associez-vous à {{name}}",
+    "partner_desc": "Bénéficiez d'une qualité vérifiée et de prix directs d'usine.",
+    "established": "HNE. {{year}}",
+    "factory_area_summary": "Superficie du terrain {{value}} m²",
+    "employee_count_summary": "Employés {{value}}",
+    "available_categories": "Catégories de produits disponibles:",
+    "export_markets": "Marchés d'exportation",
+    "contact_info": "Coordonnées",
+    "certificate": "Certificat",
+    "follow_us": "Suivez-nous",
+    "document_downloads": "Téléchargements de documents",
+    "download": "Télécharger"
+  }
+}

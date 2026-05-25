@@ -1,6 +1,6 @@
 {
   "menu": {
-    "home": "Главная",
+    "home": "Дом",
     "for_buyers_label": "Для покупателей",
     "manufacturers": "Список производителей",
     "products": "Категории продуктов",
@@ -10,8 +10,8 @@
     "content_marketing_services": "Представление статей",
     "about": "О нас",
     "industry-news": "Новости отрасли",
-    "contact": "Свяжитесь с нами",
-    "login": "Войти",
+    "contact": "Связаться с нами",
+    "login": "Авторизоваться",
     "register": "Зарегистрироваться",
     "dashboard": "Панель управления",
     "logout": "Выход из системы",
@@ -19,7 +19,7 @@
     "privacy": "Конфиденциальность"
   },
   "breadcrumb": {
-    "home": "Главная"
+    "home": "Дом"
   },
   "logo": "HeatEx Direct"
 }

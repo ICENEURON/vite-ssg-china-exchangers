@@ -1,52 +1,52 @@
 {
   "slug": "gasketed-plate-heat-exchanger",
-  "name": "con juntas intercambiador de calor de placas",
-  "full_description": "placa y frame intercambiador de calor es composed de corrugated metal plates sealed por gaskets y compressed dentro de un frame por tie rods con locking nuts. el port holes form continuous canales so el two fluids flujo en countercurrent entre el transferencia de calor plates, delivering alta coeficiente de transferencia de calor, baja ensuciamiento resistance, compacto ocupacion en planta, convenient mantenimiento y limpieza, pequeno end approach temperatura, y light overall peso.",
+  "name": "Intercambiador de calor de placas con juntas",
+  "full_description": "El intercambiador de calor de placa y marco está compuesto por placas de metal corrugado selladas por juntas y comprimidas dentro de un marco mediante tirantes con tuercas de seguridad. Los orificios de los puertos forman canales continuos para que los dos fluidos fluyan en contracorriente entre las placas de transferencia de calor, lo que brinda un alto coeficiente de transferencia de calor, baja resistencia a la suciedad, espacio compacto, mantenimiento y limpieza convenientes, temperatura de aproximación final pequeña y peso total liviano.",
   "industries": [
     "HVAC",
-    "Petroquimica",
-    "Maritimo",
-    "Energia",
+    "petroquímica",
+    "marina",
+    "Energía",
     "Procesamiento de alimentos",
-    "Procesamiento quimico",
-    "Farmaceutica"
+    "Procesamiento químico",
+    "Productos farmacéuticos"
   ],
   "advantage": [
-    "alta Eficiencia: Multiple first-class energy-eficiencia producto disenos ayudar balance fuerte termico rendimiento con lower energy consumption.",
-    "Broad producto Coverage: el producto serie cubre DN32 un DN500, de soporte un wide range de exigente proceso conditions.",
-    "compacto y Servicioable: el exchanger combines compacto structure, clean appearance, y convenient limpieza y descaling para longer vida util.",
-    "Flexible Ingenieria: Advanced simulation capacidades y customizable models soporte producto optimization para different servicios.",
-    "confiable Sellado: con juntas construccion y reinforced placa diseno improve sellado rendimiento under alta-presion conditions.",
-    "Material Versatility: placa y gasket material options include austenitic acero inoxidable, duplex steel, titanium, nickel alloys, NBR, EPDM, FKM, y PTFE-cushion soluciones."
+    "Alta eficiencia: múltiples diseños de productos de eficiencia energética de primera clase ayudan a equilibrar un rendimiento térmico sólido con un menor consumo de energía.",
+    "Amplia cobertura de productos: la serie de productos cubre DN32 a DN500 y admite una amplia gama de condiciones de proceso exigentes.",
+    "Compacto y útil: el intercambiador combina una estructura compacta, una apariencia limpia y una limpieza y descalcificación convenientes para una vida útil más larga.",
+    "Ingeniería flexible: capacidades de simulación avanzadas y modelos personalizables respaldan la optimización del producto para diferentes tareas.",
+    "Sellado confiable: la construcción con juntas y el diseño de placa reforzada mejoran el rendimiento del sellado en condiciones de alta presión.",
+    "Versatilidad del material: Las opciones de materiales para placas y juntas incluyen acero inoxidable austenítico, acero dúplex, titanio, aleaciones de níquel, NBR, EPDM, FKM y soluciones de cojín de PTFE."
   ],
   "technical_parameters": {
     "Max Area": "4000㎡",
     "Nozzle Size": "DN32 ~ DN500",
-    "Profile Depth": "1.8 ~ 10.0mm",
-    "Plate Material": "Austenitic acero inoxidable, Duplex steel, Titanium y titanium alloy, Nickel y nickel alloy",
-    "Design Pressure": "Vacuum ~ 3.6MPa",
-    "Gasket Material": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, PTFE cushion",
-    "Plate Thickness": "0.4 ~ 1.0mm",
-    "Design Temperature": "<=180℃"
+    "Profile Depth": "1,8 ~ 10,0 mm",
+    "Plate Material": "Acero inoxidable austenítico, Acero dúplex, Titanio y aleación de titanio, Níquel y aleación de níquel",
+    "Design Pressure": "Vacío ~ 3,6 MPa",
+    "Gasket Material": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, cojín de PTFE",
+    "Plate Thickness": "0,4 ~ 1,0 mm",
+    "Design Temperature": "<= 180 ℃"
   },
   "video_link": "https://www.youtube.com/watch?v=AK423r7fJuU",
   "details": [
     {
-      "title": "que es un con juntas intercambiador de calor de placas?",
-      "content": "un con juntas intercambiador de calor de placas es built de corrugated metal transferencia de calor plates sealed por gaskets y clamped together within un frame. la placa port holes form continuous canales que distribute caliente y frio medios hacia alternating passages, donde el two fluids flujo en countercurrent una achieve eficiente transferencia de calor."
+      "title": "¿Qué es un intercambiador de calor de placas con juntas?",
+      "content": "Un intercambiador de calor de placas con juntas se construye a partir de placas de transferencia de calor de metal corrugado selladas por juntas y sujetas entre sí dentro de un marco. Los orificios de la placa forman canales continuos que distribuyen medios fríos y calientes en pasajes alternos, donde los dos fluidos fluyen en contracorriente para lograr una transferencia de calor eficiente."
     },
     {
-      "title": "Why choose este placa y frame diseno?",
-      "content": "Comparard con convencional shell y tube equipos, este diseno offers un much higher coeficiente de transferencia de calor, lower ensuciamiento factor, menor end approach temperatura, lighter peso, y un significantly menor ocupacion en planta. el modular placa pack tambien makes capacity adjustment, inspeccion, mantenimiento, y limpieza mas convenient."
+      "title": "¿Por qué elegir este diseño de placa y marco?",
+      "content": "En comparación con los equipos de carcasa y tubos convencionales, este diseño ofrece un coeficiente de transferencia de calor mucho más alto, un factor de incrustación más bajo, una temperatura de aproximación final más pequeña, un peso más liviano y una huella significativamente más pequeña. El paquete de placas modulares también hace que el ajuste de capacidad, la inspección, el mantenimiento y la limpieza sean más convenientes."
     },
     {
-      "title": "How es lo disenado y manufactured?",
-      "content": "el transferencia de calor placa es el nucleo element y es developed con CAD, CFD, CAE, y CAM tools una optimize placa geometria, sellado, y presion resistance. During ingenieria, el required servicio, caudal, temperatura program, perdida de presion, placa pattern, materiales, pass arrangement, y gasket seleccion son defined first, then el frame, nozzles, y placa pack son manufactured y assembled antes de presion, leak, y rendimiento testing."
+      "title": "¿Cómo se diseña y fabrica?",
+      "content": "La placa de transferencia de calor es el elemento central y se desarrolla con herramientas CAD, CFD, CAE y CAM para optimizar la geometría, el sellado y la resistencia a la presión de la placa. Durante la ingeniería, primero se definen el servicio requerido, el caudal, el programa de temperatura, la caída de presión, el patrón de placas, los materiales, la disposición de los pasos y la selección de juntas, luego se fabrican y ensamblan el marco, las boquillas y el paquete de placas antes de las pruebas de presión, fugas y rendimiento."
     }
   ],
   "seo_data": {
-    "meta_title": "con juntas intercambiador de calor de placas",
-    "meta_description": "compacto placa y frame intercambiador de calor con eficiente termico transfer, easy mantenimiento, y broad material y size options."
+    "meta_title": "Intercambiador de calor de placas con juntas",
+    "meta_description": "Intercambiador de calor de placa y marco compacto con transferencia térmica eficiente, fácil mantenimiento y amplias opciones de materiales y tamaños."
   },
   "manufacturer": {
     "slug": "shanghai-heat-transfer-equipment-co-ltd"

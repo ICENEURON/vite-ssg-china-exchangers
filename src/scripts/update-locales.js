@@ -8,6 +8,45 @@ const __dirname = path.dirname(__filename);
 const dataDir = path.resolve(__dirname, '../data');
 const localesDir = path.resolve(__dirname, '../locales');
 const fallbackLanguages = getConfiguredLanguages();
+const VERBOSE = process.env.SYNC_VERBOSE === '1';
+
+function isRetriableFileError(error) {
+  return ['EBUSY', 'EPERM', 'EACCES', 'UNKNOWN'].includes(error?.code);
+}
+
+function waitSync(ms) {
+  Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
+}
+
+function writeJsonFile(outPath, data) {
+  const dir = path.dirname(outPath);
+  const json = JSON.stringify(data, null, 2);
+  const tempPath = path.join(
+    dir,
+    `.${path.basename(outPath)}.${process.pid}.${Date.now()}.tmp`
+  );
+
+  fs.mkdirSync(dir, { recursive: true });
+
+  for (let attempt = 0; attempt < 6; attempt += 1) {
+    try {
+      fs.writeFileSync(tempPath, json, 'utf-8');
+      fs.renameSync(tempPath, outPath);
+      return;
+    } catch (error) {
+      if (!isRetriableFileError(error) || attempt === 5) {
+        try {
+          fs.unlinkSync(tempPath);
+        } catch {
+          // Best-effort cleanup only.
+        }
+        throw error;
+      }
+
+      waitSync(150 * (attempt + 1));
+    }
+  }
+}
 
 function getConfiguredLanguages() {
   try {
@@ -116,19 +155,12 @@ function generateCommonLocales() {
       is_visible: industry.is_visible
     }));
 
-    fs.writeFileSync(
-      path.join(commonDir, 'industries.json'),
-      JSON.stringify(localizedIndustries, null, 2),
-      'utf-8'
-    );
+    writeJsonFile(path.join(commonDir, 'industries.json'), localizedIndustries);
+    writeJsonFile(path.join(commonDir, 'countries.json'), countries);
 
-    fs.writeFileSync(
-      path.join(commonDir, 'countries.json'),
-      JSON.stringify(countries, null, 2),
-      'utf-8'
-    );
-
-    console.log(`✅ Generated common locales for ${lang}`);
+    if (VERBOSE) {
+      console.log(`✅ Generated common locales for ${lang}`);
+    }
   }
 }
 
@@ -244,11 +276,7 @@ function generateManufacturerLocales() {
         });
 
       if (individualManufacturer.slug) {
-        fs.writeFileSync(
-          path.join(langDir, `${individualManufacturer.slug}.json`),
-          JSON.stringify(individualManufacturer, null, 2),
-          'utf-8'
-        );
+        writeJsonFile(path.join(langDir, `${individualManufacturer.slug}.json`), individualManufacturer);
       }
 
       const listManufacturer = {
@@ -273,12 +301,10 @@ function generateManufacturerLocales() {
       listData.push(listManufacturer);
     }
 
-    fs.writeFileSync(
-      path.join(langDir, 'list.json'),
-      JSON.stringify(listData, null, 2),
-      'utf-8'
-    );
-    console.log(`✅ Saved manufacturer locales for ${lang}`);
+    writeJsonFile(path.join(langDir, 'list.json'), listData);
+    if (VERBOSE) {
+      console.log(`✅ Saved manufacturer locales for ${lang}`);
+    }
   }
 }
 
@@ -362,11 +388,7 @@ function generateProductLocales() {
         const manufacturerProductsDir = path.join(langProductsDir, manufacturerSlug);
         fs.mkdirSync(manufacturerProductsDir, { recursive: true });
 
-        fs.writeFileSync(
-          path.join(manufacturerProductsDir, `${productSlug}.json`),
-          JSON.stringify(individualProduct, null, 2),
-          'utf-8'
-        );
+        writeJsonFile(path.join(manufacturerProductsDir, `${productSlug}.json`), individualProduct);
       }
 
       listData.push({
@@ -384,12 +406,10 @@ function generateProductLocales() {
       });
     }
 
-    fs.writeFileSync(
-      path.join(langProductsDir, 'list.json'),
-      JSON.stringify(listData, null, 2),
-      'utf-8'
-    );
-    console.log(`✅ Saved product locales for ${lang}`);
+    writeJsonFile(path.join(langProductsDir, 'list.json'), listData);
+    if (VERBOSE) {
+      console.log(`✅ Saved product locales for ${lang}`);
+    }
   }
 }
 
@@ -398,6 +418,7 @@ function main() {
   generateCommonLocales();
   generateManufacturerLocales();
   generateProductLocales();
+  console.log(`✅ Locale generation complete for ${fallbackLanguages.length} languages.`);
 }
 
 main();

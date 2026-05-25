@@ -1,44 +1,8 @@
 [
   {
-    "id": 1,
-    "slug": "hvac",
-    "name": "ОВК",
-    "is_visible": true
-  },
-  {
-    "id": 2,
-    "slug": "petrochemical",
-    "name": "Нефтехимия",
-    "is_visible": true
-  },
-  {
-    "id": 3,
-    "slug": "marine",
-    "name": "Морская отрасль",
-    "is_visible": true
-  },
-  {
-    "id": 4,
-    "slug": "energy",
-    "name": "Энергетика",
-    "is_visible": true
-  },
-  {
-    "id": 5,
-    "slug": "food-processing",
-    "name": "Пищевая переработка",
-    "is_visible": true
-  },
-  {
-    "id": 6,
-    "slug": "chemical-processing",
-    "name": "Химическая промышленность",
-    "is_visible": true
-  },
-  {
     "id": 7,
     "slug": "food-and-beverage",
-    "name": "Пищевая промышленность и напитки",
+    "name": "Еда и напитки",
     "is_visible": true
   },
   {
@@ -50,7 +14,43 @@
   {
     "id": 9,
     "slug": "power-generation",
-    "name": "Электроэнергетика",
+    "name": "Производство электроэнергии",
+    "is_visible": true
+  },
+  {
+    "id": 1,
+    "slug": "hvac",
+    "name": "HVAC",
+    "is_visible": true
+  },
+  {
+    "id": 2,
+    "slug": "petrochemical",
+    "name": "нефтехимическая",
+    "is_visible": true
+  },
+  {
+    "id": 3,
+    "slug": "marine",
+    "name": "Морской",
+    "is_visible": true
+  },
+  {
+    "id": 4,
+    "slug": "energy",
+    "name": "Энергия",
+    "is_visible": true
+  },
+  {
+    "id": 5,
+    "slug": "food-processing",
+    "name": "Пищевая промышленность",
+    "is_visible": true
+  },
+  {
+    "id": 6,
+    "slug": "chemical-processing",
+    "name": "Химическая обработка",
     "is_visible": true
   }
 ]

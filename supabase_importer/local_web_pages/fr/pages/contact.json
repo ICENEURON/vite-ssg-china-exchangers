@@ -1,0 +1,54 @@
+{
+  "title": "Contactez-nous | HeatEx Direct",
+  "meta": {
+    "description": "Contactez HeatEx Direct pour des questions sur l'approvisionnement en échangeurs de chaleur industriels, les mises à jour du profil des fabricants chinois, les corrections de la page produit, le contenu de l'industrie, l'assistance en matière de devis et les partenariats avec les fournisseurs.",
+    "keywords": "Contacter HeatEx Direct, demande d'approvisionnement en échangeur de chaleur, mise à jour du profil du fabricant chinois d'échangeur de chaleur, devis d'échangeur de chaleur industriel, partenariat fournisseur"
+  },
+  "og": {
+    "title": "Contacter HeatEx Direct",
+    "description": "Contactez HeatEx Direct au sujet de l'approvisionnement en échangeurs de chaleur, des profils de fabricants, des pages de produits, des partenariats de contenu ou des corrections d'informations sur les fournisseurs."
+  },
+  "hero": {
+    "title_prefix": "Contact",
+    "title_suffix": "",
+    "description": "aide les acheteurs mondiaux à consulter les fabricants chinois d'échangeurs de chaleur, les informations sur les produits et les documents de support. Contactez-nous pour toute demande d'approvisionnement, mise à jour du fabricant, soumission d'articles ou corrections.",
+    "copy_email": "Copie",
+    "email_copied": "Copié"
+  },
+  "paths": {
+    "title": "En quoi pouvons-nous vous aider?",
+    "description": "Choisissez l'option qui correspond le mieux à votre demande, qu'il s'agisse de sourcing, d'informations sur le fabricant, de soumissions d'articles ou de corrections de pages.",
+    "items": {
+      "buyer": {
+        "title": "Demandes d'approvisionnement",
+        "description": "Renseignez-vous sur les fabricants répertoriés, les informations sur les produits ou les fournisseurs chinois d'échangeurs de chaleur qui ne sont pas encore couverts sur la plateforme.",
+        "action": "Envoyez un e-mail à l'équipe"
+      },
+      "supplier": {
+        "title": "Mises à jour du profil",
+        "description": "Mettez à jour les détails de l'entreprise, la portée du produit, les certificats, les images ou d'autres documents de support.",
+        "action": "Mettre à jour les informations"
+      },
+      "content": {
+        "title": "Soumissions d'articles",
+        "description": "Soumettez des actualités sur l'entreprise, des articles sur les produits, des explications techniques, des histoires de projets ou des études de cas.",
+        "action": "Soumettre l'article"
+      },
+      "correction": {
+        "title": "Corrections",
+        "description": "Signalez des informations incorrectes, des liens brisés, des problèmes de langue ou d'autres questions sur le site Web.",
+        "action": "Assistance par e-mail"
+      }
+    }
+  },
+  "cta": {
+    "email_label": "Envoyez-nous un courriel",
+    "note": "Nous examinons les messages manuellement et suivons les demandes de sourcing, les mises à jour de profil, les soumissions d'articles et les demandes d'assistance.",
+    "checklist_title": "Détails utiles à inclure",
+    "checklist": [
+      "Dites-nous qui vous êtes et ce dont vous avez besoin.",
+      "Incluez des fichiers ou des liens de support si disponibles.",
+      "Utilisez une adresse e-mail pouvant recevoir des réponses."
+    ]
+  }
+}

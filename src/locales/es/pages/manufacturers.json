@@ -5,34 +5,34 @@
   "filter_industry": "Industria",
   "title": "Fabricantes verificados de intercambiadores de calor | HeatEx Direct",
   "meta": {
-    "description": "Explore una plataforma especializada de fabricantes chinos de intercambiadores de calor revisados, con detalles de industria, perfil de empresa, cobertura de productos y mercados de exportación.",
-    "keywords": "fabricantes verificados de intercambiadores de calor, fábricas de intercambiadores de calor en China, plataforma de fabricantes, abastecimiento industrial de intercambiadores de calor"
+    "description": "Explore una plataforma enfocada de fabricantes chinos de intercambiadores de calor revisados ​​con detalles de la industria, el perfil de la empresa, la cobertura de productos y el mercado de exportación.",
+    "keywords": "fabricantes de intercambiadores de calor verificados, fábricas de intercambiadores de calor de China, plataforma de fabricantes, abastecimiento de intercambiadores de calor industriales"
   },
   "og": {
     "title": "Fabricantes verificados de intercambiadores de calor | HeatEx Direct",
-    "description": "Explore fabricantes chinos de intercambiadores de calor revisados y filtre rápidamente proveedores por industria."
+    "description": "Busque fabricantes chinos de intercambiadores de calor revisados ​​y seleccione rápidamente proveedores por industria."
   },
   "hero": {
     "title": "Fabricantes chinos de intercambiadores de calor",
-    "description": "Explore fabricantes chinos de intercambiadores de calor listados y revise sus perfiles de empresa, cobertura de productos, experiencia en aplicaciones y mercados de exportación para identificar proveedores adecuados para sus necesidades de abastecimiento."
+    "description": "Explore los fabricantes chinos de intercambiadores de calor que figuran en la lista y revise los perfiles de sus empresas, la cobertura de productos, la experiencia en aplicaciones y los mercados de exportación para identificar proveedores que se ajusten a sus necesidades de abastecimiento."
   },
   "card": {
-    "verified": "VERIFICADO",
+    "verified": "VERIFIED",
     "view_profile": "Ver perfil"
   },
   "company": {
     "page_title": "Perfil del fabricante",
     "meta_description_default": "Perfil del fabricante",
     "back_to_list": "Volver a Fabricantes",
-    "connect_description": "Envíe los requisitos de su proyecto y reciba comentarios de cotización del fabricante.",
-    "connect_note": "Comparta sus especificaciones, cantidad y necesidades del proyecto. HeatEx Direct organizará la consulta y la remitirá a fabricantes de intercambiadores de calor compatibles para seguimiento.",
+    "connect_description": "Envíe los requisitos de su proyecto y obtenga comentarios sobre la cotización del fabricante.",
+    "connect_note": "Comparta sus especificaciones, cantidad y necesidades del proyecto. HeatEx Direct organizará la consulta y la transmitirá a los fabricantes de intercambiadores de calor correspondientes para su seguimiento.",
     "quote_here": "Solicitud de Cotización",
-    "iso_certified": "Certificación ISO",
+    "iso_certified": "Certificado ISO",
     "asme_stamp": "Sello ASME",
-    "business_license": "Licencia comercial",
+    "business_license": "Lic. de Negocios.",
     "global_trade": "Comercio mundial",
     "verified": "Revisado",
-    "not_available": "N/D",
+    "not_available": "N/A",
     "company_overview": "Descripción general de la empresa",
     "why_choose_us": "¿Por qué elegirnos?",
     "industries_served": "Industrias atendidas",
@@ -43,10 +43,10 @@
     "factory_gallery": "Galería de fábrica",
     "factory_certifications": "Certificaciones de fábrica",
     "trusted_customers": "Con la confianza de los líderes globales",
-    "trusted_customers_desc": "Servicio de excelencia para actores líderes en múltiples industrias.",
-    "partner_with": "Asóciese con {{name}}",
+    "trusted_customers_desc": "Brindar excelencia a los principales actores de todas las industrias.",
+    "partner_with": "Socio con {{name}}",
     "partner_desc": "Obtenga calidad verificada y precios directos de fábrica.",
-    "established": "Fundada en {{year}}",
+    "established": "Est. {{year}}",
     "factory_area_summary": "Área del sitio {{value}} m²",
     "employee_count_summary": "Empleados {{value}}",
     "available_categories": "Categorías de productos disponibles:",

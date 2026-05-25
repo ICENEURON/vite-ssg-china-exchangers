@@ -52,10 +52,10 @@
     ]
   },
   {
-    "name": "四平维克斯换热设备有限公司",
-    "short_description": "专业从事换热设备及压力容器产品制造，产品覆盖板式、管壳式、螺旋板式、空气类换热器及换热机组。",
-    "slug": "siping-viex-heat-exchange-equipment-co-ltd",
-    "city": "四平",
+    "name": "兰州兰石换热设备有限责任公司",
+    "short_description": "面向能源、石油化工、暖通、船舶、制药、食品等行业提供板式换热器、焊接式换热器、PCHE 及换热机组的制造商。",
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
+    "city": "兰州",
     "country_name": "中国",
     "industries": [
       "暖通空调",
@@ -70,10 +70,10 @@
     ]
   },
   {
-    "name": "兰州兰石换热设备有限责任公司",
-    "short_description": "面向能源、石油化工、暖通、船舶、制药、食品等行业提供板式换热器、焊接式换热器、PCHE 及换热机组的制造商。",
-    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
-    "city": "兰州",
+    "name": "四平维克斯换热设备有限公司",
+    "short_description": "专业从事换热设备及压力容器产品制造，产品覆盖板式、管壳式、螺旋板式、空气类换热器及换热机组。",
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+    "city": "四平",
     "country_name": "中国",
     "industries": [
       "暖通空调",

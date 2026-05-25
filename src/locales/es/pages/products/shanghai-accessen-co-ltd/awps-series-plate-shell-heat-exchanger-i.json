@@ -1,39 +1,39 @@
 {
   "slug": "awps-series-plate-shell-heat-exchanger-i",
-  "name": "AWPS serie placa-Shell intercambiador de calor - I",
-  "full_description": "el AWPS serie placa-Shell intercambiador de calor - I es disenado para alta-temperatura y alta-presion industrial aplicaciones. Accessen describe lo como combining el transferencia de calor characteristics de con juntas placa exchangers con el presion y temperatura resistance associated con shell-y-tube equipos, mientras retaining un removable structure para limpieza.",
+  "name": "Intercambiador de calor de carcasa de placas serie AWPS - I",
+  "full_description": "El intercambiador de calor de carcasa de placas serie AWPS - I está diseñado para aplicaciones industriales de alta temperatura y alta presión. Accessen lo describe como una combinación de las características de transferencia de calor de los intercambiadores de placas con juntas con la resistencia a la presión y la temperatura asociada con los equipos de carcasa y tubos, al tiempo que conserva una estructura extraíble para su limpieza.",
   "industries": [
-    "Petroquimica",
-    "Energia",
-    "Procesamiento quimico",
-    "Generacion electrica"
+    "petroquímica",
+    "Energía",
+    "Procesamiento químico",
+    "Generación de energía"
   ],
   "advantage": [
-    "Retains transferencia de calor characteristics de con juntas exchangers",
-    "baja ensuciamiento coefficient",
-    "Alta temperatura resistance",
-    "Alta presion resistance",
-    "Removable para limpieza con no gasket aging"
+    "Conserva las características de transferencia de calor de los intercambiadores con juntas.",
+    "Bajo coeficiente de ensuciamiento",
+    "Resistencia a altas temperaturas",
+    "Resistencia a alta presión",
+    "Extraíble para limpieza sin envejecimiento de la junta"
   ],
   "technical_parameters": {
-    "Plate material": "AISI304L, 316L, Titanium, Hastelloy, SMO254...",
+    "Plate material": "AISI304L, 316L, Titanio, Hastelloy, SMO254...",
     "Maximum design pressure": "80bar",
     "Maximum temperature resistance": "500℃"
   },
   "video_link": "",
   "details": [
     {
-      "title": "How does AWPS differ de convencional shell-y-tube equipos?",
-      "content": "Accessen positions AWPS como una alta-eficiencia alternative que combines placa-type transferencia de calor rendimiento con stronger presion y temperatura resistance, helping replace shell-y-tube exchangers en exigente industrial servicio."
+      "title": "¿En qué se diferencia el AWPS de los equipos convencionales de carcasa y tubos?",
+      "content": "Accessen posiciona a AWPS como una alternativa de alta eficiencia que combina el rendimiento de transferencia de calor de tipo placa con una mayor resistencia a la presión y la temperatura, lo que ayuda a reemplazar los intercambiadores de carcasa y tubos en servicios industriales exigentes."
     },
     {
-      "title": "que mantenimiento benefit es highlighted?",
-      "content": "el producto es descrito como removable para limpieza y avoids gasket aging, which ayuda un lower operating costos over time."
+      "title": "¿Qué beneficio de mantenimiento se destaca?",
+      "content": "El producto se describe como removible para su limpieza y evita el envejecimiento de la junta, lo que ayuda a reducir los costos operativos con el tiempo."
     }
   ],
   "seo_data": {
-    "meta_title": "AWPS serie placa-Shell intercambiador de calor - I",
-    "meta_description": "Industrial placa-shell intercambiador de calor para alta-temperatura y alta-presion servicio, combining fuerte termico rendimiento con removable acceso para limpieza."
+    "meta_title": "Intercambiador de calor de carcasa de placas serie AWPS - I",
+    "meta_description": "Intercambiador de calor industrial de placas para servicio de alta temperatura y alta presión, que combina un fuerte rendimiento térmico con un acceso de limpieza extraíble."
   },
   "manufacturer": {
     "slug": "shanghai-accessen-co-ltd"

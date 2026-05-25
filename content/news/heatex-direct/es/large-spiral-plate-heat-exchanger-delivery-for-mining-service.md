@@ -2,16 +2,15 @@
 title: "Intercambiador de calor de placas en espiral de gran tamaño entregado para servicios de minería"
 slug: large-spiral-plate-heat-exchanger-delivery-for-mining-service
 date: 2025-12-24
-author: "Equipo editorial directo de HeatEx"
-reviewer: "Equipo editorial directo de HeatEx"
-readTime: 2 minutos
-excerpt: Nexson Group ha informado de la entrega de un intercambiador de calor de placas en espiral líquido-líquido de gran tamaño para el servicio de enfriamiento de lodos minerales y calentamiento de solventes.
+author: "Equipo editorial HeatEx Direct"
+reviewer: "Equipo editorial HeatEx Direct"
+readTime: "2 minutos"
+excerpt: "Nexson Group ha informado de la entrega de un intercambiador de calor de placas en espiral líquido-líquido de gran tamaño para el servicio de enfriamiento de lodos minerales y calentamiento de..."
 metaTitle: "Intercambiador de calor de placas en espiral de gran tamaño entregado para servicios de minería"
 metaDescription: "Un resumen reescrito de noticias de la industria sobre la entrega de un intercambiador de calor de placas en espiral Nexson de gran tamaño y lo que indica para aplicaciones de transferencia de calor en suspensión."
 keywords: ["Intercambiador de calor de placas en espiral","nexson","Lodo Minero","Intercambiador de calor líquido líquido","Transferencia de calor"]
 cover: /static/content_posts_image/large-spiral-plate-heat-exchanger-delivery-for-mining-service/cover.jpg
 ---
-
 Nexson Group ha informado de la entrega de un intercambiador de calor de placas en espiral líquido-líquido tipo 1 inusualmente grande para una aplicación de proceso minero. El equipo se describe con casi 4 metros de diámetro y cerca de 30 toneladas de peso, con más de 800 m2 de área de transferencia de calor y una construcción de acero inoxidable dúplex.
 
 La tarea reportada es un paso de proceso combinado: enfriar la suspensión mineral mientras se calienta una corriente de solvente. Ese emparejamiento es un caso de uso natural para los intercambiadores de calor de placas en espiral porque el diseño puede admitir una recuperación eficiente de calor líquido-líquido manteniendo un espacio relativamente compacto.

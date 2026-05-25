@@ -4,8 +4,8 @@
   "full_description": "La página oficial del producto presenta esta unidad como un conjunto completo de equipos de intercambio de calor que integra un intercambiador de calor de placas, una bomba de agua, válvulas, instrumentos y un sistema de control. Se puede configurar con sensores, controladores, actuadores eléctricos, control de comunicación remota, medición del flujo de calor, tratamiento de agua y accesorios para tanques de agua descalcificada para soportar tareas de intercambio de calor vapor-agua, agua-agua y aceite-agua.",
   "industries": [
     "HVAC",
-    "Maritimo",
-    "Energia"
+    "marina",
+    "Energía"
   ],
   "advantage": [
     "Integra intercambiador de calor de placas, bomba, válvulas, instrumentos y sistema de control en una sola unidad.",

@@ -1,16 +1,16 @@
 {
   "title": "Crea tu cuenta",
   "meta": {
-    "description": "Cree una cuenta HeatEx Direct para las funciones protegidas comprador y proveedor.",
-    "keywords": "registrarse, HeatEx Direct, comprador cuenta, proveedor cuenta, intercambiador de calors"
+    "description": "Cree una cuenta HeatEx Direct para funciones protegidas de compradores y proveedores.",
+    "keywords": "registro, HeatEx Direct, cuenta de comprador, cuenta de proveedor, intercambiadores de calor"
   },
   "og": {
     "title": "Registrarse - HeatEx Direct",
-    "description": "Cree una cuenta HeatEx Direct para las funciones de colaboración abastecimiento y proveedor."
+    "description": "Cree una cuenta HeatEx Direct para funciones de abastecimiento y colaboración con proveedores."
   },
   "hero": {
     "title": "Crear una cuenta HeatEx Direct",
-    "subtitle": "Acceda a futuras funciones de colaboración solicitud de cotización, gestión de perfiles y proveedor."
+    "subtitle": "Acceda a funciones futuras de solicitud de cotización, gestión de perfiles y colaboración con proveedores."
   },
   "form": {
     "email": "Correo electrónico",
@@ -24,10 +24,10 @@
   "benefits": {
     "title": "El acceso a la cuenta puede admitir",
     "items": [
-      "Flujos de trabajo comprador protegidos",
-      "Visibilidad futura del estado solicitud de cotización",
-      "Gestión de proveedores actualización de perfil",
-      "Contenido técnico y actualización de perfils",
+      "Flujos de trabajo de compradores protegidos",
+      "Visibilidad del estado de la solicitud de cotización futura",
+      "Gestión de actualización de perfiles de proveedores.",
+      "Contenido técnico y actualizaciones de perfil.",
       "Herramientas de colaboración de plataformas futuras"
     ]
   },

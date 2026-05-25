@@ -1,29 +1,29 @@
 {
   "slug": "brazed-plate-heat-exchanger",
-  "name": "Brazed intercambiador de calor de placas",
-  "full_description": "la pagina oficial lists brazed placa producto de intercambio de calor caracteristicas como alta turbulence y very alta transferencia de calor rendimiento, alta temperatura y presion resistance, y pequeno size con light peso. lo explains que el brazing filler es heated de solid un liquid, fills gaps formed por placa soporte points mediante wetting y capillary action, y forms el connection entre different materiales despues de enfriamiento. la pagina lists copper-based solder foil, nickel-based solder paste, y iron-based solder paste.",
+  "name": "Intercambiador de calor de placas soldadas",
+  "full_description": "La página oficial enumera las características del producto del intercambiador de calor de placas soldadas como alta turbulencia y rendimiento de transferencia de calor muy alto, resistencia a alta temperatura y presión, y tamaño pequeño con peso liviano. Explica que el relleno de soldadura se calienta de sólido a líquido, llena los espacios formados por los puntos de soporte de la placa mediante acción humectante y capilar, y forma la conexión entre diferentes materiales después del enfriamiento. La página enumera láminas de soldadura a base de cobre, pasta de soldadura a base de níquel y pasta de soldadura a base de hierro.",
   "industries": [
     "HVAC",
-    "Energia",
+    "Energía",
     "Procesamiento de alimentos",
-    "Procesamiento quimico",
-    "Alimentos y bebidas",
-    "Farmaceutica"
+    "Procesamiento químico",
+    "Alimentos y Bebidas",
+    "Productos farmacéuticos"
   ],
   "advantage": [
-    "alta turbulence y alta heat-transfer rendimiento.",
-    "Alta temperatura y presion resistance.",
-    "compacto size y baja peso.",
-    "Multiple filler metal options: copper-based, nickel-based, y iron-based brazing materiales."
+    "Alta turbulencia y alto rendimiento de transferencia de calor.",
+    "Resistencia a altas temperaturas y presiones.",
+    "Tamaño compacto y peso reducido.",
+    "Múltiples opciones de metal de aportación: materiales de soldadura fuerte a base de cobre, níquel y hierro."
   ],
   "technical_parameters": {
-    "Brazing Materials": "Copper-based solder foil; nickel-based solder paste; iron-based solder paste"
+    "Brazing Materials": "Lámina de soldadura a base de cobre; pasta de soldadura a base de níquel; pasta de soldadura a base de hierro"
   },
   "video_link": "",
   "details": [],
   "seo_data": {
-    "meta_title": "Brazed intercambiador de calor de placas",
-    "meta_description": "compacto brazed intercambiador de calor de placas con alta turbulence transferencia de calor, alta temperatura y presion resistance, y baja peso."
+    "meta_title": "Intercambiador de calor de placas soldadas",
+    "meta_description": "Intercambiador de calor de placas soldadas compacto con transferencia de calor de alta turbulencia, resistencia a altas temperaturas y presiones y bajo peso."
   },
   "manufacturer": {
     "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"

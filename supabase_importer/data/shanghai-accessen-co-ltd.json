@@ -7,13 +7,17 @@
         "en": "Shanghai Accessen Co., Ltd.",
         "zh": "上海艾克森股份有限公司",
         "ru": "Shanghai Accessen Co., Ltd.",
-        "es": "Shanghai Accessen Co., Ltd."
+        "es": "Shanghai Accessen Co., Ltd.",
+        "fr": "Shanghai Accessen Co., Ltd.",
+        "ar": "Shanghai Accessen Co., Ltd."
       },
       "short_description": {
         "en": "Provider of low-carbon data center cooling and heat exchange solutions, specializing in plate heat exchangers, fully welded exchangers, and prefabricated integrated thermal systems.",
         "zh": "专注于低碳数据中心冷却与换热解决方案，提供板式换热器、全焊式换热器及预制化系统集成热管理设备。",
         "ru": "Поставщик низкоуглеродных решений для охлаждения и теплообмена центров обработки данных, специализирующийся на пластинчатых теплообменниках, цельносварных теплообменниках и сборных интегрированных тепловых системах.",
-        "es": "Provider de bajo en carbono enfriamiento de centros de datos y soluciones de intercambio de calor, specializing en intercambiadores de calor de placas, totalmente soldado exchangers, y prefabricado e integrado termico sistemas."
+        "es": "Proveedor de soluciones de intercambio de calor y refrigeración de centros de datos con bajas emisiones de carbono, especializado en intercambiadores de calor de placas, intercambiadores totalmente soldados y sistemas térmicos integrados prefabricados.",
+        "fr": "Fournisseur de solutions de refroidissement et d'échange thermique pour centres de données à faible émission de carbone, spécialisé dans les échangeurs de chaleur à plaques, les échangeurs entièrement soudés et les systèmes thermiques intégrés préfabriqués.",
+        "ar": "مزود حلول تبريد وتبادل حراري لمراكز البيانات منخفضة الكربون، متخصص في المبادلات الحرارية اللوحية، والمبادلات الملحومة بالكامل، والأنظمة الحرارية المتكاملة الجاهزة."
       },
       "full_description": {
         "en": [
@@ -31,18 +35,32 @@
           "官网披露产品符合 ASME、CE、AHRI、API、DNV、GL、LR、ABS、BV、NK、KR、CCS、RINA、RS、CCC、GB 等国际规范和标准，并拥有 ISO 9001、ISO 14001、ISO 45001、ASME、AHRI、板式换热器 A5 级安全认证、板式换热器中国能效认证等资质，同时拥有上百项专利和软件著作权，并参与多项国家及行业标准起草。"
         ],
         "ru": [
-          "Shanghai Accessen Co., Ltd. — поставщик низкоуглеродных решений для охлаждения и теплообмена для центров обработки данных, специализирующийся на исследованиях и разработках, производстве, продаже и обслуживании теплообменного оборудования. Его приложения охватывают отопление, охлаждение, охлаждение центров обработки данных и промышленное управление температурным режимом.",
-          "Компания Accessen со штаб-квартирой в промышленном парке Хуанду в Шанхае управляет производственными мощностями площадью более 100 000 квадратных метров на территории дорожной фабрики Сечунь и фабрики в портовой зоне Тайцан. Сеть прямых продаж и обслуживания охватывает основные рынки Китая и зарубежные регионы, включая Гонконг, Сингапур, Малайзию и Таиланд.",
-          "Accessen обслуживает центры обработки данных, системы отопления, вентиляции и кондиционирования, холодильную, энергетическую, сталелитейную и металлургическую, нефтехимическую, пищевую и фармацевтическую отрасли, новую энергетическую электронику, морское и морское машиностроение, а также приложения для очистки окружающей среды. Компания позиционирует пластинчатый теплообмен и системную интеграцию как две основные технологии.",
-          "Ассортимент продукции, соответствующей стандарту AS, включает пластинчатые теплообменники и агрегаты, цельносварные пластинчато-корпусные и пластинчатые теплообменники, цельносварные воздушные теплообменники, системы охлаждения технологической воды, системы рекуперации отработанного тепла, контейнерные теплообменные станции AMOBILE и сборные интегрированные станции охлаждения.",
-          "Accessen заявляет, что ее продукция соответствует стандартам ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, GB и другим международным стандартам. Компания также сообщает о сертификатах безопасности пластинчатых теплообменников ISO 9001, ISO 14001, ISO 45001, ASME, AHRI, классе A5, китайском сертификате энергоэффективности пластинчатых теплообменников, более 100 патентах и ​​авторских правах на программное обеспечение, а также участии в разработке национальных и отраслевых стандартов."
+          "Shanghai Accessen Co., Ltd. является поставщиком низкоуглеродных решений для охлаждения и теплообмена центров обработки данных, специализируясь на исследованиях и разработках, производстве, продаже и обслуживании теплообменного оборудования. Его приложения охватывают отопление, охлаждение, охлаждение центров обработки данных и промышленное управление температурным режимом.",
+          "Компания Accessen со штаб-квартирой в промышленном парке Хуанду в Шанхае управляет производственными мощностями площадью более 100 000 квадратных метров на территории дорожного завода Сечунь и завода в портовой зоне Тайкана. Сеть прямых продаж и обслуживания охватывает основные рынки Китая и зарубежные регионы, включая Гонконг, Сингапур, Малайзию и Таиланд.",
+          "Accessen обслуживает центры обработки данных, HVAC, холодильную, энергетическую, сталелитейную и металлургическую, нефтехимическую, пищевую и фармацевтическую отрасли, новую энергетическую электронику, морское и морское машиностроение, а также приложения для очистки окружающей среды. Компания позиционирует пластинчатый теплообмен и системную интеграцию как две основные технологии.",
+          "Ассортимент продукции по стандарту AS включает пластинчатые теплообменники и агрегаты, цельносварные пластинчато-корпусные и пластинчатые теплообменники, цельносварные воздушные теплообменники, системы охлаждения технологической воды, системы рекуперации отработанного тепла, контейнерные теплообменные станции AMOBILE и сборные интегрированные станции охлаждения.",
+          "Accessen заявляет, что ее продукция соответствует ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, GB и другим международным стандартам. Компания также сообщает о сертификации ISO 9001, ISO 14001, ISO 45001, ASME, AHRI, сертификации безопасности класса A5 для пластинчатых теплообменников, китайской сертификации энергоэффективности пластинчатых теплообменников, более 100 патентах и ​​авторских правах на программное обеспечение, а также участии в разработке национальных и отраслевых стандартов."
         ],
         "es": [
-          "Shanghai Accessen Co., Ltd. es un provider de bajo en carbono enfriamiento de centros de datos y soluciones de intercambio de calor, specializing en el R&D, fabricacion, sales, y servicio de equipos de intercambio de calor. Its aplicaciones span calentamiento, enfriamiento, enfriamiento de centros de datos, y industrial gestion termica.",
-          "Headquartered at Shanghai Huangdu Industrial Park, Accessen operates fabricacion facilities de mas de 100,000 square metros across el Xiechun Road Fabrica y Taicang Port area Fabrica. Its red directa de ventas y servicio cubre principales mercados chinos y overseas locations incluidos Hong Kong, Singapore, Malaysia, y Thailand.",
-          "Accessen serves datos center, HVAC, enfriamiento, energia y potencia, acero y metalurgia, petroquimico, alimentario y farmaceutico, electronica de nuevas energias, maritimo y offshore ingenieria, y tratamiento ambiental aplicaciones. la empresa positions placa heat exchange y sistema integration como its two nucleo tecnologias.",
-          "Its como-norma cartera de productos includes intercambiadores de calor de placas y unidades, totalmente soldado placa-shell y placa-frame intercambiadores de calor, totalmente soldado air intercambiadores de calor, proceso water enfriamiento sistemas, recuperacion de calor residual sistemas, AMOBILE estaciones de intercambio de calor contenerizadas, y prefabricated estaciones de enfriamiento integradas.",
-          "Accessen indica que its productos comply con ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, GB, y other normas internacionales. la empresa tambien informa ISO 9001, ISO 14001, ISO 45001, ASME, AHRI, Class A5 seguridad certificacion para intercambiadores de calor de placas, China eficiencia energetica certificacion para intercambiadores de calor de placas, over 100 patentes y software derechos de autor, y participation en national y industria norma drafting."
+          "Shanghai Accessen Co., Ltd. es un proveedor de soluciones de intercambio de calor y enfriamiento de centros de datos con bajas emisiones de carbono, que se especializa en investigación y desarrollo, fabricación, venta y servicio de equipos de intercambio de calor. Sus aplicaciones abarcan calefacción, refrigeración, refrigeración de centros de datos y gestión térmica industrial.",
+          "Con sede en el Parque Industrial Huangdu de Shanghai, Accessen opera instalaciones de fabricación de más de 100.000 metros cuadrados en la fábrica Xiechun Road y la fábrica del área portuaria de Taicang. Su red de ventas directas y servicios cubre los principales mercados chinos y ubicaciones en el extranjero, incluidos Hong Kong, Singapur, Malasia y Tailandia.",
+          "Accessen presta servicios a centros de datos, HVAC, refrigeración, energía y potencia, acero y metalurgia, petroquímica, alimentos y productos farmacéuticos, electrónica de nuevas energías, ingeniería marina y offshore y aplicaciones de tratamiento ambiental. La empresa posiciona el intercambio de calor de placas y la integración de sistemas como sus dos tecnologías principales.",
+          "Su cartera de productos estándar AS incluye unidades y intercambiadores de calor de placas, intercambiadores de calor de carcasa y marco de placas completamente soldados, intercambiadores de calor de aire completamente soldados, sistemas de enfriamiento de agua de proceso, sistemas de recuperación de calor residual, estaciones de intercambio de calor en contenedores AMOBILE y estaciones de enfriamiento integradas prefabricadas.",
+          "Accessen declara que sus productos cumplen con ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, GB y otros estándares internacionales. La compañía también informa ISO 9001, ISO 14001, ISO 45001, ASME, AHRI, certificación de seguridad Clase A5 para intercambiadores de calor de placas, certificación de eficiencia energética de China para intercambiadores de calor de placas, más de 100 patentes y derechos de autor de software, y participación en la redacción de estándares nacionales e industriales."
+        ],
+        "fr": [
+          "Shanghai Accessen Co., Ltd. est un fournisseur de solutions de refroidissement et d'échange thermique pour centres de données à faible émission de carbone, spécialisé dans la R&D, la fabrication, la vente et le service d'équipements d'échange thermique. Ses applications couvrent le chauffage, la réfrigération, le refroidissement des centres de données et la gestion thermique industrielle.",
+          "Basée dans le parc industriel de Shanghai Huangdu, Accessen exploite des installations de fabrication de plus de 100 000 mètres carrés dans l'usine de Xiechun Road et l'usine de la zone portuaire de Taicang. Son réseau de vente directe et de service couvre les principaux marchés chinois et des sites à l'étranger, notamment Hong Kong, Singapour, la Malaisie et la Thaïlande.",
+          "Accessen dessert les centres de données, HVAC, la réfrigération, l'énergie et l'électricité, l'acier et la métallurgie, la pétrochimie, l'alimentation et la pharmacie, l'électronique des nouvelles énergies, l'ingénierie marine et offshore et les applications de traitement de l'environnement. L'entreprise positionne l'échange thermique à plaques et l'intégration de systèmes comme ses deux technologies principales.",
+          "Sa gamme de produits standard comprend des échangeurs et unités de chaleur à plaques, des échangeurs de chaleur à plaques et à châssis entièrement soudés, des échangeurs de chaleur à air entièrement soudés, des systèmes de refroidissement par eau de procédé, des systèmes de récupération de chaleur perdue, des stations d'échange de chaleur conteneurisées AMOBILE et des stations de refroidissement intégrées préfabriquées.",
+          "Accessen déclare que ses produits sont conformes aux normes ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, GB et à d'autres normes internationales. La société rapporte également les certifications de sécurité ISO 9001, ISO 14001, ISO 45001, ASME, AHRI, classe A5 pour les échangeurs de chaleur à plaques, la certification d'efficacité énergétique de la Chine pour les échangeurs de chaleur à plaques, plus de 100 brevets et droits d'auteur sur les logiciels, et la participation à la rédaction de normes nationales et industrielles."
+        ],
+        "ar": [
+          "Shanghai Accessen Co., Ltd. هي شركة تقدم حلول تبريد وتبادل الحرارة لمراكز البيانات منخفضة الكربون، وهي متخصصة في البحث والتطوير والتصنيع والمبيعات وخدمة معدات التبادل الحراري. وتشمل تطبيقاتها التدفئة والتبريد وتبريد مراكز البيانات والإدارة الحرارية الصناعية.",
+          "يقع المقر الرئيسي لشركة Accessen في مجمع شنغهاي هوانغدو الصناعي، وتدير مرافق تصنيع تزيد مساحتها عن 100.000 متر مربع عبر مصنع طريق شيتشون ومصنع منطقة ميناء تايتسانغ. تغطي شبكة المبيعات والخدمات المباشرة الخاصة بها الأسواق الصينية الرئيسية والمواقع الخارجية بما في ذلك هونغ كونغ وسنغافورة وماليزيا وتايلاند.",
+          "يخدم Accessen مركز البيانات HVAC والتبريد والطاقة والصلب والمعادن والبتروكيماويات والأغذية والأدوية وإلكترونيات الطاقة الجديدة والهندسة البحرية والبحرية وتطبيقات المعالجة البيئية. تضع الشركة التبادل الحراري للوحة وتكامل النظام كتقنيتين أساسيتين لها.",
+          "تشتمل مجموعة منتجات AS-standard على مبادلات ووحدات حرارية لألواح، ومبادلات حرارية ملحومة بالكامل ذات هيكل لوحة وإطار لوحة، ومبادلات حرارية للهواء ملحومة بالكامل، وأنظمة تبريد مياه المعالجة، وأنظمة استعادة الحرارة المهدرة، ومحطات التبادل الحراري بالحاويات AMOBILE، ومحطات التبريد المتكاملة الجاهزة.",
+          "تنص Accessen على أن منتجاتها تتوافق مع ASME، CE، AHRI، API، DNV، GL، LR، ABS، BV، NK، KR، CCS، RINA، RS، CCC، GB، وغيرها من المعايير الدولية. كما حصلت الشركة أيضًا على شهادة ISO 9001، وISO 14001، وISO 45001، وASME، وAHRI، وشهادة السلامة من الفئة A5 للمبادلات الحرارية اللوحية، وشهادة كفاءة الطاقة الصينية للمبادلات الحرارية اللوحية، وأكثر من 100 براءة اختراع وحقوق نشر للبرامج، والمشاركة في صياغة المعايير الوطنية والصناعية."
         ]
       },
       "advantages": {
@@ -68,19 +86,37 @@
           "Крупномасштабная производственная база: Accessen управляет более чем 100 000 квадратных метров производственных площадей на своих предприятиях в Шанхае и Тайцане.",
           "Компетенция Dual Core: компания выделяет технологию пластинчатого теплообменника и системную интеграцию в качестве своих основных технических возможностей.",
           "Широкий ассортимент продукции: Продукция охватывает пластинчатые теплообменники, пластинчатые теплообменники, цельносварные теплообменники, технологические системы охлаждения, системы рекуперации отходящего тепла, контейнерные теплообменные станции и сборные интегрированные охлаждающие станции.",
-          "Международные стандарты и сертификаты: Accessen обозначает соответствие стандартам ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, GB, ISO 9001, ISO 14001 и ISO 45001.",
+          "Международные стандарты и сертификаты: Accessen, основные моменты ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, GB, ISO. Покрытие 9001, ISO 14001 и ISO 45001.",
           "Качество и инженерные возможности. В официальном профиле представлены автоматизированные роботы для резки и сварки, гидравлический пресс усилием 40 000 тонн, автоматические сварочные системы и полнофункциональные испытательные платформы.",
           "Обширный охват услуг: прямые продажи и сервисная поддержка охватывают основные рынки Китая и некоторые зарубежные рынки, включая Гонконг, Сингапур, Малайзию и Таиланд.",
           "Проверенный масштаб развертывания: Accessen заявляет, что реализовал более 20 000 случаев внедрения и обслуживает более 10 000 клиентов по всему миру."
         ],
         "es": [
-          "grande-Scale Fabricacion Base: Accessen operates mas de 100,000 square metros de fabricacion space across its Shanghai y Taicang facilities.",
-          "Dual nucleo Competence: la empresa emphasizes placa heat exchange tecnologia y sistema integration como its nucleo technical capacidades.",
-          "Broad Cartera de productos: productos cover intercambiadores de calor de placas, intercambiador de calor de placas unidades, totalmente soldado exchangers, enfriamiento de proceso sistemas, recuperacion de calor residual sistemas, estaciones de intercambio de calor contenerizadas, y prefabricated estaciones de enfriamiento integradas.",
-          "Normas internacionales y Certificacions: Accessen destaca ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, GB, ISO 9001, ISO 14001, y ISO 45001 coverage.",
-          "Calidad y Ingenieria capacidad: el perfil oficial destaca automated cutting y soldadura robots, un 40,000-ton hydraulic press, automatic soldadura sistemas, y full-rendimiento testing platforms.",
-          "Extensive servicio Coverage: directo sales y servicio soporte cubre principales mercados chinos y selected mercados internacionales incluidos Hong Kong, Singapore, Malaysia, y Thailand.",
-          "Proven Deployment Scale: Accessen states lo ha entregado mas de 20,000 casos de implementacion y serves over 10,000 clientes globales."
+          "Base de fabricación a gran escala: Accessen opera más de 100.000 metros cuadrados de espacio de fabricación en sus instalaciones de Shanghai y Taicang.",
+          "Competencia de doble núcleo: la empresa enfatiza la tecnología de intercambio de calor de placas y la integración de sistemas como sus capacidades técnicas principales.",
+          "Amplia cartera de productos: Los productos cubren intercambiadores de calor de placas, unidades de intercambiadores de calor de placas, intercambiadores completamente soldados, sistemas de enfriamiento de procesos, sistemas de recuperación de calor residual, estaciones de intercambio de calor en contenedores y estaciones de enfriamiento integradas prefabricadas.",
+          "Estándares y certificaciones internacionales: Accessen destaca ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, GB, ISO Cobertura 9001, ISO 14001 y ISO 45001.",
+          "Calidad y capacidad de ingeniería: el perfil oficial destaca robots automatizados de corte y soldadura, una prensa hidráulica de 40.000 toneladas, sistemas de soldadura automática y plataformas de prueba de rendimiento completo.",
+          "Amplia cobertura de servicios: las ventas directas y el soporte de servicios cubren los principales mercados chinos y mercados extranjeros seleccionados, incluidos Hong Kong, Singapur, Malasia y Tailandia.",
+          "Escala de implementación comprobada: Accessen afirma que ha entregado más de 20 000 casos de implementación y presta servicios a más de 10 000 clientes globales."
+        ],
+        "fr": [
+          "Base de fabrication à grande échelle: Accessen exploite plus de 100 000 mètres carrés d'espace de fabrication dans ses installations de Shanghai et de Taicang.",
+          "Compétence double cœur: la société met l'accent sur la technologie d'échange thermique à plaques et l'intégration de systèmes comme ses principales capacités techniques.",
+          "Large gamme de produits: les produits couvrent les échangeurs de chaleur à plaques, les unités d'échangeurs de chaleur à plaques, les échangeurs entièrement soudés, les systèmes de refroidissement de processus, les systèmes de récupération de chaleur perdue, les stations d'échange de chaleur conteneurisées et les stations de refroidissement intégrées préfabriquées.",
+          "Normes et certifications internationales: Accessen met en évidence ASME, CE, AHRI, API, DNV, GL, LR, ABS, BV, NK, KR, CCS, RINA, RS, CCC, GB, ISO. Couverture 9001, ISO 14001 et ISO 45001.",
+          "Qualité et capacité d'ingénierie: le profil officiel met en évidence des robots de découpe et de soudage automatisés, une presse hydraulique de 40 000 tonnes, des systèmes de soudage automatiques et des plates-formes de test complètes.",
+          "Couverture étendue des services: les ventes directes et le service après-vente couvrent les principaux marchés chinois et certains marchés étrangers, notamment Hong Kong, Singapour, la Malaisie et la Thaïlande.",
+          "Échelle de déploiement éprouvée: Accessen déclare avoir livré plus de 20 000 cas de mise en œuvre et servir plus de 10 000 clients dans le monde."
+        ],
+        "ar": [
+          "قاعدة تصنيع واسعة النطاق: تدير شركة Accessen أكثر من 100000 متر مربع من مساحة التصنيع عبر منشآتها في شنغهاي وتايتسانغ.",
+          "الكفاءة ثنائية النواة: تركز الشركة على تقنية التبادل الحراري للوحة وتكامل النظام باعتبارها قدراتها التقنية الأساسية.",
+          "مجموعة واسعة من المنتجات: تغطي المنتجات المبادلات الحرارية اللوحية، ووحدات المبادلات الحرارية اللوحية، والمبادلات الملحومة بالكامل، وأنظمة تبريد العمليات، وأنظمة استعادة الحرارة المهدرة، ومحطات التبادل الحراري المعبأة في حاويات، ومحطات التبريد المتكاملة الجاهزة.",
+          "المعايير والشهادات الدولية: Accessen يسلط الضوء على ASME، CE، AHRI، API، DNV، GL، LR، ABS، BV، NK، KR، CCS، RINA، RS، CCC، GB، ISO تغطية 9001 وISO 14001 وISO 45001.",
+          "الجودة والقدرة الهندسية: يسلط الملف الرسمي الضوء على روبوتات القطع واللحام الآلية، ومكبس هيدروليكي بوزن 40 ألف طن، وأنظمة لحام أوتوماتيكية، ومنصات اختبار كاملة الأداء.",
+          "تغطية خدمة واسعة النطاق: يغطي دعم المبيعات والخدمة المباشرة الأسواق الصينية الرئيسية وأسواق خارجية مختارة بما في ذلك هونج كونج وسنغافورة وماليزيا وتايلاند.",
+          "مقياس النشر المثبت: تنص Accessen على أنها قدمت أكثر من 20000 حالة تنفيذ وتخدم أكثر من 10000 عميل عالمي."
         ]
       },
       "website": "https://www.accessen.com/",
@@ -112,19 +148,25 @@
         "en": "China",
         "zh": "中国",
         "ru": "Китай",
-        "es": "China"
+        "es": "China",
+        "fr": "Chine",
+        "ar": "الصين"
       },
       "city": {
         "en": "Shanghai",
         "zh": "上海",
         "ru": "Шанхай",
-        "es": "Shanghai"
+        "es": "Shangai",
+        "fr": "Shanghai",
+        "ar": "شنغهاي"
       },
       "address": {
         "en": "No. 1458 Xiechun Road, Jiading District, Shanghai, China",
         "zh": "上海市嘉定区谢春路1458号",
         "ru": "№ 1458 Xiechun Road, район Цзядин, Шанхай, Китай",
-        "es": "No. 1458 Xiechun Road, Jiading District, Shanghai, China"
+        "es": "No. 1458 Xiechun Road, distrito de Jiading, Shanghai, China",
+        "fr": "No. 1458 Xiechun Road, district de Jiading, Shanghai, Chine",
+        "ar": "رقم 1458 طريق شيتشون، منطقة جيادينغ، شنغهاي، الصين"
       },
       "established_year": "2002",
       "factory_area": "100000m2",
@@ -248,20 +290,26 @@
           "name": {
             "en": "Liquid-Cooling Distribution Unit ACDU",
             "zh": "ACDU高效节能液冷分配单元/液冷系统集成",
-            "ru": "Распределительный блок жидкостного охлаждения ACDU",
-            "es": "Liquid-enfriamiento Distribution unidad ACDU"
+            "ru": "Распределительная установка жидкостного охлаждения ACDU",
+            "es": "Unidad de distribución de refrigeración líquida ACDU",
+            "fr": "Unité de distribution à refroidissement liquide ACDU",
+            "ar": "وحدة توزيع تبريد السائل ACDU"
           },
           "short_description": {
             "en": "Prefabricated liquid-cooling distribution unit for data centers with natural cooling, adaptive control, and rapid deployment.",
             "zh": "面向数据中心的预制化液冷分配单元，支持自然冷却、自适应控制与快速部署。",
             "ru": "Сборный распределительный блок жидкостного охлаждения для дата-центров с естественным охлаждением, адаптивным управлением и быстрым развертыванием.",
-            "es": "Prefabricated liquid-enfriamiento distribution unidad para datos centers con natural enfriamiento, adaptive control, y rapid deployment."
+            "es": "Unidad de distribución de refrigeración líquida prefabricada para centros de datos con refrigeración natural, control adaptativo y rápido despliegue.",
+            "fr": "Unité de distribution préfabriquée à refroidissement liquide pour centres de données avec refroidissement naturel, contrôle adaptatif et déploiement rapide.",
+            "ar": "وحدة توزيع التبريد السائل الجاهزة لمراكز البيانات مع التبريد الطبيعي والتحكم التكيفي والنشر السريع."
           },
           "full_description": {
             "en": "The Liquid-Cooling Distribution Unit ACDU is designed for data center cooling systems that require location-independent deployment and compressor-free natural cooling. According to Accessen, the solution lowers overall system PUE, uses intelligent controls with variable-speed pumping and hydraulic flow modulation, and reduces installation complexity through modular prefabrication.",
             "zh": "Liquid-Cooling Distribution Unit ACDU 面向数据中心液冷系统应用，支持不受地域限制的部署和全气候无压缩机自然冷却。根据官网介绍，该产品可降低整体系统 PUE，并通过智能控制、变频泵和水力流量调节实现持续自适应运行，同时借助模块化预制设计减少现场安装复杂度。",
-            "ru": "Распределительный блок с жидкостным охлаждением ACDU предназначен для систем охлаждения центров обработки данных, которые требуют развертывания независимо от местоположения и естественного охлаждения без компрессора. По данным Accessen, это решение снижает общий показатель PUE системы, использует интеллектуальные средства управления с регулируемой скоростью накачки и модуляцией гидравлического потока, а также снижает сложность установки за счет модульной предварительной сборки.",
-            "es": "el Liquid-enfriamiento Distribution unidad ACDU es disenado para enfriamiento de centros de datos sistemas que require location-independent deployment y compressor-free natural enfriamiento. segun un Accessen, el solucion lowers overall sistema PUE, usa intelligent controls con variable-speed pumping y hydraulic flujo modulation, y reduce installation complexity mediante modular prefabrication."
+            "ru": "Распределительный блок жидкостного охлаждения ACDU предназначен для систем охлаждения центров обработки данных, которые требуют развертывания независимо от местоположения и естественного охлаждения без компрессора. Согласно Accessen, это решение снижает общий показатель PUE системы, использует интеллектуальные средства управления с регулируемой скоростью накачки и модуляцией гидравлического потока, а также снижает сложность установки за счет модульной предварительной сборки.",
+            "es": "La unidad de distribución de refrigeración líquida ACDU está diseñada para sistemas de refrigeración de centros de datos que requieren una implementación independiente de la ubicación y refrigeración natural sin compresores. Según Accessen, la solución reduce el PUE general del sistema, utiliza controles inteligentes con bombeo de velocidad variable y modulación del flujo hidráulico, y reduce la complejidad de la instalación mediante la prefabricación modular.",
+            "fr": "L'unité de distribution de refroidissement liquide ACDU est conçue pour les systèmes de refroidissement des centres de données qui nécessitent un déploiement indépendant de l'emplacement et un refroidissement naturel sans compresseur. Selon Accessen, la solution réduit le PUE global du système, utilise des commandes intelligentes avec pompage à vitesse variable et modulation du débit hydraulique, et réduit la complexité de l'installation grâce à une préfabrication modulaire.",
+            "ar": "تم تصميم وحدة توزيع التبريد السائل ACDU لأنظمة تبريد مراكز البيانات التي تتطلب نشرًا مستقلاً عن الموقع وتبريدًا طبيعيًا خاليًا من الضاغط. وفقًا لـ Accessen، فإن الحل يخفض نظام PUE الإجمالي، ويستخدم عناصر تحكم ذكية مع ضخ متغير السرعة وتعديل التدفق الهيدروليكي، ويقلل من تعقيد التثبيت من خلال التصنيع المسبق المعياري."
           },
           "industries": [],
           "advantage": {
@@ -287,11 +335,25 @@
               "Модульное сборное производство"
             ],
             "es": [
-              "Field-Proven Fiabilidad y Seguridad",
-              "Rapid Deployment",
-              "Adaptive Control Sistema",
-              "alta-Eficiencia Liquid enfriamiento",
-              "Modular Prefabrication"
+              "Fiabilidad y seguridad comprobadas en el campo",
+              "Implementación rápida",
+              "Sistema de control adaptativo",
+              "Refrigeración líquida de alta eficiencia",
+              "Prefabricación Modular"
+            ],
+            "fr": [
+              "Fiabilité et sécurité éprouvées sur le terrain",
+              "Déploiement rapide",
+              "Système de contrôle adaptatif",
+              "Refroidissement liquide à haute efficacité",
+              "Préfabrication modulaire"
+            ],
+            "ar": [
+              "الموثوقية والسلامة المثبتة ميدانيًا",
+              "النشر السريع",
+              "نظام التحكم التكيفي",
+              "تبريد سائل عالي الكفاءة",
+              "وحدات مسبقة الصنع"
             ]
           },
           "technical_parameters": {
@@ -318,26 +380,48 @@
               "电源": "380V~415VAC/50±1Hz"
             },
             "ru": {
-              "Диапазон температур хранения": "-40°C~70°C",
-              "Диапазон рабочих температур": "5°C~50°C",
-              "Рабочая относительная влажность": "5%~95%",
-              "Диапазон высот": "-30м~2500м",
-              "Первичная сторона охлаждающей жидкости": "Растворы на основе воды/этиленгликоля",
-              "Оценка первичной фильтрации": "200 мкм~300 мкм",
-              "Вторичная сторона охлаждающей жидкости": "Деионизированная вода/ этиленгликоль/ пропиленгликоль/фторированные жидкости",
-              "Оценка вторичной фильтрации": "100 мкм~200 мкм",
-              "Источник питания": "380 В~415 В переменного тока/50±1 Гц"
+              "Storage Temperature Range": "-40°К~70°К",
+              "Operating Temperature Range": "5°К~50°К",
+              "Operating Relative Humidity": "5%~95%",
+              "Altitude Range": "-30м~2500м",
+              "Primary Side Coolant": "Растворы на основе воды/этиленгликоля",
+              "Primary Filtration Rating": "200 мкм~300 мкм",
+              "Secondary Side Coolant": "Деионизированная вода/ этиленгликоль/ пропиленгликоль/фторированные жидкости",
+              "Secondary Filtration Rating": "100 мкм~200 мкм",
+              "Power Supply": "380 В~415 В переменного тока/50 ± 1 Гц"
             },
             "es": {
               "Storage Temperature Range": "-40°C~70°C",
               "Operating Temperature Range": "5°C~50°C",
               "Operating Relative Humidity": "5%~95%",
               "Altitude Range": "-30m~2500m",
-              "Primary Side Coolant": "Water/ Ethylene Glycol-based Soluciones",
+              "Primary Side Coolant": "Soluciones a base de agua/etilenglicol",
               "Primary Filtration Rating": "200μm~300μm",
-              "Secondary Side Coolant": "Deionized Water/ Ethylene Glycol/ Propylene Glycol/ Fluorinated Fluids",
+              "Secondary Side Coolant": "Agua desionizada/Etilenglicol/Propilenglicol/Fluidos fluorados",
               "Secondary Filtration Rating": "100μm~200μm",
-              "Power Supply": "380V~415VAC/50±1Hz"
+              "Power Supply": "380V~415VCA/50±1Hz"
+            },
+            "fr": {
+              "Storage Temperature Range": "-40°C~70°C",
+              "Operating Temperature Range": "5°C~50°C",
+              "Operating Relative Humidity": "5% ~ 95%",
+              "Altitude Range": "-30m~2500m",
+              "Primary Side Coolant": "Solutions à base d'eau/éthylène glycol",
+              "Primary Filtration Rating": "200 μm ~ 300 μm",
+              "Secondary Side Coolant": "Eau désionisée/éthylèneglycol/propylèneglycol/fluides fluorés",
+              "Secondary Filtration Rating": "100 μm ~ 200 μm",
+              "Power Supply": "380 V~415 VCA/50 ± 1 Hz"
+            },
+            "ar": {
+              "Storage Temperature Range": "-40 درجة مئوية ~ 70 درجة مئوية",
+              "Operating Temperature Range": "5 درجة مئوية ~ 50 درجة مئوية",
+              "Operating Relative Humidity": "5%~95%",
+              "Altitude Range": "-30 م ~ 2500 م",
+              "Primary Side Coolant": "المحاليل المعتمدة على الماء/ الإيثيلين جلايكول",
+              "Primary Filtration Rating": "200 ميكرومتر ~ 300 ميكرومتر",
+              "Secondary Side Coolant": "الماء منزوع الأيونات / إيثيلين جليكول / بروبيلين جليكول / السوائل المفلورة",
+              "Secondary Filtration Rating": "100 ميكرومتر ~ 200 ميكرومتر",
+              "Power Supply": "380 فولت ~ 415 فولت تيار متردد/50±1 هرتز"
             }
           },
           "details": {
@@ -373,12 +457,32 @@
             ],
             "es": [
               {
-                "title": "que es el ACDU utilizados para?",
-                "content": "Accessen positions el ACDU como un liquid-enfriamiento distribution unidad para datos centers, donde lo admite compressor-free natural enfriamiento y ayuda un reduce overall PUE en liquid enfriamiento sistemas."
+                "title": "¿Para qué se utiliza la ACDU?",
+                "content": "Accessen posiciona la ACDU como una unidad de distribución de refrigeración líquida para centros de datos, donde admite refrigeración natural sin compresor y ayuda a reducir el PUE general en los sistemas de refrigeración líquida."
               },
               {
-                "title": "How es deployment simplified?",
-                "content": "el producto usa un prefabricated modular diseno que minimizes installation complexity en site y admite faster proyecto entrega."
+                "title": "¿Cómo se simplifica la implementación?",
+                "content": "El producto utiliza un diseño modular prefabricado que minimiza la complejidad de la instalación en el sitio y permite una entrega más rápida del proyecto."
+              }
+            ],
+            "fr": [
+              {
+                "title": "A quoi sert l'ACDU?",
+                "content": "Accessen positionne l'ACDU comme une unité de distribution de refroidissement liquide pour les centres de données, où il prend en charge le refroidissement naturel sans compresseur et contribue à réduire le PUE global dans les systèmes de refroidissement liquide."
+              },
+              {
+                "title": "Comment le déploiement est-il simplifié?",
+                "content": "Le produit utilise une conception modulaire préfabriquée qui minimise la complexité de l'installation sur site et permet une livraison plus rapide du projet."
+              }
+            ],
+            "ar": [
+              {
+                "title": "ما هو استخدام ACDU؟",
+                "content": "تقوم Accessen بوضع ACDU كوحدة توزيع للتبريد السائل لمراكز البيانات، حيث تدعم التبريد الطبيعي الخالي من الضاغط وتساعد على تقليل PUE الإجمالي في أنظمة التبريد السائل."
+              },
+              {
+                "title": "كيف يتم تبسيط عملية النشر؟",
+                "content": "يستخدم المنتج تصميمًا معياريًا مُسبق الصنع يقلل من تعقيد التثبيت في الموقع ويدعم تسليم المشروع بشكل أسرع."
               }
             ]
           },
@@ -393,12 +497,20 @@
               "meta_description": "面向数据中心液冷系统的预制化液冷分配单元，具备自然冷却、自适应控制和快速部署能力。"
             },
             "ru": {
-              "meta_title": "Распределительный блок жидкостного охлаждения ACDU",
+              "meta_title": "Распределительная установка жидкостного охлаждения ACDU",
               "meta_description": "Готовый распределительный блок с жидкостным охлаждением для центра обработки данных с адаптивным управлением, естественным охлаждением и функциями быстрого развертывания."
             },
             "es": {
-              "meta_title": "Liquid-enfriamiento Distribution unidad ACDU",
-              "meta_description": "Prefabricated datos center liquid-enfriamiento distribution unidad con adaptive control, natural enfriamiento, y rapid deployment caracteristicas."
+              "meta_title": "Unidad de distribución de refrigeración líquida ACDU",
+              "meta_description": "Unidad de distribución de refrigeración líquida para centro de datos prefabricada con control adaptativo, refrigeración natural y funciones de implementación rápida."
+            },
+            "fr": {
+              "meta_title": "Unité de distribution à refroidissement liquide ACDU",
+              "meta_description": "Unité de distribution de refroidissement liquide pour centre de données préfabriquée avec contrôle adaptatif, refroidissement naturel et fonctionnalités de déploiement rapide."
+            },
+            "ar": {
+              "meta_title": "وحدة توزيع تبريد السائل ACDU",
+              "meta_description": "وحدة توزيع تبريد سائل لمركز بيانات مسبقة الصنع مع ميزات التحكم التكيفي والتبريد الطبيعي والنشر السريع."
             }
           }
         },
@@ -421,19 +533,25 @@
             "en": "Liquid-Cooled Hydraulic Power Unit PHEU",
             "zh": "PHEU液冷/水冷水力模块",
             "ru": "Гидравлический силовой агрегат с жидкостным охлаждением PHEU",
-            "es": "Liquid-Cooled Hydraulic Power unidad PHEU"
+            "es": "Unidad de potencia hidráulica refrigerada por líquido PHEU",
+            "fr": "Groupe hydraulique refroidi par liquide PHEU",
+            "ar": "وحدة الطاقة الهيدروليكية المبردة بالسائل PHEU"
           },
           "short_description": {
             "en": "Modular primary hydraulic distribution unit for liquid-cooled data centers with integrated PHE, pumps, and water treatment systems.",
             "zh": "面向液冷数据中心的一次侧水力分配模块，集成板式换热器、水泵和水处理系统。",
             "ru": "Модульный первичный гидравлический распределительный блок для центров обработки данных с жидкостным охлаждением со встроенными теплообменниками, насосами и системами очистки воды.",
-            "es": "Modular primary hydraulic distribution unidad para liquid-cooled datos centers con integrated PHE, pumps, y water treatment sistemas."
+            "es": "Unidad de distribución hidráulica primaria modular para centros de datos refrigerados por líquido con PHE, bombas y sistemas de tratamiento de agua integrados.",
+            "fr": "Unité de distribution hydraulique primaire modulaire pour centres de données refroidis par liquide avec PHE, pompes et systèmes de traitement de l'eau intégrés.",
+            "ar": "وحدة توزيع هيدروليكية أساسية معيارية لمراكز البيانات المبردة بالسوائل المزودة بأنظمة PHE والمضخات وأنظمة معالجة المياه المتكاملة."
           },
           "full_description": {
             "en": "The Liquid-Cooled Hydraulic Power Unit PHEU is a customized primary hydraulic distribution system for liquid cooling applications. Accessen integrates plate heat exchangers, coolant pumps, water treatment systems, piping and valves, and electrical and control systems into a modular package designed to improve thermal efficiency and simplify operation for liquid-cooled data centers.",
             "zh": "Liquid-Cooled Hydraulic Power Unit PHEU 是一款面向液冷应用的一次侧定制化水力分配系统。根据官网说明，产品将板式换热器、冷却液泵、水处理系统、管路阀门以及电气控制系统集成为模块化单元，以提升液冷数据中心的热效率并简化运行管理。",
             "ru": "Гидравлический силовой агрегат с жидкостным охлаждением PHEU — это специализированная первичная гидравлическая распределительная система для систем жидкостного охлаждения. Accessen объединяет пластинчатые теплообменники, насосы охлаждающей жидкости, системы очистки воды, трубопроводы и клапаны, а также электрические системы и системы управления в модульный пакет, предназначенный для повышения тепловой эффективности и упрощения эксплуатации центров обработки данных с жидкостным охлаждением.",
-            "es": "el Liquid-Cooled Hydraulic Power unidad PHEU es un customized primary hydraulic distribution sistema para liquid enfriamiento aplicaciones. Accessen integrates intercambiadores de calor de placas, coolant pumps, water treatment sistemas, piping y valves, y electrical y control sistemas hacia un modular package disenado una improve eficiencia termica y simplify operation para liquid-cooled datos centers."
+            "es": "La unidad de energía hidráulica enfriada por líquido PHEU es un sistema de distribución hidráulica primaria personalizado para aplicaciones de refrigeración líquida. Accessen integra intercambiadores de calor de placas, bombas de refrigerante, sistemas de tratamiento de agua, tuberías y válvulas, y sistemas eléctricos y de control en un paquete modular diseñado para mejorar la eficiencia térmica y simplificar el funcionamiento de los centros de datos refrigerados por líquido.",
+            "fr": "Le groupe hydraulique refroidi par liquide PHEU est un système de distribution hydraulique primaire personnalisé pour les applications de refroidissement liquide. Accessen intègre des échangeurs de chaleur à plaques, des pompes à liquide de refroidissement, des systèmes de traitement de l'eau, des canalisations et des vannes, ainsi que des systèmes électriques et de contrôle dans un ensemble modulaire conçu pour améliorer l'efficacité thermique et simplifier le fonctionnement des centres de données refroidis par liquide.",
+            "ar": "وحدة الطاقة الهيدروليكية المبردة بالسائل PHEU عبارة عن نظام توزيع هيدروليكي أساسي مخصص لتطبيقات التبريد السائل. يدمج Accessen المبادلات الحرارية اللوحية ومضخات التبريد وأنظمة معالجة المياه والأنابيب والصمامات والأنظمة الكهربائية وأنظمة التحكم في حزمة معيارية مصممة لتحسين الكفاءة الحرارية وتبسيط التشغيل لمراكز البيانات المبردة بالسوائل."
           },
           "industries": [],
           "advantage": {
@@ -462,12 +580,28 @@
               "Прочная конструкция для тяжелых условий эксплуатации"
             ],
             "es": [
-              "Prefabricated Modular Integration",
-              "Plug-y-Play Sistema Commissioning",
-              "Rapid Deployment",
-              "BIM-Optimized Diseno y Fabrication",
-              "Space-Optimized Configuration",
-              "Robust Heavy-servicio Construccion"
+              "Integración Modular Prefabricada",
+              "Puesta en marcha del sistema Plug-and-Play",
+              "Implementación rápida",
+              "Diseño y fabricación optimizados para BIM",
+              "Configuración optimizada para el espacio",
+              "Construcción robusta y resistente"
+            ],
+            "fr": [
+              "Intégration modulaire préfabriquée",
+              "Mise en service du système Plug-and-Play",
+              "Déploiement rapide",
+              "Conception et fabrication optimisées pour le BIM",
+              "Configuration optimisée pour l'espace",
+              "Construction robuste et résistante"
+            ],
+            "ar": [
+              "التكامل المعياري الجاهز",
+              "تشغيل نظام التوصيل والتشغيل",
+              "النشر السريع",
+              "تصميم وتصنيع BIM الأمثل",
+              "التكوين الأمثل للمساحة",
+              "بناء قوي للخدمة الشاقة"
             ]
           },
           "technical_parameters": {
@@ -494,26 +628,48 @@
               "电源": "380V~415VAC/50±1Hz"
             },
             "ru": {
-              "Диапазон температур хранения": "-40°C~70°C",
-              "Диапазон рабочих температур": "5°C~50°C",
-              "Рабочая относительная влажность": "5%~95%",
-              "Диапазон высот": "-30м~2500м",
-              "Первичная сторона охлаждающей жидкости": "Охлаждающие жидкости на основе воды или гликоля",
-              "Степень фильтрации первичной стороны": "200 мкм~300 мкм",
-              "Вторичная сторона охлаждающей жидкости": "Деионизированная вода, гликоль, пропиленгликоль, фторированные жидкости",
-              "Степень фильтрации вторичной стороны": "100 мкм~200 мкм",
-              "Источник питания": "380 В~415 В переменного тока/50±1 Гц"
+              "Storage Temperature Range": "-40°К~70°К",
+              "Operating Temperature Range": "5°К~50°К",
+              "Operating Relative Humidity": "5%~95%",
+              "Altitude Range": "-30м~2500м",
+              "Primary Side Coolant": "Охлаждающие жидкости на водной/гликолевой основе",
+              "Primary Side Filtration Rating": "200 мкм~300 мкм",
+              "Secondary Side Coolant": "Деионизированная вода, гликоль, пропиленгликоль, фторированные жидкости",
+              "Secondary Side Filtration Rating": "100 мкм~200 мкм",
+              "Power Supply": "380 В~415 В переменного тока/50 ± 1 Гц"
             },
             "es": {
               "Storage Temperature Range": "-40°C~70°C",
               "Operating Temperature Range": "5°C~50°C",
               "Operating Relative Humidity": "5%~95%",
               "Altitude Range": "-30m~2500m",
-              "Primary Side Coolant": "Water/Glycol-based Coolants",
+              "Primary Side Coolant": "Refrigerantes a base de agua/glicol",
               "Primary Side Filtration Rating": "200μm~300μm",
-              "Secondary Side Coolant": "Deionized Water, Glycol, Propylene Glycol, Fluorinated Fluids",
+              "Secondary Side Coolant": "Agua desionizada, glicol, propilenglicol, fluidos fluorados",
               "Secondary Side Filtration Rating": "100μm~200μm",
-              "Power Supply": "380V~415VAC/50±1Hz"
+              "Power Supply": "380V~415VCA/50±1Hz"
+            },
+            "fr": {
+              "Storage Temperature Range": "-40°C~70°C",
+              "Operating Temperature Range": "5°C~50°C",
+              "Operating Relative Humidity": "5% ~ 95%",
+              "Altitude Range": "-30m~2500m",
+              "Primary Side Coolant": "Liquides de refroidissement à base d'eau/glycol",
+              "Primary Side Filtration Rating": "200 μm ~ 300 μm",
+              "Secondary Side Coolant": "Eau désionisée, glycol, propylène glycol, fluides fluorés",
+              "Secondary Side Filtration Rating": "100 μm ~ 200 μm",
+              "Power Supply": "380 V~415 VCA/50 ± 1 Hz"
+            },
+            "ar": {
+              "Storage Temperature Range": "-40 درجة مئوية ~ 70 درجة مئوية",
+              "Operating Temperature Range": "5 درجة مئوية ~ 50 درجة مئوية",
+              "Operating Relative Humidity": "5%~95%",
+              "Altitude Range": "-30 م ~ 2500 م",
+              "Primary Side Coolant": "المبردات المعتمدة على الماء/الجليكول",
+              "Primary Side Filtration Rating": "200 ميكرومتر ~ 300 ميكرومتر",
+              "Secondary Side Coolant": "الماء منزوع الأيونات، جليكول، بروبيلين جليكول، السوائل المفلورة",
+              "Secondary Side Filtration Rating": "100 ميكرومتر ~ 200 ميكرومتر",
+              "Power Supply": "380 فولت ~ 415 فولت تيار متردد/50±1 هرتز"
             }
           },
           "details": {
@@ -549,12 +705,32 @@
             ],
             "es": [
               {
-                "title": "que es included en el PHEU module?",
-                "content": "Accessen indica que el PHEU integrates intercambiadores de calor de placas, coolant pumps, water treatment sistemas, piping, valves, y electrical y control sistemas hacia one primary hydraulic distribution module."
+                "title": "¿Qué incluye el módulo PHEU?",
+                "content": "Accessen afirma que el PHEU integra intercambiadores de calor de placas, bombas de refrigerante, sistemas de tratamiento de agua, tuberías, válvulas y sistemas eléctricos y de control en un módulo de distribución hidráulica primaria."
               },
               {
-                "title": "How does lo improve proyecto entrega?",
-                "content": "el sistema usa prefabricated modules, precision jig alignment, y prefabricated piping so que field work solo requires thleered o flanged connections, reducing installation time y en-site soldadura."
+                "title": "¿Cómo mejora la ejecución del proyecto?",
+                "content": "El sistema utiliza módulos prefabricados, alineación de plantilla de precisión y tuberías prefabricadas para que el trabajo de campo solo requiera conexiones roscadas o bridadas, lo que reduce el tiempo de instalación y la soldadura en el sitio."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Qu'est-ce qui est inclus dans le module PHEU?",
+                "content": "Accessen indique que le PHEU intègre des échangeurs de chaleur à plaques, des pompes à liquide de refroidissement, des systèmes de traitement de l'eau, des canalisations, des vannes et des systèmes électriques et de contrôle dans un seul module de distribution hydraulique principal."
+              },
+              {
+                "title": "Comment cela améliore-t-il la livraison des projets?",
+                "content": "Le système utilise des modules préfabriqués, un alignement de gabarit de précision et des canalisations préfabriquées afin que les travaux sur le terrain ne nécessitent que des connexions filetées ou à brides, réduisant ainsi le temps d'installation et de soudage sur site."
+              }
+            ],
+            "ar": [
+              {
+                "title": "ما هو مدرج في وحدة PHEU؟",
+                "content": "ينص Accessen على أن PHEU يدمج المبادلات الحرارية اللوحية ومضخات التبريد وأنظمة معالجة المياه والأنابيب والصمامات والأنظمة الكهربائية وأنظمة التحكم في وحدة توزيع هيدروليكية أساسية واحدة."
+              },
+              {
+                "title": "كيف يتم تحسين تسليم المشروع؟",
+                "content": "يستخدم النظام وحدات مسبقة الصنع، ومحاذاة رقص دقيقة، وأنابيب مسبقة الصنع بحيث لا يتطلب العمل الميداني سوى وصلات ملولبة أو ذات حواف، مما يقلل من وقت التثبيت واللحام في الموقع."
               }
             ]
           },
@@ -573,8 +749,16 @@
               "meta_description": "Модульная гидравлическая силовая установка с жидкостным охлаждением, объединяющая теплообменники, насосы и системы очистки воды для инфраструктуры жидкостного охлаждения центров обработки данных."
             },
             "es": {
-              "meta_title": "Liquid-Cooled Hydraulic Power unidad PHEU",
-              "meta_description": "Modular liquid-cooled hydraulic power unidad integrating PHE, pumps, y water treatment sistemas para datos center liquid enfriamiento infrastructure."
+              "meta_title": "Unidad de potencia hidráulica refrigerada por líquido PHEU",
+              "meta_description": "Unidad de energía hidráulica modular refrigerada por líquido que integra PHE, bombas y sistemas de tratamiento de agua para la infraestructura de refrigeración líquida del centro de datos."
+            },
+            "fr": {
+              "meta_title": "Groupe hydraulique refroidi par liquide PHEU",
+              "meta_description": "Unité de puissance hydraulique modulaire refroidie par liquide intégrant des PHE, des pompes et des systèmes de traitement de l'eau pour l'infrastructure de refroidissement liquide des centres de données."
+            },
+            "ar": {
+              "meta_title": "وحدة الطاقة الهيدروليكية المبردة بالسائل PHEU",
+              "meta_description": "وحدة طاقة هيدروليكية معيارية مبردة بالسوائل تدمج PHE والمضخات وأنظمة معالجة المياه للبنية التحتية للتبريد السائل لمركز البيانات."
             }
           }
         },
@@ -597,19 +781,25 @@
             "en": "Outdoor Prefabricated Integrated Cooling Station AIS",
             "zh": "AIS室外预制化集成冷站",
             "ru": "Наружная сборная интегрированная станция охлаждения AIS",
-            "es": "Outdoor Prefabricado e integrado enfriamiento Station AIS"
+            "es": "Estación de refrigeración integrada prefabricada para exteriores AIS",
+            "fr": "Station de refroidissement intégrée préfabriquée extérieure AIS",
+            "ar": "محطة التبريد المتكاملة الجاهزة في الهواء الطلق AIS"
           },
           "short_description": {
             "en": "Outdoor prefabricated integrated cooling plant for rapid deployment of high-efficiency data center cooling infrastructure.",
             "zh": "面向数据中心高效冷却基础设施的室外预制化集成冷站，可支持快速部署。",
             "ru": "Наружная сборная интегрированная холодильная установка для быстрого развертывания высокоэффективной инфраструктуры охлаждения центров обработки данных.",
-            "es": "Outdoor prefabricado e integrado enfriamiento plant para rapid deployment de alta-eficiencia enfriamiento de centros de datos infrastructure."
+            "es": "Planta de refrigeración integrada prefabricada para exteriores para una rápida implementación de infraestructura de refrigeración de centros de datos de alta eficiencia.",
+            "fr": "Installation de refroidissement intégrée préfabriquée extérieure pour le déploiement rapide d’une infrastructure de refroidissement de centre de données à haut rendement.",
+            "ar": "محطة تبريد متكاملة خارجية مسبقة الصنع للنشر السريع للبنية التحتية لتبريد مركز البيانات عالية الكفاءة."
           },
           "full_description": {
             "en": "The AIS prefabricated integrated cooling plant integrates chillers, plate heat exchangers, pumps, cooling towers, valves, control systems, and ancillary components into a factory-manufactured and pre-assembled outdoor cooling station. Accessen states that the system reduces on-site construction complexity, eliminates the need for a dedicated plant room, and enables rapid commissioning once water and electrical connections are completed.",
             "zh": "AIS室外预制化集成冷站将冷水机组、板式换热器、水泵、冷却塔、阀门、控制系统及辅助部件集成为工厂制造、预装配的室外冷却站。根据官网说明，该系统可降低现场施工复杂度，无需单独机房，在完成水电连接后即可快速投运。",
-            "ru": "Сборная интегрированная холодильная установка AIS объединяет чиллеры, пластинчатые теплообменники, насосы, градирни, клапаны, системы управления и вспомогательные компоненты в изготовленную на заводе и предварительно собранную наружную охлаждающую станцию. Accessen утверждает, что система снижает сложность строительства на объекте, устраняет необходимость в специальном машинном помещении и обеспечивает быстрый ввод в эксплуатацию после завершения подключения воды и электричества.",
-            "es": "el AIS prefabricado e integrado enfriamiento plant integrates chillers, intercambiadores de calor de placas, pumps, enfriamiento towers, valves, control sistemas, y ancillary components hacia un fabrica-manufactured y pre-assembled outdoor enfriamiento station. Accessen indica que el sistema reduce en-site construccion complexity, eliminates el need para un dedicated plant room, y enables rapid commissioning once water y electrical connections son completed."
+            "ru": "Сборная интегрированная холодильная установка AIS объединяет чиллеры, пластинчатые теплообменники, насосы, градирни, клапаны, системы управления и вспомогательные компоненты в изготовленную на заводе и предварительно собранную наружную охлаждающую станцию. В Accessen утверждается, что система снижает сложность строительства на месте, устраняет необходимость в специальном машинном помещении и обеспечивает быстрый ввод в эксплуатацию после завершения подключения воды и электричества.",
+            "es": "La planta de enfriamiento integrada prefabricada AIS integra enfriadores, intercambiadores de calor de placas, bombas, torres de enfriamiento, válvulas, sistemas de control y componentes auxiliares en una estación de enfriamiento exterior preensamblada y fabricada en fábrica. Accessen afirma que el sistema reduce la complejidad de la construcción en el sitio, elimina la necesidad de una sala de máquinas dedicada y permite una puesta en servicio rápida una vez que se completan las conexiones eléctricas y de agua.",
+            "fr": "L'installation de refroidissement intégrée préfabriquée AIS intègre des refroidisseurs, des échangeurs de chaleur à plaques, des pompes, des tours de refroidissement, des vannes, des systèmes de contrôle et des composants auxiliaires dans une station de refroidissement extérieure fabriquée et préassemblée en usine. Accessen indique que le système réduit la complexité de la construction sur site, élimine le besoin d'un local technique dédié et permet une mise en service rapide une fois les connexions d'eau et électriques terminées.",
+            "ar": "تقوم محطة التبريد المتكاملة الجاهزة AIS بدمج المبردات والمبادلات الحرارية اللوحية والمضخات وأبراج التبريد والصمامات وأنظمة التحكم والمكونات الإضافية في محطة تبريد خارجية مصنعة ومجمعة مسبقًا في المصنع. ينص Accessen على أن النظام يقلل من تعقيد البناء في الموقع، ويلغي الحاجة إلى غرفة مصنع مخصصة، ويتيح التشغيل السريع بمجرد اكتمال توصيلات المياه والكهرباء."
           },
           "industries": [],
           "advantage": {
@@ -647,15 +837,37 @@
               "Снижение рабочей нагрузки на месте"
             ],
             "es": [
-              "AHRI Certified",
-              "Optimized Structure y Sistema",
-              "Enhanced Eficiencia energetica Certificacion",
-              "Available en Outdoor Configurations",
-              "confiable y Stable Rendimiento",
-              "Rapid Deployment",
-              "Pre-integrated y Pre-assembled",
-              "Modular Diseno",
-              "Reduced en-Site Workload"
+              "Certificado AHRI",
+              "Estructura y sistema optimizados",
+              "Certificación de eficiencia energética mejorada",
+              "Disponible en configuraciones para exteriores",
+              "Rendimiento confiable y estable",
+              "Implementación rápida",
+              "Preintegrado y Premontado",
+              "Diseño modular",
+              "Carga de trabajo in situ reducida"
+            ],
+            "fr": [
+              "Certifié AHRI",
+              "Structure et système optimisés",
+              "Certification améliorée en efficacité énergétique",
+              "Disponible dans les configurations extérieures",
+              "Performances fiables et stables",
+              "Déploiement rapide",
+              "Pré-intégré et pré-assemblé",
+              "Conception modulaire",
+              "Charge de travail réduite sur site"
+            ],
+            "ar": [
+              "معتمد من AHRI",
+              "الهيكل والنظام الأمثل",
+              "تعزيز شهادة كفاءة الطاقة",
+              "متوفر في التكوينات الخارجية",
+              "أداء موثوق ومستقر",
+              "النشر السريع",
+              "متكاملة ومجمعة مسبقًا",
+              "تصميم وحدات",
+              "تقليل عبء العمل في الموقع"
             ]
           },
           "technical_parameters": {
@@ -674,18 +886,32 @@
               "主要结构材料": "AISI 304, 316, 316L, TI, SMO254..."
             },
             "ru": {
-              "Максимальная производительность обработки": "5000 м³/h",
-              "Максимальное расчетное давление": "25 бар",
-              "Минимальная разница температур": "0.5-1℃",
-              "Максимальная расчетная температура": "200℃",
-              "Первичный строительный материал": "AISI 304, 316, 316L, ТИ, СМО254..."
+              "Maximum processing capacity": "5000 м³/ч",
+              "Maximum design pressure": "25 бар",
+              "Minimum temperature difference": "0,5-1℃",
+              "Maximum design temperature": "200℃",
+              "Primary Construction Material": "AISI 304, 316, 316L, ТИ, СМО254..."
             },
             "es": {
-              "Maximum processing capacity": "5,000m³/h",
+              "Maximum processing capacity": "5.000 m³/h",
               "Maximum design pressure": "25bar",
-              "Minimum temperature difference": "0.5-1℃",
+              "Minimum temperature difference": "0,5-1 ℃",
               "Maximum design temperature": "200℃",
               "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254..."
+            },
+            "fr": {
+              "Maximum processing capacity": "5 000 m³/heure",
+              "Maximum design pressure": "25 bars",
+              "Minimum temperature difference": "0,5-1 ℃",
+              "Maximum design temperature": "200℃",
+              "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254..."
+            },
+            "ar": {
+              "Maximum processing capacity": "5,000 م³/ساعة",
+              "Maximum design pressure": "25 بار",
+              "Minimum temperature difference": "0.5-1 درجة مئوية",
+              "Maximum design temperature": "200 درجة مئوية",
+              "Primary Construction Material": "إيسي 304، 316، 316L، تي آي، SMO254..."
             }
           },
           "details": {
@@ -711,22 +937,42 @@
             ],
             "ru": [
               {
-                "title": "Что встроено в станцию AIS?",
-                "content": "Accessen описывает AIS как интегрированную станцию охлаждения для наружного применения, которая объединяет чиллеры, пластинчатые теплообменники, насосы, градирни, клапаны, интеллектуальные средства управления и вспомогательные компоненты в предварительно собранный на заводе комплект."
+                "title": "Что встроено в станцию АИС?",
+                "content": "Accessen описывает AIS как интегрированную наружную охлаждающую станцию, которая объединяет чиллеры, пластинчатые теплообменники, насосы, градирни, клапаны, интеллектуальные средства управления и вспомогательные компоненты в предварительно собранный на заводе комплект."
               },
               {
                 "title": "Почему он подходит для ускоренных проектов?",
-                "content": "Поскольку модули предварительно собираются на заводе и требуют только подготовки фундамента, а также подключения воды и электричества, AIS помогает сократить время строительства и ввода в эксплуатацию на месте."
+                "content": "Поскольку модули предварительно собираются на заводе и требуют только подготовки фундамента, а также подключения к воде и электричеству, AIS помогает сократить время строительства и ввода в эксплуатацию на месте."
               }
             ],
             "es": [
               {
-                "title": "que es integrated dentro del AIS station?",
-                "content": "Accessen describe el AIS como una integrated outdoor enfriamiento station que combines chillers, intercambiadores de calor de placas, pumps, enfriamiento towers, valves, intelligent controls, y de soporte components hacia un fabrica-preassembled package."
+                "title": "¿Qué está integrado dentro de la estación AIS?",
+                "content": "Accessen describe el AIS como una estación de enfriamiento exterior integrada que combina enfriadores, intercambiadores de calor de placas, bombas, torres de enfriamiento, válvulas, controles inteligentes y componentes de soporte en un paquete preensamblado de fábrica."
               },
               {
-                "title": "Why es lo suitable para fast-track proyectos?",
-                "content": "porque el modules son preassembled en el fabrica y solo require site foundation preparation plus water y electrical connections, el AIS ayuda un shorten en-site construccion y commissioning time."
+                "title": "¿Por qué es adecuado para proyectos de vía rápida?",
+                "content": "Debido a que los módulos están preensamblados en fábrica y solo requieren preparación de los cimientos del sitio más conexiones eléctricas y de agua, el AIS ayuda a acortar el tiempo de construcción y puesta en servicio en el sitio."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Qu'est-ce qui est intégré à l'intérieur de la station AIS?",
+                "content": "Accessen décrit l'AIS comme une station de refroidissement extérieure intégrée qui combine des refroidisseurs, des échangeurs de chaleur à plaques, des pompes, des tours de refroidissement, des vannes, des commandes intelligentes et des composants de support dans un ensemble préassemblé en usine."
+              },
+              {
+                "title": "Pourquoi est-il adapté aux projets accélérés?",
+                "content": "Étant donné que les modules sont préassemblés en usine et ne nécessitent qu'une préparation des fondations sur site ainsi que des connexions d'eau et électriques, l'AIS permet de réduire le temps de construction et de mise en service sur site."
+              }
+            ],
+            "ar": [
+              {
+                "title": "ما هو المتكامل داخل محطة AIS؟",
+                "content": "تصف Accessen نظام AIS بأنه محطة تبريد خارجية متكاملة تجمع بين المبردات والمبادلات الحرارية اللوحية والمضخات وأبراج التبريد والصمامات وأدوات التحكم الذكية والمكونات الداعمة في حزمة مجمعة مسبقًا في المصنع."
+              },
+              {
+                "title": "لماذا هو مناسب لمشاريع المسار السريع؟",
+                "content": "نظرًا لأنه يتم تجميع الوحدات مسبقًا في المصنع ولا تتطلب سوى إعداد أساس الموقع بالإضافة إلى توصيلات المياه والكهرباء، فإن نظام AIS يساعد في تقليل وقت البناء والتشغيل في الموقع."
               }
             ]
           },
@@ -745,8 +991,16 @@
               "meta_description": "Наружная сборная интегрированная станция охлаждения для центров обработки данных с заводской предварительной сборкой, модульной конструкцией и преимуществами быстрого развертывания."
             },
             "es": {
-              "meta_title": "Outdoor Prefabricado e integrado enfriamiento Station AIS",
-              "meta_description": "Outdoor prefabricado e integrado enfriamiento station para datos centers con fabrica pre-assembly, modular diseno, y rapid deployment beneficios."
+              "meta_title": "Estación de refrigeración integrada prefabricada para exteriores AIS",
+              "meta_description": "Estación de enfriamiento integrada prefabricada para exteriores para centros de datos con beneficios de preensamblaje en fábrica, diseño modular y rápida implementación."
+            },
+            "fr": {
+              "meta_title": "Station de refroidissement intégrée préfabriquée extérieure AIS",
+              "meta_description": "Station de refroidissement intégrée préfabriquée extérieure pour centres de données avec pré-assemblage en usine, conception modulaire et avantages de déploiement rapide."
+            },
+            "ar": {
+              "meta_title": "محطة التبريد المتكاملة الجاهزة في الهواء الطلق AIS",
+              "meta_description": "محطة تبريد متكاملة خارجية مسبقة الصنع لمراكز البيانات مع التجميع المسبق في المصنع، والتصميم المعياري، وفوائد النشر السريع."
             }
           }
         },
@@ -769,19 +1023,25 @@
             "en": "High-Efficiency Plate Heat Exchanger AQ/AA",
             "zh": "AQ/AA AHRI认证板式换热器",
             "ru": "Высокоэффективный пластинчатый теплообменник AQ/AA",
-            "es": "alta-Eficiencia intercambiador de calor de placas AQ/AA"
+            "es": "Intercambiador de calor de placas de alta eficiencia AQ/AA",
+            "fr": "Échangeur de chaleur à plaques haute efficacité AQ/AA",
+            "ar": "مبادل حراري لوحي عالي الكفاءة AQ/AA"
           },
           "short_description": {
             "en": "AHRI-certified gasketed plate-and-frame heat exchanger for HVAC-R and refrigeration applications.",
             "zh": "面向暖通制冷应用的 AHRI 认证可拆式板式换热器。",
-            "ru": "Разборный пластинчатый теплообменник, сертифицированный AHRI, для систем отопления, вентиляции и кондиционирования воздуха и холодильного оборудования.",
-            "es": "AHRI-certified con juntas placa-y-frame intercambiador de calor para HVAC-R y enfriamiento aplicaciones."
+            "ru": "Разборный пластинчатый теплообменник, сертифицированный AHRI, для HVAC-R и холодильного оборудования.",
+            "es": "Intercambiador de calor de placa y marco con junta certificado por AHRI para HVAC-R y aplicaciones de refrigeración.",
+            "fr": "Échangeur de chaleur à plaques et cadres avec joints certifié AHRI pour les applications HVAC-R et de réfrigération.",
+            "ar": "مبادل حراري للوحة والإطار ذو حشية معتمد من AHRI لتطبيقات HVAC-R والتبريد."
           },
           "full_description": {
             "en": "The AQ/AA Series is an AHRI-certified gasketed plate-and-frame heat exchanger designed for HVAC-R refrigeration systems. Accessen describes the series as optimized for variable-load heat transfer performance, compatibility with different water qualities and temperatures, and application-specific configuration through multi-angle chevron plates, varied channel depths, and configurable aspect ratios within standardized port sizes.",
             "zh": "AQ/AA 系列是面向 HVAC-R 制冷系统的 AHRI 认证可拆式板框换热器。根据官网介绍，该系列针对变工况换热性能、不同水质和温度适应性进行了设计，并可通过多角度人字板型、不同流道深度和标准口径下的多种长宽比配置满足具体应用需求。",
             "ru": "Серия AQ/AA представляет собой разборный пластинчатый теплообменник, сертифицированный AHRI, предназначенный для холодильных систем HVAC-R. Accessen описывает эту серию как оптимизированную для обеспечения теплопередачи при переменной нагрузке, совместимости с водой различного качества и температуры, а также конфигурации для конкретного применения с помощью многоугольных шевронных пластин, различной глубины каналов и настраиваемых соотношений сторон в пределах стандартизированных размеров портов.",
-            "es": "el AQ/AA serie es un AHRI-certified con juntas placa-y-frame intercambiador de calor disenado para HVAC-R enfriamiento sistemas. Accessen describe el serie como optimized para variable-load transferencia de calor rendimiento, compatibility con different water qualities y temperatures, y aplicacion-specific configuration mediante multi-angle chevron plates, varied canal depths, y configurable aspect ratios within standardized port sizes."
+            "es": "La serie AQ/AA es un intercambiador de calor de placa y marco con junta certificado por AHRI diseñado para sistemas de refrigeración HVAC-R. Accessen describe la serie como optimizada para el rendimiento de transferencia de calor de carga variable, compatibilidad con diferentes calidades y temperaturas del agua y configuración específica de la aplicación a través de placas de chevron de múltiples ángulos, profundidades de canal variadas y relaciones de aspecto configurables dentro de tamaños de puerto estandarizados.",
+            "fr": "La série AQ/AA est un échangeur de chaleur à plaques et cadres avec joints certifiés AHRI, conçu pour les systèmes de réfrigération HVAC-R. Accessen décrit la série comme étant optimisée pour des performances de transfert de chaleur à charge variable, une compatibilité avec différentes qualités et températures d'eau, et une configuration spécifique à l'application grâce à des plaques à chevrons multi-angles, des profondeurs de canal variées et des rapports d'aspect configurables dans des tailles de ports standardisées.",
+            "ar": "سلسلة AQ/AA عبارة عن مبادل حراري ذو حشية وإطار معتمد من AHRI مصمم لأنظمة التبريد HVAC-R. يصف Accessen السلسلة بأنها محسنة لأداء نقل الحرارة ذو الحمل المتغير، والتوافق مع أنواع المياه ودرجات الحرارة المختلفة، والتكوين الخاص بالتطبيق من خلال لوحات شيفرون متعددة الزوايا، وأعماق القنوات المتنوعة، ونسب العرض إلى الارتفاع القابلة للتكوين ضمن أحجام المنافذ القياسية."
           },
           "industries": [
             "1"
@@ -821,15 +1081,37 @@
               "Самоблокирующаяся система выравнивания"
             ],
             "es": [
-              "AHRI-Certified Rendimiento",
-              "Enhanced Gasket Longevity",
-              "Higher Certified Eficiencia energetica",
-              "Configurable placa Patterns",
-              "Proven Fiabilidad y Stability",
-              "Expanded Accessory Options",
-              "Optimized distribucion del flujo",
-              "Clip-en Gaskets",
-              "Self-Locking Alignment Sistema"
+              "Rendimiento certificado por AHRI",
+              "Longevidad mejorada de la junta",
+              "Mayor eficiencia energética certificada",
+              "Patrones de placas configurables",
+              "Fiabilidad y estabilidad comprobadas",
+              "Opciones de accesorios ampliadas",
+              "Distribución de flujo optimizada",
+              "Juntas con clip",
+              "Sistema de alineación autoblocante"
+            ],
+            "fr": [
+              "Performance certifiée AHRI",
+              "Longévité améliorée des joints",
+              "Efficacité énergétique certifiée supérieure",
+              "Modèles de plaques configurables",
+              "Fiabilité et stabilité éprouvées",
+              "Options d'accessoires étendues",
+              "Distribution de flux optimisée",
+              "Joints à clipser",
+              "Système d'alignement autobloquant"
+            ],
+            "ar": [
+              "أداء معتمد من AHRI",
+              "تعزيز طول عمر الحشية",
+              "أعلى كفاءة الطاقة المعتمدة",
+              "أنماط لوحة قابلة للتكوين",
+              "موثوقية واستقرار مثبتين",
+              "خيارات الملحقات الموسعة",
+              "توزيع التدفق الأمثل",
+              "جوانات مشبك",
+              "نظام محاذاة القفل الذاتي"
             ]
           },
           "technical_parameters": {
@@ -850,19 +1132,35 @@
               "最大换热能力": "80MW"
             },
             "ru": {
-              "Максимальная производительность обработки": "5000 м³/h",
-              "Максимальное расчетное давление": "25 бар",
-              "Минимальная разница температур": "0.5-1℃",
-              "Максимальная расчетная температура": "200℃",
-              "Первичный строительный материал": "AISI 304, 316, 316L, ТИ, СМО254",
-              "Максимальная мощность теплопередачи": "80 МВт"
+              "Maximum processing capacity": "5000 м³/ч",
+              "Maximum design pressure": "25 бар",
+              "Minimum temperature difference": "0,5-1℃",
+              "Maximum design temperature": "200℃",
+              "Primary Construction Material": "АИСИ 304, 316, 316Л, ТИ, СМО254",
+              "Maximum Heat Transfer Capacity": "80MW"
             },
             "es": {
-              "Maximum processing capacity": "5,000m³/h",
+              "Maximum processing capacity": "5.000 m³/h",
               "Maximum design pressure": "25bar",
-              "Minimum temperature difference": "0.5-1℃",
+              "Minimum temperature difference": "0,5-1 ℃",
               "Maximum design temperature": "200℃",
               "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254",
+              "Maximum Heat Transfer Capacity": "80MW"
+            },
+            "fr": {
+              "Maximum processing capacity": "5 000 m³/heure",
+              "Maximum design pressure": "25 bars",
+              "Minimum temperature difference": "0,5-1 ℃",
+              "Maximum design temperature": "200℃",
+              "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254",
+              "Maximum Heat Transfer Capacity": "80MW"
+            },
+            "ar": {
+              "Maximum processing capacity": "5,000 م³/ساعة",
+              "Maximum design pressure": "25 بار",
+              "Minimum temperature difference": "0.5-1 درجة مئوية",
+              "Maximum design temperature": "200 درجة مئوية",
+              "Primary Construction Material": "إيسي 304، 316، 316L، تي آي، SMO254",
               "Maximum Heat Transfer Capacity": "80MW"
             }
           },
@@ -890,7 +1188,7 @@
             "ru": [
               {
                 "title": "Для каких приложений предназначена серия AQ/AA?",
-                "content": "Accessen позиционирует серию AQ/AA для холодильных систем HVAC-R, где важны сертифицированные характеристики жидкостно-жидкостного теплообменника и адаптируемая тепловая конструкция."
+                "content": "Accessen позиционирует серию AQ/AA для холодильных систем HVAC-R, где важны сертифицированные характеристики жидкостного теплообменника и адаптируемая тепловая конструкция."
               },
               {
                 "title": "Как дизайн остается гибким?",
@@ -899,12 +1197,32 @@
             ],
             "es": [
               {
-                "title": "que aplicaciones es el AQ/AA serie disenado para?",
-                "content": "Accessen positions el AQ/AA serie para HVAC-R enfriamiento sistemas donde certified liquid-un-liquid intercambiador de calor rendimiento y adaptable termico diseno son importante."
+                "title": "¿Para qué aplicaciones está diseñada la serie AQ/AA?",
+                "content": "Accessen posiciona la serie AQ/AA para sistemas de refrigeración HVAC-R donde el rendimiento certificado del intercambiador de calor líquido a líquido y el diseño térmico adaptable son importantes."
               },
               {
-                "title": "How does el diseno remain flexible?",
-                "content": "el serie usa multi-angle chevron plates, different canal depths, y configurable aspect ratios within norma port sizes so que disenos puede ser adapted un different servicios y condiciones de operacion."
+                "title": "¿Cómo se mantiene flexible el diseño?",
+                "content": "La serie utiliza placas de chevron de múltiples ángulos, diferentes profundidades de canal y relaciones de aspecto configurables dentro de tamaños de puerto estándar para que los diseños puedan adaptarse a diferentes tareas y condiciones operativas."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Pour quelles applications la série AQ/AA est-elle conçue?",
+                "content": "Accessen positionne la série AQ/AA pour les systèmes de réfrigération HVAC-R où les performances certifiées de l'échangeur de chaleur liquide-liquide et la conception thermique adaptable sont importantes."
+              },
+              {
+                "title": "Comment le design reste-t-il flexible?",
+                "content": "La série utilise des plaques à chevrons multi-angles, différentes profondeurs de canal et des rapports d'aspect configurables dans les tailles de ports standard afin que les conceptions puissent être adaptées à différentes tâches et conditions de fonctionnement."
+              }
+            ],
+            "ar": [
+              {
+                "title": "ما هي التطبيقات التي تم تصميم سلسلة AQ/AA من أجلها؟",
+                "content": "تضع Accessen سلسلة AQ/AA لأنظمة التبريد HVAC-R حيث يكون أداء المبادل الحراري المعتمد من السائل إلى السائل والتصميم الحراري القابل للتكيف أمرًا مهمًا."
+              },
+              {
+                "title": "كيف يبقى التصميم مرناً؟",
+                "content": "تستخدم السلسلة لوحات شيفرون متعددة الزوايا، وأعماق قنوات مختلفة، ونسب عرض إلى ارتفاع قابلة للتكوين ضمن أحجام المنافذ القياسية بحيث يمكن تكييف التصميمات مع الواجبات وظروف التشغيل المختلفة."
               }
             ]
           },
@@ -923,8 +1241,16 @@
               "meta_description": "Разборный пластинчатый теплообменник, сертифицированный AHRI, для холодильных систем HVAC-R с настраиваемой геометрией пластин и высокой эффективностью теплопередачи."
             },
             "es": {
-              "meta_title": "alta-Eficiencia intercambiador de calor de placas AQ/AA",
-              "meta_description": "AHRI-certified con juntas placa-y-frame intercambiador de calor para HVAC-R enfriamiento sistemas con configurable placa geometria y alta eficiencia de transferencia de calor."
+              "meta_title": "Intercambiador de calor de placas de alta eficiencia AQ/AA",
+              "meta_description": "Intercambiador de calor de placa y marco con junta certificado por AHRI para sistemas de refrigeración HVAC-R con geometría de placa configurable y alta eficiencia de transferencia de calor."
+            },
+            "fr": {
+              "meta_title": "Échangeur de chaleur à plaques haute efficacité AQ/AA",
+              "meta_description": "Échangeur de chaleur à plaques et cadres avec joints certifié AHRI pour les systèmes de réfrigération HVAC-R avec géométrie de plaques configurable et efficacité de transfert de chaleur élevée."
+            },
+            "ar": {
+              "meta_title": "مبادل حراري لوحي عالي الكفاءة AQ/AA",
+              "meta_description": "مبادل حراري للوحة والإطار ذو حشيات معتمد من AHRI لأنظمة التبريد HVAC-R مع هندسة اللوحة القابلة للتكوين وكفاءة عالية في نقل الحرارة."
             }
           }
         },
@@ -947,19 +1273,25 @@
             "en": "A-BLOC Fully Welded Removable Plate Heat Exchanger",
             "zh": "A-BLOC全焊接六面可拆式换热器",
             "ru": "Цельносварной съемный пластинчатый теплообменник A-BLOC",
-            "es": "un-BLOC Totalmente soldado Removable intercambiador de calor de placas"
+            "es": "Intercambiador de calor de placas extraíbles totalmente soldado A-BLOC",
+            "fr": "Échangeur de chaleur à plaques amovibles entièrement soudées A-BLOC",
+            "ar": "A-BLOC مبادل حراري قابل للإزالة وملحوم بالكامل"
           },
           "short_description": {
             "en": "Compact removable welded plate heat exchanger for high-temperature and high-pressure industrial duty.",
             "zh": "适用于高温高压工况、结构紧凑且便于拆洗的全焊可拆式板式换热器。",
             "ru": "Компактный съемный сварной пластинчатый теплообменник для промышленных условий эксплуатации при высоких температурах и давлениях.",
-            "es": "compacto removable soldado intercambiador de calor de placas para alta-temperatura y alta-presion industrial servicio."
+            "es": "Intercambiador de calor de placas soldadas extraíble y compacto para uso industrial a alta temperatura y alta presión.",
+            "fr": "Échangeur de chaleur à plaques soudées amovible et compact pour usage industriel à haute température et haute pression.",
+            "ar": "مبادل حراري مدمج قابل للإزالة للوحة الملحومة للخدمة الصناعية ذات درجة الحرارة العالية والضغط العالي."
           },
           "full_description": {
             "en": "The A-BLOC Fully Welded Removable Plate Heat Exchanger is designed for high-temperature and high-pressure conditions. Accessen describes it as a compact welded exchanger with a square automatically welded plate pack, strong thermal shock resistance, true counter-current flow, and significantly higher heat transfer efficiency than conventional shell-and-tube exchangers. Its removable multi-side structure supports mechanical cleaning and helps reduce maintenance space and operating cost.",
             "zh": "A-BLOC 全焊接六面可拆式换热器可用于高温、高压条件，其结构紧凑，耐热冲击性能突出。官网介绍该产品采用方形自动焊接板片组，可实现纯逆流换热，在同等工况下换热效率高于传统管式换热器，并通过多面可拆结构提升拆卸、机械清洗和维护便利性。",
             "ru": "Полностью сварной съемный пластинчатый теплообменник A-BLOC предназначен для работы в условиях высоких температур и высокого давления. Accessen описывает его как компактный сварной теплообменник с квадратным автоматически сваренным пакетом пластин, высокой термостойкостью, настоящим противотоком и значительно более высокой эффективностью теплопередачи, чем у обычных кожухотрубных теплообменников. Его съемная многосторонняя конструкция поддерживает механическую очистку и помогает сократить пространство для обслуживания и эксплуатационные расходы.",
-            "es": "el un-BLOC Totalmente soldado Removable intercambiador de calor de placas es disenado para alta-temperatura y alta-presion conditions. Accessen describe lo como un compacto soldado exchanger con un square automatically soldado placa pack, fuerte termico shock resistance, true counter-current flujo, y significantly higher eficiencia de transferencia de calor than convencional shell-y-tube exchangers. Its removable multi-lado structure admite mecanico limpieza y ayuda un reduce mantenimiento space y operating costos."
+            "es": "El intercambiador de calor de placas extraíbles totalmente soldado A-BLOC está diseñado para condiciones de alta temperatura y alta presión. Accessen lo describe como un intercambiador soldado compacto con un paquete de placas cuadradas soldadas automáticamente, fuerte resistencia al choque térmico, verdadero flujo en contracorriente y una eficiencia de transferencia de calor significativamente mayor que los intercambiadores de carcasa y tubos convencionales. Su estructura removible de múltiples lados admite la limpieza mecánica y ayuda a reducir el espacio de mantenimiento y el costo operativo.",
+            "fr": "L'échangeur de chaleur à plaques amovibles entièrement soudées A-BLOC est conçu pour des conditions de température et de pression élevées. Accessen le décrit comme un échangeur soudé compact avec un paquet de plaques carrées automatiquement soudées, une forte résistance aux chocs thermiques, un véritable flux à contre-courant et une efficacité de transfert de chaleur nettement supérieure à celle des échangeurs à calandre et tubes conventionnels. Sa structure multi-côtés amovible prend en charge le nettoyage mécanique et contribue à réduire l'espace de maintenance et les coûts d'exploitation.",
+            "ar": "تم تصميم المبادل الحراري للوحة القابلة للإزالة الملحومة بالكامل A-BLOC لظروف درجات الحرارة العالية والضغط العالي. يصفه Accessen بأنه مبادل ملحوم مدمج مع مجموعة ألواح مربعة ملحومة تلقائيًا، ومقاومة قوية للصدمات الحرارية، وتدفق تيار معاكس حقيقي، وكفاءة نقل حرارة أعلى بكثير من المبادلات التقليدية ذات الغلاف والأنبوب. يدعم هيكلها متعدد الجوانب القابل للإزالة التنظيف الميكانيكي ويساعد على تقليل مساحة الصيانة وتكلفة التشغيل."
           },
           "industries": [
             "2",
@@ -993,12 +1325,28 @@
               "Очистка струей воды под высоким давлением"
             ],
             "es": [
-              "True counter-current eficiente heat exchange",
-              "compacto structure",
-              "pequeno ocupacion en planta y ligero",
-              "Flexible expansion un resist termico stress",
-              "Removable multi-lado diseno",
-              "alta-presion water jet limpieza"
+              "Verdadero intercambio de calor eficiente a contracorriente",
+              "Estructura compacta",
+              "Tamaño reducido y peso ligero",
+              "Expansión flexible para resistir el estrés térmico.",
+              "Diseño de múltiples lados extraíble",
+              "Limpieza con chorro de agua a alta presión"
+            ],
+            "fr": [
+              "Véritable échange thermique efficace à contre-courant",
+              "Structure compacte",
+              "Faible encombrement et léger",
+              "Expansion flexible pour résister aux contraintes thermiques",
+              "Conception multi-côtés amovible",
+              "Nettoyage au jet d'eau haute pression"
+            ],
+            "ar": [
+              "تبادل حراري فعال مضاد للتيار",
+              "هيكل مدمج",
+              "بصمة صغيرة وخفيفة الوزن",
+              "توسع مرن لمقاومة الإجهاد الحراري",
+              "تصميم متعدد الجوانب قابل للإزالة",
+              "تنظيف المياه النفاثة ذات الضغط العالي"
             ]
           },
           "technical_parameters": {
@@ -1015,16 +1363,28 @@
               "板片材质": "AISI 304、316、254、Ti"
             },
             "ru": {
-              "Максимальная производительность обработки": "1500м³/h",
-              "Максимальное расчетное давление": "40бар",
-              "Максимальная термостойкость": "350℃",
-              "Материал пластины": "AISI304, 316, 254, Ти"
+              "Maximum processing capacity": "1500м³/ч",
+              "Maximum design pressure": "40бар",
+              "Maximum temperature resistance": "350℃",
+              "Plate material": "АИСИ304, 316, 254, Ти"
             },
             "es": {
               "Maximum processing capacity": "1500m³/h",
               "Maximum design pressure": "40bar",
               "Maximum temperature resistance": "350℃",
               "Plate material": "AISI304, 316, 254, Ti"
+            },
+            "fr": {
+              "Maximum processing capacity": "1500m³/h",
+              "Maximum design pressure": "40 bars",
+              "Maximum temperature resistance": "350 ℃",
+              "Plate material": "AISI304, 316, 254, Ti"
+            },
+            "ar": {
+              "Maximum processing capacity": "1500 م³/ساعة",
+              "Maximum design pressure": "40 بار",
+              "Maximum temperature resistance": "350 درجة مئوية",
+              "Plate material": "AISI304، 316، 254، تي"
             }
           },
           "details": {
@@ -1060,12 +1420,32 @@
             ],
             "es": [
               {
-                "title": "Why es un-BLOC suited un severe proceso servicio?",
-                "content": "Accessen positions un-BLOC para alta-temperatura y alta-presion servicio, highlighting compacto structure, termico shock resistance, y el capacidad un combine enfriamiento y condensacion en one unidad."
+                "title": "¿Por qué A-BLOC es adecuado para tareas de procesos severos?",
+                "content": "Accessen posiciona A-BLOC para servicio de alta temperatura y alta presión, destacando la estructura compacta, la resistencia al choque térmico y la capacidad de combinar refrigeración y condensación en una sola unidad."
               },
               {
-                "title": "How es mantenimiento simplified?",
-                "content": "el soldado placa pack es installed en un removable structure que allows disassembly y mecanico limpieza, incluidos alta-presion water jet limpieza, mientras helping maintain eficiencia de transferencia de calor."
+                "title": "¿Cómo se simplifica el mantenimiento?",
+                "content": "El paquete de placas soldadas está instalado en una estructura extraíble que permite el desmontaje y la limpieza mecánica, incluida la limpieza con chorro de agua a alta presión, al tiempo que ayuda a mantener la eficiencia de la transferencia de calor."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Pourquoi A-BLOC est-il adapté aux exigences de processus sévères?",
+                "content": "Accessen positionne A-BLOC pour un service à haute température et haute pression, en mettant en avant une structure compacte, une résistance aux chocs thermiques et la capacité de combiner refroidissement et condensation dans une seule unité."
+              },
+              {
+                "title": "Comment la maintenance est-elle simplifiée?",
+                "content": "Le pack de plaques soudées est installé dans une structure amovible qui permet le démontage et le nettoyage mécanique, y compris le nettoyage au jet d'eau à haute pression, tout en contribuant à maintenir l'efficacité du transfert de chaleur."
+              }
+            ],
+            "ar": [
+              {
+                "title": "لماذا يعتبر A-BLOC مناسبًا لواجبات العمليات الشديدة؟",
+                "content": "يقوم Accessen بوضع A-BLOC لخدمة درجات الحرارة العالية والضغط العالي، مع تسليط الضوء على الهيكل المدمج، ومقاومة الصدمات الحرارية، والقدرة على الجمع بين التبريد والتكثيف في وحدة واحدة."
+              },
+              {
+                "title": "كيف يتم تبسيط الصيانة؟",
+                "content": "يتم تركيب مجموعة الألواح الملحومة في هيكل قابل للإزالة يسمح بالتفكيك والتنظيف الميكانيكي، بما في ذلك التنظيف بنفث الماء عالي الضغط، مع المساعدة في الحفاظ على كفاءة نقل الحرارة."
               }
             ]
           },
@@ -1084,8 +1464,16 @@
               "meta_description": "Компактный съемный сварной пластинчатый теплообменник для промышленного применения при высоких температурах и давлениях с эффективной противоточной передачей тепла."
             },
             "es": {
-              "meta_title": "un-BLOC Totalmente soldado Removable intercambiador de calor de placas",
-              "meta_description": "compacto removable soldado intercambiador de calor de placas para alta-temperatura y alta-presion industrial aplicaciones con eficiente counter-current transferencia de calor."
+              "meta_title": "Intercambiador de calor de placas extraíbles totalmente soldado A-BLOC",
+              "meta_description": "Intercambiador de calor de placas soldadas extraíble y compacto para aplicaciones industriales de alta temperatura y alta presión con eficiente transferencia de calor a contracorriente."
+            },
+            "fr": {
+              "meta_title": "Échangeur de chaleur à plaques amovibles entièrement soudées A-BLOC",
+              "meta_description": "Échangeur de chaleur à plaques soudées amovible et compact pour les applications industrielles à haute température et haute pression avec transfert de chaleur efficace à contre-courant."
+            },
+            "ar": {
+              "meta_title": "A-BLOC مبادل حراري قابل للإزالة وملحوم بالكامل",
+              "meta_description": "مبادل حراري مدمج قابل للإزالة للوحة ملحومة للتطبيقات الصناعية ذات درجة الحرارة العالية والضغط العالي مع نقل الحرارة المضاد للتيار بكفاءة."
             }
           }
         },
@@ -1108,19 +1496,25 @@
             "en": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I",
             "zh": "AU,AN,AS,AP,AC工业可拆垫片式换热器-I",
             "ru": "Разборный пластинчатый теплообменник серии AU, AN, AS, AP, AC — I",
-            "es": "AU, un, como, AP, AC serie con juntas intercambiador de calor de placas - I"
+            "es": "Intercambiador de calor de placas con juntas serie AU, AN, AS, AP, AC - I",
+            "fr": "Échangeur de chaleur à plaques avec joints séries AU, AN, AS, AP, AC - I",
+            "ar": "AU، AN، AS، AP، AC سلسلة مبادل حراري ذو حشية - I"
           },
           "short_description": {
             "en": "Industrial gasketed plate heat exchanger with configurable plate patterns, high heat transfer efficiency, and easy maintenance.",
             "zh": "适用于工业场景的可拆垫片式板式换热器，兼具高效换热、灵活配置和便于维护的特点。",
             "ru": "Промышленный разборный пластинчатый теплообменник с настраиваемым расположением пластин, высокой эффективностью теплопередачи и простотой обслуживания.",
-            "es": "Industrial con juntas intercambiador de calor de placas con configurable placa patterns, alta eficiencia de transferencia de calor, y easy mantenimiento."
+            "es": "Intercambiador de calor de placas industrial con juntas y patrones de placas configurables, alta eficiencia de transferencia de calor y fácil mantenimiento.",
+            "fr": "Échangeur de chaleur industriel à plaques et joints avec modèles de plaques configurables, efficacité de transfert de chaleur élevée et maintenance facile.",
+            "ar": "مبادل حراري للوحة ذات حشية صناعية مع أنماط لوحة قابلة للتكوين، وكفاءة عالية في نقل الحرارة، وسهولة الصيانة."
           },
           "full_description": {
             "en": "The AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I is designed for industrial applications where high heat transfer efficiency, cost-effectiveness, safety, reliability, and ease of maintenance are required. Accessen states that the series uses glue-free clip-on gaskets and multiple specialized plate patterns to cover a wide range of capacities, fluid qualities, and operating temperatures.",
             "zh": "AU,AN,AS,AP,AC 工业可拆垫片式换热器-I 面向众多工业应用场景，可在兼顾高传热系数的同时提供较好的经济性、安全性、可靠性以及拆洗维护便利性。官网说明该系列采用免粘卡扣式垫片和多种专业板型，以覆盖不同处理量、水质和温度条件下的工业应用需求。",
-            "ru": "Разборный пластинчатый теплообменник серии AU, AN, AS, AP, AC - I предназначен для промышленного применения, где требуются высокая эффективность теплопередачи, экономичность, безопасность, надежность и простота обслуживания. Accessen утверждает, что в этой серии используются бесклеевые прикрепляемые прокладки и несколько специализированных моделей пластин, позволяющих охватить широкий диапазон мощностей, качеств жидкости и рабочих температур.",
-            "es": "el AU, un, como, AP, AC serie con juntas intercambiador de calor de placas - I es disenado para industrial aplicaciones donde alta eficiencia de transferencia de calor, costos-effectiveness, seguridad, fiabilidad, y ease de mantenimiento son required. Accessen indica que el serie usa glue-free clip-en gaskets y multiple specialized placa patterns un cover un wide range de capacities, fluido qualities, y operating temperatures."
+            "ru": "Разборный пластинчатый теплообменник серии AU, AN, AS, AP, AC - I предназначен для промышленного применения, где требуются высокая эффективность теплопередачи, экономичность, безопасность, надежность и простота обслуживания. В Accessen указано, что в этой серии используются бесклеевые прикрепляемые прокладки и несколько специализированных моделей пластин, что позволяет охватить широкий диапазон мощностей, качеств жидкости и рабочих температур.",
+            "es": "El intercambiador de calor de placas con juntas de las series AU, AN, AS, AP y AC - I está diseñado para aplicaciones industriales donde se requiere alta eficiencia de transferencia de calor, rentabilidad, seguridad, confiabilidad y facilidad de mantenimiento. Accessen afirma que la serie utiliza juntas con clip sin pegamento y múltiples patrones de placas especializados para cubrir una amplia gama de capacidades, calidades de fluidos y temperaturas de funcionamiento.",
+            "fr": "L'échangeur de chaleur à plaques avec joints des séries AU, AN, AS, AP, AC - I est conçu pour les applications industrielles où une efficacité de transfert de chaleur, une rentabilité, une sécurité, une fiabilité et une facilité de maintenance élevées sont requises. Accessen indique que la série utilise des joints clipsables sans colle et plusieurs modèles de plaques spécialisées pour couvrir une large gamme de capacités, de qualités de fluides et de températures de fonctionnement.",
+            "ar": "تم تصميم المبادل الحراري للوحة ذات الحشية من سلسلة AU، AN، AS، AP، AC - I للتطبيقات الصناعية التي تتطلب كفاءة عالية في نقل الحرارة، وفعالية من حيث التكلفة، والسلامة، والموثوقية، وسهولة الصيانة. تنص Accessen على أن السلسلة تستخدم حشوات خالية من الغراء وأنماط ألواح متخصصة متعددة لتغطية نطاق واسع من السعات، ونوعية السوائل، ودرجات حرارة التشغيل."
           },
           "industries": [
             "2",
@@ -1163,14 +1557,34 @@
               "Герметичная конструкция прокладки кровельного типа"
             ],
             "es": [
-              "Improved distribucion del flujo area",
-              "Glue-free clip-en sellado gaskets",
-              "Optimized placa size y angle combinations",
-              "mas optional accessories",
-              "Reduced ensuciamiento accumulation areas",
-              "fuerte turbulence para enhanced transferencia de calor",
-              "Self-locking placa corners",
-              "Leak-proof roof-type gasket diseno"
+              "Área de distribución de flujo mejorada",
+              "Juntas de sellado con clip sin pegamento",
+              "Combinaciones optimizadas de tamaño de placa y ángulo",
+              "Más accesorios opcionales",
+              "Áreas de acumulación de incrustaciones reducidas",
+              "Fuerte turbulencia para mejorar la transferencia de calor.",
+              "Esquinas de placa autoblocantes",
+              "Diseño de junta tipo techo a prueba de fugas"
+            ],
+            "fr": [
+              "Zone de distribution de flux améliorée",
+              "Joints d'étanchéité clipsables sans colle",
+              "Combinaisons optimisées de taille de plaque et d'angle",
+              "Plus d'accessoires en option",
+              "Zones d’accumulation d’encrassement réduites",
+              "Forte turbulence pour un transfert de chaleur amélioré",
+              "Coins de plaque autobloquants",
+              "Conception de joint de type toit étanche"
+            ],
+            "ar": [
+              "تحسين منطقة توزيع التدفق",
+              "حشوات مانعة للتسرب خالية من الغراء",
+              "تحسين حجم اللوحة ومجموعات الزوايا",
+              "المزيد من الملحقات الاختيارية",
+              "تقليل مناطق تراكم القاذورات",
+              "اضطراب قوي لتعزيز نقل الحرارة",
+              "زوايا لوحة ذاتية القفل",
+              "تصميم حشية من نوع السقف مانع للتسرب"
             ]
           },
           "technical_parameters": {
@@ -1189,18 +1603,32 @@
               "板片材质": "AISI 304、316、316L、TI、254SMO..."
             },
             "ru": {
-              "Максимальная производительность обработки": "5000м³/h",
-              "Максимальное расчетное давление": "25 бар",
-              "Максимальная теплопередача": "80 МВт",
-              "Температура": "Минимальная разница температур: 0,5-1 ℃, максимальная термостойкость: 200 ℃.",
-              "Материал пластины": "AISI 304, 316, 316L, ТИ, СМО254..."
+              "Maximum processing capacity": "5000м³/ч",
+              "Maximum design pressure": "25 бар",
+              "Maximum heat transfer": "80MW",
+              "Temperature": "Минимальная разница температур: 0,5-1 ℃, максимальная термостойкость: 200 ℃.",
+              "Plate material": "AISI 304, 316, 316L, ТИ, СМО254..."
             },
             "es": {
               "Maximum processing capacity": "5000m³/h",
               "Maximum design pressure": "25bar",
               "Maximum heat transfer": "80MW",
-              "Temperature": "Minimum temperatura difference: 0.5-1℃, Maximum temperatura resistance: 200℃",
+              "Temperature": "Diferencia mínima de temperatura: 0,5-1 ℃, Resistencia máxima a la temperatura: 200 ℃",
               "Plate material": "AISI 304, 316, 316L, TI, SMO254..."
+            },
+            "fr": {
+              "Maximum processing capacity": "5000m³/h",
+              "Maximum design pressure": "25 bars",
+              "Maximum heat transfer": "80MW",
+              "Temperature": "Différence de température minimale: 0,5-1 ℃, résistance à la température maximale: 200 ℃",
+              "Plate material": "AISI 304, 316, 316L, TI, SMO254..."
+            },
+            "ar": {
+              "Maximum processing capacity": "5000 م³/ساعة",
+              "Maximum design pressure": "25 بار",
+              "Maximum heat transfer": "80MW",
+              "Temperature": "الحد الأدنى لفرق درجة الحرارة: 0.5-1 درجة مئوية، أقصى مقاومة لدرجة الحرارة: 200 درجة مئوية",
+              "Plate material": "إيسي 304، 316، 316L، تي آي، SMO254..."
             }
           },
           "details": {
@@ -1236,12 +1664,32 @@
             ],
             "es": [
               {
-                "title": "que makes este servicio industrial con juntas serie flexible?",
-                "content": "Accessen destaca el use de multiple placa angles, groove depths, y aspect ratios within el same port size so el exchanger puede ser adapted un different industrial servicios y condiciones de operacion."
+                "title": "¿Qué hace que esta serie industrial con juntas sea flexible?",
+                "content": "Accessen destaca el uso de múltiples ángulos de placa, profundidades de ranura y relaciones de aspecto dentro del mismo tamaño de puerto para que el intercambiador pueda adaptarse a diferentes tareas industriales y condiciones operativas."
               },
               {
-                "title": "How does lo soporte easier mantenimiento?",
-                "content": "el diseno usa glue-free clip-en gaskets, improved distribucion del flujo, y placa corner alignment caracteristicas un simplify servicing y ayudar reduce ensuciamiento-related downtime."
+                "title": "¿Cómo favorece un mantenimiento más sencillo?",
+                "content": "El diseño utiliza juntas con clip sin pegamento, distribución mejorada del flujo y características de alineación de las esquinas de la placa para simplificar el servicio y ayudar a reducir el tiempo de inactividad relacionado con la suciedad."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Qu'est-ce qui rend cette série industrielle à joints flexible?",
+                "content": "Accessen met en évidence l'utilisation de plusieurs angles de plaque, profondeurs de rainure et rapports d'aspect au sein de la même taille d'orifice afin que l'échangeur puisse être adapté à différentes tâches industrielles et conditions de fonctionnement."
+              },
+              {
+                "title": "Comment facilite-t-il la maintenance?",
+                "content": "La conception utilise des joints clipsables sans colle, une distribution améliorée du débit et des fonctionnalités d'alignement des coins des plaques pour simplifier l'entretien et contribuer à réduire les temps d'arrêt liés à l'encrassement."
+              }
+            ],
+            "ar": [
+              {
+                "title": "ما الذي يجعل هذه السلسلة ذات الحشيات الصناعية مرنة؟",
+                "content": "يسلط Accessen الضوء على استخدام زوايا اللوحة المتعددة، وأعماق الأخدود، ونسب العرض إلى الارتفاع ضمن نفس حجم المنفذ بحيث يمكن تكييف المبادل مع الواجبات الصناعية وظروف التشغيل المختلفة."
+              },
+              {
+                "title": "كيف يدعم سهولة الصيانة؟",
+                "content": "يستخدم التصميم حشوات تثبيت خالية من الغراء، وتوزيعًا محسّنًا للتدفق، وميزات محاذاة زوايا اللوحة لتبسيط عملية الخدمة والمساعدة في تقليل وقت التوقف عن العمل المرتبط بالتلوث."
               }
             ]
           },
@@ -1260,8 +1708,16 @@
               "meta_description": "Промышленный разборный пластинчатый теплообменник с настраиваемой геометрией пластин, бесклеевыми прокладками и высокой эффективностью теплопередачи для требовательных технологических процессов."
             },
             "es": {
-              "meta_title": "AU, un, como, AP, AC serie con juntas intercambiador de calor de placas - I",
-              "meta_description": "Industrial con juntas intercambiador de calor de placas con configurable placa geometria, glue-free gaskets, y alta eficiencia de transferencia de calor para exigente proceso aplicaciones."
+              "meta_title": "Intercambiador de calor de placas con juntas serie AU, AN, AS, AP, AC - I",
+              "meta_description": "Intercambiador de calor de placas con juntas industriales con geometría de placas configurable, juntas sin pegamento y alta eficiencia de transferencia de calor para aplicaciones de procesos exigentes."
+            },
+            "fr": {
+              "meta_title": "Échangeur de chaleur à plaques avec joints séries AU, AN, AS, AP, AC - I",
+              "meta_description": "Échangeur de chaleur industriel à plaques et joints avec géométrie de plaques configurable, joints sans colle et efficacité de transfert de chaleur élevée pour les applications de processus exigeantes."
+            },
+            "ar": {
+              "meta_title": "AU، AN، AS، AP، AC سلسلة مبادل حراري ذو حشية - I",
+              "meta_description": "مبادل حراري للوحة ذات حشية صناعية مع هندسة لوحة قابلة للتكوين، وحشيات خالية من الغراء، وكفاءة عالية في نقل الحرارة لتطبيقات العمليات الصعبة."
             }
           }
         },
@@ -1284,19 +1740,25 @@
             "en": "AWPS Series Plate-Shell Heat Exchanger - I",
             "zh": "AWPS全焊接板壳式换热器-I",
             "ru": "Пластинчатый теплообменник серии AWPS — I",
-            "es": "AWPS serie placa-Shell intercambiador de calor - I"
+            "es": "Intercambiador de calor de carcasa de placas serie AWPS - I",
+            "fr": "Échangeur de chaleur à plaques et coque série AWPS - I",
+            "ar": "مبادل حراري من سلسلة AWPS - I"
           },
           "short_description": {
             "en": "High-temperature and high-pressure plate-shell heat exchanger for industrial applications as an efficient alternative to shell-and-tube equipment.",
             "zh": "适用于工业高温高压工况、可作为传统管壳式设备高效替代方案的全焊接板壳式换热器。",
             "ru": "Пластинчато-корпусной теплообменник высокой температуры и высокого давления для промышленного применения как эффективная альтернатива кожухотрубному оборудованию.",
-            "es": "alta-temperatura y alta-presion placa-shell intercambiador de calor para industrial aplicaciones como una eficiente alternative un shell-y-tube equipos."
+            "es": "Intercambiador de calor de placas y carcasa de alta temperatura y alta presión para aplicaciones industriales como una alternativa eficiente a los equipos de carcasa y tubos.",
+            "fr": "Échangeur de chaleur à plaques et calandre haute température et haute pression pour les applications industrielles comme alternative efficace aux équipements calandre et tubulaire.",
+            "ar": "مبادل حراري ذو درجة حرارة عالية وضغط عالي للتطبيقات الصناعية كبديل فعال لمعدات القشرة والأنبوب."
           },
           "full_description": {
             "en": "The AWPS Series Plate-Shell Heat Exchanger - I is designed for high-temperature and high-pressure industrial applications. Accessen describes it as combining the heat transfer characteristics of gasketed plate exchangers with the pressure and temperature resistance associated with shell-and-tube equipment, while retaining a removable structure for cleaning.",
             "zh": "AWPS 全焊接板壳式换热器-I 是一种适用于工业高温高压工况的新型高效换热器。官网说明其结合了可拆式板式换热器的传热特性和管壳式设备的耐温耐压能力，并保留可拆洗结构，以实现较低运行费用和更方便的维护。",
-            "ru": "Пластинчато-корпусной теплообменник серии AWPS - I предназначен для промышленного применения при высоких температурах и высоких давлениях. Accessen описывает его как сочетание характеристик теплопередачи разборных пластинчатых теплообменников с устойчивостью к давлению и температуре, свойственной кожухотрубному оборудованию, при сохранении съемной конструкции для очистки.",
-            "es": "el AWPS serie placa-Shell intercambiador de calor - I es disenado para alta-temperatura y alta-presion industrial aplicaciones. Accessen describe lo como combining el transferencia de calor characteristics de con juntas placa exchangers con el presion y temperatura resistance associated con shell-y-tube equipos, mientras retaining un removable structure para limpieza."
+            "ru": "Пластинчато-корпусной теплообменник серии AWPS - I предназначен для промышленного применения при высоких температурах и высоких давлениях. Accessen описывает это как сочетание характеристик теплопередачи разборных пластинчатых теплообменников с устойчивостью к давлению и температуре, свойственной кожухотрубному оборудованию, при сохранении съемной конструкции для очистки.",
+            "es": "El intercambiador de calor de carcasa de placas serie AWPS - I está diseñado para aplicaciones industriales de alta temperatura y alta presión. Accessen lo describe como una combinación de las características de transferencia de calor de los intercambiadores de placas con juntas con la resistencia a la presión y la temperatura asociada con los equipos de carcasa y tubos, al tiempo que conserva una estructura extraíble para su limpieza.",
+            "fr": "L'échangeur de chaleur à plaques et coque de la série AWPS - I est conçu pour les applications industrielles à haute température et haute pression. Accessen le décrit comme combinant les caractéristiques de transfert de chaleur des échangeurs à plaques avec joints avec la résistance à la pression et à la température associées aux équipements à calandre et tubes, tout en conservant une structure amovible pour le nettoyage.",
+            "ar": "تم تصميم المبادل الحراري ذو الغلاف اللوحي من سلسلة AWPS للتطبيقات الصناعية ذات درجات الحرارة العالية والضغط العالي. يصفها Accessen بأنها تجمع بين خصائص نقل الحرارة لمبادلات الألواح ذات الحشيات مع مقاومة الضغط ودرجة الحرارة المرتبطة بمعدات الغلاف والأنبوب، مع الاحتفاظ بهيكل قابل للإزالة للتنظيف."
           },
           "industries": [
             "2",
@@ -1327,11 +1789,25 @@
               "Съемный для очистки без старения прокладки"
             ],
             "es": [
-              "Retains transferencia de calor characteristics de con juntas exchangers",
-              "baja ensuciamiento coefficient",
-              "Alta temperatura resistance",
-              "Alta presion resistance",
-              "Removable para limpieza con no gasket aging"
+              "Conserva las características de transferencia de calor de los intercambiadores con juntas.",
+              "Bajo coeficiente de ensuciamiento",
+              "Resistencia a altas temperaturas",
+              "Resistencia a alta presión",
+              "Extraíble para limpieza sin envejecimiento de la junta"
+            ],
+            "fr": [
+              "Conserve les caractéristiques de transfert de chaleur des échangeurs à joints",
+              "Faible coefficient d'encrassement",
+              "Résistance aux hautes températures",
+              "Résistance à haute pression",
+              "Amovible pour le nettoyage sans vieillissement du joint"
+            ],
+            "ar": [
+              "يحتفظ بخصائص نقل الحرارة للمبادلات ذات الحشيات",
+              "معامل تلوث منخفض",
+              "مقاومة درجات الحرارة العالية",
+              "مقاومة الضغط العالي",
+              "قابلة للإزالة للتنظيف دون شيخوخة الحشية"
             ]
           },
           "technical_parameters": {
@@ -1346,14 +1822,24 @@
               "板片材质": "AISI 304L、316L、Titanium、Hastelloy、254SMO..."
             },
             "ru": {
-              "Максимальное расчетное давление": "80бар",
-              "Максимальная термостойкость": "500℃",
-              "Материал пластины": "AISI304L, 316L, Титан, Хастеллой, SMO254..."
+              "Maximum design pressure": "80бар",
+              "Maximum temperature resistance": "500℃",
+              "Plate material": "AISI304L, 316L, титан, хастеллой, SMO254..."
             },
             "es": {
               "Maximum design pressure": "80bar",
               "Maximum temperature resistance": "500℃",
-              "Plate material": "AISI304L, 316L, Titanium, Hastelloy, SMO254..."
+              "Plate material": "AISI304L, 316L, Titanio, Hastelloy, SMO254..."
+            },
+            "fr": {
+              "Maximum design pressure": "80 bars",
+              "Maximum temperature resistance": "500℃",
+              "Plate material": "AISI304L, 316L, Titane, Hastelloy, SMO254..."
+            },
+            "ar": {
+              "Maximum design pressure": "80 بار",
+              "Maximum temperature resistance": "500 درجة مئوية",
+              "Plate material": "AISI304L، 316L، تيتانيوم، هاستيلوي، SMO254..."
             }
           },
           "details": {
@@ -1389,12 +1875,32 @@
             ],
             "es": [
               {
-                "title": "How does AWPS differ de convencional shell-y-tube equipos?",
-                "content": "Accessen positions AWPS como una alta-eficiencia alternative que combines placa-type transferencia de calor rendimiento con stronger presion y temperatura resistance, helping replace shell-y-tube exchangers en exigente industrial servicio."
+                "title": "¿En qué se diferencia el AWPS de los equipos convencionales de carcasa y tubos?",
+                "content": "Accessen posiciona a AWPS como una alternativa de alta eficiencia que combina el rendimiento de transferencia de calor de tipo placa con una mayor resistencia a la presión y la temperatura, lo que ayuda a reemplazar los intercambiadores de carcasa y tubos en servicios industriales exigentes."
               },
               {
-                "title": "que mantenimiento benefit es highlighted?",
-                "content": "el producto es descrito como removable para limpieza y avoids gasket aging, which ayuda un lower operating costos over time."
+                "title": "¿Qué beneficio de mantenimiento se destaca?",
+                "content": "El producto se describe como removible para su limpieza y evita el envejecimiento de la junta, lo que ayuda a reducir los costos operativos con el tiempo."
+              }
+            ],
+            "fr": [
+              {
+                "title": "En quoi l’AWPS diffère-t-il des équipements tubulaires conventionnels?",
+                "content": "Accessen positionne l'AWPS comme une alternative à haut rendement qui combine des performances de transfert de chaleur de type à plaques avec une plus grande résistance à la pression et à la température, aidant ainsi à remplacer les échangeurs à calandre et à tubes dans les services industriels exigeants."
+              },
+              {
+                "title": "Quel bénéfice de maintenance est mis en avant?",
+                "content": "Le produit est décrit comme amovible pour le nettoyage et évite le vieillissement des joints, ce qui contribue à réduire les coûts d'exploitation au fil du temps."
+              }
+            ],
+            "ar": [
+              {
+                "title": "كيف يختلف نظام AWPS عن معدات الغلاف والأنبوب التقليدية؟",
+                "content": "تضع Accessen AWPS كبديل عالي الكفاءة يجمع بين أداء نقل الحرارة من نوع اللوحة مع مقاومة أقوى للضغط ودرجة الحرارة، مما يساعد على استبدال مبادلات الغلاف والأنبوب في الخدمة الصناعية الصعبة."
+              },
+              {
+                "title": "ما هي فائدة الصيانة التي تم تسليط الضوء عليها؟",
+                "content": "يوصف المنتج بأنه قابل للإزالة للتنظيف ويتجنب تقادم الحشية، مما يساعد على تقليل تكاليف التشغيل بمرور الوقت."
               }
             ]
           },
@@ -1413,8 +1919,16 @@
               "meta_description": "Промышленный пластинчатый теплообменник для работы в условиях высоких температур и высокого давления, сочетающий в себе высокие тепловые характеристики со съемным доступом для очистки."
             },
             "es": {
-              "meta_title": "AWPS serie placa-Shell intercambiador de calor - I",
-              "meta_description": "Industrial placa-shell intercambiador de calor para alta-temperatura y alta-presion servicio, combining fuerte termico rendimiento con removable acceso para limpieza."
+              "meta_title": "Intercambiador de calor de carcasa de placas serie AWPS - I",
+              "meta_description": "Intercambiador de calor industrial de placas para servicio de alta temperatura y alta presión, que combina un fuerte rendimiento térmico con un acceso de limpieza extraíble."
+            },
+            "fr": {
+              "meta_title": "Échangeur de chaleur à plaques et coque série AWPS - I",
+              "meta_description": "Échangeur de chaleur industriel à plaques et calandre pour service haute température et haute pression, combinant de fortes performances thermiques avec un accès de nettoyage amovible."
+            },
+            "ar": {
+              "meta_title": "مبادل حراري من سلسلة AWPS - I",
+              "meta_description": "مبادل حراري صناعي على شكل لوحة لخدمة درجات الحرارة العالية والضغط العالي، ويجمع بين الأداء الحراري القوي وإمكانية الوصول للتنظيف القابل للإزالة."
             }
           }
         },

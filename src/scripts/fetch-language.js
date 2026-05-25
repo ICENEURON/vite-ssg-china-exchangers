@@ -9,6 +9,7 @@ const envPath = path.resolve(__dirname, '../../.env.local');
 
 const TARGET_BUCKET = 'webpages';
 const DEST_DIR = path.resolve(__dirname, '../locales');
+const VERBOSE = process.env.SYNC_VERBOSE === '1';
 
 let envContent = '';
 try {
@@ -41,20 +42,91 @@ if (!url || !key) {
 
 const supabase = createClient(url, key);
 
+function isRetriableFileError(error) {
+  return ['EBUSY', 'EPERM', 'EACCES', 'UNKNOWN'].includes(error?.code);
+}
+
+function isRetriableStorageError(error) {
+  const message = error?.message || '';
+  return (
+    error?.status >= 500 ||
+    message.includes('Unexpected token') ||
+    message.includes('fetch failed') ||
+    message.includes('network') ||
+    message.includes('timeout')
+  );
+}
+
+function wait(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function formatError(error) {
+  return error?.message || JSON.stringify(error) || String(error);
+}
+
+async function writeFileWithRetry(outPath, buffer) {
+  const dir = path.dirname(outPath);
+  const tempPath = path.join(
+    dir,
+    `.${path.basename(outPath)}.${process.pid}.${Date.now()}.tmp`
+  );
+
+  fs.mkdirSync(dir, { recursive: true });
+
+  for (let attempt = 0; attempt < 6; attempt += 1) {
+    try {
+      await fs.promises.writeFile(tempPath, buffer);
+      await fs.promises.rename(tempPath, outPath);
+      return;
+    } catch (error) {
+      if (!isRetriableFileError(error) || attempt === 5) {
+        try {
+          await fs.promises.unlink(tempPath);
+        } catch {
+          // Best-effort cleanup only.
+        }
+        throw error;
+      }
+
+      await wait(150 * (attempt + 1));
+    }
+  }
+}
+
+async function withStorageRetry(operation) {
+  for (let attempt = 0; attempt < 5; attempt += 1) {
+    const result = await operation();
+
+    if (!result.error) {
+      return result;
+    }
+
+    if (!isRetriableStorageError(result.error) || attempt === 4) {
+      return result;
+    }
+
+    await wait(300 * (attempt + 1));
+  }
+}
+
 async function downloadFile(storagePath) {
-  const { data, error } = await supabase.storage.from(TARGET_BUCKET).download(storagePath);
+  const { data, error } = await withStorageRetry(
+    () => supabase.storage.from(TARGET_BUCKET).download(storagePath)
+  );
 
   if (error) {
-    console.error(`❌ [Error] downloading ${TARGET_BUCKET}/${storagePath}:`, error.message);
+    console.error(`❌ [Error] downloading ${TARGET_BUCKET}/${storagePath}:`, formatError(error));
     return false;
   }
 
   const buffer = Buffer.from(await data.arrayBuffer());
   const outPath = path.join(DEST_DIR, storagePath);
 
-  fs.mkdirSync(path.dirname(outPath), { recursive: true });
-  fs.writeFileSync(outPath, buffer);
-  console.log(`✅ Saved: ${TARGET_BUCKET}/${storagePath}`);
+  await writeFileWithRetry(outPath, buffer);
+  if (VERBOSE) {
+    console.log(`✅ Saved: ${TARGET_BUCKET}/${storagePath}`);
+  }
   return true;
 }
 
@@ -64,10 +136,12 @@ async function listFolder(currentPath) {
   let offset = 0;
 
   while (true) {
-    const { data, error } = await supabase.storage.from(TARGET_BUCKET).list(currentPath, { limit, offset });
+    const { data, error } = await withStorageRetry(
+      () => supabase.storage.from(TARGET_BUCKET).list(currentPath, { limit, offset })
+    );
 
     if (error) {
-      console.error(`❌ [Error] listing folder ${TARGET_BUCKET}/${currentPath}:`, error.message);
+      console.error(`❌ [Error] listing folder ${TARGET_BUCKET}/${currentPath}:`, formatError(error));
       process.exit(1);
     }
 

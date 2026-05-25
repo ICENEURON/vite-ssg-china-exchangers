@@ -22,13 +22,23 @@ type LanguagesConfig = Record<string, {
   name: string;
 }>;
 
+function getConfiguredLanguageCodes() {
+  try {
+    const languages = require('./src/locales/languages.json') as LanguagesConfig;
+    return Object.keys(languages).join(',');
+  } catch (e) {
+    console.warn('Failed to load configured languages for HTML env replacement', e);
+    return 'en';
+  }
+}
+
 // Custom plugin to replace environment variables in HTML
 function htmlEnvReplace(env: Record<string, string>) {
   return {
     name: 'html-env-replace',
     transformIndexHtml(html: string) {
       const defaultLanguage = env.VITE_DEFAULT_LANGUAGE || 'en';
-      const supportedLanguages = env.VITE_SUPPORTED_LANGUAGES || '';
+      const supportedLanguages = env.VITE_SUPPORTED_LANGUAGES || getConfiguredLanguageCodes();
       const enableLanguageToggle = env.VITE_ENABLE_LANGUAGE_TOGGLE || 'false';
       const enableThemeToggle = env.VITE_ENABLE_THEME_TOGGLE || 'false';
 

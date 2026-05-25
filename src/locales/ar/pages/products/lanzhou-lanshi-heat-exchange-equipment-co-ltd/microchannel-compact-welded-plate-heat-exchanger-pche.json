@@ -1,0 +1,40 @@
+{
+  "slug": "microchannel-compact-welded-plate-heat-exchanger-pche",
+  "name": "مبادل حراري للوحة الملحومة المدمجة Microchannel (PCHE)",
+  "full_description": "تصف صفحة المنتج الرسمية PCHE بأنه أحد المبادلات الحرارية الجديدة الأكثر كفاءة وصغرًا، مما يوفر أمانًا وثباتًا عاليًا للغاية. يتم تقديمه كمبادل حراري بقناة صغيرة تم تطويره لأنظمة نقل الحرارة عالية الكفاءة في توربينات الغاز الصغيرة والصغيرة، والغاز الطبيعي المسال، والمضخات الحرارية، والطاقة النووية، والطاقة الهيدروجينية، وتوليد طاقة ثاني أكسيد الكربون فوق الحرج، وتطبيقات تخزين الطاقة.",
+  "industries": [
+    "HVAC",
+    "البتروكيماويات",
+    "الطاقة",
+    "توليد الطاقة"
+  ],
+  "advantage": [
+    "كفاءة نقل الحرارة المعلنة رسميًا أعلى من 98%.",
+    "مقاومة الضغط المعلنة رسميًا أعلى من 90 ميجا باسكال.",
+    "تتراوح درجة حرارة التشغيل المعلنة رسميًا من -196 درجة مئوية إلى 800 درجة مئوية.",
+    "الاكتناز المعلن رسميًا يصل إلى 2500 م2/م3."
+  ],
+  "technical_parameters": {
+    "Compactness": "2500 م2/م3",
+    "Temperature Range": "-196 ~ 800 درجة مئوية",
+    "Pressure Resistance": "> 90 ميجا باسكال",
+    "Heat Transfer Efficiency": "> 98%"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "مبادل حراري للوحة الملحومة المدمجة Microchannel (PCHE)",
+    "meta_description": "مبادل حراري مدمج للوحة ملحومة Microchannel لنقل الحرارة عالي الكفاءة في أنظمة الطاقة المتقدمة."
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Microchannel Compact Welded Plate Heat Exchanger PCHE",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/microchannel_compact_welded_plate_heat_exchanger_pche_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

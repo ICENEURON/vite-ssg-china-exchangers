@@ -1,28 +1,28 @@
 {
   "slug": "waste-heat-recovery-special-heat-exchanger",
-  "name": "Special intercambiador de calor para Recuperacion de calor residual",
-  "full_description": "la pagina oficial lists THT soldado intercambiadores de calor de placas para intercambiadores de calor, air coolers, air preheaters, compressor interstage coolers, ammonia coolers, crude oil y residual-oil exchangers, power-plant air enfriamiento, placa evaporative air enfriamiento, MDEA solucion heat exchange, y placa economizers. lo says el waste-recuperacion de calor soldado intercambiador de calor de placas es mainly utilizados para industrial aguas residuales y exhaust gas, multi-effect evaporacion tail gas en corn deep-procesamiento, urban raw sewage, y recuperacion de calor de flue gas generated por various fuels. la pagina emphasizes confiable sellado, long-cycle operation, baja leakage y clogging risk, convenient mantenimiento y limpieza, y baja mantenimiento costos.",
+  "name": "Intercambiador de calor especial para recuperación de calor residual",
+  "full_description": "La página oficial enumera los intercambiadores de calor de placas soldadas THT para intercambiadores de calor, enfriadores de aire, precalentadores de aire, enfriadores entre etapas de compresores, enfriadores de amoníaco, intercambiadores de petróleo crudo y de aceite residual, enfriamiento de aire de plantas de energía, enfriamiento de aire por evaporación de placas, intercambio de calor de solución MDEA y economizadores de placas. Dice que el intercambiador de calor de placas soldadas para recuperación de calor residual se utiliza principalmente para aguas residuales industriales y gases de escape, gases de cola de evaporación multiefecto en procesamiento profundo de maíz, aguas residuales urbanas sin tratar y recuperación de calor de gases de combustión generados por diversos combustibles. La página enfatiza el sellado confiable, el funcionamiento de ciclo largo, el bajo riesgo de fugas y obstrucciones, el mantenimiento y la limpieza convenientes y el bajo costo de mantenimiento.",
   "industries": [
     "HVAC",
-    "Petroquimica",
-    "Energia",
-    "Procesamiento quimico",
-    "Generacion electrica"
+    "petroquímica",
+    "Energía",
+    "Procesamiento químico",
+    "Generación de energía"
   ],
   "advantage": [
-    "Targets industrial aguas residuales, exhaust gas, flue gas, sewage, y evaporative tail-gas recuperacion de calor.",
-    "confiable soldado sellado para long-cycle operation.",
-    "disenado un reduce leakage y clogging risk.",
-    "Convenient mantenimiento y limpieza con baja mantenimiento costos."
+    "Está dirigido a aguas residuales industriales, gases de escape, gases de combustión, aguas residuales y recuperación de calor de gases de cola evaporativos.",
+    "Sellado soldado confiable para operación de ciclo largo.",
+    "Diseñado para reducir el riesgo de fugas y obstrucciones.",
+    "Mantenimiento y limpieza convenientes con bajo costo de mantenimiento."
   ],
   "technical_parameters": {
-    "Typical Duties": "Industrial aguas residuales y exhaust gas, corn deep-procesamiento evaporacion tail gas, urban raw sewage, fuel flue-gas recuperacion de calor"
+    "Typical Duties": "Aguas residuales industriales y gases de escape, gases de cola de evaporación de procesamiento profundo de maíz, aguas residuales urbanas sin tratar, recuperación de calor de gases de combustión de combustible"
   },
   "video_link": "",
   "details": [],
   "seo_data": {
-    "meta_title": "Special intercambiador de calor para Recuperacion de calor residual",
-    "meta_description": "Soldado intercambiador de calor de placas solucion para industrial aguas residuales, exhaust gas, flue gas, sewage, y other waste-recuperacion de calor sistemas."
+    "meta_title": "Intercambiador de calor especial para recuperación de calor residual",
+    "meta_description": "Solución de intercambiador de calor de placas soldadas para aguas residuales industriales, gases de escape, gases de combustión, aguas residuales y otros sistemas de recuperación de calor residual."
   },
   "manufacturer": {
     "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"

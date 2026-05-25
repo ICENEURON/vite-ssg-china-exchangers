@@ -2,13 +2,13 @@
 title: "Solución de problemas, limpieza y mantenimiento de intercambiadores de calor"
 slug: troubleshooting-cleaning-and-maintenance-of-heat-exchangers
 date: 2025-06-17
-author: "Equipo de transferencia de calor de Shanghai Co., Ltd."
-reviewer: "Equipo de transferencia de calor de Shanghai Co., Ltd."
-readTime: 8 minutos
-excerpt: "Introducción Los intercambiadores de calor son equipos cruciales ampliamente utilizados en diversas industrias, incluido el procesamiento químico, la generación de energía, la refrigeración y el procesamiento de alimentos. Transfieren calor..."
+author: "Shanghai Heat Transfer Equipment Co., Ltd."
+reviewer: "Shanghai Heat Transfer Equipment Co., Ltd."
+readTime: "8 minutos"
+excerpt: "Introducción Los intercambiadores de calor son equipos cruciales ampliamente utilizados en diversas industrias, incluido el procesamiento químico, la generación de energía, la refrigeración y el..."
 metaTitle: "Solución de problemas, limpieza y mantenimiento de intercambiadores de calor"
 metaDescription: "Introducción Los intercambiadores de calor son equipos cruciales ampliamente utilizados en diversas industrias, incluido el procesamiento químico, la generación de energía, la refrigeración y el procesamiento de alimentos. Transfieren calor entre dos o más fluidos a diferentes temperaturas, desempeñando un papel vital en la eficiencia del proceso y la energía..."
-keywords: ["SHPHE","Transferencia de calor de Shanghái","Intercambiador de calor","Intercambiador de calor de placas"]
+keywords: ["SHPHE","Shanghai Heat Transfer","Intercambiador de calor","Intercambiador de calor de placas"]
 cover: /static/content_posts_image/troubleshooting-cleaning-and-maintenance-of-heat-exchangers/cover.png
 ---
 ## Introducción
@@ -65,7 +65,7 @@ En los intercambiadores de calor de carcasa y tubos, el bloqueo de los tubos pue
 
 El bloqueo de los tubos también puede causar una distribución desigual del flujo entre los tubos, lo que genera puntos calientes y acelera aún más la degradación del intercambiador de calor.
 
-<img src="/static/content_posts_image/troubleshooting-cleaning-and-maintenance-of-heat-exchangers/image-02.png" alt="Tube Blockage" width="640" />
+<img src="/static/content_posts_image/troubleshooting-cleaning-and-maintenance-of-heat-exchangers/image-02.png" alt="Bloqueo del tubo" width="640" />
 
 ### Disminución de la eficiencia de transferencia de calor
 
@@ -95,13 +95,13 @@ El análisis químico de fluidos puede ayudar a detectar contaminantes que puede
 
 El análisis de iones metálicos en el fluido también puede ayudar a detectar la corrosión porque los iones metálicos liberados son un signo de degradación del metal.
 
-### Pruebas no destructivas (NDT)
+### Ensayos no destructivos (END)
 
 Los métodos de prueba no destructivos, como las pruebas de tintes penetrantes, las pruebas ultrasónicas, las pruebas de corrientes parásitas y las pruebas radiográficas, pueden detectar problemas internos sin dañar el equipo. Las pruebas ultrasónicas pueden medir el espesor de la pared para identificar la corrosión, mientras que las pruebas de corrientes parásitas son efectivas para detectar grietas o adelgazamiento en los tubos del intercambiador de carcasa y tubos.
 
 Las pruebas radiográficas pueden proporcionar imágenes detalladas de las estructuras internas, lo que permite a los operadores detectar obstrucciones u otras anomalías internas.
 
-<img src="/static/content_posts_image/troubleshooting-cleaning-and-maintenance-of-heat-exchangers/image-03.jpg" alt="Destructive Testing" width="640" />
+<img src="/static/content_posts_image/troubleshooting-cleaning-and-maintenance-of-heat-exchangers/image-03.jpg" alt="Pruebas destructivas" width="640" />
 
 ## Limpieza de intercambiadores de calor
 

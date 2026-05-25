@@ -1,0 +1,40 @@
+{
+  "title": "HeatEx Direct | Fabricant d'échangeurs de chaleur industriels",
+  "meta": {
+    "description": "Sourcez des échangeurs de chaleur industriels directement auprès d’usines chinoises vérifiées. Licences commerciales, étendues de production et certificats ASME vérifiés manuellement.",
+    "keywords": "Échangeurs de chaleur, fabricant chinois, approvisionnement industriel, ASME, ISO, échangeurs de chaleur à plaques, coque et tube"
+  },
+  "og": {
+    "title": "HeatEx Direct - Vérifié directement en usine",
+    "description": "Sourcez des échangeurs de chaleur industriels directement auprès d’usines chinoises vérifiées. Licences commerciales, étendues de production et certificats ASME vérifiés manuellement."
+  },
+  "page": {
+    "title": "Nouvelles de l'industrie",
+    "subtitle": ""
+  },
+  "card": {
+    "read": "Lire l'article"
+  },
+  "content_types": {
+    "news": "Nouvelles",
+    "posts": "Article technique"
+  },
+  "filters": {
+    "company": "Entreprise",
+    "all": "Tous",
+    "no_results": "Aucun article ne correspond à ces filtres."
+  },
+  "search": {
+    "label": "Rechercher les titres des articles",
+    "title_placeholder": "Rechercher des mots-clés dans le titre"
+  },
+  "blog": {
+    "not_found_title": "Page introuvable",
+    "not_found_desc": "L'article que vous recherchez a peut-être été supprimé, son nom a été modifié ou est temporairement indisponible.",
+    "back_to_list": "Retour à la liste",
+    "back_to_catalog": "Retour au catalogue d'actualités",
+    "author": "Auteur",
+    "read_time": "Lire",
+    "related_posts": "Derniers articles"
+  }
+}

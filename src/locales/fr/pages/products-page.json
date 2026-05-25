@@ -1,0 +1,42 @@
+{
+  "filter_all": "Tous les secteurs",
+  "filter_all_manufacturers": "Tous les fabricants",
+  "no_results": "Aucun produit trouvé correspondant aux filtres sélectionnés.",
+  "clear_all": "Tout effacer",
+  "filter_by": "Industrie",
+  "filter_manufacturer": "Fabricant",
+  "title": "Échangeurs de chaleur industriels",
+  "description": "Parcourez les profils de produits d'échangeurs de chaleur industriels couvrant les fabricants chinois et filtrez par fabricant et secteur d'activité pour comparer les produits à plaques, à plaques soudées, à calandre et à tubes, de refroidisseurs d'air et d'unités d'échange de chaleur.",
+  "hero": {
+    "title": "Catalogue de produits pour échangeurs de chaleur industriels",
+    "description": "Parcourez les catégories de produits d'échangeurs de chaleur industriels et affichez les détails techniques, les applications, les avantages des produits, les informations sur les matériaux et les informations associées sur le fabricant pour chaque produit."
+  },
+  "card": {
+    "no_image": "Aucune image disponible",
+    "explore_details": "Explorer les détails"
+  },
+  "cta": {
+    "title": "Vous ne savez pas de quel produit vous avez besoin?",
+    "description": "Notre outil interactif de demande de devis vous aide à spécifier les paramètres de votre application et nous vous mettrons en contact avec des fabricants vérifiés qui produisent exactement l'échangeur de chaleur dont vous avez besoin."
+  },
+  "detail": {
+    "back_to_manufacturer": "Retour à la page du fabricant",
+    "back_to_manufacturers": "Retour aux fabricants",
+    "back_to_list": "Retour aux produits",
+    "key_advantages": "Avantages clés",
+    "product_details": "Détails du produit",
+    "technical_specifications": "Spécifications techniques",
+    "other_products": "Autres produits de ce fabricant",
+    "document_downloads": "Téléchargements de documents",
+    "download": "Télécharger"
+  },
+  "categories": {},
+  "meta": {
+    "description": "Parcourez les profils de produits d'échangeurs de chaleur industriels couvrant les fabricants chinois et filtrez par fabricant et secteur d'activité pour comparer les produits à plaques, à plaques soudées, à calandre et à tubes, de refroidisseurs d'air et d'unités d'échange de chaleur.",
+    "keywords": "produits d'échangeur de chaleur industriels, produits d'échangeur de chaleur à plaques, échangeur de chaleur à plaques soudées, échangeur de chaleur à calandre et à tubes, échangeur de chaleur refroidi par air, fabricants d'échangeurs de chaleur en Chine"
+  },
+  "og": {
+    "title": "Échangeurs de chaleur industriels",
+    "description": "Parcourez les profils de produits d'échangeurs de chaleur industriels couvrant les fabricants chinois et filtrez par fabricant et secteur d'activité pour comparer les produits à plaques, à plaques soudées, à calandre et à tubes, de refroidisseurs d'air et d'unités d'échange de chaleur."
+  }
+}

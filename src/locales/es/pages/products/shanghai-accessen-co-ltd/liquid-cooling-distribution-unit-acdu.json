@@ -1,20 +1,20 @@
 {
   "slug": "liquid-cooling-distribution-unit-acdu",
-  "name": "Liquid-enfriamiento Distribution unidad ACDU",
-  "full_description": "el Liquid-enfriamiento Distribution unidad ACDU es disenado para enfriamiento de centros de datos sistemas que require location-independent deployment y compressor-free natural enfriamiento. segun un Accessen, el solucion lowers overall sistema PUE, usa intelligent controls con variable-speed pumping y hydraulic flujo modulation, y reduce installation complexity mediante modular prefabrication.",
+  "name": "Unidad de distribución de refrigeración líquida ACDU",
+  "full_description": "La unidad de distribución de refrigeración líquida ACDU está diseñada para sistemas de refrigeración de centros de datos que requieren una implementación independiente de la ubicación y refrigeración natural sin compresores. Según Accessen, la solución reduce el PUE general del sistema, utiliza controles inteligentes con bombeo de velocidad variable y modulación del flujo hidráulico, y reduce la complejidad de la instalación mediante la prefabricación modular.",
   "industries": [],
   "advantage": [
-    "Field-Proven Fiabilidad y Seguridad",
-    "Rapid Deployment",
-    "Adaptive Control Sistema",
-    "alta-Eficiencia Liquid enfriamiento",
-    "Modular Prefabrication"
+    "Fiabilidad y seguridad comprobadas en el campo",
+    "Implementación rápida",
+    "Sistema de control adaptativo",
+    "Refrigeración líquida de alta eficiencia",
+    "Prefabricación Modular"
   ],
   "technical_parameters": {
-    "Power Supply": "380V~415VAC/50±1Hz",
+    "Power Supply": "380V~415VCA/50±1Hz",
     "Altitude Range": "-30m~2500m",
-    "Primary Side Coolant": "Water/ Ethylene Glycol-based Soluciones",
-    "Secondary Side Coolant": "Deionized Water/ Ethylene Glycol/ Propylene Glycol/ Fluorinated Fluids",
+    "Primary Side Coolant": "Soluciones a base de agua/etilenglicol",
+    "Secondary Side Coolant": "Agua desionizada/Etilenglicol/Propilenglicol/Fluidos fluorados",
     "Primary Filtration Rating": "200μm~300μm",
     "Storage Temperature Range": "-40°C~70°C",
     "Operating Relative Humidity": "5%~95%",
@@ -24,17 +24,17 @@
   "video_link": "",
   "details": [
     {
-      "title": "que es el ACDU utilizados para?",
-      "content": "Accessen positions el ACDU como un liquid-enfriamiento distribution unidad para datos centers, donde lo admite compressor-free natural enfriamiento y ayuda un reduce overall PUE en liquid enfriamiento sistemas."
+      "title": "¿Para qué se utiliza la ACDU?",
+      "content": "Accessen posiciona la ACDU como una unidad de distribución de refrigeración líquida para centros de datos, donde admite refrigeración natural sin compresor y ayuda a reducir el PUE general en los sistemas de refrigeración líquida."
     },
     {
-      "title": "How es deployment simplified?",
-      "content": "el producto usa un prefabricated modular diseno que minimizes installation complexity en site y admite faster proyecto entrega."
+      "title": "¿Cómo se simplifica la implementación?",
+      "content": "El producto utiliza un diseño modular prefabricado que minimiza la complejidad de la instalación en el sitio y permite una entrega más rápida del proyecto."
     }
   ],
   "seo_data": {
-    "meta_title": "Liquid-enfriamiento Distribution unidad ACDU",
-    "meta_description": "Prefabricated datos center liquid-enfriamiento distribution unidad con adaptive control, natural enfriamiento, y rapid deployment caracteristicas."
+    "meta_title": "Unidad de distribución de refrigeración líquida ACDU",
+    "meta_description": "Unidad de distribución de refrigeración líquida para centro de datos prefabricada con control adaptativo, refrigeración natural y funciones de implementación rápida."
   },
   "manufacturer": {
     "slug": "shanghai-accessen-co-ltd"

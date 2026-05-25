@@ -1,12 +1,12 @@
 {
   "slug": "ls-bloc-welded-plate-heat-exchanger",
-  "name": "LS-BLOCIntercambiador de calor de placas soldadas",
+  "name": "Intercambiador de calor de placas soldadas LS-BLOC",
   "full_description": "Este producto utiliza un paquete de placas totalmente soldadas con una estructura desmontable en forma de hexaedro para que el equipo pueda cumplir con los requisitos de limpieza mecánica y química. Según la página oficial del producto, conserva la alta eficiencia de transferencia de calor y la estructura compacta de un intercambiador de calor de placas tradicional, al tiempo que permite su uso en condiciones de mayor presión y temperatura en servicios petroleros, químicos, de energía eléctrica, farmacéuticos, metalúrgicos y de refrigeración.",
   "industries": [
-    "Petroquimica",
-    "Procesamiento quimico",
-    "Farmaceutica",
-    "Generacion electrica"
+    "petroquímica",
+    "Procesamiento químico",
+    "Productos farmacéuticos",
+    "Generación de energía"
   ],
   "advantage": [
     "La estructura desmontable en forma de hexaedro admite la limpieza mecánica y química del interior del equipo.",
@@ -22,7 +22,7 @@
   "video_link": "",
   "details": [],
   "seo_data": {
-    "meta_title": "LS-BLOCIntercambiador de calor de placas soldadas",
+    "meta_title": "Intercambiador de calor de placas soldadas LS-BLOC",
     "meta_description": "Intercambiador de placas totalmente soldadas extraíbles en forma de hexaedro para procesos de alta presión y alta temperatura."
   },
   "manufacturer": {

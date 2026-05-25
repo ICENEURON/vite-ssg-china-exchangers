@@ -1,16 +1,20 @@
 import * as CookieConsent from 'vanilla-cookieconsent';
 import 'vanilla-cookieconsent/dist/cookieconsent.css';
 import './cookie-consent.css';
+import arCookie from '../../locales/ar/components/cookie.json';
 import enCookie from '../../locales/en/components/cookie.json';
 import esCookie from '../../locales/es/components/cookie.json';
+import frCookie from '../../locales/fr/components/cookie.json';
 import ruCookie from '../../locales/ru/components/cookie.json';
 import zhCookie from '../../locales/zh/components/cookie.json';
 
 const analyticsCategory = 'analytics';
 const gaMeasurementId = import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-077PBFJFEZ';
 const cookieTranslations = {
+  ar: arCookie,
   en: enCookie,
   es: esCookie,
+  fr: frCookie,
   ru: ruCookie,
   zh: zhCookie,
 } as const;
@@ -242,8 +246,10 @@ export function initializeCookieConsent() {
       default: getCurrentLanguage(),
       autoDetect: 'document',
       translations: {
+        ar: buildCookieTranslation('ar', cookieDomainLabel),
         en: buildCookieTranslation('en', cookieDomainLabel),
         es: buildCookieTranslation('es', cookieDomainLabel),
+        fr: buildCookieTranslation('fr', cookieDomainLabel),
         ru: buildCookieTranslation('ru', cookieDomainLabel),
         zh: buildCookieTranslation('zh', cookieDomainLabel),
       },

@@ -3,9 +3,9 @@
   "name": "Intercambiador de calor de placas y carcasa",
   "full_description": "La página oficial del producto describe este modelo como un intercambiador de calor avanzado de alta eficiencia y ahorro de energía que utiliza placas corrugadas como elementos de transferencia de calor, que consta de un haz de placas soldadas internas y una carcasa externa. Se presenta para reformado catalítico, isomerización de xileno, desproporción de tolueno, condensación de propano y propileno, intercambio de calor de solución de amina y otros procesos líquido-líquido, vapor-líquido, gas-líquido y gas-gas en las industrias de refinación de petróleo, petroquímica y procesamiento de gas.",
   "industries": [
-    "Petroquimica",
-    "Energia",
-    "Procesamiento quimico"
+    "petroquímica",
+    "Energía",
+    "Procesamiento químico"
   ],
   "advantage": [
     "Combina la compacidad y eficiencia de los intercambiadores de calor de placas con resistencia a la presión y temperatura del lado de la carcasa.",

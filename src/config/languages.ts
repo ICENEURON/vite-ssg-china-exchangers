@@ -1,5 +1,9 @@
+import languages from '@/locales/languages.json';
+
+const configuredLanguages = Object.keys(languages).join(',');
+
 // Language configuration from environment variables
-const envLanguages = import.meta.env.VITE_SUPPORTED_LANGUAGES || 'en,zh';
+const envLanguages = import.meta.env.VITE_SUPPORTED_LANGUAGES || configuredLanguages;
 const envDefaultLanguage = import.meta.env.VITE_DEFAULT_LANGUAGE || 'en';
 
 // Parse supported languages from environment with validation

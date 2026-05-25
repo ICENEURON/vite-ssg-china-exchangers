@@ -1,46 +1,46 @@
 {
   "slug": "printed-circuit-heat-exchanger",
-  "name": "circuito impreso intercambiador de calor",
-  "full_description": "circuito impreso intercambiador de calor (PCHE) es una alta-eficiencia microchannel soldado intercambiador de calor de placas con una extremely compacto structure. Thin metal plates son chemically etched un form precise canales de flujo, then stacked y diffusion bonded hacia un monolithic transferencia de calor nucleo. el nucleo es assembled y soldado con el housing, headers, nozzles, flanges, y other components un form un complete exchanger. PCHE es disenado para exigente aplicaciones requiring alta eficiencia termica y compacto ocupacion en planta, incluidos nuclear energy, maritimo, oil y gas, aerospace, generacion electrica, LNG, hydrocarbon procesamiento, y nuevo energy sistemas.",
+  "name": "Intercambiador de calor de circuito impreso",
+  "full_description": "El intercambiador de calor de circuito impreso (PCHE) es un intercambiador de calor de placas soldadas de microcanales de alta eficiencia con una estructura extremadamente compacta. Las placas de metal delgadas se graban químicamente para formar canales de flujo precisos, luego se apilan y se unen por difusión en un núcleo monolítico de transferencia de calor. El núcleo se ensambla y suelda con la carcasa, los cabezales, las boquillas, las bridas y otros componentes para formar un intercambiador completo. PCHE está diseñado para aplicaciones exigentes que requieren alta eficiencia térmica y espacio compacto, incluyendo energía nuclear, marina, petróleo y gas, aeroespacial, generación de energía, GNL, procesamiento de hidrocarburos y nuevos sistemas energéticos.",
   "industries": [
     "HVAC",
-    "Maritimo",
-    "Energia"
+    "marina",
+    "Energía"
   ],
   "advantage": [
-    "Compactoness: el PCHE ocupacion en planta puede ser 5 un 10 times menor than convencional shell y tube exchangers, hacer lo ideal para space-constrained sistemas.",
-    "alta Eficiencia: Microchannel geometria provides very alta transferencia de calor rendimiento y puede achieve up un 98% overall eficiencia termica en exigente servicios.",
-    "Extreme Operating capacidad: Diffusion-bonded construccion admite severe servicio conditions up un 1000 bar y temperatures como alta como 850℃.",
-    "Custom flujo geometria: Different canal y corrugation patterns puede ser engineered un match specific caudal, perdida de presion, y termico load requisitos.",
-    "alta Structural Integrity: Specialized producto structure y solid-state diffusion bonding improve leak resistance y operational seguridad under alta temperatura y presion.",
-    "Ligero y Space Saving: alta surface-area density delivers close temperatura approach, lower peso, y excellent space utilization."
+    "Compacidad: El tamaño del PCHE puede ser de 5 a 10 veces más pequeño que el de los intercambiadores de carcasa y tubos convencionales, lo que lo hace ideal para sistemas con espacio limitado.",
+    "Alta eficiencia: la geometría de microcanal proporciona un rendimiento de transferencia de calor muy alto y puede alcanzar hasta un 98 % de eficiencia térmica general en servicios exigentes.",
+    "Capacidad operativa extrema: la construcción unida por difusión soporta condiciones de servicio severas de hasta 1000 bar y temperaturas de hasta 850 ℃.",
+    "Geometría de flujo personalizada: se pueden diseñar diferentes patrones de canales y corrugaciones para cumplir con los requisitos específicos de caudal, caída de presión y carga térmica.",
+    "Alta integridad estructural: la estructura especializada del producto y la unión por difusión de estado sólido mejoran la resistencia a las fugas y la seguridad operativa en condiciones de alta temperatura y presión.",
+    "Peso ligero y ahorro de espacio: la alta densidad de superficie ofrece una temperatura cercana, menor peso y una excelente utilización del espacio."
   ],
   "technical_parameters": {
-    "Channel Width": "0.4 ~ 4mm",
-    "Plate Material": "304, 316L, 2205, TA1 y titanium alloy, alta-temperatura alloy",
-    "Plate Thickness": "0.4 ~ 4mm",
+    "Channel Width": "0,4 ~ 4mm",
+    "Plate Material": "304, 316L, 2205, TA1 y aleación de titanio, aleación de alta temperatura",
+    "Plate Thickness": "0,4 ~ 4mm",
     "Design Temperature": "-196 ~ 850℃",
     "Heat Transfer Area": "8000㎡",
-    "Max Design Pressure": "1000 Bar"
+    "Max Design Pressure": "1000 barras"
   },
   "video_link": "",
   "details": [
     {
-      "title": "que es un circuito impreso intercambiador de calor?",
-      "content": "circuito impreso intercambiador de calor es un highly compacto y eficiente microchannel intercambiador de calor disenado para extreme condiciones de operacion. lo usa chemically etched metal plates y diffusion bonding tecnologia un deliver very alta transferencia de calor rendimiento, presion resistance, resistencia a la corrosion, y space eficiencia en aplicaciones donde convencional exchangers son too grande o cannot withstand el servicio."
+      "title": "¿Qué es un intercambiador de calor de circuito impreso?",
+      "content": "El intercambiador de calor de circuito impreso es un intercambiador de calor de microcanales altamente compacto y eficiente diseñado para condiciones operativas extremas. Utiliza placas metálicas grabadas químicamente y tecnología de unión por difusión para ofrecer un rendimiento de transferencia de calor, resistencia a la presión, resistencia a la corrosión y eficiencia de espacio muy altos en aplicaciones donde los intercambiadores convencionales son demasiado grandes o no pueden soportar el trabajo."
     },
     {
-      "title": "How es circuito impreso intercambiador de calor constructed?",
-      "content": "Thin metal plates, usually acero inoxidable, duplex steel, titanium, o alta-temperatura alloys, son coated y chemically etched un create intricate microchannel patterns. el etched plates son stacked en un defined configuration y diffusion bonded at alta temperatura y presion un form un monolithic nucleo, which es then assembled con housing, headers, nozzles, y other external components un make el final exchanger."
+      "title": "¿Cómo se construye el intercambiador de calor de circuito impreso?",
+      "content": "Placas metálicas delgadas, generalmente de acero inoxidable, acero dúplex, titanio o aleaciones de alta temperatura, se recubren y se graban químicamente para crear intrincados patrones de microcanales. Las placas grabadas se apilan en una configuración definida y se unen por difusión a alta temperatura y presión para formar un núcleo monolítico, que luego se ensambla con carcasa, cabezales, boquillas y otros componentes externos para formar el intercambiador final."
     },
     {
-      "title": "How es lo disenado y manufactured?",
-      "content": "PCHE diseno combines termico-hydraulic analysis, microchannel geometria optimization, materiales ingenieria, y manufacturability. despues de selecting base materiales y placa thickness, el canal pattern es transferred por photomask y chemically etched, cleaned, stacked, diffusion bonded en un vacuum furnace, y then completed mediante header assembly, leak testing, y termico rendimiento validation."
+      "title": "¿Cómo se diseña y fabrica?",
+      "content": "El diseño PCHE combina análisis termohidráulico, optimización de la geometría de microcanales, ingeniería de materiales y capacidad de fabricación. Después de seleccionar los materiales base y el espesor de la placa, el patrón del canal se transfiere mediante una fotomáscara y se graba químicamente, se limpia, se apila, se une por difusión en un horno de vacío y luego se completa mediante el ensamblaje del cabezal, las pruebas de fugas y la validación del rendimiento térmico."
     }
   ],
   "seo_data": {
-    "meta_title": "circuito impreso intercambiador de calor",
-    "meta_description": "compacto diffusion-bonded circuito impreso intercambiador de calor para extreme presion y temperatura aplicaciones con alta eficiencia termica."
+    "meta_title": "Intercambiador de calor de circuito impreso",
+    "meta_description": "Intercambiador de calor de circuito impreso compacto por difusión para aplicaciones de presión y temperatura extremas con alta eficiencia térmica."
   },
   "manufacturer": {
     "slug": "shanghai-heat-transfer-equipment-co-ltd"
