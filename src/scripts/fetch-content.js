@@ -2,11 +2,7 @@ import { createClient } from '@supabase/supabase-js';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import {
-  getContentImageStoragePath,
-  isContentPostImageStoragePath,
-  loadAssetSyncManifest
-} from './asset-sync-manifest.js';
+import { loadAssetSyncManifest } from './asset-sync-manifest.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -190,14 +186,6 @@ async function listAndDownload(currentPath = '') {
 
     const itemPath = currentPath ? `${currentPath}/${item.name}` : item.name;
 
-    if (assetSyncManifest.enabled && !currentPath && item.name === CONTENT_IMAGES_PREFIX) {
-      continue;
-    }
-
-    if (assetSyncManifest.enabled && isContentPostImageStoragePath(itemPath)) {
-      continue;
-    }
-
     if (!item.id || item.id === null) {
       const result = await listAndDownload(itemPath);
       successCount += result.successCount;
@@ -216,21 +204,17 @@ async function listAndDownload(currentPath = '') {
   return { successCount, failureCount };
 }
 
-async function downloadListedContentImages() {
+async function downloadListedLocalContents() {
   let successCount = 0;
   let failureCount = 0;
 
-  if (!assetSyncManifest.enabled) {
+  if (assetSyncManifest.localContents.size === 0) {
+    console.log('ℹ️ Asset manifest enabled. No contents bucket files listed for download.');
     return { successCount, failureCount };
   }
 
-  if (assetSyncManifest.contentPostImages.size === 0) {
-    console.log('ℹ️ Asset manifest enabled. No content post images listed for download.');
-    return { successCount, failureCount };
-  }
-
-  for (const relativePath of assetSyncManifest.contentPostImages) {
-    const downloaded = await downloadFile(getContentImageStoragePath(relativePath));
+  for (const storagePath of assetSyncManifest.localContents) {
+    const downloaded = await downloadFile(storagePath);
     if (downloaded) {
       successCount += 1;
     } else {
@@ -246,10 +230,9 @@ async function main() {
   console.log(`📁 Content files target: ${CONTENT_DEST_DIR}`);
   console.log(`🖼️ Content image files target: ${CONTENT_IMAGES_DEST_DIR}`);
 
-  const contentResult = await listAndDownload();
-  const imageResult = await downloadListedContentImages();
-  const successCount = contentResult.successCount + imageResult.successCount;
-  const failureCount = contentResult.failureCount + imageResult.failureCount;
+  const { successCount, failureCount } = assetSyncManifest.enabled
+    ? await downloadListedLocalContents()
+    : await listAndDownload();
 
   console.log(`\n🎉 Content sync complete. Saved ${successCount} files, failed ${failureCount} files.`);
 

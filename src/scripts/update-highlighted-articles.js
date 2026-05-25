@@ -141,7 +141,14 @@ function getLatestNewsArticle(companySlug) {
 function buildHighlightedArticle(companySlug, article, manufacturersBySlug) {
   const companyMeta = getCompanyMeta(companySlug, manufacturersBySlug);
   const english = article.localized.en || {};
-  const chinese = article.localized.zh || english;
+  const firstLocalized = Object.values(article.localized)[0] || {};
+  const fallbackTitle = english.title || firstLocalized.title || article.slug;
+  const fallbackDescription =
+    english.excerpt ||
+    english.metaDescription ||
+    firstLocalized.excerpt ||
+    firstLocalized.metaDescription ||
+    '';
 
   return {
     companyId: companyMeta.id,
@@ -149,19 +156,27 @@ function buildHighlightedArticle(companySlug, article, manufacturersBySlug) {
     companyName: companyMeta.name,
     contentType: 'news',
     articleSlug: article.slug,
-    articleTitle: {
-      en: english.title || article.slug,
-      zh: chinese.title || english.title || article.slug
-    },
-    shortDescription: {
-      en: english.excerpt || english.metaDescription || '',
-      zh: chinese.excerpt || chinese.metaDescription || english.excerpt || english.metaDescription || ''
-    },
+    articleTitle: Object.fromEntries(
+      languages.map((language) => [
+        language,
+        article.localized[language]?.title || fallbackTitle
+      ])
+    ),
+    shortDescription: Object.fromEntries(
+      languages.map((language) => [
+        language,
+        article.localized[language]?.excerpt ||
+          article.localized[language]?.metaDescription ||
+          fallbackDescription
+      ])
+    ),
     date: article.date,
-    paths: {
-      en: `news/${companySlug}/en/${article.filename}`,
-      zh: `news/${companySlug}/zh/${article.filename}`
-    }
+    paths: Object.fromEntries(
+      languages.map((language) => [
+        language,
+        `news/${companySlug}/${article.localized[language] ? language : 'en'}/${article.filename}`
+      ])
+    )
   };
 }
 

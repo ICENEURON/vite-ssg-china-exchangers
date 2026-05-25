@@ -6,7 +6,10 @@ import mime from 'mime-types';
 import { fileURLToPath } from 'url';
 import {
     loadAssetSyncManifest,
-    shouldProcessContentStoragePath,
+    shouldProcessDataFile,
+    shouldProcessLocalContent,
+    shouldProcessLocalWebPage,
+    shouldProcessWebDataFile,
     shouldProcessLocalAsset
 } from '../src/scripts/asset-sync-manifest.js';
 
@@ -264,14 +267,17 @@ async function uploadConfiguredLocalFolders() {
             continue;
         }
 
-        const filtersContentAssets = target.localFolder === 'local_contents' && assetSyncManifest.enabled;
+        const manifestFilter =
+            target.localFolder === 'local_contents'
+                ? storagePath => shouldProcessLocalContent(assetSyncManifest, storagePath)
+                : target.localFolder === 'local_web_pages'
+                    ? storagePath => shouldProcessLocalWebPage(assetSyncManifest, storagePath)
+                    : undefined;
 
         await uploadLocalFolderToBucket(target.localFolder, target.bucket, {
             ignoredExtensions: target.ignoredExtensions,
-            storagePathFilter: filtersContentAssets
-                ? storagePath => shouldProcessContentStoragePath(assetSyncManifest, storagePath)
-                : undefined,
-            skipOrphanCleanup: filtersContentAssets
+            storagePathFilter: assetSyncManifest.enabled ? manifestFilter : undefined,
+            skipOrphanCleanup: assetSyncManifest.enabled && Boolean(manifestFilter)
         });
     }
 }
@@ -385,6 +391,11 @@ function readIndustries() {
 }
 
 async function syncIndustries() {
+    if (!shouldProcessWebDataFile(assetSyncManifest, 'industries.json')) {
+        console.log('\n⏭️ Asset manifest enabled. web_data/industries.json is not listed, skipping industries sync.');
+        return;
+    }
+
     const industries = readIndustries();
     const expectedIds = new Set(industries.map((industry) => industry.id));
 
@@ -514,8 +525,15 @@ async function processAndUploadAsset(localAssetsDir, mfgSlug, assetData, foreign
 async function runImport() {
     console.log('🚀 开始按公司分类目录导入数据...');
     const dataDir = path.join(__dirname, 'data');
-    const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json') && f !== 'data_payload.json' && f !== 'sync_config.json');
+    const files = fs.readdirSync(dataDir)
+        .filter(f => f.endsWith('.json') && f !== 'data_payload.json' && f !== 'sync_config.json')
+        .filter(f => shouldProcessDataFile(assetSyncManifest, f));
     let payload = [];
+
+    if (assetSyncManifest.enabled && files.length === 0) {
+        console.log('⏭️ Asset manifest enabled. No supabase_importer/data files listed, skipping manufacturer data import.');
+        return;
+    }
     
     for (const file of files) {
         const rawData = fs.readFileSync(path.join(dataDir, file));
@@ -537,7 +555,7 @@ async function runImport() {
     // Load sync config
     const configPath = path.join(dataDir, 'sync_config.json');
     let syncTargets = null;
-    if (fs.existsSync(configPath)) {
+    if (fs.existsSync(configPath) && shouldProcessDataFile(assetSyncManifest, 'sync_config.json')) {
         const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
         if (config.sync_targets && Array.isArray(config.sync_targets)) {
             syncTargets = new Set(config.sync_targets);

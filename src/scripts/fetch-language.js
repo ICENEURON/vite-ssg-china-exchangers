@@ -2,6 +2,7 @@ import { createClient } from '@supabase/supabase-js';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { loadAssetSyncManifest } from './asset-sync-manifest.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -10,6 +11,7 @@ const envPath = path.resolve(__dirname, '../../.env.local');
 const TARGET_BUCKET = 'webpages';
 const DEST_DIR = path.resolve(__dirname, '../locales');
 const VERBOSE = process.env.SYNC_VERBOSE === '1';
+const assetSyncManifest = loadAssetSyncManifest();
 
 let envContent = '';
 try {
@@ -190,14 +192,41 @@ async function listAndDownload(currentPath = '') {
   return { successCount, failureCount };
 }
 
+async function downloadListedLocalWebPages() {
+  let successCount = 0;
+  let failureCount = 0;
+
+  if (assetSyncManifest.localWebPages.size === 0) {
+    console.log(`ℹ️ Asset manifest enabled. No ${TARGET_BUCKET} bucket files listed for download.`);
+    return { successCount, failureCount };
+  }
+
+  for (const storagePath of assetSyncManifest.localWebPages) {
+    const downloaded = await downloadFile(storagePath);
+    if (downloaded) {
+      successCount += 1;
+    } else {
+      failureCount += 1;
+    }
+  }
+
+  return { successCount, failureCount };
+}
+
 async function main() {
   console.log(`\n🌐 Processing bucket: ${TARGET_BUCKET}`);
   console.log(`📁 Locale files target: ${DEST_DIR}`);
   console.log('ℹ️ This sync only replaces or adds files. Local files missing from Supabase are left unchanged.');
 
-  const { successCount, failureCount } = await listAndDownload();
+  const { successCount, failureCount } = assetSyncManifest.enabled
+    ? await downloadListedLocalWebPages()
+    : await listAndDownload();
 
   console.log(`\n🎉 Language sync complete. Saved ${successCount} files, failed ${failureCount} files.`);
+
+  if (failureCount > 0) {
+    process.exit(1);
+  }
 }
 
 main();

@@ -5,10 +5,7 @@ import type { Post } from ".velite";
 import highlightedArticles from "../../../data/highlighted-articles.json";
 import { addLanguageToPath, useCurrentLanguage } from "../../../utils/language-routing";
 
-type LocalizedText = {
-    en: string;
-    zh: string;
-};
+type LocalizedText = Record<string, string>;
 
 type HighlightedArticle = {
     priority: number;
@@ -20,10 +17,14 @@ type HighlightedArticle = {
     shortDescription: LocalizedText;
 };
 
+function getLocalizedValue(value: LocalizedText, language: string) {
+    return value[language] || value.en || Object.values(value)[0] || "";
+}
+
 export function HighlightedArticles() {
     const { t } = useTranslation("translation");
     const currentLanguage = useCurrentLanguage();
-    const language = currentLanguage === "zh" ? "zh" : "en";
+    const language = currentLanguage;
     const industryNewsPath = addLanguageToPath("/industry-news", currentLanguage);
     const typeLabels = t("pages.home.highlightedArticles.typeLabels", { returnObjects: true }) as Record<string, string>;
     const items = [...(highlightedArticles.items as HighlightedArticle[])].sort((a, b) => a.priority - b.priority);
@@ -61,17 +62,22 @@ export function HighlightedArticles() {
 
                 <div className="divide-y divide-slate-200 border-y border-slate-200">
                     {items.map((item) => {
-                        const post = postsByKey.get(`${item.contentType}:${item.articleSlug}:${language}`);
+                        const post =
+                            postsByKey.get(`${item.contentType}:${item.articleSlug}:${language}`) ||
+                            postsByKey.get(`${item.contentType}:${item.articleSlug}:en`);
                         const articlePath = post?.permalink || addLanguageToPath(`/industry-news/${item.contentType}/${item.articleSlug}`, currentLanguage);
                         const companyPath = addLanguageToPath(`/manufacturers/${item.companySlug}`, currentLanguage);
                         const cover = post?.cover || "/static/websites/home-hero.png";
+                        const articleTitle = getLocalizedValue(item.articleTitle, language);
+                        const companyName = getLocalizedValue(item.companyName, language);
+                        const shortDescription = getLocalizedValue(item.shortDescription, language);
 
                         return (
                             <article key={`${item.contentType}-${item.articleSlug}`} className="grid gap-3 py-4 transition-colors duration-200 hover:bg-white md:grid-cols-[12rem_minmax(0,1fr)] md:items-start md:gap-4 md:py-5 md:px-3">
                                 <a href={articlePath} className="group/image hidden aspect-[4/3] overflow-hidden rounded-md bg-slate-100 md:block">
                                     <img
                                         src={cover}
-                                        alt={item.articleTitle[language]}
+                                        alt={articleTitle}
                                         loading="lazy"
                                         className="h-full w-full object-cover transition-transform duration-500 group-hover/image:scale-105"
                                     />
@@ -82,13 +88,13 @@ export function HighlightedArticles() {
                                     </div>
                                     <h3 className="text-lg font-bold leading-7 text-foreground">
                                         <a href={articlePath} className="underline-offset-4 transition-colors duration-200 hover:text-primary hover:underline">
-                                            {item.articleTitle[language]}
+                                            {articleTitle}
                                         </a>
                                     </h3>
                                     <a href={companyPath} className="mt-2 block text-sm font-semibold text-slate-600 underline-offset-4 transition-colors duration-200 hover:text-primary hover:underline">
-                                        {item.companyName[language]}
+                                        {companyName}
                                     </a>
-                                    <p className="mt-3 text-sm leading-6 text-muted">{item.shortDescription[language]}</p>
+                                    <p className="mt-3 text-sm leading-6 text-muted">{shortDescription}</p>
                                 </div>
                             </article>
                         );

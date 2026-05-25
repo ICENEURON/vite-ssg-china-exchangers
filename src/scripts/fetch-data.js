@@ -2,6 +2,7 @@ import { createClient } from '@supabase/supabase-js';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { loadAssetSyncManifest, shouldProcessWebDataFile } from './asset-sync-manifest.js';
 
 // Calculate paths
 const __filename = fileURLToPath(import.meta.url);
@@ -33,6 +34,7 @@ const serviceRoleKey = env['SUPABASE_SERVICE_ROLE_KEY'] || env['VITE_SUPABASE_SE
 const anonKey = env['SUPABASE_ANON_KEY'] || env['VITE_SUPABASE_ANON_KEY'];
 const VERBOSE = process.env.SYNC_VERBOSE === '1';
 const savedTables = [];
+const assetSyncManifest = loadAssetSyncManifest();
 
 // 首选 Service Role Key，因为它拥有最高权限，可以绕过所有 RLS 安全策略直接读取数据
 const key = serviceRoleKey || anonKey;
@@ -125,13 +127,26 @@ async function fetchAssetTable(tableName) {
 }
 
 async function main() {
-  await fetchTable('countries', 'id, name, name_zh');
-  await fetchTable('industries');
-  await fetchTable('manufacturers');
-  await fetchTable('manufacturer_scores', '*', { orderBy: 'order' });
-  await fetchAssetTable('manufacturer_assets');
-  await fetchTable('products');
-  await fetchAssetTable('product_assets');
+  const shouldFetchImporterData = !assetSyncManifest.enabled || assetSyncManifest.data.size > 0;
+  const shouldFetchIndustries = shouldProcessWebDataFile(assetSyncManifest, 'industries.json');
+
+  if (shouldFetchIndustries) {
+    await fetchTable('countries', 'id, name, name_zh');
+    await fetchTable('industries');
+  }
+
+  if (shouldFetchImporterData) {
+    await fetchTable('manufacturers');
+    await fetchTable('manufacturer_scores', '*', { orderBy: 'order' });
+    await fetchAssetTable('manufacturer_assets');
+    await fetchTable('products');
+    await fetchAssetTable('product_assets');
+  }
+
+  if (assetSyncManifest.enabled && !shouldFetchIndustries && !shouldFetchImporterData) {
+    console.log('ℹ️ Asset manifest enabled. No data or web_data files listed, skipping data table sync.');
+  }
+
   // We explicitly do NOT fetch 'rfqs' here
   const totalRecords = savedTables.reduce((total, table) => total + table.count, 0);
   console.log(`✅ Data sync complete. Saved ${totalRecords} records across ${savedTables.length} files.`);
