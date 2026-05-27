@@ -47,6 +47,7 @@ export default function BlogPost() {
     });
     const post = sortedPosts[currentIndex];
     const postContent = post ? wrapScrollableTables(post.content) : "";
+    const postOgImage = post?.cover ? new URL(post.cover, siteUrl).href : undefined;
 
     const relatedPosts = post
         ? sortedPosts.filter((rPost) => rPost.permalink !== post.permalink).slice(0, 5)
@@ -82,6 +83,7 @@ export default function BlogPost() {
                 description={post.metaDescription || post.excerpt || post.title}
                 keywords={post.keywords?.join(', ')}
                 canonicalUrl={currentUrl}
+                ogImage={postOgImage}
                 ogType="article"
                 siteName={siteName}
             />

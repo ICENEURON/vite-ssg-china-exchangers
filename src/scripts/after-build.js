@@ -19,6 +19,7 @@ const webDir = path.join(projectRoot, 'src', 'web');
 const localesDir = path.join(projectRoot, 'src', 'locales');
 const languagesPath = path.join(localesDir, 'languages.json');
 const countriesPath = path.join(projectRoot, 'src', 'data', 'countries.json');
+const postsPath = path.join(projectRoot, '.velite', 'posts.json');
 const env = loadEnv(process.env.NODE_ENV || 'production', projectRoot, '');
 const outputPaths = [
   path.join(projectRoot, 'sitemap.xml'),
@@ -29,6 +30,7 @@ const siteUrl = (env.VITE_SITE_URL || process.env.VITE_SITE_URL || 'https://heat
 const siteHost = new URL(siteUrl).host;
 const siteHostRegex = siteHost.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const siteName = env.VITE_SITE_TITLE || process.env.VITE_SITE_TITLE || 'HeatEx Direct';
+const defaultOgImage = `${siteUrl}/static/websites/heatex-direct.png`;
 const shouldNoindex = String(env.VITE_SITE_NOINDEX || process.env.VITE_SITE_NOINDEX || '').toLowerCase() === 'true';
 const defaultLanguage = 'en';
 const supportedLanguages = Object.keys(readJson(languagesPath));
@@ -46,6 +48,10 @@ function readOptionalJson(filePath) {
 
   return readJson(filePath);
 }
+
+const postsByPermalink = new Map(
+  (readOptionalJson(postsPath) || []).map((post) => [post.permalink, post]),
+);
 
 function readText(filePath) {
   return fs.readFileSync(filePath, 'utf8');
@@ -199,7 +205,7 @@ function firstText(value) {
 function getLocalizedPageLabel(language, pageFile, fallback) {
   const page = getLocaleJson(language, pageFile);
 
-  return page?.hero?.title || page?.title || fallback;
+  return page?.hero?.title || page?.page?.title || page?.title || fallback;
 }
 
 function truncateText(value, maxLength = 320) {
@@ -363,8 +369,75 @@ function buildProductSchemas(route, manufacturerSlug, productSlug) {
   ];
 }
 
+function getPostForRoute(route) {
+  return postsByPermalink.get(route);
+}
+
+function getArticleImage(post) {
+  return toAbsoluteUrl(post.cover) || defaultOgImage;
+}
+
+function buildArticleSchemas(route) {
+  const { language } = parseRoute(route);
+  const post = getPostForRoute(route);
+
+  if (!post) {
+    return [];
+  }
+
+  const url = toAbsoluteUrl(route);
+  const headline = post.metaTitle || post.title;
+  const description = truncateText(post.metaDescription || post.excerpt || post.title);
+  const datePublished = post.date ? new Date(post.date).toISOString() : undefined;
+  const image = getArticleImage(post);
+
+  return [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline,
+      description,
+      image: image ? [image] : undefined,
+      datePublished,
+      dateModified: datePublished,
+      author: {
+        '@type': 'Organization',
+        name: post.author || siteName,
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: siteName,
+        logo: {
+          '@type': 'ImageObject',
+          url: defaultOgImage,
+        },
+      },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': url,
+      },
+      url,
+      inLanguage: language,
+      keywords: Array.isArray(post.keywords) && post.keywords.length > 0
+        ? post.keywords.join(', ')
+        : undefined,
+    },
+    buildBreadcrumbList([
+      { name: siteName, route: getLocalizedRoute('/', language) },
+      { name: getLocalizedPageLabel(language, 'industry-news.json', 'Industry News'), route: getLocalizedRoute('/industry-news', language) },
+      { name: post.title, route },
+    ]),
+  ];
+}
+
 function getStructuredDataForRoute(route) {
   const { normalizedRoute } = parseRoute(route);
+
+  const articleMatch = normalizedRoute.match(/^\/industry-news\/(?:news|posts)\/([^/]+)$/);
+
+  if (articleMatch) {
+    return buildArticleSchemas(route);
+  }
 
   const manufacturerMatch = normalizedRoute.match(/^\/manufacturers\/([^/]+)$/);
 
@@ -393,20 +466,22 @@ function injectStructuredData(routeEntries) {
 
   routeEntries.forEach(({ route, filePath }) => {
     const structuredData = getStructuredDataForRoute(route);
+    const html = readText(filePath);
+    const cleanedHtml = html.replace(
+      /\n?\s*<script\s+type=["']application\/ld\+json["']\s+data-heatex-structured-data=["']true["'][^>]*>[\s\S]*?<\/script>/gi,
+      '',
+    );
 
     if (structuredData.length === 0) {
-      return;
-    }
+      if (cleanedHtml !== html) {
+        writeText(filePath, cleanedHtml);
+      }
 
-    const html = readText(filePath);
-
-    if (html.includes('data-heatex-structured-data="true"')) {
-      manifest.push({ route, schemaTypes: ['already-injected'] });
       return;
     }
 
     const scriptTag = buildJsonLdScript(structuredData);
-    const updatedHtml = html.replace('</head>', `  ${scriptTag}\n</head>`);
+    const updatedHtml = cleanedHtml.replace('</head>', `  ${scriptTag}\n</head>`);
 
     if (updatedHtml !== html) {
       writeText(filePath, updatedHtml);
@@ -417,6 +492,87 @@ function injectStructuredData(routeEntries) {
   writeText(path.join(distDir, 'structured-data-manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`);
 
   console.log(`Updated structured data for ${manifest.filter((entry) => !entry.schemaTypes.includes('already-injected')).length} pages.`);
+}
+
+function escapeHtmlAttribute(value) {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/"/g, '&quot;');
+}
+
+function buildHtmlAlternateLinks(route, routeSet) {
+  const alternateRoutes = getAlternateRoutes(route, routeSet);
+
+  if (alternateRoutes.length === 0) {
+    return '';
+  }
+
+  const englishRoute = alternateRoutes.find((candidate) => parseRoute(candidate).language === defaultLanguage);
+  const links = alternateRoutes.map((candidate) => {
+    const { language } = parseRoute(candidate);
+    return `    <link data-rh="true" rel="alternate" hreflang="${language}" href="${escapeHtmlAttribute(`${siteUrl}${candidate}`)}" />`;
+  });
+
+  if (englishRoute) {
+    links.push(`    <link data-rh="true" rel="alternate" hreflang="x-default" href="${escapeHtmlAttribute(`${siteUrl}${englishRoute}`)}" />`);
+  }
+
+  return links.join('\n');
+}
+
+function removeHtmlHreflangLinks(html) {
+  return html.replace(
+    /\n?\s*<link\b(?=[^>]*\brel=["']alternate["'])(?=[^>]*\bhreflang=["'][^"']+["'])[^>]*\/?>/gi,
+    '',
+  );
+}
+
+function syncHreflangLinks(routeEntries, routeSet) {
+  let updatedCount = 0;
+
+  routeEntries.forEach(({ route, filePath }) => {
+    const html = readText(filePath);
+    const withoutHreflang = removeHtmlHreflangLinks(html);
+    const alternateLinks = buildHtmlAlternateLinks(route, routeSet);
+    const updatedHtml = alternateLinks
+      ? withoutHreflang.replace('</head>', `${alternateLinks}\n</head>`)
+      : withoutHreflang;
+
+    if (updatedHtml !== html) {
+      writeText(filePath, updatedHtml);
+      updatedCount += 1;
+    }
+  });
+
+  console.log(`Synced hreflang links for ${updatedCount} pages.`);
+}
+
+function syncArticleOgImages(routeEntries) {
+  let updatedCount = 0;
+
+  routeEntries.forEach(({ route, filePath }) => {
+    const post = getPostForRoute(route);
+
+    if (!post?.cover) {
+      return;
+    }
+
+    const imageUrl = getArticleImage(post);
+    const metaTag = `    <meta property="og:image" content="${escapeHtmlAttribute(imageUrl)}" />`;
+    const html = readText(filePath);
+    const ogImagePattern = /\n?\s*<meta\b(?=[^>]*\bproperty=["']og:image["'])(?=[^>]*\bcontent=["'][^"']*["'])[^>]*\/?>/i;
+    const updatedHtml = ogImagePattern.test(html)
+      ? html.replace(ogImagePattern, `\n${metaTag}`)
+      : html.replace('</head>', `${metaTag}\n</head>`);
+
+    if (updatedHtml !== html) {
+      writeText(filePath, updatedHtml);
+      updatedCount += 1;
+    }
+  });
+
+  console.log(`Synced article og:image for ${updatedCount} pages.`);
 }
 
 function syncNoindexMeta(routeEntries) {
@@ -681,6 +837,8 @@ function buildSitemap() {
 
   copyDeploymentFiles();
   injectStructuredData(allRoutes);
+  syncArticleOgImages(allRoutes);
+  syncHreflangLinks(sitemapRoutes, routeSet);
   syncNoindexMeta(allRoutes);
   syncCriticalHeadMeta(allRoutes);
   syncNotFoundPages();
