@@ -43,24 +43,16 @@
   ],
   "timelines": [
     {
-      "id": "in_stock",
-      "label": "En stock / envío rápido (1-2 semanas)"
+      "id": "within_3_months",
+      "label": "Dentro de 3 meses"
     },
     {
-      "id": "standard",
-      "label": "Producción estándar (3-6 semanas)"
+      "id": "3_6_months",
+      "label": "3-6 meses"
     },
     {
-      "id": "custom",
-      "label": "Personalizado/a gran escala (7-12 semanas)"
-    },
-    {
-      "id": "project",
-      "label": "Largo plazo de entrega/proyecto (más de 12 semanas)"
-    },
-    {
-      "id": "planning",
-      "label": "Fase de planificación (sin necesidad inmediata)"
+      "id": "6_12_months",
+      "label": "6-12 meses"
     },
     {
       "id": "other",
@@ -70,19 +62,19 @@
   "quantities": [
     {
       "id": "1_unit",
-      "label": "1 unidad (repuesto/muestra)"
+      "label": "1 unidad"
     },
     {
       "id": "2_5_units",
-      "label": "2-5 unidades (sistema pequeño)"
+      "label": "2-5 unidades"
     },
     {
       "id": "6_20_units",
-      "label": "6-20 unidades (sistema mediano)"
+      "label": "6-20 unidades"
     },
     {
       "id": "20_plus_units",
-      "label": "Más de 20 unidades (proyecto a gran escala)"
+      "label": "20+ unidades"
     },
     {
       "id": "other",
@@ -96,11 +88,19 @@
     },
     {
       "id": "brazed_phe",
-      "label": "Intercambiador de calor de placas soldadas"
+      "label": "Intercambiador de calor de placas soldadas por cobre"
     },
     {
       "id": "welded_phe",
       "label": "Intercambiador de calor de placas soldadas"
+    },
+    {
+      "id": "bloc_welded_phe",
+      "label": "Intercambiador de placas soldadas tipo BLOC / bloque"
+    },
+    {
+      "id": "wide_gap_channel_welded_phe",
+      "label": "Intercambiador de placas soldadas de paso amplio / canal ancho"
     },
     {
       "id": "shell_tube",
@@ -292,7 +292,30 @@
     "heatLoadLabel": "Carga de calor (kW)",
     "heatLoadPlaceholder": "1500",
     "additionalNotesLabel": "Notas adicionales/requisitos personalizados",
-    "additionalNotesPlaceholder": "¿Se requiere algún material específico? ¿Restricciones de dimensiones? ¿Se necesitan certificaciones? (Máximo 500 caracteres)"
+    "additionalNotesPlaceholder": "¿Se requiere algún material específico? ¿Restricciones de dimensiones? ¿Se necesitan certificaciones? (Máximo 500 caracteres)",
+    "requestModeTitle": "Nivel de detalle de la solicitud",
+    "quickModeTitle": "RFQ rápida",
+    "quickModeDesc": "Úselo cuando conoce la aplicación, pero aún no tiene todos los parámetros de diseño.",
+    "advancedModeTitle": "RFQ avanzada",
+    "advancedModeDesc": "Úselo cuando ya cuenta con datos de operación, materiales y estándares de conexión.",
+    "basicRequirementTitle": "Requisito básico",
+    "productTypeLabel": "Tipo de producto",
+    "productTypePlaceholder": "Seleccionar",
+    "customProductTypeLabel": "Otro tipo de producto",
+    "customProductTypePlaceholder": "Especifique el tipo de producto...",
+    "quantityPlaceholder": "Seleccionar",
+    "timelinePlaceholder": "Seleccionar",
+    "quickAdditionalNotesPlaceholder": "Describa el servicio, la aplicación, los fluidos, la temperatura objetivo, la disponibilidad de planos, las certificaciones requeridas o cualquier restricción conocida.",
+    "attachmentsTitle": "Adjuntos",
+    "attachmentsDropLabel": "Haga clic para subir o arrastre archivos aquí",
+    "attachmentsHelp": "Imágenes, PDF, Word, Excel y CSV. 50.0 MB cada uno.",
+    "removeAttachmentLabel": "Eliminar archivo",
+    "attachmentErrors": {
+      "tooManyFiles": "Solo se pueden subir {{maxFiles}} archivos.",
+      "fileTooLarge": "{{fileName}} supera {{maxFileSize}}.",
+      "unsupportedFileType": "{{fileName}} no es un tipo de archivo compatible.",
+      "thisFile": "Este archivo"
+    }
   },
   "step3": {
     "accessCodePlaceholder": "Código",
@@ -411,7 +434,10 @@
     "equipment": "Parámetros del equipo",
     "heatLoad": "Carga de calor",
     "designCode": "Código de diseño",
-    "plateMaterial": "Material de la placa"
+    "plateMaterial": "Material de la placa",
+    "productType": "Tipo de producto",
+    "quantity": "Cantidad requerida",
+    "timeline": "Plazo de entrega esperado"
   },
   "success": {
     "title": "¡Enviado!",

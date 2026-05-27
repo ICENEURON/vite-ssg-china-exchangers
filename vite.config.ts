@@ -41,12 +41,23 @@ function htmlEnvReplace(env: Record<string, string>) {
       const supportedLanguages = env.VITE_SUPPORTED_LANGUAGES || getConfiguredLanguageCodes();
       const enableLanguageToggle = env.VITE_ENABLE_LANGUAGE_TOGGLE || 'false';
       const enableThemeToggle = env.VITE_ENABLE_THEME_TOGGLE || 'false';
+      const gaMeasurementId = env.VITE_GA_MEASUREMENT_ID || 'G-077PBFJFEZ';
+      const siteUrl = env.VITE_SITE_URL || 'https://heatexdirect.com';
+      let analyticsHostname = 'heatexdirect.com';
+
+      try {
+        analyticsHostname = new URL(siteUrl).hostname;
+      } catch {
+        analyticsHostname = 'heatexdirect.com';
+      }
 
       return html
         .replace('__VITE_DEFAULT_LANGUAGE__', defaultLanguage)
         .replace('__VITE_SUPPORTED_LANGUAGES__', supportedLanguages)
         .replace('__VITE_ENABLE_LANGUAGE_TOGGLE__', enableLanguageToggle)
-        .replace('__VITE_ENABLE_THEME_TOGGLE__', enableThemeToggle);
+        .replace('__VITE_ENABLE_THEME_TOGGLE__', enableThemeToggle)
+        .replace('__VITE_GA_MEASUREMENT_ID__', gaMeasurementId)
+        .replace('__VITE_ANALYTICS_HOSTNAME__', analyticsHostname);
     },
   };
 }

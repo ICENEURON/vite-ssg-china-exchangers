@@ -10,6 +10,7 @@ import zhCookie from '../../locales/zh/components/cookie.json';
 
 const analyticsCategory = 'analytics';
 const gaMeasurementId = import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-077PBFJFEZ';
+const defaultSiteUrl = 'https://heatexdirect.com';
 const cookieTranslations = {
   ar: arCookie,
   en: enCookie,
@@ -21,9 +22,24 @@ const cookieTranslations = {
 
 type CookieLanguage = keyof typeof cookieTranslations;
 
-let gaLoaded = false;
+let gaConfigured = typeof window !== 'undefined' && Boolean(window.__HEATEX_GA_BOOTSTRAPPED__);
+let initialPageViewTracked = false;
 let cookieConsentInitialized = false;
 let learnMoreRoutingInitialized = false;
+
+function normalizeHostname(hostname: string) {
+  return hostname.toLowerCase().replace(/^www\./, '');
+}
+
+function getConfiguredSiteHostname() {
+  const configuredSiteUrl = import.meta.env.VITE_SITE_URL || defaultSiteUrl;
+
+  try {
+    return new URL(configuredSiteUrl).hostname;
+  } catch {
+    return new URL(defaultSiteUrl).hostname;
+  }
+}
 
 function getSiteHostname() {
   const configuredSiteUrl = import.meta.env.VITE_SITE_URL;
@@ -37,6 +53,10 @@ function getSiteHostname() {
   }
 
   return window.location.hostname;
+}
+
+function isProductionAnalyticsHost() {
+  return normalizeHostname(window.location.hostname) === normalizeHostname(getConfiguredSiteHostname());
 }
 
 function isCookieLanguage(language: string | undefined): language is CookieLanguage {
@@ -158,10 +178,9 @@ function setAnalyticsConsent(granted: boolean) {
   });
 }
 
-function loadGa4() {
-  if (!gaMeasurementId || gaLoaded) return;
+function ensureGa4Configured() {
+  if (!gaMeasurementId || !isProductionAnalyticsHost()) return false;
 
-  gaLoaded = true;
   window[`ga-disable-${gaMeasurementId}`] = false;
 
   const scriptUrl = `https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`;
@@ -174,15 +193,26 @@ function loadGa4() {
     document.head.appendChild(script);
   }
 
-  window.gtag?.('js', new Date());
-  window.gtag?.('config', gaMeasurementId, {
-    send_page_view: false,
-  });
+  if (!gaConfigured) {
+    window.gtag?.('js', new Date());
+    window.gtag?.('config', gaMeasurementId, {
+      send_page_view: false,
+    });
+    gaConfigured = true;
+  }
+
+  return true;
+}
+
+function loadGa4() {
+  if (!ensureGa4Configured() || initialPageViewTracked) return;
+
   trackPageView(window.location.pathname + window.location.search, document.title);
+  initialPageViewTracked = true;
 }
 
 function disableGa4() {
-  if (gaMeasurementId) {
+  if (gaMeasurementId && !isProductionAnalyticsHost()) {
     window[`ga-disable-${gaMeasurementId}`] = true;
   }
 }
@@ -192,7 +222,11 @@ function syncAnalyticsState() {
 
   setAnalyticsConsent(analyticsAccepted);
 
-  if (analyticsAccepted) {
+  if (isProductionAnalyticsHost()) {
+    ensureGa4Configured();
+
+    if (!analyticsAccepted) return;
+
     loadGa4();
     return;
   }
@@ -269,12 +303,28 @@ export async function syncCookieConsentLanguage(language: string) {
 }
 
 export function trackPageView(path: string, title: string) {
-  if (!gaMeasurementId || !gaLoaded || !CookieConsent.acceptedCategory(analyticsCategory)) return;
+  if (!gaMeasurementId || !gaConfigured || !isProductionAnalyticsHost() || !CookieConsent.acceptedCategory(analyticsCategory)) return;
 
   window.gtag?.('event', 'page_view', {
     page_location: window.location.origin + path,
     page_path: path,
     page_title: title,
+  });
+}
+
+export function trackEvent(eventName: string, parameters: Record<string, unknown> = {}) {
+  if (typeof window === 'undefined') return;
+
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    event: eventName,
+    ...parameters,
+  });
+
+  if (!gaMeasurementId || !gaConfigured || !isProductionAnalyticsHost() || !CookieConsent.acceptedCategory(analyticsCategory)) return;
+
+  window.gtag?.('event', eventName, {
+    ...parameters,
   });
 }
 

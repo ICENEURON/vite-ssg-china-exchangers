@@ -1,5 +1,7 @@
 import { forwardRef, useEffect, useState } from "react";
 import { Link, useLocation, type LinkProps } from "react-router-dom";
+import { getMarketingAttributionPayload, getOrCreateRfqDraftId, getOrCreateVisitorId } from "../../lib/analytics/marketing-attribution";
+import { recordRFQEvent } from "../../lib/supabase/db";
 import { addLanguageToPath, getPathWithoutLanguage, useCurrentLanguage, type Language } from "../language-routing";
 
 export const QUOTE_REQUEST_SOURCE_URL_STORAGE_KEY = "heatex_quote_request_source_url";
@@ -41,6 +43,30 @@ function buildRfqPath(pathname: string, search: string, currentLanguage: Languag
     return `${addLanguageToPath("/quote-request", currentLanguage)}?${params.toString()}`;
 }
 
+function recordQuoteClickEvent(sourceUrl: string | null) {
+    if (typeof window === "undefined") return;
+
+    const draftId = getOrCreateRfqDraftId();
+    const visitorId = getOrCreateVisitorId();
+    if (!draftId || !visitorId) return;
+
+    const currentPage = window.location.pathname + window.location.search;
+    const attribution = getMarketingAttributionPayload(sourceUrl, currentPage);
+
+    void recordRFQEvent({
+        draft_id: draftId,
+        visitor_id: visitorId,
+        event_name: "rfq_quote_click",
+        utm_source: attribution.utm_source,
+        payload: {
+            attribution,
+            clicked_from: getPathWithoutLanguage(window.location.pathname),
+        },
+    }).catch((error) => {
+        console.warn("[rfq_events] Failed to record quote click event:", error);
+    });
+}
+
 type RfqLinkProps = Omit<LinkProps, "to">;
 
 export const RfqLink = forwardRef<HTMLAnchorElement, RfqLinkProps>(function RfqLink(
@@ -68,6 +94,7 @@ export const RfqLink = forwardRef<HTMLAnchorElement, RfqLinkProps>(function RfqL
                     if (sourceUrl) {
                         window.sessionStorage.setItem(QUOTE_REQUEST_SOURCE_URL_STORAGE_KEY, sourceUrl);
                     }
+                    recordQuoteClickEvent(sourceUrl);
                 }
 
                 onClick?.(event);

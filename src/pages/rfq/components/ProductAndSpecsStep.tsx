@@ -1,7 +1,25 @@
-import type { ChangeEvent } from "react"
+import type { ChangeEvent, DragEvent } from "react"
+import { useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
+import { FileText, UploadCloud, X } from "lucide-react"
+import {
+    formatFileSize,
+    MAX_RFQ_ATTACHMENT_FILE_SIZE_BYTES,
+    MAX_RFQ_ATTACHMENT_FILES,
+    mergeRfqAttachmentFiles,
+    RFQ_ATTACHMENT_ACCEPT,
+    type RfqAttachmentValidationError,
+} from "../../../lib/rfq/attachments"
+
+export type RfqSpecsMode = "quick" | "advanced";
 
 export interface RfqProductSpecsData {
+    productType: string;
+    customProductType: string;
+    quantity: string;
+    customQuantity: string;
+    timeline: string;
+    customTimeline: string;
     hotMediaName: string;
     hotInletFluidType: string;
     hotOutletFluidType: string;
@@ -74,11 +92,20 @@ interface Option {
 
 interface ProductAndSpecsStepProps {
     data: RfqProductSpecsData;
+    mode: RfqSpecsMode;
+    files: File[];
     onChange: (data: Partial<RfqProductSpecsData>) => void;
+    onFilesChange: (files: File[]) => void;
+    onModeChange: (mode: RfqSpecsMode) => void;
 }
 
-export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps) {
+export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange, onModeChange }: ProductAndSpecsStepProps) {
     const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
+    const fileInputRef = useRef<HTMLInputElement>(null);
+    const [attachmentError, setAttachmentError] = useState<string | null>(null);
+    const productTypes = t("productTypes", { returnObjects: true }) as Option[];
+    const quantities = t("quantities", { returnObjects: true }) as Option[];
+    const timelines = t("timelines", { returnObjects: true }) as Option[];
     const fluidTypes = t("fluidTypes", { returnObjects: true }) as Option[];
     const plateMaterials = t("plateMaterials", { returnObjects: true }) as Option[];
     const flangeStandards = t("flangeStandards", { returnObjects: true }) as Option[];
@@ -92,7 +119,7 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
     const selectClass = `${inputClass} appearance-none px-2 pr-7 text-[10px] sm:px-3 sm:pr-8 sm:text-[11px]`
     const compactLabelClass = "text-[9px] font-semibold text-slate-600 leading-tight sm:text-[10px]"
     const requiredLabelClass = "text-[9px] font-semibold leading-tight text-slate-700 sm:text-[10px]"
-    const sectionLabelClass = "text-[10px] font-bold tracking-wide text-slate-800 sm:text-[11px]"
+    const sectionLabelClass = "text-[10px] font-bold tracking-wide text-slate-800 sm:text-[10px]"
     const invalidInputStyle: React.CSSProperties | undefined = undefined;
     const disabledInputStyle = { backgroundColor: "#f1f5f9", borderColor: "#e2e8f0" };
 
@@ -118,6 +145,73 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
         value = value.replace(/[<>]/g, "");
         onChange({ additionalNotes: value });
     }
+
+    const getAttachmentErrorMessage = (error: RfqAttachmentValidationError) => {
+        if (error.code === "too_many_files") {
+            return t("step2.attachmentErrors.tooManyFiles", {
+                defaultValue: "Only {{maxFiles}} files can be uploaded.",
+                maxFiles: error.maxFiles || MAX_RFQ_ATTACHMENT_FILES,
+            });
+        }
+
+        if (error.code === "file_too_large") {
+            return t("step2.attachmentErrors.fileTooLarge", {
+                defaultValue: "{{fileName}} is larger than {{maxFileSize}}.",
+                fileName: error.fileName || t("step2.attachmentErrors.thisFile", { defaultValue: "This file" }),
+                maxFileSize: error.maxFileSize || formatFileSize(MAX_RFQ_ATTACHMENT_FILE_SIZE_BYTES),
+            });
+        }
+
+        return t("step2.attachmentErrors.unsupportedFileType", {
+            defaultValue: "{{fileName}} is not a supported file type.",
+            fileName: error.fileName || t("step2.attachmentErrors.thisFile", { defaultValue: "This file" }),
+        });
+    }
+
+    const handleAttachmentSelection = (selectedFiles: File[]) => {
+        const result = mergeRfqAttachmentFiles(files, selectedFiles);
+        onFilesChange(result.files);
+        setAttachmentError(result.errors[0] ? getAttachmentErrorMessage(result.errors[0]) : null);
+    }
+
+    const handleFileInputChange = (event: ChangeEvent<HTMLInputElement>) => {
+        handleAttachmentSelection(Array.from(event.target.files || []));
+        event.target.value = "";
+    }
+
+    const handleAttachmentDrop = (event: DragEvent<HTMLDivElement>) => {
+        event.preventDefault();
+        handleAttachmentSelection(Array.from(event.dataTransfer.files || []));
+    }
+
+    const removeAttachment = (index: number) => {
+        onFilesChange(files.filter((_, fileIndex) => fileIndex !== index));
+        setAttachmentError(null);
+    }
+
+    const renderSelect = (
+        field: keyof RfqProductSpecsData,
+        options: Option[],
+        placeholder: string,
+        required = false,
+    ) => (
+        <div className="relative">
+            <select
+                id={getFieldId(field)}
+                name={String(field)}
+                className={selectClass}
+                value={data[field] || ""}
+                onChange={(event) => updateField(field, event.target.value)}
+            >
+                <option value="">{placeholder}</option>
+                {options.map((option) => (
+                    <option key={option.id} value={option.id}>{option.label}</option>
+                ))}
+            </select>
+            {selectChevron}
+            {required && !data[field] && <span className="sr-only">{t("step2.requiredBadge")}</span>}
+        </div>
+    )
 
     const mirrorOutlet = (field: keyof RfqProductSpecsData, value: string) => {
         const fieldName = String(field);
@@ -423,6 +517,109 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
     return (
         <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4">
             <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
+                <div className="mb-4">
+                    <h3 className="text-base font-bold text-slate-900 sm:text-lg">
+                        {t("step2.requestModeTitle", { defaultValue: "Request detail level" })}
+                    </h3>
+                </div>
+
+                <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                    {([
+                        ["quick", t("step2.quickModeTitle", { defaultValue: "Quick RFQ" }), t("step2.quickModeDesc", { defaultValue: "Use this when you know the application but not all design parameters yet." })],
+                        ["advanced", t("step2.advancedModeTitle", { defaultValue: "Advanced RFQ" }), t("step2.advancedModeDesc", { defaultValue: "Use this when you already have operating data, materials, and connection standards." })],
+                    ] as const).map(([value, title, description]) => (
+                        <button
+                            key={value}
+                            type="button"
+                            aria-pressed={mode === value}
+                            onClick={() => onModeChange(value)}
+                            className={`flex min-h-20 flex-col gap-1 rounded-xl border p-4 text-left transition-colors ${mode === value ? "border-primary bg-primary/5 ring-2 ring-primary/10" : "border-slate-200 bg-white hover:border-slate-300"}`}
+                        >
+                            <span className="text-sm font-bold text-slate-900">{title}</span>
+                            <span className="text-xs leading-relaxed text-slate-500">{description}</span>
+                        </button>
+                    ))}
+                </div>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
+                <div className="mb-4">
+                    <h3 className="text-base font-bold text-slate-900 sm:text-lg">
+                        {t("step2.basicRequirementTitle", { defaultValue: "Basic requirement" })}
+                    </h3>
+                </div>
+
+                <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
+                    <div className="space-y-2">
+                        <label htmlFor={getFieldId("productType")} className={requiredLabelClass}>
+                            {t("step2.productTypeLabel", { defaultValue: "Product type" })}{requiredBadge}
+                        </label>
+                        {renderSelect("productType", productTypes, t("step2.productTypePlaceholder", { defaultValue: "Select" }), true)}
+                        {data.productType === "other" && (
+                            <div>
+                                <label htmlFor={getFieldId("customProductType")} className={requiredLabelClass}>
+                                    {t("step2.customProductTypeLabel", { defaultValue: "Other product type" })}{requiredBadge}
+                                </label>
+                                {renderInput("customProductType", t("step2.customProductTypePlaceholder", { defaultValue: "Please specify the product type..." }), "text", false, !data.customProductType)}
+                            </div>
+                        )}
+                    </div>
+                    <div className="space-y-2">
+                        <label htmlFor={getFieldId("quantity")} className={compactLabelClass}>
+                            {t("step1.quantityLabel", { defaultValue: "Required quantity" })}
+                        </label>
+                        {renderSelect("quantity", quantities, t("step2.quantityPlaceholder", { defaultValue: "Select" }))}
+                        {data.quantity === "other" && (
+                            <div>
+                                <label htmlFor={getFieldId("customQuantity")} className={compactLabelClass}>
+                                    {t("step1.customQuantityPlaceholder", { defaultValue: "Please specify the required quantity..." })}
+                                </label>
+                                {renderInput("customQuantity", t("step1.customQuantityPlaceholder", { defaultValue: "Please specify the required quantity..." }))}
+                            </div>
+                        )}
+                    </div>
+                    <div className="space-y-2">
+                        <label htmlFor={getFieldId("timeline")} className={compactLabelClass}>
+                            {t("step1.timelineLabel", { defaultValue: "Expected delivery timeline" })}
+                        </label>
+                        {renderSelect("timeline", timelines, t("step2.timelinePlaceholder", { defaultValue: "Select" }))}
+                        {data.timeline === "other" && (
+                            <div>
+                                <label htmlFor={getFieldId("customTimeline")} className={compactLabelClass}>
+                                    {t("step1.customTimelinePlaceholder", { defaultValue: "Please specify your timeline expectations..." })}
+                                </label>
+                                {renderInput("customTimeline", t("step1.customTimelinePlaceholder", { defaultValue: "Please specify your timeline expectations..." }))}
+                            </div>
+                        )}
+                    </div>
+                </div>
+
+                <div className="mt-4 border-t border-slate-100 pt-4">
+                    <label htmlFor={getFieldId("additionalNotes")} className={sectionLabelClass}>
+                        {t("step2.additionalNotesLabel")}{mode === "quick" && requiredBadge}
+                    </label>
+                    <div className="relative mt-1">
+                        <textarea
+                            id={getFieldId("additionalNotes")}
+                            name="additionalNotes"
+                            className="flex w-full min-h-[100px] rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 resize-y"
+                            placeholder={t("step2.quickAdditionalNotesPlaceholder", {
+                                defaultValue: "Describe the duty, application, fluids, target temperature, drawing availability, certification needs, or any known constraints.",
+                            })}
+                            value={data.additionalNotes || ""}
+                            onChange={handleNotesChange}
+                        />
+                        <div className={`absolute bottom-3 right-4 text-xs font-semibold ${data.additionalNotes?.length > MAX_NOTES_LENGTH - 50 ? "text-amber-500" : "text-slate-400"}`}>
+                            {data.additionalNotes?.length || 0} / {MAX_NOTES_LENGTH}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {mode === "quick" && null}
+            {mode === "advanced" && (
+                <>
+            <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
                 <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
                     <div>
                         <h3 className="text-base font-bold text-slate-900 sm:text-lg">{t("step2.thermalSpecsTitle")}</h3>
@@ -499,22 +696,81 @@ export function ProductAndSpecsStep({ data, onChange }: ProductAndSpecsStepProps
                     })}
                 </div>
 
-                <div className="mt-4 border-t border-slate-100 pt-4">
-                    <label htmlFor={getFieldId("additionalNotes")} className={sectionLabelClass}>{t("step2.additionalNotesLabel")}</label>
-                    <div className="relative mt-1">
-                        <textarea
-                            id={getFieldId("additionalNotes")}
-                            name="additionalNotes"
-                            className="flex w-full min-h-[100px] rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 resize-y"
-                            placeholder={t("step2.additionalNotesPlaceholder")}
-                            value={data.additionalNotes || ""}
-                            onChange={handleNotesChange}
-                        />
-                        <div className={`absolute bottom-3 right-4 text-xs font-semibold ${data.additionalNotes?.length > MAX_NOTES_LENGTH - 50 ? "text-amber-500" : "text-slate-400"}`}>
-                            {data.additionalNotes?.length || 0} / {MAX_NOTES_LENGTH}
-                        </div>
-                    </div>
+            </div>
+                </>
+            )}
+
+            <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
+                <div className="mb-4 flex items-center justify-between gap-3">
+                    <h3 className="text-base font-bold text-slate-900 sm:text-lg">
+                        {t("step2.attachmentsTitle", { defaultValue: "Attachments" })}
+                    </h3>
+                    <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-600">
+                        {files.length}/{MAX_RFQ_ATTACHMENT_FILES}
+                    </span>
                 </div>
+
+                <input
+                    ref={fileInputRef}
+                    type="file"
+                    className="hidden"
+                    multiple
+                    accept={RFQ_ATTACHMENT_ACCEPT}
+                    onChange={handleFileInputChange}
+                />
+
+                <div
+                    role="button"
+                    tabIndex={0}
+                    className="flex min-h-32 cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-dashed border-slate-300 bg-slate-50 px-4 py-6 text-center transition-colors hover:border-primary/50 hover:bg-primary/5 focus:outline-none focus:ring-4 focus:ring-primary/10"
+                    onClick={() => fileInputRef.current?.click()}
+                    onKeyDown={(event) => {
+                        if (event.key === "Enter" || event.key === " ") {
+                            event.preventDefault();
+                            fileInputRef.current?.click();
+                        }
+                    }}
+                    onDragOver={(event) => event.preventDefault()}
+                    onDrop={handleAttachmentDrop}
+                >
+                    <UploadCloud className="h-8 w-8 text-slate-500" />
+                    <span className="mt-3 text-sm font-bold text-slate-800">
+                        {t("step2.attachmentsDropLabel", { defaultValue: "Click to upload or drag files here" })}
+                    </span>
+                    <span className="mt-1 max-w-xl text-xs leading-relaxed text-slate-500">
+                        {t("step2.attachmentsHelp", {
+                            defaultValue: `Images, PDF, Word, Excel, and CSV files. ${formatFileSize(MAX_RFQ_ATTACHMENT_FILE_SIZE_BYTES)} each.`,
+                        })}
+                    </span>
+                </div>
+
+                {attachmentError && (
+                    <div className="mt-3 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-xs font-semibold text-red-600">
+                        {attachmentError}
+                    </div>
+                )}
+
+                {files.length > 0 && (
+                    <div className="mt-4 space-y-2">
+                        {files.map((file, index) => (
+                            <div key={`${file.name}-${file.lastModified}-${file.size}`} className="flex items-center gap-3 rounded-lg border border-slate-200 bg-white px-3 py-2">
+                                <FileText className="h-4 w-4 shrink-0 text-slate-500" />
+                                <div className="min-w-0 flex-1">
+                                    <div className="truncate text-xs font-bold text-slate-800">{file.name}</div>
+                                    <div className="text-[11px] text-slate-500">{formatFileSize(file.size)}</div>
+                                </div>
+                                <button
+                                    type="button"
+                                    className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-md text-slate-500 hover:bg-slate-100 hover:text-slate-900"
+                                    aria-label={t("step2.removeAttachmentLabel", { defaultValue: "Remove file" })}
+                                    onClick={() => removeAttachment(index)}
+                                >
+                                    <X className="h-4 w-4" />
+                                </button>
+                            </div>
+                        ))}
+                    </div>
+                )}
             </div>
         </div>
     )

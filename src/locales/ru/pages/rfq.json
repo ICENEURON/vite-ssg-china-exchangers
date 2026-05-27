@@ -43,50 +43,42 @@
   ],
   "timelines": [
     {
-      "id": "in_stock",
-      "label": "В наличии / быстрая доставка (1-2 недели)"
+      "id": "within_3_months",
+      "label": "В течение 3 месяцев"
     },
     {
-      "id": "standard",
-      "label": "Стандартное производство (3-6 недель)"
+      "id": "3_6_months",
+      "label": "3-6 месяцев"
     },
     {
-      "id": "custom",
-      "label": "Индивидуальный/крупномасштабный (7-12 недель)"
-    },
-    {
-      "id": "project",
-      "label": "Длительное время выполнения проекта (12+ недель)"
-    },
-    {
-      "id": "planning",
-      "label": "Этап планирования (нет непосредственной необходимости)"
+      "id": "6_12_months",
+      "label": "6-12 месяцев"
     },
     {
       "id": "other",
-      "label": "Другой"
+      "label": "Другое"
     }
   ],
   "quantities": [
     {
       "id": "1_unit",
-      "label": "1 единица (замена/образец)"
+      "label": "1 единица"
     },
     {
       "id": "2_5_units",
-      "label": "2-5 единиц (маленькая система)"
+      "label": "2-5 единиц"
     },
     {
       "id": "6_20_units",
-      "label": "6-20 единиц (средняя система)"
+      "label": "6-20 единиц"
     },
     {
       "id": "20_plus_units",
-      "label": "20+ единиц (крупномасштабный проект)"
+      "label": "20+ единиц"
     },
     {
       "id": "other",
-      "label": "Другой"
+      "label": "Другое"
     }
   ],
   "productTypes": [
@@ -103,12 +95,20 @@
       "label": "Сварной пластинчатый теплообменник"
     },
     {
+      "id": "bloc_welded_phe",
+      "label": "Сварной пластинчатый теплообменник BLOC / блочный"
+    },
+    {
+      "id": "wide_gap_channel_welded_phe",
+      "label": "Ширококанальный / широкозазорный сварной пластинчатый теплообменник"
+    },
+    {
       "id": "shell_tube",
       "label": "Кожухотрубный теплообменник"
     },
     {
       "id": "air_cooled",
-      "label": "Теплообменник с воздушным охлаждением"
+      "label": "Аппарат воздушного охлаждения"
     },
     {
       "id": "spares",
@@ -116,7 +116,7 @@
     },
     {
       "id": "other",
-      "label": "Другой"
+      "label": "Другое"
     }
   ],
   "fluidTypes": [
@@ -292,7 +292,30 @@
     "heatLoadLabel": "Тепловая нагрузка (кВт)",
     "heatLoadPlaceholder": "1500",
     "additionalNotesLabel": "Дополнительные примечания/индивидуальные требования",
-    "additionalNotesPlaceholder": "Требуются какие-то конкретные материалы? Ограничения по размерам? Сертификаты нужны? (Макс. 500 символов)"
+    "additionalNotesPlaceholder": "Требуются какие-то конкретные материалы? Ограничения по размерам? Сертификаты нужны? (Макс. 500 символов)",
+    "requestModeTitle": "Уровень детализации запроса",
+    "quickModeTitle": "Быстрый RFQ",
+    "quickModeDesc": "Используйте, если вы знаете область применения, но пока не имеете всех расчетных параметров.",
+    "advancedModeTitle": "Расширенный RFQ",
+    "advancedModeDesc": "Используйте, если у вас уже есть рабочие данные, материалы и стандарты подключения.",
+    "basicRequirementTitle": "Основное требование",
+    "productTypeLabel": "Тип продукта",
+    "productTypePlaceholder": "Выберите",
+    "customProductTypeLabel": "Другой тип продукта",
+    "customProductTypePlaceholder": "Укажите тип продукта...",
+    "quantityPlaceholder": "Выберите",
+    "timelinePlaceholder": "Выберите",
+    "quickAdditionalNotesPlaceholder": "Опишите нагрузку, применение, среды, целевую температуру, наличие чертежей, требования к сертификации или известные ограничения.",
+    "attachmentsTitle": "Вложения",
+    "attachmentsDropLabel": "Нажмите для загрузки или перетащите файлы сюда",
+    "attachmentsHelp": "Изображения, PDF, Word, Excel и CSV. Не более 50.0 MB каждый.",
+    "removeAttachmentLabel": "Удалить файл",
+    "attachmentErrors": {
+      "tooManyFiles": "Можно загрузить не более {{maxFiles}} файлов.",
+      "fileTooLarge": "{{fileName}} больше {{maxFileSize}}.",
+      "unsupportedFileType": "{{fileName}} имеет неподдерживаемый тип файла.",
+      "thisFile": "Этот файл"
+    }
   },
   "step3": {
     "accessCodePlaceholder": "Код",
@@ -411,7 +434,10 @@
     "equipment": "Параметры оборудования",
     "heatLoad": "Тепловая нагрузка",
     "designCode": "Проектный код",
-    "plateMaterial": "Материал пластины"
+    "plateMaterial": "Материал пластины",
+    "productType": "Тип продукта",
+    "quantity": "Требуемое количество",
+    "timeline": "Ожидаемый срок поставки"
   },
   "success": {
     "title": "Поданный!",

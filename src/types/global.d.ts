@@ -11,6 +11,7 @@ declare global {
     };
     dataLayer?: unknown[];
     gtag?: (...args: unknown[]) => void;
+    __HEATEX_GA_BOOTSTRAPPED__?: boolean;
     [key: `ga-disable-${string}`]: boolean | undefined;
   }
 

@@ -46,7 +46,7 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
     ) => (
         <div>
             <div className={required ? requiredLabelClass : labelClass}>{label}{required && requiredMark}</div>
-            <div className="grid grid-cols-2 gap-2 rounded-md md:grid-cols-3">
+            <div className="grid grid-cols-2 gap-2 rounded-md md:grid-cols-3 xl:grid-cols-4">
                 {options.map((option) => {
                     const isSelected = currentValue === option.id;
                     return (
@@ -93,7 +93,7 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
     return (
         <div className="animate-in fade-in slide-in-from-bottom-4">
             <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
-                <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-2 gap-3">
                     <div>
                         <label htmlFor="rfq-firstName" className={requiredLabelClass}>{t("step1.firstNameLabel")}{requiredMark}</label>
                         <input
@@ -121,44 +121,46 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                         />
                     </div>
 
-                    <div className="col-span-2">
-                    <label htmlFor="rfq-companyName" className={labelClass}>{t("step1.companyLabel")}</label>
-                    <input
-                        id="rfq-companyName"
-                        name="companyName"
-                        type="text"
-                        autoComplete="organization"
-                        value={data.companyName}
-                        onChange={(e) => onChange({ companyName: e.target.value })}
-                        className={inputClass}
-                    />
-                    </div>
-
-                    <div className="col-span-2">
-                    <label htmlFor="rfq-country" className={requiredLabelClass}>{t("step1.countryLabel")}{requiredMark}</label>
-                    <div className="relative">
-                        <select
-                            id="rfq-country"
-                            name="country"
-                            autoComplete="country-name"
-                            value={data.country}
-                            onChange={(e) => onChange({ country: e.target.value })}
-                            className={`
-                                h-9 w-full appearance-none rounded-md border border-slate-200 bg-white px-3 py-1 text-xs ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 sm:h-10 sm:text-sm
-                                ${data.country ? 'text-slate-900' : 'text-slate-500'}
-                            `}
-                        >
-                            <option value="" disabled>{t("step1.countryPlaceholder")}</option>
-                            {COUNTRIES.map(c => (
-                                <option key={c} value={c}>{c}</option>
-                            ))}
-                        </select>
-                        <div className="pointer-events-none absolute inset-y-0 right-4 flex items-center">
-                            <svg className="h-4 w-4 text-slate-400" viewBox="0 0 20 20" fill="none" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 7l3-3 3 3m0 6l-3 3-3-3" />
-                            </svg>
+                    <div className="col-span-2 grid grid-cols-1 gap-3 md:grid-cols-2">
+                        <div>
+                            <label htmlFor="rfq-country" className={requiredLabelClass}>{t("step1.countryLabel")}{requiredMark}</label>
+                            <div className="relative">
+                                <select
+                                    id="rfq-country"
+                                    name="country"
+                                    autoComplete="country-name"
+                                    value={data.country}
+                                    onChange={(e) => onChange({ country: e.target.value })}
+                                    className={`
+                                        h-9 w-full appearance-none rounded-md border border-slate-200 bg-white px-3 py-1 text-xs ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 sm:h-10 sm:text-sm
+                                        ${data.country ? 'text-slate-900' : 'text-slate-500'}
+                                    `}
+                                >
+                                    <option value="" disabled>{t("step1.countryPlaceholder")}</option>
+                                    {COUNTRIES.map(c => (
+                                        <option key={c} value={c}>{c}</option>
+                                    ))}
+                                </select>
+                                <div className="pointer-events-none absolute inset-y-0 right-4 flex items-center">
+                                    <svg className="h-4 w-4 text-slate-400" viewBox="0 0 20 20" fill="none" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 7l3-3 3 3m0 6l-3 3-3-3" />
+                                    </svg>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+
+                        <div>
+                            <label htmlFor="rfq-companyName" className={labelClass}>{t("step1.companyLabel")}</label>
+                            <input
+                                id="rfq-companyName"
+                                name="companyName"
+                                type="text"
+                                autoComplete="organization"
+                                value={data.companyName}
+                                onChange={(e) => onChange({ companyName: e.target.value })}
+                                className={inputClass}
+                            />
+                        </div>
                     </div>
 
                     <div className="col-span-2">

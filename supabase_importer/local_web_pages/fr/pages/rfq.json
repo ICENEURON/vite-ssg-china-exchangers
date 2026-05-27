@@ -43,24 +43,16 @@
   ],
   "timelines": [
     {
-      "id": "in_stock",
-      "label": "En stock / expédition rapide (1-2 semaines)"
+      "id": "within_3_months",
+      "label": "Dans les 3 mois"
     },
     {
-      "id": "standard",
-      "label": "Production standard (3-6 semaines)"
+      "id": "3_6_months",
+      "label": "3 à 6 mois"
     },
     {
-      "id": "custom",
-      "label": "Sur mesure / à grande échelle (7-12 semaines)"
-    },
-    {
-      "id": "project",
-      "label": "Long délai / projet (12+ semaines)"
-    },
-    {
-      "id": "planning",
-      "label": "Phase de planification (pas de besoin immédiat)"
+      "id": "6_12_months",
+      "label": "6 à 12 mois"
     },
     {
       "id": "other",
@@ -70,19 +62,19 @@
   "quantities": [
     {
       "id": "1_unit",
-      "label": "1 unité (remplacement / échantillon)"
+      "label": "1 unité"
     },
     {
       "id": "2_5_units",
-      "label": "2 à 5 unités (petit système)"
+      "label": "2 à 5 unités"
     },
     {
       "id": "6_20_units",
-      "label": "6 à 20 unités (système moyen)"
+      "label": "6 à 20 unités"
     },
     {
       "id": "20_plus_units",
-      "label": "20+ unités (projet à grande échelle)"
+      "label": "20+ unités"
     },
     {
       "id": "other",
@@ -92,7 +84,7 @@
   "productTypes": [
     {
       "id": "gasketed_phe",
-      "label": "Échangeur de chaleur à plaques avec joints"
+      "label": "Échangeur de chaleur à plaques à joints"
     },
     {
       "id": "brazed_phe",
@@ -103,12 +95,20 @@
       "label": "Échangeur de chaleur à plaques soudées"
     },
     {
+      "id": "bloc_welded_phe",
+      "label": "Échangeur à plaques soudées BLOC / bloc"
+    },
+    {
+      "id": "wide_gap_channel_welded_phe",
+      "label": "Échangeur à plaques soudées à large passage / large canal"
+    },
+    {
       "id": "shell_tube",
-      "label": "Échangeur de chaleur à calandre et à tubes"
+      "label": "Échangeur de chaleur multitubulaire"
     },
     {
       "id": "air_cooled",
-      "label": "Échangeur de chaleur refroidi par air"
+      "label": "Aéroréfrigérant"
     },
     {
       "id": "spares",
@@ -292,7 +292,30 @@
     "heatLoadLabel": "Charge thermique (kW)",
     "heatLoadPlaceholder": "1500",
     "additionalNotesLabel": "Notes supplémentaires/exigences personnalisées",
-    "additionalNotesPlaceholder": "Du matériel spécifique est-il nécessaire? Des contraintes de dimensions? Des certifications nécessaires? (Max 500 caractères)"
+    "additionalNotesPlaceholder": "Du matériel spécifique est-il nécessaire? Des contraintes de dimensions? Des certifications nécessaires? (Max 500 caractères)",
+    "requestModeTitle": "Niveau de détail de la demande",
+    "quickModeTitle": "RFQ rapide",
+    "quickModeDesc": "À utiliser lorsque vous connaissez l'application, mais pas encore tous les paramètres de conception.",
+    "advancedModeTitle": "RFQ avancée",
+    "advancedModeDesc": "À utiliser lorsque vous disposez déjà des données d'exploitation, des matériaux et des standards de raccordement.",
+    "basicRequirementTitle": "Besoin de base",
+    "productTypeLabel": "Type de produit",
+    "productTypePlaceholder": "Sélectionner",
+    "customProductTypeLabel": "Autre type de produit",
+    "customProductTypePlaceholder": "Précisez le type de produit...",
+    "quantityPlaceholder": "Sélectionner",
+    "timelinePlaceholder": "Sélectionner",
+    "quickAdditionalNotesPlaceholder": "Décrivez le service, l'application, les fluides, la température cible, la disponibilité des plans, les certifications requises ou toute contrainte connue.",
+    "attachmentsTitle": "Pièces jointes",
+    "attachmentsDropLabel": "Cliquez pour téléverser ou déposez les fichiers ici",
+    "attachmentsHelp": "Images, PDF, Word, Excel et CSV. 50.0 MB chacun.",
+    "removeAttachmentLabel": "Supprimer le fichier",
+    "attachmentErrors": {
+      "tooManyFiles": "Vous pouvez téléverser jusqu'à {{maxFiles}} fichiers.",
+      "fileTooLarge": "{{fileName}} dépasse {{maxFileSize}}.",
+      "unsupportedFileType": "{{fileName}} n'est pas un type de fichier pris en charge.",
+      "thisFile": "Ce fichier"
+    }
   },
   "step3": {
     "accessCodePlaceholder": "Code",
@@ -411,7 +434,10 @@
     "equipment": "Paramètres de l'équipement",
     "heatLoad": "Charge thermique",
     "designCode": "Code de conception",
-    "plateMaterial": "Matériau de la plaque"
+    "plateMaterial": "Matériau de la plaque",
+    "productType": "Type de produit",
+    "quantity": "Quantité requise",
+    "timeline": "Délai de livraison prévu"
   },
   "success": {
     "title": "Soumis!",

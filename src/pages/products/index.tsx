@@ -81,7 +81,9 @@ export default function ProductsPage() {
     const currentUrl = new URL(location.pathname, siteUrl).href;
 
     // Safely parse the products from translation JSON list
-    const productsList = getProductsTranslationData(currentLanguage).list || getProductsTranslationData("en").list || [];
+    const productsList = useMemo(() => (
+        getProductsTranslationData(currentLanguage).list || getProductsTranslationData("en").list || []
+    ), [currentLanguage]);
     const industries = t("industries", { returnObjects: true }) as Industry[];
 
     const [selectedIndustrySlugs, setSelectedIndustrySlugs] = useState<string[]>([]);

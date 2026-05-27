@@ -43,24 +43,16 @@
   ],
   "timelines": [
     {
-      "id": "in_stock",
-      "label": "现货 / 快速发货 (1-2周)"
+      "id": "within_3_months",
+      "label": "3 个月内"
     },
     {
-      "id": "standard",
-      "label": "标准生产 (3-6周)"
+      "id": "3_6_months",
+      "label": "3 个月到 6 个月"
     },
     {
-      "id": "custom",
-      "label": "定制 / 大规模 (7-12周)"
-    },
-    {
-      "id": "project",
-      "label": "长货期 / 大型项目 (12周以上)"
-    },
-    {
-      "id": "planning",
-      "label": "规划阶段 (无紧急需求)"
+      "id": "6_12_months",
+      "label": "6 个月到 12 个月"
     },
     {
       "id": "other",
@@ -70,19 +62,19 @@
   "quantities": [
     {
       "id": "1_unit",
-      "label": "1 台 (更换 / 样品)"
+      "label": "1 台"
     },
     {
       "id": "2_5_units",
-      "label": "2-5 台 (小型系统)"
+      "label": "2-5 台"
     },
     {
       "id": "6_20_units",
-      "label": "6-20 台 (中型系统)"
+      "label": "6-20 台"
     },
     {
       "id": "20_plus_units",
-      "label": "20+ 台 (大型项目)"
+      "label": "20 台以上"
     },
     {
       "id": "other",
@@ -101,6 +93,14 @@
     {
       "id": "welded_phe",
       "label": "全焊板式换热器"
+    },
+    {
+      "id": "bloc_welded_phe",
+      "label": "BLOC / 块式焊接板式换热器"
+    },
+    {
+      "id": "wide_gap_channel_welded_phe",
+      "label": "宽通道 / 宽间隙焊接板式换热器"
     },
     {
       "id": "shell_tube",
@@ -292,7 +292,30 @@
     "heatLoadLabel": "热负荷 (kW)",
     "heatLoadPlaceholder": "1500",
     "additionalNotesLabel": "附加说明 / 定制要求",
-    "additionalNotesPlaceholder": "是否有特定的材质要求？尺寸限制？认证需求？(最多500字符)"
+    "additionalNotesPlaceholder": "是否有特定的材质要求？尺寸限制？认证需求？(最多500字符)",
+    "requestModeTitle": "需求详细程度",
+    "quickModeTitle": "快速询价",
+    "quickModeDesc": "适合已知应用场景，但暂时没有完整设计参数的情况。",
+    "advancedModeTitle": "高级询价",
+    "advancedModeDesc": "适合已经有工况数据、材料和连接标准的情况。",
+    "basicRequirementTitle": "基本需求",
+    "productTypeLabel": "产品类型",
+    "productTypePlaceholder": "请选择",
+    "customProductTypeLabel": "其他产品类型",
+    "customProductTypePlaceholder": "请说明产品类型...",
+    "quantityPlaceholder": "请选择",
+    "timelinePlaceholder": "请选择",
+    "quickAdditionalNotesPlaceholder": "请描述工况、应用、介质、目标温度、是否有图纸、认证需求或其他限制条件。",
+    "attachmentsTitle": "附件",
+    "attachmentsDropLabel": "点击上传或拖拽文件到这里",
+    "attachmentsHelp": "支持图片、PDF、Word、Excel 和 CSV 文件。每个文件不超过 50.0 MB。",
+    "removeAttachmentLabel": "移除文件",
+    "attachmentErrors": {
+      "tooManyFiles": "最多只能上传 {{maxFiles}} 个文件。",
+      "fileTooLarge": "{{fileName}} 超过 {{maxFileSize}}。",
+      "unsupportedFileType": "{{fileName}} 不是支持的文件类型。",
+      "thisFile": "此文件"
+    }
   },
   "step3": {
     "accessCodePlaceholder": "验证码",
@@ -411,7 +434,10 @@
     "equipment": "设备参数",
     "heatLoad": "热负荷",
     "designCode": "设计规范",
-    "plateMaterial": "板片材料"
+    "plateMaterial": "板片材料",
+    "productType": "产品类型",
+    "quantity": "需求数量",
+    "timeline": "期望交期"
   },
   "success": {
     "title": "提交成功！",

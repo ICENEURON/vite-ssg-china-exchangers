@@ -55,7 +55,7 @@
       "title": "Cookies and Similar Technologies",
       "content": [
         "Cookies are small files or browser storage entries used to operate a website, remember basic choices, measure usage, and support security or analytics. HeatEx Direct may use necessary cookies for core website functions, cookie preference storage, language routing, login or verification workflows, and abuse prevention.",
-        "We may also use analytics cookies or similar identifiers to understand aggregate website usage, such as which pages are visited, how visitors move through the site, and whether content is useful. As currently configured, non-essential analytics are loaded only after cookie acceptance."
+        "We may also use analytics cookies or similar identifiers to understand aggregate website usage, such as which pages are visited, how visitors move through the site, and whether content is useful. In the current configuration, Google tag may load in consent mode before cookie acceptance, but analytics cookies and standard GA4 measurement are only enabled after acceptance."
       ]
     },
     "ga4": {
@@ -139,7 +139,7 @@
       "title": "EU, UK, and Other International Visitors",
       "content": [
         "Privacy, cookie, and electronic communications laws in different regions may apply in some circumstances, especially where a website offers goods or services to individuals in those regions or monitors their behavior. The EU and UK rules around analytics cookies can require additional consent and transparency measures.",
-        "Where GDPR, UK GDPR, ePrivacy rules, or similar laws apply, visitors may have additional rights such as access, correction, deletion, objection, restriction, portability, withdrawal of consent, and complaint to a supervisory authority. Our current cookie implementation is designed to avoid loading non-essential analytics before acceptance."
+        "Where GDPR, UK GDPR, ePrivacy rules, or similar laws apply, visitors may have additional rights such as access, correction, deletion, objection, restriction, portability, withdrawal of consent, and complaint to a supervisory authority. Our current cookie implementation uses Google Consent Mode with analytics storage denied by default; analytics cookies and standard GA4 measurement are only enabled after acceptance."
       ]
     },
     "children": {

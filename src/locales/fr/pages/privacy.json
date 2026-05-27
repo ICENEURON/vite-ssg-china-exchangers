@@ -55,7 +55,7 @@
       "title": "Cookies et technologies similaires",
       "content": [
         "Les cookies sont de petits fichiers ou entrées de stockage du navigateur utilisés pour exploiter un site Web, mémoriser les choix de base, mesurer l'utilisation et prendre en charge la sécurité ou l'analyse. HeatEx Direct peut utiliser les cookies nécessaires aux fonctions principales du site Web, au stockage des préférences en matière de cookies, au routage linguistique, aux flux de connexion ou de vérification et à la prévention des abus.",
-        "Nous pouvons également utiliser des cookies analytiques ou des identifiants similaires pour comprendre l'utilisation globale du site Web, par exemple quelles pages sont visitées, comment les visiteurs se déplacent sur le site et si le contenu est utile. Dans la configuration actuelle, les analyses non essentielles ne sont chargées qu'après l'acceptation des cookies."
+        "Nous pouvons également utiliser des cookies analytiques ou des identifiants similaires pour comprendre l'utilisation globale du site Web, par exemple quelles pages sont visitées, comment les visiteurs se déplacent sur le site et si le contenu est utile. Dans la configuration actuelle, la balise Google peut se charger en mode consentement avant l'acceptation des cookies, mais les cookies analytiques et la mesure GA4 standard ne sont activés qu'après l'acceptation."
       ]
     },
     "ga4": {
@@ -139,7 +139,7 @@
       "title": "Visiteurs de l’UE, du Royaume-Uni et autres visiteurs internationaux",
       "content": [
         "Les lois sur la confidentialité, les cookies et les communications électroniques dans différentes régions peuvent s'appliquer dans certaines circonstances, en particulier lorsqu'un site Web propose des biens ou des services à des individus dans ces régions ou surveille leur comportement. Les règles de l'UE et du Royaume-Uni concernant les cookies analytiques peuvent exiger des mesures supplémentaires de consentement et de transparence.",
-        "Lorsque le RGPD, le RGPD du Royaume-Uni, les règles ePrivacy ou des lois similaires s'appliquent, les visiteurs peuvent disposer de droits supplémentaires tels que l'accès, la correction, la suppression, l'objection, la restriction, la portabilité, le retrait du consentement et la plainte auprès d'une autorité de contrôle. Notre mise en œuvre actuelle des cookies est conçue pour éviter de charger des analyses non essentielles avant l'acceptation."
+        "Lorsque le RGPD, le RGPD du Royaume-Uni, les règles ePrivacy ou des lois similaires s'appliquent, les visiteurs peuvent disposer de droits supplémentaires tels que l'accès, la correction, la suppression, l'objection, la restriction, la portabilité, le retrait du consentement et la plainte auprès d'une autorité de contrôle. Notre mise en oeuvre actuelle des cookies utilise Google Consent Mode avec le stockage analytique refusé par défaut; les cookies analytiques et la mesure GA4 standard ne sont activés qu'après l'acceptation."
       ]
     },
     "children": {

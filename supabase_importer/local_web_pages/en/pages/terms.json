@@ -111,7 +111,7 @@
       "title": "Privacy, Cookies, and Communications",
       "content": [
         "Information submitted through quote request, contact, profile update, registration, login, content inquiry, or other workflows is handled according to the Privacy Policy. By submitting information, you authorize us to use it for platform operation, request review, communication, security, supplier profile management, and relevant follow-up as described in that policy.",
-        "The website may use cookies and analytics technologies as described in the Privacy Policy and cookie notice. Non-essential analytics are currently loaded only after cookie acceptance."
+        "The website may use cookies and analytics technologies as described in the Privacy Policy and cookie notice. Non-essential analytics storage is denied by default and only enabled after cookie acceptance."
       ]
     },
     "serviceChanges": {

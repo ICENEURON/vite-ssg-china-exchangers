@@ -1,16 +1,18 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useLocation, useSearchParams } from "react-router-dom"
 import { SeoHead } from '../../components/seo/SeoHead'
 import { Button } from "../../components/ui/button"
 import { ArrowLeft, ArrowRight, Check } from "lucide-react"
 import { ProgressTracker } from "./components/ProgressTracker"
 import { ContextStep, type RqfContextData } from "./components/ContextStep"
-import { ProductAndSpecsStep, type RfqProductSpecsData } from "./components/ProductAndSpecsStep"
+import { ProductAndSpecsStep, type RfqProductSpecsData, type RfqSpecsMode } from "./components/ProductAndSpecsStep"
 import { EmailVerificationStep } from "./components/EmailVerificationStep"
 import { FinalConfirmStep } from "./components/FinalConfirmStep"
 import { useTranslation } from "react-i18next"
-import { submitRFQ } from "../../lib/supabase/db"
+import { recordRFQEvent, submitRFQ, uploadRFQFiles } from "../../lib/supabase/db"
 import type { RFQSubmissionData } from "../../lib/supabase/db"
+import { trackEvent } from "../../lib/analytics/cookie-consent"
+import { clearRfqDraftId, getMarketingAttributionPayload, getOrCreateRfqDraftId, getOrCreateVisitorId } from "../../lib/analytics/marketing-attribution"
 import { getPathWithoutLanguage, useCurrentLanguage } from "../../utils/language-routing"
 import { QUOTE_REQUEST_SOURCE_URL_STORAGE_KEY } from "../../utils/rfq-routing/link"
 import manufacturersData from "../../data/manufacturers.json"
@@ -47,7 +49,7 @@ function sameLocalizedLabel(value: string): LocalizedLabel {
   }, {} as LocalizedLabel);
 }
 
-function getLocalizedOptionLabels(collection: "fluidTypes" | "plateMaterials" | "flangeStandards") {
+function getLocalizedOptionLabels(collection: "fluidTypes" | "plateMaterials" | "flangeStandards" | "productTypes" | "quantities" | "timelines") {
   const optionLabels: Record<string, LocalizedLabel> = {};
 
   LABEL_LOCALE_CODES.forEach((locale) => {
@@ -92,6 +94,26 @@ function getSourceManufacturerSlug(sourceUrl: string | null) {
   }
 
   return null;
+}
+
+function createRfqId() {
+  if (typeof window !== "undefined" && window.crypto?.randomUUID) {
+    return window.crypto.randomUUID();
+  }
+
+  const randomBytes = new Uint8Array(16);
+  const cryptoApi = globalThis.crypto;
+
+  if (!cryptoApi?.getRandomValues) {
+    throw new Error("Browser crypto API is required to create a quote request id.");
+  }
+
+  cryptoApi.getRandomValues(randomBytes);
+  randomBytes[6] = (randomBytes[6] & 0x0f) | 0x40;
+  randomBytes[8] = (randomBytes[8] & 0x3f) | 0x80;
+
+  const hex = Array.from(randomBytes, (byte) => byte.toString(16).padStart(2, "0")).join("");
+  return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
 }
 
 export default function SmartRfqBuilder() {
@@ -152,6 +174,12 @@ export default function SmartRfqBuilder() {
 
   // Set default values instead of undefined
   const [specsData, setSpecsData] = useState<RfqProductSpecsData>({
+    productType: "",
+    customProductType: "",
+    quantity: "",
+    customQuantity: "",
+    timeline: "",
+    customTimeline: "",
     hotMediaName: "",
     hotInletFluidType: "",
     hotOutletFluidType: "",
@@ -223,10 +251,31 @@ export default function SmartRfqBuilder() {
   const [isVerified, setIsVerified] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [specsMode, setSpecsMode] = useState<RfqSpecsMode>("quick")
+  const [rfqFiles, setRfqFiles] = useState<File[]>([])
+  const trackedRfqEvents = useRef(new Set<string>())
 
   useEffect(() => {
     if (isSubmitted) scrollToTop();
   }, [isSubmitted]);
+
+  const trackRfqEvent = useCallback((eventName: string, extraParameters: Record<string, unknown> = {}) => {
+    if (trackedRfqEvents.current.has(eventName)) return;
+
+    trackedRfqEvents.current.add(eventName);
+    trackEvent(eventName, {
+      page_path: location.pathname,
+      source_url: sourceUrl || null,
+      source_manufacturer_slug: sourceManufacturerSlug || null,
+      has_source_manufacturer: Boolean(sourceManufacturerSlug),
+      language: currentLanguage,
+      ...extraParameters,
+    });
+  }, [currentLanguage, location.pathname, sourceManufacturerSlug, sourceUrl]);
+
+  useEffect(() => {
+    trackRfqEvent("rfq_start");
+  }, [trackRfqEvent]);
 
   // Validation Logic
   const canProceedToStep2 =
@@ -257,8 +306,15 @@ export default function SmartRfqBuilder() {
       (!requiresGasPhaseFraction(outletFluidType) || outletGasPhaseFraction.trim() !== "");
   };
 
+  const canProceedWithQuickSpecs =
+    specsData.productType !== "" &&
+    (specsData.productType !== "other" || specsData.customProductType.trim() !== "") &&
+    specsData.additionalNotes.trim() !== "";
+
   const canProceedToStep3 =
-    hasValidSideFluidTypes("hot") &&
+    specsMode === "quick"
+      ? canProceedWithQuickSpecs
+      : hasValidSideFluidTypes("hot") &&
     hasValidSideFluidTypes("cold") &&
     hasSideMassFlow("hot") &&
     hasSideMassFlow("cold") &&
@@ -340,11 +396,61 @@ export default function SmartRfqBuilder() {
     },
   });
 
+  const buildContextPayload = () => ({
+    firstName: contextData.firstName,
+    lastName: contextData.lastName,
+    companyName: contextData.companyName || null,
+    country: contextData.country || null,
+    industry: contextData.industry === "other" ? contextData.customIndustry : contextData.industry,
+  });
+
+  const buildRequestPayload = () => ({
+    productType: optionParameter(
+      specsData.productType,
+      specsData.customProductType,
+      getRfqParameterLabel("productType"),
+      getLocalizedOptionLabels("productTypes")
+    ),
+    quantity: optionParameter(
+      specsData.quantity,
+      specsData.customQuantity,
+      getRfqParameterLabel("quantity"),
+      getLocalizedOptionLabels("quantities")
+    ),
+    timeline: optionParameter(
+      specsData.timeline,
+      specsData.customTimeline,
+      getRfqParameterLabel("timeline"),
+      getLocalizedOptionLabels("timelines")
+    ),
+  });
+
+  const buildAttributionPayload = () => {
+    const fallbackLandingPage = typeof window !== "undefined"
+      ? window.location.pathname + window.location.search
+      : location.pathname;
+
+    return getMarketingAttributionPayload(sourceUrl || null, fallbackLandingPage);
+  };
+
+  const buildAttachmentSummary = () => ({
+    count: rfqFiles.length,
+    files: rfqFiles.map((file) => ({
+      name: file.name,
+      size: file.size,
+      type: file.type || "unknown",
+    })),
+  });
+
   const buildParametersPayload = (): RFQSubmissionData["parameters"] => ({
     schemaVersion: "rfq_parameters_v2",
     unitSystem: "metric",
     userLanguage: currentLanguage,
     languageLabels: ["en", "zh"],
+    requestMode: specsMode,
+    request: buildRequestPayload(),
+    attribution: buildAttributionPayload(),
+    attachments: buildAttachmentSummary(),
     thermal: {
       label: getRfqParameterLabel("thermal"),
       hot: buildThermalSidePayload("hot"),
@@ -360,6 +466,32 @@ export default function SmartRfqBuilder() {
     },
   });
 
+  const recordRfqProgressEvent = (
+    eventName: string,
+    payload: Record<string, unknown> = {},
+    rfqId: string | number | null = null,
+  ) => {
+    const draftId = getOrCreateRfqDraftId();
+    const visitorId = getOrCreateVisitorId();
+
+    if (!draftId || !visitorId) return;
+    const attribution = buildAttributionPayload();
+
+    void recordRFQEvent({
+      draft_id: draftId,
+      visitor_id: visitorId,
+      event_name: eventName,
+      utm_source: attribution.utm_source,
+      payload: {
+        attribution,
+        ...payload,
+      },
+      rfq_id: rfqId,
+    }).catch((error) => {
+      console.warn("[rfq_events] Failed to record RFQ progress event:", error);
+    });
+  };
+
   const goToStep = (nextStep: number) => {
     setStep(nextStep);
     scrollToTop();
@@ -367,8 +499,30 @@ export default function SmartRfqBuilder() {
 
   const handleNext = () => {
     if (step === 1 && canProceedToStep2) {
+      trackRfqEvent("rfq_step1_complete", {
+        country: contextData.country,
+        industry: contextData.industry === "other" ? contextData.customIndustry : contextData.industry,
+        has_company_name: Boolean(contextData.companyName.trim()),
+      });
+      recordRfqProgressEvent("rfq_step1_complete", {
+        context: buildContextPayload(),
+        source_manufacturer_slug: sourceManufacturerSlug || null,
+      });
       goToStep(2);
     } else if (step === 2 && canProceedToStep3) {
+      trackRfqEvent("rfq_step2_complete", {
+        request_mode: specsMode,
+        product_type: specsData.productType,
+        quantity: specsData.quantity || null,
+        timeline: specsData.timeline || null,
+        has_additional_notes: Boolean(specsData.additionalNotes.trim()),
+        plate_material: specsData.plateMaterial,
+        hot_flange_standard: specsData.hotFlangeStandard,
+        cold_flange_standard: specsData.coldFlangeStandard,
+      });
+      recordRfqProgressEvent("rfq_step2_complete", {
+        ...buildParametersPayload(),
+      });
       if (isVerified) goToStep(4);
       else goToStep(3);
     } else if (step === 3 && isVerified) {
@@ -388,7 +542,9 @@ export default function SmartRfqBuilder() {
     const emailDomain = email.split("@")[1]?.toLowerCase() || "";
     const isBusinessEmail = !freeDomains.includes(emailDomain);
 
+    const rfqId = createRfqId();
     const submissionPayload: RFQSubmissionData = {
+      id: rfqId,
       first_name: contextData.firstName,
       last_name: contextData.lastName,
       company_name: contextData.companyName || null,
@@ -404,10 +560,27 @@ export default function SmartRfqBuilder() {
     }
 
     try {
-      await submitRFQ(submissionPayload);
+      const submittedRFQ = await submitRFQ(submissionPayload);
+      const uploadedFiles = submittedRFQ.id ? await uploadRFQFiles(submittedRFQ.id, rfqFiles) : [];
+
+      trackRfqEvent("rfq_submit", {
+        request_mode: specsMode,
+        product_type: specsData.productType,
+        country: contextData.country,
+        industry: contextData.industry === "other" ? contextData.customIndustry : contextData.industry,
+        is_business_email: isBusinessEmail,
+        has_company_name: Boolean(contextData.companyName.trim()),
+        is_targeting_source_manufacturer: Boolean(sourceManufacturer && isTargetingSourceManufacturer),
+        attachment_count: rfqFiles.length,
+        uploaded_attachment_count: uploadedFiles.length,
+      });
+      recordRfqProgressEvent("rfq_submit", {
+        ...submissionPayload.parameters,
+      }, submittedRFQ.id);
       if (typeof window !== "undefined") {
         window.sessionStorage.removeItem(QUOTE_REQUEST_SOURCE_URL_STORAGE_KEY);
       }
+      clearRfqDraftId();
       setIsSubmitted(true);
     } catch (error: unknown) {
       const message = error instanceof Error ? error.message : "Unknown error";
@@ -464,7 +637,14 @@ export default function SmartRfqBuilder() {
                 </div>
                 <ProductAndSpecsStep
                   data={specsData}
+                  mode={specsMode}
+                  files={rfqFiles}
                   onChange={(newData) => setSpecsData(prev => ({ ...prev, ...newData }))}
+                  onFilesChange={setRfqFiles}
+                  onModeChange={(mode) => {
+                    setSpecsMode(mode);
+                    trackRfqEvent(`rfq_${mode}_mode_selected`);
+                  }}
                 />
               </section>
             )}
@@ -482,6 +662,11 @@ export default function SmartRfqBuilder() {
                   isVerified={isVerified}
                   onNext={() => goToStep(4)}
                   onVerify={() => {
+                    trackRfqEvent("rfq_email_verified", {
+                      email_domain_type: email.includes("@") && !email.split("@")[1]?.toLowerCase().match(/^(gmail|yahoo|hotmail|outlook|qq|163|126|foxmail|icloud)\.com$/)
+                        ? "business"
+                        : "free_or_unknown",
+                    });
                     setIsVerified(true);
                     goToStep(4);
                   }}
@@ -498,6 +683,8 @@ export default function SmartRfqBuilder() {
                 <FinalConfirmStep
                   context={contextData}
                   specs={specsData}
+                  specsMode={specsMode}
+                  attachments={rfqFiles}
                   email={email}
                   isAnonymous={isAnonymous}
                   sourceManufacturerName={sourceManufacturerName}

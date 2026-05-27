@@ -1,7 +1,8 @@
 import type { RqfContextData } from "./ContextStep"
-import type { RfqProductSpecsData } from "./ProductAndSpecsStep"
-import { Check, Edit2, Send, ShieldCheck, User } from "lucide-react"
+import type { RfqProductSpecsData, RfqSpecsMode } from "./ProductAndSpecsStep"
+import { Check, Edit2, FileText, Send, ShieldCheck, User } from "lucide-react"
 import { useTranslation } from "react-i18next"
+import { formatFileSize } from "../../../lib/rfq/attachments"
 
 interface Option {
     id: string;
@@ -11,6 +12,8 @@ interface Option {
 interface FinalConfirmStepProps {
     context: RqfContextData;
     specs: RfqProductSpecsData;
+    specsMode: RfqSpecsMode;
+    attachments: File[];
     email: string;
     isAnonymous: boolean;
     sourceManufacturerName: string | null;
@@ -52,9 +55,12 @@ interface SideSummaryData {
     flangeTypeSealingFace: string;
 }
 
-export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceManufacturerName, isTargetingSourceManufacturer, onToggleAnonymous, onToggleTargetingSourceManufacturer, onEditStep }: FinalConfirmStepProps) {
+export function FinalConfirmStep({ context, specs, specsMode, attachments, email, isAnonymous, sourceManufacturerName, isTargetingSourceManufacturer, onToggleAnonymous, onToggleTargetingSourceManufacturer, onEditStep }: FinalConfirmStepProps) {
     const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
     const industries = t("industries", { returnObjects: true }) as Option[];
+    const productTypes = t("productTypes", { returnObjects: true }) as Option[];
+    const quantities = t("quantities", { returnObjects: true }) as Option[];
+    const timelines = t("timelines", { returnObjects: true }) as Option[];
     const fluidTypes = t("fluidTypes", { returnObjects: true }) as Option[];
     const plateMaterials = t("plateMaterials", { returnObjects: true }) as Option[];
     const flangeStandards = t("flangeStandards", { returnObjects: true }) as Option[];
@@ -205,6 +211,41 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceMan
                         </button>
                     </div>
 
+                    <div className="mb-6 rounded-xl bg-slate-50 p-4">
+                        <div className="mb-3 text-xs font-bold uppercase tracking-widest text-slate-400">{t("step2.basicRequirementTitle", { defaultValue: "Basic requirement" })}</div>
+                        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                            <div>
+                                {renderSummaryItem(t("step2.productTypeLabel", { defaultValue: "Product type" }), formatOptionValue(productTypes, specs.productType, specs.customProductType))}
+                                {renderSummaryItem(t("step1.quantityLabel", { defaultValue: "Required quantity" }), formatOptionValue(quantities, specs.quantity, specs.customQuantity))}
+                                {renderSummaryItem(t("step1.timelineLabel", { defaultValue: "Expected delivery timeline" }), formatOptionValue(timelines, specs.timeline, specs.customTimeline))}
+                            </div>
+                            {specs.additionalNotes && (
+                                <div className="rounded-lg border border-slate-200 bg-white p-3">
+                                    <div className="mb-1 text-xs font-bold text-slate-500">{t("step4.summaryNotes")}</div>
+                                    <p className="break-words text-sm leading-relaxed text-slate-700">{specs.additionalNotes}</p>
+                                </div>
+                            )}
+                        </div>
+                    </div>
+
+                    {attachments.length > 0 && (
+                        <div className="mb-6 rounded-xl border border-slate-200 bg-white p-4">
+                            <div className="mb-3 text-xs font-bold uppercase tracking-widest text-slate-400">
+                                {t("step2.attachmentsTitle", { defaultValue: "Attachments" })}
+                            </div>
+                            <div className="space-y-2">
+                                {attachments.map((file) => (
+                                    <div key={`${file.name}-${file.lastModified}-${file.size}`} className="flex items-center gap-3 rounded-lg bg-slate-50 px-3 py-2">
+                                        <FileText className="h-4 w-4 shrink-0 text-slate-500" />
+                                        <span className="min-w-0 flex-1 truncate text-sm font-semibold text-slate-800">{file.name}</span>
+                                        <span className="text-xs text-slate-500">{formatFileSize(file.size)}</span>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {specsMode === "advanced" && (
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 md:grid-cols-2">
                         {renderSideSummary(t("step4.summaryHotSide"), "bg-rose-50 text-rose-500", {
                             mediaName: specs.hotMediaName,
@@ -278,15 +319,10 @@ export function FinalConfirmStep({ context, specs, email, isAnonymous, sourceMan
                                     {renderSummaryItem(t("step4.summaryPlateMaterial"), formatOptionValue(plateMaterials, specs.plateMaterial, specs.customPlateMaterial))}
                                     {renderSummaryItem(t("step4.summaryHeatLoad"), specs.heatLoad ? `${specs.heatLoad} kW` : "")}
                                 </div>
-                                {specs.additionalNotes && (
-                                    <div className="rounded-lg border border-slate-200 bg-white p-3">
-                                        <div className="mb-1 text-xs font-bold text-slate-500">{t("step4.summaryNotes")}</div>
-                                        <p className="break-words text-sm leading-relaxed text-slate-700">{specs.additionalNotes}</p>
-                                    </div>
-                                )}
                             </div>
                         </div>
                     </div>
+                    )}
                 </div>
             </div>
         </div>
