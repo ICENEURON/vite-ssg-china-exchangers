@@ -1,4 +1,5 @@
 import { Head } from 'vite-react-ssg';
+import { useEffect, useMemo } from 'react';
 import { DEFAULT_LANGUAGE, SUPPORTED_LANGUAGES } from '../../locales/languages';
 
 export const DEFAULT_OG_IMAGE = 'https://heatexdirect.com/static/websites/heatex-direct.png';
@@ -92,15 +93,33 @@ export function SeoHead({
   const structuredDataJson = structuredData
     ? JSON.stringify(structuredData).replace(/</g, '\\u003c')
     : null;
-  const alternateLinks = buildAlternateLinks(canonicalUrl);
+  const alternateLinks = useMemo(() => buildAlternateLinks(canonicalUrl), [canonicalUrl]);
+
+  useEffect(() => {
+    document.head
+      .querySelectorAll('link[rel="alternate"][hreflang]')
+      .forEach((element) => element.remove());
+
+    alternateLinks.forEach((alternateLink) => {
+      const link = document.createElement('link');
+      link.rel = 'alternate';
+      link.hreflang = alternateLink.hrefLang;
+      link.href = alternateLink.href;
+      link.dataset.heatexHreflang = 'true';
+      document.head.appendChild(link);
+    });
+
+    return () => {
+      document.head
+        .querySelectorAll('link[data-heatex-hreflang="true"]')
+        .forEach((element) => element.remove());
+    };
+  }, [alternateLinks]);
 
   return (
     <Head>
       <title>{title}</title>
       <link rel="canonical" href={canonicalUrl} />
-      {alternateLinks.map((link) => (
-        <link key={link.hrefLang} rel="alternate" hrefLang={link.hrefLang} href={link.href} />
-      ))}
       {resolvedDescription && <meta name="description" content={resolvedDescription} />}
       {resolvedKeywords && <meta name="keywords" content={resolvedKeywords} />}
       <meta property="og:title" content={resolvedOgTitle} />

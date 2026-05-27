@@ -511,11 +511,11 @@ function buildHtmlAlternateLinks(route, routeSet) {
   const englishRoute = alternateRoutes.find((candidate) => parseRoute(candidate).language === defaultLanguage);
   const links = alternateRoutes.map((candidate) => {
     const { language } = parseRoute(candidate);
-    return `    <link data-rh="true" rel="alternate" hreflang="${language}" href="${escapeHtmlAttribute(`${siteUrl}${candidate}`)}" />`;
+    return `    <link data-heatex-hreflang="true" rel="alternate" hreflang="${language}" href="${escapeHtmlAttribute(`${siteUrl}${candidate}`)}" />`;
   });
 
   if (englishRoute) {
-    links.push(`    <link data-rh="true" rel="alternate" hreflang="x-default" href="${escapeHtmlAttribute(`${siteUrl}${englishRoute}`)}" />`);
+    links.push(`    <link data-heatex-hreflang="true" rel="alternate" hreflang="x-default" href="${escapeHtmlAttribute(`${siteUrl}${englishRoute}`)}" />`);
   }
 
   return links.join('\n');
