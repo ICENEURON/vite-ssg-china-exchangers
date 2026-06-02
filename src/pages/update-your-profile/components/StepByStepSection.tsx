@@ -27,7 +27,7 @@ export function StepByStepSection() {
     return (
         <section className="pb-14 px-2 bg-background flex flex-col items-center">
             <div className="container mx-auto max-w-6xl p-4 flex flex-col items-center gap-6">
-                <div className="bg-slate-900 rounded-xl p-6 md:p-10 shadow-2xl relative overflow-hidden w-full flex flex-col items-center">
+                <div className="bg-slate-900 rounded-sm p-6 md:p-10 shadow-2xl relative overflow-hidden w-full flex flex-col items-center">
                     <div className="flex items-center justify-center relative z-10 border-b border-white/10 pb-6 mb-6 md:pb-10 md:mb-10 w-full">
                         <button
                             onClick={handleCopyEmail}
@@ -39,7 +39,7 @@ export function StepByStepSection() {
                             </span>
                             <div className="absolute left-full ml-4 top-1/2 -translate-y-1/2 pointer-events-none">
                                 {copied && (
-                                    <div className="bg-orange-500/20 text-orange-500 text-sm font-bold px-3 py-1 rounded-full whitespace-nowrap">
+                                    <div className="bg-orange-500/20 text-orange-500 text-sm font-bold px-3 py-1 rounded-sm whitespace-nowrap">
                                         {copiedText}
                                     </div>
                                 )}
@@ -50,7 +50,7 @@ export function StepByStepSection() {
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 lg:gap-10 relative z-10 w-full text-left">
                         <div className="flex flex-col items-start">
                             <h3 className="font-bold text-xl mb-4 flex items-center justify-start gap-3 text-white">
-                                <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-accent text-muted-foreground text-base font-bold select-none">1</div>
+                                <div className="flex items-center justify-center w-8 h-8 rounded-sm bg-accent text-muted-foreground text-base font-bold select-none">1</div>
                                 {requiredTitle}
                             </h3>
                             <p className="text-zinc-400 leading-relaxed text-sm">
@@ -60,7 +60,7 @@ export function StepByStepSection() {
 
                         <div className="flex flex-col items-start">
                             <h3 className="font-bold text-xl mb-4 flex items-center justify-start gap-3 text-white">
-                                <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-orange-500 text-white text-base font-bold select-none">2</div>
+                                <div className="flex items-center justify-center w-8 h-8 rounded-sm bg-orange-500 text-white text-base font-bold select-none">2</div>
                                 {mediaTitle}
                             </h3>
                             <p className="text-zinc-400 leading-relaxed text-sm">
@@ -70,7 +70,7 @@ export function StepByStepSection() {
 
                         <div className="flex flex-col items-start md:col-span-2 lg:col-span-1">
                             <h3 className="font-bold text-xl mb-4 flex items-center justify-start gap-3 text-white">
-                                <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-red-500 text-white text-base font-bold select-none">3</div>
+                                <div className="flex items-center justify-center w-8 h-8 rounded-sm bg-red-500 text-white text-base font-bold select-none">3</div>
                                 {subjectLabel}
                             </h3>
                             <p className="text-zinc-400 leading-relaxed text-sm">

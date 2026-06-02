@@ -16,7 +16,7 @@ export function NewsHero({ post }: NewsHeroProps) {
     });
 
     return (
-        <div className="relative w-full overflow-hidden rounded-xl text-white shadow-xl group">
+        <div className="relative w-full overflow-hidden rounded-sm text-white shadow-xl group">
             {/* Background Image */}
             <div
                 className={`absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 ${post.cover ? "" : "news-hero-fallback"}`}

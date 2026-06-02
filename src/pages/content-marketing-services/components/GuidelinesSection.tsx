@@ -14,7 +14,7 @@ export function GuidelinesSection() {
 
                 <div className="grid gap-5 md:grid-cols-2 md:gap-6">
                     {/* The "YES" Column */}
-                    <div className="overflow-hidden rounded-2xl bg-green-500/10">
+                    <div className="overflow-hidden rounded-sm bg-green-500/10">
                         <div className="h-full p-8">
                             <div className="flex items-center gap-3 mb-6">
                                 <CheckCircle className="h-6 w-6 shrink-0 text-green-500" />
@@ -39,7 +39,7 @@ export function GuidelinesSection() {
                                     <ul className="mt-3 space-y-3 text-sm text-foreground/90">
                                         {(t("accepted.requirements.items", { returnObjects: true }) as string[]).map((item, i) => (
                                             <li key={i} className="flex items-start gap-3">
-                                                <div className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2 shrink-0 shadow-success-glow"></div>
+                                                <div className="w-1.5 h-1.5 rounded-sm bg-green-500 mt-2 shrink-0 shadow-success-glow"></div>
                                                 <span className="text-foreground">{item}</span>
                                             </li>
                                         ))}
@@ -51,7 +51,7 @@ export function GuidelinesSection() {
                                     <ul className="mt-3 space-y-3 text-sm text-foreground/90">
                                         {(t("accepted.topics.items", { returnObjects: true }) as string[]).map((item, i) => (
                                             <li key={i} className="flex items-start gap-3">
-                                                <div className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2 shrink-0 shadow-success-glow"></div>
+                                                <div className="w-1.5 h-1.5 rounded-sm bg-green-500 mt-2 shrink-0 shadow-success-glow"></div>
                                                 <span className="text-foreground">{item}</span>
                                             </li>
                                         ))}
@@ -62,7 +62,7 @@ export function GuidelinesSection() {
                     </div>
 
                     {/* The "NO" Column */}
-                    <div className="overflow-hidden rounded-2xl bg-red-500/10">
+                    <div className="overflow-hidden rounded-sm bg-red-500/10">
                         <div className="h-full p-8">
                             <div className="flex items-center gap-3 mb-6">
                                 <XCircle className="h-6 w-6 shrink-0 text-red-500" />
@@ -84,7 +84,7 @@ export function GuidelinesSection() {
                                     <ul className="mt-3 space-y-3">
                                         {(t("rejected.content.items", { returnObjects: true }) as string[]).map((item, i) => (
                                             <li key={i} className="flex items-start gap-3">
-                                                <div className="w-1.5 h-1.5 rounded-full bg-red-400/50 mt-2 shrink-0"></div>
+                                                <div className="w-1.5 h-1.5 rounded-sm bg-red-400/50 mt-2 shrink-0"></div>
                                                 <span className="text-sm leading-snug text-foreground">{item}</span>
                                             </li>
                                         ))}

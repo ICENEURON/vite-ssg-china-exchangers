@@ -46,7 +46,7 @@ export function VerificationGrid() {
                             className="flex flex-col border border-slate-200 bg-white p-4 text-left transition-colors duration-200 hover:border-primary/30 hover:bg-slate-50 md:p-5"
                         >
                             <div className="flex flex-col items-center gap-3 text-center">
-                                <div className="flex size-10 shrink-0 items-center justify-center rounded-full bg-primary/5">
+                                <div className="flex size-10 shrink-0 items-center justify-center rounded-sm bg-primary/5">
                                     {step.icon}
                                 </div>
                                 <h4 className="text-sm font-bold leading-6 text-foreground md:text-base">

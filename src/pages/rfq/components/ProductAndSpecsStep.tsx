@@ -113,7 +113,7 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
     const MAX_NOTES_LENGTH = 500;
     const isGasLiquid = (fluidType: string) => fluidType === "gas_liquid";
 
-    const inputClass = "h-9 w-full rounded-md border border-slate-200 bg-white px-2 py-1 text-[11px] ring-offset-background transition-all [appearance:textfield] focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 sm:h-10 sm:text-xs [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+    const inputClass = "h-9 w-full rounded-sm border border-slate-200 bg-white px-2 py-1 text-[11px] ring-offset-background transition-all [appearance:textfield] focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 sm:h-10 sm:text-xs [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
     const invalidInputClass = ""
     const disabledInputClass = `${inputClass} cursor-not-allowed !border-slate-200 !bg-slate-100 text-slate-400 ring-0`
     const selectClass = `${inputClass} appearance-none px-2 pr-7 text-[10px] sm:px-3 sm:pr-8 sm:text-[11px]`
@@ -327,7 +327,7 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
         const sideFrameClass = side === "hot" ? "border-orange-300 bg-orange-50/20" : "border-blue-300 bg-blue-50/20";
 
         return (
-            <div className={`min-w-0 space-y-3 rounded-lg border-2 p-3 shadow-sm ${sideFrameClass}`}>
+            <div className={`min-w-0 space-y-3 rounded-sm border-2 p-3 shadow-sm ${sideFrameClass}`}>
                 <div className="border-b border-slate-100 pb-2">
                     <span className={`text-xs font-bold tracking-wide ${accentClass}`}>{title}</span>
                 </div>
@@ -343,7 +343,7 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
                     />
                 </div>
 
-                <div className="space-y-2 rounded-md bg-slate-50 p-2">
+                <div className="space-y-2 rounded-sm bg-slate-50 p-2">
                     <div className="grid grid-cols-[minmax(48px,0.58fr)_minmax(0,1.2fr)_minmax(0,1.2fr)] items-end gap-2">
                         <div className={requiredLabelClass}>{t("step2.fluidTypeLabel")}{requiredBadge}</div>
                         <div className={compactLabelClass}>{t("step2.inletPropertyLabel")}</div>
@@ -436,7 +436,7 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
         const sideFrameClass = side === "hot" ? "border-orange-300 bg-orange-50/20" : "border-blue-300 bg-blue-50/20";
 
         return (
-            <div className={`min-w-0 space-y-3 rounded-lg border-2 p-3 shadow-sm ${sideFrameClass}`}>
+            <div className={`min-w-0 space-y-3 rounded-sm border-2 p-3 shadow-sm ${sideFrameClass}`}>
                 <div className="border-b border-slate-100 pb-2">
                     <span className={`text-xs font-bold tracking-wide ${accentClass}`}>{title}</span>
                 </div>
@@ -483,7 +483,7 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
                     </div>
                 )}
 
-                <div className="space-y-2 rounded-md bg-slate-50 p-2">
+                <div className="space-y-2 rounded-sm bg-slate-50 p-2">
                     <div className="grid grid-cols-[minmax(48px,0.58fr)_minmax(0,1.2fr)_minmax(0,1.2fr)] gap-2">
                         <div />
                         <div className={compactLabelClass}>{t("step2.inletPropertyLabel")}</div>
@@ -516,7 +516,7 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
 
     return (
         <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4">
-            <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
+            <div className="rounded-sm border border-slate-200 bg-white p-4 shadow-sm md:p-6">
                 <div className="mb-4">
                     <h3 className="text-base font-bold text-slate-900 sm:text-lg">
                         {t("step2.requestModeTitle", { defaultValue: "Request detail level" })}
@@ -533,7 +533,7 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
                             type="button"
                             aria-pressed={mode === value}
                             onClick={() => onModeChange(value)}
-                            className={`flex min-h-20 flex-col gap-1 rounded-xl border p-4 text-left transition-colors ${mode === value ? "border-primary bg-primary/5 ring-2 ring-primary/10" : "border-slate-200 bg-white hover:border-slate-300"}`}
+                            className={`flex min-h-20 flex-col gap-1 rounded-sm border p-4 text-left transition-colors ${mode === value ? "border-primary bg-primary/5 ring-2 ring-primary/10" : "border-slate-200 bg-white hover:border-slate-300"}`}
                         >
                             <span className="text-sm font-bold text-slate-900">{title}</span>
                             <span className="text-xs leading-relaxed text-slate-500">{description}</span>
@@ -542,7 +542,7 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
                 </div>
             </div>
 
-            <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
+            <div className="rounded-sm border border-slate-200 bg-white p-4 shadow-sm md:p-6">
                 <div className="mb-4">
                     <h3 className="text-base font-bold text-slate-900 sm:text-lg">
                         {t("step2.basicRequirementTitle", { defaultValue: "Basic requirement" })}
@@ -602,7 +602,7 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
                         <textarea
                             id={getFieldId("additionalNotes")}
                             name="additionalNotes"
-                            className="flex w-full min-h-[100px] rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 resize-y"
+                            className="flex w-full min-h-[100px] rounded-sm border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 resize-y"
                             placeholder={t("step2.quickAdditionalNotesPlaceholder", {
                                 defaultValue: "Describe the duty, application, fluids, target temperature, drawing availability, certification needs, or any known constraints.",
                             })}
@@ -619,7 +619,7 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
             {mode === "quick" && null}
             {mode === "advanced" && (
                 <>
-            <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
+            <div className="rounded-sm border border-slate-200 bg-white p-4 shadow-sm md:p-6">
                 <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
                     <div>
                         <h3 className="text-base font-bold text-slate-900 sm:text-lg">{t("step2.thermalSpecsTitle")}</h3>
@@ -646,7 +646,7 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
                 </div>
             </div>
 
-            <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
+            <div className="rounded-sm border border-slate-200 bg-white p-4 shadow-sm md:p-6">
                 <div className="mb-4">
                     <h3 className="text-base font-bold text-slate-900 sm:text-lg">{t("step2.equipmentParamsTitle")}</h3>
                     {t("step2.equipmentParamsSubtitle") && <p className="mt-1 text-[11px] text-slate-500 sm:text-xs">{t("step2.equipmentParamsSubtitle")}</p>}
@@ -700,12 +700,12 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
                 </>
             )}
 
-            <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
+            <div className="rounded-sm border border-slate-200 bg-white p-4 shadow-sm md:p-6">
                 <div className="mb-4 flex items-center justify-between gap-3">
                     <h3 className="text-base font-bold text-slate-900 sm:text-lg">
                         {t("step2.attachmentsTitle", { defaultValue: "Attachments" })}
                     </h3>
-                    <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-600">
+                    <span className="rounded-sm bg-slate-100 px-3 py-1 text-xs font-bold text-slate-600">
                         {files.length}/{MAX_RFQ_ATTACHMENT_FILES}
                     </span>
                 </div>
@@ -722,7 +722,7 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
                 <div
                     role="button"
                     tabIndex={0}
-                    className="flex min-h-32 cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-dashed border-slate-300 bg-slate-50 px-4 py-6 text-center transition-colors hover:border-primary/50 hover:bg-primary/5 focus:outline-none focus:ring-4 focus:ring-primary/10"
+                    className="flex min-h-32 cursor-pointer flex-col items-center justify-center rounded-sm border-2 border-dashed border-slate-300 bg-slate-50 px-4 py-6 text-center transition-colors hover:border-primary/50 hover:bg-primary/5 focus:outline-none focus:ring-4 focus:ring-primary/10"
                     onClick={() => fileInputRef.current?.click()}
                     onKeyDown={(event) => {
                         if (event.key === "Enter" || event.key === " ") {
@@ -745,7 +745,7 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
                 </div>
 
                 {attachmentError && (
-                    <div className="mt-3 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-xs font-semibold text-red-600">
+                    <div className="mt-3 rounded-sm border border-red-200 bg-red-50 px-3 py-2 text-xs font-semibold text-red-600">
                         {attachmentError}
                     </div>
                 )}
@@ -753,7 +753,7 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
                 {files.length > 0 && (
                     <div className="mt-4 space-y-2">
                         {files.map((file, index) => (
-                            <div key={`${file.name}-${file.lastModified}-${file.size}`} className="flex items-center gap-3 rounded-lg border border-slate-200 bg-white px-3 py-2">
+                            <div key={`${file.name}-${file.lastModified}-${file.size}`} className="flex items-center gap-3 rounded-sm border border-slate-200 bg-white px-3 py-2">
                                 <FileText className="h-4 w-4 shrink-0 text-slate-500" />
                                 <div className="min-w-0 flex-1">
                                     <div className="truncate text-xs font-bold text-slate-800">{file.name}</div>
@@ -761,7 +761,7 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
                                 </div>
                                 <button
                                     type="button"
-                                    className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-md text-slate-500 hover:bg-slate-100 hover:text-slate-900"
+                                    className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-sm text-slate-500 hover:bg-slate-100 hover:text-slate-900"
                                     aria-label={t("step2.removeAttachmentLabel", { defaultValue: "Remove file" })}
                                     onClick={() => removeAttachment(index)}
                                 >

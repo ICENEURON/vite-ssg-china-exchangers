@@ -27,11 +27,11 @@ export function ProcessSection() {
                         {steps.map((step, i) => (
                             <div key={i} className="relative flex flex-col items-center text-center group">
                                 {/* Icon Wrapper */}
-                                <div className="relative z-10 w-24 h-24 rounded-2xl bg-background border-2 border-muted group-hover:border-primary/50 group-hover:scale-110 transition-all duration-300 flex items-center justify-center shadow-sm">
+                                <div className="relative z-10 w-24 h-24 rounded-sm bg-background border-2 border-muted group-hover:border-primary/50 group-hover:scale-110 transition-all duration-300 flex items-center justify-center shadow-sm">
                                     <step.icon className="w-10 h-10 text-muted group-hover:text-primary transition-colors" />
 
                                     {/* Step Number Badge */}
-                                    <div className="absolute -top-3 -right-3 w-8 h-8 rounded-full bg-destructive text-background flex items-center justify-center font-bold text-sm shadow-md">
+                                    <div className="absolute -top-3 -right-3 w-8 h-8 rounded-sm bg-destructive text-background flex items-center justify-center font-bold text-sm shadow-md">
                                         {step.id}
                                     </div>
                                 </div>

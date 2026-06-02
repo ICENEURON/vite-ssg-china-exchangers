@@ -87,7 +87,7 @@ export function FilterDropdown({
         <div className="absolute left-0 top-full z-50 pt-2">
           <div
             className={cn(
-              "overflow-hidden rounded-lg border border-border/50 bg-card shadow-xl animate-in fade-in zoom-in-95 slide-in-from-top-2 duration-200",
+              "overflow-hidden rounded-sm border border-border/50 bg-card shadow-xl animate-in fade-in zoom-in-95 slide-in-from-top-2 duration-200",
               contentClassName
             )}
           >

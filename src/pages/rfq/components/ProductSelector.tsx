@@ -36,14 +36,14 @@ export function ProductSelector({ selected, onSelect, application, onApplication
                             key={p.id}
                             onClick={() => onSelect(p.id as ProductType)}
                             className={`
-                    relative flex flex-col items-center p-6 rounded-2xl border-2 transition-all duration-300 text-center
+                    relative flex flex-col items-center p-6 rounded-sm border-2 transition-all duration-300 text-center
                     ${isSelected
                                     ? 'border-primary bg-primary/5 shadow-lg shadow-primary/10 ring-1 ring-primary'
                                     : 'border-slate-200 bg-card hover:border-primary/40 hover:bg-slate-50 shadow-sm'}
                 `}
                         >
                             {isSelected && (
-                                <div className="absolute top-3 right-3 bg-gradient-to-br from-primary to-orange-500 text-white rounded-full p-1 shadow-md">
+                                <div className="absolute top-3 right-3 bg-gradient-to-br from-primary to-orange-500 text-white rounded-sm p-1 shadow-md">
                                     <Check className="w-4 h-4" />
                                 </div>
                             )}
@@ -65,7 +65,7 @@ export function ProductSelector({ selected, onSelect, application, onApplication
                             <button
                                 key={app}
                                 onClick={() => onApplicationChange(app)}
-                                className={`px-4 py-3 text-sm font-medium rounded-xl border transition-all duration-200 ${application === app
+                                className={`px-4 py-3 text-sm font-medium rounded-sm border transition-all duration-200 ${application === app
                                     ? 'bg-primary text-white border-primary shadow-md shadow-primary/20'
                                     : 'bg-white border-slate-200 text-slate-600 hover:border-primary/40'
                                     }`}

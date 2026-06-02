@@ -27,9 +27,9 @@ export function LivePreview({ specs, productType, isAnonymous, onAnonymousChange
 
     return (
         <div className="w-full relative">
-            <div className="absolute -inset-1 bg-gradient-to-br from-primary/20 to-orange-500/20 rounded-2xl blur-lg opacity-50 pointer-events-none" />
+            <div className="absolute -inset-1 bg-gradient-to-br from-primary/20 to-orange-500/20 rounded-sm blur-lg opacity-50 pointer-events-none" />
             
-            <div className="bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-200 overflow-hidden relative z-10 transition-all duration-300">
+            <div className="bg-white rounded-sm shadow-xl shadow-slate-200/50 border border-slate-200 overflow-hidden relative z-10 transition-all duration-300">
                 {/* Header Strip */}
                 <div className="h-1.5 bg-gradient-to-r from-primary to-orange-500 w-full" />
 
@@ -38,21 +38,21 @@ export function LivePreview({ specs, productType, isAnonymous, onAnonymousChange
                         <div className="text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
                             <Factory className="w-4 h-4" /> {t("title")}
                         </div>
-                        <div className="px-3 py-1 rounded-full text-[10px] font-bold bg-amber-100 text-amber-600 border border-amber-200">
+                        <div className="px-3 py-1 rounded-sm text-[10px] font-bold bg-amber-100 text-amber-600 border border-amber-200">
                             #{t("draftStatus")}
                         </div>
                     </div>
 
                     {/* Buyer Info Block */}
                     <div className="flex items-start gap-4 mb-8 pb-8 border-b border-dashed border-slate-200">
-                        <div className={`w-14 h-14 rounded-2xl flex items-center justify-center shrink-0 transition-colors duration-300 ${isAnonymous ? 'bg-slate-100' : 'bg-primary/10'}`}>
+                        <div className={`w-14 h-14 rounded-sm flex items-center justify-center shrink-0 transition-colors duration-300 ${isAnonymous ? 'bg-slate-100' : 'bg-primary/10'}`}>
                             {isAnonymous ? <ShieldCheck className="w-7 h-7 text-slate-400" /> : <User className="w-7 h-7 text-primary" />}
                         </div>
                         <div>
                             <div className="font-bold text-lg text-slate-900 leading-tight transition-all duration-300">
                                 {isAnonymous ? t("verifiedBuyer") : t("nameDisplayed")}
                             </div>
-                            <div className="text-xs text-slate-500 mt-2 flex items-center gap-1.5 bg-slate-50 w-fit px-2 py-1 rounded-md">
+                            <div className="text-xs text-slate-500 mt-2 flex items-center gap-1.5 bg-slate-50 w-fit px-2 py-1 rounded-sm">
                                 {isAnonymous ? (
                                     <>
                                         <EyeOff className="w-3.5 h-3.5" /> {t("contactHidden")}
@@ -76,12 +76,12 @@ export function LivePreview({ specs, productType, isAnonymous, onAnonymousChange
                         {application && (
                              <div className="space-y-1.5">
                                 <div className="text-xs text-slate-400 font-bold uppercase tracking-wider">{t("industryLabel")}</div>
-                                <div className="font-medium text-primary bg-primary/5 border border-primary/10 px-3 py-1.5 rounded-lg w-fit text-sm">{t(`applications.${application.replace(/[^a-zA-Z]/g, '')}`, application)}</div>
+                                <div className="font-medium text-primary bg-primary/5 border border-primary/10 px-3 py-1.5 rounded-sm w-fit text-sm">{t(`applications.${application.replace(/[^a-zA-Z]/g, '')}`, application)}</div>
                             </div>
                         )}
 
                         {(specs.hotFluid || specs.hotFlow || specs.hotIn || specs.coldFluid) && (
-                            <div className="p-4 bg-slate-50 rounded-xl text-sm space-y-3 border border-slate-100">
+                            <div className="p-4 bg-slate-50 rounded-sm text-sm space-y-3 border border-slate-100">
                                 <div className="font-bold text-xs text-slate-400 uppercase tracking-wider border-b border-slate-200 pb-2 mb-3">{t("techSpecsPreview")}</div>
                                 
                                 {specs.hotFluid && (
@@ -130,13 +130,13 @@ export function LivePreview({ specs, productType, isAnonymous, onAnonymousChange
                             aria-checked={isAnonymous}
                             onClick={() => onAnonymousChange(!isAnonymous)}
                             className={`
-                                relative inline-flex h-7 w-12 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-300 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2
+                                relative inline-flex h-7 w-12 shrink-0 cursor-pointer rounded-sm border-2 border-transparent transition-colors duration-300 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2
                                 ${isAnonymous ? 'bg-slate-300' : 'bg-primary'}
                             `}
                         >
                             <span
                                 className={`
-                                    pointer-events-none block h-6 w-6 rounded-full bg-white shadow-md ring-0 transition-transform duration-300 ease-in-out
+                                    pointer-events-none block h-6 w-6 rounded-sm bg-white shadow-md ring-0 transition-transform duration-300 ease-in-out
                                     ${isAnonymous ? 'translate-x-0' : 'translate-x-5'}
                                 `}
                             />

@@ -23,7 +23,7 @@ export function BenefitsSection() {
                         const Icon = icons[index] || FileText;
 
                         return (
-                            <article key={item.title} className="rounded-lg border border-slate-200 bg-slate-50 p-5">
+                            <article key={item.title} className="rounded-sm border border-slate-200 bg-slate-50 p-5">
                                 <div className="flex items-center gap-3 mb-2 text-primary">
                                     <Icon className="size-6 shrink-0" />
                                     <h3 className="text-lg font-bold text-slate-950">{item.title}</h3>

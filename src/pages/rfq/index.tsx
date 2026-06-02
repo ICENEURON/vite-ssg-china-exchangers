@@ -697,7 +697,7 @@ export default function SmartRfqBuilder() {
                 <div className="mt-12 flex justify-center">
                   <Button
                     size="lg"
-                    className="w-full max-w-md h-14 text-base font-bold bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white rounded-xl shadow-lg shadow-primary/20"
+                    className="w-full max-w-md h-14 text-base font-bold bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white rounded-sm shadow-lg shadow-primary/20"
                     onClick={handleSubmit}
                     disabled={isSubmitting}
                   >
@@ -709,7 +709,7 @@ export default function SmartRfqBuilder() {
 
             {isSubmitted && (
               <section className="text-center py-20 max-w-2xl mx-auto animate-in zoom-in-95 duration-500">
-                <div className="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-8 border-[6px] border-green-50">
+                <div className="w-24 h-24 bg-green-100 rounded-sm flex items-center justify-center mx-auto mb-8 border-[6px] border-green-50">
                   <Check className="w-12 h-12 text-green-600 stroke-[3]" />
                 </div>
                 <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight mb-6">
@@ -718,7 +718,7 @@ export default function SmartRfqBuilder() {
                 <p className="text-lg text-slate-600 mb-10 max-w-md mx-auto leading-relaxed">
                   {t("success.desc")}
                 </p>
-                <Button className="px-8 h-12 rounded-xl bg-blue-600 text-white hover:bg-blue-700 font-bold shadow-lg shadow-blue-600/20" onClick={() => window.location.href = "/"}>
+                <Button className="px-8 h-12 rounded-sm bg-blue-600 text-white hover:bg-blue-700 font-bold shadow-lg shadow-blue-600/20" onClick={() => window.location.href = "/"}>
                   {t("success.homeBtn")}
                 </Button>
               </section>
@@ -734,7 +734,7 @@ export default function SmartRfqBuilder() {
 
               <div className="flex items-center gap-4">
                 {step > 1 ? (
-                  <Button variant="outline" className="border-slate-200 text-slate-600 font-bold px-6 h-12 rounded-xl" onClick={handleBack}>
+                  <Button variant="outline" className="border-slate-200 text-slate-600 font-bold px-6 h-12 rounded-sm" onClick={handleBack}>
                     <ArrowLeft className="w-4 h-4 mr-2" /> {t("actions.back")}
                   </Button>
                 ) : (
@@ -745,7 +745,7 @@ export default function SmartRfqBuilder() {
               {step < 3 && (
                 <div className="flex items-center gap-4">
                   <Button
-                    className={`h-12 rounded-xl px-10 font-bold shadow-lg transition-all ${(step === 1 && !canProceedToStep2) || (step === 2 && !canProceedToStep3)
+                    className={`h-12 rounded-sm px-10 font-bold shadow-lg transition-all ${(step === 1 && !canProceedToStep2) || (step === 2 && !canProceedToStep3)
                       ? "bg-slate-200 text-slate-400 cursor-not-allowed shadow-none"
                       : "bg-primary hover:bg-primary/90 text-white shadow-primary/20"
                       }`}

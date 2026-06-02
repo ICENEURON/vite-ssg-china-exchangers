@@ -66,7 +66,7 @@ export default function BlogPost() {
                     {t("pages.news.blog.not_found_desc")}
                 </p>
                 <div className="p-4">
-                    <Button asChild size="lg" className="font-semibold px-8 h-12 rounded-full shadow-lg hover:shadow-xl transition-all">
+                    <Button asChild size="lg" className="font-semibold px-8 h-12 rounded-sm shadow-lg hover:shadow-xl transition-all">
                         <Link to={backLink}>
                             {t("pages.news.blog.back_to_list")}
                         </Link>
@@ -122,7 +122,7 @@ export default function BlogPost() {
                             </div>
 
                             {post.cover && (
-                                <div className="not-prose w-full rounded-2xl overflow-hidden shadow-lg">
+                                <div className="not-prose w-full rounded-sm overflow-hidden shadow-lg">
                                     <img
                                         src={post.cover}
                                         alt={post.title}
@@ -139,7 +139,7 @@ export default function BlogPost() {
                     </div>
 
                     {/* Sidebar */}
-                    <aside className="lg:col-span-1 flex flex-col gap-4 h-fit sticky top-48">
+                    <aside className="lg:col-span-1 flex flex-col gap-4 h-fit">
                         <div className="flex flex-col gap-2">
                             <div className="flex flex-col gap-4">
                                 <h3 className="relative font-bold text-[12px] text-slate-800 pb-2 border-b border-slate-100">
@@ -181,7 +181,7 @@ export default function BlogPost() {
             <div className="fixed bottom-6 right-4 z-50 flex max-w-[calc(100vw-2rem)] flex-col items-end gap-2 sm:right-6 sm:max-w-none">
                 <Link
                     to={backLink}
-                    className="group flex max-w-full items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float"
+                    className="group flex max-w-full items-center justify-center gap-2 rounded-sm border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float"
                 >
                     <ArrowLeft className="h-4 w-4 shrink-0 transition-transform group-hover:-translate-x-1" />
                     <span className="truncate">{t("pages.news.blog.back_to_catalog", "返回新闻")}</span>

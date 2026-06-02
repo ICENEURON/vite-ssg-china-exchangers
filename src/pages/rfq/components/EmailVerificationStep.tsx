@@ -96,13 +96,13 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
         return (
             <div className="w-full max-w-2xl mx-auto text-center">
                  <div className="h-[250px] flex flex-col items-center justify-center animate-in zoom-in-95 duration-500">
-                    <div className="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mb-6">
+                    <div className="w-20 h-20 bg-emerald-100 rounded-sm flex items-center justify-center mb-6">
                         <CheckCircle2 className="w-10 h-10 text-emerald-500" />
                     </div>
                     <h3 className="text-2xl font-bold text-slate-900">{t("step3.verifiedTitle")}</h3>
                     <p className="text-slate-500 mt-2">({email})</p>
                     <div className="mt-8">
-                        <Button size="lg" className="h-14 text-base font-bold bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white rounded-xl shadow-lg shadow-primary/20 px-8" onClick={onNext}>
+                        <Button size="lg" className="h-14 text-base font-bold bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white rounded-sm shadow-lg shadow-primary/20 px-8" onClick={onNext}>
                             {t("step3.continueBtn")} <ArrowRight className="w-5 h-5 ml-2" />
                         </Button>
                     </div>
@@ -167,7 +167,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                             type="email"
                             autoComplete="email"
                             aria-label={t("step3.emailLabel")}
-                            className="flex h-14 w-full rounded-xl border-2 border-slate-200 bg-background px-4 py-2 text-lg ring-offset-background transition-all hover:border-primary/40 focus:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
+                            className="flex h-14 w-full rounded-sm border-2 border-slate-200 bg-background px-4 py-2 text-lg ring-offset-background transition-all hover:border-primary/40 focus:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/10"
                             placeholder={t("step3.emailPlaceholder")}
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
@@ -175,7 +175,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                     </div>
 
                     {domainStatus === "free" && (
-                        <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 flex gap-3 text-amber-800">
+                        <div className="bg-amber-50 border border-amber-200 rounded-sm p-4 flex gap-3 text-amber-800">
                             <AlertTriangle className="w-5 h-5 shrink-0 mt-0.5" />
                             <div className="text-sm leading-relaxed">
                                 <span className="font-bold">{t("step3.freeEmailTitle")}</span> {t("step3.freeEmailDesc")}
@@ -184,7 +184,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                     )}
 
                     {domainStatus === "business" && (
-                        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-4 flex gap-3 text-emerald-800">
+                        <div className="bg-emerald-50 border border-emerald-200 rounded-sm p-4 flex gap-3 text-emerald-800">
                             <ShieldCheck className="w-5 h-5 shrink-0 mt-0.5" />
                             <div className="text-sm leading-relaxed">
                                 <span className="font-bold">{t("step3.businessEmailTitle")}</span> {t("step3.businessEmailDesc")}
@@ -194,7 +194,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
 
                     <Button
                         size="lg"
-                        className="w-full h-14 text-base font-bold bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white rounded-xl shadow-lg shadow-primary/20"
+                        className="w-full h-14 text-base font-bold bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white rounded-sm shadow-lg shadow-primary/20"
                         disabled={!isEmailReady || isLoading}
                         onClick={handleSendCode}
                     >
@@ -202,7 +202,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                     </Button>
 
                     {showSendError && (
-                        <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-center text-sm font-semibold text-red-600">
+                        <div className="rounded-sm border border-red-200 bg-red-50 px-4 py-3 text-center text-sm font-semibold text-red-600">
                             {errorMsg}
                         </div>
                     )}
@@ -218,7 +218,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
 
                     <div className="space-y-2">
                         <div
-                            className={`relative overflow-hidden rounded-2xl border px-3 py-4 ring-offset-background transition-all focus-within:outline-none sm:px-5 ${isOtpFocused
+                            className={`relative overflow-hidden rounded-sm border px-3 py-4 ring-offset-background transition-all focus-within:outline-none sm:px-5 ${isOtpFocused
                                 ? "border-primary/30 bg-white shadow-lg shadow-primary/10 ring-4 ring-primary/10"
                                 : "border-blue-200/80 bg-linear-to-r from-blue-50/80 via-white to-slate-50"
                                 }`}
@@ -268,7 +268,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                                                 }`}>
                                                 {value || "\u00a0"}
                                             </span>
-                                            <span className={`absolute bottom-1 left-1/2 h-0.5 -translate-x-1/2 rounded-full transition-all sm:bottom-2 ${showCaret
+                                            <span className={`absolute bottom-1 left-1/2 h-0.5 -translate-x-1/2 rounded-sm transition-all sm:bottom-2 ${showCaret
                                                 ? "w-8 bg-blue-500"
                                                 : isCurrentSlot
                                                     ? "w-7 bg-blue-500"
@@ -277,7 +277,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                                                         : "w-5 bg-blue-200"
                                                 }`} />
                                             {showCaret && (
-                                                <span className={`absolute top-1/2 w-0.5 -translate-y-1/2 animate-pulse rounded-full bg-blue-600 ${isFilled ? "right-[calc(50%-0.9rem)] h-6 sm:right-[calc(50%-1.1rem)] sm:h-7" : "h-7 sm:h-8"}`} />
+                                                <span className={`absolute top-1/2 w-0.5 -translate-y-1/2 animate-pulse rounded-sm bg-blue-600 ${isFilled ? "right-[calc(50%-0.9rem)] h-6 sm:right-[calc(50%-1.1rem)] sm:h-7" : "h-7 sm:h-8"}`} />
                                             )}
                                         </div>
                                     );
@@ -289,7 +289,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
                     <div>
                         <Button
                             size="lg"
-                            className="h-14 w-full text-base font-bold bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white rounded-xl shadow-lg shadow-primary/20"
+                            className="h-14 w-full text-base font-bold bg-gradient-to-r from-primary to-orange-500 hover:from-primary/90 hover:to-orange-400 text-white rounded-sm shadow-lg shadow-primary/20"
                             disabled={!otp.trim() || isLoading}
                             onClick={handleVerifyOtp}
                         >
@@ -307,7 +307,7 @@ export function EmailVerificationStep({ email, setEmail, onVerify, isVerified, o
 
             {step === "success" && (
                 <div className="h-[250px] flex flex-col items-center justify-center animate-in zoom-in-95 duration-500">
-                    <div className="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mb-6">
+                    <div className="w-20 h-20 bg-emerald-100 rounded-sm flex items-center justify-center mb-6">
                         <CheckCircle2 className="w-10 h-10 text-emerald-500" />
                     </div>
                     <h3 className="text-2xl font-bold text-slate-900">{t("step3.successTitle")}</h3>

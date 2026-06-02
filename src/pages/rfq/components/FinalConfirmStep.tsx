@@ -99,7 +99,7 @@ export function FinalConfirmStep({ context, specs, specsMode, attachments, email
         const outletFlangeNominalDiameter = resolveOutletValue(sideData.inletFlangeNominalDiameter, sideData.outletFlangeNominalDiameter);
 
         return (
-            <div className={`${toneClassName} rounded-xl p-4`}>
+            <div className={`${toneClassName} rounded-sm p-4`}>
                 <div className="mb-3 text-xs font-bold uppercase tracking-widest">{title}</div>
                 {renderSummaryItem(t("step4.summaryMediaName"), sideData.mediaName)}
                 {renderSummaryItem(t("step4.summaryInletFluidType"), formatOptionValue(fluidTypes, sideData.inletFluidType))}
@@ -135,17 +135,17 @@ export function FinalConfirmStep({ context, specs, specsMode, attachments, email
 
     return (
         <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4">
-            <div className="flex flex-col items-center rounded-2xl border border-green-200 bg-green-50 p-6 text-center">
-                <div className="mb-4 rounded-full bg-green-100 p-3">
+            <div className="flex flex-col items-center rounded-sm border border-green-200 bg-green-50 p-6 text-center">
+                <div className="mb-4 rounded-sm bg-green-100 p-3">
                     <Check className="h-6 w-6 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold text-green-800">{t("step4.emailVerifiedTitle")}</h3>
                 <p className="mt-1 text-sm text-green-700">{email}</p>
             </div>
 
-            <div className="flex flex-col gap-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex flex-col gap-6 rounded-sm border border-slate-200 bg-white p-6 shadow-sm sm:flex-row sm:items-center sm:justify-between">
                 <div className="flex items-start gap-4">
-                    <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl transition-colors duration-300 ${isAnonymous ? "bg-primary/10" : "bg-slate-100"}`}>
+                    <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-sm transition-colors duration-300 ${isAnonymous ? "bg-primary/10" : "bg-slate-100"}`}>
                         {isAnonymous ? <ShieldCheck className="h-6 w-6 text-primary" /> : <User className="h-6 w-6 text-slate-500" />}
                     </div>
                     <div>
@@ -158,16 +158,16 @@ export function FinalConfirmStep({ context, specs, specsMode, attachments, email
                     role="switch"
                     aria-checked={isAnonymous}
                     onClick={onToggleAnonymous}
-                    className={`relative inline-flex h-8 w-14 shrink-0 cursor-pointer self-end rounded-full border-2 border-transparent transition-colors duration-300 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 sm:self-auto ${isAnonymous ? "bg-primary" : "bg-slate-300"}`}
+                    className={`relative inline-flex h-8 w-14 shrink-0 cursor-pointer self-end rounded-sm border-2 border-transparent transition-colors duration-300 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 sm:self-auto ${isAnonymous ? "bg-primary" : "bg-slate-300"}`}
                 >
-                    <span className={`pointer-events-none block h-7 w-7 rounded-full bg-white shadow-md ring-0 transition-transform duration-300 ease-in-out ${isAnonymous ? "translate-x-6" : "translate-x-0"}`} />
+                    <span className={`pointer-events-none block h-7 w-7 rounded-sm bg-white shadow-md ring-0 transition-transform duration-300 ease-in-out ${isAnonymous ? "translate-x-6" : "translate-x-0"}`} />
                 </button>
             </div>
 
             {sourceManufacturerName && (
-                <div className="flex flex-col gap-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:flex-row sm:items-center sm:justify-between">
+                <div className="flex flex-col gap-6 rounded-sm border border-slate-200 bg-white p-6 shadow-sm sm:flex-row sm:items-center sm:justify-between">
                     <div className="flex items-start gap-4">
-                        <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl transition-colors duration-300 ${isTargetingSourceManufacturer ? "bg-emerald-100" : "bg-slate-100"}`}>
+                        <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-sm transition-colors duration-300 ${isTargetingSourceManufacturer ? "bg-emerald-100" : "bg-slate-100"}`}>
                             <Send className={`h-6 w-6 ${isTargetingSourceManufacturer ? "text-emerald-600" : "text-slate-400"}`} />
                         </div>
                         <div>
@@ -184,14 +184,14 @@ export function FinalConfirmStep({ context, specs, specsMode, attachments, email
                         role="switch"
                         aria-checked={isTargetingSourceManufacturer}
                         onClick={onToggleTargetingSourceManufacturer}
-                        className={`relative inline-flex h-8 w-14 shrink-0 cursor-pointer self-end rounded-full border-2 border-transparent transition-colors duration-300 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2 sm:self-auto ${isTargetingSourceManufacturer ? "bg-emerald-500" : "bg-slate-300"}`}
+                        className={`relative inline-flex h-8 w-14 shrink-0 cursor-pointer self-end rounded-sm border-2 border-transparent transition-colors duration-300 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2 sm:self-auto ${isTargetingSourceManufacturer ? "bg-emerald-500" : "bg-slate-300"}`}
                     >
-                        <span className={`pointer-events-none block h-7 w-7 rounded-full bg-white shadow-md ring-0 transition-transform duration-300 ease-in-out ${isTargetingSourceManufacturer ? "translate-x-6" : "translate-x-0"}`} />
+                        <span className={`pointer-events-none block h-7 w-7 rounded-sm bg-white shadow-md ring-0 transition-transform duration-300 ease-in-out ${isTargetingSourceManufacturer ? "translate-x-6" : "translate-x-0"}`} />
                     </button>
                 </div>
             )}
 
-            <div className="space-y-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div className="space-y-8 rounded-sm border border-slate-200 bg-white p-6 shadow-sm">
                 <div>
                     <div className="mb-4 flex items-center justify-between border-b border-slate-200 pb-2">
                         <h4 className="text-sm font-bold uppercase tracking-widest text-slate-900">{t("step4.projectContextTitle")}</h4>
@@ -211,7 +211,7 @@ export function FinalConfirmStep({ context, specs, specsMode, attachments, email
                         </button>
                     </div>
 
-                    <div className="mb-6 rounded-xl bg-slate-50 p-4">
+                    <div className="mb-6 rounded-sm bg-slate-50 p-4">
                         <div className="mb-3 text-xs font-bold uppercase tracking-widest text-slate-400">{t("step2.basicRequirementTitle", { defaultValue: "Basic requirement" })}</div>
                         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                             <div>
@@ -220,7 +220,7 @@ export function FinalConfirmStep({ context, specs, specsMode, attachments, email
                                 {renderSummaryItem(t("step1.timelineLabel", { defaultValue: "Expected delivery timeline" }), formatOptionValue(timelines, specs.timeline, specs.customTimeline))}
                             </div>
                             {specs.additionalNotes && (
-                                <div className="rounded-lg border border-slate-200 bg-white p-3">
+                                <div className="rounded-sm border border-slate-200 bg-white p-3">
                                     <div className="mb-1 text-xs font-bold text-slate-500">{t("step4.summaryNotes")}</div>
                                     <p className="break-words text-sm leading-relaxed text-slate-700">{specs.additionalNotes}</p>
                                 </div>
@@ -229,13 +229,13 @@ export function FinalConfirmStep({ context, specs, specsMode, attachments, email
                     </div>
 
                     {attachments.length > 0 && (
-                        <div className="mb-6 rounded-xl border border-slate-200 bg-white p-4">
+                        <div className="mb-6 rounded-sm border border-slate-200 bg-white p-4">
                             <div className="mb-3 text-xs font-bold uppercase tracking-widest text-slate-400">
                                 {t("step2.attachmentsTitle", { defaultValue: "Attachments" })}
                             </div>
                             <div className="space-y-2">
                                 {attachments.map((file) => (
-                                    <div key={`${file.name}-${file.lastModified}-${file.size}`} className="flex items-center gap-3 rounded-lg bg-slate-50 px-3 py-2">
+                                    <div key={`${file.name}-${file.lastModified}-${file.size}`} className="flex items-center gap-3 rounded-sm bg-slate-50 px-3 py-2">
                                         <FileText className="h-4 w-4 shrink-0 text-slate-500" />
                                         <span className="min-w-0 flex-1 truncate text-sm font-semibold text-slate-800">{file.name}</span>
                                         <span className="text-xs text-slate-500">{formatFileSize(file.size)}</span>
@@ -311,7 +311,7 @@ export function FinalConfirmStep({ context, specs, specsMode, attachments, email
                             flangeTypeSealingFace: specs.coldFlangeTypeSealingFace,
                         })}
 
-                        <div className="rounded-xl bg-slate-50 p-4 md:col-span-2">
+                        <div className="rounded-sm bg-slate-50 p-4 md:col-span-2">
                             <div className="mb-3 text-xs font-bold uppercase tracking-widest text-slate-400">{t("step4.summaryGeneralReq")}</div>
                             <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                                 <div>

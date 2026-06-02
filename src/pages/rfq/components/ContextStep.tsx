@@ -28,7 +28,7 @@ const COUNTRIES = rawCountries
 export function ContextStep({ data, onChange }: ContextStepProps) {
     const { t } = useTranslation("translation", { keyPrefix: "pages.rfq" });
     const industries = t("industries", { returnObjects: true }) as {id: string, label: string}[];
-    const inputClass = "h-9 w-full rounded-md border border-slate-200 bg-white px-3 py-1 text-xs ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 sm:h-10 sm:text-sm";
+    const inputClass = "h-9 w-full rounded-sm border border-slate-200 bg-white px-3 py-1 text-xs ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 sm:h-10 sm:text-sm";
     const requiredInputClass = inputClass;
     const requiredInputStyle = undefined;
     const labelClass = "mb-1.5 block text-[9px] font-bold tracking-wide text-slate-700 sm:text-[11px]";
@@ -46,7 +46,7 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
     ) => (
         <div>
             <div className={required ? requiredLabelClass : labelClass}>{label}{required && requiredMark}</div>
-            <div className="grid grid-cols-2 gap-2 rounded-md md:grid-cols-3 xl:grid-cols-4">
+            <div className="grid grid-cols-2 gap-2 rounded-sm md:grid-cols-3 xl:grid-cols-4">
                 {options.map((option) => {
                     const isSelected = currentValue === option.id;
                     return (
@@ -55,7 +55,7 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                             key={option.id}
                             onClick={() => onChange({ [fieldKey]: option.id })}
                             className={`
-                                relative flex min-h-9 items-center justify-center rounded-md border px-2 py-1.5 text-center text-[11px] font-semibold leading-tight transition-all duration-200 sm:min-h-10 sm:px-3 sm:py-2 sm:text-xs
+                                relative flex min-h-9 items-center justify-center rounded-sm border px-2 py-1.5 text-center text-[11px] font-semibold leading-tight transition-all duration-200 sm:min-h-10 sm:px-3 sm:py-2 sm:text-xs
                                 ${isSelected
                                     ? 'border-primary bg-primary/10 text-primary shadow-sm ring-1 ring-primary/40'
                                     : 'border-slate-200 bg-white text-slate-600 hover:border-primary/40'
@@ -63,7 +63,7 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                             `}
                         >
                             {isSelected && (
-                                <div className="absolute -right-1 -top-1 rounded-full bg-primary p-0.5 text-white">
+                                <div className="absolute -right-1 -top-1 rounded-sm bg-primary p-0.5 text-white">
                                     <Check className="h-3 w-3" />
                                 </div>
                             )}
@@ -92,7 +92,7 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
 
     return (
         <div className="animate-in fade-in slide-in-from-bottom-4">
-            <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
+            <div className="rounded-sm border border-slate-200 bg-white p-4 shadow-sm md:p-6">
             <div className="grid grid-cols-2 gap-3">
                     <div>
                         <label htmlFor="rfq-firstName" className={requiredLabelClass}>{t("step1.firstNameLabel")}{requiredMark}</label>
@@ -132,7 +132,7 @@ export function ContextStep({ data, onChange }: ContextStepProps) {
                                     value={data.country}
                                     onChange={(e) => onChange({ country: e.target.value })}
                                     className={`
-                                        h-9 w-full appearance-none rounded-md border border-slate-200 bg-white px-3 py-1 text-xs ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 sm:h-10 sm:text-sm
+                                        h-9 w-full appearance-none rounded-sm border border-slate-200 bg-white px-3 py-1 text-xs ring-offset-background transition-all focus:border-primary/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/10 sm:h-10 sm:text-sm
                                         ${data.country ? 'text-slate-900' : 'text-slate-500'}
                                     `}
                                 >

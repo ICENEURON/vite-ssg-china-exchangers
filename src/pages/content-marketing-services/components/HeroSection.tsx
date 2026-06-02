@@ -18,10 +18,10 @@ export function HeroSection() {
         <section className="relative overflow-hidden px-2 py-8 md:py-10">
             {/* Background Gradients */}
             <div className="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 blur-3xl opacity-20 pointer-events-none">
-                <div className="aspect-square w-[800px] rounded-full bg-foreground/40 mix-blend-multiply" />
+                <div className="aspect-square w-[800px] rounded-sm bg-foreground/40 mix-blend-multiply" />
             </div>
             <div className="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 blur-3xl opacity-20 pointer-events-none">
-                <div className="aspect-square w-[600px] rounded-full bg-blue-500/40 mix-blend-multiply" />
+                <div className="aspect-square w-[600px] rounded-sm bg-blue-500/40 mix-blend-multiply" />
             </div>
 
             {/* Grid Pattern */}
@@ -48,7 +48,7 @@ export function HeroSection() {
                 </p>
 
                 <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <Button size="lg" className="h-14 px-8 text-lg rounded-full group" asChild>
+                    <Button size="lg" className="h-14 px-8 text-lg rounded-sm group" asChild>
                         <a href="#cms-email" onClick={handleScrollToEmail}>
                             {t("buttons.start_publishing")}
                             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

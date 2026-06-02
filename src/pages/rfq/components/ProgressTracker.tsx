@@ -19,7 +19,7 @@ export function ProgressTracker({ currentStep }: { currentStep: number }) {
                                 ${isCurrent ? 'opacity-100' : isCompleted ? 'opacity-70' : 'opacity-40 grayscale'}
                             `}>
                                 <div className={`
-                                    w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold shrink-0
+                                    w-6 h-6 rounded-sm flex items-center justify-center text-xs font-bold shrink-0
                                     ${isCompleted || isCurrent ? 'bg-primary text-primary-foreground' : 'bg-slate-200 text-slate-500'}
                                 `}>
                                     {stepNumber}

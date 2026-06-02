@@ -165,15 +165,15 @@ export default function ProductProfilePage() {
                 siteName={siteName}
             />
 
-            <main className="min-h-screen bg-slate-50/50 text-foreground animate-in fade-in duration-500 pb-20">
+            <main className="min-h-screen bg-slate-50/50 text-foreground animate-in fade-in duration-500 pb-20 overflow-x-hidden">
 
                 {/* Header Section */}
                 <section className="bg-slate-900 border-b border-border/40 py-16 pt-32 mt-[-4rem]">
                     <div className="container max-w-6xl mx-auto px-6">
-                        <div className="flex flex-col md:flex-row gap-12 items-start">
+                        <div className="flex flex-col lg:flex-row gap-12 items-start">
 
                             {/* Product Image / Video Gallery */}
-                            <div className="w-full md:w-1/2">
+                            <div className="order-2 w-full lg:order-1 lg:w-1/2">
                                 {gallerySlides.length > 0 ? (
                                     <ImageCarouselGallery
                                         images={gallerySlides}
@@ -181,10 +181,11 @@ export default function ProductProfilePage() {
                                         aspectClassName="aspect-[4/3]"
                                         imageClassName="object-contain"
                                         panelClassName="bg-transparent"
+                                        cornerClassName="!rounded-sm"
                                     />
                                 ) : (
-                                    <div className="rounded-2xl overflow-hidden relative">
-                                        <div className="flex aspect-[4/3] items-center justify-center rounded-xl border border-slate-700 text-slate-400">
+                                    <div className="rounded-sm overflow-hidden relative">
+                                        <div className="flex aspect-[4/3] items-center justify-center rounded-sm border border-slate-700 text-slate-400">
                                             {t("pages.products.detail.no_image")}
                                         </div>
                                     </div>
@@ -192,7 +193,7 @@ export default function ProductProfilePage() {
                             </div>
 
                             {/* Product Info */}
-                            <div className="w-full md:w-1/2 flex flex-col items-start gap-6 pt-1">
+                            <div className="order-1 w-full lg:order-2 lg:w-1/2 flex flex-col items-start gap-6 pt-1">
                                 <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-tight">
                                     {name}
                                 </h1>
@@ -205,6 +206,7 @@ export default function ProductProfilePage() {
                                             itemClassName="min-w-0 !bg-transparent !border-0 !shadow-none !rounded-none !p-0 hover:!bg-transparent [&>div:last-of-type]:mb-0 [&>div:last-of-type]:h-auto [&>div:last-of-type]:w-auto"
                                             imageClassName="h-8 w-auto max-w-[96px] object-contain"
                                             labelClassName="!hidden"
+                                            cornerClassName="!rounded-sm"
                                             showExpandIcon={false}
                                         />
                                     </div>
@@ -215,7 +217,7 @@ export default function ProductProfilePage() {
 
                                 <div className="flex flex-wrap gap-2 mt-2">
                                     {industries.map((ind: string, idx: number) => (
-                                        <Badge key={idx} variant="outline" className="text-slate-300 border-slate-700 bg-slate-800/50">
+                                        <Badge key={idx} variant="outline" className="rounded-sm text-slate-300 border-slate-700 bg-slate-800/50">
                                             {ind}
                                         </Badge>
                                     ))}
@@ -240,18 +242,16 @@ export default function ProductProfilePage() {
                 </section>
 
                 {/* Content Sections */}
-                <div className="container max-w-6xl mx-auto px-6 py-10 md:py-12 space-y-14 md:space-y-16">
+                <div className="container max-w-6xl mx-auto px-4 py-4 space-y-4">
 
                     {/* Product Details */}
                     {details.length > 0 && (
-                        <section>
-                            <div className="flex items-center gap-3 mb-5 md:mb-6">
-                                <div className="p-3 bg-violet-500/10 rounded-xl text-violet-600">
-                                    <BookOpen className="w-6 h-6" />
-                                </div>
-                                <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.product_details")}</h2>
+                        <section className="mb-4 w-full max-w-full min-w-0">
+                            <div className="mt-6 mb-4 flex items-center gap-2">
+                                <BookOpen className="h-6 w-6 shrink-0 text-violet-600" />
+                                <h2 className="text-lg font-bold tracking-tight text-slate-900">{t("pages.products.detail.product_details")}</h2>
                             </div>
-                            <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
+                            <div className="rounded-sm border border-slate-200 bg-white p-4 shadow-sm">
                                 {details.map((detail, idx) => (
                                     <div key={idx} className={idx > 0 ? "mt-6 pt-1" : undefined}>
                                         <h3 className="text-xl font-bold mb-3 text-card-foreground">{detail.title}</h3>
@@ -264,15 +264,13 @@ export default function ProductProfilePage() {
 
                     {/* Advantages */}
                     {advantages && advantages.length > 0 && (
-                        <section>
-                            <div className="flex items-center gap-3 mb-5 md:mb-6">
-                                <div className="p-3 bg-primary/10 rounded-xl text-primary">
-                                    <CheckCircle2 className="w-6 h-6" />
-                                </div>
-                                <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.key_advantages")}</h2>
+                        <section className="mb-4 w-full max-w-full min-w-0">
+                            <div className="mt-6 mb-4 flex items-center gap-2">
+                                <CheckCircle2 className="h-6 w-6 shrink-0 text-blue-600" />
+                                <h2 className="text-lg font-bold tracking-tight text-slate-900">{t("pages.products.detail.key_advantages")}</h2>
                             </div>
-                            <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
-                                <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
+                            <div className="rounded-sm border border-slate-200 bg-white p-4 shadow-sm">
+                                <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                                     {advantages.map((adv: string, idx: number) => (
                                         <div key={idx} className="flex items-start gap-4 px-1 py-1">
                                             <CheckCircle2 className="w-6 h-6 text-emerald-500 shrink-0 mt-0.5" />
@@ -286,20 +284,18 @@ export default function ProductProfilePage() {
 
                     {/* Technical Parameters */}
                     {hasTechnicalParams && (
-                        <section>
-                            <div className="flex items-center gap-3 mb-5 md:mb-6">
-                                <div className="p-3 bg-blue-500/10 rounded-xl text-blue-600">
-                                    <Settings className="w-6 h-6" />
-                                </div>
-                                <h2 className="text-3xl font-bold tracking-tight">{t("pages.products.detail.technical_specifications")}</h2>
+                        <section className="mb-4 w-full max-w-full min-w-0">
+                            <div className="mt-6 mb-4 flex items-center gap-2">
+                                <Settings className="h-6 w-6 shrink-0 text-blue-600" />
+                                <h2 className="text-lg font-bold tracking-tight text-slate-900">{t("pages.products.detail.technical_specifications")}</h2>
                             </div>
-                            <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+                            <div className="overflow-hidden rounded-sm border border-slate-200 bg-white shadow-sm">
                                 <table className="w-full text-left border-collapse">
                                     <tbody>
                                         {Object.entries(technicalParams).map(([key, value], index) => (
                                             <tr key={key} className={`border-b border-slate-200 last:border-0 ${index % 2 === 0 ? 'bg-slate-50' : 'bg-white'}`}>
-                                                <th className="w-1/3 border-r border-slate-200 bg-slate-100/80 px-6 py-4 font-semibold text-slate-700">{key}</th>
-                                                <td className="px-6 py-4 font-medium text-slate-900">{String(value)}</td>
+                                                <th className="w-1/3 border-r border-slate-200 bg-slate-100/80 p-4 font-semibold text-slate-700">{key}</th>
+                                                <td className="p-4 font-medium text-slate-900">{String(value)}</td>
                                             </tr>
                                         ))}
                                     </tbody>
@@ -310,13 +306,11 @@ export default function ProductProfilePage() {
 
                     {/* More Products From This Manufacturer */}
                     {relatedProducts.length > 0 && (
-                        <section>
-                            <div className="mb-5 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between md:mb-6">
-                                <div className="flex items-center gap-3">
-                                    <div className="p-3 bg-slate-900/10 rounded-xl text-slate-700">
-                                        <Factory className="w-6 h-6" />
-                                    </div>
-                                    <h2 className="text-3xl font-bold tracking-tight">
+                        <section className="mb-4 w-full max-w-full min-w-0">
+                            <div className="mt-6 mb-4 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                                <div className="flex items-center gap-2">
+                                    <Factory className="h-6 w-6 shrink-0 text-slate-700" />
+                                    <h2 className="text-lg font-bold tracking-tight text-slate-900">
                                         {t("pages.products.detail.other_products")}
                                     </h2>
                                 </div>
@@ -332,7 +326,7 @@ export default function ProductProfilePage() {
                                     <Link
                                         key={product.slug}
                                         to={addLanguageToPath(`/products/${manufacturerSlug}/${product.slug}`, currentLanguage)}
-                                        className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/20 hover:shadow-xl hover:shadow-primary/10"
+                                        className="group flex h-full flex-col overflow-hidden rounded-sm border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/20 hover:shadow-xl hover:shadow-primary/10"
                                     >
                                         <div className="relative flex h-56 items-center justify-center overflow-hidden bg-white p-4">
                                             {product.image ? (
@@ -365,7 +359,7 @@ export default function ProductProfilePage() {
                                             {product.industries && product.industries.length > 0 && (
                                                 <div className="mt-3 flex flex-wrap content-start items-start gap-1.5">
                                                     {product.industries.slice(0, 3).map((industry, idx) => (
-                                                        <Badge key={`${industry}-${idx}`} variant="secondary" className="rounded-full border-blue-600/20 bg-blue-200/30 px-2 py-0.5 text-[11px] font-bold text-blue-700 hover:bg-blue-200/30">
+                                                        <Badge key={`${industry}-${idx}`} variant="secondary" className="rounded-sm border-blue-600/20 bg-blue-200/30 px-2 py-0.5 text-[11px] font-bold text-blue-700 hover:bg-blue-200/30">
                                                             {industry}
                                                         </Badge>
                                                     ))}
@@ -387,18 +381,16 @@ export default function ProductProfilePage() {
 
                     {/* Document Downloads */}
                     {documents.length > 0 && (
-                        <section>
-                            <div className="flex items-center gap-3 mb-5 md:mb-6">
-                                <div className="p-3 bg-emerald-500/10 rounded-xl text-emerald-600">
-                                    <FileText className="w-6 h-6" />
-                                </div>
-                                <h2 className="text-3xl font-bold tracking-tight">{documentDownloadsTitle}</h2>
+                        <section className="mb-4 w-full max-w-full min-w-0">
+                            <div className="mt-6 mb-4 flex items-center gap-2">
+                                <FileText className="h-6 w-6 shrink-0 text-emerald-600" />
+                                <h2 className="text-lg font-bold tracking-tight text-slate-900">{documentDownloadsTitle}</h2>
                             </div>
                             <div className="space-y-4">
                                 {documents.map((doc, idx) => (
-                                    <div key={idx} className="bg-card p-6 rounded-2xl border border-border/50 shadow-sm flex items-center justify-between gap-4 hover:shadow-md transition-shadow">
+                                    <div key={idx} className="bg-card p-4 rounded-sm border border-border/50 shadow-sm flex items-center justify-between gap-4 hover:shadow-md transition-shadow">
                                         <div className="flex items-center gap-4 min-w-0">
-                                            <div className="p-2.5 bg-red-50 rounded-xl shrink-0">
+                                            <div className="p-2.5 bg-red-50 rounded-sm shrink-0">
                                                 <FileText className="w-5 h-5 text-red-500" />
                                             </div>
                                             <div className="min-w-0">
@@ -410,7 +402,7 @@ export default function ProductProfilePage() {
                                             download={getDocumentDisplayName(doc)}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm rounded-xl shadow-sm hover:shadow-md transition-all hover:scale-[1.02]"
+                                            className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm rounded-sm shadow-sm hover:shadow-md transition-all hover:scale-[1.02]"
                                         >
                                             <Download className="w-4 h-4" />
                                             {downloadLabel}
@@ -428,14 +420,14 @@ export default function ProductProfilePage() {
             <div className="fixed bottom-6 right-6 z-50 hidden flex-col items-end gap-2 lg:flex">
                 <Link
                     to={addLanguageToPath('/manufacturers', currentLanguage)}
-                    className="group flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float"
+                    className="group flex items-center justify-center gap-2 rounded-sm border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float"
                 >
                     <ArrowLeft className="h-4 w-4 shrink-0 transition-transform group-hover:-translate-x-1" />
                     <span className="truncate">{t("pages.products.detail.back_to_manufacturers")}</span>
                 </Link>
                 <Link
                     to={addLanguageToPath('/products', currentLanguage)}
-                    className="group flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float"
+                    className="group flex items-center justify-center gap-2 rounded-sm border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:text-blue-600 hover:shadow-float"
                 >
                     <ArrowLeft className="h-4 w-4 shrink-0 transition-transform group-hover:-translate-x-1" />
                     <span className="truncate">{t("pages.products.detail.back_to_list")}</span>

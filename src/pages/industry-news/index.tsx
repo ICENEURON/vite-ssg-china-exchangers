@@ -65,7 +65,7 @@ function FilterButton({
             aria-pressed={active}
             onClick={onClick}
             className={cn(
-                "flex w-full items-start justify-between gap-3 rounded-lg border border-border/60 bg-white px-3 py-2.5 text-left text-sm font-semibold text-foreground shadow-sm transition-all duration-300",
+                "flex w-full items-start justify-between gap-3 rounded-sm border border-border/60 bg-white px-3 py-2.5 text-left text-sm font-semibold text-foreground shadow-sm transition-all duration-300",
                 active
                     ? "border-primary/35 bg-primary/[0.06] text-primary"
                     : "hover:border-primary/30 hover:bg-blue-50/60",
@@ -202,7 +202,7 @@ export default function BlogsPage() {
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-[220px_minmax(0,1fr)] gap-8 items-start">
-                        <aside className="space-y-6 lg:sticky lg:top-24">
+                        <aside className="space-y-6">
                             <div>
                                 <div className="space-y-2">
                                     {contentTypeOptions.map((option) => (
@@ -244,7 +244,7 @@ export default function BlogsPage() {
                                     onChange={(event) => setSearchQuery(event.target.value)}
                                     placeholder={t('pages.news.search.title_placeholder')}
                                     aria-label={t('pages.news.search.label')}
-                                    className="h-11 rounded-lg border-border/60 bg-white pl-10 text-sm shadow-sm focus-visible:border-primary focus-visible:ring-primary/20"
+                                    className="h-11 rounded-sm border-border/60 bg-white pl-10 text-sm shadow-sm focus-visible:border-primary focus-visible:ring-primary/20"
                                 />
                             </div>
 
@@ -265,7 +265,7 @@ export default function BlogsPage() {
                                     {filteredPosts.length > 0 && (
                                         <div className="mt-8 flex flex-col md:flex-row justify-between items-center gap-4 border-t border-border pt-6">
 
-                                            {/* 移除结果数，仅保留分页 */}
+                                            {/* 移除结果数，仅保留分�?*/}
 
                                             {/* Center: Pagination */}
                                             {totalPages > 1 && (

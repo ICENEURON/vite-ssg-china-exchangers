@@ -18,10 +18,10 @@ export function NewsCard({ post }: NewsCardProps) {
     return (
         <Link
             to={post.permalink}
-            className="group flex flex-col sm:flex-row gap-6 p-4 rounded-2xl hover:bg-slate-50 transition-all duration-300"
+            className="group flex flex-col sm:flex-row gap-6 p-4 rounded-sm hover:bg-slate-50 transition-all duration-300"
         >
-            {/* Thumbnail Section: 仅sm及以上显示 */}
-            <div className="hidden sm:block w-40 aspect-[4/3] shrink-0 rounded-xl overflow-hidden relative shadow-sm">
+            {/* Thumbnail Section: 仅sm及以上显�?*/}
+            <div className="hidden sm:block w-40 aspect-[4/3] shrink-0 rounded-sm overflow-hidden relative shadow-sm">
                 <img
                     src={post.cover}
                     alt={post.title}
