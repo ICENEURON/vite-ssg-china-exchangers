@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo elegir un fabricante chino de intercambiadores de calor de carcasa y tubos? Lista de..."
+title: "¿Cómo elegir un fabricante chino de intercambiadores de calor de carcasa y tubos? Lista de Normas, Materiales, Inspecciones y Cotizaciones"
 slug: shell-and-tube-heat-exchanger-manufacturer-china-checklist
 date: 2025-09-19
 author: "Equipo editorial HeatEx Direct"

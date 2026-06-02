@@ -16,6 +16,7 @@ interface LightboxProps {
   images: GalleryImageItem[]
   index: number
   open: boolean
+  cornerClassName?: string
   onClose: () => void
   onIndexChange: (index: number) => void
 }
@@ -27,6 +28,7 @@ interface ImageCarouselGalleryProps {
   imageClassName?: string
   className?: string
   panelClassName?: string
+  cornerClassName?: string
 }
 
 interface ZoomableImageGridProps {
@@ -36,6 +38,7 @@ interface ZoomableImageGridProps {
   itemClassName?: string
   imageClassName?: string
   labelClassName?: string
+  cornerClassName?: string
   showExpandIcon?: boolean
 }
 
@@ -53,7 +56,7 @@ function getNextZoom(currentZoom: number, deltaY: number) {
   return clampValue(Number((currentZoom + zoomStep).toFixed(2)), 1, 4)
 }
 
-function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps) {
+function Lightbox({ images, index, open, cornerClassName, onClose, onIndexChange }: LightboxProps) {
   const { t } = useTranslation("translation")
   const [zoom, setZoom] = useState(1)
   const [pan, setPan] = useState({ x: 0, y: 0 })
@@ -153,7 +156,7 @@ function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps
                 type="button"
                 variant="outline"
                 size="icon"
-                className="absolute left-0 top-1/2 z-20 -translate-y-1/2 rounded-full border-0 bg-white/20 text-black shadow-lg hover:bg-white hover:text-primary sm:left-4"
+                className={cn("absolute left-0 top-1/2 z-20 -translate-y-1/2 rounded-full border-0 bg-white/20 text-black shadow-lg hover:bg-white hover:text-primary sm:left-4", cornerClassName)}
                 onClick={() => onIndexChange(clampIndex(index - 1, images.length))}
               >
                 <ArrowLeft className="h-4 w-4" />
@@ -163,7 +166,7 @@ function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps
                 type="button"
                 variant="outline"
                 size="icon"
-                className="absolute right-0 top-1/2 z-20 -translate-y-1/2 rounded-full border-0 bg-white/20 text-black shadow-lg hover:bg-white hover:text-primary sm:right-4"
+                className={cn("absolute right-0 top-1/2 z-20 -translate-y-1/2 rounded-full border-0 bg-white/20 text-black shadow-lg hover:bg-white hover:text-primary sm:right-4", cornerClassName)}
                 onClick={() => onIndexChange(clampIndex(index + 1, images.length))}
               >
                 <ArrowRight className="h-4 w-4" />
@@ -190,7 +193,7 @@ function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps
               src={currentImage.src}
               alt={currentImage.alt || t("ui.image.preview_image")}
               draggable={false}
-              className="max-h-full max-w-full rounded-2xl object-contain shadow-2xl will-change-transform select-none"
+              className={cn("max-h-full max-w-full rounded-2xl object-contain shadow-2xl will-change-transform select-none", cornerClassName)}
               style={{ transform: `scale(${zoom}) translate(${pan.x / zoom}px, ${pan.y / zoom}px)`, transition: isDragging ? 'none' : 'transform 150ms' }}
             />
           </div>
@@ -204,6 +207,7 @@ function Lightbox({ images, index, open, onClose, onIndexChange }: LightboxProps
                 type="button"
                 className={cn(
                   'h-12 w-12 shrink-0 overflow-hidden rounded-lg border transition-all sm:h-14 sm:w-14',
+                  cornerClassName,
                   imageIndex === index ? 'border-white ring-2 ring-white/30' : 'border-white/15 opacity-70 hover:opacity-100'
                 )}
                 onClick={() => onIndexChange(imageIndex)}
@@ -226,6 +230,7 @@ export function ImageCarouselGallery({
   imageClassName,
   className,
   panelClassName,
+  cornerClassName,
 }: ImageCarouselGalleryProps) {
   const galleryImages = useMemo(
     () => images.filter((image) => Boolean(image?.src)).map((image) => ({ src: image.src, alt: image.alt || altFallback, type: image.type || 'image' })),
@@ -254,7 +259,7 @@ export function ImageCarouselGallery({
   return (
     <>
       <div className={cn('space-y-4', className)}>
-        <div className={cn('relative overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white shadow-sm', panelClassName)}>
+        <div className={cn('relative overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white shadow-sm', panelClassName, cornerClassName)}>
           {isVideo ? (
             <div className={cn('relative block w-full overflow-hidden', aspectClassName)}>
               <iframe
@@ -276,7 +281,7 @@ export function ImageCarouselGallery({
                 alt={currentImage.alt || altFallback}
                 className={cn('h-full w-full object-contain p-4 transition-transform duration-300 group-hover:scale-[1.02]', imageClassName)}
               />
-              <div className="absolute right-4 top-4 rounded-full bg-slate-950/70 p-2 text-white opacity-0 transition-opacity group-hover:opacity-100">
+              <div className={cn("absolute right-4 top-4 rounded-full bg-slate-950/70 p-2 text-white opacity-0 transition-opacity group-hover:opacity-100", cornerClassName)}>
                 <Expand className="h-3.5 w-3.5" />
               </div>
             </button>
@@ -288,7 +293,7 @@ export function ImageCarouselGallery({
                 type="button"
                 variant="outline"
                 size="icon"
-                className="absolute left-4 top-1/2 z-10 -translate-y-1/2 rounded-full border-0 bg-white/20 text-black shadow-lg hover:bg-white hover:text-primary"
+                className={cn("absolute left-4 top-1/2 z-10 -translate-y-1/2 rounded-full border-0 bg-white/20 text-black shadow-lg hover:bg-white hover:text-primary", cornerClassName)}
                 onClick={() => setSelectedIndex((current) => clampIndex(current - 1, galleryImages.length))}
               >
                 <ArrowLeft className="h-4 w-4" />
@@ -298,7 +303,7 @@ export function ImageCarouselGallery({
                 type="button"
                 variant="outline"
                 size="icon"
-                className="absolute right-4 top-1/2 z-10 -translate-y-1/2 rounded-full border-0 bg-white/20 text-black shadow-lg hover:bg-white hover:text-primary"
+                className={cn("absolute right-4 top-1/2 z-10 -translate-y-1/2 rounded-full border-0 bg-white/20 text-black shadow-lg hover:bg-white hover:text-primary", cornerClassName)}
                 onClick={() => setSelectedIndex((current) => clampIndex(current + 1, galleryImages.length))}
               >
                 <ArrowRight className="h-4 w-4" />
@@ -316,6 +321,7 @@ export function ImageCarouselGallery({
                 type="button"
                 className={cn(
                   'group shrink-0 overflow-hidden rounded-2xl border bg-white transition-all',
+                  cornerClassName,
                   imageIndex === selectedIndex
                     ? 'border-primary ring-2 ring-primary/20'
                     : 'border-slate-200 hover:border-slate-300'
@@ -343,6 +349,7 @@ export function ImageCarouselGallery({
         images={imageOnlyItems}
         index={Math.max(0, lightboxIndex)}
         open={lightboxOpen}
+        cornerClassName={cornerClassName}
         onClose={() => setLightboxOpen(false)}
         onIndexChange={(newIndex) => {
           // Map lightbox index back to gallery index
@@ -362,6 +369,7 @@ export function ZoomableImageGrid({
   itemClassName,
   imageClassName,
   labelClassName,
+  cornerClassName,
   showExpandIcon = true,
 }: ZoomableImageGridProps) {
   const gridImages = useMemo(
@@ -384,6 +392,7 @@ export function ZoomableImageGrid({
             type="button"
             className={cn(
               'group relative rounded-2xl border border-transparent bg-slate-50 p-6 text-left transition-all duration-300 hover:border-slate-200 hover:bg-white hover:shadow-lg',
+              cornerClassName,
               itemClassName
             )}
             onClick={() => {
@@ -392,7 +401,7 @@ export function ZoomableImageGrid({
             }}
           >
             {showExpandIcon && (
-              <div className="absolute right-3 top-3 rounded-full bg-slate-900/70 p-2 text-white opacity-0 transition-opacity group-hover:opacity-100">
+              <div className={cn("absolute right-3 top-3 rounded-full bg-slate-900/70 p-2 text-white opacity-0 transition-opacity group-hover:opacity-100", cornerClassName)}>
                 <Expand className="h-3.5 w-3.5" />
               </div>
             )}
@@ -410,6 +419,7 @@ export function ZoomableImageGrid({
         images={gridImages}
         index={selectedIndex}
         open={lightboxOpen}
+        cornerClassName={cornerClassName}
         onClose={() => setLightboxOpen(false)}
         onIndexChange={setSelectedIndex}
       />

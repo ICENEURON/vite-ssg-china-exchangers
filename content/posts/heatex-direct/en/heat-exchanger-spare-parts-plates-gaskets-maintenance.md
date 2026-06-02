@@ -1,5 +1,5 @@
 ---
-title: "Heat Exchanger Spare Parts Purchasing Guide: Plates, Gaskets, Tube Bundles, Bolts and..."
+title: "Heat Exchanger Spare Parts Purchasing Guide: Plates, Gaskets, Tube Bundles, Bolts and Maintenance Documents"
 slug: heat-exchanger-spare-parts-plates-gaskets-maintenance
 date: 2025-11-26
 author: "HeatEx Direct Editorial Team"

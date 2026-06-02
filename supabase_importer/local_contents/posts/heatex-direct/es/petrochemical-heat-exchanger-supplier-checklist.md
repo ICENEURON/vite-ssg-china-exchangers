@@ -1,5 +1,5 @@
 ---
-title: "Lista de verificación de auditoría de proveedores de intercambiadores de calor para la..."
+title: "Lista de verificación de auditoría de proveedores de intercambiadores de calor para la industria petroquímica: materiales, inspecciones y documentación"
 slug: petrochemical-heat-exchanger-supplier-checklist
 date: 2025-12-16
 author: "Equipo editorial HeatEx Direct"

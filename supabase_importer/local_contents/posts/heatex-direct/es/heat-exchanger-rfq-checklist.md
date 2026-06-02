@@ -1,5 +1,5 @@
 ---
-title: "Lista de consultas sobre intercambiadores de calor: ¿Qué materiales se recomienda preparar..."
+title: "Lista de consultas sobre intercambiadores de calor: ¿Qué materiales se recomienda preparar antes de enviar una solicitud de cotización?"
 slug: heat-exchanger-rfq-checklist
 date: 2025-03-18
 author: "Equipo editorial HeatEx Direct"

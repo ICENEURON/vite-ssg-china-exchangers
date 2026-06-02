@@ -1,5 +1,5 @@
 ---
-title: "Liste de demandes de renseignements sur les échangeurs de chaleur : Quels matériaux est-il..."
+title: "Liste de demandes de renseignements sur les échangeurs de chaleur : Quels matériaux est-il recommandé de préparer avant de soumettre une demande de devis ?"
 slug: heat-exchanger-rfq-checklist
 date: 2025-03-18
 author: "Equipe editoriale HeatEx Direct"

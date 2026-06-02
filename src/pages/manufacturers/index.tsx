@@ -148,11 +148,11 @@ export default function ManufacturersPage() {
                 <FilterDropdown
                   open={isIndustryDropdownOpen}
                   onOpenChange={(open) => handleDropdownOpenChange("industry", open)}
-                  contentClassName="w-72 bg-white"
+                  contentClassName="w-72 rounded-sm bg-white"
                   trigger={({ open, triggerProps }) => (
                     <button
                       {...triggerProps}
-                      className="flex items-center gap-2 rounded-lg border border-border/60 bg-white px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
+                      className="flex items-center gap-2 rounded-sm border border-border/60 bg-white px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
                     >
                       <Filter className="w-4 h-4 text-primary" />
                       <span>{manufacturersT.t("filter_industry")}</span>
@@ -163,7 +163,7 @@ export default function ManufacturersPage() {
                       <div className="p-2.5 max-h-[340px] overflow-y-auto custom-scrollbar">
                         <button
                           onClick={() => setSelectedIndustrySlugs([])}
-                          className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-lg transition-all group ${selectedIndustrySlugs.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04]'
+                          className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-sm transition-all group ${selectedIndustrySlugs.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04]'
                             }`}
                         >
                           <span className="font-bold">{manufacturersT.t("filter_all_industries")}</span>
@@ -177,7 +177,7 @@ export default function ManufacturersPage() {
                               <button
                                 key={industry.id}
                                 onClick={() => toggleIndustry(industry.slug)}
-                                className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-lg transition-all group ${isSelected
+                                className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-sm transition-all group ${isSelected
                                   ? 'bg-primary/[0.06] text-primary font-semibold'
                                   : 'text-foreground hover:bg-zinc-950/[0.04]'
                                   }`}
@@ -194,7 +194,7 @@ export default function ManufacturersPage() {
                 {hasActiveFilters && (
                   <button
                     onClick={clearAll}
-                    className="flex items-center justify-center gap-2 rounded-lg px-3 py-2 text-sm font-bold text-red-500 transition-all hover:bg-red-500/10 hover:text-red-400 active:scale-95"
+                    className="flex items-center justify-center gap-2 rounded-sm px-3 py-2 text-sm font-bold text-red-500 transition-all hover:bg-red-500/10 hover:text-red-400 active:scale-95"
                   >
                     <X className="w-4 h-4" />
                     {manufacturersT.t("clear_all")}
@@ -208,12 +208,12 @@ export default function ManufacturersPage() {
                   {selectedIndustries.map((industry) => (
                     <div
                       key={industry.slug}
-                      className="inline-flex items-center justify-center gap-1 px-3 py-1 bg-primary/5 text-primary border border-primary/20 rounded-full text-xs font-bold shadow-sm hover:shadow-md transition-all group"
+                      className="inline-flex items-center justify-center gap-1 px-3 py-1 bg-primary/5 text-primary border border-primary/20 rounded-sm text-xs font-bold shadow-sm hover:shadow-md transition-all group"
                     >
                       <span className="leading-none">{industry.name}</span>
                       <button
                         onClick={() => removeIndustry(industry.slug)}
-                        className="hover:bg-primary/20 rounded-full p-1 transition-all group-hover:scale-110 flex items-center justify-center"
+                        className="hover:bg-primary/20 rounded-sm p-1 transition-all group-hover:scale-110 flex items-center justify-center"
                         aria-label={`Remove ${industry.name}`}
                       >
                         <X className="w-3.5 h-3.5" />
@@ -241,7 +241,7 @@ export default function ManufacturersPage() {
 
               {filteredManufacturers.length === 0 && (
                 <div className="flex flex-col items-center justify-center py-24 text-center animate-in fade-in duration-500 md:col-span-2 xl:col-span-3">
-                  <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center mb-4">
+                  <div className="w-16 h-16 bg-muted rounded-sm flex items-center justify-center mb-4">
                     <Filter className="w-8 h-8 text-muted-foreground/50" />
                   </div>
                   <h3 className="text-lg font-medium text-foreground mb-2">

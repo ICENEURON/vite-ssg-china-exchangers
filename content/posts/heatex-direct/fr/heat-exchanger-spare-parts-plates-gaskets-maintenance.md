@@ -1,5 +1,5 @@
 ---
-title: "Guide d'achat de pièces de rechange pour échangeurs de chaleur : plaques, joints, faisceaux de..."
+title: "Guide d'achat de pièces de rechange pour échangeurs de chaleur : plaques, joints, faisceaux de tubes, boulons et documents de maintenance"
 slug: heat-exchanger-spare-parts-plates-gaskets-maintenance
 date: 2025-11-26
 author: "Equipe editoriale HeatEx Direct"

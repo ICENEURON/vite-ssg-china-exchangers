@@ -26,7 +26,7 @@ export function CategoryShowcase() {
                     </div>
                     <a
                         href={productsPath}
-                        className="inline-flex h-10 w-fit shrink-0 items-center gap-2 whitespace-nowrap rounded-md border border-primary/20 px-4 text-sm font-semibold text-primary transition-colors duration-200 hover:border-primary/40 hover:bg-primary/5 hover:text-primary-hover"
+                        className="inline-flex h-10 w-fit shrink-0 items-center gap-2 whitespace-nowrap rounded-sm border border-primary/20 px-4 text-sm font-semibold text-primary transition-colors duration-200 hover:border-primary/40 hover:bg-primary/5 hover:text-primary-hover"
                     >
                         {t("pages.home.categoryShowcase.secondaryCta")}
                         <ArrowRight className="size-4 shrink-0" />

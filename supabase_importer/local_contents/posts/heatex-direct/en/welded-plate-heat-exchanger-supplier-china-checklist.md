@@ -1,5 +1,5 @@
 ---
-title: "How to choose a supplier of welded plate heat exchangers in China? BLOC, Wide Aisle and Fully..."
+title: "How to choose a supplier of welded plate heat exchangers in China? BLOC, Wide Aisle and Fully Welded Construction Review Checklist"
 slug: welded-plate-heat-exchanger-supplier-china-checklist
 date: 2025-08-11
 author: "HeatEx Direct Editorial Team"

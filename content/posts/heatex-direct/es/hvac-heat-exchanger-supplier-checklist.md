@@ -1,5 +1,5 @@
 ---
-title: "Lista de verificación de auditoría de proveedores de intercambiadores de calor HVAC..."
+title: "Lista de verificación de auditoría de proveedores de intercambiadores de calor HVAC: intercambiadores de calor de placas, serpentines, unidades y datos de mantenimiento"
 slug: hvac-heat-exchanger-supplier-checklist
 date: 2026-02-05
 author: "Equipo editorial HeatEx Direct"

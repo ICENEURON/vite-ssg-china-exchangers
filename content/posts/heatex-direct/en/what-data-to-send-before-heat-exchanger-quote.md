@@ -1,5 +1,5 @@
 ---
-title: "What data should be sent before inquiring about heat exchangers? Thermal, Mechanical, Materials..."
+title: "What data should be sent before inquiring about heat exchangers? Thermal, Mechanical, Materials and Project Information Description"
 slug: what-data-to-send-before-heat-exchanger-quote
 date: 2025-04-09
 author: "HeatEx Direct Editorial Team"

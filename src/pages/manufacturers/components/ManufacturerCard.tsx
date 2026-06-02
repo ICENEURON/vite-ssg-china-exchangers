@@ -15,7 +15,7 @@ export function ManufacturerCard({ company }: { company: ManufacturerProps }) {
     const { t } = useTranslation("translation", { keyPrefix: "pages.manufacturers.card" });
 
     return (
-        <article className="group flex h-full flex-col overflow-visible rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/20 hover:shadow-xl hover:shadow-primary/10">
+        <article className="group flex h-full flex-col overflow-visible rounded-sm border border-slate-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/20 hover:shadow-xl hover:shadow-primary/10">
             <div className="flex items-start">
                 <a href={company.link} className="min-w-0 flex-1">
                     <div className="min-h-[3.5rem]">
@@ -42,7 +42,7 @@ export function ManufacturerCard({ company }: { company: ManufacturerProps }) {
 
                 <div className="mt-3 flex flex-wrap gap-1.5">
                     {company.tags.map(tag => (
-                        <Badge key={tag} variant="secondary" className="rounded-full border-blue-600/20 bg-blue-200/30 px-2 py-0.5 text-[11px] font-bold text-blue-700 hover:bg-blue-200/30">
+                        <Badge key={tag} variant="secondary" className="rounded-sm border-blue-600/20 bg-blue-200/30 px-2 py-0.5 text-[11px] font-bold text-blue-700 hover:bg-blue-200/30">
                             {tag}
                         </Badge>
                     ))}

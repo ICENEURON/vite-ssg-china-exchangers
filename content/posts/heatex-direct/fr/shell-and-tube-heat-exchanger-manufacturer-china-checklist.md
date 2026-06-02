@@ -1,5 +1,5 @@
 ---
-title: "Comment choisir un fabricant chinois d'échangeurs de chaleur à calandre et à tubes ? Normes..."
+title: "Comment choisir un fabricant chinois d'échangeurs de chaleur à calandre et à tubes ? Normes, matériaux, inspection et liste de devis"
 slug: shell-and-tube-heat-exchanger-manufacturer-china-checklist
 date: 2025-09-19
 author: "Equipe editoriale HeatEx Direct"

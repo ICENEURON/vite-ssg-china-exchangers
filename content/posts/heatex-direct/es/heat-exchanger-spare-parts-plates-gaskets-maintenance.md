@@ -1,5 +1,5 @@
 ---
-title: "Guía de compra de repuestos para intercambiadores de calor: placas, juntas, haces de tubos..."
+title: "Guía de compra de repuestos para intercambiadores de calor: placas, juntas, haces de tubos, pernos y documentos de mantenimiento"
 slug: heat-exchanger-spare-parts-plates-gaskets-maintenance
 date: 2025-11-26
 author: "Equipo editorial HeatEx Direct"

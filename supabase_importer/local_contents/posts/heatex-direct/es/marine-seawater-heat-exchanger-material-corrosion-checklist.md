@@ -1,5 +1,5 @@
 ---
-title: "Lista de verificación de compra de materiales y corrosión para intercambiadores de calor..."
+title: "Lista de verificación de compra de materiales y corrosión para intercambiadores de calor marinos y de agua de mar: cobre, níquel, titanio, acero dúplex y mantenimiento de filtración"
 slug: marine-seawater-heat-exchanger-material-corrosion-checklist
 date: 2026-04-21
 author: "Equipo editorial HeatEx Direct"

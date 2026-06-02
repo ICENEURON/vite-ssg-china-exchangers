@@ -9,16 +9,31 @@ type LocalizedText = Record<string, string>;
 
 type HighlightedArticle = {
     priority: number;
+    companyId?: string;
     companySlug: string;
     companyName: LocalizedText;
     contentType: string;
     articleSlug: string;
     articleTitle: LocalizedText;
     shortDescription: LocalizedText;
+    paths?: Record<string, string>;
 };
 
 function getLocalizedValue(value: LocalizedText, language: string) {
     return value[language] || value.en || Object.values(value)[0] || "";
+}
+
+function isHeatExDirectArticle(item: HighlightedArticle) {
+    const ownSlug = "heatex-direct";
+    const companyNames = Object.values(item.companyName || {}).map((name) => name.toLowerCase());
+    const paths = Object.values(item.paths || {});
+
+    return (
+        item.companySlug === ownSlug ||
+        item.companyId === ownSlug ||
+        companyNames.includes("heatex direct") ||
+        paths.some((path) => path.includes(`news/${ownSlug}/`))
+    );
 }
 
 export function HighlightedArticles() {
@@ -27,7 +42,9 @@ export function HighlightedArticles() {
     const language = currentLanguage;
     const industryNewsPath = addLanguageToPath("/industry-news", currentLanguage);
     const typeLabels = t("pages.home.highlightedArticles.typeLabels", { returnObjects: true }) as Record<string, string>;
-    const items = [...(highlightedArticles.items as HighlightedArticle[])].sort((a, b) => a.priority - b.priority);
+    const items = [...(highlightedArticles.items as HighlightedArticle[])]
+        .filter((item) => !isHeatExDirectArticle(item))
+        .sort((a, b) => a.priority - b.priority);
     const postsByKey = new Map(
         (posts as Post[]).map((post) => [
             `${post.contentType || "posts"}:${post.slug}:${post.lang || "en"}`,
@@ -53,7 +70,7 @@ export function HighlightedArticles() {
                     </div>
                     <a
                         href={industryNewsPath}
-                        className="inline-flex h-10 w-fit shrink-0 items-center gap-2 whitespace-nowrap rounded-md border border-primary/20 px-4 text-sm font-semibold text-primary transition-colors duration-200 hover:border-primary/40 hover:bg-primary/5 hover:text-primary-hover"
+                        className="inline-flex h-10 w-fit shrink-0 items-center gap-2 whitespace-nowrap rounded-sm border border-primary/20 px-4 text-sm font-semibold text-primary transition-colors duration-200 hover:border-primary/40 hover:bg-primary/5 hover:text-primary-hover"
                     >
                         {t("pages.home.highlightedArticles.cta")}
                         <ArrowRight className="size-4 shrink-0" />
@@ -74,7 +91,7 @@ export function HighlightedArticles() {
 
                         return (
                             <article key={`${item.contentType}-${item.articleSlug}`} className="grid gap-3 py-4 transition-colors duration-200 hover:bg-white md:grid-cols-[12rem_minmax(0,1fr)] md:items-start md:gap-4 md:py-5 md:px-3">
-                                <a href={articlePath} className="group/image hidden aspect-[4/3] overflow-hidden rounded-md bg-slate-100 md:block">
+                                <a href={articlePath} className="group/image hidden aspect-[4/3] overflow-hidden rounded-sm bg-slate-100 md:block">
                                     <img
                                         src={cover}
                                         alt={articleTitle}

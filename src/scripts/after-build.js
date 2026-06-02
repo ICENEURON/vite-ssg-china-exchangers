@@ -49,9 +49,8 @@ function readOptionalJson(filePath) {
   return readJson(filePath);
 }
 
-const postsByPermalink = new Map(
-  (readOptionalJson(postsPath) || []).map((post) => [post.permalink, post]),
-);
+const posts = readOptionalJson(postsPath) || [];
+const postsByPermalink = new Map(posts.map((post) => [post.permalink, post]));
 
 function readText(filePath) {
   return fs.readFileSync(filePath, 'utf8');
@@ -213,13 +212,100 @@ function truncateText(value, maxLength = 320) {
     return undefined;
   }
 
-  const normalized = value.replace(/\s+/g, ' ').trim();
+  const normalized = value
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
 
   if (normalized.length <= maxLength) {
     return normalized;
   }
 
   return `${normalized.slice(0, maxLength - 3).trim()}...`;
+}
+
+function getPageTitle(page, fallback) {
+  return page?.title || page?.hero?.title || page?.page?.title || fallback;
+}
+
+function getPageDescription(page, fallback) {
+  return truncateText(
+    page?.meta?.description ||
+    page?.og?.description ||
+    page?.description ||
+    page?.hero?.description ||
+    page?.hero?.subtitle ||
+    page?.page?.subtitle ||
+    fallback,
+  );
+}
+
+function buildBasePageSchema(route, pageFile, fallbackTitle, pageType = 'WebPage') {
+  const { language } = parseRoute(route);
+  const page = getLocaleJson(language, pageFile);
+  const url = toAbsoluteUrl(route);
+  const name = getPageTitle(page, fallbackTitle);
+  const description = getPageDescription(page, name);
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': pageType,
+    '@id': `${url}#webpage`,
+    name,
+    description,
+    url,
+    inLanguage: language,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: siteName,
+      url: siteUrl,
+    },
+  };
+}
+
+function buildStaticPageSchemas(route, pageFile, fallbackTitle, pageType = 'WebPage') {
+  const { language } = parseRoute(route);
+  const pageSchema = buildBasePageSchema(route, pageFile, fallbackTitle, pageType);
+
+  return [
+    pageSchema,
+    buildBreadcrumbList([
+      { name: siteName, route: getLocalizedRoute('/', language) },
+      { name: pageSchema.name, route },
+    ]),
+  ];
+}
+
+function buildServicePageSchemas(route, pageFile, fallbackTitle, serviceType) {
+  const pageSchema = buildBasePageSchema(route, pageFile, fallbackTitle);
+  const serviceId = `${toAbsoluteUrl(route)}#service`;
+
+  return [
+    {
+      ...pageSchema,
+      mainEntity: {
+        '@id': serviceId,
+      },
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Service',
+      '@id': serviceId,
+      name: fallbackTitle,
+      serviceType,
+      description: pageSchema.description,
+      provider: {
+        '@type': 'Organization',
+        name: siteName,
+        url: siteUrl,
+      },
+      areaServed: 'Worldwide',
+    },
+    buildBreadcrumbList([
+      { name: siteName, route: getLocalizedRoute('/', parseRoute(route).language) },
+      { name: pageSchema.name, route },
+    ]),
+  ];
 }
 
 function resolveExportMarkets(exportMarkets) {
@@ -430,8 +516,118 @@ function buildArticleSchemas(route) {
   ];
 }
 
+function buildItemListSchema(route, name, items) {
+  const url = toAbsoluteUrl(route);
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    '@id': `${url}#itemlist`,
+    name,
+    itemListOrder: 'https://schema.org/ItemListOrderAscending',
+    numberOfItems: items.length,
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      item,
+    })),
+  };
+}
+
+function buildCollectionPageSchemas(route, pageFile, fallbackTitle, itemList) {
+  const { language } = parseRoute(route);
+  const pageSchema = buildBasePageSchema(route, pageFile, fallbackTitle, 'CollectionPage');
+  const collectionItems = buildItemListSchema(route, pageSchema.name, itemList);
+
+  return [
+    {
+      ...pageSchema,
+      mainEntity: {
+        '@id': collectionItems['@id'],
+      },
+    },
+    collectionItems,
+    buildBreadcrumbList([
+      { name: siteName, route: getLocalizedRoute('/', language) },
+      { name: pageSchema.name, route },
+    ]),
+  ];
+}
+
+function buildManufacturersIndexSchemas(route) {
+  const { language } = parseRoute(route);
+  const manufacturers = getLocaleJson(language, 'manufacturers', 'list.json') || [];
+  const items = manufacturers.map((manufacturer) => ({
+    '@type': 'Organization',
+    name: manufacturer.name,
+    description: truncateText(manufacturer.short_description),
+    url: toAbsoluteUrl(getLocalizedRoute(`/manufacturers/${manufacturer.slug}`, language)),
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: manufacturer.city || undefined,
+      addressCountry: manufacturer.country_name || undefined,
+    },
+    knowsAbout: manufacturer.industries || [],
+  }));
+
+  return buildCollectionPageSchemas(route, 'manufacturers.json', 'Manufacturers', items);
+}
+
+function buildProductsIndexSchemas(route) {
+  const { language } = parseRoute(route);
+  const products = getLocaleJson(language, 'products', 'list.json') || [];
+  const items = products.map((product) => ({
+    '@type': 'Thing',
+    name: product.name,
+    description: truncateText(product.short_description),
+    url: toAbsoluteUrl(getLocalizedRoute(`/products/${product.url}`, language)),
+    image: product.images?.[0]?.url ? toAbsoluteUrl(product.images[0].url) : undefined,
+    manufacturer: product.manufacturer ? {
+      '@type': 'Organization',
+      name: product.manufacturer.name,
+      url: toAbsoluteUrl(getLocalizedRoute(`/manufacturers/${product.manufacturer.slug}`, language)),
+    } : undefined,
+    additionalType: 'https://schema.org/Product',
+  }));
+
+  return buildCollectionPageSchemas(route, 'products-page.json', 'Products', items);
+}
+
+function buildIndustryNewsIndexSchemas(route) {
+  const { language } = parseRoute(route);
+  const localizedPosts = posts
+    .filter((post) => post.permalink && parseRoute(post.permalink).language === language)
+    .sort((first, second) => new Date(second.date || 0).getTime() - new Date(first.date || 0).getTime());
+  const items = localizedPosts.map((post) => ({
+    '@type': 'Article',
+    headline: post.metaTitle || post.title,
+    description: truncateText(post.metaDescription || post.excerpt || post.title),
+    url: toAbsoluteUrl(post.permalink),
+    image: getArticleImage(post),
+    datePublished: post.date ? new Date(post.date).toISOString() : undefined,
+    author: {
+      '@type': 'Organization',
+      name: post.author || siteName,
+    },
+  }));
+
+  return buildCollectionPageSchemas(route, 'industry-news.json', 'Industry News', items);
+}
+
 function getStructuredDataForRoute(route) {
   const { normalizedRoute } = parseRoute(route);
+
+  if (normalizedRoute === '/manufacturers') {
+    return buildManufacturersIndexSchemas(route);
+  }
+
+  if (normalizedRoute === '/products') {
+    return buildProductsIndexSchemas(route);
+  }
+
+  if (normalizedRoute === '/industry-news') {
+    return buildIndustryNewsIndexSchemas(route);
+  }
 
   const articleMatch = normalizedRoute.match(/^\/industry-news\/(?:news|posts)\/([^/]+)$/);
 
@@ -449,6 +645,35 @@ function getStructuredDataForRoute(route) {
 
   if (productMatch) {
     return buildProductSchemas(route, productMatch[1], productMatch[2]);
+  }
+
+  const staticPageSchemas = {
+    '/about': () => buildStaticPageSchemas(route, 'about.json', 'About HeatEx Direct', 'AboutPage'),
+    '/contact': () => buildStaticPageSchemas(route, 'contact.json', 'Contact HeatEx Direct', 'ContactPage'),
+    '/content-marketing-services': () => buildServicePageSchemas(
+      route,
+      'content-marketing-services.json',
+      'Industry News Article Submission',
+      'Content submission and editorial review',
+    ),
+    '/privacy': () => buildStaticPageSchemas(route, 'privacy.json', 'Privacy Policy'),
+    '/quote-request': () => buildServicePageSchemas(
+      route,
+      'rfq.json',
+      'Heat Exchanger Quote Request',
+      'Industrial heat exchanger quote request intake',
+    ),
+    '/terms': () => buildStaticPageSchemas(route, 'terms.json', 'Terms of Use'),
+    '/update-your-profile': () => buildServicePageSchemas(
+      route,
+      'update-your-profile.json',
+      'Manufacturer Profile Update',
+      'Manufacturer profile update review',
+    ),
+  };
+
+  if (staticPageSchemas[normalizedRoute]) {
+    return staticPageSchemas[normalizedRoute]();
   }
 
   return [];
@@ -663,6 +888,7 @@ function writeRobotsTxt() {
 function copyDeploymentFiles() {
   const htaccessPath = path.join(webDir, '.htaccess');
   const sitemapStylesheetPath = path.join(webDir, 'sitemap.xsl');
+  const llmsTxtPath = path.join(webDir, 'llms.txt');
 
   if (fs.existsSync(htaccessPath)) {
     writeText(path.join(distDir, '.htaccess'), renderTemplate(readText(htaccessPath)));
@@ -671,6 +897,10 @@ function copyDeploymentFiles() {
   if (fs.existsSync(sitemapStylesheetPath)) {
     writeText(path.join(projectRoot, 'sitemap.xsl'), renderTemplate(readText(sitemapStylesheetPath)));
     writeText(path.join(distDir, 'sitemap.xsl'), renderTemplate(readText(sitemapStylesheetPath)));
+  }
+
+  if (fs.existsSync(llmsTxtPath)) {
+    writeText(path.join(distDir, 'llms.txt'), renderTemplate(readText(llmsTxtPath)));
   }
 
   writeRobotsTxt();

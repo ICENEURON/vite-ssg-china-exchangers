@@ -1,5 +1,5 @@
 ---
-title: "Échangeur de chaleur à plaques ou échangeur de chaleur à calandre et à tubes : guide de..."
+title: "Échangeur de chaleur à plaques ou échangeur de chaleur à calandre et à tubes : guide de sélection d'achat"
 slug: plate-heat-exchanger-vs-shell-and-tube-selection-guide
 date: 2025-06-14
 author: "Equipe editoriale HeatEx Direct"

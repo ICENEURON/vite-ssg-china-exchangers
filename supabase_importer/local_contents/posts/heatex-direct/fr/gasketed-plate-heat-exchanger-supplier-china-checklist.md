@@ -1,5 +1,5 @@
 ---
-title: "Comment choisir le fournisseur d’échangeur de chaleur à plaques et joints amovibles en Chine..."
+title: "Comment choisir le fournisseur d’échangeur de chaleur à plaques et joints amovibles en Chine ? Liste de contrôle pour l'examen des achats"
 slug: gasketed-plate-heat-exchanger-supplier-china-checklist
 date: 2025-07-28
 author: "Equipe editoriale HeatEx Direct"

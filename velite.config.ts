@@ -11,7 +11,7 @@ const posts = defineCollection({
     pattern: '{news,posts}/**/*.md', // content files glob pattern
     schema: s
         .object({
-            title: s.string().max(99), // Zod schema for validation
+            title: s.string().max(240), // Zod schema for validation
             filePath: s.path(), // will be computed from file path
             slug: s.string().optional(), // allow frontmatter slug overwrite
             date: s.isodate(), // validate ISO date

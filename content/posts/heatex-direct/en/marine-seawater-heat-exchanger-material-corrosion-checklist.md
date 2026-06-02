@@ -1,5 +1,5 @@
 ---
-title: "Marine and Seawater Heat Exchanger Materials and Corrosion Purchasing Checklist: Copper Nickel..."
+title: "Marine and Seawater Heat Exchanger Materials and Corrosion Purchasing Checklist: Copper Nickel, Titanium, Duplex Steel and Filtration Maintenance"
 slug: marine-seawater-heat-exchanger-material-corrosion-checklist
 date: 2026-04-21
 author: "HeatEx Direct Editorial Team"

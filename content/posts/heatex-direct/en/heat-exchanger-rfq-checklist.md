@@ -1,5 +1,5 @@
 ---
-title: "Heat exchanger inquiry list: What materials are recommended to be prepared before submitting a..."
+title: "Heat exchanger inquiry list: What materials are recommended to be prepared before submitting a quotation request?"
 slug: heat-exchanger-rfq-checklist
 date: 2025-03-18
 author: "HeatEx Direct Editorial Team"

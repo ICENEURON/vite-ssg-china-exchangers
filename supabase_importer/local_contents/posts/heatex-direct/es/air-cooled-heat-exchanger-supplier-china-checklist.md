@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo elegir proveedores de intercambiadores de calor de aire y de intercambiadores de calor..."
+title: "¿Cómo elegir proveedores de intercambiadores de calor de aire y de intercambiadores de calor enfriados por aire en China? Lista de verificación de mantenimiento, ambiente, tubo de aletas y ventilador"
 slug: air-cooled-heat-exchanger-supplier-china-checklist
 date: 2025-10-07
 author: "Equipo editorial HeatEx Direct"

@@ -1,5 +1,5 @@
 ---
-title: "Liste de contrôle d'audit des fournisseurs d'échangeurs de chaleur CVC : échangeurs de chaleur..."
+title: "Liste de contrôle d'audit des fournisseurs d'échangeurs de chaleur CVC : échangeurs de chaleur à plaques, serpentins, unités et données de maintenance"
 slug: hvac-heat-exchanger-supplier-checklist
 date: 2026-02-05
 author: "Equipe editoriale HeatEx Direct"

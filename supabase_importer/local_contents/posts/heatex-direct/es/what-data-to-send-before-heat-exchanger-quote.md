@@ -1,5 +1,5 @@
 ---
-title: "¿Qué datos se deben enviar antes de consultar sobre intercambiadores de calor? Descripción..."
+title: "¿Qué datos se deben enviar antes de consultar sobre intercambiadores de calor? Descripción Térmica, Mecánica, de Materiales y de Información del Proyecto"
 slug: what-data-to-send-before-heat-exchanger-quote
 date: 2025-04-09
 author: "Equipo editorial HeatEx Direct"

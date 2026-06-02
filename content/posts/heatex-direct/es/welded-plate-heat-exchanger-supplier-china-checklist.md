@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo elegir un proveedor de intercambiadores de calor de placas soldadas en China? Lista de..."
+title: "¿Cómo elegir un proveedor de intercambiadores de calor de placas soldadas en China? Lista de verificación de revisión de construcciones BLOC, pasillos anchos y totalmente soldadas"
 slug: welded-plate-heat-exchanger-supplier-china-checklist
 date: 2025-08-11
 author: "Equipo editorial HeatEx Direct"

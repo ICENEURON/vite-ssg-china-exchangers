@@ -33,7 +33,7 @@ export function CategoryStats() {
                     {stats.map((stat) => (
                         <article
                             key={stat.label}
-                            className={`rounded-md border px-5 py-6 text-center ${stat.card}`}
+                            className={`rounded-sm border px-5 py-6 text-center ${stat.card}`}
                         >
                             <div className="text-4xl font-extrabold leading-none tracking-normal md:text-5xl lg:text-6xl">
                                 <span className={stat.accent}>{stat.value}</span>

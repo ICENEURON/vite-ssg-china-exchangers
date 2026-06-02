@@ -1,5 +1,5 @@
 ---
-title: "How to Verify Chinese Heat Exchanger Manufacturers: Supplier Due Diligence Checklist for..."
+title: "How to Verify Chinese Heat Exchanger Manufacturers: Supplier Due Diligence Checklist for Overseas Buyers"
 slug: how-to-verify-chinese-heat-exchanger-manufacturer
 date: 2025-05-23
 author: "HeatEx Direct Editorial Team"

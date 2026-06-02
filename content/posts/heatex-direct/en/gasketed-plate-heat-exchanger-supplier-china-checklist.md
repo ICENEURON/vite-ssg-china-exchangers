@@ -1,5 +1,5 @@
 ---
-title: "How to choose the supplier of removable gasket plate heat exchanger in China? Procurement..."
+title: "How to choose the supplier of removable gasket plate heat exchanger in China? Procurement Review Checklist"
 slug: gasketed-plate-heat-exchanger-supplier-china-checklist
 date: 2025-07-28
 author: "HeatEx Direct Editorial Team"

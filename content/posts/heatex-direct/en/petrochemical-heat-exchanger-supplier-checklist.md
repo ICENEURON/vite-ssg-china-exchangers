@@ -1,5 +1,5 @@
 ---
-title: "Heat Exchanger Supplier Audit Checklist for the Petrochemical Industry: Materials, Inspections..."
+title: "Heat Exchanger Supplier Audit Checklist for the Petrochemical Industry: Materials, Inspections and Documentation"
 slug: petrochemical-heat-exchanger-supplier-checklist
 date: 2025-12-16
 author: "HeatEx Direct Editorial Team"

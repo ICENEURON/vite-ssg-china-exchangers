@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-25",
-  "description": "Automatically generated homepage highlight configuration using the latest news article for each company. Shanghai Heat Transfer Equipment Co., Ltd. is pinned first.",
+  "lastUpdated": "2026-06-02",
+  "description": "Automatically generated homepage highlight configuration using the latest news article for each external company. HeatEx Direct articles are excluded. Shanghai Heat Transfer Equipment Co., Ltd. is pinned first.",
   "items": [
     {
       "priority": 1,
@@ -124,46 +124,6 @@
     },
     {
       "priority": 4,
-      "companyId": "heatex-direct",
-      "companySlug": "heatex-direct",
-      "companyName": {
-        "en": "HeatEx Direct",
-        "fr": "HeatEx Direct",
-        "es": "HeatEx Direct",
-        "ar": "HeatEx Direct",
-        "ru": "HeatEx Direct",
-        "zh": "HeatEx Direct"
-      },
-      "contentType": "news",
-      "articleSlug": "large-spiral-plate-heat-exchanger-delivery-for-mining-service",
-      "articleTitle": {
-        "en": "Large Spiral Plate Heat Exchanger Delivered for Mining Service",
-        "fr": "Grand échangeur de chaleur à plaques en spirale livré pour le service minier",
-        "es": "Intercambiador de calor de placas en espiral de gran tamaño entregado para servicios de minería",
-        "ar": "تم تسليم مبادل حراري ذو لوحة حلزونية كبيرة لخدمة التعدين",
-        "ru": "Большой спиральный пластинчатый теплообменник доставлен для горнодобывающей промышленности",
-        "zh": "大型螺旋板式换热器交付矿业浆液工况"
-      },
-      "shortDescription": {
-        "en": "Nexson Group has reported delivery of a very large liquid-liquid spiral plate heat exchanger for mineral slurry cooling and solvent heating service.",
-        "fr": "Nexson Group a annoncé la livraison d'un très grand échangeur de chaleur à plaques en spirale liquide-liquide pour le refroidissement des boues minérales et le chauffage des solvants.",
-        "es": "Nexson Group ha informado de la entrega de un intercambiador de calor de placas en espiral líquido-líquido de gran tamaño para el servicio de enfriamiento de lodos minerales y calentamiento de...",
-        "ar": "أبلغت مجموعة Nexson عن تسليم مبادل حراري ذو لوحة حلزونية سائلة كبيرة جدًا لخدمة تبريد الملاط المعدني وتسخين المذيبات.",
-        "ru": "Nexson Group сообщила о поставке очень большого жидкостно-жидкостного спирального пластинчатого теплообменника для охлаждения минеральных шламов и нагрева растворителей.",
-        "zh": "Nexson Group 披露交付一台大型液-液螺旋板式换热器，用于矿物浆液冷却与溶剂加热的组合工况。"
-      },
-      "date": "2025-12-24",
-      "paths": {
-        "en": "news/heatex-direct/en/large-spiral-plate-heat-exchanger-delivery-for-mining-service.md",
-        "fr": "news/heatex-direct/fr/large-spiral-plate-heat-exchanger-delivery-for-mining-service.md",
-        "es": "news/heatex-direct/es/large-spiral-plate-heat-exchanger-delivery-for-mining-service.md",
-        "ar": "news/heatex-direct/ar/large-spiral-plate-heat-exchanger-delivery-for-mining-service.md",
-        "ru": "news/heatex-direct/ru/large-spiral-plate-heat-exchanger-delivery-for-mining-service.md",
-        "zh": "news/heatex-direct/zh/large-spiral-plate-heat-exchanger-delivery-for-mining-service.md"
-      }
-    },
-    {
-      "priority": 5,
       "companyId": "5fb41b48-d202-46e1-b819-0de12c1152fa",
       "companySlug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
       "companyName": {

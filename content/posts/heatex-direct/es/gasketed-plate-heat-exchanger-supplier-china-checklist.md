@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo elegir el proveedor de intercambiadores de calor de placas con juntas extraíbles en China..."
+title: "¿Cómo elegir el proveedor de intercambiadores de calor de placas con juntas extraíbles en China? Lista de verificación de revisión de adquisiciones"
 slug: gasketed-plate-heat-exchanger-supplier-china-checklist
 date: 2025-07-28
 author: "Equipo editorial HeatEx Direct"

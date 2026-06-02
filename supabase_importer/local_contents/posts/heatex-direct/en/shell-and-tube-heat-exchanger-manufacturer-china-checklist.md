@@ -1,5 +1,5 @@
 ---
-title: "How to choose a Chinese shell and tube heat exchanger manufacturer? Standards, Materials..."
+title: "How to choose a Chinese shell and tube heat exchanger manufacturer? Standards, Materials, Inspection and Quotation List"
 slug: shell-and-tube-heat-exchanger-manufacturer-china-checklist
 date: 2025-09-19
 author: "HeatEx Direct Editorial Team"

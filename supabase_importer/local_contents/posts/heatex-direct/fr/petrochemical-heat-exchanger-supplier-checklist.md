@@ -1,5 +1,5 @@
 ---
-title: "Liste de contrôle d'audit des fournisseurs d'échangeurs de chaleur pour l'industrie..."
+title: "Liste de contrôle d'audit des fournisseurs d'échangeurs de chaleur pour l'industrie pétrochimique : matériaux, inspections et documentation"
 slug: petrochemical-heat-exchanger-supplier-checklist
 date: 2025-12-16
 author: "Equipe editoriale HeatEx Direct"

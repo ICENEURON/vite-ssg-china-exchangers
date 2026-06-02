@@ -1,5 +1,5 @@
 ---
-title: "Comment choisir un fournisseur d’échangeurs de chaleur à plaques soudées en Chine ? Liste de..."
+title: "Comment choisir un fournisseur d’échangeurs de chaleur à plaques soudées en Chine ? Liste de contrôle pour l'examen des constructions BLOC, à allées larges et entièrement soudées"
 slug: welded-plate-heat-exchanger-supplier-china-checklist
 date: 2025-08-11
 author: "Equipe editoriale HeatEx Direct"

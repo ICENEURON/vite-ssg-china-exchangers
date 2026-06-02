@@ -1,5 +1,5 @@
 ---
-title: "Cómo verificar los fabricantes chinos de intercambiadores de calor: lista de verificación de..."
+title: "Cómo verificar los fabricantes chinos de intercambiadores de calor: lista de verificación de diligencia debida de proveedores para compradores extranjeros"
 slug: how-to-verify-chinese-heat-exchanger-manufacturer
 date: 2025-05-23
 author: "Equipo editorial HeatEx Direct"

@@ -1,5 +1,5 @@
 ---
-title: "Comment choisir les fournisseurs d’échangeurs de chaleur à air et d’échangeurs de chaleur..."
+title: "Comment choisir les fournisseurs d’échangeurs de chaleur à air et d’échangeurs de chaleur refroidis par air en Chine ? Liste de contrôle du tube à ailettes, du ventilateur, de l'environnement et de la maintenance"
 slug: air-cooled-heat-exchanger-supplier-china-checklist
 date: 2025-10-07
 author: "Equipe editoriale HeatEx Direct"

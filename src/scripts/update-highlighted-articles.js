@@ -13,6 +13,7 @@ const languagesPath = path.join(localesDir, 'languages.json');
 const manufacturersPath = path.join(dataDir, 'manufacturers.json');
 const highlightedArticlesPath = path.join(dataDir, 'highlighted-articles.json');
 const featuredFirstCompanySlug = 'shanghai-heat-transfer-equipment-co-ltd';
+const excludedHomepageCompanySlugs = new Set(['heatex-direct']);
 const languages = Object.keys(readJson(languagesPath));
 
 const fallbackCompanies = {
@@ -199,7 +200,8 @@ function main() {
 
   const companySlugs = fs.readdirSync(newsDir, { withFileTypes: true })
     .filter((entry) => entry.isDirectory())
-    .map((entry) => entry.name);
+    .map((entry) => entry.name)
+    .filter((companySlug) => !excludedHomepageCompanySlugs.has(companySlug));
 
   const items = sortHighlightedArticles(
     companySlugs
@@ -215,7 +217,7 @@ function main() {
 
   const output = {
     lastUpdated: new Date().toISOString().slice(0, 10),
-    description: 'Automatically generated homepage highlight configuration using the latest news article for each company. Shanghai Heat Transfer Equipment Co., Ltd. is pinned first.',
+    description: 'Automatically generated homepage highlight configuration using the latest news article for each external company. HeatEx Direct articles are excluded. Shanghai Heat Transfer Equipment Co., Ltd. is pinned first.',
     items
   };
 

@@ -1,5 +1,5 @@
 ---
-title: "Intercambiador de calor de placas versus intercambiador de calor de carcasa y tubos: guía de..."
+title: "Intercambiador de calor de placas versus intercambiador de calor de carcasa y tubos: guía de selección de compras"
 slug: plate-heat-exchanger-vs-shell-and-tube-selection-guide
 date: 2025-06-14
 author: "Equipo editorial HeatEx Direct"

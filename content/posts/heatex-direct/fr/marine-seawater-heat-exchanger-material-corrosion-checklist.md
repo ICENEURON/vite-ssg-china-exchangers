@@ -1,5 +1,5 @@
 ---
-title: "Liste de contrôle pour l'achat de matériaux et d'échangeurs de chaleur à eau marine et à eau de..."
+title: "Liste de contrôle pour l'achat de matériaux et d'échangeurs de chaleur à eau marine et à eau de mer : cuivre-nickel, titane, acier duplex et entretien de la filtration"
 slug: marine-seawater-heat-exchanger-material-corrosion-checklist
 date: 2026-04-21
 author: "Equipe editoriale HeatEx Direct"

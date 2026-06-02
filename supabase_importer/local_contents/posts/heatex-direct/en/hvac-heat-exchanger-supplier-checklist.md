@@ -1,5 +1,5 @@
 ---
-title: "HVAC Heat Exchanger Supplier Audit Checklist: Plate Heat Exchangers, Coils, Units and..."
+title: "HVAC Heat Exchanger Supplier Audit Checklist: Plate Heat Exchangers, Coils, Units and Maintenance Data"
 slug: hvac-heat-exchanger-supplier-checklist
 date: 2026-02-05
 author: "HeatEx Direct Editorial Team"
