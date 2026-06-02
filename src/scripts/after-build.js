@@ -990,15 +990,9 @@ function getPriority(route) {
   const { normalizedRoute } = parseRoute(route);
 
   if (normalizedRoute === '/') return '1.0';
-  if (normalizedRoute === '/manufacturers' || normalizedRoute === '/products') return '0.9';
-  if (normalizedRoute === '/quote-request') return '0.9';
-  if (normalizedRoute.startsWith('/manufacturers/')) return '0.8';
-  if (normalizedRoute.startsWith('/products/')) return '0.8';
-  if (normalizedRoute === '/industry-news') return '0.7';
-  if (normalizedRoute.startsWith('/industry-news/')) return '0.7';
-  if (normalizedRoute === '/about' || normalizedRoute === '/contact' || normalizedRoute === '/update-your-profile') return '0.7';
-  if (normalizedRoute === '/terms' || normalizedRoute === '/privacy') return '0.3';
-  return '0.6';
+  if (normalizedRoute.startsWith('/industry-news/') && normalizedRoute !== '/industry-news') return '0.7';
+  if (normalizedRoute.startsWith('/products/') && normalizedRoute !== '/products') return '0.8';
+  return '0.9';
 }
 
 function getChangefreq(route) {
@@ -1037,6 +1031,8 @@ function buildSitemap() {
     throw new Error(`Dist directory not found: ${distDir}`);
   }
 
+  const today = new Date().toISOString().slice(0, 10);
+
   const allRoutes = walkHtmlFiles(distDir)
     .map((filePath) => {
       const route = toRoute(filePath);
@@ -1045,7 +1041,16 @@ function buildSitemap() {
         return null;
       }
 
-      const lastmod = fs.statSync(filePath).mtime.toISOString().slice(0, 10);
+      let lastmod = today;
+
+      if (isArticleRoute(route)) {
+        const post = postsByPermalink.get(route);
+        const postDate = post && post.date ? String(post.date).slice(0, 10) : null;
+
+        if (postDate) {
+          lastmod = postDate;
+        }
+      }
 
       return {
         route,
