@@ -1,8 +1,7 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Head } from 'vite-react-ssg';
-import { defaultNS } from '../../locales';
 import { ensureLanguageResource } from '../../i18n/config';
 import { useCurrentLanguage } from '../../utils/language-routing';
 
@@ -15,9 +14,6 @@ declare global {
 export function LanguageProvider() {
   const { i18n } = useTranslation();
   const currentLanguage = useCurrentLanguage();
-  const [readyLanguage, setReadyLanguage] = useState<string | null>(() => (
-    i18n.hasResourceBundle(currentLanguage, defaultNS) ? currentLanguage : null
-  ));
 
   if (typeof window === 'undefined' && i18n.language !== currentLanguage) {
     i18n.changeLanguage(currentLanguage);
@@ -40,15 +36,10 @@ export function LanguageProvider() {
   useEffect(() => {
     let isCancelled = false;
 
-    if (!i18n.hasResourceBundle(currentLanguage, defaultNS)) {
-      setReadyLanguage(null);
-    }
-
     void ensureLanguageResource(currentLanguage).then(() => {
       if (isCancelled) return;
 
       updateLanguage(currentLanguage);
-      setReadyLanguage(currentLanguage);
 
       if (typeof localStorage !== 'undefined') {
         localStorage.setItem('language', currentLanguage);
@@ -59,10 +50,6 @@ export function LanguageProvider() {
       isCancelled = true;
     };
   }, [currentLanguage, i18n, updateLanguage]);
-
-  if (typeof window !== 'undefined' && readyLanguage !== currentLanguage) {
-    return null;
-  }
 
   return (
     <>

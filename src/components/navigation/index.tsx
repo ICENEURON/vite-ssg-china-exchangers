@@ -21,6 +21,7 @@ import {
     NavigationMenuList,
 } from "../ui/navigation-menu";
 import { NavPopup, ListItem } from "./nav-popup";
+import { prefetchRouteForPath } from "../../routes/prefetch";
 
 const logoSrc = "/static/websites/logo_v1_light.png";
 
@@ -76,6 +77,10 @@ export function Navigation() {
 
     const getLocalizedPath = (path: string) => {
         return addLanguageToPath(path, currentLanguage);
+    };
+
+    const prefetchRoute = (path: string) => {
+        prefetchRouteForPath(getLocalizedPath(path));
     };
 
     const isActiveLink = (path: string) => {
@@ -185,7 +190,14 @@ export function Navigation() {
                                 : "border-b-2 border-transparent !text-navbar-foreground hover:bg-accent/40 hover:!text-navbar-foreground whitespace-nowrap"
                         }
                     >
-                        <Link to={getLocalizedPath(route.path)}>{label}</Link>
+                        <Link
+                            to={getLocalizedPath(route.path)}
+                            onMouseEnter={() => prefetchRoute(route.path)}
+                            onFocus={() => prefetchRoute(route.path)}
+                            onPointerDown={() => prefetchRoute(route.path)}
+                        >
+                            {label}
+                        </Link>
                     </NavigationMenuLink>
                 </NavigationMenuItem>
             );
@@ -300,6 +312,9 @@ export function Navigation() {
                                 <Link
                                     key={route.path}
                                     to={getLocalizedPath(route.path)}
+                                    onMouseEnter={() => prefetchRoute(route.path)}
+                                    onFocus={() => prefetchRoute(route.path)}
+                                    onPointerDown={() => prefetchRoute(route.path)}
                                     className={`block px-4 py-3 text-lg font-medium rounded-xl transition-colors ${isActive ? "bg-accent/60 text-navbar-foreground" : "hover:bg-accent/30 text-navbar-foreground"
                                         }`}
                                     onClick={() => setIsMobileMenuOpen(false)}

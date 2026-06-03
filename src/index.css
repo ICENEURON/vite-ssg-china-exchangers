@@ -626,6 +626,23 @@ span {
   background-size: 16px 16px;
 }
 
+@keyframes heatex-navigation-progress {
+  0% {
+    transform: translateX(-120%) scaleX(0.65);
+  }
+  45% {
+    transform: translateX(65%) scaleX(1);
+  }
+  100% {
+    transform: translateX(220%) scaleX(0.72);
+  }
+}
+
+.animate-heatex-navigation-progress {
+  animation: heatex-navigation-progress 1.15s ease-in-out infinite;
+  transform-origin: left center;
+}
+
 /* Code block styles for rehype-pretty-code */
 pre {
   padding: 1rem;

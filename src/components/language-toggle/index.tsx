@@ -6,6 +6,8 @@ import type { Language } from '../../utils/language-routing';
 import { languages as languageConfigs } from '../../locales';
 import { Button } from '../ui/button';
 import { Globe, Check } from 'lucide-react';
+import { ensureLanguageResource } from '../../i18n/config';
+import { startNavigationFeedback, stopNavigationFeedback } from '../../utils/navigation-feedback';
 
 export function LanguageToggle() {
   const { t } = useTranslation("translation");
@@ -13,6 +15,7 @@ export function LanguageToggle() {
   const location = useLocation();
   const currentLanguage = useCurrentLanguage();
   const [isOpen, setIsOpen] = useState(false);
+  const [pendingLanguage, setPendingLanguage] = useState<Language | null>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const openTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const closeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -55,9 +58,13 @@ export function LanguageToggle() {
     setIsOpen(false);
   }, [clearOpenTimer, clearCloseTimer]);
 
-  const handleLanguageChange = useCallback((lang: Language) => {
+  const handleLanguageChange = useCallback(async (lang: Language) => {
     // 首先关闭下拉菜单
     closeMenu();
+
+    if (lang === currentLanguage) {
+      return;
+    }
 
     // 获取不包含语言前缀的当前路径
     const pathWithoutLanguage = getPathWithoutLanguage(location.pathname);
@@ -66,10 +73,25 @@ export function LanguageToggle() {
     const newPath = addLanguageToPath(pathWithoutLanguage, lang);
 
     // 导航到新路径
-    navigate(newPath);
-  }, [navigate, location.pathname, closeMenu]);
+    setPendingLanguage(lang);
+    startNavigationFeedback();
+
+    try {
+      await ensureLanguageResource(lang);
+      navigate(newPath);
+    } finally {
+      setPendingLanguage(null);
+      stopNavigationFeedback();
+    }
+  }, [navigate, location.pathname, closeMenu, currentLanguage]);
 
   // 点击外部区域时关闭下拉菜单
+  const prefetchLanguage = useCallback((lang: Language) => {
+    if (lang !== currentLanguage) {
+      void ensureLanguageResource(lang);
+    }
+  }, [currentLanguage]);
+
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
@@ -108,11 +130,12 @@ export function LanguageToggle() {
         size="navigation"
         onClick={() => setIsOpen(true)}
         type="button"
+        disabled={pendingLanguage !== null}
         aria-expanded={isOpen}
         aria-label={t("ui.accessibility.select_language")}
         className="text-navbar-foreground hover:text-navbar-foreground hover:bg-accent/40"
       >
-        <Globe className="h-4 w-4" />
+        <Globe className={`h-4 w-4 ${pendingLanguage ? "animate-spin" : ""}`} />
       </Button>
 
       {isOpen && (
@@ -125,7 +148,10 @@ export function LanguageToggle() {
                   variant="ghost"
                   size="sm"
                   onClick={() => handleLanguageChange(code as Language)}
+                  onMouseEnter={() => prefetchLanguage(code as Language)}
+                  onFocus={() => prefetchLanguage(code as Language)}
                   type="button"
+                  disabled={pendingLanguage !== null}
                   title={name}
                   className="w-full px-3 py-2 text-left hover:bg-accent/40 hover:text-navbar-foreground flex items-center gap-2 text-sm transition-colors h-auto justify-start focus:bg-accent/70 focus:text-navbar-foreground rounded-none text-navbar-foreground"
                 >
