@@ -1,7 +1,5 @@
 import { ArrowRight, Newspaper } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { posts } from ".velite";
-import type { Post } from ".velite";
 import highlightedArticles from "../../../data/highlighted-articles.json";
 import { addLanguageToPath, useCurrentLanguage } from "../../../utils/language-routing";
 
@@ -14,6 +12,8 @@ type HighlightedArticle = {
     companyName: LocalizedText;
     contentType: string;
     articleSlug: string;
+    permalinks?: LocalizedText;
+    cover?: LocalizedText;
     articleTitle: LocalizedText;
     shortDescription: LocalizedText;
     paths?: Record<string, string>;
@@ -45,12 +45,6 @@ export function HighlightedArticles() {
     const items = [...(highlightedArticles.items as HighlightedArticle[])]
         .filter((item) => !isHeatExDirectArticle(item))
         .sort((a, b) => a.priority - b.priority);
-    const postsByKey = new Map(
-        (posts as Post[]).map((post) => [
-            `${post.contentType || "posts"}:${post.slug}:${post.lang || "en"}`,
-            post,
-        ])
-    );
 
     return (
         <section className="flex justify-center bg-slate-50 px-2 py-14">
@@ -79,12 +73,9 @@ export function HighlightedArticles() {
 
                 <div className="divide-y divide-slate-200 border-y border-slate-200">
                     {items.map((item) => {
-                        const post =
-                            postsByKey.get(`${item.contentType}:${item.articleSlug}:${language}`) ||
-                            postsByKey.get(`${item.contentType}:${item.articleSlug}:en`);
-                        const articlePath = post?.permalink || addLanguageToPath(`/industry-news/${item.contentType}/${item.articleSlug}`, currentLanguage);
+                        const articlePath = getLocalizedValue(item.permalinks || {}, language) || addLanguageToPath(`/industry-news/${item.contentType}/${item.articleSlug}`, currentLanguage);
                         const companyPath = addLanguageToPath(`/manufacturers/${item.companySlug}`, currentLanguage);
-                        const cover = post?.cover || "/static/websites/home-hero.png";
+                        const cover = getLocalizedValue(item.cover || {}, language) || "/static/websites/home-hero.png";
                         const articleTitle = getLocalizedValue(item.articleTitle, language);
                         const companyName = getLocalizedValue(item.companyName, language);
                         const shortDescription = getLocalizedValue(item.shortDescription, language);

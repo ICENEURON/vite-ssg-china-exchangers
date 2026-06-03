@@ -9,6 +9,7 @@ import { loadEnv } from 'vite';
 // - inject structured data into manufacturer and product detail pages
 // - sync robots noindex meta based on VITE_SITE_NOINDEX
 // - normalize critical head meta in generated HTML
+// - prune unrelated lazy-route resource hints from generated HTML
 // - ensure the deployment 404 page uses the React site layout and is noindexed
 
 const __filename = fileURLToPath(import.meta.url);
@@ -36,6 +37,15 @@ const defaultLanguage = 'en';
 const supportedLanguages = Object.keys(readJson(languagesPath));
 const countriesByCode = new Map(readJson(countriesPath).map((country) => [country.id, country]));
 const localeJsonCache = new Map();
+const routeChunkNames = [
+  'route-auth',
+  'route-blog',
+  'route-home',
+  'route-manufacturers',
+  'route-products',
+  'route-rfq',
+  'route-static-pages',
+];
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -835,6 +845,91 @@ function syncCriticalHeadMeta(routeEntries) {
   console.log(`Normalized critical head meta for ${routeEntries.length} pages.`);
 }
 
+function getAllowedRouteChunks(route) {
+  const { normalizedRoute } = parseRoute(route);
+
+  if (normalizedRoute === '/') return new Set(['route-home']);
+  if (normalizedRoute.startsWith('/products')) return new Set(['route-products']);
+  if (normalizedRoute.startsWith('/manufacturers')) return new Set(['route-manufacturers']);
+  if (normalizedRoute.startsWith('/industry-news')) return new Set(['route-blog']);
+  if (normalizedRoute === '/quote-request') return new Set(['route-rfq']);
+  if (normalizedRoute === '/login' || normalizedRoute === '/register' || normalizedRoute === '/dashboard') return new Set(['route-auth']);
+
+  return new Set(['route-static-pages']);
+}
+
+function getRouteChunkName(assetName) {
+  return routeChunkNames.find((chunkName) => assetName.startsWith(`${chunkName}-`)) || null;
+}
+
+function pruneUnrelatedRouteResourceHints(routeEntries) {
+  let updatedCount = 0;
+  const routeResourceLinkPattern = /\n?\s*<link\b(?=[^>]*\brel=["'](?:modulepreload|stylesheet)["'])(?=[^>]*\bhref=["'][^"']*\/assets\/(route-[^"']+\.(?:js|css))["'])[^>]*>/gi;
+
+  routeEntries.forEach(({ route, filePath }) => {
+    const allowedRouteChunks = getAllowedRouteChunks(route);
+    const html = readText(filePath);
+    const updatedHtml = html.replace(routeResourceLinkPattern, (tag, assetName) => {
+      const routeChunkName = getRouteChunkName(assetName);
+      return routeChunkName && !allowedRouteChunks.has(routeChunkName) ? '' : tag;
+    });
+
+    if (updatedHtml !== html) {
+      writeText(filePath, updatedHtml);
+      updatedCount += 1;
+    }
+  });
+
+  console.log(`Pruned unrelated route resource hints for ${updatedCount} pages.`);
+}
+
+function getSsgHashesFromHtml(html) {
+  return [...html.matchAll(/window\.__VITE_REACT_SSG_HASH__\s*=\s*['"]([^'"]+)['"]/g)]
+    .map((match) => match[1]);
+}
+
+function buildFallbackStaticLoaderDataManifest(routeEntries) {
+  return routeEntries.reduce((manifest, { route }) => {
+    manifest[route] = {};
+    return manifest;
+  }, {});
+}
+
+function ensureStaticLoaderDataManifest(routeEntries) {
+  const hashes = new Set();
+
+  routeEntries.forEach(({ filePath }) => {
+    const html = readText(filePath);
+
+    for (const hash of getSsgHashesFromHtml(html)) {
+      hashes.add(hash);
+    }
+  });
+
+  if (hashes.size === 0) {
+    console.log('No Vite React SSG static loader data manifest hash found.');
+    return;
+  }
+
+  let createdCount = 0;
+  const fallbackManifest = `${JSON.stringify(buildFallbackStaticLoaderDataManifest(routeEntries), null, 2)}\n`;
+
+  for (const hash of hashes) {
+    const manifestPath = path.join(distDir, `static-loader-data-manifest-${hash}.json`);
+
+    if (fs.existsSync(manifestPath)) {
+      continue;
+    }
+
+    writeText(manifestPath, fallbackManifest);
+    createdCount += 1;
+  }
+
+  console.log(createdCount > 0
+    ? `Created ${createdCount} fallback static loader data manifest(s).`
+    : 'Static loader data manifest is present.');
+}
+
 function ensureNoindexMeta(html) {
   const withoutNoindex = html.replace(/\n?\s*<meta\s+name=["']robots["']\s+content=["']noindex,\s*nofollow["']\s*\/?>/i, '');
 
@@ -874,6 +969,18 @@ function syncNotFoundPages() {
   });
 
   console.log(`Synced ${notFoundPaths.length} custom 404 pages.`);
+}
+
+function getNotFoundRouteEntries() {
+  return [
+    { route: '/404', filePath: path.join(distDir, '404.html') },
+    ...supportedLanguages
+      .filter((language) => language !== defaultLanguage)
+      .map((language) => ({
+        route: `/${language}/404`,
+        filePath: path.join(distDir, language, '404.html'),
+      })),
+  ].filter(({ filePath }) => fs.existsSync(filePath));
 }
 
 function writeRobotsTxt() {
@@ -1077,6 +1184,9 @@ function buildSitemap() {
   syncNoindexMeta(allRoutes);
   syncCriticalHeadMeta(allRoutes);
   syncNotFoundPages();
+  const allRouteEntries = [...allRoutes, ...getNotFoundRouteEntries()];
+  ensureStaticLoaderDataManifest(allRouteEntries);
+  pruneUnrelatedRouteResourceHints(allRouteEntries);
 
   console.log(`Generated sitemap with ${sitemapRoutes.length} URLs.`);
 }

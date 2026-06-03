@@ -389,7 +389,7 @@ export default function ManufacturerProfilePage() {
                         {/* Sidebar - Info Cards */}
                         <div className="min-w-0 space-y-4 lg:col-span-4">
                             {/* Industries Tag Cloud */}
-                            <div className="h-fit w-full max-w-full rounded-sm border border-slate-100 bg-white p-4 shadow-sm">
+                            <div className="h-fit w-full max-w-full rounded-sm border border-slate-100 bg-white p-4 shadow-sm lg:mt-16">
                                 <h3 className="mb-4 flex items-center gap-2 !text-xl !font-semibold !leading-tight tracking-tight text-slate-900">
                                     <Flame className="h-5 w-5 text-orange-500" /> {t(`${SHARED_TK}.industries_served`)}
                                 </h3>

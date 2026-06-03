@@ -26,7 +26,7 @@ const createRouteObjects = (routes: RouteDef[], authType: "public" | "private") 
     .filter((route) => route.auth === authType)
     .map((route) => ({
       path: route.path,
-      Component: route.element,
+      lazy: route.lazy,
     }));
 
 const routes: RouteObject[] = [

@@ -139,6 +139,23 @@ function getLatestNewsArticle(companySlug) {
   return articles[0] || null;
 }
 
+function buildArticlePermalinks(contentType, slug) {
+  return Object.fromEntries(
+    languages.map((language) => [
+      language,
+      `${language === 'en' ? '' : `/${language}`}/industry-news/${contentType}/${slug}`
+    ])
+  );
+}
+
+function normalizePublicPath(value) {
+  if (!value) {
+    return '';
+  }
+
+  return value.startsWith('/') ? value : `/${value}`;
+}
+
 function buildHighlightedArticle(companySlug, article, manufacturersBySlug) {
   const companyMeta = getCompanyMeta(companySlug, manufacturersBySlug);
   const english = article.localized.en || {};
@@ -157,6 +174,13 @@ function buildHighlightedArticle(companySlug, article, manufacturersBySlug) {
     companyName: companyMeta.name,
     contentType: 'news',
     articleSlug: article.slug,
+    permalinks: buildArticlePermalinks('news', article.slug),
+    cover: Object.fromEntries(
+      languages.map((language) => [
+        language,
+        normalizePublicPath(article.localized[language]?.cover || english.cover || firstLocalized.cover || '')
+      ])
+    ),
     articleTitle: Object.fromEntries(
       languages.map((language) => [
         language,

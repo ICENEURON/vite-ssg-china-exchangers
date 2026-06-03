@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02",
+  "lastUpdated": "2026-06-03",
   "description": "Automatically generated homepage highlight configuration using the latest news article for each external company. HeatEx Direct articles are excluded. Shanghai Heat Transfer Equipment Co., Ltd. is pinned first.",
   "items": [
     {
@@ -16,6 +16,22 @@
       },
       "contentType": "news",
       "articleSlug": "overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully",
+      "permalinks": {
+        "en": "/industry-news/news/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully",
+        "fr": "/fr/industry-news/news/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully",
+        "es": "/es/industry-news/news/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully",
+        "ar": "/ar/industry-news/news/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully",
+        "ru": "/ru/industry-news/news/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully",
+        "zh": "/zh/industry-news/news/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully"
+      },
+      "cover": {
+        "en": "/static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png",
+        "fr": "/static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png",
+        "es": "/static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png",
+        "ar": "/static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png",
+        "ru": "/static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png",
+        "zh": "/static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png"
+      },
       "articleTitle": {
         "en": "Overseas Delivery Again! SHPHE’s Wide-Gap Welded Plate Heat Exchangers Shipped Successfully",
         "fr": "Livraison à l'étranger à nouveau! Les échangeurs de chaleur à plaques soudées à large espacement",
@@ -56,6 +72,22 @@
       },
       "contentType": "news",
       "articleSlug": "accessen-prefabricated-cooling-station-dcwf-2026-recap",
+      "permalinks": {
+        "en": "/industry-news/news/accessen-prefabricated-cooling-station-dcwf-2026-recap",
+        "fr": "/fr/industry-news/news/accessen-prefabricated-cooling-station-dcwf-2026-recap",
+        "es": "/es/industry-news/news/accessen-prefabricated-cooling-station-dcwf-2026-recap",
+        "ar": "/ar/industry-news/news/accessen-prefabricated-cooling-station-dcwf-2026-recap",
+        "ru": "/ru/industry-news/news/accessen-prefabricated-cooling-station-dcwf-2026-recap",
+        "zh": "/zh/industry-news/news/accessen-prefabricated-cooling-station-dcwf-2026-recap"
+      },
+      "cover": {
+        "en": "/static/content_posts_image/accessen-prefabricated-cooling-station-dcwf-2026-recap/cover.jpg",
+        "fr": "/static/content_posts_image/accessen-prefabricated-cooling-station-dcwf-2026-recap/cover.jpg",
+        "es": "/static/content_posts_image/accessen-prefabricated-cooling-station-dcwf-2026-recap/cover.jpg",
+        "ar": "/static/content_posts_image/accessen-prefabricated-cooling-station-dcwf-2026-recap/cover.jpg",
+        "ru": "/static/content_posts_image/accessen-prefabricated-cooling-station-dcwf-2026-recap/cover.jpg",
+        "zh": "/static/content_posts_image/accessen-prefabricated-cooling-station-dcwf-2026-recap/cover.jpg"
+      },
       "articleTitle": {
         "en": "Accessen's Prefabricated Cooling Station Concludes at DCWF 2026",
         "fr": "La station de refroidissement préfabriquée de Accessen se termine au DCWF 2026",
@@ -96,6 +128,22 @@
       },
       "contentType": "news",
       "articleSlug": "lanshi-torch-project-plate-heat-exchangers-shipped",
+      "permalinks": {
+        "en": "/industry-news/news/lanshi-torch-project-plate-heat-exchangers-shipped",
+        "fr": "/fr/industry-news/news/lanshi-torch-project-plate-heat-exchangers-shipped",
+        "es": "/es/industry-news/news/lanshi-torch-project-plate-heat-exchangers-shipped",
+        "ar": "/ar/industry-news/news/lanshi-torch-project-plate-heat-exchangers-shipped",
+        "ru": "/ru/industry-news/news/lanshi-torch-project-plate-heat-exchangers-shipped",
+        "zh": "/zh/industry-news/news/lanshi-torch-project-plate-heat-exchangers-shipped"
+      },
+      "cover": {
+        "en": "/static/content_posts_image/lanshi-torch-project-plate-heat-exchangers-shipped/cover.png",
+        "fr": "/static/content_posts_image/lanshi-torch-project-plate-heat-exchangers-shipped/cover.png",
+        "es": "/static/content_posts_image/lanshi-torch-project-plate-heat-exchangers-shipped/cover.png",
+        "ar": "/static/content_posts_image/lanshi-torch-project-plate-heat-exchangers-shipped/cover.png",
+        "ru": "/static/content_posts_image/lanshi-torch-project-plate-heat-exchangers-shipped/cover.png",
+        "zh": "/static/content_posts_image/lanshi-torch-project-plate-heat-exchangers-shipped/cover.png"
+      },
       "articleTitle": {
         "en": "Lanzhou Lanshi Heat Exchange Ships 10 Removable Plate Heat Exchangers for the Torch Project",
         "fr": "Lanzhou Lanshi Heat Exchange expédie 10 échangeurs de chaleur à plaques amovibles pour le projet",
@@ -136,6 +184,22 @@
       },
       "contentType": "news",
       "articleSlug": "nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization",
+      "permalinks": {
+        "en": "/industry-news/news/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization",
+        "fr": "/fr/industry-news/news/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization",
+        "es": "/es/industry-news/news/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization",
+        "ar": "/ar/industry-news/news/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization",
+        "ru": "/ru/industry-news/news/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization",
+        "zh": "/zh/industry-news/news/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization"
+      },
+      "cover": {
+        "en": "/static/content_posts_image/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization/cover.jpg",
+        "fr": "/static/content_posts_image/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization/cover.jpg",
+        "es": "/static/content_posts_image/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization/cover.jpg",
+        "ar": "/static/content_posts_image/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization/cover.jpg",
+        "ru": "/static/content_posts_image/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization/cover.jpg",
+        "zh": "/static/content_posts_image/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization/cover.jpg"
+      },
       "articleTitle": {
         "en": "Siping Juyuan Hanyang Advances Nuclear Deep-Corrugated Titanium Plate Localization",
         "fr": "Siping Juyuan Hanyang fait progresser la localisation des plaques de titane nucléaires à",

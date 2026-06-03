@@ -15,7 +15,7 @@ export function ProblemSection() {
         <section className="flex justify-center bg-slate-50 px-2 py-14">
             <div className="container max-w-6xl px-4">
                 <div className="grid gap-10 lg:grid-cols-[minmax(0,0.72fr)_minmax(0,1fr)] lg:items-start">
-                    <div className="max-w-xl lg:sticky lg:top-24">
+                    <div className="max-w-xl lg:self-start">
                         <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl">
                             {t("pages.about.advantages.title")}
                         </h2>

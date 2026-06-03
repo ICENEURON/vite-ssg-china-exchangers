@@ -87,6 +87,7 @@ export default defineConfig(({ mode }) => {
         },
         output: {
           hoistTransitiveImports: false,
+          onlyExplicitManualChunks: true,
           manualChunks(id: string) {
             const normalizedId = id.replace(/\\/g, '/');
 
@@ -124,6 +125,42 @@ export default defineConfig(({ mode }) => {
             const localeChunkMatch = normalizedId.match(/\/src\/locales\/(en|zh|ru|es|fr|ar)\//);
             if (localeChunkMatch) {
               return `locale-${localeChunkMatch[1]}`;
+            }
+
+            if (normalizedId.includes('/.velite/')) {
+              return 'route-blog';
+            }
+
+            if (normalizedId.includes('/src/pages/home/')) {
+              return 'route-home';
+            }
+
+            if (normalizedId.includes('/src/pages/products/')) {
+              return 'route-products';
+            }
+
+            if (normalizedId.includes('/src/pages/manufacturers/')) {
+              return 'route-manufacturers';
+            }
+
+            if (normalizedId.includes('/src/pages/rfq/')) {
+              return 'route-rfq';
+            }
+
+            if (normalizedId.includes('/src/pages/industry-news/')) {
+              return 'route-blog';
+            }
+
+            if (
+              normalizedId.includes('/src/pages/login/') ||
+              normalizedId.includes('/src/pages/register/') ||
+              normalizedId.includes('/src/app/dashboard/')
+            ) {
+              return 'route-auth';
+            }
+
+            if (normalizedId.includes('/src/pages/')) {
+              return 'route-static-pages';
             }
 
             if (normalizedId.includes('/src/data/')) {
