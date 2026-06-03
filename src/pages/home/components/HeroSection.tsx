@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { BrandText } from "../../../components/ui/brand-text";
+import { ResponsiveHeroImage } from "../../../components/ui/responsive-hero-image";
 import { ArrowRight, Factory, PackageSearch } from "lucide-react";
 import { addLanguageToPath, useCurrentLanguage } from "../../../utils/language-routing";
 
@@ -19,7 +20,7 @@ export function HeroSection() {
 
     return (
         <section className="relative isolate flex min-h-[650px] justify-center overflow-hidden bg-navbar px-2 py-16 text-navbar-foreground">
-            <div className="absolute inset-0 -z-20 bg-[url('/static/websites/home-hero.png')] bg-cover bg-center opacity-40" />
+            <ResponsiveHeroImage src="/static/websites/home-hero.png" className="-z-20 opacity-40" />
             <div className="absolute inset-0 -z-10 bg-gradient-to-b from-navbar/90 via-navbar/82 to-navbar" />
 
             <div className="container z-10 flex max-w-6xl flex-col justify-center gap-7 px-4">

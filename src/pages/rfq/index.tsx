@@ -612,6 +612,11 @@ export default function SmartRfqBuilder() {
         </div>
 
         <div className="container mx-auto px-4 max-w-6xl pt-8">
+          <div className="mx-auto mb-6 max-w-3xl text-center">
+            <h1 className="text-2xl font-bold text-slate-950 md:text-4xl">{t("navbarTitle")}</h1>
+            <p className="mt-3 text-sm leading-6 text-slate-600 md:text-base">{t("description")}</p>
+          </div>
+
           <ProgressTracker currentStep={step} />
 
           <div className="mt-8">

@@ -1,6 +1,7 @@
 import { useTranslation, Trans } from "react-i18next";
 import { CheckCircle2 } from "lucide-react";
 import { BrandText } from "../../../components/ui/brand-text";
+import { ResponsiveHeroImage } from "../../../components/ui/responsive-hero-image";
 
 export function AboutHero() {
     const { t } = useTranslation("translation");
@@ -8,7 +9,7 @@ export function AboutHero() {
 
     return (
         <section className="relative isolate flex min-h-[560px] justify-center overflow-hidden bg-navbar px-2 py-16 text-navbar-foreground">
-            <div className="absolute inset-0 -z-20 bg-[url('/static/websites/about-hero.png')] bg-cover bg-center opacity-35" />
+            <ResponsiveHeroImage src="/static/websites/about-hero.png" className="-z-20 opacity-35" />
             <div className="absolute inset-0 -z-10 bg-gradient-to-b from-navbar/92 via-navbar/86 to-navbar" />
 
             <div className="container z-10 flex max-w-6xl flex-col justify-center gap-7 px-4">

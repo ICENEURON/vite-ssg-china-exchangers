@@ -1,3 +1,5 @@
+import { ResponsiveHeroImage } from "./responsive-hero-image";
+
 interface PageHeroProps {
   title: string;
   description: string;
@@ -14,10 +16,9 @@ export function PageHero({
   return (
     <section className="relative flex min-h-[360px] items-start overflow-hidden px-4 py-[99px]">
       <div className="absolute inset-0 z-0">
-        <img
+        <ResponsiveHeroImage
           src={backgroundImageSrc}
           alt={backgroundImageAlt}
-          className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-navbar/90" />
       </div>
