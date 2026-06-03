@@ -628,18 +628,15 @@ span {
 
 @keyframes heatex-navigation-progress {
   0% {
-    transform: translateX(-120%) scaleX(0.65);
-  }
-  45% {
-    transform: translateX(65%) scaleX(1);
+    transform: translateX(-100%);
   }
   100% {
-    transform: translateX(220%) scaleX(0.72);
+    transform: translateX(300%);
   }
 }
 
 .animate-heatex-navigation-progress {
-  animation: heatex-navigation-progress 1.15s ease-in-out infinite;
+  animation: heatex-navigation-progress 2s ease-in-out infinite;
   transform-origin: left center;
 }
 

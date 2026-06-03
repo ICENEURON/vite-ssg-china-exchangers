@@ -12,9 +12,9 @@ function NavigationProgressBar({ isVisible }: { isVisible: boolean }) {
   return (
     <div
       aria-hidden="true"
-      className={`pointer-events-none fixed left-0 right-0 top-0 z-[70] h-1 overflow-hidden bg-transparent transition-opacity duration-150 ${isVisible ? "opacity-100" : "opacity-0"}`}
+      className={`pointer-events-none fixed left-0 right-0 top-0 z-[70] h-1 overflow-hidden bg-navbar transition-opacity duration-150 ${isVisible ? "opacity-100" : "opacity-0"}`}
     >
-      <div className="h-full w-1/2 animate-heatex-navigation-progress bg-gradient-to-r from-primary via-orange-400 to-primary shadow-[0_0_18px_rgba(249,115,22,0.45)]" />
+      <div className="h-full w-1/3 animate-heatex-navigation-progress bg-gradient-to-r from-transparent via-orange-400 to-transparent shadow-[0_0_18px_rgba(249,115,22,0.45)]" />
     </div>
   );
 }
