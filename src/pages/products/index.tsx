@@ -10,7 +10,8 @@ import { PageHero } from "../../components/ui/page-hero";
 import { QuoteCta } from "../../components/ui/quote-cta";
 import { RfqLink } from "../../utils/rfq-routing/link";
 import manufacturerScores from "../../data/manufacturer_scores.json";
-import { resources } from "../../locales/resources";
+import { getLoadedTranslationResource } from "../../i18n/config";
+import type { LocaleResource } from "../../locales/resources";
 
 interface Industry {
     id: number;
@@ -50,7 +51,7 @@ interface ManufacturerScoreFile {
 
 type ManufacturerScoreSource = ManufacturerScore[] | ManufacturerScoreFile;
 
-type ProductsTranslationData = {
+type ProductsTranslationData = LocaleResource["pages"]["products"] & {
     list?: ProductListItem[];
 };
 
@@ -61,8 +62,8 @@ function getManufacturerScoreRecords(source: ManufacturerScoreSource) {
     return Array.isArray(source) ? source : source.records;
 }
 
-function getProductsTranslationData(language: keyof typeof resources): ProductsTranslationData {
-    return resources[language].translation.pages.products as ProductsTranslationData;
+function getProductsTranslationData(language: string): ProductsTranslationData | null {
+    return (getLoadedTranslationResource(language) as LocaleResource | undefined)?.pages.products as ProductsTranslationData | undefined || null;
 }
 
 function getCurrentPathname(pathname: string) {
@@ -82,7 +83,7 @@ export default function ProductsPage() {
 
     // Safely parse the products from translation JSON list
     const productsList = useMemo(() => (
-        getProductsTranslationData(currentLanguage).list || getProductsTranslationData("en").list || []
+        getProductsTranslationData(currentLanguage)?.list || getProductsTranslationData("en")?.list || []
     ), [currentLanguage]);
     const industries = t("industries", { returnObjects: true }) as Industry[];
 

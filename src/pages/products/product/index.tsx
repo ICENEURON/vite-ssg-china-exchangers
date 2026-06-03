@@ -8,7 +8,8 @@ import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/
 import { useTranslation } from 'react-i18next'
 import { addLanguageToPath, getLanguageFromPath } from '../../../utils/language-routing'
 import { RfqLink } from '../../../utils/rfq-routing/link'
-import { resources } from '../../../locales/resources'
+import { getLoadedTranslationResource } from '../../../i18n/config'
+import type { LocaleResource } from '../../../locales/resources'
 
 interface ProductImageAsset {
     alt_text?: string;
@@ -57,10 +58,10 @@ interface RelatedProduct {
     image?: ProductImageAsset;
 }
 
-type ProductsTranslationData = Record<string, unknown>;
+type ProductsTranslationData = LocaleResource["pages"]["products"] & Record<string, unknown>;
 
-function getProductsTranslationData(language: keyof typeof resources): ProductsTranslationData {
-    return resources[language].translation.pages.products as ProductsTranslationData;
+function getProductsTranslationData(language: string): ProductsTranslationData | null {
+    return (getLoadedTranslationResource(language) as LocaleResource | undefined)?.pages.products as ProductsTranslationData | undefined || null;
 }
 
 function getCurrentPathname(pathname: string) {
@@ -105,8 +106,8 @@ export default function ProductProfilePage() {
     const downloadLabel = t("pages.products.detail.download");
 
     // Construct dynamic path: pages.products.shanghai-heat-transfer-equipment-co-ltd.ht-bloc-welded-plate-heat-exchanger
-    const productsData = getProductsTranslationData(currentLanguage);
-    const fallbackProductsData = getProductsTranslationData("en");
+    const productsData = getProductsTranslationData(currentLanguage) || {};
+    const fallbackProductsData = getProductsTranslationData("en") || {};
     const manufacturerProducts = productsData[manufacturerSlug || ""] as Record<string, ProductData> | undefined;
     const fallbackManufacturerProducts = fallbackProductsData[manufacturerSlug || ""] as Record<string, ProductData> | undefined;
 

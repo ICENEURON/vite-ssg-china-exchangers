@@ -1,10 +1,11 @@
-import { useEffect, useCallback } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Head } from 'vite-react-ssg';
+import { defaultNS } from '../../locales';
+import { ensureLanguageResource } from '../../i18n/config';
 import { useCurrentLanguage } from '../../utils/language-routing';
 
-// 全局类型声明 window.__LANGUAGE__
 declare global {
   interface Window {
     __LANGUAGE__?: string;
@@ -14,37 +15,54 @@ declare global {
 export function LanguageProvider() {
   const { i18n } = useTranslation();
   const currentLanguage = useCurrentLanguage();
+  const [readyLanguage, setReadyLanguage] = useState<string | null>(() => (
+    i18n.hasResourceBundle(currentLanguage, defaultNS) ? currentLanguage : null
+  ));
 
   if (typeof window === 'undefined' && i18n.language !== currentLanguage) {
     i18n.changeLanguage(currentLanguage);
   }
 
-  // 统一的语言设置函数
   const updateLanguage = useCallback((language: string) => {
-    // 更新 i18n 语言
     if (i18n.language !== language) {
       i18n.changeLanguage(language);
     }
-    
-    // 设置 HTML lang 属性（SSR 安全）
+
     if (typeof document !== 'undefined') {
       document.documentElement.lang = language;
     }
-    
-    // 设置全局语言状态
+
     if (typeof window !== 'undefined') {
       window.__LANGUAGE__ = language;
     }
   }, [i18n]);
 
-  // Keep i18n, document metadata, and persisted language in sync after render.
   useEffect(() => {
-    updateLanguage(currentLanguage);
+    let isCancelled = false;
 
-    if (typeof localStorage !== 'undefined') {
-      localStorage.setItem('language', currentLanguage);
+    if (!i18n.hasResourceBundle(currentLanguage, defaultNS)) {
+      setReadyLanguage(null);
     }
-  }, [currentLanguage, updateLanguage]);
+
+    void ensureLanguageResource(currentLanguage).then(() => {
+      if (isCancelled) return;
+
+      updateLanguage(currentLanguage);
+      setReadyLanguage(currentLanguage);
+
+      if (typeof localStorage !== 'undefined') {
+        localStorage.setItem('language', currentLanguage);
+      }
+    });
+
+    return () => {
+      isCancelled = true;
+    };
+  }, [currentLanguage, i18n, updateLanguage]);
+
+  if (typeof window !== 'undefined' && readyLanguage !== currentLanguage) {
+    return null;
+  }
 
   return (
     <>

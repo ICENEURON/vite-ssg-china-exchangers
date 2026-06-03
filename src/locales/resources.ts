@@ -1,32 +1,20 @@
-import en from './en';
-import zh from './zh';
-import ru from './ru';
-import es from './es';
-import fr from './fr';
-import ar from './ar';
-
-export const resources = {
-  en: {
-    translation: en,
-  },
-  zh: {
-    translation: zh,
-  },
-  ru: {
-    translation: ru,
-  },
-  es: {
-    translation: es,
-  },
-  fr: {
-    translation: fr,
-  },
-  ar: {
-    translation: ar,
-  },
-} as const;
+import type { SupportedLanguage } from './languages';
 
 export const defaultNS = 'translation' as const;
 
-export type Resources = typeof resources;
-export type Locale = keyof Resources;
+export type LocaleResource = typeof import('./en').default;
+export type Resources = Record<SupportedLanguage, { translation: LocaleResource }>;
+export type Locale = SupportedLanguage;
+
+const localeResourceLoaders: Record<SupportedLanguage, () => Promise<{ default: LocaleResource }>> = {
+  en: () => import('./en'),
+  zh: () => import('./zh'),
+  ru: () => import('./ru'),
+  es: () => import('./es'),
+  fr: () => import('./fr'),
+  ar: () => import('./ar'),
+};
+
+export async function loadLocaleResource(language: SupportedLanguage): Promise<LocaleResource> {
+  return (await localeResourceLoaders[language]()).default;
+}

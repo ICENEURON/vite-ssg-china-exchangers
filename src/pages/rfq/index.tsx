@@ -16,23 +16,46 @@ import { clearRfqDraftId, getMarketingAttributionPayload, getOrCreateRfqDraftId,
 import { getPathWithoutLanguage, useCurrentLanguage } from "../../utils/language-routing"
 import { QUOTE_REQUEST_SOURCE_URL_STORAGE_KEY } from "../../utils/rfq-routing/link"
 import manufacturersData from "../../data/manufacturers.json"
-import { resources } from "../../locales/resources"
+import { ensureLanguageResource, getLoadedTranslationResource } from "../../i18n/config"
+import type { SupportedLanguage } from "../../locales/languages"
+import type { LocaleResource } from "../../locales/resources"
 
 interface SourceManufacturer {
   slug: string;
   name: Partial<Record<LocaleCode, string>> & { en: string };
 }
 
-type LocaleCode = keyof typeof resources;
+type LocaleCode = SupportedLanguage;
 type LocaleOption = { id: string; label: string };
-type RfqLocale = typeof resources.en.translation.pages.rfq;
+type RfqLocale = LocaleResource["pages"]["rfq"];
 
 const LABEL_LOCALE_CODES = ["en", "zh"] as const satisfies readonly LocaleCode[];
 type LabelLocaleCode = typeof LABEL_LOCALE_CODES[number];
 type LocalizedLabel = Record<LabelLocaleCode, string>;
+type LocalizedOptionLabels = Record<string, LocalizedLabel>;
+type RfqPayloadLabels = {
+  fluidTypeLabels: LocalizedOptionLabels;
+  materialLabels: LocalizedOptionLabels;
+  flangeStandardLabels: LocalizedOptionLabels;
+  productTypeLabels: LocalizedOptionLabels;
+  quantityLabels: LocalizedOptionLabels;
+  timelineLabels: LocalizedOptionLabels;
+};
 
 function getRfqLocale(locale: LocaleCode): RfqLocale {
-  return resources[locale].translation.pages.rfq as RfqLocale;
+  const resource = getLoadedTranslationResource(locale) as LocaleResource | undefined;
+  const fallbackResource = getLoadedTranslationResource("en") as LocaleResource | undefined;
+  const rfqLocale = resource?.pages.rfq || fallbackResource?.pages.rfq;
+
+  if (!rfqLocale) {
+    throw new Error(`RFQ locale is not loaded for ${locale}`);
+  }
+
+  return rfqLocale as RfqLocale;
+}
+
+async function ensureRfqPayloadLabelResources() {
+  await Promise.all(LABEL_LOCALE_CODES.map((locale) => ensureLanguageResource(locale)));
 }
 
 function getRfqParameterLabel(key: keyof RfqLocale["parameterLabels"]): LocalizedLabel {
@@ -62,6 +85,17 @@ function getLocalizedOptionLabels(collection: "fluidTypes" | "plateMaterials" | 
   });
 
   return optionLabels;
+}
+
+function createRfqPayloadLabels(): RfqPayloadLabels {
+  return {
+    fluidTypeLabels: getLocalizedOptionLabels("fluidTypes"),
+    materialLabels: getLocalizedOptionLabels("plateMaterials"),
+    flangeStandardLabels: getLocalizedOptionLabels("flangeStandards"),
+    productTypeLabels: getLocalizedOptionLabels("productTypes"),
+    quantityLabels: getLocalizedOptionLabels("quantities"),
+    timelineLabels: getLocalizedOptionLabels("timelines"),
+  };
 }
 
 function scrollToTop() {
@@ -146,9 +180,6 @@ export default function SmartRfqBuilder() {
     value: value.trim() || null,
     unit,
   });
-  const fluidTypeLabels = getLocalizedOptionLabels("fluidTypes");
-  const materialLabels = getLocalizedOptionLabels("plateMaterials");
-  const flangeStandardLabels = getLocalizedOptionLabels("flangeStandards");
   const optionParameter = (value: string, customValue: string, label: LocalizedLabel, options: Record<string, LocalizedLabel>) => {
     const resolvedValue = resolveCustomSelectValue(value, customValue);
     return {
@@ -340,7 +371,7 @@ export default function SmartRfqBuilder() {
     return getSpecValue(`${side}Inlet${suffix}` as keyof RfqProductSpecsData);
   };
 
-  const buildEndpointPayload = (side: "hot" | "cold", endpoint: "inlet" | "outlet") => {
+  const buildEndpointPayload = (side: "hot" | "cold", endpoint: "inlet" | "outlet", payloadLabels: RfqPayloadLabels) => {
     const tempField = `${side}${endpoint === "inlet" ? "In" : "Out"}` as keyof RfqProductSpecsData;
     const inletTempField = `${side}In` as keyof RfqProductSpecsData;
     const phaseValue = getEndpointValue(side, endpoint, "FluidType");
@@ -351,7 +382,7 @@ export default function SmartRfqBuilder() {
       fluidType: {
         label: getRfqParameterLabel("fluidType"),
         value: phaseValue || null,
-        optionLabel: phaseValue ? fluidTypeLabels[phaseValue] || sameLocalizedLabel(phaseValue) : null,
+        optionLabel: phaseValue ? payloadLabels.fluidTypeLabels[phaseValue] || sameLocalizedLabel(phaseValue) : null,
         unit: null,
       },
       massFlow: parameterValue(getEndpointValue(side, endpoint, "MassFlow"), getRfqParameterLabel("massFlow"), "kg/h"),
@@ -365,14 +396,14 @@ export default function SmartRfqBuilder() {
     };
   };
 
-  const buildThermalSidePayload = (side: "hot" | "cold") => ({
+  const buildThermalSidePayload = (side: "hot" | "cold", payloadLabels: RfqPayloadLabels) => ({
     label: side === "hot" ? getRfqParameterLabel("hotSide") : getRfqParameterLabel("coldSide"),
     mediaName: parameterValue(specsData[`${side}MediaName` as keyof RfqProductSpecsData], getRfqParameterLabel("mediaName"), null),
-    inlet: buildEndpointPayload(side, "inlet"),
-    outlet: buildEndpointPayload(side, "outlet"),
+    inlet: buildEndpointPayload(side, "inlet", payloadLabels),
+    outlet: buildEndpointPayload(side, "outlet", payloadLabels),
   });
 
-  const buildEquipmentSidePayload = (side: "hot" | "cold") => ({
+  const buildEquipmentSidePayload = (side: "hot" | "cold", payloadLabels: RfqPayloadLabels) => ({
     label: side === "hot" ? getRfqParameterLabel("hotSide") : getRfqParameterLabel("coldSide"),
     mechanical: {
       designPressure: parameterValue(specsData[`${side}DesignPressure` as keyof RfqProductSpecsData], getRfqParameterLabel("designPressure"), "MPa"),
@@ -382,7 +413,7 @@ export default function SmartRfqBuilder() {
         specsData[`${side}FlangeStandard` as keyof RfqProductSpecsData],
         specsData[`custom${side === "hot" ? "Hot" : "Cold"}FlangeStandard` as keyof RfqProductSpecsData],
         getRfqParameterLabel("flangeStandard"),
-        flangeStandardLabels
+        payloadLabels.flangeStandardLabels
       ),
       flangeNominalDiameter: {
         label: getRfqParameterLabel("flangeNominalDiameter"),
@@ -404,24 +435,24 @@ export default function SmartRfqBuilder() {
     industry: contextData.industry === "other" ? contextData.customIndustry : contextData.industry,
   });
 
-  const buildRequestPayload = () => ({
+  const buildRequestPayload = (payloadLabels: RfqPayloadLabels) => ({
     productType: optionParameter(
       specsData.productType,
       specsData.customProductType,
       getRfqParameterLabel("productType"),
-      getLocalizedOptionLabels("productTypes")
+      payloadLabels.productTypeLabels
     ),
     quantity: optionParameter(
       specsData.quantity,
       specsData.customQuantity,
       getRfqParameterLabel("quantity"),
-      getLocalizedOptionLabels("quantities")
+      payloadLabels.quantityLabels
     ),
     timeline: optionParameter(
       specsData.timeline,
       specsData.customTimeline,
       getRfqParameterLabel("timeline"),
-      getLocalizedOptionLabels("timelines")
+      payloadLabels.timelineLabels
     ),
   });
 
@@ -442,29 +473,35 @@ export default function SmartRfqBuilder() {
     })),
   });
 
-  const buildParametersPayload = (): RFQSubmissionData["parameters"] => ({
-    schemaVersion: "rfq_parameters_v2",
-    unitSystem: "metric",
-    userLanguage: currentLanguage,
-    languageLabels: ["en", "zh"],
-    requestMode: specsMode,
-    request: buildRequestPayload(),
-    attribution: buildAttributionPayload(),
-    attachments: buildAttachmentSummary(),
-    thermal: {
-      label: getRfqParameterLabel("thermal"),
-      hot: buildThermalSidePayload("hot"),
-      cold: buildThermalSidePayload("cold"),
-      heatLoad: parameterValue(specsData.heatLoad, getRfqParameterLabel("heatLoad"), "kW"),
-    },
-    equipment: {
-      label: getRfqParameterLabel("equipment"),
-      hot: buildEquipmentSidePayload("hot"),
-      cold: buildEquipmentSidePayload("cold"),
-      designCode: parameterValue(specsData.designCode, getRfqParameterLabel("designCode"), null),
-      plateMaterial: optionParameter(specsData.plateMaterial, specsData.customPlateMaterial, getRfqParameterLabel("plateMaterial"), materialLabels),
-    },
-  });
+  const buildParametersPayload = async (): Promise<RFQSubmissionData["parameters"]> => {
+    await ensureRfqPayloadLabelResources();
+
+    const payloadLabels = createRfqPayloadLabels();
+
+    return {
+      schemaVersion: "rfq_parameters_v2",
+      unitSystem: "metric",
+      userLanguage: currentLanguage,
+      languageLabels: ["en", "zh"],
+      requestMode: specsMode,
+      request: buildRequestPayload(payloadLabels),
+      attribution: buildAttributionPayload(),
+      attachments: buildAttachmentSummary(),
+      thermal: {
+        label: getRfqParameterLabel("thermal"),
+        hot: buildThermalSidePayload("hot", payloadLabels),
+        cold: buildThermalSidePayload("cold", payloadLabels),
+        heatLoad: parameterValue(specsData.heatLoad, getRfqParameterLabel("heatLoad"), "kW"),
+      },
+      equipment: {
+        label: getRfqParameterLabel("equipment"),
+        hot: buildEquipmentSidePayload("hot", payloadLabels),
+        cold: buildEquipmentSidePayload("cold", payloadLabels),
+        designCode: parameterValue(specsData.designCode, getRfqParameterLabel("designCode"), null),
+        plateMaterial: optionParameter(specsData.plateMaterial, specsData.customPlateMaterial, getRfqParameterLabel("plateMaterial"), payloadLabels.materialLabels),
+      },
+    };
+  };
 
   const recordRfqProgressEvent = (
     eventName: string,
@@ -497,7 +534,7 @@ export default function SmartRfqBuilder() {
     scrollToTop();
   }
 
-  const handleNext = () => {
+  const handleNext = async () => {
     if (step === 1 && canProceedToStep2) {
       trackRfqEvent("rfq_step1_complete", {
         country: contextData.country,
@@ -520,8 +557,9 @@ export default function SmartRfqBuilder() {
         hot_flange_standard: specsData.hotFlangeStandard,
         cold_flange_standard: specsData.coldFlangeStandard,
       });
+      const parametersPayload = await buildParametersPayload();
       recordRfqProgressEvent("rfq_step2_complete", {
-        ...buildParametersPayload(),
+        ...parametersPayload,
       });
       if (isVerified) goToStep(4);
       else goToStep(3);
@@ -543,6 +581,7 @@ export default function SmartRfqBuilder() {
     const isBusinessEmail = !freeDomains.includes(emailDomain);
 
     const rfqId = createRfqId();
+    const parametersPayload = await buildParametersPayload();
     const submissionPayload: RFQSubmissionData = {
       id: rfqId,
       first_name: contextData.firstName,
@@ -556,7 +595,7 @@ export default function SmartRfqBuilder() {
       is_stealth: isAnonymous,
       source_url: sourceUrl || null,
       is_targeting_source_manufacturer: Boolean(sourceManufacturer && isTargetingSourceManufacturer),
-      parameters: buildParametersPayload()
+      parameters: parametersPayload
     }
 
     try {

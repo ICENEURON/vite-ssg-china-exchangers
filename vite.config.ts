@@ -86,6 +86,7 @@ export default defineConfig(({ mode }) => {
           main: resolve(__dirname, 'index.html'),
         },
         output: {
+          hoistTransitiveImports: false,
           manualChunks(id: string) {
             const normalizedId = id.replace(/\\/g, '/');
 
@@ -116,7 +117,16 @@ export default defineConfig(({ mode }) => {
               return 'vendor';
             }
 
-            if (normalizedId.includes('/src/data/') || normalizedId.includes('/src/locales/')) {
+            if (normalizedId.match(/\/src\/locales\/(en|zh|ru|es|fr|ar)\/components\/cookie\.json$/)) {
+              return 'cookie-consent-locales';
+            }
+
+            const localeChunkMatch = normalizedId.match(/\/src\/locales\/(en|zh|ru|es|fr|ar)\//);
+            if (localeChunkMatch) {
+              return `locale-${localeChunkMatch[1]}`;
+            }
+
+            if (normalizedId.includes('/src/data/')) {
               return 'site-data';
             }
           },
