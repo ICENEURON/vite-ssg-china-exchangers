@@ -1,0 +1,121 @@
+{
+  "name": "Siping ViEX Heat Exchange Equipment Co., Ltd.",
+  "full_description": [
+    "Siping ViEX Heat Exchange Equipment Co., Ltd. es un fabricante profesional de equipos de intercambio de calor. Según el perfil oficial chino, su predecesora fue la Fábrica General de Intercambiadores de Calor Siping, fundada en 1963, y sirvió como planta de producción de equipos de intercambio de calor designada bajo el Ministerio de Maquinaria de China mientras producía diversos equipos de intercambio de calor y productos de recipientes a presión.",
+    "En 1993, la empresa cooperó con VICARB de Francia e introdujo un conjunto completo de productos de intercambiadores de calor, tecnología de fabricación, conocimientos patentados y equipos de procesamiento avanzados a nivel internacional. Luego comenzó la producción por lotes de intercambiadores de calor de placas y unidades de intercambiadores de calor de la serie V.",
+    "En 2002, la empresa se reestructuró como Siping ViEX Heat Exchange Equipment Co., Ltd. y continuó fabricando intercambiadores de calor de placas y unidades de intercambio de calor importados, al mismo tiempo que desarrollaba múltiples productos con propiedad intelectual independiente. La página de inicio en inglés describe a la empresa como un miembro principal del Grupo ViEX con recursos globales de diseño, fabricación, desarrollo, investigación, ventas y servicio.",
+    "El perfil oficial chino afirma que la fábrica estilo jardín cubre 60.000 metros cuadrados, con 26.000 metros cuadrados de área de construcción, 15.000 metros cuadrados de área de taller, 310 equipos profesionales, 124 empleados fijos, 36 personal técnico, 12 personal de diseño e I+D y 25 personal administrativo. La empresa enumera una capacidad anual de 200.000 metros cuadrados de intercambiadores de calor de placas, 3.000 toneladas de recipientes a presión, intercambiadores de calor de aire y de carcasa y tubos, y 500 juegos de equipos integrados de intercambio de calor, y destaca el Premio Provincial de Calidad de Jilin."
+  ],
+  "advantages": [
+    "Larga historia de fabricación arraigada en la fábrica general de intercambiadores de calor Siping establecida en 1963.",
+    "Introdujo tecnología y equipos de intercambiadores de calor de placas internacionales a través de la cooperación con VICARB de Francia.",
+    "Amplia cartera de productos que abarca intercambiadores de calor de placa, tubulares, de placa en espiral, del lado del aire, unidades integradas y recipientes a presión.",
+    "Base de fabricación ampliada con 60.000 metros cuadrados de área de sitio, 15.000 metros cuadrados de área de taller y 310 juegos de equipos profesionales.",
+    "El perfil oficial chino enumera 124 empleados fijos, incluidos 36 técnicos y 12 de diseño/I+D.",
+    "Gran capacidad de producción declarada para intercambiadores de calor de placas, recipientes a presión, intercambiadores de calor de aire y equipos integrados de intercambio de calor.",
+    "Galardonado oficialmente con el Premio Provincial de Calidad de Jilin."
+  ],
+  "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+  "website": "http://www.spviex.com/",
+  "video_link": "",
+  "social_media_links": [],
+  "email": [
+    "spviex@126.com"
+  ],
+  "phone": [
+    "0434-3335215",
+    "0434-3335717"
+  ],
+  "country_name": "China",
+  "city": "surcos",
+  "address": "No. 5665 Calle Nan Yijing, distrito de Tiedong, Siping, Jilin, China",
+  "established_year": "1963",
+  "factory_area": "60000m2",
+  "employee_count": "124",
+  "export_markets": [],
+  "seo_data": {
+    "meta_title": "Siping ViEX Heat Exchange Equipment Co., Ltd. | Heat Exchanger Manufacturer",
+    "meta_description": "Chinese heat exchanger manufacturer offering plate heat exchangers, shell-and-tube heat exchangers, air heat exchangers, spiral plate heat exchangers, and heat exchanger units."
+  },
+  "industries": [
+    "HVAC",
+    "petroquímica",
+    "marina",
+    "Energía",
+    "Procesamiento de alimentos",
+    "Procesamiento químico",
+    "Alimentos y Bebidas",
+    "Productos farmacéuticos",
+    "Generación de energía"
+  ],
+  "certifications": [
+    {
+      "alt_text": "ISO 9001 Quality Management System Certificate",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_certifications/iso_9001_quality_management_certificate.jpg"
+    },
+    {
+      "alt_text": "ISO 14001 Environmental Management System Certificate",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_certifications/iso_14001_environmental_management_certificate.jpg"
+    },
+    {
+      "alt_text": "ISO 45001 Occupational Health and Safety Management System Certificate",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_certifications/iso_45001_occupational_health_safety_certificate.jpg"
+    }
+  ],
+  "customers": [],
+  "images": [
+    {
+      "alt_text": "ViEX Factory Exterior",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_images/viex_factory_exterior.jpg"
+    },
+    {
+      "alt_text": "ViEX Heat Exchanger Unit Workshop",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_images/viex_heat_exchanger_unit_workshop.jpg"
+    }
+  ],
+  "documents": [],
+  "products": [
+    {
+      "slug": "plate-heat-exchanger",
+      "name": "Intercambiador de calor de placas",
+      "image": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/plate_heat_exchanger.jpg",
+      "short_description": "Intercambiador de calor de placas desmontables serie V con alta eficiencia de transferencia de calor, estructura compacta, operación flexible y amplia aplicabilidad industrial.",
+      "url": "siping-viex-heat-exchange-equipment-co-ltd/plate-heat-exchanger"
+    },
+    {
+      "slug": "tubular-heat-exchanger",
+      "name": "Intercambiador de calor tubular",
+      "image": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/tubular_heat_exchanger.jpg",
+      "short_description": "Intercambiador de calor de carcasa y tubos construido según los estándares ASME y GB para aplicaciones de alta temperatura, alta presión y transferencia de calor mejorada.",
+      "url": "siping-viex-heat-exchange-equipment-co-ltd/tubular-heat-exchanger"
+    },
+    {
+      "slug": "heat-exchanger-unit",
+      "name": "Unidad intercambiadora de calor",
+      "image": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/heat_exchanger_unit.jpg",
+      "short_description": "Unidad intercambiadora de calor integrada para calefacción urbana, aire acondicionado y agua caliente sanitaria con control automático y funcionamiento de ahorro de energía.",
+      "url": "siping-viex-heat-exchange-equipment-co-ltd/heat-exchanger-unit"
+    },
+    {
+      "slug": "air-heat-exchanger",
+      "name": "Intercambiador de calor de aire",
+      "image": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_heat_exchanger.jpg",
+      "short_description": "Intercambiador de calor de aire de tubos con aletas para calentar o enfriar aire con agua caliente, vapor, aceite de transferencia de calor, salmuera o agua a baja temperatura.",
+      "url": "siping-viex-heat-exchange-equipment-co-ltd/air-heat-exchanger"
+    },
+    {
+      "slug": "air-radiator",
+      "name": "Radiador de aire",
+      "image": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_radiator.jpg",
+      "short_description": "Radiador de aire y calentador de aire para dispositivos de secado de aire caliente, utilizando vapor o agua caliente a través de tubos de acero con aletas.",
+      "url": "siping-viex-heat-exchange-equipment-co-ltd/air-radiator"
+    },
+    {
+      "slug": "spiral-plate-heat-exchanger",
+      "name": "Intercambiador de calor de placas en espiral",
+      "image": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/spiral_plate_heat_exchanger.png",
+      "short_description": "Intercambiador de calor de placas en espiral construido según JB/T4751-2003 y GB150-1998 con configuraciones desmontables y no desmontables para tareas de proceso exigentes.",
+      "url": "siping-viex-heat-exchange-equipment-co-ltd/spiral-plate-heat-exchanger"
+    }
+  ]
+}

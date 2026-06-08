@@ -1,0 +1,39 @@
+{
+  "slug": "fully-welded-wide-channel-plate-heat-exchanger",
+  "name": "全焊式宽通道板式热交换器",
+  "full_description": "官网介绍，全焊式宽通道板式换热器是专为客户特殊需求开发的产品，特别适用于冶金、造纸、制糖、酒精、化工、污水处理等行业中处理含大量固体颗粒、纤维悬浮物和粘稠状流体的介质。该产品板片单板尺寸大，最大长度可达10000mm以上，宽度1200mm；板片定距柱采用激光焊，纵向长焊缝采用缝焊，外侧端部焊缝采用自动氩弧焊，每件板片对焊接完成后均进行0.6-0.7MPa气密检测。",
+  "industries": [
+    "石油化工",
+    "食品加工",
+    "化工",
+    "食品与饮料"
+  ],
+  "advantage": [
+    "宽通道结构适用于固体颗粒、纤维和高黏度介质。",
+    "大尺寸单板适合复杂工业流程。",
+    "定距柱、长焊缝和端部焊缝采用不同自动化焊接工艺。",
+    "每件板片对焊后进行气密检测。"
+  ],
+  "technical_parameters": {
+    "单板宽度": "1200mm",
+    "气密检测": "每件板片对焊接后0.6-0.7MPa",
+    "单板最大长度": "10000mm以上"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "全焊式宽通道板式热交换器",
+    "meta_description": "面向含大量固体颗粒、纤维悬浮物及粘稠流体工况的全焊式宽通道板式热交换器。"
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Fully Welded Wide Channel Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/fully_welded_wide_channel_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

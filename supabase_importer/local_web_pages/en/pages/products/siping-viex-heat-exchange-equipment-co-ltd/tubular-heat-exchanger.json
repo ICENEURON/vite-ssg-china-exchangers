@@ -1,0 +1,50 @@
+{
+  "slug": "tubular-heat-exchanger",
+  "name": "Tubular Heat Exchanger",
+  "full_description": "ViEX describes its tubular heat exchanger as a shell-and-tube heat exchanger with mature design, manufacturing, inspection, and maintenance technology, wide material choice, and broad application conditions. The official page says the company holds Chinese pressure vessel D1 and D2 design and manufacturing licenses and focuses on enhanced heat transfer shell-and-tube exchangers using arc tubes, corrugated tubes, spiral tubes, plasma tubes, three-dimensional rib tubes, baffle tubes, and spiral baffles to improve efficiency and reduce pressure loss.",
+  "industries": [
+    "Petrochemical",
+    "Energy",
+    "Chemical Processing",
+    "Power Generation"
+  ],
+  "advantage": [
+    "High temperature and high pressure resistance",
+    "Wide material selection and broad duty coverage",
+    "Mature design, manufacturing, and maintenance technology",
+    "Enhanced heat transfer element options",
+    "Improved efficiency and reduced resistance loss"
+  ],
+  "technical_parameters": {
+    "Licenses": "Pressure vessel D1 and D2 design and manufacturing licenses",
+    "Standards": "ASME; GB150; GB151; GB/T151-2014; TSG21-2016",
+    "Product types": "Fixed tubesheet; U-tube; Floating head; Stuffing box",
+    "Enhanced elements": "Arc tube; Corrugated tube; Spiral tube; Plasma tube; 3D rib tube; Baffle tube; Spiral baffle plate"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "How does ViEX classify the product?",
+      "content": "The official page introduces four main structural types: fixed tubesheet, U-tube, floating head, and stuffing box shell-and-tube heat exchangers."
+    },
+    {
+      "title": "What industries are highlighted?",
+      "content": "The product page points to petroleum refining, chemical industry, electric power, metallurgy, and water conservancy among the main application areas."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Tubular Heat Exchanger | Siping ViEX",
+    "meta_description": "Shell-and-tube heat exchanger designed for high-temperature, high-pressure, and enhanced heat transfer industrial applications."
+  },
+  "manufacturer": {
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Tubular Heat Exchanger",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/tubular_heat_exchanger.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

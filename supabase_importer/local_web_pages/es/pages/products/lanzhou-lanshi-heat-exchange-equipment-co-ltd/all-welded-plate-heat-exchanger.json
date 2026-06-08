@@ -1,0 +1,43 @@
+{
+  "slug": "all-welded-plate-heat-exchanger",
+  "name": "Intercambiador de calor de placas totalmente soldadas",
+  "full_description": "La página oficial afirma que la placa está formada por una línea de producción automática y los paquetes de placas se sueldan mediante una máquina soldadora automática controlada por programa. Todos los haces de placas están soldados dentro de la carcasa y la placa de cubierta se puede abrir para su limpieza mecánica. El producto se posiciona como una alternativa compacta y eficiente a los intercambiadores de calor de carcasa y tubos para calefacción central, metalurgia, petroquímica, química, energía eléctrica, medicina, alimentos y servicios relacionados.",
+  "industries": [
+    "HVAC",
+    "petroquímica",
+    "Procesamiento químico",
+    "Alimentos y Bebidas",
+    "Productos farmacéuticos",
+    "Generación de energía"
+  ],
+  "advantage": [
+    "Los haces de placas están completamente soldados dentro del armazón.",
+    "La placa de cubierta se puede abrir para realizar una limpieza mecánica.",
+    "La estructura del canal de flujo está destinada a evitar fugas del medio y cruce de fluidos.",
+    "Combina una estructura compacta y una alta eficiencia de transferencia de calor con una mayor resistencia a la presión y la temperatura."
+  ],
+  "technical_parameters": {
+    "Assembly Area": "≤30000m2",
+    "Design Pressure": "Vacío ~ 6,0 MPa",
+    "Plate Thickness": "0,5 ~ 1,2 mm",
+    "Design Temperature": "-200 ~ 900℃",
+    "Minimum Temperature Difference": "1℃"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Intercambiador de calor de placas totalmente soldadas",
+    "meta_description": "Intercambiador de placas completamente soldado instalado dentro de una carcasa para servicio a alta presión y alta temperatura."
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "All-Welded Plate Heat Exchanger",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/all_welded_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

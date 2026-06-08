@@ -1,0 +1,44 @@
+{
+  "slug": "standardized-heat-exchange-unit",
+  "name": "Unidad de intercambio de calor estandarizada",
+  "full_description": "THT describe la unidad de intercambio de calor estandarizada como un producto construido a partir de prácticas de selección profesional, configuración estandarizada, estructura estandarizada, programas de control estandarizados, producción modular e inspección de fábrica. La página del producto compara los objetivos de THT con valores de referencia nacionales, incluida la caída de presión del intercambiador de placas de 40 kPa frente a 50 kPa, la caída de presión de la unidad del lado primario de 60 kPa frente a 100 kPa y la caída de presión de la unidad del lado secundario de 80 kPa frente a 100 kPa. También enfatiza la instalación rápida, el arranque directo después de la conexión de tuberías y energía, la operación sin personal y el análisis de eficiencia energética.",
+  "industries": [
+    "HVAC",
+    "Energía",
+    "Generación de energía"
+  ],
+  "advantage": [
+    "Programa estandarizado de configuración, estructura y control.",
+    "El montaje modular y la inspección en fábrica permiten una entrega más corta y una instalación más sencilla.",
+    "La comparación oficial enumera objetivos de caída de presión más bajos que los valores de referencia nacionales citados.",
+    "Admite operación no tripulada y análisis de eficiencia energética."
+  ],
+  "technical_parameters": {
+    "Control": "Programa de control estandarizado con análisis de eficiencia energética.",
+    "Plate Exchanger Pressure Drop": "THT 40kPa; referencia nacional 50kPa",
+    "Unit Pressure Drop - Primary Side": "THT 60kPa; referencia nacional 100kPa",
+    "Unit Pressure Drop - Secondary Side": "THT 80kPa; referencia nacional 100kPa"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "¿Cómo se entrega la unidad?",
+      "content": "La página oficial describe el ensamblaje modular y estandarizado, el dimensionamiento y el corte automáticos, la soldadura inteligente, el tratamiento de superficies, el ensamblaje de módulos, la depuración de presión y la inspección de fábrica."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Unidad de intercambio de calor estandarizada",
+    "meta_description": "Unidad de intercambio de calor estandarizada con configuración modular, programa de control estandarizado y objetivos de caída de presión más bajos que los valores de referencia nacionales enumerados por THT."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Standardized Heat Exchange Unit",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/standardized_heat_exchange_unit_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

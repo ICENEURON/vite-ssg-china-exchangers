@@ -1,0 +1,40 @@
+{
+  "slug": "microchannel-compact-welded-plate-heat-exchanger-pche",
+  "name": "微通道高效紧凑型焊接式板式热交换器（PCHE）",
+  "full_description": "官网介绍显示，PCHE 是一种目前极为高效且紧凑的新型热交换器，具有很高的安全性和稳定性。该产品面向微小型燃机、液化天然气、热泵、核电、氢能、超临界二氧化碳发电以及储能等领域的高效传热系统开发。",
+  "industries": [
+    "暖通空调",
+    "石油化工",
+    "能源",
+    "发电/电力"
+  ],
+  "advantage": [
+    "官网标注传热效率可达 98% 以上。",
+    "官网标注承压能力可达 90MPa 以上。",
+    "官网标注耐温范围为 -196℃ 至 800℃。",
+    "官网标注紧凑度最高可达 2500 m2/m3。"
+  ],
+  "technical_parameters": {
+    "紧凑度": "2500 m2/m3",
+    "传热效率": ">98%",
+    "承压能力": ">90MPa",
+    "耐温范围": "-196 ~ 800℃"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "微通道高效紧凑型焊接式板式热交换器（PCHE）",
+    "meta_description": "面向先进能源系统的微通道高效紧凑型焊接式板式热交换器。"
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Microchannel Compact Welded Plate Heat Exchanger PCHE",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/microchannel_compact_welded_plate_heat_exchanger_pche_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

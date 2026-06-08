@@ -1,0 +1,39 @@
+{
+  "slug": "fully-welded-wide-channel-plate-heat-exchanger",
+  "name": "Intercambiador de calor de placas de canal ancho completamente soldado",
+  "full_description": "La página oficial dice que el intercambiador de calor de placas de canal ancho totalmente soldado está creado para necesidades especiales de los clientes y es particularmente adecuado para medios que contienen grandes cantidades de partículas sólidas, suspensiones de fibras y fluidos viscosos en procesos de metalurgia, fabricación de papel, azúcar, alcohol, ingeniería química y tratamiento de aguas residuales. El producto utiliza placas individuales grandes, con una longitud máxima de más de 10.000 mm y un ancho de 1.200 mm. Las columnas de separación de placas se sueldan con láser, las soldaduras largas se sueldan por costura, las soldaduras de los extremos exteriores utilizan soldadura automática por arco de argón y cada par de placas recibe una prueba de estanqueidad al aire de 0,6-0,7 MPa después de la soldadura.",
+  "industries": [
+    "petroquímica",
+    "Procesamiento de alimentos",
+    "Procesamiento químico",
+    "Alimentos y Bebidas"
+  ],
+  "advantage": [
+    "Diseño de canal ancho para sólidos, fibras y medios viscosos.",
+    "El gran tamaño de placa única admite procesos industriales exigentes.",
+    "La soldadura por láser, la soldadura por costura y la soldadura automática por arco de argón se utilizan para diferentes posiciones de soldadura.",
+    "Cada par de placas se somete a pruebas de estanqueidad después de soldar."
+  ],
+  "technical_parameters": {
+    "Air-Tightness Test": "0,6-0,7 MPa después de soldar cada par de placas",
+    "Single Plate Width": "1200 mm",
+    "Maximum Single Plate Length": ">10000mm"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Intercambiador de calor de placas de canal ancho completamente soldado",
+    "meta_description": "Intercambiador de calor de placas de canal ancho completamente soldado para tareas de partículas sólidas, suspensión de fibras y fluidos viscosos."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Fully Welded Wide Channel Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/fully_welded_wide_channel_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "awps-series-plate-shell-heat-exchanger-i",
+  "name": "Intercambiador de calor de carcasa de placas serie AWPS - I",
+  "full_description": "El intercambiador de calor de carcasa de placas serie AWPS - I está diseñado para aplicaciones industriales de alta temperatura y alta presión. Accessen lo describe como una combinación de las características de transferencia de calor de los intercambiadores de placas con juntas con la resistencia a la presión y la temperatura asociada con los equipos de carcasa y tubos, al tiempo que conserva una estructura extraíble para su limpieza.",
+  "industries": [
+    "petroquímica",
+    "Energía",
+    "Procesamiento químico",
+    "Generación de energía"
+  ],
+  "advantage": [
+    "Conserva las características de transferencia de calor de los intercambiadores con juntas.",
+    "Bajo coeficiente de ensuciamiento",
+    "Resistencia a altas temperaturas",
+    "Resistencia a alta presión",
+    "Extraíble para limpieza sin envejecimiento de la junta"
+  ],
+  "technical_parameters": {
+    "Plate material": "AISI304L, 316L, Titanio, Hastelloy, SMO254...",
+    "Maximum design pressure": "80bar",
+    "Maximum temperature resistance": "500℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "¿En qué se diferencia el AWPS de los equipos convencionales de carcasa y tubos?",
+      "content": "Accessen posiciona a AWPS como una alternativa de alta eficiencia que combina el rendimiento de transferencia de calor de tipo placa con una mayor resistencia a la presión y la temperatura, lo que ayuda a reemplazar los intercambiadores de carcasa y tubos en servicios industriales exigentes."
+    },
+    {
+      "title": "¿Qué beneficio de mantenimiento se destaca?",
+      "content": "El producto se describe como removible para su limpieza y evita el envejecimiento de la junta, lo que ayuda a reducir los costos operativos con el tiempo."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Intercambiador de calor de carcasa de placas serie AWPS - I",
+    "meta_description": "Intercambiador de calor industrial de placas para servicio de alta temperatura y alta presión, que combina un fuerte rendimiento térmico con un acceso de limpieza extraíble."
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "AWPS Series Plate-Shell Heat Exchanger - I",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/awps_series_plate_shell_heat_exchanger_i.png"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

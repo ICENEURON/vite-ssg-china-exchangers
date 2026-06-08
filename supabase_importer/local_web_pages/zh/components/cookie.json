@@ -1,0 +1,36 @@
+{
+  "consentModal": {
+    "title": "Cookie 政策",
+    "description": "HeatEx Direct 使用 Cookie 来运行网站并了解网站使用情况。当你使用本网站并选择接受条款时，即表示你同意我们的 <a href=\"{{privacyPath}}\">隐私政策</a> 和 <a href=\"{{termsPath}}\">使用条款</a>。",
+    "acceptAllBtn": "接受条款",
+    "acceptNecessaryBtn": "仅必要 Cookie",
+    "showPreferencesBtn": "了解更多",
+    "closeIconLabel": "关闭"
+  },
+  "preferencesModal": {
+    "title": "Cookie 偏好设置",
+    "acceptAllBtn": "全部同意",
+    "acceptNecessaryBtn": "仅必要 Cookie",
+    "savePreferencesBtn": "保存",
+    "closeIconLabel": "关闭",
+    "sections": {
+      "necessary": {
+        "title": "必要 Cookie",
+        "description": "用于网站核心功能，并记住你的 Cookie 选择。"
+      },
+      "analytics": {
+        "title": "分析 Cookie",
+        "description": "帮助我们了解访客如何使用网站，以改进内容和导航。",
+        "tableHeaders": {
+          "name": "Cookie",
+          "domain": "域名",
+          "desc": "用途"
+        },
+        "tableBody": {
+          "name": "_ga, _ga_*",
+          "desc": "在你同意分析后，用于衡量网站使用情况。"
+        }
+      }
+    }
+  }
+}

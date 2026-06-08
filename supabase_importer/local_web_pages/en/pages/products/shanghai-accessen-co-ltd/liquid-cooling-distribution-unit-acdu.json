@@ -1,0 +1,50 @@
+{
+  "slug": "liquid-cooling-distribution-unit-acdu",
+  "name": "Liquid-Cooling Distribution Unit ACDU",
+  "full_description": "The Liquid-Cooling Distribution Unit ACDU is designed for data center cooling systems that require location-independent deployment and compressor-free natural cooling. According to Accessen, the solution lowers overall system PUE, uses intelligent controls with variable-speed pumping and hydraulic flow modulation, and reduces installation complexity through modular prefabrication.",
+  "industries": [],
+  "advantage": [
+    "Field-Proven Reliability and Safety",
+    "Rapid Deployment",
+    "Adaptive Control System",
+    "High-Efficiency Liquid Cooling",
+    "Modular Prefabrication"
+  ],
+  "technical_parameters": {
+    "Power Supply": "380V~415VAC/50±1Hz",
+    "Altitude Range": "-30m~2500m",
+    "Primary Side Coolant": "Water/ Ethylene Glycol-based Solutions",
+    "Secondary Side Coolant": "Deionized Water/ Ethylene Glycol/ Propylene Glycol/ Fluorinated Fluids",
+    "Primary Filtration Rating": "200μm~300μm",
+    "Storage Temperature Range": "-40°C~70°C",
+    "Operating Relative Humidity": "5%~95%",
+    "Operating Temperature Range": "5°C~50°C",
+    "Secondary Filtration Rating": "100μm~200μm"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "What is the ACDU used for?",
+      "content": "Accessen positions the ACDU as a liquid-cooling distribution unit for data centers, where it supports compressor-free natural cooling and helps reduce overall PUE in liquid cooling systems."
+    },
+    {
+      "title": "How is deployment simplified?",
+      "content": "The product uses a prefabricated modular design that minimizes installation complexity on site and supports faster project delivery."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Liquid-Cooling Distribution Unit ACDU",
+    "meta_description": "Prefabricated data center liquid-cooling distribution unit with adaptive control, natural cooling, and rapid deployment features."
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Liquid-Cooling Distribution Unit ACDU",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooling_distribution_unit_acdu.png"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

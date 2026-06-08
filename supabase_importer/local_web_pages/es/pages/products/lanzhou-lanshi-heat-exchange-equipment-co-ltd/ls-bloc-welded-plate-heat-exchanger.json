@@ -1,0 +1,43 @@
+{
+  "slug": "ls-bloc-welded-plate-heat-exchanger",
+  "name": "Intercambiador de calor de placas soldadas LS-BLOC",
+  "full_description": "Este producto utiliza un paquete de placas totalmente soldadas con una estructura desmontable en forma de hexaedro para que el equipo pueda cumplir con los requisitos de limpieza mecánica y química. Según la página oficial del producto, conserva la alta eficiencia de transferencia de calor y la estructura compacta de un intercambiador de calor de placas tradicional, al tiempo que permite su uso en condiciones de mayor presión y temperatura en servicios petroleros, químicos, de energía eléctrica, farmacéuticos, metalúrgicos y de refrigeración.",
+  "industries": [
+    "petroquímica",
+    "Procesamiento químico",
+    "Productos farmacéuticos",
+    "Generación de energía"
+  ],
+  "advantage": [
+    "La estructura desmontable en forma de hexaedro admite la limpieza mecánica y química del interior del equipo.",
+    "Mantiene la alta eficiencia de transferencia de calor y la estructura compacta de un intercambiador de calor de placas.",
+    "Adecuado para condiciones de presión y temperatura más altas que los equipos de placa desmontable convencionales."
+  ],
+  "technical_parameters": {
+    "Assembly Area": "≤2500㎡",
+    "Design Pressure": "Vacío ~ 3,2 MPa",
+    "Design Temperature": "-200 ~ 350℃",
+    "Minimum Temperature Difference": "2℃"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Intercambiador de calor de placas soldadas LS-BLOC",
+    "meta_description": "Intercambiador de placas totalmente soldadas extraíbles en forma de hexaedro para procesos de alta presión y alta temperatura."
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "LS-BLOC Welded Plate Heat Exchanger",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/ls_bloc_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "LS-BLOC Welded Plate Heat Exchanger",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_and_frame_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

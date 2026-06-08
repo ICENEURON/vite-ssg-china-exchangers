@@ -1,0 +1,38 @@
+{
+  "slug": "waste-heat-recovery-special-heat-exchanger",
+  "name": "Intercambiador de calor especial para recuperación de calor residual",
+  "full_description": "La página oficial enumera los intercambiadores de calor de placas soldadas THT para intercambiadores de calor, enfriadores de aire, precalentadores de aire, enfriadores entre etapas de compresores, enfriadores de amoníaco, intercambiadores de petróleo crudo y de aceite residual, enfriamiento de aire de plantas de energía, enfriamiento de aire por evaporación de placas, intercambio de calor de solución MDEA y economizadores de placas. Dice que el intercambiador de calor de placas soldadas para recuperación de calor residual se utiliza principalmente para aguas residuales industriales y gases de escape, gases de cola de evaporación multiefecto en procesamiento profundo de maíz, aguas residuales urbanas sin tratar y recuperación de calor de gases de combustión generados por diversos combustibles. La página enfatiza el sellado confiable, el funcionamiento de ciclo largo, el bajo riesgo de fugas y obstrucciones, el mantenimiento y la limpieza convenientes y el bajo costo de mantenimiento.",
+  "industries": [
+    "HVAC",
+    "petroquímica",
+    "Energía",
+    "Procesamiento químico",
+    "Generación de energía"
+  ],
+  "advantage": [
+    "Está dirigido a aguas residuales industriales, gases de escape, gases de combustión, aguas residuales y recuperación de calor de gases de cola evaporativos.",
+    "Sellado soldado confiable para operación de ciclo largo.",
+    "Diseñado para reducir el riesgo de fugas y obstrucciones.",
+    "Mantenimiento y limpieza convenientes con bajo costo de mantenimiento."
+  ],
+  "technical_parameters": {
+    "Typical Duties": "Aguas residuales industriales y gases de escape, gases de cola de evaporación de procesamiento profundo de maíz, aguas residuales urbanas sin tratar, recuperación de calor de gases de combustión de combustible"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Intercambiador de calor especial para recuperación de calor residual",
+    "meta_description": "Solución de intercambiador de calor de placas soldadas para aguas residuales industriales, gases de escape, gases de combustión, aguas residuales y otros sistemas de recuperación de calor residual."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Special Heat Exchanger for Waste Heat Recovery",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/waste_heat_recovery_special_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

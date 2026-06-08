@@ -282,6 +282,61 @@ async function uploadConfiguredLocalFolders() {
     }
 }
 
+async function uploadManifestLocalAssets() {
+    if (!assetSyncManifest.enabled) {
+        return;
+    }
+
+    const localRoot = path.join(__dirname, 'local_assets');
+
+    if (!fs.existsSync(localRoot)) {
+        console.warn(`⚠️ 本地目录不存在，跳过 ${TARGET_BUCKET} bucket 资产清单上传: ${localRoot}`);
+        return;
+    }
+
+    const files = getFilesRecursively(localRoot)
+        .filter(filePath => {
+            const storagePath = getStoragePath(localRoot, filePath);
+            return shouldProcessLocalAsset(assetSyncManifest, storagePath);
+        });
+
+    if (files.length === 0) {
+        console.log(`ℹ️ Asset manifest enabled. No ${TARGET_BUCKET} bucket files listed for standalone upload.`);
+        return;
+    }
+
+    console.log(`\n📤 开始按资产清单补充上传 local_assets 到 ${TARGET_BUCKET} bucket，共 ${files.length} 个文件...`);
+
+    let successCount = 0;
+    let failureCount = 0;
+
+    for (const filePath of files) {
+        const storagePath = getStoragePath(localRoot, filePath);
+        const fileBuffer = fs.readFileSync(filePath);
+        const contentType = mime.lookup(filePath) || 'application/octet-stream';
+
+        const { error: uploadError } = await supabase.storage
+            .from(TARGET_BUCKET)
+            .upload(storagePath, fileBuffer, {
+                upsert: true,
+                contentType
+            });
+
+        if (uploadError) {
+            failureCount += 1;
+            console.error(`❌ 上传失败 [${TARGET_BUCKET}/${storagePath}]:`, uploadError.message);
+            continue;
+        }
+
+        successCount += 1;
+        if (VERBOSE) {
+            console.log(`✅ 已上传: ${TARGET_BUCKET}/${storagePath}`);
+        }
+    }
+
+    console.log(`📦 ${TARGET_BUCKET} bucket 资产清单补充上传完成：成功 ${successCount} 个，失败 ${failureCount} 个。`);
+}
+
 async function findOrCreateManufacturer(manufacturer) {
     const { data: existingManufacturer } = await supabase
         .from('manufacturers')
@@ -713,6 +768,7 @@ async function main() {
         console.log('⏭️ 跳过公司/产品数据导入，flag 为 false。');
     }
 
+    await uploadManifestLocalAssets();
     await uploadConfiguredLocalFolders();
 }
 

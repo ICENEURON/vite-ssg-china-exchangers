@@ -1,0 +1,49 @@
+{
+  "slug": "awps-series-plate-shell-heat-exchanger-i",
+  "name": "Échangeur de chaleur à plaques et coque série AWPS - I",
+  "full_description": "L'échangeur de chaleur à plaques et coque de la série AWPS - I est conçu pour les applications industrielles à haute température et haute pression. Accessen le décrit comme combinant les caractéristiques de transfert de chaleur des échangeurs à plaques avec joints avec la résistance à la pression et à la température associées aux équipements à calandre et tubes, tout en conservant une structure amovible pour le nettoyage.",
+  "industries": [
+    "Pétrochimie",
+    "Énergie",
+    "Traitement chimique",
+    "Production d'énergie"
+  ],
+  "advantage": [
+    "Conserve les caractéristiques de transfert de chaleur des échangeurs à joints",
+    "Faible coefficient d'encrassement",
+    "Résistance aux hautes températures",
+    "Résistance à haute pression",
+    "Amovible pour le nettoyage sans vieillissement du joint"
+  ],
+  "technical_parameters": {
+    "Plate material": "AISI304L, 316L, Titane, Hastelloy, SMO254...",
+    "Maximum design pressure": "80 bars",
+    "Maximum temperature resistance": "500℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "En quoi l’AWPS diffère-t-il des équipements tubulaires conventionnels?",
+      "content": "Accessen positionne l'AWPS comme une alternative à haut rendement qui combine des performances de transfert de chaleur de type à plaques avec une plus grande résistance à la pression et à la température, aidant ainsi à remplacer les échangeurs à calandre et à tubes dans les services industriels exigeants."
+    },
+    {
+      "title": "Quel bénéfice de maintenance est mis en avant?",
+      "content": "Le produit est décrit comme amovible pour le nettoyage et évite le vieillissement des joints, ce qui contribue à réduire les coûts d'exploitation au fil du temps."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur à plaques et coque série AWPS - I",
+    "meta_description": "Échangeur de chaleur industriel à plaques et calandre pour service haute température et haute pression, combinant de fortes performances thermiques avec un accès de nettoyage amovible."
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "AWPS Series Plate-Shell Heat Exchanger - I",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/awps_series_plate_shell_heat_exchanger_i.png"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

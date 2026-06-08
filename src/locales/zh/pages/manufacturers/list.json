@@ -1,23 +1,5 @@
 [
   {
-    "name": "上海艾克森股份有限公司",
-    "short_description": "专注于低碳数据中心冷却与换热解决方案，提供板式换热器、全焊式换热器及预制化系统集成热管理设备。",
-    "slug": "shanghai-accessen-co-ltd",
-    "city": "上海",
-    "country_name": "中国",
-    "industries": [
-      "暖通空调",
-      "石油化工",
-      "船舶/海工",
-      "能源",
-      "食品加工",
-      "化工",
-      "食品与饮料",
-      "制药",
-      "发电/电力"
-    ]
-  },
-  {
     "name": "四平市巨元瀚洋板式换热器有限公司",
     "short_description": "面向可拆式、半焊式、全焊式、换热集成系统及智慧供热信息平台提供板式换热器和高效换热系统解决方案的制造商。",
     "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
@@ -30,24 +12,6 @@
       "能源",
       "化工",
       "食品与饮料",
-      "发电/电力"
-    ]
-  },
-  {
-    "name": "上海板换机械设备有限公司",
-    "short_description": "面向石油天然气、化工、电力、船舶、暖通等工业领域的板式热交换器及定制传热系统制造商。",
-    "slug": "shanghai-heat-transfer-equipment-co-ltd",
-    "city": "上海",
-    "country_name": "中国",
-    "industries": [
-      "暖通空调",
-      "石油化工",
-      "船舶/海工",
-      "能源",
-      "食品加工",
-      "化工",
-      "食品与饮料",
-      "制药",
       "发电/电力"
     ]
   },
@@ -74,6 +38,42 @@
     "short_description": "专业从事换热设备及压力容器产品制造，产品覆盖板式、管壳式、螺旋板式、空气类换热器及换热机组。",
     "slug": "siping-viex-heat-exchange-equipment-co-ltd",
     "city": "四平",
+    "country_name": "中国",
+    "industries": [
+      "暖通空调",
+      "石油化工",
+      "船舶/海工",
+      "能源",
+      "食品加工",
+      "化工",
+      "食品与饮料",
+      "制药",
+      "发电/电力"
+    ]
+  },
+  {
+    "name": "上海艾克森股份有限公司",
+    "short_description": "专注于低碳数据中心冷却与换热解决方案，提供板式换热器、全焊式换热器及预制化系统集成热管理设备。",
+    "slug": "shanghai-accessen-co-ltd",
+    "city": "上海",
+    "country_name": "中国",
+    "industries": [
+      "暖通空调",
+      "石油化工",
+      "船舶/海工",
+      "能源",
+      "食品加工",
+      "化工",
+      "食品与饮料",
+      "制药",
+      "发电/电力"
+    ]
+  },
+  {
+    "name": "上海板换机械设备有限公司",
+    "short_description": "面向石油天然气、化工、电力、船舶、暖通等工业领域的板式热交换器及定制传热系统制造商。",
+    "slug": "shanghai-heat-transfer-equipment-co-ltd",
+    "city": "上海",
     "country_name": "中国",
     "industries": [
       "暖通空调",

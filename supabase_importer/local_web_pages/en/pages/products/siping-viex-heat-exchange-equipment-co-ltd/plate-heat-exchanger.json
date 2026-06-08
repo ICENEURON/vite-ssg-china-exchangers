@@ -1,0 +1,58 @@
+{
+  "slug": "plate-heat-exchanger",
+  "name": "Plate Heat Exchanger",
+  "full_description": "ViEX plate heat exchangers are detachable plate heat exchangers used for heating, cooling, evaporation, condensation, sterilization, and heat recovery. The official product page highlights high heat transfer efficiency, low resistance loss, compact structure, sensitive temperature control, convenient assembly and disassembly, and long service life. It also states that under the same pressure drop, the heat transfer coefficient can reach 3 to 5 times that of shell-and-tube heat exchangers, the footprint can be about one third, and the metal consumption about two thirds, with average temperature difference as low as 1 degree Celsius.",
+  "industries": [
+    "HVAC",
+    "Petrochemical",
+    "Marine",
+    "Energy",
+    "Food Processing",
+    "Chemical Processing",
+    "Food and Beverage",
+    "Pharmaceuticals",
+    "Power Generation"
+  ],
+  "advantage": [
+    "High heat transfer efficiency",
+    "Low resistance loss",
+    "Compact structure and small footprint",
+    "Convenient assembly and disassembly",
+    "Flexible operation and broad media adaptability",
+    "Average temperature difference can be as low as 1 degree Celsius"
+  ],
+  "technical_parameters": {
+    "Series": "V series detachable plate heat exchangers",
+    "Footprint": "About one third of shell-and-tube heat exchangers",
+    "Standards": "NB/T47004.1-2017; GB16409-1996",
+    "Metal consumption": "About two thirds of shell-and-tube heat exchangers",
+    "Heat transfer coefficient": "3-5 times shell-and-tube heat exchangers under the same pressure drop",
+    "Minimum average temperature difference": "As low as 1℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Where is the product used?",
+      "content": "The official page lists heating, cooling, evaporation, condensation, sterilization, and heat recovery duties, and says the product is widely used in petroleum, chemical engineering, metallurgy, mining, electric power, nuclear power, central heating, shipping, pharmaceuticals, food, electronics, automotive, light textile, and papermaking industries."
+    },
+    {
+      "title": "What variants does ViEX highlight?",
+      "content": "ViEX highlights detachable plate heat exchangers for central heating, nuclear power, air conditioning and refrigeration, beverage processing, metallurgy, petrochemicals, and removable wide-channel duties."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Plate Heat Exchanger | Siping ViEX",
+    "meta_description": "V series detachable plate heat exchanger for heating, cooling, evaporation, condensation, sterilization, and heat recovery applications."
+  },
+  "manufacturer": {
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Heat Exchanger",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/plate_heat_exchanger.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

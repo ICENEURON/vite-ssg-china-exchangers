@@ -1,0 +1,39 @@
+{
+  "slug": "brazed-plate-heat-exchanger",
+  "name": "钎焊板式换热器",
+  "full_description": "官网钎焊板式换热器页面列出产品特性：高度紊流、传热性能极高，耐温耐压能力高，体积小、重量轻。工作原理为通过加热将固态钎料变为液态，利用其在母材表面的润湿和毛细作用填入板片支撑点形成的间隙中，冷却后形成异种材料间的连接。页面列出铜基钎料（箔片）、镍基钎料（膏料）和铁基钎料（膏料）。",
+  "industries": [
+    "暖通空调",
+    "能源",
+    "食品加工",
+    "化工",
+    "食品与饮料",
+    "制药"
+  ],
+  "advantage": [
+    "高度紊流，传热性能高。",
+    "耐温耐压能力高。",
+    "体积小、重量轻。",
+    "钎料可选铜基、镍基和铁基材料。"
+  ],
+  "technical_parameters": {
+    "钎料": "铜基钎料（箔片）；镍基钎料（膏料）；铁基钎料（膏料）"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "钎焊板式换热器",
+    "meta_description": "具备高度紊流传热、较高耐温耐压能力及小体积轻重量特点的钎焊板式换热器。"
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Brazed Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/brazed_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

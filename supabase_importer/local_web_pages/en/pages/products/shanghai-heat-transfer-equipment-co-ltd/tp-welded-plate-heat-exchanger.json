@@ -1,0 +1,94 @@
+{
+  "slug": "tp-welded-plate-heat-exchanger",
+  "name": "TP Welded Plate Heat Exchanger",
+  "full_description": "The plate packs are welded together by advanced automatic welding machines and installed inside a shell that can be opened for mechanical cleaning of the flow channels. The unique channel configuration prevents fluid cross-contamination and external leakage. TP Welded Plate Heat Exchanger combines the high heat transfer efficiency and compact structure of plate heat exchangers with the high-pressure and high-temperature resistance of shell and tube exchangers, making it an ideal replacement for tubular equipment in special heat transfer processes. It is widely used in petrochemical, power generation, metallurgy, HVAC, food, and pharmaceutical industries.",
+  "industries": [
+    "Petrochemical",
+    "Marine",
+    "Food Processing",
+    "Chemical Processing",
+    "Pharmaceuticals"
+  ],
+  "advantage": [
+    "Expansion Joint Design: A unique expansion joint structure is suitable for duties with large temperature differences.",
+    "Countercurrent Heat Transfer: Counterflow arrangement improves the logarithmic mean temperature difference correction factor and enhances thermal performance.",
+    "Round Shell Strength: The cylindrical shell form helps reduce welding deformation and improves pressure resistance and structural stability.",
+    "Hybrid Flow Performance: The plate side provides strong turbulence and high heat transfer efficiency, while the shell side offers low flow resistance and strong pressure-bearing capability.",
+    "Fully Welded Safety: The all-welded construction is safe and reliable for high-temperature, high-pressure, and hazardous media applications.",
+    "Maintainable Structure: The housing can be opened for mechanical cleaning, giving the unit better serviceability than fully sealed welded alternatives."
+  ],
+  "technical_parameters": {
+    "Max Area": "15000㎡",
+    "Plate Material": "Austenitic stainless steel, Duplex stainless steel, 254SMO, Titanium and titanium alloy, Nickel and nickel alloy, Hastelloy",
+    "Design Pressure": "Vacuum ~ 6.0MPa",
+    "Plate Thickness": "0.6 ~ 1.5mm",
+    "Design Temperature": "-196 ~ 900℃"
+  },
+  "video_link": "https://www.youtube.com/watch?v=S_2LrC6tOMk",
+  "details": [
+    {
+      "title": "What is TP Welded Plate Heat Exchanger?",
+      "content": "TP Welded Plate Heat Exchanger is a hybrid exchanger that combines the structural features of shell and tube heat exchangers with the compactness and high heat transfer efficiency of plate heat exchangers. It is suitable for liquid-liquid, gas-gas, and liquid-gas heat transfer duties where both thermal efficiency and mechanical strength are important."
+    },
+    {
+      "title": "How is TP Welded Plate Heat Exchanger constructed?",
+      "content": "The primary components include one or more welded plate packs, shell and plate frame sections, clamping bolts, hot and cold side inlet and outlet connections, baffle plates, and support structures. The plate pack is formed by stacking and welding corrugated plates, and depending on the application, the shell-side and plate-side housings can be welded or bolted for flexibility in operation and maintenance."
+    },
+    {
+      "title": "How is it designed and manufactured?",
+      "content": "Design focuses on optimized plate geometry, plate spacing, multi-pass counterflow or crossflow arrangement, and pressure-drop control. Material selection may include stainless steel, titanium, Hastelloy, and other corrosion-resistant alloys. Manufacturing relies on precision welding and robust assembly methods to ensure seamless connections, structural integrity, and dependable performance under severe operating conditions."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "TP Welded Plate Heat Exchanger",
+    "meta_description": "Hybrid welded plate heat exchanger combining plate efficiency with shell-and-tube durability for high-pressure and high-temperature service."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Flow Path",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_3.jpg"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_4.jpg"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Application",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_5.png"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

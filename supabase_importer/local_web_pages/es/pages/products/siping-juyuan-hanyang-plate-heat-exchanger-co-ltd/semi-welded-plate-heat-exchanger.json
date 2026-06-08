@@ -1,0 +1,39 @@
+{
+  "slug": "semi-welded-plate-heat-exchanger",
+  "name": "Intercambiador de calor de placas semisoldadas",
+  "full_description": "La página oficial dice que THT utiliza máquinas de soldadura láser de fibra avanzadas y tecnología de soldadura láser moderna para intercambiadores de calor de placas semisoldadas. En comparación con otros métodos de soldadura, la página destaca un proceso de soldadura única, una pequeña zona afectada por el calor, una baja deformación posterior a la soldadura, una inspección automática durante la soldadura, una velocidad de soldadura rápida y una baja relación de tensión residual. La página también indica que el producto ha obtenido la certificación de registro de seguridad de nivel B2-B3 para intercambiadores de calor de placas soldadas.",
+  "industries": [
+    "petroquímica",
+    "Energía",
+    "Procesamiento químico",
+    "Productos farmacéuticos",
+    "Generación de energía"
+  ],
+  "advantage": [
+    "Proceso de soldadura láser con pequeña zona afectada por el calor y baja deformación.",
+    "La inspección automática durante la soldadura ayuda a controlar la calidad de la soldadura.",
+    "Las pruebas mecánicas de la placa guía pueden verificar la calidad de la soldadura del par de placas.",
+    "Certificación de registro de seguridad oficial B2-B3 para intercambiadores de calor de placas soldadas."
+  ],
+  "technical_parameters": {
+    "Welding Method": "Soldadura por láser de fibra y soldadura de costura CNC.",
+    "Safety Registration": "Registro de seguridad del intercambiador de calor de placas soldadas de nivel B2-B3"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Intercambiador de calor de placas semisoldadas",
+    "meta_description": "Intercambiador de calor de placas semisoldadas que utiliza procesos de soldadura láser y soldadura de pares de placas para tareas en las que un lado requiere sellado soldado."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Semi-Welded Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

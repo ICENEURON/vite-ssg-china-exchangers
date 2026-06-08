@@ -1,0 +1,94 @@
+{
+  "slug": "wide-gap-welded-plate-heat-exchanger",
+  "name": "مبادل حراري ذو فجوة واسعة",
+  "full_description": "يتوفر المبادل الحراري للوحة الملحومة واسعة الفجوة في أنماط الألواح الخافتة والمرصعة. يتم لحام الألواح حول المحيط لتشكيل قنوات الوسائط، مما يؤدي إلى التخلص من هيكل ختم الحشية المطاطية المستخدم في المبادلات الحرارية ذات الألواح الحشية. إنه مصمم لعمليات التسخين أو التبريد التي تتضمن سوائل تحتوي على جزيئات صلبة كبيرة، أو معلقات ألياف، أو وسائط لزجة، أو واجبات ذات درجة حرارة عالية في السكر واللب والورق والمعادن والإيثانول والبتروكيماويات والصناعات ذات الصلة. بفضل قنوات الفجوة الواسعة المصممة خصيصًا، يوفر المبادل كفاءة عالية في نقل الحرارة، وانخفاض الضغط المنخفض، والتدفق السلس بدون مناطق ميتة، وأداء قوي ضد الانسداد في ظل ظروف التشغيل الصعبة.",
+  "industries": [
+    "البتروكيماويات",
+    "المعالجة الكيميائية",
+    "الأطعمة والمشروبات",
+    "المستحضرات الصيدلانية"
+  ],
+  "advantage": [
+    "تصميم قناة مستوحى من الأجهزة الإلكترونية: يجمع بين مفاهيم المحاكاة الحيوية والتصميم الهندسي لتحقيق أقصى قدر من كفاءة الطاقة في قنوات التدفق ذات الفجوات الواسعة.",
+    "الاضطراب المعزز: يؤدي تكثيف الاضطراب المحلي إلى كسر طبقات الحدود الحرارية وتحسين زاوية تآزر المجال لزيادة كفاءة نقل الحرارة.",
+    "أداء مضاد للقاذورات: يساعد ضغط القص العالي للجدار على تقليل الأوساخ وإطالة فترات التنظيف وإطالة عمر خدمة المعدات.",
+    "تدفق واسع النطاق مضاد للانسداد: تتيح هندسة القناة الخاصة التعامل السلس مع السوائل اللزجة وتعليقات الألياف والجزيئات الخشنة مع الحد الأدنى من خطر الانسداد.",
+    "متانة ملحومة بالكامل: يدعم الختم الملحوم الخالي من الحشية التشغيل الموثوق به في تطبيقات درجات الحرارة والضغط المرتفعة."
+  ],
+  "technical_parameters": {
+    "Max Area": "2000㎡",
+    "Channel Gap": "8 ~ 30 ملم",
+    "Plate Pattern": "لوحة مسطحة مدملة ومرصعة",
+    "Plate Material": "الفولاذ المقاوم للصدأ الأوستنيتي، الفولاذ المقاوم للصدأ المزدوج، سبائك النيكل والنيكل، Hastelloy",
+    "Design Pressure": "فراغ ~ 3.5MPa",
+    "Plate Thickness": "1.0 ~ 2.5 ملم",
+    "Design Temperature": "<=350 درجة مئوية"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "ما هو المبادل الحراري للوحة الملحومة ذو الفجوة الواسعة؟",
+      "content": "يتميز المبادل الحراري ذو الألواح الملحومة ذات الفجوة العريضة ببنية ملحومة بالكامل وخالية من الحشيات مع قنوات ذات فجوة واسعة مصممة خصيصًا. إنه يحتفظ بفوائد كفاءة نقل الحرارة العالية وانخفاض الضغط مع السماح للوسائط الصلبة والليفية واللزجة بالمرور بسلاسة دون إنشاء مناطق ميتة يمكن أن تؤدي إلى الانسداد."
+    },
+    {
+      "title": "كيف يتم بناء قناة التدفق؟",
+      "content": "يتم تشكيل كل قناة تدفق عن طريق لحام الألواح معًا. اعتمادًا على نمط اللوحة، يمكن إنشاء جانب واحد عن طريق نقاط اتصال ملحومة موضعيًا بين الصفائح الغمازة أو الصفائح المسطحة أو الصفائح المسطحة ذات المسامير الملحومة، بينما يشكل الجانب المقابل قناة أوسع لعدم الاتصال للسوائل اللزجة أو الوسائط التي تحتوي على جزيئات وألياف خشنة."
+    },
+    {
+      "title": "وكيف يتم تصميمها وتصنيعها؟",
+      "content": "تم تصميم المنتج حراريًا من خلال تحسين هندسة اللوحة، وتباعد القنوات، وترتيب التدفق المعاكس متعدد التمريرات، وإدارة انخفاض الضغط لخدمة الفجوة الواسعة. يمكن أن يشمل اختيار المواد الفولاذ المقاوم للصدأ، والفولاذ المقاوم للصدأ المزدوج، وHastelloy، وغيرها من السبائك المقاومة للتآكل، بينما يضمن اللحام الدقيق والتجميع المتحكم فيه مقاومة التسرب، والسلامة الهيكلية، والتشغيل الموثوق به على المدى الطويل."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "مبادل حراري ذو فجوة واسعة",
+    "meta_description": "مبادل حراري ذو فجوة واسعة للسوائل اللزجة والليفية والصلبة مع قنوات مضادة للانسداد وبنية خالية من الحشيات."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Flow Channel",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_3.jpg"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_4.jpg"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Plate Pattern",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_5.png"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

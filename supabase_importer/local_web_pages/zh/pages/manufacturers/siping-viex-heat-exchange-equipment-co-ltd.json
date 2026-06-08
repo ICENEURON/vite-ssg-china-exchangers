@@ -1,0 +1,121 @@
+{
+  "name": "四平维克斯换热设备有限公司",
+  "full_description": [
+    "四平维克斯换热设备有限公司是经营换热设备的专业制造公司。根据中文官网介绍，其前身为始建于1963年的四平换热器总厂，是机械部换热设备定点生产厂，长期专业生产各种热交换设备及压力容器产品。",
+    "1993年，公司与法国维卡勃公司合资合作，全套引进具有国际水平的热交换器产品、制造技术、专有技术和工艺加工装备，开始批量制造 V 系列板式热交换器、热交换机组等产品。",
+    "2002年，企业改制为四平维克斯换热设备有限公司，继续生产制造引进的板式换热器及换热机组，同时开发了多种具有自主知识产权的民族品牌产品。英文官网还将其描述为 ViEX Group 核心成员，具备覆盖设计、制造、研发、销售与服务的全球化体系。",
+    "中文官网资料显示，公司园林式工厂占地面积6万平方米，建筑面积2.6万平方米，厂房面积1.5万平方米，拥有专业设备310台套、固定员工124人、专业技术人员36人、产品设计研发人员12人、管理人员25人。公司年生产能力包括板式热交换器20万平方米、压力容器及管壳式和空气类换热器3000吨、集成式换热成套设备500套，并获得吉林省质量奖。"
+  ],
+  "advantages": [
+    "源自1963年创建的四平换热器总厂，具备较长的换热设备制造历史。",
+    "通过与法国维卡勃合作，引进了国际水平的板式换热器产品、技术和工艺装备。",
+    "产品覆盖板式、管壳式、螺旋板式、空气类换热器、换热机组及压力容器，产品线较完整。",
+    "官网披露工厂占地6万平方米、厂房1.5万平方米，拥有310台套专业设备。",
+    "中文官网资料列出固定员工124人，其中专业技术人员36人、产品设计研发人员12人。",
+    "具备板式换热器、压力容器和成套换热设备的规模化年产能力。",
+    "官网展示其获得吉林省质量奖等荣誉。"
+  ],
+  "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+  "website": "http://www.spviex.com/",
+  "video_link": "",
+  "social_media_links": [],
+  "email": [
+    "spviex@126.com"
+  ],
+  "phone": [
+    "0434-3335215",
+    "0434-3335717"
+  ],
+  "country_name": "中国",
+  "city": "四平",
+  "address": "中国吉林省四平市铁东区南一经街5665号",
+  "established_year": "1963",
+  "factory_area": "60000m2",
+  "employee_count": "124",
+  "export_markets": [],
+  "seo_data": {
+    "meta_title": "Siping ViEX Heat Exchange Equipment Co., Ltd. | Heat Exchanger Manufacturer",
+    "meta_description": "Chinese heat exchanger manufacturer offering plate heat exchangers, shell-and-tube heat exchangers, air heat exchangers, spiral plate heat exchangers, and heat exchanger units."
+  },
+  "industries": [
+    "暖通空调",
+    "石油化工",
+    "船舶/海工",
+    "能源",
+    "食品加工",
+    "化工",
+    "食品与饮料",
+    "制药",
+    "发电/电力"
+  ],
+  "certifications": [
+    {
+      "alt_text": "ISO 9001 Quality Management System Certificate",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_certifications/iso_9001_quality_management_certificate.jpg"
+    },
+    {
+      "alt_text": "ISO 14001 Environmental Management System Certificate",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_certifications/iso_14001_environmental_management_certificate.jpg"
+    },
+    {
+      "alt_text": "ISO 45001 Occupational Health and Safety Management System Certificate",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_certifications/iso_45001_occupational_health_safety_certificate.jpg"
+    }
+  ],
+  "customers": [],
+  "images": [
+    {
+      "alt_text": "ViEX Factory Exterior",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_images/viex_factory_exterior.jpg"
+    },
+    {
+      "alt_text": "ViEX Heat Exchanger Unit Workshop",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/company_images/viex_heat_exchanger_unit_workshop.jpg"
+    }
+  ],
+  "documents": [],
+  "products": [
+    {
+      "slug": "plate-heat-exchanger",
+      "name": "板式热交换器",
+      "image": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/plate_heat_exchanger.jpg",
+      "short_description": "符合NB/T47004.1-2017标准的V系列可拆式板式换热器，具有高效换热、结构紧凑和适用范围广等特点。",
+      "url": "siping-viex-heat-exchange-equipment-co-ltd/plate-heat-exchanger"
+    },
+    {
+      "slug": "tubular-heat-exchanger",
+      "name": "管壳式热交换器",
+      "image": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/tubular_heat_exchanger.jpg",
+      "short_description": "符合ASME、GB150和GB151标准的管壳式热交换器，适用于高温高压和强化传热工况。",
+      "url": "siping-viex-heat-exchange-equipment-co-ltd/tubular-heat-exchanger"
+    },
+    {
+      "slug": "heat-exchanger-unit",
+      "name": "换热机组",
+      "image": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/heat_exchanger_unit.jpg",
+      "short_description": "用于供暖、空调和生活热水场景的成套换热机组，支持自动控制、节能运行和远程通信。",
+      "url": "siping-viex-heat-exchange-equipment-co-ltd/heat-exchanger-unit"
+    },
+    {
+      "slug": "air-heat-exchanger",
+      "name": "空气换热器",
+      "image": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_heat_exchanger.jpg",
+      "short_description": "以翅片管为核心传热部件的空气换热器，可用于空气加热或冷却，适合水源不足工况。",
+      "url": "siping-viex-heat-exchange-equipment-co-ltd/air-heat-exchanger"
+    },
+    {
+      "slug": "air-radiator",
+      "name": "空气散热器",
+      "image": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_radiator.jpg",
+      "short_description": "可用于热风干燥装置中的空气加热换热设备，采用蒸汽或热水通过翅片钢管进行换热。",
+      "url": "siping-viex-heat-exchange-equipment-co-ltd/air-radiator"
+    },
+    {
+      "slug": "spiral-plate-heat-exchanger",
+      "name": "螺旋板式换热器",
+      "image": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/spiral_plate_heat_exchanger.png",
+      "short_description": "符合JB/T4751-2003和GB150-1998标准的螺旋板式换热器，提供可拆和不可拆结构选择。",
+      "url": "siping-viex-heat-exchange-equipment-co-ltd/spiral-plate-heat-exchanger"
+    }
+  ]
+}

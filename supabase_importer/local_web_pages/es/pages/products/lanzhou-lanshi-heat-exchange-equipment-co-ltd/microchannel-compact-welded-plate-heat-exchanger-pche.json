@@ -1,0 +1,40 @@
+{
+  "slug": "microchannel-compact-welded-plate-heat-exchanger-pche",
+  "name": "Intercambiador de calor de placas soldadas compacto de microcanal (PCHE)",
+  "full_description": "La página oficial del producto describe al PCHE como uno de los nuevos intercambiadores de calor más eficientes y compactos, que ofrece muy alta seguridad y estabilidad. Se presenta como un intercambiador de calor de microcanales desarrollado para sistemas de transferencia de calor de alta eficiencia en micro y pequeñas turbinas de gas, GNL, bombas de calor, energía nuclear, energía de hidrógeno, generación de energía con CO2 supercrítico y aplicaciones de almacenamiento de energía.",
+  "industries": [
+    "HVAC",
+    "petroquímica",
+    "Energía",
+    "Generación de energía"
+  ],
+  "advantage": [
+    "Eficiencia de transferencia de calor oficialmente declarada superior al 98%.",
+    "Resistencia a la presión declarada oficialmente por encima de 90 MPa.",
+    "Rango de temperatura de funcionamiento oficialmente declarado de -196 ℃ a 800 ℃.",
+    "Compacidad declarada oficialmente hasta 2500 m2/m3."
+  ],
+  "technical_parameters": {
+    "Compactness": "2500m2/m3",
+    "Temperature Range": "-196 ~ 800℃",
+    "Pressure Resistance": ">90MPa",
+    "Heat Transfer Efficiency": ">98%"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Intercambiador de calor de placas soldadas compacto de microcanal (PCHE)",
+    "meta_description": "Intercambiador de calor de placas soldadas compacto de microcanales para transferencia de calor de alta eficiencia en sistemas energéticos avanzados."
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Microchannel Compact Welded Plate Heat Exchanger PCHE",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/microchannel_compact_welded_plate_heat_exchanger_pche_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

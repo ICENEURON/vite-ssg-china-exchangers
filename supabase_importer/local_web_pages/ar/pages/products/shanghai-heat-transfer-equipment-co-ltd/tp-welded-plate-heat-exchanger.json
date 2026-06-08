@@ -1,0 +1,94 @@
+{
+  "slug": "tp-welded-plate-heat-exchanger",
+  "name": "مبادل حراري للوحة الملحومة TP",
+  "full_description": "يتم لحام حزم الألواح معًا بواسطة آلات لحام أوتوماتيكية متقدمة ويتم تثبيتها داخل غلاف يمكن فتحه للتنظيف الميكانيكي لقنوات التدفق. يمنع تكوين القناة الفريد تلوث السوائل والتسرب الخارجي. يجمع المبادل الحراري للوحة الملحومة TP بين كفاءة نقل الحرارة العالية والهيكل المدمج للمبادلات الحرارية للوحة مع مقاومة الضغط العالي ودرجة الحرارة العالية لمبادلات الغلاف والأنبوب، مما يجعله بديلاً مثاليًا للمعدات الأنبوبية في عمليات نقل الحرارة الخاصة. يتم استخدامه على نطاق واسع في الصناعات البتروكيماوية وتوليد الطاقة والمعادن وHVAC والمواد الغذائية والصناعات الدوائية.",
+  "industries": [
+    "البتروكيماويات",
+    "البحرية",
+    "تجهيز الأغذية",
+    "المعالجة الكيميائية",
+    "المستحضرات الصيدلانية"
+  ],
+  "advantage": [
+    "تصميم وصلة التمدد: هيكل وصلة التمدد الفريد مناسب للمهام ذات الاختلافات الكبيرة في درجات الحرارة.",
+    "نقل الحرارة المعاكس: يعمل ترتيب التدفق المعاكس على تحسين عامل تصحيح فرق درجة الحرارة اللوغاريتمي ويعزز الأداء الحراري.",
+    "قوة الغلاف الدائري: يساعد شكل الغلاف الأسطواني على تقليل تشوه اللحام وتحسين مقاومة الضغط والاستقرار الهيكلي.",
+    "أداء التدفق الهجين: يوفر جانب اللوحة اضطرابًا قويًا وكفاءة عالية في نقل الحرارة، بينما يوفر جانب الغلاف مقاومة منخفضة للتدفق وقدرة قوية على تحمل الضغط.",
+    "السلامة الملحومة بالكامل: البناء الملحوم بالكامل آمن وموثوق به لتطبيقات الوسائط ذات درجات الحرارة العالية والضغط العالي والخطرة.",
+    "هيكل قابل للصيانة: يمكن فتح الهيكل للتنظيف الميكانيكي، مما يمنح الوحدة إمكانية الخدمة بشكل أفضل من البدائل الملحومة المغلقة بالكامل."
+  ],
+  "technical_parameters": {
+    "Max Area": "15000㎡",
+    "Plate Material": "الفولاذ المقاوم للصدأ الأوستنيتي، الفولاذ المقاوم للصدأ المزدوج، 254SMO، سبائك التيتانيوم والتيتانيوم، سبائك النيكل والنيكل، Hastelloy",
+    "Design Pressure": "فراغ ~ 6.0MPa",
+    "Plate Thickness": "0.6 ~ 1.5 ملم",
+    "Design Temperature": "-196 ~ 900 درجة مئوية"
+  },
+  "video_link": "https://www.youtube.com/watch?v=S_2LrC6tOMk",
+  "details": [
+    {
+      "title": "ما هو المبادل الحراري للوحة الملحومة TP؟",
+      "content": "مبادل حراري للوحة الملحومة TP عبارة عن مبادل هجين يجمع بين الميزات الهيكلية للمبادلات الحرارية ذات الغلاف والأنبوب مع الاكتناز وكفاءة نقل الحرارة العالية للمبادلات الحرارية للوحة. إنها مناسبة لواجبات نقل الحرارة السائلة والسائلة والغازية والغازية السائلة حيث تكون الكفاءة الحرارية والقوة الميكانيكية مهمة."
+    },
+    {
+      "title": "كيف يتم بناء المبادل الحراري للوحة الملحومة TP؟",
+      "content": "تشتمل المكونات الأساسية على واحدة أو أكثر من مجموعات الألواح الملحومة، وأقسام إطار الهيكل واللوحة، ومسامير التثبيت، ووصلات المدخل والمخرج الجانبية الساخنة والباردة، والألواح الحاجزة، وهياكل الدعم. يتم تشكيل مجموعة الألواح عن طريق تكديس ولحام الألواح المموجة، واعتمادًا على التطبيق، يمكن لحام أو تثبيت مبيتات جانب الغلاف وجانب اللوحة من أجل المرونة في التشغيل والصيانة."
+    },
+    {
+      "title": "وكيف يتم تصميمها وتصنيعها؟",
+      "content": "يركز التصميم على هندسة اللوحة المحسنة، وتباعد الألواح، والتدفق المعاكس متعدد التمريرات أو ترتيب التدفق المتقاطع، والتحكم في انخفاض الضغط. قد يشمل اختيار المواد الفولاذ المقاوم للصدأ والتيتانيوم والهاستيلوي والسبائك الأخرى المقاومة للتآكل. يعتمد التصنيع على اللحام الدقيق وطرق التجميع القوية لضمان التوصيلات السلسة والسلامة الهيكلية والأداء الموثوق في ظل ظروف التشغيل القاسية."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "مبادل حراري للوحة الملحومة TP",
+    "meta_description": "مبادل حراري للوحة ملحومة هجين يجمع بين كفاءة اللوحة ومتانة الهيكل والأنبوب من أجل خدمة الضغط العالي ودرجة الحرارة العالية."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Flow Path",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_3.jpg"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_4.jpg"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Application",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_5.png"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

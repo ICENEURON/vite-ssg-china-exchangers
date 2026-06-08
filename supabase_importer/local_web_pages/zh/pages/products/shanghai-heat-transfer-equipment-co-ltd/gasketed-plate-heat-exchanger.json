@@ -1,0 +1,95 @@
+{
+  "slug": "gasketed-plate-heat-exchanger",
+  "name": "可拆卸板式热交换器",
+  "full_description": "可拆卸板式热交换器由多张冲压成波纹槽的金属换热板片按一定间隔交替叠装而成，每张板片由胶垫密封，并通过夹紧螺柱压紧在框架内。板片角孔形成连续流道，介质从入口进入后被分配到板间通道内，两种介质在通道内逆流换热，从而实现热介质降温和冷介质升温。该产品具有传热系数高、污垢系数低、结构紧凑、占地空间小、检修清洗方便、末端温差小和重量轻等特点。",
+  "industries": [
+    "暖通空调",
+    "石油化工",
+    "船舶/海工",
+    "能源",
+    "食品加工",
+    "化工",
+    "制药"
+  ],
+  "advantage": [
+    "高效节能：多项一级能效产品设计，实现高效能与低能耗的平衡，助力可持续发展。",
+    "覆盖范围广：产品系列覆盖 DN32 至 DN500，适用于多种苛刻工况。",
+    "结构紧凑易维护：产品外形简洁美观，便于清洗除垢，有助于延长设备使用寿命。",
+    "设计灵活：先进的仿真引擎和灵活的模型定制能力，可针对不同工况进行优化设计。",
+    "密封可靠：胶垫密封配合加强型板片结构，提升高压工况下的密封可靠性。",
+    "材料选择丰富：可提供奥氏体不锈钢、双相不锈钢、钛及钛合金、镍及镍合金板片，以及多种胶垫材料选择。"
+  ],
+  "technical_parameters": {
+    "板片厚度": "0.4 ~ 1.0mm",
+    "板片材质": "奥氏体不锈钢、双相不锈钢、钛及钛合金、镍及镍合金",
+    "波纹深度": "1.8 ~ 10.0mm",
+    "胶垫材质": "丁腈（食品）橡胶、氢化丁腈橡胶、三元乙丙（食品）橡胶、耐高温三元乙丙橡胶、氟橡胶、聚四氟乙烯包覆橡胶",
+    "角孔直径": "DN32 ~ DN500",
+    "设计压力": "真空 ~ 3.6MPa",
+    "设计温度": "<=180℃",
+    "最大组装面积": "4000㎡"
+  },
+  "video_link": "https://www.youtube.com/watch?v=AK423r7fJuU",
+  "details": [
+    {
+      "title": "什么是可拆卸板式热交换器？",
+      "content": "可拆卸板式热交换器由带波纹槽的金属换热板片、胶垫、框架以及夹紧螺柱组成。板片角孔形成连续流道，冷热两侧介质分别进入交替排列的板间通道并逆流流动，通过板片完成高效传热。"
+    },
+    {
+      "title": "为什么选择这种板框式结构？",
+      "content": "这种结构具有传热系数高、污垢系数低、末端温差小、占地空间小和重量轻等优势，同时板束可拆卸，便于检修、清洗和后续扩容，适合对效率和维护性要求较高的工业换热工况。"
+    },
+    {
+      "title": "它如何进行设计和制造？",
+      "content": "换热板片是板式热交换器的核心元件，通常采用 CAD、CFD、CAE、CAM 等三维设计与仿真工具优化板型、密封和承压能力。工程设计阶段需要先确定换热量、流量、进出口温度、压降、板型、材料、流程组合和胶垫方案，再完成框架、接管和板束制造装配，并进行压力、泄漏及换热性能测试。"
+    }
+  ],
+  "seo_data": {
+    "meta_title": "可拆卸板式热交换器",
+    "meta_description": "结构紧凑、传热效率高、维护清洗方便的可拆卸板式热交换器，支持多种材质与规格。"
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_2.jpg"
+    },
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_3.jpg"
+    },
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger Plate Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_4.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

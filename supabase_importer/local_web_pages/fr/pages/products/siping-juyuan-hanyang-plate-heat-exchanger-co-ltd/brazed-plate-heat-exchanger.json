@@ -1,0 +1,39 @@
+{
+  "slug": "brazed-plate-heat-exchanger",
+  "name": "Échangeur de chaleur à plaques brasées",
+  "full_description": "La page officielle répertorie les caractéristiques des échangeurs de chaleur à plaques brasées telles que des turbulences élevées et des performances de transfert de chaleur très élevées, une résistance aux températures et à la pression élevées, ainsi qu'une petite taille et un poids léger. Il explique que la charge de brasage est chauffée du solide au liquide, comble les espaces formés par les points de support des plaques par mouillage et action capillaire, et forme la connexion entre les différents matériaux après refroidissement. La page répertorie les feuilles de soudure à base de cuivre, les pâtes à souder à base de nickel et les pâtes à souder à base de fer.",
+  "industries": [
+    "HVAC",
+    "Énergie",
+    "Transformation des aliments",
+    "Traitement chimique",
+    "Nourriture et boissons",
+    "Produits pharmaceutiques"
+  ],
+  "advantage": [
+    "Turbulence élevée et performances de transfert de chaleur élevées.",
+    "Résistance aux températures et à la pression élevées.",
+    "Taille compacte et faible poids.",
+    "Plusieurs options de métaux d'apport: matériaux de brasage à base de cuivre, de nickel et de fer."
+  ],
+  "technical_parameters": {
+    "Brazing Materials": "Feuille de soudure à base de cuivre; pâte à braser à base de nickel; pâte à souder à base de fer"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur à plaques brasées",
+    "meta_description": "Échangeur de chaleur à plaques brasées compact avec transfert de chaleur à turbulence élevée, résistance à haute température et pression et faible poids."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Brazed Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/brazed_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

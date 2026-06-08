@@ -1,0 +1,53 @@
+{
+  "slug": "high-efficiency-plate-heat-exchanger-aq-aa",
+  "name": "Intercambiador de calor de placas de alta eficiencia AQ/AA",
+  "full_description": "La serie AQ/AA es un intercambiador de calor de placa y marco con junta certificado por AHRI diseñado para sistemas de refrigeración HVAC-R. Accessen describe la serie como optimizada para el rendimiento de transferencia de calor de carga variable, compatibilidad con diferentes calidades y temperaturas del agua y configuración específica de la aplicación a través de placas de chevron de múltiples ángulos, profundidades de canal variadas y relaciones de aspecto configurables dentro de tamaños de puerto estandarizados.",
+  "industries": [
+    "HVAC"
+  ],
+  "advantage": [
+    "Rendimiento certificado por AHRI",
+    "Longevidad mejorada de la junta",
+    "Mayor eficiencia energética certificada",
+    "Patrones de placas configurables",
+    "Fiabilidad y estabilidad comprobadas",
+    "Opciones de accesorios ampliadas",
+    "Distribución de flujo optimizada",
+    "Juntas con clip",
+    "Sistema de alineación autoblocante"
+  ],
+  "technical_parameters": {
+    "Maximum design pressure": "25bar",
+    "Maximum design temperature": "200℃",
+    "Maximum processing capacity": "5.000 m³/h",
+    "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254",
+    "Maximum Heat Transfer Capacity": "80MW",
+    "Minimum temperature difference": "0,5-1 ℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "¿Para qué aplicaciones está diseñada la serie AQ/AA?",
+      "content": "Accessen posiciona la serie AQ/AA para sistemas de refrigeración HVAC-R donde el rendimiento certificado del intercambiador de calor líquido a líquido y el diseño térmico adaptable son importantes."
+    },
+    {
+      "title": "¿Cómo se mantiene flexible el diseño?",
+      "content": "La serie utiliza placas de chevron de múltiples ángulos, diferentes profundidades de canal y relaciones de aspecto configurables dentro de tamaños de puerto estándar para que los diseños puedan adaptarse a diferentes tareas y condiciones operativas."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Intercambiador de calor de placas de alta eficiencia AQ/AA",
+    "meta_description": "Intercambiador de calor de placa y marco con junta certificado por AHRI para sistemas de refrigeración HVAC-R con geometría de placa configurable y alta eficiencia de transferencia de calor."
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "High-Efficiency Plate Heat Exchanger AQ/AA",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/high_efficiency_plate_heat_exchanger_aq_aa.png"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

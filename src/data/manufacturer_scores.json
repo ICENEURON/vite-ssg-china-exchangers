@@ -4,7 +4,7 @@
     "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
     "manufacturer_slug": "shanghai-heat-transfer-equipment-co-ltd",
     "order": 1,
-    "overall_score": 71,
+    "overall_score": 68,
     "company_intro_score": 10,
     "product_info_score": 10,
     "export_market_score": 10,
@@ -14,18 +14,18 @@
     "downloadable_document_score": 1,
     "partner_logo_score": 6,
     "response_time_score": 10,
-    "published_article_score": 7,
+    "published_article_score": 4,
     "response_time": "within_24h",
     "published_article_count": 1,
     "created_at": "2026-05-08T11:24:03.191699+00:00",
-    "updated_at": "2026-05-17T05:30:55.682+00:00"
+    "updated_at": "2026-06-08T06:14:55.174+00:00"
   },
   {
     "id": "bc665af7-eecc-45c8-8552-64968867ce90",
     "manufacturer_id": "749dc7dd-abfc-4ee5-869b-7e8e9d8d953a",
     "manufacturer_slug": "shanghai-accessen-co-ltd",
     "order": 2,
-    "overall_score": 52,
+    "overall_score": 49,
     "company_intro_score": 10,
     "product_info_score": 10,
     "export_market_score": 5,
@@ -35,18 +35,18 @@
     "downloadable_document_score": 2,
     "partner_logo_score": 4,
     "response_time_score": 0,
-    "published_article_score": 7,
+    "published_article_score": 4,
     "response_time": "n/a",
     "published_article_count": 1,
     "created_at": "2026-05-08T11:24:03.191699+00:00",
-    "updated_at": "2026-05-17T05:30:55.682+00:00"
+    "updated_at": "2026-06-08T06:14:55.174+00:00"
   },
   {
     "id": "803421b9-1737-4b78-aebc-070123cc7563",
     "manufacturer_id": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
     "manufacturer_slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
     "order": 3,
-    "overall_score": 41,
+    "overall_score": 37,
     "company_intro_score": 9,
     "product_info_score": 9,
     "export_market_score": 6,
@@ -56,11 +56,11 @@
     "downloadable_document_score": 0,
     "partner_logo_score": 5,
     "response_time_score": 7,
-    "published_article_score": 4,
+    "published_article_score": 0,
     "response_time": "within_3_days",
-    "published_article_count": 1,
+    "published_article_count": 0,
     "created_at": "2026-05-08T11:24:03.191699+00:00",
-    "updated_at": "2026-05-17T05:30:55.682+00:00"
+    "updated_at": "2026-06-08T06:14:55.174+00:00"
   },
   {
     "id": "bd6c2d21-53d4-4f73-981a-5665129f3918",
@@ -81,7 +81,7 @@
     "response_time": "n/a",
     "published_article_count": 0,
     "created_at": "2026-05-08T11:24:03.191699+00:00",
-    "updated_at": "2026-05-17T05:30:55.682+00:00"
+    "updated_at": "2026-06-08T06:14:55.174+00:00"
   },
   {
     "id": "a69db3eb-5bd9-404c-8ad6-d84c89ef27a8",
@@ -102,6 +102,6 @@
     "response_time": "within_1_week",
     "published_article_count": 0,
     "created_at": "2026-05-08T11:24:03.191699+00:00",
-    "updated_at": "2026-05-17T05:30:55.682+00:00"
+    "updated_at": "2026-06-08T06:14:55.174+00:00"
   }
 ]

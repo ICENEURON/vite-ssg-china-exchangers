@@ -1,0 +1,79 @@
+{
+  "slug": "ht-bloc-welded-plate-heat-exchanger",
+  "name": "HT-BLOC مبادل حراري للوحة الملحومة",
+  "full_description": "يتم تجميع المبادلات الحرارية ذات الألواح الملحومة بالكامل في إطار قابل للإزالة، مما يوفر كفاءة عالية في نقل الحرارة، وهيكل مدمج، وسهولة الصيانة. مثالية لتطبيقات درجات الحرارة العالية والضغط العالي في الصناعات البترولية والكيميائية وتوليد الطاقة والأدوية والمعادن والتبريد.",
+  "industries": [
+    "البتروكيماويات",
+    "المعالجة الكيميائية"
+  ],
+  "advantage": [
+    "ملحومة بالكامل: يتيح التصميم الخالي من الحشيات التشغيل القوي في بيئات الضغط العالي ودرجات الحرارة المرتفعة، مما يضمن أداء مقاوم للتسرب للتطبيقات المهمة.",
+    "سهلة التنظيف: تسمح قنوات نقل الحرارة التي يمكن الوصول إليها بالإزالة الفعالة للرواسب والحجم من خلال التنظيف الميكانيكي، أو التنظيف الكيميائي، أو التنظيف بالموجات فوق الصوتية.",
+    "قابلة للفتح: تم تصميم الوصلة المثبتة بمسامير لتسهيل الوصول إليها وتعدد الاستخدامات من خلال تمكين الجوانب الأربعة من أن تكون قابلة للفتح، مما يسمح بمرونة أكبر أثناء التثبيت والصيانة والفحص.",
+    "مساحة صغيرة: تم تصميمها لتشغل مساحة صغيرة دون المساس بالسعة، مما يقلل بشكل كبير من المساحة مقارنة بالمبادلات الحرارية التقليدية ذات الغلاف والأنبوب.",
+    "الكفاءة العالية: تعمل الابتكارات في هندسة الصفائح وديناميكيات التدفق على زيادة الكفاءة الحرارية مع تقليل استهلاك الطاقة، بما يتماشى مع الأهداف العالمية للحفاظ على الطاقة.",
+    "المتانة: مصنوعة من مواد عالية الجودة وتستخدم تقنيات لحام دقيقة، ومصممة لتحمل ظروف التشغيل القاسية وضمان الموثوقية على المدى الطويل."
+  ],
+  "technical_parameters": {
+    "Area": "6.6 ~ 870㎡",
+    "Plate material": "304، 304L، 316L، 254SMO، C-276، التيتانيوم",
+    "Design Pressure": "-0.1 ~ 4.0MPa",
+    "Plate Thickness": "0.8 - 2 ملم",
+    "Design Temperature": "-40 ~ 400 درجة مئوية"
+  },
+  "video_link": "https://www.youtube.com/watch?v=j61c5dnKP78",
+  "details": [
+    {
+      "title": "ما هو المبادل الحراري الملحوم HT Bloc؟",
+      "content": "المبادل الحراري للوحة الملحومة HT-Bloc هو نوع من المبادلات الحرارية للوحة المصممة لنقل الحرارة بكفاءة بين سائلين. على عكس المبادلات الحرارية التقليدية، فإن PHE الملحومة HT-Bloc تتكون من حزمة لوحة وإطار. يجمع المبادل الحراري للكتلة الملحومة بين الكفاءة العالية في نقل الحرارة للمبادلات الحرارية اللوحية والمقاومة العالية للضغط ودرجة الحرارة للمبادلات الحرارية ذات الغلاف والأنبوب."
+    },
+    {
+      "title": "كيفية تجميع المبادل الحراري للوحة الملحومة HT-Bloc؟",
+      "content": "يتم تشكيل حزمة الألواح عن طريق لحام عدد معين من الألواح، ثم يتم تثبيتها في إطار، والذي يتم تكوينه بواسطة أربع عوارض زاوية، وألواح علوية وسفلية وأربعة أغطية جانبية. يستخدم المبادل الحراري للوحة الملحومة بالكامل مكونات قابلة للتبديل ووحدات موحدة، مما يسمح بسهولة التخصيص وقابلية التوسع. تضمن هذه الوحدة إمكانية تصميم المبادلات الحرارية من Compabloc لتلبية متطلبات صناعية محددة، مما يعزز الأداء والموثوقية."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "HT-BLOC مبادل حراري للوحة الملحومة",
+    "meta_description": "مبادل كتلة ملحومة مدمج للخدمة الصناعية ذات الضغط العالي."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "HT-BLOC Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_1.png"
+    },
+    {
+      "alt_text": "HT-BLOC Welded Plate Heat Exchanger Internal Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_2.png"
+    },
+    {
+      "alt_text": "HT-BLOC Welded Plate Heat Exchanger Installation",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_3.jpg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

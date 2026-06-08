@@ -1,0 +1,56 @@
+[
+  {
+    "id": 7,
+    "slug": "food-and-beverage",
+    "name": "食品与饮料",
+    "is_visible": true
+  },
+  {
+    "id": 8,
+    "slug": "pharmaceuticals",
+    "name": "制药",
+    "is_visible": true
+  },
+  {
+    "id": 9,
+    "slug": "power-generation",
+    "name": "发电/电力",
+    "is_visible": true
+  },
+  {
+    "id": 1,
+    "slug": "hvac",
+    "name": "暖通空调",
+    "is_visible": true
+  },
+  {
+    "id": 2,
+    "slug": "petrochemical",
+    "name": "石油化工",
+    "is_visible": true
+  },
+  {
+    "id": 3,
+    "slug": "marine",
+    "name": "船舶/海工",
+    "is_visible": true
+  },
+  {
+    "id": 4,
+    "slug": "energy",
+    "name": "能源",
+    "is_visible": true
+  },
+  {
+    "id": 5,
+    "slug": "food-processing",
+    "name": "食品加工",
+    "is_visible": true
+  },
+  {
+    "id": 6,
+    "slug": "chemical-processing",
+    "name": "化工",
+    "is_visible": true
+  }
+]

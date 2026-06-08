@@ -6,18 +6,18 @@
   "tagline": "HeatEx Direct aide les acheteurs internationaux à comparer les fabricants chinois d'échangeurs de chaleur, à explorer les catégories de produits et à soumettre les exigences en matière d'échangeurs de chaleur pour obtenir les commentaires des fabricants sur les devis.",
   "categories": "Catégories",
   "resources": "Ressources",
-  "rfq_label": "Obtenir un devis",
+  "rfq_label": "Devis",
   "links": {
     "items": {
       "home": "Maison",
-      "manufacturers": "Liste des fabricants",
-      "products": "Catégories de produits",
-      "rfq": "Obtenir un devis",
-      "profile": "Mises à jour du profil",
-      "content-marketing-services": "Soumissions d'articles",
-      "industry-news": "Nouvelles de l'industrie",
-      "about": "À propos de nous",
-      "contact": "Contactez-nous"
+      "manufacturers": "Fabricants",
+      "products": "Produits",
+      "rfq": "Devis",
+      "profile": "Profil",
+      "content-marketing-services": "Articles",
+      "industry-news": "Actualités",
+      "about": "À propos",
+      "contact": "Contact"
     }
   },
   "legal": {

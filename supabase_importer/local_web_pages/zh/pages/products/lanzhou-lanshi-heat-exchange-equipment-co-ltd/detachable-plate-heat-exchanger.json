@@ -1,0 +1,46 @@
+{
+  "slug": "detachable-plate-heat-exchanger",
+  "name": "可拆式板式热交换器",
+  "full_description": "官网介绍显示，该产品由多张换热板片组成，四周通过密封垫片密封，并由夹紧螺柱压紧；角孔形成连续流道，使两种介质在相邻板片间逆流流动并进行换热。产品适用于集中供热、空调、核电、冶金、石油、化工、船舶、医药、食品、造纸、纺织等行业，可用于加热、冷却、蒸发、冷凝、灭菌及余热回收等工况。",
+  "industries": [
+    "暖通空调",
+    "石油化工",
+    "船舶/海工",
+    "化工",
+    "食品与饮料",
+    "制药",
+    "发电/电力"
+  ],
+  "advantage": [
+    "相邻板片形成交替流道，可实现两种介质逆流换热。",
+    "可拆式密封垫结构便于维护和检修。",
+    "适用于加热、冷却、蒸发、冷凝、灭菌和余热回收等多种工艺。",
+    "官网列示其应用覆盖供热、空调、船舶、石油、化工、医药、食品等多个领域。"
+  ],
+  "technical_parameters": {
+    "单板面积": "0.03 ~ 4.15m2",
+    "接管直径": "DN32 ~ DN650",
+    "板片厚度": "0.4 ~ 1.0mm",
+    "组装面积": "≤5000m2",
+    "设计压力": "0.6 ~ 2.5MPa",
+    "设计温度": "-40 ~ 180℃",
+    "最大处理量": "5000m3/h"
+  },
+  "video_link": "",
+  "details": [],
+  "seo_data": {
+    "meta_title": "可拆式板式热交换器",
+    "meta_description": "适用于加热、冷却、蒸发、冷凝、灭菌及余热回收的可拆式板式热交换器。"
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Detachable Plate Heat Exchanger",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/detachable_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

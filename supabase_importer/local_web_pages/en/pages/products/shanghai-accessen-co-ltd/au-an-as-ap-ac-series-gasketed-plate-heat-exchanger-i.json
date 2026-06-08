@@ -1,0 +1,57 @@
+{
+  "slug": "au-an-as-ap-ac-series-gasketed-plate-heat-exchanger-i",
+  "name": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I",
+  "full_description": "The AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I is designed for industrial applications where high heat transfer efficiency, cost-effectiveness, safety, reliability, and ease of maintenance are required. Accessen states that the series uses glue-free clip-on gaskets and multiple specialized plate patterns to cover a wide range of capacities, fluid qualities, and operating temperatures.",
+  "industries": [
+    "Petrochemical",
+    "Marine",
+    "Energy",
+    "Chemical Processing",
+    "Food and Beverage",
+    "Pharmaceuticals",
+    "Power Generation"
+  ],
+  "advantage": [
+    "Improved flow distribution area",
+    "Glue-free clip-on sealing gaskets",
+    "Optimized plate size and angle combinations",
+    "More optional accessories",
+    "Reduced fouling accumulation areas",
+    "Strong turbulence for enhanced heat transfer",
+    "Self-locking plate corners",
+    "Leak-proof roof-type gasket design"
+  ],
+  "technical_parameters": {
+    "Temperature": "Minimum temperature difference: 0.5-1℃, Maximum temperature resistance: 200℃",
+    "Plate material": "AISI 304, 316, 316L, TI, SMO254...",
+    "Maximum heat transfer": "80MW",
+    "Maximum design pressure": "25bar",
+    "Maximum processing capacity": "5000m³/h"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "What makes this industrial gasketed series flexible?",
+      "content": "Accessen highlights the use of multiple plate angles, groove depths, and aspect ratios within the same port size so the exchanger can be adapted to different industrial duties and operating conditions."
+    },
+    {
+      "title": "How does it support easier maintenance?",
+      "content": "The design uses glue-free clip-on gaskets, improved flow distribution, and plate corner alignment features to simplify servicing and help reduce fouling-related downtime."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I",
+    "meta_description": "Industrial gasketed plate heat exchanger with configurable plate geometry, glue-free gaskets, and high heat transfer efficiency for demanding process applications."
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/au_an_as_ap_ac_series_gasketed_plate_heat_exchanger_i.png"
+    }
+  ],
+  "certificates": [],
+  "documents": []
+}

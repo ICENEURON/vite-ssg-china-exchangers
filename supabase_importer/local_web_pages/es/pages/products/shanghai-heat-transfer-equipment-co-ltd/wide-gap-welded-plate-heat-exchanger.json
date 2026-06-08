@@ -1,0 +1,94 @@
+{
+  "slug": "wide-gap-welded-plate-heat-exchanger",
+  "name": "Intercambiador de calor de placas soldadas con espacio amplio",
+  "full_description": "El intercambiador de calor de placas soldadas de espacio ancho está disponible en patrones de placas con hoyuelos y clavos. Las placas están soldadas alrededor de la periferia para formar canales de medios, eliminando la estructura de sellado de junta de goma utilizada en los intercambiadores de calor de placas con juntas. Está diseñado para procesos de calentamiento o enfriamiento que involucran fluidos con partículas sólidas grandes, suspensiones de fibras, medios viscosos o tareas de alta temperatura en industrias de azúcar, pulpa y papel, metalurgia, etanol, petroquímica e industrias relacionadas. Con canales de espacio amplio especialmente diseñados, el intercambiador ofrece una alta eficiencia de transferencia de calor, baja caída de presión, flujo suave sin zonas muertas y un sólido rendimiento antiobstrucción en condiciones operativas exigentes.",
+  "industries": [
+    "petroquímica",
+    "Procesamiento químico",
+    "Alimentos y Bebidas",
+    "Productos farmacéuticos"
+  ],
+  "advantage": [
+    "Diseño de canales de inspiración biónica: combina conceptos biomiméticos con diseño de ingeniería para maximizar la eficiencia energética en canales de flujo con espacios amplios.",
+    "Turbulencia mejorada: la intensificación de la turbulencia local rompe las capas límite térmicas y mejora el ángulo de sinergia del campo para una mayor eficiencia de transferencia de calor.",
+    "Rendimiento antiincrustante: una mayor tensión de corte en la pared ayuda a reducir la incrustación, extender los intervalos de limpieza y prolongar la vida útil del equipo.",
+    "Flujo antiobstrucción de amplio espacio: la geometría especial del canal permite un manejo suave de fluidos viscosos, suspensiones de fibras y partículas gruesas con un riesgo mínimo de obstrucción.",
+    "Durabilidad totalmente soldada: el sellado soldado sin juntas admite un funcionamiento confiable en aplicaciones de mayor temperatura y presión."
+  ],
+  "technical_parameters": {
+    "Max Area": "2000㎡",
+    "Channel Gap": "8 ~ 30 mm",
+    "Plate Pattern": "Placa plana con hoyuelos y tachuelas",
+    "Plate Material": "Acero inoxidable austenítico, Acero inoxidable dúplex, Níquel y aleación de níquel, Hastelloy",
+    "Design Pressure": "Vacío ~ 3,5 MPa",
+    "Plate Thickness": "1,0 ~ 2,5 mm",
+    "Design Temperature": "<= 350 ℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "¿Qué es un intercambiador de calor de placas soldadas con espacio amplio?",
+      "content": "El intercambiador de calor de placas soldadas con espacio amplio presenta una construcción totalmente soldada y sin juntas con canales de espacio amplio especialmente diseñados. Conserva los beneficios de una alta eficiencia de transferencia de calor y una baja caída de presión, al tiempo que permite que los medios viscosos, fibrosos y que contienen sólidos pasen suavemente sin crear zonas muertas que puedan provocar obstrucciones."
+    },
+    {
+      "title": "¿Cómo se construye el canal de flujo?",
+      "content": "Cada canal de flujo está formado soldando placas entre sí. Dependiendo del patrón de la placa, un lado puede crearse mediante puntos de contacto soldados por puntos entre placas con hoyuelos, placas con hoyuelos y planas, o placas planas con pernos soldados, mientras que el lado opuesto forma un canal más amplio sin contacto para fluidos viscosos o medios que contienen partículas y fibras gruesas."
+    },
+    {
+      "title": "¿Cómo se diseña y fabrica?",
+      "content": "El producto está diseñado térmicamente optimizando la geometría de la placa, el espaciado de los canales, la disposición de contraflujo de múltiples pasos y la gestión de la caída de presión para un servicio con espacios amplios. La selección de materiales puede incluir acero inoxidable, acero inoxidable dúplex, Hastelloy y otras aleaciones resistentes a la corrosión, mientras que la soldadura de precisión y el ensamblaje controlado garantizan resistencia a fugas, integridad estructural y un funcionamiento confiable a largo plazo."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Intercambiador de calor de placas soldadas con espacio amplio",
+    "meta_description": "Intercambiador de calor de placas soldadas de espacio amplio para fluidos viscosos, fibrosos y que contienen sólidos con canales antiobstrucción y construcción sin juntas."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Flow Channel",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_3.jpg"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_4.jpg"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Plate Pattern",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_5.png"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

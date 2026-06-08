@@ -1,23 +1,5 @@
 [
   {
-    "name": "Shanghai Accessen Co., Ltd.",
-    "short_description": "Proveedor de soluciones de intercambio de calor y refrigeración de centros de datos con bajas emisiones de carbono, especializado en intercambiadores de calor de placas, intercambiadores totalmente soldados y sistemas térmicos integrados prefabricados.",
-    "slug": "shanghai-accessen-co-ltd",
-    "city": "Shangai",
-    "country_name": "China",
-    "industries": [
-      "HVAC",
-      "petroquímica",
-      "marina",
-      "Energía",
-      "Procesamiento de alimentos",
-      "Procesamiento químico",
-      "Alimentos y Bebidas",
-      "Productos farmacéuticos",
-      "Generación de energía"
-    ]
-  },
-  {
     "name": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
     "short_description": "Proveedor de soluciones de sistemas de intercambio de calor y fabricante de intercambiadores de calor de placas que cubren soluciones de calefacción desmontables, semisoldadas, totalmente soldadas, integradas e inteligentes.",
     "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
@@ -30,24 +12,6 @@
       "Energía",
       "Procesamiento químico",
       "Alimentos y Bebidas",
-      "Generación de energía"
-    ]
-  },
-  {
-    "name": "Shanghai Heat Transfer Equipment Co., Ltd.",
-    "short_description": "Fabricante de intercambiadores de calor de placas y sistemas de transferencia de calor personalizados para los sectores de petróleo y gas, químico, energético, marino, HVAC y otros sectores industriales.",
-    "slug": "shanghai-heat-transfer-equipment-co-ltd",
-    "city": "Shangai",
-    "country_name": "China",
-    "industries": [
-      "HVAC",
-      "petroquímica",
-      "marina",
-      "Energía",
-      "Procesamiento de alimentos",
-      "Procesamiento químico",
-      "Alimentos y Bebidas",
-      "Productos farmacéuticos",
       "Generación de energía"
     ]
   },
@@ -74,6 +38,42 @@
     "short_description": "Fabricante profesional de equipos de intercambio de calor y productos de recipientes a presión, soluciones de intercambio de calor integradas, de placa de cubierta, tubulares, en espiral, del lado del aire.",
     "slug": "siping-viex-heat-exchange-equipment-co-ltd",
     "city": "surcos",
+    "country_name": "China",
+    "industries": [
+      "HVAC",
+      "petroquímica",
+      "marina",
+      "Energía",
+      "Procesamiento de alimentos",
+      "Procesamiento químico",
+      "Alimentos y Bebidas",
+      "Productos farmacéuticos",
+      "Generación de energía"
+    ]
+  },
+  {
+    "name": "Shanghai Accessen Co., Ltd.",
+    "short_description": "Proveedor de soluciones de intercambio de calor y refrigeración de centros de datos con bajas emisiones de carbono, especializado en intercambiadores de calor de placas, intercambiadores totalmente soldados y sistemas térmicos integrados prefabricados.",
+    "slug": "shanghai-accessen-co-ltd",
+    "city": "Shangai",
+    "country_name": "China",
+    "industries": [
+      "HVAC",
+      "petroquímica",
+      "marina",
+      "Energía",
+      "Procesamiento de alimentos",
+      "Procesamiento químico",
+      "Alimentos y Bebidas",
+      "Productos farmacéuticos",
+      "Generación de energía"
+    ]
+  },
+  {
+    "name": "Shanghai Heat Transfer Equipment Co., Ltd.",
+    "short_description": "Fabricante de intercambiadores de calor de placas y sistemas de transferencia de calor personalizados para los sectores de petróleo y gas, químico, energético, marino, HVAC y otros sectores industriales.",
+    "slug": "shanghai-heat-transfer-equipment-co-ltd",
+    "city": "Shangai",
     "country_name": "China",
     "industries": [
       "HVAC",

@@ -1,0 +1,94 @@
+{
+  "slug": "tp-welded-plate-heat-exchanger",
+  "name": "Intercambiador de calor de placas soldadas TP",
+  "full_description": "Los paquetes de placas se sueldan entre sí mediante máquinas de soldadura automáticas avanzadas y se instalan dentro de una carcasa que se puede abrir para la limpieza mecánica de los canales de flujo. La configuración única del canal evita la contaminación cruzada de fluidos y las fugas externas. El intercambiador de calor de placas soldadas TP combina la alta eficiencia de transferencia de calor y la estructura compacta de los intercambiadores de calor de placas con la resistencia a alta presión y alta temperatura de los intercambiadores de carcasa y tubos, lo que lo convierte en un reemplazo ideal para equipos tubulares en procesos especiales de transferencia de calor. Es ampliamente utilizado en las industrias petroquímica, de generación de energía, metalúrgica, alimentaria y farmacéutica.",
+  "industries": [
+    "petroquímica",
+    "marina",
+    "Procesamiento de alimentos",
+    "Procesamiento químico",
+    "Productos farmacéuticos"
+  ],
+  "advantage": [
+    "Diseño de junta de expansión: una estructura única de junta de expansión es adecuada para tareas con grandes diferencias de temperatura.",
+    "Transferencia de calor a contracorriente: la disposición de contraflujo mejora el factor de corrección de diferencia de temperatura media logarítmica y mejora el rendimiento térmico.",
+    "Resistencia de la carcasa redonda: la forma de la carcasa cilíndrica ayuda a reducir la deformación de la soldadura y mejora la resistencia a la presión y la estabilidad estructural.",
+    "Rendimiento de flujo híbrido: el lado de la placa proporciona una fuerte turbulencia y una alta eficiencia de transferencia de calor, mientras que el lado de la carcasa ofrece una baja resistencia al flujo y una fuerte capacidad de soportar presión.",
+    "Seguridad totalmente soldada: la construcción totalmente soldada es segura y confiable para aplicaciones de alta temperatura, alta presión y medios peligrosos.",
+    "Estructura mantenible: La carcasa se puede abrir para limpieza mecánica, lo que brinda a la unidad una mejor capacidad de servicio que las alternativas soldadas completamente selladas."
+  ],
+  "technical_parameters": {
+    "Max Area": "15000㎡",
+    "Plate Material": "Acero inoxidable austenítico, Acero inoxidable dúplex, 254SMO, Titanio y aleación de titanio, Níquel y aleación de níquel, Hastelloy",
+    "Design Pressure": "Vacío ~ 6,0 MPa",
+    "Plate Thickness": "0,6 ~ 1,5 mm",
+    "Design Temperature": "-196 ~ 900℃"
+  },
+  "video_link": "https://www.youtube.com/watch?v=S_2LrC6tOMk",
+  "details": [
+    {
+      "title": "¿Qué es el intercambiador de calor de placas soldadas TP?",
+      "content": "El intercambiador de calor de placas soldadas TP es un intercambiador híbrido que combina las características estructurales de los intercambiadores de calor de carcasa y tubos con la compacidad y la alta eficiencia de transferencia de calor de los intercambiadores de calor de placas. Es adecuado para tareas de transferencia de calor líquido-líquido, gas-gas y líquido-gas donde tanto la eficiencia térmica como la resistencia mecánica son importantes."
+    },
+    {
+      "title": "¿Cómo se construye el intercambiador de calor de placas soldadas TP?",
+      "content": "Los componentes principales incluyen uno o más paquetes de placas soldadas, secciones de carcasa y marco de placas, pernos de sujeción, conexiones de entrada y salida del lado frío y caliente, placas deflectoras y estructuras de soporte. El paquete de placas se forma apilando y soldando placas corrugadas y, según la aplicación, los alojamientos del lado de la carcasa y de la placa se pueden soldar o atornillar para lograr flexibilidad en la operación y el mantenimiento."
+    },
+    {
+      "title": "¿Cómo se diseña y fabrica?",
+      "content": "El diseño se centra en la geometría optimizada de las placas, el espaciado de las placas, la disposición de contraflujo o flujo cruzado de múltiples pasos y el control de la caída de presión. La selección de materiales puede incluir acero inoxidable, titanio, Hastelloy y otras aleaciones resistentes a la corrosión. La fabricación se basa en soldaduras de precisión y métodos de ensamblaje robustos para garantizar conexiones perfectas, integridad estructural y rendimiento confiable en condiciones operativas severas."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Intercambiador de calor de placas soldadas TP",
+    "meta_description": "Intercambiador de calor de placas soldadas híbrido que combina la eficiencia de las placas con la durabilidad de la carcasa y los tubos para servicio de alta presión y alta temperatura."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Flow Path",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_3.jpg"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_4.jpg"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Application",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_5.png"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}
