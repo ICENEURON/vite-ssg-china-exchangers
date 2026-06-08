@@ -309,52 +309,6 @@
     "url": "shanghai-heat-transfer-equipment-co-ltd/printed-circuit-heat-exchanger"
   },
   {
-    "slug": "standardized-heat-exchange-unit",
-    "manufacturer": {
-      "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
-      "name": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
-    },
-    "name": "وحدة التبادل الحراري الموحدة",
-    "short_description": "وحدة تبادل حراري موحدة ذات تكوين معياري، وبرنامج تحكم موحد، وأهداف انخفاض الضغط أقل من القيم المرجعية الوطنية المدرجة بواسطة THT.",
-    "industries": [
-      "HVAC",
-      "الطاقة",
-      "توليد الطاقة"
-    ],
-    "images": [
-      {
-        "alt_text": "Standardized Heat Exchange Unit",
-        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/standardized_heat_exchange_unit_1.jpg"
-      }
-    ],
-    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/standardized-heat-exchange-unit"
-  },
-  {
-    "slug": "detachable-plate-heat-exchanger",
-    "manufacturer": {
-      "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
-      "name": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd."
-    },
-    "name": "مبادل حراري لوحة قابلة للفصل",
-    "short_description": "مبادل لوحي قابل للفصل للتدفئة والتبريد والتبخر والتكثيف والتعقيم واستعادة الحرارة.",
-    "industries": [
-      "HVAC",
-      "البتروكيماويات",
-      "البحرية",
-      "المعالجة الكيميائية",
-      "الأطعمة والمشروبات",
-      "المستحضرات الصيدلانية",
-      "توليد الطاقة"
-    ],
-    "images": [
-      {
-        "alt_text": "Detachable Plate Heat Exchanger",
-        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/detachable_plate_heat_exchanger_1.jpg"
-      }
-    ],
-    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/detachable-plate-heat-exchanger"
-  },
-  {
     "slug": "ht-bloc-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
@@ -500,6 +454,77 @@
     "url": "shanghai-accessen-co-ltd/liquid-cooled-hydraulic-power-unit-pheu"
   },
   {
+    "slug": "plate-tube-shell-heat-exchanger",
+    "manufacturer": {
+      "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
+      "name": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
+    },
+    "name": "لوحة (أنبوب) شل مبادل حراري",
+    "short_description": "منصة المبادل الحراري ذات الغلاف اللوحي والأنبوبي باستخدام حزم الألواح الملحومة وإجراءات الفحص الناضجة لتطبيقات الخدمة الخاصة.",
+    "industries": [
+      "البتروكيماويات",
+      "الطاقة",
+      "المعالجة الكيميائية",
+      "توليد الطاقة"
+    ],
+    "images": [
+      {
+        "alt_text": "Plate (Tube) Shell Heat Exchanger",
+        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/plate_tube_shell_heat_exchanger_1.jpg"
+      }
+    ],
+    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/plate-tube-shell-heat-exchanger"
+  },
+  {
+    "slug": "all-welded-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
+      "name": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd."
+    },
+    "name": "مبادل حراري للوحة ملحومة بالكامل",
+    "short_description": "تم تركيب مبادل ألواح ملحوم بالكامل داخل الهيكل للضغط العالي ودرجات الحرارة العالية.",
+    "industries": [
+      "HVAC",
+      "البتروكيماويات",
+      "المعالجة الكيميائية",
+      "الأطعمة والمشروبات",
+      "المستحضرات الصيدلانية",
+      "توليد الطاقة"
+    ],
+    "images": [
+      {
+        "alt_text": "All-Welded Plate Heat Exchanger",
+        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/all_welded_plate_heat_exchanger_1.jpg"
+      }
+    ],
+    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/all-welded-plate-heat-exchanger"
+  },
+  {
+    "slug": "detachable-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
+      "name": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd."
+    },
+    "name": "مبادل حراري لوحة قابلة للفصل",
+    "short_description": "مبادل لوحي قابل للفصل للتدفئة والتبريد والتبخر والتكثيف والتعقيم واستعادة الحرارة.",
+    "industries": [
+      "HVAC",
+      "البتروكيماويات",
+      "البحرية",
+      "المعالجة الكيميائية",
+      "الأطعمة والمشروبات",
+      "المستحضرات الصيدلانية",
+      "توليد الطاقة"
+    ],
+    "images": [
+      {
+        "alt_text": "Detachable Plate Heat Exchanger",
+        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/detachable_plate_heat_exchanger_1.jpg"
+      }
+    ],
+    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/detachable-plate-heat-exchanger"
+  },
+  {
     "slug": "tp-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
@@ -539,26 +564,25 @@
     "url": "shanghai-heat-transfer-equipment-co-ltd/tp-welded-plate-heat-exchanger"
   },
   {
-    "slug": "plate-tube-shell-heat-exchanger",
+    "slug": "standardized-heat-exchange-unit",
     "manufacturer": {
       "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
       "name": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
     },
-    "name": "لوحة (أنبوب) شل مبادل حراري",
-    "short_description": "منصة المبادل الحراري ذات الغلاف اللوحي والأنبوبي باستخدام حزم الألواح الملحومة وإجراءات الفحص الناضجة لتطبيقات الخدمة الخاصة.",
+    "name": "وحدة التبادل الحراري الموحدة",
+    "short_description": "وحدة تبادل حراري موحدة ذات تكوين معياري، وبرنامج تحكم موحد، وأهداف انخفاض الضغط أقل من القيم المرجعية الوطنية المدرجة بواسطة THT.",
     "industries": [
-      "البتروكيماويات",
+      "HVAC",
       "الطاقة",
-      "المعالجة الكيميائية",
       "توليد الطاقة"
     ],
     "images": [
       {
-        "alt_text": "Plate (Tube) Shell Heat Exchanger",
-        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/plate_tube_shell_heat_exchanger_1.jpg"
+        "alt_text": "Standardized Heat Exchange Unit",
+        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/standardized_heat_exchange_unit_1.jpg"
       }
     ],
-    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/plate-tube-shell-heat-exchanger"
+    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/standardized-heat-exchange-unit"
   },
   {
     "slug": "primary-energy-efficiency-plate-heat-exchanger",
@@ -655,85 +679,6 @@
     "url": "siping-viex-heat-exchange-equipment-co-ltd/air-heat-exchanger"
   },
   {
-    "slug": "all-welded-plate-heat-exchanger",
-    "manufacturer": {
-      "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
-      "name": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd."
-    },
-    "name": "مبادل حراري للوحة ملحومة بالكامل",
-    "short_description": "تم تركيب مبادل ألواح ملحوم بالكامل داخل الهيكل للضغط العالي ودرجات الحرارة العالية.",
-    "industries": [
-      "HVAC",
-      "البتروكيماويات",
-      "المعالجة الكيميائية",
-      "الأطعمة والمشروبات",
-      "المستحضرات الصيدلانية",
-      "توليد الطاقة"
-    ],
-    "images": [
-      {
-        "alt_text": "All-Welded Plate Heat Exchanger",
-        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/all_welded_plate_heat_exchanger_1.jpg"
-      }
-    ],
-    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/all-welded-plate-heat-exchanger"
-  },
-  {
-    "slug": "wide-gap-welded-plate-heat-exchanger",
-    "manufacturer": {
-      "slug": "shanghai-heat-transfer-equipment-co-ltd",
-      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
-    },
-    "name": "مبادل حراري ذو فجوة واسعة",
-    "short_description": "مبادل ذو فجوة واسعة بدون حشية للسوائل اللزجة والمحملة بالألياف والسوائل المحتوية على جزيئات.",
-    "industries": [
-      "البتروكيماويات",
-      "المعالجة الكيميائية",
-      "الأطعمة والمشروبات",
-      "المستحضرات الصيدلانية"
-    ],
-    "images": [
-      {
-        "alt_text": "Wide Gap Welded Plate Heat Exchanger",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_1.png"
-      },
-      {
-        "alt_text": "Wide Gap Welded Plate Heat Exchanger Structure",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_2.png"
-      },
-      {
-        "alt_text": "Wide Gap Welded Plate Heat Exchanger Flow Channel",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_3.jpg"
-      },
-      {
-        "alt_text": "Wide Gap Welded Plate Heat Exchanger Detail",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_4.jpg"
-      },
-      {
-        "alt_text": "Wide Gap Welded Plate Heat Exchanger Plate Pattern",
-        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_5.png"
-      }
-    ],
-    "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
-  },
-  {
-    "slug": "liquid-cooling-distribution-unit-acdu",
-    "manufacturer": {
-      "slug": "shanghai-accessen-co-ltd",
-      "name": "Shanghai Accessen Co., Ltd."
-    },
-    "name": "وحدة توزيع تبريد السائل ACDU",
-    "short_description": "وحدة توزيع التبريد السائل الجاهزة لمراكز البيانات مع التبريد الطبيعي والتحكم التكيفي والنشر السريع.",
-    "industries": [],
-    "images": [
-      {
-        "alt_text": "Liquid-Cooling Distribution Unit ACDU",
-        "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooling_distribution_unit_acdu.png"
-      }
-    ],
-    "url": "shanghai-accessen-co-ltd/liquid-cooling-distribution-unit-acdu"
-  },
-  {
     "slug": "semi-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
@@ -776,26 +721,79 @@
     "url": "shanghai-accessen-co-ltd/high-efficiency-plate-heat-exchanger-aq-aa"
   },
   {
-    "slug": "air-radiator",
+    "slug": "liquid-cooling-distribution-unit-acdu",
     "manufacturer": {
-      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
-      "name": "Siping ViEX Heat Exchange Equipment Co., Ltd."
+      "slug": "shanghai-accessen-co-ltd",
+      "name": "Shanghai Accessen Co., Ltd."
     },
-    "name": "مشعاع الهواء",
-    "short_description": "مشعاع الهواء وسخان الهواء لأجهزة التجفيف بالهواء الساخن، وذلك باستخدام البخار أو الماء الساخن من خلال أنابيب الصلب ذات الزعانف.",
+    "name": "وحدة توزيع تبريد السائل ACDU",
+    "short_description": "وحدة توزيع التبريد السائل الجاهزة لمراكز البيانات مع التبريد الطبيعي والتحكم التكيفي والنشر السريع.",
+    "industries": [],
+    "images": [
+      {
+        "alt_text": "Liquid-Cooling Distribution Unit ACDU",
+        "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooling_distribution_unit_acdu.png"
+      }
+    ],
+    "url": "shanghai-accessen-co-ltd/liquid-cooling-distribution-unit-acdu"
+  },
+  {
+    "slug": "wide-gap-welded-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "shanghai-heat-transfer-equipment-co-ltd",
+      "name": "Shanghai Heat Transfer Equipment Co., Ltd."
+    },
+    "name": "مبادل حراري ذو فجوة واسعة",
+    "short_description": "مبادل ذو فجوة واسعة بدون حشية للسوائل اللزجة والمحملة بالألياف والسوائل المحتوية على جزيئات.",
     "industries": [
-      "HVAC",
-      "تجهيز الأغذية",
+      "البتروكيماويات",
+      "المعالجة الكيميائية",
       "الأطعمة والمشروبات",
       "المستحضرات الصيدلانية"
     ],
     "images": [
       {
-        "alt_text": "Air Radiator",
-        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_radiator.jpg"
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_1.png"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Structure",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_2.png"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Flow Channel",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_3.jpg"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Detail",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_4.jpg"
+      },
+      {
+        "alt_text": "Wide Gap Welded Plate Heat Exchanger Plate Pattern",
+        "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_5.png"
       }
     ],
-    "url": "siping-viex-heat-exchange-equipment-co-ltd/air-radiator"
+    "url": "shanghai-heat-transfer-equipment-co-ltd/wide-gap-welded-plate-heat-exchanger"
+  },
+  {
+    "slug": "heat-exchanger-unit",
+    "manufacturer": {
+      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+      "name": "Siping ViEX Heat Exchange Equipment Co., Ltd."
+    },
+    "name": "وحدة المبادل الحراري",
+    "short_description": "وحدة مبادل حراري متكاملة لتدفئة المناطق وتكييف الهواء والمياه الساخنة المنزلية مع التحكم الآلي والتشغيل الموفر للطاقة.",
+    "industries": [
+      "HVAC",
+      "الطاقة"
+    ],
+    "images": [
+      {
+        "alt_text": "Heat Exchanger Unit",
+        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/heat_exchanger_unit.jpg"
+      }
+    ],
+    "url": "siping-viex-heat-exchange-equipment-co-ltd/heat-exchanger-unit"
   },
   {
     "slug": "plate-heat-exchanger",
@@ -825,23 +823,25 @@
     "url": "siping-viex-heat-exchange-equipment-co-ltd/plate-heat-exchanger"
   },
   {
-    "slug": "heat-exchanger-unit",
+    "slug": "air-radiator",
     "manufacturer": {
       "slug": "siping-viex-heat-exchange-equipment-co-ltd",
       "name": "Siping ViEX Heat Exchange Equipment Co., Ltd."
     },
-    "name": "وحدة المبادل الحراري",
-    "short_description": "وحدة مبادل حراري متكاملة لتدفئة المناطق وتكييف الهواء والمياه الساخنة المنزلية مع التحكم الآلي والتشغيل الموفر للطاقة.",
+    "name": "مشعاع الهواء",
+    "short_description": "مشعاع الهواء وسخان الهواء لأجهزة التجفيف بالهواء الساخن، وذلك باستخدام البخار أو الماء الساخن من خلال أنابيب الصلب ذات الزعانف.",
     "industries": [
       "HVAC",
-      "الطاقة"
+      "تجهيز الأغذية",
+      "الأطعمة والمشروبات",
+      "المستحضرات الصيدلانية"
     ],
     "images": [
       {
-        "alt_text": "Heat Exchanger Unit",
-        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/heat_exchanger_unit.jpg"
+        "alt_text": "Air Radiator",
+        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_radiator.jpg"
       }
     ],
-    "url": "siping-viex-heat-exchange-equipment-co-ltd/heat-exchanger-unit"
+    "url": "siping-viex-heat-exchange-equipment-co-ltd/air-radiator"
   }
 ]

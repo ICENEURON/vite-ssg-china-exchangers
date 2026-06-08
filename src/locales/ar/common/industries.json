@@ -1,23 +1,5 @@
 [
   {
-    "id": 7,
-    "slug": "food-and-beverage",
-    "name": "الأطعمة والمشروبات",
-    "is_visible": true
-  },
-  {
-    "id": 8,
-    "slug": "pharmaceuticals",
-    "name": "المستحضرات الصيدلانية",
-    "is_visible": true
-  },
-  {
-    "id": 9,
-    "slug": "power-generation",
-    "name": "توليد الطاقة",
-    "is_visible": true
-  },
-  {
     "id": 1,
     "slug": "hvac",
     "name": "HVAC",
@@ -51,6 +33,24 @@
     "id": 6,
     "slug": "chemical-processing",
     "name": "المعالجة الكيميائية",
+    "is_visible": true
+  },
+  {
+    "id": 7,
+    "slug": "food-and-beverage",
+    "name": "الأطعمة والمشروبات",
+    "is_visible": true
+  },
+  {
+    "id": 8,
+    "slug": "pharmaceuticals",
+    "name": "المستحضرات الصيدلانية",
+    "is_visible": true
+  },
+  {
+    "id": 9,
+    "slug": "power-generation",
+    "name": "توليد الطاقة",
     "is_visible": true
   }
 ]
