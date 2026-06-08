@@ -20,7 +20,7 @@ export function PageHero({
           src={backgroundImageSrc}
           alt={backgroundImageAlt}
         />
-        <div className="absolute inset-0 bg-navbar/90" />
+        <div className="absolute inset-0 bg-navbar/[0.97]" />
       </div>
 
       <div className="relative z-10 container mx-auto max-w-5xl px-4 pt-4 text-center md:pt-5">

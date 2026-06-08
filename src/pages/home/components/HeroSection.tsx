@@ -20,8 +20,8 @@ export function HeroSection() {
 
     return (
         <section className="relative isolate flex min-h-[650px] justify-center overflow-hidden bg-navbar px-2 py-16 text-navbar-foreground">
-            <ResponsiveHeroImage src="/static/websites/home-hero.png" className="-z-20 opacity-40" />
-            <div className="absolute inset-0 -z-10 bg-gradient-to-b from-navbar/90 via-navbar/82 to-navbar" />
+            <ResponsiveHeroImage src="/static/websites/home-hero.png" className="-z-20" />
+            <div className="absolute inset-0 -z-10 bg-navbar/[0.97]" />
 
             <div className="container z-10 flex max-w-6xl flex-col justify-center gap-7 px-4">
                 <p className="hidden w-fit rounded-sm border border-orange-300/35 bg-orange-300/10 px-3 py-1.5 text-sm font-semibold text-orange-100 shadow-sm shadow-black/10 md:block">

@@ -9,8 +9,8 @@ export function AboutHero() {
 
     return (
         <section className="relative isolate flex min-h-[560px] justify-center overflow-hidden bg-navbar px-2 py-16 text-navbar-foreground">
-            <ResponsiveHeroImage src="/static/websites/about-hero.png" className="-z-20 opacity-35" />
-            <div className="absolute inset-0 -z-10 bg-gradient-to-b from-navbar/92 via-navbar/86 to-navbar" />
+            <ResponsiveHeroImage src="/static/websites/about-hero.png" className="-z-20" />
+            <div className="absolute inset-0 -z-10 bg-navbar/[0.97]" />
 
             <div className="container z-10 flex max-w-6xl flex-col justify-center gap-7 px-4">
                 <div className="max-w-5xl space-y-5">
