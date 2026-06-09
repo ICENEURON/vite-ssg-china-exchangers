@@ -17,14 +17,15 @@
     "يجمع بين الهيكل المدمج وكفاءة نقل الحرارة العالية مع مقاومة الضغط ودرجة الحرارة العالية."
   ],
   "technical_parameters": {
-    "Assembly Area": "≥30000 م2",
-    "Design Pressure": "فراغ ~ 6.0MPa",
-    "Plate Thickness": "0.5 ~ 1.2 ملم",
-    "Design Temperature": "-200 ~ 900 درجة مئوية",
-    "Minimum Temperature Difference": "1 درجة مئوية"
+    "سماكة اللوح": "0.5 ~ 1.2 ملم",
+    "ضغط التصميم": "فراغ ~ 6.0MPa",
+    "مساحة التجميع": "≥30000 م2",
+    "درجة حرارة التصميم": "-200 ~ 900 درجة مئوية",
+    "أدنى فرق في درجة الحرارة": "1 درجة مئوية"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "مبادل حراري للوحة ملحومة بالكامل",
     "meta_description": "تم تركيب مبادل ألواح ملحوم بالكامل داخل الهيكل للضغط العالي ودرجات الحرارة العالية."
@@ -38,6 +39,7 @@
       "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/all_welded_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

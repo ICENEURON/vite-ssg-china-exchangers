@@ -28,12 +28,15 @@
     "technical_specifications": "技术规格",
     "other_products": "该公司的其他产品",
     "document_downloads": "文档下载",
-    "download": "下载"
+    "download": "下载",
+    "applications": "产品应用",
+    "application_advantages": "优势",
+    "application_used_in": "应用领域"
   },
   "categories": {},
   "meta": {
     "description": "浏览中国工业换热器产品资料，按制造商与行业筛选，并快速查看板式、焊接板式、管壳式、空冷器及换热机组等产品信息。",
-    "keywords": "???????, ???????, ???????, ??????, ??????, ????????"
+    "keywords": "工业换热器产品, 板式换热器产品, 焊接板式换热器, 管壳式换热器, 空冷式换热器, 中国换热器制造商"
   },
   "og": {
     "title": "工业换热器",

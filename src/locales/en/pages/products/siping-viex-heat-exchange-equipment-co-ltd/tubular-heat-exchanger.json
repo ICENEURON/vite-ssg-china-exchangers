@@ -32,6 +32,7 @@
       "content": "The product page points to petroleum refining, chemical industry, electric power, metallurgy, and water conservancy among the main application areas."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Tubular Heat Exchanger | Siping ViEX",
     "meta_description": "Shell-and-tube heat exchanger designed for high-temperature, high-pressure, and enhanced heat transfer industrial applications."
@@ -45,6 +46,7 @@
       "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/tubular_heat_exchanger.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

@@ -16,9 +16,9 @@
     "Съемный для очистки без старения прокладки"
   ],
   "technical_parameters": {
-    "Plate material": "AISI304L, 316L, титан, хастеллой, SMO254...",
-    "Maximum design pressure": "80бар",
-    "Maximum temperature resistance": "500℃"
+    "Материал пластин": "AISI304L, 316L, титан, хастеллой, SMO254...",
+    "Максимальная термостойкость": "500℃",
+    "Максимальное расчетное давление": "80бар"
   },
   "video_link": "",
   "details": [
@@ -31,6 +31,7 @@
       "content": "Продукт описан как съемный для очистки и предотвращает старение прокладок, что помогает снизить эксплуатационные расходы с течением времени."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Пластинчатый теплообменник серии AWPS — I",
     "meta_description": "Промышленный пластинчатый теплообменник для работы в условиях высоких температур и высокого давления, сочетающий в себе высокие тепловые характеристики со съемным доступом для очистки."
@@ -44,6 +45,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/awps_series_plate_shell_heat_exchanger_i.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

@@ -32,6 +32,7 @@
       "content": "由于模块在工厂内完成预装配，现场仅需完成基础、水路和电气连接，因此有助于缩短土建、安装和调试周期。"
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "AIS室外预制化集成冷站",
     "meta_description": "面向数据中心的室外预制化集成冷站，具备工厂预装、模块化设计和快速部署优势。"
@@ -45,6 +46,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/outdoor_prefabricated_integrated_cooling_station_ais.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

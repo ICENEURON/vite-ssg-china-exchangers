@@ -15,12 +15,13 @@
     "يمكن لجزء من معدات الغلاف أن يتحمل ضغط التشغيل 6.0MPa."
   ],
   "technical_parameters": {
-    "Plate Forms": "تموج على شكل الشوكولاتة، تموج أفقي، تموج مائل، تموج متعرج",
-    "Air-Tightness Test": "0.6-0.7MPa بعد اللحام",
-    "Operating Pressure": "يمكن لبعض المعدات من نوع الصدفة أن تتحمل 6.0MPa"
+    "ضغط التشغيل": "يمكن لبعض المعدات من نوع الصدفة أن تتحمل 6.0MPa",
+    "أشكال الألواح": "تموج على شكل الشوكولاتة، تموج أفقي، تموج مائل، تموج متعرج",
+    "اختبار الإحكام الهوائي": "0.6-0.7MPa بعد اللحام"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "لوحة (أنبوب) شل مبادل حراري",
     "meta_description": "منصة المبادل الحراري ذات الغلاف اللوحي والأنبوبي باستخدام حزم الألواح الملحومة وإجراءات الفحص الناضجة لتطبيقات الخدمة الخاصة."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/plate_tube_shell_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

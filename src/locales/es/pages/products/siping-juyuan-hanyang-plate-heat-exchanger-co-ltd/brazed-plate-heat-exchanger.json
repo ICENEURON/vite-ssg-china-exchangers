@@ -17,10 +17,11 @@
     "Múltiples opciones de metal de aportación: materiales de soldadura fuerte a base de cobre, níquel y hierro."
   ],
   "technical_parameters": {
-    "Brazing Materials": "Lámina de soldadura a base de cobre; pasta de soldadura a base de níquel; pasta de soldadura a base de hierro"
+    "Materiales de soldadura fuerte": "Lámina de soldadura a base de cobre; pasta de soldadura a base de níquel; pasta de soldadura a base de hierro"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Intercambiador de calor de placas soldadas",
     "meta_description": "Intercambiador de calor de placas soldadas compacto con transferencia de calor de alta turbulencia, resistencia a altas temperaturas y presiones y bajo peso."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/brazed_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

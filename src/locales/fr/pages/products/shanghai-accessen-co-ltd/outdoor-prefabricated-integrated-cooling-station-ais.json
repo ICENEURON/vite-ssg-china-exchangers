@@ -15,11 +15,11 @@
     "Charge de travail réduite sur site"
   ],
   "technical_parameters": {
-    "Maximum design pressure": "25 bars",
-    "Maximum design temperature": "200℃",
-    "Maximum processing capacity": "5 000 m³/heure",
-    "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254...",
-    "Minimum temperature difference": "0,5-1 ℃"
+    "Pression de conception maximale": "25 bars",
+    "Capacité de traitement maximale": "5 000 m³/heure",
+    "Matériau principal de construction": "AISI 304, 316, 316L, TI, SMO254...",
+    "Température de conception maximale": "200℃",
+    "Différence minimale de température": "0,5-1 ℃"
   },
   "video_link": "",
   "details": [
@@ -32,6 +32,7 @@
       "content": "Étant donné que les modules sont préassemblés en usine et ne nécessitent qu'une préparation des fondations sur site ainsi que des connexions d'eau et électriques, l'AIS permet de réduire le temps de construction et de mise en service sur site."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Station de refroidissement intégrée préfabriquée extérieure AIS",
     "meta_description": "Station de refroidissement intégrée préfabriquée extérieure pour centres de données avec pré-assemblage en usine, conception modulaire et avantages de déploiement rapide."
@@ -45,6 +46,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/outdoor_prefabricated_integrated_cooling_station_ais.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

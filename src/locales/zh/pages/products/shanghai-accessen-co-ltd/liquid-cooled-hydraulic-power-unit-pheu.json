@@ -33,6 +33,7 @@
       "content": "产品采用预制化模块、工装对位和预制管路方案，现场仅需螺纹或法兰连接即可完成安装，有助于减少安装周期和现场焊接工作量。"
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "PHEU液冷/水冷水力模块",
     "meta_description": "面向数据中心液冷基础设施的模块化水力单元，集成板式换热器、水泵和水处理系统。"
@@ -46,6 +47,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooled_hydraulic_power_unit_pheu.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

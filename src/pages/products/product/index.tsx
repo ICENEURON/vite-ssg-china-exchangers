@@ -4,7 +4,8 @@ import { Button } from "../../../components/ui/button"
 import { QuoteCta } from "../../../components/ui/quote-cta"
 import { CheckCircle2, Settings, Factory, ArrowLeft, ArrowRight, BookOpen, Download, FileText, Mail } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
-import { ImageCarouselGallery, ZoomableImageGrid } from '../../../components/ui/interactive-image-gallery'
+import { ImageCarouselGallery, ZoomableImageGrid, ZoomableImageStrip } from '../../../components/ui/interactive-image-gallery'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../../components/ui/tabs"
 import { useTranslation } from 'react-i18next'
 import { addLanguageToPath, getLanguageFromPath } from '../../../utils/language-routing'
 import { RfqLink } from '../../../utils/rfq-routing/link'
@@ -19,6 +20,14 @@ interface ProductImageAsset {
 interface ProductDetail {
     title: string;
     content: string;
+}
+
+interface ProductApplication {
+    order?: number;
+    application: string;
+    description?: string;
+    advantages?: string[];
+    used_in?: string[];
 }
 
 interface ProductDocumentAsset {
@@ -40,6 +49,8 @@ interface ProductData {
     technical_parameters?: Record<string, string>;
     video_link?: string;
     details?: ProductDetail[];
+    applications?: ProductApplication[];
+    application_images?: ProductImageAsset[];
     documents?: ProductDocumentAsset[];
     manufacturer?: {
         slug?: string;
@@ -95,6 +106,115 @@ function getYoutubeEmbedUrl(url: string): string | null {
     return null;
 }
 
+interface ProductApplicationsSectionProps {
+    applications: ProductApplication[];
+    images: ProductImageAsset[];
+    title: string;
+    advantagesLabel: string;
+    usedInLabel: string;
+}
+
+const applicationHeadingClass = "product-application-heading text-slate-700";
+const applicationBodyClass = "font-sans text-base !font-medium !leading-relaxed text-card-foreground";
+
+function getApplicationTabValue(index: number) {
+    return `application-${index + 1}`;
+}
+
+function getApplicationGalleryImages(application: ProductApplication, images: ProductImageAsset[]) {
+    return images
+        .filter((image) => Boolean(image?.url))
+        .map((image) => ({ src: image.url, alt: image.alt_text || application.application }));
+}
+
+function ProductApplicationsSection({
+    applications,
+    images,
+    title,
+    advantagesLabel,
+    usedInLabel,
+}: ProductApplicationsSectionProps) {
+    const defaultValue = getApplicationTabValue(0);
+
+    return (
+        <section id="product-applications" className="mb-4 w-full max-w-full min-w-0 scroll-mt-28">
+            <div className="mt-6 mb-4 flex items-center gap-2">
+                <BookOpen className="h-6 w-6 shrink-0 text-cyan-700" />
+                <h2 className="text-lg font-bold tracking-tight text-slate-900">{title}</h2>
+            </div>
+            <Tabs defaultValue={defaultValue} className="rounded-sm border border-slate-200 bg-white p-4 shadow-sm">
+                {applications.length > 1 && (
+                    <TabsList className="mb-4 flex h-auto min-h-0 w-full flex-wrap justify-start gap-2 rounded-none bg-transparent p-0 text-white">
+                        {applications.map((application, index) => (
+                            <TabsTrigger
+                                key={`${application.application}-${index}`}
+                                value={getApplicationTabValue(index)}
+                                className="min-h-10 max-w-full whitespace-normal rounded-sm border border-slate-700/15 bg-slate-700/70 px-3 py-2 text-left text-sm font-bold leading-5 text-white shadow-none transition-colors hover:bg-slate-700/80 data-[state=active]:bg-navbar data-[state=active]:text-white data-[state=active]:shadow-md"
+                            >
+                                {application.application}
+                            </TabsTrigger>
+                        ))}
+                    </TabsList>
+                )}
+
+                {applications.map((application, index) => {
+                    const galleryImages = getApplicationGalleryImages(application, images);
+
+                    return (
+                        <TabsContent key={`${application.application}-${index}`} value={getApplicationTabValue(index)} className="m-0 data-[state=inactive]:hidden" forceMount>
+                            <div className="grid gap-x-8 gap-y-6 lg:grid-cols-[minmax(0,2fr)_minmax(280px,1fr)]">
+                                <div className="min-w-0">
+                                    <h3 className={applicationHeadingClass}>{application.application}</h3>
+                                    {application.description && <p className={`mt-3 ${applicationBodyClass}`}>{application.description}</p>}
+                                </div>
+
+                                <div className="min-w-0">
+                                    {galleryImages.length > 0 && (
+                                        <ZoomableImageStrip
+                                            images={galleryImages}
+                                            altFallback={application.application}
+                                            itemClassName="h-24 sm:h-28"
+                                            imageClassName="h-full w-auto max-w-none"
+                                            cornerClassName="!rounded-sm"
+                                        />
+                                    )}
+                                </div>
+
+                                {application.advantages && application.advantages.length > 0 && (
+                                    <div className="min-w-0">
+                                        <h3 className={applicationHeadingClass}>{advantagesLabel}</h3>
+                                        <ul className="mt-3 space-y-2">
+                                            {application.advantages.map((advantage, advantageIndex) => (
+                                                <li key={advantageIndex} className="flex items-start gap-4 px-1 py-1">
+                                                    <CheckCircle2 className="mt-0.5 h-6 w-6 shrink-0 text-emerald-500" />
+                                                    <span className={applicationBodyClass}>{advantage}</span>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                )}
+
+                                {application.used_in && application.used_in.length > 0 && (
+                                    <div className="min-w-0">
+                                        <h3 className={applicationHeadingClass}>{usedInLabel}</h3>
+                                        <div className="mt-3 flex flex-wrap gap-2">
+                                            {application.used_in.map((usedIn, usedInIndex) => (
+                                                <Badge key={`${usedIn}-${usedInIndex}`} variant="secondary" className="rounded-sm border-blue-600/20 bg-blue-200/30 px-2 py-0.5 text-[11px] font-bold text-blue-700 hover:bg-blue-200/30">
+                                                    {usedIn}
+                                                </Badge>
+                                            ))}
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+                        </TabsContent>
+                    );
+                })}
+            </Tabs>
+        </section>
+    );
+}
+
 export default function ProductProfilePage() {
     const { manufacturerSlug, productSlug } = useParams<{ manufacturerSlug: string, productSlug: string }>();
     const location = useLocation();
@@ -124,6 +244,8 @@ export default function ProductProfilePage() {
     const images = productData.images || [];
     const certificates = productData.certificates || [];
     const details = productData.details || [];
+    const applications = (productData.applications || []).filter((application) => application.application?.trim());
+    const applicationImages = productData.application_images || [];
     const documents = productData.documents || [];
     const manufacturerProductData = manufacturerProducts || fallbackManufacturerProducts || {};
     const relatedProducts: RelatedProduct[] = Object.entries(manufacturerProductData)
@@ -224,16 +346,17 @@ export default function ProductProfilePage() {
                                     ))}
                                 </div>
 
-                                <div className="flex flex-col sm:flex-row gap-4 mt-4 w-full sm:w-auto">
-                                    <Button size="lg" className="h-14 px-8 text-lg font-medium shadow-lg hover:scale-105 transition-transform w-full sm:w-auto" asChild>
+                                <div className="mt-4 grid w-full max-w-2xl grid-cols-1 gap-3 sm:grid-cols-2">
+                                    <Button size="lg" className="h-auto min-h-14 w-full max-w-full whitespace-normal px-5 py-3 text-base font-medium leading-tight shadow-lg transition-transform hover:scale-105" asChild>
                                         <Link to={addLanguageToPath(`/manufacturers/${manufacturerSlug}`, currentLanguage)}>
-                                            <Factory className="mr-2 h-5 w-5" /> {t("pages.products.detail.back_to_manufacturer")}
+                                            <Factory className="h-5 w-5 shrink-0" />
+                                            <span className="min-w-0 whitespace-normal break-words text-center leading-tight">{t("pages.products.detail.back_to_manufacturer")}</span>
                                         </Link>
                                     </Button>
-                                    <QuoteCta size="lg" className="h-14 px-8 text-lg w-full sm:w-auto" asChild>
+                                    <QuoteCta size="lg" className="h-auto min-h-14 w-full max-w-full whitespace-normal px-5 py-3 text-base leading-tight" asChild>
                                         <RfqLink>
-                                            <Mail className="mr-2 h-5 w-5" />
-                                            {t("navigation.menu.rfq")}
+                                            <Mail className="h-5 w-5 shrink-0" />
+                                            <span className="min-w-0 whitespace-normal break-words text-center leading-tight">{t("navigation.menu.rfq")}</span>
                                         </RfqLink>
                                     </QuoteCta>
                                 </div>
@@ -305,20 +428,30 @@ export default function ProductProfilePage() {
                         </section>
                     )}
 
+                    {applications.length > 0 && (
+                        <ProductApplicationsSection
+                            applications={applications}
+                            images={applicationImages}
+                            title={t("pages.products.detail.applications", { defaultValue: "Product Applications" })}
+                            advantagesLabel={t("pages.products.detail.application_advantages", { defaultValue: "Advantages" })}
+                            usedInLabel={t("pages.products.detail.application_used_in", { defaultValue: "Used In" })}
+                        />
+                    )}
+
                     {/* More Products From This Manufacturer */}
                     {relatedProducts.length > 0 && (
                         <section className="mb-4 w-full max-w-full min-w-0">
-                            <div className="mt-6 mb-4 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-                                <div className="flex items-center gap-2">
+                            <div className="mt-6 mb-4 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
+                                <div className="flex min-w-0 items-center gap-2">
                                     <Factory className="h-6 w-6 shrink-0 text-slate-700" />
                                     <h2 className="text-lg font-bold tracking-tight text-slate-900">
                                         {t("pages.products.detail.other_products")}
                                     </h2>
                                 </div>
-                                <Button size="lg" className="h-14 px-8 text-lg font-medium shadow-lg hover:scale-105 transition-transform w-full sm:w-auto" asChild>
+                                <Button size="lg" className="h-auto min-h-12 w-full max-w-full whitespace-normal px-5 py-3 text-base font-medium leading-tight shadow-lg transition-transform hover:scale-105 sm:w-auto sm:max-w-[22rem]" asChild>
                                     <Link to={addLanguageToPath(`/manufacturers/${manufacturerSlug}`, currentLanguage)}>
-                                        <Factory className="mr-2 h-5 w-5" />
-                                        {t("pages.products.detail.back_to_manufacturer")}
+                                        <Factory className="h-5 w-5 shrink-0" />
+                                        <span className="min-w-0 whitespace-normal break-words text-center leading-tight">{t("pages.products.detail.back_to_manufacturer")}</span>
                                     </Link>
                                 </Button>
                             </div>

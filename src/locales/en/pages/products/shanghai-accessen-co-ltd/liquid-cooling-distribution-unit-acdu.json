@@ -32,6 +32,7 @@
       "content": "The product uses a prefabricated modular design that minimizes installation complexity on site and supports faster project delivery."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Liquid-Cooling Distribution Unit ACDU",
     "meta_description": "Prefabricated data center liquid-cooling distribution unit with adaptive control, natural cooling, and rapid deployment features."
@@ -45,6 +46,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooling_distribution_unit_acdu.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

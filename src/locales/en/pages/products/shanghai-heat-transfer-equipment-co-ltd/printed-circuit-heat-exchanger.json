@@ -38,6 +38,40 @@
       "content": "PCHE design combines thermal-hydraulic analysis, microchannel geometry optimization, materials engineering, and manufacturability. After selecting base materials and plate thickness, the channel pattern is transferred by photomask and chemically etched, cleaned, stacked, diffusion bonded in a vacuum furnace, and then completed through header assembly, leak testing, and thermal performance validation."
     }
   ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Offshore natural gas decarbonization",
+        "CO2-rich gas cooling and heat recovery",
+        "FPSO and offshore platform process modules",
+        "Sour or corrosive gas thermal management"
+      ],
+      "advantages": [
+        "Compared with shell-and-tube exchangers, the diffusion-bonded microchannel core greatly reduces size and weight for offshore modules.",
+        "Compared with gasketed equipment, the solid bonded core removes gasket leakage risk in high-pressure gas service.",
+        "High pressure capability and corrosion-resistant material selection support demanding CO2-rich natural gas conditions."
+      ],
+      "application": "Offshore gas decarbonization",
+      "description": "Printed Circuit Heat Exchanger is suitable for compact, high-pressure heat exchange in offshore gas decarbonization projects. For CO2-rich and corrosive gas service, the product can be designed and manufactured to ASME requirements, supported by third-party certification, and configured to meet NACE corrosion-control requirements."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Hydrogen cooling",
+        "High-pressure gas cooling",
+        "Hydrogen energy systems",
+        "Fuel-cell process thermal management"
+      ],
+      "advantages": [
+        "Compared with conventional exchangers, PCHE provides high heat-transfer area density for compact hydrogen process packages.",
+        "The bonded core avoids gasketed sealing surfaces in high-pressure hydrogen service.",
+        "Microchannel construction supports precise cooling where temperature control and equipment footprint are critical."
+      ],
+      "application": "Hydrogen cooling",
+      "description": "Printed Circuit Heat Exchanger is suitable for high-pressure hydrogen cooling and temperature-control applications. The chemically etched microchannels and diffusion-bonded core provide compact heat transfer, pressure resistance, and leak-resistant construction for hydrogen energy systems."
+    }
+  ],
   "seo_data": {
     "meta_title": "Printed Circuit Heat Exchanger",
     "meta_description": "Compact diffusion-bonded printed circuit heat exchanger for extreme pressure and temperature applications with high thermal efficiency."
@@ -59,6 +93,7 @@
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_3.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [
     {
       "alt_text": "ASME Certificate",

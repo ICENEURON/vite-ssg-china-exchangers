@@ -13,14 +13,15 @@
     "Développé pour le chauffage et le refroidissement des processus dans les secteurs du sucre, du papier, de la métallurgie, de l'alcool, des produits chimiques, de l'alimentation et de l'éthanol-carburant."
   ],
   "technical_parameters": {
-    "Assembly Area": "≤3000m2",
-    "Design Pressure": "Vide ~ 3,5 MPa",
-    "Plate Thickness": "1,0 ~ 2,0 mm",
-    "Design Temperature": "≤450℃",
-    "Minimum Temperature Difference": "1℃"
+    "Pression de conception": "Vide ~ 3,5 MPa",
+    "Surface d’assemblage": "≤3000m2",
+    "Épaisseur des plaques": "1,0 ~ 2,0 mm",
+    "Température de conception": "≤450℃",
+    "Différence minimale de température": "1℃"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Échangeur de chaleur à plaques soudées à large canal",
     "meta_description": "Échangeur à plaques soudées à grand espace pour fluides visqueux, fibres et particules solides."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/wide_channel_welded_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

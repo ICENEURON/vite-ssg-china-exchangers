@@ -72,6 +72,7 @@ const ALLOWED_FOLDERS = new Set([
     'company_images',
     'company_doc',
     'product_images',
+    'product_applications',
     'product_certifications',
     'product_doc'
 ]);

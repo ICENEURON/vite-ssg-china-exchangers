@@ -1,0 +1,64 @@
+{
+  "slug": "plate-shell-heat-exchanger-pshe",
+  "name": "Plate-Shell Heat Exchanger (PSHE)",
+  "full_description": "A plate-shell heat exchanger encloses a welded corrugated plate bundle inside a pressure shell. The design combines high plate-side heat-transfer efficiency with the pressure containment and nozzle flexibility of a shell structure. It is used for LNG liquefaction and regasification, BOG reliquefaction, oil and gas, chemical plants, high-temperature reaction heat recovery, marine service, flue-gas heat recovery, and other harsh process duties.",
+  "industries": [
+    "Petrochemical",
+    "Marine",
+    "Energy",
+    "Chemical Processing",
+    "Power Generation"
+  ],
+  "advantage": [
+    "Welded plate bundle delivers high heat-transfer efficiency in high-pressure service.",
+    "Pressure shell supports duties beyond conventional gasketed plate exchanger limits.",
+    "Compact size helps reduce equipment footprint in LNG, oil and gas, and chemical plants.",
+    "Corrugated plates provide turbulence and efficient heat recovery at close temperature approaches.",
+    "Shell and nozzle layout can be engineered around pressure vessel codes, vibration, thermal stress, and cleaning method.",
+    "Suitable for high-pressure process heat recovery, LNG service, marine service, and severe chemical duties."
+  ],
+  "technical_parameters": {
+    "Plate bundle": "Welded corrugated plate bundle installed inside a pressure shell",
+    "Design checks": "Pressure vessel code, vibration, thermal stress, nozzle load, inspection access, and cleaning method",
+    "Shell pressure": "High-pressure service above 10 MPa when designed for the duty",
+    "Flow arrangement": "Plate-side and shell-side flow paths with project-specific nozzle orientation",
+    "Temperature service": "Can be applied to 400°C reaction-product heat recovery when materials and design allow",
+    "Typical applications": "LNG liquefaction/regasification, BOG reliquefaction, oil and gas, chemical plants, marine service, flue-gas heat recovery, and high-pressure process heat exchange"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Why PSHE",
+      "content": "PSHE is selected when plate heat-transfer efficiency is needed but the process pressure, temperature, vibration, or nozzle arrangement requires a pressure shell."
+    },
+    {
+      "title": "Engineering checks",
+      "content": "A PSHE project should confirm pressure vessel code, shell-side design, welded plate bundle inspection, thermal expansion, vibration, nozzle loads, and cleaning or replacement access."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Plate-Shell Heat Exchanger (PSHE)",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. supplies plate-shell heat exchanger (pshe) for industrial heat-transfer applications with project-specific material, pressure, temperature, and maintenance selection."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate-Shell Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Plate-Shell Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Plate-Shell Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_3.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

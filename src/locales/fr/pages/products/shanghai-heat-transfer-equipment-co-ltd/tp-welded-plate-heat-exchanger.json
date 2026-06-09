@@ -18,11 +18,11 @@
     "Structure maintenable: le boîtier peut être ouvert pour un nettoyage mécanique, ce qui confère à l'unité une meilleure facilité d'entretien que les alternatives soudées entièrement scellées."
   ],
   "technical_parameters": {
-    "Max Area": "15 000㎡",
-    "Plate Material": "Acier inoxydable austénitique, Acier inoxydable duplex, 254SMO, Titane et alliage de titane, Nickel et alliage de nickel, Hastelloy",
-    "Design Pressure": "Vide ~ 6,0 MPa",
-    "Plate Thickness": "0,6 ~ 1,5 mm",
-    "Design Temperature": "-196 ~ 900 ℃"
+    "Surface maximale": "15 000㎡",
+    "Matériau des plaques": "Acier inoxydable austénitique, Acier inoxydable duplex, 254SMO, Titane et alliage de titane, Nickel et alliage de nickel, Hastelloy",
+    "Pression de conception": "Vide ~ 6,0 MPa",
+    "Épaisseur des plaques": "0,6 ~ 1,5 mm",
+    "Température de conception": "-196 ~ 900 ℃"
   },
   "video_link": "https://www.youtube.com/watch?v=S_2LrC6tOMk",
   "details": [
@@ -37,6 +37,57 @@
     {
       "title": "Comment est-il conçu et fabriqué?",
       "content": "La conception se concentre sur la géométrie optimisée des plaques, l’espacement des plaques, la disposition à contre-courant ou à flux transversal multi-passes et le contrôle des chutes de pression. La sélection de matériaux peut inclure l'acier inoxydable, le titane, l'Hastelloy et d'autres alliages résistants à la corrosion. La fabrication s'appuie sur un soudage de précision et des méthodes d'assemblage robustes pour garantir des connexions sans couture, une intégrité structurelle et des performances fiables dans des conditions de fonctionnement difficiles."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Récupération de chaleur fatale chimique",
+        "Récupération basse et moyenne température",
+        "Préchauffage de flux de procédé",
+        "Projets de rénovation énergétique"
+      ],
+      "advantages": [
+        "Par rapport aux échangeurs à calandre et tubes, les TP soudés peuvent offrir des coefficients de transfert beaucoup plus élevés et un encombrement réduit.",
+        "La structure soudée réduit le risque de fuites liées aux joints dans les milieux dangereux ou haute température.",
+        "La forte surface d’échange par volume soutient les rénovations énergétiques lorsque l’espace est limité."
+      ],
+      "application": "Récupération de chaleur fatale",
+      "description": "Dans les usines chimiques, la récupération de chaleur fatale est un moyen essentiel de réduire la consommation d’énergie. L’échangeur TP convient à la récupération basse et moyenne température lorsque compacité, efficacité thermique et étanchéité soudée sont requises."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Purification d’acide acrylique",
+        "Raffinage de produits esters",
+        "Condensation de tête",
+        "Condensation de solvants",
+        "Systèmes de distillation chimique"
+      ],
+      "advantages": [
+        "Par rapport aux équipements avec joints, l’étanchéité entièrement soudée évite le vieillissement des joints en condensation corrosive.",
+        "Par rapport aux échangeurs conventionnels, les plaques ondulées et la configuration de flux personnalisées renforcent la turbulence et l’efficacité thermique.",
+        "La conception à plaques soudées soutient la stabilité de pression, la résistance à la déformation et aux chocs en fonctionnement chimique continu."
+      ],
+      "application": "Condenseur de tête",
+      "description": "Dans le raffinage de l’acide acrylique et des esters, les condenseurs de tête rencontrent des milieux corrosifs, des fluctuations de température, un fonctionnement continu et de fortes exigences de fiabilité. L’échangeur TP peut utiliser des matériaux de plaques anticorrosion et une étanchéité soudée pour une condensation stable."
+    },
+    {
+      "order": 3,
+      "used_in": [
+        "Refroidissement de gaz résiduaire",
+        "Refroidissement de système de purification",
+        "Récupération de chaleur de gaz résiduaire",
+        "Traitement des gaz chimiques"
+      ],
+      "advantages": [
+        "Par rapport aux échangeurs à calandre et tubes, la structure à plaques soudées réduit l’encombrement tout en maintenant une forte efficacité thermique.",
+        "Par rapport aux équipements avec joints, l’étanchéité soudée réduit le risque de fuite dans les gaz résiduaires dangereux ou corrosifs.",
+        "Le choix des matériaux peut être adapté aux flux gazeux corrosifs ou contaminés."
+      ],
+      "application": "Refroidisseur de gaz résiduaire et de purification",
+      "description": "L’échangeur TP peut servir de refroidisseur de gaz résiduaire ou de purification avant récupération ou traitement aval. Sa construction soudée et ses matériaux anticorrosion conviennent au refroidissement de gaz de procédé lorsque fiabilité, compacité et maîtrise des fuites sont importantes."
     }
   ],
   "seo_data": {
@@ -66,6 +117,13 @@
     {
       "alt_text": "TP Welded Plate Heat Exchanger Application",
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_5.png"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "TP welded plate heat exchanger for tail gas cooling",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/tp_tail_gas_cooling_application.png",
+      "file_name": "tp_tail_gas_cooling_application.png"
     }
   ],
   "certificates": [

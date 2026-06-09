@@ -31,6 +31,7 @@
       "content": "官网列出了单回路温度控制、需人工巡检的全自动现场控制，以及可传输温度、压力、流量、水泵、电动阀和水位等数据的远程无人值守通讯控制。"
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "换热机组 | 四平维克斯",
     "meta_description": "适用于供暖、空调和生活热水系统的成套换热机组，支持自动控制、节能运行和远程通讯。"
@@ -44,6 +45,7 @@
       "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/heat_exchanger_unit.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

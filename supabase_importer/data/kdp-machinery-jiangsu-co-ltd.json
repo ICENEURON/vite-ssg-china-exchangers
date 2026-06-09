@@ -1,0 +1,1743 @@
+[
+  {
+    "local_assets_dir": "kdp-machinery-jiangsu-co-ltd",
+    "manufacturer": {
+      "slug": "kdp-machinery-jiangsu-co-ltd",
+      "name": {
+        "en": "KDP Machinery Jiangsu Co., Ltd.",
+        "zh": "江苏金多邦成套机械设备有限公司",
+        "ru": "KDP Machinery Jiangsu Co., Ltd.",
+        "es": "KDP Machinery Jiangsu Co., Ltd.",
+        "fr": "KDP Machinery Jiangsu Co., Ltd.",
+        "ar": "KDP Machinery Jiangsu Co., Ltd."
+      },
+      "short_description": {
+        "en": "Manufacturer of plate heat exchangers, welded plate heat exchangers, plate-shell heat exchangers, plate evaporators, plate condensers, steam-water mixers, plate packs, gaskets, and complete heat-transfer systems for industrial process applications.",
+        "zh": "面向工业过程应用的板式换热器、焊接板式换热器、板壳式换热器、板式蒸发器、板式冷凝器、汽水混合器、板片、胶垫和成套换热系统制造商。",
+        "ru": "Производитель пластинчатых теплообменников, сварных пластинчатых теплообменников, пластинчато-корпусных теплообменников, пластинчатых испарителей, пластинчатых конденсаторов, пароводяных смесителей, пластин, прокладок и комплектных систем теплообмена для промышленных процессов.",
+        "es": "Fabricante de intercambiadores de calor de placas, intercambiadores de placas soldados, intercambiadores de placas y carcasa, evaporadores de placas, condensadores de placas, mezcladores vapor-agua, placas, juntas y sistemas completos de transferencia de calor para procesos industriales.",
+        "fr": "Fabricant d’échangeurs de chaleur à plaques, d’échangeurs à plaques soudées, d’échangeurs à plaques et calandre, d’évaporateurs à plaques, de condenseurs à plaques, de mélangeurs vapeur-eau, de plaques, de joints et de systèmes complets d’échange thermique pour les procédés industriels.",
+        "ar": "شركة مصنعة للمبادلات الحرارية اللوحية، والمبادلات اللوحية الملحومة، ومبادلات اللوح والغلاف، والمبخرات اللوحية، والمكثفات اللوحية، وخلاطات البخار والماء، والألواح، والحشيات، وأنظمة نقل الحرارة الكاملة للتطبيقات الصناعية."
+      },
+      "full_description": {
+        "en": [
+          "KDP Machinery Jiangsu Co., Ltd. is a heat-transfer equipment manufacturer located in Jiangyin, Jiangsu. Established in 2013, the company supplies plate heat exchangers and process heat-transfer systems for chemical, petrochemical, energy, food, pharmaceutical, HVAC, refrigeration, marine, and industrial water-treatment applications.",
+          "Its product range covers fully welded plate heat exchangers, semi-welded plate heat exchangers, gasketed plate heat exchangers, plate evaporators, plate condensers, plate-shell heat exchangers, brazed plate heat exchangers, steam-water mixers, plate heat exchanger plates, gaskets, and integrated heat exchange units.",
+          "The production base supports plate forming, welding, assembly, pressure testing, and project customization. Equipment resources include large hydraulic presses, forming machines, and laser welding systems used for welded and semi-welded plate heat exchanger manufacturing.",
+          "The company serves heat-transfer and water-treatment processes such as evaporation, crystallization, salt separation, petrochemical wastewater treatment, industrial wastewater concentration, condensate polishing, boiler make-up water treatment, membrane water treatment, and process heat recovery.",
+          "International supply is supported through export licensing, Shanghai port logistics, and common trade terms such as FOB, EXW, CFR, and CIF. Product selection is typically based on media properties, pressure, temperature, fouling tendency, materials, maintenance access, and applicable pressure-vessel requirements."
+        ],
+        "zh": [
+          "江苏金多邦成套机械设备有限公司位于江苏江阴，是一家换热设备制造商。公司成立于 2013 年，面向化工、石化、能源、食品、制药、暖通、制冷、船舶和工业水处理等应用提供板式换热器和过程换热系统。",
+          "产品范围包括全焊式板式换热器、半焊式板式换热器、可拆式板式换热器、板式蒸发器、板式冷凝器、板壳式换热器、钎焊板式换热器、汽水混合器、板式换热器板片、胶垫和集成换热机组。",
+          "生产基地支持板片成型、焊接、装配、压力测试和项目定制，设备能力包括大型液压机、成型设备以及用于焊接和半焊式板式换热器制造的激光焊接系统。",
+          "公司服务的工艺包括蒸发、结晶、盐分离、石化废水处理、工业废水浓缩、凝结水精处理、锅炉补给水处理、膜法水处理和过程余热回收。",
+          "国际供应配套自有出口资质、上海港物流以及 FOB、EXW、CFR、CIF 等常用贸易方式。产品选型通常围绕介质性质、压力、温度、结垢倾向、材料、维护通道和压力容器要求展开。"
+        ],
+        "ru": [
+          "KDP Machinery Jiangsu Co., Ltd. — производитель теплообменного оборудования в городе Цзянъинь, провинция Цзянсу. Компания основана в 2013 году и поставляет пластинчатые теплообменники и технологические системы теплообмена для химии, нефтехимии, энергетики, пищевой промышленности, фармацевтики, HVAC, холодильной техники, судостроения и промышленной водоподготовки.",
+          "Ассортимент включает полностью сварные пластинчатые теплообменники, полусварные пластинчатые теплообменники, разборные пластинчатые теплообменники, пластинчатые испарители, пластинчатые конденсаторы, пластинчато-корпусные теплообменники, паяные пластинчатые теплообменники, пароводяные смесители, пластины, прокладки и интегрированные теплообменные установки.",
+          "Производственная база поддерживает формование пластин, сварку, сборку, испытания давлением и проектную кастомизацию. Оборудование включает крупные гидравлические прессы, формовочные машины и лазерные сварочные системы для сварных и полусварных пластинчатых теплообменников.",
+          "Компания работает с процессами испарения, кристаллизации, разделения солей, очистки нефтехимических сточных вод, концентрирования промышленных сточных вод, полировки конденсата, подготовки подпиточной воды котлов, мембранной водоподготовки и рекуперации технологического тепла.",
+          "Международные поставки поддерживаются экспортной лицензией, логистикой через порт Шанхая и торговыми условиями FOB, EXW, CFR и CIF. Подбор оборудования обычно учитывает свойства сред, давление, температуру, склонность к загрязнению, материалы, доступ для обслуживания и требования к сосудам под давлением."
+        ],
+        "es": [
+          "KDP Machinery Jiangsu Co., Ltd. es un fabricante de equipos de transferencia de calor ubicado en Jiangyin, Jiangsu. Fundada en 2013, la empresa suministra intercambiadores de calor de placas y sistemas de transferencia de calor de proceso para aplicaciones químicas, petroquímicas, energéticas, alimentarias, farmacéuticas, HVAC, refrigeración, marinas y tratamiento industrial de agua.",
+          "Su gama de productos incluye intercambiadores de placas totalmente soldados, intercambiadores de placas semisoldados, intercambiadores de placas con juntas, evaporadores de placas, condensadores de placas, intercambiadores de placas y carcasa, intercambiadores de placas soldadas por brasado, mezcladores vapor-agua, placas, juntas y unidades integradas de intercambio de calor.",
+          "La base de producción admite conformado de placas, soldadura, ensamblaje, pruebas de presión y personalización de proyectos. Sus recursos incluyen grandes prensas hidráulicas, máquinas de conformado y sistemas de soldadura láser para intercambiadores de placas soldados y semisoldados.",
+          "La empresa atiende procesos de evaporación, cristalización, separación de sales, tratamiento de aguas residuales petroquímicas, concentración de aguas residuales industriales, pulido de condensado, tratamiento de agua de aporte de calderas, tratamiento de agua por membranas y recuperación de calor de proceso.",
+          "El suministro internacional se apoya en licencia de exportación, logística por el puerto de Shanghai y términos comerciales como FOB, EXW, CFR y CIF. La selección se basa normalmente en las propiedades del fluido, presión, temperatura, tendencia a ensuciamiento, materiales, acceso de mantenimiento y requisitos de recipientes a presión."
+        ],
+        "fr": [
+          "KDP Machinery Jiangsu Co., Ltd. est un fabricant d’équipements d’échange thermique situé à Jiangyin, Jiangsu. Créée en 2013, l’entreprise fournit des échangeurs de chaleur à plaques et des systèmes d’échange thermique de procédé pour la chimie, la pétrochimie, l’énergie, l’agroalimentaire, la pharmacie, le HVAC, la réfrigération, le maritime et le traitement industriel de l’eau.",
+          "La gamme comprend des échangeurs à plaques entièrement soudés, semi-soudés et à joints, des évaporateurs à plaques, des condenseurs à plaques, des échangeurs à plaques et calandre, des échangeurs à plaques brasés, des mélangeurs vapeur-eau, des plaques, des joints et des unités intégrées d’échange thermique.",
+          "La base de production prend en charge le formage des plaques, le soudage, l’assemblage, les essais de pression et la personnalisation de projets. Les équipements comprennent de grandes presses hydrauliques, des machines de formage et des systèmes de soudage laser pour les échangeurs à plaques soudés et semi-soudés.",
+          "L’entreprise couvre des procédés tels que l’évaporation, la cristallisation, la séparation des sels, le traitement des eaux usées pétrochimiques, la concentration des eaux usées industrielles, le polissage des condensats, le traitement de l’eau d’appoint de chaudière, le traitement membranaire et la récupération de chaleur de procédé.",
+          "L’approvisionnement international est soutenu par une licence d’exportation, la logistique via le port de Shanghai et des conditions commerciales comme FOB, EXW, CFR et CIF. La sélection tient généralement compte des propriétés des fluides, de la pression, de la température, de l’encrassement, des matériaux, de l’accès de maintenance et des exigences de récipient sous pression."
+        ],
+        "ar": [
+          "KDP Machinery Jiangsu Co., Ltd. شركة مصنعة لمعدات نقل الحرارة تقع في جيانغين، جيانغسو. تأسست في عام 2013 وتوفر مبادلات حرارية لوحية وأنظمة نقل حرارة للعمليات في تطبيقات الكيميائيات والبتروكيماويات والطاقة والأغذية والأدوية والتكييف والتبريد والبحرية ومعالجة المياه الصناعية.",
+          "تشمل المنتجات مبادلات حرارية لوحية ملحومة بالكامل، ومبادلات لوحية شبه ملحومة، ومبادلات لوحية بحشيات، ومبخرات لوحية، ومكثفات لوحية، ومبادلات لوح وغلاف، ومبادلات لوحية ملحومة بالنحاس، وخلاطات بخار وماء، وألواح، وحشيات، ووحدات تبادل حراري متكاملة.",
+          "تدعم قاعدة الإنتاج تشكيل الألواح واللحام والتجميع واختبار الضغط وتخصيص المشاريع. وتشمل الموارد مكابس هيدروليكية كبيرة، وآلات تشكيل، وأنظمة لحام ليزر للمبادلات اللوحية الملحومة وشبه الملحومة.",
+          "تخدم الشركة عمليات مثل التبخير، والتبلور، وفصل الأملاح، ومعالجة مياه الصرف البتروكيماوية، وتركيز مياه الصرف الصناعية، وتلميع المكثفات، ومعالجة مياه تغذية الغلايات، ومعالجة المياه بالأغشية، واسترداد حرارة العمليات.",
+          "يدعم التوريد الدولي ترخيص التصدير، ولوجستيات ميناء شنغهاي، وشروط التجارة مثل FOB وEXW وCFR وCIF. يعتمد الاختيار عادة على خصائص الوسائط والضغط ودرجة الحرارة وقابلية التلوث والمواد وإمكانية الصيانة ومتطلبات أوعية الضغط."
+        ]
+      },
+      "advantages": {
+        "en": [
+          "Covers multiple plate heat exchanger formats, including gasketed, semi-welded, fully welded, plate-shell, evaporation, and condensation equipment.",
+          "Supports customized selection around media compatibility, pressure, temperature, corrosion resistance, fouling behavior, and service access.",
+          "Manufacturing capability includes plate forming, welding, assembly, and pressure testing for industrial heat-transfer projects.",
+          "Products serve chemical, petrochemical, refrigeration, food, pharmaceutical, energy, HVAC, marine, and water-treatment processes.",
+          "Export supply can be arranged through Shanghai port with common international trade terms."
+        ],
+        "zh": [
+          "覆盖可拆式、半焊式、全焊式、板壳式、蒸发和冷凝等多种板式换热设备形式。",
+          "可围绕介质兼容性、压力、温度、耐腐蚀性、结垢行为和维护通道进行定制选型。",
+          "制造能力包括板片成型、焊接、装配和压力测试，适配工业换热项目。",
+          "产品服务化工、石化、制冷、食品、制药、能源、暖通、船舶和水处理等工艺。",
+          "出口供应可通过上海港和常用国际贸易条款安排。"
+        ],
+        "ru": [
+          "Охватывает несколько форматов пластинчатых теплообменников: разборные, полусварные, полностью сварные, пластинчато-корпусные, испарительные и конденсационные решения.",
+          "Поддерживает индивидуальный подбор по совместимости сред, давлению, температуре, коррозионной стойкости, загрязнению и доступу для обслуживания.",
+          "Производственные возможности включают формование пластин, сварку, сборку и испытания давлением для промышленных проектов теплообмена.",
+          "Продукция применяется в химии, нефтехимии, холодильной технике, пищевой промышленности, фармацевтике, энергетике, HVAC, судостроении и водоподготовке.",
+          "Экспортные поставки могут выполняться через порт Шанхая с использованием стандартных международных торговых условий."
+        ],
+        "es": [
+          "Cubre varios formatos de intercambiadores de placas, incluidos equipos con juntas, semisoldados, totalmente soldados, de placas y carcasa, de evaporación y de condensación.",
+          "Permite selección personalizada según compatibilidad de medios, presión, temperatura, resistencia a la corrosión, ensuciamiento y acceso de servicio.",
+          "La capacidad de fabricación incluye conformado de placas, soldadura, ensamblaje y pruebas de presión para proyectos industriales de transferencia de calor.",
+          "Los productos sirven procesos químicos, petroquímicos, de refrigeración, alimentos, farmacéuticos, energía, HVAC, marinos y tratamiento de agua.",
+          "El suministro de exportación puede organizarse por el puerto de Shanghai con términos comerciales internacionales habituales."
+        ],
+        "fr": [
+          "Couvre plusieurs formats d’échangeurs à plaques, notamment à joints, semi-soudés, entièrement soudés, à plaques et calandre, d’évaporation et de condensation.",
+          "Prend en charge la sélection personnalisée selon la compatibilité des fluides, la pression, la température, la résistance à la corrosion, l’encrassement et l’accès de service.",
+          "La fabrication comprend le formage des plaques, le soudage, l’assemblage et les essais de pression pour les projets industriels d’échange thermique.",
+          "Les produits servent les procédés chimiques, pétrochimiques, frigorifiques, alimentaires, pharmaceutiques, énergétiques, HVAC, maritimes et de traitement de l’eau.",
+          "L’exportation peut être organisée via le port de Shanghai avec des conditions commerciales internationales courantes."
+        ],
+        "ar": [
+          "يغطي عدة أشكال من المبادلات اللوحية، بما في ذلك المعدات ذات الحشيات، وشبه الملحومة، والملحومة بالكامل، ولوح وغلاف، والتبخير، والتكثيف.",
+          "يدعم الاختيار المخصص حسب توافق الوسائط والضغط ودرجة الحرارة ومقاومة التآكل وسلوك التلوث وإمكانية الصيانة.",
+          "تشمل القدرة التصنيعية تشكيل الألواح واللحام والتجميع واختبارات الضغط لمشاريع نقل الحرارة الصناعية.",
+          "تخدم المنتجات عمليات كيميائية وبتروكيماوية وتبريد وأغذية وأدوية وطاقة وتكييف وبحرية ومعالجة مياه.",
+          "يمكن ترتيب التوريد للتصدير عبر ميناء شنغهاي باستخدام شروط التجارة الدولية الشائعة."
+        ]
+      },
+      "website": "https://www.kdpw2008.com/",
+      "video_link": "",
+      "social_media_links": [],
+      "email": [
+        "sales01@kdpw2008.com"
+      ],
+      "phone": [
+        "+8618068277130",
+        "+8618921229130"
+      ],
+      "country_id": "CN",
+      "country_name": {
+        "en": "China",
+        "zh": "中国",
+        "ru": "Китай",
+        "es": "China",
+        "fr": "Chine",
+        "ar": "الصين"
+      },
+      "city": {
+        "en": "Jiangyin",
+        "zh": "江阴",
+        "ru": "Цзянъинь",
+        "es": "Jiangyin",
+        "fr": "Jiangyin",
+        "ar": "جيانغين"
+      },
+      "address": {
+        "en": "No. 198 Qiaoqi Zhongshan Road, Xuxiake Town, Jiangyin City, Wuxi, Jiangsu, China",
+        "zh": "中国江苏省无锡市江阴市徐霞客镇峭岐中山路198号",
+        "ru": "No. 198 Qiaoqi Zhongshan Road, Xuxiake Town, Jiangyin City, Wuxi, Jiangsu, China",
+        "es": "No. 198 Qiaoqi Zhongshan Road, Xuxiake Town, Jiangyin City, Wuxi, Jiangsu, China",
+        "fr": "No. 198 Qiaoqi Zhongshan Road, Xuxiake Town, Jiangyin City, Wuxi, Jiangsu, China",
+        "ar": "No. 198 Qiaoqi Zhongshan Road, Xuxiake Town, Jiangyin City, Wuxi, Jiangsu, China"
+      },
+      "established_year": "2013",
+      "factory_area": "38000m2",
+      "employee_count": "145+",
+      "industries": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "export_markets": [
+        "US",
+        "CA",
+        "BR",
+        "CL",
+        "PL",
+        "RO",
+        "ID",
+        "MY",
+        "VN",
+        "TH",
+        "PH",
+        "ZA",
+        "EG",
+        "AU",
+        "NZ",
+        "SA",
+        "AE",
+        "JP",
+        "KR",
+        "DE",
+        "FR",
+        "GB",
+        "KZ",
+        "IN",
+        "BD",
+        "LK",
+        "TR"
+      ],
+      "is_visible": true,
+      "seo_data": {
+        "en": {
+          "meta_title": "KDP Machinery Jiangsu Co., Ltd. Heat Exchanger Manufacturer",
+          "meta_description": "KDP Machinery Jiangsu Co., Ltd. manufactures gasketed, semi-welded, fully welded, plate-shell, evaporator, and condenser heat exchanger products for industrial process heat-transfer applications."
+        },
+        "zh": {
+          "meta_title": "江苏金多邦成套机械设备有限公司 换热器制造商",
+          "meta_description": "江苏金多邦成套机械设备有限公司制造可拆式、半焊式、全焊式、板壳式、蒸发器和冷凝器等板式换热设备，服务工业过程换热应用。"
+        },
+        "ru": {
+          "meta_title": "KDP Machinery Jiangsu Co., Ltd. производитель теплообменников",
+          "meta_description": "KDP Machinery Jiangsu Co., Ltd. производит разборные, полусварные, полностью сварные, пластинчато-корпусные, испарительные и конденсационные теплообменники для промышленных процессов."
+        },
+        "es": {
+          "meta_title": "KDP Machinery Jiangsu Co., Ltd. fabricante de intercambiadores de calor",
+          "meta_description": "KDP Machinery Jiangsu Co., Ltd. fabrica intercambiadores de placas con juntas, semisoldados, totalmente soldados, de placas y carcasa, evaporadores y condensadores para procesos industriales."
+        },
+        "fr": {
+          "meta_title": "KDP Machinery Jiangsu Co., Ltd. fabricant d’échangeurs de chaleur",
+          "meta_description": "KDP Machinery Jiangsu Co., Ltd. fabrique des échangeurs à plaques à joints, semi-soudés, entièrement soudés, à plaques et calandre, évaporateurs et condenseurs pour les procédés industriels."
+        },
+        "ar": {
+          "meta_title": "KDP Machinery Jiangsu Co., Ltd. مصنع مبادلات حرارية",
+          "meta_description": "KDP Machinery Jiangsu Co., Ltd. تصنع مبادلات لوحية بحشيات وشبه ملحومة وملحومة بالكامل ولوح وغلاف ومبخرات ومكثفات لتطبيقات نقل الحرارة الصناعية."
+        }
+      }
+    },
+    "company_assets": [
+      {
+        "order": 1,
+        "asset_type": "media",
+        "folder": "company_images",
+        "file_name": "kdp_factory_exterior.jpg",
+        "alt_text": "KDP Machinery Jiangsu Co., Ltd. factory exterior"
+      },
+      {
+        "order": 2,
+        "asset_type": "certificate",
+        "folder": "company_certifications",
+        "file_name": "kdp_asme.jpg",
+        "alt_text": "KDP Machinery Jiangsu Co., Ltd. ASME certificate"
+      }
+    ],
+    "products": [
+      {
+        "product": {
+          "order": 1,
+          "slug": "fully-welded-plate-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "Fully Welded Plate Heat Exchanger",
+            "zh": "全焊式板式换热器",
+            "ru": "Полностью сварной пластинчатый теплообменник",
+            "es": "Intercambiador de calor de placas totalmente soldado",
+            "fr": "Échangeur de chaleur à plaques entièrement soudées",
+            "ar": "مبادل حراري لوحي ملحوم بالكامل"
+          },
+          "short_description": {
+            "en": "Gasket-free welded plate exchanger for high-pressure, high-temperature, corrosive, hazardous, or high-value process fluids.",
+            "zh": "适用于高压、高温、腐蚀性、危险或高价值工艺介质的无胶垫焊接板式换热器。",
+            "ru": "Пластинчатый теплообменник без прокладок для высокого давления, высокой температуры, коррозионных, опасных или ценных технологических сред.",
+            "es": "Intercambiador de placas soldado sin juntas para fluidos de proceso de alta presión, alta temperatura, corrosivos, peligrosos o de alto valor.",
+            "fr": "Échangeur à plaques soudées sans joints pour fluides de procédé haute pression, haute température, corrosifs, dangereux ou de grande valeur.",
+            "ar": "مبادل لوحي ملحوم بلا حشيات للسوائل العملية عالية الضغط أو الحرارة أو التآكل أو الخطورة أو القيمة."
+          },
+          "full_description": {
+            "en": "A fully welded plate heat exchanger uses a permanently welded corrugated plate pack instead of gasketed heat-transfer channels. The structure improves containment for demanding fluids while retaining compact plate heat-transfer performance for petrochemical, refining, chemical, pharmaceutical, power, geothermal, and high-purity process duties.",
+            "zh": "全焊式板式换热器采用永久焊接的波纹板束，不在换热核心中使用胶垫密封通道。该结构在保持板式换热器紧凑高效传热性能的同时，提高了对严苛介质的密封可靠性，适用于石化、炼油、化工、制药、电力、地热和高纯工艺等工况。",
+            "ru": "Полностью сварной пластинчатый теплообменник использует постоянный сварной гофрированный пакет пластин вместо прокладочных каналов теплообмена. Такая конструкция повышает герметичность для сложных сред и сохраняет компактную эффективность пластинчатого теплообмена в нефтехимии, переработке, химии, фармацевтике, энергетике, геотермии и высокочистых процессах.",
+            "es": "Un intercambiador de placas totalmente soldado utiliza un paquete permanente de placas corrugadas soldadas en lugar de canales de transferencia de calor con juntas. La estructura mejora la contención de fluidos exigentes y conserva el rendimiento compacto de transferencia térmica para petroquímica, refinación, química, farmacéutica, energía, geotermia y procesos de alta pureza.",
+            "fr": "Un échangeur à plaques entièrement soudées utilise un faisceau permanent de plaques ondulées soudées au lieu de canaux d’échange à joints. Cette structure améliore le confinement des fluides exigeants tout en conservant la performance compacte des plaques pour la pétrochimie, le raffinage, la chimie, la pharmacie, l’énergie, la géothermie et les procédés de haute pureté.",
+            "ar": "يستخدم المبادل الحراري اللوحي الملحوم بالكامل حزمة دائمة من الألواح المموجة الملحومة بدلاً من قنوات نقل الحرارة ذات الحشيات. يحسن هذا التصميم احتواء السوائل الصعبة مع الحفاظ على كفاءة النقل الحراري اللوحي المدمج في البتروكيماويات والتكرير والكيميائيات والأدوية والطاقة والطاقة الجوفية والعمليات عالية النقاء."
+          },
+          "industries": [
+            "2",
+            "4",
+            "6",
+            "8",
+            "9"
+          ],
+          "advantage": {
+            "en": [
+              "Gasket-free heat-transfer core reduces external leakage points and gasket replacement work.",
+              "Welded corrugated plate channels deliver high heat-transfer efficiency in a compact footprint.",
+              "Suitable for hazardous, high-value, corrosive, high-pressure, and high-temperature media when matched with proper materials.",
+              "Lower routine maintenance demand supports continuous process lines.",
+              "CIP cleaning and inspection planning can be matched to the fouling behavior of the process fluid.",
+              "Material options support stainless steel, titanium, Hastelloy, and other corrosion-resistant alloys."
+            ],
+            "zh": [
+              "换热核心无胶垫，减少外漏点和胶垫更换工作。",
+              "焊接波纹板通道在紧凑占地内提供高传热效率。",
+              "配合合适材料后，可用于危险、高价值、腐蚀性、高压和高温介质。",
+              "较低的日常维护需求有利于连续化工艺线运行。",
+              "CIP 清洗和检验安排可根据工艺介质的结垢特性确定。",
+              "材料可选不锈钢、钛、哈氏合金以及其他耐腐蚀合金。"
+            ],
+            "ru": [
+              "Теплообменное ядро без прокладок уменьшает точки внешней утечки и объем работ по замене прокладок.",
+              "Сварные гофрированные каналы обеспечивают высокую эффективность теплопередачи при компактной площади.",
+              "Подходит для опасных, ценных, коррозионных, высоконапорных и высокотемпературных сред при правильном подборе материалов.",
+              "Сниженная потребность в плановом обслуживании поддерживает непрерывные технологические линии.",
+              "CIP-очистка и планирование инспекции подбираются по характеру загрязнения технологической среды.",
+              "Варианты материалов включают нержавеющую сталь, титан, Hastelloy и другие коррозионностойкие сплавы."
+            ],
+            "es": [
+              "El núcleo sin juntas reduce los puntos de fuga externa y el trabajo de sustitución de juntas.",
+              "Los canales corrugados soldados ofrecen alta eficiencia térmica en una huella compacta.",
+              "Adecuado para medios peligrosos, de alto valor, corrosivos, de alta presión y alta temperatura cuando se seleccionan materiales apropiados.",
+              "La menor necesidad de mantenimiento rutinario favorece líneas de proceso continuas.",
+              "La limpieza CIP y la planificación de inspección pueden ajustarse al comportamiento de ensuciamiento del fluido.",
+              "Las opciones de material incluyen acero inoxidable, titanio, Hastelloy y otras aleaciones resistentes a la corrosión."
+            ],
+            "fr": [
+              "Le cœur sans joints réduit les points de fuite externe et les remplacements de joints.",
+              "Les canaux ondulés soudés offrent une forte efficacité thermique dans une emprise compacte.",
+              "Adapté aux fluides dangereux, de grande valeur, corrosifs, haute pression et haute température avec des matériaux appropriés.",
+              "La faible demande de maintenance courante soutient les lignes de procédé continues.",
+              "Le nettoyage CIP et le plan d’inspection peuvent être adaptés au comportement d’encrassement du fluide.",
+              "Les matériaux peuvent inclure l’acier inoxydable, le titane, l’Hastelloy et d’autres alliages résistants à la corrosion."
+            ],
+            "ar": [
+              "يقلل القلب الحراري بلا حشيات نقاط التسرب الخارجية وأعمال استبدال الحشيات.",
+              "توفر القنوات المموجة الملحومة كفاءة نقل حرارة عالية ضمن مساحة مدمجة.",
+              "مناسب للوسائط الخطرة أو عالية القيمة أو المتآكلة أو عالية الضغط والحرارة عند اختيار المواد المناسبة.",
+              "تدعم متطلبات الصيانة الروتينية الأقل خطوط العمليات المستمرة.",
+              "يمكن مواءمة تنظيف CIP وخطة الفحص مع سلوك التلوث في سائل العملية.",
+              "تشمل خيارات المواد الفولاذ المقاوم للصدأ والتيتانيوم وHastelloy وسبائك أخرى مقاومة للتآكل."
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Design pressure": "Up to 40 bar; special designs up to 100 bar",
+              "Design temperature": "-50°C to +350°C with suitable materials",
+              "Plate pack": "Permanently welded corrugated plate bundle",
+              "Core sealing": "No gaskets in the heat-transfer core",
+              "Materials": "Stainless steel, titanium, Hastelloy, and other corrosion-resistant alloys",
+              "Typical applications": "Petrochemical, refining, chemical, pharmaceutical, power, geothermal, and high-purity duties"
+            },
+            "zh": {
+              "设计压力": "最高 40 bar；特殊设计可达 100 bar",
+              "设计温度": "配合合适材料时为 -50°C 至 +350°C",
+              "板束结构": "永久焊接波纹板束",
+              "核心密封": "换热核心无胶垫",
+              "材料": "不锈钢、钛、哈氏合金及其他耐腐蚀合金",
+              "典型应用": "石化、炼油、化工、制药、电力、地热和高纯工况"
+            },
+            "ru": {
+              "Расчетное давление": "До 40 bar; специальные исполнения до 100 bar",
+              "Расчетная температура": "От -50°C до +350°C при подходящих материалах",
+              "Пакет пластин": "Постоянно сварной гофрированный пакет пластин",
+              "Уплотнение ядра": "В теплообменном ядре нет прокладок",
+              "Материалы": "Нержавеющая сталь, титан, Hastelloy и другие коррозионностойкие сплавы",
+              "Типовые применения": "Нефтехимия, переработка, химия, фармацевтика, энергетика, геотермия и высокочистые процессы"
+            },
+            "es": {
+              "Presión de diseño": "Hasta 40 bar; diseños especiales hasta 100 bar",
+              "Temperatura de diseño": "-50°C a +350°C con materiales adecuados",
+              "Paquete de placas": "Haz permanente de placas corrugadas soldadas",
+              "Sellado del núcleo": "Sin juntas en el núcleo de transferencia de calor",
+              "Materiales": "Acero inoxidable, titanio, Hastelloy y otras aleaciones resistentes a la corrosión",
+              "Aplicaciones típicas": "Petroquímica, refinación, química, farmacéutica, energía, geotermia y servicios de alta pureza"
+            },
+            "fr": {
+              "Pression de conception": "Jusqu’à 40 bar; conceptions spéciales jusqu’à 100 bar",
+              "Température de conception": "-50°C à +350°C avec des matériaux adaptés",
+              "Faisceau de plaques": "Faisceau permanent de plaques ondulées soudées",
+              "Étanchéité du cœur": "Aucun joint dans le cœur d’échange thermique",
+              "Matériaux": "Acier inoxydable, titane, Hastelloy et autres alliages résistants à la corrosion",
+              "Applications typiques": "Pétrochimie, raffinage, chimie, pharmacie, énergie, géothermie et services haute pureté"
+            },
+            "ar": {
+              "ضغط التصميم": "حتى 40 bar؛ وتصاميم خاصة حتى 100 bar",
+              "درجة حرارة التصميم": "من -50°C إلى +350°C مع المواد المناسبة",
+              "حزمة الألواح": "حزمة دائمة من الألواح المموجة الملحومة",
+              "إحكام القلب": "لا توجد حشيات في قلب نقل الحرارة",
+              "المواد": "فولاذ مقاوم للصدأ، تيتانيوم، Hastelloy وسبائك أخرى مقاومة للتآكل",
+              "التطبيقات النموذجية": "البتروكيماويات، التكرير، الكيميائيات، الأدوية، الطاقة، الطاقة الجوفية، والخدمات عالية النقاء"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "When to select it",
+                "content": "Select this design when leakage containment, high pressure, high temperature, corrosion resistance, or reduced gasket maintenance matters more than full mechanical access to every channel."
+              },
+              {
+                "title": "Engineering focus",
+                "content": "A project should confirm pressure rating, temperature program, material compatibility, thermal expansion, cleaning method, welding quality requirements, and final hydrostatic testing."
+              }
+            ],
+            "zh": [
+              {
+                "title": "适用场景",
+                "content": "当泄漏控制、高压、高温、耐腐蚀或减少胶垫维护比每个通道完全机械打开更重要时，适合选择该结构。"
+              },
+              {
+                "title": "工程重点",
+                "content": "项目应确认压力等级、温度程序、材料兼容性、热膨胀、清洗方式、焊接质量要求和最终水压试验。"
+              }
+            ],
+            "ru": [
+              {
+                "title": "Когда выбирать",
+                "content": "Эту конструкцию выбирают, когда удержание утечек, высокое давление, высокая температура, коррозионная стойкость или сокращение обслуживания прокладок важнее полного механического доступа ко всем каналам."
+              },
+              {
+                "title": "Инженерный фокус",
+                "content": "Проект должен подтвердить давление, температурный график, совместимость материалов, тепловое расширение, метод очистки, требования к качеству сварки и финальное гидроиспытание."
+              }
+            ],
+            "es": [
+              {
+                "title": "Cuándo seleccionarlo",
+                "content": "Seleccione este diseño cuando la contención de fugas, alta presión, alta temperatura, resistencia a la corrosión o menor mantenimiento de juntas sea más importante que el acceso mecánico completo a cada canal."
+              },
+              {
+                "title": "Enfoque de ingeniería",
+                "content": "El proyecto debe confirmar presión nominal, programa de temperatura, compatibilidad de materiales, expansión térmica, método de limpieza, requisitos de soldadura y prueba hidrostática final."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Quand le sélectionner",
+                "content": "Choisir cette conception lorsque le confinement des fuites, la haute pression, la haute température, la résistance à la corrosion ou la réduction de maintenance des joints prime sur l’accès mécanique complet à chaque canal."
+              },
+              {
+                "title": "Points d’ingénierie",
+                "content": "Le projet doit confirmer la pression, le programme de température, la compatibilité des matériaux, la dilatation thermique, le nettoyage, les exigences de soudage et l’essai hydrostatique final."
+              }
+            ],
+            "ar": [
+              {
+                "title": "متى يتم اختياره",
+                "content": "يتم اختيار هذا التصميم عندما يكون احتواء التسرب أو الضغط العالي أو الحرارة العالية أو مقاومة التآكل أو تقليل صيانة الحشيات أهم من الوصول الميكانيكي الكامل إلى كل قناة."
+              },
+              {
+                "title": "تركيز هندسي",
+                "content": "يجب تأكيد تصنيف الضغط وبرنامج الحرارة وتوافق المواد والتمدد الحراري وطريقة التنظيف ومتطلبات جودة اللحام والاختبار الهيدروستاتيكي النهائي."
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Fully Welded Plate Heat Exchanger",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. supplies fully welded plate heat exchanger for industrial heat-transfer applications with project-specific material, pressure, temperature, and maintenance selection."
+            },
+            "zh": {
+              "meta_title": "江苏金多邦成套机械设备有限公司 全焊式板式换热器",
+              "meta_description": "江苏金多邦成套机械设备有限公司供应全焊式板式换热器，面向工业换热应用按材料、压力、温度和维护需求进行项目化选型。"
+            },
+            "ru": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Полностью сварной пластинчатый теплообменник",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. поставляет полностью сварной пластинчатый теплообменник для промышленных теплообменных задач с подбором материалов, давления, температуры и обслуживания под проект."
+            },
+            "es": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Intercambiador de calor de placas totalmente soldado",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. suministra intercambiador de calor de placas totalmente soldado para aplicaciones industriales de transferencia de calor con selección de materiales, presión, temperatura y mantenimiento por proyecto."
+            },
+            "fr": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Échangeur de chaleur à plaques entièrement soudées",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. fournit échangeur de chaleur à plaques entièrement soudées pour les applications industrielles d’échange thermique avec sélection des matériaux, pression, température et maintenance par projet."
+            },
+            "ar": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. مبادل حراري لوحي ملحوم بالكامل",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. توفر مبادل حراري لوحي ملحوم بالكامل لتطبيقات نقل الحرارة الصناعية مع اختيار المواد والضغط ودرجة الحرارة والصيانة حسب المشروع."
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "fully_welded_plate_heat_exchanger_1.png",
+            "alt_text": "Fully Welded Plate Heat Exchanger image 1"
+          },
+          {
+            "order": 2,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "fully_welded_plate_heat_exchanger_2.png",
+            "alt_text": "Fully Welded Plate Heat Exchanger image 2"
+          },
+          {
+            "order": 3,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "fully_welded_plate_heat_exchanger_3.png",
+            "alt_text": "Fully Welded Plate Heat Exchanger image 3"
+          },
+          {
+            "order": 4,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "fully_welded_plate_heat_exchanger_4.png",
+            "alt_text": "Fully Welded Plate Heat Exchanger image 4"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 2,
+          "slug": "semi-welded-plate-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "Semi-Welded Plate Heat Exchanger",
+            "zh": "半焊式板式换热器",
+            "ru": "Полусварной пластинчатый теплообменник",
+            "es": "Intercambiador de calor de placas semisoldado",
+            "fr": "Échangeur de chaleur à plaques semi-soudées",
+            "ar": "مبادل حراري لوحي شبه ملحوم"
+          },
+          "short_description": {
+            "en": "Hybrid welded-and-gasketed plate exchanger for duties with one aggressive, toxic, refrigerant, or high-pressure medium and one serviceable side.",
+            "zh": "适用于一侧为腐蚀性、有毒、制冷剂或高压介质，另一侧需要可维护通道的焊接与胶垫复合式板式换热器。",
+            "ru": "Гибридный сварно-прокладочный пластинчатый теплообменник для задач с одной агрессивной, токсичной, холодильной или высоконапорной средой и одной обслуживаемой стороной.",
+            "es": "Intercambiador híbrido soldado y con juntas para servicios con un medio agresivo, tóxico, refrigerante o de alta presión y un lado mantenible.",
+            "fr": "Échangeur hybride soudé et à joints pour services avec un fluide agressif, toxique, frigorigène ou haute pression et un côté maintenable.",
+            "ar": "مبادل لوحي هجين ملحوم وبحشيات للمهام التي يكون فيها جانب لوسط عدواني أو سام أو مبرد أو عالي الضغط وجانب آخر قابل للصيانة."
+          },
+          "full_description": {
+            "en": "A semi-welded plate heat exchanger combines welded plate cassettes with gasketed joints between cassettes. The welded channel contains aggressive, toxic, refrigerant, or higher-pressure media, while the gasketed channel remains openable for cleaning and maintenance. This balance is useful in ammonia refrigeration, chemical cooling, petrochemical, HVAC, pharmaceutical, food, marine, oil and gas, and power-generation services.",
+            "zh": "半焊式板式换热器由焊接板对和板对之间的胶垫密封组合而成。焊接通道用于腐蚀性、有毒、制冷剂或较高压力介质，胶垫通道则可打开清洗和维护。该结构适用于氨制冷、化工冷却、石化、暖通、制药、食品、船舶、油气和电力等工况。",
+            "ru": "Полусварной пластинчатый теплообменник сочетает сварные кассеты пластин с прокладочными соединениями между кассетами. Сварной канал содержит агрессивную, токсичную, холодильную или более высоконапорную среду, а прокладочный канал остается разборным для очистки и обслуживания. Такая схема полезна в аммиачном охлаждении, химическом охлаждении, нефтехимии, HVAC, фармацевтике, пищевой отрасли, морских, нефтегазовых и энергетических сервисах.",
+            "es": "Un intercambiador de placas semisoldado combina cassettes de placas soldadas con uniones con juntas entre cassettes. El canal soldado contiene medios agresivos, tóxicos, refrigerantes o de mayor presión, mientras que el canal con juntas se puede abrir para limpieza y mantenimiento. Este equilibrio resulta útil en refrigeración con amoníaco, enfriamiento químico, petroquímica, HVAC, farmacéutica, alimentos, marina, petróleo y gas y generación de energía.",
+            "fr": "Un échangeur à plaques semi-soudées combine des cassettes de plaques soudées avec des joints entre les cassettes. Le canal soudé contient les fluides agressifs, toxiques, frigorigènes ou plus pressurisés, tandis que le canal à joints reste ouvrable pour le nettoyage et la maintenance. Cette combinaison convient à la réfrigération à l’ammoniac, au refroidissement chimique, à la pétrochimie, au HVAC, à la pharmacie, à l’agroalimentaire, au maritime, au pétrole et gaz et à l’énergie.",
+            "ar": "يجمع المبادل اللوحي شبه الملحوم بين كاسيتات ألواح ملحومة ووصلات بحشيات بين الكاسيتات. يحتوي الجانب الملحوم على الوسط العدواني أو السام أو المبرد أو الأعلى ضغطاً، بينما يبقى الجانب المزود بحشيات قابلاً للفتح للتنظيف والصيانة. يفيد هذا التوازن في تبريد الأمونيا والتبريد الكيميائي والبتروكيماويات والتكييف والأدوية والأغذية والبحرية والنفط والغاز وتوليد الطاقة."
+          },
+          "industries": [
+            "1",
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "advantage": {
+            "en": [
+              "Welded cassettes improve containment for refrigerants, acids, and other demanding media.",
+              "Gasketed service channels can be opened for inspection, cleaning, and gasket replacement.",
+              "Suitable for moderate pressure and temperature duties where full welding is not required on both sides.",
+              "The welded side can use titanium, Hastelloy, or other alloy materials for aggressive fluids.",
+              "Compact plate geometry supports high heat-transfer efficiency and lower hold-up volume.",
+              "Common fit for ammonia chillers, chemical cooling loops, marine service, oil and gas, and power auxiliaries."
+            ],
+            "zh": [
+              "焊接板对提高了制冷剂、酸类和其他严苛介质的密封可靠性。",
+              "胶垫侧通道可打开，便于检查、清洗和更换胶垫。",
+              "适用于不需要两侧全焊、但有中等压力和温度要求的工况。",
+              "焊接侧可采用钛、哈氏合金或其他合金材料处理腐蚀性介质。",
+              "紧凑板片结构支持高传热效率和较低滞液量。",
+              "常用于氨制冷机组、化工冷却回路、船舶、油气和电力辅助系统。"
+            ],
+            "ru": [
+              "Сварные кассеты улучшают удержание хладагентов, кислот и других требовательных сред.",
+              "Прокладочные сервисные каналы можно открывать для осмотра, очистки и замены прокладок.",
+              "Подходит для умеренного давления и температуры, когда полная сварка с обеих сторон не требуется.",
+              "Сварная сторона может выполняться из титана, Hastelloy или других сплавов для агрессивных жидкостей.",
+              "Компактная геометрия пластин обеспечивает высокую теплопередачу и малый объем удержания.",
+              "Типичное применение включает аммиачные чиллеры, химические контуры охлаждения, морской сервис, нефть и газ, а также энергетические вспомогательные системы."
+            ],
+            "es": [
+              "Los cassettes soldados mejoran la contención de refrigerantes, ácidos y otros medios exigentes.",
+              "Los canales de servicio con juntas pueden abrirse para inspección, limpieza y sustitución de juntas.",
+              "Adecuado para presión y temperatura moderadas cuando no se requiere soldadura completa en ambos lados.",
+              "El lado soldado puede usar titanio, Hastelloy u otras aleaciones para fluidos agresivos.",
+              "La geometría compacta de placas ofrece alta eficiencia térmica y menor volumen retenido.",
+              "Uso habitual en enfriadores de amoníaco, circuitos de enfriamiento químico, servicio marino, petróleo y gas y auxiliares de energía."
+            ],
+            "fr": [
+              "Les cassettes soudées améliorent le confinement des frigorigènes, acides et autres fluides exigeants.",
+              "Les canaux à joints peuvent être ouverts pour inspection, nettoyage et remplacement des joints.",
+              "Adapté aux services de pression et température modérées lorsque le soudage complet des deux côtés n’est pas nécessaire.",
+              "Le côté soudé peut utiliser du titane, de l’Hastelloy ou d’autres alliages pour les fluides agressifs.",
+              "La géométrie compacte des plaques soutient une forte efficacité thermique et un faible volume de rétention.",
+              "Utilisation courante dans les groupes à ammoniac, boucles de refroidissement chimique, maritime, pétrole et gaz et auxiliaires d’énergie."
+            ],
+            "ar": [
+              "تحسن كاسيتات الألواح الملحومة احتواء المبردات والأحماض والوسائط الصعبة الأخرى.",
+              "يمكن فتح قنوات الخدمة ذات الحشيات للفحص والتنظيف واستبدال الحشيات.",
+              "مناسب لمهام الضغط والحرارة المتوسطة عندما لا يلزم اللحام الكامل على الجانبين.",
+              "يمكن أن يستخدم الجانب الملحوم التيتانيوم أو Hastelloy أو سبائك أخرى للسوائل العدوانية.",
+              "تدعم هندسة الألواح المدمجة كفاءة نقل حرارة عالية وحجم احتجاز أقل.",
+              "يناسب مبردات الأمونيا وحلقات التبريد الكيميائي والخدمات البحرية والنفط والغاز ومساعدات الطاقة."
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Design pressure": "Typically up to 25-30 bar by duty and configuration",
+              "Design temperature": "Typically up to 200°C by gasket and material selection",
+              "Plate cassette": "Paired plates laser-welded into semi-welded cassettes",
+              "Service side": "One welded channel and one gasketed openable channel",
+              "Materials": "Stainless steel, titanium, Hastelloy, and gasket materials matched to media",
+              "Typical applications": "Ammonia refrigeration, acid cooling, chemical loops, petrochemical, HVAC, marine, oil and gas, and power auxiliaries"
+            },
+            "zh": {
+              "设计压力": "通常可按工况和结构配置达到 25-30 bar",
+              "设计温度": "通常按胶垫和材料选择可达 200°C",
+              "板对结构": "两张板片激光焊接形成半焊板对",
+              "服务侧": "一侧为焊接通道，一侧为可打开胶垫通道",
+              "材料": "不锈钢、钛、哈氏合金以及按介质匹配的胶垫材料",
+              "典型应用": "氨制冷、酸冷却、化工回路、石化、暖通、船舶、油气和电力辅助系统"
+            },
+            "ru": {
+              "Расчетное давление": "Обычно до 25-30 bar в зависимости от задачи и конфигурации",
+              "Расчетная температура": "Обычно до 200°C в зависимости от прокладок и материалов",
+              "Кассета пластин": "Парные пластины, лазерно сваренные в полусварные кассеты",
+              "Сервисная сторона": "Один сварной канал и один разборный прокладочный канал",
+              "Материалы": "Нержавеющая сталь, титан, Hastelloy и материалы прокладок, подобранные под среду",
+              "Типовые применения": "Аммиачное охлаждение, кислотное охлаждение, химические контуры, нефтехимия, HVAC, морской сервис, нефть и газ, энергетические вспомогательные системы"
+            },
+            "es": {
+              "Presión de diseño": "Normalmente hasta 25-30 bar según servicio y configuración",
+              "Temperatura de diseño": "Normalmente hasta 200°C según juntas y selección de materiales",
+              "Cassette de placas": "Pares de placas soldados por láser en cassettes semisoldados",
+              "Lado de servicio": "Un canal soldado y un canal con juntas abrible",
+              "Materiales": "Acero inoxidable, titanio, Hastelloy y juntas seleccionadas según el medio",
+              "Aplicaciones típicas": "Refrigeración con amoníaco, enfriamiento de ácidos, circuitos químicos, petroquímica, HVAC, marina, petróleo y gas y auxiliares de energía"
+            },
+            "fr": {
+              "Pression de conception": "Généralement jusqu’à 25-30 bar selon le service et la configuration",
+              "Température de conception": "Généralement jusqu’à 200°C selon les joints et les matériaux",
+              "Cassette de plaques": "Paires de plaques soudées au laser en cassettes semi-soudées",
+              "Côté service": "Un canal soudé et un canal à joints ouvrable",
+              "Matériaux": "Acier inoxydable, titane, Hastelloy et joints adaptés aux fluides",
+              "Applications typiques": "Réfrigération à l’ammoniac, refroidissement acide, boucles chimiques, pétrochimie, HVAC, maritime, pétrole et gaz et auxiliaires d’énergie"
+            },
+            "ar": {
+              "ضغط التصميم": "عادة حتى 25-30 bar حسب الخدمة والتكوين",
+              "درجة حرارة التصميم": "عادة حتى 200°C حسب اختيار الحشيات والمواد",
+              "كاسيت الألواح": "زوج ألواح ملحوم بالليزر لتكوين كاسيت شبه ملحوم",
+              "جانب الخدمة": "قناة ملحومة واحدة وقناة بحشيات قابلة للفتح",
+              "المواد": "فولاذ مقاوم للصدأ، تيتانيوم، Hastelloy وحشيات ملائمة للوسط",
+              "التطبيقات النموذجية": "تبريد الأمونيا، تبريد الأحماض، الدوائر الكيميائية، البتروكيماويات، التكييف، البحرية، النفط والغاز، ومساعدات الطاقة"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "Two-side strategy",
+                "content": "The welded side handles the more demanding fluid, while the gasketed side keeps maintenance access for water, glycol, or other service media."
+              },
+              {
+                "title": "Typical selection checks",
+                "content": "Confirm which fluid belongs on the welded side, gasket compatibility, cleaning method for both sides, allowable pressure drop, and ammonia or hazardous-fluid safety requirements."
+              }
+            ],
+            "zh": [
+              {
+                "title": "双侧策略",
+                "content": "焊接侧处理更严苛的介质，胶垫侧为水、乙二醇或其他服务介质保留维护通道。"
+              },
+              {
+                "title": "典型选型核对",
+                "content": "需要确认哪种介质进入焊接侧、胶垫兼容性、两侧清洗方式、允许压降以及氨或危险介质的安全要求。"
+              }
+            ],
+            "ru": [
+              {
+                "title": "Стратегия двух сторон",
+                "content": "Сварная сторона работает с более требовательной средой, а прокладочная сторона сохраняет доступ для воды, гликоля или другой сервисной среды."
+              },
+              {
+                "title": "Проверки подбора",
+                "content": "Необходимо подтвердить, какая среда идет на сварную сторону, совместимость прокладок, очистку обеих сторон, допустимый перепад давления и требования безопасности для аммиака или опасных сред."
+              }
+            ],
+            "es": [
+              {
+                "title": "Estrategia de dos lados",
+                "content": "El lado soldado maneja el fluido más exigente, mientras que el lado con juntas conserva acceso para agua, glicol u otros medios de servicio."
+              },
+              {
+                "title": "Comprobaciones de selección",
+                "content": "Confirme qué fluido va al lado soldado, compatibilidad de juntas, limpieza en ambos lados, caída de presión permitida y requisitos de seguridad para amoníaco o fluidos peligrosos."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Stratégie des deux côtés",
+                "content": "Le côté soudé traite le fluide le plus exigeant, tandis que le côté à joints garde l’accès pour l’eau, le glycol ou d’autres fluides de service."
+              },
+              {
+                "title": "Vérifications de sélection",
+                "content": "Confirmer le fluide côté soudé, la compatibilité des joints, le nettoyage des deux côtés, la perte de charge admissible et les exigences de sécurité pour l’ammoniac ou les fluides dangereux."
+              }
+            ],
+            "ar": [
+              {
+                "title": "استراتيجية الجانبين",
+                "content": "يتعامل الجانب الملحوم مع الوسط الأصعب، بينما يحتفظ الجانب ذو الحشيات بإمكانية الصيانة للماء أو الجليكول أو وسائط الخدمة الأخرى."
+              },
+              {
+                "title": "فحوص الاختيار",
+                "content": "يجب تأكيد الوسط في الجانب الملحوم، وتوافق الحشيات، وطريقة تنظيف الجانبين، وفقد الضغط المسموح، ومتطلبات السلامة للأمونيا أو السوائل الخطرة."
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Semi-Welded Plate Heat Exchanger",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. supplies semi-welded plate heat exchanger for industrial heat-transfer applications with project-specific material, pressure, temperature, and maintenance selection."
+            },
+            "zh": {
+              "meta_title": "江苏金多邦成套机械设备有限公司 半焊式板式换热器",
+              "meta_description": "江苏金多邦成套机械设备有限公司供应半焊式板式换热器，面向工业换热应用按材料、压力、温度和维护需求进行项目化选型。"
+            },
+            "ru": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Полусварной пластинчатый теплообменник",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. поставляет полусварной пластинчатый теплообменник для промышленных теплообменных задач с подбором материалов, давления, температуры и обслуживания под проект."
+            },
+            "es": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Intercambiador de calor de placas semisoldado",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. suministra intercambiador de calor de placas semisoldado para aplicaciones industriales de transferencia de calor con selección de materiales, presión, temperatura y mantenimiento por proyecto."
+            },
+            "fr": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Échangeur de chaleur à plaques semi-soudées",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. fournit échangeur de chaleur à plaques semi-soudées pour les applications industrielles d’échange thermique avec sélection des matériaux, pression, température et maintenance par projet."
+            },
+            "ar": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. مبادل حراري لوحي شبه ملحوم",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. توفر مبادل حراري لوحي شبه ملحوم لتطبيقات نقل الحرارة الصناعية مع اختيار المواد والضغط ودرجة الحرارة والصيانة حسب المشروع."
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "semi_welded_plate_heat_exchanger_1.png",
+            "alt_text": "Semi-Welded Plate Heat Exchanger image 1"
+          },
+          {
+            "order": 2,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "semi_welded_plate_heat_exchanger_2.png",
+            "alt_text": "Semi-Welded Plate Heat Exchanger image 2"
+          },
+          {
+            "order": 3,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "semi_welded_plate_heat_exchanger_3.png",
+            "alt_text": "Semi-Welded Plate Heat Exchanger image 3"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 3,
+          "slug": "gasketed-plate-heat-exchanger",
+          "is_visible": true,
+          "name": {
+            "en": "Gasketed Plate Heat Exchanger (PHE)",
+            "zh": "可拆式板式换热器（PHE）",
+            "ru": "Разборный пластинчатый теплообменник (PHE)",
+            "es": "Intercambiador de calor de placas con juntas (PHE)",
+            "fr": "Échangeur de chaleur à plaques à joints (PHE)",
+            "ar": "مبادل حراري لوحي بحشيات (PHE)"
+          },
+          "short_description": {
+            "en": "Openable plate-and-frame heat exchanger for efficient liquid-to-liquid heat transfer, cleaning access, and capacity adjustment.",
+            "zh": "用于高效液-液换热、可打开清洗和容量调整的板框式换热器。",
+            "ru": "Разборный пластинчато-рамный теплообменник для эффективной жидкость-жидкость теплопередачи, доступа к очистке и регулирования мощности.",
+            "es": "Intercambiador de placas y bastidor abrible para transferencia líquido-líquido eficiente, acceso de limpieza y ajuste de capacidad.",
+            "fr": "Échangeur à plaques et bâti ouvrable pour transfert liquide-liquide efficace, accès au nettoyage et ajustement de capacité.",
+            "ar": "مبادل لوحي بإطار قابل للفتح لنقل حرارة فعال بين السوائل، وإتاحة التنظيف، وتعديل السعة."
+          },
+          "full_description": {
+            "en": "A gasketed plate heat exchanger stacks corrugated metal plates in a bolted frame to form alternating hot and cold flow channels. The frame can be opened for plate cleaning, gasket replacement, inspection, and capacity adjustment by adding or removing plates. It is commonly used in HVAC, water heat recovery, food and beverage, chemical, pharmaceutical, marine, and general industrial utilities.",
+            "zh": "可拆式板式换热器将波纹金属板片叠装在螺栓压紧的框架中，形成冷热流体交替通道。框架可打开，用于板片清洗、胶垫更换、检查，以及通过增减板片调整能力。常用于暖通、水水余热回收、食品饮料、化工、制药、船舶和通用工业公用工程。",
+            "ru": "Разборный пластинчатый теплообменник собирает гофрированные металлические пластины в болтовой раме, образуя чередующиеся горячие и холодные каналы. Рама открывается для очистки пластин, замены прокладок, осмотра и регулирования мощности путем добавления или удаления пластин. Он широко применяется в HVAC, рекуперации тепла воды, пищевой и напитковой промышленности, химии, фармацевтике, морских и общепромышленных системах.",
+            "es": "Un intercambiador de placas con juntas apila placas metálicas corrugadas en un bastidor atornillado para formar canales alternos de fluido caliente y frío. El bastidor puede abrirse para limpiar placas, reemplazar juntas, inspeccionar y ajustar capacidad añadiendo o retirando placas. Se utiliza habitualmente en HVAC, recuperación de calor agua-agua, alimentos y bebidas, química, farmacéutica, marina y servicios industriales generales.",
+            "fr": "Un échangeur à plaques à joints empile des plaques métalliques ondulées dans un bâti boulonné pour former des canaux alternés chaud et froid. Le bâti peut être ouvert pour nettoyer les plaques, remplacer les joints, inspecter et ajuster la capacité par ajout ou retrait de plaques. Il est courant en HVAC, récupération de chaleur eau-eau, agroalimentaire, chimie, pharmacie, maritime et utilités industrielles.",
+            "ar": "يكدس المبادل اللوحي بحشيات ألواحاً معدنية مموجة داخل إطار مشدود بالمسامير لتكوين قنوات متناوبة للسوائل الساخنة والباردة. يمكن فتح الإطار لتنظيف الألواح واستبدال الحشيات والفحص وتعديل السعة بإضافة أو إزالة الألواح. يستخدم عادة في التكييف واسترداد حرارة المياه والأغذية والمشروبات والكيميائيات والأدوية والبحرية والمرافق الصناعية العامة."
+          },
+          "industries": [
+            "1",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "advantage": {
+            "en": [
+              "High turbulence in corrugated plate channels improves heat-transfer efficiency.",
+              "Openable frame supports mechanical cleaning, inspection, and gasket replacement.",
+              "Capacity can be adjusted by changing the plate count within frame limits.",
+              "Plate and gasket materials can be selected for water, food, chemical, and utility services.",
+              "Compact structure reduces installation space compared with many tubular exchangers.",
+              "Suitable for clean and low-to-moderate fouling liquid duties with planned maintenance access."
+            ],
+            "zh": [
+              "波纹板通道内的高湍流提高传热效率。",
+              "可打开框架支持机械清洗、检查和胶垫更换。",
+              "可在框架允许范围内通过调整板片数量改变换热能力。",
+              "板片和胶垫材料可按水、食品、化工和公用工程介质选择。",
+              "紧凑结构相较许多管式换热器可减少安装空间。",
+              "适用于洁净或中低结垢液体工况，并需预留计划性维护通道。"
+            ],
+            "ru": [
+              "Высокая турбулентность в гофрированных каналах повышает эффективность теплопередачи.",
+              "Разборная рама поддерживает механическую очистку, осмотр и замену прокладок.",
+              "Мощность можно регулировать изменением числа пластин в пределах рамы.",
+              "Материалы пластин и прокладок подбираются для воды, пищевых, химических и коммунальных сред.",
+              "Компактная конструкция уменьшает монтажное пространство по сравнению со многими трубчатыми теплообменниками.",
+              "Подходит для чистых и умеренно загрязняющихся жидкостных задач при наличии доступа для планового обслуживания."
+            ],
+            "es": [
+              "La alta turbulencia en canales corrugados mejora la eficiencia térmica.",
+              "El bastidor abrible permite limpieza mecánica, inspección y sustitución de juntas.",
+              "La capacidad puede ajustarse cambiando el número de placas dentro del límite del bastidor.",
+              "Las placas y juntas se seleccionan para agua, alimentos, químicos y servicios auxiliares.",
+              "La estructura compacta reduce espacio de instalación frente a muchos intercambiadores tubulares.",
+              "Adecuado para líquidos limpios o de ensuciamiento bajo a moderado con mantenimiento planificado."
+            ],
+            "fr": [
+              "La forte turbulence dans les canaux ondulés améliore l’efficacité thermique.",
+              "Le bâti ouvrable permet le nettoyage mécanique, l’inspection et le remplacement des joints.",
+              "La capacité peut être ajustée en changeant le nombre de plaques dans les limites du bâti.",
+              "Les matériaux des plaques et joints se sélectionnent pour l’eau, l’alimentaire, la chimie et les utilités.",
+              "La structure compacte réduit l’espace d’installation par rapport à de nombreux échangeurs tubulaires.",
+              "Adapté aux liquides propres ou à encrassement faible à modéré avec accès de maintenance planifié."
+            ],
+            "ar": [
+              "يعزز الاضطراب العالي في قنوات الألواح المموجة كفاءة نقل الحرارة.",
+              "يدعم الإطار القابل للفتح التنظيف الميكانيكي والفحص واستبدال الحشيات.",
+              "يمكن تعديل السعة بتغيير عدد الألواح ضمن حدود الإطار.",
+              "يمكن اختيار مواد الألواح والحشيات للمياه والأغذية والكيميائيات والخدمات المساعدة.",
+              "يقلل الهيكل المدمج مساحة التركيب مقارنة بالعديد من المبادلات الأنبوبية.",
+              "مناسب لمهام السوائل النظيفة أو قليلة إلى متوسطة التلوث مع إتاحة الصيانة المخططة."
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Frame type": "Bolted plate-and-frame construction",
+              "Plate materials": "316L stainless steel, titanium, and other corrosion-resistant alloys",
+              "Gasket materials": "NBR, EPDM, FKM/Viton, and other elastomers matched to service",
+              "Maintenance": "Openable frame for cleaning, inspection, and gasket replacement",
+              "Capacity adjustment": "Plate count can be increased or reduced within frame limits",
+              "Typical applications": "HVAC, water heat recovery, food and beverage, chemical, pharmaceutical, marine, and utilities"
+            },
+            "zh": {
+              "框架形式": "螺栓压紧板框结构",
+              "板片材料": "316L 不锈钢、钛及其他耐腐蚀合金",
+              "胶垫材料": "NBR、EPDM、FKM/Viton 以及按工况匹配的其他弹性体",
+              "维护方式": "可打开框架用于清洗、检查和胶垫更换",
+              "能力调整": "可在框架范围内增加或减少板片数量",
+              "典型应用": "暖通、水水余热回收、食品饮料、化工、制药、船舶和公用工程"
+            },
+            "ru": {
+              "Тип рамы": "Болтовая пластинчато-рамная конструкция",
+              "Материалы пластин": "Нержавеющая сталь 316L, титан и другие коррозионностойкие сплавы",
+              "Материалы прокладок": "NBR, EPDM, FKM/Viton и другие эластомеры, подобранные под сервис",
+              "Обслуживание": "Открываемая рама для очистки, осмотра и замены прокладок",
+              "Регулировка мощности": "Число пластин можно увеличивать или уменьшать в пределах рамы",
+              "Типовые применения": "HVAC, рекуперация тепла воды, пищевая и напитковая промышленность, химия, фармацевтика, морской сервис и утилиты"
+            },
+            "es": {
+              "Tipo de bastidor": "Construcción atornillada de placas y bastidor",
+              "Materiales de placas": "Acero inoxidable 316L, titanio y otras aleaciones resistentes a la corrosión",
+              "Materiales de juntas": "NBR, EPDM, FKM/Viton y otros elastómeros según servicio",
+              "Mantenimiento": "Bastidor abrible para limpieza, inspección y sustitución de juntas",
+              "Ajuste de capacidad": "El número de placas puede aumentarse o reducirse dentro de los límites del bastidor",
+              "Aplicaciones típicas": "HVAC, recuperación de calor agua-agua, alimentos y bebidas, química, farmacéutica, marina y utilidades"
+            },
+            "fr": {
+              "Type de bâti": "Construction à plaques et bâti boulonné",
+              "Matériaux de plaques": "Acier inoxydable 316L, titane et autres alliages résistants à la corrosion",
+              "Matériaux de joints": "NBR, EPDM, FKM/Viton et autres élastomères adaptés au service",
+              "Maintenance": "Bâti ouvrable pour nettoyage, inspection et remplacement des joints",
+              "Ajustement de capacité": "Le nombre de plaques peut être augmenté ou réduit dans les limites du bâti",
+              "Applications typiques": "HVAC, récupération de chaleur eau-eau, agroalimentaire, chimie, pharmacie, maritime et utilités"
+            },
+            "ar": {
+              "نوع الإطار": "بناء لوحي وإطار مشدود بالمسامير",
+              "مواد الألواح": "فولاذ مقاوم للصدأ 316L، تيتانيوم وسبائك أخرى مقاومة للتآكل",
+              "مواد الحشيات": "NBR وEPDM وFKM/Viton وإيلاستومرات أخرى مناسبة للخدمة",
+              "الصيانة": "إطار قابل للفتح للتنظيف والفحص واستبدال الحشيات",
+              "تعديل السعة": "يمكن زيادة أو تقليل عدد الألواح ضمن حدود الإطار",
+              "التطبيقات النموذجية": "التكييف، استرداد حرارة الماء، الأغذية والمشروبات، الكيميائيات، الأدوية، البحرية، والمرافق"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "Maintenance access",
+                "content": "The bolted frame can be opened so plates and gaskets can be inspected, cleaned, replaced, or reconfigured as the duty changes."
+              },
+              {
+                "title": "Selection boundary",
+                "content": "For very high pressure, high temperature, aggressive, or dirty fluids, welded, semi-welded, spiral, or tubular alternatives may be more suitable."
+              }
+            ],
+            "zh": [
+              {
+                "title": "维护通道",
+                "content": "螺栓框架可打开，便于板片和胶垫检查、清洗、更换或在工况变化时重新配置。"
+              },
+              {
+                "title": "选型边界",
+                "content": "对于很高压力、高温、强腐蚀或脏污介质，焊接式、半焊式、螺旋式或管式方案可能更适合。"
+              }
+            ],
+            "ru": [
+              {
+                "title": "Доступ к обслуживанию",
+                "content": "Болтовая рама открывается, поэтому пластины и прокладки можно осматривать, очищать, заменять или перекомпоновывать при изменении задачи."
+              },
+              {
+                "title": "Граница выбора",
+                "content": "Для очень высокого давления, высокой температуры, агрессивных или грязных сред могут лучше подойти сварные, полусварные, спиральные или трубчатые решения."
+              }
+            ],
+            "es": [
+              {
+                "title": "Acceso de mantenimiento",
+                "content": "El bastidor atornillado se abre para inspeccionar, limpiar, reemplazar o reconfigurar placas y juntas cuando cambia el servicio."
+              },
+              {
+                "title": "Límite de selección",
+                "content": "Para presión o temperatura muy altas, fluidos agresivos o sucios, pueden ser más adecuados diseños soldados, semisoldados, espirales o tubulares."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Accès de maintenance",
+                "content": "Le bâti boulonné s’ouvre pour inspecter, nettoyer, remplacer ou reconfigurer les plaques et joints lorsque le service change."
+              },
+              {
+                "title": "Limite de sélection",
+                "content": "Pour les très hautes pressions, températures élevées, fluides agressifs ou sales, des solutions soudées, semi-soudées, spiralées ou tubulaires peuvent être préférables."
+              }
+            ],
+            "ar": [
+              {
+                "title": "إتاحة الصيانة",
+                "content": "يمكن فتح الإطار المشدود بالمسامير لفحص الألواح والحشيات وتنظيفها واستبدالها أو إعادة تكوينها عند تغير الخدمة."
+              },
+              {
+                "title": "حدود الاختيار",
+                "content": "للضغط أو الحرارة العالية جداً أو السوائل العدوانية أو المتسخة، قد تكون الحلول الملحومة أو شبه الملحومة أو الحلزونية أو الأنبوبية أنسب."
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Gasketed Plate Heat Exchanger (PHE)",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. supplies gasketed plate heat exchanger (phe) for industrial heat-transfer applications with project-specific material, pressure, temperature, and maintenance selection."
+            },
+            "zh": {
+              "meta_title": "江苏金多邦成套机械设备有限公司 可拆式板式换热器（PHE）",
+              "meta_description": "江苏金多邦成套机械设备有限公司供应可拆式板式换热器（PHE），面向工业换热应用按材料、压力、温度和维护需求进行项目化选型。"
+            },
+            "ru": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Разборный пластинчатый теплообменник (PHE)",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. поставляет разборный пластинчатый теплообменник (phe) для промышленных теплообменных задач с подбором материалов, давления, температуры и обслуживания под проект."
+            },
+            "es": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Intercambiador de calor de placas con juntas (PHE)",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. suministra intercambiador de calor de placas con juntas (phe) para aplicaciones industriales de transferencia de calor con selección de materiales, presión, temperatura y mantenimiento por proyecto."
+            },
+            "fr": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Échangeur de chaleur à plaques à joints (PHE)",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. fournit échangeur de chaleur à plaques à joints (phe) pour les applications industrielles d’échange thermique avec sélection des matériaux, pression, température et maintenance par projet."
+            },
+            "ar": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. مبادل حراري لوحي بحشيات (PHE)",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. توفر مبادل حراري لوحي بحشيات (PHE) لتطبيقات نقل الحرارة الصناعية مع اختيار المواد والضغط ودرجة الحرارة والصيانة حسب المشروع."
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "gasketed_plate_heat_exchanger_1.png",
+            "alt_text": "Gasketed Plate Heat Exchanger image 1"
+          },
+          {
+            "order": 2,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "gasketed_plate_heat_exchanger_2.png",
+            "alt_text": "Gasketed Plate Heat Exchanger image 2"
+          },
+          {
+            "order": 3,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "gasketed_plate_heat_exchanger_3.jpg",
+            "alt_text": "Gasketed Plate Heat Exchanger image 3"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 4,
+          "slug": "plate-evaporators",
+          "is_visible": true,
+          "name": {
+            "en": "Plate Evaporators",
+            "zh": "板式蒸发器",
+            "ru": "Пластинчатые испарители",
+            "es": "Evaporadores de placas",
+            "fr": "Évaporateurs à plaques",
+            "ar": "مبخرات لوحية"
+          },
+          "short_description": {
+            "en": "Compact plate evaporator equipment for concentration, evaporation, solvent removal, and heat-sensitive process duties.",
+            "zh": "用于浓缩、蒸发、溶剂去除和热敏工艺的紧凑型板式蒸发设备。",
+            "ru": "Компактное пластинчатое испарительное оборудование для концентрирования, испарения, удаления растворителя и термочувствительных процессов.",
+            "es": "Equipo compacto de evaporador de placas para concentración, evaporación, eliminación de solventes y procesos termosensibles.",
+            "fr": "Équipement compact d’évaporateur à plaques pour concentration, évaporation, élimination de solvant et procédés thermosensibles.",
+            "ar": "معدات مبخرات لوحية مدمجة للتركيز والتبخير وإزالة المذيبات والعمليات الحساسة للحرارة."
+          },
+          "full_description": {
+            "en": "Plate evaporators use corrugated plate channels to transfer heat from steam or another heating medium into a process liquid, vaporizing solvent and concentrating the product. The high heat-transfer coefficient, compact hold-up volume, and cleanable plate structure make the equipment useful for food, dairy, beverage, pharmaceutical, chemical, wastewater, and crystallization processes.",
+            "zh": "板式蒸发器利用波纹板通道将蒸汽或其他加热介质的热量传递给工艺液体，使溶剂汽化并实现物料浓缩。较高的传热系数、紧凑的滞液量和可清洗板片结构，使其适用于食品、乳品、饮料、制药、化工、废水和结晶工艺。",
+            "ru": "Пластинчатые испарители используют гофрированные каналы для передачи тепла от пара или другой нагревающей среды к технологической жидкости, испаряя растворитель и концентрируя продукт. Высокий коэффициент теплопередачи, компактный объем удержания и очищаемая пластинчатая конструкция полезны для пищевых, молочных, напитковых, фармацевтических, химических, сточных и кристаллизационных процессов.",
+            "es": "Los evaporadores de placas usan canales corrugados para transferir calor desde vapor u otro medio de calentamiento a un líquido de proceso, vaporizando solvente y concentrando el producto. El alto coeficiente de transferencia, bajo volumen retenido y estructura limpiable son útiles en alimentos, lácteos, bebidas, farmacéutica, química, aguas residuales y cristalización.",
+            "fr": "Les évaporateurs à plaques utilisent des canaux ondulés pour transférer la chaleur de la vapeur ou d’un autre fluide chauffant vers un liquide de procédé, vaporiser le solvant et concentrer le produit. Le fort coefficient de transfert, le faible volume de rétention et la structure nettoyable conviennent à l’alimentaire, au lait, aux boissons, à la pharmacie, à la chimie, aux eaux usées et à la cristallisation.",
+            "ar": "تستخدم المبخرات اللوحية قنوات ألواح مموجة لنقل الحرارة من البخار أو وسيط تسخين آخر إلى سائل العملية، مما يبخر المذيب ويركز المنتج. إن معامل نقل الحرارة العالي وحجم الاحتجاز المدمج وبنية الألواح القابلة للتنظيف تجعلها مفيدة للأغذية والألبان والمشروبات والأدوية والكيميائيات ومياه الصرف والتبلور."
+          },
+          "industries": [
+            "2",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "advantage": {
+            "en": [
+              "Corrugated plates create high turbulence and efficient evaporation in compact equipment.",
+              "Low liquid hold-up supports short residence time for heat-sensitive materials.",
+              "Openable or cleanable designs support inspection, descaling, and sanitation planning.",
+              "Capacity can be adapted by plate area, number of effects, circulation mode, and heating medium.",
+              "Material options support food, pharmaceutical, chemical, and corrosive evaporation duties.",
+              "Can be integrated with MVR, multi-effect evaporation, condensation, and crystallization systems."
+            ],
+            "zh": [
+              "波纹板片形成高湍流，在紧凑设备内实现高效蒸发。",
+              "低滞液量有利于热敏物料的短停留时间处理。",
+              "可打开或可清洗设计支持检查、除垢和卫生清洗安排。",
+              "能力可通过板片面积、效数、循环方式和加热介质进行适配。",
+              "材料选项可覆盖食品、制药、化工和腐蚀性蒸发工况。",
+              "可与 MVR、多效蒸发、冷凝和结晶系统集成。"
+            ],
+            "ru": [
+              "Гофрированные пластины создают высокую турбулентность и эффективное испарение в компактном оборудовании.",
+              "Низкий объем удержания поддерживает короткое время пребывания для термочувствительных материалов.",
+              "Разборные или очищаемые конструкции поддерживают осмотр, удаление накипи и санитарную обработку.",
+              "Мощность адаптируется площадью пластин, числом эффектов, режимом циркуляции и нагревающей средой.",
+              "Материалы подбираются для пищевых, фармацевтических, химических и коррозионных задач испарения.",
+              "Может интегрироваться с MVR, многоступенчатым испарением, конденсацией и кристаллизацией."
+            ],
+            "es": [
+              "Las placas corrugadas crean alta turbulencia y evaporación eficiente en equipos compactos.",
+              "El bajo volumen retenido favorece tiempos de residencia cortos para materiales termosensibles.",
+              "Los diseños abribles o limpiables permiten inspección, desincrustación y planificación sanitaria.",
+              "La capacidad se adapta mediante área de placas, número de efectos, modo de circulación y medio de calentamiento.",
+              "Las opciones de material cubren evaporación alimentaria, farmacéutica, química y corrosiva.",
+              "Puede integrarse con MVR, evaporación multiefecto, condensación y cristalización."
+            ],
+            "fr": [
+              "Les plaques ondulées créent une forte turbulence et une évaporation efficace dans un équipement compact.",
+              "Le faible volume de rétention favorise un temps de séjour court pour les matières thermosensibles.",
+              "Les conceptions ouvrables ou nettoyables permettent inspection, détartrage et nettoyage sanitaire.",
+              "La capacité s’adapte par surface de plaques, nombre d’effets, mode de circulation et fluide chauffant.",
+              "Les matériaux couvrent les évaporations alimentaires, pharmaceutiques, chimiques et corrosives.",
+              "Peut être intégré à des systèmes MVR, multi-effets, de condensation et de cristallisation."
+            ],
+            "ar": [
+              "تخلق الألواح المموجة اضطراباً عالياً وتبخيراً فعالاً في معدات مدمجة.",
+              "يدعم حجم الاحتجاز المنخفض وقت إقامة قصيراً للمواد الحساسة للحرارة.",
+              "تدعم التصاميم القابلة للفتح أو التنظيف الفحص وإزالة الترسبات والتنظيف الصحي.",
+              "يمكن تكييف السعة من خلال مساحة الألواح وعدد التأثيرات ونمط الدوران ووسيط التسخين.",
+              "تغطي خيارات المواد مهام التبخير في الأغذية والأدوية والكيميائيات والوسائط المتآكلة.",
+              "يمكن دمجها مع MVR والتبخير متعدد التأثيرات والتكثيف وأنظمة التبلور."
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Heat-transfer surface": "Corrugated plate channels",
+              "Heating medium": "Steam, hot water, thermal oil, or process heat depending on duty",
+              "Process mode": "Falling-film, rising-film, forced-circulation, or multi-effect configuration by project",
+              "Materials": "Stainless steel, duplex stainless steel, titanium, and alloy options",
+              "Cleaning": "CIP, descaling, and inspection access by configuration",
+              "Typical applications": "Food concentration, dairy, beverage, pharmaceutical, chemical evaporation, wastewater concentration, and crystallization"
+            },
+            "zh": {
+              "传热面": "波纹板片通道",
+              "加热介质": "按工况采用蒸汽、热水、导热油或工艺热源",
+              "工艺形式": "按项目采用降膜、升膜、强制循环或多效配置",
+              "材料": "不锈钢、双相不锈钢、钛及合金选项",
+              "清洗方式": "按结构配置支持 CIP、除垢和检查通道",
+              "典型应用": "食品浓缩、乳品、饮料、制药、化工蒸发、废水浓缩和结晶"
+            },
+            "ru": {
+              "Поверхность теплообмена": "Гофрированные каналы пластин",
+              "Нагревающая среда": "Пар, горячая вода, термомасло или технологическое тепло в зависимости от задачи",
+              "Режим процесса": "Пленочный нисходящий, восходящий, принудительная циркуляция или многоэффектная схема по проекту",
+              "Материалы": "Нержавеющая сталь, дуплексная нержавеющая сталь, титан и сплавы",
+              "Очистка": "CIP, удаление накипи и доступ для осмотра по конфигурации",
+              "Типовые применения": "Концентрирование пищевых продуктов, молоко, напитки, фармацевтика, химическое испарение, концентрирование сточных вод и кристаллизация"
+            },
+            "es": {
+              "Superficie de transferencia": "Canales de placas corrugadas",
+              "Medio de calentamiento": "Vapor, agua caliente, aceite térmico o calor de proceso según servicio",
+              "Modo de proceso": "Película descendente, película ascendente, circulación forzada o configuración multiefecto según proyecto",
+              "Materiales": "Acero inoxidable, acero inoxidable dúplex, titanio y aleaciones",
+              "Limpieza": "CIP, desincrustación y acceso de inspección según configuración",
+              "Aplicaciones típicas": "Concentración de alimentos, lácteos, bebidas, farmacéutica, evaporación química, concentración de aguas residuales y cristalización"
+            },
+            "fr": {
+              "Surface d’échange": "Canaux de plaques ondulées",
+              "Fluide chauffant": "Vapeur, eau chaude, huile thermique ou chaleur de procédé selon le service",
+              "Mode de procédé": "Film tombant, film montant, circulation forcée ou configuration multi-effets selon projet",
+              "Matériaux": "Acier inoxydable, acier inoxydable duplex, titane et alliages",
+              "Nettoyage": "CIP, détartrage et accès d’inspection selon configuration",
+              "Applications typiques": "Concentration alimentaire, lait, boissons, pharmacie, évaporation chimique, concentration d’eaux usées et cristallisation"
+            },
+            "ar": {
+              "سطح نقل الحرارة": "قنوات ألواح مموجة",
+              "وسيط التسخين": "بخار أو ماء ساخن أو زيت حراري أو حرارة عملية حسب الخدمة",
+              "نمط العملية": "غشاء هابط أو صاعد أو دوران قسري أو تكوين متعدد التأثيرات حسب المشروع",
+              "المواد": "فولاذ مقاوم للصدأ، فولاذ مزدوج، تيتانيوم وخيارات سبائك",
+              "التنظيف": "CIP وإزالة الترسبات وإتاحة الفحص حسب التكوين",
+              "التطبيقات النموذجية": "تركيز الأغذية، الألبان، المشروبات، الأدوية، التبخير الكيميائي، تركيز مياه الصرف، والتبلور"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "Process fit",
+                "content": "Plate evaporators are useful where compact heat-transfer area, short residence time, and cleanability are important for concentration or solvent removal."
+              },
+              {
+                "title": "System integration",
+                "content": "They can be configured with vapor-liquid separation, condensers, MVR compressors, circulation pumps, and crystallization equipment to match the process flow."
+              }
+            ],
+            "zh": [
+              {
+                "title": "工艺适配",
+                "content": "当浓缩或溶剂去除工艺需要紧凑传热面积、短停留时间和良好清洗性时，板式蒸发器较为适用。"
+              },
+              {
+                "title": "系统集成",
+                "content": "可按流程与汽液分离器、冷凝器、MVR 压缩机、循环泵和结晶设备进行系统配置。"
+              }
+            ],
+            "ru": [
+              {
+                "title": "Соответствие процессу",
+                "content": "Пластинчатые испарители полезны, когда для концентрирования или удаления растворителя важны компактная поверхность теплообмена, короткое время пребывания и очищаемость."
+              },
+              {
+                "title": "Интеграция системы",
+                "content": "Они могут комплектоваться парожидкостной сепарацией, конденсаторами, MVR-компрессорами, циркуляционными насосами и кристаллизационным оборудованием по процессу."
+              }
+            ],
+            "es": [
+              {
+                "title": "Ajuste al proceso",
+                "content": "Los evaporadores de placas son útiles cuando la concentración o eliminación de solvente requiere área térmica compacta, corto tiempo de residencia y facilidad de limpieza."
+              },
+              {
+                "title": "Integración del sistema",
+                "content": "Pueden configurarse con separación vapor-líquido, condensadores, compresores MVR, bombas de circulación y equipos de cristalización según el flujo."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Adéquation au procédé",
+                "content": "Les évaporateurs à plaques conviennent lorsque la concentration ou l’élimination de solvant exige surface compacte, temps de séjour court et nettoyabilité."
+              },
+              {
+                "title": "Intégration système",
+                "content": "Ils peuvent être configurés avec séparation vapeur-liquide, condenseurs, compresseurs MVR, pompes de circulation et cristallisation selon le procédé."
+              }
+            ],
+            "ar": [
+              {
+                "title": "ملاءمة العملية",
+                "content": "تفيد المبخرات اللوحية عندما تتطلب عملية التركيز أو إزالة المذيب مساحة نقل حرارة مدمجة ووقت إقامة قصيراً وقابلية تنظيف."
+              },
+              {
+                "title": "تكامل النظام",
+                "content": "يمكن تكوينها مع فصل بخار/سائل ومكثفات وضواغط MVR ومضخات تدوير ومعدات تبلور حسب تدفق العملية."
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Plate Evaporators",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. supplies plate evaporators for industrial heat-transfer applications with project-specific material, pressure, temperature, and maintenance selection."
+            },
+            "zh": {
+              "meta_title": "江苏金多邦成套机械设备有限公司 板式蒸发器",
+              "meta_description": "江苏金多邦成套机械设备有限公司供应板式蒸发器，面向工业换热应用按材料、压力、温度和维护需求进行项目化选型。"
+            },
+            "ru": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Пластинчатые испарители",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. поставляет пластинчатые испарители для промышленных теплообменных задач с подбором материалов, давления, температуры и обслуживания под проект."
+            },
+            "es": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Evaporadores de placas",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. suministra evaporadores de placas para aplicaciones industriales de transferencia de calor con selección de materiales, presión, temperatura y mantenimiento por proyecto."
+            },
+            "fr": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Évaporateurs à plaques",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. fournit évaporateurs à plaques pour les applications industrielles d’échange thermique avec sélection des matériaux, pression, température et maintenance par projet."
+            },
+            "ar": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. مبخرات لوحية",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. توفر مبخرات لوحية لتطبيقات نقل الحرارة الصناعية مع اختيار المواد والضغط ودرجة الحرارة والصيانة حسب المشروع."
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "plate_evaporator_1.png",
+            "alt_text": "Plate Evaporators image 1"
+          },
+          {
+            "order": 2,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "plate_evaporator_2.png",
+            "alt_text": "Plate Evaporators image 2"
+          },
+          {
+            "order": 3,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "plate_evaporator_3.png",
+            "alt_text": "Plate Evaporators image 3"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 5,
+          "slug": "plate-condenser",
+          "is_visible": true,
+          "name": {
+            "en": "Plate Condenser",
+            "zh": "板式冷凝器",
+            "ru": "Пластинчатый конденсатор",
+            "es": "Condensador de placas",
+            "fr": "Condenseur à plaques",
+            "ar": "مكثف لوحي"
+          },
+          "short_description": {
+            "en": "Compact plate condenser for vapor condensation, refrigerant condensation, solvent recovery, and process heat recovery.",
+            "zh": "用于蒸汽冷凝、制冷剂冷凝、溶剂回收和过程余热回收的紧凑型板式冷凝器。",
+            "ru": "Компактный пластинчатый конденсатор для конденсации пара, хладагентов, восстановления растворителей и рекуперации технологического тепла.",
+            "es": "Condensador compacto de placas para condensación de vapor, refrigerantes, recuperación de solventes y recuperación de calor de proceso.",
+            "fr": "Condenseur compact à plaques pour condensation de vapeur, condensation de frigorigène, récupération de solvants et récupération de chaleur de procédé.",
+            "ar": "مكثف لوحي مدمج لتكثيف البخار والمبردات واسترداد المذيبات واسترداد حرارة العمليات."
+          },
+          "full_description": {
+            "en": "A plate condenser uses corrugated plate channels to condense vapor into liquid by transferring heat to cooling water, chilled water, glycol, air-assisted loops, or another coolant. The compact plate surface supports fast thermal response and high heat-transfer efficiency in evaporation systems, refrigeration systems, solvent recovery, chemical processes, power auxiliaries, marine service, and food or pharmaceutical utilities.",
+            "zh": "板式冷凝器通过波纹板通道将蒸汽的热量传递给冷却水、冷冻水、乙二醇、辅助空气冷却回路或其他冷却介质，使蒸汽冷凝成液体。紧凑板片传热面具有较快热响应和较高传热效率，适用于蒸发系统、制冷系统、溶剂回收、化工过程、电力辅助系统、船舶以及食品制药公用工程。",
+            "ru": "Пластинчатый конденсатор использует гофрированные каналы для конденсации пара в жидкость за счет передачи тепла охлаждающей воде, холодной воде, гликолю, контурам с воздушной поддержкой или другому хладагенту. Компактная пластинчатая поверхность обеспечивает быстрый тепловой отклик и высокую эффективность в испарительных системах, холодильных системах, восстановлении растворителей, химических процессах, энергетических вспомогательных системах, морском сервисе и пищевых или фармацевтических утилитах.",
+            "es": "Un condensador de placas usa canales corrugados para condensar vapor en líquido transfiriendo calor a agua de enfriamiento, agua helada, glicol, circuitos asistidos por aire u otro refrigerante. La superficie compacta ofrece respuesta térmica rápida y alta eficiencia en sistemas de evaporación, refrigeración, recuperación de solventes, procesos químicos, auxiliares de energía, servicio marino y utilidades alimentarias o farmacéuticas.",
+            "fr": "Un condenseur à plaques utilise des canaux ondulés pour condenser la vapeur en liquide en transférant la chaleur à de l’eau de refroidissement, de l’eau glacée, du glycol, des boucles assistées par air ou un autre fluide. La surface compacte permet une réponse thermique rapide et une forte efficacité dans les systèmes d’évaporation, de réfrigération, de récupération de solvants, de procédés chimiques, d’auxiliaires d’énergie, de service maritime et d’utilités alimentaires ou pharmaceutiques.",
+            "ar": "يستخدم المكثف اللوحي قنوات مموجة لتكثيف البخار إلى سائل عن طريق نقل الحرارة إلى ماء تبريد أو ماء مبرد أو جليكول أو دوائر مدعومة بالهواء أو مبرد آخر. يدعم سطح الألواح المدمج استجابة حرارية سريعة وكفاءة عالية في أنظمة التبخير والتبريد واسترداد المذيبات والعمليات الكيميائية ومساعدات الطاقة والخدمة البحرية ومرافق الأغذية أو الأدوية."
+          },
+          "industries": [
+            "1",
+            "2",
+            "4",
+            "6",
+            "7",
+            "9"
+          ],
+          "advantage": {
+            "en": [
+              "Large corrugated plate area supports high condensation heat-transfer coefficients.",
+              "Compact construction reduces installation footprint and refrigerant or vapor hold-up.",
+              "Fast thermal response helps systems follow changing vapor loads.",
+              "Openable, gasketed, semi-welded, or welded configurations can be selected by media and maintenance needs.",
+              "Material selection can address seawater, acidic vapor, refrigerants, solvents, and hygienic services.",
+              "Can be paired with plate evaporators, MVR systems, refrigeration units, and process heat-recovery loops."
+            ],
+            "zh": [
+              "大面积波纹板通道支持较高冷凝传热系数。",
+              "紧凑结构减少安装占地以及制冷剂或蒸汽滞留量。",
+              "快速热响应有助于系统适应变化的蒸汽负荷。",
+              "可按介质和维护需求选择可拆式、半焊式或焊接结构。",
+              "材料选择可覆盖海水、酸性蒸汽、制冷剂、溶剂和卫生级工况。",
+              "可与板式蒸发器、MVR 系统、制冷机组和过程余热回收回路配套。"
+            ],
+            "ru": [
+              "Большая гофрированная площадь пластин поддерживает высокий коэффициент конденсационной теплопередачи.",
+              "Компактная конструкция уменьшает монтажную площадь и объем удержания хладагента или пара.",
+              "Быстрый тепловой отклик помогает системе следовать изменяющейся паровой нагрузке.",
+              "Разборная, прокладочная, полусварная или сварная конфигурация выбирается по средам и требованиям обслуживания.",
+              "Материалы подбираются для морской воды, кислых паров, хладагентов, растворителей и санитарных сервисов.",
+              "Может работать вместе с пластинчатыми испарителями, MVR, холодильными установками и контурами рекуперации тепла."
+            ],
+            "es": [
+              "La gran superficie corrugada de placas ofrece altos coeficientes de condensación.",
+              "La construcción compacta reduce huella de instalación y volumen retenido de refrigerante o vapor.",
+              "La respuesta térmica rápida ayuda a seguir cargas de vapor variables.",
+              "Pueden seleccionarse configuraciones abribles, con juntas, semisoldadas o soldadas según medios y mantenimiento.",
+              "La selección de materiales cubre agua de mar, vapores ácidos, refrigerantes, solventes y servicios higiénicos.",
+              "Puede combinarse con evaporadores de placas, sistemas MVR, unidades de refrigeración y circuitos de recuperación de calor."
+            ],
+            "fr": [
+              "La grande surface ondulée des plaques soutient des coefficients élevés de transfert en condensation.",
+              "La construction compacte réduit l’emprise d’installation et le volume de frigorigène ou vapeur retenu.",
+              "La réponse thermique rapide aide le système à suivre les charges de vapeur variables.",
+              "Des configurations ouvrables, à joints, semi-soudées ou soudées peuvent être choisies selon les fluides et la maintenance.",
+              "Les matériaux couvrent l’eau de mer, les vapeurs acides, les frigorigènes, les solvants et les services hygiéniques.",
+              "Peut être associé aux évaporateurs à plaques, systèmes MVR, unités frigorifiques et boucles de récupération de chaleur."
+            ],
+            "ar": [
+              "تدعم مساحة الألواح المموجة الكبيرة معاملات نقل حرارة عالية أثناء التكثيف.",
+              "يقلل البناء المدمج مساحة التركيب وحجم احتجاز المبرد أو البخار.",
+              "تساعد الاستجابة الحرارية السريعة النظام على متابعة أحمال البخار المتغيرة.",
+              "يمكن اختيار تكوين قابل للفتح أو بحشيات أو شبه ملحوم أو ملحوم حسب الوسائط والصيانة.",
+              "يمكن أن تغطي المواد مياه البحر والأبخرة الحمضية والمبردات والمذيبات والخدمات الصحية.",
+              "يمكن إقرانه بالمبخرات اللوحية وأنظمة MVR ووحدات التبريد وحلقات استرداد حرارة العمليات."
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Function": "Vapor condensation and heat recovery",
+              "Cooling media": "Cooling water, chilled water, glycol, seawater, or process coolant by duty",
+              "Condensing side": "Plate channels configured for vapor distribution and condensate drainage",
+              "Configuration": "Gasketed, semi-welded, fully welded, or plate-shell designs by service",
+              "Materials": "Stainless steel, titanium, duplex stainless steel, and corrosion-resistant alloys",
+              "Typical applications": "Evaporation systems, ammonia refrigeration, solvent recovery, chemical condensers, marine service, food and pharmaceutical utilities"
+            },
+            "zh": {
+              "功能": "蒸汽冷凝和热量回收",
+              "冷却介质": "按工况采用冷却水、冷冻水、乙二醇、海水或工艺冷却介质",
+              "冷凝侧": "板通道按蒸汽分布和冷凝液排出进行配置",
+              "结构形式": "按工况选择可拆式、半焊式、全焊式或板壳式结构",
+              "材料": "不锈钢、钛、双相不锈钢和耐腐蚀合金",
+              "典型应用": "蒸发系统、氨制冷、溶剂回收、化工冷凝器、船舶、食品和制药公用工程"
+            },
+            "ru": {
+              "Функция": "Конденсация пара и рекуперация тепла",
+              "Охлаждающие среды": "Охлаждающая вода, холодная вода, гликоль, морская вода или технологический хладагент по задаче",
+              "Сторона конденсации": "Каналы пластин сконфигурированы для распределения пара и отвода конденсата",
+              "Конфигурация": "Разборные, полусварные, полностью сварные или пластинчато-корпусные исполнения по сервису",
+              "Материалы": "Нержавеющая сталь, титан, дуплексная нержавеющая сталь и коррозионностойкие сплавы",
+              "Типовые применения": "Испарительные системы, аммиачное охлаждение, восстановление растворителей, химические конденсаторы, морской сервис, пищевые и фармацевтические утилиты"
+            },
+            "es": {
+              "Función": "Condensación de vapor y recuperación de calor",
+              "Medios de enfriamiento": "Agua de enfriamiento, agua helada, glicol, agua de mar o refrigerante de proceso según servicio",
+              "Lado de condensación": "Canales de placas configurados para distribución de vapor y drenaje de condensado",
+              "Configuración": "Diseños con juntas, semisoldados, totalmente soldados o de placas y carcasa según servicio",
+              "Materiales": "Acero inoxidable, titanio, acero inoxidable dúplex y aleaciones resistentes a la corrosión",
+              "Aplicaciones típicas": "Sistemas de evaporación, refrigeración con amoníaco, recuperación de solventes, condensadores químicos, servicio marino, utilidades alimentarias y farmacéuticas"
+            },
+            "fr": {
+              "Fonction": "Condensation de vapeur et récupération de chaleur",
+              "Fluides de refroidissement": "Eau de refroidissement, eau glacée, glycol, eau de mer ou fluide de procédé selon le service",
+              "Côté condensation": "Canaux de plaques configurés pour distribution de vapeur et drainage du condensat",
+              "Configuration": "Conceptions à joints, semi-soudées, entièrement soudées ou plaques et calandre selon le service",
+              "Matériaux": "Acier inoxydable, titane, acier inoxydable duplex et alliages résistants à la corrosion",
+              "Applications typiques": "Systèmes d’évaporation, réfrigération à l’ammoniac, récupération de solvants, condenseurs chimiques, service maritime, utilités alimentaires et pharmaceutiques"
+            },
+            "ar": {
+              "الوظيفة": "تكثيف البخار واسترداد الحرارة",
+              "وسائط التبريد": "ماء تبريد أو ماء مبرد أو جليكول أو ماء بحر أو مبرد عملية حسب الخدمة",
+              "جانب التكثيف": "قنوات ألواح مهيأة لتوزيع البخار وتصريف المكثفات",
+              "التكوين": "تصاميم بحشيات أو شبه ملحومة أو ملحومة بالكامل أو لوح وغلاف حسب الخدمة",
+              "المواد": "فولاذ مقاوم للصدأ، تيتانيوم، فولاذ مزدوج وسبائك مقاومة للتآكل",
+              "التطبيقات النموذجية": "أنظمة التبخير، تبريد الأمونيا، استرداد المذيبات، مكثفات كيميائية، الخدمة البحرية، ومرافق الأغذية والأدوية"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "Condensation duty",
+                "content": "The exchanger should be sized around vapor composition, condensation curve, non-condensable gas, cooling medium temperature, pressure drop, and condensate drainage."
+              },
+              {
+                "title": "Configuration choice",
+                "content": "Clean water vapor may use a gasketed arrangement, while refrigerants, solvents, corrosive vapor, or higher pressure may require semi-welded, welded, or plate-shell designs."
+              }
+            ],
+            "zh": [
+              {
+                "title": "冷凝工况",
+                "content": "换热器选型应围绕蒸汽组成、冷凝曲线、不凝气、冷却介质温度、压降和冷凝液排出进行。"
+              },
+              {
+                "title": "结构选择",
+                "content": "洁净水蒸汽可采用可拆式结构；制冷剂、溶剂、腐蚀性蒸汽或较高压力工况可能需要半焊、焊接或板壳式结构。"
+              }
+            ],
+            "ru": [
+              {
+                "title": "Конденсационная задача",
+                "content": "Расчет должен учитывать состав пара, кривую конденсации, неконденсируемые газы, температуру охлаждающей среды, перепад давления и отвод конденсата."
+              },
+              {
+                "title": "Выбор конфигурации",
+                "content": "Чистый водяной пар может использовать прокладочную схему, а хладагенты, растворители, коррозионные пары или более высокое давление требуют полусварной, сварной или пластинчато-корпусной конструкции."
+              }
+            ],
+            "es": [
+              {
+                "title": "Servicio de condensación",
+                "content": "El intercambiador debe dimensionarse según composición del vapor, curva de condensación, gases no condensables, temperatura del refrigerante, caída de presión y drenaje de condensado."
+              },
+              {
+                "title": "Elección de configuración",
+                "content": "El vapor de agua limpio puede usar diseño con juntas; refrigerantes, solventes, vapor corrosivo o mayor presión pueden requerir diseño semisoldado, soldado o de placas y carcasa."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Service de condensation",
+                "content": "Le dimensionnement doit tenir compte de la composition vapeur, courbe de condensation, gaz non condensables, température du refroidissant, perte de charge et drainage du condensat."
+              },
+              {
+                "title": "Choix de configuration",
+                "content": "La vapeur d’eau propre peut utiliser une version à joints; frigorigènes, solvants, vapeurs corrosives ou pression élevée peuvent demander semi-soudé, soudé ou plaques et calandre."
+              }
+            ],
+            "ar": [
+              {
+                "title": "مهمة التكثيف",
+                "content": "يجب تحديد حجم المبادل حسب تركيب البخار ومنحنى التكثيف والغازات غير القابلة للتكثف ودرجة حرارة وسيط التبريد وفقد الضغط وتصريف المكثفات."
+              },
+              {
+                "title": "اختيار التكوين",
+                "content": "يمكن أن يستخدم بخار الماء النظيف ترتيباً بحشيات، بينما قد تتطلب المبردات أو المذيبات أو البخار المتآكل أو الضغط الأعلى تصميماً شبه ملحوم أو ملحوم أو لوح وغلاف."
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Plate Condenser",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. supplies plate condenser for industrial heat-transfer applications with project-specific material, pressure, temperature, and maintenance selection."
+            },
+            "zh": {
+              "meta_title": "江苏金多邦成套机械设备有限公司 板式冷凝器",
+              "meta_description": "江苏金多邦成套机械设备有限公司供应板式冷凝器，面向工业换热应用按材料、压力、温度和维护需求进行项目化选型。"
+            },
+            "ru": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Пластинчатый конденсатор",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. поставляет пластинчатый конденсатор для промышленных теплообменных задач с подбором материалов, давления, температуры и обслуживания под проект."
+            },
+            "es": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Condensador de placas",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. suministra condensador de placas para aplicaciones industriales de transferencia de calor con selección de materiales, presión, temperatura y mantenimiento por proyecto."
+            },
+            "fr": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Condenseur à plaques",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. fournit condenseur à plaques pour les applications industrielles d’échange thermique avec sélection des matériaux, pression, température et maintenance par projet."
+            },
+            "ar": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. مكثف لوحي",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. توفر مكثف لوحي لتطبيقات نقل الحرارة الصناعية مع اختيار المواد والضغط ودرجة الحرارة والصيانة حسب المشروع."
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "plate_condenser_1.png",
+            "alt_text": "Plate Condenser image 1"
+          },
+          {
+            "order": 2,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "plate_condenser_2.png",
+            "alt_text": "Plate Condenser image 2"
+          },
+          {
+            "order": 3,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "plate_condenser_3.png",
+            "alt_text": "Plate Condenser image 3"
+          }
+        ]
+      },
+      {
+        "product": {
+          "order": 6,
+          "slug": "plate-shell-heat-exchanger-pshe",
+          "is_visible": true,
+          "name": {
+            "en": "Plate-Shell Heat Exchanger (PSHE)",
+            "zh": "板壳式换热器（PSHE）",
+            "ru": "Пластинчато-корпусный теплообменник (PSHE)",
+            "es": "Intercambiador de calor de placas y carcasa (PSHE)",
+            "fr": "Échangeur de chaleur à plaques et calandre (PSHE)",
+            "ar": "مبادل حراري لوح وغلاف (PSHE)"
+          },
+          "short_description": {
+            "en": "High-efficiency welded plate bundle inside a pressure shell for high-pressure, high-temperature, vibration, LNG, oil and gas, chemical, and marine services.",
+            "zh": "将高效焊接板束置于承压壳体内，适用于高压、高温、振动、LNG、油气、化工和船舶工况。",
+            "ru": "Высокоэффективный сварной пакет пластин внутри напорного корпуса для высокого давления, высокой температуры, вибрации, LNG, нефти и газа, химии и морского сервиса.",
+            "es": "Haz de placas soldadas de alta eficiencia dentro de una carcasa de presión para alta presión, alta temperatura, vibración, GNL, petróleo y gas, química y servicio marino.",
+            "fr": "Faisceau de plaques soudées à haute efficacité dans une calandre sous pression pour haute pression, haute température, vibrations, GNL, pétrole et gaz, chimie et maritime.",
+            "ar": "حزمة ألواح ملحومة عالية الكفاءة داخل غلاف ضغط لمهام الضغط والحرارة العالية والاهتزاز والغاز الطبيعي المسال والنفط والغاز والكيميائيات والبحرية."
+          },
+          "full_description": {
+            "en": "A plate-shell heat exchanger encloses a welded corrugated plate bundle inside a pressure shell. The design combines high plate-side heat-transfer efficiency with the pressure containment and nozzle flexibility of a shell structure. It is used for LNG liquefaction and regasification, BOG reliquefaction, oil and gas, chemical plants, high-temperature reaction heat recovery, marine service, flue-gas heat recovery, and other harsh process duties.",
+            "zh": "板壳式换热器将焊接波纹板束安装在承压壳体内，结合了板式换热器的高传热效率以及壳体结构的承压能力和接管布置灵活性。该设备适用于 LNG 液化与再气化、BOG 再液化、油气、化工装置、高温反应热回收、船舶、烟气余热回收和其他严苛过程工况。",
+            "ru": "Пластинчато-корпусный теплообменник помещает сварной гофрированный пакет пластин внутрь напорного корпуса. Конструкция объединяет высокую эффективность теплопередачи пластин и способность корпуса удерживать давление с гибкостью расположения патрубков. Применяется для сжижения и регазификации LNG, повторного сжижения BOG, нефти и газа, химических заводов, высокотемпературной рекуперации тепла реакций, морского сервиса, рекуперации тепла дымовых газов и других тяжелых процессов.",
+            "es": "Un intercambiador de placas y carcasa encierra un haz de placas corrugadas soldadas dentro de una carcasa de presión. El diseño combina la alta eficiencia de transferencia de las placas con la contención de presión y flexibilidad de boquillas de una estructura de carcasa. Se utiliza en licuefacción y regasificación de GNL, relicuefacción de BOG, petróleo y gas, plantas químicas, recuperación de calor de reacción a alta temperatura, servicio marino, recuperación de calor de gases de combustión y otros procesos exigentes.",
+            "fr": "Un échangeur à plaques et calandre enferme un faisceau de plaques ondulées soudées dans une calandre sous pression. La conception combine l’efficacité thermique des plaques avec la tenue en pression et la flexibilité des piquages d’une structure à calandre. Il est utilisé pour la liquéfaction et regazéification du GNL, la reliquéfaction du BOG, le pétrole et gaz, les usines chimiques, la récupération de chaleur de réaction à haute température, le maritime, la récupération de chaleur des fumées et d’autres procédés difficiles.",
+            "ar": "يضع المبادل الحراري لوح وغلاف حزمة ألواح مموجة ملحومة داخل غلاف ضغط. يجمع التصميم بين كفاءة نقل الحرارة العالية للألواح واحتواء الضغط ومرونة الفوهات في هيكل الغلاف. يستخدم في تسييل وإعادة تغويز الغاز الطبيعي المسال، وإعادة تسييل BOG، والنفط والغاز، والمصانع الكيميائية، واسترداد حرارة التفاعل العالية، والخدمة البحرية، واسترداد حرارة غازات المداخن، والعمليات الصعبة الأخرى."
+          },
+          "industries": [
+            "2",
+            "3",
+            "4",
+            "6",
+            "9"
+          ],
+          "advantage": {
+            "en": [
+              "Welded plate bundle delivers high heat-transfer efficiency in high-pressure service.",
+              "Pressure shell supports duties beyond conventional gasketed plate exchanger limits.",
+              "Compact size helps reduce equipment footprint in LNG, oil and gas, and chemical plants.",
+              "Corrugated plates provide turbulence and efficient heat recovery at close temperature approaches.",
+              "Shell and nozzle layout can be engineered around pressure vessel codes, vibration, thermal stress, and cleaning method.",
+              "Suitable for high-pressure process heat recovery, LNG service, marine service, and severe chemical duties."
+            ],
+            "zh": [
+              "焊接板束在高压工况下提供高传热效率。",
+              "承压壳体使其适用于超出传统胶垫板换限制的工况。",
+              "紧凑结构有助于减少 LNG、油气和化工装置中的设备占地。",
+              "波纹板片形成湍流，可在较小温差下实现高效热回收。",
+              "壳体和接管布置可围绕压力容器规范、振动、热应力和清洗方式进行工程设计。",
+              "适用于高压过程热回收、LNG、船舶和严苛化工工况。"
+            ],
+            "ru": [
+              "Сварной пакет пластин обеспечивает высокую эффективность теплопередачи в высоконапорном сервисе.",
+              "Напорный корпус поддерживает задачи за пределами возможностей обычных прокладочных пластинчатых теплообменников.",
+              "Компактность помогает уменьшить площадь оборудования в LNG, нефтегазовых и химических установках.",
+              "Гофрированные пластины создают турбулентность и эффективную рекуперацию тепла при малых температурных напорах.",
+              "Корпус и патрубки проектируются с учетом норм сосудов под давлением, вибрации, термонапряжений и метода очистки.",
+              "Подходит для высоконапорной рекуперации тепла, LNG, морского сервиса и тяжелых химических задач."
+            ],
+            "es": [
+              "El haz de placas soldadas ofrece alta eficiencia térmica en servicio de alta presión.",
+              "La carcasa de presión permite servicios por encima de los límites de los intercambiadores con juntas convencionales.",
+              "El tamaño compacto reduce huella en plantas de GNL, petróleo y gas y químicas.",
+              "Las placas corrugadas generan turbulencia y recuperación eficiente con aproximaciones de temperatura estrechas.",
+              "La carcasa y boquillas se diseñan según códigos de recipientes a presión, vibración, estrés térmico y método de limpieza.",
+              "Adecuado para recuperación de calor de proceso de alta presión, GNL, servicio marino y química severa."
+            ],
+            "fr": [
+              "Le faisceau de plaques soudées offre une forte efficacité thermique en service haute pression.",
+              "La calandre sous pression prend en charge des services au-delà des limites des échangeurs à joints conventionnels.",
+              "La compacité réduit l’emprise dans les installations GNL, pétrole et gaz et chimiques.",
+              "Les plaques ondulées créent turbulence et récupération de chaleur efficace avec de faibles approches de température.",
+              "La calandre et les piquages se conçoivent selon les codes de récipient sous pression, vibrations, contraintes thermiques et méthode de nettoyage.",
+              "Adapté à la récupération de chaleur haute pression, au GNL, au maritime et aux services chimiques sévères."
+            ],
+            "ar": [
+              "توفر حزمة الألواح الملحومة كفاءة نقل حرارة عالية في خدمة الضغط العالي.",
+              "يدعم غلاف الضغط مهاماً تتجاوز حدود المبادلات اللوحية التقليدية ذات الحشيات.",
+              "يساعد الحجم المدمج على تقليل مساحة المعدات في مصانع الغاز الطبيعي المسال والنفط والغاز والكيميائيات.",
+              "تولد الألواح المموجة اضطراباً واسترداداً فعالاً للحرارة عند فروق حرارة صغيرة.",
+              "يمكن هندسة الغلاف والفوهات حول أكواد أوعية الضغط والاهتزاز والإجهاد الحراري وطريقة التنظيف.",
+              "مناسب لاسترداد حرارة العمليات عالية الضغط وخدمة LNG والخدمة البحرية والمهام الكيميائية الشديدة."
+            ]
+          },
+          "technical_parameters": {
+            "en": {
+              "Shell pressure": "High-pressure service above 10 MPa when designed for the duty",
+              "Temperature service": "Can be applied to 400°C reaction-product heat recovery when materials and design allow",
+              "Plate bundle": "Welded corrugated plate bundle installed inside a pressure shell",
+              "Flow arrangement": "Plate-side and shell-side flow paths with project-specific nozzle orientation",
+              "Design checks": "Pressure vessel code, vibration, thermal stress, nozzle load, inspection access, and cleaning method",
+              "Typical applications": "LNG liquefaction/regasification, BOG reliquefaction, oil and gas, chemical plants, marine service, flue-gas heat recovery, and high-pressure process heat exchange"
+            },
+            "zh": {
+              "壳体压力": "按工况设计时可用于 10 MPa 以上高压服务",
+              "温度服务": "材料和设计允许时，可用于 400°C 反应产物热回收",
+              "板束结构": "焊接波纹板束安装在承压壳体内",
+              "流道布置": "板侧和壳侧流道配合项目接管方向设计",
+              "设计核对": "压力容器规范、振动、热应力、接管载荷、检查通道和清洗方式",
+              "典型应用": "LNG 液化/再气化、BOG 再液化、油气、化工装置、船舶、烟气余热回收和高压过程换热"
+            },
+            "ru": {
+              "Давление корпуса": "Высоконапорный сервис выше 10 MPa при проектировании под задачу",
+              "Температурный сервис": "Может применяться для рекуперации тепла продуктов реакции при 400°C, если позволяют материалы и конструкция",
+              "Пакет пластин": "Сварной гофрированный пакет пластин внутри напорного корпуса",
+              "Схема потоков": "Потоки по стороне пластин и корпуса с ориентацией патрубков под проект",
+              "Проверки проекта": "Код сосуда под давлением, вибрация, термонапряжения, нагрузки на патрубки, доступ для инспекции и метод очистки",
+              "Типовые применения": "Сжижение/регазификация LNG, повторное сжижение BOG, нефть и газ, химические заводы, морской сервис, рекуперация тепла дымовых газов и высоконапорный процессный теплообмен"
+            },
+            "es": {
+              "Presión de carcasa": "Servicio de alta presión superior a 10 MPa cuando se diseña para la función",
+              "Servicio de temperatura": "Puede aplicarse a recuperación de calor de productos de reacción a 400°C cuando materiales y diseño lo permitan",
+              "Haz de placas": "Haz de placas corrugadas soldadas instalado dentro de una carcasa de presión",
+              "Disposición de flujo": "Rutas de flujo lado placa y lado carcasa con orientación de boquillas específica del proyecto",
+              "Comprobaciones de diseño": "Código de recipiente a presión, vibración, estrés térmico, carga de boquillas, acceso de inspección y método de limpieza",
+              "Aplicaciones típicas": "Licuefacción/regasificación de GNL, relicuefacción de BOG, petróleo y gas, plantas químicas, servicio marino, recuperación de calor de gases de combustión e intercambio de proceso de alta presión"
+            },
+            "fr": {
+              "Pression de calandre": "Service haute pression supérieur à 10 MPa lorsqu’il est conçu pour la fonction",
+              "Service de température": "Peut être appliqué à la récupération de chaleur de produits de réaction à 400°C lorsque matériaux et conception le permettent",
+              "Faisceau de plaques": "Faisceau de plaques ondulées soudées installé dans une calandre sous pression",
+              "Disposition des flux": "Trajets côté plaques et côté calandre avec orientation des piquages propre au projet",
+              "Contrôles de conception": "Code de récipient sous pression, vibrations, contraintes thermiques, charges de piquage, accès d’inspection et méthode de nettoyage",
+              "Applications typiques": "Liquéfaction/regazéification du GNL, reliquéfaction du BOG, pétrole et gaz, usines chimiques, maritime, récupération de chaleur des fumées et échange de procédé haute pression"
+            },
+            "ar": {
+              "ضغط الغلاف": "خدمة ضغط عالٍ فوق 10 MPa عند التصميم لهذه المهمة",
+              "خدمة الحرارة": "يمكن تطبيقه لاسترداد حرارة منتجات التفاعل عند 400°C عندما تسمح المواد والتصميم",
+              "حزمة الألواح": "حزمة ألواح مموجة ملحومة مثبتة داخل غلاف ضغط",
+              "ترتيب التدفق": "مسارات تدفق جانب الألواح وجانب الغلاف مع اتجاه فوهات خاص بالمشروع",
+              "فحوص التصميم": "كود وعاء الضغط، الاهتزاز، الإجهاد الحراري، أحمال الفوهات، إتاحة الفحص، وطريقة التنظيف",
+              "التطبيقات النموذجية": "تسييل/إعادة تغويز LNG، إعادة تسييل BOG، النفط والغاز، المصانع الكيميائية، الخدمة البحرية، استرداد حرارة غازات المداخن، وتبادل حرارة العمليات عالية الضغط"
+            }
+          },
+          "details": {
+            "en": [
+              {
+                "title": "Why PSHE",
+                "content": "PSHE is selected when plate heat-transfer efficiency is needed but the process pressure, temperature, vibration, or nozzle arrangement requires a pressure shell."
+              },
+              {
+                "title": "Engineering checks",
+                "content": "A PSHE project should confirm pressure vessel code, shell-side design, welded plate bundle inspection, thermal expansion, vibration, nozzle loads, and cleaning or replacement access."
+              }
+            ],
+            "zh": [
+              {
+                "title": "为什么选择 PSHE",
+                "content": "当需要板式换热效率，同时工艺压力、温度、振动或接管布置需要承压壳体时，可选择 PSHE。"
+              },
+              {
+                "title": "工程核对",
+                "content": "PSHE 项目应确认压力容器规范、壳侧设计、焊接板束检验、热膨胀、振动、接管载荷以及清洗或更换通道。"
+              }
+            ],
+            "ru": [
+              {
+                "title": "Почему PSHE",
+                "content": "PSHE выбирают, когда нужна эффективность пластинчатого теплообмена, но давление, температура, вибрация или расположение патрубков требуют напорного корпуса."
+              },
+              {
+                "title": "Инженерные проверки",
+                "content": "Проект PSHE должен подтвердить код сосуда под давлением, конструкцию стороны корпуса, инспекцию сварного пакета пластин, тепловое расширение, вибрацию, нагрузки на патрубки и доступ для очистки или замены."
+              }
+            ],
+            "es": [
+              {
+                "title": "Por qué PSHE",
+                "content": "PSHE se selecciona cuando se necesita eficiencia de placas pero la presión, temperatura, vibración o disposición de boquillas requiere una carcasa de presión."
+              },
+              {
+                "title": "Comprobaciones de ingeniería",
+                "content": "Un proyecto PSHE debe confirmar código de recipiente a presión, diseño lado carcasa, inspección del haz soldado, expansión térmica, vibración, cargas de boquillas y acceso de limpieza o reemplazo."
+              }
+            ],
+            "fr": [
+              {
+                "title": "Pourquoi PSHE",
+                "content": "Le PSHE est choisi lorsque l’efficacité des plaques est nécessaire mais que pression, température, vibrations ou disposition des piquages exigent une calandre sous pression."
+              },
+              {
+                "title": "Vérifications techniques",
+                "content": "Un projet PSHE doit confirmer le code de récipient sous pression, la conception côté calandre, l’inspection du faisceau soudé, la dilatation thermique, les vibrations, les charges de piquage et l’accès de nettoyage ou remplacement."
+              }
+            ],
+            "ar": [
+              {
+                "title": "لماذا PSHE",
+                "content": "يتم اختيار PSHE عندما تكون كفاءة نقل الحرارة اللوحية مطلوبة لكن ضغط العملية أو حرارتها أو الاهتزاز أو ترتيب الفوهات يتطلب غلاف ضغط."
+              },
+              {
+                "title": "فحوص هندسية",
+                "content": "يجب أن يؤكد مشروع PSHE كود وعاء الضغط وتصميم جانب الغلاف وفحص حزمة الألواح الملحومة والتمدد الحراري والاهتزاز وأحمال الفوهات وإتاحة التنظيف أو الاستبدال."
+              }
+            ]
+          },
+          "video_link": "",
+          "seo_data": {
+            "en": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Plate-Shell Heat Exchanger (PSHE)",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. supplies plate-shell heat exchanger (pshe) for industrial heat-transfer applications with project-specific material, pressure, temperature, and maintenance selection."
+            },
+            "zh": {
+              "meta_title": "江苏金多邦成套机械设备有限公司 板壳式换热器（PSHE）",
+              "meta_description": "江苏金多邦成套机械设备有限公司供应板壳式换热器（PSHE），面向工业换热应用按材料、压力、温度和维护需求进行项目化选型。"
+            },
+            "ru": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Пластинчато-корпусный теплообменник (PSHE)",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. поставляет пластинчато-корпусный теплообменник (pshe) для промышленных теплообменных задач с подбором материалов, давления, температуры и обслуживания под проект."
+            },
+            "es": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Intercambiador de calor de placas y carcasa (PSHE)",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. suministra intercambiador de calor de placas y carcasa (pshe) para aplicaciones industriales de transferencia de calor con selección de materiales, presión, temperatura y mantenimiento por proyecto."
+            },
+            "fr": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. Échangeur de chaleur à plaques et calandre (PSHE)",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. fournit échangeur de chaleur à plaques et calandre (pshe) pour les applications industrielles d’échange thermique avec sélection des matériaux, pression, température et maintenance par projet."
+            },
+            "ar": {
+              "meta_title": "KDP Machinery Jiangsu Co., Ltd. مبادل حراري لوح وغلاف (PSHE)",
+              "meta_description": "KDP Machinery Jiangsu Co., Ltd. توفر مبادل حراري لوح وغلاف (PSHE) لتطبيقات نقل الحرارة الصناعية مع اختيار المواد والضغط ودرجة الحرارة والصيانة حسب المشروع."
+            }
+          }
+        },
+        "product_assets": [
+          {
+            "order": 1,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "plate_shell_heat_exchanger_1.png",
+            "alt_text": "Plate-Shell Heat Exchanger image 1"
+          },
+          {
+            "order": 2,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "plate_shell_heat_exchanger_2.png",
+            "alt_text": "Plate-Shell Heat Exchanger image 2"
+          },
+          {
+            "order": 3,
+            "asset_type": "gallery_image",
+            "folder": "product_images",
+            "file_name": "plate_shell_heat_exchanger_3.png",
+            "alt_text": "Plate-Shell Heat Exchanger image 3"
+          }
+        ]
+      }
+    ]
+  }
+]

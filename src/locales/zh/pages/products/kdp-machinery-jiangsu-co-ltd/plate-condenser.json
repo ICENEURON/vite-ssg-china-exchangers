@@ -1,0 +1,65 @@
+{
+  "slug": "plate-condenser",
+  "name": "板式冷凝器",
+  "full_description": "板式冷凝器通过波纹板通道将蒸汽的热量传递给冷却水、冷冻水、乙二醇、辅助空气冷却回路或其他冷却介质，使蒸汽冷凝成液体。紧凑板片传热面具有较快热响应和较高传热效率，适用于蒸发系统、制冷系统、溶剂回收、化工过程、电力辅助系统、船舶以及食品制药公用工程。",
+  "industries": [
+    "暖通空调",
+    "石油化工",
+    "能源",
+    "化工",
+    "食品与饮料",
+    "发电/电力"
+  ],
+  "advantage": [
+    "大面积波纹板通道支持较高冷凝传热系数。",
+    "紧凑结构减少安装占地以及制冷剂或蒸汽滞留量。",
+    "快速热响应有助于系统适应变化的蒸汽负荷。",
+    "可按介质和维护需求选择可拆式、半焊式或焊接结构。",
+    "材料选择可覆盖海水、酸性蒸汽、制冷剂、溶剂和卫生级工况。",
+    "可与板式蒸发器、MVR 系统、制冷机组和过程余热回收回路配套。"
+  ],
+  "technical_parameters": {
+    "功能": "蒸汽冷凝和热量回收",
+    "材料": "不锈钢、钛、双相不锈钢和耐腐蚀合金",
+    "冷凝侧": "板通道按蒸汽分布和冷凝液排出进行配置",
+    "典型应用": "蒸发系统、氨制冷、溶剂回收、化工冷凝器、船舶、食品和制药公用工程",
+    "冷却介质": "按工况采用冷却水、冷冻水、乙二醇、海水或工艺冷却介质",
+    "结构形式": "按工况选择可拆式、半焊式、全焊式或板壳式结构"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "冷凝工况",
+      "content": "换热器选型应围绕蒸汽组成、冷凝曲线、不凝气、冷却介质温度、压降和冷凝液排出进行。"
+    },
+    {
+      "title": "结构选择",
+      "content": "洁净水蒸汽可采用可拆式结构；制冷剂、溶剂、腐蚀性蒸汽或较高压力工况可能需要半焊、焊接或板壳式结构。"
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "江苏金多邦成套机械设备有限公司 板式冷凝器",
+    "meta_description": "江苏金多邦成套机械设备有限公司供应板式冷凝器，面向工业换热应用按材料、压力、温度和维护需求进行项目化选型。"
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Condenser image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_1.png"
+    },
+    {
+      "alt_text": "Plate Condenser image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_2.png"
+    },
+    {
+      "alt_text": "Plate Condenser image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_3.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

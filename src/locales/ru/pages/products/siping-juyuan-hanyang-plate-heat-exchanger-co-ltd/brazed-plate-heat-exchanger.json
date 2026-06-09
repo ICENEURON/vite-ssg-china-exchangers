@@ -17,10 +17,11 @@
     "Несколько вариантов припоя: припои на основе меди, никеля и железа."
   ],
   "technical_parameters": {
-    "Brazing Materials": "Припойная фольга на медной основе; паяльная паста на основе никеля; паяльная паста на основе железа"
+    "Материалы пайки": "Припойная фольга на медной основе; паяльная паста на основе никеля; паяльная паста на основе железа"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Паяный пластинчатый теплообменник",
     "meta_description": "Компактный паяный пластинчатый теплообменник с высокой турбулентностью теплопередачи, высокой устойчивостью к температуре и давлению и малым весом."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/brazed_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

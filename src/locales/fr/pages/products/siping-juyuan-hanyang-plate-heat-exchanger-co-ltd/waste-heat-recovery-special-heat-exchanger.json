@@ -16,10 +16,11 @@
     "Entretien et nettoyage pratiques avec un faible coût de maintenance."
   ],
   "technical_parameters": {
-    "Typical Duties": "Eaux usées industrielles et gaz d'échappement, gaz résiduaires d'évaporation du traitement en profondeur du maïs, eaux usées brutes urbaines, récupération de chaleur des gaz de combustion des combustibles"
+    "Services typiques": "Eaux usées industrielles et gaz d'échappement, gaz résiduaires d'évaporation du traitement en profondeur du maïs, eaux usées brutes urbaines, récupération de chaleur des gaz de combustion des combustibles"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Échangeur de chaleur spécial pour la récupération de chaleur résiduelle",
     "meta_description": "Solution d'échangeur de chaleur à plaques soudées pour les eaux usées industrielles, les gaz d'échappement, les gaz de combustion, les eaux usées et autres systèmes de récupération de chaleur résiduelle."
@@ -33,6 +34,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/waste_heat_recovery_special_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

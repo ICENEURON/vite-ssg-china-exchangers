@@ -28,7 +28,10 @@
     "technical_specifications": "Технические характеристики",
     "other_products": "Другие товары этого производителя",
     "document_downloads": "Загрузка документов",
-    "download": "Скачать"
+    "download": "Скачать",
+    "applications": "Области применения продукта",
+    "application_advantages": "Преимущества",
+    "application_used_in": "Используется в"
   },
   "categories": {},
   "meta": {

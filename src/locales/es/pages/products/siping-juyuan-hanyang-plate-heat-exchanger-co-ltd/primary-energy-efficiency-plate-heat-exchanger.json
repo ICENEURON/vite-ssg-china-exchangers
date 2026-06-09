@@ -18,10 +18,10 @@
     "La página destaca las mejoras en el diseño de corrugación y fijación/sellado de juntas para lograr eficiencia y confiabilidad en la transferencia."
   ],
   "technical_parameters": {
-    "Referenced Standard": "NB/T47004.1-2017",
-    "Maximum Design Pressure": "3,2MPa",
-    "Maximum Design Temperature": "150℃",
-    "Level-1 Energy-Efficiency Plate Series": "Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B, P45A-H"
+    "Norma de referencia": "NB/T47004.1-2017",
+    "Presión máxima de diseño": "3,2MPa",
+    "Temperatura máxima de diseño": "150℃",
+    "Series de placas de eficiencia energética nivel 1": "Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B, P45A-H"
   },
   "video_link": "",
   "details": [
@@ -30,6 +30,7 @@
       "content": "La página oficial presenta el producto como una familia de intercambiadores de calor de placas de eficiencia energética de nivel 1, respaldada por pruebas y evaluaciones nacionales y por el papel de la empresa en la redacción de estándares para intercambiadores de calor de placas."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Intercambiador de calor de placas de eficiencia energética primaria",
     "meta_description": "Serie de intercambiadores de calor de placas de eficiencia energética de nivel 1 probados según las normas de evaluación de eficiencia energética de intercambiadores de calor de China."
@@ -43,6 +44,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/primary_energy_efficiency_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

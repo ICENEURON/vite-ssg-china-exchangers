@@ -315,36 +315,36 @@
               "最小传热平均温差": "可小至1℃"
             },
             "ru": {
-              "Series": "Съемные пластинчатые теплообменники серии V",
-              "Standards": "NB/T47004.1-2017; ГБ16409-1996",
-              "Heat transfer coefficient": "В 3-5 раз кожухотрубные теплообменники при одинаковом перепаде давления",
-              "Footprint": "Около трети кожухотрубных теплообменников",
-              "Metal consumption": "Около двух третей кожухотрубных теплообменников",
-              "Minimum average temperature difference": "Всего 1 ℃"
+              "Серия": "Съемные пластинчатые теплообменники серии V",
+              "Стандарты": "NB/T47004.1-2017; ГБ16409-1996",
+              "Коэффициент теплопередачи": "В 3-5 раз кожухотрубные теплообменники при одинаковом перепаде давления",
+              "Занимаемая площадь": "Около трети кожухотрубных теплообменников",
+              "Расход металла": "Около двух третей кожухотрубных теплообменников",
+              "Минимальная средняя разность температур": "Всего 1 ℃"
             },
             "es": {
-              "Series": "Intercambiadores de calor de placas desmontables serie V",
-              "Standards": "NB/T47004.1-2017; GB16409-1996",
-              "Heat transfer coefficient": "Intercambiadores de calor de carcasa y tubos de 3 a 5 veces bajo la misma caída de presión",
-              "Footprint": "Aproximadamente un tercio de los intercambiadores de calor de carcasa y tubos",
-              "Metal consumption": "Aproximadamente dos tercios de los intercambiadores de calor de carcasa y tubos",
-              "Minimum average temperature difference": "Tan bajo como 1 ℃"
+              "Serie": "Intercambiadores de calor de placas desmontables serie V",
+              "Normas": "NB/T47004.1-2017; GB16409-1996",
+              "Coeficiente de transferencia de calor": "Intercambiadores de calor de carcasa y tubos de 3 a 5 veces bajo la misma caída de presión",
+              "Huella de instalación": "Aproximadamente un tercio de los intercambiadores de calor de carcasa y tubos",
+              "Consumo de metal": "Aproximadamente dos tercios de los intercambiadores de calor de carcasa y tubos",
+              "Diferencia media mínima de temperatura": "Tan bajo como 1 ℃"
             },
             "fr": {
-              "Series": "Échangeurs de chaleur à plaques amovibles série V",
-              "Standards": "NB/T47004.1-2017; GB16409-1996",
-              "Heat transfer coefficient": "3 à 5 fois les échangeurs de chaleur à calandre et tubes sous la même chute de pression",
-              "Footprint": "Environ un tiers des échangeurs de chaleur à calandre et tubes",
-              "Metal consumption": "Environ deux tiers des échangeurs de chaleur à calandre et tubes",
-              "Minimum average temperature difference": "Aussi bas que 1 ℃"
+              "Série": "Échangeurs de chaleur à plaques amovibles série V",
+              "Normes": "NB/T47004.1-2017; GB16409-1996",
+              "Coefficient de transfert thermique": "3 à 5 fois les échangeurs de chaleur à calandre et tubes sous la même chute de pression",
+              "Encombrement": "Environ un tiers des échangeurs de chaleur à calandre et tubes",
+              "Consommation de métal": "Environ deux tiers des échangeurs de chaleur à calandre et tubes",
+              "Différence moyenne minimale de température": "Aussi bas que 1 ℃"
             },
             "ar": {
-              "Series": "مبادلات حرارية قابلة للفصل من سلسلة V",
-              "Standards": "NB/T47004.1-2017; GB16409-1996",
-              "Heat transfer coefficient": "3-5 مرات مبادلات حرارية ذات غلاف وأنبوب تحت نفس انخفاض الضغط",
-              "Footprint": "حوالي ثلث المبادلات الحرارية ذات الغلاف والأنبوب",
-              "Metal consumption": "حوالي ثلثي المبادلات الحرارية ذات الغلاف والأنبوب",
-              "Minimum average temperature difference": "منخفضة تصل إلى 1 درجة مئوية"
+              "السلسلة": "مبادلات حرارية قابلة للفصل من سلسلة V",
+              "المعايير": "NB/T47004.1-2017; GB16409-1996",
+              "معامل انتقال الحرارة": "3-5 مرات مبادلات حرارية ذات غلاف وأنبوب تحت نفس انخفاض الضغط",
+              "المساحة المشغولة": "حوالي ثلث المبادلات الحرارية ذات الغلاف والأنبوب",
+              "استهلاك المعدن": "حوالي ثلثي المبادلات الحرارية ذات الغلاف والأنبوب",
+              "أدنى فرق متوسط في درجة الحرارة": "منخفضة تصل إلى 1 درجة مئوية"
             }
           },
           "details": {
@@ -540,28 +540,28 @@
               "产品类型": "固定管板式、U型管式、浮头式、填料函式"
             },
             "ru": {
-              "Standards": "ASME; 150 ГБ; ГБ151; ГБ/Т151-2014; ТСГ21-2016",
-              "Licenses": "Лицензии на проектирование и производство сосудов высокого давления D1 и D2.",
-              "Enhanced elements": "Дуговая трубка; Гофрированная трубка; Спиральная трубка; Плазменная трубка; 3D реберная трубка; Отражательная трубка; Спиральная перегородка",
-              "Product types": "Фиксированная трубная решетка; U-образная трубка; Плавающая голова; Сальниковая коробка"
+              "Стандарты": "ASME; 150 ГБ; ГБ151; ГБ/Т151-2014; ТСГ21-2016",
+              "Лицензии": "Лицензии на проектирование и производство сосудов высокого давления D1 и D2.",
+              "Усиленные элементы": "Дуговая трубка; Гофрированная трубка; Спиральная трубка; Плазменная трубка; 3D реберная трубка; Отражательная трубка; Спиральная перегородка",
+              "Типы продукции": "Фиксированная трубная решетка; U-образная трубка; Плавающая голова; Сальниковая коробка"
             },
             "es": {
-              "Standards": "ASME; GB150; GB151; GB/T151-2014; TSG21-2016",
-              "Licenses": "Licencias de diseño y fabricación de recipientes a presión D1 y D2",
-              "Enhanced elements": "tubo de arco; tubo corrugado; tubo en espiral; tubo de plasma; tubo costal 3D; tubo deflector; Placa deflectora en espiral",
-              "Product types": "Placa tubular fija; tubo en U; Cabeza flotante; prensaestopas"
+              "Normas": "ASME; GB150; GB151; GB/T151-2014; TSG21-2016",
+              "Licencias": "Licencias de diseño y fabricación de recipientes a presión D1 y D2",
+              "Elementos mejorados": "tubo de arco; tubo corrugado; tubo en espiral; tubo de plasma; tubo costal 3D; tubo deflector; Placa deflectora en espiral",
+              "Tipos de producto": "Placa tubular fija; tubo en U; Cabeza flotante; prensaestopas"
             },
             "fr": {
-              "Standards": "ASME; Go150; GB151; GB/T151-2014; TSG21-2016",
-              "Licenses": "Licences de conception et de fabrication d'appareils sous pression D1 et D2",
-              "Enhanced elements": "Tube à arc; Tube ondulé; Tube en spirale; Tube à plasma; Tube costal 3D; Tube déflecteur; Déflecteur en spirale",
-              "Product types": "Plaque tubulaire fixe; Tube en U; Tête flottante; Presse-étoupe"
+              "Normes": "ASME; Go150; GB151; GB/T151-2014; TSG21-2016",
+              "Licences": "Licences de conception et de fabrication d'appareils sous pression D1 et D2",
+              "Éléments renforcés": "Tube à arc; Tube ondulé; Tube en spirale; Tube à plasma; Tube costal 3D; Tube déflecteur; Déflecteur en spirale",
+              "Types de produit": "Plaque tubulaire fixe; Tube en U; Tête flottante; Presse-étoupe"
             },
             "ar": {
-              "Standards": "ASME; GB150؛ GB151؛ جيجابايت/T151-2014; TSG21-2016",
-              "Licenses": "تراخيص تصميم وتصنيع أوعية الضغط D1 وD2",
-              "Enhanced elements": "أنبوب القوس أنبوب مموج أنبوب حلزوني أنبوب البلازما. أنبوب ضلع ثلاثي الأبعاد؛ أنبوب يربك. لوحة يربك دوامة",
-              "Product types": "ورقة أنابيب ثابتة؛ أنبوب على شكل حرف U؛ رأس عائم؛ علبة حشو"
+              "المعايير": "ASME; GB150؛ GB151؛ جيجابايت/T151-2014; TSG21-2016",
+              "التراخيص": "تراخيص تصميم وتصنيع أوعية الضغط D1 وD2",
+              "العناصر المعززة": "أنبوب القوس أنبوب مموج أنبوب حلزوني أنبوب البلازما. أنبوب ضلع ثلاثي الأبعاد؛ أنبوب يربك. لوحة يربك دوامة",
+              "أنواع المنتج": "ورقة أنابيب ثابتة؛ أنبوب على شكل حرف U؛ رأس عائم؛ علبة حشو"
             }
           },
           "details": {
@@ -757,32 +757,32 @@
               "典型工况": "130/80℃到95/70℃；115/65℃到55/80℃；7/12℃到8/13℃"
             },
             "ru": {
-              "Standards referenced on page": "CJ/Т 191-2004; ГБ/Т 29466-2012",
-              "Control modes": "Контроль температуры; Переменное регулирование расхода; Регулирование температуры и расхода",
-              "Automation levels": "Одноконтурное регулирование температуры; Полностью автоматический контроль поля; Автоматическое дистанционное управление связью",
-              "Heating media": "Пар ниже 300 ℃; Горячая вода высокой температуры",
-              "Typical duty points": "от 130/80 ℃ до 95/70 ℃; от 115/65 ℃ до 55/80 ℃; от 7/12 ℃ до 8/13 ℃"
+              "Стандарты, указанные на странице": "CJ/Т 191-2004; ГБ/Т 29466-2012",
+              "Режимы управления": "Контроль температуры; Переменное регулирование расхода; Регулирование температуры и расхода",
+              "Уровни автоматизации": "Одноконтурное регулирование температуры; Полностью автоматический контроль поля; Автоматическое дистанционное управление связью",
+              "Нагревающие среды": "Пар ниже 300 ℃; Горячая вода высокой температуры",
+              "Типовые рабочие точки": "от 130/80 ℃ до 95/70 ℃; от 115/65 ℃ до 55/80 ℃; от 7/12 ℃ до 8/13 ℃"
             },
             "es": {
-              "Standards referenced on page": "CJ/T 191-2004; GB/T 29466-2012",
-              "Control modes": "Control de temperatura; Regulación de flujo variable; Regulación de temperatura y caudal.",
-              "Automation levels": "Control de temperatura de bucle único; Control de campo totalmente automático; Control de comunicación remota desatendido",
-              "Heating media": "Vapor por debajo de 300 ℃; Agua caliente a alta temperatura",
-              "Typical duty points": "130/80 ℃ a 95/70 ℃; 115/65 ℃ a 55/80 ℃; 7/12 ℃ a 8/13 ℃"
+              "Normas referenciadas en la página": "CJ/T 191-2004; GB/T 29466-2012",
+              "Modos de control": "Control de temperatura; Regulación de flujo variable; Regulación de temperatura y caudal.",
+              "Niveles de automatización": "Control de temperatura de bucle único; Control de campo totalmente automático; Control de comunicación remota desatendido",
+              "Medios de calentamiento": "Vapor por debajo de 300 ℃; Agua caliente a alta temperatura",
+              "Puntos de servicio típicos": "130/80 ℃ a 95/70 ℃; 115/65 ℃ a 55/80 ℃; 7/12 ℃ a 8/13 ℃"
             },
             "fr": {
-              "Standards referenced on page": "CJ/T191-2004; GB/T29466-2012",
-              "Control modes": "Contrôle de la température; Régulation de débit variable; Régulation de température et de débit",
-              "Automation levels": "Contrôle de température en boucle unique; Contrôle de terrain entièrement automatique; Contrôle de communication à distance sans surveillance",
-              "Heating media": "Vapeur en dessous de 300 ℃; Eau chaude à haute température",
-              "Typical duty points": "130/80℃ à 95/70℃; 115/65℃ à 55/80℃; 7/12℃ à 8/13℃"
+              "Normes référencées sur la page": "CJ/T191-2004; GB/T29466-2012",
+              "Modes de contrôle": "Contrôle de la température; Régulation de débit variable; Régulation de température et de débit",
+              "Niveaux d’automatisation": "Contrôle de température en boucle unique; Contrôle de terrain entièrement automatique; Contrôle de communication à distance sans surveillance",
+              "Fluides chauffants": "Vapeur en dessous de 300 ℃; Eau chaude à haute température",
+              "Points de service typiques": "130/80℃ à 95/70℃; 115/65℃ à 55/80℃; 7/12℃ à 8/13℃"
             },
             "ar": {
-              "Standards referenced on page": "سي جيه/تي 191-2004; جيجابايت/ت 29466-2012",
-              "Control modes": "التحكم في درجة الحرارة. تنظيم التدفق المتغير. تنظيم درجة الحرارة والتدفق",
-              "Automation levels": "التحكم في درجة الحرارة بحلقة واحدة؛ التحكم الميداني التلقائي بالكامل؛ التحكم في الاتصالات عن بعد غير المراقب",
-              "Heating media": "البخار أقل من 300 درجة مئوية؛ الماء الساخن بدرجة حرارة عالية",
-              "Typical duty points": "130/80 درجة مئوية إلى 95/70 درجة مئوية؛ 115/65 درجة مئوية إلى 55/80 درجة مئوية؛ 7/12 درجة مئوية إلى 8/13 درجة مئوية"
+              "المعايير المذكورة في الصفحة": "سي جيه/تي 191-2004; جيجابايت/ت 29466-2012",
+              "أوضاع التحكم": "التحكم في درجة الحرارة. تنظيم التدفق المتغير. تنظيم درجة الحرارة والتدفق",
+              "مستويات الأتمتة": "التحكم في درجة الحرارة بحلقة واحدة؛ التحكم الميداني التلقائي بالكامل؛ التحكم في الاتصالات عن بعد غير المراقب",
+              "وسائط التسخين": "البخار أقل من 300 درجة مئوية؛ الماء الساخن بدرجة حرارة عالية",
+              "نقاط التشغيل النموذجية": "130/80 درجة مئوية إلى 95/70 درجة مئوية؛ 115/65 درجة مئوية إلى 55/80 درجة مئوية؛ 7/12 درجة مئوية إلى 8/13 درجة مئوية"
             }
           },
           "details": {
@@ -980,32 +980,32 @@
               "翅片管类型": "缠绕式L型、双金属轧制DR型、镶嵌式G型、焊接式"
             },
             "ru": {
-              "Gas side pressure": "В пределах ±20 кПа(г)",
-              "Tube side pressure": "Меньше или равно 2,5 МПа",
-              "Base tube materials": "Углеродистая сталь; Медь; Титан; Нержавеющая сталь",
-              "Fin materials": "Алюминиевый сплав; Медь; Углеродистая сталь; Нержавеющая сталь",
-              "Finned tube types": "Рана типа Л; Биметаллический прокат типа ДР; Встроенный тип G; Сварной тип"
+              "Давление со стороны газа": "В пределах ±20 кПа(г)",
+              "Давление со стороны труб": "Меньше или равно 2,5 МПа",
+              "Материалы базовых труб": "Углеродистая сталь; Медь; Титан; Нержавеющая сталь",
+              "Материалы ребер": "Алюминиевый сплав; Медь; Углеродистая сталь; Нержавеющая сталь",
+              "Типы оребренных труб": "Рана типа Л; Биметаллический прокат типа ДР; Встроенный тип G; Сварной тип"
             },
             "es": {
-              "Gas side pressure": "Dentro de ±20kPa(g)",
-              "Tube side pressure": "Menor o igual a 2.5MPa",
-              "Base tube materials": "Acero al carbono; Cobre; Titanio; Acero inoxidable",
-              "Fin materials": "Aleación de aluminio; Cobre; Acero carbono; Acero inoxidable",
-              "Finned tube types": "Herida tipo L; Tipo DR laminado bimetálico; Tipo G integrado; tipo soldado"
+              "Presión del lado gas": "Dentro de ±20kPa(g)",
+              "Presión del lado tubos": "Menor o igual a 2.5MPa",
+              "Materiales de tubo base": "Acero al carbono; Cobre; Titanio; Acero inoxidable",
+              "Materiales de aletas": "Aleación de aluminio; Cobre; Acero carbono; Acero inoxidable",
+              "Tipos de tubos aletados": "Herida tipo L; Tipo DR laminado bimetálico; Tipo G integrado; tipo soldado"
             },
             "fr": {
-              "Gas side pressure": "Dans ±20kPa(g)",
-              "Tube side pressure": "Inférieur ou égal à 2,5MPa",
-              "Base tube materials": "Acier au carbone; Cuivre; Titane; Acier inoxydable",
-              "Fin materials": "Alliage d'aluminium; Cuivre; Acier au carbone; Acier inoxydable",
-              "Finned tube types": "Type de plaie L; Type DR laminé bimétallique; Type G intégré; Type soudé"
+              "Pression côté gaz": "Dans ±20kPa(g)",
+              "Pression côté tubes": "Inférieur ou égal à 2,5MPa",
+              "Matériaux des tubes de base": "Acier au carbone; Cuivre; Titane; Acier inoxydable",
+              "Matériaux des ailettes": "Alliage d'aluminium; Cuivre; Acier au carbone; Acier inoxydable",
+              "Types de tubes à ailettes": "Type de plaie L; Type DR laminé bimétallique; Type G intégré; Type soudé"
             },
             "ar": {
-              "Gas side pressure": "ضمن ± 20 كيلو باسكال (جم)",
-              "Tube side pressure": "أقل من أو يساوي 2.5MPa",
-              "Base tube materials": "الصلب الكربوني؛ نحاس؛ التيتانيوم. الفولاذ المقاوم للصدأ",
-              "Fin materials": "سبائك الألومنيوم. نحاس؛ الصلب الكربوني؛ الفولاذ المقاوم للصدأ",
-              "Finned tube types": "نوع الجرح L؛ توالت ثنائية المعدن نوع DR. نوع G المضمن؛ نوع ملحومة"
+              "ضغط جانب الغاز": "ضمن ± 20 كيلو باسكال (جم)",
+              "ضغط جانب الأنابيب": "أقل من أو يساوي 2.5MPa",
+              "مواد الأنبوب الأساسي": "الصلب الكربوني؛ نحاس؛ التيتانيوم. الفولاذ المقاوم للصدأ",
+              "مواد الزعانف": "سبائك الألومنيوم. نحاس؛ الصلب الكربوني؛ الفولاذ المقاوم للصدأ",
+              "أنواع الأنابيب ذات الزعانف": "نوع الجرح L؛ توالت ثنائية المعدن نوع DR. نوع G المضمن؛ نوع ملحومة"
             }
           },
           "details": {
@@ -1199,24 +1199,24 @@
               "结构": "紧绕或轧制翅片钢管"
             },
             "ru": {
-              "Application": "Нагрев воздуха в сушильных устройствах горячим воздухом",
-              "Heating medium": "Пар или горячая вода",
-              "Structure": "Плотная или катаная оребренная стальная труба"
+              "Применение": "Нагрев воздуха в сушильных устройствах горячим воздухом",
+              "Нагревающая среда": "Пар или горячая вода",
+              "Структура": "Плотная или катаная оребренная стальная труба"
             },
             "es": {
-              "Application": "Calentamiento de aire en dispositivos de secado de aire caliente.",
-              "Heating medium": "Vapor o agua caliente",
-              "Structure": "Tubo de acero con aletas estancas o enrolladas"
+              "Aplicación": "Calentamiento de aire en dispositivos de secado de aire caliente.",
+              "Medio de calentamiento": "Vapor o agua caliente",
+              "Estructura": "Tubo de acero con aletas estancas o enrolladas"
             },
             "fr": {
               "Application": "Chauffage de l'air dans les appareils de séchage à air chaud",
-              "Heating medium": "Vapeur ou eau chaude",
+              "Fluide chauffant": "Vapeur ou eau chaude",
               "Structure": "Tube en acier à ailettes serrées ou roulées"
             },
             "ar": {
-              "Application": "تسخين الهواء في أجهزة التجفيف بالهواء الساخن",
-              "Heating medium": "البخار أو الماء الساخن",
-              "Structure": "أنابيب الصلب ذات الزعانف الضيقة أو المدرفلة"
+              "التطبيق": "تسخين الهواء في أجهزة التجفيف بالهواء الساخن",
+              "وسيط التسخين": "البخار أو الماء الساخن",
+              "الهيكل": "أنابيب الصلب ذات الزعانف الضيقة أو المدرفلة"
             }
           },
           "details": {
@@ -1415,36 +1415,36 @@
               "使用温度": "不可拆400℃；可拆300℃"
             },
             "ru": {
-              "Standards": "ДЖБ/Т4751-2003; ГБ150-1998",
-              "Plate material": "К235Б; СУС304; 316; 316Л; 321",
-              "Plate width": "Углеродистая сталь: 500, 630, 750, 1260, 1500, 2000мм; Нержавеющая сталь: 610, 750, 1220, 1500, 2000 мм.",
-              "Channel spacing": "6,0-32,0 мм опционально",
-              "Pressure rating": "Неразъемный: 4,5 МПа; Съемный: 1,0 МПа",
-              "Maximum operating temperature": "Несъемный: 400 ℃; Съемный: 300 ℃"
+              "Стандарты": "ДЖБ/Т4751-2003; ГБ150-1998",
+              "Материал пластин": "К235Б; СУС304; 316; 316Л; 321",
+              "Ширина пластины": "Углеродистая сталь: 500, 630, 750, 1260, 1500, 2000мм; Нержавеющая сталь: 610, 750, 1220, 1500, 2000 мм.",
+              "Расстояние между каналами": "6,0-32,0 мм опционально",
+              "Класс давления": "Неразъемный: 4,5 МПа; Съемный: 1,0 МПа",
+              "Максимальная рабочая температура": "Несъемный: 400 ℃; Съемный: 300 ℃"
             },
             "es": {
-              "Standards": "JB/T4751-2003; GB150-1998",
-              "Plate material": "Q235B; SUS304; 316; 316L; 321",
-              "Plate width": "Acero al carbono: 500, 630, 750, 1260, 1500, 2000 mm; Acero inoxidable: 610, 750, 1220, 1500, 2000 mm",
-              "Channel spacing": "6,0-32,0 mm opcional",
-              "Pressure rating": "No desmontable: 4,5 MPa; Desmontable: 1.0MPa",
-              "Maximum operating temperature": "No desmontable: 400 ℃; Desmontable: 300 ℃"
+              "Normas": "JB/T4751-2003; GB150-1998",
+              "Material de placas": "Q235B; SUS304; 316; 316L; 321",
+              "Ancho de placa": "Acero al carbono: 500, 630, 750, 1260, 1500, 2000 mm; Acero inoxidable: 610, 750, 1220, 1500, 2000 mm",
+              "Espaciado de canales": "6,0-32,0 mm opcional",
+              "Clase de presión": "No desmontable: 4,5 MPa; Desmontable: 1.0MPa",
+              "Temperatura máxima de operación": "No desmontable: 400 ℃; Desmontable: 300 ℃"
             },
             "fr": {
-              "Standards": "JB/T4751-2003; GB150-1998",
-              "Plate material": "Q235B; SUS304; 316; 316L; 321",
-              "Plate width": "Acier au carbone: 500, 630, 750, 1 260, 1 500, 2 000 mm; Acier inoxydable: 610, 750, 1220, 1500, 2000 mm",
-              "Channel spacing": "6,0-32,0 mm en option",
-              "Pressure rating": "Non détachable: 4,5 MPa; Détachable: 1,0 MPa",
-              "Maximum operating temperature": "Non détachable: 400 ℃; Détachable: 300 ℃"
+              "Normes": "JB/T4751-2003; GB150-1998",
+              "Matériau des plaques": "Q235B; SUS304; 316; 316L; 321",
+              "Largeur des plaques": "Acier au carbone: 500, 630, 750, 1 260, 1 500, 2 000 mm; Acier inoxydable: 610, 750, 1220, 1500, 2000 mm",
+              "Espacement des canaux": "6,0-32,0 mm en option",
+              "Classe de pression": "Non détachable: 4,5 MPa; Détachable: 1,0 MPa",
+              "Température de fonctionnement maximale": "Non détachable: 400 ℃; Détachable: 300 ℃"
             },
             "ar": {
-              "Standards": "جي بي/T4751-2003; GB150-1998",
-              "Plate material": "Q235B؛ SUS304؛ 316؛ 316 لتر؛ 321",
-              "Plate width": "الكربون الصلب: 500، 630، 750، 1260، 1500، 2000 مم؛ الفولاذ المقاوم للصدأ: 610، 750، 1220، 1500، 2000 ملم",
-              "Channel spacing": "6.0-32.0 ملم اختياري",
-              "Pressure rating": "غير قابل للفصل: 4.5 ميجا باسكال؛ قابل للفصل: 1.0 ميجا باسكال",
-              "Maximum operating temperature": "غير قابل للفصل: 400 درجة مئوية؛ قابل للفصل: 300 درجة مئوية"
+              "المعايير": "جي بي/T4751-2003; GB150-1998",
+              "مادة الألواح": "Q235B؛ SUS304؛ 316؛ 316 لتر؛ 321",
+              "عرض اللوح": "الكربون الصلب: 500، 630، 750، 1260، 1500، 2000 مم؛ الفولاذ المقاوم للصدأ: 610، 750، 1220، 1500، 2000 ملم",
+              "تباعد القنوات": "6.0-32.0 ملم اختياري",
+              "تصنيف الضغط": "غير قابل للفصل: 4.5 ميجا باسكال؛ قابل للفصل: 1.0 ميجا باسكال",
+              "أقصى درجة حرارة تشغيل": "غير قابل للفصل: 400 درجة مئوية؛ قابل للفصل: 300 درجة مئوية"
             }
           },
           "details": {

@@ -15,12 +15,13 @@
     "Каждая пара пластин после сварки проходит испытания на герметичность."
   ],
   "technical_parameters": {
-    "Air-Tightness Test": "0,6-0,7 МПа после сварки каждой пары пластин.",
-    "Single Plate Width": "1200 мм",
-    "Maximum Single Plate Length": ">10000 мм"
+    "Ширина одной пластины": "1200 мм",
+    "Испытание на герметичность": "0,6-0,7 МПа после сварки каждой пары пластин.",
+    "Максимальная длина одной пластины": ">10000 мм"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Полностью сварной ширококанальный пластинчатый теплообменник",
     "meta_description": "Цельносварной ширококанальный пластинчатый теплообменник для работы с твердыми частицами, волокнистой суспензией и вязкими жидкостями."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/fully_welded_wide_channel_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

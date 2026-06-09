@@ -15,14 +15,15 @@
     "Добавляет более высокую устойчивость к температуре и давлению, связанную с кожухотрубной работой."
   ],
   "technical_parameters": {
-    "Assembly Area": "≤95м2",
-    "Design Pressure": "Вакуум ~ 10МПа",
-    "Plate Thickness": "0,5 ~ 1,2 мм",
-    "Design Temperature": "-200 ~ 400 ℃",
-    "Minimum Temperature Difference": "2℃"
+    "Площадь сборки": "≤95м2",
+    "Толщина пластины": "0,5 ~ 1,2 мм",
+    "Расчетное давление": "Вакуум ~ 10МПа",
+    "Расчетная температура": "-200 ~ 400 ℃",
+    "Минимальная разность температур": "2℃"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Теплообменник с круглым корпусом",
     "meta_description": "Сварной пластинчатый теплообменник с круглым корпусом, сочетающий в себе эффективность пластин и устойчивость кожухотрубного давления."
@@ -36,6 +37,7 @@
       "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/round_shell_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

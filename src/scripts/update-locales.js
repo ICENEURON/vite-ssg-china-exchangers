@@ -322,6 +322,12 @@ function getProductImageAssets(productId, preferredProductAssets) {
     .sort((a, b) => (a.order || 0) - (b.order || 0));
 }
 
+function getProductApplicationImageAssets(productId, preferredProductAssets) {
+  return preferredProductAssets
+    .filter((asset) => asset.product_id === productId && asset.asset_type === 'application_image')
+    .sort((a, b) => (a.order || 0) - (b.order || 0));
+}
+
 function generateProductLocales() {
   const manufacturers = readJson('manufacturers.json');
   const industries = readJson('industries.json');
@@ -368,12 +374,19 @@ function generateProductLocales() {
         technical_parameters: localizedProduct.technical_parameters,
         video_link: localizedProduct.video_link,
         details: localizedProduct.details,
+        applications: localizedProduct.applications,
         seo_data: localizedProduct.seo_data,
         manufacturer: {
           slug: manufacturerSlug
         },
         images: getProductImageAssets(product.id, preferredProductAssets)
           .map((asset) => ({ alt_text: getLocalizedAssetAltText(asset, languages, lang), url: toAssetUrl(asset) })),
+        application_images: getProductApplicationImageAssets(product.id, preferredProductAssets)
+          .map((asset) => ({
+            alt_text: getLocalizedAssetAltText(asset, languages, lang),
+            url: toAssetUrl(asset),
+            file_name: asset.file_name
+          })),
         certificates: preferredProductAssets
           .filter((asset) => asset.product_id === product.id && asset.asset_type === 'certificate')
           .sort((a, b) => (a.order || 0) - (b.order || 0))

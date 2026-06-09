@@ -18,10 +18,10 @@
     "تسلط الصفحة الضوء على تصميم التموج وتحسينات تثبيت/ختم الحشية من أجل كفاءة النقل والموثوقية."
   ],
   "technical_parameters": {
-    "Referenced Standard": "NB/T47004.1-2017",
-    "Maximum Design Pressure": "3.2 ميجا باسكال",
-    "Maximum Design Temperature": "150 درجة مئوية",
-    "Level-1 Energy-Efficiency Plate Series": "Y5F، Y10B، P15B(H)، Y15B، S15B-H، P15G-Z، Y20B، P45A-H"
+    "أقصى ضغط تصميم": "3.2 ميجا باسكال",
+    "المعيار المرجعي": "NB/T47004.1-2017",
+    "أقصى درجة حرارة تصميم": "150 درجة مئوية",
+    "سلاسل ألواح كفاءة الطاقة من المستوى الأول": "Y5F، Y10B، P15B(H)، Y15B، S15B-H، P15G-Z، Y20B، P45A-H"
   },
   "video_link": "",
   "details": [
@@ -30,6 +30,7 @@
       "content": "تعرض الصفحة الرسمية المنتج كعائلة للمبادلات الحرارية اللوحية ذات الكفاءة في استخدام الطاقة من المستوى الأول، مدعومة بالاختبار والتقييم الوطني ودور الشركة في صياغة معايير المبادلات الحرارية اللوحية."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "مبادل حراري للوحة كفاءة الطاقة الأولية",
     "meta_description": "تم اختبار سلسلة المبادلات الحرارية ذات الألواح ذات الكفاءة في استخدام الطاقة من المستوى الأول وفقًا لقواعد تقييم كفاءة استخدام الطاقة في المبادلات الحرارية في الصين."
@@ -43,6 +44,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/primary_energy_efficiency_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

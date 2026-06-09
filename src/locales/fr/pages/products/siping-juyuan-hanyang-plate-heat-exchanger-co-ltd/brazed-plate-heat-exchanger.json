@@ -17,10 +17,11 @@
     "Plusieurs options de métaux d'apport: matériaux de brasage à base de cuivre, de nickel et de fer."
   ],
   "technical_parameters": {
-    "Brazing Materials": "Feuille de soudure à base de cuivre; pâte à braser à base de nickel; pâte à souder à base de fer"
+    "Matériaux de brasage": "Feuille de soudure à base de cuivre; pâte à braser à base de nickel; pâte à souder à base de fer"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Échangeur de chaleur à plaques brasées",
     "meta_description": "Échangeur de chaleur à plaques brasées compact avec transfert de chaleur à turbulence élevée, résistance à haute température et pression et faible poids."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/brazed_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

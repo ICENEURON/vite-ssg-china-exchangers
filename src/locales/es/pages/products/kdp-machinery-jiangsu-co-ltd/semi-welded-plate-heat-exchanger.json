@@ -1,0 +1,64 @@
+{
+  "slug": "semi-welded-plate-heat-exchanger",
+  "name": "Intercambiador de calor de placas semisoldado",
+  "full_description": "Un intercambiador de placas semisoldado combina cassettes de placas soldadas con uniones con juntas entre cassettes. El canal soldado contiene medios agresivos, tóxicos, refrigerantes o de mayor presión, mientras que el canal con juntas se puede abrir para limpieza y mantenimiento. Este equilibrio resulta útil en refrigeración con amoníaco, enfriamiento químico, petroquímica, HVAC, farmacéutica, alimentos, marina, petróleo y gas y generación de energía.",
+  "industries": [
+    "HVAC",
+    "petroquímica",
+    "Energía",
+    "Procesamiento químico",
+    "Productos farmacéuticos"
+  ],
+  "advantage": [
+    "Los cassettes soldados mejoran la contención de refrigerantes, ácidos y otros medios exigentes.",
+    "Los canales de servicio con juntas pueden abrirse para inspección, limpieza y sustitución de juntas.",
+    "Adecuado para presión y temperatura moderadas cuando no se requiere soldadura completa en ambos lados.",
+    "El lado soldado puede usar titanio, Hastelloy u otras aleaciones para fluidos agresivos.",
+    "La geometría compacta de placas ofrece alta eficiencia térmica y menor volumen retenido.",
+    "Uso habitual en enfriadores de amoníaco, circuitos de enfriamiento químico, servicio marino, petróleo y gas y auxiliares de energía."
+  ],
+  "technical_parameters": {
+    "Materiales": "Acero inoxidable, titanio, Hastelloy y juntas seleccionadas según el medio",
+    "Lado de servicio": "Un canal soldado y un canal con juntas abrible",
+    "Cassette de placas": "Pares de placas soldados por láser en cassettes semisoldados",
+    "Presión de diseño": "Normalmente hasta 25-30 bar según servicio y configuración",
+    "Aplicaciones típicas": "Refrigeración con amoníaco, enfriamiento de ácidos, circuitos químicos, petroquímica, HVAC, marina, petróleo y gas y auxiliares de energía",
+    "Temperatura de diseño": "Normalmente hasta 200°C según juntas y selección de materiales"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Estrategia de dos lados",
+      "content": "El lado soldado maneja el fluido más exigente, mientras que el lado con juntas conserva acceso para agua, glicol u otros medios de servicio."
+    },
+    {
+      "title": "Comprobaciones de selección",
+      "content": "Confirme qué fluido va al lado soldado, compatibilidad de juntas, limpieza en ambos lados, caída de presión permitida y requisitos de seguridad para amoníaco o fluidos peligrosos."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Intercambiador de calor de placas semisoldado",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. suministra intercambiador de calor de placas semisoldado para aplicaciones industriales de transferencia de calor con selección de materiales, presión, temperatura y mantenimiento por proyecto."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Semi-Welded Plate Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Semi-Welded Plate Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Semi-Welded Plate Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_3.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

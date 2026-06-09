@@ -17,12 +17,12 @@
     "Système d'alignement autobloquant"
   ],
   "technical_parameters": {
-    "Maximum design pressure": "25 bars",
-    "Maximum design temperature": "200℃",
-    "Maximum processing capacity": "5 000 m³/heure",
-    "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254",
-    "Maximum Heat Transfer Capacity": "80MW",
-    "Minimum temperature difference": "0,5-1 ℃"
+    "Pression de conception maximale": "25 bars",
+    "Capacité de traitement maximale": "5 000 m³/heure",
+    "Matériau principal de construction": "AISI 304, 316, 316L, TI, SMO254",
+    "Température de conception maximale": "200℃",
+    "Différence minimale de température": "0,5-1 ℃",
+    "Capacité maximale de transfert thermique": "80MW"
   },
   "video_link": "",
   "details": [
@@ -35,6 +35,7 @@
       "content": "La série utilise des plaques à chevrons multi-angles, différentes profondeurs de canal et des rapports d'aspect configurables dans les tailles de ports standard afin que les conceptions puissent être adaptées à différentes tâches et conditions de fonctionnement."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Échangeur de chaleur à plaques haute efficacité AQ/AA",
     "meta_description": "Échangeur de chaleur à plaques et cadres avec joints certifié AHRI pour les systèmes de réfrigération HVAC-R avec géométrie de plaques configurable et efficacité de transfert de chaleur élevée."
@@ -48,6 +49,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/high_efficiency_plate_heat_exchanger_aq_aa.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

@@ -17,10 +17,11 @@
     "خيارات حشو معدنية متعددة: مواد لحام تعتمد على النحاس، والنيكل، والحديد."
   ],
   "technical_parameters": {
-    "Brazing Materials": "رقائق اللحام القائمة على النحاس؛ معجون لحام قائم على النيكل؛ معجون لحام قائم على الحديد"
+    "مواد اللحام بالنحاس": "رقائق اللحام القائمة على النحاس؛ معجون لحام قائم على النيكل؛ معجون لحام قائم على الحديد"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "مبادل حراري لوحة ملحومة",
     "meta_description": "مبادل حراري مدمج من الصفائح النحاسية مع نقل حراري عالي الاضطراب، ودرجة حرارة عالية ومقاومة للضغط، ووزن منخفض."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/brazed_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

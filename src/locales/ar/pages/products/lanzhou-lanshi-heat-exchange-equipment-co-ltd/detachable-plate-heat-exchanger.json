@@ -18,16 +18,17 @@
     "مُدرج رسميًا للاستخدام على نطاق واسع في تطبيقات التدفئة المركزية وتكييف الهواء والتطبيقات البحرية والبترولية والكيميائية والأدوية والمواد الغذائية."
   ],
   "technical_parameters": {
-    "Assembly Area": "≥5000 م2",
-    "Port Diameter": "DN32 ~ DN650",
-    "Design Pressure": "0.6 ~ 2.5MPa",
-    "Plate Thickness": "0.4 ~ 1.0 ملم",
-    "Maximum Capacity": "5000 م 3 / ساعة",
-    "Single Plate Area": "0.03 ~ 4.15 م2",
-    "Design Temperature": "-40 ~ 180 درجة مئوية"
+    "قطر المنفذ": "DN32 ~ DN650",
+    "سماكة اللوح": "0.4 ~ 1.0 ملم",
+    "ضغط التصميم": "0.6 ~ 2.5MPa",
+    "السعة القصوى": "5000 م 3 / ساعة",
+    "مساحة التجميع": "≥5000 م2",
+    "درجة حرارة التصميم": "-40 ~ 180 درجة مئوية",
+    "مساحة اللوح الواحد": "0.03 ~ 4.15 م2"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "مبادل حراري لوحة قابلة للفصل",
     "meta_description": "مبادل لوحي قابل للفصل للتدفئة والتبريد والتبخر والتكثيف والتعقيم واستعادة الحرارة."
@@ -41,6 +42,7 @@
       "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/detachable_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

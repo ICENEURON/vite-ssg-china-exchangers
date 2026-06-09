@@ -1,0 +1,68 @@
+{
+  "slug": "fully-welded-plate-heat-exchanger",
+  "name": "Intercambiador de calor de placas totalmente soldado",
+  "full_description": "Un intercambiador de placas totalmente soldado utiliza un paquete permanente de placas corrugadas soldadas en lugar de canales de transferencia de calor con juntas. La estructura mejora la contención de fluidos exigentes y conserva el rendimiento compacto de transferencia térmica para petroquímica, refinación, química, farmacéutica, energía, geotermia y procesos de alta pureza.",
+  "industries": [
+    "petroquímica",
+    "Energía",
+    "Procesamiento químico",
+    "Productos farmacéuticos",
+    "Generación de energía"
+  ],
+  "advantage": [
+    "El núcleo sin juntas reduce los puntos de fuga externa y el trabajo de sustitución de juntas.",
+    "Los canales corrugados soldados ofrecen alta eficiencia térmica en una huella compacta.",
+    "Adecuado para medios peligrosos, de alto valor, corrosivos, de alta presión y alta temperatura cuando se seleccionan materiales apropiados.",
+    "La menor necesidad de mantenimiento rutinario favorece líneas de proceso continuas.",
+    "La limpieza CIP y la planificación de inspección pueden ajustarse al comportamiento de ensuciamiento del fluido.",
+    "Las opciones de material incluyen acero inoxidable, titanio, Hastelloy y otras aleaciones resistentes a la corrosión."
+  ],
+  "technical_parameters": {
+    "Materiales": "Acero inoxidable, titanio, Hastelloy y otras aleaciones resistentes a la corrosión",
+    "Paquete de placas": "Haz permanente de placas corrugadas soldadas",
+    "Presión de diseño": "Hasta 40 bar; diseños especiales hasta 100 bar",
+    "Sellado del núcleo": "Sin juntas en el núcleo de transferencia de calor",
+    "Aplicaciones típicas": "Petroquímica, refinación, química, farmacéutica, energía, geotermia y servicios de alta pureza",
+    "Temperatura de diseño": "-50°C a +350°C con materiales adecuados"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Cuándo seleccionarlo",
+      "content": "Seleccione este diseño cuando la contención de fugas, alta presión, alta temperatura, resistencia a la corrosión o menor mantenimiento de juntas sea más importante que el acceso mecánico completo a cada canal."
+    },
+    {
+      "title": "Enfoque de ingeniería",
+      "content": "El proyecto debe confirmar presión nominal, programa de temperatura, compatibilidad de materiales, expansión térmica, método de limpieza, requisitos de soldadura y prueba hidrostática final."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Intercambiador de calor de placas totalmente soldado",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. suministra intercambiador de calor de placas totalmente soldado para aplicaciones industriales de transferencia de calor con selección de materiales, presión, temperatura y mantenimiento por proyecto."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_3.png"
+    },
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 4",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_4.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

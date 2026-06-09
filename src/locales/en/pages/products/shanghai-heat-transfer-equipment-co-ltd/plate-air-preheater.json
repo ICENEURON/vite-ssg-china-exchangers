@@ -38,6 +38,24 @@
       "content": "The product is based on modular heat transfer units such as X brick, E brick, C brick, and S brick, which simplify transportation and on-site assembly for large systems. Design also considers material selection, airflow configuration, thermal stress management, and corrosion protection. Measures such as thermal compensation, expansion joints, low-CTE material use, predictive analysis, and bypass control help ensure durability, heat recovery performance, and operational safety."
     }
   ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Boiler combustion air preheating",
+        "Furnace and kiln exhaust heat recovery",
+        "Chemical flue gas heat recovery",
+        "Power and metallurgical waste heat recovery"
+      ],
+      "advantages": [
+        "Compared with tubular air preheaters, the plate structure provides larger heat-transfer area per unit volume and lower equipment weight.",
+        "Modular assembly supports flexible sizing for different exhaust gas volumes and temperature programs.",
+        "Corrosion-resistant materials, bypass arrangements, and air-film designs can help manage dew-point corrosion risks."
+      ],
+      "application": "Industrial flue gas waste heat recovery",
+      "description": "Plate Air Preheater recovers heat from hot flue gas or exhaust gas and transfers it to incoming combustion air or process air. This gas-to-gas heat exchange duty improves system efficiency, reduces fuel consumption, and supports energy-saving operation in boilers, furnaces, kilns, and process plants."
+    }
+  ],
   "seo_data": {
     "meta_title": "Plate Air Preheater",
     "meta_description": "Modular plate air preheater for industrial waste heat recovery with high thermal efficiency and dew point corrosion protection."
@@ -61,6 +79,13 @@
     {
       "alt_text": "Plate Air Preheater Detail",
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "Plate air preheater for industrial flue gas waste heat recovery",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/plate_air_preheater_waste_heat_recovery_application.png",
+      "file_name": "plate_air_preheater_waste_heat_recovery_application.png"
     }
   ],
   "certificates": [

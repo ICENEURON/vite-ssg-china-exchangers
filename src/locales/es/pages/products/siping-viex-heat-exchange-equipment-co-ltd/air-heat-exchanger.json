@@ -16,11 +16,11 @@
     "Diseñado para servicio confiable en frío y calor a largo plazo"
   ],
   "technical_parameters": {
-    "Fin materials": "Aleación de aluminio; Cobre; Acero carbono; Acero inoxidable",
-    "Finned tube types": "Herida tipo L; Tipo DR laminado bimetálico; Tipo G integrado; tipo soldado",
-    "Gas side pressure": "Dentro de ±20kPa(g)",
-    "Tube side pressure": "Menor o igual a 2.5MPa",
-    "Base tube materials": "Acero al carbono; Cobre; Titanio; Acero inoxidable"
+    "Materiales de aletas": "Aleación de aluminio; Cobre; Acero carbono; Acero inoxidable",
+    "Presión del lado gas": "Dentro de ±20kPa(g)",
+    "Materiales de tubo base": "Acero al carbono; Cobre; Titanio; Acero inoxidable",
+    "Presión del lado tubos": "Menor o igual a 2.5MPa",
+    "Tipos de tubos aletados": "Herida tipo L; Tipo DR laminado bimetálico; Tipo G integrado; tipo soldado"
   },
   "video_link": "",
   "details": [
@@ -33,6 +33,7 @@
       "content": "La página enfatiza los tubos con aletas, especialmente los tubos laminados bimetálicos tipo DR de uso común, junto con una estructura compacta, una gran área de transferencia de calor por unidad de volumen y un rendimiento anticorrosión confiable a largo plazo."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Intercambiador de calor de aire | Siping ViEX",
     "meta_description": "Intercambiador de calor de aire de tubos con aletas para tareas de calefacción, refrigeración, condensación, deshumidificación y secado en aplicaciones industriales."
@@ -46,6 +47,7 @@
       "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_heat_exchanger.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

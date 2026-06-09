@@ -13,14 +13,15 @@
     "تم تطويره لعملية التسخين والتبريد في خدمات السكر والورق والمعادن والكحول والمواد الكيميائية والمواد الغذائية ووقود الإيثانول."
   ],
   "technical_parameters": {
-    "Assembly Area": "≥3000 م2",
-    "Design Pressure": "فراغ ~ 3.5MPa",
-    "Plate Thickness": "1.0 ~ 2.0 ملم",
-    "Design Temperature": "≥450 درجة مئوية",
-    "Minimum Temperature Difference": "1 درجة مئوية"
+    "سماكة اللوح": "1.0 ~ 2.0 ملم",
+    "ضغط التصميم": "فراغ ~ 3.5MPa",
+    "مساحة التجميع": "≥3000 م2",
+    "درجة حرارة التصميم": "≥450 درجة مئوية",
+    "أدنى فرق في درجة الحرارة": "1 درجة مئوية"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "مبادل حراري للوحة ملحومة واسعة القناة",
     "meta_description": "مبادل لوحة ملحومة ذات فجوة واسعة للوسائط اللزجة والألياف والجسيمات الصلبة."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/wide_channel_welded_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

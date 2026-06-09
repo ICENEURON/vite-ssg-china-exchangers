@@ -14,13 +14,14 @@
     "Подходит для условий более высокого давления и температуры, чем обычное оборудование со съемными пластинами."
   ],
   "technical_parameters": {
-    "Assembly Area": "≤2500㎡",
-    "Design Pressure": "Вакуум ~ 3,2 МПа",
-    "Design Temperature": "-200 ~ 350 ℃",
-    "Minimum Temperature Difference": "2℃"
+    "Площадь сборки": "≤2500㎡",
+    "Расчетное давление": "Вакуум ~ 3,2 МПа",
+    "Расчетная температура": "-200 ~ 350 ℃",
+    "Минимальная разность температур": "2℃"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Сварной пластинчатый теплообменник LS-BLOC",
     "meta_description": "Съемный цельносварной пластинчатый теплообменник с шестигранной головкой для работы в условиях высокого давления и высоких температур."
@@ -38,6 +39,7 @@
       "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_and_frame_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

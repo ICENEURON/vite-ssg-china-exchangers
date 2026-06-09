@@ -16,12 +16,12 @@
     "Peso ligero y ahorro de espacio: la alta densidad de superficie ofrece una temperatura cercana, menor peso y una excelente utilización del espacio."
   ],
   "technical_parameters": {
-    "Channel Width": "0,4 ~ 4mm",
-    "Plate Material": "304, 316L, 2205, TA1 y aleación de titanio, aleación de alta temperatura",
-    "Plate Thickness": "0,4 ~ 4mm",
-    "Design Temperature": "-196 ~ 850℃",
-    "Heat Transfer Area": "8000㎡",
-    "Max Design Pressure": "1000 barras"
+    "Ancho de canal": "0,4 ~ 4mm",
+    "Espesor de placa": "0,4 ~ 4mm",
+    "Material de placas": "304, 316L, 2205, TA1 y aleación de titanio, aleación de alta temperatura",
+    "Temperatura de diseño": "-196 ~ 850℃",
+    "Presión máxima de diseño": "1000 barras",
+    "Área de transferencia de calor": "8000㎡"
   },
   "video_link": "",
   "details": [
@@ -36,6 +36,40 @@
     {
       "title": "¿Cómo se diseña y fabrica?",
       "content": "El diseño PCHE combina análisis termohidráulico, optimización de la geometría de microcanales, ingeniería de materiales y capacidad de fabricación. Después de seleccionar los materiales base y el espesor de la placa, el patrón del canal se transfiere mediante una fotomáscara y se graba químicamente, se limpia, se apila, se une por difusión en un horno de vacío y luego se completa mediante el ensamblaje del cabezal, las pruebas de fugas y la validación del rendimiento térmico."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Descarbonización de gas natural offshore",
+        "Enfriamiento y recuperación de calor de gas rico en CO2",
+        "Módulos de proceso FPSO y plataformas offshore",
+        "Gestión térmica de gas ácido o corrosivo"
+      ],
+      "advantages": [
+        "En comparación con intercambiadores de carcasa y tubos, el núcleo microcanal unido por difusión reduce mucho tamaño y peso en módulos offshore.",
+        "En comparación con equipos con juntas, el núcleo sólido unido elimina el riesgo de fugas de juntas en gas de alta presión.",
+        "La capacidad de alta presión y la selección de materiales resistentes a corrosión soportan gas natural rico en CO2."
+      ],
+      "application": "Descarbonización de gas offshore",
+      "description": "El intercambiador de calor de circuito impreso es adecuado para intercambio térmico compacto y de alta presión en proyectos offshore de descarbonización de gas. Para servicio con gas rico en CO2 y corrosivo, puede diseñarse y fabricarse según ASME, respaldarse con certificación de terceros y configurarse para cumplir requisitos NACE de control de corrosión."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Enfriamiento de hidrógeno",
+        "Enfriamiento de gas de alta presión",
+        "Sistemas de energía de hidrógeno",
+        "Gestión térmica de procesos de celdas de combustible"
+      ],
+      "advantages": [
+        "En comparación con intercambiadores convencionales, el PCHE ofrece alta densidad de área de transferencia para paquetes compactos de hidrógeno.",
+        "El núcleo unido evita superficies de sellado con juntas en servicio de hidrógeno de alta presión.",
+        "La construcción microcanal permite enfriamiento preciso donde el control de temperatura y la huella son críticos."
+      ],
+      "application": "Enfriamiento de hidrógeno",
+      "description": "El intercambiador de circuito impreso es adecuado para enfriamiento de hidrógeno de alta presión y control de temperatura. Sus microcanales grabados químicamente y núcleo unido por difusión ofrecen transferencia térmica compacta, resistencia a presión y construcción resistente a fugas para sistemas de hidrógeno."
     }
   ],
   "seo_data": {
@@ -59,6 +93,7 @@
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_3.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [
     {
       "alt_text": "ASME Certificate",

@@ -15,12 +15,13 @@
     "Cada par de placas se somete a pruebas de estanqueidad después de soldar."
   ],
   "technical_parameters": {
-    "Air-Tightness Test": "0,6-0,7 MPa después de soldar cada par de placas",
-    "Single Plate Width": "1200 mm",
-    "Maximum Single Plate Length": ">10000mm"
+    "Prueba de hermeticidad": "0,6-0,7 MPa después de soldar cada par de placas",
+    "Ancho de placa individual": "1200 mm",
+    "Longitud máxima de placa individual": ">10000mm"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Intercambiador de calor de placas de canal ancho completamente soldado",
     "meta_description": "Intercambiador de calor de placas de canal ancho completamente soldado para tareas de partículas sólidas, suspensión de fibras y fluidos viscosos."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/fully_welded_wide_channel_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

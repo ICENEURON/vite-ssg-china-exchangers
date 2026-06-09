@@ -9,6 +9,11 @@ import { ManufacturerCard } from "./components/ManufacturerCard"
 import { HeroSection } from "./components/HeroSection"
 import { useCurrentLanguage, addLanguageToPath } from "../../utils/language-routing"
 import manufacturerScores from "../../data/manufacturer_scores.json"
+import {
+  getManufacturerScoreRecords,
+  getManufacturerSortOrder,
+  type ManufacturerScoreSource,
+} from "../../utils/manufacturer-ranking"
 
 interface Manufacturer {
   id: string;
@@ -31,23 +36,7 @@ interface Industry {
   name: string;
 }
 
-interface ManufacturerScoreRecord {
-  manufacturer_slug: string;
-  order: number;
-}
-
-interface ManufacturerScoreFile {
-  records: ManufacturerScoreRecord[];
-}
-
-type ManufacturerScoreSource = ManufacturerScoreRecord[] | ManufacturerScoreFile;
 type ManufacturerDropdown = "industry";
-
-const fallbackManufacturerOrder = 999;
-
-function getManufacturerScoreRecords(source: ManufacturerScoreSource) {
-  return Array.isArray(source) ? source : source.records;
-}
 
 export default function ManufacturersPage() {
   const { t } = useTranslation();
@@ -91,7 +80,7 @@ export default function ManufacturersPage() {
   ), []);
 
   const rankedManufacturers = useMemo(() => manufacturers.map((manufacturer) => {
-    const order = signalsBySlug.get(manufacturer.slug)?.order ?? fallbackManufacturerOrder;
+    const order = getManufacturerSortOrder(manufacturer.slug, signalsBySlug);
 
     return {
       ...manufacturer,
@@ -114,7 +103,7 @@ export default function ManufacturersPage() {
       return matchesIndustry;
     });
 
-    return [...filtered].sort((a, b) => a.ranking.order - b.ranking.order);
+    return [...filtered].sort((a, b) => a.ranking.order - b.ranking.order || (a.name || "").localeCompare(b.name || ""));
   }, [selectedIndustrySlugs, rankedManufacturers, industries]);
 
   const selectedIndustries = useMemo(() =>

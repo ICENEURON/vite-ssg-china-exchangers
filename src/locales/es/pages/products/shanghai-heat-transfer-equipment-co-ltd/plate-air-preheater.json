@@ -17,11 +17,11 @@
     "Seguro y fácil de mantener: los paquetes de placas completamente soldados ofrecen un buen rendimiento de sellado, bajo riesgo de fugas, reducción de la acumulación de cenizas y una limpieza y mantenimiento convenientes, incluidas opciones de limpieza en línea."
   ],
   "technical_parameters": {
-    "Max Area": "40000㎡",
-    "Plate Material": "304, 316L, 2205, 310S, 904L, Corten-A",
-    "Design Pressure": "Vacío ~ 0,6 MPa",
-    "Plate Thickness": "0,6 ~ 2,0 mm",
-    "Design Temperature": "-20 ~ 800℃"
+    "Área máxima": "40000㎡",
+    "Espesor de placa": "0,6 ~ 2,0 mm",
+    "Material de placas": "304, 316L, 2205, 310S, 904L, Corten-A",
+    "Presión de diseño": "Vacío ~ 0,6 MPa",
+    "Temperatura de diseño": "-20 ~ 800℃"
   },
   "video_link": "",
   "details": [
@@ -36,6 +36,24 @@
     {
       "title": "¿Cómo se diseña y fabrica?",
       "content": "El producto se basa en unidades modulares de transferencia de calor, como ladrillos X, ladrillos E, ladrillos C y ladrillos S, que simplifican el transporte y el montaje in situ para sistemas grandes. El diseño también considera la selección de materiales, la configuración del flujo de aire, el manejo del estrés térmico y la protección contra la corrosión. Medidas como la compensación térmica, las juntas de expansión, el uso de materiales con bajo CTE, el análisis predictivo y el control de derivación ayudan a garantizar la durabilidad, el rendimiento de la recuperación de calor y la seguridad operativa."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Precalentamiento de aire de combustión de calderas",
+        "Recuperación de calor de hornos y kilns",
+        "Recuperación de calor de gases químicos",
+        "Recuperación de calor en energía y metalurgia"
+      ],
+      "advantages": [
+        "En comparación con precalentadores tubulares, la estructura de placas ofrece mayor área por unidad de volumen y menor peso.",
+        "El montaje modular permite dimensionamiento flexible para diferentes caudales de gas y programas de temperatura.",
+        "Materiales resistentes a corrosión, bypass y diseño de película de aire ayudan a controlar corrosión por punto de rocío."
+      ],
+      "application": "Recuperación de calor de gases de combustión industriales",
+      "description": "El precalentador de aire de placas recupera calor de gases de combustión o escape calientes y lo transfiere al aire de combustión o de proceso entrante. Este intercambio gas-gas mejora eficiencia, reduce consumo de combustible y apoya operación de ahorro energético en calderas, hornos, kilns y plantas de proceso."
     }
   ],
   "seo_data": {
@@ -61,6 +79,13 @@
     {
       "alt_text": "Plate Air Preheater Detail",
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "Plate air preheater for industrial flue gas waste heat recovery",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/plate_air_preheater_waste_heat_recovery_application.png",
+      "file_name": "plate_air_preheater_waste_heat_recovery_application.png"
     }
   ],
   "certificates": [

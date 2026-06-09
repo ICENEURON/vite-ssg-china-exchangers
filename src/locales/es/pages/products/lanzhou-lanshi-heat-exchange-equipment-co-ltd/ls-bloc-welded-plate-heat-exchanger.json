@@ -14,13 +14,14 @@
     "Adecuado para condiciones de presión y temperatura más altas que los equipos de placa desmontable convencionales."
   ],
   "technical_parameters": {
-    "Assembly Area": "≤2500㎡",
-    "Design Pressure": "Vacío ~ 3,2 MPa",
-    "Design Temperature": "-200 ~ 350℃",
-    "Minimum Temperature Difference": "2℃"
+    "Presión de diseño": "Vacío ~ 3,2 MPa",
+    "Área de ensamblaje": "≤2500㎡",
+    "Temperatura de diseño": "-200 ~ 350℃",
+    "Diferencia mínima de temperatura": "2℃"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Intercambiador de calor de placas soldadas LS-BLOC",
     "meta_description": "Intercambiador de placas totalmente soldadas extraíbles en forma de hexaedro para procesos de alta presión y alta temperatura."
@@ -38,6 +39,7 @@
       "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_and_frame_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

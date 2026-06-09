@@ -16,11 +16,12 @@
     "شهادة تسجيل السلامة B2-B3 المدرجة رسميًا للمبادلات الحرارية ذات الألواح الملحومة."
   ],
   "technical_parameters": {
-    "Welding Method": "لحام ألياف الليزر واللحام باستخدام الحاسب الآلي",
-    "Safety Registration": "تسجيل سلامة المبادل الحراري للوحة الملحومة من المستوى B2-B3"
+    "طريقة اللحام": "لحام ألياف الليزر واللحام باستخدام الحاسب الآلي",
+    "تسجيل السلامة": "تسجيل سلامة المبادل الحراري للوحة الملحومة من المستوى B2-B3"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "مبادل حراري للوحة شبه ملحومة",
     "meta_description": "مبادل حراري للوحة شبه ملحومة يستخدم عمليات اللحام بالليزر ولحام أزواج الألواح للمهام التي يتطلب فيها جانب واحد إحكامًا ملحومًا."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

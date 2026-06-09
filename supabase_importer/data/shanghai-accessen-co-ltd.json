@@ -380,48 +380,48 @@
               "电源": "380V~415VAC/50±1Hz"
             },
             "ru": {
-              "Storage Temperature Range": "-40°К~70°К",
-              "Operating Temperature Range": "5°К~50°К",
-              "Operating Relative Humidity": "5%~95%",
-              "Altitude Range": "-30м~2500м",
-              "Primary Side Coolant": "Растворы на основе воды/этиленгликоля",
-              "Primary Filtration Rating": "200 мкм~300 мкм",
-              "Secondary Side Coolant": "Деионизированная вода/ этиленгликоль/ пропиленгликоль/фторированные жидкости",
-              "Secondary Filtration Rating": "100 мкм~200 мкм",
-              "Power Supply": "380 В~415 В переменного тока/50 ± 1 Гц"
+              "Диапазон температуры хранения": "-40°К~70°К",
+              "Диапазон рабочих температур": "5°К~50°К",
+              "Рабочая относительная влажность": "5%~95%",
+              "Диапазон высоты": "-30м~2500м",
+              "Охлаждающая среда первичной стороны": "Растворы на основе воды/этиленгликоля",
+              "Степень первичной фильтрации": "200 мкм~300 мкм",
+              "Охлаждающая среда вторичной стороны": "Деионизированная вода/ этиленгликоль/ пропиленгликоль/фторированные жидкости",
+              "Степень вторичной фильтрации": "100 мкм~200 мкм",
+              "Электропитание": "380 В~415 В переменного тока/50 ± 1 Гц"
             },
             "es": {
-              "Storage Temperature Range": "-40°C~70°C",
-              "Operating Temperature Range": "5°C~50°C",
-              "Operating Relative Humidity": "5%~95%",
-              "Altitude Range": "-30m~2500m",
-              "Primary Side Coolant": "Soluciones a base de agua/etilenglicol",
-              "Primary Filtration Rating": "200μm~300μm",
-              "Secondary Side Coolant": "Agua desionizada/Etilenglicol/Propilenglicol/Fluidos fluorados",
-              "Secondary Filtration Rating": "100μm~200μm",
-              "Power Supply": "380V~415VCA/50±1Hz"
+              "Rango de temperatura de almacenamiento": "-40°C~70°C",
+              "Rango de temperatura de operación": "5°C~50°C",
+              "Humedad relativa de operación": "5%~95%",
+              "Rango de altitud": "-30m~2500m",
+              "Refrigerante del lado primario": "Soluciones a base de agua/etilenglicol",
+              "Grado de filtración primaria": "200μm~300μm",
+              "Refrigerante del lado secundario": "Agua desionizada/Etilenglicol/Propilenglicol/Fluidos fluorados",
+              "Grado de filtración secundaria": "100μm~200μm",
+              "Alimentación eléctrica": "380V~415VCA/50±1Hz"
             },
             "fr": {
-              "Storage Temperature Range": "-40°C~70°C",
-              "Operating Temperature Range": "5°C~50°C",
-              "Operating Relative Humidity": "5% ~ 95%",
-              "Altitude Range": "-30m~2500m",
-              "Primary Side Coolant": "Solutions à base d'eau/éthylène glycol",
-              "Primary Filtration Rating": "200 μm ~ 300 μm",
-              "Secondary Side Coolant": "Eau désionisée/éthylèneglycol/propylèneglycol/fluides fluorés",
-              "Secondary Filtration Rating": "100 μm ~ 200 μm",
-              "Power Supply": "380 V~415 VCA/50 ± 1 Hz"
+              "Plage de température de stockage": "-40°C~70°C",
+              "Plage de température de fonctionnement": "5°C~50°C",
+              "Humidité relative de fonctionnement": "5% ~ 95%",
+              "Plage d’altitude": "-30m~2500m",
+              "Fluide de refroidissement côté primaire": "Solutions à base d'eau/éthylène glycol",
+              "Degré de filtration primaire": "200 μm ~ 300 μm",
+              "Fluide de refroidissement côté secondaire": "Eau désionisée/éthylèneglycol/propylèneglycol/fluides fluorés",
+              "Degré de filtration secondaire": "100 μm ~ 200 μm",
+              "Alimentation électrique": "380 V~415 VCA/50 ± 1 Hz"
             },
             "ar": {
-              "Storage Temperature Range": "-40 درجة مئوية ~ 70 درجة مئوية",
-              "Operating Temperature Range": "5 درجة مئوية ~ 50 درجة مئوية",
-              "Operating Relative Humidity": "5%~95%",
-              "Altitude Range": "-30 م ~ 2500 م",
-              "Primary Side Coolant": "المحاليل المعتمدة على الماء/ الإيثيلين جلايكول",
-              "Primary Filtration Rating": "200 ميكرومتر ~ 300 ميكرومتر",
-              "Secondary Side Coolant": "الماء منزوع الأيونات / إيثيلين جليكول / بروبيلين جليكول / السوائل المفلورة",
-              "Secondary Filtration Rating": "100 ميكرومتر ~ 200 ميكرومتر",
-              "Power Supply": "380 فولت ~ 415 فولت تيار متردد/50±1 هرتز"
+              "نطاق درجة حرارة التخزين": "-40 درجة مئوية ~ 70 درجة مئوية",
+              "نطاق درجة حرارة التشغيل": "5 درجة مئوية ~ 50 درجة مئوية",
+              "الرطوبة النسبية للتشغيل": "5%~95%",
+              "نطاق الارتفاع": "-30 م ~ 2500 م",
+              "مبرد الجانب الأولي": "المحاليل المعتمدة على الماء/ الإيثيلين جلايكول",
+              "تصنيف الترشيح الأولي": "200 ميكرومتر ~ 300 ميكرومتر",
+              "مبرد الجانب الثانوي": "الماء منزوع الأيونات / إيثيلين جليكول / بروبيلين جليكول / السوائل المفلورة",
+              "تصنيف الترشيح الثانوي": "100 ميكرومتر ~ 200 ميكرومتر",
+              "مصدر الطاقة": "380 فولت ~ 415 فولت تيار متردد/50±1 هرتز"
             }
           },
           "details": {
@@ -628,48 +628,48 @@
               "电源": "380V~415VAC/50±1Hz"
             },
             "ru": {
-              "Storage Temperature Range": "-40°К~70°К",
-              "Operating Temperature Range": "5°К~50°К",
-              "Operating Relative Humidity": "5%~95%",
-              "Altitude Range": "-30м~2500м",
-              "Primary Side Coolant": "Охлаждающие жидкости на водной/гликолевой основе",
-              "Primary Side Filtration Rating": "200 мкм~300 мкм",
-              "Secondary Side Coolant": "Деионизированная вода, гликоль, пропиленгликоль, фторированные жидкости",
-              "Secondary Side Filtration Rating": "100 мкм~200 мкм",
-              "Power Supply": "380 В~415 В переменного тока/50 ± 1 Гц"
+              "Диапазон температуры хранения": "-40°К~70°К",
+              "Диапазон рабочих температур": "5°К~50°К",
+              "Рабочая относительная влажность": "5%~95%",
+              "Диапазон высоты": "-30м~2500м",
+              "Охлаждающая среда первичной стороны": "Охлаждающие жидкости на водной/гликолевой основе",
+              "Степень фильтрации первичной стороны": "200 мкм~300 мкм",
+              "Охлаждающая среда вторичной стороны": "Деионизированная вода, гликоль, пропиленгликоль, фторированные жидкости",
+              "Степень фильтрации вторичной стороны": "100 мкм~200 мкм",
+              "Электропитание": "380 В~415 В переменного тока/50 ± 1 Гц"
             },
             "es": {
-              "Storage Temperature Range": "-40°C~70°C",
-              "Operating Temperature Range": "5°C~50°C",
-              "Operating Relative Humidity": "5%~95%",
-              "Altitude Range": "-30m~2500m",
-              "Primary Side Coolant": "Refrigerantes a base de agua/glicol",
-              "Primary Side Filtration Rating": "200μm~300μm",
-              "Secondary Side Coolant": "Agua desionizada, glicol, propilenglicol, fluidos fluorados",
-              "Secondary Side Filtration Rating": "100μm~200μm",
-              "Power Supply": "380V~415VCA/50±1Hz"
+              "Rango de temperatura de almacenamiento": "-40°C~70°C",
+              "Rango de temperatura de operación": "5°C~50°C",
+              "Humedad relativa de operación": "5%~95%",
+              "Rango de altitud": "-30m~2500m",
+              "Refrigerante del lado primario": "Refrigerantes a base de agua/glicol",
+              "Grado de filtración del lado primario": "200μm~300μm",
+              "Refrigerante del lado secundario": "Agua desionizada, glicol, propilenglicol, fluidos fluorados",
+              "Grado de filtración del lado secundario": "100μm~200μm",
+              "Alimentación eléctrica": "380V~415VCA/50±1Hz"
             },
             "fr": {
-              "Storage Temperature Range": "-40°C~70°C",
-              "Operating Temperature Range": "5°C~50°C",
-              "Operating Relative Humidity": "5% ~ 95%",
-              "Altitude Range": "-30m~2500m",
-              "Primary Side Coolant": "Liquides de refroidissement à base d'eau/glycol",
-              "Primary Side Filtration Rating": "200 μm ~ 300 μm",
-              "Secondary Side Coolant": "Eau désionisée, glycol, propylène glycol, fluides fluorés",
-              "Secondary Side Filtration Rating": "100 μm ~ 200 μm",
-              "Power Supply": "380 V~415 VCA/50 ± 1 Hz"
+              "Plage de température de stockage": "-40°C~70°C",
+              "Plage de température de fonctionnement": "5°C~50°C",
+              "Humidité relative de fonctionnement": "5% ~ 95%",
+              "Plage d’altitude": "-30m~2500m",
+              "Fluide de refroidissement côté primaire": "Liquides de refroidissement à base d'eau/glycol",
+              "Degré de filtration côté primaire": "200 μm ~ 300 μm",
+              "Fluide de refroidissement côté secondaire": "Eau désionisée, glycol, propylène glycol, fluides fluorés",
+              "Degré de filtration côté secondaire": "100 μm ~ 200 μm",
+              "Alimentation électrique": "380 V~415 VCA/50 ± 1 Hz"
             },
             "ar": {
-              "Storage Temperature Range": "-40 درجة مئوية ~ 70 درجة مئوية",
-              "Operating Temperature Range": "5 درجة مئوية ~ 50 درجة مئوية",
-              "Operating Relative Humidity": "5%~95%",
-              "Altitude Range": "-30 م ~ 2500 م",
-              "Primary Side Coolant": "المبردات المعتمدة على الماء/الجليكول",
-              "Primary Side Filtration Rating": "200 ميكرومتر ~ 300 ميكرومتر",
-              "Secondary Side Coolant": "الماء منزوع الأيونات، جليكول، بروبيلين جليكول، السوائل المفلورة",
-              "Secondary Side Filtration Rating": "100 ميكرومتر ~ 200 ميكرومتر",
-              "Power Supply": "380 فولت ~ 415 فولت تيار متردد/50±1 هرتز"
+              "نطاق درجة حرارة التخزين": "-40 درجة مئوية ~ 70 درجة مئوية",
+              "نطاق درجة حرارة التشغيل": "5 درجة مئوية ~ 50 درجة مئوية",
+              "الرطوبة النسبية للتشغيل": "5%~95%",
+              "نطاق الارتفاع": "-30 م ~ 2500 م",
+              "مبرد الجانب الأولي": "المبردات المعتمدة على الماء/الجليكول",
+              "تصنيف ترشيح الجانب الأولي": "200 ميكرومتر ~ 300 ميكرومتر",
+              "مبرد الجانب الثانوي": "الماء منزوع الأيونات، جليكول، بروبيلين جليكول، السوائل المفلورة",
+              "تصنيف ترشيح الجانب الثانوي": "100 ميكرومتر ~ 200 ميكرومتر",
+              "مصدر الطاقة": "380 فولت ~ 415 فولت تيار متردد/50±1 هرتز"
             }
           },
           "details": {
@@ -886,32 +886,32 @@
               "主要结构材料": "AISI 304, 316, 316L, TI, SMO254..."
             },
             "ru": {
-              "Maximum processing capacity": "5000 м³/ч",
-              "Maximum design pressure": "25 бар",
-              "Minimum temperature difference": "0,5-1℃",
-              "Maximum design temperature": "200℃",
-              "Primary Construction Material": "AISI 304, 316, 316L, ТИ, СМО254..."
+              "Максимальная производительность": "5000 м³/ч",
+              "Максимальное расчетное давление": "25 бар",
+              "Минимальная разность температур": "0,5-1℃",
+              "Максимальная расчетная температура": "200℃",
+              "Основной конструкционный материал": "AISI 304, 316, 316L, ТИ, СМО254..."
             },
             "es": {
-              "Maximum processing capacity": "5.000 m³/h",
-              "Maximum design pressure": "25bar",
-              "Minimum temperature difference": "0,5-1 ℃",
-              "Maximum design temperature": "200℃",
-              "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254..."
+              "Capacidad máxima de procesamiento": "5.000 m³/h",
+              "Presión máxima de diseño": "25bar",
+              "Diferencia mínima de temperatura": "0,5-1 ℃",
+              "Temperatura máxima de diseño": "200℃",
+              "Material principal de construcción": "AISI 304, 316, 316L, TI, SMO254..."
             },
             "fr": {
-              "Maximum processing capacity": "5 000 m³/heure",
-              "Maximum design pressure": "25 bars",
-              "Minimum temperature difference": "0,5-1 ℃",
-              "Maximum design temperature": "200℃",
-              "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254..."
+              "Capacité de traitement maximale": "5 000 m³/heure",
+              "Pression de conception maximale": "25 bars",
+              "Différence minimale de température": "0,5-1 ℃",
+              "Température de conception maximale": "200℃",
+              "Matériau principal de construction": "AISI 304, 316, 316L, TI, SMO254..."
             },
             "ar": {
-              "Maximum processing capacity": "5,000 م³/ساعة",
-              "Maximum design pressure": "25 بار",
-              "Minimum temperature difference": "0.5-1 درجة مئوية",
-              "Maximum design temperature": "200 درجة مئوية",
-              "Primary Construction Material": "إيسي 304، 316، 316L، تي آي، SMO254..."
+              "أقصى سعة معالجة": "5,000 م³/ساعة",
+              "أقصى ضغط تصميم": "25 بار",
+              "أدنى فرق في درجة الحرارة": "0.5-1 درجة مئوية",
+              "أقصى درجة حرارة تصميم": "200 درجة مئوية",
+              "مادة البناء الرئيسية": "إيسي 304، 316، 316L، تي آي، SMO254..."
             }
           },
           "details": {
@@ -1132,36 +1132,36 @@
               "最大换热能力": "80MW"
             },
             "ru": {
-              "Maximum processing capacity": "5000 м³/ч",
-              "Maximum design pressure": "25 бар",
-              "Minimum temperature difference": "0,5-1℃",
-              "Maximum design temperature": "200℃",
-              "Primary Construction Material": "АИСИ 304, 316, 316Л, ТИ, СМО254",
-              "Maximum Heat Transfer Capacity": "80MW"
+              "Максимальная производительность": "5000 м³/ч",
+              "Максимальное расчетное давление": "25 бар",
+              "Минимальная разность температур": "0,5-1℃",
+              "Максимальная расчетная температура": "200℃",
+              "Основной конструкционный материал": "АИСИ 304, 316, 316Л, ТИ, СМО254",
+              "Максимальная теплопередающая способность": "80MW"
             },
             "es": {
-              "Maximum processing capacity": "5.000 m³/h",
-              "Maximum design pressure": "25bar",
-              "Minimum temperature difference": "0,5-1 ℃",
-              "Maximum design temperature": "200℃",
-              "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254",
-              "Maximum Heat Transfer Capacity": "80MW"
+              "Capacidad máxima de procesamiento": "5.000 m³/h",
+              "Presión máxima de diseño": "25bar",
+              "Diferencia mínima de temperatura": "0,5-1 ℃",
+              "Temperatura máxima de diseño": "200℃",
+              "Material principal de construcción": "AISI 304, 316, 316L, TI, SMO254",
+              "Capacidad máxima de transferencia de calor": "80MW"
             },
             "fr": {
-              "Maximum processing capacity": "5 000 m³/heure",
-              "Maximum design pressure": "25 bars",
-              "Minimum temperature difference": "0,5-1 ℃",
-              "Maximum design temperature": "200℃",
-              "Primary Construction Material": "AISI 304, 316, 316L, TI, SMO254",
-              "Maximum Heat Transfer Capacity": "80MW"
+              "Capacité de traitement maximale": "5 000 m³/heure",
+              "Pression de conception maximale": "25 bars",
+              "Différence minimale de température": "0,5-1 ℃",
+              "Température de conception maximale": "200℃",
+              "Matériau principal de construction": "AISI 304, 316, 316L, TI, SMO254",
+              "Capacité maximale de transfert thermique": "80MW"
             },
             "ar": {
-              "Maximum processing capacity": "5,000 م³/ساعة",
-              "Maximum design pressure": "25 بار",
-              "Minimum temperature difference": "0.5-1 درجة مئوية",
-              "Maximum design temperature": "200 درجة مئوية",
-              "Primary Construction Material": "إيسي 304، 316، 316L، تي آي، SMO254",
-              "Maximum Heat Transfer Capacity": "80MW"
+              "أقصى سعة معالجة": "5,000 م³/ساعة",
+              "أقصى ضغط تصميم": "25 بار",
+              "أدنى فرق في درجة الحرارة": "0.5-1 درجة مئوية",
+              "أقصى درجة حرارة تصميم": "200 درجة مئوية",
+              "مادة البناء الرئيسية": "إيسي 304، 316، 316L، تي آي، SMO254",
+              "أقصى قدرة لنقل الحرارة": "80MW"
             }
           },
           "details": {
@@ -1363,28 +1363,28 @@
               "板片材质": "AISI 304、316、254、Ti"
             },
             "ru": {
-              "Maximum processing capacity": "1500м³/ч",
-              "Maximum design pressure": "40бар",
-              "Maximum temperature resistance": "350℃",
-              "Plate material": "АИСИ304, 316, 254, Ти"
+              "Максимальная производительность": "1500м³/ч",
+              "Максимальное расчетное давление": "40бар",
+              "Максимальная термостойкость": "350℃",
+              "Материал пластин": "АИСИ304, 316, 254, Ти"
             },
             "es": {
-              "Maximum processing capacity": "1500m³/h",
-              "Maximum design pressure": "40bar",
-              "Maximum temperature resistance": "350℃",
-              "Plate material": "AISI304, 316, 254, Ti"
+              "Capacidad máxima de procesamiento": "1500m³/h",
+              "Presión máxima de diseño": "40bar",
+              "Resistencia máxima a la temperatura": "350℃",
+              "Material de placas": "AISI304, 316, 254, Ti"
             },
             "fr": {
-              "Maximum processing capacity": "1500m³/h",
-              "Maximum design pressure": "40 bars",
-              "Maximum temperature resistance": "350 ℃",
-              "Plate material": "AISI304, 316, 254, Ti"
+              "Capacité de traitement maximale": "1500m³/h",
+              "Pression de conception maximale": "40 bars",
+              "Résistance maximale à la température": "350 ℃",
+              "Matériau des plaques": "AISI304, 316, 254, Ti"
             },
             "ar": {
-              "Maximum processing capacity": "1500 م³/ساعة",
-              "Maximum design pressure": "40 بار",
-              "Maximum temperature resistance": "350 درجة مئوية",
-              "Plate material": "AISI304، 316، 254، تي"
+              "أقصى سعة معالجة": "1500 م³/ساعة",
+              "أقصى ضغط تصميم": "40 بار",
+              "أقصى مقاومة للحرارة": "350 درجة مئوية",
+              "مادة الألواح": "AISI304، 316، 254، تي"
             }
           },
           "details": {
@@ -1603,32 +1603,32 @@
               "板片材质": "AISI 304、316、316L、TI、254SMO..."
             },
             "ru": {
-              "Maximum processing capacity": "5000м³/ч",
-              "Maximum design pressure": "25 бар",
-              "Maximum heat transfer": "80MW",
-              "Temperature": "Минимальная разница температур: 0,5-1 ℃, максимальная термостойкость: 200 ℃.",
-              "Plate material": "AISI 304, 316, 316L, ТИ, СМО254..."
+              "Максимальная производительность": "5000м³/ч",
+              "Максимальное расчетное давление": "25 бар",
+              "Максимальная теплопередача": "80MW",
+              "Температура": "Минимальная разница температур: 0,5-1 ℃, максимальная термостойкость: 200 ℃.",
+              "Материал пластин": "AISI 304, 316, 316L, ТИ, СМО254..."
             },
             "es": {
-              "Maximum processing capacity": "5000m³/h",
-              "Maximum design pressure": "25bar",
-              "Maximum heat transfer": "80MW",
-              "Temperature": "Diferencia mínima de temperatura: 0,5-1 ℃, Resistencia máxima a la temperatura: 200 ℃",
-              "Plate material": "AISI 304, 316, 316L, TI, SMO254..."
+              "Capacidad máxima de procesamiento": "5000m³/h",
+              "Presión máxima de diseño": "25bar",
+              "Transferencia de calor máxima": "80MW",
+              "Temperatura": "Diferencia mínima de temperatura: 0,5-1 ℃, Resistencia máxima a la temperatura: 200 ℃",
+              "Material de placas": "AISI 304, 316, 316L, TI, SMO254..."
             },
             "fr": {
-              "Maximum processing capacity": "5000m³/h",
-              "Maximum design pressure": "25 bars",
-              "Maximum heat transfer": "80MW",
-              "Temperature": "Différence de température minimale: 0,5-1 ℃, résistance à la température maximale: 200 ℃",
-              "Plate material": "AISI 304, 316, 316L, TI, SMO254..."
+              "Capacité de traitement maximale": "5000m³/h",
+              "Pression de conception maximale": "25 bars",
+              "Transfert thermique maximal": "80MW",
+              "Température": "Différence de température minimale: 0,5-1 ℃, résistance à la température maximale: 200 ℃",
+              "Matériau des plaques": "AISI 304, 316, 316L, TI, SMO254..."
             },
             "ar": {
-              "Maximum processing capacity": "5000 م³/ساعة",
-              "Maximum design pressure": "25 بار",
-              "Maximum heat transfer": "80MW",
-              "Temperature": "الحد الأدنى لفرق درجة الحرارة: 0.5-1 درجة مئوية، أقصى مقاومة لدرجة الحرارة: 200 درجة مئوية",
-              "Plate material": "إيسي 304، 316، 316L، تي آي، SMO254..."
+              "أقصى سعة معالجة": "5000 م³/ساعة",
+              "أقصى ضغط تصميم": "25 بار",
+              "أقصى نقل حرارة": "80MW",
+              "درجة الحرارة": "الحد الأدنى لفرق درجة الحرارة: 0.5-1 درجة مئوية، أقصى مقاومة لدرجة الحرارة: 200 درجة مئوية",
+              "مادة الألواح": "إيسي 304، 316، 316L، تي آي، SMO254..."
             }
           },
           "details": {
@@ -1822,24 +1822,24 @@
               "板片材质": "AISI 304L、316L、Titanium、Hastelloy、254SMO..."
             },
             "ru": {
-              "Maximum design pressure": "80бар",
-              "Maximum temperature resistance": "500℃",
-              "Plate material": "AISI304L, 316L, титан, хастеллой, SMO254..."
+              "Максимальное расчетное давление": "80бар",
+              "Максимальная термостойкость": "500℃",
+              "Материал пластин": "AISI304L, 316L, титан, хастеллой, SMO254..."
             },
             "es": {
-              "Maximum design pressure": "80bar",
-              "Maximum temperature resistance": "500℃",
-              "Plate material": "AISI304L, 316L, Titanio, Hastelloy, SMO254..."
+              "Presión máxima de diseño": "80bar",
+              "Resistencia máxima a la temperatura": "500℃",
+              "Material de placas": "AISI304L, 316L, Titanio, Hastelloy, SMO254..."
             },
             "fr": {
-              "Maximum design pressure": "80 bars",
-              "Maximum temperature resistance": "500℃",
-              "Plate material": "AISI304L, 316L, Titane, Hastelloy, SMO254..."
+              "Pression de conception maximale": "80 bars",
+              "Résistance maximale à la température": "500℃",
+              "Matériau des plaques": "AISI304L, 316L, Titane, Hastelloy, SMO254..."
             },
             "ar": {
-              "Maximum design pressure": "80 بار",
-              "Maximum temperature resistance": "500 درجة مئوية",
-              "Plate material": "AISI304L، 316L، تيتانيوم، هاستيلوي، SMO254..."
+              "أقصى ضغط تصميم": "80 بار",
+              "أقصى مقاومة للحرارة": "500 درجة مئوية",
+              "مادة الألواح": "AISI304L، 316L، تيتانيوم، هاستيلوي، SMO254..."
             }
           },
           "details": {

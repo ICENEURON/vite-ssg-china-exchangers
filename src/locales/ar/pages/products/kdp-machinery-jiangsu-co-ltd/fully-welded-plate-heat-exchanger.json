@@ -1,0 +1,68 @@
+{
+  "slug": "fully-welded-plate-heat-exchanger",
+  "name": "مبادل حراري لوحي ملحوم بالكامل",
+  "full_description": "يستخدم المبادل الحراري اللوحي الملحوم بالكامل حزمة دائمة من الألواح المموجة الملحومة بدلاً من قنوات نقل الحرارة ذات الحشيات. يحسن هذا التصميم احتواء السوائل الصعبة مع الحفاظ على كفاءة النقل الحراري اللوحي المدمج في البتروكيماويات والتكرير والكيميائيات والأدوية والطاقة والطاقة الجوفية والعمليات عالية النقاء.",
+  "industries": [
+    "البتروكيماويات",
+    "الطاقة",
+    "المعالجة الكيميائية",
+    "المستحضرات الصيدلانية",
+    "توليد الطاقة"
+  ],
+  "advantage": [
+    "يقلل القلب الحراري بلا حشيات نقاط التسرب الخارجية وأعمال استبدال الحشيات.",
+    "توفر القنوات المموجة الملحومة كفاءة نقل حرارة عالية ضمن مساحة مدمجة.",
+    "مناسب للوسائط الخطرة أو عالية القيمة أو المتآكلة أو عالية الضغط والحرارة عند اختيار المواد المناسبة.",
+    "تدعم متطلبات الصيانة الروتينية الأقل خطوط العمليات المستمرة.",
+    "يمكن مواءمة تنظيف CIP وخطة الفحص مع سلوك التلوث في سائل العملية.",
+    "تشمل خيارات المواد الفولاذ المقاوم للصدأ والتيتانيوم وHastelloy وسبائك أخرى مقاومة للتآكل."
+  ],
+  "technical_parameters": {
+    "المواد": "فولاذ مقاوم للصدأ، تيتانيوم، Hastelloy وسبائك أخرى مقاومة للتآكل",
+    "إحكام القلب": "لا توجد حشيات في قلب نقل الحرارة",
+    "ضغط التصميم": "حتى 40 bar؛ وتصاميم خاصة حتى 100 bar",
+    "حزمة الألواح": "حزمة دائمة من الألواح المموجة الملحومة",
+    "درجة حرارة التصميم": "من -50°C إلى +350°C مع المواد المناسبة",
+    "التطبيقات النموذجية": "البتروكيماويات، التكرير، الكيميائيات، الأدوية، الطاقة، الطاقة الجوفية، والخدمات عالية النقاء"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "متى يتم اختياره",
+      "content": "يتم اختيار هذا التصميم عندما يكون احتواء التسرب أو الضغط العالي أو الحرارة العالية أو مقاومة التآكل أو تقليل صيانة الحشيات أهم من الوصول الميكانيكي الكامل إلى كل قناة."
+    },
+    {
+      "title": "تركيز هندسي",
+      "content": "يجب تأكيد تصنيف الضغط وبرنامج الحرارة وتوافق المواد والتمدد الحراري وطريقة التنظيف ومتطلبات جودة اللحام والاختبار الهيدروستاتيكي النهائي."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. مبادل حراري لوحي ملحوم بالكامل",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. توفر مبادل حراري لوحي ملحوم بالكامل لتطبيقات نقل الحرارة الصناعية مع اختيار المواد والضغط ودرجة الحرارة والصيانة حسب المشروع."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_3.png"
+    },
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 4",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_4.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

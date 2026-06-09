@@ -1,0 +1,136 @@
+{
+  "name": "江苏金多邦成套机械设备有限公司",
+  "full_description": [
+    "江苏金多邦成套机械设备有限公司位于江苏江阴，是一家换热设备制造商。公司成立于 2013 年，面向化工、石化、能源、食品、制药、暖通、制冷、船舶和工业水处理等应用提供板式换热器和过程换热系统。",
+    "产品范围包括全焊式板式换热器、半焊式板式换热器、可拆式板式换热器、板式蒸发器、板式冷凝器、板壳式换热器、钎焊板式换热器、汽水混合器、板式换热器板片、胶垫和集成换热机组。",
+    "生产基地支持板片成型、焊接、装配、压力测试和项目定制，设备能力包括大型液压机、成型设备以及用于焊接和半焊式板式换热器制造的激光焊接系统。",
+    "公司服务的工艺包括蒸发、结晶、盐分离、石化废水处理、工业废水浓缩、凝结水精处理、锅炉补给水处理、膜法水处理和过程余热回收。",
+    "国际供应配套自有出口资质、上海港物流以及 FOB、EXW、CFR、CIF 等常用贸易方式。产品选型通常围绕介质性质、压力、温度、结垢倾向、材料、维护通道和压力容器要求展开。"
+  ],
+  "advantages": [
+    "覆盖可拆式、半焊式、全焊式、板壳式、蒸发和冷凝等多种板式换热设备形式。",
+    "可围绕介质兼容性、压力、温度、耐腐蚀性、结垢行为和维护通道进行定制选型。",
+    "制造能力包括板片成型、焊接、装配和压力测试，适配工业换热项目。",
+    "产品服务化工、石化、制冷、食品、制药、能源、暖通、船舶和水处理等工艺。",
+    "出口供应可通过上海港和常用国际贸易条款安排。"
+  ],
+  "slug": "kdp-machinery-jiangsu-co-ltd",
+  "website": "https://www.kdpw2008.com/",
+  "video_link": "",
+  "social_media_links": [],
+  "email": [
+    "sales01@kdpw2008.com"
+  ],
+  "phone": [
+    "+8618068277130",
+    "+8618921229130"
+  ],
+  "country_name": "中国",
+  "city": "江阴",
+  "address": "中国江苏省无锡市江阴市徐霞客镇峭岐中山路198号",
+  "established_year": "2013",
+  "factory_area": "38000m2",
+  "employee_count": "145+",
+  "export_markets": [
+    "US",
+    "CA",
+    "BR",
+    "CL",
+    "PL",
+    "RO",
+    "ID",
+    "MY",
+    "VN",
+    "TH",
+    "PH",
+    "ZA",
+    "EG",
+    "AU",
+    "NZ",
+    "SA",
+    "AE",
+    "JP",
+    "KR",
+    "DE",
+    "FR",
+    "GB",
+    "KZ",
+    "IN",
+    "BD",
+    "LK",
+    "TR"
+  ],
+  "seo_data": {
+    "meta_title": "江苏金多邦成套机械设备有限公司 换热器制造商",
+    "meta_description": "江苏金多邦成套机械设备有限公司制造可拆式、半焊式、全焊式、板壳式、蒸发器和冷凝器等板式换热设备，服务工业过程换热应用。"
+  },
+  "industries": [
+    "暖通空调",
+    "石油化工",
+    "船舶/海工",
+    "能源",
+    "食品加工",
+    "化工",
+    "食品与饮料",
+    "制药",
+    "发电/电力"
+  ],
+  "certifications": [
+    {
+      "alt_text": "KDP Machinery Jiangsu Co., Ltd. ASME certificate",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/company_certifications/kdp_asme.jpg"
+    }
+  ],
+  "customers": [],
+  "images": [
+    {
+      "alt_text": "KDP Machinery Jiangsu Co., Ltd. factory exterior",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/company_images/kdp_factory_exterior.jpg"
+    }
+  ],
+  "documents": [],
+  "products": [
+    {
+      "slug": "fully-welded-plate-heat-exchanger",
+      "name": "全焊式板式换热器",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_1.png",
+      "short_description": "适用于高压、高温、腐蚀性、危险或高价值工艺介质的无胶垫焊接板式换热器。",
+      "url": "kdp-machinery-jiangsu-co-ltd/fully-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "semi-welded-plate-heat-exchanger",
+      "name": "半焊式板式换热器",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.png",
+      "short_description": "适用于一侧为腐蚀性、有毒、制冷剂或高压介质，另一侧需要可维护通道的焊接与胶垫复合式板式换热器。",
+      "url": "kdp-machinery-jiangsu-co-ltd/semi-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "gasketed-plate-heat-exchanger",
+      "name": "可拆式板式换热器（PHE）",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_1.png",
+      "short_description": "用于高效液-液换热、可打开清洗和容量调整的板框式换热器。",
+      "url": "kdp-machinery-jiangsu-co-ltd/gasketed-plate-heat-exchanger"
+    },
+    {
+      "slug": "plate-evaporators",
+      "name": "板式蒸发器",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_evaporator_1.png",
+      "short_description": "用于浓缩、蒸发、溶剂去除和热敏工艺的紧凑型板式蒸发设备。",
+      "url": "kdp-machinery-jiangsu-co-ltd/plate-evaporators"
+    },
+    {
+      "slug": "plate-condenser",
+      "name": "板式冷凝器",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_1.png",
+      "short_description": "用于蒸汽冷凝、制冷剂冷凝、溶剂回收和过程余热回收的紧凑型板式冷凝器。",
+      "url": "kdp-machinery-jiangsu-co-ltd/plate-condenser"
+    },
+    {
+      "slug": "plate-shell-heat-exchanger-pshe",
+      "name": "板壳式换热器（PSHE）",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_1.png",
+      "short_description": "将高效焊接板束置于承压壳体内，适用于高压、高温、振动、LNG、油气、化工和船舶工况。",
+      "url": "kdp-machinery-jiangsu-co-ltd/plate-shell-heat-exchanger-pshe"
+    }
+  ]
+}

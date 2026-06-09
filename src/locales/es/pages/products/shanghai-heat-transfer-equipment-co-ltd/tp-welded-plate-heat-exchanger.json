@@ -18,11 +18,11 @@
     "Estructura mantenible: La carcasa se puede abrir para limpieza mecánica, lo que brinda a la unidad una mejor capacidad de servicio que las alternativas soldadas completamente selladas."
   ],
   "technical_parameters": {
-    "Max Area": "15000㎡",
-    "Plate Material": "Acero inoxidable austenítico, Acero inoxidable dúplex, 254SMO, Titanio y aleación de titanio, Níquel y aleación de níquel, Hastelloy",
-    "Design Pressure": "Vacío ~ 6,0 MPa",
-    "Plate Thickness": "0,6 ~ 1,5 mm",
-    "Design Temperature": "-196 ~ 900℃"
+    "Área máxima": "15000㎡",
+    "Espesor de placa": "0,6 ~ 1,5 mm",
+    "Material de placas": "Acero inoxidable austenítico, Acero inoxidable dúplex, 254SMO, Titanio y aleación de titanio, Níquel y aleación de níquel, Hastelloy",
+    "Presión de diseño": "Vacío ~ 6,0 MPa",
+    "Temperatura de diseño": "-196 ~ 900℃"
   },
   "video_link": "https://www.youtube.com/watch?v=S_2LrC6tOMk",
   "details": [
@@ -37,6 +37,57 @@
     {
       "title": "¿Cómo se diseña y fabrica?",
       "content": "El diseño se centra en la geometría optimizada de las placas, el espaciado de las placas, la disposición de contraflujo o flujo cruzado de múltiples pasos y el control de la caída de presión. La selección de materiales puede incluir acero inoxidable, titanio, Hastelloy y otras aleaciones resistentes a la corrosión. La fabricación se basa en soldaduras de precisión y métodos de ensamblaje robustos para garantizar conexiones perfectas, integridad estructural y rendimiento confiable en condiciones operativas severas."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Recuperación de calor residual químico",
+        "Recuperación de baja y media temperatura",
+        "Precalentamiento de corrientes de proceso",
+        "Proyectos de modernización energética"
+      ],
+      "advantages": [
+        "En comparación con intercambiadores de carcasa y tubos, los TP pueden ofrecer coeficientes de transferencia mucho más altos y menor huella.",
+        "La estructura soldada reduce el riesgo de fugas relacionadas con juntas en medios de alta temperatura o peligrosos.",
+        "La alta superficie por unidad de volumen ayuda a modernizaciones de ahorro energético con espacio limitado."
+      ],
+      "application": "Recuperación de calor residual",
+      "description": "En plantas químicas, la recuperación de calor residual es una vía clave para reducir consumo energético. El intercambiador TP es adecuado para recuperación de calor residual de baja y media temperatura cuando se requieren diseño compacto, alta eficiencia y sellado soldado."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Purificación de ácido acrílico",
+        "Refinación de productos éster",
+        "Condensación de cabeza",
+        "Condensación de solventes",
+        "Sistemas de destilación química"
+      ],
+      "advantages": [
+        "En comparación con equipos con juntas, el sellado totalmente soldado evita envejecimiento de juntas en condensación corrosiva.",
+        "En comparación con intercambiadores convencionales, placas corrugadas y diseño de flujo personalizados aumentan turbulencia y eficiencia térmica.",
+        "El diseño de placas soldadas soporta estabilidad de presión, resistencia a deformación e impacto en operación química continua."
+      ],
+      "application": "Condensador de cabeza",
+      "description": "En la refinación de ácido acrílico y ésteres, los condensadores de cabeza enfrentan medios corrosivos, fluctuaciones de temperatura, operación continua y altas exigencias de confiabilidad. El intercambiador TP puede usar materiales de placa resistentes a la corrosión y sellado soldado para servicio de condensación estable."
+    },
+    {
+      "order": 3,
+      "used_in": [
+        "Enfriamiento de gas de cola",
+        "Enfriamiento de sistema de purificación",
+        "Recuperación de calor de gas residual",
+        "Tratamiento de gases químicos"
+      ],
+      "advantages": [
+        "En comparación con carcasa y tubos, la estructura de placas soldadas reduce huella manteniendo alta eficiencia térmica.",
+        "En comparación con equipos con juntas, el sellado soldado reduce riesgo de fugas en gases de cola peligrosos o corrosivos.",
+        "La selección de materiales puede adaptarse a corrientes de gas corrosivas o contaminadas."
+      ],
+      "application": "Enfriador de gas de cola y purificación",
+      "description": "El intercambiador TP puede utilizarse como enfriador de gas de cola o de purificación antes de recuperación o tratamiento posterior. La construcción soldada y los materiales resistentes a corrosión son adecuados para enfriamiento de gases de proceso cuando importan confiabilidad, compacidad y control de fugas."
     }
   ],
   "seo_data": {
@@ -66,6 +117,13 @@
     {
       "alt_text": "TP Welded Plate Heat Exchanger Application",
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_5.png"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "TP welded plate heat exchanger for tail gas cooling",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/tp_tail_gas_cooling_application.png",
+      "file_name": "tp_tail_gas_cooling_application.png"
     }
   ],
   "certificates": [

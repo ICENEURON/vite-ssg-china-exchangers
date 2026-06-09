@@ -17,10 +17,10 @@
     "Nettoyage au jet d'eau haute pression"
   ],
   "technical_parameters": {
-    "Plate material": "AISI304, 316, 254, Ti",
-    "Maximum design pressure": "40 bars",
-    "Maximum processing capacity": "1500m³/h",
-    "Maximum temperature resistance": "350 ℃"
+    "Matériau des plaques": "AISI304, 316, 254, Ti",
+    "Pression de conception maximale": "40 bars",
+    "Capacité de traitement maximale": "1500m³/h",
+    "Résistance maximale à la température": "350 ℃"
   },
   "video_link": "",
   "details": [
@@ -33,6 +33,7 @@
       "content": "Le pack de plaques soudées est installé dans une structure amovible qui permet le démontage et le nettoyage mécanique, y compris le nettoyage au jet d'eau à haute pression, tout en contribuant à maintenir l'efficacité du transfert de chaleur."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Échangeur de chaleur à plaques amovibles entièrement soudées A-BLOC",
     "meta_description": "Échangeur de chaleur à plaques soudées amovible et compact pour les applications industrielles à haute température et haute pression avec transfert de chaleur efficace à contre-courant."
@@ -46,6 +47,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/a_bloc_fully_welded_removable_plate_heat_exchanger.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

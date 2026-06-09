@@ -1,0 +1,64 @@
+{
+  "slug": "semi-welded-plate-heat-exchanger",
+  "name": "Échangeur de chaleur à plaques semi-soudées",
+  "full_description": "Un échangeur à plaques semi-soudées combine des cassettes de plaques soudées avec des joints entre les cassettes. Le canal soudé contient les fluides agressifs, toxiques, frigorigènes ou plus pressurisés, tandis que le canal à joints reste ouvrable pour le nettoyage et la maintenance. Cette combinaison convient à la réfrigération à l’ammoniac, au refroidissement chimique, à la pétrochimie, au HVAC, à la pharmacie, à l’agroalimentaire, au maritime, au pétrole et gaz et à l’énergie.",
+  "industries": [
+    "HVAC",
+    "Pétrochimie",
+    "Énergie",
+    "Traitement chimique",
+    "Produits pharmaceutiques"
+  ],
+  "advantage": [
+    "Les cassettes soudées améliorent le confinement des frigorigènes, acides et autres fluides exigeants.",
+    "Les canaux à joints peuvent être ouverts pour inspection, nettoyage et remplacement des joints.",
+    "Adapté aux services de pression et température modérées lorsque le soudage complet des deux côtés n’est pas nécessaire.",
+    "Le côté soudé peut utiliser du titane, de l’Hastelloy ou d’autres alliages pour les fluides agressifs.",
+    "La géométrie compacte des plaques soutient une forte efficacité thermique et un faible volume de rétention.",
+    "Utilisation courante dans les groupes à ammoniac, boucles de refroidissement chimique, maritime, pétrole et gaz et auxiliaires d’énergie."
+  ],
+  "technical_parameters": {
+    "Matériaux": "Acier inoxydable, titane, Hastelloy et joints adaptés aux fluides",
+    "Côté service": "Un canal soudé et un canal à joints ouvrable",
+    "Cassette de plaques": "Paires de plaques soudées au laser en cassettes semi-soudées",
+    "Applications typiques": "Réfrigération à l’ammoniac, refroidissement acide, boucles chimiques, pétrochimie, HVAC, maritime, pétrole et gaz et auxiliaires d’énergie",
+    "Pression de conception": "Généralement jusqu’à 25-30 bar selon le service et la configuration",
+    "Température de conception": "Généralement jusqu’à 200°C selon les joints et les matériaux"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Stratégie des deux côtés",
+      "content": "Le côté soudé traite le fluide le plus exigeant, tandis que le côté à joints garde l’accès pour l’eau, le glycol ou d’autres fluides de service."
+    },
+    {
+      "title": "Vérifications de sélection",
+      "content": "Confirmer le fluide côté soudé, la compatibilité des joints, le nettoyage des deux côtés, la perte de charge admissible et les exigences de sécurité pour l’ammoniac ou les fluides dangereux."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Échangeur de chaleur à plaques semi-soudées",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. fournit échangeur de chaleur à plaques semi-soudées pour les applications industrielles d’échange thermique avec sélection des matériaux, pression, température et maintenance par projet."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Semi-Welded Plate Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Semi-Welded Plate Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Semi-Welded Plate Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_3.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

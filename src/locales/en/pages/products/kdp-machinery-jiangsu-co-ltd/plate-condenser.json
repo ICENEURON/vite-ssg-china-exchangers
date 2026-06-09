@@ -1,0 +1,65 @@
+{
+  "slug": "plate-condenser",
+  "name": "Plate Condenser",
+  "full_description": "A plate condenser uses corrugated plate channels to condense vapor into liquid by transferring heat to cooling water, chilled water, glycol, air-assisted loops, or another coolant. The compact plate surface supports fast thermal response and high heat-transfer efficiency in evaporation systems, refrigeration systems, solvent recovery, chemical processes, power auxiliaries, marine service, and food or pharmaceutical utilities.",
+  "industries": [
+    "HVAC",
+    "Petrochemical",
+    "Energy",
+    "Chemical Processing",
+    "Food and Beverage",
+    "Power Generation"
+  ],
+  "advantage": [
+    "Large corrugated plate area supports high condensation heat-transfer coefficients.",
+    "Compact construction reduces installation footprint and refrigerant or vapor hold-up.",
+    "Fast thermal response helps systems follow changing vapor loads.",
+    "Openable, gasketed, semi-welded, or welded configurations can be selected by media and maintenance needs.",
+    "Material selection can address seawater, acidic vapor, refrigerants, solvents, and hygienic services.",
+    "Can be paired with plate evaporators, MVR systems, refrigeration units, and process heat-recovery loops."
+  ],
+  "technical_parameters": {
+    "Function": "Vapor condensation and heat recovery",
+    "Materials": "Stainless steel, titanium, duplex stainless steel, and corrosion-resistant alloys",
+    "Configuration": "Gasketed, semi-welded, fully welded, or plate-shell designs by service",
+    "Cooling media": "Cooling water, chilled water, glycol, seawater, or process coolant by duty",
+    "Condensing side": "Plate channels configured for vapor distribution and condensate drainage",
+    "Typical applications": "Evaporation systems, ammonia refrigeration, solvent recovery, chemical condensers, marine service, food and pharmaceutical utilities"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Condensation duty",
+      "content": "The exchanger should be sized around vapor composition, condensation curve, non-condensable gas, cooling medium temperature, pressure drop, and condensate drainage."
+    },
+    {
+      "title": "Configuration choice",
+      "content": "Clean water vapor may use a gasketed arrangement, while refrigerants, solvents, corrosive vapor, or higher pressure may require semi-welded, welded, or plate-shell designs."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Plate Condenser",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. supplies plate condenser for industrial heat-transfer applications with project-specific material, pressure, temperature, and maintenance selection."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Condenser image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_1.png"
+    },
+    {
+      "alt_text": "Plate Condenser image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_2.png"
+    },
+    {
+      "alt_text": "Plate Condenser image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_3.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

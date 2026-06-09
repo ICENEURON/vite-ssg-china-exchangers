@@ -16,11 +16,12 @@
     "Certificación de registro de seguridad oficial B2-B3 para intercambiadores de calor de placas soldadas."
   ],
   "technical_parameters": {
-    "Welding Method": "Soldadura por láser de fibra y soldadura de costura CNC.",
-    "Safety Registration": "Registro de seguridad del intercambiador de calor de placas soldadas de nivel B2-B3"
+    "Método de soldadura": "Soldadura por láser de fibra y soldadura de costura CNC.",
+    "Registro de seguridad": "Registro de seguridad del intercambiador de calor de placas soldadas de nivel B2-B3"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Intercambiador de calor de placas semisoldadas",
     "meta_description": "Intercambiador de calor de placas semisoldadas que utiliza procesos de soldadura láser y soldadura de pares de placas para tareas en las que un lado requiere sellado soldado."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

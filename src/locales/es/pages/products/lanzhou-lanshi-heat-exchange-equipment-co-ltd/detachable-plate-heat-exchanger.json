@@ -18,16 +18,17 @@
     "Listado oficialmente para un uso amplio en aplicaciones de calefacción central, aire acondicionado, marinas, petroleras, químicas, medicinales y alimentarias."
   ],
   "technical_parameters": {
-    "Assembly Area": "≤5000m2",
-    "Port Diameter": "DN32 ~ DN650",
-    "Design Pressure": "0,6 ~ 2,5 MPa",
-    "Plate Thickness": "0,4 ~ 1,0 mm",
-    "Maximum Capacity": "5000m3/hora",
-    "Single Plate Area": "0,03 ~ 4,15m2",
-    "Design Temperature": "-40 ~ 180 ℃"
+    "Espesor de placa": "0,4 ~ 1,0 mm",
+    "Capacidad máxima": "5000m3/hora",
+    "Diámetro de puerto": "DN32 ~ DN650",
+    "Presión de diseño": "0,6 ~ 2,5 MPa",
+    "Área de ensamblaje": "≤5000m2",
+    "Temperatura de diseño": "-40 ~ 180 ℃",
+    "Área de placa individual": "0,03 ~ 4,15m2"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Intercambiador de calor de placas desmontable",
     "meta_description": "Intercambiador de placas desmontable con juntas para calefacción, refrigeración, evaporación, condensación, esterilización y recuperación de calor."
@@ -41,6 +42,7 @@
       "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/detachable_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

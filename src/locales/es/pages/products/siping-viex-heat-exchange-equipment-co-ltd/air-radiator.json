@@ -16,9 +16,9 @@
     "Larga vida útil"
   ],
   "technical_parameters": {
-    "Structure": "Tubo de acero con aletas estancas o enrolladas",
-    "Application": "Calentamiento de aire en dispositivos de secado de aire caliente.",
-    "Heating medium": "Vapor o agua caliente"
+    "Estructura": "Tubo de acero con aletas estancas o enrolladas",
+    "Aplicación": "Calentamiento de aire en dispositivos de secado de aire caliente.",
+    "Medio de calentamiento": "Vapor o agua caliente"
   },
   "video_link": "",
   "details": [
@@ -31,6 +31,7 @@
       "content": "ViEX enfatiza la superficie de transferencia de calor de alta velocidad, la fuerte resistencia a las vibraciones, la resistencia a la corrosión y la larga vida útil."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Radiador de aire | Siping ViEX",
     "meta_description": "Radiador de aire y calentador de aire para dispositivos de secado de aire caliente con diseño de transferencia de calor de tubo de acero con aletas."
@@ -44,6 +45,7 @@
       "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_radiator.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

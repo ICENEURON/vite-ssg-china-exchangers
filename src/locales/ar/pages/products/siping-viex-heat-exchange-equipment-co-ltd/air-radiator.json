@@ -16,9 +16,9 @@
     "عمر خدمة طويل"
   ],
   "technical_parameters": {
-    "Structure": "أنابيب الصلب ذات الزعانف الضيقة أو المدرفلة",
-    "Application": "تسخين الهواء في أجهزة التجفيف بالهواء الساخن",
-    "Heating medium": "البخار أو الماء الساخن"
+    "الهيكل": "أنابيب الصلب ذات الزعانف الضيقة أو المدرفلة",
+    "التطبيق": "تسخين الهواء في أجهزة التجفيف بالهواء الساخن",
+    "وسيط التسخين": "البخار أو الماء الساخن"
   },
   "video_link": "",
   "details": [
@@ -31,6 +31,7 @@
       "content": "يؤكد ViEX على سطح نقل الحرارة عالي السرعة، ومقاومة الاهتزاز القوية، ومقاومة التآكل، وعمر الخدمة الطويل."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "مشعاع الهواء | Siping ViEX",
     "meta_description": "مشعاع الهواء وسخان الهواء لأجهزة تجفيف الهواء الساخن مع تصميم نقل الحرارة بأنبوب فولاذي زعانف."
@@ -44,6 +45,7 @@
       "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_radiator.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

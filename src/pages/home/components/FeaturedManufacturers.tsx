@@ -2,6 +2,7 @@ import { ArrowRight, Factory } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import manufacturerScores from "../../../data/manufacturer_scores.json";
 import { addLanguageToPath, useCurrentLanguage } from "../../../utils/language-routing";
+import { compareManufacturerOrder, getManufacturerScoreRecords, type ManufacturerScoreSource } from "../../../utils/manufacturer-ranking";
 
 type ManufacturerListItem = {
     name: string;
@@ -9,18 +10,15 @@ type ManufacturerListItem = {
     slug: string;
 };
 
-type ManufacturerScore = {
-    manufacturer_slug: string;
-    order: number;
-};
-
 export function FeaturedManufacturers() {
     const { t } = useTranslation("translation");
     const currentLanguage = useCurrentLanguage();
     const manufacturers = t("pages.manufacturers.list", { returnObjects: true }) as ManufacturerListItem[];
-    const orderBySlug = new Map((manufacturerScores as ManufacturerScore[]).map((score) => [score.manufacturer_slug, score.order]));
+    const signalsBySlug = new Map(
+        getManufacturerScoreRecords(manufacturerScores as ManufacturerScoreSource).map((score) => [score.manufacturer_slug, score])
+    );
     const featuredManufacturers = [...manufacturers]
-        .sort((first, second) => (orderBySlug.get(first.slug) ?? 999) - (orderBySlug.get(second.slug) ?? 999))
+        .sort((first, second) => compareManufacturerOrder(first, second, signalsBySlug))
         .slice(0, 3);
     const manufacturersPath = addLanguageToPath("/manufacturers", currentLanguage);
 

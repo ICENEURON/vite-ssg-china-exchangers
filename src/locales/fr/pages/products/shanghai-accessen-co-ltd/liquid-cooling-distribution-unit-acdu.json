@@ -11,15 +11,15 @@
     "Préfabrication modulaire"
   ],
   "technical_parameters": {
-    "Power Supply": "380 V~415 VCA/50 ± 1 Hz",
-    "Altitude Range": "-30m~2500m",
-    "Primary Side Coolant": "Solutions à base d'eau/éthylène glycol",
-    "Secondary Side Coolant": "Eau désionisée/éthylèneglycol/propylèneglycol/fluides fluorés",
-    "Primary Filtration Rating": "200 μm ~ 300 μm",
-    "Storage Temperature Range": "-40°C~70°C",
-    "Operating Relative Humidity": "5% ~ 95%",
-    "Operating Temperature Range": "5°C~50°C",
-    "Secondary Filtration Rating": "100 μm ~ 200 μm"
+    "Plage d’altitude": "-30m~2500m",
+    "Alimentation électrique": "380 V~415 VCA/50 ± 1 Hz",
+    "Degré de filtration primaire": "200 μm ~ 300 μm",
+    "Degré de filtration secondaire": "100 μm ~ 200 μm",
+    "Plage de température de stockage": "-40°C~70°C",
+    "Humidité relative de fonctionnement": "5% ~ 95%",
+    "Plage de température de fonctionnement": "5°C~50°C",
+    "Fluide de refroidissement côté primaire": "Solutions à base d'eau/éthylène glycol",
+    "Fluide de refroidissement côté secondaire": "Eau désionisée/éthylèneglycol/propylèneglycol/fluides fluorés"
   },
   "video_link": "",
   "details": [
@@ -32,6 +32,7 @@
       "content": "Le produit utilise une conception modulaire préfabriquée qui minimise la complexité de l'installation sur site et permet une livraison plus rapide du projet."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Unité de distribution à refroidissement liquide ACDU",
     "meta_description": "Unité de distribution de refroidissement liquide pour centre de données préfabriquée avec contrôle adaptatif, refroidissement naturel et fonctionnalités de déploiement rapide."
@@ -45,6 +46,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooling_distribution_unit_acdu.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

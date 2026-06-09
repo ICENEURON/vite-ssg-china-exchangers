@@ -39,6 +39,57 @@
       "content": "该产品在设计上会综合考虑板型、板间距、逆流或错流流程布置以及压降控制，并根据介质腐蚀性和温压条件选择不锈钢、钛材、哈氏合金等材料。制造过程中采用自动化精密焊接和高强度装配工艺，确保密封性、结构强度和高温高压工况下的长期稳定运行。"
     }
   ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "化工余热回收",
+        "中低温热回收",
+        "工艺物流预热",
+        "节能改造项目"
+      ],
+      "advantages": [
+        "与管壳式换热器相比，TP 焊接板式换热器可提供更高传热系数和更小占地。",
+        "焊接结构降低高温或危险介质工况中的胶垫相关泄漏风险。",
+        "较高单位体积换热面积有利于在空间受限的装置改造中实现节能。"
+      ],
+      "application": "余热回收",
+      "description": "在化工装置中，余热回收是降低能耗的重要环节。TP 混合板式热交换器适用于中低温余热回收工况，尤其适合需要紧凑布置、高效传热和焊接密封的场景。"
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "丙烯酸精制",
+        "酯类产品精制",
+        "塔顶冷凝",
+        "溶剂冷凝",
+        "化工精馏系统"
+      ],
+      "advantages": [
+        "与胶垫密封设备相比，全焊接密封避免腐蚀性冷凝工况中的胶垫老化问题。",
+        "与传统换热器相比，定制波纹板片和流道布局可增强湍流并提升传热效率。",
+        "焊接板式结构有助于在连续化工运行中保持承压稳定性、抗变形和抗冲击能力。"
+      ],
+      "application": "塔顶冷凝器",
+      "description": "在丙烯酸及酯产品精制环节，塔顶冷凝器需要面对介质腐蚀性强、操作温度波动大、连续运行和大型化装置可靠性要求高等挑战。TP 混合板式热交换器可通过耐蚀板片材料和焊接密封结构支持稳定冷凝工况。"
+    },
+    {
+      "order": 3,
+      "used_in": [
+        "尾气冷却",
+        "净化系统冷却",
+        "尾气余热回收",
+        "化工废气处理"
+      ],
+      "advantages": [
+        "与管壳式换热器相比，焊接板式结构可在保持高效传热的同时降低占地。",
+        "与胶垫密封设备相比，焊接密封可降低危险或腐蚀性尾气工况中的泄漏风险。",
+        "材料选择可根据腐蚀性或含杂质气体介质进行匹配。"
+      ],
+      "application": "尾气冷却器/净化冷却器",
+      "description": "TP 混合板式热交换器可作为尾气冷却器或净化冷却器，用于后续回收或处理系统前的降温环节。焊接结构和可选耐蚀材料适合对可靠性、紧凑性和泄漏控制要求较高的工艺尾气冷却工况。"
+    }
+  ],
   "seo_data": {
     "meta_title": "TP混合板式热交换器",
     "meta_description": "兼具板式高效换热与管壳式耐高温高压特性的TP混合板式热交换器，适用于高温高压及危险介质工况。"
@@ -66,6 +117,13 @@
     {
       "alt_text": "TP Welded Plate Heat Exchanger Application",
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_5.png"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "TP welded plate heat exchanger for tail gas cooling",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/tp_tail_gas_cooling_application.png",
+      "file_name": "tp_tail_gas_cooling_application.png"
     }
   ],
   "certificates": [

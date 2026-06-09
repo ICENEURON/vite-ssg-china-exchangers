@@ -1,0 +1,64 @@
+{
+  "slug": "plate-evaporators",
+  "name": "Plate Evaporators",
+  "full_description": "Plate evaporators use corrugated plate channels to transfer heat from steam or another heating medium into a process liquid, vaporizing solvent and concentrating the product. The high heat-transfer coefficient, compact hold-up volume, and cleanable plate structure make the equipment useful for food, dairy, beverage, pharmaceutical, chemical, wastewater, and crystallization processes.",
+  "industries": [
+    "Petrochemical",
+    "Food Processing",
+    "Chemical Processing",
+    "Food and Beverage",
+    "Pharmaceuticals"
+  ],
+  "advantage": [
+    "Corrugated plates create high turbulence and efficient evaporation in compact equipment.",
+    "Low liquid hold-up supports short residence time for heat-sensitive materials.",
+    "Openable or cleanable designs support inspection, descaling, and sanitation planning.",
+    "Capacity can be adapted by plate area, number of effects, circulation mode, and heating medium.",
+    "Material options support food, pharmaceutical, chemical, and corrosive evaporation duties.",
+    "Can be integrated with MVR, multi-effect evaporation, condensation, and crystallization systems."
+  ],
+  "technical_parameters": {
+    "Cleaning": "CIP, descaling, and inspection access by configuration",
+    "Materials": "Stainless steel, duplex stainless steel, titanium, and alloy options",
+    "Process mode": "Falling-film, rising-film, forced-circulation, or multi-effect configuration by project",
+    "Heating medium": "Steam, hot water, thermal oil, or process heat depending on duty",
+    "Typical applications": "Food concentration, dairy, beverage, pharmaceutical, chemical evaporation, wastewater concentration, and crystallization",
+    "Heat-transfer surface": "Corrugated plate channels"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Process fit",
+      "content": "Plate evaporators are useful where compact heat-transfer area, short residence time, and cleanability are important for concentration or solvent removal."
+    },
+    {
+      "title": "System integration",
+      "content": "They can be configured with vapor-liquid separation, condensers, MVR compressors, circulation pumps, and crystallization equipment to match the process flow."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Plate Evaporators",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. supplies plate evaporators for industrial heat-transfer applications with project-specific material, pressure, temperature, and maintenance selection."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Evaporators image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_evaporator_1.png"
+    },
+    {
+      "alt_text": "Plate Evaporators image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_evaporator_2.png"
+    },
+    {
+      "alt_text": "Plate Evaporators image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_evaporator_3.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

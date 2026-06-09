@@ -18,16 +18,17 @@
     "Officiellement répertorié pour une large utilisation dans les applications de chauffage central, de climatisation, marine, pétrolière, chimique, médicale et alimentaire."
   ],
   "technical_parameters": {
-    "Assembly Area": "≤5000m2",
-    "Port Diameter": "DN32 ~ DN650",
-    "Design Pressure": "0,6 ~ 2,5MPa",
-    "Plate Thickness": "0,4 ~ 1,0 mm",
-    "Maximum Capacity": "5000m3/heure",
-    "Single Plate Area": "0,03 ~ 4,15 m2",
-    "Design Temperature": "-40 ~ 180 ℃"
+    "Capacité maximale": "5000m3/heure",
+    "Diamètre d’orifice": "DN32 ~ DN650",
+    "Pression de conception": "0,6 ~ 2,5MPa",
+    "Surface d’assemblage": "≤5000m2",
+    "Surface d’une plaque": "0,03 ~ 4,15 m2",
+    "Épaisseur des plaques": "0,4 ~ 1,0 mm",
+    "Température de conception": "-40 ~ 180 ℃"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Échangeur de chaleur à plaques amovibles",
     "meta_description": "Échangeur à plaques amovibles avec joints pour le chauffage, le refroidissement, l'évaporation, la condensation, la stérilisation et la récupération de chaleur."
@@ -41,6 +42,7 @@
       "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/detachable_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

@@ -276,28 +276,28 @@
               "相关标准": "NB/T47004.1-2017"
             },
             "ru": {
-              "Maximum Design Pressure": "3,2 МПа",
-              "Maximum Design Temperature": "150℃",
-              "Level-1 Energy-Efficiency Plate Series": "Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B, P45A-H",
-              "Referenced Standard": "NB/T47004.1-2017"
+              "Максимальное расчетное давление": "3,2 МПа",
+              "Максимальная расчетная температура": "150℃",
+              "Серии пластин энергоэффективности уровня 1": "Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B, P45A-H",
+              "Справочный стандарт": "NB/T47004.1-2017"
             },
             "es": {
-              "Maximum Design Pressure": "3,2MPa",
-              "Maximum Design Temperature": "150℃",
-              "Level-1 Energy-Efficiency Plate Series": "Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B, P45A-H",
-              "Referenced Standard": "NB/T47004.1-2017"
+              "Presión máxima de diseño": "3,2MPa",
+              "Temperatura máxima de diseño": "150℃",
+              "Series de placas de eficiencia energética nivel 1": "Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B, P45A-H",
+              "Norma de referencia": "NB/T47004.1-2017"
             },
             "fr": {
-              "Maximum Design Pressure": "3,2MPa",
-              "Maximum Design Temperature": "150℃",
-              "Level-1 Energy-Efficiency Plate Series": "Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B, P45A-H",
-              "Referenced Standard": "NB/T47004.1-2017"
+              "Pression de conception maximale": "3,2MPa",
+              "Température de conception maximale": "150℃",
+              "Séries de plaques à efficacité énergétique niveau 1": "Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B, P45A-H",
+              "Norme de référence": "NB/T47004.1-2017"
             },
             "ar": {
-              "Maximum Design Pressure": "3.2 ميجا باسكال",
-              "Maximum Design Temperature": "150 درجة مئوية",
-              "Level-1 Energy-Efficiency Plate Series": "Y5F، Y10B، P15B(H)، Y15B، S15B-H، P15G-Z، Y20B، P45A-H",
-              "Referenced Standard": "NB/T47004.1-2017"
+              "أقصى ضغط تصميم": "3.2 ميجا باسكال",
+              "أقصى درجة حرارة تصميم": "150 درجة مئوية",
+              "سلاسل ألواح كفاءة الطاقة من المستوى الأول": "Y5F، Y10B، P15B(H)، Y15B، S15B-H، P15G-Z، Y20B، P45A-H",
+              "المعيار المرجعي": "NB/T47004.1-2017"
             }
           },
           "details": {
@@ -462,28 +462,28 @@
               "控制": "标准化控制程序，含能耗分析功能"
             },
             "ru": {
-              "Plate Exchanger Pressure Drop": "ТГТ 40 кПа; национальный эталон 50 кПа",
-              "Unit Pressure Drop - Primary Side": "ТГТ 60 кПа; национальный эталон 100 кПа",
-              "Unit Pressure Drop - Secondary Side": "ТГТ 80 кПа; национальный эталон 100 кПа",
-              "Control": "Стандартизированная программа управления с анализом энергоэффективности"
+              "Падение давления пластинчатого теплообменника": "ТГТ 40 кПа; национальный эталон 50 кПа",
+              "Падение давления блока - первичная сторона": "ТГТ 60 кПа; национальный эталон 100 кПа",
+              "Падение давления блока - вторичная сторона": "ТГТ 80 кПа; национальный эталон 100 кПа",
+              "Управление": "Стандартизированная программа управления с анализом энергоэффективности"
             },
             "es": {
-              "Plate Exchanger Pressure Drop": "THT 40kPa; referencia nacional 50kPa",
-              "Unit Pressure Drop - Primary Side": "THT 60kPa; referencia nacional 100kPa",
-              "Unit Pressure Drop - Secondary Side": "THT 80kPa; referencia nacional 100kPa",
+              "Caída de presión del intercambiador de placas": "THT 40kPa; referencia nacional 50kPa",
+              "Caída de presión de la unidad - lado primario": "THT 60kPa; referencia nacional 100kPa",
+              "Caída de presión de la unidad - lado secundario": "THT 80kPa; referencia nacional 100kPa",
               "Control": "Programa de control estandarizado con análisis de eficiencia energética."
             },
             "fr": {
-              "Plate Exchanger Pressure Drop": "THT 40 kPa; référence nationale 50kPa",
-              "Unit Pressure Drop - Primary Side": "THT 60 kPa; référence nationale 100kPa",
-              "Unit Pressure Drop - Secondary Side": "THT 80 kPa; référence nationale 100kPa",
-              "Control": "Programme de contrôle standardisé avec analyse de l'efficacité énergétique"
+              "Perte de charge de l’échangeur à plaques": "THT 40 kPa; référence nationale 50kPa",
+              "Perte de charge de l’unité - côté primaire": "THT 60 kPa; référence nationale 100kPa",
+              "Perte de charge de l’unité - côté secondaire": "THT 80 kPa; référence nationale 100kPa",
+              "Contrôle": "Programme de contrôle standardisé avec analyse de l'efficacité énergétique"
             },
             "ar": {
-              "Plate Exchanger Pressure Drop": "ثت 40 كيلو باسكال؛ المرجع الوطني 50 كيلو باسكال",
-              "Unit Pressure Drop - Primary Side": "ثت 60 كيلو باسكال؛ المرجع الوطني 100 كيلو باسكال",
-              "Unit Pressure Drop - Secondary Side": "ثت 80 كيلو باسكال؛ المرجع الوطني 100 كيلو باسكال",
-              "Control": "برنامج تحكم موحد مع تحليل كفاءة الطاقة"
+              "هبوط ضغط المبادل اللوحي": "ثت 40 كيلو باسكال؛ المرجع الوطني 50 كيلو باسكال",
+              "هبوط ضغط الوحدة - الجانب الأولي": "ثت 60 كيلو باسكال؛ المرجع الوطني 100 كيلو باسكال",
+              "هبوط ضغط الوحدة - الجانب الثانوي": "ثت 80 كيلو باسكال؛ المرجع الوطني 100 كيلو باسكال",
+              "التحكم": "برنامج تحكم موحد مع تحليل كفاءة الطاقة"
             }
           },
           "details": {
@@ -646,20 +646,20 @@
               "安全注册": "焊接板式热交换器 B2-B3 级安全注册"
             },
             "ru": {
-              "Welding Method": "Сварка волоконным лазером и сварка швов с ЧПУ",
-              "Safety Registration": "Регистрация безопасности сварного пластинчатого теплообменника уровня B2-B3"
+              "Метод сварки": "Сварка волоконным лазером и сварка швов с ЧПУ",
+              "Регистрация безопасности": "Регистрация безопасности сварного пластинчатого теплообменника уровня B2-B3"
             },
             "es": {
-              "Welding Method": "Soldadura por láser de fibra y soldadura de costura CNC.",
-              "Safety Registration": "Registro de seguridad del intercambiador de calor de placas soldadas de nivel B2-B3"
+              "Método de soldadura": "Soldadura por láser de fibra y soldadura de costura CNC.",
+              "Registro de seguridad": "Registro de seguridad del intercambiador de calor de placas soldadas de nivel B2-B3"
             },
             "fr": {
-              "Welding Method": "Soudage laser à fibre et soudage continu CNC",
-              "Safety Registration": "Enregistrement de sécurité des échangeurs de chaleur à plaques soudées de niveau B2-B3"
+              "Méthode de soudage": "Soudage laser à fibre et soudage continu CNC",
+              "Enregistrement de sécurité": "Enregistrement de sécurité des échangeurs de chaleur à plaques soudées de niveau B2-B3"
             },
             "ar": {
-              "Welding Method": "لحام ألياف الليزر واللحام باستخدام الحاسب الآلي",
-              "Safety Registration": "تسجيل سلامة المبادل الحراري للوحة الملحومة من المستوى B2-B3"
+              "طريقة اللحام": "لحام ألياف الليزر واللحام باستخدام الحاسب الآلي",
+              "تسجيل السلامة": "تسجيل سلامة المبادل الحراري للوحة الملحومة من المستوى B2-B3"
             }
           },
           "details": {
@@ -792,20 +792,20 @@
               "执行标准": "NB/T47004-2009；GB150-1998；可按要求执行 API662、ASME"
             },
             "ru": {
-              "Patent No.": "200520127761.X",
-              "Standards": "NB/T47004-2009; ГБ150-1998; API662 и ASME по запросу."
+              "Номер патента": "200520127761.X",
+              "Стандарты": "NB/T47004-2009; ГБ150-1998; API662 и ASME по запросу."
             },
             "es": {
-              "Patent No.": "200520127761.X",
-              "Standards": "NB/T47004-2009; GB150-1998; API662 y ASME bajo pedido"
+              "N.º de patente": "200520127761.X",
+              "Normas": "NB/T47004-2009; GB150-1998; API662 y ASME bajo pedido"
             },
             "fr": {
-              "Patent No.": "200520127761.X",
-              "Standards": "NB/T47004-2009; GB150-1998; API662 et ASME sur demande"
+              "N° de brevet": "200520127761.X",
+              "Normes": "NB/T47004-2009; GB150-1998; API662 et ASME sur demande"
             },
             "ar": {
-              "Patent No.": "200520127761.X",
-              "Standards": "NB/T47004-2009; GB150-1998; API662 وASME عند الطلب"
+              "رقم براءة الاختراع": "200520127761.X",
+              "المعايير": "NB/T47004-2009; GB150-1998; API662 وASME عند الطلب"
             }
           },
           "details": {
@@ -939,24 +939,24 @@
               "板片形式": "巧克力状波纹、水平波纹、斜波纹、人字形波纹"
             },
             "ru": {
-              "Air-Tightness Test": "0,6-0,7МПа после сварки",
-              "Operating Pressure": "Некоторое оборудование кожухового типа выдерживает давление 6,0 МПа.",
-              "Plate Forms": "Шоколадная рябь, горизонтальная рябь, косая рябь, рябь «елочка»."
+              "Испытание на герметичность": "0,6-0,7МПа после сварки",
+              "Рабочее давление": "Некоторое оборудование кожухового типа выдерживает давление 6,0 МПа.",
+              "Формы пластин": "Шоколадная рябь, горизонтальная рябь, косая рябь, рябь «елочка»."
             },
             "es": {
-              "Air-Tightness Test": "0,6-0,7 MPa después de soldar",
-              "Operating Pressure": "Algunos equipos tipo carcasa pueden soportar 6,0 MPa.",
-              "Plate Forms": "Ondulación en forma de chocolate, ondulación horizontal, ondulación oblicua, ondulación en espiga"
+              "Prueba de hermeticidad": "0,6-0,7 MPa después de soldar",
+              "Presión de operación": "Algunos equipos tipo carcasa pueden soportar 6,0 MPa.",
+              "Formas de placa": "Ondulación en forma de chocolate, ondulación horizontal, ondulación oblicua, ondulación en espiga"
             },
             "fr": {
-              "Air-Tightness Test": "0,6-0,7MPa après soudage",
-              "Operating Pressure": "Certains équipements de type coque peuvent résister à 6,0 MPa",
-              "Plate Forms": "Ondulation en forme de chocolat, ondulation horizontale, ondulation oblique, ondulation à chevrons"
+              "Essai d’étanchéité à l’air": "0,6-0,7MPa après soudage",
+              "Pression de fonctionnement": "Certains équipements de type coque peuvent résister à 6,0 MPa",
+              "Formes des plaques": "Ondulation en forme de chocolat, ondulation horizontale, ondulation oblique, ondulation à chevrons"
             },
             "ar": {
-              "Air-Tightness Test": "0.6-0.7MPa بعد اللحام",
-              "Operating Pressure": "يمكن لبعض المعدات من نوع الصدفة أن تتحمل 6.0MPa",
-              "Plate Forms": "تموج على شكل الشوكولاتة، تموج أفقي، تموج مائل، تموج متعرج"
+              "اختبار الإحكام الهوائي": "0.6-0.7MPa بعد اللحام",
+              "ضغط التشغيل": "يمكن لبعض المعدات من نوع الصدفة أن تتحمل 6.0MPa",
+              "أشكال الألواح": "تموج على شكل الشوكولاتة، تموج أفقي، تموج مائل، تموج متعرج"
             }
           },
           "details": {
@@ -1090,24 +1090,24 @@
               "气密检测": "每件板片对焊接后0.6-0.7MPa"
             },
             "ru": {
-              "Maximum Single Plate Length": ">10000 мм",
-              "Single Plate Width": "1200 мм",
-              "Air-Tightness Test": "0,6-0,7 МПа после сварки каждой пары пластин."
+              "Максимальная длина одной пластины": ">10000 мм",
+              "Ширина одной пластины": "1200 мм",
+              "Испытание на герметичность": "0,6-0,7 МПа после сварки каждой пары пластин."
             },
             "es": {
-              "Maximum Single Plate Length": ">10000mm",
-              "Single Plate Width": "1200 mm",
-              "Air-Tightness Test": "0,6-0,7 MPa después de soldar cada par de placas"
+              "Longitud máxima de placa individual": ">10000mm",
+              "Ancho de placa individual": "1200 mm",
+              "Prueba de hermeticidad": "0,6-0,7 MPa después de soldar cada par de placas"
             },
             "fr": {
-              "Maximum Single Plate Length": ">10 000 mm",
-              "Single Plate Width": "1200 mm",
-              "Air-Tightness Test": "0,6-0,7MPa après le soudage de chaque paire de plaques"
+              "Longueur maximale d’une plaque": ">10 000 mm",
+              "Largeur d’une plaque": "1200 mm",
+              "Essai d’étanchéité à l’air": "0,6-0,7MPa après le soudage de chaque paire de plaques"
             },
             "ar": {
-              "Maximum Single Plate Length": "> 10000 مم",
-              "Single Plate Width": "1200 ملم",
-              "Air-Tightness Test": "0.6-0.7MPa بعد لحام كل زوج من الألواح"
+              "أقصى طول للوح الواحد": "> 10000 مم",
+              "عرض اللوح الواحد": "1200 ملم",
+              "اختبار الإحكام الهوائي": "0.6-0.7MPa بعد لحام كل زوج من الألواح"
             }
           },
           "details": {
@@ -1238,16 +1238,16 @@
               "典型工况": "工业废水/废气、玉米深加工蒸发尾气、城市原生污水、燃料烟气余热回收"
             },
             "ru": {
-              "Typical Duties": "Промышленные сточные воды и выхлопные газы, отходящие газы от испарений глубокой переработки кукурузы, городские неочищенные сточные воды, рекуперация тепла топливных дымовых газов."
+              "Типовые режимы": "Промышленные сточные воды и выхлопные газы, отходящие газы от испарений глубокой переработки кукурузы, городские неочищенные сточные воды, рекуперация тепла топливных дымовых газов."
             },
             "es": {
-              "Typical Duties": "Aguas residuales industriales y gases de escape, gases de cola de evaporación de procesamiento profundo de maíz, aguas residuales urbanas sin tratar, recuperación de calor de gases de combustión de combustible"
+              "Servicios típicos": "Aguas residuales industriales y gases de escape, gases de cola de evaporación de procesamiento profundo de maíz, aguas residuales urbanas sin tratar, recuperación de calor de gases de combustión de combustible"
             },
             "fr": {
-              "Typical Duties": "Eaux usées industrielles et gaz d'échappement, gaz résiduaires d'évaporation du traitement en profondeur du maïs, eaux usées brutes urbaines, récupération de chaleur des gaz de combustion des combustibles"
+              "Services typiques": "Eaux usées industrielles et gaz d'échappement, gaz résiduaires d'évaporation du traitement en profondeur du maïs, eaux usées brutes urbaines, récupération de chaleur des gaz de combustion des combustibles"
             },
             "ar": {
-              "Typical Duties": "مياه الصرف الصناعي وغاز العادم، وغاز ذيل التبخر للمعالجة العميقة للذرة، ومياه الصرف الصحي الخام في المناطق الحضرية، واسترداد حرارة غاز المداخن"
+              "الخدمات النموذجية": "مياه الصرف الصناعي وغاز العادم، وغاز ذيل التبخر للمعالجة العميقة للذرة، ومياه الصرف الصحي الخام في المناطق الحضرية، واسترداد حرارة غاز المداخن"
             }
           },
           "details": {
@@ -1379,16 +1379,16 @@
               "钎料": "铜基钎料（箔片）；镍基钎料（膏料）；铁基钎料（膏料）"
             },
             "ru": {
-              "Brazing Materials": "Припойная фольга на медной основе; паяльная паста на основе никеля; паяльная паста на основе железа"
+              "Материалы пайки": "Припойная фольга на медной основе; паяльная паста на основе никеля; паяльная паста на основе железа"
             },
             "es": {
-              "Brazing Materials": "Lámina de soldadura a base de cobre; pasta de soldadura a base de níquel; pasta de soldadura a base de hierro"
+              "Materiales de soldadura fuerte": "Lámina de soldadura a base de cobre; pasta de soldadura a base de níquel; pasta de soldadura a base de hierro"
             },
             "fr": {
-              "Brazing Materials": "Feuille de soudure à base de cuivre; pâte à braser à base de nickel; pâte à souder à base de fer"
+              "Matériaux de brasage": "Feuille de soudure à base de cuivre; pâte à braser à base de nickel; pâte à souder à base de fer"
             },
             "ar": {
-              "Brazing Materials": "رقائق اللحام القائمة على النحاس؛ معجون لحام قائم على النيكل؛ معجون لحام قائم على الحديد"
+              "مواد اللحام بالنحاس": "رقائق اللحام القائمة على النحاس؛ معجون لحام قائم على النيكل؛ معجون لحام قائم على الحديد"
             }
           },
           "details": {

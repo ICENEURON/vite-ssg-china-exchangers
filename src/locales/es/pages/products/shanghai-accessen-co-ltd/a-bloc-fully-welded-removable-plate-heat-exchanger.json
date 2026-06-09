@@ -17,10 +17,10 @@
     "Limpieza con chorro de agua a alta presión"
   ],
   "technical_parameters": {
-    "Plate material": "AISI304, 316, 254, Ti",
-    "Maximum design pressure": "40bar",
-    "Maximum processing capacity": "1500m³/h",
-    "Maximum temperature resistance": "350℃"
+    "Material de placas": "AISI304, 316, 254, Ti",
+    "Presión máxima de diseño": "40bar",
+    "Capacidad máxima de procesamiento": "1500m³/h",
+    "Resistencia máxima a la temperatura": "350℃"
   },
   "video_link": "",
   "details": [
@@ -33,6 +33,7 @@
       "content": "El paquete de placas soldadas está instalado en una estructura extraíble que permite el desmontaje y la limpieza mecánica, incluida la limpieza con chorro de agua a alta presión, al tiempo que ayuda a mantener la eficiencia de la transferencia de calor."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Intercambiador de calor de placas extraíbles totalmente soldado A-BLOC",
     "meta_description": "Intercambiador de calor de placas soldadas extraíble y compacto para aplicaciones industriales de alta temperatura y alta presión con eficiente transferencia de calor a contracorriente."
@@ -46,6 +47,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/a_bloc_fully_welded_removable_plate_heat_exchanger.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

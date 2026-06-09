@@ -15,12 +15,13 @@
     "يتلقى كل زوج من الألواح اختبار ضيق الهواء بعد اللحام."
   ],
   "technical_parameters": {
-    "Air-Tightness Test": "0.6-0.7MPa بعد لحام كل زوج من الألواح",
-    "Single Plate Width": "1200 ملم",
-    "Maximum Single Plate Length": "> 10000 مم"
+    "عرض اللوح الواحد": "1200 ملم",
+    "أقصى طول للوح الواحد": "> 10000 مم",
+    "اختبار الإحكام الهوائي": "0.6-0.7MPa بعد لحام كل زوج من الألواح"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "مبادل حراري لوحة واسعة القناة ملحومة بالكامل",
     "meta_description": "مبادل حراري ذو لوحة واسعة القناة ملحوم بالكامل للجسيمات الصلبة، وتعليق الألياف، وواجبات السوائل اللزجة."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/fully_welded_wide_channel_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

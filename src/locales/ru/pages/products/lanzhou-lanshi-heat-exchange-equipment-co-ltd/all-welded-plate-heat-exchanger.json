@@ -17,14 +17,15 @@
     "Сочетает в себе компактную структуру и высокую эффективность теплопередачи с более высокой устойчивостью к давлению и температуре."
   ],
   "technical_parameters": {
-    "Assembly Area": "≤30000м2",
-    "Design Pressure": "Вакуум ~ 6,0 МПа",
-    "Plate Thickness": "0,5 ~ 1,2 мм",
-    "Design Temperature": "-200 ~ 900 ℃",
-    "Minimum Temperature Difference": "1℃"
+    "Площадь сборки": "≤30000м2",
+    "Толщина пластины": "0,5 ~ 1,2 мм",
+    "Расчетное давление": "Вакуум ~ 6,0 МПа",
+    "Расчетная температура": "-200 ~ 900 ℃",
+    "Минимальная разность температур": "1℃"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Цельносварной пластинчатый теплообменник",
     "meta_description": "Цельносварной пластинчатый теплообменник, установленный внутри корпуса для работы в условиях высокого давления и высоких температур."
@@ -38,6 +39,7 @@
       "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/all_welded_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

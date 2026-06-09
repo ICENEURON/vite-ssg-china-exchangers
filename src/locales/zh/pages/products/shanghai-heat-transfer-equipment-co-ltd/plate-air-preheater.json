@@ -38,6 +38,24 @@
       "content": "该产品采用 X 型、E 型、C 型及 S 型等基础换热模块进行分段制造和现场组装，便于运输并适合大型化应用。工程设计中还会综合考虑材料选型、流道布置、热应力补偿、膨胀节设计和温度分级等因素，以保证换热效率、结构可靠性、防腐性能和长期运行稳定性。"
     }
   ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "锅炉燃烧空气预热",
+        "炉窑烟气余热回收",
+        "化工烟气热回收",
+        "电力和冶金余热回收"
+      ],
+      "advantages": [
+        "与管式空气预热器相比，板式结构可提供更高单位体积换热面积并降低设备重量。",
+        "模块化组合便于根据不同烟气量和温度制度进行选型。",
+        "耐腐蚀材料、旁路布置和气膜设计可帮助控制露点腐蚀风险。"
+      ],
+      "application": "工业烟气余热回收",
+      "description": "空气预热器从高温烟气或废气中回收热量，并将热量传递给进入系统的燃烧空气或工艺空气。该气-气换热应用可提升系统效率、降低燃料消耗，并支持锅炉、炉窑和工艺装置的节能运行。"
+    }
+  ],
   "seo_data": {
     "meta_title": "空气预热器",
     "meta_description": "适用于工业余热回收的模块化板式空气预热器，具备高传热效率、防露点腐蚀和节能环保优势。"
@@ -61,6 +79,13 @@
     {
       "alt_text": "Plate Air Preheater Detail",
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "Plate air preheater for industrial flue gas waste heat recovery",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/plate_air_preheater_waste_heat_recovery_application.png",
+      "file_name": "plate_air_preheater_waste_heat_recovery_application.png"
     }
   ],
   "certificates": [

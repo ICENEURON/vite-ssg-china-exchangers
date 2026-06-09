@@ -1,0 +1,65 @@
+{
+  "slug": "plate-condenser",
+  "name": "Condensador de placas",
+  "full_description": "Un condensador de placas usa canales corrugados para condensar vapor en líquido transfiriendo calor a agua de enfriamiento, agua helada, glicol, circuitos asistidos por aire u otro refrigerante. La superficie compacta ofrece respuesta térmica rápida y alta eficiencia en sistemas de evaporación, refrigeración, recuperación de solventes, procesos químicos, auxiliares de energía, servicio marino y utilidades alimentarias o farmacéuticas.",
+  "industries": [
+    "HVAC",
+    "petroquímica",
+    "Energía",
+    "Procesamiento químico",
+    "Alimentos y Bebidas",
+    "Generación de energía"
+  ],
+  "advantage": [
+    "La gran superficie corrugada de placas ofrece altos coeficientes de condensación.",
+    "La construcción compacta reduce huella de instalación y volumen retenido de refrigerante o vapor.",
+    "La respuesta térmica rápida ayuda a seguir cargas de vapor variables.",
+    "Pueden seleccionarse configuraciones abribles, con juntas, semisoldadas o soldadas según medios y mantenimiento.",
+    "La selección de materiales cubre agua de mar, vapores ácidos, refrigerantes, solventes y servicios higiénicos.",
+    "Puede combinarse con evaporadores de placas, sistemas MVR, unidades de refrigeración y circuitos de recuperación de calor."
+  ],
+  "technical_parameters": {
+    "Función": "Condensación de vapor y recuperación de calor",
+    "Materiales": "Acero inoxidable, titanio, acero inoxidable dúplex y aleaciones resistentes a la corrosión",
+    "Configuración": "Diseños con juntas, semisoldados, totalmente soldados o de placas y carcasa según servicio",
+    "Aplicaciones típicas": "Sistemas de evaporación, refrigeración con amoníaco, recuperación de solventes, condensadores químicos, servicio marino, utilidades alimentarias y farmacéuticas",
+    "Lado de condensación": "Canales de placas configurados para distribución de vapor y drenaje de condensado",
+    "Medios de enfriamiento": "Agua de enfriamiento, agua helada, glicol, agua de mar o refrigerante de proceso según servicio"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Servicio de condensación",
+      "content": "El intercambiador debe dimensionarse según composición del vapor, curva de condensación, gases no condensables, temperatura del refrigerante, caída de presión y drenaje de condensado."
+    },
+    {
+      "title": "Elección de configuración",
+      "content": "El vapor de agua limpio puede usar diseño con juntas; refrigerantes, solventes, vapor corrosivo o mayor presión pueden requerir diseño semisoldado, soldado o de placas y carcasa."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Condensador de placas",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. suministra condensador de placas para aplicaciones industriales de transferencia de calor con selección de materiales, presión, temperatura y mantenimiento por proyecto."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Condenser image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_1.png"
+    },
+    {
+      "alt_text": "Plate Condenser image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_2.png"
+    },
+    {
+      "alt_text": "Plate Condenser image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_3.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

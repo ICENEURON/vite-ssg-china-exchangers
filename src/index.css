@@ -569,6 +569,13 @@ h4 {
   line-height: 1.5;
 }
 
+.product-application-heading {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
 p {
   font-size: 1rem;
   font-weight: 400;

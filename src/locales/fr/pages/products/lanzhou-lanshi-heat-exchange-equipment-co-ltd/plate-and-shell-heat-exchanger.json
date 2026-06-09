@@ -13,15 +13,16 @@
     "La page officielle met en évidence un poids inférieur et une taille plus petite que les alternatives à coque et tube."
   ],
   "technical_parameters": {
-    "Assembly Area": "≤20000m2",
-    "Plate Material": "304, 316L, 321, 254SMO, etc.",
-    "Design Pressure": "≤6,0MPa",
-    "Plate Thickness": "0,7 ~ 1,2 mm",
-    "Design Temperature": "≤580℃",
-    "Minimum Temperature Difference": "1℃"
+    "Matériau des plaques": "304, 316L, 321, 254SMO, etc.",
+    "Pression de conception": "≤6,0MPa",
+    "Surface d’assemblage": "≤20000m2",
+    "Épaisseur des plaques": "0,7 ~ 1,2 mm",
+    "Température de conception": "≤580℃",
+    "Différence minimale de température": "1℃"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Échangeur de chaleur à plaques et à calandre",
     "meta_description": "Échangeur à plaques et calandre compact à haut rendement pour les services de raffinerie, de pétrochimie et de traitement du gaz."
@@ -35,6 +36,7 @@
       "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_and_shell_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

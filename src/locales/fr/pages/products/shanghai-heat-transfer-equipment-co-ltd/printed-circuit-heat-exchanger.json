@@ -16,12 +16,12 @@
     "Léger et peu encombrant: la densité de surface élevée permet une approche de température proche, un poids réduit et une excellente utilisation de l'espace."
   ],
   "technical_parameters": {
-    "Channel Width": "0,4 ~ 4 mm",
-    "Plate Material": "304, 316L, 2205, TA1 et alliage de titane, alliage haute température",
-    "Plate Thickness": "0,4 ~ 4 mm",
-    "Design Temperature": "-196 ~ 850 ℃",
-    "Heat Transfer Area": "8000㎡",
-    "Max Design Pressure": "1000 barres"
+    "Largeur de canal": "0,4 ~ 4 mm",
+    "Matériau des plaques": "304, 316L, 2205, TA1 et alliage de titane, alliage haute température",
+    "Épaisseur des plaques": "0,4 ~ 4 mm",
+    "Température de conception": "-196 ~ 850 ℃",
+    "Surface d’échange thermique": "8000㎡",
+    "Pression de conception maximale": "1000 barres"
   },
   "video_link": "",
   "details": [
@@ -36,6 +36,40 @@
     {
       "title": "Comment est-il conçu et fabriqué?",
       "content": "La conception du PCHE combine l'analyse thermohydraulique, l'optimisation de la géométrie des microcanaux, l'ingénierie des matériaux et la fabricabilité. Après avoir sélectionné les matériaux de base et l'épaisseur de la plaque, le motif de canal est transféré par photomasque et gravé chimiquement, nettoyé, empilé, lié par diffusion dans un four sous vide, puis complété par l'assemblage du collecteur, des tests d'étanchéité et une validation des performances thermiques."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Décarbonatation de gaz naturel offshore",
+        "Refroidissement et récupération de chaleur de gaz riches en CO2",
+        "Modules de procédé FPSO et plateformes offshore",
+        "Gestion thermique de gaz acides ou corrosifs"
+      ],
+      "advantages": [
+        "Par rapport aux échangeurs à calandre et tubes, le noyau microcanal lié par diffusion réduit fortement la taille et le poids des modules offshore.",
+        "Par rapport aux équipements avec joints, le noyau monolithique lié élimine le risque de fuite de joints en service gaz haute pression.",
+        "La capacité haute pression et le choix de matériaux anticorrosion conviennent aux gaz naturels riches en CO2."
+      ],
+      "application": "Décarbonatation de gaz offshore",
+      "description": "L’échangeur de chaleur à circuit imprimé convient aux échanges compacts haute pression dans les projets offshore de décarbonatation du gaz. Pour les services riches en CO2 et corrosifs, le produit peut être conçu et fabriqué selon ASME, appuyé par une certification tierce et configuré selon les exigences NACE de maîtrise de la corrosion."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Refroidissement de l’hydrogène",
+        "Refroidissement de gaz haute pression",
+        "Systèmes d’énergie hydrogène",
+        "Gestion thermique des procédés de piles à combustible"
+      ],
+      "advantages": [
+        "Par rapport aux échangeurs conventionnels, le PCHE offre une forte densité de surface d’échange pour les modules hydrogène compacts.",
+        "Le noyau lié évite les surfaces d’étanchéité à joints en service hydrogène haute pression.",
+        "La construction microcanal permet un refroidissement précis lorsque le contrôle de température et l’encombrement sont critiques."
+      ],
+      "application": "Refroidissement de l’hydrogène",
+      "description": "L’échangeur à circuit imprimé convient au refroidissement de l’hydrogène haute pression et au contrôle de température. Les microcanaux gravés chimiquement et le noyau lié par diffusion offrent un transfert compact, une résistance à la pression et une construction résistante aux fuites pour les systèmes hydrogène."
     }
   ],
   "seo_data": {
@@ -59,6 +93,7 @@
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_3.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [
     {
       "alt_text": "ASME Certificate",

@@ -31,6 +31,7 @@
       "content": "ViEX lists single-loop temperature control, fully automatic field control that still requires regular inspection, and unattended remote communication control with transmission of temperature, pressure, flow, valve, pump, and water level signals."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Heat Exchanger Unit | Siping ViEX",
     "meta_description": "Integrated heat exchanger unit for heating, air conditioning, and domestic hot water systems with automatic control and remote communication options."
@@ -44,6 +45,7 @@
       "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/heat_exchanger_unit.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

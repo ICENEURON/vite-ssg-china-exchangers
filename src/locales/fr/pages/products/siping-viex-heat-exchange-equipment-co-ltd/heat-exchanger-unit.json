@@ -14,11 +14,11 @@
     "Peut être configuré avec des composants de marques internationales"
   ],
   "technical_parameters": {
-    "Control modes": "Contrôle de la température; Régulation de débit variable; Régulation de température et de débit",
-    "Heating media": "Vapeur en dessous de 300 ℃; Eau chaude à haute température",
-    "Automation levels": "Contrôle de température en boucle unique; Contrôle de terrain entièrement automatique; Contrôle de communication à distance sans surveillance",
-    "Typical duty points": "130/80℃ à 95/70℃; 115/65℃ à 55/80℃; 7/12℃ à 8/13℃",
-    "Standards referenced on page": "CJ/T191-2004; GB/T29466-2012"
+    "Fluides chauffants": "Vapeur en dessous de 300 ℃; Eau chaude à haute température",
+    "Modes de contrôle": "Contrôle de la température; Régulation de débit variable; Régulation de température et de débit",
+    "Niveaux d’automatisation": "Contrôle de température en boucle unique; Contrôle de terrain entièrement automatique; Contrôle de communication à distance sans surveillance",
+    "Points de service typiques": "130/80℃ à 95/70℃; 115/65℃ à 55/80℃; 7/12℃ à 8/13℃",
+    "Normes référencées sur la page": "CJ/T191-2004; GB/T29466-2012"
   },
   "video_link": "",
   "details": [
@@ -31,6 +31,7 @@
       "content": "ViEX répertorie le contrôle de la température à boucle unique, le contrôle sur site entièrement automatique qui nécessite toujours une inspection régulière et le contrôle de communication à distance sans surveillance avec transmission des signaux de température, de pression, de débit, de vanne, de pompe et de niveau d'eau."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Unité d'échangeur de chaleur | Siping ViEX",
     "meta_description": "Unité d'échangeur de chaleur intégrée pour les systèmes de chauffage, de climatisation et d'eau chaude sanitaire avec options de contrôle automatique et de communication à distance."
@@ -44,6 +45,7 @@
       "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/heat_exchanger_unit.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

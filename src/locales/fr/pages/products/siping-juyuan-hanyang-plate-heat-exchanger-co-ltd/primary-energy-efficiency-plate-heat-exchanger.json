@@ -18,10 +18,10 @@
     "La page met en évidence la conception des ondulations et les améliorations en matière de fixation/étanchéité des joints pour l'efficacité et la fiabilité du transfert."
   ],
   "technical_parameters": {
-    "Referenced Standard": "NB/T47004.1-2017",
-    "Maximum Design Pressure": "3,2MPa",
-    "Maximum Design Temperature": "150℃",
-    "Level-1 Energy-Efficiency Plate Series": "Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B, P45A-H"
+    "Norme de référence": "NB/T47004.1-2017",
+    "Pression de conception maximale": "3,2MPa",
+    "Température de conception maximale": "150℃",
+    "Séries de plaques à efficacité énergétique niveau 1": "Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B, P45A-H"
   },
   "video_link": "",
   "details": [
@@ -30,6 +30,7 @@
       "content": "La page officielle présente le produit comme une famille d'échangeurs de chaleur à plaques à efficacité énergétique de niveau 1, soutenue par des tests et des évaluations nationaux et par le rôle de l'entreprise dans la rédaction de normes sur les échangeurs de chaleur à plaques."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Échangeur de chaleur à plaques à efficacité énergétique primaire",
     "meta_description": "Série d'échangeurs de chaleur à plaques à efficacité énergétique de niveau 1 testées selon les règles chinoises d'évaluation de l'efficacité énergétique des échangeurs de chaleur."
@@ -43,6 +44,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/primary_energy_efficiency_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

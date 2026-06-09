@@ -22,11 +22,11 @@
     "Diseño de junta tipo techo a prueba de fugas"
   ],
   "technical_parameters": {
-    "Temperature": "Diferencia mínima de temperatura: 0,5-1 ℃, Resistencia máxima a la temperatura: 200 ℃",
-    "Plate material": "AISI 304, 316, 316L, TI, SMO254...",
-    "Maximum heat transfer": "80MW",
-    "Maximum design pressure": "25bar",
-    "Maximum processing capacity": "5000m³/h"
+    "Temperatura": "Diferencia mínima de temperatura: 0,5-1 ℃, Resistencia máxima a la temperatura: 200 ℃",
+    "Material de placas": "AISI 304, 316, 316L, TI, SMO254...",
+    "Presión máxima de diseño": "25bar",
+    "Transferencia de calor máxima": "80MW",
+    "Capacidad máxima de procesamiento": "5000m³/h"
   },
   "video_link": "",
   "details": [
@@ -39,6 +39,7 @@
       "content": "El diseño utiliza juntas con clip sin pegamento, distribución mejorada del flujo y características de alineación de las esquinas de la placa para simplificar el servicio y ayudar a reducir el tiempo de inactividad relacionado con la suciedad."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Intercambiador de calor de placas con juntas serie AU, AN, AS, AP, AC - I",
     "meta_description": "Intercambiador de calor de placas con juntas industriales con geometría de placas configurable, juntas sin pegamento y alta eficiencia de transferencia de calor para aplicaciones de procesos exigentes."
@@ -52,6 +53,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/au_an_as_ap_ac_series_gasketed_plate_heat_exchanger_i.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

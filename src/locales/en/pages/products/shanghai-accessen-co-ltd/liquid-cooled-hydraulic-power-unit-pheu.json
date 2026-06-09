@@ -33,6 +33,7 @@
       "content": "The system uses prefabricated modules, precision jig alignment, and prefabricated piping so that field work only requires threaded or flanged connections, reducing installation time and on-site welding."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Liquid-Cooled Hydraulic Power Unit PHEU",
     "meta_description": "Modular liquid-cooled hydraulic power unit integrating PHE, pumps, and water treatment systems for data center liquid cooling infrastructure."
@@ -46,6 +47,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooled_hydraulic_power_unit_pheu.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

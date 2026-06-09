@@ -16,9 +16,9 @@
     "Extraíble para limpieza sin envejecimiento de la junta"
   ],
   "technical_parameters": {
-    "Plate material": "AISI304L, 316L, Titanio, Hastelloy, SMO254...",
-    "Maximum design pressure": "80bar",
-    "Maximum temperature resistance": "500℃"
+    "Material de placas": "AISI304L, 316L, Titanio, Hastelloy, SMO254...",
+    "Presión máxima de diseño": "80bar",
+    "Resistencia máxima a la temperatura": "500℃"
   },
   "video_link": "",
   "details": [
@@ -31,6 +31,7 @@
       "content": "El producto se describe como removible para su limpieza y evita el envejecimiento de la junta, lo que ayuda a reducir los costos operativos con el tiempo."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Intercambiador de calor de carcasa de placas serie AWPS - I",
     "meta_description": "Intercambiador de calor industrial de placas para servicio de alta temperatura y alta presión, que combina un fuerte rendimiento térmico con un acceso de limpieza extraíble."
@@ -44,6 +45,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/awps_series_plate_shell_heat_exchanger_i.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

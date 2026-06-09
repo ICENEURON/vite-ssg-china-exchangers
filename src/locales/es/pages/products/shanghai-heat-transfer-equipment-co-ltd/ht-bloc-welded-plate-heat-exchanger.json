@@ -15,11 +15,11 @@
     "Durabilidad: Construido con materiales de alta calidad y utilizando técnicas de soldadura de precisión, construido para soportar condiciones operativas duras y garantizar confiabilidad a largo plazo."
   ],
   "technical_parameters": {
-    "Area": "6,6 ~ 870㎡",
-    "Plate material": "304, 304L, 316L, 254SMO, C-276, Titanio",
-    "Design Pressure": "-0,1 ~ 4,0MPa",
-    "Plate Thickness": "0,8 – 2 mm",
-    "Design Temperature": "-40 ~ 400℃"
+    "Área": "6,6 ~ 870㎡",
+    "Espesor de placa": "0,8 – 2 mm",
+    "Material de placas": "304, 304L, 316L, 254SMO, C-276, Titanio",
+    "Presión de diseño": "-0,1 ~ 4,0MPa",
+    "Temperatura de diseño": "-40 ~ 400℃"
   },
   "video_link": "https://www.youtube.com/watch?v=j61c5dnKP78",
   "details": [
@@ -30,6 +30,75 @@
     {
       "title": "¿Cómo montar el intercambiador de calor de placas soldadas HT-Bloc?",
       "content": "El paquete de placas se forma soldando un cierto número de placas, luego se instala en un marco, que está configurado por cuatro vigas de esquina, placas superior e inferior y cuatro cubiertas laterales. El intercambiador de calor de placas completamente soldado utiliza componentes intercambiables y módulos estandarizados, lo que permite una fácil personalización y escalabilidad. Esta modularidad garantiza que los intercambiadores de calor Compabloc puedan adaptarse para cumplir con requisitos industriales específicos, mejorando tanto el rendimiento como la confiabilidad."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Desulfuración, descarbonización y deshidratación de gas natural",
+        "Recuperación de azufre de gas de refinería",
+        "Unidades EO/EG",
+        "Sistemas de lavado con aminas para separación de olefinas"
+      ],
+      "advantages": [
+        "En comparación con los intercambiadores de carcasa y tubos, la estructura de placas soldadas ofrece mayor intensidad de transferencia térmica y puede reducir la huella para la misma carga.",
+        "En comparación con los intercambiadores de placas con juntas, el núcleo soldado reduce el envejecimiento de juntas y el riesgo de fugas en servicios con aminas, solventes y medios corrosivos.",
+        "La disposición compacta en contracorriente permite menores diferencias terminales de temperatura y una recuperación de calor más eficiente en unidades químicas continuas."
+      ],
+      "application": "Intercambiador de solución amina pobre-rica",
+      "description": "El intercambiador de calor de placas soldadas HT-BLOC se utiliza en unidades de tratamiento con aminas para la separación de olefinas, donde el intercambiador de amina pobre-rica recupera calor entre la amina pobre regenerada y la amina rica cargada con gases ácidos. Precalienta la amina rica antes de la regeneración y enfría la amina pobre antes de la absorción, reduciendo la carga del rehervidor y estabilizando la circulación de amina."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Calentadores y enfriadores de crudo",
+        "Condensadores de cabeza",
+        "Enfriadores de unidades atmosféricas y de vacío",
+        "Unidades de aromáticos, catalíticas, de reformado e hidrogenación",
+        "Rehervidores de fondo de torres de stripping",
+        "Intercambiadores de aceite de separadores de alta presión de reformado"
+      ],
+      "advantages": [
+        "En comparación con los rehervidores de carcasa y tubos, el paquete de placas soldadas puede ofrecer mayor eficiencia térmica y un menor acercamiento de temperatura en el extremo caliente.",
+        "En comparación con los intercambiadores con juntas, la construcción totalmente soldada reduce el riesgo de fugas en servicios de hidrocarburos a alta temperatura y presión.",
+        "La construcción compacta ayuda a ahorrar espacio en unidades de refinería y petroquímica durante modernizaciones o ampliaciones."
+      ],
+      "application": "Rehervidor de fondo de torre",
+      "description": "En unidades de reformado, hidrogenación de gasolina e hidrogenación de diésel, el intercambiador HT-BLOC puede utilizarse como rehervidor de fondo de torre cuando se requiere control preciso de temperatura, alta seguridad y recuperación profunda de calor. El paquete de placas totalmente soldado evita la exposición de juntas en servicios de alta temperatura y presión."
+    },
+    {
+      "order": 3,
+      "used_in": [
+        "Enfriamiento marino de gas natural",
+        "Sistemas auxiliares enfriados por agua de mar",
+        "Procesamiento offshore de gas",
+        "Enfriamiento de proceso a bordo"
+      ],
+      "advantages": [
+        "En comparación con los intercambiadores de carcasa y tubos, el diseño de placas soldadas reduce tamaño y peso, algo importante en espacios de buque.",
+        "En comparación con los intercambiadores con juntas, el núcleo soldado es más adecuado para alta presión, alta temperatura y mantenimiento limitado en servicio marino.",
+        "Los materiales de placa resistentes a la corrosión soportan aplicaciones de agua de mar y enfriamiento auxiliar marino."
+      ],
+      "application": "Enfriador marino de gas natural",
+      "description": "El HT-BLOC puede aplicarse en enfriamiento marino de gas natural cuando se requieren resistencia a presión y temperatura, diseño compacto y control de corrosión por agua de mar. Las opciones de titanio, aleación de titanio, 254SMO y C-276 ayudan al equipo a trabajar en ambientes marinos corrosivos."
+    },
+    {
+      "order": 4,
+      "used_in": [
+        "Recuperación de calor de aguas residuales industriales",
+        "Tratamiento de aguas residuales químicas",
+        "Tratamiento de aguas residuales farmacéuticas",
+        "Enfriamiento de aguas residuales de alta temperatura",
+        "Servicio con aguas residuales corrosivas"
+      ],
+      "advantages": [
+        "En comparación con los intercambiadores de placas con juntas, la estructura totalmente soldada evita el contacto directo de juntas con aguas residuales corrosivas o de alta temperatura.",
+        "En comparación con equipos convencionales, la estructura de placas permite mayor eficiencia térmica y menores diferencias terminales de temperatura.",
+        "Para aguas residuales corrosivas pueden seleccionarse materiales especiales de placa, como titanio y 254SMO."
+      ],
+      "application": "Recuperación de calor de aguas residuales",
+      "description": "Cuando las aguas residuales son demasiado corrosivas para juntas de caucho o demasiado calientes para intercambiadores de placas con juntas, HT-BLOC ofrece una opción totalmente soldada de recuperación de calor. Es adecuado para aguas residuales industriales complejas con componentes corrosivos, pequeñas diferencias terminales de temperatura y necesidad de disposición de flujo flexible."
     }
   ],
   "seo_data": {
@@ -51,6 +120,13 @@
     {
       "alt_text": "HT-BLOC Welded Plate Heat Exchanger Installation",
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_3.jpg"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "HT-BLOC wastewater treatment heat recovery application",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/ht_bloc_wastewater_treatment_application.jpeg",
+      "file_name": "ht_bloc_wastewater_treatment_application.jpeg"
     }
   ],
   "certificates": [

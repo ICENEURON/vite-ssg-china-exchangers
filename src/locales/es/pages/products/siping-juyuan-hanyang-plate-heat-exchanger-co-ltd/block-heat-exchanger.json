@@ -16,11 +16,12 @@
     "La estructura de bloque compacta puede reducir el espacio y los costos de construcción en comparación con los intercambiadores de calor de placas desmontables."
   ],
   "technical_parameters": {
-    "Standards": "NB/T47004-2009; GB150-1998; API662 y ASME bajo pedido",
-    "Patent No.": "200520127761.X"
+    "Normas": "NB/T47004-2009; GB150-1998; API662 y ASME bajo pedido",
+    "N.º de patente": "200520127761.X"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Intercambiador de calor de bloque",
     "meta_description": "Intercambiador de calor de bloques soldados patentado que combina la eficiencia del intercambiador de calor de placas con una fuerte capacidad de sellado, presión y temperatura."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/block_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

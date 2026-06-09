@@ -13,15 +13,16 @@
     "На официальной странице подчеркивается меньший вес и меньший размер, чем у кожухотрубных альтернатив."
   ],
   "technical_parameters": {
-    "Assembly Area": "≤20000м2",
-    "Plate Material": "304, 316Л, 321, 254СМО и т. д.",
-    "Design Pressure": "≤6,0 МПа",
-    "Plate Thickness": "0,7 ~ 1,2 мм",
-    "Design Temperature": "≤580℃",
-    "Minimum Temperature Difference": "1℃"
+    "Площадь сборки": "≤20000м2",
+    "Материал пластин": "304, 316Л, 321, 254СМО и т. д.",
+    "Толщина пластины": "0,7 ~ 1,2 мм",
+    "Расчетное давление": "≤6,0 МПа",
+    "Расчетная температура": "≤580℃",
+    "Минимальная разность температур": "1℃"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Пластинчатый и кожуховый теплообменник",
     "meta_description": "Компактный высокоэффективный кожухопластинчатый теплообменник для нефтеперерабатывающих, нефтехимических и газоперерабатывающих предприятий."
@@ -35,6 +36,7 @@
       "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_and_shell_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

@@ -309,28 +309,28 @@
               "最小温差": "2℃"
             },
             "ru": {
-              "Design Temperature": "-200 ~ 350 ℃",
-              "Design Pressure": "Вакуум ~ 3,2 МПа",
-              "Assembly Area": "≤2500㎡",
-              "Minimum Temperature Difference": "2℃"
+              "Расчетная температура": "-200 ~ 350 ℃",
+              "Расчетное давление": "Вакуум ~ 3,2 МПа",
+              "Площадь сборки": "≤2500㎡",
+              "Минимальная разность температур": "2℃"
             },
             "es": {
-              "Design Temperature": "-200 ~ 350℃",
-              "Design Pressure": "Vacío ~ 3,2 MPa",
-              "Assembly Area": "≤2500㎡",
-              "Minimum Temperature Difference": "2℃"
+              "Temperatura de diseño": "-200 ~ 350℃",
+              "Presión de diseño": "Vacío ~ 3,2 MPa",
+              "Área de ensamblaje": "≤2500㎡",
+              "Diferencia mínima de temperatura": "2℃"
             },
             "fr": {
-              "Design Temperature": "-200 ~ 350 ℃",
-              "Design Pressure": "Vide ~ 3,2 MPa",
-              "Assembly Area": "≤2500㎡",
-              "Minimum Temperature Difference": "2℃"
+              "Température de conception": "-200 ~ 350 ℃",
+              "Pression de conception": "Vide ~ 3,2 MPa",
+              "Surface d’assemblage": "≤2500㎡",
+              "Différence minimale de température": "2℃"
             },
             "ar": {
-              "Design Temperature": "-200 ~ 350 درجة مئوية",
-              "Design Pressure": "فراغ ~ 3.2MPa",
-              "Assembly Area": "≥2500㎡",
-              "Minimum Temperature Difference": "2 درجة مئوية"
+              "درجة حرارة التصميم": "-200 ~ 350 درجة مئوية",
+              "ضغط التصميم": "فراغ ~ 3.2MPa",
+              "مساحة التجميع": "≥2500㎡",
+              "أدنى فرق في درجة الحرارة": "2 درجة مئوية"
             }
           },
           "details": {
@@ -473,28 +473,28 @@
               "紧凑度": "2500 m2/m3"
             },
             "ru": {
-              "Heat Transfer Efficiency": ">98%",
-              "Pressure Resistance": ">90МПа",
-              "Temperature Range": "-196 ~ 800 ℃",
-              "Compactness": "2500 м2/м3"
+              "Эффективность теплопередачи": ">98%",
+              "Стойкость к давлению": ">90МПа",
+              "Диапазон температур": "-196 ~ 800 ℃",
+              "Компактность": "2500 м2/м3"
             },
             "es": {
-              "Heat Transfer Efficiency": ">98%",
-              "Pressure Resistance": ">90MPa",
-              "Temperature Range": "-196 ~ 800℃",
-              "Compactness": "2500m2/m3"
+              "Eficiencia de transferencia de calor": ">98%",
+              "Resistencia a la presión": ">90MPa",
+              "Rango de temperatura": "-196 ~ 800℃",
+              "Compacidad": "2500m2/m3"
             },
             "fr": {
-              "Heat Transfer Efficiency": ">98 %",
-              "Pressure Resistance": ">90MPa",
-              "Temperature Range": "-196 ~ 800 ℃",
-              "Compactness": "2500 m2/m3"
+              "Efficacité du transfert thermique": ">98 %",
+              "Résistance à la pression": ">90MPa",
+              "Plage de température": "-196 ~ 800 ℃",
+              "Compacité": "2500 m2/m3"
             },
             "ar": {
-              "Heat Transfer Efficiency": "> 98%",
-              "Pressure Resistance": "> 90 ميجا باسكال",
-              "Temperature Range": "-196 ~ 800 درجة مئوية",
-              "Compactness": "2500 م2/م3"
+              "كفاءة نقل الحرارة": "> 98%",
+              "مقاومة الضغط": "> 90 ميجا باسكال",
+              "نطاق درجة الحرارة": "-196 ~ 800 درجة مئوية",
+              "مدى الاكتناز": "2500 م2/م3"
             }
           },
           "details": {
@@ -625,32 +625,32 @@
               "板片厚度": "1.0 ~ 2.0mm"
             },
             "ru": {
-              "Design Temperature": "≤450℃",
-              "Design Pressure": "Вакуум ~ 3,5 МПа",
-              "Assembly Area": "≤3000м2",
-              "Minimum Temperature Difference": "1℃",
-              "Plate Thickness": "1,0 ~ 2,0 мм"
+              "Расчетная температура": "≤450℃",
+              "Расчетное давление": "Вакуум ~ 3,5 МПа",
+              "Площадь сборки": "≤3000м2",
+              "Минимальная разность температур": "1℃",
+              "Толщина пластины": "1,0 ~ 2,0 мм"
             },
             "es": {
-              "Design Temperature": "≤450 ℃",
-              "Design Pressure": "Vacío ~ 3,5 MPa",
-              "Assembly Area": "≤3000m2",
-              "Minimum Temperature Difference": "1℃",
-              "Plate Thickness": "1,0 ~ 2,0 mm"
+              "Temperatura de diseño": "≤450 ℃",
+              "Presión de diseño": "Vacío ~ 3,5 MPa",
+              "Área de ensamblaje": "≤3000m2",
+              "Diferencia mínima de temperatura": "1℃",
+              "Espesor de placa": "1,0 ~ 2,0 mm"
             },
             "fr": {
-              "Design Temperature": "≤450℃",
-              "Design Pressure": "Vide ~ 3,5 MPa",
-              "Assembly Area": "≤3000m2",
-              "Minimum Temperature Difference": "1℃",
-              "Plate Thickness": "1,0 ~ 2,0 mm"
+              "Température de conception": "≤450℃",
+              "Pression de conception": "Vide ~ 3,5 MPa",
+              "Surface d’assemblage": "≤3000m2",
+              "Différence minimale de température": "1℃",
+              "Épaisseur des plaques": "1,0 ~ 2,0 mm"
             },
             "ar": {
-              "Design Temperature": "≥450 درجة مئوية",
-              "Design Pressure": "فراغ ~ 3.5MPa",
-              "Assembly Area": "≥3000 م2",
-              "Minimum Temperature Difference": "1 درجة مئوية",
-              "Plate Thickness": "1.0 ~ 2.0 ملم"
+              "درجة حرارة التصميم": "≥450 درجة مئوية",
+              "ضغط التصميم": "فراغ ~ 3.5MPa",
+              "مساحة التجميع": "≥3000 م2",
+              "أدنى فرق في درجة الحرارة": "1 درجة مئوية",
+              "سماكة اللوح": "1.0 ~ 2.0 ملم"
             }
           },
           "details": {
@@ -790,32 +790,32 @@
               "板片厚度": "0.5 ~ 1.2mm"
             },
             "ru": {
-              "Design Temperature": "-200 ~ 900 ℃",
-              "Design Pressure": "Вакуум ~ 6,0 МПа",
-              "Assembly Area": "≤30000м2",
-              "Minimum Temperature Difference": "1℃",
-              "Plate Thickness": "0,5 ~ 1,2 мм"
+              "Расчетная температура": "-200 ~ 900 ℃",
+              "Расчетное давление": "Вакуум ~ 6,0 МПа",
+              "Площадь сборки": "≤30000м2",
+              "Минимальная разность температур": "1℃",
+              "Толщина пластины": "0,5 ~ 1,2 мм"
             },
             "es": {
-              "Design Temperature": "-200 ~ 900℃",
-              "Design Pressure": "Vacío ~ 6,0 MPa",
-              "Assembly Area": "≤30000m2",
-              "Minimum Temperature Difference": "1℃",
-              "Plate Thickness": "0,5 ~ 1,2 mm"
+              "Temperatura de diseño": "-200 ~ 900℃",
+              "Presión de diseño": "Vacío ~ 6,0 MPa",
+              "Área de ensamblaje": "≤30000m2",
+              "Diferencia mínima de temperatura": "1℃",
+              "Espesor de placa": "0,5 ~ 1,2 mm"
             },
             "fr": {
-              "Design Temperature": "-200 ~ 900 ℃",
-              "Design Pressure": "Vide ~ 6,0 MPa",
-              "Assembly Area": "≤30000m2",
-              "Minimum Temperature Difference": "1℃",
-              "Plate Thickness": "0,5 ~ 1,2 mm"
+              "Température de conception": "-200 ~ 900 ℃",
+              "Pression de conception": "Vide ~ 6,0 MPa",
+              "Surface d’assemblage": "≤30000m2",
+              "Différence minimale de température": "1℃",
+              "Épaisseur des plaques": "0,5 ~ 1,2 mm"
             },
             "ar": {
-              "Design Temperature": "-200 ~ 900 درجة مئوية",
-              "Design Pressure": "فراغ ~ 6.0MPa",
-              "Assembly Area": "≥30000 م2",
-              "Minimum Temperature Difference": "1 درجة مئوية",
-              "Plate Thickness": "0.5 ~ 1.2 ملم"
+              "درجة حرارة التصميم": "-200 ~ 900 درجة مئوية",
+              "ضغط التصميم": "فراغ ~ 6.0MPa",
+              "مساحة التجميع": "≥30000 م2",
+              "أدنى فرق في درجة الحرارة": "1 درجة مئوية",
+              "سماكة اللوح": "0.5 ~ 1.2 ملم"
             }
           },
           "details": {
@@ -960,40 +960,40 @@
               "最大处理量": "5000m3/h"
             },
             "ru": {
-              "Design Pressure": "0,6 ~ 2,5 МПа",
-              "Design Temperature": "-40 ~ 180 ℃",
-              "Plate Thickness": "0,4 ~ 1,0 мм",
-              "Single Plate Area": "0,03 ~ 4,15м2",
-              "Port Diameter": "Ду32 ~ Ду650",
-              "Assembly Area": "≤5000м2",
-              "Maximum Capacity": "5000м3/ч"
+              "Расчетное давление": "0,6 ~ 2,5 МПа",
+              "Расчетная температура": "-40 ~ 180 ℃",
+              "Толщина пластины": "0,4 ~ 1,0 мм",
+              "Площадь одной пластины": "0,03 ~ 4,15м2",
+              "Диаметр порта": "Ду32 ~ Ду650",
+              "Площадь сборки": "≤5000м2",
+              "Максимальная производительность": "5000м3/ч"
             },
             "es": {
-              "Design Pressure": "0,6 ~ 2,5 MPa",
-              "Design Temperature": "-40 ~ 180 ℃",
-              "Plate Thickness": "0,4 ~ 1,0 mm",
-              "Single Plate Area": "0,03 ~ 4,15m2",
-              "Port Diameter": "DN32 ~ DN650",
-              "Assembly Area": "≤5000m2",
-              "Maximum Capacity": "5000m3/hora"
+              "Presión de diseño": "0,6 ~ 2,5 MPa",
+              "Temperatura de diseño": "-40 ~ 180 ℃",
+              "Espesor de placa": "0,4 ~ 1,0 mm",
+              "Área de placa individual": "0,03 ~ 4,15m2",
+              "Diámetro de puerto": "DN32 ~ DN650",
+              "Área de ensamblaje": "≤5000m2",
+              "Capacidad máxima": "5000m3/hora"
             },
             "fr": {
-              "Design Pressure": "0,6 ~ 2,5MPa",
-              "Design Temperature": "-40 ~ 180 ℃",
-              "Plate Thickness": "0,4 ~ 1,0 mm",
-              "Single Plate Area": "0,03 ~ 4,15 m2",
-              "Port Diameter": "DN32 ~ DN650",
-              "Assembly Area": "≤5000m2",
-              "Maximum Capacity": "5000m3/heure"
+              "Pression de conception": "0,6 ~ 2,5MPa",
+              "Température de conception": "-40 ~ 180 ℃",
+              "Épaisseur des plaques": "0,4 ~ 1,0 mm",
+              "Surface d’une plaque": "0,03 ~ 4,15 m2",
+              "Diamètre d’orifice": "DN32 ~ DN650",
+              "Surface d’assemblage": "≤5000m2",
+              "Capacité maximale": "5000m3/heure"
             },
             "ar": {
-              "Design Pressure": "0.6 ~ 2.5MPa",
-              "Design Temperature": "-40 ~ 180 درجة مئوية",
-              "Plate Thickness": "0.4 ~ 1.0 ملم",
-              "Single Plate Area": "0.03 ~ 4.15 م2",
-              "Port Diameter": "DN32 ~ DN650",
-              "Assembly Area": "≥5000 م2",
-              "Maximum Capacity": "5000 م 3 / ساعة"
+              "ضغط التصميم": "0.6 ~ 2.5MPa",
+              "درجة حرارة التصميم": "-40 ~ 180 درجة مئوية",
+              "سماكة اللوح": "0.4 ~ 1.0 ملم",
+              "مساحة اللوح الواحد": "0.03 ~ 4.15 م2",
+              "قطر المنفذ": "DN32 ~ DN650",
+              "مساحة التجميع": "≥5000 م2",
+              "السعة القصوى": "5000 م 3 / ساعة"
             }
           },
           "details": {
@@ -1252,36 +1252,36 @@
               "板片材质": "304, 316L, 321, 254SMO 等"
             },
             "ru": {
-              "Design Temperature": "≤580℃",
-              "Design Pressure": "≤6,0 МПа",
-              "Assembly Area": "≤20000м2",
-              "Plate Thickness": "0,7 ~ 1,2 мм",
-              "Minimum Temperature Difference": "1℃",
-              "Plate Material": "304, 316Л, 321, 254СМО и т. д."
+              "Расчетная температура": "≤580℃",
+              "Расчетное давление": "≤6,0 МПа",
+              "Площадь сборки": "≤20000м2",
+              "Толщина пластины": "0,7 ~ 1,2 мм",
+              "Минимальная разность температур": "1℃",
+              "Материал пластин": "304, 316Л, 321, 254СМО и т. д."
             },
             "es": {
-              "Design Temperature": "≤580℃",
-              "Design Pressure": "≤6.0MPa",
-              "Assembly Area": "≤20000m2",
-              "Plate Thickness": "0,7 ~ 1,2 mm",
-              "Minimum Temperature Difference": "1℃",
-              "Plate Material": "304, 316L, 321, 254SMO, etc."
+              "Temperatura de diseño": "≤580℃",
+              "Presión de diseño": "≤6.0MPa",
+              "Área de ensamblaje": "≤20000m2",
+              "Espesor de placa": "0,7 ~ 1,2 mm",
+              "Diferencia mínima de temperatura": "1℃",
+              "Material de placas": "304, 316L, 321, 254SMO, etc."
             },
             "fr": {
-              "Design Temperature": "≤580℃",
-              "Design Pressure": "≤6,0MPa",
-              "Assembly Area": "≤20000m2",
-              "Plate Thickness": "0,7 ~ 1,2 mm",
-              "Minimum Temperature Difference": "1℃",
-              "Plate Material": "304, 316L, 321, 254SMO, etc."
+              "Température de conception": "≤580℃",
+              "Pression de conception": "≤6,0MPa",
+              "Surface d’assemblage": "≤20000m2",
+              "Épaisseur des plaques": "0,7 ~ 1,2 mm",
+              "Différence minimale de température": "1℃",
+              "Matériau des plaques": "304, 316L, 321, 254SMO, etc."
             },
             "ar": {
-              "Design Temperature": "≥580 درجة مئوية",
-              "Design Pressure": ".06.0MPa",
-              "Assembly Area": "≥20000 م2",
-              "Plate Thickness": "0.7 ~ 1.2 ملم",
-              "Minimum Temperature Difference": "1 درجة مئوية",
-              "Plate Material": "304، 316L، 321، 254SMO، الخ."
+              "درجة حرارة التصميم": "≥580 درجة مئوية",
+              "ضغط التصميم": ".06.0MPa",
+              "مساحة التجميع": "≥20000 م2",
+              "سماكة اللوح": "0.7 ~ 1.2 ملم",
+              "أدنى فرق في درجة الحرارة": "1 درجة مئوية",
+              "مادة الألواح": "304، 316L، 321، 254SMO، الخ."
             }
           },
           "details": {
@@ -1414,32 +1414,32 @@
               "板片厚度": "0.5 ~ 1.2mm"
             },
             "ru": {
-              "Design Temperature": "-200 ~ 400 ℃",
-              "Design Pressure": "Вакуум ~ 10МПа",
-              "Assembly Area": "≤95м2",
-              "Minimum Temperature Difference": "2℃",
-              "Plate Thickness": "0,5 ~ 1,2 мм"
+              "Расчетная температура": "-200 ~ 400 ℃",
+              "Расчетное давление": "Вакуум ~ 10МПа",
+              "Площадь сборки": "≤95м2",
+              "Минимальная разность температур": "2℃",
+              "Толщина пластины": "0,5 ~ 1,2 мм"
             },
             "es": {
-              "Design Temperature": "-200 ~ 400℃",
-              "Design Pressure": "Vacío ~ 10MPa",
-              "Assembly Area": "≤95m2",
-              "Minimum Temperature Difference": "2℃",
-              "Plate Thickness": "0,5 ~ 1,2 mm"
+              "Temperatura de diseño": "-200 ~ 400℃",
+              "Presión de diseño": "Vacío ~ 10MPa",
+              "Área de ensamblaje": "≤95m2",
+              "Diferencia mínima de temperatura": "2℃",
+              "Espesor de placa": "0,5 ~ 1,2 mm"
             },
             "fr": {
-              "Design Temperature": "-200 ~ 400 ℃",
-              "Design Pressure": "Vide ~ 10MPa",
-              "Assembly Area": "≤95m2",
-              "Minimum Temperature Difference": "2℃",
-              "Plate Thickness": "0,5 ~ 1,2 mm"
+              "Température de conception": "-200 ~ 400 ℃",
+              "Pression de conception": "Vide ~ 10MPa",
+              "Surface d’assemblage": "≤95m2",
+              "Différence minimale de température": "2℃",
+              "Épaisseur des plaques": "0,5 ~ 1,2 mm"
             },
             "ar": {
-              "Design Temperature": "-200 ~ 400 درجة مئوية",
-              "Design Pressure": "فراغ ~ 10MPa",
-              "Assembly Area": "≥95 م2",
-              "Minimum Temperature Difference": "2 درجة مئوية",
-              "Plate Thickness": "0.5 ~ 1.2 ملم"
+              "درجة حرارة التصميم": "-200 ~ 400 درجة مئوية",
+              "ضغط التصميم": "فراغ ~ 10MPa",
+              "مساحة التجميع": "≥95 م2",
+              "أدنى فرق في درجة الحرارة": "2 درجة مئوية",
+              "سماكة اللوح": "0.5 ~ 1.2 ملم"
             }
           },
           "details": {

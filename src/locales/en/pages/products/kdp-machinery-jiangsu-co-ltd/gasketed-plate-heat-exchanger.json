@@ -1,0 +1,64 @@
+{
+  "slug": "gasketed-plate-heat-exchanger",
+  "name": "Gasketed Plate Heat Exchanger (PHE)",
+  "full_description": "A gasketed plate heat exchanger stacks corrugated metal plates in a bolted frame to form alternating hot and cold flow channels. The frame can be opened for plate cleaning, gasket replacement, inspection, and capacity adjustment by adding or removing plates. It is commonly used in HVAC, water heat recovery, food and beverage, chemical, pharmaceutical, marine, and general industrial utilities.",
+  "industries": [
+    "HVAC",
+    "Food Processing",
+    "Chemical Processing",
+    "Food and Beverage",
+    "Pharmaceuticals"
+  ],
+  "advantage": [
+    "High turbulence in corrugated plate channels improves heat-transfer efficiency.",
+    "Openable frame supports mechanical cleaning, inspection, and gasket replacement.",
+    "Capacity can be adjusted by changing the plate count within frame limits.",
+    "Plate and gasket materials can be selected for water, food, chemical, and utility services.",
+    "Compact structure reduces installation space compared with many tubular exchangers.",
+    "Suitable for clean and low-to-moderate fouling liquid duties with planned maintenance access."
+  ],
+  "technical_parameters": {
+    "Frame type": "Bolted plate-and-frame construction",
+    "Maintenance": "Openable frame for cleaning, inspection, and gasket replacement",
+    "Plate materials": "316L stainless steel, titanium, and other corrosion-resistant alloys",
+    "Gasket materials": "NBR, EPDM, FKM/Viton, and other elastomers matched to service",
+    "Capacity adjustment": "Plate count can be increased or reduced within frame limits",
+    "Typical applications": "HVAC, water heat recovery, food and beverage, chemical, pharmaceutical, marine, and utilities"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Maintenance access",
+      "content": "The bolted frame can be opened so plates and gaskets can be inspected, cleaned, replaced, or reconfigured as the duty changes."
+    },
+    {
+      "title": "Selection boundary",
+      "content": "For very high pressure, high temperature, aggressive, or dirty fluids, welded, semi-welded, spiral, or tubular alternatives may be more suitable."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Gasketed Plate Heat Exchanger (PHE)",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. supplies gasketed plate heat exchanger (phe) for industrial heat-transfer applications with project-specific material, pressure, temperature, and maintenance selection."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_3.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

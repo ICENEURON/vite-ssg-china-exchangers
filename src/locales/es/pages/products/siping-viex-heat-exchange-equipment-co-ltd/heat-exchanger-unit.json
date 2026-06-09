@@ -14,11 +14,11 @@
     "Se puede configurar con componentes de marcas internacionales."
   ],
   "technical_parameters": {
-    "Control modes": "Control de temperatura; Regulación de flujo variable; Regulación de temperatura y caudal.",
-    "Heating media": "Vapor por debajo de 300 ℃; Agua caliente a alta temperatura",
-    "Automation levels": "Control de temperatura de bucle único; Control de campo totalmente automático; Control de comunicación remota desatendido",
-    "Typical duty points": "130/80 ℃ a 95/70 ℃; 115/65 ℃ a 55/80 ℃; 7/12 ℃ a 8/13 ℃",
-    "Standards referenced on page": "CJ/T 191-2004; GB/T 29466-2012"
+    "Modos de control": "Control de temperatura; Regulación de flujo variable; Regulación de temperatura y caudal.",
+    "Medios de calentamiento": "Vapor por debajo de 300 ℃; Agua caliente a alta temperatura",
+    "Niveles de automatización": "Control de temperatura de bucle único; Control de campo totalmente automático; Control de comunicación remota desatendido",
+    "Puntos de servicio típicos": "130/80 ℃ a 95/70 ℃; 115/65 ℃ a 55/80 ℃; 7/12 ℃ a 8/13 ℃",
+    "Normas referenciadas en la página": "CJ/T 191-2004; GB/T 29466-2012"
   },
   "video_link": "",
   "details": [
@@ -31,6 +31,7 @@
       "content": "ViEX enumera el control de temperatura de bucle único, el control de campo completamente automático que aún requiere inspección regular y el control de comunicación remota desatendido con transmisión de señales de temperatura, presión, flujo, válvula, bomba y nivel de agua."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Unidad intercambiadora de calor | Siping ViEX",
     "meta_description": "Unidad intercambiadora de calor integrada para sistemas de calefacción, aire acondicionado y agua caliente sanitaria con control automático y opciones de comunicación remota."
@@ -44,6 +45,7 @@
       "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/heat_exchanger_unit.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

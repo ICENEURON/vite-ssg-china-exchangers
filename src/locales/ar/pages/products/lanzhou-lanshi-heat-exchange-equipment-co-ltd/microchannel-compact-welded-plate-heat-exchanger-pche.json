@@ -15,13 +15,14 @@
     "الاكتناز المعلن رسميًا يصل إلى 2500 م2/م3."
   ],
   "technical_parameters": {
-    "Compactness": "2500 م2/م3",
-    "Temperature Range": "-196 ~ 800 درجة مئوية",
-    "Pressure Resistance": "> 90 ميجا باسكال",
-    "Heat Transfer Efficiency": "> 98%"
+    "مدى الاكتناز": "2500 م2/م3",
+    "مقاومة الضغط": "> 90 ميجا باسكال",
+    "كفاءة نقل الحرارة": "> 98%",
+    "نطاق درجة الحرارة": "-196 ~ 800 درجة مئوية"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "مبادل حراري للوحة الملحومة المدمجة Microchannel (PCHE)",
     "meta_description": "مبادل حراري مدمج للوحة ملحومة Microchannel لنقل الحرارة عالي الكفاءة في أنظمة الطاقة المتقدمة."
@@ -35,6 +36,7 @@
       "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/microchannel_compact_welded_plate_heat_exchanger_pche_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

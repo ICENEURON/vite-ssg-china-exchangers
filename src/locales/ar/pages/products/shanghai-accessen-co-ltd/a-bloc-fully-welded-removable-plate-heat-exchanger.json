@@ -17,10 +17,10 @@
     "تنظيف المياه النفاثة ذات الضغط العالي"
   ],
   "technical_parameters": {
-    "Plate material": "AISI304، 316، 254، تي",
-    "Maximum design pressure": "40 بار",
-    "Maximum processing capacity": "1500 م³/ساعة",
-    "Maximum temperature resistance": "350 درجة مئوية"
+    "مادة الألواح": "AISI304، 316، 254، تي",
+    "أقصى ضغط تصميم": "40 بار",
+    "أقصى سعة معالجة": "1500 م³/ساعة",
+    "أقصى مقاومة للحرارة": "350 درجة مئوية"
   },
   "video_link": "",
   "details": [
@@ -33,6 +33,7 @@
       "content": "يتم تركيب مجموعة الألواح الملحومة في هيكل قابل للإزالة يسمح بالتفكيك والتنظيف الميكانيكي، بما في ذلك التنظيف بنفث الماء عالي الضغط، مع المساعدة في الحفاظ على كفاءة نقل الحرارة."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "A-BLOC مبادل حراري قابل للإزالة وملحوم بالكامل",
     "meta_description": "مبادل حراري مدمج قابل للإزالة للوحة ملحومة للتطبيقات الصناعية ذات درجة الحرارة العالية والضغط العالي مع نقل الحرارة المضاد للتيار بكفاءة."
@@ -46,6 +47,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/a_bloc_fully_welded_removable_plate_heat_exchanger.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

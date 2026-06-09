@@ -15,12 +15,13 @@
     "Une partie de l'équipement de coque peut résister à une pression de fonctionnement de 6,0 MPa."
   ],
   "technical_parameters": {
-    "Plate Forms": "Ondulation en forme de chocolat, ondulation horizontale, ondulation oblique, ondulation à chevrons",
-    "Air-Tightness Test": "0,6-0,7MPa après soudage",
-    "Operating Pressure": "Certains équipements de type coque peuvent résister à 6,0 MPa"
+    "Formes des plaques": "Ondulation en forme de chocolat, ondulation horizontale, ondulation oblique, ondulation à chevrons",
+    "Pression de fonctionnement": "Certains équipements de type coque peuvent résister à 6,0 MPa",
+    "Essai d’étanchéité à l’air": "0,6-0,7MPa après soudage"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Échangeur de chaleur à plaques (tubes) et coque",
     "meta_description": "Plate-forme d'échangeur de chaleur à plaques et plaques tubulaires utilisant des faisceaux de plaques soudées et des procédures d'inspection sophistiquées pour les applications spéciales."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/plate_tube_shell_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

@@ -17,14 +17,15 @@
     "Combina una estructura compacta y una alta eficiencia de transferencia de calor con una mayor resistencia a la presión y la temperatura."
   ],
   "technical_parameters": {
-    "Assembly Area": "≤30000m2",
-    "Design Pressure": "Vacío ~ 6,0 MPa",
-    "Plate Thickness": "0,5 ~ 1,2 mm",
-    "Design Temperature": "-200 ~ 900℃",
-    "Minimum Temperature Difference": "1℃"
+    "Espesor de placa": "0,5 ~ 1,2 mm",
+    "Presión de diseño": "Vacío ~ 6,0 MPa",
+    "Área de ensamblaje": "≤30000m2",
+    "Temperatura de diseño": "-200 ~ 900℃",
+    "Diferencia mínima de temperatura": "1℃"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Intercambiador de calor de placas totalmente soldadas",
     "meta_description": "Intercambiador de placas completamente soldado instalado dentro de una carcasa para servicio a alta presión y alta temperatura."
@@ -38,6 +39,7 @@
       "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/all_welded_plate_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

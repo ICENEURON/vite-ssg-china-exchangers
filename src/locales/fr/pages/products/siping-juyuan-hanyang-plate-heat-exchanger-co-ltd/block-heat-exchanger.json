@@ -16,11 +16,12 @@
     "La structure en bloc compact peut réduire l'espace et les coûts de construction par rapport aux échangeurs de chaleur à plaques amovibles."
   ],
   "technical_parameters": {
-    "Standards": "NB/T47004-2009; GB150-1998; API662 et ASME sur demande",
-    "Patent No.": "200520127761.X"
+    "Normes": "NB/T47004-2009; GB150-1998; API662 et ASME sur demande",
+    "N° de brevet": "200520127761.X"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Échangeur de chaleur en bloc",
     "meta_description": "Échangeur de chaleur à blocs soudés breveté combinant l'efficacité de l'échangeur de chaleur à plaques avec une forte capacité d'étanchéité, de pression et de température."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/block_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

@@ -16,9 +16,9 @@
     "قابلة للإزالة للتنظيف دون شيخوخة الحشية"
   ],
   "technical_parameters": {
-    "Plate material": "AISI304L، 316L، تيتانيوم، هاستيلوي، SMO254...",
-    "Maximum design pressure": "80 بار",
-    "Maximum temperature resistance": "500 درجة مئوية"
+    "مادة الألواح": "AISI304L، 316L، تيتانيوم، هاستيلوي، SMO254...",
+    "أقصى ضغط تصميم": "80 بار",
+    "أقصى مقاومة للحرارة": "500 درجة مئوية"
   },
   "video_link": "",
   "details": [
@@ -31,6 +31,7 @@
       "content": "يوصف المنتج بأنه قابل للإزالة للتنظيف ويتجنب تقادم الحشية، مما يساعد على تقليل تكاليف التشغيل بمرور الوقت."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "مبادل حراري من سلسلة AWPS - I",
     "meta_description": "مبادل حراري صناعي على شكل لوحة لخدمة درجات الحرارة العالية والضغط العالي، ويجمع بين الأداء الحراري القوي وإمكانية الوصول للتنظيف القابل للإزالة."
@@ -44,6 +45,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/awps_series_plate_shell_heat_exchanger_i.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

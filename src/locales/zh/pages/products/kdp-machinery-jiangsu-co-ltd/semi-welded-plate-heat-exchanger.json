@@ -1,0 +1,64 @@
+{
+  "slug": "semi-welded-plate-heat-exchanger",
+  "name": "半焊式板式换热器",
+  "full_description": "半焊式板式换热器由焊接板对和板对之间的胶垫密封组合而成。焊接通道用于腐蚀性、有毒、制冷剂或较高压力介质，胶垫通道则可打开清洗和维护。该结构适用于氨制冷、化工冷却、石化、暖通、制药、食品、船舶、油气和电力等工况。",
+  "industries": [
+    "暖通空调",
+    "石油化工",
+    "能源",
+    "化工",
+    "制药"
+  ],
+  "advantage": [
+    "焊接板对提高了制冷剂、酸类和其他严苛介质的密封可靠性。",
+    "胶垫侧通道可打开，便于检查、清洗和更换胶垫。",
+    "适用于不需要两侧全焊、但有中等压力和温度要求的工况。",
+    "焊接侧可采用钛、哈氏合金或其他合金材料处理腐蚀性介质。",
+    "紧凑板片结构支持高传热效率和较低滞液量。",
+    "常用于氨制冷机组、化工冷却回路、船舶、油气和电力辅助系统。"
+  ],
+  "technical_parameters": {
+    "材料": "不锈钢、钛、哈氏合金以及按介质匹配的胶垫材料",
+    "服务侧": "一侧为焊接通道，一侧为可打开胶垫通道",
+    "典型应用": "氨制冷、酸冷却、化工回路、石化、暖通、船舶、油气和电力辅助系统",
+    "板对结构": "两张板片激光焊接形成半焊板对",
+    "设计压力": "通常可按工况和结构配置达到 25-30 bar",
+    "设计温度": "通常按胶垫和材料选择可达 200°C"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "双侧策略",
+      "content": "焊接侧处理更严苛的介质，胶垫侧为水、乙二醇或其他服务介质保留维护通道。"
+    },
+    {
+      "title": "典型选型核对",
+      "content": "需要确认哪种介质进入焊接侧、胶垫兼容性、两侧清洗方式、允许压降以及氨或危险介质的安全要求。"
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "江苏金多邦成套机械设备有限公司 半焊式板式换热器",
+    "meta_description": "江苏金多邦成套机械设备有限公司供应半焊式板式换热器，面向工业换热应用按材料、压力、温度和维护需求进行项目化选型。"
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Semi-Welded Plate Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Semi-Welded Plate Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Semi-Welded Plate Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_3.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

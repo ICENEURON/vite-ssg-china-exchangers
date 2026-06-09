@@ -15,12 +15,13 @@
     "Parte del equipo del armazón puede soportar una presión de funcionamiento de 6,0 MPa."
   ],
   "technical_parameters": {
-    "Plate Forms": "Ondulación en forma de chocolate, ondulación horizontal, ondulación oblicua, ondulación en espiga",
-    "Air-Tightness Test": "0,6-0,7 MPa después de soldar",
-    "Operating Pressure": "Algunos equipos tipo carcasa pueden soportar 6,0 MPa."
+    "Formas de placa": "Ondulación en forma de chocolate, ondulación horizontal, ondulación oblicua, ondulación en espiga",
+    "Presión de operación": "Algunos equipos tipo carcasa pueden soportar 6,0 MPa.",
+    "Prueba de hermeticidad": "0,6-0,7 MPa después de soldar"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Intercambiador de calor de carcasa de placas (tubos)",
     "meta_description": "Plataforma de intercambiador de calor de placas, carcasa y tubos que utiliza haces de placas soldadas y procedimientos de inspección maduros para aplicaciones de tareas especiales."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/plate_tube_shell_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

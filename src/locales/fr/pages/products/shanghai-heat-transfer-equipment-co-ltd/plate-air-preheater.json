@@ -17,11 +17,11 @@
     "Sûr et maintenable: les paquets de plaques entièrement soudés offrent de bonnes performances d’étanchéité, un faible risque de fuite, une accumulation réduite de cendres et un nettoyage et un entretien pratiques, y compris des options de nettoyage en ligne."
   ],
   "technical_parameters": {
-    "Max Area": "40 000㎡",
-    "Plate Material": "304, 316L, 2205, 310S, 904L, Corten-A",
-    "Design Pressure": "Vide ~ 0,6MPa",
-    "Plate Thickness": "0,6 ~ 2,0 mm",
-    "Design Temperature": "-20 ~ 800 ℃"
+    "Surface maximale": "40 000㎡",
+    "Matériau des plaques": "304, 316L, 2205, 310S, 904L, Corten-A",
+    "Pression de conception": "Vide ~ 0,6MPa",
+    "Épaisseur des plaques": "0,6 ~ 2,0 mm",
+    "Température de conception": "-20 ~ 800 ℃"
   },
   "video_link": "",
   "details": [
@@ -36,6 +36,24 @@
     {
       "title": "Comment est-il conçu et fabriqué?",
       "content": "Le produit est basé sur des unités de transfert de chaleur modulaires telles que la brique X, la brique E, la brique C et la brique S, qui simplifient le transport et l'assemblage sur site pour les grands systèmes. La conception prend également en compte la sélection des matériaux, la configuration du flux d'air, la gestion des contraintes thermiques et la protection contre la corrosion. Des mesures telles que la compensation thermique, les joints de dilatation, l'utilisation de matériaux à faible CTE, l'analyse prédictive et le contrôle de dérivation contribuent à garantir la durabilité, les performances de récupération de chaleur et la sécurité de fonctionnement."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Préchauffage d’air de combustion de chaudières",
+        "Récupération de chaleur de fumées de fours",
+        "Récupération de chaleur de fumées chimiques",
+        "Récupération de chaleur dans l’énergie et la métallurgie"
+      ],
+      "advantages": [
+        "Par rapport aux préchauffeurs tubulaires, la structure à plaques offre une surface d’échange plus élevée par volume et un poids réduit.",
+        "L’assemblage modulaire permet un dimensionnement flexible selon les débits de fumées et profils de température.",
+        "Matériaux anticorrosion, by-pass et conception à film d’air aident à maîtriser la corrosion au point de rosée."
+      ],
+      "application": "Récupération de chaleur des fumées industrielles",
+      "description": "Le préchauffeur d’air à plaques récupère la chaleur des fumées ou gaz d’échappement chauds et la transfère à l’air de combustion ou de procédé entrant. Cet échange gaz-gaz améliore l’efficacité, réduit la consommation de combustible et soutient l’économie d’énergie dans chaudières, fours, séchoirs et unités de procédé."
     }
   ],
   "seo_data": {
@@ -61,6 +79,13 @@
     {
       "alt_text": "Plate Air Preheater Detail",
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "Plate air preheater for industrial flue gas waste heat recovery",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/plate_air_preheater_waste_heat_recovery_application.png",
+      "file_name": "plate_air_preheater_waste_heat_recovery_application.png"
     }
   ],
   "certificates": [

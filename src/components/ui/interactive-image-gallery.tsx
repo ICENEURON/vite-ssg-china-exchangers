@@ -40,6 +40,17 @@ interface ZoomableImageGridProps {
   labelClassName?: string
   cornerClassName?: string
   showExpandIcon?: boolean
+  showLabel?: boolean
+}
+
+interface ZoomableImageStripProps {
+  images: GalleryImageItem[]
+  altFallback: string
+  className?: string
+  scrollerClassName?: string
+  itemClassName?: string
+  imageClassName?: string
+  cornerClassName?: string
 }
 
 function clampIndex(index: number, length: number) {
@@ -371,6 +382,7 @@ export function ZoomableImageGrid({
   labelClassName,
   cornerClassName,
   showExpandIcon = true,
+  showLabel = true,
 }: ZoomableImageGridProps) {
   const gridImages = useMemo(
     () => images.filter((image) => Boolean(image?.src)).map((image) => ({ src: image.src, alt: image.alt || altFallback })),
@@ -405,18 +417,132 @@ export function ZoomableImageGrid({
                 <Expand className="h-3.5 w-3.5" />
               </div>
             )}
-            <div className="mb-4 flex h-24 w-full items-center justify-center">
+            <div className={cn("flex h-24 w-full items-center justify-center", showLabel && "mb-4")}>
               <img src={image.src} alt={image.alt || altFallback} className={cn('max-h-full max-w-full object-contain', imageClassName)} />
             </div>
-            <span className={cn('block text-sm font-bold text-slate-500 transition-colors group-hover:text-slate-800', labelClassName)}>
-              {image.alt || altFallback}
-            </span>
+            {showLabel && (
+              <span className={cn('block text-sm font-bold text-slate-500 transition-colors group-hover:text-slate-800', labelClassName)}>
+                {image.alt || altFallback}
+              </span>
+            )}
           </button>
         ))}
       </div>
 
       <Lightbox
         images={gridImages}
+        index={selectedIndex}
+        open={lightboxOpen}
+        cornerClassName={cornerClassName}
+        onClose={() => setLightboxOpen(false)}
+        onIndexChange={setSelectedIndex}
+      />
+    </>
+  )
+}
+
+export function ZoomableImageStrip({
+  images,
+  altFallback,
+  className,
+  scrollerClassName,
+  itemClassName,
+  imageClassName,
+  cornerClassName,
+}: ZoomableImageStripProps) {
+  const { t } = useTranslation("translation")
+  const stripImages = useMemo(
+    () => images.filter((image) => Boolean(image?.src)).map((image) => ({ src: image.src, alt: image.alt || altFallback })),
+    [altFallback, images]
+  )
+  const scrollerRef = useRef<HTMLDivElement>(null)
+  const imageButtonRefs = useRef<Array<HTMLButtonElement | null>>([])
+  const [selectedIndex, setSelectedIndex] = useState(0)
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+
+  useEffect(() => {
+    setSelectedIndex((current) => clampIndex(current, stripImages.length))
+    imageButtonRefs.current = imageButtonRefs.current.slice(0, stripImages.length)
+  }, [stripImages.length])
+
+  if (stripImages.length === 0) {
+    return null
+  }
+
+  const hasMultiple = stripImages.length > 1
+
+  const scrollToImageIndex = (index: number) => {
+    const nextIndex = clampIndex(index, stripImages.length)
+    setSelectedIndex(nextIndex)
+    imageButtonRefs.current[nextIndex]?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'center',
+    })
+  }
+
+  return (
+    <>
+      <div className={cn('relative min-w-0', className)}>
+        {hasMultiple && (
+          <Button
+            type="button"
+            variant="outline"
+            size="icon"
+            className={cn("absolute left-0 top-1/2 z-10 h-8 w-8 -translate-y-1/2 rounded-full border-slate-200 bg-white/90 text-slate-700 shadow-sm hover:bg-white", cornerClassName)}
+            onClick={() => scrollToImageIndex(selectedIndex - 1)}
+          >
+            <ArrowLeft className="h-4 w-4" />
+            <span className="sr-only">{t("ui.accessibility.previous_image")}</span>
+          </Button>
+        )}
+
+        <div
+          ref={scrollerRef}
+          className={cn(
+            'flex min-w-0 gap-3 overflow-x-auto scroll-smooth pb-1',
+            hasMultiple && 'px-10',
+            scrollerClassName
+          )}
+        >
+          {stripImages.map((image, imageIndex) => (
+            <button
+              key={`${image.src}-${imageIndex}`}
+              ref={(node) => {
+                imageButtonRefs.current[imageIndex] = node
+              }}
+              type="button"
+              className={cn('group flex h-24 shrink-0 items-center justify-center bg-transparent p-0 transition-opacity hover:opacity-85 sm:h-28', itemClassName)}
+              onClick={() => {
+                setSelectedIndex(imageIndex)
+                setLightboxOpen(true)
+              }}
+            >
+              <img
+                src={image.src}
+                alt={image.alt || altFallback}
+                className={cn('h-full w-auto max-w-none object-contain', imageClassName)}
+              />
+            </button>
+          ))}
+        </div>
+
+        {hasMultiple && (
+          <Button
+            type="button"
+            variant="outline"
+            size="icon"
+            className={cn("absolute right-0 top-1/2 z-10 h-8 w-8 -translate-y-1/2 rounded-full border-slate-200 bg-white/90 text-slate-700 shadow-sm hover:bg-white", cornerClassName)}
+            onClick={() => scrollToImageIndex(selectedIndex + 1)}
+          >
+            <ArrowRight className="h-4 w-4" />
+            <span className="sr-only">{t("ui.accessibility.next_image")}</span>
+          </Button>
+        )}
+      </div>
+
+      <Lightbox
+        images={stripImages}
         index={selectedIndex}
         open={lightboxOpen}
         cornerClassName={cornerClassName}

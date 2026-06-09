@@ -16,9 +16,9 @@
     "Amovible pour le nettoyage sans vieillissement du joint"
   ],
   "technical_parameters": {
-    "Plate material": "AISI304L, 316L, Titane, Hastelloy, SMO254...",
-    "Maximum design pressure": "80 bars",
-    "Maximum temperature resistance": "500℃"
+    "Matériau des plaques": "AISI304L, 316L, Titane, Hastelloy, SMO254...",
+    "Pression de conception maximale": "80 bars",
+    "Résistance maximale à la température": "500℃"
   },
   "video_link": "",
   "details": [
@@ -31,6 +31,7 @@
       "content": "Le produit est décrit comme amovible pour le nettoyage et évite le vieillissement des joints, ce qui contribue à réduire les coûts d'exploitation au fil du temps."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Échangeur de chaleur à plaques et coque série AWPS - I",
     "meta_description": "Échangeur de chaleur industriel à plaques et calandre pour service haute température et haute pression, combinant de fortes performances thermiques avec un accès de nettoyage amovible."
@@ -44,6 +45,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/awps_series_plate_shell_heat_exchanger_i.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

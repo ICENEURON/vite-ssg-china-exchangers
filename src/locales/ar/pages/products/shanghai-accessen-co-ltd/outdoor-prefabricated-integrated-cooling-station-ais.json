@@ -15,11 +15,11 @@
     "تقليل عبء العمل في الموقع"
   ],
   "technical_parameters": {
-    "Maximum design pressure": "25 بار",
-    "Maximum design temperature": "200 درجة مئوية",
-    "Maximum processing capacity": "5,000 م³/ساعة",
-    "Primary Construction Material": "إيسي 304، 316، 316L، تي آي، SMO254...",
-    "Minimum temperature difference": "0.5-1 درجة مئوية"
+    "أقصى ضغط تصميم": "25 بار",
+    "أقصى سعة معالجة": "5,000 م³/ساعة",
+    "مادة البناء الرئيسية": "إيسي 304، 316، 316L، تي آي، SMO254...",
+    "أقصى درجة حرارة تصميم": "200 درجة مئوية",
+    "أدنى فرق في درجة الحرارة": "0.5-1 درجة مئوية"
   },
   "video_link": "",
   "details": [
@@ -32,6 +32,7 @@
       "content": "نظرًا لأنه يتم تجميع الوحدات مسبقًا في المصنع ولا تتطلب سوى إعداد أساس الموقع بالإضافة إلى توصيلات المياه والكهرباء، فإن نظام AIS يساعد في تقليل وقت البناء والتشغيل في الموقع."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "محطة التبريد المتكاملة الجاهزة في الهواء الطلق AIS",
     "meta_description": "محطة تبريد متكاملة خارجية مسبقة الصنع لمراكز البيانات مع التجميع المسبق في المصنع، والتصميم المعياري، وفوائد النشر السريع."
@@ -45,6 +46,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/outdoor_prefabricated_integrated_cooling_station_ais.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

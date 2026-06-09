@@ -20,14 +20,14 @@
     "Polyvalence des matériaux: les options de matériaux pour les plaques et les joints incluent l'acier inoxydable austénitique, l'acier duplex, le titane, les alliages de nickel, les solutions de NBR, d'EPDM, de FKM et de coussins en PTFE."
   ],
   "technical_parameters": {
-    "Max Area": "4000㎡",
-    "Nozzle Size": "DN32 ~ DN500",
-    "Profile Depth": "1,8 ~ 10,0 mm",
-    "Plate Material": "Acier inoxydable austénitique, Acier duplex, Titane et alliage de titane, Nickel et alliage de nickel",
-    "Design Pressure": "Vide ~ 3,6 MPa",
-    "Gasket Material": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, coussin PTFE",
-    "Plate Thickness": "0,4 ~ 1,0 mm",
-    "Design Temperature": "<=180℃"
+    "Surface maximale": "4000㎡",
+    "Taille des piquages": "DN32 ~ DN500",
+    "Matériau des joints": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, coussin PTFE",
+    "Profondeur du profil": "1,8 ~ 10,0 mm",
+    "Matériau des plaques": "Acier inoxydable austénitique, Acier duplex, Titane et alliage de titane, Nickel et alliage de nickel",
+    "Pression de conception": "Vide ~ 3,6 MPa",
+    "Épaisseur des plaques": "0,4 ~ 1,0 mm",
+    "Température de conception": "<=180℃"
   },
   "video_link": "https://www.youtube.com/watch?v=AK423r7fJuU",
   "details": [
@@ -42,6 +42,106 @@
     {
       "title": "Comment est-il conçu et fabriqué?",
       "content": "La plaque de transfert de chaleur est l'élément central et est développée avec des outils de CAO, CFD, CAE et CAM pour optimiser la géométrie, l'étanchéité et la résistance à la pression de la plaque. Au cours de l'ingénierie, le service requis, le débit, le programme de température, la chute de pression, le modèle de plaque, les matériaux, la disposition des passes et la sélection des joints sont définis en premier, puis le cadre, les buses et le jeu de plaques sont fabriqués et assemblés avant les tests de pression, de fuite et de performance."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Refroidissement de liqueur mère raffinée d’alumine",
+        "Refroidissement de liqueur d’aluminate de sodium",
+        "Refroidissement du procédé Bayer",
+        "Échange thermique du procédé de décomposition d’alumine"
+      ],
+      "advantages": [
+        "Par rapport aux équipements soudés, le châssis démontable facilite inspection et nettoyage dans les liqueurs sujettes à l’entartrage.",
+        "Par rapport aux échangeurs à calandre et tubes, la structure à plaques offre une forte efficacité thermique et une compacité élevée.",
+        "Les matériaux de plaques et joints peuvent être adaptés aux milieux alcalins du procédé alumine."
+      ],
+      "application": "Refroidissement de liqueur mère raffinée d’alumine",
+      "description": "L’échangeur à plaques avec joints est utilisé pour le refroidissement de liqueur mère raffinée dans la production d’alumine par procédé Bayer. Ce service influence directement le rendement et la consommation d’énergie, et nécessite anti-entartrage, matériaux anticorrosion, résistance à la pression et ouverture facile pour nettoyage."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Chauffage et refroidissement du procédé POE",
+        "Boucles utilités polymères",
+        "Contrôle de température de procédé chimique",
+        "Flux propres à température modérée"
+      ],
+      "advantages": [
+        "Par rapport aux équipements soudés fixes, le paquet de plaques démontable permet inspection, nettoyage et ajustement de capacité.",
+        "Par rapport aux équipements à calandre et tubes, la structure à plaques améliore l’efficacité dans les boucles utilités propres.",
+        "Plusieurs matériaux de plaques et joints conviennent à différents utilitaires de procédés polymères."
+      ],
+      "application": "Contrôle thermique du procédé POE",
+      "description": "La production d’élastomères polyoléfines exige un contrôle strict de température pour des matériaux avancés comme les films d’encapsulation solaire et composants automobiles légers. L’échangeur à plaques avec joints convient aux boucles propres ou à température modérée nécessitant compacité et maintenance aisée."
+    },
+    {
+      "order": 3,
+      "used_in": [
+        "Isolement de pression en chauffage urbain",
+        "Réseaux de chaleur longue distance",
+        "Échange primaire-secondaire",
+        "Stations de chauffage urbain"
+      ],
+      "advantages": [
+        "Par rapport à une connexion directe, la station d’échange isole la pression et améliore la sécurité du système.",
+        "Par rapport aux échangeurs à calandre et tubes, la structure à plaques offre une forte efficacité avec un encombrement réduit.",
+        "La structure démontable facilite inspection, nettoyage et ajustement du paquet de plaques durant l’exploitation."
+      ],
+      "application": "Station d’isolement de pression pour chauffage urbain",
+      "description": "Dans les réseaux de chauffage longue distance, une station d’isolement sépare les pressions du réseau tout en transférant la chaleur entre circuits primaire et secondaire. L’échangeur à plaques avec joints supporte des pressions plus élevées, de fortes charges unitaires et de grandes surfaces assemblées."
+    },
+    {
+      "order": 4,
+      "used_in": [
+        "Production de phosphate de fer",
+        "Précurseur cathodique LFP",
+        "Refroidissement de réacteur de synthèse",
+        "Récupération de chaleur des milieux de procédé",
+        "Récupération de chaleur des gaz de séchage et four"
+      ],
+      "advantages": [
+        "Pour les liquides à température et pression modérées, un échangeur avec joints peut être plus économique qu’un équipement soudé.",
+        "Le paquet démontable facilite nettoyage et inspection en présence de solides ou d’entartrage.",
+        "Le contrôle des matériaux de plaques et joints aide à réduire la contamination métallique indésirable dans les procédés de matériaux de batteries."
+      ],
+      "application": "Production de phosphate de fer pour batteries",
+      "description": "Le phosphate de fer est un précurseur clé des matériaux cathodiques LFP. Dans sa production, les échangeurs à plaques servent à l’utilisation en cascade de l’énergie entre flux, au contrôle précis des réacteurs par circulation externe et à la récupération de chaleur des gaz de séchage ou de four."
+    },
+    {
+      "order": 5,
+      "used_in": [
+        "Refroidissement auxiliaire de centrales",
+        "Systèmes d’eau de refroidissement fermés",
+        "Échange auxiliaire turbine et générateur",
+        "Refroidissement de procédé dans l’énergie"
+      ],
+      "advantages": [
+        "Par rapport aux profils de plaques conventionnels, les conceptions à haute efficacité améliorent le coefficient de transfert et réduisent la perte de charge.",
+        "Par rapport aux échangeurs à calandre et tubes, la structure plaques et châssis réduit l’encombrement et simplifie la maintenance.",
+        "La conception et fabrication selon ASME peuvent soutenir les exigences qualité des projets électriques."
+      ],
+      "application": "Refroidissement auxiliaire en centrales électriques",
+      "description": "Les centrales électriques nécessitent des échangeurs avec contrôle précis de température, adaptabilité et fiabilité long terme. L’échangeur à plaques avec joints peut être utilisé pour le refroidissement auxiliaire et les services thermiques, avec des plaques efficaces améliorant le transfert et réduisant la perte de charge."
+    },
+    {
+      "order": 6,
+      "used_in": [
+        "Refroidisseur central marin",
+        "Refroidisseur d’huile de lubrification",
+        "Refroidisseur d’eau de chemise",
+        "Système de refroidissement eau de mer",
+        "Refroidissement auxiliaire à bord"
+      ],
+      "advantages": [
+        "Par rapport aux refroidisseurs à calandre et tubes, la structure plaques et châssis est plus compacte et plus facile à ouvrir pour maintenance.",
+        "Les plaques en titane améliorent la résistance à la corrosion par eau de mer.",
+        "La structure démontable aide les exploitants de navires à nettoyer et inspecter durant la maintenance planifiée."
+      ],
+      "application": "Refroidissement central marin",
+      "description": "Les systèmes de refroidissement marins exigent fiabilité, compacité, maîtrise de la corrosion et maintenance facile. L’échangeur à plaques avec joints convient aux refroidisseurs centraux, d’huile de lubrification et d’eau de chemise, avec plaques titane et support de classification marine pour eau de mer."
     }
   ],
   "seo_data": {
@@ -67,6 +167,18 @@
     {
       "alt_text": "Gasketed Plate Heat Exchanger Plate Detail",
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_4.jpg"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "Gasketed plate heat exchanger for power plant cooling",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/gasketed_power_plant_application.jpeg",
+      "file_name": "gasketed_power_plant_application.jpeg"
+    },
+    {
+      "alt_text": "Gasketed plate heat exchanger for marine central cooling",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/gasketed_marine_central_cooling_application.jpeg",
+      "file_name": "gasketed_marine_central_cooling_application.jpeg"
     }
   ],
   "certificates": [

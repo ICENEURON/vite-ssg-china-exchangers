@@ -1,5 +1,26 @@
 [
   {
+    "id": "edd0bd2e-4b44-493c-8aed-18e50518e01f",
+    "manufacturer_id": "4c20039f-e01e-40e0-aca2-a196e9aff9af",
+    "manufacturer_slug": "kdp-machinery-jiangsu-co-ltd",
+    "order": 1,
+    "overall_score": 31,
+    "company_intro_score": 10,
+    "product_info_score": 10,
+    "export_market_score": 10,
+    "video_count_score": 0,
+    "social_media_score": 0,
+    "factory_certification_score": 1,
+    "downloadable_document_score": 0,
+    "partner_logo_score": 0,
+    "response_time_score": 0,
+    "published_article_score": 0,
+    "response_time": "n/a",
+    "published_article_count": 0,
+    "created_at": "2026-06-09T15:54:38.282373+00:00",
+    "updated_at": "2026-06-09T18:24:07.282+00:00"
+  },
+  {
     "id": "cc5d9fbf-88a2-4251-91f7-c4c104c819ce",
     "manufacturer_id": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
     "manufacturer_slug": "shanghai-heat-transfer-equipment-co-ltd",
@@ -18,7 +39,7 @@
     "response_time": "within_24h",
     "published_article_count": 1,
     "created_at": "2026-05-08T11:24:03.191699+00:00",
-    "updated_at": "2026-06-08T14:00:59.325+00:00"
+    "updated_at": "2026-06-09T18:24:07.282+00:00"
   },
   {
     "id": "bc665af7-eecc-45c8-8552-64968867ce90",
@@ -39,7 +60,7 @@
     "response_time": "n/a",
     "published_article_count": 1,
     "created_at": "2026-05-08T11:24:03.191699+00:00",
-    "updated_at": "2026-06-08T14:00:59.325+00:00"
+    "updated_at": "2026-06-09T18:24:07.282+00:00"
   },
   {
     "id": "803421b9-1737-4b78-aebc-070123cc7563",
@@ -60,7 +81,7 @@
     "response_time": "within_3_days",
     "published_article_count": 0,
     "created_at": "2026-05-08T11:24:03.191699+00:00",
-    "updated_at": "2026-06-08T14:00:59.325+00:00"
+    "updated_at": "2026-06-09T18:24:07.282+00:00"
   },
   {
     "id": "bd6c2d21-53d4-4f73-981a-5665129f3918",
@@ -81,7 +102,7 @@
     "response_time": "n/a",
     "published_article_count": 0,
     "created_at": "2026-05-08T11:24:03.191699+00:00",
-    "updated_at": "2026-06-08T14:00:59.325+00:00"
+    "updated_at": "2026-06-09T18:24:07.282+00:00"
   },
   {
     "id": "a69db3eb-5bd9-404c-8ad6-d84c89ef27a8",
@@ -102,6 +123,6 @@
     "response_time": "within_1_week",
     "published_article_count": 0,
     "created_at": "2026-05-08T11:24:03.191699+00:00",
-    "updated_at": "2026-06-08T14:00:59.325+00:00"
+    "updated_at": "2026-06-09T18:24:07.282+00:00"
   }
 ]

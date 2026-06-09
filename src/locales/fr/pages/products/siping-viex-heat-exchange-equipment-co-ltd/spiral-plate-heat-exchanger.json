@@ -15,12 +15,12 @@
     "Comprend des références d'exportation et d'acier, de cokéfaction, d'alcool et de biotechnologie"
   ],
   "technical_parameters": {
-    "Standards": "JB/T4751-2003; GB150-1998",
-    "Plate width": "Acier au carbone: 500, 630, 750, 1 260, 1 500, 2 000 mm; Acier inoxydable: 610, 750, 1220, 1500, 2000 mm",
-    "Plate material": "Q235B; SUS304; 316; 316L; 321",
-    "Channel spacing": "6,0-32,0 mm en option",
-    "Pressure rating": "Non détachable: 4,5 MPa; Détachable: 1,0 MPa",
-    "Maximum operating temperature": "Non détachable: 400 ℃; Détachable: 300 ℃"
+    "Normes": "JB/T4751-2003; GB150-1998",
+    "Classe de pression": "Non détachable: 4,5 MPa; Détachable: 1,0 MPa",
+    "Largeur des plaques": "Acier au carbone: 500, 630, 750, 1 260, 1 500, 2 000 mm; Acier inoxydable: 610, 750, 1220, 1500, 2000 mm",
+    "Espacement des canaux": "6,0-32,0 mm en option",
+    "Matériau des plaques": "Q235B; SUS304; 316; 316L; 321",
+    "Température de fonctionnement maximale": "Non détachable: 400 ℃; Détachable: 300 ℃"
   },
   "video_link": "",
   "details": [
@@ -33,6 +33,7 @@
       "content": "La page cite parmi les références typiques la cokéfaction Baosteel Meishan, Tangshan Ganglu Steel, le projet Usiminas au Brésil, Jiyuan Jinma Coking, Jilin Xintianlong Alcohol, Heilongjiang Xiangyuan Oil Factory et des cas liés à l'exportation."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Échangeur de chaleur à plaques en spirale | Siping ViEX",
     "meta_description": "Échangeur de chaleur à plaques en spirale avec configurations détachables et non détachables pour les applications de l'industrie de transformation."
@@ -46,6 +47,7 @@
       "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/spiral_plate_heat_exchanger.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

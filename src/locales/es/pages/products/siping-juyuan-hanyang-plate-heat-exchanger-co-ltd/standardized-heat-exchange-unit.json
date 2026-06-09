@@ -15,9 +15,9 @@
   ],
   "technical_parameters": {
     "Control": "Programa de control estandarizado con análisis de eficiencia energética.",
-    "Plate Exchanger Pressure Drop": "THT 40kPa; referencia nacional 50kPa",
-    "Unit Pressure Drop - Primary Side": "THT 60kPa; referencia nacional 100kPa",
-    "Unit Pressure Drop - Secondary Side": "THT 80kPa; referencia nacional 100kPa"
+    "Caída de presión de la unidad - lado primario": "THT 60kPa; referencia nacional 100kPa",
+    "Caída de presión del intercambiador de placas": "THT 40kPa; referencia nacional 50kPa",
+    "Caída de presión de la unidad - lado secundario": "THT 80kPa; referencia nacional 100kPa"
   },
   "video_link": "",
   "details": [
@@ -26,6 +26,7 @@
       "content": "La página oficial describe el ensamblaje modular y estandarizado, el dimensionamiento y el corte automáticos, la soldadura inteligente, el tratamiento de superficies, el ensamblaje de módulos, la depuración de presión y la inspección de fábrica."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Unidad de intercambio de calor estandarizada",
     "meta_description": "Unidad de intercambio de calor estandarizada con configuración modular, programa de control estandarizado y objetivos de caída de presión más bajos que los valores de referencia nacionales enumerados por THT."
@@ -39,6 +40,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/standardized_heat_exchange_unit_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

@@ -22,12 +22,12 @@
     "La différence de température moyenne peut descendre jusqu’à 1 degré Celsius"
   ],
   "technical_parameters": {
-    "Series": "Échangeurs de chaleur à plaques amovibles série V",
-    "Footprint": "Environ un tiers des échangeurs de chaleur à calandre et tubes",
-    "Standards": "NB/T47004.1-2017; GB16409-1996",
-    "Metal consumption": "Environ deux tiers des échangeurs de chaleur à calandre et tubes",
-    "Heat transfer coefficient": "3 à 5 fois les échangeurs de chaleur à calandre et tubes sous la même chute de pression",
-    "Minimum average temperature difference": "Aussi bas que 1 ℃"
+    "Normes": "NB/T47004.1-2017; GB16409-1996",
+    "Série": "Échangeurs de chaleur à plaques amovibles série V",
+    "Encombrement": "Environ un tiers des échangeurs de chaleur à calandre et tubes",
+    "Consommation de métal": "Environ deux tiers des échangeurs de chaleur à calandre et tubes",
+    "Coefficient de transfert thermique": "3 à 5 fois les échangeurs de chaleur à calandre et tubes sous la même chute de pression",
+    "Différence moyenne minimale de température": "Aussi bas que 1 ℃"
   },
   "video_link": "",
   "details": [
@@ -40,6 +40,7 @@
       "content": "ViEX met en avant les échangeurs de chaleur à plaques amovibles pour le chauffage central, l'énergie nucléaire, la climatisation et la réfrigération, la transformation des boissons, la métallurgie, la pétrochimie et les fonctions amovibles à canaux larges."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Échangeur de chaleur à plaques | Siping ViEX",
     "meta_description": "Échangeur de chaleur à plaques amovibles série V pour les applications de chauffage, de refroidissement, d'évaporation, de condensation, de stérilisation et de récupération de chaleur."
@@ -53,6 +54,7 @@
       "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/plate_heat_exchanger.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

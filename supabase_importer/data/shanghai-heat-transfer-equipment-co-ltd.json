@@ -415,32 +415,32 @@
               "板片材质": "304, 304L, 316L, 254SMO, C-276, Titanium"
             },
             "ru": {
-              "Area": "6,6 ~ 870㎡",
-              "Plate Thickness": "0,8 – 2 мм",
-              "Design Temperature": "-40 ~ 400 ℃",
-              "Design Pressure": "-0,1 ~ 4,0 МПа",
-              "Plate material": "304, 304Л, 316Л, 254СМО, С-276, Титан"
+              "Площадь": "6,6 ~ 870㎡",
+              "Толщина пластины": "0,8 – 2 мм",
+              "Расчетная температура": "-40 ~ 400 ℃",
+              "Расчетное давление": "-0,1 ~ 4,0 МПа",
+              "Материал пластин": "304, 304Л, 316Л, 254СМО, С-276, Титан"
             },
             "es": {
-              "Area": "6,6 ~ 870㎡",
-              "Plate Thickness": "0,8 – 2 mm",
-              "Design Temperature": "-40 ~ 400℃",
-              "Design Pressure": "-0,1 ~ 4,0MPa",
-              "Plate material": "304, 304L, 316L, 254SMO, C-276, Titanio"
+              "Área": "6,6 ~ 870㎡",
+              "Espesor de placa": "0,8 – 2 mm",
+              "Temperatura de diseño": "-40 ~ 400℃",
+              "Presión de diseño": "-0,1 ~ 4,0MPa",
+              "Material de placas": "304, 304L, 316L, 254SMO, C-276, Titanio"
             },
             "fr": {
-              "Area": "6,6 ~ 870㎡",
-              "Plate Thickness": "0,8 – 2 mm",
-              "Design Temperature": "-40 ~ 400 ℃",
-              "Design Pressure": "-0,1 ~ 4,0MPa",
-              "Plate material": "304, 304L, 316L, 254SMO, C-276, titane"
+              "Surface": "6,6 ~ 870㎡",
+              "Épaisseur des plaques": "0,8 – 2 mm",
+              "Température de conception": "-40 ~ 400 ℃",
+              "Pression de conception": "-0,1 ~ 4,0MPa",
+              "Matériau des plaques": "304, 304L, 316L, 254SMO, C-276, titane"
             },
             "ar": {
-              "Area": "6.6 ~ 870㎡",
-              "Plate Thickness": "0.8 - 2 ملم",
-              "Design Temperature": "-40 ~ 400 درجة مئوية",
-              "Design Pressure": "-0.1 ~ 4.0MPa",
-              "Plate material": "304، 304L، 316L، 254SMO، C-276، التيتانيوم"
+              "المساحة": "6.6 ~ 870㎡",
+              "سماكة اللوح": "0.8 - 2 ملم",
+              "درجة حرارة التصميم": "-40 ~ 400 درجة مئوية",
+              "ضغط التصميم": "-0.1 ~ 4.0MPa",
+              "مادة الألواح": "304، 304L، 316L، 254SMO، C-276، التيتانيوم"
             }
           },
           "details": {
@@ -531,6 +531,422 @@
               "meta_title": "HT-BLOC مبادل حراري للوحة الملحومة",
               "meta_description": "مبادل كتلة ملحومة مدمج للخدمة الصناعية ذات الضغط العالي."
             }
+          },
+          "applications": {
+            "en": [
+              {
+                "order": 1,
+                "application": "Lean-rich amine heat exchanger",
+                "description": "HT-BLOC Welded Plate Heat Exchanger is used in amine treating units for olefin separation, where the lean-rich amine exchanger recovers heat between regenerated lean amine and acid-gas-rich amine. It preheats rich amine before regeneration and cools lean amine before absorption, helping reduce reboiler load and stabilize the amine circulation process.",
+                "advantages": [
+                  "Compared with conventional shell-and-tube exchangers, the welded plate structure provides higher heat-transfer intensity and can reduce footprint for the same duty.",
+                  "Compared with gasketed plate exchangers, the welded core reduces gasket aging and leakage risk in amine, solvent, and corrosive service.",
+                  "The compact counter-current flow arrangement supports close approach temperatures and efficient heat recovery in continuous chemical units."
+                ],
+                "used_in": [
+                  "Natural gas desulfurization, decarbonization, and dehydration",
+                  "Refinery gas sulfur recovery",
+                  "EO/EG units",
+                  "Olefin separation amine washing systems"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Tower bottom reboiler",
+                "description": "In reforming, gasoline hydrogenation, and diesel hydrogenation units, HT-BLOC Welded Plate Heat Exchanger can be used as a tower bottom reboiler where precise temperature control, high safety requirements, and deep heat recovery are important. The fully welded plate pack removes gasket exposure in high-temperature and high-pressure service while maintaining strong heat-transfer performance.",
+                "advantages": [
+                  "Compared with shell-and-tube reboilers, the welded plate bundle can provide higher heat-transfer efficiency and closer hot-end temperature approach.",
+                  "Compared with gasketed exchangers, the all-welded construction reduces leakage risk in high-temperature and high-pressure hydrocarbon service.",
+                  "The compact construction helps refinery and petrochemical units save plot space during revamps or capacity upgrades."
+                ],
+                "used_in": [
+                  "Crude oil heaters and coolers",
+                  "Overhead condensers",
+                  "Atmospheric and vacuum unit coolers",
+                  "Aromatics, catalytic, reforming, and hydrogenation units",
+                  "Stripping tower bottom reboilers",
+                  "Reforming high-pressure separator oil exchangers"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "Marine natural gas cooler",
+                "description": "HT-BLOC Welded Plate Heat Exchanger can be applied to marine natural gas cooling duties where high pressure resistance, high temperature resistance, compact layout, and seawater corrosion control are required. Titanium, titanium alloy, 254SMO, and C-276 material options help the exchanger work in corrosive marine environments.",
+                "advantages": [
+                  "Compared with shell-and-tube exchangers, the welded plate design reduces equipment size and weight, which is valuable in shipboard layouts.",
+                  "Compared with gasketed exchangers, the welded core is better suited to higher pressure, higher temperature, and restricted-maintenance marine service.",
+                  "Corrosion-resistant plate materials support seawater and marine utility cooling applications."
+                ],
+                "used_in": [
+                  "Marine natural gas cooling",
+                  "Seawater-cooled auxiliary systems",
+                  "Offshore gas processing",
+                  "Shipboard process cooling"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "Wastewater heat recovery",
+                "description": "When wastewater is too corrosive for rubber gaskets or too hot for gasketed plate heat exchangers, HT-BLOC Welded Plate Heat Exchanger provides an all-welded heat-recovery option. It is suitable for complex industrial wastewater with corrosive components, small terminal temperature differences, and a need for flexible flow arrangement.",
+                "advantages": [
+                  "Compared with gasketed plate exchangers, the all-welded structure avoids direct gasket contact with corrosive or high-temperature wastewater.",
+                  "Compared with conventional exchangers, the plate structure supports higher heat-transfer efficiency and smaller terminal temperature differences.",
+                  "Special plate materials such as titanium and 254SMO can be selected for corrosive wastewater duties."
+                ],
+                "used_in": [
+                  "Industrial wastewater heat recovery",
+                  "Chemical wastewater treatment",
+                  "Pharmaceutical wastewater treatment",
+                  "High-temperature wastewater cooling",
+                  "Corrosive wastewater service"
+                ]
+              }
+            ],
+            "zh": [
+              {
+                "order": 1,
+                "application": "贫富液换热器",
+                "description": "HT-BLOC 焊接板式换热器用于烯烃分离装置中的胺洗单元，作为贫富胺液换热器在已再生的热贫胺液与富含酸性气体的富胺液之间回收热量。该应用可在再生前预热富胺液，并在吸收前冷却贫胺液，有助于降低再沸器负荷并稳定胺液循环过程。",
+                "advantages": [
+                  "与传统管壳式换热器相比，焊接板式结构具有更高的传热强度，可在相同换热任务下降低设备占地。",
+                  "与可拆式板式换热器相比，全焊接换热芯减少胶垫老化和介质泄漏风险，更适合胺液、溶剂和腐蚀性工况。",
+                  "紧凑的逆流换热布置有利于实现较小端温差，并提升连续化工装置中的热量回收效率。"
+                ],
+                "used_in": [
+                  "天然气脱硫、脱碳和脱水",
+                  "炼厂气硫磺回收",
+                  "EO/EG 装置",
+                  "烯烃分离胺洗系统"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "塔底重沸器",
+                "description": "在重整、汽油加氢和柴油加氢装置中，HT-BLOC 焊接板式换热器可作为塔底重沸器使用，适用于需要精确控温、严苛安全要求和深度热回收的工况。全焊接板束避免胶垫暴露于高温高压介质中，同时保持较强的传热性能。",
+                "advantages": [
+                  "与管壳式重沸器相比，焊接板束可提供更高的传热效率，并有利于压缩热端温差。",
+                  "与可拆式换热器相比，全焊接结构降低高温高压烃类介质工况下的泄漏风险。",
+                  "紧凑结构有助于炼化装置在改造或扩能时节省布置空间。"
+                ],
+                "used_in": [
+                  "原油加热器和冷却器",
+                  "塔顶冷凝器",
+                  "常减压冷却器",
+                  "芳烃、催化、重整和加氢装置",
+                  "汽提塔底重沸器",
+                  "重整高分油换热器"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "船用天然气冷却板换",
+                "description": "HT-BLOC 焊接板式换热器可用于船用天然气冷却工况，适合对耐压、耐温、紧凑布置和海水腐蚀控制有要求的场景。钛及钛合金、254SMO、C-276 等材料选择有助于设备适应腐蚀性海洋环境。",
+                "advantages": [
+                  "与管壳式换热器相比，焊接板式结构可降低设备体积和重量，更适合船舶有限空间布置。",
+                  "与可拆式换热器相比，焊接换热芯更适合高压、高温和维护空间受限的船用工况。",
+                  "耐腐蚀板片材料可支持海水及船用公用工程冷却应用。"
+                ],
+                "used_in": [
+                  "船用天然气冷却",
+                  "海水冷却辅助系统",
+                  "海上天然气处理",
+                  "船舶工艺冷却"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "废水处理与热回收",
+                "description": "当废水介质会腐蚀橡胶胶垫，或废水温度超过可拆式板式换热器适用范围时，HT-BLOC 焊接板式换热器可作为全焊接热回收设备使用。该应用适合成分复杂、含腐蚀性介质、末端温差要求较小且需要灵活流程布置的工业废水工况。",
+                "advantages": [
+                  "与可拆式板式换热器相比，全焊接结构避免胶垫直接接触腐蚀性或高温废水。",
+                  "与传统换热设备相比，板式结构有利于提升传热效率并实现更小末端温差。",
+                  "针对腐蚀性废水工况，可选用钛、254SMO 等特殊板片材料。"
+                ],
+                "used_in": [
+                  "工业废水热回收",
+                  "化工废水处理",
+                  "制药废水处理",
+                  "高温废水冷却",
+                  "腐蚀性废水工况"
+                ]
+              }
+            ],
+            "ru": [
+              {
+                "order": 1,
+                "application": "Теплообменник бедного и насыщенного аминового раствора",
+                "description": "HT-BLOC сварной пластинчатый теплообменник применяется в аминовых узлах разделения олефинов, где теплообменник бедного и насыщенного амина рекуперирует тепло между регенерированным бедным амином и насыщенным амином с кислыми газами. Он подогревает насыщенный амин перед регенерацией и охлаждает бедный амин перед абсорбцией, снижая нагрузку на ребойлер и стабилизируя циркуляцию амина.",
+                "advantages": [
+                  "По сравнению с традиционными кожухотрубными аппаратами сварная пластинчатая конструкция обеспечивает более интенсивную теплопередачу и меньшую занимаемую площадь при той же нагрузке.",
+                  "По сравнению с разборными пластинчатыми теплообменниками сварной сердечник снижает риск старения прокладок и утечек в аминовых, растворительных и коррозионных средах.",
+                  "Компактная противоточная схема поддерживает малые температурные напоры и эффективную рекуперацию тепла в непрерывных химических установках."
+                ],
+                "used_in": [
+                  "Обессеривание, декарбонизация и осушка природного газа",
+                  "Сероулавливание нефтезаводского газа",
+                  "Установки EO/EG",
+                  "Аминовые промывочные системы разделения олефинов"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Нижний ребойлер колонны",
+                "description": "В установках риформинга, гидроочистки бензина и дизельного топлива HT-BLOC сварной пластинчатый теплообменник может применяться как нижний ребойлер колонны, когда важны точный контроль температуры, высокая безопасность и глубокая рекуперация тепла. Полностью сварной пакет пластин исключает контакт прокладок с высокотемпературной и высоконапорной средой.",
+                "advantages": [
+                  "По сравнению с кожухотрубными ребойлерами сварной пакет пластин обеспечивает более высокую эффективность теплопередачи и меньший температурный напор на горячем конце.",
+                  "По сравнению с разборными теплообменниками цельносварная конструкция снижает риск утечек в высокотемпературных и высоконапорных углеводородных средах.",
+                  "Компактная конструкция помогает экономить площадь при модернизации и расширении нефтехимических установок."
+                ],
+                "used_in": [
+                  "Подогреватели и охладители сырой нефти",
+                  "Верхние конденсаторы колонн",
+                  "Охладители атмосферно-вакуумных установок",
+                  "Ароматические, каталитические, риформинговые и гидроочистные установки",
+                  "Нижние ребойлеры отпарных колонн",
+                  "Масляные теплообменники сепараторов высокого давления риформинга"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "Судовой охладитель природного газа",
+                "description": "HT-BLOC может применяться для судового охлаждения природного газа, где требуются стойкость к давлению и температуре, компактная компоновка и защита от коррозии морской водой. Варианты материалов, включая титан, титановые сплавы, 254SMO и C-276, помогают работать в коррозионной морской среде.",
+                "advantages": [
+                  "По сравнению с кожухотрубными аппаратами сварная пластинчатая конструкция уменьшает размер и массу оборудования, что важно для судовой компоновки.",
+                  "По сравнению с разборными теплообменниками сварной сердечник лучше подходит для высокого давления, высокой температуры и ограниченного обслуживания на судах.",
+                  "Коррозионностойкие материалы пластин поддерживают применения с морской водой и судовыми инженерными средами."
+                ],
+                "used_in": [
+                  "Судовое охлаждение природного газа",
+                  "Вспомогательные системы охлаждения морской водой",
+                  "Морская газопереработка",
+                  "Судовое технологическое охлаждение"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "Рекуперация тепла сточных вод",
+                "description": "Когда сточные воды коррозионны для резиновых прокладок или слишком горячие для разборных пластинчатых теплообменников, HT-BLOC обеспечивает цельносварное решение для рекуперации тепла. Он подходит для сложных промышленных сточных вод с коррозионными компонентами, малыми конечными температурными напорами и потребностью в гибкой схеме потоков.",
+                "advantages": [
+                  "По сравнению с разборными пластинчатыми теплообменниками цельносварная конструкция исключает прямой контакт прокладок с коррозионными или горячими сточными водами.",
+                  "По сравнению с традиционными аппаратами пластинчатая структура поддерживает более высокую эффективность теплопередачи и меньшие конечные температурные напоры.",
+                  "Для коррозионных сточных вод могут применяться специальные материалы пластин, такие как титан и 254SMO."
+                ],
+                "used_in": [
+                  "Рекуперация тепла промышленных сточных вод",
+                  "Очистка химических сточных вод",
+                  "Очистка фармацевтических сточных вод",
+                  "Охлаждение высокотемпературных сточных вод",
+                  "Коррозионные сточные воды"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "order": 1,
+                "application": "Intercambiador de solución amina pobre-rica",
+                "description": "El intercambiador de calor de placas soldadas HT-BLOC se utiliza en unidades de tratamiento con aminas para la separación de olefinas, donde el intercambiador de amina pobre-rica recupera calor entre la amina pobre regenerada y la amina rica cargada con gases ácidos. Precalienta la amina rica antes de la regeneración y enfría la amina pobre antes de la absorción, reduciendo la carga del rehervidor y estabilizando la circulación de amina.",
+                "advantages": [
+                  "En comparación con los intercambiadores de carcasa y tubos, la estructura de placas soldadas ofrece mayor intensidad de transferencia térmica y puede reducir la huella para la misma carga.",
+                  "En comparación con los intercambiadores de placas con juntas, el núcleo soldado reduce el envejecimiento de juntas y el riesgo de fugas en servicios con aminas, solventes y medios corrosivos.",
+                  "La disposición compacta en contracorriente permite menores diferencias terminales de temperatura y una recuperación de calor más eficiente en unidades químicas continuas."
+                ],
+                "used_in": [
+                  "Desulfuración, descarbonización y deshidratación de gas natural",
+                  "Recuperación de azufre de gas de refinería",
+                  "Unidades EO/EG",
+                  "Sistemas de lavado con aminas para separación de olefinas"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Rehervidor de fondo de torre",
+                "description": "En unidades de reformado, hidrogenación de gasolina e hidrogenación de diésel, el intercambiador HT-BLOC puede utilizarse como rehervidor de fondo de torre cuando se requiere control preciso de temperatura, alta seguridad y recuperación profunda de calor. El paquete de placas totalmente soldado evita la exposición de juntas en servicios de alta temperatura y presión.",
+                "advantages": [
+                  "En comparación con los rehervidores de carcasa y tubos, el paquete de placas soldadas puede ofrecer mayor eficiencia térmica y un menor acercamiento de temperatura en el extremo caliente.",
+                  "En comparación con los intercambiadores con juntas, la construcción totalmente soldada reduce el riesgo de fugas en servicios de hidrocarburos a alta temperatura y presión.",
+                  "La construcción compacta ayuda a ahorrar espacio en unidades de refinería y petroquímica durante modernizaciones o ampliaciones."
+                ],
+                "used_in": [
+                  "Calentadores y enfriadores de crudo",
+                  "Condensadores de cabeza",
+                  "Enfriadores de unidades atmosféricas y de vacío",
+                  "Unidades de aromáticos, catalíticas, de reformado e hidrogenación",
+                  "Rehervidores de fondo de torres de stripping",
+                  "Intercambiadores de aceite de separadores de alta presión de reformado"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "Enfriador marino de gas natural",
+                "description": "El HT-BLOC puede aplicarse en enfriamiento marino de gas natural cuando se requieren resistencia a presión y temperatura, diseño compacto y control de corrosión por agua de mar. Las opciones de titanio, aleación de titanio, 254SMO y C-276 ayudan al equipo a trabajar en ambientes marinos corrosivos.",
+                "advantages": [
+                  "En comparación con los intercambiadores de carcasa y tubos, el diseño de placas soldadas reduce tamaño y peso, algo importante en espacios de buque.",
+                  "En comparación con los intercambiadores con juntas, el núcleo soldado es más adecuado para alta presión, alta temperatura y mantenimiento limitado en servicio marino.",
+                  "Los materiales de placa resistentes a la corrosión soportan aplicaciones de agua de mar y enfriamiento auxiliar marino."
+                ],
+                "used_in": [
+                  "Enfriamiento marino de gas natural",
+                  "Sistemas auxiliares enfriados por agua de mar",
+                  "Procesamiento offshore de gas",
+                  "Enfriamiento de proceso a bordo"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "Recuperación de calor de aguas residuales",
+                "description": "Cuando las aguas residuales son demasiado corrosivas para juntas de caucho o demasiado calientes para intercambiadores de placas con juntas, HT-BLOC ofrece una opción totalmente soldada de recuperación de calor. Es adecuado para aguas residuales industriales complejas con componentes corrosivos, pequeñas diferencias terminales de temperatura y necesidad de disposición de flujo flexible.",
+                "advantages": [
+                  "En comparación con los intercambiadores de placas con juntas, la estructura totalmente soldada evita el contacto directo de juntas con aguas residuales corrosivas o de alta temperatura.",
+                  "En comparación con equipos convencionales, la estructura de placas permite mayor eficiencia térmica y menores diferencias terminales de temperatura.",
+                  "Para aguas residuales corrosivas pueden seleccionarse materiales especiales de placa, como titanio y 254SMO."
+                ],
+                "used_in": [
+                  "Recuperación de calor de aguas residuales industriales",
+                  "Tratamiento de aguas residuales químicas",
+                  "Tratamiento de aguas residuales farmacéuticas",
+                  "Enfriamiento de aguas residuales de alta temperatura",
+                  "Servicio con aguas residuales corrosivas"
+                ]
+              }
+            ],
+            "fr": [
+              {
+                "order": 1,
+                "application": "Échangeur de solution amine pauvre-riche",
+                "description": "L’échangeur de chaleur à plaques soudées HT-BLOC est utilisé dans les unités de traitement aux amines pour la séparation des oléfines. L’échangeur amine pauvre-riche récupère la chaleur entre l’amine pauvre régénérée et l’amine riche chargée en gaz acides. Il préchauffe l’amine riche avant régénération et refroidit l’amine pauvre avant absorption, ce qui réduit la charge du rebouilleur et stabilise la boucle amine.",
+                "advantages": [
+                  "Par rapport aux échangeurs à calandre et tubes, la structure à plaques soudées offre une intensité de transfert thermique plus élevée et peut réduire l’encombrement pour une même charge.",
+                  "Par rapport aux échangeurs à plaques avec joints, le noyau soudé réduit le vieillissement des joints et le risque de fuite dans les services amines, solvants et milieux corrosifs.",
+                  "La configuration compacte en contre-courant favorise de faibles écarts de température terminale et une récupération de chaleur efficace dans les unités chimiques continues."
+                ],
+                "used_in": [
+                  "Désulfuration, décarbonatation et déshydratation du gaz naturel",
+                  "Récupération du soufre des gaz de raffinerie",
+                  "Unités EO/EG",
+                  "Systèmes de lavage aux amines pour séparation des oléfines"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Rebouilleur de fond de colonne",
+                "description": "Dans les unités de reformage, d’hydrogénation de l’essence et d’hydrogénation du diesel, l’échangeur HT-BLOC peut être utilisé comme rebouilleur de fond de colonne lorsque le contrôle précis de la température, la sécurité et la récupération profonde de chaleur sont essentiels. Le faisceau de plaques entièrement soudé évite l’exposition des joints aux services haute température et haute pression.",
+                "advantages": [
+                  "Par rapport aux rebouilleurs à calandre et tubes, le faisceau de plaques soudées offre une meilleure efficacité thermique et un écart de température plus faible côté chaud.",
+                  "Par rapport aux échangeurs avec joints, la construction entièrement soudée réduit le risque de fuite dans les services hydrocarbures à haute température et haute pression.",
+                  "La construction compacte aide les unités de raffinage et de pétrochimie à économiser de l’espace lors des rénovations ou augmentations de capacité."
+                ],
+                "used_in": [
+                  "Réchauffeurs et refroidisseurs de pétrole brut",
+                  "Condenseurs de tête",
+                  "Refroidisseurs d’unités atmosphériques et sous vide",
+                  "Unités aromatiques, catalytiques, reformage et hydrogénation",
+                  "Rebouilleurs de fond de colonnes de stripage",
+                  "Échangeurs d’huile de séparateur haute pression de reformage"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "Refroidisseur marin de gaz naturel",
+                "description": "Le HT-BLOC peut être utilisé pour le refroidissement marin du gaz naturel lorsque la résistance à la pression et à la température, la compacité et la maîtrise de la corrosion par l’eau de mer sont nécessaires. Les matériaux tels que titane, alliages de titane, 254SMO et C-276 facilitent l’utilisation en environnement marin corrosif.",
+                "advantages": [
+                  "Par rapport aux échangeurs à calandre et tubes, la conception à plaques soudées réduit la taille et le poids, un avantage important à bord des navires.",
+                  "Par rapport aux échangeurs avec joints, le noyau soudé convient mieux aux services marins haute pression, haute température et à maintenance limitée.",
+                  "Les matériaux de plaques résistants à la corrosion conviennent aux applications eau de mer et refroidissement auxiliaire marin."
+                ],
+                "used_in": [
+                  "Refroidissement marin du gaz naturel",
+                  "Systèmes auxiliaires refroidis par eau de mer",
+                  "Traitement offshore du gaz",
+                  "Refroidissement de procédé à bord"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "Récupération de chaleur des eaux usées",
+                "description": "Lorsque les eaux usées sont trop corrosives pour les joints en caoutchouc ou trop chaudes pour les échangeurs à plaques avec joints, le HT-BLOC offre une solution entièrement soudée de récupération de chaleur. Il convient aux eaux usées industrielles complexes contenant des composants corrosifs, avec de faibles écarts de température terminale et une configuration de flux flexible.",
+                "advantages": [
+                  "Par rapport aux échangeurs à plaques avec joints, la structure entièrement soudée évite le contact direct des joints avec des eaux usées corrosives ou très chaudes.",
+                  "Par rapport aux équipements conventionnels, la structure à plaques permet une meilleure efficacité thermique et de plus faibles écarts de température terminale.",
+                  "Des matériaux spéciaux comme le titane et le 254SMO peuvent être choisis pour les eaux usées corrosives."
+                ],
+                "used_in": [
+                  "Récupération de chaleur des eaux usées industrielles",
+                  "Traitement des eaux usées chimiques",
+                  "Traitement des eaux usées pharmaceutiques",
+                  "Refroidissement des eaux usées à haute température",
+                  "Service eaux usées corrosives"
+                ]
+              }
+            ],
+            "ar": [
+              {
+                "order": 1,
+                "application": "مبادل حرارة الأمين الفقير والغني",
+                "description": "يستخدم مبادل الحرارة اللوحي الملحوم HT-BLOC في وحدات معالجة الأمين لفصل الأوليفينات، حيث يستعيد مبادل الأمين الفقير والغني الحرارة بين الأمين الفقير المتجدد والأمين الغني المحمل بالغازات الحمضية. ويسخن الأمين الغني قبل التجديد ويبرد الأمين الفقير قبل الامتصاص، مما يقلل حمل إعادة الغليان ويثبت دورة الأمين.",
+                "advantages": [
+                  "بالمقارنة مع المبادلات الأنبوبية التقليدية، توفر البنية اللوحية الملحومة كثافة أعلى لنقل الحرارة ويمكن أن تقلل المساحة المطلوبة لنفس الحمل.",
+                  "بالمقارنة مع المبادلات اللوحية ذات الحشيات، يقلل القلب الملحوم من تقادم الحشيات ومخاطر التسرب في خدمات الأمين والمذيبات والوسائط المسببة للتآكل.",
+                  "يدعم ترتيب الجريان العكسي المدمج فروق درجات حرارة نهائية صغيرة واستعادة حرارة أكثر كفاءة في الوحدات الكيميائية المستمرة."
+                ],
+                "used_in": [
+                  "إزالة الكبريت وثاني أكسيد الكربون والتجفيف من الغاز الطبيعي",
+                  "استرجاع الكبريت من غاز المصافي",
+                  "وحدات EO/EG",
+                  "أنظمة غسل الأمين لفصل الأوليفينات"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "معيد غليان قاع البرج",
+                "description": "في وحدات الإصلاح والهدرجة للبنزين والديزل، يمكن استخدام HT-BLOC كمعيد غليان لقاع البرج عندما تكون دقة التحكم في الحرارة والسلامة العالية واستعادة الحرارة العميقة أمورا مهمة. وتمنع حزمة الألواح الملحومة بالكامل تعرض الحشيات لوسائط عالية الحرارة والضغط.",
+                "advantages": [
+                  "بالمقارنة مع معيدات الغليان الأنبوبية، توفر حزمة الألواح الملحومة كفاءة حرارية أعلى واقترابا حراريا أصغر عند الطرف الساخن.",
+                  "بالمقارنة مع المبادلات ذات الحشيات، تقلل البنية الملحومة بالكامل مخاطر التسرب في خدمات الهيدروكربونات عالية الحرارة والضغط.",
+                  "يساعد التصميم المدمج وحدات التكرير والبتروكيماويات على توفير المساحة أثناء التحديث أو زيادة الطاقة."
+                ],
+                "used_in": [
+                  "مسخنات ومبردات النفط الخام",
+                  "مكثفات قمة البرج",
+                  "مبردات وحدات الضغط الجوي والتفريغ",
+                  "وحدات العطريات والحفز والإصلاح والهدرجة",
+                  "معيدات غليان قاع أبراج التجريد",
+                  "مبادلات زيت فاصل الضغط العالي في الإصلاح"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "مبرد الغاز الطبيعي البحري",
+                "description": "يمكن استخدام HT-BLOC في تبريد الغاز الطبيعي البحري عندما تكون مقاومة الضغط والحرارة والتصميم المدمج والتحكم في تآكل مياه البحر مطلوبة. وتساعد خيارات التيتانيوم وسبائكه و254SMO وC-276 على العمل في البيئات البحرية المسببة للتآكل.",
+                "advantages": [
+                  "بالمقارنة مع المبادلات الأنبوبية، يقلل التصميم اللوحي الملحوم الحجم والوزن، وهو أمر مهم في ترتيبات السفن.",
+                  "بالمقارنة مع المبادلات ذات الحشيات، يكون القلب الملحوم أنسب لخدمات بحرية ذات ضغط وحرارة أعلى وصيانة محدودة.",
+                  "تدعم مواد الألواح المقاومة للتآكل تطبيقات مياه البحر والتبريد البحري المساعد."
+                ],
+                "used_in": [
+                  "تبريد الغاز الطبيعي البحري",
+                  "أنظمة مساعدة مبردة بمياه البحر",
+                  "معالجة الغاز البحرية",
+                  "تبريد العمليات على متن السفن"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "استعادة حرارة مياه الصرف",
+                "description": "عندما تكون مياه الصرف مسببة للتآكل للحشيات المطاطية أو ذات حرارة عالية لا تناسب المبادلات ذات الحشيات، يوفر HT-BLOC خيارا ملحوما بالكامل لاستعادة الحرارة. وهو مناسب لمياه الصرف الصناعية المعقدة ذات المكونات المسببة للتآكل وفروق الحرارة النهائية الصغيرة والحاجة إلى ترتيب تدفق مرن.",
+                "advantages": [
+                  "بالمقارنة مع المبادلات اللوحية ذات الحشيات، تمنع البنية الملحومة بالكامل التلامس المباشر للحشيات مع مياه صرف ساخنة أو مسببة للتآكل.",
+                  "بالمقارنة مع المعدات التقليدية، تدعم البنية اللوحية كفاءة أعلى لنقل الحرارة وفروق حرارة نهائية أصغر.",
+                  "يمكن اختيار مواد ألواح خاصة مثل التيتانيوم و254SMO لخدمات مياه الصرف المسببة للتآكل."
+                ],
+                "used_in": [
+                  "استعادة حرارة مياه الصرف الصناعية",
+                  "معالجة مياه الصرف الكيميائية",
+                  "معالجة مياه الصرف الدوائية",
+                  "تبريد مياه الصرف عالية الحرارة",
+                  "خدمة مياه الصرف المسببة للتآكل"
+                ]
+              }
+            ]
           }
         },
         "product_assets": [
@@ -589,6 +1005,13 @@
             "folder": "product_certifications",
             "file_name": "sgs.png",
             "alt_text": "SGS Certificate"
+          },
+          {
+            "order": 2,
+            "asset_type": "application_image",
+            "folder": "product_applications",
+            "file_name": "ht_bloc_wastewater_treatment_application.jpeg",
+            "alt_text": "HT-BLOC wastewater treatment heat recovery application"
           }
         ]
       },
@@ -702,44 +1125,44 @@
               "胶垫材质": "丁腈（食品）橡胶、氢化丁腈橡胶、三元乙丙（食品）橡胶、耐高温三元乙丙橡胶、氟橡胶、聚四氟乙烯包覆橡胶"
             },
             "ru": {
-              "Nozzle Size": "Ду32 ~ Ду500",
-              "Plate Thickness": "0,4 ~ 1,0 мм",
-              "Profile Depth": "1,8 ~ 10,0 мм",
-              "Design Temperature": "<= 180 ℃",
-              "Design Pressure": "Вакуум ~ 3,6 МПа",
-              "Max Area": "4000㎡",
-              "Plate Material": "Аустенитная нержавеющая сталь, Дуплексная сталь, Титан и титановые сплавы, Никель и никелевые сплавы",
-              "Gasket Material": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, подушка из ПТФЭ"
+              "Размер патрубка": "Ду32 ~ Ду500",
+              "Толщина пластины": "0,4 ~ 1,0 мм",
+              "Глубина профиля": "1,8 ~ 10,0 мм",
+              "Расчетная температура": "<= 180 ℃",
+              "Расчетное давление": "Вакуум ~ 3,6 МПа",
+              "Максимальная площадь": "4000㎡",
+              "Материал пластин": "Аустенитная нержавеющая сталь, Дуплексная сталь, Титан и титановые сплавы, Никель и никелевые сплавы",
+              "Материал прокладок": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, подушка из ПТФЭ"
             },
             "es": {
-              "Nozzle Size": "DN32 ~ DN500",
-              "Plate Thickness": "0,4 ~ 1,0 mm",
-              "Profile Depth": "1,8 ~ 10,0 mm",
-              "Design Temperature": "<= 180 ℃",
-              "Design Pressure": "Vacío ~ 3,6 MPa",
-              "Max Area": "4000㎡",
-              "Plate Material": "Acero inoxidable austenítico, Acero dúplex, Titanio y aleación de titanio, Níquel y aleación de níquel",
-              "Gasket Material": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, cojín de PTFE"
+              "Tamaño de boquilla": "DN32 ~ DN500",
+              "Espesor de placa": "0,4 ~ 1,0 mm",
+              "Profundidad del perfil": "1,8 ~ 10,0 mm",
+              "Temperatura de diseño": "<= 180 ℃",
+              "Presión de diseño": "Vacío ~ 3,6 MPa",
+              "Área máxima": "4000㎡",
+              "Material de placas": "Acero inoxidable austenítico, Acero dúplex, Titanio y aleación de titanio, Níquel y aleación de níquel",
+              "Material de juntas": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, cojín de PTFE"
             },
             "fr": {
-              "Nozzle Size": "DN32 ~ DN500",
-              "Plate Thickness": "0,4 ~ 1,0 mm",
-              "Profile Depth": "1,8 ~ 10,0 mm",
-              "Design Temperature": "<=180℃",
-              "Design Pressure": "Vide ~ 3,6 MPa",
-              "Max Area": "4000㎡",
-              "Plate Material": "Acier inoxydable austénitique, Acier duplex, Titane et alliage de titane, Nickel et alliage de nickel",
-              "Gasket Material": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, coussin PTFE"
+              "Taille des piquages": "DN32 ~ DN500",
+              "Épaisseur des plaques": "0,4 ~ 1,0 mm",
+              "Profondeur du profil": "1,8 ~ 10,0 mm",
+              "Température de conception": "<=180℃",
+              "Pression de conception": "Vide ~ 3,6 MPa",
+              "Surface maximale": "4000㎡",
+              "Matériau des plaques": "Acier inoxydable austénitique, Acier duplex, Titane et alliage de titane, Nickel et alliage de nickel",
+              "Matériau des joints": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, coussin PTFE"
             },
             "ar": {
-              "Nozzle Size": "DN32 ~ DN500",
-              "Plate Thickness": "0.4 ~ 1.0 ملم",
-              "Profile Depth": "1.8 ~ 10.0 ملم",
-              "Design Temperature": "<=180 درجة مئوية",
-              "Design Pressure": "فراغ ~ 3.6MPa",
-              "Max Area": "4000㎡",
-              "Plate Material": "الفولاذ الأوستنيتي المقاوم للصدأ، الفولاذ المزدوج، سبائك التيتانيوم والتيتانيوم، النيكل وسبائك النيكل",
-              "Gasket Material": "وسادة NBR (NS)، HNBR، EPDM (ES)، H-EPDM، FKM، PTFE"
+              "حجم الفوهة": "DN32 ~ DN500",
+              "سماكة اللوح": "0.4 ~ 1.0 ملم",
+              "عمق التموج": "1.8 ~ 10.0 ملم",
+              "درجة حرارة التصميم": "<=180 درجة مئوية",
+              "ضغط التصميم": "فراغ ~ 3.6MPa",
+              "المساحة القصوى": "4000㎡",
+              "مادة الألواح": "الفولاذ الأوستنيتي المقاوم للصدأ، الفولاذ المزدوج، سبائك التيتانيوم والتيتانيوم، النيكل وسبائك النيكل",
+              "مادة الحشية": "وسادة NBR (NS)، HNBR، EPDM (ES)، H-EPDM، FKM، PTFE"
             }
           },
           "details": {
@@ -854,6 +1277,608 @@
               "meta_title": "مبادل حراري لوحة طوقا",
               "meta_description": "مبادل حراري للوحة والإطار مدمج مع نقل حراري فعال، وسهولة الصيانة، وخيارات واسعة من المواد والحجم."
             }
+          },
+          "applications": {
+            "en": [
+              {
+                "order": 1,
+                "application": "Alumina refined mother liquor cooling",
+                "description": "Gasketed Plate Heat Exchanger is used for refined mother liquor cooling in Bayer-process alumina production. This duty directly affects output and energy consumption, and it requires anti-scaling design, corrosion-resistant materials, pressure capability, and easy opening for cleaning.",
+                "advantages": [
+                  "Compared with welded equipment, the removable frame makes inspection and cleaning easier in scaling-prone liquor service.",
+                  "Compared with shell-and-tube exchangers, the plate structure provides high heat-transfer efficiency and compact layout.",
+                  "Plate and gasket material selection can be matched to alkaline alumina process media."
+                ],
+                "used_in": [
+                  "Alumina refined mother liquor cooling",
+                  "Sodium aluminate liquor cooling",
+                  "Bayer process cooling",
+                  "Alumina decomposition process heat exchange"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Polyolefin elastomer process control",
+                "description": "Polyolefin elastomer production requires strict process temperature control for high-end materials such as solar encapsulation films and lightweight automotive components. Gasketed Plate Heat Exchanger is suitable for clean or moderate-temperature heating and cooling loops where compact heat transfer and maintainability are important.",
+                "advantages": [
+                  "Compared with fixed welded equipment, the removable plate pack allows inspection, cleaning, and capacity adjustment.",
+                  "Compared with shell-and-tube equipment, the plate structure improves heat-transfer efficiency in clean utility loops.",
+                  "Multiple plate and gasket materials support different polymer process utilities."
+                ],
+                "used_in": [
+                  "Polyolefin elastomer process heating and cooling",
+                  "Polymer utility loops",
+                  "Chemical process temperature control",
+                  "Moderate-temperature clean process streams"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "District heating pressure isolation station",
+                "description": "In long-distance district heating networks, a pressure isolation station separates network pressure while transferring heat between primary and secondary circuits. Gasketed Plate Heat Exchanger supports higher pressure levels, larger single-unit heat loads, and large assembled heat-transfer areas for these heating network nodes.",
+                "advantages": [
+                  "Compared with direct network connection, the heat exchanger station isolates pressure and improves system safety.",
+                  "Compared with shell-and-tube exchangers, the plate design provides high heat-transfer efficiency in a smaller equipment footprint.",
+                  "The removable structure supports inspection, cleaning, and plate-pack adjustment during heating network operation."
+                ],
+                "used_in": [
+                  "District heating pressure isolation",
+                  "Long-distance heating networks",
+                  "Primary-secondary circuit heat exchange",
+                  "Municipal heating stations"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "Iron phosphate battery material production",
+                "description": "Iron phosphate is a key precursor for lithium iron phosphate cathode materials. In iron phosphate production, plate heat exchangers are used for energy cascade utilization between process streams, precise temperature control of synthesis reactors through external circulation, and heat recovery from drying or kiln tail gas.",
+                "advantages": [
+                  "Compared with welded equipment, a gasketed exchanger can be more economical for liquid duties with moderate temperature and pressure.",
+                  "The removable plate pack supports cleaning and inspection when solids or scaling are present.",
+                  "Plate and gasket material control helps reduce unwanted metal contamination in battery material processes."
+                ],
+                "used_in": [
+                  "Iron phosphate production",
+                  "Lithium iron phosphate cathode precursor",
+                  "Synthesis reactor cooling",
+                  "Process media heat recovery",
+                  "Drying and kiln tail-gas heat recovery"
+                ]
+              },
+              {
+                "order": 5,
+                "application": "Power plant auxiliary cooling",
+                "description": "Power plants require heat exchangers with accurate temperature control, operating-condition adaptability, and long-term reliability. Gasketed Plate Heat Exchanger can be applied to auxiliary cooling and heat exchange duties, with high-efficiency plate designs supporting improved heat transfer and lower pressure drop.",
+                "advantages": [
+                  "Compared with conventional plate patterns, high-efficiency plate designs can improve heat-transfer coefficient and reduce pressure drop.",
+                  "Compared with shell-and-tube exchangers, the plate-and-frame structure reduces footprint and simplifies maintenance.",
+                  "ASME-based design and manufacturing can support quality requirements for power industry projects."
+                ],
+                "used_in": [
+                  "Power plant auxiliary cooling",
+                  "Closed cooling water systems",
+                  "Turbine and generator auxiliary heat exchange",
+                  "Power industry process cooling"
+                ]
+              },
+              {
+                "order": 6,
+                "application": "Marine central cooling",
+                "description": "Marine cooling systems require reliability, compact layout, corrosion control, and easy maintenance. Gasketed Plate Heat Exchanger is suitable for central coolers, lube oil coolers, and jacket water coolers, with titanium plate options and marine classification support for seawater service.",
+                "advantages": [
+                  "Compared with shell-and-tube coolers, the plate-and-frame structure is more compact and easier to open for maintenance.",
+                  "Titanium plate options improve resistance to seawater corrosion.",
+                  "The removable structure helps ship operators clean and inspect the exchanger during scheduled maintenance."
+                ],
+                "used_in": [
+                  "Marine central cooler",
+                  "Lube oil cooler",
+                  "Jacket water cooler",
+                  "Seawater cooling system",
+                  "Shipboard auxiliary cooling"
+                ]
+              }
+            ],
+            "zh": [
+              {
+                "order": 1,
+                "application": "氧化铝精母液降温",
+                "description": "可拆卸板式热交换器可用于拜耳法氧化铝生产中的精母液降温。该位号直接影响产量和能耗，对换热器的防结疤设计、耐腐蚀材料、承压能力和可拆开清洗便利性都有较高要求。",
+                "advantages": [
+                  "与焊接式设备相比，可拆卸框架便于在易结疤精母液工况中进行检查和清洗。",
+                  "与管壳式换热器相比，板式结构具有较高传热效率和紧凑布置优势。",
+                  "板片和胶垫材料可根据碱性氧化铝工艺介质进行匹配。"
+                ],
+                "used_in": [
+                  "氧化铝精母液降温",
+                  "铝酸钠精液冷却",
+                  "拜耳法工艺冷却",
+                  "氧化铝分解工序换热"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "聚烯烃弹性体工艺控温",
+                "description": "聚烯烃弹性体生产面向太阳能电池封装胶膜、汽车轻量化部件等高端材料，对工艺温度控制要求较高。可拆卸板式热交换器适合清洁或中等温度的加热冷却回路，尤其适合需要紧凑换热和维护便利性的工况。",
+                "advantages": [
+                  "与固定焊接设备相比，可拆卸板束便于检查、清洗和能力调整。",
+                  "与管壳式设备相比，板式结构可提升清洁公用工程回路中的换热效率。",
+                  "多种板片和胶垫材料可适配不同聚合物工艺公用介质。"
+                ],
+                "used_in": [
+                  "聚烯烃弹性体工艺加热和冷却",
+                  "聚合物公用工程回路",
+                  "化工工艺温度控制",
+                  "中等温度清洁工艺介质"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "隔压站",
+                "description": "在长输供热管网中，隔压站用于实现一次网与二次网之间的压力隔断和热量交换。可拆卸板式热交换器可支持较高承压等级、较大单台热负荷和较大总装机换热面积，适合供热管网节点应用。",
+                "advantages": [
+                  "与管网直接连接相比，换热隔压站可实现压力隔断并提升系统安全性。",
+                  "与管壳式换热器相比，板式结构可在更小设备占地内实现较高传热效率。",
+                  "可拆卸结构便于供热运行过程中的检查、清洗和板束调整。"
+                ],
+                "used_in": [
+                  "集中供热隔压",
+                  "长输供热管网",
+                  "一次网/二次网换热",
+                  "城市供热站"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "磷酸铁电池材料生产",
+                "description": "磷酸铁是磷酸铁锂正极材料的关键前驱体。磷酸铁生产中，板式换热器可用于工艺介质间的能量梯级利用、通过外部循环控制合成反应釜温度，以及回收烘干或炉窑尾气余热。",
+                "advantages": [
+                  "对于温度和压力要求不高的液体工况，与焊接式设备相比，可拆式换热器通常更具经济性。",
+                  "在含固体或易结垢介质中，可拆卸板束便于清洗和检查。",
+                  "板片和胶垫材料控制有助于减少电池材料工艺中的金属杂质引入。"
+                ],
+                "used_in": [
+                  "磷酸铁生产",
+                  "磷酸铁锂正极前驱体",
+                  "合成反应釜冷却",
+                  "工艺介质热回收",
+                  "烘干和炉窑尾气热回收"
+                ]
+              },
+              {
+                "order": 5,
+                "application": "电力行业辅助冷却",
+                "description": "电厂换热设备需要具备较高控温精度、工况适配能力和长期运行可靠性。可拆卸板式热交换器可用于电力行业辅助冷却和换热位号，高效板型设计有助于提升传热性能并降低压降。",
+                "advantages": [
+                  "与常规板型相比，高效板型设计可提升传热系数并降低压降。",
+                  "与管壳式换热器相比，板框结构可降低占地并简化维护。",
+                  "按 ASME 规范进行设计制造可支持电力行业项目的质量要求。"
+                ],
+                "used_in": [
+                  "电厂辅助冷却",
+                  "闭式冷却水系统",
+                  "汽轮机和发电机辅助换热",
+                  "电力行业工艺冷却"
+                ]
+              },
+              {
+                "order": 6,
+                "application": "船舶中央冷却",
+                "description": "船舶冷却系统重视可靠性、紧凑布置、耐海水腐蚀和维护便利性。可拆卸板式热交换器适用于中央冷却器、滑油冷却器和缸套水冷却器，可提供钛板选择并支持船级社认证要求。",
+                "advantages": [
+                  "与管壳式冷却器相比，板框结构更紧凑，也更便于打开维护。",
+                  "钛板选择可提升设备对海水腐蚀的耐受能力。",
+                  "可拆卸结构便于船舶运营方在计划维护期间清洗和检查换热器。"
+                ],
+                "used_in": [
+                  "船用中央冷却器",
+                  "滑油冷却器",
+                  "缸套水冷却器",
+                  "海水冷却系统",
+                  "船舶辅助冷却"
+                ]
+              }
+            ],
+            "ru": [
+              {
+                "order": 1,
+                "application": "Охлаждение рафинированного маточного раствора глинозема",
+                "description": "Разборный пластинчатый теплообменник применяется для охлаждения рафинированного маточного раствора в производстве глинозема по процессу Байера. Эта позиция напрямую влияет на выпуск и энергопотребление, требуя защиты от накипи, коррозионностойких материалов, стойкости к давлению и удобного вскрытия для очистки.",
+                "advantages": [
+                  "По сравнению со сварным оборудованием разборная рама облегчает осмотр и очистку в средах, склонных к образованию отложений.",
+                  "По сравнению с кожухотрубными аппаратами пластинчатая конструкция обеспечивает высокую теплопередачу и компактность.",
+                  "Материалы пластин и прокладок могут подбираться под щелочные среды процесса глинозема."
+                ],
+                "used_in": [
+                  "Охлаждение рафинированного маточного раствора глинозема",
+                  "Охлаждение раствора алюмината натрия",
+                  "Охлаждение процесса Байера",
+                  "Теплообмен в процессе разложения глинозема"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Контроль температуры процесса полиолефинового эластомера",
+                "description": "Производство полиолефиновых эластомеров требует строгого контроля температуры процесса для высококачественных материалов, таких как пленки инкапсуляции солнечных модулей и легкие автомобильные компоненты. Разборный пластинчатый теплообменник подходит для чистых или среднетемпературных контуров нагрева и охлаждения, где важны компактность и обслуживание.",
+                "advantages": [
+                  "По сравнению с неподвижным сварным оборудованием разборный пакет пластин облегчает осмотр, очистку и изменение мощности.",
+                  "По сравнению с кожухотрубным оборудованием пластинчатая конструкция повышает эффективность в чистых инженерных контурах.",
+                  "Разные материалы пластин и прокладок подходят для различных инженерных сред полимерного процесса."
+                ],
+                "used_in": [
+                  "Нагрев и охлаждение процесса полиолефиновых эластомеров",
+                  "Инженерные контуры полимерного производства",
+                  "Контроль температуры химического процесса",
+                  "Чистые технологические потоки средней температуры"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "Станция разделения давления теплосети",
+                "description": "В протяженных сетях теплоснабжения станция разделения давления отделяет давление сети и передает тепло между первичным и вторичным контурами. Разборный пластинчатый теплообменник поддерживает более высокие давления, большие тепловые нагрузки одной единицы и большую суммарную площадь теплообмена.",
+                "advantages": [
+                  "По сравнению с прямым подключением сети теплообменная станция разделяет давление и повышает безопасность системы.",
+                  "По сравнению с кожухотрубными аппаратами пластинчатая конструкция обеспечивает высокую теплопередачу при меньшей площади.",
+                  "Разборная конструкция облегчает осмотр, очистку и регулировку пакета пластин при эксплуатации теплосети."
+                ],
+                "used_in": [
+                  "Разделение давления в централизованном теплоснабжении",
+                  "Протяженные сети теплоснабжения",
+                  "Теплообмен между первичным и вторичным контурами",
+                  "Городские тепловые пункты"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "Производство аккумуляторного материала фосфата железа",
+                "description": "Фосфат железа является ключевым прекурсором катодных материалов LFP. В его производстве пластинчатые теплообменники применяются для каскадного использования энергии между потоками, точного контроля температуры реакторов синтеза через внешний контур и рекуперации тепла сушильных или печных газов.",
+                "advantages": [
+                  "Для жидкостных сред с умеренной температурой и давлением разборный теплообменник может быть экономичнее сварного оборудования.",
+                  "Разборный пакет пластин облегчает очистку и осмотр при наличии твердых частиц или отложений.",
+                  "Контроль материалов пластин и прокладок помогает снизить нежелательное загрязнение металлами в процессах аккумуляторных материалов."
+                ],
+                "used_in": [
+                  "Производство фосфата железа",
+                  "Прекурсор катода LFP",
+                  "Охлаждение реакторов синтеза",
+                  "Рекуперация тепла технологических сред",
+                  "Рекуперация тепла газов сушки и печей"
+                ]
+              },
+              {
+                "order": 5,
+                "application": "Вспомогательное охлаждение электростанций",
+                "description": "Электростанциям требуются теплообменники с точным контролем температуры, адаптацией к условиям и долгосрочной надежностью. Разборный пластинчатый теплообменник применяется во вспомогательном охлаждении и теплообменных позициях, а эффективные пластины повышают теплопередачу и снижают падение давления.",
+                "advantages": [
+                  "По сравнению с обычными пластинами высокоэффективные профили повышают коэффициент теплопередачи и снижают падение давления.",
+                  "По сравнению с кожухотрубными аппаратами пластинчато-рамная конструкция уменьшает площадь и упрощает обслуживание.",
+                  "Проектирование и изготовление по ASME могут поддерживать требования качества энергетических проектов."
+                ],
+                "used_in": [
+                  "Вспомогательное охлаждение электростанций",
+                  "Системы закрытой охлаждающей воды",
+                  "Вспомогательный теплообмен турбин и генераторов",
+                  "Технологическое охлаждение энергетики"
+                ]
+              },
+              {
+                "order": 6,
+                "application": "Судовое центральное охлаждение",
+                "description": "Судовые системы охлаждения требуют надежности, компактности, защиты от коррозии и удобного обслуживания. Разборный пластинчатый теплообменник подходит для центральных охладителей, охладителей смазочного масла и рубашечной воды, с титановыми пластинами и поддержкой морской классификации для морской воды.",
+                "advantages": [
+                  "По сравнению с кожухотрубными охладителями пластинчато-рамная конструкция компактнее и удобнее для вскрытия и обслуживания.",
+                  "Титановые пластины повышают стойкость к коррозии морской водой.",
+                  "Разборная конструкция помогает судовым операторам очищать и осматривать теплообменник при плановом обслуживании."
+                ],
+                "used_in": [
+                  "Судовой центральный охладитель",
+                  "Охладитель смазочного масла",
+                  "Охладитель рубашечной воды",
+                  "Система охлаждения морской водой",
+                  "Судовое вспомогательное охлаждение"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "order": 1,
+                "application": "Enfriamiento de licor madre refinado de alúmina",
+                "description": "El intercambiador de placas con juntas se utiliza para enfriar licor madre refinado en la producción de alúmina por proceso Bayer. Esta aplicación afecta directamente producción y consumo energético, y requiere diseño antiescalante, materiales resistentes a corrosión, capacidad de presión y fácil apertura para limpieza.",
+                "advantages": [
+                  "En comparación con equipos soldados, el marco desmontable facilita inspección y limpieza en licores propensos a incrustación.",
+                  "En comparación con carcasa y tubos, la estructura de placas ofrece alta eficiencia térmica y diseño compacto.",
+                  "Los materiales de placas y juntas pueden adaptarse a medios alcalinos del proceso de alúmina."
+                ],
+                "used_in": [
+                  "Enfriamiento de licor madre refinado de alúmina",
+                  "Enfriamiento de licor de aluminato de sodio",
+                  "Enfriamiento del proceso Bayer",
+                  "Intercambio térmico en descomposición de alúmina"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Control térmico de proceso POE",
+                "description": "La producción de elastómeros poliolefínicos requiere control estricto de temperatura para materiales avanzados como películas de encapsulado solar y componentes automotrices ligeros. El intercambiador con juntas es adecuado para circuitos limpios o de temperatura moderada donde importan transferencia compacta y mantenimiento.",
+                "advantages": [
+                  "En comparación con equipos soldados fijos, el paquete desmontable permite inspección, limpieza y ajuste de capacidad.",
+                  "En comparación con carcasa y tubos, la estructura de placas mejora la eficiencia en circuitos limpios de servicios.",
+                  "Diversos materiales de placas y juntas soportan diferentes servicios de proceso polimérico."
+                ],
+                "used_in": [
+                  "Calentamiento y enfriamiento de proceso POE",
+                  "Circuitos auxiliares de polímeros",
+                  "Control de temperatura de procesos químicos",
+                  "Corrientes limpias de temperatura moderada"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "Estación de aislamiento de presión para calefacción urbana",
+                "description": "En redes de calefacción urbana de larga distancia, una estación de aislamiento separa presiones de red y transfiere calor entre circuitos primario y secundario. El intercambiador con juntas soporta mayores niveles de presión, cargas térmicas unitarias altas y grandes áreas ensambladas.",
+                "advantages": [
+                  "En comparación con conexión directa de red, la estación con intercambiador aísla presión y mejora seguridad.",
+                  "En comparación con carcasa y tubos, la estructura de placas logra alta eficiencia térmica con menor huella.",
+                  "La estructura desmontable permite inspección, limpieza y ajuste del paquete durante operación de calefacción."
+                ],
+                "used_in": [
+                  "Aislamiento de presión en calefacción urbana",
+                  "Redes de calefacción de larga distancia",
+                  "Intercambio primario-secundario",
+                  "Estaciones municipales de calefacción"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "Producción de fosfato de hierro para baterías",
+                "description": "El fosfato de hierro es un precursor clave de materiales catódicos LFP. En su producción, los intercambiadores de placas se usan para aprovechamiento energético entre corrientes de proceso, control preciso de reactores de síntesis mediante circulación externa y recuperación de calor de gases de secado u horno.",
+                "advantages": [
+                  "Para líquidos con temperatura y presión moderadas, un intercambiador con juntas puede ser más económico que equipos soldados.",
+                  "El paquete desmontable facilita limpieza e inspección cuando hay sólidos o incrustación.",
+                  "El control de materiales de placas y juntas ayuda a reducir contaminación metálica no deseada en procesos de materiales de batería."
+                ],
+                "used_in": [
+                  "Producción de fosfato de hierro",
+                  "Precursor catódico LFP",
+                  "Enfriamiento de reactor de síntesis",
+                  "Recuperación de calor de medios de proceso",
+                  "Recuperación de calor de gases de secado y horno"
+                ]
+              },
+              {
+                "order": 5,
+                "application": "Enfriamiento auxiliar en centrales eléctricas",
+                "description": "Las centrales eléctricas requieren intercambiadores con control preciso de temperatura, adaptabilidad y confiabilidad a largo plazo. El intercambiador con juntas puede aplicarse en enfriamiento auxiliar y servicios de intercambio térmico, con placas de alta eficiencia que mejoran transferencia y reducen caída de presión.",
+                "advantages": [
+                  "En comparación con placas convencionales, los diseños de alta eficiencia pueden mejorar coeficiente térmico y reducir caída de presión.",
+                  "En comparación con carcasa y tubos, la estructura de placas y marco reduce huella y simplifica mantenimiento.",
+                  "El diseño y fabricación basados en ASME pueden respaldar requisitos de calidad de proyectos eléctricos."
+                ],
+                "used_in": [
+                  "Enfriamiento auxiliar de centrales",
+                  "Sistemas cerrados de agua de enfriamiento",
+                  "Intercambio auxiliar de turbina y generador",
+                  "Enfriamiento de proceso en energía"
+                ]
+              },
+              {
+                "order": 6,
+                "application": "Enfriamiento central marino",
+                "description": "Los sistemas de enfriamiento marino requieren confiabilidad, diseño compacto, control de corrosión y mantenimiento fácil. El intercambiador con juntas es adecuado para enfriadores centrales, de aceite lubricante y de agua de camisa, con placas de titanio y soporte de clasificación marina para agua de mar.",
+                "advantages": [
+                  "En comparación con enfriadores de carcasa y tubos, la estructura de placas y marco es más compacta y fácil de abrir para mantenimiento.",
+                  "Las placas de titanio mejoran resistencia a corrosión por agua de mar.",
+                  "La estructura desmontable ayuda a operadores marinos a limpiar e inspeccionar durante mantenimiento programado."
+                ],
+                "used_in": [
+                  "Enfriador central marino",
+                  "Enfriador de aceite lubricante",
+                  "Enfriador de agua de camisa",
+                  "Sistema de enfriamiento con agua de mar",
+                  "Enfriamiento auxiliar a bordo"
+                ]
+              }
+            ],
+            "fr": [
+              {
+                "order": 1,
+                "application": "Refroidissement de liqueur mère raffinée d’alumine",
+                "description": "L’échangeur à plaques avec joints est utilisé pour le refroidissement de liqueur mère raffinée dans la production d’alumine par procédé Bayer. Ce service influence directement le rendement et la consommation d’énergie, et nécessite anti-entartrage, matériaux anticorrosion, résistance à la pression et ouverture facile pour nettoyage.",
+                "advantages": [
+                  "Par rapport aux équipements soudés, le châssis démontable facilite inspection et nettoyage dans les liqueurs sujettes à l’entartrage.",
+                  "Par rapport aux échangeurs à calandre et tubes, la structure à plaques offre une forte efficacité thermique et une compacité élevée.",
+                  "Les matériaux de plaques et joints peuvent être adaptés aux milieux alcalins du procédé alumine."
+                ],
+                "used_in": [
+                  "Refroidissement de liqueur mère raffinée d’alumine",
+                  "Refroidissement de liqueur d’aluminate de sodium",
+                  "Refroidissement du procédé Bayer",
+                  "Échange thermique du procédé de décomposition d’alumine"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Contrôle thermique du procédé POE",
+                "description": "La production d’élastomères polyoléfines exige un contrôle strict de température pour des matériaux avancés comme les films d’encapsulation solaire et composants automobiles légers. L’échangeur à plaques avec joints convient aux boucles propres ou à température modérée nécessitant compacité et maintenance aisée.",
+                "advantages": [
+                  "Par rapport aux équipements soudés fixes, le paquet de plaques démontable permet inspection, nettoyage et ajustement de capacité.",
+                  "Par rapport aux équipements à calandre et tubes, la structure à plaques améliore l’efficacité dans les boucles utilités propres.",
+                  "Plusieurs matériaux de plaques et joints conviennent à différents utilitaires de procédés polymères."
+                ],
+                "used_in": [
+                  "Chauffage et refroidissement du procédé POE",
+                  "Boucles utilités polymères",
+                  "Contrôle de température de procédé chimique",
+                  "Flux propres à température modérée"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "Station d’isolement de pression pour chauffage urbain",
+                "description": "Dans les réseaux de chauffage longue distance, une station d’isolement sépare les pressions du réseau tout en transférant la chaleur entre circuits primaire et secondaire. L’échangeur à plaques avec joints supporte des pressions plus élevées, de fortes charges unitaires et de grandes surfaces assemblées.",
+                "advantages": [
+                  "Par rapport à une connexion directe, la station d’échange isole la pression et améliore la sécurité du système.",
+                  "Par rapport aux échangeurs à calandre et tubes, la structure à plaques offre une forte efficacité avec un encombrement réduit.",
+                  "La structure démontable facilite inspection, nettoyage et ajustement du paquet de plaques durant l’exploitation."
+                ],
+                "used_in": [
+                  "Isolement de pression en chauffage urbain",
+                  "Réseaux de chaleur longue distance",
+                  "Échange primaire-secondaire",
+                  "Stations de chauffage urbain"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "Production de phosphate de fer pour batteries",
+                "description": "Le phosphate de fer est un précurseur clé des matériaux cathodiques LFP. Dans sa production, les échangeurs à plaques servent à l’utilisation en cascade de l’énergie entre flux, au contrôle précis des réacteurs par circulation externe et à la récupération de chaleur des gaz de séchage ou de four.",
+                "advantages": [
+                  "Pour les liquides à température et pression modérées, un échangeur avec joints peut être plus économique qu’un équipement soudé.",
+                  "Le paquet démontable facilite nettoyage et inspection en présence de solides ou d’entartrage.",
+                  "Le contrôle des matériaux de plaques et joints aide à réduire la contamination métallique indésirable dans les procédés de matériaux de batteries."
+                ],
+                "used_in": [
+                  "Production de phosphate de fer",
+                  "Précurseur cathodique LFP",
+                  "Refroidissement de réacteur de synthèse",
+                  "Récupération de chaleur des milieux de procédé",
+                  "Récupération de chaleur des gaz de séchage et four"
+                ]
+              },
+              {
+                "order": 5,
+                "application": "Refroidissement auxiliaire en centrales électriques",
+                "description": "Les centrales électriques nécessitent des échangeurs avec contrôle précis de température, adaptabilité et fiabilité long terme. L’échangeur à plaques avec joints peut être utilisé pour le refroidissement auxiliaire et les services thermiques, avec des plaques efficaces améliorant le transfert et réduisant la perte de charge.",
+                "advantages": [
+                  "Par rapport aux profils de plaques conventionnels, les conceptions à haute efficacité améliorent le coefficient de transfert et réduisent la perte de charge.",
+                  "Par rapport aux échangeurs à calandre et tubes, la structure plaques et châssis réduit l’encombrement et simplifie la maintenance.",
+                  "La conception et fabrication selon ASME peuvent soutenir les exigences qualité des projets électriques."
+                ],
+                "used_in": [
+                  "Refroidissement auxiliaire de centrales",
+                  "Systèmes d’eau de refroidissement fermés",
+                  "Échange auxiliaire turbine et générateur",
+                  "Refroidissement de procédé dans l’énergie"
+                ]
+              },
+              {
+                "order": 6,
+                "application": "Refroidissement central marin",
+                "description": "Les systèmes de refroidissement marins exigent fiabilité, compacité, maîtrise de la corrosion et maintenance facile. L’échangeur à plaques avec joints convient aux refroidisseurs centraux, d’huile de lubrification et d’eau de chemise, avec plaques titane et support de classification marine pour eau de mer.",
+                "advantages": [
+                  "Par rapport aux refroidisseurs à calandre et tubes, la structure plaques et châssis est plus compacte et plus facile à ouvrir pour maintenance.",
+                  "Les plaques en titane améliorent la résistance à la corrosion par eau de mer.",
+                  "La structure démontable aide les exploitants de navires à nettoyer et inspecter durant la maintenance planifiée."
+                ],
+                "used_in": [
+                  "Refroidisseur central marin",
+                  "Refroidisseur d’huile de lubrification",
+                  "Refroidisseur d’eau de chemise",
+                  "Système de refroidissement eau de mer",
+                  "Refroidissement auxiliaire à bord"
+                ]
+              }
+            ],
+            "ar": [
+              {
+                "order": 1,
+                "application": "تبريد السائل الأم المنقى للألومينا",
+                "description": "يستخدم المبادل اللوحي ذو الحشيات لتبريد السائل الأم المنقى في إنتاج الألومينا بطريقة باير. تؤثر هذه المهمة مباشرة في الإنتاج واستهلاك الطاقة وتتطلب تصميما مضادا للترسب ومواد مقاومة للتآكل وقدرة ضغط وسهولة فتح للتنظيف.",
+                "advantages": [
+                  "بالمقارنة مع المعدات الملحومة، يسهل الإطار القابل للفك الفحص والتنظيف في خدمة السوائل المعرضة للترسب.",
+                  "بالمقارنة مع المبادلات الأنبوبية، توفر البنية اللوحية كفاءة حرارية عالية وتصميما مدمجا.",
+                  "يمكن مواءمة مواد الألواح والحشيات مع وسائط عملية الألومينا القلوية."
+                ],
+                "used_in": [
+                  "تبريد السائل الأم المنقى للألومينا",
+                  "تبريد محلول ألومينات الصوديوم",
+                  "تبريد عملية باير",
+                  "التبادل الحراري في عملية تحلل الألومينا"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "التحكم الحراري في عملية الإلاستومر البولي أوليفيني",
+                "description": "يتطلب إنتاج الإلاستومرات البولي أوليفينية تحكما صارما في حرارة العملية لمواد متقدمة مثل أفلام تغليف الخلايا الشمسية ومكونات السيارات الخفيفة. ويناسب المبادل ذو الحشيات حلقات التسخين والتبريد النظيفة أو متوسطة الحرارة حيث تهم الكفاءة المدمجة وسهولة الصيانة.",
+                "advantages": [
+                  "بالمقارنة مع المعدات الملحومة الثابتة، تسمح حزمة الألواح القابلة للفك بالفحص والتنظيف وتعديل السعة.",
+                  "بالمقارنة مع معدات الغلاف والأنابيب، تحسن البنية اللوحية الكفاءة في حلقات الخدمات النظيفة.",
+                  "تدعم مواد الألواح والحشيات المختلفة خدمات عمليات البوليمر المتنوعة."
+                ],
+                "used_in": [
+                  "تسخين وتبريد عملية POE",
+                  "حلقات خدمات البوليمر",
+                  "التحكم في درجة حرارة العملية الكيميائية",
+                  "تيارات عملية نظيفة متوسطة الحرارة"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "محطة عزل الضغط للتدفئة المركزية",
+                "description": "في شبكات التدفئة المركزية بعيدة المدى تفصل محطة عزل الضغط ضغط الشبكة وتنقل الحرارة بين الدائرتين الأولية والثانوية. ويدعم المبادل ذو الحشيات مستويات ضغط أعلى وأحمالا حرارية كبيرة ومساحات تبادل حراري مجمعة كبيرة.",
+                "advantages": [
+                  "بالمقارنة مع الاتصال المباشر بالشبكة، تعزل محطة المبادل الضغط وتحسن سلامة النظام.",
+                  "بالمقارنة مع المبادلات الأنبوبية، تحقق البنية اللوحية كفاءة حرارية عالية ضمن مساحة أصغر.",
+                  "تدعم البنية القابلة للفك الفحص والتنظيف وتعديل حزمة الألواح أثناء تشغيل شبكة التدفئة."
+                ],
+                "used_in": [
+                  "عزل الضغط في التدفئة المركزية",
+                  "شبكات التدفئة بعيدة المدى",
+                  "تبادل حراري بين الدائرة الأولية والثانوية",
+                  "محطات التدفئة البلدية"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "إنتاج فوسفات الحديد لمواد البطاريات",
+                "description": "يعد فوسفات الحديد سلائف رئيسية لمواد كاثود LFP. وفي إنتاجه تستخدم المبادلات اللوحية لاستغلال الطاقة تدريجيا بين تيارات العملية والتحكم الدقيق في حرارة مفاعلات التخليق عبر الدوران الخارجي واستعادة حرارة غازات التجفيف أو الأفران.",
+                "advantages": [
+                  "بالنسبة للسوائل ذات الحرارة والضغط المعتدلين، يمكن أن يكون المبادل ذو الحشيات أكثر اقتصادية من المعدات الملحومة.",
+                  "تسهل حزمة الألواح القابلة للفك التنظيف والفحص عند وجود مواد صلبة أو ترسبات.",
+                  "يساعد التحكم في مواد الألواح والحشيات على تقليل تلوث المعادن غير المرغوب في عمليات مواد البطاريات."
+                ],
+                "used_in": [
+                  "إنتاج فوسفات الحديد",
+                  "سلائف كاثود LFP",
+                  "تبريد مفاعل التخليق",
+                  "استعادة حرارة وسائط العملية",
+                  "استعادة حرارة غازات التجفيف والأفران"
+                ]
+              },
+              {
+                "order": 5,
+                "application": "التبريد المساعد في محطات الطاقة",
+                "description": "تتطلب محطات الطاقة مبادلات ذات تحكم دقيق في الحرارة وملاءمة لظروف التشغيل وموثوقية طويلة الأمد. ويمكن استخدام المبادل اللوحي ذو الحشيات في التبريد المساعد ومهام التبادل الحراري، مع تصميمات ألواح عالية الكفاءة لتحسين النقل وخفض هبوط الضغط.",
+                "advantages": [
+                  "بالمقارنة مع أنماط الألواح التقليدية، يمكن للتصميمات عالية الكفاءة تحسين معامل نقل الحرارة وخفض هبوط الضغط.",
+                  "بالمقارنة مع المبادلات الأنبوبية، تقلل بنية الألواح والإطار المساحة وتبسط الصيانة.",
+                  "يمكن أن يدعم التصميم والتصنيع وفق ASME متطلبات الجودة في مشروعات الطاقة."
+                ],
+                "used_in": [
+                  "التبريد المساعد لمحطات الطاقة",
+                  "أنظمة مياه تبريد مغلقة",
+                  "تبادل حراري مساعد للتوربين والمولد",
+                  "تبريد عمليات في قطاع الطاقة"
+                ]
+              },
+              {
+                "order": 6,
+                "application": "التبريد المركزي البحري",
+                "description": "تتطلب أنظمة التبريد البحرية موثوقية وتصميما مدمجا وتحكما في التآكل وسهولة صيانة. ويناسب المبادل ذو الحشيات المبردات المركزية ومبردات زيت التشحيم ومبردات مياه الغلاف، مع خيارات ألواح التيتانيوم ودعم التصنيف البحري لخدمة مياه البحر.",
+                "advantages": [
+                  "بالمقارنة مع المبردات الأنبوبية، تكون بنية الألواح والإطار أكثر إحكاما وأسهل في الفتح للصيانة.",
+                  "تحسن خيارات ألواح التيتانيوم مقاومة تآكل مياه البحر.",
+                  "تساعد البنية القابلة للفك مشغلي السفن على التنظيف والفحص أثناء الصيانة المجدولة."
+                ],
+                "used_in": [
+                  "مبرد مركزي بحري",
+                  "مبرد زيت التشحيم",
+                  "مبرد مياه الغلاف",
+                  "نظام تبريد بمياه البحر",
+                  "تبريد مساعد على متن السفينة"
+                ]
+              }
+            ]
           }
         },
         "product_assets": [
@@ -919,6 +1944,20 @@
             "folder": "product_certifications",
             "file_name": "sgs.png",
             "alt_text": "SGS Certificate"
+          },
+          {
+            "order": 1,
+            "asset_type": "application_image",
+            "folder": "product_applications",
+            "file_name": "gasketed_power_plant_application.jpeg",
+            "alt_text": "Gasketed plate heat exchanger for power plant cooling"
+          },
+          {
+            "order": 2,
+            "asset_type": "application_image",
+            "folder": "product_applications",
+            "file_name": "gasketed_marine_central_cooling_application.jpeg",
+            "alt_text": "Gasketed plate heat exchanger for marine central cooling"
           }
         ]
       },
@@ -1021,40 +2060,40 @@
               "板片材料": "奥氏体不锈钢、双相不锈钢、镍及镍合金、哈氏合金"
             },
             "ru": {
-              "Plate Pattern": "Плоская пластина с ямочками и шипами",
-              "Channel Gap": "8 ~ 30 мм",
-              "Plate Thickness": "1,0 ~ 2,5 мм",
-              "Design Temperature": "<= 350 ℃",
-              "Design Pressure": "Вакуум ~ 3,5 МПа",
-              "Max Area": "2000㎡",
-              "Plate Material": "Аустенитная нержавеющая сталь, Дуплексная нержавеющая сталь, Никель и никелевые сплавы, Хастеллой"
+              "Рисунок пластин": "Плоская пластина с ямочками и шипами",
+              "Зазор канала": "8 ~ 30 мм",
+              "Толщина пластины": "1,0 ~ 2,5 мм",
+              "Расчетная температура": "<= 350 ℃",
+              "Расчетное давление": "Вакуум ~ 3,5 МПа",
+              "Максимальная площадь": "2000㎡",
+              "Материал пластин": "Аустенитная нержавеющая сталь, Дуплексная нержавеющая сталь, Никель и никелевые сплавы, Хастеллой"
             },
             "es": {
-              "Plate Pattern": "Placa plana con hoyuelos y tachuelas",
-              "Channel Gap": "8 ~ 30 mm",
-              "Plate Thickness": "1,0 ~ 2,5 mm",
-              "Design Temperature": "<= 350 ℃",
-              "Design Pressure": "Vacío ~ 3,5 MPa",
-              "Max Area": "2000㎡",
-              "Plate Material": "Acero inoxidable austenítico, Acero inoxidable dúplex, Níquel y aleación de níquel, Hastelloy"
+              "Patrón de placas": "Placa plana con hoyuelos y tachuelas",
+              "Separación de canales": "8 ~ 30 mm",
+              "Espesor de placa": "1,0 ~ 2,5 mm",
+              "Temperatura de diseño": "<= 350 ℃",
+              "Presión de diseño": "Vacío ~ 3,5 MPa",
+              "Área máxima": "2000㎡",
+              "Material de placas": "Acero inoxidable austenítico, Acero inoxidable dúplex, Níquel y aleación de níquel, Hastelloy"
             },
             "fr": {
-              "Plate Pattern": "Plaque plate à fossettes et cloutées",
-              "Channel Gap": "8 ~ 30mm",
-              "Plate Thickness": "1,0 ~ 2,5 mm",
-              "Design Temperature": "<=350℃",
-              "Design Pressure": "Vide ~ 3,5 MPa",
-              "Max Area": "2000㎡",
-              "Plate Material": "Acier inoxydable austénitique, Acier inoxydable duplex, Nickel et alliage de nickel, Hastelloy"
+              "Motif des plaques": "Plaque plate à fossettes et cloutées",
+              "Écartement des canaux": "8 ~ 30mm",
+              "Épaisseur des plaques": "1,0 ~ 2,5 mm",
+              "Température de conception": "<=350℃",
+              "Pression de conception": "Vide ~ 3,5 MPa",
+              "Surface maximale": "2000㎡",
+              "Matériau des plaques": "Acier inoxydable austénitique, Acier inoxydable duplex, Nickel et alliage de nickel, Hastelloy"
             },
             "ar": {
-              "Plate Pattern": "لوحة مسطحة مدملة ومرصعة",
-              "Channel Gap": "8 ~ 30 ملم",
-              "Plate Thickness": "1.0 ~ 2.5 ملم",
-              "Design Temperature": "<=350 درجة مئوية",
-              "Design Pressure": "فراغ ~ 3.5MPa",
-              "Max Area": "2000㎡",
-              "Plate Material": "الفولاذ المقاوم للصدأ الأوستنيتي، الفولاذ المقاوم للصدأ المزدوج، سبائك النيكل والنيكل، Hastelloy"
+              "نمط الألواح": "لوحة مسطحة مدملة ومرصعة",
+              "فجوة القناة": "8 ~ 30 ملم",
+              "سماكة اللوح": "1.0 ~ 2.5 ملم",
+              "درجة حرارة التصميم": "<=350 درجة مئوية",
+              "ضغط التصميم": "فراغ ~ 3.5MPa",
+              "المساحة القصوى": "2000㎡",
+              "مادة الألواح": "الفولاذ المقاوم للصدأ الأوستنيتي، الفولاذ المقاوم للصدأ المزدوج، سبائك النيكل والنيكل، Hastelloy"
             }
           },
           "details": {
@@ -1169,6 +2208,608 @@
               "meta_title": "مبادل حراري ذو فجوة واسعة",
               "meta_description": "مبادل حراري ذو فجوة واسعة للسوائل اللزجة والليفية والصلبة مع قنوات مضادة للانسداد وبنية خالية من الحشيات."
             }
+          },
+          "applications": {
+            "en": [
+              {
+                "order": 1,
+                "application": "Alumina production cooling",
+                "description": "Wide Gap Welded Plate Heat Exchanger is used in alumina production, especially in heat exchange duties around the decomposition process. The product can be supplied in vertical or horizontal configurations and customized for refined liquor cooling, agglomeration cooling, and intermediate sequence cooling.",
+                "advantages": [
+                  "Compared with narrow-channel plate exchangers, the wide channel design is better suited to slurry and solid-containing process streams.",
+                  "Compared with conventional exchangers, the welded plate structure combines compact layout with efficient heat transfer.",
+                  "Vertical and horizontal installation options make it easier to match existing alumina plant layouts."
+                ],
+                "used_in": [
+                  "Refined liquor cooling",
+                  "Agglomeration cooling",
+                  "Intermediate sequence cooling",
+                  "Bayer process alumina production"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Sugar industry",
+                "description": "In cane and beet sugar production, heating and cooling duties appear across juice extraction, clarification, evaporation, and crystallization. Wide Gap Welded Plate Heat Exchanger can handle viscous, alkaline or acidic, and fouling-prone media while improving heat utilization in sugar processing.",
+                "advantages": [
+                  "Compared with narrow-channel exchangers, the wide gap structure reduces blockage risk from fibers and suspended solids.",
+                  "Compared with shell-and-tube equipment, the plate design can improve thermal efficiency in repeated heating and cooling steps.",
+                  "The welded construction is suitable for continuous sugar process lines that require stable operation."
+                ],
+                "used_in": [
+                  "Juice heating and cooling",
+                  "Clarification process heat exchange",
+                  "Evaporation heat recovery",
+                  "Crystallization process temperature control"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "Fuel ethanol production",
+                "description": "Fuel ethanol production uses corn, cassava, or other feedstocks through fermentation and distillation, creating multiple heat exchange points. Wide Gap Welded Plate Heat Exchanger can be arranged horizontally or vertically to fit plant layouts and handle process streams with viscosity, suspended solids, or fouling tendency.",
+                "advantages": [
+                  "Compared with narrow-channel equipment, the wide gap flow path better handles mash, stillage, and other particle-containing process streams.",
+                  "Compared with shell-and-tube exchangers, the welded plate design improves heat transfer intensity in a more compact layout.",
+                  "Horizontal and vertical configurations support flexible installation in existing ethanol plants."
+                ],
+                "used_in": [
+                  "Fermentation mash heating and cooling",
+                  "Distillation feed preheating",
+                  "Stillage heat recovery",
+                  "Fuel ethanol process heat exchange"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "Lithium iron phosphate pretreatment",
+                "description": "In lithium iron phosphate precursor preparation, grinding, precipitation, crystallization, and heat recovery steps require controlled heating and cooling. Wide Gap Welded Plate Heat Exchanger can remove heat generated during slurry grinding and can also preheat high-viscosity, temperature-sensitive slurry during startup.",
+                "advantages": [
+                  "Compared with narrow-channel plate exchangers, the wide channel gap handles solid particles in slurry and reduces blockage risk.",
+                  "Compared with gasketed designs, the welded construction removes gasket leakage risk in slurry service.",
+                  "High heat-transfer efficiency supports precise temperature control during precursor precipitation and crystallization.",
+                  "316L, 2205 duplex stainless steel, titanium, and nickel-base alloy options support different corrosion requirements."
+                ],
+                "used_in": [
+                  "Lithium iron phosphate precursor slurry cooling",
+                  "Grinding temperature control",
+                  "Precipitation and crystallization temperature control",
+                  "Battery material heat recovery"
+                ]
+              },
+              {
+                "order": 5,
+                "application": "Chemical process applications",
+                "description": "In chemical processes, media vary widely and may contain particles, fibers, high viscosity, or fouling components. Wide Gap Welded Plate Heat Exchanger addresses blockage and high maintenance problems in duties such as MDI condensate cooling, acetylene carbon black water waste heat recovery, and polyolefin feed preheating.",
+                "advantages": [
+                  "Compared with conventional narrow passages, the wide channel reduces blockage in particle-containing and fouling chemical streams.",
+                  "The welded structure avoids gasket leakage in demanding process media.",
+                  "Integrated distribution design can reduce local wear at slurry or particle-laden inlets."
+                ],
+                "used_in": [
+                  "MDI condensate cooling",
+                  "Acetylene carbon black water heat recovery",
+                  "Polyolefin feed preheating",
+                  "Chemical slurry heating and cooling"
+                ]
+              },
+              {
+                "order": 6,
+                "application": "Wastewater treatment",
+                "description": "Wastewater from paper, textile, food processing, and pharmaceutical operations often contains fibers, suspended solids, and other components that can block conventional heat exchangers. Wide Gap Welded Plate Heat Exchanger provides stable heat exchange for these wastewater treatment loops and helps reduce efficiency loss and shutdown frequency.",
+                "advantages": [
+                  "Compared with ordinary plate channels, the wide passage reduces blockage from fibers and solids.",
+                  "Compared with frequent manual cleaning, stable wide-channel operation can reduce maintenance interruptions.",
+                  "The welded gasket-free construction supports continuous operation in difficult wastewater duties."
+                ],
+                "used_in": [
+                  "Paper industry wastewater",
+                  "Textile wastewater",
+                  "Food processing wastewater",
+                  "Pharmaceutical wastewater",
+                  "Solid-containing effluent heat recovery"
+                ]
+              }
+            ],
+            "zh": [
+              {
+                "order": 1,
+                "application": "氧化铝生产降温",
+                "description": "宽通道焊接板式热交换器用于氧化铝生产，尤其适合分解工序相关的换热位号。该产品可提供立式或卧式安装形式，并可根据精液降温、附聚降温和中间序降温等工况进行定制设计。",
+                "advantages": [
+                  "与窄流道板式换热器相比，宽通道设计更适合料浆及含固体颗粒的工艺介质。",
+                  "与传统换热设备相比，焊接板式结构兼具紧凑布置和高效传热优势。",
+                  "立式与卧式安装形式有助于匹配现有氧化铝装置的现场布置。"
+                ],
+                "used_in": [
+                  "精液降温",
+                  "附聚降温",
+                  "中间序降温",
+                  "拜耳法氧化铝生产"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "制糖工业",
+                "description": "在甘蔗和甜菜制糖生产中，榨汁、澄清、蒸发和结晶等工序都存在加热和冷却需求。宽通道焊接板式热交换器可适配高黏度、酸碱性及易结垢介质，有助于提升制糖过程的热能利用率。",
+                "advantages": [
+                  "与窄流道换热器相比，宽通道结构可降低纤维和悬浮固体造成的堵塞风险。",
+                  "与管壳式设备相比，板式结构可提升多段加热和冷却环节的换热效率。",
+                  "焊接结构适合需要稳定连续运行的制糖工艺线。"
+                ],
+                "used_in": [
+                  "糖汁加热和冷却",
+                  "澄清工序换热",
+                  "蒸发工序热回收",
+                  "结晶工序温度控制"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "燃料乙醇生产",
+                "description": "燃料乙醇生产以玉米、木薯等原料经发酵、精馏等工序完成，过程中存在多个换热环节。宽通道焊接板式热交换器可根据现场空间采用卧式或立式布置，并适配具有黏度、悬浮固体或易结垢倾向的工艺介质。",
+                "advantages": [
+                  "与窄流道设备相比，宽通道流道更适合处理醪液、酒糟液等含颗粒工艺介质。",
+                  "与管壳式换热器相比，焊接板式结构可在更紧凑布置下提升传热强度。",
+                  "卧式与立式配置有助于在既有燃料乙醇工厂中灵活安装。"
+                ],
+                "used_in": [
+                  "发酵醪液加热和冷却",
+                  "精馏进料预热",
+                  "酒糟液热回收",
+                  "燃料乙醇工艺换热"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "磷酸铁锂前处理系统",
+                "description": "在磷酸铁锂前驱体制备中，研磨、沉淀、结晶和热回收等环节都需要受控加热和冷却。宽通道焊接板式热交换器可带走浆料研磨产生的热量，也可在启动阶段对高黏度、温度敏感浆料进行预热。",
+                "advantages": [
+                  "与窄流道板式换热器相比，宽流道间距可应对浆料中的固体颗粒并降低堵塞风险。",
+                  "与胶垫密封结构相比，焊接结构可降低浆料工况中的胶垫泄漏风险。",
+                  "较高传热效率有助于前驱体沉淀和结晶阶段的精准温度控制。",
+                  "316L、2205 双相钢、钛材和镍基合金等材料选择可适配不同腐蚀要求。"
+                ],
+                "used_in": [
+                  "磷酸铁锂前驱体浆料冷却",
+                  "研磨温度控制",
+                  "沉淀和结晶温度控制",
+                  "电池材料热回收"
+                ]
+              },
+              {
+                "order": 5,
+                "application": "化工行业应用",
+                "description": "在化工过程中，工艺介质种类复杂，可能含有颗粒、纤维、高黏度或易结垢成分。宽通道焊接板式热交换器可解决 MDI 缩合液冷却、乙炔碳黑水余热回收、聚烯烃进料预热等位号中的堵塞和维护成本高问题。",
+                "advantages": [
+                  "与常规窄流道相比，宽通道可降低含颗粒和易结垢化工介质中的堵塞风险。",
+                  "焊接结构避免胶垫密封在苛刻工艺介质中的泄漏风险。",
+                  "入口分布设计有助于减少料浆或含颗粒介质入口处的局部磨损。"
+                ],
+                "used_in": [
+                  "MDI 缩合液冷却",
+                  "乙炔碳黑水余热回收",
+                  "聚烯烃进料预热",
+                  "化工料浆加热和冷却"
+                ]
+              },
+              {
+                "order": 6,
+                "application": "废水处理",
+                "description": "造纸、纺织、食品加工和制药等行业废水中常含有纤维、悬浮固体和其他易堵成分。宽通道焊接板式热交换器可为这些废水处理环节提供稳定换热，并有助于降低堵塞导致的效率下降和停机检修频次。",
+                "advantages": [
+                  "与普通板式流道相比，宽通道可降低纤维和固体颗粒造成的堵塞风险。",
+                  "与频繁人工清洗相比，稳定的宽通道运行可减少维护中断。",
+                  "无胶垫焊接结构支持复杂废水工况下的连续运行。"
+                ],
+                "used_in": [
+                  "造纸废水",
+                  "纺织废水",
+                  "食品加工废水",
+                  "制药废水",
+                  "含固废液热回收"
+                ]
+              }
+            ],
+            "ru": [
+              {
+                "order": 1,
+                "application": "Охлаждение в производстве глинозема",
+                "description": "Сварной пластинчатый теплообменник с широким зазором применяется в производстве глинозема, особенно на теплообменных позициях процесса разложения. Изделие может поставляться в вертикальном или горизонтальном исполнении и адаптироваться для охлаждения рафинированного раствора, агломерационного охлаждения и промежуточного охлаждения.",
+                "advantages": [
+                  "По сравнению с узкоканальными пластинчатыми теплообменниками ширококанальная конструкция лучше подходит для шламов и потоков с твердыми частицами.",
+                  "По сравнению с традиционными аппаратами сварная пластинчатая конструкция сочетает компактность и эффективную теплопередачу.",
+                  "Вертикальные и горизонтальные варианты установки упрощают интеграцию в существующие глиноземные производства."
+                ],
+                "used_in": [
+                  "Охлаждение рафинированного раствора",
+                  "Охлаждение агломерации",
+                  "Промежуточное охлаждение",
+                  "Производство глинозема по процессу Байера"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Сахарная промышленность",
+                "description": "В производстве сахара из тростника и свеклы операции нагрева и охлаждения встречаются при экстракции сока, осветлении, выпаривании и кристаллизации. Ширококанальный сварной пластинчатый теплообменник подходит для вязких, щелочных или кислых и склонных к загрязнению сред, повышая использование тепла.",
+                "advantages": [
+                  "По сравнению с узкоканальными аппаратами ширококанальная структура снижает риск засорения волокнами и взвешенными твердыми частицами.",
+                  "По сравнению с кожухотрубным оборудованием пластинчатая конструкция повышает тепловую эффективность на повторяющихся стадиях нагрева и охлаждения.",
+                  "Сварная конструкция подходит для непрерывных сахарных линий, требующих стабильной работы."
+                ],
+                "used_in": [
+                  "Нагрев и охлаждение сока",
+                  "Теплообмен в процессе осветления",
+                  "Рекуперация тепла при выпаривании",
+                  "Контроль температуры кристаллизации"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "Производство топливного этанола",
+                "description": "Производство топливного этанола из кукурузы, маниоки и других видов сырья включает ферментацию и дистилляцию, создавая множество теплообменных точек. Ширококанальный сварной пластинчатый теплообменник может устанавливаться горизонтально или вертикально и работать с вязкими, загрязняющимися или содержащими взвеси потоками.",
+                "advantages": [
+                  "По сравнению с узкоканальным оборудованием широкий проход лучше работает с бражкой, бардой и другими потоками с частицами.",
+                  "По сравнению с кожухотрубными теплообменниками сварная пластинчатая конструкция повышает интенсивность теплопередачи при более компактной компоновке.",
+                  "Горизонтальные и вертикальные конфигурации обеспечивают гибкую установку на существующих заводах этанола."
+                ],
+                "used_in": [
+                  "Нагрев и охлаждение ферментационной бражки",
+                  "Подогрев питания дистилляции",
+                  "Рекуперация тепла барды",
+                  "Теплообмен в производстве топливного этанола"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "Предварительная подготовка литий-железо-фосфата",
+                "description": "При подготовке прекурсоров литий-железо-фосфата операции измельчения, осаждения, кристаллизации и рекуперации тепла требуют контролируемого нагрева и охлаждения. Ширококанальный сварной пластинчатый теплообменник отводит тепло, выделяемое при измельчении суспензии, и может предварительно нагревать вязкую температурочувствительную суспензию при запуске.",
+                "advantages": [
+                  "По сравнению с узкоканальными пластинчатыми теплообменниками широкий зазор справляется с твердыми частицами в суспензии и снижает риск засорения.",
+                  "По сравнению с прокладочными конструкциями сварная конструкция снижает риск утечек прокладок в шламовых средах.",
+                  "Высокая эффективность теплопередачи поддерживает точный контроль температуры при осаждении и кристаллизации прекурсоров.",
+                  "Материалы 316L, дуплексная сталь 2205, титан и никелевые сплавы покрывают разные требования к коррозионной стойкости."
+                ],
+                "used_in": [
+                  "Охлаждение суспензии прекурсора LFP",
+                  "Контроль температуры измельчения",
+                  "Контроль температуры осаждения и кристаллизации",
+                  "Рекуперация тепла в производстве аккумуляторных материалов"
+                ]
+              },
+              {
+                "order": 5,
+                "application": "Химические технологические применения",
+                "description": "В химических процессах среды сильно различаются и могут содержать частицы, волокна, высокую вязкость или загрязняющие компоненты. Ширококанальный сварной пластинчатый теплообменник решает проблемы засорения и высокого обслуживания при охлаждении конденсата MDI, рекуперации тепла ацетиленовой сажевой воды и подогреве питания полиолефинов.",
+                "advantages": [
+                  "По сравнению с обычными узкими проходами широкий канал снижает риск засорения в химических потоках с частицами и загрязнениями.",
+                  "Сварная конструкция исключает риск утечек прокладок в сложных технологических средах.",
+                  "Встроенное распределение потока помогает снизить локальный износ на входах шламовых или частицесодержащих сред."
+                ],
+                "used_in": [
+                  "Охлаждение конденсата MDI",
+                  "Рекуперация тепла ацетиленовой сажевой воды",
+                  "Подогрев питания полиолефинов",
+                  "Нагрев и охлаждение химических шламов"
+                ]
+              },
+              {
+                "order": 6,
+                "application": "Очистка сточных вод",
+                "description": "Сточные воды бумажной, текстильной, пищевой и фармацевтической отраслей часто содержат волокна, взвешенные твердые частицы и другие компоненты, способные засорять обычные теплообменники. Ширококанальный сварной пластинчатый теплообменник обеспечивает стабильный теплообмен в таких контурах и снижает потерю эффективности и частоту остановок.",
+                "advantages": [
+                  "По сравнению с обычными пластинчатыми каналами широкий проход снижает риск засорения волокнами и твердыми частицами.",
+                  "По сравнению с частой ручной очисткой стабильная работа широких каналов снижает остановки на обслуживание.",
+                  "Сварная конструкция без прокладок поддерживает непрерывную работу в сложных сточных водах."
+                ],
+                "used_in": [
+                  "Сточные воды бумажной промышленности",
+                  "Текстильные сточные воды",
+                  "Сточные воды пищевой промышленности",
+                  "Фармацевтические сточные воды",
+                  "Рекуперация тепла сточных вод с твердыми включениями"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "order": 1,
+                "application": "Enfriamiento en producción de alúmina",
+                "description": "El intercambiador de calor de placas soldadas de espacio amplio se utiliza en la producción de alúmina, especialmente en servicios de intercambio térmico del proceso de descomposición. Puede suministrarse en configuración vertical u horizontal y personalizarse para enfriamiento de licor refinado, enfriamiento de aglomeración y enfriamiento intermedio.",
+                "advantages": [
+                  "En comparación con intercambiadores de canales estrechos, el diseño de canal amplio se adapta mejor a lodos y corrientes con sólidos.",
+                  "En comparación con equipos convencionales, la estructura de placas soldadas combina diseño compacto y transferencia térmica eficiente.",
+                  "Las opciones verticales y horizontales facilitan la adaptación a plantas de alúmina existentes."
+                ],
+                "used_in": [
+                  "Enfriamiento de licor refinado",
+                  "Enfriamiento de aglomeración",
+                  "Enfriamiento intermedio",
+                  "Producción de alúmina por proceso Bayer"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Industria azucarera",
+                "description": "En la producción de azúcar de caña y remolacha, las tareas de calentamiento y enfriamiento aparecen en extracción de jugo, clarificación, evaporación y cristalización. El intercambiador de espacio amplio puede manejar medios viscosos, alcalinos o ácidos y propensos a ensuciamiento, mejorando el uso de energía térmica.",
+                "advantages": [
+                  "En comparación con equipos de canales estrechos, la estructura de espacio amplio reduce el riesgo de bloqueo por fibras y sólidos suspendidos.",
+                  "En comparación con equipos de carcasa y tubos, el diseño de placas puede mejorar la eficiencia térmica en pasos repetidos de calentamiento y enfriamiento.",
+                  "La construcción soldada es adecuada para líneas azucareras continuas que requieren operación estable."
+                ],
+                "used_in": [
+                  "Calentamiento y enfriamiento de jugo",
+                  "Intercambio térmico en clarificación",
+                  "Recuperación de calor en evaporación",
+                  "Control de temperatura en cristalización"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "Producción de etanol combustible",
+                "description": "La producción de etanol combustible a partir de maíz, yuca u otras materias primas incluye fermentación y destilación, generando múltiples puntos de intercambio térmico. El intercambiador de espacio amplio puede instalarse horizontal o verticalmente y manejar corrientes viscosas, con sólidos suspendidos o tendencia a ensuciamiento.",
+                "advantages": [
+                  "En comparación con equipos de canales estrechos, el paso amplio maneja mejor mostos, vinazas y otras corrientes con partículas.",
+                  "En comparación con intercambiadores de carcasa y tubos, el diseño de placas soldadas mejora la intensidad térmica en una disposición más compacta.",
+                  "Las configuraciones horizontal y vertical permiten instalación flexible en plantas de etanol existentes."
+                ],
+                "used_in": [
+                  "Calentamiento y enfriamiento de mosto de fermentación",
+                  "Precalentamiento de alimentación de destilación",
+                  "Recuperación de calor de vinaza",
+                  "Intercambio térmico en proceso de etanol combustible"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "Pretratamiento de fosfato de hierro y litio",
+                "description": "En la preparación de precursores de fosfato de hierro y litio, las etapas de molienda, precipitación, cristalización y recuperación de calor requieren calentamiento y enfriamiento controlados. El intercambiador de espacio amplio elimina el calor generado durante la molienda de lechadas y también puede precalentar lechadas viscosas y sensibles a la temperatura durante el arranque.",
+                "advantages": [
+                  "En comparación con intercambiadores de canales estrechos, el espacio amplio maneja partículas sólidas en lechadas y reduce el riesgo de obstrucción.",
+                  "En comparación con diseños con juntas, la construcción soldada elimina el riesgo de fuga de juntas en servicio con lechadas.",
+                  "La alta eficiencia de transferencia térmica permite control preciso de temperatura durante precipitación y cristalización del precursor.",
+                  "Las opciones 316L, acero dúplex 2205, titanio y aleaciones base níquel cubren diferentes requisitos de corrosión."
+                ],
+                "used_in": [
+                  "Enfriamiento de lechada precursora de LFP",
+                  "Control de temperatura de molienda",
+                  "Control de temperatura de precipitación y cristalización",
+                  "Recuperación de calor en materiales de batería"
+                ]
+              },
+              {
+                "order": 5,
+                "application": "Aplicaciones de procesos químicos",
+                "description": "En procesos químicos, los medios varían ampliamente y pueden contener partículas, fibras, alta viscosidad o componentes que generan ensuciamiento. El intercambiador de espacio amplio resuelve problemas de obstrucción y mantenimiento elevado en enfriamiento de condensado MDI, recuperación de calor de agua negra de acetileno y precalentamiento de alimentación de poliolefinas.",
+                "advantages": [
+                  "En comparación con pasos estrechos convencionales, el canal amplio reduce el riesgo de bloqueo en corrientes químicas con partículas y ensuciamiento.",
+                  "La estructura soldada evita el riesgo de fugas de juntas en medios de proceso exigentes.",
+                  "El diseño de distribución en la entrada ayuda a reducir desgaste local en entradas de lodos o medios con partículas."
+                ],
+                "used_in": [
+                  "Enfriamiento de condensado MDI",
+                  "Recuperación de calor de agua negra de acetileno",
+                  "Precalentamiento de alimentación de poliolefinas",
+                  "Calentamiento y enfriamiento de lechadas químicas"
+                ]
+              },
+              {
+                "order": 6,
+                "application": "Tratamiento de aguas residuales",
+                "description": "Las aguas residuales de papel, textil, alimentos y farmacéutica suelen contener fibras, sólidos suspendidos y otros componentes que pueden bloquear intercambiadores convencionales. El intercambiador de espacio amplio proporciona intercambio térmico estable en estos circuitos y ayuda a reducir pérdida de eficiencia y paradas.",
+                "advantages": [
+                  "En comparación con canales de placas ordinarios, el paso amplio reduce obstrucciones por fibras y sólidos.",
+                  "En comparación con limpieza manual frecuente, la operación estable de canal amplio reduce interrupciones de mantenimiento.",
+                  "La construcción soldada sin juntas soporta operación continua en aguas residuales difíciles."
+                ],
+                "used_in": [
+                  "Aguas residuales de papel",
+                  "Aguas residuales textiles",
+                  "Aguas residuales de alimentos",
+                  "Aguas residuales farmacéuticas",
+                  "Recuperación de calor de efluentes con sólidos"
+                ]
+              }
+            ],
+            "fr": [
+              {
+                "order": 1,
+                "application": "Refroidissement en production d’alumine",
+                "description": "L’échangeur de chaleur à plaques soudées à large passage est utilisé dans la production d’alumine, notamment pour les services thermiques autour du procédé de décomposition. Il peut être fourni en configuration verticale ou horizontale et personnalisé pour le refroidissement de liqueur raffinée, l’agglomération et les étapes intermédiaires.",
+                "advantages": [
+                  "Par rapport aux échangeurs à canaux étroits, la conception à large passage convient mieux aux boues et flux contenant des solides.",
+                  "Par rapport aux équipements conventionnels, la structure à plaques soudées associe compacité et transfert thermique efficace.",
+                  "Les options d’installation verticale et horizontale facilitent l’intégration dans les usines d’alumine existantes."
+                ],
+                "used_in": [
+                  "Refroidissement de liqueur raffinée",
+                  "Refroidissement d’agglomération",
+                  "Refroidissement intermédiaire",
+                  "Production d’alumine par procédé Bayer"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Industrie sucrière",
+                "description": "Dans la production de sucre de canne et de betterave, les besoins de chauffage et de refroidissement apparaissent lors de l’extraction du jus, de la clarification, de l’évaporation et de la cristallisation. L’échangeur soudé à large passage convient aux milieux visqueux, acides ou alcalins et sujets à l’encrassement, améliorant l’utilisation de la chaleur.",
+                "advantages": [
+                  "Par rapport aux échangeurs à canaux étroits, la structure à large passage réduit le risque de colmatage par les fibres et solides en suspension.",
+                  "Par rapport aux équipements à calandre et tubes, la conception à plaques peut améliorer l’efficacité thermique dans les étapes répétées de chauffage et de refroidissement.",
+                  "La construction soudée convient aux lignes sucrières continues nécessitant un fonctionnement stable."
+                ],
+                "used_in": [
+                  "Chauffage et refroidissement du jus",
+                  "Échange thermique en clarification",
+                  "Récupération de chaleur en évaporation",
+                  "Contrôle de température en cristallisation"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "Production d’éthanol carburant",
+                "description": "La production d’éthanol carburant à partir de maïs, manioc ou autres matières premières comprend fermentation et distillation, avec de nombreux points d’échange thermique. L’échangeur soudé à large passage peut être installé horizontalement ou verticalement et traiter des flux visqueux, chargés en solides ou sujets à l’encrassement.",
+                "advantages": [
+                  "Par rapport aux équipements à canaux étroits, le large passage traite mieux les moûts, vinasses et autres flux contenant des particules.",
+                  "Par rapport aux échangeurs à calandre et tubes, la conception à plaques soudées améliore l’intensité de transfert dans un agencement plus compact.",
+                  "Les configurations horizontale et verticale facilitent l’installation dans les usines d’éthanol existantes."
+                ],
+                "used_in": [
+                  "Chauffage et refroidissement du moût de fermentation",
+                  "Préchauffage de l’alimentation de distillation",
+                  "Récupération de chaleur de vinasse",
+                  "Échange thermique en procédé d’éthanol carburant"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "Prétraitement du phosphate de fer lithié",
+                "description": "Dans la préparation des précurseurs de phosphate de fer lithié, le broyage, la précipitation, la cristallisation et la récupération de chaleur exigent un chauffage et un refroidissement maîtrisés. L’échangeur soudé à large passage évacue la chaleur générée lors du broyage de boues et peut préchauffer les boues visqueuses sensibles à la température au démarrage.",
+                "advantages": [
+                  "Par rapport aux échangeurs à canaux étroits, le large passage gère les particules solides dans les boues et réduit le risque de colmatage.",
+                  "Par rapport aux conceptions avec joints, la construction soudée élimine le risque de fuite de joints en service boues.",
+                  "La forte efficacité thermique permet un contrôle précis de la température lors de la précipitation et cristallisation des précurseurs.",
+                  "Les options 316L, acier duplex 2205, titane et alliages à base de nickel couvrent différents besoins de corrosion."
+                ],
+                "used_in": [
+                  "Refroidissement de boue de précurseur LFP",
+                  "Contrôle de température du broyage",
+                  "Contrôle de température de précipitation et cristallisation",
+                  "Récupération de chaleur des matériaux de batterie"
+                ]
+              },
+              {
+                "order": 5,
+                "application": "Applications de procédés chimiques",
+                "description": "Dans les procédés chimiques, les milieux sont très variés et peuvent contenir particules, fibres, viscosité élevée ou composants encrassants. L’échangeur soudé à large passage résout les problèmes de colmatage et de maintenance élevée pour le refroidissement de condensats MDI, la récupération de chaleur d’eau noire d’acétylène et le préchauffage de charges polyoléfines.",
+                "advantages": [
+                  "Par rapport aux passages étroits conventionnels, le large canal réduit le risque de colmatage dans les flux chimiques contenant des particules ou encrassants.",
+                  "La structure soudée évite le risque de fuite de joints dans les milieux de procédé exigeants.",
+                  "La conception de distribution en entrée aide à réduire l’usure locale dans les entrées de boues ou milieux chargés en particules."
+                ],
+                "used_in": [
+                  "Refroidissement de condensats MDI",
+                  "Récupération de chaleur d’eau noire d’acétylène",
+                  "Préchauffage de charge polyoléfine",
+                  "Chauffage et refroidissement de boues chimiques"
+                ]
+              },
+              {
+                "order": 6,
+                "application": "Traitement des eaux usées",
+                "description": "Les eaux usées des industries papier, textile, agroalimentaire et pharmaceutique contiennent souvent fibres, solides en suspension et composants susceptibles de colmater les échangeurs conventionnels. L’échangeur soudé à large passage assure un échange stable dans ces boucles et réduit les pertes d’efficacité et arrêts.",
+                "advantages": [
+                  "Par rapport aux canaux de plaques ordinaires, le large passage réduit les colmatages par fibres et solides.",
+                  "Par rapport au nettoyage manuel fréquent, le fonctionnement stable à large passage réduit les interruptions de maintenance.",
+                  "La construction soudée sans joint permet un fonctionnement continu dans les eaux usées difficiles."
+                ],
+                "used_in": [
+                  "Eaux usées papetières",
+                  "Eaux usées textiles",
+                  "Eaux usées agroalimentaires",
+                  "Eaux usées pharmaceutiques",
+                  "Récupération de chaleur d’effluents chargés en solides"
+                ]
+              }
+            ],
+            "ar": [
+              {
+                "order": 1,
+                "application": "التبريد في إنتاج الألومينا",
+                "description": "يستخدم المبادل اللوحي الملحوم واسع القنوات في إنتاج الألومينا، وخاصة في مهام التبادل الحراري حول عملية التحلل. ويمكن توريده بترتيب رأسي أو أفقي وتخصيصه لتبريد السائل المنقى وتبريد التكتل والتبريد الوسيط.",
+                "advantages": [
+                  "بالمقارنة مع المبادلات ضيقة القنوات، يناسب تصميم القنوات الواسعة الملاط والتيارات المحتوية على مواد صلبة بشكل أفضل.",
+                  "بالمقارنة مع المعدات التقليدية، تجمع البنية اللوحية الملحومة بين التصميم المدمج ونقل الحرارة الفعال.",
+                  "تساعد خيارات التركيب الرأسية والأفقية على ملاءمة تخطيط مصانع الألومينا القائمة."
+                ],
+                "used_in": [
+                  "تبريد السائل المنقى",
+                  "تبريد التكتل",
+                  "التبريد الوسيط",
+                  "إنتاج الألومينا بطريقة باير"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "صناعة السكر",
+                "description": "في إنتاج السكر من القصب والشمندر تظهر مهام التسخين والتبريد في استخراج العصير والتصفية والتبخير والتبلور. ويمكن للمبادل واسع القنوات التعامل مع وسائط لزجة أو حمضية أو قلوية ومعرضة للتوسخ، مما يحسن استخدام الطاقة الحرارية.",
+                "advantages": [
+                  "بالمقارنة مع المبادلات ضيقة القنوات، تقلل بنية القناة الواسعة مخاطر الانسداد بالألياف والمواد الصلبة العالقة.",
+                  "بالمقارنة مع معدات الغلاف والأنابيب، يمكن للتصميم اللوحي تحسين الكفاءة الحرارية في مراحل التسخين والتبريد المتكررة.",
+                  "تناسب البنية الملحومة خطوط إنتاج السكر المستمرة التي تتطلب تشغيلا مستقرا."
+                ],
+                "used_in": [
+                  "تسخين وتبريد العصير",
+                  "التبادل الحراري في التصفية",
+                  "استعادة الحرارة في التبخير",
+                  "التحكم في درجة حرارة التبلور"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "إنتاج إيثانول الوقود",
+                "description": "يشمل إنتاج إيثانول الوقود من الذرة أو الكسافا أو غيرهما التخمير والتقطير، مما يخلق نقاطا متعددة للتبادل الحراري. ويمكن تركيب المبادل واسع القنوات أفقيا أو رأسيا والتعامل مع تيارات لزجة أو تحتوي على مواد صلبة عالقة أو معرضة للتوسخ.",
+                "advantages": [
+                  "بالمقارنة مع المعدات ضيقة القنوات، يتعامل المسار الواسع بشكل أفضل مع الهريس والفيناس والتيارات الأخرى المحتوية على جسيمات.",
+                  "بالمقارنة مع المبادلات الأنبوبية، يحسن التصميم اللوحي الملحوم كثافة نقل الحرارة في ترتيب أكثر إحكاما.",
+                  "تدعم الترتيبات الأفقية والرأسية التركيب المرن في مصانع الإيثانول القائمة."
+                ],
+                "used_in": [
+                  "تسخين وتبريد هريس التخمير",
+                  "تسخين تغذية التقطير مسبقا",
+                  "استعادة حرارة الفيناس",
+                  "التبادل الحراري في عملية إيثانول الوقود"
+                ]
+              },
+              {
+                "order": 4,
+                "application": "المعالجة الأولية لفوسفات الحديد الليثيوم",
+                "description": "في تحضير سلائف فوسفات الحديد الليثيوم تتطلب خطوات الطحن والترسيب والتبلور واستعادة الحرارة تسخينا وتبريدا مضبوطين. ويمكن للمبادل واسع القنوات إزالة الحرارة المتولدة أثناء طحن الملاط، كما يمكنه تسخين الملاط عالي اللزوجة والحساس للحرارة عند بدء التشغيل.",
+                "advantages": [
+                  "بالمقارنة مع المبادلات ضيقة القنوات، يتعامل الفاصل الواسع مع الجسيمات الصلبة في الملاط ويقلل مخاطر الانسداد.",
+                  "بالمقارنة مع التصميمات ذات الحشيات، تزيل البنية الملحومة مخاطر تسرب الحشيات في خدمة الملاط.",
+                  "تدعم كفاءة نقل الحرارة العالية التحكم الدقيق في درجة الحرارة أثناء ترسيب وتبلور السلائف.",
+                  "تدعم خيارات 316L و2205 المزدوج والتيتانيوم وسبائك النيكل متطلبات تآكل مختلفة."
+                ],
+                "used_in": [
+                  "تبريد ملاط سلائف LFP",
+                  "التحكم في درجة حرارة الطحن",
+                  "التحكم في درجة حرارة الترسيب والتبلور",
+                  "استعادة الحرارة في مواد البطاريات"
+                ]
+              },
+              {
+                "order": 5,
+                "application": "تطبيقات العمليات الكيميائية",
+                "description": "في العمليات الكيميائية تختلف الوسائط بشكل كبير وقد تحتوي على جسيمات أو ألياف أو لزوجة عالية أو مكونات مسببة للتوسخ. ويعالج المبادل واسع القنوات مشكلات الانسداد والصيانة العالية في تبريد مكثفات MDI واستعادة حرارة ماء أسود الأسيتيلين وتسخين تغذية البولي أوليفين مسبقا.",
+                "advantages": [
+                  "بالمقارنة مع الممرات الضيقة التقليدية، تقلل القناة الواسعة مخاطر الانسداد في التيارات الكيميائية المحتوية على جسيمات أو المعرضة للتوسخ.",
+                  "تمنع البنية الملحومة مخاطر تسرب الحشيات في وسائط العمليات الصعبة.",
+                  "يساعد تصميم التوزيع عند المدخل على تقليل التآكل الموضعي في مداخل الملاط أو الوسائط المحملة بالجسيمات."
+                ],
+                "used_in": [
+                  "تبريد مكثفات MDI",
+                  "استعادة حرارة ماء أسود الأسيتيلين",
+                  "تسخين تغذية البولي أوليفين مسبقا",
+                  "تسخين وتبريد الملاط الكيميائي"
+                ]
+              },
+              {
+                "order": 6,
+                "application": "معالجة مياه الصرف",
+                "description": "غالبا ما تحتوي مياه الصرف من الورق والمنسوجات وتجهيز الأغذية والصناعات الدوائية على ألياف ومواد صلبة عالقة ومكونات يمكن أن تسد المبادلات التقليدية. ويوفر المبادل واسع القنوات تبادلا حراريا مستقرا في هذه الحلقات ويساعد على تقليل فقدان الكفاءة وتكرار التوقف.",
+                "advantages": [
+                  "بالمقارنة مع قنوات الألواح العادية، يقلل الممر الواسع الانسداد الناتج عن الألياف والمواد الصلبة.",
+                  "بالمقارنة مع التنظيف اليدوي المتكرر، يقلل التشغيل المستقر للقنوات الواسعة انقطاعات الصيانة.",
+                  "تدعم البنية الملحومة الخالية من الحشيات التشغيل المستمر في خدمات مياه الصرف الصعبة."
+                ],
+                "used_in": [
+                  "مياه صرف صناعة الورق",
+                  "مياه صرف المنسوجات",
+                  "مياه صرف تجهيز الأغذية",
+                  "مياه الصرف الدوائية",
+                  "استعادة حرارة المخلفات السائلة المحتوية على مواد صلبة"
+                ]
+              }
+            ]
           }
         },
         "product_assets": [
@@ -1241,6 +2882,48 @@
             "folder": "product_certifications",
             "file_name": "sgs.png",
             "alt_text": "SGS Certificate"
+          },
+          {
+            "order": 1,
+            "asset_type": "application_image",
+            "folder": "product_applications",
+            "file_name": "wide_gap_alumina_production_application_1.png",
+            "alt_text": "Wide gap welded plate heat exchanger in alumina production"
+          },
+          {
+            "order": 2,
+            "asset_type": "application_image",
+            "folder": "product_applications",
+            "file_name": "wide_gap_alumina_production_application_2.png",
+            "alt_text": "Wide gap exchanger equipment for alumina cooling duty"
+          },
+          {
+            "order": 3,
+            "asset_type": "application_image",
+            "folder": "product_applications",
+            "file_name": "wide_gap_sugar_industry_application.jpeg",
+            "alt_text": "Wide gap welded plate heat exchanger for sugar industry"
+          },
+          {
+            "order": 4,
+            "asset_type": "application_image",
+            "folder": "product_applications",
+            "file_name": "wide_gap_fuel_ethanol_application_1.png",
+            "alt_text": "Wide gap welded plate heat exchanger in fuel ethanol production"
+          },
+          {
+            "order": 5,
+            "asset_type": "application_image",
+            "folder": "product_applications",
+            "file_name": "wide_gap_fuel_ethanol_application_2.jpeg",
+            "alt_text": "Fuel ethanol heat exchange installation with wide gap exchanger"
+          },
+          {
+            "order": 6,
+            "asset_type": "application_image",
+            "folder": "product_applications",
+            "file_name": "wide_gap_chemical_process_application.png",
+            "alt_text": "Wide gap welded plate heat exchanger in chemical process service"
           }
         ]
       },
@@ -1346,36 +3029,36 @@
               "板片材料": "304、316L、2205、TA1及钛合金、高温合金等"
             },
             "ru": {
-              "Max Design Pressure": "1000 Бар",
-              "Design Temperature": "-196 ~ 850 ℃",
-              "Heat Transfer Area": "8000㎡",
-              "Plate Thickness": "0,4 ~ 4 мм",
-              "Channel Width": "0,4 ~ 4 мм",
-              "Plate Material": "304, 316L, 2205, ТА1 и титановый сплав, жаропрочный сплав"
+              "Максимальное расчетное давление": "1000 Бар",
+              "Расчетная температура": "-196 ~ 850 ℃",
+              "Площадь теплообмена": "8000㎡",
+              "Толщина пластины": "0,4 ~ 4 мм",
+              "Ширина канала": "0,4 ~ 4 мм",
+              "Материал пластин": "304, 316L, 2205, ТА1 и титановый сплав, жаропрочный сплав"
             },
             "es": {
-              "Max Design Pressure": "1000 barras",
-              "Design Temperature": "-196 ~ 850℃",
-              "Heat Transfer Area": "8000㎡",
-              "Plate Thickness": "0,4 ~ 4mm",
-              "Channel Width": "0,4 ~ 4mm",
-              "Plate Material": "304, 316L, 2205, TA1 y aleación de titanio, aleación de alta temperatura"
+              "Presión máxima de diseño": "1000 barras",
+              "Temperatura de diseño": "-196 ~ 850℃",
+              "Área de transferencia de calor": "8000㎡",
+              "Espesor de placa": "0,4 ~ 4mm",
+              "Ancho de canal": "0,4 ~ 4mm",
+              "Material de placas": "304, 316L, 2205, TA1 y aleación de titanio, aleación de alta temperatura"
             },
             "fr": {
-              "Max Design Pressure": "1000 barres",
-              "Design Temperature": "-196 ~ 850 ℃",
-              "Heat Transfer Area": "8000㎡",
-              "Plate Thickness": "0,4 ~ 4 mm",
-              "Channel Width": "0,4 ~ 4 mm",
-              "Plate Material": "304, 316L, 2205, TA1 et alliage de titane, alliage haute température"
+              "Pression de conception maximale": "1000 barres",
+              "Température de conception": "-196 ~ 850 ℃",
+              "Surface d’échange thermique": "8000㎡",
+              "Épaisseur des plaques": "0,4 ~ 4 mm",
+              "Largeur de canal": "0,4 ~ 4 mm",
+              "Matériau des plaques": "304, 316L, 2205, TA1 et alliage de titane, alliage haute température"
             },
             "ar": {
-              "Max Design Pressure": "1000 بار",
-              "Design Temperature": "-196 ~ 850 درجة مئوية",
-              "Heat Transfer Area": "8000㎡",
-              "Plate Thickness": "0.4 ~ 4 ملم",
-              "Channel Width": "0.4 ~ 4 ملم",
-              "Plate Material": "304، 316L، 2205، TA1 وسبائك التيتانيوم، سبائك درجة الحرارة العالية"
+              "أقصى ضغط تصميم": "1000 بار",
+              "درجة حرارة التصميم": "-196 ~ 850 درجة مئوية",
+              "مساحة نقل الحرارة": "8000㎡",
+              "سماكة اللوح": "0.4 ~ 4 ملم",
+              "عرض القناة": "0.4 ~ 4 ملم",
+              "مادة الألواح": "304، 316L، 2205، TA1 وسبائك التيتانيوم، سبائك درجة الحرارة العالية"
             }
           },
           "details": {
@@ -1490,6 +3173,212 @@
               "meta_title": "مبادل حراري للدائرة المطبوعة",
               "meta_description": "مبادل حراري مدمج للدائرة المطبوعة مرتبط بالانتشار لتطبيقات الضغط الشديد ودرجة الحرارة بكفاءة حرارية عالية."
             }
+          },
+          "applications": {
+            "en": [
+              {
+                "order": 1,
+                "application": "Offshore gas decarbonization",
+                "description": "Printed Circuit Heat Exchanger is suitable for compact, high-pressure heat exchange in offshore gas decarbonization projects. For CO2-rich and corrosive gas service, the product can be designed and manufactured to ASME requirements, supported by third-party certification, and configured to meet NACE corrosion-control requirements.",
+                "advantages": [
+                  "Compared with shell-and-tube exchangers, the diffusion-bonded microchannel core greatly reduces size and weight for offshore modules.",
+                  "Compared with gasketed equipment, the solid bonded core removes gasket leakage risk in high-pressure gas service.",
+                  "High pressure capability and corrosion-resistant material selection support demanding CO2-rich natural gas conditions."
+                ],
+                "used_in": [
+                  "Offshore natural gas decarbonization",
+                  "CO2-rich gas cooling and heat recovery",
+                  "FPSO and offshore platform process modules",
+                  "Sour or corrosive gas thermal management"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Hydrogen cooling",
+                "description": "Printed Circuit Heat Exchanger is suitable for high-pressure hydrogen cooling and temperature-control applications. The chemically etched microchannels and diffusion-bonded core provide compact heat transfer, pressure resistance, and leak-resistant construction for hydrogen energy systems.",
+                "advantages": [
+                  "Compared with conventional exchangers, PCHE provides high heat-transfer area density for compact hydrogen process packages.",
+                  "The bonded core avoids gasketed sealing surfaces in high-pressure hydrogen service.",
+                  "Microchannel construction supports precise cooling where temperature control and equipment footprint are critical."
+                ],
+                "used_in": [
+                  "Hydrogen cooling",
+                  "High-pressure gas cooling",
+                  "Hydrogen energy systems",
+                  "Fuel-cell process thermal management"
+                ]
+              }
+            ],
+            "zh": [
+              {
+                "order": 1,
+                "application": "海上天然气脱碳",
+                "description": "印刷电路板式热交换器适用于海上天然气脱碳项目中的紧凑型高压换热工况。针对富 CO2 和腐蚀性气体介质，该产品可按 ASME 要求设计制造，配合第三方认证，并按 NACE 防腐要求进行配置。",
+                "advantages": [
+                  "与管壳式换热器相比，扩散焊微通道芯体可显著降低海上模块中的设备尺寸和重量。",
+                  "与胶垫密封设备相比，整体扩散焊芯体消除高压气体工况中的胶垫泄漏风险。",
+                  "高承压能力和耐蚀材料选择可适配富 CO2 天然气等苛刻工况。"
+                ],
+                "used_in": [
+                  "海上天然气脱碳",
+                  "富 CO2 气体冷却和热回收",
+                  "FPSO 和海上平台工艺模块",
+                  "含硫或腐蚀性气体热管理"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "氢气降温冷却",
+                "description": "印刷电路板式热交换器适用于高压氢气冷却和温度控制应用。化学蚀刻微通道与扩散焊芯体可在紧凑体积内实现高效换热、承压能力和抗泄漏结构，适合氢能系统使用。",
+                "advantages": [
+                  "与常规换热器相比，PCHE 具有较高的单位体积换热面积，适合紧凑型氢气工艺模块。",
+                  "整体扩散焊芯体避免高压氢气工况中的胶垫密封面。",
+                  "微通道结构有利于在温度控制和设备占地要求严格的场景中实现精准冷却。"
+                ],
+                "used_in": [
+                  "氢气冷却",
+                  "高压气体冷却",
+                  "氢能系统",
+                  "燃料电池工艺热管理"
+                ]
+              }
+            ],
+            "ru": [
+              {
+                "order": 1,
+                "application": "Декарбонизация морского газа",
+                "description": "Печатный теплообменник подходит для компактного высоконапорного теплообмена в проектах декарбонизации морского газа. Для газов с высоким содержанием CO2 и коррозионных сред изделие может проектироваться и изготавливаться по требованиям ASME, сопровождаться сторонней сертификацией и соответствовать требованиям NACE по коррозионной защите.",
+                "advantages": [
+                  "По сравнению с кожухотрубными аппаратами диффузионно-сварной микроканальный сердечник значительно уменьшает размер и массу офшорных модулей.",
+                  "По сравнению с прокладочным оборудованием монолитный связанный сердечник исключает риск утечки прокладок в высоконапорном газовом сервисе.",
+                  "Высокая стойкость к давлению и выбор коррозионностойких материалов поддерживают сложные условия природного газа с высоким содержанием CO2."
+                ],
+                "used_in": [
+                  "Декарбонизация морского природного газа",
+                  "Охлаждение и рекуперация тепла газов с высоким содержанием CO2",
+                  "Процессные модули FPSO и морских платформ",
+                  "Тепловое управление сернистыми или коррозионными газами"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Охлаждение водорода",
+                "description": "Печатный теплообменник подходит для охлаждения водорода высокого давления и контроля температуры. Химически вытравленные микроканалы и диффузионно-сварной сердечник обеспечивают компактную теплопередачу, стойкость к давлению и герметичную конструкцию для водородных энергетических систем.",
+                "advantages": [
+                  "По сравнению с обычными теплообменниками PCHE обеспечивает высокую плотность площади теплопередачи для компактных водородных модулей.",
+                  "Связанный сердечник исключает прокладочные уплотнения в высоконапорном водородном сервисе.",
+                  "Микроканальная конструкция поддерживает точное охлаждение там, где важны контроль температуры и габариты оборудования."
+                ],
+                "used_in": [
+                  "Охлаждение водорода",
+                  "Охлаждение газа высокого давления",
+                  "Водородные энергетические системы",
+                  "Тепловое управление процессами топливных элементов"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "order": 1,
+                "application": "Descarbonización de gas offshore",
+                "description": "El intercambiador de calor de circuito impreso es adecuado para intercambio térmico compacto y de alta presión en proyectos offshore de descarbonización de gas. Para servicio con gas rico en CO2 y corrosivo, puede diseñarse y fabricarse según ASME, respaldarse con certificación de terceros y configurarse para cumplir requisitos NACE de control de corrosión.",
+                "advantages": [
+                  "En comparación con intercambiadores de carcasa y tubos, el núcleo microcanal unido por difusión reduce mucho tamaño y peso en módulos offshore.",
+                  "En comparación con equipos con juntas, el núcleo sólido unido elimina el riesgo de fugas de juntas en gas de alta presión.",
+                  "La capacidad de alta presión y la selección de materiales resistentes a corrosión soportan gas natural rico en CO2."
+                ],
+                "used_in": [
+                  "Descarbonización de gas natural offshore",
+                  "Enfriamiento y recuperación de calor de gas rico en CO2",
+                  "Módulos de proceso FPSO y plataformas offshore",
+                  "Gestión térmica de gas ácido o corrosivo"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Enfriamiento de hidrógeno",
+                "description": "El intercambiador de circuito impreso es adecuado para enfriamiento de hidrógeno de alta presión y control de temperatura. Sus microcanales grabados químicamente y núcleo unido por difusión ofrecen transferencia térmica compacta, resistencia a presión y construcción resistente a fugas para sistemas de hidrógeno.",
+                "advantages": [
+                  "En comparación con intercambiadores convencionales, el PCHE ofrece alta densidad de área de transferencia para paquetes compactos de hidrógeno.",
+                  "El núcleo unido evita superficies de sellado con juntas en servicio de hidrógeno de alta presión.",
+                  "La construcción microcanal permite enfriamiento preciso donde el control de temperatura y la huella son críticos."
+                ],
+                "used_in": [
+                  "Enfriamiento de hidrógeno",
+                  "Enfriamiento de gas de alta presión",
+                  "Sistemas de energía de hidrógeno",
+                  "Gestión térmica de procesos de celdas de combustible"
+                ]
+              }
+            ],
+            "fr": [
+              {
+                "order": 1,
+                "application": "Décarbonatation de gaz offshore",
+                "description": "L’échangeur de chaleur à circuit imprimé convient aux échanges compacts haute pression dans les projets offshore de décarbonatation du gaz. Pour les services riches en CO2 et corrosifs, le produit peut être conçu et fabriqué selon ASME, appuyé par une certification tierce et configuré selon les exigences NACE de maîtrise de la corrosion.",
+                "advantages": [
+                  "Par rapport aux échangeurs à calandre et tubes, le noyau microcanal lié par diffusion réduit fortement la taille et le poids des modules offshore.",
+                  "Par rapport aux équipements avec joints, le noyau monolithique lié élimine le risque de fuite de joints en service gaz haute pression.",
+                  "La capacité haute pression et le choix de matériaux anticorrosion conviennent aux gaz naturels riches en CO2."
+                ],
+                "used_in": [
+                  "Décarbonatation de gaz naturel offshore",
+                  "Refroidissement et récupération de chaleur de gaz riches en CO2",
+                  "Modules de procédé FPSO et plateformes offshore",
+                  "Gestion thermique de gaz acides ou corrosifs"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Refroidissement de l’hydrogène",
+                "description": "L’échangeur à circuit imprimé convient au refroidissement de l’hydrogène haute pression et au contrôle de température. Les microcanaux gravés chimiquement et le noyau lié par diffusion offrent un transfert compact, une résistance à la pression et une construction résistante aux fuites pour les systèmes hydrogène.",
+                "advantages": [
+                  "Par rapport aux échangeurs conventionnels, le PCHE offre une forte densité de surface d’échange pour les modules hydrogène compacts.",
+                  "Le noyau lié évite les surfaces d’étanchéité à joints en service hydrogène haute pression.",
+                  "La construction microcanal permet un refroidissement précis lorsque le contrôle de température et l’encombrement sont critiques."
+                ],
+                "used_in": [
+                  "Refroidissement de l’hydrogène",
+                  "Refroidissement de gaz haute pression",
+                  "Systèmes d’énergie hydrogène",
+                  "Gestion thermique des procédés de piles à combustible"
+                ]
+              }
+            ],
+            "ar": [
+              {
+                "order": 1,
+                "application": "إزالة ثاني أكسيد الكربون من الغاز البحري",
+                "description": "يناسب المبادل الحراري ذو الدائرة المطبوعة التبادل الحراري المدمج عالي الضغط في مشروعات إزالة ثاني أكسيد الكربون من الغاز البحري. وللخدمة مع غاز غني بثاني أكسيد الكربون ومسبب للتآكل، يمكن تصميمه وتصنيعه وفق متطلبات ASME ودعمه بشهادة طرف ثالث وتهيئته لتلبية متطلبات NACE للتحكم في التآكل.",
+                "advantages": [
+                  "بالمقارنة مع المبادلات الأنبوبية، يقلل القلب الدقيق القنوات المرتبط بالانتشار الحجم والوزن بشكل كبير في الوحدات البحرية.",
+                  "بالمقارنة مع المعدات ذات الحشيات، يزيل القلب الصلب المرتبط مخاطر تسرب الحشيات في خدمة الغاز عالي الضغط.",
+                  "تدعم قدرة الضغط العالي واختيار المواد المقاومة للتآكل ظروف الغاز الطبيعي الغني بثاني أكسيد الكربون."
+                ],
+                "used_in": [
+                  "إزالة ثاني أكسيد الكربون من الغاز الطبيعي البحري",
+                  "تبريد واستعادة حرارة الغاز الغني بثاني أكسيد الكربون",
+                  "وحدات عمليات FPSO والمنصات البحرية",
+                  "الإدارة الحرارية للغاز الحامضي أو المسبب للتآكل"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "تبريد الهيدروجين",
+                "description": "يناسب المبادل ذو الدائرة المطبوعة تبريد الهيدروجين عالي الضغط والتحكم في درجة الحرارة. وتوفر القنوات الدقيقة المحفورة كيميائيا والقلب المرتبط بالانتشار نقلا حراريا مدمجا ومقاومة للضغط وبنية مقاومة للتسرب لأنظمة الهيدروجين.",
+                "advantages": [
+                  "بالمقارنة مع المبادلات التقليدية، يوفر PCHE كثافة عالية لمساحة نقل الحرارة للحزم المدمجة الخاصة بالهيدروجين.",
+                  "يتجنب القلب المرتبط أسطح الإحكام ذات الحشيات في خدمة الهيدروجين عالي الضغط.",
+                  "تدعم بنية القنوات الدقيقة تبريدا دقيقا عندما يكون التحكم في الحرارة والمساحة أمرا حاسما."
+                ],
+                "used_in": [
+                  "تبريد الهيدروجين",
+                  "تبريد الغاز عالي الضغط",
+                  "أنظمة طاقة الهيدروجين",
+                  "الإدارة الحرارية لعمليات خلايا الوقود"
+                ]
+              }
+            ]
           }
         },
         "product_assets": [
@@ -1653,32 +3542,32 @@
               "板片材料": "奥氏体不锈钢、双相不锈钢、254SMO、钛及钛合金、镍及镍合金、哈氏合金"
             },
             "ru": {
-              "Design Temperature": "-196 ~ 900 ℃",
-              "Design Pressure": "Вакуум ~ 6,0 МПа",
-              "Max Area": "15000㎡",
-              "Plate Thickness": "0,6 ~ 1,5 мм",
-              "Plate Material": "Аустенитная нержавеющая сталь, Дуплексная нержавеющая сталь, 254SMO, Титан и титановые сплавы, Никель и никелевые сплавы, Хастеллой"
+              "Расчетная температура": "-196 ~ 900 ℃",
+              "Расчетное давление": "Вакуум ~ 6,0 МПа",
+              "Максимальная площадь": "15000㎡",
+              "Толщина пластины": "0,6 ~ 1,5 мм",
+              "Материал пластин": "Аустенитная нержавеющая сталь, Дуплексная нержавеющая сталь, 254SMO, Титан и титановые сплавы, Никель и никелевые сплавы, Хастеллой"
             },
             "es": {
-              "Design Temperature": "-196 ~ 900℃",
-              "Design Pressure": "Vacío ~ 6,0 MPa",
-              "Max Area": "15000㎡",
-              "Plate Thickness": "0,6 ~ 1,5 mm",
-              "Plate Material": "Acero inoxidable austenítico, Acero inoxidable dúplex, 254SMO, Titanio y aleación de titanio, Níquel y aleación de níquel, Hastelloy"
+              "Temperatura de diseño": "-196 ~ 900℃",
+              "Presión de diseño": "Vacío ~ 6,0 MPa",
+              "Área máxima": "15000㎡",
+              "Espesor de placa": "0,6 ~ 1,5 mm",
+              "Material de placas": "Acero inoxidable austenítico, Acero inoxidable dúplex, 254SMO, Titanio y aleación de titanio, Níquel y aleación de níquel, Hastelloy"
             },
             "fr": {
-              "Design Temperature": "-196 ~ 900 ℃",
-              "Design Pressure": "Vide ~ 6,0 MPa",
-              "Max Area": "15 000㎡",
-              "Plate Thickness": "0,6 ~ 1,5 mm",
-              "Plate Material": "Acier inoxydable austénitique, Acier inoxydable duplex, 254SMO, Titane et alliage de titane, Nickel et alliage de nickel, Hastelloy"
+              "Température de conception": "-196 ~ 900 ℃",
+              "Pression de conception": "Vide ~ 6,0 MPa",
+              "Surface maximale": "15 000㎡",
+              "Épaisseur des plaques": "0,6 ~ 1,5 mm",
+              "Matériau des plaques": "Acier inoxydable austénitique, Acier inoxydable duplex, 254SMO, Titane et alliage de titane, Nickel et alliage de nickel, Hastelloy"
             },
             "ar": {
-              "Design Temperature": "-196 ~ 900 درجة مئوية",
-              "Design Pressure": "فراغ ~ 6.0MPa",
-              "Max Area": "15000㎡",
-              "Plate Thickness": "0.6 ~ 1.5 ملم",
-              "Plate Material": "الفولاذ المقاوم للصدأ الأوستنيتي، الفولاذ المقاوم للصدأ المزدوج، 254SMO، سبائك التيتانيوم والتيتانيوم، سبائك النيكل والنيكل، Hastelloy"
+              "درجة حرارة التصميم": "-196 ~ 900 درجة مئوية",
+              "ضغط التصميم": "فراغ ~ 6.0MPa",
+              "المساحة القصوى": "15000㎡",
+              "سماكة اللوح": "0.6 ~ 1.5 ملم",
+              "مادة الألواح": "الفولاذ المقاوم للصدأ الأوستنيتي، الفولاذ المقاوم للصدأ المزدوج، 254SMO، سبائك التيتانيوم والتيتانيوم، سبائك النيكل والنيكل، Hastelloy"
             }
           },
           "details": {
@@ -1793,6 +3682,314 @@
               "meta_title": "مبادل حراري للوحة الملحومة TP",
               "meta_description": "مبادل حراري للوحة ملحومة هجين يجمع بين كفاءة اللوحة ومتانة الهيكل والأنبوب من أجل خدمة الضغط العالي ودرجة الحرارة العالية."
             }
+          },
+          "applications": {
+            "en": [
+              {
+                "order": 1,
+                "application": "Waste heat recovery",
+                "description": "In chemical plants, waste heat recovery is a key route for reducing energy consumption. TP Welded Plate Heat Exchanger is suitable for low- and medium-temperature waste heat recovery where compact layout, high heat-transfer efficiency, and welded sealing are required.",
+                "advantages": [
+                  "Compared with shell-and-tube exchangers, TP welded plate exchangers can provide much higher heat-transfer coefficients and a smaller footprint.",
+                  "The welded structure reduces gasket-related leakage risk in high-temperature or hazardous media.",
+                  "High surface area per unit volume supports energy-saving retrofits where plot space is limited."
+                ],
+                "used_in": [
+                  "Chemical waste heat recovery",
+                  "Low- and medium-temperature heat recovery",
+                  "Process stream preheating",
+                  "Energy-saving retrofit projects"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Overhead condenser",
+                "description": "In acrylic acid and ester refining, overhead condensers face corrosive media, temperature fluctuation, continuous operation, and large-unit reliability requirements. TP Welded Plate Heat Exchanger can use corrosion-resistant plate materials and a welded sealing structure to support stable condensation service.",
+                "advantages": [
+                  "Compared with gasketed equipment, the all-welded seal avoids gasket aging in corrosive condensation service.",
+                  "Compared with conventional exchangers, customized corrugated plates and flow layout can increase turbulence and heat-transfer efficiency.",
+                  "The welded plate design supports pressure stability, deformation resistance, and impact resistance in continuous chemical operation."
+                ],
+                "used_in": [
+                  "Acrylic acid purification",
+                  "Ester product refining",
+                  "Overhead condensation",
+                  "Solvent condensation",
+                  "Chemical distillation systems"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "Tail gas and purification cooler",
+                "description": "TP Welded Plate Heat Exchanger can be used as a tail gas cooler or purification cooler before downstream recovery or treatment. The welded construction and selectable corrosion-resistant materials are suitable for process off-gas cooling where reliability, compactness, and leakage control are important.",
+                "advantages": [
+                  "Compared with shell-and-tube exchangers, the welded plate structure can reduce footprint while maintaining high heat-transfer efficiency.",
+                  "Compared with gasketed equipment, the welded seal lowers leakage risk in hazardous or corrosive off-gas duties.",
+                  "Material selection can be matched to corrosive or contaminated gas streams."
+                ],
+                "used_in": [
+                  "Tail gas cooling",
+                  "Purification system cooling",
+                  "Off-gas heat recovery",
+                  "Chemical exhaust gas treatment"
+                ]
+              }
+            ],
+            "zh": [
+              {
+                "order": 1,
+                "application": "余热回收",
+                "description": "在化工装置中，余热回收是降低能耗的重要环节。TP 混合板式热交换器适用于中低温余热回收工况，尤其适合需要紧凑布置、高效传热和焊接密封的场景。",
+                "advantages": [
+                  "与管壳式换热器相比，TP 焊接板式换热器可提供更高传热系数和更小占地。",
+                  "焊接结构降低高温或危险介质工况中的胶垫相关泄漏风险。",
+                  "较高单位体积换热面积有利于在空间受限的装置改造中实现节能。"
+                ],
+                "used_in": [
+                  "化工余热回收",
+                  "中低温热回收",
+                  "工艺物流预热",
+                  "节能改造项目"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "塔顶冷凝器",
+                "description": "在丙烯酸及酯产品精制环节，塔顶冷凝器需要面对介质腐蚀性强、操作温度波动大、连续运行和大型化装置可靠性要求高等挑战。TP 混合板式热交换器可通过耐蚀板片材料和焊接密封结构支持稳定冷凝工况。",
+                "advantages": [
+                  "与胶垫密封设备相比，全焊接密封避免腐蚀性冷凝工况中的胶垫老化问题。",
+                  "与传统换热器相比，定制波纹板片和流道布局可增强湍流并提升传热效率。",
+                  "焊接板式结构有助于在连续化工运行中保持承压稳定性、抗变形和抗冲击能力。"
+                ],
+                "used_in": [
+                  "丙烯酸精制",
+                  "酯类产品精制",
+                  "塔顶冷凝",
+                  "溶剂冷凝",
+                  "化工精馏系统"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "尾气冷却器/净化冷却器",
+                "description": "TP 混合板式热交换器可作为尾气冷却器或净化冷却器，用于后续回收或处理系统前的降温环节。焊接结构和可选耐蚀材料适合对可靠性、紧凑性和泄漏控制要求较高的工艺尾气冷却工况。",
+                "advantages": [
+                  "与管壳式换热器相比，焊接板式结构可在保持高效传热的同时降低占地。",
+                  "与胶垫密封设备相比，焊接密封可降低危险或腐蚀性尾气工况中的泄漏风险。",
+                  "材料选择可根据腐蚀性或含杂质气体介质进行匹配。"
+                ],
+                "used_in": [
+                  "尾气冷却",
+                  "净化系统冷却",
+                  "尾气余热回收",
+                  "化工废气处理"
+                ]
+              }
+            ],
+            "ru": [
+              {
+                "order": 1,
+                "application": "Рекуперация отходящего тепла",
+                "description": "На химических предприятиях рекуперация отходящего тепла является важным способом снижения энергопотребления. TP сварной пластинчатый теплообменник подходит для низко- и среднетемпературной рекуперации, где требуются компактность, высокая эффективность теплопередачи и сварное уплотнение.",
+                "advantages": [
+                  "По сравнению с кожухотрубными аппаратами TP сварные пластинчатые теплообменники обеспечивают значительно более высокий коэффициент теплопередачи и меньшую площадь.",
+                  "Сварная конструкция снижает риск утечек, связанных с прокладками, в высокотемпературных или опасных средах.",
+                  "Высокая площадь теплообмена на единицу объема поддерживает энергосберегающие модернизации при ограниченной площади."
+                ],
+                "used_in": [
+                  "Рекуперация тепла в химической промышленности",
+                  "Низко- и среднетемпературная рекуперация тепла",
+                  "Подогрев технологических потоков",
+                  "Энергосберегающие проекты модернизации"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Верхний конденсатор колонны",
+                "description": "При очистке акриловой кислоты и сложных эфиров верхние конденсаторы сталкиваются с коррозионными средами, колебаниями температуры, непрерывной работой и требованиями надежности крупных установок. TP сварной пластинчатый теплообменник может использовать коррозионностойкие материалы пластин и сварное уплотнение для стабильной конденсации.",
+                "advantages": [
+                  "По сравнению с прокладочным оборудованием цельносварное уплотнение исключает старение прокладок в коррозионной конденсации.",
+                  "По сравнению с традиционными аппаратами индивидуальные гофрированные пластины и схема потоков повышают турбулентность и теплопередачу.",
+                  "Сварная пластинчатая конструкция поддерживает стабильность давления, сопротивление деформации и ударную стойкость при непрерывной химической работе."
+                ],
+                "used_in": [
+                  "Очистка акриловой кислоты",
+                  "Очистка эфирных продуктов",
+                  "Верхняя конденсация",
+                  "Конденсация растворителей",
+                  "Химические дистилляционные системы"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "Охладитель хвостового газа и очистки",
+                "description": "TP сварной пластинчатый теплообменник может использоваться как охладитель хвостового газа или очистки перед последующим восстановлением или обработкой. Сварная конструкция и выбор коррозионностойких материалов подходят для охлаждения технологических отходящих газов, где важны надежность, компактность и контроль утечек.",
+                "advantages": [
+                  "По сравнению с кожухотрубными аппаратами сварная пластинчатая конструкция уменьшает площадь при сохранении высокой эффективности теплопередачи.",
+                  "По сравнению с прокладочным оборудованием сварное уплотнение снижает риск утечек в опасных или коррозионных отходящих газах.",
+                  "Выбор материалов может быть адаптирован к коррозионным или загрязненным газовым потокам."
+                ],
+                "used_in": [
+                  "Охлаждение хвостового газа",
+                  "Охлаждение систем очистки",
+                  "Рекуперация тепла отходящего газа",
+                  "Очистка химических отходящих газов"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "order": 1,
+                "application": "Recuperación de calor residual",
+                "description": "En plantas químicas, la recuperación de calor residual es una vía clave para reducir consumo energético. El intercambiador TP es adecuado para recuperación de calor residual de baja y media temperatura cuando se requieren diseño compacto, alta eficiencia y sellado soldado.",
+                "advantages": [
+                  "En comparación con intercambiadores de carcasa y tubos, los TP pueden ofrecer coeficientes de transferencia mucho más altos y menor huella.",
+                  "La estructura soldada reduce el riesgo de fugas relacionadas con juntas en medios de alta temperatura o peligrosos.",
+                  "La alta superficie por unidad de volumen ayuda a modernizaciones de ahorro energético con espacio limitado."
+                ],
+                "used_in": [
+                  "Recuperación de calor residual químico",
+                  "Recuperación de baja y media temperatura",
+                  "Precalentamiento de corrientes de proceso",
+                  "Proyectos de modernización energética"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Condensador de cabeza",
+                "description": "En la refinación de ácido acrílico y ésteres, los condensadores de cabeza enfrentan medios corrosivos, fluctuaciones de temperatura, operación continua y altas exigencias de confiabilidad. El intercambiador TP puede usar materiales de placa resistentes a la corrosión y sellado soldado para servicio de condensación estable.",
+                "advantages": [
+                  "En comparación con equipos con juntas, el sellado totalmente soldado evita envejecimiento de juntas en condensación corrosiva.",
+                  "En comparación con intercambiadores convencionales, placas corrugadas y diseño de flujo personalizados aumentan turbulencia y eficiencia térmica.",
+                  "El diseño de placas soldadas soporta estabilidad de presión, resistencia a deformación e impacto en operación química continua."
+                ],
+                "used_in": [
+                  "Purificación de ácido acrílico",
+                  "Refinación de productos éster",
+                  "Condensación de cabeza",
+                  "Condensación de solventes",
+                  "Sistemas de destilación química"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "Enfriador de gas de cola y purificación",
+                "description": "El intercambiador TP puede utilizarse como enfriador de gas de cola o de purificación antes de recuperación o tratamiento posterior. La construcción soldada y los materiales resistentes a corrosión son adecuados para enfriamiento de gases de proceso cuando importan confiabilidad, compacidad y control de fugas.",
+                "advantages": [
+                  "En comparación con carcasa y tubos, la estructura de placas soldadas reduce huella manteniendo alta eficiencia térmica.",
+                  "En comparación con equipos con juntas, el sellado soldado reduce riesgo de fugas en gases de cola peligrosos o corrosivos.",
+                  "La selección de materiales puede adaptarse a corrientes de gas corrosivas o contaminadas."
+                ],
+                "used_in": [
+                  "Enfriamiento de gas de cola",
+                  "Enfriamiento de sistema de purificación",
+                  "Recuperación de calor de gas residual",
+                  "Tratamiento de gases químicos"
+                ]
+              }
+            ],
+            "fr": [
+              {
+                "order": 1,
+                "application": "Récupération de chaleur fatale",
+                "description": "Dans les usines chimiques, la récupération de chaleur fatale est un moyen essentiel de réduire la consommation d’énergie. L’échangeur TP convient à la récupération basse et moyenne température lorsque compacité, efficacité thermique et étanchéité soudée sont requises.",
+                "advantages": [
+                  "Par rapport aux échangeurs à calandre et tubes, les TP soudés peuvent offrir des coefficients de transfert beaucoup plus élevés et un encombrement réduit.",
+                  "La structure soudée réduit le risque de fuites liées aux joints dans les milieux dangereux ou haute température.",
+                  "La forte surface d’échange par volume soutient les rénovations énergétiques lorsque l’espace est limité."
+                ],
+                "used_in": [
+                  "Récupération de chaleur fatale chimique",
+                  "Récupération basse et moyenne température",
+                  "Préchauffage de flux de procédé",
+                  "Projets de rénovation énergétique"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "Condenseur de tête",
+                "description": "Dans le raffinage de l’acide acrylique et des esters, les condenseurs de tête rencontrent des milieux corrosifs, des fluctuations de température, un fonctionnement continu et de fortes exigences de fiabilité. L’échangeur TP peut utiliser des matériaux de plaques anticorrosion et une étanchéité soudée pour une condensation stable.",
+                "advantages": [
+                  "Par rapport aux équipements avec joints, l’étanchéité entièrement soudée évite le vieillissement des joints en condensation corrosive.",
+                  "Par rapport aux échangeurs conventionnels, les plaques ondulées et la configuration de flux personnalisées renforcent la turbulence et l’efficacité thermique.",
+                  "La conception à plaques soudées soutient la stabilité de pression, la résistance à la déformation et aux chocs en fonctionnement chimique continu."
+                ],
+                "used_in": [
+                  "Purification d’acide acrylique",
+                  "Raffinage de produits esters",
+                  "Condensation de tête",
+                  "Condensation de solvants",
+                  "Systèmes de distillation chimique"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "Refroidisseur de gaz résiduaire et de purification",
+                "description": "L’échangeur TP peut servir de refroidisseur de gaz résiduaire ou de purification avant récupération ou traitement aval. Sa construction soudée et ses matériaux anticorrosion conviennent au refroidissement de gaz de procédé lorsque fiabilité, compacité et maîtrise des fuites sont importantes.",
+                "advantages": [
+                  "Par rapport aux échangeurs à calandre et tubes, la structure à plaques soudées réduit l’encombrement tout en maintenant une forte efficacité thermique.",
+                  "Par rapport aux équipements avec joints, l’étanchéité soudée réduit le risque de fuite dans les gaz résiduaires dangereux ou corrosifs.",
+                  "Le choix des matériaux peut être adapté aux flux gazeux corrosifs ou contaminés."
+                ],
+                "used_in": [
+                  "Refroidissement de gaz résiduaire",
+                  "Refroidissement de système de purification",
+                  "Récupération de chaleur de gaz résiduaire",
+                  "Traitement des gaz chimiques"
+                ]
+              }
+            ],
+            "ar": [
+              {
+                "order": 1,
+                "application": "استعادة الحرارة المهدرة",
+                "description": "في المصانع الكيميائية تعد استعادة الحرارة المهدرة طريقا رئيسيا لتقليل استهلاك الطاقة. ويناسب مبادل TP استعادة الحرارة منخفضة ومتوسطة الحرارة عندما تكون البنية المدمجة والكفاءة الحرارية العالية والإحكام الملحوم مطلوبة.",
+                "advantages": [
+                  "بالمقارنة مع المبادلات الأنبوبية، يمكن لمبادلات TP الملحومة توفير معاملات نقل حرارة أعلى بكثير ومساحة أصغر.",
+                  "تقلل البنية الملحومة مخاطر التسرب المرتبطة بالحشيات في الوسائط عالية الحرارة أو الخطرة.",
+                  "تدعم المساحة العالية لنقل الحرارة لكل وحدة حجم تحديثات توفير الطاقة عند محدودية المساحة."
+                ],
+                "used_in": [
+                  "استعادة حرارة مهدرة في الصناعة الكيميائية",
+                  "استعادة حرارة منخفضة ومتوسطة الحرارة",
+                  "تسخين تيارات العملية مسبقا",
+                  "مشروعات تحديث لتوفير الطاقة"
+                ]
+              },
+              {
+                "order": 2,
+                "application": "مكثف قمة البرج",
+                "description": "في تنقية حمض الأكريليك ومنتجات الإسترات، تواجه مكثفات قمة البرج وسائط مسببة للتآكل وتقلبات حرارية وتشغيلا مستمرا ومتطلبات موثوقية عالية. ويمكن لمبادل TP استخدام مواد ألواح مقاومة للتآكل وبنية إحكام ملحومة لدعم التكثيف المستقر.",
+                "advantages": [
+                  "بالمقارنة مع المعدات ذات الحشيات، يمنع الإحكام الملحوم بالكامل تقادم الحشيات في خدمة التكثيف المسببة للتآكل.",
+                  "بالمقارنة مع المبادلات التقليدية، تزيد الألواح المموجة المخصصة وترتيب التدفق من الاضطراب وكفاءة نقل الحرارة.",
+                  "يدعم التصميم اللوحي الملحوم ثبات الضغط ومقاومة التشوه والصدمات في التشغيل الكيميائي المستمر."
+                ],
+                "used_in": [
+                  "تنقية حمض الأكريليك",
+                  "تنقية منتجات الإسترات",
+                  "تكثيف قمة البرج",
+                  "تكثيف المذيبات",
+                  "أنظمة التقطير الكيميائي"
+                ]
+              },
+              {
+                "order": 3,
+                "application": "مبرد غاز الذيل والتنقية",
+                "description": "يمكن استخدام مبادل TP كمبرد لغاز الذيل أو مبرد للتنقية قبل الاسترجاع أو المعالجة اللاحقة. وتناسب البنية الملحومة والمواد المقاومة للتآكل تبريد غازات العمليات عندما تكون الموثوقية والتصميم المدمج والتحكم في التسرب مهمة.",
+                "advantages": [
+                  "بالمقارنة مع مبادلات الغلاف والأنابيب، تقلل البنية اللوحية الملحومة المساحة مع الحفاظ على كفاءة نقل حرارة عالية.",
+                  "بالمقارنة مع المعدات ذات الحشيات، يقلل الإحكام الملحوم مخاطر التسرب في غازات ذيل خطرة أو مسببة للتآكل.",
+                  "يمكن مواءمة اختيار المواد مع تيارات الغاز المسببة للتآكل أو الملوثة."
+                ],
+                "used_in": [
+                  "تبريد غاز الذيل",
+                  "تبريد نظام التنقية",
+                  "استعادة حرارة غاز العادم",
+                  "معالجة غازات العادم الكيميائية"
+                ]
+              }
+            ]
           }
         },
         "product_assets": [
@@ -1865,6 +4062,13 @@
             "folder": "product_certifications",
             "file_name": "sgs.png",
             "alt_text": "SGS Certificate"
+          },
+          {
+            "order": 1,
+            "asset_type": "application_image",
+            "folder": "product_applications",
+            "file_name": "tp_tail_gas_cooling_application.png",
+            "alt_text": "TP welded plate heat exchanger for tail gas cooling"
           }
         ]
       },
@@ -1969,32 +4173,32 @@
               "板片材料": "304，316L，2205，310S，904L，Corten-A等"
             },
             "ru": {
-              "Design Temperature": "-20 ~ 800 ℃",
-              "Design Pressure": "Вакуум ~ 0,6 МПа",
-              "Max Area": "40000㎡",
-              "Plate Thickness": "0,6 ~ 2,0 мм",
-              "Plate Material": "304, 316Л, 2205, 310С, 904Л, Кортен-А"
+              "Расчетная температура": "-20 ~ 800 ℃",
+              "Расчетное давление": "Вакуум ~ 0,6 МПа",
+              "Максимальная площадь": "40000㎡",
+              "Толщина пластины": "0,6 ~ 2,0 мм",
+              "Материал пластин": "304, 316Л, 2205, 310С, 904Л, Кортен-А"
             },
             "es": {
-              "Design Temperature": "-20 ~ 800℃",
-              "Design Pressure": "Vacío ~ 0,6 MPa",
-              "Max Area": "40000㎡",
-              "Plate Thickness": "0,6 ~ 2,0 mm",
-              "Plate Material": "304, 316L, 2205, 310S, 904L, Corten-A"
+              "Temperatura de diseño": "-20 ~ 800℃",
+              "Presión de diseño": "Vacío ~ 0,6 MPa",
+              "Área máxima": "40000㎡",
+              "Espesor de placa": "0,6 ~ 2,0 mm",
+              "Material de placas": "304, 316L, 2205, 310S, 904L, Corten-A"
             },
             "fr": {
-              "Design Temperature": "-20 ~ 800 ℃",
-              "Design Pressure": "Vide ~ 0,6MPa",
-              "Max Area": "40 000㎡",
-              "Plate Thickness": "0,6 ~ 2,0 mm",
-              "Plate Material": "304, 316L, 2205, 310S, 904L, Corten-A"
+              "Température de conception": "-20 ~ 800 ℃",
+              "Pression de conception": "Vide ~ 0,6MPa",
+              "Surface maximale": "40 000㎡",
+              "Épaisseur des plaques": "0,6 ~ 2,0 mm",
+              "Matériau des plaques": "304, 316L, 2205, 310S, 904L, Corten-A"
             },
             "ar": {
-              "Design Temperature": "-20 ~ 800 درجة مئوية",
-              "Design Pressure": "فراغ ~ 0.6MPa",
-              "Max Area": "40000㎡",
-              "Plate Thickness": "0.6 ~ 2.0 ملم",
-              "Plate Material": "304، 316L، 2205، 310S، 904L، كورتين-A"
+              "درجة حرارة التصميم": "-20 ~ 800 درجة مئوية",
+              "ضغط التصميم": "فراغ ~ 0.6MPa",
+              "المساحة القصوى": "40000㎡",
+              "سماكة اللوح": "0.6 ~ 2.0 ملم",
+              "مادة الألواح": "304، 316L، 2205، 310S، 904L، كورتين-A"
             }
           },
           "details": {
@@ -2109,6 +4313,116 @@
               "meta_title": "لوحة التسخين الهوائي",
               "meta_description": "سخان هواء لوحي معياري لاستعادة حرارة النفايات الصناعية بكفاءة حرارية عالية وحماية من التآكل عند نقطة الندى."
             }
+          },
+          "applications": {
+            "en": [
+              {
+                "order": 1,
+                "application": "Industrial flue gas waste heat recovery",
+                "description": "Plate Air Preheater recovers heat from hot flue gas or exhaust gas and transfers it to incoming combustion air or process air. This gas-to-gas heat exchange duty improves system efficiency, reduces fuel consumption, and supports energy-saving operation in boilers, furnaces, kilns, and process plants.",
+                "advantages": [
+                  "Compared with tubular air preheaters, the plate structure provides larger heat-transfer area per unit volume and lower equipment weight.",
+                  "Modular assembly supports flexible sizing for different exhaust gas volumes and temperature programs.",
+                  "Corrosion-resistant materials, bypass arrangements, and air-film designs can help manage dew-point corrosion risks."
+                ],
+                "used_in": [
+                  "Boiler combustion air preheating",
+                  "Furnace and kiln exhaust heat recovery",
+                  "Chemical flue gas heat recovery",
+                  "Power and metallurgical waste heat recovery"
+                ]
+              }
+            ],
+            "zh": [
+              {
+                "order": 1,
+                "application": "工业烟气余热回收",
+                "description": "空气预热器从高温烟气或废气中回收热量，并将热量传递给进入系统的燃烧空气或工艺空气。该气-气换热应用可提升系统效率、降低燃料消耗，并支持锅炉、炉窑和工艺装置的节能运行。",
+                "advantages": [
+                  "与管式空气预热器相比，板式结构可提供更高单位体积换热面积并降低设备重量。",
+                  "模块化组合便于根据不同烟气量和温度制度进行选型。",
+                  "耐腐蚀材料、旁路布置和气膜设计可帮助控制露点腐蚀风险。"
+                ],
+                "used_in": [
+                  "锅炉燃烧空气预热",
+                  "炉窑烟气余热回收",
+                  "化工烟气热回收",
+                  "电力和冶金余热回收"
+                ]
+              }
+            ],
+            "ru": [
+              {
+                "order": 1,
+                "application": "Рекуперация тепла промышленных дымовых газов",
+                "description": "Пластинчатый воздухоподогреватель рекуперирует тепло горячих дымовых или отходящих газов и передает его входящему воздуху горения или технологическому воздуху. Этот газ-газовый теплообмен повышает эффективность, снижает расход топлива и поддерживает энергосбережение в котлах, печах, обжиговых агрегатах и процессных установках.",
+                "advantages": [
+                  "По сравнению с трубчатыми воздухоподогревателями пластинчатая структура обеспечивает большую площадь теплообмена на единицу объема и меньшую массу.",
+                  "Модульная сборка поддерживает гибкий подбор под разные расходы дымовых газов и температурные режимы.",
+                  "Коррозионностойкие материалы, байпасные схемы и воздушная пленка помогают контролировать риск коррозии точки росы."
+                ],
+                "used_in": [
+                  "Подогрев воздуха горения котлов",
+                  "Рекуперация тепла газов печей и обжиговых агрегатов",
+                  "Рекуперация тепла химических дымовых газов",
+                  "Рекуперация тепла в энергетике и металлургии"
+                ]
+              }
+            ],
+            "es": [
+              {
+                "order": 1,
+                "application": "Recuperación de calor de gases de combustión industriales",
+                "description": "El precalentador de aire de placas recupera calor de gases de combustión o escape calientes y lo transfiere al aire de combustión o de proceso entrante. Este intercambio gas-gas mejora eficiencia, reduce consumo de combustible y apoya operación de ahorro energético en calderas, hornos, kilns y plantas de proceso.",
+                "advantages": [
+                  "En comparación con precalentadores tubulares, la estructura de placas ofrece mayor área por unidad de volumen y menor peso.",
+                  "El montaje modular permite dimensionamiento flexible para diferentes caudales de gas y programas de temperatura.",
+                  "Materiales resistentes a corrosión, bypass y diseño de película de aire ayudan a controlar corrosión por punto de rocío."
+                ],
+                "used_in": [
+                  "Precalentamiento de aire de combustión de calderas",
+                  "Recuperación de calor de hornos y kilns",
+                  "Recuperación de calor de gases químicos",
+                  "Recuperación de calor en energía y metalurgia"
+                ]
+              }
+            ],
+            "fr": [
+              {
+                "order": 1,
+                "application": "Récupération de chaleur des fumées industrielles",
+                "description": "Le préchauffeur d’air à plaques récupère la chaleur des fumées ou gaz d’échappement chauds et la transfère à l’air de combustion ou de procédé entrant. Cet échange gaz-gaz améliore l’efficacité, réduit la consommation de combustible et soutient l’économie d’énergie dans chaudières, fours, séchoirs et unités de procédé.",
+                "advantages": [
+                  "Par rapport aux préchauffeurs tubulaires, la structure à plaques offre une surface d’échange plus élevée par volume et un poids réduit.",
+                  "L’assemblage modulaire permet un dimensionnement flexible selon les débits de fumées et profils de température.",
+                  "Matériaux anticorrosion, by-pass et conception à film d’air aident à maîtriser la corrosion au point de rosée."
+                ],
+                "used_in": [
+                  "Préchauffage d’air de combustion de chaudières",
+                  "Récupération de chaleur de fumées de fours",
+                  "Récupération de chaleur de fumées chimiques",
+                  "Récupération de chaleur dans l’énergie et la métallurgie"
+                ]
+              }
+            ],
+            "ar": [
+              {
+                "order": 1,
+                "application": "استعادة حرارة غازات المداخن الصناعية",
+                "description": "يستعيد مسخن الهواء اللوحي الحرارة من غاز المداخن أو غاز العادم الساخن وينقلها إلى هواء الاحتراق أو هواء العملية الداخل. ويحسن هذا التبادل غاز-غاز كفاءة النظام ويقلل استهلاك الوقود ويدعم التشغيل الموفر للطاقة في الغلايات والأفران والعمليات الصناعية.",
+                "advantages": [
+                  "بالمقارنة مع مسخنات الهواء الأنبوبية، توفر البنية اللوحية مساحة تبادل أكبر لكل وحدة حجم ووزنا أقل.",
+                  "يدعم التجميع المعياري اختيار الحجم بمرونة لمعدلات غاز عادم وبرامج حرارة مختلفة.",
+                  "تساعد المواد المقاومة للتآكل وترتيبات التجاوز وتصميم الغشاء الهوائي في إدارة مخاطر تآكل نقطة الندى."
+                ],
+                "used_in": [
+                  "تسخين هواء احتراق الغلايات مسبقا",
+                  "استعادة حرارة عادم الأفران",
+                  "استعادة حرارة غازات المداخن الكيميائية",
+                  "استعادة الحرارة في الطاقة والمعادن"
+                ]
+              }
+            ]
           }
         },
         "product_assets": [
@@ -2174,6 +4488,13 @@
             "folder": "product_certifications",
             "file_name": "sgs.png",
             "alt_text": "SGS Certificate"
+          },
+          {
+            "order": 1,
+            "asset_type": "application_image",
+            "folder": "product_applications",
+            "file_name": "plate_air_preheater_waste_heat_recovery_application.png",
+            "alt_text": "Plate air preheater for industrial flue gas waste heat recovery"
           }
         ]
       }

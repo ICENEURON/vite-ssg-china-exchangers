@@ -16,13 +16,13 @@
     "Durabilidad totalmente soldada: el sellado soldado sin juntas admite un funcionamiento confiable en aplicaciones de mayor temperatura y presión."
   ],
   "technical_parameters": {
-    "Max Area": "2000㎡",
-    "Channel Gap": "8 ~ 30 mm",
-    "Plate Pattern": "Placa plana con hoyuelos y tachuelas",
-    "Plate Material": "Acero inoxidable austenítico, Acero inoxidable dúplex, Níquel y aleación de níquel, Hastelloy",
-    "Design Pressure": "Vacío ~ 3,5 MPa",
-    "Plate Thickness": "1,0 ~ 2,5 mm",
-    "Design Temperature": "<= 350 ℃"
+    "Área máxima": "2000㎡",
+    "Espesor de placa": "1,0 ~ 2,5 mm",
+    "Patrón de placas": "Placa plana con hoyuelos y tachuelas",
+    "Material de placas": "Acero inoxidable austenítico, Acero inoxidable dúplex, Níquel y aleación de níquel, Hastelloy",
+    "Presión de diseño": "Vacío ~ 3,5 MPa",
+    "Separación de canales": "8 ~ 30 mm",
+    "Temperatura de diseño": "<= 350 ℃"
   },
   "video_link": "",
   "details": [
@@ -37,6 +37,106 @@
     {
       "title": "¿Cómo se diseña y fabrica?",
       "content": "El producto está diseñado térmicamente optimizando la geometría de la placa, el espaciado de los canales, la disposición de contraflujo de múltiples pasos y la gestión de la caída de presión para un servicio con espacios amplios. La selección de materiales puede incluir acero inoxidable, acero inoxidable dúplex, Hastelloy y otras aleaciones resistentes a la corrosión, mientras que la soldadura de precisión y el ensamblaje controlado garantizan resistencia a fugas, integridad estructural y un funcionamiento confiable a largo plazo."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Enfriamiento de licor refinado",
+        "Enfriamiento de aglomeración",
+        "Enfriamiento intermedio",
+        "Producción de alúmina por proceso Bayer"
+      ],
+      "advantages": [
+        "En comparación con intercambiadores de canales estrechos, el diseño de canal amplio se adapta mejor a lodos y corrientes con sólidos.",
+        "En comparación con equipos convencionales, la estructura de placas soldadas combina diseño compacto y transferencia térmica eficiente.",
+        "Las opciones verticales y horizontales facilitan la adaptación a plantas de alúmina existentes."
+      ],
+      "application": "Enfriamiento en producción de alúmina",
+      "description": "El intercambiador de calor de placas soldadas de espacio amplio se utiliza en la producción de alúmina, especialmente en servicios de intercambio térmico del proceso de descomposición. Puede suministrarse en configuración vertical u horizontal y personalizarse para enfriamiento de licor refinado, enfriamiento de aglomeración y enfriamiento intermedio."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Calentamiento y enfriamiento de jugo",
+        "Intercambio térmico en clarificación",
+        "Recuperación de calor en evaporación",
+        "Control de temperatura en cristalización"
+      ],
+      "advantages": [
+        "En comparación con equipos de canales estrechos, la estructura de espacio amplio reduce el riesgo de bloqueo por fibras y sólidos suspendidos.",
+        "En comparación con equipos de carcasa y tubos, el diseño de placas puede mejorar la eficiencia térmica en pasos repetidos de calentamiento y enfriamiento.",
+        "La construcción soldada es adecuada para líneas azucareras continuas que requieren operación estable."
+      ],
+      "application": "Industria azucarera",
+      "description": "En la producción de azúcar de caña y remolacha, las tareas de calentamiento y enfriamiento aparecen en extracción de jugo, clarificación, evaporación y cristalización. El intercambiador de espacio amplio puede manejar medios viscosos, alcalinos o ácidos y propensos a ensuciamiento, mejorando el uso de energía térmica."
+    },
+    {
+      "order": 3,
+      "used_in": [
+        "Calentamiento y enfriamiento de mosto de fermentación",
+        "Precalentamiento de alimentación de destilación",
+        "Recuperación de calor de vinaza",
+        "Intercambio térmico en proceso de etanol combustible"
+      ],
+      "advantages": [
+        "En comparación con equipos de canales estrechos, el paso amplio maneja mejor mostos, vinazas y otras corrientes con partículas.",
+        "En comparación con intercambiadores de carcasa y tubos, el diseño de placas soldadas mejora la intensidad térmica en una disposición más compacta.",
+        "Las configuraciones horizontal y vertical permiten instalación flexible en plantas de etanol existentes."
+      ],
+      "application": "Producción de etanol combustible",
+      "description": "La producción de etanol combustible a partir de maíz, yuca u otras materias primas incluye fermentación y destilación, generando múltiples puntos de intercambio térmico. El intercambiador de espacio amplio puede instalarse horizontal o verticalmente y manejar corrientes viscosas, con sólidos suspendidos o tendencia a ensuciamiento."
+    },
+    {
+      "order": 4,
+      "used_in": [
+        "Enfriamiento de lechada precursora de LFP",
+        "Control de temperatura de molienda",
+        "Control de temperatura de precipitación y cristalización",
+        "Recuperación de calor en materiales de batería"
+      ],
+      "advantages": [
+        "En comparación con intercambiadores de canales estrechos, el espacio amplio maneja partículas sólidas en lechadas y reduce el riesgo de obstrucción.",
+        "En comparación con diseños con juntas, la construcción soldada elimina el riesgo de fuga de juntas en servicio con lechadas.",
+        "La alta eficiencia de transferencia térmica permite control preciso de temperatura durante precipitación y cristalización del precursor.",
+        "Las opciones 316L, acero dúplex 2205, titanio y aleaciones base níquel cubren diferentes requisitos de corrosión."
+      ],
+      "application": "Pretratamiento de fosfato de hierro y litio",
+      "description": "En la preparación de precursores de fosfato de hierro y litio, las etapas de molienda, precipitación, cristalización y recuperación de calor requieren calentamiento y enfriamiento controlados. El intercambiador de espacio amplio elimina el calor generado durante la molienda de lechadas y también puede precalentar lechadas viscosas y sensibles a la temperatura durante el arranque."
+    },
+    {
+      "order": 5,
+      "used_in": [
+        "Enfriamiento de condensado MDI",
+        "Recuperación de calor de agua negra de acetileno",
+        "Precalentamiento de alimentación de poliolefinas",
+        "Calentamiento y enfriamiento de lechadas químicas"
+      ],
+      "advantages": [
+        "En comparación con pasos estrechos convencionales, el canal amplio reduce el riesgo de bloqueo en corrientes químicas con partículas y ensuciamiento.",
+        "La estructura soldada evita el riesgo de fugas de juntas en medios de proceso exigentes.",
+        "El diseño de distribución en la entrada ayuda a reducir desgaste local en entradas de lodos o medios con partículas."
+      ],
+      "application": "Aplicaciones de procesos químicos",
+      "description": "En procesos químicos, los medios varían ampliamente y pueden contener partículas, fibras, alta viscosidad o componentes que generan ensuciamiento. El intercambiador de espacio amplio resuelve problemas de obstrucción y mantenimiento elevado en enfriamiento de condensado MDI, recuperación de calor de agua negra de acetileno y precalentamiento de alimentación de poliolefinas."
+    },
+    {
+      "order": 6,
+      "used_in": [
+        "Aguas residuales de papel",
+        "Aguas residuales textiles",
+        "Aguas residuales de alimentos",
+        "Aguas residuales farmacéuticas",
+        "Recuperación de calor de efluentes con sólidos"
+      ],
+      "advantages": [
+        "En comparación con canales de placas ordinarios, el paso amplio reduce obstrucciones por fibras y sólidos.",
+        "En comparación con limpieza manual frecuente, la operación estable de canal amplio reduce interrupciones de mantenimiento.",
+        "La construcción soldada sin juntas soporta operación continua en aguas residuales difíciles."
+      ],
+      "application": "Tratamiento de aguas residuales",
+      "description": "Las aguas residuales de papel, textil, alimentos y farmacéutica suelen contener fibras, sólidos suspendidos y otros componentes que pueden bloquear intercambiadores convencionales. El intercambiador de espacio amplio proporciona intercambio térmico estable en estos circuitos y ayuda a reducir pérdida de eficiencia y paradas."
     }
   ],
   "seo_data": {
@@ -66,6 +166,38 @@
     {
       "alt_text": "Wide Gap Welded Plate Heat Exchanger Plate Pattern",
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_5.png"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "Wide gap welded plate heat exchanger in alumina production",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_alumina_production_application_1.png",
+      "file_name": "wide_gap_alumina_production_application_1.png"
+    },
+    {
+      "alt_text": "Wide gap exchanger equipment for alumina cooling duty",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_alumina_production_application_2.png",
+      "file_name": "wide_gap_alumina_production_application_2.png"
+    },
+    {
+      "alt_text": "Wide gap welded plate heat exchanger for sugar industry",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_sugar_industry_application.jpeg",
+      "file_name": "wide_gap_sugar_industry_application.jpeg"
+    },
+    {
+      "alt_text": "Wide gap welded plate heat exchanger in fuel ethanol production",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_fuel_ethanol_application_1.png",
+      "file_name": "wide_gap_fuel_ethanol_application_1.png"
+    },
+    {
+      "alt_text": "Fuel ethanol heat exchange installation with wide gap exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_fuel_ethanol_application_2.jpeg",
+      "file_name": "wide_gap_fuel_ethanol_application_2.jpeg"
+    },
+    {
+      "alt_text": "Wide gap welded plate heat exchanger in chemical process service",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_chemical_process_application.png",
+      "file_name": "wide_gap_chemical_process_application.png"
     }
   ],
   "certificates": [

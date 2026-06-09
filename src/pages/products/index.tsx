@@ -12,6 +12,12 @@ import { RfqLink } from "../../utils/rfq-routing/link";
 import manufacturerScores from "../../data/manufacturer_scores.json";
 import { getLoadedTranslationResource } from "../../i18n/config";
 import type { LocaleResource } from "../../locales/resources";
+import {
+    compareManufacturerOrder,
+    getManufacturerScoreRecords,
+    getManufacturerSortOrder,
+    type ManufacturerScoreSource,
+} from "../../utils/manufacturer-ranking";
 
 interface Industry {
     id: number;
@@ -40,27 +46,11 @@ interface ProductListItem {
     url: string;
 }
 
-interface ManufacturerScore {
-    order: number;
-    manufacturer_slug: string;
-}
-
-interface ManufacturerScoreFile {
-    records: ManufacturerScore[];
-}
-
-type ManufacturerScoreSource = ManufacturerScore[] | ManufacturerScoreFile;
-
 type ProductsTranslationData = LocaleResource["pages"]["products"] & {
     list?: ProductListItem[];
 };
 
-const fallbackManufacturerOrder = 999;
 type ProductDropdown = "manufacturer" | "industry";
-
-function getManufacturerScoreRecords(source: ManufacturerScoreSource) {
-    return Array.isArray(source) ? source : source.records;
-}
 
 function getProductsTranslationData(language: string): ProductsTranslationData | null {
     return (getLoadedTranslationResource(language) as LocaleResource | undefined)?.pages.products as ProductsTranslationData | undefined || null;
@@ -138,11 +128,7 @@ export default function ProductsPage() {
                 mfgMap.set(p.manufacturer.slug, p.manufacturer);
             }
         });
-        return Array.from(mfgMap.values()).sort((a, b) => {
-            const orderA = signalsBySlug.get(a.slug)?.order ?? fallbackManufacturerOrder;
-            const orderB = signalsBySlug.get(b.slug)?.order ?? fallbackManufacturerOrder;
-            return orderA - orderB || a.name.localeCompare(b.name);
-        });
+        return Array.from(mfgMap.values()).sort((a, b) => compareManufacturerOrder(a, b, signalsBySlug));
     }, [productsList, signalsBySlug]);
 
     const sortedProducts = useMemo(() => (
@@ -151,8 +137,8 @@ export default function ProductsPage() {
                 product,
                 productOrder: product.order ?? index,
                 manufacturerOrder: product.manufacturer?.slug
-                    ? signalsBySlug.get(product.manufacturer.slug)?.order ?? fallbackManufacturerOrder
-                    : fallbackManufacturerOrder,
+                    ? getManufacturerSortOrder(product.manufacturer.slug, signalsBySlug)
+                    : getManufacturerSortOrder(undefined, signalsBySlug),
             }))
             .sort((a, b) => (
                 a.manufacturerOrder - b.manufacturerOrder
@@ -361,7 +347,7 @@ export default function ProductsPage() {
                         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                             {filteredProducts.map((product) => (
                                 <Link
-                                    key={product.slug}
+                                    key={product.url}
                                     to={addLanguageToPath(`/products/${product.url}`, currentLanguage)}
                                     className="group flex h-full flex-col overflow-hidden rounded-sm border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/20 hover:shadow-xl hover:shadow-primary/10"
                                 >

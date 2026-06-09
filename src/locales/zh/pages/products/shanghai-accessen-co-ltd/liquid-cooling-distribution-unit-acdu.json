@@ -32,6 +32,7 @@
       "content": "该产品采用预制化模块设计，可减少现场安装复杂度，从而支持更快的项目交付。"
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "ACDU高效节能液冷分配单元/液冷系统集成",
     "meta_description": "面向数据中心液冷系统的预制化液冷分配单元，具备自然冷却、自适应控制和快速部署能力。"
@@ -45,6 +46,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooling_distribution_unit_acdu.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

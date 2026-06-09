@@ -1,0 +1,64 @@
+{
+  "slug": "semi-welded-plate-heat-exchanger",
+  "name": "Semi-Welded Plate Heat Exchanger",
+  "full_description": "A semi-welded plate heat exchanger combines welded plate cassettes with gasketed joints between cassettes. The welded channel contains aggressive, toxic, refrigerant, or higher-pressure media, while the gasketed channel remains openable for cleaning and maintenance. This balance is useful in ammonia refrigeration, chemical cooling, petrochemical, HVAC, pharmaceutical, food, marine, oil and gas, and power-generation services.",
+  "industries": [
+    "HVAC",
+    "Petrochemical",
+    "Energy",
+    "Chemical Processing",
+    "Pharmaceuticals"
+  ],
+  "advantage": [
+    "Welded cassettes improve containment for refrigerants, acids, and other demanding media.",
+    "Gasketed service channels can be opened for inspection, cleaning, and gasket replacement.",
+    "Suitable for moderate pressure and temperature duties where full welding is not required on both sides.",
+    "The welded side can use titanium, Hastelloy, or other alloy materials for aggressive fluids.",
+    "Compact plate geometry supports high heat-transfer efficiency and lower hold-up volume.",
+    "Common fit for ammonia chillers, chemical cooling loops, marine service, oil and gas, and power auxiliaries."
+  ],
+  "technical_parameters": {
+    "Materials": "Stainless steel, titanium, Hastelloy, and gasket materials matched to media",
+    "Service side": "One welded channel and one gasketed openable channel",
+    "Plate cassette": "Paired plates laser-welded into semi-welded cassettes",
+    "Design pressure": "Typically up to 25-30 bar by duty and configuration",
+    "Design temperature": "Typically up to 200°C by gasket and material selection",
+    "Typical applications": "Ammonia refrigeration, acid cooling, chemical loops, petrochemical, HVAC, marine, oil and gas, and power auxiliaries"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Two-side strategy",
+      "content": "The welded side handles the more demanding fluid, while the gasketed side keeps maintenance access for water, glycol, or other service media."
+    },
+    {
+      "title": "Typical selection checks",
+      "content": "Confirm which fluid belongs on the welded side, gasket compatibility, cleaning method for both sides, allowable pressure drop, and ammonia or hazardous-fluid safety requirements."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Semi-Welded Plate Heat Exchanger",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. supplies semi-welded plate heat exchanger for industrial heat-transfer applications with project-specific material, pressure, temperature, and maintenance selection."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Semi-Welded Plate Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Semi-Welded Plate Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Semi-Welded Plate Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_3.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

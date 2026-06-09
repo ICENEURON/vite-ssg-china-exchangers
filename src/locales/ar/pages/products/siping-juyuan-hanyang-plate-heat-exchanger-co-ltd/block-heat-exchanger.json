@@ -16,11 +16,12 @@
     "يمكن لهيكل الكتلة المدمج أن يقلل من المساحة وتكلفة البناء مقارنة بالمبادلات الحرارية ذات الألواح القابلة للفصل."
   ],
   "technical_parameters": {
-    "Standards": "NB/T47004-2009; GB150-1998; API662 وASME عند الطلب",
-    "Patent No.": "200520127761.X"
+    "المعايير": "NB/T47004-2009; GB150-1998; API662 وASME عند الطلب",
+    "رقم براءة الاختراع": "200520127761.X"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "كتلة مبادل حراري",
     "meta_description": "مبادل حراري ملحوم حاصل على براءة اختراع يجمع بين كفاءة المبادل الحراري للوحة مع قدرة قوية على الختم والضغط ودرجة الحرارة."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/block_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

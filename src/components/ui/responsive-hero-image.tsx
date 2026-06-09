@@ -63,7 +63,6 @@ export function ResponsiveHeroImage({
           className={`h-full w-full object-cover ${imageClassName}`}
           loading="eager"
           decoding="async"
-          fetchPriority={priority ? 'high' : undefined}
         />
       </picture>
     </>

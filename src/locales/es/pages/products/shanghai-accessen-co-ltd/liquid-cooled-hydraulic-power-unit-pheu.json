@@ -12,15 +12,15 @@
     "Construcción robusta y resistente"
   ],
   "technical_parameters": {
-    "Power Supply": "380V~415VCA/50±1Hz",
-    "Altitude Range": "-30m~2500m",
-    "Primary Side Coolant": "Refrigerantes a base de agua/glicol",
-    "Secondary Side Coolant": "Agua desionizada, glicol, propilenglicol, fluidos fluorados",
-    "Storage Temperature Range": "-40°C~70°C",
-    "Operating Relative Humidity": "5%~95%",
-    "Operating Temperature Range": "5°C~50°C",
-    "Primary Side Filtration Rating": "200μm~300μm",
-    "Secondary Side Filtration Rating": "100μm~200μm"
+    "Rango de altitud": "-30m~2500m",
+    "Alimentación eléctrica": "380V~415VCA/50±1Hz",
+    "Humedad relativa de operación": "5%~95%",
+    "Refrigerante del lado primario": "Refrigerantes a base de agua/glicol",
+    "Refrigerante del lado secundario": "Agua desionizada, glicol, propilenglicol, fluidos fluorados",
+    "Rango de temperatura de operación": "5°C~50°C",
+    "Grado de filtración del lado primario": "200μm~300μm",
+    "Rango de temperatura de almacenamiento": "-40°C~70°C",
+    "Grado de filtración del lado secundario": "100μm~200μm"
   },
   "video_link": "",
   "details": [
@@ -33,6 +33,7 @@
       "content": "El sistema utiliza módulos prefabricados, alineación de plantilla de precisión y tuberías prefabricadas para que el trabajo de campo solo requiera conexiones roscadas o bridadas, lo que reduce el tiempo de instalación y la soldadura en el sitio."
     }
   ],
+  "applications": null,
   "seo_data": {
     "meta_title": "Unidad de potencia hidráulica refrigerada por líquido PHEU",
     "meta_description": "Unidad de energía hidráulica modular refrigerada por líquido que integra PHE, bombas y sistemas de tratamiento de agua para la infraestructura de refrigeración líquida del centro de datos."
@@ -46,6 +47,7 @@
       "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooled_hydraulic_power_unit_pheu.png"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }

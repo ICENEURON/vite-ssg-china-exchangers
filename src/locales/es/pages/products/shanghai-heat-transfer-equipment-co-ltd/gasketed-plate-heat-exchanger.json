@@ -20,14 +20,14 @@
     "Versatilidad del material: Las opciones de materiales para placas y juntas incluyen acero inoxidable austenítico, acero dúplex, titanio, aleaciones de níquel, NBR, EPDM, FKM y soluciones de cojín de PTFE."
   ],
   "technical_parameters": {
-    "Max Area": "4000㎡",
-    "Nozzle Size": "DN32 ~ DN500",
-    "Profile Depth": "1,8 ~ 10,0 mm",
-    "Plate Material": "Acero inoxidable austenítico, Acero dúplex, Titanio y aleación de titanio, Níquel y aleación de níquel",
-    "Design Pressure": "Vacío ~ 3,6 MPa",
-    "Gasket Material": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, cojín de PTFE",
-    "Plate Thickness": "0,4 ~ 1,0 mm",
-    "Design Temperature": "<= 180 ℃"
+    "Área máxima": "4000㎡",
+    "Espesor de placa": "0,4 ~ 1,0 mm",
+    "Material de juntas": "NBR (NS), HNBR, EPDM (ES), H-EPDM, FKM, cojín de PTFE",
+    "Material de placas": "Acero inoxidable austenítico, Acero dúplex, Titanio y aleación de titanio, Níquel y aleación de níquel",
+    "Presión de diseño": "Vacío ~ 3,6 MPa",
+    "Tamaño de boquilla": "DN32 ~ DN500",
+    "Profundidad del perfil": "1,8 ~ 10,0 mm",
+    "Temperatura de diseño": "<= 180 ℃"
   },
   "video_link": "https://www.youtube.com/watch?v=AK423r7fJuU",
   "details": [
@@ -42,6 +42,106 @@
     {
       "title": "¿Cómo se diseña y fabrica?",
       "content": "La placa de transferencia de calor es el elemento central y se desarrolla con herramientas CAD, CFD, CAE y CAM para optimizar la geometría, el sellado y la resistencia a la presión de la placa. Durante la ingeniería, primero se definen el servicio requerido, el caudal, el programa de temperatura, la caída de presión, el patrón de placas, los materiales, la disposición de los pasos y la selección de juntas, luego se fabrican y ensamblan el marco, las boquillas y el paquete de placas antes de las pruebas de presión, fugas y rendimiento."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Enfriamiento de licor madre refinado de alúmina",
+        "Enfriamiento de licor de aluminato de sodio",
+        "Enfriamiento del proceso Bayer",
+        "Intercambio térmico en descomposición de alúmina"
+      ],
+      "advantages": [
+        "En comparación con equipos soldados, el marco desmontable facilita inspección y limpieza en licores propensos a incrustación.",
+        "En comparación con carcasa y tubos, la estructura de placas ofrece alta eficiencia térmica y diseño compacto.",
+        "Los materiales de placas y juntas pueden adaptarse a medios alcalinos del proceso de alúmina."
+      ],
+      "application": "Enfriamiento de licor madre refinado de alúmina",
+      "description": "El intercambiador de placas con juntas se utiliza para enfriar licor madre refinado en la producción de alúmina por proceso Bayer. Esta aplicación afecta directamente producción y consumo energético, y requiere diseño antiescalante, materiales resistentes a corrosión, capacidad de presión y fácil apertura para limpieza."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Calentamiento y enfriamiento de proceso POE",
+        "Circuitos auxiliares de polímeros",
+        "Control de temperatura de procesos químicos",
+        "Corrientes limpias de temperatura moderada"
+      ],
+      "advantages": [
+        "En comparación con equipos soldados fijos, el paquete desmontable permite inspección, limpieza y ajuste de capacidad.",
+        "En comparación con carcasa y tubos, la estructura de placas mejora la eficiencia en circuitos limpios de servicios.",
+        "Diversos materiales de placas y juntas soportan diferentes servicios de proceso polimérico."
+      ],
+      "application": "Control térmico de proceso POE",
+      "description": "La producción de elastómeros poliolefínicos requiere control estricto de temperatura para materiales avanzados como películas de encapsulado solar y componentes automotrices ligeros. El intercambiador con juntas es adecuado para circuitos limpios o de temperatura moderada donde importan transferencia compacta y mantenimiento."
+    },
+    {
+      "order": 3,
+      "used_in": [
+        "Aislamiento de presión en calefacción urbana",
+        "Redes de calefacción de larga distancia",
+        "Intercambio primario-secundario",
+        "Estaciones municipales de calefacción"
+      ],
+      "advantages": [
+        "En comparación con conexión directa de red, la estación con intercambiador aísla presión y mejora seguridad.",
+        "En comparación con carcasa y tubos, la estructura de placas logra alta eficiencia térmica con menor huella.",
+        "La estructura desmontable permite inspección, limpieza y ajuste del paquete durante operación de calefacción."
+      ],
+      "application": "Estación de aislamiento de presión para calefacción urbana",
+      "description": "En redes de calefacción urbana de larga distancia, una estación de aislamiento separa presiones de red y transfiere calor entre circuitos primario y secundario. El intercambiador con juntas soporta mayores niveles de presión, cargas térmicas unitarias altas y grandes áreas ensambladas."
+    },
+    {
+      "order": 4,
+      "used_in": [
+        "Producción de fosfato de hierro",
+        "Precursor catódico LFP",
+        "Enfriamiento de reactor de síntesis",
+        "Recuperación de calor de medios de proceso",
+        "Recuperación de calor de gases de secado y horno"
+      ],
+      "advantages": [
+        "Para líquidos con temperatura y presión moderadas, un intercambiador con juntas puede ser más económico que equipos soldados.",
+        "El paquete desmontable facilita limpieza e inspección cuando hay sólidos o incrustación.",
+        "El control de materiales de placas y juntas ayuda a reducir contaminación metálica no deseada en procesos de materiales de batería."
+      ],
+      "application": "Producción de fosfato de hierro para baterías",
+      "description": "El fosfato de hierro es un precursor clave de materiales catódicos LFP. En su producción, los intercambiadores de placas se usan para aprovechamiento energético entre corrientes de proceso, control preciso de reactores de síntesis mediante circulación externa y recuperación de calor de gases de secado u horno."
+    },
+    {
+      "order": 5,
+      "used_in": [
+        "Enfriamiento auxiliar de centrales",
+        "Sistemas cerrados de agua de enfriamiento",
+        "Intercambio auxiliar de turbina y generador",
+        "Enfriamiento de proceso en energía"
+      ],
+      "advantages": [
+        "En comparación con placas convencionales, los diseños de alta eficiencia pueden mejorar coeficiente térmico y reducir caída de presión.",
+        "En comparación con carcasa y tubos, la estructura de placas y marco reduce huella y simplifica mantenimiento.",
+        "El diseño y fabricación basados en ASME pueden respaldar requisitos de calidad de proyectos eléctricos."
+      ],
+      "application": "Enfriamiento auxiliar en centrales eléctricas",
+      "description": "Las centrales eléctricas requieren intercambiadores con control preciso de temperatura, adaptabilidad y confiabilidad a largo plazo. El intercambiador con juntas puede aplicarse en enfriamiento auxiliar y servicios de intercambio térmico, con placas de alta eficiencia que mejoran transferencia y reducen caída de presión."
+    },
+    {
+      "order": 6,
+      "used_in": [
+        "Enfriador central marino",
+        "Enfriador de aceite lubricante",
+        "Enfriador de agua de camisa",
+        "Sistema de enfriamiento con agua de mar",
+        "Enfriamiento auxiliar a bordo"
+      ],
+      "advantages": [
+        "En comparación con enfriadores de carcasa y tubos, la estructura de placas y marco es más compacta y fácil de abrir para mantenimiento.",
+        "Las placas de titanio mejoran resistencia a corrosión por agua de mar.",
+        "La estructura desmontable ayuda a operadores marinos a limpiar e inspeccionar durante mantenimiento programado."
+      ],
+      "application": "Enfriamiento central marino",
+      "description": "Los sistemas de enfriamiento marino requieren confiabilidad, diseño compacto, control de corrosión y mantenimiento fácil. El intercambiador con juntas es adecuado para enfriadores centrales, de aceite lubricante y de agua de camisa, con placas de titanio y soporte de clasificación marina para agua de mar."
     }
   ],
   "seo_data": {
@@ -67,6 +167,18 @@
     {
       "alt_text": "Gasketed Plate Heat Exchanger Plate Detail",
       "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_heat_exchanger_4.jpg"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "Gasketed plate heat exchanger for power plant cooling",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/gasketed_power_plant_application.jpeg",
+      "file_name": "gasketed_power_plant_application.jpeg"
+    },
+    {
+      "alt_text": "Gasketed plate heat exchanger for marine central cooling",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/gasketed_marine_central_cooling_application.jpeg",
+      "file_name": "gasketed_marine_central_cooling_application.jpeg"
     }
   ],
   "certificates": [

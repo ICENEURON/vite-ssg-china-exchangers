@@ -16,11 +16,12 @@
     "Компактная блочная конструкция позволяет сократить занимаемые площади и затраты на строительство по сравнению со съемными пластинчатыми теплообменниками."
   ],
   "technical_parameters": {
-    "Standards": "NB/T47004-2009; ГБ150-1998; API662 и ASME по запросу.",
-    "Patent No.": "200520127761.X"
+    "Стандарты": "NB/T47004-2009; ГБ150-1998; API662 и ASME по запросу.",
+    "Номер патента": "200520127761.X"
   },
   "video_link": "",
   "details": [],
+  "applications": null,
   "seo_data": {
     "meta_title": "Блочный теплообменник",
     "meta_description": "Запатентованный сварной блочный теплообменник, сочетающий эффективность пластинчатого теплообменника с высокой герметичностью, устойчивостью к давлению и температуре."
@@ -34,6 +35,7 @@
       "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/block_heat_exchanger_1.jpg"
     }
   ],
+  "application_images": [],
   "certificates": [],
   "documents": []
 }
