@@ -8,6 +8,7 @@ import { useTranslation } from 'react-i18next'
 import { useCurrentLanguage, addLanguageToPath } from '../../../utils/language-routing'
 import { QuoteCta } from '../../../components/ui/quote-cta'
 import { BrandText } from '../../../components/ui/brand-text'
+import { ManufacturerLogo } from '../../../components/ui/manufacturer-logo'
 import { RfqLink } from '../../../utils/rfq-routing/link'
 import countriesData from '../../../data/countries.json'
 
@@ -231,7 +232,10 @@ export default function ManufacturerProfilePage() {
 
                     <div className="container relative mx-auto w-full max-w-7xl px-4">
                         <div className="flex w-full max-w-full min-w-0 flex-col items-center justify-between gap-4 text-center lg:flex-row lg:items-start lg:gap-x-8 lg:gap-y-4 lg:text-left">
-                            <div className="min-w-0 flex-1 self-center space-y-6 lg:self-start">
+                            <div className="min-w-0 flex flex-1 flex-col self-center gap-6 lg:self-start">
+                                <div className="mx-auto -mb-3 inline-flex w-fit max-w-full items-center bg-white px-2 py-1 lg:mx-0">
+                                    <ManufacturerLogo slug={slug} name={basicInfo.name} className="block" />
+                                </div>
                                 <h1 className="break-words text-4xl lg:text-7xl font-extrabold tracking-tight leading-tight">
                                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-100 via-white to-blue-200 drop-shadow-sm">
                                         {basicInfo?.name}

@@ -1,5 +1,6 @@
 import { ArrowRight, MapPin } from "lucide-react"
 import { Badge } from "../../../components/ui/badge";
+import { ManufacturerLogo } from "../../../components/ui/manufacturer-logo";
 import { useTranslation } from "react-i18next"
 
 interface ManufacturerProps {
@@ -9,6 +10,7 @@ interface ManufacturerProps {
     description: string;
     tags: string[];
     link: string;
+    slug: string;
 }
 
 export function ManufacturerCard({ company }: { company: ManufacturerProps }) {
@@ -19,6 +21,7 @@ export function ManufacturerCard({ company }: { company: ManufacturerProps }) {
             <div className="flex items-start">
                 <a href={company.link} className="min-w-0 flex-1">
                     <div className="min-h-[3.5rem]">
+                        <ManufacturerLogo slug={company.slug} name={company.name} className="mb-2 block" />
                         <h3
                             className="text-base font-bold leading-6 text-foreground transition-colors duration-300 group-hover:text-primary md:text-[22px] md:leading-7"
                         >

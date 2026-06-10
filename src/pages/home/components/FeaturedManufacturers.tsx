@@ -1,5 +1,6 @@
 import { ArrowRight, Factory } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { ManufacturerLogo } from "../../../components/ui/manufacturer-logo";
 import manufacturerScores from "../../../data/manufacturer_scores.json";
 import { addLanguageToPath, useCurrentLanguage } from "../../../utils/language-routing";
 import { compareManufacturerOrder, getManufacturerScoreRecords, type ManufacturerScoreSource } from "../../../utils/manufacturer-ranking";
@@ -56,6 +57,7 @@ export function FeaturedManufacturers() {
                                 key={manufacturer.slug}
                                 className="group py-5 text-left transition-colors duration-200 hover:bg-slate-50 md:px-3"
                             >
+                                <ManufacturerLogo slug={manufacturer.slug} name={manufacturer.name} className="mb-2 block" />
                                 <h3 className="text-left text-lg font-bold leading-7 text-foreground">
                                     <a href={profilePath} className="underline-offset-4 transition-colors duration-200 group-hover:text-primary group-hover:underline">
                                         {manufacturer.name}

@@ -224,6 +224,7 @@ export default function ManufacturersPage() {
                     description: company.short_description || '',
                     tags: company.industries || [],
                     link: addLanguageToPath(`/manufacturers/${company.slug}`, currentLanguage),
+                    slug: company.slug,
                   }}
                 />
               ))}
