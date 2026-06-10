@@ -9,6 +9,7 @@ import { HowItWorks } from "./components/HowItWorks";
 import { IndustryNewsFocus } from "./components/IndustryNewsFocus";
 import { FeaturedManufacturers } from "./components/FeaturedManufacturers";
 import { HighlightedArticles } from "./components/HighlightedArticles";
+import { BuyerRfqSpotlight } from "./components/BuyerRfqSpotlight";
 
 export default function HomePage() {
   const { t } = useTranslation("translation");
@@ -62,6 +63,7 @@ export default function HomePage() {
 
       <div className="min-h-screen">
         <HeroSection />
+        <BuyerRfqSpotlight />
         <FeaturedManufacturers />
         <CategoryShowcase />
         <IndustryNewsFocus />

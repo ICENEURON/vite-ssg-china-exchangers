@@ -525,8 +525,8 @@ export function ProductAndSpecsStep({ data, mode, files, onChange, onFilesChange
 
                 <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                     {([
-                        ["quick", t("step2.quickModeTitle", { defaultValue: "Quick RFQ" }), t("step2.quickModeDesc", { defaultValue: "Use this when you know the application but not all design parameters yet." })],
-                        ["advanced", t("step2.advancedModeTitle", { defaultValue: "Advanced RFQ" }), t("step2.advancedModeDesc", { defaultValue: "Use this when you already have operating data, materials, and connection standards." })],
+                        ["quick", t("step2.quickModeTitle", { defaultValue: "Quick quote request" }), t("step2.quickModeDesc", { defaultValue: "Use this when you know the application but not all design parameters yet." })],
+                        ["advanced", t("step2.advancedModeTitle", { defaultValue: "Detailed quote request" }), t("step2.advancedModeDesc", { defaultValue: "Use this when you already have operating data, materials, and connection standards." })],
                     ] as const).map(([value, title, description]) => (
                         <button
                             key={value}

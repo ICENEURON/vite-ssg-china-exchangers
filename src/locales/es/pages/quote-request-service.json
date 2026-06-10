@@ -1,0 +1,90 @@
+{
+  "title": "Servicio de solicitud de cotización para intercambiadores de calor | HeatEx Direct",
+  "meta": {
+    "description": "Envíe una solicitud estructurada de intercambiador de calor, verifique un correo real y deje que HeatEx Direct revise la necesidad y ayude a iniciar seguimiento de cotización con fabricantes chinos adecuados.",
+    "keywords": "servicio de solicitud de cotización de intercambiador de calor, cotización de intercambiador de calor, solicitud de intercambiador de calor, fabricantes chinos de intercambiadores de calor, compra de intercambiadores de calor"
+  },
+  "og": {
+    "title": "Servicio de solicitud de cotización para intercambiadores de calor",
+    "description": "Una solicitud, varios fabricantes adecuados y protección inicial de los datos de contacto para el seguimiento de cotización."
+  },
+  "hero": {
+    "title": "Servicio de solicitud de cotización para intercambiadores de calor",
+    "description": "Envíe una solicitud estructurada, verifique un correo real y deje que HeatEx Direct revise el proyecto antes de ayudarle a contactar fabricantes adecuados."
+  },
+  "summary": [
+    {
+      "title": "Sin correos repetidos a distintas empresas",
+      "body": "Concentre producto, condiciones de operación, cantidad, planos y preguntas en una sola solicitud para que el seguimiento sea más claro."
+    },
+    {
+      "title": "Una solicitud, varias fábricas adecuadas",
+      "body": "Filtramos fabricantes más adecuados por tipo de producto, sector y etapa del proyecto."
+    },
+    {
+      "title": "Contacto protegido primero",
+      "body": "Puede elegir una solicitud anónima. Protegemos su información personal antes de contactar fábricas."
+    }
+  ],
+  "stepsTitle": "El proceso es simple",
+  "stepsDescription": "Prepare la necesidad, verifique su correo y luego HeatEx Direct ayuda a iniciar el seguimiento de cotización con fabricantes adecuados.",
+  "steps": [
+    {
+      "title": "Envíe una necesidad real",
+      "body": "Indique tipo de producto, parámetros de operación, materiales, cantidad, plazo de entrega, planos y preguntas aún no resueltas."
+    },
+    {
+      "title": "Verifique un correo real",
+      "body": "No se necesita cuenta, pero sí verificar el correo para que la cotización y las preguntas técnicas lleguen a un comprador real."
+    },
+    {
+      "title": "Revisión manual y contacto con fabricantes",
+      "body": "HeatEx Direct filtra fabricantes adecuados por producto, sector y etapa del proyecto, y ayuda a iniciar el seguimiento de cotización."
+    }
+  ],
+  "cta": {
+    "title": "Empiece a preparar una solicitud clara de intercambiador de calor",
+    "description": "Si tiene un proyecto real, una necesidad de reemplazo o una pregunta técnica, envíe la información que ya conoce. Un contexto más claro hace más preciso el seguimiento de cotización.",
+    "button": "Empezar solicitud"
+  },
+  "schema": {
+    "name": "Servicio de solicitud de cotización para intercambiadores de calor",
+    "description": "HeatEx Direct ayuda a compradores a enviar solicitudes estructuradas de intercambiadores de calor, verificar correo, revisar manualmente los requisitos y abrir seguimiento de cotización con fabricantes adecuados.",
+    "serviceType": "Servicio de solicitud de cotización para intercambiadores de calor"
+  },
+  "eyebrow": "Servicio de solicitud de cotización",
+  "serviceTitle": "Qué es este servicio",
+  "serviceDescription": "HeatEx Direct organiza su necesidad de intercambiador de calor en una solicitud clara y luego ayuda a contactar fabricantes adecuados según tipo de producto, condiciones de operación y etapa del proyecto.",
+  "routingTitle": "Correo y rango de contacto",
+  "routingHeading": "Cómo organizamos el seguimiento de fabricantes",
+  "routingDescription": "Un correo con dominio de empresa e información completa facilita que los fabricantes evalúen la autenticidad del proyecto. También se pueden enviar solicitudes con correo personal; primero ayudamos a contactar a un número menor de fabricantes más adecuados.",
+  "metrics": [
+    {
+      "label": "Solicitud calificada con correo empresarial",
+      "value": "3-5",
+      "body": "Puede recibir ayuda para contactar 3-5 fabricantes adecuados para seguimiento de cotización."
+    },
+    {
+      "label": "Correo personal",
+      "value": "2",
+      "body": "Normalmente se ayuda a contactar hasta 2 fabricantes adecuados."
+    },
+    {
+      "label": "Objetivo de revisión",
+      "value": "2d",
+      "body": "Se procesa en 2 días hábiles tras verificar el correo y completar la información."
+    }
+  ],
+  "routingTiers": [
+    {
+      "title": "Correo empresarial",
+      "value": "3-5",
+      "body": "Cuando se envía desde un dominio de empresa con información completa, priorizamos ayudar a iniciar seguimiento de cotización con 3-5 fabricantes adecuados."
+    },
+    {
+      "title": "Correo personal",
+      "value": "Hasta 2",
+      "body": "Las solicitudes calificadas desde correo personal normalmente comienzan con hasta 2 fabricantes adecuados."
+    }
+  ]
+}

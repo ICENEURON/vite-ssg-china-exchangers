@@ -6,6 +6,7 @@ import { WhoWeAre } from './components/WhoWeAre'
 import { ProblemSection } from './components/ProblemSection'
 import { VerificationGrid } from './components/VerificationGrid'
 import { AboutCTA } from './components/AboutCTA'
+import { AboutQuoteServiceBand } from './components/AboutQuoteServiceBand'
 
 export default function AboutPage() {
   const { t } = useTranslation("translation");
@@ -30,6 +31,7 @@ export default function AboutPage() {
         <AboutHero />
         <WhoWeAre />
         <ProblemSection />
+        <AboutQuoteServiceBand />
         <VerificationGrid />
         <AboutCTA />
       </main>

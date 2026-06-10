@@ -23,7 +23,7 @@ export function FeaturedManufacturers() {
     const manufacturersPath = addLanguageToPath("/manufacturers", currentLanguage);
 
     return (
-        <section className="flex justify-center bg-white px-2 pb-8 pt-14">
+        <section className="flex justify-center bg-white px-2 pb-8 pt-8 md:pt-10">
             <div className="container flex max-w-6xl flex-col gap-8 px-4">
                 <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
                     <div className="max-w-3xl">

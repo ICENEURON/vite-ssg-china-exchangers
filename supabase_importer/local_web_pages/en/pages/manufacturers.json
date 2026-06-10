@@ -3,34 +3,34 @@
   "no_results": "No manufacturers found matching the selected filters.",
   "clear_all": "Clear All",
   "filter_industry": "Industry",
-  "title": "Verified Heat Exchanger Manufacturers | HeatEx Direct",
+  "title": "Chinese Heat Exchanger Manufacturer Profiles | HeatEx Direct",
   "meta": {
-    "description": "Browse a focused platform of reviewed Chinese heat exchanger manufacturers with industry, company profile, product coverage, and export market details.",
-    "keywords": "verified heat exchanger manufacturers, China heat exchanger factories, manufacturer platform, industrial heat exchanger sourcing"
+    "description": "Browse structured Chinese heat exchanger manufacturer profiles with company context, product coverage, application scope, documents, and quote request routing support.",
+    "keywords": "Chinese heat exchanger manufacturers, China heat exchanger factories, heat exchanger supplier profiles, industrial heat exchanger sourcing"
   },
   "og": {
-    "title": "Verified Heat Exchanger Manufacturers | HeatEx Direct",
-    "description": "Browse reviewed Chinese heat exchanger manufacturers and quickly narrow suppliers by industry."
+    "title": "Chinese Heat Exchanger Manufacturer Profiles | HeatEx Direct",
+    "description": "Browse structured Chinese heat exchanger manufacturer profiles and use managed quote request routing for suitable quotation follow-up."
   },
   "hero": {
     "title": "Chinese Heat Exchanger Manufacturers",
     "description": "Browse listed Chinese heat exchanger manufacturers and review their company profiles, product coverage, application experience, and export markets to identify suppliers that fit your sourcing needs."
   },
   "card": {
-    "verified": "VERIFIED",
+    "verified": "PROFILED",
     "view_profile": "View Profile"
   },
   "company": {
     "page_title": "Manufacturer Profile",
     "meta_description_default": "Manufacturer Profile",
     "back_to_list": "Back to Manufacturers",
-    "connect_note": "Share your specs, quantity, and project needs. HeatEx Direct will organize the inquiry and pass it to matching heat exchanger manufacturers for follow-up.",
+    "connect_note": "Share specifications, quantity, and project needs. HeatEx Direct reviews complete quote requests and can route business email requests to 3-5 suitable manufacturers within 2 business days; personal email requests are usually routed to up to 2.",
     "quote_here": "Request for Quote",
     "iso_certified": "ISO Certified",
     "asme_stamp": "ASME Stamp",
     "business_license": "Business Lic.",
     "global_trade": "Global Trade",
-    "verified": "Reviewed",
+    "verified": "Profiled",
     "not_available": "N/A",
     "company_overview": "Company Overview",
     "why_choose_us": "Why Choose Us",
@@ -44,7 +44,7 @@
     "trusted_customers": "Trusted by Global Leaders",
     "trusted_customers_desc": "Delivering excellence to major players across industries.",
     "partner_with": "Partner with {{name}}",
-    "partner_desc": "Get verified quality and direct-from-factory pricing.",
+    "partner_desc": "Submit a structured quote request for manual review. If the request is complete and verified, HeatEx Direct can route it to suitable manufacturers for quotation follow-up.",
     "established": "Est. {{year}}",
     "factory_area_summary": "Site area {{value}} m²",
     "employee_count_summary": "Employees {{value}}",

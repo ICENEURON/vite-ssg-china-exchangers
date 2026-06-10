@@ -29,6 +29,7 @@ const allRoutes: RouteDef[] = [
     { path: "/products", lazy: async () => ({ Component: (await import("../../pages/products")).default }), auth: "public", nav: "none", mobile: "none", label: "Products", translationKey: "navigation.menu.products" },
     { path: "/products/:manufacturerSlug/:productSlug", lazy: async () => ({ Component: (await import("../../pages/products/product")).default }), auth: "public", nav: "none", mobile: "none" },
 
+    { path: "/quote-request-service", lazy: async () => ({ Component: (await import("../../pages/quote-request-service")).default }), auth: "public", nav: "none", mobile: "public", label: "Quote Request Service", translationKey: "navigation.menu.quote_service" },
     { path: "/quote-request", lazy: async () => ({ Component: (await import("../../pages/rfq")).default }), auth: "public", nav: "none", mobile: "public", label: "Get Quote", translationKey: "navigation.menu.rfq" },
 
     { path: "/update-your-profile", lazy: async () => ({ Component: (await import("../../pages/update-your-profile")).default }), auth: "public", nav: "public", mobile: "public", label: "Update Your Profile", translationKey: "navigation.menu.profile" },

@@ -11,6 +11,7 @@ import { addLanguageToPath, getLanguageFromPath } from '../../../utils/language-
 import { RfqLink } from '../../../utils/rfq-routing/link'
 import { getLoadedTranslationResource } from '../../../i18n/config'
 import type { LocaleResource } from '../../../locales/resources'
+import { ProductRfqRequirements } from './components/ProductRfqRequirements'
 
 interface ProductImageAsset {
     alt_text?: string;
@@ -546,6 +547,8 @@ export default function ProductProfilePage() {
                             </div>
                         </section>
                     )}
+
+                    <ProductRfqRequirements productName={name} />
 
                 </div>
             </main>

@@ -203,12 +203,12 @@
     "verification": "Vérification",
     "submit": "Soumettre"
   },
-  "title": "Générateur de demandes de devis intelligents - Obtenez des devis personnalisés pour les échangeurs de chaleur",
-  "description": "Créez une demande de devis professionnelle en quelques minutes. Mode anonyme disponible. Obtenez des devis de fabricants vérifiés.",
-  "navbarTitle": "Formulaire de demande de devis",
+  "title": "Demande de devis pour échangeur de chaleur - Suivi fabricant géré",
+  "description": "Aucune inscription requise. Vérifiez votre e-mail et décrivez le projet réel afin que des fabricants adaptés puissent répondre plus précisément.",
+  "navbarTitle": "Demande de devis échangeur de chaleur",
   "step1": {
     "title": "1. Contexte du projet",
-    "subtitle": "Partagez le contexte de base du projet afin que nous puissions acheminer la demande de devis avec précision.",
+    "subtitle": "Partagez le contexte du projet nécessaire pour juger si la demande est assez complète pour être transmise à des fabricants.",
     "firstNameLabel": "Prénom",
     "firstNamePlaceholder": "",
     "lastNameLabel": "Nom de famille",
@@ -294,9 +294,9 @@
     "additionalNotesLabel": "Notes supplémentaires/exigences personnalisées",
     "additionalNotesPlaceholder": "Du matériel spécifique est-il nécessaire? Des contraintes de dimensions? Des certifications nécessaires? (Max 500 caractères)",
     "requestModeTitle": "Niveau de détail de la demande",
-    "quickModeTitle": "RFQ rapide",
+    "quickModeTitle": "demande de devis rapide",
     "quickModeDesc": "À utiliser lorsque vous connaissez l'application, mais pas encore tous les paramètres de conception.",
-    "advancedModeTitle": "RFQ avancée",
+    "advancedModeTitle": "demande de devis avancée",
     "advancedModeDesc": "À utiliser lorsque vous disposez déjà des données d'exploitation, des matériaux et des standards de raccordement.",
     "basicRequirementTitle": "Besoin de base",
     "productTypeLabel": "Type de produit",
@@ -320,16 +320,16 @@
   "step3": {
     "accessCodePlaceholder": "Code",
     "title": "3. Vérification",
-    "subtitle": "Vérifiez votre e-mail afin que les usines puissent répondre à une vraie demande.",
+    "subtitle": "Vérifiez votre e-mail afin que HeatEx Direct puisse acheminer une demande réelle et que les fabricants puissent assurer le suivi.",
     "verifiedTitle": "E-mail déjà vérifié!",
     "continueBtn": "Continuer vers la soumission finale",
-    "verifySubtitle": "Pour garantir une correspondance de fournisseurs de haute qualité et protéger votre identité, veuillez vérifier votre adresse e-mail.",
+    "verifySubtitle": "La vérification de l’e-mail réduit le spam, confirme un contact réel et permet aux fabricants adaptés d’assurer le suivi après examen.",
     "emailLabel": "Adresse email",
     "emailPlaceholder": "E-mail",
-    "freeEmailTitle": "E-mail personnel détecté.",
-    "freeEmailDesc": "Votre demande sera distribuée à un maximum de 2 usines. Utilisez une adresse e-mail professionnelle pour atteindre plus de 5 usines vérifiées.",
-    "businessEmailTitle": "Le courrier électronique professionnel permet à votre demande de se démarquer.",
-    "businessEmailDesc": "Il peut atteindre plus de 5 usines vérifiées tout en protégeant votre identité.",
+    "freeEmailTitle": "Adresse e-mail personnelle détectée.",
+    "freeEmailDesc": "Une demande qualifiée envoyée depuis une adresse personnelle ou gratuite est généralement transmise à 2 fabricants adaptés au maximum.",
+    "businessEmailTitle": "Une adresse professionnelle renforce la crédibilité de la demande.",
+    "businessEmailDesc": "Les demandes complètes et vérifiées envoyées depuis une adresse professionnelle sont examinées par HeatEx Direct sous 2 jours ouvrables et transmises à 3-5 fabricants adaptés pour le suivi du devis.",
     "sendBtn": "Envoyer le code de vérification",
     "sendingBtn": "Envoi...",
     "codeSentTo": "Code envoyé à",
@@ -355,8 +355,8 @@
     "anonymousModeDesc": "Les usines ne peuvent pas voir votre courrier électronique directement. Nous gérons la communication.",
     "publicModeDesc": "Les usines peuvent voir vos informations de courrier électronique directement.",
     "sourceManufacturerTargetTitle": "Envoyer à",
-    "sourceManufacturerTargetEnabledDesc": "Étant donné que vous êtes entré à partir d'une page associée, cette demande de devis sera envoyée à cette entreprise. D'autres opportunités de devis peuvent être acheminées vers d'autres fabricants.",
-    "sourceManufacturerTargetDisabledDesc": "Cette demande de devis ne sera pas spécifiquement adressée à la société source. Elle sera acheminée comme une demande de devis générale.",
+    "sourceManufacturerTargetEnabledDesc": "Cette demande donnera priorité au fabricant source lorsque c’est pertinent, et HeatEx Direct peut aussi la transmettre à d’autres fabricants adaptés selon le type de produit, le secteur et les conditions de service.",
+    "sourceManufacturerTargetDisabledDesc": "Cette demande ne ciblera pas spécifiquement le fabricant source. HeatEx Direct examinera le type de produit, le secteur et les conditions de service pour identifier des fabricants adaptés.",
     "projectContextTitle": "1. Contexte du projet",
     "productSpecsTitle": "2. Paramètres de conception et d'équipement",
     "editBtn": "Modifier",
@@ -441,7 +441,7 @@
   },
   "success": {
     "title": "Soumis!",
-    "desc": "Nous avons traité avec succès votre demande de devis. Nous vous contacterons sous peu pour vous aider dans les prochaines étapes.",
+    "desc": "Votre demande a été reçue. Si l’e-mail est vérifié et les informations du projet complètes, HeatEx Direct l’examinera sous 2 jours ouvrables et la transmettra selon le type d’e-mail. Si des paramètres clés manquent, nous pouvons d’abord demander des précisions.",
     "homeBtn": "Retour à la maison"
   },
   "actions": {
@@ -449,10 +449,38 @@
     "continue": "Continuer"
   },
   "meta": {
-    "keywords": "demande de devis échangeur de chaleur, échangeur de chaleur RFQ, devis échangeur de chaleur à plaques, spécifications échangeur de chaleur industriel, devis fabricant échangeur de chaleur"
+    "keywords": "demande de devis échangeur de chaleur, échangeur de chaleur demande de devis, devis échangeur de chaleur à plaques, spécifications échangeur de chaleur industriel, devis fabricant échangeur de chaleur"
   },
   "og": {
-    "title": "Générateur de demandes de devis intelligents - Obtenez des devis personnalisés pour les échangeurs de chaleur",
-    "description": "Créez une demande de devis professionnelle en quelques minutes. Mode anonyme disponible. Obtenez des devis de fabricants vérifiés."
+    "title": "Demande de devis pour échangeur de chaleur - Suivi fabricant géré",
+    "description": "Envoyez une demande structurée. HeatEx Direct examine les demandes complètes et vérifiées et les transmet sous 2 jours ouvrables: e-mail professionnel à 3-5 fabricants adaptés, e-mail personnel jusqu’à 2."
+  },
+  "entry": {
+    "title": "Notes du formulaire",
+    "description": "Aucun compte requis. Nous vérifions l’e-mail pour joindre un acheteur réel, examiner la demande et la transmettre aux fabricants adaptés.",
+    "close": "Fermer",
+    "reviewOptions": "Notes du formulaire",
+    "reopenCta": "Notes du formulaire",
+    "primaryCta": "Entrer dans le formulaire",
+    "points": [
+      {
+        "title": "Aucun compte requis",
+        "body": "Remplissez directement la demande."
+      },
+      {
+        "title": "L’e-mail doit être vérifié",
+        "body": "Nous examinons et transmettons seulement après confirmation de l’e-mail."
+      },
+      {
+        "title": "Des détails clairs aident",
+        "body": "Conditions, spécifications, quantité, délai, plans et questions ouvertes aident la sélection."
+      }
+    ]
+  },
+  "spotlight": {
+    "title": "Une demande, plusieurs fabricants",
+    "description": "Évitez les e-mails répétés et l’envoi initial de vos coordonnées à chaque fabricant. HeatEx Direct organise et examine votre demande avant de la transmettre à des fabricants adaptés; vos coordonnées restent protégées jusqu’à confirmation des détails.",
+    "primaryCta": "Commencer la demande",
+    "serviceCta": "Voir le service de demande"
   }
 }

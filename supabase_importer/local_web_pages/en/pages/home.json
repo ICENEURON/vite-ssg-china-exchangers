@@ -1,22 +1,22 @@
 {
   "title": "HeatEx Direct | Chinese Heat Exchanger Manufacturers Platform",
   "meta": {
-    "description": "HeatEx Direct helps global industrial buyers research Chinese heat exchanger manufacturers, compare product capabilities, and submit structured heat exchanger quote requests.",
+    "description": "HeatEx Direct helps global industrial buyers research Chinese heat exchanger manufacturers, compare product capabilities, and submit structured quote requests for managed routing to suitable manufacturers within 2 business days.",
     "keywords": "China heat exchanger manufacturers, Chinese heat exchanger suppliers, industrial heat exchanger manufacturers, plate heat exchanger manufacturer, welded plate heat exchanger, shell and tube heat exchanger, air cooled heat exchanger, heat exchanger quote request"
   },
   "og": {
     "title": "HeatEx Direct - Chinese Heat Exchanger Manufacturer Research",
-    "description": "Research structured manufacturer profiles, compare industrial heat exchanger product capabilities, read technical articles, and submit verified-email quote requests."
+    "description": "Compare manufacturer profiles, review product capabilities, and submit a verified quote request that HeatEx Direct can route to 3-5 suitable manufacturers when sent from a business email."
   },
   "schema": {
-    "organizationDescription": "HeatEx Direct is an independent international sourcing research service focused on Chinese heat exchanger manufacturers. It helps global industrial buyers compare product capabilities, review supplier evidence, read technical sourcing content, and submit verified-email quote requests.",
-    "websiteDescription": "A bilingual sourcing research service for global buyers comparing Chinese heat exchanger manufacturers, industrial heat exchanger products, supplier evidence, technical sourcing content, and structured quote request submission."
+    "organizationDescription": "HeatEx Direct is an independent international sourcing research service focused on Chinese heat exchanger manufacturers. It helps global industrial buyers compare product capabilities, review supplier evidence, read technical sourcing content, and submit verified quote requests that can be routed to suitable manufacturers.",
+    "websiteDescription": "A bilingual sourcing research service for global buyers comparing Chinese heat exchanger manufacturers, industrial heat exchanger products, supplier evidence, technical sourcing content, and managed quote request routing."
   },
   "hero": {
     "eyebrow": "Chinese heat exchanger manufacturer platform",
     "title": "Source Chinese Heat Exchanger Manufacturers with Clear Factory, Product, and Application Information",
     "subtitle": "HeatEx Direct helps global procurement teams, engineers, project contractors, distributors, and system integrators identify, evaluate, and compare Chinese heat exchanger manufacturers before starting supplier conversations.",
-    "description": "The platform brings together manufacturer profiles, product categories, application sectors, factory evidence, technical notes, and a Get Quote workflow that helps buyers submit project requirements and receive quotation feedback from suitable manufacturers.",
+    "description": "The platform brings together manufacturer profiles, product categories, application sectors, factory evidence, technical notes, and a managed quote request workflow. Complete, verified business email quote requests can be routed to 3-5 suitable manufacturers within 2 business days; personal email quote requests are usually limited to up to 2.",
     "paths": [
       {
         "title": "Browse manufacturers",
@@ -25,6 +25,10 @@
       {
         "title": "Explore products",
         "body": "View product details, technical parameters, advantages, applications, materials, and related manufacturers."
+      },
+      {
+        "title": "Submit quote request",
+        "body": "Send a structured request for manual review, manufacturer matching, and quotation follow-up."
       }
     ]
   },
@@ -123,8 +127,8 @@
   },
   "howItWorks": {
     "eyebrow": "Get Quote Workflow",
-    "title": "Submit requirements and receive manufacturer quotation feedback",
-    "description": "A useful heat exchanger quotation starts with clear operating conditions. The Get Quote form helps buyers submit project details so HeatEx Direct can review the information, share it with suitable manufacturers, and collect quotation feedback for the buyer to compare.",
+    "title": "Submit requirements for managed manufacturer follow-up",
+    "description": "A useful heat exchanger quotation starts with clear operating conditions. HeatEx Direct reviews complete, verified quote requests and routes them within 2 business days according to email type and project fit.",
     "steps": [
       {
         "title": "Check Fit",
@@ -136,11 +140,11 @@
       },
       {
         "title": "Verify Email",
-        "body": "No account registration is required. Email verification helps confirm the request and enables follow-up."
+        "body": "No account registration is required. Email verification confirms the request and determines whether it follows the business email or personal email routing tier."
       },
       {
         "title": "Receive Feedback",
-        "body": "HeatEx Direct reviews your request, shares it with suitable manufacturers, and returns quotation feedback for your reference."
+        "body": "Complete business email quote requests can be shared with 3-5 suitable manufacturers. Personal email quote requests are usually shared with up to 2."
       }
     ]
   }

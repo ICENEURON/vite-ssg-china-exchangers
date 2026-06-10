@@ -203,12 +203,12 @@
     "verification": "身份验证",
     "submit": "确认提交"
   },
-  "title": "换热器询价表单 - 定制报价",
-  "description": "几分钟内自动生成专业的询价单。支持匿名模式，快速获得经过认证的制造商报价。",
-  "navbarTitle": "换热器询价表单",
+  "title": "换热器询价服务 - HeatEx Direct",
+  "description": "填写真实工况、数量和交期，验证邮箱后进入人工审核和厂家匹配。",
+  "navbarTitle": "换热器询价",
   "step1": {
     "title": "1. 项目背景",
-    "subtitle": "填写基础项目背景信息，便于我们准确分发询价。",
+    "subtitle": "填写项目背景，便于我们判断该询价是否具备可供制造商评估的完整信息。",
     "firstNameLabel": "名字",
     "firstNamePlaceholder": "",
     "lastNameLabel": "姓氏",
@@ -296,7 +296,7 @@
     "requestModeTitle": "需求详细程度",
     "quickModeTitle": "快速询价",
     "quickModeDesc": "适合已知应用场景，但暂时没有完整设计参数的情况。",
-    "advancedModeTitle": "高级询价",
+    "advancedModeTitle": "详细询价",
     "advancedModeDesc": "适合已经有工况数据、材料和连接标准的情况。",
     "basicRequirementTitle": "基本需求",
     "productTypeLabel": "产品类型",
@@ -320,16 +320,16 @@
   "step3": {
     "accessCodePlaceholder": "验证码",
     "title": "3. 身份验证",
-    "subtitle": "请验证您的邮箱，方便工厂回复真实询价。",
+    "subtitle": "请验证邮箱，方便 HeatEx Direct 转发真实询价并支持厂家后续跟进。",
     "verifiedTitle": "邮箱已验证！",
     "continueBtn": "继续进行最终提交",
-    "verifySubtitle": "为了确保高质量的供应商匹配并保护您的身份，请验证您的电子邮件地址。",
+    "verifySubtitle": "邮箱验证有助于减少垃圾询价、确认真实联系方式，并让合适制造商可以后续跟进。",
     "emailLabel": "电子邮件地址",
     "emailPlaceholder": "邮箱",
     "freeEmailTitle": "检测到个人邮箱。",
-    "freeEmailDesc": "您的询盘将分发给最多2家工厂。使用企业邮箱可覆盖5家以上认证工厂。",
-    "businessEmailTitle": "企业邮箱更能提升询价可信度。",
-    "businessEmailDesc": "可发送给5家以上认证工厂，同时保护您的身份信息。",
+    "freeEmailDesc": "个人邮箱或免费邮箱提交的合格询价，通常最多协助联系2家合适制造商。",
+    "businessEmailTitle": "企业邮箱有助于提高询价可信度。",
+    "businessEmailDesc": "企业邮箱提交且信息完整的合格询价，HeatEx Direct 可在2个工作日内协助联系3-5家合适制造商。",
     "sendBtn": "发送验证码",
     "sendingBtn": "发送中...",
     "codeSentTo": "验证码已发送至",
@@ -355,8 +355,8 @@
     "anonymousModeDesc": "工厂无法直接看到您的邮箱。我们将协助沟通。",
     "publicModeDesc": "工厂可以直接看到您的邮箱信息。",
     "sourceManufacturerTargetTitle": "定向发送给",
-    "sourceManufacturerTargetEnabledDesc": "因为您是从相关页面进入，启用后会确定给这家公司发消息，其他询价机会会随机分配给其他公司。",
-    "sourceManufacturerTargetDisabledDesc": "关闭后，不会专门发送给来源公司，将按普通询价随机分配给其他公司。",
+    "sourceManufacturerTargetEnabledDesc": "你选择允许原始制造商身份被看到，HeatEx Direct 可在转发时保留目标厂家信息。",
+    "sourceManufacturerTargetDisabledDesc": "你选择隐藏原始制造商身份，HeatEx Direct 会在转发前尽量移除目标厂家线索。",
     "projectContextTitle": "1. 项目背景",
     "productSpecsTitle": "2. 设计与设备参数",
     "editBtn": "编辑",
@@ -441,7 +441,7 @@
   },
   "success": {
     "title": "提交成功！",
-    "desc": "我们已经成功处理了您的询价请求。我们将很快与您联系，协助您完成接下来的步骤。",
+    "desc": "你的询价已提交并等待邮箱验证。HeatEx Direct 会在2个工作日内审核完整信息，并协助与合适制造商建立报价沟通。",
     "homeBtn": "返回首页"
   },
   "actions": {
@@ -449,10 +449,85 @@
     "continue": "继续"
   },
   "meta": {
-    "keywords": "换热器询价, 换热器报价, 板式换热器询价, 工业换热器采购, 中国换热器制造商"
+    "keywords": "换热器询价, 换热器报价, 板式换热器报价, 工业换热器规格, 换热器厂家报价"
   },
   "og": {
-    "title": "换热器询价表单 - 定制报价",
-    "description": "几分钟内自动生成专业的询价单。支持匿名模式，快速获得经过认证的制造商报价。"
+    "title": "换热器询价服务 - HeatEx Direct",
+    "description": "填写真实工况和采购需求，验证邮箱后由 HeatEx Direct 审核并匹配合适制造商。"
+  },
+  "entry": {
+    "title": "表单说明",
+    "description": "无需注册账号，但需要验证邮箱。请尽量写清真实工况、规格、数量、交期和疑问，我们会先审核，再协助联系合适厂家跟进。",
+    "close": "关闭",
+    "reviewOptions": "表单说明",
+    "reopenCta": "表单说明",
+    "primaryCta": "进入询价表单",
+    "points": [
+      {
+        "title": "无需注册账号",
+        "body": "直接填写需求即可。"
+      },
+      {
+        "title": "需要验证邮箱",
+        "body": "确认真实联系方式后，再审核和转发。"
+      },
+      {
+        "title": "写清需求",
+        "body": "工况、规格、数量、交期、图纸和疑问都可以写。"
+      }
+    ]
+  },
+  "spotlight": {
+    "eyebrow": "询价跟进服务",
+    "title": "一个询单，多家工厂跟进",
+    "description": "不用给不同公司重复发邮件，也不用一开始就把联系方式发给每家工厂。HeatEx Direct 先整理和审核你的询价信息，再协助联系合适厂家；确认细节前，默认保护你的联系方式。",
+    "primaryCta": "开始询价",
+    "secondaryCta": "了解流程",
+    "serviceCta": "了解询价服务",
+    "points": [
+      {
+        "title": "不用重复发邮件",
+        "body": "把工况、数量、交期和疑问集中写在一个询单里。"
+      },
+      {
+        "title": "一个询单，多个厂家",
+        "body": "合格询价可协助联系多个合适制造商跟进报价。"
+      },
+      {
+        "title": "先保护联系方式",
+        "body": "确认细节前，不直接向厂家透露你的联系信息。"
+      }
+    ],
+    "routingScale": [
+      {
+        "label": "企业邮箱",
+        "value": "3-5",
+        "body": "信息完整的合格询价，可在2个工作日内协助联系3-5家合适制造商。"
+      },
+      {
+        "label": "个人邮箱",
+        "value": "2",
+        "body": "信息完整的合格询价，通常最多协助联系2家合适制造商。"
+      },
+      {
+        "label": "审核目标",
+        "value": "2天",
+        "body": "邮箱验证且信息完整后，2个工作日内处理。"
+      }
+    ],
+    "facts": [
+      {
+        "title": "直接填写需求",
+        "body": "直接填写需求，再验证邮箱。"
+      },
+      {
+        "title": "按项目情况处理",
+        "body": "产品类型、应用、材料和项目背景一起判断。"
+      },
+      {
+        "title": "方便后续跟进",
+        "body": "结构化信息让厂家更容易评估和回复。"
+      }
+    ]
   }
 }

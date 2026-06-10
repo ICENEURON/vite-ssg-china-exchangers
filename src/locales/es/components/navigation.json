@@ -16,7 +16,8 @@
     "dashboard": "Panel",
     "logout": "Cerrar sesión",
     "terms": "Términos",
-    "privacy": "Privacidad"
+    "privacy": "Privacidad",
+    "quote_service": "Servicio de solicitud de cotización"
   },
   "breadcrumb": {
     "home": "Hogar"

@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useLocation, useSearchParams } from "react-router-dom"
 import { SeoHead } from '../../components/seo/SeoHead'
 import { Button } from "../../components/ui/button"
-import { ArrowLeft, ArrowRight, Check } from "lucide-react"
+import { ArrowLeft, ArrowRight, Check, Info } from "lucide-react"
 import { ProgressTracker } from "./components/ProgressTracker"
 import { ContextStep, type RqfContextData } from "./components/ContextStep"
 import { ProductAndSpecsStep, type RfqProductSpecsData, type RfqSpecsMode } from "./components/ProductAndSpecsStep"
@@ -19,6 +19,7 @@ import manufacturersData from "../../data/manufacturers.json"
 import { ensureLanguageResource, getLoadedTranslationResource } from "../../i18n/config"
 import type { SupportedLanguage } from "../../locales/languages"
 import type { LocaleResource } from "../../locales/resources"
+import { RfqEntryDialog } from "./components/RfqEntryDialog"
 
 interface SourceManufacturer {
   slug: string;
@@ -283,6 +284,7 @@ export default function SmartRfqBuilder() {
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [specsMode, setSpecsMode] = useState<RfqSpecsMode>("quick")
+  const [isEntryDialogOpen, setIsEntryDialogOpen] = useState(true)
   const [rfqFiles, setRfqFiles] = useState<File[]>([])
   const trackedRfqEvents = useRef(new Set<string>())
 
@@ -643,19 +645,28 @@ export default function SmartRfqBuilder() {
       />
 
       <main className="min-h-[80vh] bg-slate-50 text-foreground pb-24">
+        <RfqEntryDialog
+          open={isEntryDialogOpen}
+          onClose={() => setIsEntryDialogOpen(false)}
+        />
+
         {/* Top Navigation Bar */}
-        <div className="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div className="sticky top-0 z-20 bg-white/80 backdrop-blur-md border-b border-slate-200">
           <div className="container mx-auto px-4 h-16 flex items-center justify-between">
             <span className="font-bold text-lg text-slate-900">{t("navbarTitle")}</span>
+            <Button
+              variant="nonbackground"
+              size="sm"
+              className="rounded-sm border border-primary/20 bg-white px-3 font-bold text-primary shadow-sm hover:bg-primary/5 hover:!text-primary"
+              onClick={() => setIsEntryDialogOpen(true)}
+            >
+              <Info className="mr-1.5 h-4 w-4" />
+              {t("entry.reopenCta")}
+            </Button>
           </div>
         </div>
 
-        <div className="container mx-auto px-4 max-w-6xl pt-8">
-          <div className="mx-auto mb-6 max-w-3xl text-center">
-            <h1 className="text-2xl font-bold text-slate-950 md:text-4xl">{t("navbarTitle")}</h1>
-            <p className="mt-3 text-sm leading-6 text-slate-600 md:text-base">{t("description")}</p>
-          </div>
-
+        <div className="container mx-auto px-4 max-w-6xl pt-6">
           <ProgressTracker currentStep={step} />
 
           <div className="mt-8">
@@ -773,7 +784,7 @@ export default function SmartRfqBuilder() {
 
         {/* Floating Action Footer */}
         {(!isSubmitted && step < 4) && (
-          <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-4 shadow-bottom-bar z-50">
+          <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-4 shadow-bottom-bar z-30">
             <div className="container mx-auto max-w-4xl flex items-center justify-between">
 
               <div className="flex items-center gap-4">

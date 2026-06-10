@@ -17,7 +17,7 @@
   },
   "cta": {
     "title": "Vous ne savez pas de quel produit vous avez besoin?",
-    "description": "Notre outil interactif de demande de devis vous aide à spécifier les paramètres de votre application et nous vous mettrons en contact avec des fabricants vérifiés qui produisent exactement l'échangeur de chaleur dont vous avez besoin."
+    "description": "Envoyez des paramètres d’application structurés. HeatEx Direct examine les demandes complètes et transmet les demandes qualifiées à des fabricants adaptés selon l’adéquation du projet."
   },
   "detail": {
     "back_to_manufacturer": "Retour à la page du fabricant",
@@ -31,7 +31,33 @@
     "download": "Télécharger",
     "applications": "Applications du produit",
     "application_advantages": "Avantages",
-    "application_used_in": "Utilisation dans"
+    "application_used_in": "Utilisation dans",
+    "rfq_requirements": {
+      "title": "Préparer une demande de devis produit",
+      "heading": "Préparer une demande plus facile à suivre pour {{productName}}",
+      "description": "Pour un suivi de devis plus fluide, indiquez conditions réelles, quantité, normes, matériaux et calendrier.",
+      "checklistTitle": "Informations utiles au suivi",
+      "cta": "Commencer la demande",
+      "serviceCta": "Voir le service de demande",
+      "items": [
+        {
+          "title": "Données d’exploitation",
+          "body": "Fluides, débit, températures entrée/sortie, pression et charge thermique."
+        },
+        {
+          "title": "Limites mécaniques",
+          "body": "Matériau, code de conception, brides, pression nominale et corrosion."
+        },
+        {
+          "title": "Contexte commercial",
+          "body": "Quantité, délai cible, destination et étape du projet."
+        },
+        {
+          "title": "Fichiers ou questions",
+          "body": "Fiches techniques, plans, photos ou points à clarifier."
+        }
+      ]
+    }
   },
   "categories": {},
   "meta": {

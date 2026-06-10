@@ -16,6 +16,7 @@ import privacy from './pages/privacy.json';
 import contact from './pages/contact.json';
 import news from './pages/industry-news.json';
 import rfq from './pages/rfq.json';
+import quoteRequestService from './pages/quote-request-service.json';
 import register from './pages/register.json';
 import notFound from './pages/404.json';
 
@@ -70,6 +71,7 @@ export default {
     manufacturers: manufacturersData,
     products: productsData,
     rfq,
+    quoteRequestService,
     profile,
     cms,
     about,

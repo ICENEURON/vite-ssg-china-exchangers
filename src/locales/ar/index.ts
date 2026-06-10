@@ -42,6 +42,7 @@ const home = readPageFile('./pages/home.json', 'home');
 const manufacturers = readPageFile('./pages/manufacturers.json', 'manufacturers');
 const manufacturersList = readLocaleFile('./pages/manufacturers/list.json', fallback.pages.manufacturers?.list as TranslationTree);
 const rfq = readPageFile('./pages/rfq.json', 'rfq');
+const quoteRequestService = readPageFile('./pages/quote-request-service.json', 'quoteRequestService');
 const profile = readPageFile('./pages/update-your-profile.json', 'profile');
 const cms = readPageFile('./pages/content-marketing-services.json', 'cms');
 const about = readPageFile('./pages/about.json', 'about');
@@ -101,6 +102,7 @@ export default {
     manufacturers: manufacturersData,
     products: productsData,
     rfq,
+    quoteRequestService,
     profile,
     cms,
     about,

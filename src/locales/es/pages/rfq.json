@@ -203,12 +203,12 @@
     "verification": "Verificación",
     "submit": "Entregar"
   },
-  "title": "Generador de solicitudes de cotización inteligente: obtenga cotizaciones personalizadas para intercambiadores de calor",
-  "description": "Cree una solicitud de cotización profesional en minutos. Modo anónimo disponible. Obtenga cotizaciones de fabricantes verificados.",
-  "navbarTitle": "Formulario de solicitud de cotización",
+  "title": "Solicitud de cotización para intercambiadores de calor - Seguimiento gestionado de fabricantes",
+  "description": "No se necesita registro. Verifique su correo y describa el proyecto real para que fabricantes adecuados puedan responder con mayor precisión.",
+  "navbarTitle": "Solicitud de cotización de intercambiador de calor",
   "step1": {
     "title": "1. Contexto del proyecto",
-    "subtitle": "Comparta el contexto básico del proyecto para que podamos enviar la solicitud de cotización con precisión.",
+    "subtitle": "Comparta el contexto del proyecto necesario para evaluar si la solicitud está suficientemente completa para enviarla a fabricantes.",
     "firstNameLabel": "Nombre de pila",
     "firstNamePlaceholder": "",
     "lastNameLabel": "Apellido",
@@ -294,9 +294,9 @@
     "additionalNotesLabel": "Notas adicionales/requisitos personalizados",
     "additionalNotesPlaceholder": "¿Se requiere algún material específico? ¿Restricciones de dimensiones? ¿Se necesitan certificaciones? (Máximo 500 caracteres)",
     "requestModeTitle": "Nivel de detalle de la solicitud",
-    "quickModeTitle": "RFQ rápida",
+    "quickModeTitle": "solicitud de cotización rápida",
     "quickModeDesc": "Úselo cuando conoce la aplicación, pero aún no tiene todos los parámetros de diseño.",
-    "advancedModeTitle": "RFQ avanzada",
+    "advancedModeTitle": "solicitud de cotización avanzada",
     "advancedModeDesc": "Úselo cuando ya cuenta con datos de operación, materiales y estándares de conexión.",
     "basicRequirementTitle": "Requisito básico",
     "productTypeLabel": "Tipo de producto",
@@ -320,16 +320,16 @@
   "step3": {
     "accessCodePlaceholder": "Código",
     "title": "3. Verificación",
-    "subtitle": "Verifique su correo electrónico para que las fábricas puedan responder a una solicitud real.",
+    "subtitle": "Verifique su correo para que HeatEx Direct pueda dirigir una solicitud real y los fabricantes puedan hacer seguimiento.",
     "verifiedTitle": "¡Correo electrónico ya verificado!",
     "continueBtn": "Continuar al envío final",
-    "verifySubtitle": "Para garantizar una coincidencia de proveedores de alta calidad y proteger su identidad, verifique su dirección de correo electrónico.",
+    "verifySubtitle": "La verificación del correo reduce el spam, confirma una vía de contacto real y permite que fabricantes adecuados den seguimiento después de la revisión.",
     "emailLabel": "Dirección de correo electrónico",
     "emailPlaceholder": "Correo electrónico",
-    "freeEmailTitle": "Correo electrónico personal detectado.",
-    "freeEmailDesc": "Su solicitud se distribuirá a un máximo de 2 fábricas. Utilice un correo electrónico comercial para llegar a más de 5 fábricas verificadas.",
-    "businessEmailTitle": "El correo electrónico comercial ayuda a que su solicitud se destaque.",
-    "businessEmailDesc": "Puede llegar a más de 5 fábricas verificadas manteniendo su identidad protegida.",
+    "freeEmailTitle": "Correo personal detectado.",
+    "freeEmailDesc": "Una solicitud calificada desde un correo personal o gratuito normalmente se envía hasta a 2 fabricantes adecuados.",
+    "businessEmailTitle": "El correo empresarial mejora la confianza de la solicitud.",
+    "businessEmailDesc": "Las solicitudes completas y verificadas desde un correo empresarial son revisadas por HeatEx Direct en un plazo de 2 días hábiles y enviadas a 3-5 fabricantes adecuados para seguimiento de cotización.",
     "sendBtn": "Enviar código de verificación",
     "sendingBtn": "Envío...",
     "codeSentTo": "Código enviado a",
@@ -355,8 +355,8 @@
     "anonymousModeDesc": "Las fábricas no pueden ver su correo electrónico directamente. Gestionamos la comunicación.",
     "publicModeDesc": "Las fábricas pueden ver su información de correo electrónico directamente.",
     "sourceManufacturerTargetTitle": "Enviar a",
-    "sourceManufacturerTargetEnabledDesc": "Debido a que ingresó desde una página relacionada, esta solicitud de cotización se enviará a esa empresa. Es posible que se dirijan otras oportunidades de cotización a otros fabricantes.",
-    "sourceManufacturerTargetDisabledDesc": "Esta solicitud de cotización no se enviará específicamente a la empresa fuente. Se enviará como una solicitud de cotización general.",
+    "sourceManufacturerTargetEnabledDesc": "Esta solicitud priorizará al fabricante de origen cuando sea relevante, y HeatEx Direct también puede dirigirla a otros fabricantes adecuados según tipo de producto, sector y condiciones de operación.",
+    "sourceManufacturerTargetDisabledDesc": "Esta solicitud no se dirigirá específicamente al fabricante de origen. HeatEx Direct revisará tipo de producto, sector y condiciones de operación para identificar fabricantes adecuados.",
     "projectContextTitle": "1. Contexto del proyecto",
     "productSpecsTitle": "2. Parámetros de diseño y equipamiento.",
     "editBtn": "Editar",
@@ -441,7 +441,7 @@
   },
   "success": {
     "title": "¡Enviado!",
-    "desc": "Hemos procesado con éxito su solicitud de cotización. Nos comunicaremos en breve para ayudarle con los próximos pasos.",
+    "desc": "Su solicitud fue recibida. Si el correo está verificado y la información del proyecto está completa, HeatEx Direct la revisará en un plazo de 2 días hábiles y la dirigirá según el tipo de correo. Si faltan parámetros clave, podemos pedir aclaración primero.",
     "homeBtn": "Regreso a casa"
   },
   "actions": {
@@ -449,10 +449,38 @@
     "continue": "Continuar"
   },
   "meta": {
-    "keywords": "Solicitud de cotización de intercambiador de calor, intercambiador de calor RFQ, cotización de intercambiador de calor de placas, especificaciones de intercambiador de calor industrial, cotización de fabricante de intercambiador de calor"
+    "keywords": "Solicitud de cotización de intercambiador de calor, intercambiador de calor solicitud de cotización, cotización de intercambiador de calor de placas, especificaciones de intercambiador de calor industrial, cotización de fabricante de intercambiador de calor"
   },
   "og": {
-    "title": "Generador de solicitudes de cotización inteligente: obtenga cotizaciones personalizadas para intercambiadores de calor",
-    "description": "Cree una solicitud de cotización profesional en minutos. Modo anónimo disponible. Obtenga cotizaciones de fabricantes verificados."
+    "title": "Solicitud de cotización para intercambiadores de calor - Seguimiento gestionado de fabricantes",
+    "description": "Envíe una solicitud estructurada. HeatEx Direct revisa solicitudes completas y verificadas y las dirige en 2 días hábiles: correo empresarial a 3-5 fabricantes adecuados, correo personal hasta 2."
+  },
+  "entry": {
+    "title": "Notas del formulario",
+    "description": "No se necesita registro. Verificamos el correo para poder contactar a un comprador real, revisar la solicitud y enviarla a fabricantes adecuados.",
+    "close": "Cerrar",
+    "reviewOptions": "Notas del formulario",
+    "reopenCta": "Notas del formulario",
+    "primaryCta": "Entrar al formulario",
+    "points": [
+      {
+        "title": "No se necesita registro",
+        "body": "Complete la solicitud directamente."
+      },
+      {
+        "title": "El correo debe verificarse",
+        "body": "Revisamos y enviamos solo después de confirmar el correo de contacto."
+      },
+      {
+        "title": "Los detalles claros ayudan",
+        "body": "Condiciones, especificaciones, cantidad, plazo, planos y dudas abiertas ayudan a la selección."
+      }
+    ]
+  },
+  "spotlight": {
+    "title": "Una solicitud, varios fabricantes",
+    "description": "Deje de repetir correos y evite enviar sus datos de contacto a cada fabricante desde el inicio. HeatEx Direct organiza y revisa su solicitud antes de reenviarla a fabricantes adecuados; sus datos se protegen hasta confirmar los detalles.",
+    "primaryCta": "Empezar solicitud",
+    "serviceCta": "Ver servicio de solicitud"
   }
 }

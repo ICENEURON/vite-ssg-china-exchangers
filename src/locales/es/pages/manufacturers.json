@@ -3,34 +3,34 @@
   "no_results": "No se encontraron fabricantes que coincidan con los filtros seleccionados.",
   "clear_all": "Borrar todo",
   "filter_industry": "Industria",
-  "title": "Fabricantes verificados de intercambiadores de calor | HeatEx Direct",
+  "title": "Perfiles de fabricantes chinos de intercambiadores de calor | HeatEx Direct",
   "meta": {
-    "description": "Explore una plataforma enfocada de fabricantes chinos de intercambiadores de calor revisados ​​con detalles de la industria, el perfil de la empresa, la cobertura de productos y el mercado de exportación.",
-    "keywords": "fabricantes de intercambiadores de calor verificados, fábricas de intercambiadores de calor de China, plataforma de fabricantes, abastecimiento de intercambiadores de calor industriales"
+    "description": "Explore perfiles estructurados de fabricantes chinos de intercambiadores de calor con contexto de empresa, cobertura de productos, aplicaciones, documentos y soporte de enrutamiento de solicitudes.",
+    "keywords": "fabricantes chinos de intercambiadores de calor, fábricas de intercambiadores de calor en China, perfiles de proveedores de intercambiadores de calor, compra industrial de intercambiadores de calor"
   },
   "og": {
-    "title": "Fabricantes verificados de intercambiadores de calor | HeatEx Direct",
-    "description": "Busque fabricantes chinos de intercambiadores de calor revisados ​​y seleccione rápidamente proveedores por industria."
+    "title": "Perfiles de fabricantes chinos de intercambiadores de calor | HeatEx Direct",
+    "description": "Explore perfiles estructurados de fabricantes chinos de intercambiadores de calor y use el enrutamiento gestionado de solicitudes para seguimiento de cotización."
   },
   "hero": {
     "title": "Fabricantes chinos de intercambiadores de calor",
     "description": "Explore los fabricantes chinos de intercambiadores de calor que figuran en la lista y revise los perfiles de sus empresas, la cobertura de productos, la experiencia en aplicaciones y los mercados de exportación para identificar proveedores que se ajusten a sus necesidades de abastecimiento."
   },
   "card": {
-    "verified": "VERIFIED",
+    "verified": "PERFILADO",
     "view_profile": "Ver perfil"
   },
   "company": {
     "page_title": "Perfil del fabricante",
     "meta_description_default": "Perfil del fabricante",
     "back_to_list": "Volver a Fabricantes",
-    "connect_note": "Comparta sus especificaciones, cantidad y necesidades del proyecto. HeatEx Direct organizará la consulta y la transmitirá a los fabricantes de intercambiadores de calor correspondientes para su seguimiento.",
+    "connect_note": "Comparta especificaciones, cantidad y necesidades del proyecto. HeatEx Direct revisa solicitudes completas y puede dirigir solicitudes con correo empresarial a 3-5 fabricantes adecuados en 2 días hábiles; las solicitudes con correo personal normalmente se dirigen hasta a 2.",
     "quote_here": "Solicitud de Cotización",
     "iso_certified": "Certificado ISO",
     "asme_stamp": "Sello ASME",
     "business_license": "Lic. de Negocios.",
     "global_trade": "Comercio mundial",
-    "verified": "Revisado",
+    "verified": "Perfilado",
     "not_available": "N/A",
     "company_overview": "Descripción general de la empresa",
     "why_choose_us": "¿Por qué elegirnos?",
@@ -44,7 +44,7 @@
     "trusted_customers": "Con la confianza de los líderes globales",
     "trusted_customers_desc": "Brindar excelencia a los principales actores de todas las industrias.",
     "partner_with": "Socio con {{name}}",
-    "partner_desc": "Obtenga calidad verificada y precios directos de fábrica.",
+    "partner_desc": "Envíe una solicitud estructurada para revisión manual. Si la solicitud está completa y verificada, HeatEx Direct puede dirigirla a fabricantes adecuados para seguimiento de cotización.",
     "established": "Est. {{year}}",
     "factory_area_summary": "Área del sitio {{value}} m²",
     "employee_count_summary": "Empleados {{value}}",

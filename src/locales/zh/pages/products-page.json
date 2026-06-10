@@ -17,7 +17,7 @@
   },
   "cta": {
     "title": "不确定您需要哪种产品？",
-    "description": "我们的互动式询价工具可以帮助您指定应用参数，我们将为您匹配能够生产所需换热器的已验证制造商。"
+    "description": "提交结构化应用参数。HeatEx Direct 会审核信息完整的询价，并按项目匹配度转给合适制造商跟进报价。"
   },
   "detail": {
     "back_to_manufacturer": "返回制造商页面",
@@ -31,7 +31,33 @@
     "download": "下载",
     "applications": "产品应用",
     "application_advantages": "优势",
-    "application_used_in": "应用领域"
+    "application_used_in": "应用领域",
+    "rfq_requirements": {
+      "title": "准备产品询价",
+      "heading": "为 {{productName}} 准备方便跟进的询价信息",
+      "description": "想让后续报价沟通更顺畅，尽量写清真实工况、数量、标准、材料和项目时间。",
+      "checklistTitle": "这些信息有助于后续跟进",
+      "cta": "开始询价",
+      "serviceCta": "了解询价服务",
+      "items": [
+        {
+          "title": "运行工况",
+          "body": "介质、流量、进出口温度、压力和热负荷。"
+        },
+        {
+          "title": "机械要求",
+          "body": "材料、设计标准、法兰标准、压力等级和腐蚀问题。"
+        },
+        {
+          "title": "采购背景",
+          "body": "数量、目标交期、目的地和项目阶段。"
+        },
+        {
+          "title": "文件或疑问",
+          "body": "数据表、图纸、照片，或希望厂家确认的问题。"
+        }
+      ]
+    }
   },
   "categories": {},
   "meta": {

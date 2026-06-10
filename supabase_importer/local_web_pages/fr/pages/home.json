@@ -1,22 +1,22 @@
 {
   "title": "HeatEx Direct | Plateforme chinoise des fabricants d’échangeurs de chaleur",
   "meta": {
-    "description": "HeatEx Direct aide les acheteurs industriels mondiaux à rechercher les fabricants chinois d'échangeurs de chaleur, à comparer les capacités des produits et à soumettre des demandes de devis structurées pour les échangeurs de chaleur.",
+    "description": "HeatEx Direct aide les acheteurs industriels internationaux à rechercher des fabricants chinois d’échangeurs de chaleur, comparer les capacités produits et envoyer des demandes structurées pour un acheminement géré vers des fabricants adaptés sous 2 jours ouvrables.",
     "keywords": "Fabricants d'échangeurs de chaleur en Chine, fournisseurs d'échangeurs de chaleur chinois, fabricants d'échangeurs de chaleur industriels, fabricant d'échangeurs de chaleur à plaques, échangeur de chaleur à plaques soudées, échangeur de chaleur à calandre et à tubes, échangeur de chaleur refroidi par air, demande de devis d'échangeur de chaleur"
   },
   "og": {
     "title": "HeatEx Direct - Recherche sur un fabricant chinois d'échangeurs de chaleur",
-    "description": "Recherchez des profils de fabricants structurés, comparez les capacités des produits d'échangeurs de chaleur industriels, lisez des articles techniques et soumettez des demandes de devis par courrier électronique vérifié."
+    "description": "Comparez les profils de fabricants, examinez les capacités produits et envoyez une demande vérifiée que HeatEx Direct peut transmettre à 3-5 fabricants adaptés lorsqu’elle provient d’un e-mail professionnel."
   },
   "schema": {
-    "organizationDescription": "HeatEx Direct est un service international indépendant de recherche en matière d'approvisionnement axé sur les fabricants chinois d'échangeurs de chaleur. Il aide les acheteurs industriels mondiaux à comparer les capacités des produits, à examiner les preuves des fournisseurs, à lire le contenu technique sur l'approvisionnement et à soumettre des demandes de devis par courrier électronique vérifiées.",
-    "websiteDescription": "Un service de recherche d'approvisionnement bilingue pour les acheteurs mondiaux comparant les fabricants chinois d'échangeurs de chaleur, les produits d'échangeurs de chaleur industriels, les preuves des fournisseurs, le contenu technique d'approvisionnement et la soumission structurée de demandes de devis."
+    "organizationDescription": "HeatEx Direct est un service international indépendant de recherche d’approvisionnement axé sur les fabricants chinois d’échangeurs de chaleur. Il aide les acheteurs industriels à comparer les capacités produits, examiner les preuves fournisseurs, lire du contenu technique et envoyer des demandes vérifiées pouvant être transmises à des fabricants adaptés.",
+    "websiteDescription": "Service bilingue de recherche d’approvisionnement pour les acheteurs internationaux comparant fabricants chinois d’échangeurs de chaleur, produits industriels, preuves fournisseurs, contenu technique et acheminement géré des demandes de devis."
   },
   "hero": {
     "eyebrow": "Plateforme chinoise de fabrication d'échangeurs de chaleur",
     "title": "Trouvez des fabricants chinois d'échangeurs de chaleur avec des informations claires sur l'usine, les produits et les applications.",
     "subtitle": "HeatEx Direct aide les équipes d'approvisionnement mondiales, les ingénieurs, les entrepreneurs de projet, les distributeurs et les intégrateurs de systèmes à identifier, évaluer et comparer les fabricants chinois d'échangeurs de chaleur avant d'entamer des conversations avec les fournisseurs.",
-    "description": "La plateforme rassemble des profils de fabricants, des catégories de produits, des secteurs d'application, des preuves d'usine, des notes techniques et un flux de travail d'obtention de devis qui aide les acheteurs à soumettre les exigences du projet et à recevoir des commentaires sur les devis des fabricants appropriés.",
+    "description": "La plateforme réunit profils de fabricants, catégories de produits, secteurs d’application, preuves d’usine, notes techniques et flux géré de demande de devis. Les demandes complètes et vérifiées depuis un e-mail professionnel peuvent être transmises à 3-5 fabricants adaptés sous 2 jours ouvrables; les demandes depuis un e-mail personnel sont généralement limitées à 2 au maximum.",
     "paths": [
       {
         "title": "Parcourir les fabricants",
@@ -25,6 +25,10 @@
       {
         "title": "Explorer les produits",
         "body": "Affichez les détails du produit, les paramètres techniques, les avantages, les applications, les matériaux et les fabricants associés."
+      },
+      {
+        "title": "Envoyer une demande de devis",
+        "body": "Envoyez une demande structurée pour examen manuel, sélection de fabricants et suivi de devis."
       }
     ]
   },
@@ -123,8 +127,8 @@
   },
   "howItWorks": {
     "eyebrow": "Obtenir un flux de travail de devis",
-    "title": "Soumettez les exigences et recevez les commentaires des fabricants sur les devis",
-    "description": "Un devis utile pour un échangeur de chaleur commence par des conditions de fonctionnement claires. Le formulaire Obtenir un devis aide les acheteurs à soumettre les détails du projet afin que HeatEx Direct puisse examiner les informations, les partager avec les fabricants appropriés et collecter des commentaires sur les devis pour que l'acheteur puisse les comparer.",
+    "title": "Envoyez les exigences pour un suivi fabricant géré",
+    "description": "Un devis utile d’échangeur de chaleur commence par des conditions de service claires. HeatEx Direct examine les demandes complètes et vérifiées, puis les transmet sous 2 jours ouvrables selon le type d’e-mail et l’adéquation du projet.",
     "steps": [
       {
         "title": "Vérifier l'ajustement",
@@ -136,11 +140,11 @@
       },
       {
         "title": "Vérifier l'e-mail",
-        "body": "Aucune inscription de compte n’est requise. La vérification par e-mail permet de confirmer la demande et permet le suivi."
+        "body": "Aucune inscription de compte n’est requise. La vérification par e-mail confirme la demande et détermine si elle suit le niveau e-mail professionnel ou personnel."
       },
       {
         "title": "Recevoir des commentaires",
-        "body": "HeatEx Direct examine votre demande, la partage avec les fabricants appropriés et renvoie des commentaires sur les devis pour votre référence."
+        "body": "Les demandes qualifiées avec e-mail professionnel peuvent être partagées avec 3-5 fabricants adaptés. Les demandes avec e-mail personnel sont généralement partagées avec 2 fabricants au maximum."
       }
     ]
   }

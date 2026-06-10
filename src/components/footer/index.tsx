@@ -35,6 +35,10 @@ const Footer = () => {
         key: "products",
         url: addLanguageToPath("/products", currentLanguage),
       },
+      {
+        key: "quote-service",
+        url: addLanguageToPath("/quote-request-service", currentLanguage),
+      },
     ],
     [
       {

@@ -8,9 +8,9 @@ type ResponsiveHeroImageProps = {
   sizes?: string;
   widths?: readonly number[];
   /**
-   * When true (default), marks the image as high-priority for LCP and emits
-   * an AVIF `<link rel="preload">` so the browser can begin fetching the
-   * hero image during HTML parsing, before React hydrates.
+   * When true (default), emits an AVIF `<link rel="preload">` during SSG so
+   * the browser can begin fetching the hero image during HTML parsing, before
+   * React hydrates.
    */
   priority?: boolean;
 };
@@ -36,10 +36,11 @@ export function ResponsiveHeroImage({
 }: ResponsiveHeroImageProps) {
   const avifSrcSet = getSrcSet(src, widths, 'avif');
   const webpSrcSet = getSrcSet(src, widths, 'webp');
+  const shouldPreload = priority && import.meta.env.SSR;
 
   return (
     <>
-      {priority && (
+      {shouldPreload && (
         <Head>
           <link
             rel="preload"

@@ -1,8 +1,9 @@
+import type { ReactNode } from "react";
 import { ResponsiveHeroImage } from "./responsive-hero-image";
 
 interface PageHeroProps {
   title: string;
-  description: string;
+  description: ReactNode;
   backgroundImageSrc: string;
   backgroundImageAlt: string;
 }

@@ -3,34 +3,34 @@
   "no_results": "Aucun fabricant trouvé correspondant aux filtres sélectionnés.",
   "clear_all": "Tout effacer",
   "filter_industry": "Industrie",
-  "title": "Fabricants d'échangeurs de chaleur vérifiés | HeatEx Direct",
+  "title": "Profils de fabricants chinois d’échangeurs de chaleur | HeatEx Direct",
   "meta": {
-    "description": "Parcourez une plate-forme ciblée de fabricants chinois d'échangeurs de chaleur examinés avec le secteur, le profil de l'entreprise, la couverture des produits et les détails du marché d'exportation.",
-    "keywords": "fabricants d'échangeurs de chaleur vérifiés, usines d'échangeurs de chaleur en Chine, plate-forme de fabricant, approvisionnement en échangeurs de chaleur industriels"
+    "description": "Parcourez des profils structurés de fabricants chinois d’échangeurs de chaleur avec contexte d’entreprise, couverture produits, applications, documents et support d’acheminement des demandes de devis.",
+    "keywords": "fabricants chinois échangeurs de chaleur, usines échangeurs de chaleur Chine, profils fournisseurs échangeurs de chaleur, approvisionnement industriel échangeurs de chaleur"
   },
   "og": {
-    "title": "Fabricants d'échangeurs de chaleur vérifiés | HeatEx Direct",
-    "description": "Parcourez les fabricants chinois d’échangeurs de chaleur examinés et sélectionnez rapidement les fournisseurs par secteur."
+    "title": "Profils de fabricants chinois d’échangeurs de chaleur | HeatEx Direct",
+    "description": "Parcourez des profils structurés de fabricants chinois d’échangeurs de chaleur et utilisez l’acheminement géré des demandes pour le suivi de devis."
   },
   "hero": {
     "title": "Fabricants chinois d’échangeurs de chaleur",
     "description": "Parcourez les fabricants chinois d'échangeurs de chaleur répertoriés et examinez leurs profils d'entreprise, leur couverture de produits, leur expérience en matière d'application et leurs marchés d'exportation pour identifier les fournisseurs qui répondent à vos besoins d'approvisionnement."
   },
   "card": {
-    "verified": "VERIFIED",
+    "verified": "PROFILÉ",
     "view_profile": "Voir le profil"
   },
   "company": {
     "page_title": "Profil du fabricant",
     "meta_description_default": "Profil du fabricant",
     "back_to_list": "Retour aux fabricants",
-    "connect_note": "Partagez vos spécifications, votre quantité et les besoins de votre projet. HeatEx Direct organisera la demande et la transmettra aux fabricants d'échangeurs de chaleur correspondants pour suivi.",
+    "connect_note": "Partagez spécifications, quantité et besoins du projet. HeatEx Direct examine les demandes complètes et peut transmettre les demandes avec e-mail professionnel à 3-5 fabricants adaptés sous 2 jours ouvrables; les demandes avec e-mail personnel sont généralement transmises à 2 au maximum.",
     "quote_here": "Demande de devis",
     "iso_certified": "Certifié ISO",
     "asme_stamp": "Timbre ASME",
     "business_license": "Licence Commerciale.",
     "global_trade": "Commerce mondial",
-    "verified": "Révisé",
+    "verified": "Profilé",
     "not_available": "N/A",
     "company_overview": "Présentation de l'entreprise",
     "why_choose_us": "Pourquoi nous choisir",
@@ -44,7 +44,7 @@
     "trusted_customers": "Approuvé par les leaders mondiaux",
     "trusted_customers_desc": "Offrir l’excellence aux acteurs majeurs de tous les secteurs.",
     "partner_with": "Associez-vous à {{name}}",
-    "partner_desc": "Bénéficiez d'une qualité vérifiée et de prix directs d'usine.",
+    "partner_desc": "Envoyez une demande structurée pour examen manuel. Si la demande est complète et vérifiée, HeatEx Direct peut la transmettre à des fabricants adaptés pour le suivi de devis.",
     "established": "HNE. {{year}}",
     "factory_area_summary": "Superficie du terrain {{value}} m²",
     "employee_count_summary": "Employés {{value}}",

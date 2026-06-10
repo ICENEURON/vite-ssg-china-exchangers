@@ -16,7 +16,8 @@
     "dashboard": "控制台",
     "logout": "退出登录",
     "terms": "条款",
-    "privacy": "隐私"
+    "privacy": "隐私",
+    "quote_service": "询价服务"
   },
   "breadcrumb": {
     "home": "首页"

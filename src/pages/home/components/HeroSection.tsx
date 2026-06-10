@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { BrandText } from "../../../components/ui/brand-text";
 import { ResponsiveHeroImage } from "../../../components/ui/responsive-hero-image";
-import { ArrowRight, Factory, PackageSearch } from "lucide-react";
+import { ArrowRight, Factory, FileText, PackageSearch } from "lucide-react";
 import { addLanguageToPath, useCurrentLanguage } from "../../../utils/language-routing";
 
 export function HeroSection() {
@@ -15,8 +15,9 @@ export function HeroSection() {
     }>;
     const manufacturersPath = addLanguageToPath("/manufacturers", currentLanguage);
     const productsPath = addLanguageToPath("/products", currentLanguage);
-    const pathIcons = [Factory, PackageSearch];
-    const pathHrefs = [manufacturersPath, productsPath];
+    const quoteServicePath = addLanguageToPath("/quote-request-service", currentLanguage);
+    const pathIcons = [Factory, PackageSearch, FileText];
+    const pathHrefs = [manufacturersPath, productsPath, quoteServicePath];
 
     return (
         <section className="relative isolate flex min-h-[650px] justify-center overflow-hidden bg-navbar px-2 py-16 text-navbar-foreground">
@@ -42,7 +43,7 @@ export function HeroSection() {
                     </p>
                 </div>
 
-                <div className="mt-5 grid max-w-[50rem] gap-5 md:grid-cols-2">
+                <div className="mt-5 grid max-w-[62rem] gap-5 md:grid-cols-3">
                     {paths.map((path, index) => {
                         const Icon = pathIcons[index] || Factory;
                         const isActive = activePathIndex === index;

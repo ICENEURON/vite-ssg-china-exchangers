@@ -17,7 +17,7 @@
   },
   "cta": {
     "title": "Not Sure Which Product You Need?",
-    "description": "Our interactive quote request tool helps you specify your application parameters, and we'll match you with verified manufacturers who produce the exact heat exchanger you need."
+    "description": "Submit structured application parameters. HeatEx Direct reviews complete quote requests and routes qualified requests to suitable manufacturers according to project fit."
   },
   "detail": {
     "back_to_manufacturer": "Back to Manufacturer Page",
@@ -31,7 +31,33 @@
     "download": "Download",
     "applications": "Product Applications",
     "application_advantages": "Advantages",
-    "application_used_in": "Used In"
+    "application_used_in": "Used In",
+    "rfq_requirements": {
+      "title": "Quote readiness for this product",
+      "heading": "Prepare a request that is easier to follow up for {{productName}}",
+      "description": "For smoother quotation follow-up, share real operating conditions, quantity, standards, materials, and project timing.",
+      "checklistTitle": "Information that helps follow-up",
+      "cta": "Start quote request",
+      "serviceCta": "View quote request service",
+      "items": [
+        {
+          "title": "Operating data",
+          "body": "Media, flow, inlet/outlet temperatures, pressure, and heat load."
+        },
+        {
+          "title": "Mechanical limits",
+          "body": "Material, design code, flange standard, pressure rating, and corrosion concerns."
+        },
+        {
+          "title": "Commercial context",
+          "body": "Quantity, target delivery time, destination, and project stage."
+        },
+        {
+          "title": "Files or uncertainties",
+          "body": "Datasheets, drawings, photos, or questions you want manufacturers to clarify."
+        }
+      ]
+    }
   },
   "categories": {},
   "meta": {

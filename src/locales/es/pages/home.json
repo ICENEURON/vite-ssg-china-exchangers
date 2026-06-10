@@ -1,22 +1,22 @@
 {
   "title": "HeatEx Direct | Plataforma de fabricantes chinos de intercambiadores de calor",
   "meta": {
-    "description": "HeatEx Direct ayuda a los compradores industriales globales a investigar los fabricantes chinos de intercambiadores de calor, comparar las capacidades de los productos y enviar solicitudes estructuradas de cotizaciones de intercambiadores de calor.",
+    "description": "HeatEx Direct ayuda a compradores industriales globales a investigar fabricantes chinos de intercambiadores de calor, comparar capacidades de producto y enviar solicitudes estructuradas para enrutamiento gestionado a fabricantes adecuados en un plazo de 2 días hábiles.",
     "keywords": "Fabricantes de intercambiadores de calor de China, proveedores chinos de intercambiadores de calor, fabricantes de intercambiadores de calor industriales, fabricantes de intercambiadores de calor de placas, intercambiadores de calor de placas soldadas, intercambiadores de calor de carcasa y tubos, intercambiadores de calor enfriados por aire, solicitud de cotización de intercambiadores de calor"
   },
   "og": {
     "title": "HeatEx Direct - Investigación sobre el fabricante chino de intercambiadores de calor",
-    "description": "Investigue perfiles estructurados de fabricantes, compare las capacidades de los productos de intercambiadores de calor industriales, lea artículos técnicos y envíe solicitudes de cotización por correo electrónico verificadas."
+    "description": "Compare perfiles de fabricantes, revise capacidades de producto y envíe una solicitud verificada que HeatEx Direct puede dirigir a 3-5 fabricantes adecuados cuando se envía desde un correo empresarial."
   },
   "schema": {
-    "organizationDescription": "HeatEx Direct es un servicio de investigación de abastecimiento internacional independiente centrado en los fabricantes chinos de intercambiadores de calor. Ayuda a los compradores industriales globales a comparar las capacidades de los productos, revisar la evidencia de los proveedores, leer el contenido de abastecimiento técnico y enviar solicitudes de cotización por correo electrónico verificadas.",
-    "websiteDescription": "Un servicio de investigación de abastecimiento bilingüe para compradores globales que compara fabricantes chinos de intercambiadores de calor, productos de intercambiadores de calor industriales, evidencia de proveedores, contenido de abastecimiento técnico y envío de solicitudes de cotización estructuradas."
+    "organizationDescription": "HeatEx Direct es un servicio independiente internacional de investigación de abastecimiento centrado en fabricantes chinos de intercambiadores de calor. Ayuda a compradores industriales globales a comparar capacidades de producto, revisar evidencias de proveedores, leer contenido técnico de compra y enviar solicitudes verificadas que pueden dirigirse a fabricantes adecuados.",
+    "websiteDescription": "Servicio bilingüe de investigación de abastecimiento para compradores globales que comparan fabricantes chinos de intercambiadores de calor, productos industriales, evidencias de proveedores, contenido técnico y enrutamiento gestionado de solicitudes de cotización."
   },
   "hero": {
     "eyebrow": "Plataforma china de fabricación de intercambiadores de calor.",
     "title": "Obtenga fabricantes chinos de intercambiadores de calor con información clara sobre fábricas, productos y aplicaciones",
     "subtitle": "HeatEx Direct ayuda a los equipos de adquisiciones globales, ingenieros, contratistas de proyectos, distribuidores e integradores de sistemas a identificar, evaluar y comparar fabricantes chinos de intercambiadores de calor antes de iniciar conversaciones con proveedores.",
-    "description": "La plataforma reúne perfiles de fabricantes, categorías de productos, sectores de aplicación, evidencia de fábrica, notas técnicas y un flujo de trabajo Obtener cotización que ayuda a los compradores a presentar los requisitos del proyecto y recibir comentarios sobre cotizaciones de los fabricantes adecuados.",
+    "description": "La plataforma reúne perfiles de fabricantes, categorías de productos, sectores de aplicación, evidencias de fábrica, notas técnicas y un flujo gestionado de solicitud de cotización. Las solicitudes completas y verificadas desde un correo empresarial pueden dirigirse a 3-5 fabricantes adecuados en un plazo de 2 días hábiles; las solicitudes desde correo personal normalmente se limitan hasta 2.",
     "paths": [
       {
         "title": "Explorar fabricantes",
@@ -25,6 +25,10 @@
       {
         "title": "Explorar productos",
         "body": "Vea detalles del producto, parámetros técnicos, ventajas, aplicaciones, materiales y fabricantes relacionados."
+      },
+      {
+        "title": "Enviar solicitud de cotización",
+        "body": "Envíe una solicitud estructurada para revisión manual, selección de fabricantes y seguimiento de cotización."
       }
     ]
   },
@@ -123,8 +127,8 @@
   },
   "howItWorks": {
     "eyebrow": "Obtener flujo de trabajo de cotización",
-    "title": "Envíe requisitos y reciba comentarios sobre cotizaciones del fabricante",
-    "description": "Una cotización útil de un intercambiador de calor comienza con condiciones de funcionamiento claras. El formulario Obtener cotización ayuda a los compradores a enviar detalles del proyecto para que HeatEx Direct pueda revisar la información, compartirla con los fabricantes adecuados y recopilar comentarios sobre cotizaciones para que el comprador los compare.",
+    "title": "Envíe requisitos para seguimiento gestionado de fabricantes",
+    "description": "Una cotización útil de intercambiador de calor empieza con condiciones de operación claras. HeatEx Direct revisa solicitudes completas y verificadas, y las dirige en 2 días hábiles según el tipo de correo y el ajuste del proyecto.",
     "steps": [
       {
         "title": "Comprobar ajuste",
@@ -136,11 +140,11 @@
       },
       {
         "title": "Verificar correo electrónico",
-        "body": "No es necesario registrar una cuenta. La verificación por correo electrónico ayuda a confirmar la solicitud y permite el seguimiento."
+        "body": "No se necesita registrar una cuenta. La verificación por correo confirma la solicitud y determina si sigue el nivel de correo empresarial o personal."
       },
       {
         "title": "Recibir comentarios",
-        "body": "HeatEx Direct revisa su solicitud, la comparte con los fabricantes adecuados y le devuelve comentarios sobre la cotización para su referencia."
+        "body": "Las solicitudes calificadas con correo empresarial pueden compartirse con 3-5 fabricantes adecuados. Las solicitudes con correo personal normalmente se comparten hasta con 2."
       }
     ]
   }

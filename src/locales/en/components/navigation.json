@@ -16,7 +16,8 @@
     "dashboard": "Dashboard",
     "logout": "Logout",
     "terms": "Terms",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "quote_service": "Quote Request Service"
   },
   "breadcrumb": {
     "home": "Home"

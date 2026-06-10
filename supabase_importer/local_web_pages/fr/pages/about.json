@@ -1,7 +1,7 @@
 {
   "title": "HeatEx Direct | Service de recherche de fabricant d'échangeurs de chaleur en Chine",
   "meta": {
-    "description": "HeatEx Direct est un service d'information indépendant axé sur les profils des fabricants chinois d'échangeurs de chaleur industriels, les données des fournisseurs et le contenu structuré en matière d'approvisionnement.",
+    "description": "HeatEx Direct est un service d’information indépendant axé sur les profils de fabricants chinois d’échangeurs de chaleur industriels, les données fournisseurs, le contenu d’approvisionnement structuré et l’acheminement géré des demandes de devis.",
     "keywords": "HeatEx Direct, fabricants d'échangeurs de chaleur en Chine, recherche sur l'approvisionnement en échangeurs de chaleur industriels, profils de fournisseurs d'échangeurs de chaleur, plateforme de fabricants en Chine"
   },
   "og": {
@@ -65,6 +65,10 @@
       }
     ]
   },
+  "quote_service": {
+    "title": "Une demande professionnelle, mise en relation anonyme avec de vrais fabricants",
+    "description": "HeatEx Direct transforme vos conditions de service, paramètres et besoins de projet en une demande claire, puis utilise une première mise en relation anonyme pour qualifier et contacter plusieurs fabricants réels et adaptés. Aucun compte n'est requis ; seule une adresse e-mail réelle est nécessaire pour la vérification et le suivi."
+  },
   "verification": {
     "title": "Ce que nous incluons dans chaque profil",
     "description": "Nous organisons les informations sur les fabricants en sections pratiques afin que les acheteurs puissent rapidement comprendre qui est le fournisseur, ce qu'il fabrique, où ses produits sont utilisés et quels supports sont disponibles.",
@@ -83,7 +87,7 @@
       },
       "location": {
         "title": "Exigences du projet",
-        "description": "Le formulaire de demande de devis collecte les détails clés du projet afin que les fabricants appropriés puissent fournir des commentaires plus pertinents sur les devis."
+        "description": "Le formulaire de demande de devis collecte les détails clés du projet afin que HeatEx Direct puisse examiner les demandes complètes et vérifiées, puis aider à ouvrir des échanges de devis avec des fabricants adaptés."
       }
     }
   },

@@ -41,7 +41,9 @@
       "title": "Quote Requests and Follow-Up",
       "content": [
         "Quote request forms are provided to collect project context and technical parameters, such as equipment type, application, media, flow rate, temperature, pressure, materials, standards, quantity, project location, timeline, and other notes. Submitting a quote request does not create a contract and does not guarantee supplier acceptance, supplier response, quotation, pricing, delivery time, technical suitability, or commercial result.",
-        "We may review submitted requests, ask clarifying questions, remove spam or incomplete submissions, and use a verifiable email address for workflow-related follow-up. We may decline to process requests that appear unlawful, abusive, unverifiable, unrelated to the platform, technically unclear, or outside the scope of industrial heat exchanger sourcing."
+        "We may review submitted requests, ask clarifying questions, remove spam or incomplete submissions, and use a verifiable email address for workflow-related follow-up. We may decline to process requests that appear unlawful, abusive, unverifiable, unrelated to the platform, technically unclear, or outside the scope of industrial heat exchanger sourcing.",
+        "Complete, verified quote requests submitted from a business email may be routed to 3-5 suitable manufacturers within 2 business days. Qualified requests submitted from a personal or free email domain are usually routed to up to 2 suitable manufacturers. These routing ranges depend on information completeness, product fit, manufacturer relevance, and operational review.",
+        "If key project or technical information is missing, HeatEx Direct may request clarification before routing the quote request. The 2 business day routing target applies after email verification and after the request contains enough information for manufacturer review."
       ]
     },
     "supplierCommunication": {

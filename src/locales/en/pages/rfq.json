@@ -203,12 +203,12 @@
     "verification": "Verification",
     "submit": "Submit"
   },
-  "title": "Smart Quote Request Builder - Get Custom Heat Exchanger Quotes",
-  "description": "Build a professional quote request in minutes. Anonymous mode available. Get quotes from verified manufacturers.",
-  "navbarTitle": "Quote Request Form",
+  "title": "Heat Exchanger Quote Request - Managed Manufacturer Follow-up",
+  "description": "No registration required. Verify your email and describe the real project so suitable manufacturers can respond more accurately.",
+  "navbarTitle": "Heat Exchanger Quote Request",
   "step1": {
     "title": "1. Project context",
-    "subtitle": "Share the basic project context so we can route the quote request accurately.",
+    "subtitle": "Share the project context we need to judge whether the request is complete enough for manufacturer routing.",
     "firstNameLabel": "First name",
     "firstNamePlaceholder": "",
     "lastNameLabel": "Last name",
@@ -229,9 +229,9 @@
     "title": "2. Design & equipment parameters",
     "subtitle": "Provide the hot-side and cold-side media data plus key equipment parameters.",
     "requestModeTitle": "Request detail level",
-    "quickModeTitle": "Quick RFQ",
+    "quickModeTitle": "Quick quote request",
     "quickModeDesc": "Use this when you know the application but not all design parameters yet.",
-    "advancedModeTitle": "Advanced RFQ",
+    "advancedModeTitle": "Detailed quote request",
     "advancedModeDesc": "Use this when you already have operating data, materials, and connection standards.",
     "basicRequirementTitle": "Basic requirement",
     "productTypeLabel": "Product type",
@@ -320,16 +320,16 @@
   "step3": {
     "accessCodePlaceholder": "Code",
     "title": "3. Verification",
-    "subtitle": "Verify your email so factories can reply to a real request.",
+    "subtitle": "Verify your email so HeatEx Direct can route a real request and manufacturers can follow up.",
     "verifiedTitle": "Email Already Verified!",
     "continueBtn": "Continue to Final Submission",
-    "verifySubtitle": "To ensure high-quality supplier matching & protect your identity, please verify your email address.",
+    "verifySubtitle": "Email verification reduces spam, confirms a real contact path, and lets suitable manufacturers follow up after review.",
     "emailLabel": "Email Address",
     "emailPlaceholder": "Email",
-    "freeEmailTitle": "Personal Email Detected.",
-    "freeEmailDesc": "Your request will be distributed to a maximum of 2 factories. Use a business email to reach 5+ verified factories.",
-    "businessEmailTitle": "Business email helps your request stand out.",
-    "businessEmailDesc": "It can reach 5+ verified factories while keeping your identity protected.",
+    "freeEmailTitle": "Personal email detected.",
+    "freeEmailDesc": "A qualified request from a personal email is usually routed to up to 2 suitable manufacturers. Use a business email for company projects when possible.",
+    "businessEmailTitle": "Business email improves routing confidence.",
+    "businessEmailDesc": "Complete, verified requests from a business email are reviewed by HeatEx Direct within 2 business days and routed to 3-5 suitable manufacturers for quotation follow-up.",
     "sendBtn": "Send Verification Code",
     "sendingBtn": "Sending...",
     "codeSentTo": "Code sent to",
@@ -355,8 +355,8 @@
     "anonymousModeDesc": "Factories cannot see your email directly. We manage communication.",
     "publicModeDesc": "Factories can see your email information directly.",
     "sourceManufacturerTargetTitle": "Send to",
-    "sourceManufacturerTargetEnabledDesc": "Because you entered from a related page, this quote request will be sent to that company. Other quote opportunities may be routed to other manufacturers.",
-    "sourceManufacturerTargetDisabledDesc": "This quote request will not be specifically sent to the source company. It will be routed like a general quote request.",
+    "sourceManufacturerTargetEnabledDesc": "This request will prioritize the source manufacturer when relevant, and HeatEx Direct may also route it to other suitable manufacturers based on product type, industry, and operating conditions.",
+    "sourceManufacturerTargetDisabledDesc": "This request will not be specifically targeted to the source manufacturer. HeatEx Direct will review the product type, industry, and operating conditions to identify suitable manufacturers.",
     "projectContextTitle": "1. Project context",
     "productSpecsTitle": "2. Design & equipment parameters",
     "editBtn": "Edit",
@@ -441,7 +441,7 @@
   },
   "success": {
     "title": "Submitted!",
-    "desc": "We have successfully processed your quote request. We will be in touch shortly to assist you with the next steps.",
+    "desc": "Your request has been received. If the email is verified and the project information is complete, HeatEx Direct will review it within 2 business days and route it according to the email type. If key parameters are missing, we may ask for clarification first.",
     "homeBtn": "Return to Home"
   },
   "actions": {
@@ -449,10 +449,38 @@
     "continue": "Continue"
   },
   "meta": {
-    "keywords": "heat exchanger quote request, heat exchanger RFQ, plate heat exchanger quotation, industrial heat exchanger specifications, heat exchanger manufacturer quote"
+    "keywords": "heat exchanger quote request, China heat exchanger manufacturers, plate heat exchanger quotation, industrial heat exchanger specifications, manufacturer quotation follow-up"
   },
   "og": {
-    "title": "Smart Quote Request Builder - Get Custom Heat Exchanger Quotes",
-    "description": "Build a professional quote request in minutes. Anonymous mode available. Get quotes from verified manufacturers."
+    "title": "Heat Exchanger Quote Request - Managed Manufacturer Follow-up",
+    "description": "Submit a structured heat exchanger quote request. Complete, verified requests are reviewed by HeatEx Direct and routed within 2 business days: business email requests to 3-5 suitable manufacturers, personal email requests up to 2."
+  },
+  "entry": {
+    "title": "Form notes",
+    "description": "No account is required. We verify email so we can reach a real buyer, review the request, and route it to suitable manufacturers.",
+    "close": "Close",
+    "reviewOptions": "Form notes",
+    "reopenCta": "Form notes",
+    "primaryCta": "Enter quote request form",
+    "points": [
+      {
+        "title": "No account required",
+        "body": "Complete the request directly."
+      },
+      {
+        "title": "Email must be verified",
+        "body": "We review and route only after confirming the contact email."
+      },
+      {
+        "title": "Clear project details help",
+        "body": "Operating conditions, specs, quantity, timeline, drawings, and open questions all help matching."
+      }
+    ]
+  },
+  "spotlight": {
+    "title": "One request, multiple manufacturers",
+    "description": "Stop repeating emails, and avoid sending your contact details to every manufacturer at the start. HeatEx Direct organizes and reviews your request before forwarding it to suitable manufacturers; contact details stay protected until the details are confirmed.",
+    "primaryCta": "Start quote request",
+    "serviceCta": "View quote request service"
   }
 }

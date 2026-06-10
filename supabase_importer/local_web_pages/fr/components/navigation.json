@@ -16,7 +16,8 @@
     "dashboard": "Tableau de bord",
     "logout": "Déconnexion",
     "terms": "Termes",
-    "privacy": "Confidentialité"
+    "privacy": "Confidentialité",
+    "quote_service": "Service de demande de devis"
   },
   "breadcrumb": {
     "home": "Maison"

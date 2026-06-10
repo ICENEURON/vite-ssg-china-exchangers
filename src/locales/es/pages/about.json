@@ -1,7 +1,7 @@
 {
   "title": "HeatEx Direct | Servicio de investigación del fabricante de intercambiadores de calor de China",
   "meta": {
-    "description": "HeatEx Direct es un servicio de información independiente centrado en perfiles de fabricantes chinos de intercambiadores de calor industriales, datos de proveedores y contenido estructurado de abastecimiento.",
+    "description": "HeatEx Direct es un servicio de información independiente centrado en perfiles de fabricantes chinos de intercambiadores de calor industriales, datos de proveedores, contenido estructurado de compra y enrutamiento gestionado de solicitudes de cotización.",
     "keywords": "HeatEx Direct, fabricantes de intercambiadores de calor de China, investigación de abastecimiento de intercambiadores de calor industriales, perfiles de proveedores de intercambiadores de calor, plataforma de fabricantes de China"
   },
   "og": {
@@ -65,6 +65,10 @@
       }
     ]
   },
+  "quote_service": {
+    "title": "Una solicitud profesional, contacto anónimo con fabricantes reales",
+    "description": "HeatEx Direct ayuda a convertir las condiciones, parámetros y necesidades de tu proyecto de intercambiador de calor en una solicitud clara, y usa un primer contacto anónimo para filtrar y contactar a varios fabricantes reales y adecuados. No necesitas crear una cuenta; solo un correo real para verificación y seguimiento."
+  },
   "verification": {
     "title": "Qué incluimos en cada perfil",
     "description": "Organizamos la información del fabricante en secciones prácticas para que los compradores puedan comprender rápidamente quién es el proveedor, qué fabrica, dónde se utilizan sus productos y qué materiales de apoyo están disponibles.",
@@ -83,7 +87,7 @@
       },
       "location": {
         "title": "Requisitos del proyecto",
-        "description": "El formulario de Solicitud de cotización recopila detalles clave del proyecto para que los fabricantes adecuados puedan proporcionar comentarios sobre cotizaciones más relevantes."
+        "description": "El formulario de solicitud de cotización recopila detalles clave del proyecto para que HeatEx Direct pueda revisar solicitudes completas y verificadas, y ayudar a iniciar conversaciones de cotización con fabricantes adecuados."
       }
     }
   },

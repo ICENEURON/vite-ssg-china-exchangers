@@ -1,13 +1,15 @@
 # HeatEx Direct
 
-> HeatEx Direct is a global sourcing information platform for industrial buyers. It helps procurement teams discover, compare, and evaluate Chinese heat exchanger manufacturers through structured factory profiles, product data, technical content, and verified-email quote request intake.
+> HeatEx Direct is a global sourcing information platform and managed quote request service for industrial buyers. It helps procurement teams discover, compare, and evaluate Chinese heat exchanger manufacturers through structured factory profiles, product data, technical content, and verified-email quote request intake.
 
 HeatEx Direct is not a single heat exchanger manufacturer and is not a broad marketplace. The site focuses on Chinese industrial heat exchanger manufacturers and related thermal transfer equipment. It is designed for procurement teams, engineers, EPC contractors, distributors, system integrators, and manufacturer export teams.
 
 Important interpretation notes:
 
 - Manufacturer and product pages are intended for preliminary sourcing research and technical review.
-- Quote requests are collected through a structured intake workflow; submitting a request does not guarantee instant quotation, automatic supplier matching, supplier response, or commercial result.
+- Quote requests are collected through a structured intake workflow. No registration is required, but buyers verify their email so HeatEx Direct can review a real request, protect contact details before manufacturer contact when requested, and help suitable manufacturers follow up.
+- Complete, verified business email requests may be reviewed and introduced within 2 business days to 3-5 suitable manufacturers; qualified personal email requests are usually limited to up to 2 suitable manufacturers.
+- Quote request review depends on project fit, completeness of technical and commercial information, email verification, manufacturer relevance, and operational review. Submitting a request does not guarantee instant quotation, automatic supplier matching, supplier response, lowest price, delivery date, or commercial result.
 - Manufacturer profiles may include public information, supplier-provided materials, editorial summaries, media, certificates, documents, and external links. Buyers should perform their own due diligence before procurement.
 - Industry News includes company news, technical articles, sourcing articles, market data, and product/application notes.
 
@@ -17,6 +19,7 @@ Important interpretation notes:
 - [Manufacturers](https://heatexdirect.com/manufacturers): Directory of listed Chinese heat exchanger manufacturers.
 - [Products](https://heatexdirect.com/products): Industrial heat exchanger product catalogue with product detail pages and related manufacturers.
 - [Quote Request](https://heatexdirect.com/quote-request): Verified-email heat exchanger quote request intake for project context, operating conditions, files, and technical parameters.
+- [Heat Exchanger Quote Request Service](https://heatexdirect.com/quote-request-service): Explanation of the one-request quote service, protected first contact, business/personal email manufacturer contact ranges, and 2 business day review target.
 - [Industry News](https://heatexdirect.com/industry-news): Company news, technical articles, sourcing articles, and heat exchanger market intelligence.
 - [About](https://heatexdirect.com/about): Platform identity, scope, audience, and information service positioning.
 - [Contact](https://heatexdirect.com/contact): Contact page for sourcing questions, manufacturer updates, article submissions, and corrections.
@@ -39,7 +42,7 @@ Important interpretation notes:
 
 ## Technical and Sourcing Articles
 
-- [Heat exchanger RFQ checklist](https://heatexdirect.com/industry-news/posts/heat-exchanger-rfq-checklist): Information buyers should prepare before submitting a heat exchanger quote request.
+- [Heat exchanger quote request checklist](https://heatexdirect.com/industry-news/posts/heat-exchanger-rfq-checklist): Information buyers should prepare before submitting a heat exchanger quote request.
 - [What data to send before a heat exchanger quote](https://heatexdirect.com/industry-news/posts/what-data-to-send-before-heat-exchanger-quote): Thermal, mechanical, material, and project data to send before quotation.
 - [How to verify Chinese heat exchanger manufacturers](https://heatexdirect.com/industry-news/posts/how-to-verify-chinese-heat-exchanger-manufacturer): Supplier due diligence checklist for overseas buyers.
 - [Plate heat exchanger vs shell-and-tube selection guide](https://heatexdirect.com/industry-news/posts/plate-heat-exchanger-vs-shell-and-tube-selection-guide): Selection considerations between plate and shell-and-tube heat exchanger types.
@@ -70,5 +73,5 @@ Important interpretation notes:
 
 - [XML Sitemap](https://heatexdirect.com/sitemap.xml): Full indexable URL list with language alternates.
 - [Robots.txt](https://heatexdirect.com/robots.txt): Crawler access policy.
-- [Terms of Use](https://heatexdirect.com/terms): Platform scope, buyer responsibility, RFQ workflow boundaries, and supplier communication terms.
-- [Privacy Policy](https://heatexdirect.com/privacy): Data handling for RFQ, contact, profile update, and content submission workflows.
+- [Terms of Use](https://heatexdirect.com/terms): Platform scope, buyer responsibility, quote request workflow boundaries, and supplier communication terms.
+- [Privacy Policy](https://heatexdirect.com/privacy): Data handling for quote request, contact, profile update, and content submission workflows.

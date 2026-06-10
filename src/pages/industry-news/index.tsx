@@ -264,9 +264,6 @@ export default function BlogsPage() {
 
                                     {filteredPosts.length > 0 && (
                                         <div className="mt-8 flex flex-col md:flex-row justify-between items-center gap-4 border-t border-border pt-6">
-
-                                            {/* 移除结果数，仅保留分�?*/}
-
                                             {/* Center: Pagination */}
                                             {totalPages > 1 && (
                                                 <Pagination className="w-auto mx-0 order-1 md:order-2">

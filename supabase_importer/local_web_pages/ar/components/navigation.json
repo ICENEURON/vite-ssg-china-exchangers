@@ -16,7 +16,8 @@
     "dashboard": "لوحة القيادة",
     "logout": "تسجيل الخروج",
     "terms": "شروط",
-    "privacy": "خصوصية"
+    "privacy": "خصوصية",
+    "quote_service": "خدمة طلب عرض أسعار"
   },
   "breadcrumb": {
     "home": "بيت"

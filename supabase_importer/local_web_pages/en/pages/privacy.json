@@ -76,7 +76,8 @@
       "title": "When Information May Be Shared",
       "content": [
         "We do not sell your contact information to marketing data brokers. We may share information with service providers who help us host the website, manage databases, process forms, send email, secure the platform, provide analytics, or support business operations. These providers should use the information only for the services they provide to us.",
-        "Where appropriate for sourcing follow-up, we may share relevant quote request or contact details with potential suppliers, manufacturers, partners, or team members involved in reviewing the request. We share only what is reasonably needed for the relevant workflow."
+        "Where appropriate for sourcing follow-up, we may share relevant quote request or contact details with potential suppliers, manufacturers, partners, or team members involved in reviewing the request. We share only what is reasonably needed for the relevant workflow.",
+        "When a user submits a quote request, routing may depend on whether the email appears to be a business email or a personal/free email. We may share relevant quote request details, contact details, files, and selected privacy mode with suitable manufacturers as needed for quotation follow-up."
       ]
     },
     "supplierCommunication": {

@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
-import { ClipboardPenLine, Factory, FileText, Mail, Menu, PackageSearch, X } from "lucide-react";
+import { ClipboardCheck, ClipboardPenLine, Factory, FileText, Mail, Menu, PackageSearch, X } from "lucide-react";
 import { ThemeToggle } from "../theme-toggle";
 import { LanguageToggle } from "../../components/language-toggle";
 import { useAuth } from "../../context/auth";
@@ -154,12 +154,13 @@ export function Navigation() {
 
             // Buyers Menu
             if (route.path === '/manufacturers') {
-                const isBuyersActive = isActiveLink('/manufacturers') || isActiveLink('/products');
+                const isBuyersActive = isActiveLink('/manufacturers') || isActiveLink('/products') || isActiveLink('/quote-request-service');
                 return (
                     <NavPopup key={route.path} label={t('navigation.menu.for_buyers_label')} isActive={isBuyersActive} className="left-0">
                         <ul className="flex w-[220px] flex-col gap-2">
                             <ListItem href={getLocalizedPath("/manufacturers")} title={t('navigation.menu.manufacturers')} icon={<Factory className="h-4 w-4" />} />
                             <ListItem href={getLocalizedPath("/products")} title={t('navigation.menu.products')} icon={<PackageSearch className="h-4 w-4" />} />
+                            <ListItem href={getLocalizedPath("/quote-request-service")} title={t('navigation.menu.quote_service')} icon={<ClipboardCheck className="h-4 w-4" />} />
                         </ul>
                     </NavPopup>
                 );

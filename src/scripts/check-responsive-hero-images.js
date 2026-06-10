@@ -18,6 +18,7 @@ const sourceFiles = [
   path.join(projectRoot, 'src', 'pages', 'about', 'components', 'AboutHero.tsx'),
   path.join(projectRoot, 'src', 'pages', 'contact', 'components', 'ContactHero.tsx'),
 ];
+const responsiveHeroComponent = path.join(projectRoot, 'src', 'components', 'ui', 'responsive-hero-image.tsx');
 
 const failures = [];
 
@@ -59,6 +60,12 @@ for (const sourceFile of sourceFiles) {
   if (!source.includes('ResponsiveHeroImage')) {
     failures.push(`Missing ResponsiveHeroImage usage/import in ${sourceFile}`);
   }
+}
+
+const responsiveHeroSource = fs.readFileSync(responsiveHeroComponent, 'utf8');
+
+if (!responsiveHeroSource.includes('import.meta.env.SSR')) {
+  failures.push('ResponsiveHeroImage preload must be gated to Vite SSR so hydration does not insert late duplicate preload links.');
 }
 
 if (failures.length > 0) {
