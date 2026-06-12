@@ -6,9 +6,10 @@ import { useTranslation } from "react-i18next";
 
 interface NewsCardProps {
     post: Post;
+    articleSearch?: string;
 }
 
-export function NewsCard({ post }: NewsCardProps) {
+export function NewsCard({ post, articleSearch = "" }: NewsCardProps) {
     const { t } = useTranslation("translation");
     const contentType = post.contentType || "posts";
     const contentTypeLabel = t(`pages.news.content_types.${contentType}`, {
@@ -17,7 +18,7 @@ export function NewsCard({ post }: NewsCardProps) {
 
     return (
         <Link
-            to={post.permalink}
+            to={`${post.permalink}${articleSearch}`}
             className="group flex flex-col sm:flex-row gap-6 p-4 rounded-sm hover:bg-slate-50 transition-all duration-300"
         >
             {/* Thumbnail Section: 仅sm及以上显�?*/}

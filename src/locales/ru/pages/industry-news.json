@@ -35,6 +35,9 @@
     "back_to_catalog": "Вернуться к новостям",
     "author": "Автор",
     "read_time": "Читать",
+    "article_navigation": "Навигация по статье",
+    "previous_article": "Предыдущая статья",
+    "next_article": "Следующая статья",
     "related_posts": "Последние статьи"
   }
 }

@@ -70,10 +70,10 @@
     ]
   },
   {
-    "name": "Shanghai Accessen Co., Ltd.",
-    "short_description": "Provider of low-carbon data center cooling and heat exchange solutions, specializing in plate heat exchangers, fully welded exchangers, and prefabricated integrated thermal systems.",
-    "slug": "shanghai-accessen-co-ltd",
-    "city": "Shanghai",
+    "name": "Siping ViEX Heat Exchange Equipment Co., Ltd.",
+    "short_description": "Professional manufacturer of heat exchange equipment and pressure vessel products, covering plate, tubular, spiral, air-side, and integrated heat exchange solutions.",
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+    "city": "Siping",
     "country_name": "China",
     "industries": [
       "HVAC",
@@ -88,10 +88,10 @@
     ]
   },
   {
-    "name": "Siping ViEX Heat Exchange Equipment Co., Ltd.",
-    "short_description": "Professional manufacturer of heat exchange equipment and pressure vessel products, covering plate, tubular, spiral, air-side, and integrated heat exchange solutions.",
-    "slug": "siping-viex-heat-exchange-equipment-co-ltd",
-    "city": "Siping",
+    "name": "Shanghai Accessen Co., Ltd.",
+    "short_description": "Provider of low-carbon data center cooling and heat exchange solutions, specializing in plate heat exchangers, fully welded exchangers, and prefabricated integrated thermal systems.",
+    "slug": "shanghai-accessen-co-ltd",
+    "city": "Shanghai",
     "country_name": "China",
     "industries": [
       "HVAC",

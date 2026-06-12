@@ -35,6 +35,9 @@
     "back_to_catalog": "العودة إلى الأخبار",
     "author": "مؤلف",
     "read_time": "يقرأ",
+    "article_navigation": "التنقل بين المقالات",
+    "previous_article": "المقال السابق",
+    "next_article": "المقال التالي",
     "related_posts": "أحدث المقالات"
   }
 }

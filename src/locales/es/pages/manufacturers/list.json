@@ -70,10 +70,10 @@
     ]
   },
   {
-    "name": "Shanghai Accessen Co., Ltd.",
-    "short_description": "Proveedor de soluciones de intercambio de calor y refrigeración de centros de datos con bajas emisiones de carbono, especializado en intercambiadores de calor de placas, intercambiadores totalmente soldados y sistemas térmicos integrados prefabricados.",
-    "slug": "shanghai-accessen-co-ltd",
-    "city": "Shangai",
+    "name": "Siping ViEX Heat Exchange Equipment Co., Ltd.",
+    "short_description": "Fabricante profesional de equipos de intercambio de calor y productos de recipientes a presión, soluciones de intercambio de calor integradas, de placa de cubierta, tubulares, en espiral, del lado del aire.",
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+    "city": "surcos",
     "country_name": "China",
     "industries": [
       "HVAC",
@@ -88,10 +88,10 @@
     ]
   },
   {
-    "name": "Siping ViEX Heat Exchange Equipment Co., Ltd.",
-    "short_description": "Fabricante profesional de equipos de intercambio de calor y productos de recipientes a presión, soluciones de intercambio de calor integradas, de placa de cubierta, tubulares, en espiral, del lado del aire.",
-    "slug": "siping-viex-heat-exchange-equipment-co-ltd",
-    "city": "surcos",
+    "name": "Shanghai Accessen Co., Ltd.",
+    "short_description": "Proveedor de soluciones de intercambio de calor y refrigeración de centros de datos con bajas emisiones de carbono, especializado en intercambiadores de calor de placas, intercambiadores totalmente soldados y sistemas térmicos integrados prefabricados.",
+    "slug": "shanghai-accessen-co-ltd",
+    "city": "Shangai",
     "country_name": "China",
     "industries": [
       "HVAC",

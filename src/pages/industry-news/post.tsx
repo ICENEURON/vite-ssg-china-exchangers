@@ -1,12 +1,19 @@
 import { posts } from '.velite'
-import { useParams, Link } from 'react-router-dom'
-import { FileQuestion, Clock, User, BookOpen, ArrowLeft } from 'lucide-react'
+import { useEffect, useState } from 'react'
+import { useParams, Link, useLocation } from 'react-router-dom'
+import { FileQuestion, Clock, User, BookOpen, ArrowLeft, ArrowRight } from 'lucide-react'
 import { Button } from '../../components/ui/button'
 import { SeoHead } from '../../components/seo/SeoHead'
 import { useCurrentLanguage, addLanguageToPath } from '../../utils/language-routing'
 import { useTranslation } from "react-i18next";
-import { useLocation } from "react-router-dom";
 import manufacturersData from '../../data/manufacturers.json';
+import {
+    buildIndustryNewsSearch,
+    filterIndustryNewsPosts,
+    getAdjacentIndustryNewsPosts,
+    getIndustryNewsPageForPost,
+    parseIndustryNewsFilters,
+} from './filter-state';
 // 获取公司名称
 const manufacturerNameBySlug = new Map(
     (manufacturersData || []).map((manufacturer) => [manufacturer.slug, manufacturer.name])
@@ -32,6 +39,14 @@ export default function BlogPost() {
 
     const { contentType, slug } = useParams()
     const currentLanguage = useCurrentLanguage();
+    const [activeSearch, setActiveSearch] = useState(location.search);
+    useEffect(() => {
+        setActiveSearch(window.location.search);
+    }, [location.search]);
+    const filters = parseIndustryNewsFilters(activeSearch);
+    const listSearch = buildIndustryNewsSearch(filters);
+    const backLink = `${addLanguageToPath('/industry-news', currentLanguage)}${listSearch}`;
+    const listPageTitle = t("pages.news.page.title", { defaultValue: "Industry News" });
 
     // Filter posts by language and sort by date (newest first)
     const sortedPosts = posts
@@ -52,8 +67,14 @@ export default function BlogPost() {
     const relatedPosts = post
         ? sortedPosts.filter((rPost) => rPost.permalink !== post.permalink).slice(0, 5)
         : [];
-
-    const backLink = addLanguageToPath('/industry-news', currentLanguage);
+    const filteredContextPosts = filterIndustryNewsPosts(sortedPosts, filters);
+    const { previousPost, nextPost, currentIndex: contextIndex } = post
+        ? getAdjacentIndustryNewsPosts(sortedPosts, post.permalink, filters)
+        : { previousPost: null, nextPost: null, currentIndex: -1 };
+    const getContextualArticleLink = (targetPost: (typeof sortedPosts)[number]) => {
+        const page = getIndustryNewsPageForPost(filteredContextPosts, targetPost.permalink, 10);
+        return `${targetPost.permalink}${buildIndustryNewsSearch({ ...filters, page })}`;
+    };
 
     if (!post) return (
         <section className="py-10 px-2 flex justify-center min-h-[60vh]">
@@ -90,29 +111,38 @@ export default function BlogPost() {
 
             <div className="container pt-16 px-4 max-w-6xl flex flex-col gap-8">
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
-                    {/* Main Content */}
-                    <div className="min-w-0 lg:col-span-3 flex flex-col gap-6">
+                        {/* Main Content */}
+                        <div className="min-w-0 lg:col-span-3 flex flex-col gap-1">
+                            <nav aria-label="Breadcrumb">
+                                <Link to={backLink} className="group inline-flex items-center gap-1.5 text-sm font-semibold text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/30">
+                                    <ArrowLeft className="h-4 w-4 shrink-0 text-primary transition-transform group-hover:-translate-x-1" aria-hidden="true" />
+                                    <span className="breadcrumb-label underline-offset-4 group-hover:underline group-focus-visible:underline">
+                                        {listPageTitle}
+                                    </span>
+                                </Link>
+                        </nav>
+
                         <article className="prose prose-slate max-w-none min-w-0 flex flex-col gap-6 !text-base !leading-relaxed">
                             <div className="not-prose flex flex-col gap-4 border-b border-border pb-6">
                                 <div className="flex flex-col items-start gap-2 text-sm text-muted">
-                                    <div className="flex items-center gap-2">
+                                    <h1 className="text-2xl md:text-4xl font-extrabold tracking-tight text-slate-900 p-0 m-0 leading-tight">
+                                        {post.title}
+                                    </h1>
+                                    <div className="flex min-h-5 items-center gap-1 leading-5">
                                         <Clock className="w-4 h-4" />
                                         <time dateTime={post.date}>
                                             {new Date(post.date).toISOString().split('T')[0]}
                                         </time>
                                     </div>
-                                    <h1 className="text-2xl md:text-4xl font-extrabold tracking-tight text-slate-900 p-0 m-0 leading-tight">
-                                        {post.title}
-                                    </h1>
-                                    <div className="flex flex-wrap gap-4 mt-2">
+                                    <div className="flex flex-wrap gap-4">
                                         {post.author && (
-                                            <div className="flex items-center gap-1">
+                                            <div className="flex min-h-5 items-center gap-1 leading-5">
                                                 <User className="w-4 h-4" />
                                                 <span>{t("pages.news.blog.author")}: {post.author}</span>
                                             </div>
                                         )}
                                         {post.readTime && (
-                                            <div className="flex items-center gap-1">
+                                            <div className="flex min-h-5 items-center gap-1 leading-5">
                                                 <BookOpen className="w-4 h-4" />
                                                 <span>{t("pages.news.blog.read_time")}: {post.readTime}</span>
                                             </div>
@@ -136,6 +166,34 @@ export default function BlogPost() {
                                 dangerouslySetInnerHTML={{ __html: postContent }}
                             />
                         </article>
+
+                            {contextIndex >= 0 && (previousPost || nextPost) && (
+                                <nav aria-label={t("pages.news.blog.article_navigation", { defaultValue: "Article navigation" })} className="flex flex-wrap items-center justify-between gap-3 border-t border-border pt-6">
+                                {previousPost ? (
+                                        <Link
+                                            to={getContextualArticleLink(previousPost)}
+                                            className="group flex h-11 w-[154px] max-w-full items-center gap-2 rounded-sm border border-border/70 bg-white px-3 text-left shadow-sm transition-all hover:border-primary/30 hover:bg-blue-50/50"
+                                        >
+                                            <ArrowLeft className="h-4 w-4 shrink-0 text-primary transition-transform group-hover:-translate-x-1" />
+                                            <span className="whitespace-nowrap text-sm font-semibold text-slate-700 transition-colors group-hover:text-primary">{t("pages.news.blog.previous_article", { defaultValue: "Previous article" })}</span>
+                                    </Link>
+                                ) : (
+                                        <div className="hidden h-11 w-[154px] sm:block" />
+                                )}
+
+                                {nextPost ? (
+                                        <Link
+                                            to={getContextualArticleLink(nextPost)}
+                                            className="group flex h-11 w-[154px] max-w-full items-center justify-end gap-2 rounded-sm border border-border/70 bg-white px-3 text-right shadow-sm transition-all hover:border-primary/30 hover:bg-blue-50/50"
+                                        >
+                                            <span className="whitespace-nowrap text-sm font-semibold text-slate-700 transition-colors group-hover:text-primary">{t("pages.news.blog.next_article", { defaultValue: "Next article" })}</span>
+                                        <ArrowRight className="h-4 w-4 shrink-0 text-primary transition-transform group-hover:translate-x-1" />
+                                    </Link>
+                                ) : (
+                                        <div className="hidden h-11 w-[154px] sm:block" />
+                                )}
+                            </nav>
+                        )}
                     </div>
 
                     {/* Sidebar */}
@@ -151,7 +209,7 @@ export default function BlogPost() {
                                         relatedPosts.map((rPost) => (
                                             <Link
                                                 key={rPost.permalink}
-                                                to={rPost.permalink}
+                                                to={`${rPost.permalink}${listSearch}`}
                                                 className="group flex flex-col gap-1 py-2 border-b border-slate-100 last:border-0 transition-all"
                                             >
                                                 <span className="text-[10px] text-slate-400 font-medium">

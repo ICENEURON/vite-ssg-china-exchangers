@@ -35,6 +35,9 @@
     "back_to_catalog": "Volver a noticias",
     "author": "Autor",
     "read_time": "Leer",
+    "article_navigation": "Navegación del artículo",
+    "previous_article": "Artículo anterior",
+    "next_article": "Artículo siguiente",
     "related_posts": "Últimos artículos"
   }
 }

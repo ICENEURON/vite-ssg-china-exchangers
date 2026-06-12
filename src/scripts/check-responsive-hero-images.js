@@ -7,6 +7,7 @@ const heroNames = [
   'home-hero',
   'manufacturers-hero',
   'product-hero',
+  'quote-service-hero',
   'about-hero',
   'contact-hero',
 ];

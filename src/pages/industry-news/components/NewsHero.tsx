@@ -6,9 +6,10 @@ import { useTranslation } from "react-i18next";
 
 interface NewsHeroProps {
     post: Post;
+    articleSearch?: string;
 }
 
-export function NewsHero({ post }: NewsHeroProps) {
+export function NewsHero({ post, articleSearch = "" }: NewsHeroProps) {
     const { t } = useTranslation("translation");
     const contentType = post.contentType || "posts";
     const contentTypeLabel = t(`pages.news.content_types.${contentType}`, {
@@ -38,7 +39,7 @@ export function NewsHero({ post }: NewsHeroProps) {
                         </Badge>
                     </div>
 
-                    <Link to={post.permalink} className="hover:text-accent hover:underline decoration-accent underline-offset-2">
+                    <Link to={`${post.permalink}${articleSearch}`} className="hover:text-accent hover:underline decoration-accent underline-offset-2">
                         <h1 className="font-bold tracking-tight text-white leading-tight">
                             {post.title}
                         </h1>

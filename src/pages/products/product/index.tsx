@@ -7,6 +7,7 @@ import { Badge } from "../../../components/ui/badge"
 import { ImageCarouselGallery, ZoomableImageGrid, ZoomableImageStrip } from '../../../components/ui/interactive-image-gallery'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../../components/ui/tabs"
 import { ManufacturerLogo } from "../../../components/ui/manufacturer-logo"
+import { manufacturerLogoTrayClassName } from '../../../utils/manufacturer-logo'
 import { useTranslation } from 'react-i18next'
 import { addLanguageToPath, getLanguageFromPath } from '../../../utils/language-routing'
 import { RfqLink } from '../../../utils/rfq-routing/link'
@@ -320,7 +321,7 @@ export default function ProductProfilePage() {
 
                             {/* Product Info */}
                             <div className="order-1 w-full lg:order-2 lg:w-1/2 flex flex-col items-start gap-6 pt-1">
-                                <div className="-mb-3 inline-flex max-w-full items-center bg-white px-2 py-1">
+                                <div className={`-mb-3 ${manufacturerLogoTrayClassName}`}>
                                     <ManufacturerLogo slug={manufacturerSlug} name={manufacturerName} className="block" />
                                 </div>
                                 <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-tight">

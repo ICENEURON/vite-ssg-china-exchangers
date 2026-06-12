@@ -35,6 +35,9 @@
     "back_to_catalog": "返回新闻",
     "author": "作者",
     "read_time": "阅读时间",
+    "article_navigation": "文章导航",
+    "previous_article": "上一篇文章",
+    "next_article": "下一篇文章",
     "related_posts": "最新文章"
   }
 }

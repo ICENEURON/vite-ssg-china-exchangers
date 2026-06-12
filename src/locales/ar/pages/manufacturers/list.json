@@ -70,10 +70,10 @@
     ]
   },
   {
-    "name": "Shanghai Accessen Co., Ltd.",
-    "short_description": "مزود حلول تبريد وتبادل حراري لمراكز البيانات منخفضة الكربون، متخصص في المبادلات الحرارية اللوحية، والمبادلات الملحومة بالكامل، والأنظمة الحرارية المتكاملة الجاهزة.",
-    "slug": "shanghai-accessen-co-ltd",
-    "city": "شنغهاي",
+    "name": "Siping ViEX Heat Exchange Equipment Co., Ltd.",
+    "short_description": "مصنع محترف لمعدات التبادل الحراري ومنتجات أوعية الضغط، وألواح التغطية، والأنابيب، والدوامة، وجانب الهواء، وحلول التبادل الحراري المتكاملة.",
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+    "city": "سيبينغ",
     "country_name": "الصين",
     "industries": [
       "HVAC",
@@ -88,10 +88,10 @@
     ]
   },
   {
-    "name": "Siping ViEX Heat Exchange Equipment Co., Ltd.",
-    "short_description": "مصنع محترف لمعدات التبادل الحراري ومنتجات أوعية الضغط، وألواح التغطية، والأنابيب، والدوامة، وجانب الهواء، وحلول التبادل الحراري المتكاملة.",
-    "slug": "siping-viex-heat-exchange-equipment-co-ltd",
-    "city": "سيبينغ",
+    "name": "Shanghai Accessen Co., Ltd.",
+    "short_description": "مزود حلول تبريد وتبادل حراري لمراكز البيانات منخفضة الكربون، متخصص في المبادلات الحرارية اللوحية، والمبادلات الملحومة بالكامل، والأنظمة الحرارية المتكاملة الجاهزة.",
+    "slug": "shanghai-accessen-co-ltd",
+    "city": "شنغهاي",
     "country_name": "الصين",
     "industries": [
       "HVAC",

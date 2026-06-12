@@ -15,7 +15,7 @@ export function HeroSection() {
           nameClassName="font-bold text-white"
         />
       )}
-      backgroundImageSrc="/static/websites/product-hero.png"
+      backgroundImageSrc="/static/websites/quote-service-hero.png"
       backgroundImageAlt={t("ui.image.industrial_facility")}
     />
   );

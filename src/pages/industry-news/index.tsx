@@ -1,11 +1,11 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, useSearchParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { SeoHead } from '../../components/seo/SeoHead'
 import { posts } from '.velite'
 import { useCurrentLanguage } from '../../utils/language-routing'
 import { NewsHero } from './components/NewsHero'
 import { NewsList } from './components/NewsList'
-import { useMemo, useState, useEffect, useCallback } from 'react'
+import { useMemo, useEffect, useCallback } from 'react'
 import { Factory, Newspaper, Search } from 'lucide-react'
 import {
     Pagination,
@@ -18,9 +18,14 @@ import {
 import { Input } from "../../components/ui/input"
 import { cn } from '../../utils/cn'
 import manufacturersData from '../../data/manufacturers.json'
-
-type ContentTypeFilter = 'all' | 'news' | 'posts';
-type CompanyFilter = 'all' | string;
+import {
+    buildIndustryNewsSearch,
+    filterIndustryNewsPosts,
+    parseIndustryNewsFilters,
+    type CompanyFilter,
+    type ContentTypeFilter,
+    type IndustryNewsFilters,
+} from './filter-state'
 
 interface ManufacturerOption {
     slug: string;
@@ -81,40 +86,48 @@ function FilterButton({
 export default function BlogsPage() {
     const { t } = useTranslation("translation");
     const location = useLocation();
+    const [searchParams, setSearchParams] = useSearchParams();
     const siteUrl = import.meta.env.VITE_SITE_URL || "https://heatexdirect.com";
     const siteName = import.meta.env.VITE_SITE_TITLE || "HeatEx Direct";
     const currentUrl = new URL(location.pathname, siteUrl).href;
 
     const currentLanguage = useCurrentLanguage();
-    const [contentTypeFilter, setContentTypeFilter] = useState<ContentTypeFilter>('all');
-    const [companyFilter, setCompanyFilter] = useState<CompanyFilter>('all');
-    const [searchQuery, setSearchQuery] = useState('');
+    const filters = useMemo(() => parseIndustryNewsFilters(searchParams), [searchParams]);
+    const { contentTypeFilter, companyFilter, searchQuery } = filters;
     const pageSubtitle = t("pages.news.page.subtitle");
+
+    const updateFilters = useCallback((
+        nextFilters: Partial<IndustryNewsFilters>,
+        options: { replace?: boolean; resetPage?: boolean } = {},
+    ) => {
+        const shouldResetPage = options.resetPage ?? (
+            nextFilters.contentTypeFilter !== undefined ||
+            nextFilters.companyFilter !== undefined ||
+            nextFilters.searchQuery !== undefined
+        );
+        const mergedFilters: IndustryNewsFilters = {
+            ...filters,
+            ...nextFilters,
+            page: shouldResetPage && nextFilters.page === undefined ? 1 : nextFilters.page ?? filters.page,
+        };
+        const nextSearch = buildIndustryNewsSearch(mergedFilters);
+
+        setSearchParams(nextSearch.startsWith("?") ? nextSearch.slice(1) : nextSearch, {
+            replace: options.replace ?? false,
+        });
+    }, [filters, setSearchParams]);
 
     // Filter posts by language and sort by date (newest first)
     const languagePosts = useMemo(() => posts
         .filter(post => post.lang === currentLanguage)
         .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()), [currentLanguage]);
 
-    const searchKeywords = useMemo(() => searchQuery
-        .trim()
-        .toLowerCase()
-        .split(/\s+/)
-        .filter(Boolean), [searchQuery]);
-
-    const titleMatchesSearch = useCallback((title: string) => {
-        if (searchKeywords.length === 0) return true;
-
-        const normalizedTitle = title.toLowerCase();
-        return searchKeywords.every((keyword) => normalizedTitle.includes(keyword));
-    }, [searchKeywords]);
 
     const contentTypeOptions = useMemo(() => {
-        const getCount = (contentType: ContentTypeFilter) => languagePosts.filter((post) => {
-            if (contentType !== 'all' && post.contentType !== contentType) return false;
-            if (companyFilter !== 'all' && post.company !== companyFilter) return false;
-            if (!titleMatchesSearch(post.title)) return false;
-            return true;
+        const getCount = (contentType: ContentTypeFilter) => filterIndustryNewsPosts(languagePosts, {
+            ...filters,
+            contentTypeFilter: contentType,
+            page: 1,
         }).length;
 
         return [
@@ -122,15 +135,14 @@ export default function BlogsPage() {
             { value: 'news' as const, label: t('pages.news.content_types.news'), count: getCount('news') },
             { value: 'posts' as const, label: t('pages.news.content_types.posts'), count: getCount('posts') },
         ];
-    }, [companyFilter, languagePosts, titleMatchesSearch, t]);
+    }, [filters, languagePosts, t]);
 
     const companyOptions = useMemo(() => {
         const companies = Array.from(new Set(languagePosts.map((post) => post.company).filter(Boolean) as string[]));
-        const getCount = (company: CompanyFilter) => languagePosts.filter((post) => {
-            if (contentTypeFilter !== 'all' && post.contentType !== contentTypeFilter) return false;
-            if (company !== 'all' && post.company !== company) return false;
-            if (!titleMatchesSearch(post.title)) return false;
-            return true;
+        const getCount = (company: CompanyFilter) => filterIndustryNewsPosts(languagePosts, {
+            ...filters,
+            companyFilter: company,
+            page: 1,
         }).length;
 
         const heatexDirectCompany = 'heatex-direct';
@@ -156,25 +168,26 @@ export default function BlogsPage() {
             ...heatexDirectOption,
             ...companyItems,
         ];
-    }, [contentTypeFilter, currentLanguage, languagePosts, titleMatchesSearch, t]);
+    }, [currentLanguage, filters, languagePosts, t]);
 
-    const filteredPosts = useMemo(() => languagePosts.filter((post) => {
-        if (contentTypeFilter !== 'all' && post.contentType !== contentTypeFilter) return false;
-        if (companyFilter !== 'all' && post.company !== companyFilter) return false;
-        if (!titleMatchesSearch(post.title)) return false;
-        return true;
-    }), [companyFilter, contentTypeFilter, languagePosts, titleMatchesSearch]);
+    const filteredPosts = useMemo(() => filterIndustryNewsPosts(languagePosts, filters), [filters, languagePosts]);
 
-    const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 10;
     const totalPages = Math.ceil(filteredPosts.length / itemsPerPage);
+    const currentPage = Math.min(filters.page, Math.max(totalPages, 1));
     const paginatedPosts = filteredPosts.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
     const featuredPost = paginatedPosts[0];
     const listPosts = paginatedPosts.slice(1);
+    const articleSearch = buildIndustryNewsSearch({ ...filters, page: currentPage });
+    const getPageHref = (page: number) => `${location.pathname}${buildIndustryNewsSearch({ ...filters, page })}`;
 
     useEffect(() => {
-        setCurrentPage(1);
-    }, [contentTypeFilter, companyFilter, searchQuery]);
+        const maxPage = Math.max(totalPages, 1);
+
+        if (filters.page > maxPage) {
+            updateFilters({ page: maxPage }, { replace: true, resetPage: false });
+        }
+    }, [filters.page, totalPages, updateFilters]);
 
     // Scroll to top on page change
     useEffect(() => {
@@ -210,7 +223,7 @@ export default function BlogsPage() {
                                             key={option.value}
                                             active={contentTypeFilter === option.value}
                                             label={option.label}
-                                            onClick={() => setContentTypeFilter(option.value)}
+                                            onClick={() => updateFilters({ contentTypeFilter: option.value })}
                                             className="min-w-0"
                                         />
                                     ))}
@@ -228,7 +241,7 @@ export default function BlogsPage() {
                                             key={option.value}
                                             active={companyFilter === option.value}
                                             label={option.label}
-                                            onClick={() => setCompanyFilter(option.value)}
+                                            onClick={() => updateFilters({ companyFilter: option.value })}
                                         />
                                     ))}
                                 </div>
@@ -241,7 +254,7 @@ export default function BlogsPage() {
                                 <Input
                                     type="search"
                                     value={searchQuery}
-                                    onChange={(event) => setSearchQuery(event.target.value)}
+                                    onChange={(event) => updateFilters({ searchQuery: event.target.value }, { replace: true })}
                                     placeholder={t('pages.news.search.title_placeholder')}
                                     aria-label={t('pages.news.search.label')}
                                     className="h-11 rounded-sm border-border/60 bg-white pl-10 text-sm shadow-sm focus-visible:border-primary focus-visible:ring-primary/20"
@@ -249,7 +262,7 @@ export default function BlogsPage() {
                             </div>
 
                             {featuredPost ? (
-                                <NewsHero post={featuredPost} />
+                                <NewsHero post={featuredPost} articleSearch={articleSearch} />
                             ) : (
                                 <div className="flex min-h-64 flex-col items-center justify-center gap-3 rounded-sm border border-dashed border-border text-center text-muted">
                                     <Newspaper className="size-8 text-primary" />
@@ -259,7 +272,7 @@ export default function BlogsPage() {
                             {paginatedPosts.length > 0 && (
                                 <div>
                                     {listPosts.length > 0 && (
-                                        <NewsList posts={listPosts} />
+                                        <NewsList posts={listPosts} articleSearch={articleSearch} />
                                     )}
 
                                     {filteredPosts.length > 0 && (
@@ -270,10 +283,10 @@ export default function BlogsPage() {
                                                     <PaginationContent>
                                                         <PaginationItem>
                                                             <PaginationPrevious
-                                                                href="#"
+                                                                href={currentPage > 1 ? getPageHref(currentPage - 1) : "#"}
                                                                 onClick={(e) => {
                                                                     e.preventDefault();
-                                                                    if (currentPage > 1) setCurrentPage(p => p - 1);
+                                                                    if (currentPage > 1) updateFilters({ page: currentPage - 1 }, { resetPage: false });
                                                                 }}
                                                                 className={currentPage === 1 ? "pointer-events-none opacity-50" : ""}
                                                             />
@@ -282,11 +295,11 @@ export default function BlogsPage() {
                                                             return (
                                                                 <PaginationItem key={page}>
                                                                     <PaginationLink
-                                                                        href="#"
+                                                                        href={getPageHref(page)}
                                                                         isActive={currentPage === page}
                                                                         onClick={(e) => {
                                                                             e.preventDefault();
-                                                                            setCurrentPage(page);
+                                                                            updateFilters({ page }, { resetPage: false });
                                                                         }}
                                                                     >
                                                                         {page}
@@ -296,10 +309,10 @@ export default function BlogsPage() {
                                                         })}
                                                         <PaginationItem>
                                                             <PaginationNext
-                                                                href="#"
+                                                                href={currentPage < totalPages ? getPageHref(currentPage + 1) : "#"}
                                                                 onClick={(e) => {
                                                                     e.preventDefault();
-                                                                    if (currentPage < totalPages) setCurrentPage(p => p + 1);
+                                                                    if (currentPage < totalPages) updateFilters({ page: currentPage + 1 }, { resetPage: false });
                                                                 }}
                                                                 className={currentPage === totalPages ? "pointer-events-none opacity-50" : ""}
                                                             />

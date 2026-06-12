@@ -1,5 +1,23 @@
 [
   {
+    "id": 7,
+    "slug": "food-and-beverage",
+    "name": "Еда и напитки",
+    "is_visible": true
+  },
+  {
+    "id": 8,
+    "slug": "pharmaceuticals",
+    "name": "Фармацевтика",
+    "is_visible": true
+  },
+  {
+    "id": 9,
+    "slug": "power-generation",
+    "name": "Производство электроэнергии",
+    "is_visible": true
+  },
+  {
     "id": 1,
     "slug": "hvac",
     "name": "HVAC",
@@ -33,24 +51,6 @@
     "id": 6,
     "slug": "chemical-processing",
     "name": "Химическая обработка",
-    "is_visible": true
-  },
-  {
-    "id": 7,
-    "slug": "food-and-beverage",
-    "name": "Еда и напитки",
-    "is_visible": true
-  },
-  {
-    "id": 8,
-    "slug": "pharmaceuticals",
-    "name": "Фармацевтика",
-    "is_visible": true
-  },
-  {
-    "id": 9,
-    "slug": "power-generation",
-    "name": "Производство электроэнергии",
     "is_visible": true
   }
 ]

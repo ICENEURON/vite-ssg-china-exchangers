@@ -1,5 +1,47 @@
 [
   {
+    "slug": "tubular-heat-exchanger",
+    "manufacturer": {
+      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+      "name": "Siping ViEX Heat Exchange Equipment Co., Ltd."
+    },
+    "name": "Трубчатый теплообменник",
+    "short_description": "Кожухотрубный теплообменник, изготовленный в соответствии со стандартами ASME и GB для применения в условиях высоких температур, высокого давления и улучшенной теплопередачи.",
+    "industries": [
+      "нефтехимическая",
+      "Энергия",
+      "Химическая обработка",
+      "Производство электроэнергии"
+    ],
+    "images": [
+      {
+        "alt_text": "Tubular Heat Exchanger",
+        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/tubular_heat_exchanger.jpg"
+      }
+    ],
+    "url": "siping-viex-heat-exchange-equipment-co-ltd/tubular-heat-exchanger"
+  },
+  {
+    "slug": "heat-exchanger-unit",
+    "manufacturer": {
+      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+      "name": "Siping ViEX Heat Exchange Equipment Co., Ltd."
+    },
+    "name": "Теплообменник",
+    "short_description": "Встроенный теплообменник для централизованного теплоснабжения, кондиционирования воздуха и горячего водоснабжения с автоматическим управлением и энергосберегающим режимом работы.",
+    "industries": [
+      "HVAC",
+      "Энергия"
+    ],
+    "images": [
+      {
+        "alt_text": "Heat Exchanger Unit",
+        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/heat_exchanger_unit.jpg"
+      }
+    ],
+    "url": "siping-viex-heat-exchange-equipment-co-ltd/heat-exchanger-unit"
+  },
+  {
     "slug": "tp-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-heat-transfer-equipment-co-ltd",
@@ -72,29 +114,6 @@
       }
     ],
     "url": "kdp-machinery-jiangsu-co-ltd/fully-welded-plate-heat-exchanger"
-  },
-  {
-    "slug": "block-heat-exchanger",
-    "manufacturer": {
-      "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
-      "name": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
-    },
-    "name": "Блочный теплообменник",
-    "short_description": "Запатентованный сварной блочный теплообменник, сочетающий эффективность пластинчатого теплообменника с высокой герметичностью, устойчивостью к давлению и температуре.",
-    "industries": [
-      "нефтехимическая",
-      "Энергия",
-      "Химическая обработка",
-      "Фармацевтика",
-      "Производство электроэнергии"
-    ],
-    "images": [
-      {
-        "alt_text": "Block Heat Exchanger",
-        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/block_heat_exchanger_1.jpg"
-      }
-    ],
-    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/block-heat-exchanger"
   },
   {
     "slug": "gasketed-plate-heat-exchanger",
@@ -191,42 +210,56 @@
     "url": "kdp-machinery-jiangsu-co-ltd/plate-condenser"
   },
   {
-    "slug": "outdoor-prefabricated-integrated-cooling-station-ais",
+    "slug": "semi-welded-plate-heat-exchanger",
     "manufacturer": {
-      "slug": "shanghai-accessen-co-ltd",
-      "name": "Shanghai Accessen Co., Ltd."
+      "slug": "kdp-machinery-jiangsu-co-ltd",
+      "name": "KDP Machinery Jiangsu Co., Ltd."
     },
-    "name": "Наружная сборная интегрированная станция охлаждения AIS",
-    "short_description": "Наружная сборная интегрированная холодильная установка для быстрого развертывания высокоэффективной инфраструктуры охлаждения центров обработки данных.",
-    "industries": [],
+    "name": "Полусварной пластинчатый теплообменник",
+    "short_description": "Гибридный сварно-прокладочный пластинчатый теплообменник для задач с одной агрессивной, токсичной, холодильной или высоконапорной средой и одной обслуживаемой стороной.",
+    "industries": [
+      "HVAC",
+      "нефтехимическая",
+      "Энергия",
+      "Химическая обработка",
+      "Фармацевтика"
+    ],
     "images": [
       {
-        "alt_text": "Outdoor Prefabricated Integrated Cooling Station AIS",
-        "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/outdoor_prefabricated_integrated_cooling_station_ais.png"
+        "alt_text": "Semi-Welded Plate Heat Exchanger image 1",
+        "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.png"
+      },
+      {
+        "alt_text": "Semi-Welded Plate Heat Exchanger image 2",
+        "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_2.png"
+      },
+      {
+        "alt_text": "Semi-Welded Plate Heat Exchanger image 3",
+        "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_3.png"
       }
     ],
-    "url": "shanghai-accessen-co-ltd/outdoor-prefabricated-integrated-cooling-station-ais"
+    "url": "kdp-machinery-jiangsu-co-ltd/semi-welded-plate-heat-exchanger"
   },
   {
-    "slug": "wide-channel-welded-plate-heat-exchanger",
+    "slug": "plate-and-shell-heat-exchanger",
     "manufacturer": {
       "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
       "name": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd."
     },
-    "name": "Ширококанальный сварной пластинчатый теплообменник",
-    "short_description": "Сварной широкозазорный пластинчатый теплообменник для вязких сред, волокон и твердых частиц.",
+    "name": "Пластинчатый и кожуховый теплообменник",
+    "short_description": "Компактный высокоэффективный кожухопластинчатый теплообменник для нефтеперерабатывающих, нефтехимических и газоперерабатывающих предприятий.",
     "industries": [
-      "Пищевая промышленность",
-      "Химическая обработка",
-      "Еда и напитки"
+      "нефтехимическая",
+      "Энергия",
+      "Химическая обработка"
     ],
     "images": [
       {
-        "alt_text": "Wide Channel Welded Plate Heat Exchanger",
-        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/wide_channel_welded_plate_heat_exchanger_1.jpg"
+        "alt_text": "Plate and Shell Heat Exchanger",
+        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_and_shell_heat_exchanger_1.jpg"
       }
     ],
-    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/wide-channel-welded-plate-heat-exchanger"
+    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/plate-and-shell-heat-exchanger"
   },
   {
     "slug": "awps-series-plate-shell-heat-exchanger-i",
@@ -251,27 +284,25 @@
     "url": "shanghai-accessen-co-ltd/awps-series-plate-shell-heat-exchanger-i"
   },
   {
-    "slug": "waste-heat-recovery-special-heat-exchanger",
+    "slug": "wide-channel-welded-plate-heat-exchanger",
     "manufacturer": {
-      "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
-      "name": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
+      "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
+      "name": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd."
     },
-    "name": "Специальный теплообменник для утилизации отработанного тепла",
-    "short_description": "Сварной пластинчатый теплообменник для промышленных сточных вод, выхлопных газов, дымовых газов, сточных вод и других систем рекуперации отходящего тепла.",
+    "name": "Ширококанальный сварной пластинчатый теплообменник",
+    "short_description": "Сварной широкозазорный пластинчатый теплообменник для вязких сред, волокон и твердых частиц.",
     "industries": [
-      "HVAC",
-      "нефтехимическая",
-      "Энергия",
+      "Пищевая промышленность",
       "Химическая обработка",
-      "Производство электроэнергии"
+      "Еда и напитки"
     ],
     "images": [
       {
-        "alt_text": "Special Heat Exchanger for Waste Heat Recovery",
-        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/waste_heat_recovery_special_heat_exchanger_1.jpg"
+        "alt_text": "Wide Channel Welded Plate Heat Exchanger",
+        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/wide_channel_welded_plate_heat_exchanger_1.jpg"
       }
     ],
-    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/waste-heat-recovery-special-heat-exchanger"
+    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/wide-channel-welded-plate-heat-exchanger"
   },
   {
     "slug": "au-an-as-ap-ac-series-gasketed-plate-heat-exchanger-i",
@@ -297,6 +328,45 @@
       }
     ],
     "url": "shanghai-accessen-co-ltd/au-an-as-ap-ac-series-gasketed-plate-heat-exchanger-i"
+  },
+  {
+    "slug": "liquid-cooled-hydraulic-power-unit-pheu",
+    "manufacturer": {
+      "slug": "shanghai-accessen-co-ltd",
+      "name": "Shanghai Accessen Co., Ltd."
+    },
+    "name": "Гидравлический силовой агрегат с жидкостным охлаждением PHEU",
+    "short_description": "Модульный первичный гидравлический распределительный блок для центров обработки данных с жидкостным охлаждением со встроенными теплообменниками, насосами и системами очистки воды.",
+    "industries": [],
+    "images": [
+      {
+        "alt_text": "Liquid-Cooled Hydraulic Power Unit PHEU",
+        "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooled_hydraulic_power_unit_pheu.png"
+      }
+    ],
+    "url": "shanghai-accessen-co-ltd/liquid-cooled-hydraulic-power-unit-pheu"
+  },
+  {
+    "slug": "plate-tube-shell-heat-exchanger",
+    "manufacturer": {
+      "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
+      "name": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
+    },
+    "name": "Пластинчатый (трубчатый) теплообменник",
+    "short_description": "Платформа пластинчато-корпусного и трубчато-пластинчатого теплообменника с использованием сварных пучков пластин и проверенных процедур контроля для особых условий эксплуатации.",
+    "industries": [
+      "нефтехимическая",
+      "Энергия",
+      "Химическая обработка",
+      "Производство электроэнергии"
+    ],
+    "images": [
+      {
+        "alt_text": "Plate (Tube) Shell Heat Exchanger",
+        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/plate_tube_shell_heat_exchanger_1.jpg"
+      }
+    ],
+    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/plate-tube-shell-heat-exchanger"
   },
   {
     "slug": "plate-shell-heat-exchanger-pshe",
@@ -330,25 +400,27 @@
     "url": "kdp-machinery-jiangsu-co-ltd/plate-shell-heat-exchanger-pshe"
   },
   {
-    "slug": "plate-heat-exchanger-unit",
+    "slug": "round-shell-heat-exchanger",
     "manufacturer": {
       "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
       "name": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd."
     },
-    "name": "Пластинчатый теплообменник",
-    "short_description": "Интегрированная теплообменная установка, объединяющая пластинчатый теплообменник, насос, клапаны, приборы и средства управления.",
+    "name": "Теплообменник с круглым корпусом",
+    "short_description": "Сварной пластинчатый теплообменник с круглым корпусом, сочетающий в себе эффективность пластин и устойчивость кожухотрубного давления.",
     "industries": [
       "HVAC",
-      "Морской",
-      "Энергия"
+      "нефтехимическая",
+      "Химическая обработка",
+      "Фармацевтика",
+      "Производство электроэнергии"
     ],
     "images": [
       {
-        "alt_text": "Plate Heat Exchanger Unit",
-        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_heat_exchanger_unit_1.jpg"
+        "alt_text": "Round Shell Heat Exchanger",
+        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/round_shell_heat_exchanger_1.jpg"
       }
     ],
-    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/plate-heat-exchanger-unit"
+    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/round-shell-heat-exchanger"
   },
   {
     "slug": "ls-bloc-welded-plate-heat-exchanger",
@@ -377,27 +449,69 @@
     "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/ls-bloc-welded-plate-heat-exchanger"
   },
   {
-    "slug": "round-shell-heat-exchanger",
+    "slug": "plate-heat-exchanger-unit",
     "manufacturer": {
       "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
       "name": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd."
     },
-    "name": "Теплообменник с круглым корпусом",
-    "short_description": "Сварной пластинчатый теплообменник с круглым корпусом, сочетающий в себе эффективность пластин и устойчивость кожухотрубного давления.",
+    "name": "Пластинчатый теплообменник",
+    "short_description": "Интегрированная теплообменная установка, объединяющая пластинчатый теплообменник, насос, клапаны, приборы и средства управления.",
+    "industries": [
+      "HVAC",
+      "Морской",
+      "Энергия"
+    ],
+    "images": [
+      {
+        "alt_text": "Plate Heat Exchanger Unit",
+        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_heat_exchanger_unit_1.jpg"
+      }
+    ],
+    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/plate-heat-exchanger-unit"
+  },
+  {
+    "slug": "waste-heat-recovery-special-heat-exchanger",
+    "manufacturer": {
+      "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
+      "name": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
+    },
+    "name": "Специальный теплообменник для утилизации отработанного тепла",
+    "short_description": "Сварной пластинчатый теплообменник для промышленных сточных вод, выхлопных газов, дымовых газов, сточных вод и других систем рекуперации отходящего тепла.",
     "industries": [
       "HVAC",
       "нефтехимическая",
+      "Энергия",
       "Химическая обработка",
-      "Фармацевтика",
       "Производство электроэнергии"
     ],
     "images": [
       {
-        "alt_text": "Round Shell Heat Exchanger",
-        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/round_shell_heat_exchanger_1.jpg"
+        "alt_text": "Special Heat Exchanger for Waste Heat Recovery",
+        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/waste_heat_recovery_special_heat_exchanger_1.jpg"
       }
     ],
-    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/round-shell-heat-exchanger"
+    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/waste-heat-recovery-special-heat-exchanger"
+  },
+  {
+    "slug": "spiral-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+      "name": "Siping ViEX Heat Exchange Equipment Co., Ltd."
+    },
+    "name": "Спиральный пластинчатый теплообменник",
+    "short_description": "Спиральный пластинчатый теплообменник, изготовленный по стандартам JB/T4751-2003 и GB150-1998, со съемной и несъемной конфигурацией для сложных технологических задач.",
+    "industries": [
+      "нефтехимическая",
+      "Химическая обработка",
+      "Еда и напитки"
+    ],
+    "images": [
+      {
+        "alt_text": "Spiral Plate Heat Exchanger",
+        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/spiral_plate_heat_exchanger.png"
+      }
+    ],
+    "url": "siping-viex-heat-exchange-equipment-co-ltd/spiral-plate-heat-exchanger"
   },
   {
     "slug": "gasketed-plate-heat-exchanger",
@@ -435,80 +549,6 @@
       }
     ],
     "url": "shanghai-heat-transfer-equipment-co-ltd/gasketed-plate-heat-exchanger"
-  },
-  {
-    "slug": "spiral-plate-heat-exchanger",
-    "manufacturer": {
-      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
-      "name": "Siping ViEX Heat Exchange Equipment Co., Ltd."
-    },
-    "name": "Спиральный пластинчатый теплообменник",
-    "short_description": "Спиральный пластинчатый теплообменник, изготовленный по стандартам JB/T4751-2003 и GB150-1998, со съемной и несъемной конфигурацией для сложных технологических задач.",
-    "industries": [
-      "нефтехимическая",
-      "Химическая обработка",
-      "Еда и напитки"
-    ],
-    "images": [
-      {
-        "alt_text": "Spiral Plate Heat Exchanger",
-        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/spiral_plate_heat_exchanger.png"
-      }
-    ],
-    "url": "siping-viex-heat-exchange-equipment-co-ltd/spiral-plate-heat-exchanger"
-  },
-  {
-    "slug": "tubular-heat-exchanger",
-    "manufacturer": {
-      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
-      "name": "Siping ViEX Heat Exchange Equipment Co., Ltd."
-    },
-    "name": "Трубчатый теплообменник",
-    "short_description": "Кожухотрубный теплообменник, изготовленный в соответствии со стандартами ASME и GB для применения в условиях высоких температур, высокого давления и улучшенной теплопередачи.",
-    "industries": [
-      "нефтехимическая",
-      "Энергия",
-      "Химическая обработка",
-      "Производство электроэнергии"
-    ],
-    "images": [
-      {
-        "alt_text": "Tubular Heat Exchanger",
-        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/tubular_heat_exchanger.jpg"
-      }
-    ],
-    "url": "siping-viex-heat-exchange-equipment-co-ltd/tubular-heat-exchanger"
-  },
-  {
-    "slug": "semi-welded-plate-heat-exchanger",
-    "manufacturer": {
-      "slug": "kdp-machinery-jiangsu-co-ltd",
-      "name": "KDP Machinery Jiangsu Co., Ltd."
-    },
-    "name": "Полусварной пластинчатый теплообменник",
-    "short_description": "Гибридный сварно-прокладочный пластинчатый теплообменник для задач с одной агрессивной, токсичной, холодильной или высоконапорной средой и одной обслуживаемой стороной.",
-    "industries": [
-      "HVAC",
-      "нефтехимическая",
-      "Энергия",
-      "Химическая обработка",
-      "Фармацевтика"
-    ],
-    "images": [
-      {
-        "alt_text": "Semi-Welded Plate Heat Exchanger image 1",
-        "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.png"
-      },
-      {
-        "alt_text": "Semi-Welded Plate Heat Exchanger image 2",
-        "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_2.png"
-      },
-      {
-        "alt_text": "Semi-Welded Plate Heat Exchanger image 3",
-        "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_3.png"
-      }
-    ],
-    "url": "kdp-machinery-jiangsu-co-ltd/semi-welded-plate-heat-exchanger"
   },
   {
     "slug": "ht-bloc-welded-plate-heat-exchanger",
@@ -624,112 +664,6 @@
     "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/microchannel-compact-welded-plate-heat-exchanger-pche"
   },
   {
-    "slug": "detachable-plate-heat-exchanger",
-    "manufacturer": {
-      "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
-      "name": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd."
-    },
-    "name": "Съемный пластинчатый теплообменник",
-    "short_description": "Разборный съемный пластинчатый теплообменник для нагрева, охлаждения, испарения, конденсации, стерилизации и рекуперации тепла.",
-    "industries": [
-      "HVAC",
-      "нефтехимическая",
-      "Морской",
-      "Химическая обработка",
-      "Еда и напитки",
-      "Фармацевтика",
-      "Производство электроэнергии"
-    ],
-    "images": [
-      {
-        "alt_text": "Detachable Plate Heat Exchanger",
-        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/detachable_plate_heat_exchanger_1.jpg"
-      }
-    ],
-    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/detachable-plate-heat-exchanger"
-  },
-  {
-    "slug": "plate-and-shell-heat-exchanger",
-    "manufacturer": {
-      "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
-      "name": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd."
-    },
-    "name": "Пластинчатый и кожуховый теплообменник",
-    "short_description": "Компактный высокоэффективный кожухопластинчатый теплообменник для нефтеперерабатывающих, нефтехимических и газоперерабатывающих предприятий.",
-    "industries": [
-      "нефтехимическая",
-      "Энергия",
-      "Химическая обработка"
-    ],
-    "images": [
-      {
-        "alt_text": "Plate and Shell Heat Exchanger",
-        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_and_shell_heat_exchanger_1.jpg"
-      }
-    ],
-    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/plate-and-shell-heat-exchanger"
-  },
-  {
-    "slug": "standardized-heat-exchange-unit",
-    "manufacturer": {
-      "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
-      "name": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
-    },
-    "name": "Стандартизированный теплообменный блок",
-    "short_description": "Стандартизированный теплообменный блок с модульной конфигурацией, стандартизированной программой управления и меньшим целевым перепадом давления, чем национальные эталонные значения, указанные THT.",
-    "industries": [
-      "HVAC",
-      "Энергия",
-      "Производство электроэнергии"
-    ],
-    "images": [
-      {
-        "alt_text": "Standardized Heat Exchange Unit",
-        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/standardized_heat_exchange_unit_1.jpg"
-      }
-    ],
-    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/standardized-heat-exchange-unit"
-  },
-  {
-    "slug": "liquid-cooled-hydraulic-power-unit-pheu",
-    "manufacturer": {
-      "slug": "shanghai-accessen-co-ltd",
-      "name": "Shanghai Accessen Co., Ltd."
-    },
-    "name": "Гидравлический силовой агрегат с жидкостным охлаждением PHEU",
-    "short_description": "Модульный первичный гидравлический распределительный блок для центров обработки данных с жидкостным охлаждением со встроенными теплообменниками, насосами и системами очистки воды.",
-    "industries": [],
-    "images": [
-      {
-        "alt_text": "Liquid-Cooled Hydraulic Power Unit PHEU",
-        "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooled_hydraulic_power_unit_pheu.png"
-      }
-    ],
-    "url": "shanghai-accessen-co-ltd/liquid-cooled-hydraulic-power-unit-pheu"
-  },
-  {
-    "slug": "plate-tube-shell-heat-exchanger",
-    "manufacturer": {
-      "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
-      "name": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
-    },
-    "name": "Пластинчатый (трубчатый) теплообменник",
-    "short_description": "Платформа пластинчато-корпусного и трубчато-пластинчатого теплообменника с использованием сварных пучков пластин и проверенных процедур контроля для особых условий эксплуатации.",
-    "industries": [
-      "нефтехимическая",
-      "Энергия",
-      "Химическая обработка",
-      "Производство электроэнергии"
-    ],
-    "images": [
-      {
-        "alt_text": "Plate (Tube) Shell Heat Exchanger",
-        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/plate_tube_shell_heat_exchanger_1.jpg"
-      }
-    ],
-    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/plate-tube-shell-heat-exchanger"
-  },
-  {
     "slug": "a-bloc-fully-welded-removable-plate-heat-exchanger",
     "manufacturer": {
       "slug": "shanghai-accessen-co-ltd",
@@ -750,6 +684,28 @@
       }
     ],
     "url": "shanghai-accessen-co-ltd/a-bloc-fully-welded-removable-plate-heat-exchanger"
+  },
+  {
+    "slug": "fully-welded-wide-channel-plate-heat-exchanger",
+    "manufacturer": {
+      "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
+      "name": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
+    },
+    "name": "Полностью сварной ширококанальный пластинчатый теплообменник",
+    "short_description": "Цельносварной ширококанальный пластинчатый теплообменник для работы с твердыми частицами, волокнистой суспензией и вязкими жидкостями.",
+    "industries": [
+      "нефтехимическая",
+      "Пищевая промышленность",
+      "Химическая обработка",
+      "Еда и напитки"
+    ],
+    "images": [
+      {
+        "alt_text": "Fully Welded Wide Channel Plate Heat Exchanger",
+        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/fully_welded_wide_channel_plate_heat_exchanger_1.jpg"
+      }
+    ],
+    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/fully-welded-wide-channel-plate-heat-exchanger"
   },
   {
     "slug": "all-welded-plate-heat-exchanger",
@@ -776,26 +732,25 @@
     "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/all-welded-plate-heat-exchanger"
   },
   {
-    "slug": "fully-welded-wide-channel-plate-heat-exchanger",
+    "slug": "standardized-heat-exchange-unit",
     "manufacturer": {
       "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
       "name": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
     },
-    "name": "Полностью сварной ширококанальный пластинчатый теплообменник",
-    "short_description": "Цельносварной ширококанальный пластинчатый теплообменник для работы с твердыми частицами, волокнистой суспензией и вязкими жидкостями.",
+    "name": "Стандартизированный теплообменный блок",
+    "short_description": "Стандартизированный теплообменный блок с модульной конфигурацией, стандартизированной программой управления и меньшим целевым перепадом давления, чем национальные эталонные значения, указанные THT.",
     "industries": [
-      "нефтехимическая",
-      "Пищевая промышленность",
-      "Химическая обработка",
-      "Еда и напитки"
+      "HVAC",
+      "Энергия",
+      "Производство электроэнергии"
     ],
     "images": [
       {
-        "alt_text": "Fully Welded Wide Channel Plate Heat Exchanger",
-        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/fully_welded_wide_channel_plate_heat_exchanger_1.jpg"
+        "alt_text": "Standardized Heat Exchange Unit",
+        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/standardized_heat_exchange_unit_1.jpg"
       }
     ],
-    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/fully-welded-wide-channel-plate-heat-exchanger"
+    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/standardized-heat-exchange-unit"
   },
   {
     "slug": "primary-energy-efficiency-plate-heat-exchanger",
@@ -824,6 +779,51 @@
     "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/primary-energy-efficiency-plate-heat-exchanger"
   },
   {
+    "slug": "block-heat-exchanger",
+    "manufacturer": {
+      "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
+      "name": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd."
+    },
+    "name": "Блочный теплообменник",
+    "short_description": "Запатентованный сварной блочный теплообменник, сочетающий эффективность пластинчатого теплообменника с высокой герметичностью, устойчивостью к давлению и температуре.",
+    "industries": [
+      "нефтехимическая",
+      "Энергия",
+      "Химическая обработка",
+      "Фармацевтика",
+      "Производство электроэнергии"
+    ],
+    "images": [
+      {
+        "alt_text": "Block Heat Exchanger",
+        "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/block_heat_exchanger_1.jpg"
+      }
+    ],
+    "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/block-heat-exchanger"
+  },
+  {
+    "slug": "air-heat-exchanger",
+    "manufacturer": {
+      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
+      "name": "Siping ViEX Heat Exchange Equipment Co., Ltd."
+    },
+    "name": "Воздушный теплообменник",
+    "short_description": "Воздушный теплообменник с оребренными трубками для нагрева или охлаждения воздуха горячей водой, паром, маслом-теплоносителем, рассолом или низкотемпературной водой.",
+    "industries": [
+      "HVAC",
+      "Пищевая промышленность",
+      "Еда и напитки",
+      "Фармацевтика"
+    ],
+    "images": [
+      {
+        "alt_text": "Air Heat Exchanger",
+        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_heat_exchanger.jpg"
+      }
+    ],
+    "url": "siping-viex-heat-exchange-equipment-co-ltd/air-heat-exchanger"
+  },
+  {
     "slug": "brazed-plate-heat-exchanger",
     "manufacturer": {
       "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
@@ -848,26 +848,46 @@
     "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/brazed-plate-heat-exchanger"
   },
   {
-    "slug": "air-heat-exchanger",
+    "slug": "detachable-plate-heat-exchanger",
     "manufacturer": {
-      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
-      "name": "Siping ViEX Heat Exchange Equipment Co., Ltd."
+      "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
+      "name": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd."
     },
-    "name": "Воздушный теплообменник",
-    "short_description": "Воздушный теплообменник с оребренными трубками для нагрева или охлаждения воздуха горячей водой, паром, маслом-теплоносителем, рассолом или низкотемпературной водой.",
+    "name": "Съемный пластинчатый теплообменник",
+    "short_description": "Разборный съемный пластинчатый теплообменник для нагрева, охлаждения, испарения, конденсации, стерилизации и рекуперации тепла.",
     "industries": [
       "HVAC",
-      "Пищевая промышленность",
+      "нефтехимическая",
+      "Морской",
+      "Химическая обработка",
       "Еда и напитки",
-      "Фармацевтика"
+      "Фармацевтика",
+      "Производство электроэнергии"
     ],
     "images": [
       {
-        "alt_text": "Air Heat Exchanger",
-        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_heat_exchanger.jpg"
+        "alt_text": "Detachable Plate Heat Exchanger",
+        "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/detachable_plate_heat_exchanger_1.jpg"
       }
     ],
-    "url": "siping-viex-heat-exchange-equipment-co-ltd/air-heat-exchanger"
+    "url": "lanzhou-lanshi-heat-exchange-equipment-co-ltd/detachable-plate-heat-exchanger"
+  },
+  {
+    "slug": "outdoor-prefabricated-integrated-cooling-station-ais",
+    "manufacturer": {
+      "slug": "shanghai-accessen-co-ltd",
+      "name": "Shanghai Accessen Co., Ltd."
+    },
+    "name": "Наружная сборная интегрированная станция охлаждения AIS",
+    "short_description": "Наружная сборная интегрированная холодильная установка для быстрого развертывания высокоэффективной инфраструктуры охлаждения центров обработки данных.",
+    "industries": [],
+    "images": [
+      {
+        "alt_text": "Outdoor Prefabricated Integrated Cooling Station AIS",
+        "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/outdoor_prefabricated_integrated_cooling_station_ais.png"
+      }
+    ],
+    "url": "shanghai-accessen-co-ltd/outdoor-prefabricated-integrated-cooling-station-ais"
   },
   {
     "slug": "wide-gap-welded-plate-heat-exchanger",
@@ -925,25 +945,6 @@
     "url": "shanghai-accessen-co-ltd/liquid-cooling-distribution-unit-acdu"
   },
   {
-    "slug": "high-efficiency-plate-heat-exchanger-aq-aa",
-    "manufacturer": {
-      "slug": "shanghai-accessen-co-ltd",
-      "name": "Shanghai Accessen Co., Ltd."
-    },
-    "name": "Высокоэффективный пластинчатый теплообменник AQ/AA",
-    "short_description": "Разборный пластинчатый теплообменник, сертифицированный AHRI, для HVAC-R и холодильного оборудования.",
-    "industries": [
-      "HVAC"
-    ],
-    "images": [
-      {
-        "alt_text": "High-Efficiency Plate Heat Exchanger AQ/AA",
-        "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/high_efficiency_plate_heat_exchanger_aq_aa.png"
-      }
-    ],
-    "url": "shanghai-accessen-co-ltd/high-efficiency-plate-heat-exchanger-aq-aa"
-  },
-  {
     "slug": "semi-welded-plate-heat-exchanger",
     "manufacturer": {
       "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
@@ -967,24 +968,45 @@
     "url": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/semi-welded-plate-heat-exchanger"
   },
   {
-    "slug": "heat-exchanger-unit",
+    "slug": "high-efficiency-plate-heat-exchanger-aq-aa",
+    "manufacturer": {
+      "slug": "shanghai-accessen-co-ltd",
+      "name": "Shanghai Accessen Co., Ltd."
+    },
+    "name": "Высокоэффективный пластинчатый теплообменник AQ/AA",
+    "short_description": "Разборный пластинчатый теплообменник, сертифицированный AHRI, для HVAC-R и холодильного оборудования.",
+    "industries": [
+      "HVAC"
+    ],
+    "images": [
+      {
+        "alt_text": "High-Efficiency Plate Heat Exchanger AQ/AA",
+        "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/high_efficiency_plate_heat_exchanger_aq_aa.png"
+      }
+    ],
+    "url": "shanghai-accessen-co-ltd/high-efficiency-plate-heat-exchanger-aq-aa"
+  },
+  {
+    "slug": "air-radiator",
     "manufacturer": {
       "slug": "siping-viex-heat-exchange-equipment-co-ltd",
       "name": "Siping ViEX Heat Exchange Equipment Co., Ltd."
     },
-    "name": "Теплообменник",
-    "short_description": "Встроенный теплообменник для централизованного теплоснабжения, кондиционирования воздуха и горячего водоснабжения с автоматическим управлением и энергосберегающим режимом работы.",
+    "name": "Воздушный радиатор",
+    "short_description": "Воздушный радиатор и воздухонагреватель для устройств сушки горячим воздухом, использующих пар или горячую воду через оребренные стальные трубы.",
     "industries": [
       "HVAC",
-      "Энергия"
+      "Пищевая промышленность",
+      "Еда и напитки",
+      "Фармацевтика"
     ],
     "images": [
       {
-        "alt_text": "Heat Exchanger Unit",
-        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/heat_exchanger_unit.jpg"
+        "alt_text": "Air Radiator",
+        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_radiator.jpg"
       }
     ],
-    "url": "siping-viex-heat-exchange-equipment-co-ltd/heat-exchanger-unit"
+    "url": "siping-viex-heat-exchange-equipment-co-ltd/air-radiator"
   },
   {
     "slug": "plate-heat-exchanger",
@@ -1012,27 +1034,5 @@
       }
     ],
     "url": "siping-viex-heat-exchange-equipment-co-ltd/plate-heat-exchanger"
-  },
-  {
-    "slug": "air-radiator",
-    "manufacturer": {
-      "slug": "siping-viex-heat-exchange-equipment-co-ltd",
-      "name": "Siping ViEX Heat Exchange Equipment Co., Ltd."
-    },
-    "name": "Воздушный радиатор",
-    "short_description": "Воздушный радиатор и воздухонагреватель для устройств сушки горячим воздухом, использующих пар или горячую воду через оребренные стальные трубы.",
-    "industries": [
-      "HVAC",
-      "Пищевая промышленность",
-      "Еда и напитки",
-      "Фармацевтика"
-    ],
-    "images": [
-      {
-        "alt_text": "Air Radiator",
-        "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/air_radiator.jpg"
-      }
-    ],
-    "url": "siping-viex-heat-exchange-equipment-co-ltd/air-radiator"
   }
 ]
