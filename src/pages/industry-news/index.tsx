@@ -1,4 +1,4 @@
-import { useLocation, useSearchParams } from "react-router-dom";
+import { Link, useLocation, useSearchParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { SeoHead } from '../../components/seo/SeoHead'
 import { posts } from '.velite'
@@ -52,23 +52,21 @@ function formatCompanyLabel(company: string, language: string) {
         .join(' ');
 }
 
-function FilterButton({
+function FilterLink({
     active,
+    href,
     label,
-    onClick,
     className,
 }: {
     active: boolean;
+    href: string;
     label: string;
-    // 移除count
-    onClick: () => void;
     className?: string;
 }) {
     return (
-        <button
-            type="button"
-            aria-pressed={active}
-            onClick={onClick}
+        <Link
+            to={href}
+            aria-current={active ? "true" : undefined}
             className={cn(
                 "flex w-full items-start justify-between gap-3 rounded-sm border border-border/60 bg-white px-3 py-2.5 text-left text-sm font-semibold text-foreground shadow-sm transition-all duration-300",
                 active
@@ -78,8 +76,7 @@ function FilterButton({
             )}
         >
             <span className="min-w-0 flex-1 whitespace-normal break-words leading-5">{label}</span>
-            {/* 移除数字显示 */}
-        </button>
+        </Link>
     );
 }
 
@@ -116,6 +113,24 @@ export default function BlogsPage() {
             replace: options.replace ?? false,
         });
     }, [filters, setSearchParams]);
+
+    const getFilterHref = useCallback((
+        nextFilters: Partial<IndustryNewsFilters>,
+        options: { resetPage?: boolean } = {},
+    ) => {
+        const shouldResetPage = options.resetPage ?? (
+            nextFilters.contentTypeFilter !== undefined ||
+            nextFilters.companyFilter !== undefined ||
+            nextFilters.searchQuery !== undefined
+        );
+        const mergedFilters: IndustryNewsFilters = {
+            ...filters,
+            ...nextFilters,
+            page: shouldResetPage && nextFilters.page === undefined ? 1 : nextFilters.page ?? filters.page,
+        };
+
+        return `${location.pathname}${buildIndustryNewsSearch(mergedFilters)}`;
+    }, [filters, location.pathname]);
 
     // Filter posts by language and sort by date (newest first)
     const languagePosts = useMemo(() => posts
@@ -219,11 +234,11 @@ export default function BlogsPage() {
                             <div>
                                 <div className="space-y-2">
                                     {contentTypeOptions.map((option) => (
-                                        <FilterButton
+                                        <FilterLink
                                             key={option.value}
                                             active={contentTypeFilter === option.value}
+                                            href={getFilterHref({ contentTypeFilter: option.value })}
                                             label={option.label}
-                                            onClick={() => updateFilters({ contentTypeFilter: option.value })}
                                             className="min-w-0"
                                         />
                                     ))}
@@ -237,11 +252,11 @@ export default function BlogsPage() {
                                 </div>
                                 <div className="space-y-2">
                                     {companyOptions.map((option) => (
-                                        <FilterButton
+                                        <FilterLink
                                             key={option.value}
                                             active={companyFilter === option.value}
+                                            href={getFilterHref({ companyFilter: option.value })}
                                             label={option.label}
-                                            onClick={() => updateFilters({ companyFilter: option.value })}
                                         />
                                     ))}
                                 </div>
