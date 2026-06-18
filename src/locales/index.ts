@@ -1,4 +1,4 @@
-export { resources, defaultNS } from './resources';
+export { defaultNS, loadLocaleResource } from './resources';
 export type { Resources, Locale } from './resources';
 export { 
   languages, 

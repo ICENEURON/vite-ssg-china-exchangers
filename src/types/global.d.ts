@@ -9,6 +9,10 @@ declare global {
       ENABLE_LANGUAGE_TOGGLE: string;
       ENABLE_THEME_TOGGLE: string;
     };
+    dataLayer?: unknown[];
+    gtag?: (...args: unknown[]) => void;
+    __HEATEX_GA_BOOTSTRAPPED__?: boolean;
+    [key: `ga-disable-${string}`]: boolean | undefined;
   }
 
   var __SSR_PATHNAME__: string | undefined;

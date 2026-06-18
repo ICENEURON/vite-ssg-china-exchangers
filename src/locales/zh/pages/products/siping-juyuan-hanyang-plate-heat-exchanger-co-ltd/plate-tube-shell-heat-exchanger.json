@@ -1,0 +1,41 @@
+{
+  "slug": "plate-tube-shell-heat-exchanger",
+  "name": "板（管）壳式换热器",
+  "full_description": "官网说明板片是板壳式换热器的换热核心元件，THT 巨元焊接式设备的板片形式包括巧克力状波纹结构、水平波纹、斜波纹和人字形波纹等。板片采用整体压制一次成形，并通过激光切割四周齐边以保证尺寸一致。每对单板管和板束整体焊接完成后均进行0.6-0.7MPa气密检测。页面还说明，板壳式部分设备可承受6.0MPa运行压力，并已应用于核电、军工等重要项目。",
+  "industries": [
+    "石油化工",
+    "能源",
+    "化工",
+    "发电/电力"
+  ],
+  "advantage": [
+    "多种板片结构可适配不同工况。",
+    "整体压制和激光齐边提高板片尺寸一致性。",
+    "每对单板管和板束整体焊接后进行气密检测。",
+    "部分板壳式设备可承受6.0MPa运行压力。"
+  ],
+  "technical_parameters": {
+    "板片形式": "巧克力状波纹、水平波纹、斜波纹、人字形波纹",
+    "气密检测": "焊接完成后0.6-0.7MPa",
+    "运行压力": "部分壳式设备可承受6.0MPa"
+  },
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "板（管）壳式换热器",
+    "meta_description": "采用焊接板束及成熟检验规程、面向特种工况的板（管）壳式换热器平台。"
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate (Tube) Shell Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/plate_tube_shell_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

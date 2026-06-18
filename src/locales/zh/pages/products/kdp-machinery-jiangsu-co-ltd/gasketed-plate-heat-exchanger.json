@@ -1,0 +1,64 @@
+{
+  "slug": "gasketed-plate-heat-exchanger",
+  "name": "可拆式板式换热器（PHE）",
+  "full_description": "可拆式板式换热器将波纹金属板片叠装在螺栓压紧的框架中，形成冷热流体交替通道。框架可打开，用于板片清洗、胶垫更换、检查，以及通过增减板片调整能力。常用于暖通、水水余热回收、食品饮料、化工、制药、船舶和通用工业公用工程。",
+  "industries": [
+    "暖通空调",
+    "食品加工",
+    "化工",
+    "食品与饮料",
+    "制药"
+  ],
+  "advantage": [
+    "波纹板通道内的高湍流提高传热效率。",
+    "可打开框架支持机械清洗、检查和胶垫更换。",
+    "可在框架允许范围内通过调整板片数量改变换热能力。",
+    "板片和胶垫材料可按水、食品、化工和公用工程介质选择。",
+    "紧凑结构相较许多管式换热器可减少安装空间。",
+    "适用于洁净或中低结垢液体工况，并需预留计划性维护通道。"
+  ],
+  "technical_parameters": {
+    "典型应用": "暖通、水水余热回收、食品饮料、化工、制药、船舶和公用工程",
+    "板片材料": "316L 不锈钢、钛及其他耐腐蚀合金",
+    "框架形式": "螺栓压紧板框结构",
+    "维护方式": "可打开框架用于清洗、检查和胶垫更换",
+    "胶垫材料": "NBR、EPDM、FKM/Viton 以及按工况匹配的其他弹性体",
+    "能力调整": "可在框架范围内增加或减少板片数量"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "维护通道",
+      "content": "螺栓框架可打开，便于板片和胶垫检查、清洗、更换或在工况变化时重新配置。"
+    },
+    {
+      "title": "选型边界",
+      "content": "对于很高压力、高温、强腐蚀或脏污介质，焊接式、半焊式、螺旋式或管式方案可能更适合。"
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "江苏金多邦成套机械设备有限公司 可拆式板式换热器（PHE）",
+    "meta_description": "江苏金多邦成套机械设备有限公司供应可拆式板式换热器（PHE），面向工业换热应用按材料、压力、温度和维护需求进行项目化选型。"
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_3.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

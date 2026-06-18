@@ -1,0 +1,45 @@
+{
+  "slug": "all-welded-plate-heat-exchanger",
+  "name": "全焊式板式热交换器",
+  "full_description": "官网介绍显示，该产品板片由全自动生产线压制成型，板束间采用专用程控自动焊机焊接，全部板束焊接在壳体内，并可打开盖板进行机械清洗。产品兼具板式换热器的高效传热与结构紧凑优势，以及管壳式换热器耐高压、耐高温特性，可用于集中供热、冶金、石化、化工、电力、医药、食品等行业。",
+  "industries": [
+    "暖通空调",
+    "石油化工",
+    "化工",
+    "食品与饮料",
+    "制药",
+    "发电/电力"
+  ],
+  "advantage": [
+    "板束全部焊接于壳体内部。",
+    "盖板可打开，便于机械清洗流道。",
+    "特殊流道结构强调防止串液和外漏。",
+    "兼具结构紧凑、高传热效率以及耐高压耐高温特性。"
+  ],
+  "technical_parameters": {
+    "最小温差": "1℃",
+    "板片厚度": "0.5 ~ 1.2mm",
+    "组装面积": "≤30000m2",
+    "设计压力": "真空 ~ 6.0MPa",
+    "设计温度": "-200 ~ 900℃"
+  },
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "全焊式板式热交换器",
+    "meta_description": "板束焊接于壳体内部、适用于高压高温工况的全焊式板式热交换器。"
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "All-Welded Plate Heat Exchanger",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/all_welded_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

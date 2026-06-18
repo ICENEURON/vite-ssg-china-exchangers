@@ -1,35 +1,15 @@
-import type { ComponentType } from "react"
-
-import HomePage from "../../pages/home"
-
-import ManufacturersPage from "../../pages/manufacturers"
-import FaqPage from "../../pages/rfq"
-import ProductsPage from "../../pages/products"
-
-import AboutPage from "../../pages/about"
-import DocsPage from "../../pages/claim-your-profile"
-import ContentMarketingServicesPage from "../../pages/content-marketing-services"
-
-import LoginPage from "../../pages/login"
-import SignUpPage from "../../pages/register"
-import DashboardPage from "../../app/dashboard"
-
-import TermsPage from "../../pages/terms"
-import PrivacyPage from "../../pages/privacy"
-import NotFoundPage from "../../pages/404"
-
-import BlogIndex from "../../pages/industry-news"
-import BlogPost from "../../pages/industry-news/post"
+import type { RouteObject } from "react-router-dom"
 
 // import ComponentsPage from "../../pages/components"
 
 export type Auth = "public" | "private"
 export type NavGroup = "none" | "public" | "guest" | "auth"
 export type MobileGroup = "none" | "public" | "guest" | "auth"
+type RouteLazy = NonNullable<RouteObject["lazy"]>
 
 export type RouteDef = {
     path: string
-    element: ComponentType
+    lazy: RouteLazy
     auth: Auth
     nav: NavGroup
     mobile: MobileGroup
@@ -37,39 +17,44 @@ export type RouteDef = {
     translationKey?: string
 }
 
-
 const blogEnvValue = import.meta.env.VITE_ENABLE_BLOG;
 const enableBlog = blogEnvValue === "true";
 
 const allRoutes: RouteDef[] = [
-    { path: "/", element: HomePage, auth: "public", nav: "none", mobile: "none" },
+    { path: "/", lazy: async () => ({ Component: (await import("../../pages/home")).default }), auth: "public", nav: "none", mobile: "none" },
 
-    { path: "/manufacturers", element: ManufacturersPage, auth: "public", nav: "public", mobile: "public", label: "Manufacturers", translationKey: "navigation.menu.manufacturers" },
-    { path: "/rfq", element: FaqPage, auth: "public", nav: "none", mobile: "public", label: "RFQ", translationKey: "navigation.menu.rfq" },
-    { path: "/products", element: ProductsPage, auth: "public", nav: "none", mobile: "public", label: "Products", translationKey: "navigation.menu.products" },
+    { path: "/manufacturers", lazy: async () => ({ Component: (await import("../../pages/manufacturers")).default }), auth: "public", nav: "public", mobile: "public", label: "Manufacturers", translationKey: "navigation.menu.manufacturers" },
+    { path: "/manufacturers/:slug", lazy: async () => ({ Component: (await import("../../pages/manufacturers/company")).default }), auth: "public", nav: "none", mobile: "none" },
 
-    { path: "/claim-your-profile", element: DocsPage, auth: "public", nav: "public", mobile: "public", label: "Claim Your Profile", translationKey: "navigation.menu.profile" },
+    { path: "/products", lazy: async () => ({ Component: (await import("../../pages/products")).default }), auth: "public", nav: "none", mobile: "none", label: "Products", translationKey: "navigation.menu.products" },
+    { path: "/products/:manufacturerSlug/:productSlug", lazy: async () => ({ Component: (await import("../../pages/products/product")).default }), auth: "public", nav: "none", mobile: "none" },
 
-    { path: "/about", element: AboutPage, auth: "public", nav: "public", mobile: "public", label: "About", translationKey: "navigation.menu.about" },
+    { path: "/quote-request-service", lazy: async () => ({ Component: (await import("../../pages/quote-request-service")).default }), auth: "public", nav: "none", mobile: "public", label: "Quote Request Service", translationKey: "navigation.menu.quote_service" },
+    { path: "/quote-request", lazy: async () => ({ Component: (await import("../../pages/rfq")).default }), auth: "public", nav: "none", mobile: "public", label: "Get Quote", translationKey: "navigation.menu.rfq" },
 
-    { path: "/content-marketing-services", element: ContentMarketingServicesPage, auth: "public", nav: "none", mobile: "public", label: "Content Marketing", translationKey: "navigation.menu.content_marketing_services" },
+    { path: "/update-your-profile", lazy: async () => ({ Component: (await import("../../pages/update-your-profile")).default }), auth: "public", nav: "public", mobile: "public", label: "Update Your Profile", translationKey: "navigation.menu.profile" },
 
+    { path: "/content-marketing-services", lazy: async () => ({ Component: (await import("../../pages/content-marketing-services")).default }), auth: "public", nav: "none", mobile: "public", label: "Submit Articles", translationKey: "navigation.menu.content_marketing_services" },
 
-    // { path: "/components", element: ComponentsPage, auth: "public", nav: "public", mobile: "public", label: "Components", translationKey: "navigation.menu.components" },
+    { path: "/about", lazy: async () => ({ Component: (await import("../../pages/about")).default }), auth: "public", nav: "public", mobile: "public", label: "About", translationKey: "navigation.menu.about" },
 
     // Blog routes
     ...(enableBlog ? [
-        { path: "/industry-news", element: BlogIndex, auth: "public", nav: "public", mobile: "public", label: "Industry News", translationKey: "navigation.menu.industry-news" },
-        { path: "/industry-news/:slug", element: BlogPost, auth: "public", nav: "none", mobile: "none" },
+        { path: "/industry-news", lazy: async () => ({ Component: (await import("../../pages/industry-news")).default }), auth: "public", nav: "public", mobile: "public", label: "Industry News", translationKey: "navigation.menu.industry-news" },
+        { path: "/industry-news/:contentType/:slug", lazy: async () => ({ Component: (await import("../../pages/industry-news/post")).default }), auth: "public", nav: "none", mobile: "none" },
+        { path: "/industry-news/:slug", lazy: async () => ({ Component: (await import("../../pages/industry-news/post")).default }), auth: "public", nav: "none", mobile: "none" },
     ] as RouteDef[] : []),
 
-    { path: "/login", element: LoginPage, auth: "public", nav: "guest", mobile: "guest", label: "Login", translationKey: "navigation.menu.login" },
-    { path: "/register", element: SignUpPage, auth: "public", nav: "guest", mobile: "guest", label: "Register", translationKey: "navigation.menu.register" },
-    { path: "/dashboard", element: DashboardPage, auth: "private", nav: "auth", mobile: "auth", label: "Dashboard", translationKey: "navigation.menu.dashboard" },
+    { path: "/contact", lazy: async () => ({ Component: (await import("../../pages/contact")).default }), auth: "public", nav: "public", mobile: "public", label: "Contact Us", translationKey: "navigation.menu.contact" },
 
-    { path: "/terms", element: TermsPage, auth: "public", nav: "none", mobile: "none", label: "Terms", translationKey: "navigation.menu.terms" },
-    { path: "/privacy", element: PrivacyPage, auth: "public", nav: "none", mobile: "none", label: "Privacy", translationKey: "navigation.menu.privacy" },
-    { path: "*", element: NotFoundPage, auth: "public", nav: "none", mobile: "none", label: "NotFound" },
+    { path: "/login", lazy: async () => ({ Component: (await import("../../pages/login")).default }), auth: "public", nav: "guest", mobile: "guest", label: "Login", translationKey: "navigation.menu.login" },
+    { path: "/register", lazy: async () => ({ Component: (await import("../../pages/register")).default }), auth: "public", nav: "guest", mobile: "guest", label: "Register", translationKey: "navigation.menu.register" },
+    { path: "/dashboard", lazy: async () => ({ Component: (await import("../../app/dashboard")).default }), auth: "private", nav: "auth", mobile: "auth", label: "Dashboard", translationKey: "navigation.menu.dashboard" },
+
+    { path: "/terms", lazy: async () => ({ Component: (await import("../../pages/terms")).default }), auth: "public", nav: "none", mobile: "none", label: "Terms", translationKey: "navigation.menu.terms" },
+    { path: "/privacy", lazy: async () => ({ Component: (await import("../../pages/privacy")).default }), auth: "public", nav: "none", mobile: "none", label: "Privacy", translationKey: "navigation.menu.privacy" },
+    { path: "/404", lazy: async () => ({ Component: (await import("../../pages/404")).default }), auth: "public", nav: "none", mobile: "none", label: "NotFound" },
+    { path: "*", lazy: async () => ({ Component: (await import("../../pages/404")).default }), auth: "public", nav: "none", mobile: "none", label: "NotFound" },
 ]
 
 export const ROUTES = allRoutes;

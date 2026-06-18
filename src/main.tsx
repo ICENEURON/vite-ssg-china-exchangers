@@ -5,11 +5,12 @@ import { LanguageProvider } from "./context/language";
 import { ROUTES, type RouteDef } from "./routes/config";
 import { generateLocalizedRoutes } from "./utils/language-routing";
 import "./index.css";
-import "./i18n";
+import { syncLanguageToPathAsync } from "./i18n/config";
+import { initializeCookieConsent } from "./lib/analytics/cookie-consent";
 import type { RouteObject } from "react-router-dom";
 
 // 检查是否启用认证功能
-const enableAuth = import.meta.env.VITE_ENABLE_AUTH;
+const enableAuth = import.meta.env.VITE_ENABLE_AUTH === "true";
 
 // 根据功能开关过滤路由
 const activeRoutes = enableAuth
@@ -25,7 +26,7 @@ const createRouteObjects = (routes: RouteDef[], authType: "public" | "private") 
     .filter((route) => route.auth === authType)
     .map((route) => ({
       path: route.path,
-      Component: route.element,
+      lazy: route.lazy,
     }));
 
 const routes: RouteObject[] = [
@@ -52,4 +53,16 @@ const routes: RouteObject[] = [
   },
 ];
 
-export const createRoot = ViteReactSSG({ routes });
+export const createRoot = ViteReactSSG({ routes }, async ({ routePath }) => {
+  const pathname = typeof window !== "undefined" ? window.location.pathname : routePath || "/";
+
+  if (typeof window === "undefined") {
+    globalThis.__SSR_PATHNAME__ = routePath;
+  }
+
+  await syncLanguageToPathAsync(pathname);
+
+  if (typeof window !== "undefined") {
+    initializeCookieConsent();
+  }
+});

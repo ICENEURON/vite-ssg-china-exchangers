@@ -1,0 +1,59 @@
+{
+  "filter_all_industries": "所有行业",
+  "no_results": "没有找到匹配当前筛选条件的制造商。",
+  "clear_all": "清除全部",
+  "filter_industry": "行业",
+  "title": "中国换热器制造商资料 | HeatEx Direct",
+  "meta": {
+    "description": "浏览结构化中国换热器制造商资料，查看公司背景、产品范围、应用行业、文件资料，并通过询价流程转给合适厂家跟进报价。",
+    "keywords": "中国换热器制造商, 中国换热器厂家, 换热器供应商资料, 工业换热器采购"
+  },
+  "og": {
+    "title": "中国换热器制造商资料 | HeatEx Direct",
+    "description": "浏览结构化中国换热器制造商资料，并通过 HeatEx Direct 的询价流程匹配合适厂家跟进报价。"
+  },
+  "hero": {
+    "title": "中国换热器制造商",
+    "description": "浏览已收录的中国换热器制造商，并查看其公司资料、产品覆盖范围、应用经验和出口市场信息，以找到符合您采购需求的供应商。"
+  },
+  "card": {
+    "verified": "资料已整理",
+    "view_profile": "查看资料"
+  },
+  "company": {
+    "page_title": "制造商简介",
+    "meta_description_default": "制造商简介",
+    "back_to_list": "返回所有工厂",
+    "connect_note": "填写规格、数量和项目要求后，HeatEx Direct 会审核完整询价。企业邮箱合格询价可在2个工作日内转给3-5家合适制造商；个人邮箱通常最多转给2家。",
+    "quote_here": "在此获取报价",
+    "iso_certified": "ISO 认证",
+    "asme_stamp": "ASME 钢印",
+    "business_license": "营业执照",
+    "global_trade": "全球贸易",
+    "verified": "资料已整理",
+    "not_available": "不适用",
+    "company_overview": "公司概览",
+    "why_choose_us": "为何选择我们",
+    "industries_served": "服务行业",
+    "official_website": "官方网站",
+    "visit_manufacturer": "访问制造商网站",
+    "product_showcase": "产品展示",
+    "technical_specifications": "技术规格",
+    "factory_gallery": "工厂图库",
+    "factory_certifications": "工厂认证",
+    "trusted_customers": "全球领先客户信赖",
+    "trusted_customers_desc": "为各行业的主要参与者提供卓越产品。",
+    "partner_with": "与 {{name}} 合作",
+    "partner_desc": "提交结构化询价，由 HeatEx Direct 人工审核。若邮箱已验证且信息完整，可按项目匹配度转给合适制造商跟进报价。",
+    "established": "成立于 {{year}}",
+    "factory_area_summary": "占地面积 {{value}} 平方米",
+    "employee_count_summary": "公司人数 {{value}}",
+    "available_categories": "可用产品类别：",
+    "export_markets": "主要出口市场",
+    "contact_info": "联系方式",
+    "certificate": "证书",
+    "follow_us": "关注我们",
+    "document_downloads": "文档下载",
+    "download": "下载"
+  }
+}

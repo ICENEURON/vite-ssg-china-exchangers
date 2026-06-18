@@ -1,0 +1,21 @@
+{
+  "accessibility": {
+    "toggle_mobile_menu": "切换移动端菜单",
+    "toggle_theme": "切换主题",
+    "select_language": "选择语言",
+    "close_image_preview": "关闭图片预览",
+    "previous_image": "上一张图片",
+    "next_image": "下一张图片",
+    "previous_slide": "上一张幻灯片",
+    "next_slide": "下一张幻灯片",
+    "pagination": "分页导航",
+    "previous_page": "转到上一页",
+    "next_page": "转到下一页"
+  },
+  "image": {
+    "logo_alt": "HeatEx Direct 标志",
+    "industrial_facility": "工业设施",
+    "preview_image": "预览图片",
+    "preview_thumbnail": "预览缩略图"
+  }
+}

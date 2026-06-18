@@ -1,0 +1,33 @@
+{
+  "logo": {
+    "alt": "HeatEx Direct",
+    "title": "HeatEx Direct"
+  },
+  "tagline": "HeatEx Direct ayuda a compradores globales a comparar fabricantes chinos de intercambiadores de calor y enviar solicitudes estructuradas para enrutamiento gestionado a fabricantes adecuados en un plazo de 2 días hábiles.",
+  "categories": "Categorías",
+  "resources": "Recursos",
+  "rfq_label": "Cotización",
+  "links": {
+    "items": {
+      "home": "Hogar",
+      "manufacturers": "Fabricantes",
+      "products": "Productos",
+      "rfq": "Cotización",
+      "profile": "Perfil",
+      "content-marketing-services": "Artículos",
+      "industry-news": "Noticias",
+      "about": "Nosotros",
+      "contact": "Contacto",
+      "quote-service": "Servicio de solicitud de cotización"
+    }
+  },
+  "legal": {
+    "copyright": "Copyright© {{year}} HeatEx Direct. Reservados todos los derechos.",
+    "see": "Ver",
+    "terms": "Condiciones de uso",
+    "and": "y",
+    "privacy": "política de privacidad",
+    "afterLinks": ".",
+    "entityStatement": "HeatEx Direct organiza información sobre fabricantes chinos de intercambiadores de calor y revisa solicitudes completas y verificadas para dirigirlas a fabricantes adecuados según el ajuste del proyecto y el tipo de correo."
+  }
+}

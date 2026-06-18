@@ -1,0 +1,41 @@
+{
+  "slug": "wide-channel-welded-plate-heat-exchanger",
+  "name": "宽通道焊接式板式热交换器",
+  "full_description": "根据官网介绍，该产品采用窝状波纹或平板板片作为传热元件，两张板片焊接形成板束，并通过相关结构组装成整机。产品专门用于制糖、造纸、冶金、酒精、化工、食品、燃料乙醇等工艺中处理含固体颗粒、纤维悬浮物和粘稠流体的加热或冷却工况，强调通道顺畅、减少沉积和堵塞。",
+  "industries": [
+    "食品加工",
+    "化工",
+    "食品与饮料"
+  ],
+  "advantage": [
+    "适用于含固体颗粒、纤维悬浮物及粘稠流体的换热工况。",
+    "宽通道结构强调流道顺畅，减少沉积和堵塞风险。",
+    "面向制糖、造纸、冶金、酒精、化工、食品、燃料乙醇等行业的工艺加热与冷却应用。"
+  ],
+  "technical_parameters": {
+    "最小温差": "1℃",
+    "板片厚度": "1.0 ~ 2.0mm",
+    "组装面积": "≤3000m2",
+    "设计压力": "真空 ~ 3.5MPa",
+    "设计温度": "≤450℃"
+  },
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "宽通道焊接式板式热交换器",
+    "meta_description": "适用于粘稠介质、纤维悬浮物和固体颗粒工况的宽通道焊接式板式热交换器。"
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Wide Channel Welded Plate Heat Exchanger",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/wide_channel_welded_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

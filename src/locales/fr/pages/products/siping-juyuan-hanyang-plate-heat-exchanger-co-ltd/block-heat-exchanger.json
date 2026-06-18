@@ -1,0 +1,41 @@
+{
+  "slug": "block-heat-exchanger",
+  "name": "Échangeur de chaleur en bloc",
+  "full_description": "La page officielle décrit l'échangeur de chaleur à blocs de THT comme un produit breveté avec des droits de propriété intellectuelle indépendants, numéro de brevet 200520127761.X, appartenant à la catégorie des échangeurs de chaleur à plaques soudées. Il utilise des plaques comme composants de transfert de chaleur et combine les avantages des échangeurs de chaleur à plaques et des échangeurs de chaleur à plaques en spirale. La page indique qu'elle suit NB/T47004-2009 et GB150-1998, et peut également suivre API662 et ASME selon les besoins de l'utilisateur.",
+  "industries": [
+    "Pétrochimie",
+    "Énergie",
+    "Traitement chimique",
+    "Produits pharmaceutiques",
+    "Production d'énergie"
+  ],
+  "advantage": [
+    "Produit breveté avec droits de propriété intellectuelle indépendants.",
+    "Combine une efficacité de transfert de chaleur élevée, une structure compacte, une résistance aux températures élevées, des performances d'étanchéité et une fiabilité.",
+    "Le soudage automatique et le suivi des images de soudure sont utilisés pour contrôler la qualité de la soudure.",
+    "La structure en bloc compact peut réduire l'espace et les coûts de construction par rapport aux échangeurs de chaleur à plaques amovibles."
+  ],
+  "technical_parameters": {
+    "Normes": "NB/T47004-2009; GB150-1998; API662 et ASME sur demande",
+    "N° de brevet": "200520127761.X"
+  },
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur en bloc",
+    "meta_description": "Échangeur de chaleur à blocs soudés breveté combinant l'efficacité de l'échangeur de chaleur à plaques avec une forte capacité d'étanchéité, de pression et de température."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Block Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/block_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

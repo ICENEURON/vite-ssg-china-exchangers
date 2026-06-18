@@ -1,0 +1,120 @@
+{
+  "slug": "printed-circuit-heat-exchanger",
+  "name": "Printed Circuit Heat Exchanger",
+  "full_description": "Printed Circuit Heat Exchanger (PCHE) is a high-efficiency microchannel welded plate heat exchanger with an extremely compact structure. Thin metal plates are chemically etched to form precise flow channels, then stacked and diffusion bonded into a monolithic heat transfer core. The core is assembled and welded with the housing, headers, nozzles, flanges, and other components to form a complete exchanger. PCHE is designed for demanding applications requiring high thermal efficiency and compact footprint, including nuclear energy, marine, oil and gas, aerospace, power generation, LNG, hydrocarbon processing, and new energy systems.",
+  "industries": [
+    "HVAC",
+    "Marine",
+    "Energy"
+  ],
+  "advantage": [
+    "Compactness: The PCHE footprint can be 5 to 10 times smaller than conventional shell and tube exchangers, making it ideal for space-constrained systems.",
+    "High Efficiency: Microchannel geometry provides very high heat transfer performance and can achieve up to 98% overall thermal efficiency in demanding services.",
+    "Extreme Operating Capability: Diffusion-bonded construction supports severe service conditions up to 1000 bar and temperatures as high as 850℃.",
+    "Custom Flow Geometry: Different channel and corrugation patterns can be engineered to match specific flow rate, pressure drop, and thermal load requirements.",
+    "High Structural Integrity: Specialized product structure and solid-state diffusion bonding improve leak resistance and operational safety under high temperature and pressure.",
+    "Lightweight and Space Saving: High surface-area density delivers close temperature approach, lower weight, and excellent space utilization."
+  ],
+  "technical_parameters": {
+    "Channel Width": "0.4 ~ 4mm",
+    "Plate Material": "304, 316L, 2205, TA1 and titanium alloy, high-temperature alloy",
+    "Plate Thickness": "0.4 ~ 4mm",
+    "Design Temperature": "-196 ~ 850℃",
+    "Heat Transfer Area": "8000㎡",
+    "Max Design Pressure": "1000 Bar"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "What is a printed circuit heat exchanger?",
+      "content": "Printed Circuit Heat Exchanger is a highly compact and efficient microchannel heat exchanger designed for extreme operating conditions. It uses chemically etched metal plates and diffusion bonding technology to deliver very high heat transfer performance, pressure resistance, corrosion resistance, and space efficiency in applications where conventional exchangers are too large or cannot withstand the duty."
+    },
+    {
+      "title": "How is Printed Circuit Heat Exchanger constructed?",
+      "content": "Thin metal plates, usually stainless steel, duplex steel, titanium, or high-temperature alloys, are coated and chemically etched to create intricate microchannel patterns. The etched plates are stacked in a defined configuration and diffusion bonded at high temperature and pressure to form a monolithic core, which is then assembled with housing, headers, nozzles, and other external components to make the final exchanger."
+    },
+    {
+      "title": "How is it designed and manufactured?",
+      "content": "PCHE design combines thermal-hydraulic analysis, microchannel geometry optimization, materials engineering, and manufacturability. After selecting base materials and plate thickness, the channel pattern is transferred by photomask and chemically etched, cleaned, stacked, diffusion bonded in a vacuum furnace, and then completed through header assembly, leak testing, and thermal performance validation."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Offshore natural gas decarbonization",
+        "CO2-rich gas cooling and heat recovery",
+        "FPSO and offshore platform process modules",
+        "Sour or corrosive gas thermal management"
+      ],
+      "advantages": [
+        "Compared with shell-and-tube exchangers, the diffusion-bonded microchannel core greatly reduces size and weight for offshore modules.",
+        "Compared with gasketed equipment, the solid bonded core removes gasket leakage risk in high-pressure gas service.",
+        "High pressure capability and corrosion-resistant material selection support demanding CO2-rich natural gas conditions."
+      ],
+      "application": "Offshore gas decarbonization",
+      "description": "Printed Circuit Heat Exchanger is suitable for compact, high-pressure heat exchange in offshore gas decarbonization projects. For CO2-rich and corrosive gas service, the product can be designed and manufactured to ASME requirements, supported by third-party certification, and configured to meet NACE corrosion-control requirements."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Hydrogen cooling",
+        "High-pressure gas cooling",
+        "Hydrogen energy systems",
+        "Fuel-cell process thermal management"
+      ],
+      "advantages": [
+        "Compared with conventional exchangers, PCHE provides high heat-transfer area density for compact hydrogen process packages.",
+        "The bonded core avoids gasketed sealing surfaces in high-pressure hydrogen service.",
+        "Microchannel construction supports precise cooling where temperature control and equipment footprint are critical."
+      ],
+      "application": "Hydrogen cooling",
+      "description": "Printed Circuit Heat Exchanger is suitable for high-pressure hydrogen cooling and temperature-control applications. The chemically etched microchannels and diffusion-bonded core provide compact heat transfer, pressure resistance, and leak-resistant construction for hydrogen energy systems."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Printed Circuit Heat Exchanger",
+    "meta_description": "Compact diffusion-bonded printed circuit heat exchanger for extreme pressure and temperature applications with high thermal efficiency."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Printed Circuit Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_1.jpg"
+    },
+    {
+      "alt_text": "Printed Circuit Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Printed Circuit Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_3.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

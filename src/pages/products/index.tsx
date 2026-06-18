@@ -1,171 +1,439 @@
-import { Head } from 'vite-react-ssg'
-import { useTranslation } from 'react-i18next'
+import { useState, useMemo } from 'react'
+import { useTranslation } from "react-i18next";
+import { Link, useLocation } from "react-router-dom";
+import { SeoHead } from '../../components/seo/SeoHead'
+import { addLanguageToPath, getLanguageFromPath } from "../../utils/language-routing";
+import { FilterDropdown } from "../../components/ui/filter-dropdown";
+import { ArrowRight, Filter, ChevronDown, X, Check, Factory, Mail } from "lucide-react";
+import { Badge } from "../../components/ui/badge";
+import { PageHero } from "../../components/ui/page-hero";
+import { QuoteCta } from "../../components/ui/quote-cta";
+import { RfqLink } from "../../utils/rfq-routing/link";
+import manufacturerScores from "../../data/manufacturer_scores.json";
+import { getLoadedTranslationResource } from "../../i18n/config";
+import type { LocaleResource } from "../../locales/resources";
 import {
-  Table,
-  TableHeader,
-  TableBody,
-  TableRow,
-  TableHead,
-  TableCell,
-} from '../../components/ui/table'
-import { Button } from "../../components/ui/button";
-import { GitCommit, Tag } from 'lucide-react'
+    compareManufacturerOrder,
+    getManufacturerScoreRecords,
+    getManufacturerSortOrder,
+    type ManufacturerScoreSource,
+} from "../../utils/manufacturer-ranking";
 
-type ChangelogItem = {
-  type: string
-  description: string
-  author: string
-  link: string
-  details: string
+interface Industry {
+    id: number;
+    slug: string;
+    name: string;
 }
 
-type VersionManufacturers = {
-  id: string
-  version: string
-  date: string
-  changes: ChangelogItem[]
+interface ProductImage {
+    alt_text?: string;
+    url: string;
 }
 
-export default function ManufacturersPage() {
-  const { t } = useTranslation('translation')
+interface ProductManufacturer {
+    slug: string;
+    name: string;
+}
 
-  const versions = t('pages.manufacturers.versions', {
-    returnObjects: true,
-  }) as VersionManufacturers[]
+interface ProductListItem {
+    slug: string;
+    order?: number;
+    manufacturer?: ProductManufacturer;
+    name: string;
+    short_description?: string;
+    industries?: string[];
+    images?: ProductImage[];
+    url: string;
+}
 
-  return (
-    <>
-      <Head>
-        <title>{t('pages.manufacturers.title')}</title>
-        <meta
-          name="description"
-          content={t('pages.manufacturers.meta.description')}
-        />
-        <meta
-          name="keywords"
-          content={t('pages.manufacturers.meta.keywords')}
-        />
-      </Head>
+type ProductsTranslationData = LocaleResource["pages"]["products"] & {
+    list?: ProductListItem[];
+};
 
-      {/* Hero */}
-      <section className="py-12 px-4">
-        <div className="grid text-center gap-6 mx-auto max-w-5xl">
-          <h1 className="gradient-text mb-4">
-            {t('pages.manufacturers.hero.title')}
-          </h1>
-          <p className="text-xl md:text-2xl mb-3">
-            {t('pages.manufacturers.hero.subtitle')}
-          </p>
-        </div>
-      </section>
+type ProductDropdown = "manufacturer" | "industry";
 
-      {/* Versions + tables */}
-      <section className="py-12">
-        <div className="container mx-auto max-w-6xl px-4 space-y-10">
-          {Array.isArray(versions) &&
-            versions.map((version) => (
-              <div
-                key={version.id}
-                className="space-y-3 flex flex-col lg:flex-row gap-4"
-              >
-                <div className="flex flex-col gap-2 min-w-[140px]">
-                  <div className="flex items-center gap-2">
-                    <Tag className="w-4 h-4 text-primary" />
-                    <h3 className="font-bold text-lg">{version.version}</h3>
-                  </div>
-                  <p className="text-sm text-muted-foreground">
-                    {version.date}
-                  </p>
-                </div>
+function getProductsTranslationData(language: string): ProductsTranslationData | null {
+    return (getLoadedTranslationResource(language) as LocaleResource | undefined)?.pages.products as ProductsTranslationData | undefined || null;
+}
 
-                <div className="overflow-x-auto rounded-lg border bg-background flex-1">
-                  <Table className="min-w-full text-left text-sm table-fixed">
-                    <colgroup>
-                      <col className="w-[10%]" />
-                      <col className="w-[30%]" />
-                      <col className="w-[10%]" />
-                      <col className="w-[10%]" />
-                      <col className="w-[40%] hidden md:table-cell" />
-                    </colgroup>
-                    <TableHeader className="bg-muted/60">
-                      <TableRow>
-                        <TableHead className="px-4 py-3 font-medium">
-                          {t('pages.manufacturers.table.columns.type')}
-                        </TableHead>
-                        <TableHead className="px-4 py-3 font-medium">
-                          {t('pages.manufacturers.table.columns.description')}
-                        </TableHead>
-                        <TableHead className="px-4 py-3 font-medium">
-                          {t('pages.manufacturers.table.columns.author')}
-                        </TableHead>
-                        <TableHead className="px-4 py-3 font-medium">
-                          {t('pages.manufacturers.table.columns.link')}
-                        </TableHead>
-                        <TableHead className="px-4 py-3 font-medium hidden md:table-cell">
-                          {t('pages.manufacturers.table.columns.details')}
-                        </TableHead>
-                      </TableRow>
-                    </TableHeader>
-                    <TableBody>
-                      {Array.isArray(version.changes) && version.changes.length > 0 ? (
-                        version.changes.map((change, idx) => (
-                          <TableRow
-                            key={idx}
-                            className="last:border-b hover:bg-muted/40"
-                          >
-                            <TableCell className="px-4 py-3 font-mono text-xs md:text-sm">
-                              <span className={`inline-flex items-center rounded-full px-2 py-1 text-xs font-medium ring-1 ring-inset ${change.type === 'feat' ? 'bg-green-50 text-green-700 ring-green-600/20 dark:bg-green-900/30 dark:text-green-400' :
-                                change.type === 'fix' ? 'bg-red-50 text-red-700 ring-red-600/20 dark:bg-red-900/30 dark:text-red-400' :
-                                  'bg-gray-50 text-gray-600 ring-gray-500/10 dark:bg-gray-800 dark:text-gray-300'
-                                }`}>
-                                {change.type}
-                              </span>
-                            </TableCell>
-                            <TableCell className="px-4 py-3 text-xs md:text-sm font-semibold">
-                              {change.description}
-                            </TableCell>
-                            <TableCell className="px-4 py-3 text-xs md:text-sm text-muted-foreground">
-                              {change.author}
-                            </TableCell>
-                            <TableCell className="px-4 py-3 text-xs md:text-sm">
-                              <Button
-                                asChild
-                                size="icon"
-                                variant="ghost"
-                                className="h-8 w-8"
-                              >
-                                <a
-                                  href={change.link}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  title="View Commit"
+function getCurrentPathname(pathname: string) {
+    return typeof window === "undefined" && globalThis.__SSR_PATHNAME__ ? globalThis.__SSR_PATHNAME__ : pathname;
+}
+
+export default function ProductsPage() {
+    const location = useLocation();
+    const currentPathname = getCurrentPathname(location.pathname);
+    const currentLanguage = getLanguageFromPath(currentPathname);
+    const { i18n } = useTranslation();
+    const t = i18n.getFixedT(currentLanguage);
+    const productsT = i18n.getFixedT(currentLanguage, "translation", "pages.products");
+    const siteUrl = import.meta.env.VITE_SITE_URL || "https://heatexdirect.com";
+    const siteName = import.meta.env.VITE_SITE_TITLE || "HeatEx Direct";
+    const currentUrl = new URL(location.pathname, siteUrl).href;
+
+    // Safely parse the products from translation JSON list
+    const productsList = useMemo(() => (
+        getProductsTranslationData(currentLanguage)?.list || getProductsTranslationData("en")?.list || []
+    ), [currentLanguage]);
+    const industries = t("industries", { returnObjects: true }) as Industry[];
+
+    const [selectedIndustrySlugs, setSelectedIndustrySlugs] = useState<string[]>([]);
+    const [selectedManufacturerSlugs, setSelectedManufacturerSlugs] = useState<string[]>([]);
+    const [openDropdown, setOpenDropdown] = useState<ProductDropdown | null>(null);
+    const isIndustryDropdownOpen = openDropdown === "industry";
+    const isManufacturerDropdownOpen = openDropdown === "manufacturer";
+    const closeDropdowns = () => setOpenDropdown(null);
+    const handleDropdownOpenChange = (dropdown: ProductDropdown, open: boolean) => {
+        setOpenDropdown(open ? dropdown : null);
+    };
+
+    const toggleIndustry = (slug: string) => {
+        setSelectedIndustrySlugs(prev =>
+            prev.includes(slug)
+                ? prev.filter(s => s !== slug)
+                : [...prev, slug]
+        );
+    };
+
+    const toggleManufacturer = (slug: string) => {
+        setSelectedManufacturerSlugs(prev =>
+            prev.includes(slug)
+                ? prev.filter(s => s !== slug)
+                : [...prev, slug]
+        );
+    };
+
+    const removeIndustry = (slug: string) => {
+        setSelectedIndustrySlugs(prev => prev.filter(s => s !== slug));
+    };
+
+    const removeManufacturer = (slug: string) => {
+        setSelectedManufacturerSlugs(prev => prev.filter(s => s !== slug));
+    };
+
+    const clearAll = () => {
+        setSelectedIndustrySlugs([]);
+        setSelectedManufacturerSlugs([]);
+        closeDropdowns();
+    };
+
+    const signalsBySlug = useMemo(() => new Map(
+        getManufacturerScoreRecords(manufacturerScores as ManufacturerScoreSource).map(signal => [signal.manufacturer_slug, signal])
+    ), []);
+
+    const manufacturers = useMemo(() => {
+        const mfgMap = new Map<string, { slug: string, name: string }>();
+        productsList.forEach(p => {
+            if (p.manufacturer && !mfgMap.has(p.manufacturer.slug)) {
+                mfgMap.set(p.manufacturer.slug, p.manufacturer);
+            }
+        });
+        return Array.from(mfgMap.values()).sort((a, b) => compareManufacturerOrder(a, b, signalsBySlug));
+    }, [productsList, signalsBySlug]);
+
+    const sortedProducts = useMemo(() => (
+        productsList
+            .map((product, index) => ({
+                product,
+                productOrder: product.order ?? index,
+                manufacturerOrder: product.manufacturer?.slug
+                    ? getManufacturerSortOrder(product.manufacturer.slug, signalsBySlug)
+                    : getManufacturerSortOrder(undefined, signalsBySlug),
+            }))
+            .sort((a, b) => (
+                a.manufacturerOrder - b.manufacturerOrder
+                || a.productOrder - b.productOrder
+                || a.product.name.localeCompare(b.product.name)
+            ))
+            .map(({ product }) => product)
+    ), [productsList, signalsBySlug]);
+
+    const filteredProducts = useMemo(() => {
+        let result = sortedProducts;
+
+        if (selectedIndustrySlugs.length > 0) {
+            const selectedIndustryNames = industries
+                .filter(i => selectedIndustrySlugs.includes(i.slug))
+                .map(i => i.name);
+            result = result.filter(p =>
+                p.industries?.some((industryName: string) => selectedIndustryNames.includes(industryName))
+            );
+        }
+
+        if (selectedManufacturerSlugs.length > 0) {
+            result = result.filter(p =>
+                p.manufacturer && selectedManufacturerSlugs.includes(p.manufacturer.slug)
+            );
+        }
+
+        return result;
+    }, [selectedIndustrySlugs, selectedManufacturerSlugs, sortedProducts, industries]);
+
+    const selectedIndustries = useMemo(() =>
+        industries.filter(i => selectedIndustrySlugs.includes(i.slug)),
+        [industries, selectedIndustrySlugs]
+    );
+
+    const selectedManufacturers = useMemo(() =>
+        manufacturers.filter(manufacturer => selectedManufacturerSlugs.includes(manufacturer.slug)),
+        [manufacturers, selectedManufacturerSlugs]
+    );
+
+    const hasActiveFilters = selectedIndustrySlugs.length > 0 || selectedManufacturerSlugs.length > 0;
+
+    return (
+        <>
+            <SeoHead
+                title={productsT("title")}
+                description={productsT("meta.description", { defaultValue: productsT("description") })}
+                keywords={productsT("meta.keywords", { defaultValue: "" })}
+                canonicalUrl={currentUrl}
+                ogTitle={productsT("og.title", { defaultValue: productsT("title") })}
+                ogDescription={productsT("og.description", { defaultValue: productsT("description") })}
+                siteName={siteName}
+            />
+
+            <main className="min-h-screen bg-background pb-20">
+                <PageHero
+                    title={productsT("hero.title")}
+                    description={productsT("hero.description")}
+                    backgroundImageSrc="/static/websites/product-hero.png"
+                    backgroundImageAlt={t("ui.image.industrial_facility")}
+                />
+
+                <section className="py-10">
+                    <div className="container mx-auto px-4 md:px-8 max-w-7xl">
+                        <div className="mb-8">
+                            <div className="mb-4 flex flex-wrap items-center gap-x-5 gap-y-3">
+                                <FilterDropdown
+                                    open={isManufacturerDropdownOpen}
+                                    onOpenChange={(open) => handleDropdownOpenChange("manufacturer", open)}
+                                    contentClassName="w-80 bg-white"
+                                    trigger={({ open, triggerProps }) => (
+                                        <button
+                                            {...triggerProps}
+                                            className="flex items-center gap-2 rounded-sm border border-border/60 bg-white px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
+                                        >
+                                            <Factory className="w-4 h-4 text-primary" />
+                                            <span>{productsT("filter_manufacturer")}</span>
+                                            <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${open ? 'rotate-180' : ''}`} />
+                                        </button>
+                                    )}
                                 >
-                                  <GitCommit className="h-4 w-4" />
-                                </a>
-                              </Button>
-                            </TableCell>
-                            <TableCell className="px-4 py-3 text-xs text-muted-foreground hidden md:table-cell">
-                              {change.details}
-                            </TableCell>
-                          </TableRow>
-                        ))
-                      ) : (
-                        <TableRow>
-                          <TableCell
-                            className="px-4 py-6 text-center text-sm text-muted-foreground"
-                            colSpan={5}
-                          >
-                            {t('pages.manufacturers.table.emptyState')}
-                          </TableCell>
-                        </TableRow>
-                      )}
-                    </TableBody>
-                  </Table>
-                </div>
-              </div>
-            ))}
-        </div>
-      </section>
-    </>
-  )
+                                            <div className="p-2.5 max-h-[340px] overflow-y-auto custom-scrollbar">
+                                                <button
+                                                    onClick={() => setSelectedManufacturerSlugs([])}
+                                                    className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-sm transition-all group ${selectedManufacturerSlugs.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04]'
+                                                        }`}
+                                                >
+                                                    <span className="font-bold">{productsT("filter_all_manufacturers")}</span>
+                                                    {selectedManufacturerSlugs.length === 0 && <Check className="w-4 h-4" />}
+                                                </button>
+                                                <div className="h-px bg-border/40 my-2 mx-2" />
+                                                <div className="grid gap-1">
+                                                    {manufacturers.map((manufacturer) => {
+                                                        const isSelected = selectedManufacturerSlugs.includes(manufacturer.slug);
+                                                        return (
+                                                            <button
+                                                                key={manufacturer.slug}
+                                                                onClick={() => toggleManufacturer(manufacturer.slug)}
+                                                                className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-sm transition-all group ${isSelected
+                                                                    ? 'bg-primary/[0.06] text-primary font-semibold'
+                                                                    : 'text-foreground hover:bg-zinc-950/[0.04]'
+                                                                    }`}
+                                                            >
+                                                                <span className="text-left leading-tight pr-2">{manufacturer.name}</span>
+                                                                {isSelected && <Check className="w-4 h-4 shrink-0 animate-in zoom-in duration-200" />}
+                                                            </button>
+                                                        );
+                                                    })}
+                                                </div>
+                                            </div>
+                                </FilterDropdown>
+
+                                <FilterDropdown
+                                    open={isIndustryDropdownOpen}
+                                    onOpenChange={(open) => handleDropdownOpenChange("industry", open)}
+                                    contentClassName="w-72 bg-white"
+                                    trigger={({ open, triggerProps }) => (
+                                        <button
+                                            {...triggerProps}
+                                            className="flex items-center gap-2 rounded-sm border border-border/60 bg-white px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-background active:scale-[0.98]"
+                                        >
+                                            <Filter className="w-4 h-4 text-primary" />
+                                            <span>{productsT("filter_by")}</span>
+                                            <ChevronDown className={`w-4 h-4 text-primary transition-transform duration-300 ${open ? 'rotate-180' : ''}`} />
+                                        </button>
+                                    )}
+                                >
+                                            <div className="p-2.5 max-h-[340px] overflow-y-auto custom-scrollbar">
+                                                <button
+                                                    onClick={() => setSelectedIndustrySlugs([])}
+                                                    className={`w-full flex items-center justify-between px-4 py-3 text-sm rounded-sm transition-all group ${selectedIndustrySlugs.length === 0 ? 'bg-primary/[0.06] text-primary' : 'text-foreground hover:bg-zinc-950/[0.04]'
+                                                        }`}
+                                                >
+                                                    <span className="font-bold">{productsT("filter_all")}</span>
+                                                    {selectedIndustrySlugs.length === 0 && <Check className="w-4 h-4" />}
+                                                </button>
+                                                <div className="h-px bg-border/40 my-2 mx-2" />
+                                                <div className="grid gap-1">
+                                                    {industries.map((industry) => {
+                                                        const isSelected = selectedIndustrySlugs.includes(industry.slug);
+                                                        return (
+                                                            <button
+                                                                key={industry.id}
+                                                                onClick={() => toggleIndustry(industry.slug)}
+                                                                className={`w-full flex items-center justify-between px-4 py-2.5 text-sm rounded-sm transition-all group ${isSelected
+                                                                    ? 'bg-primary/[0.06] text-primary font-semibold'
+                                                                    : 'text-foreground hover:bg-zinc-950/[0.04]'
+                                                                    }`}
+                                                            >
+                                                                <span>{industry.name}</span>
+                                                                {isSelected && <Check className="w-4 h-4 animate-in zoom-in duration-200" />}
+                                                            </button>
+                                                        );
+                                                    })}
+                                                </div>
+                                            </div>
+                                </FilterDropdown>
+
+                                {hasActiveFilters && (
+                                    <button
+                                        onClick={clearAll}
+                                        className="flex items-center justify-center gap-2 rounded-sm px-3 py-2 text-sm font-bold text-red-500 transition-all hover:bg-red-500/10 hover:text-red-400 active:scale-95"
+                                    >
+                                        <X className="w-4 h-4" />
+                                        {productsT("clear_all")}
+                                    </button>
+                                )}
+                            </div>
+
+                            {hasActiveFilters && (
+                                <div className="flex flex-wrap gap-3 animate-in fade-in slide-in-from-top-2 duration-500">
+                                    {selectedManufacturers.map((manufacturer) => (
+                                        <div
+                                            key={manufacturer.slug}
+                                            className="inline-flex items-center justify-center gap-1 px-3 py-1 bg-primary/5 text-primary border border-primary/20 rounded-sm text-xs font-bold shadow-sm hover:shadow-md transition-all group"
+                                        >
+                                            <span className="leading-none">{manufacturer.name}</span>
+                                            <button
+                                                onClick={() => removeManufacturer(manufacturer.slug)}
+                                                className="hover:bg-primary/20 rounded-sm p-1 transition-all group-hover:scale-110 flex items-center justify-center"
+                                                aria-label={`Remove ${manufacturer.name}`}
+                                            >
+                                                <X className="w-3.5 h-3.5" />
+                                            </button>
+                                        </div>
+                                    ))}
+                                    {selectedIndustries.map((industry) => (
+                                        <div
+                                            key={industry.slug}
+                                            className="inline-flex items-center justify-center gap-1 px-3 py-1 bg-primary/5 text-primary border border-primary/20 rounded-sm text-xs font-bold shadow-sm hover:shadow-md transition-all group"
+                                        >
+                                            <span className="leading-none">{industry.name}</span>
+                                            <button
+                                                onClick={() => removeIndustry(industry.slug)}
+                                                className="hover:bg-primary/20 rounded-sm p-1 transition-all group-hover:scale-110 flex items-center justify-center"
+                                                aria-label={`Remove ${industry.name}`}
+                                            >
+                                                <X className="w-3.5 h-3.5" />
+                                            </button>
+                                        </div>
+                                    ))}
+                                </div>
+                            )}
+                        </div>
+
+                        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                            {filteredProducts.map((product) => (
+                                <Link
+                                    key={product.url}
+                                    to={addLanguageToPath(`/products/${product.url}`, currentLanguage)}
+                                    className="group flex h-full flex-col overflow-hidden rounded-sm border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/45 hover:bg-blue-50/20 hover:shadow-xl hover:shadow-primary/10"
+                                >
+                                    <div className="relative flex h-56 items-center justify-center overflow-hidden bg-white p-4">
+                                        {product.images && product.images.length > 0 ? (
+                                            <img
+                                                src={product.images[0].url}
+                                                alt={product.images[0].alt_text || product.name}
+                                                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700 ease-in-out mix-blend-multiply"
+                                            />
+                                        ) : (
+                                            <div className="text-slate-400">{productsT("card.no_image")}</div>
+                                        )}
+                                    </div>
+
+                                    <div className="flex flex-1 flex-col border-t border-slate-200 p-4">
+                                        <div className="min-h-[3.5rem]">
+                                            <h3
+                                                className="text-base font-bold leading-6 text-foreground transition-colors duration-300 group-hover:text-primary md:text-[22px] md:leading-7"
+                                            >
+                                                {product.name}
+                                            </h3>
+                                        </div>
+                                        <p className="mt-3 text-sm leading-6 text-zinc-700">
+                                            {product.short_description}
+                                        </p>
+
+                                        <div className="mt-3 flex flex-wrap content-start items-start gap-1.5">
+                                            {(product.industries ?? []).map((ind, idx) => (
+                                                <Badge key={`${ind}-${idx}`} variant="secondary" className="rounded-sm border-blue-600/20 bg-blue-200/30 px-2 py-0.5 text-[11px] font-bold text-blue-700 hover:bg-blue-200/30">
+                                                    {ind}
+                                                </Badge>
+                                            ))}
+                                        </div>
+
+                                        <div className="mt-auto pt-4">
+                                            <div className="flex items-center text-sm font-semibold text-primary transition-colors duration-300 group-hover:text-orange-600">
+                                                {productsT("card.explore_details")}
+                                                <ArrowRight className="w-4 h-4 ml-1.5 group-hover:translate-x-1.5 transition-transform" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Link>
+                            ))}
+
+                            {filteredProducts.length === 0 && (
+                                <div className="flex flex-col items-center justify-center py-24 text-center animate-in fade-in duration-500 md:col-span-2 xl:col-span-3">
+                                    <div className="w-16 h-16 bg-muted rounded-sm flex items-center justify-center mb-4">
+                                        <Filter className="w-8 h-8 text-muted-foreground/50" />
+                                    </div>
+                                    <h3 className="text-lg font-medium text-foreground mb-2">
+                                        {productsT("no_results")}
+                                    </h3>
+                                    <button
+                                        onClick={clearAll}
+                                        className="text-primary hover:underline font-medium"
+                                    >
+                                        {productsT("clear_all")}
+                                    </button>
+                                </div>
+                            )}
+                        </div>
+                    </div>
+                </section>
+
+                {/* CTA Section */}
+                <section className="max-w-5xl mx-auto px-6 md:px-12 mt-24">
+                    <div className="bg-gradient-to-br from-blue-900 to-slate-900 rounded-sm p-10 md:p-16 text-center shadow-2xl relative overflow-hidden border border-blue-800">
+                        <div className="absolute top-0 right-0 p-32 bg-primary/20 rounded-sm blur-[100px] -mr-16 -mt-16 pointer-events-none" />
+                        <div className="absolute bottom-0 left-0 p-32 bg-orange-500/10 rounded-sm blur-[100px] -ml-16 -mb-16 pointer-events-none" />
+
+                        <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 relative z-10">
+                            {productsT("cta.title")}
+                        </h2>
+                        <p className="text-blue-200 text-lg mb-10 max-w-2xl mx-auto relative z-10">
+                            {productsT("cta.description")}
+                        </p>
+                        <QuoteCta size="lg" className="relative z-10 text-lg h-14 px-8" asChild>
+                            <RfqLink>
+                                <Mail className="w-5 h-5" />
+                                {t("navigation.menu.rfq")}
+                            </RfqLink>
+                        </QuoteCta>
+                    </div>
+                </section>
+            </main>
+        </>
+    );
 }

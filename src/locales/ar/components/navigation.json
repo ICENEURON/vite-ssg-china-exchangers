@@ -1,0 +1,26 @@
+{
+  "menu": {
+    "home": "بيت",
+    "for_buyers_label": "للمشترين",
+    "manufacturers": "قائمة الشركة المصنعة",
+    "products": "فئات المنتجات",
+    "rfq": "الحصول على الاقتباس",
+    "for_manufacturers_label": "للمصنعين",
+    "profile": "تحديثات الملف الشخصي",
+    "content_marketing_services": "تقديمات المادة",
+    "about": "معلومات عنا",
+    "industry-news": "أخبار الصناعة",
+    "contact": "اتصل بنا",
+    "login": "تسجيل الدخول",
+    "register": "يسجل",
+    "dashboard": "لوحة القيادة",
+    "logout": "تسجيل الخروج",
+    "terms": "شروط",
+    "privacy": "خصوصية",
+    "quote_service": "خدمة طلب عرض أسعار"
+  },
+  "breadcrumb": {
+    "home": "بيت"
+  },
+  "logo": "HeatEx Direct"
+}

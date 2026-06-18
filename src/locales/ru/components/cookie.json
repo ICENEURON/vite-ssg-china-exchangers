@@ -1,0 +1,36 @@
+{
+  "consentModal": {
+    "title": "Политика cookie",
+    "description": "HeatEx Direct использует файлы cookie для работы сайта и анализа его использования. Используя этот сайт и выбирая \"Принять условия\", вы соглашаетесь с нашей <a href=\"{{privacyPath}}\">Политикой конфиденциальности</a> и <a href=\"{{termsPath}}\">Условиями использования</a>.",
+    "acceptAllBtn": "Принять условия",
+    "acceptNecessaryBtn": "Только необходимые",
+    "showPreferencesBtn": "Подробнее",
+    "closeIconLabel": "Закрыть"
+  },
+  "preferencesModal": {
+    "title": "Настройки cookie",
+    "acceptAllBtn": "Принять все",
+    "acceptNecessaryBtn": "Только необходимые",
+    "savePreferencesBtn": "Сохранить",
+    "closeIconLabel": "Закрыть",
+    "sections": {
+      "necessary": {
+        "title": "Необходимые cookie",
+        "description": "Нужны для основных функций сайта и сохранения вашего выбора cookie."
+      },
+      "analytics": {
+        "title": "Аналитические cookie",
+        "description": "Помогают нам понять, как посетители используют сайт, чтобы улучшать содержание и навигацию.",
+        "tableHeaders": {
+          "name": "Cookie",
+          "domain": "Домен",
+          "desc": "Назначение"
+        },
+        "tableBody": {
+          "name": "_ga, _ga_*",
+          "desc": "Измеряют использование сайта, когда аналитика принята."
+        }
+      }
+    }
+  }
+}

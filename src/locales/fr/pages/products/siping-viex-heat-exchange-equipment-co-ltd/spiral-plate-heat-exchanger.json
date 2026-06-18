@@ -1,0 +1,53 @@
+{
+  "slug": "spiral-plate-heat-exchanger",
+  "name": "Échangeur de chaleur à plaques en spirale",
+  "full_description": "ViEX se décrit comme un fabricant national professionnel d'échangeurs de chaleur à plaques en spirale avec des schémas de conception avancés, une riche expérience de fabrication, des équipements d'outillage avancés et de vastes domaines d'application. La page officielle répertorie les échangeurs de chaleur à plaques en spirale amovibles et non détachables, propose des options de matériaux et de canaux et met en évidence des résultats innovants tels que des condenseurs de benzol brut, des échangeurs de chaleur à plaques en spirale détachables à quatre canaux et des échangeurs de chaleur à plaques en spirale détachables d'un côté.",
+  "industries": [
+    "Pétrochimie",
+    "Traitement chimique",
+    "Nourriture et boissons"
+  ],
+  "advantage": [
+    "Schéma de conception avancé et riche expérience de fabrication",
+    "Configurations détachables et non détachables",
+    "Large gamme d'options de matériaux et de tailles",
+    "Convient aux applications de processus industriels exigeantes",
+    "Comprend des références d'exportation et d'acier, de cokéfaction, d'alcool et de biotechnologie"
+  ],
+  "technical_parameters": {
+    "Normes": "JB/T4751-2003; GB150-1998",
+    "Classe de pression": "Non détachable: 4,5 MPa; Détachable: 1,0 MPa",
+    "Largeur des plaques": "Acier au carbone: 500, 630, 750, 1 260, 1 500, 2 000 mm; Acier inoxydable: 610, 750, 1220, 1500, 2000 mm",
+    "Espacement des canaux": "6,0-32,0 mm en option",
+    "Matériau des plaques": "Q235B; SUS304; 316; 316L; 321",
+    "Température de fonctionnement maximale": "Non détachable: 400 ℃; Détachable: 300 ℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Quels résultats innovants sont répertoriés?",
+      "content": "La page officielle répertorie les condenseurs de benzol brut, les échangeurs de chaleur à plaques en spirale amovibles à quatre canaux et les échangeurs de chaleur à plaques en spirale amovibles d'un côté comme résultats innovants représentatifs."
+    },
+    {
+      "title": "Quels projets de référence sont présentés?",
+      "content": "La page cite parmi les références typiques la cokéfaction Baosteel Meishan, Tangshan Ganglu Steel, le projet Usiminas au Brésil, Jiyuan Jinma Coking, Jilin Xintianlong Alcohol, Heilongjiang Xiangyuan Oil Factory et des cas liés à l'exportation."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur à plaques en spirale | Siping ViEX",
+    "meta_description": "Échangeur de chaleur à plaques en spirale avec configurations détachables et non détachables pour les applications de l'industrie de transformation."
+  },
+  "manufacturer": {
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Spiral Plate Heat Exchanger",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/spiral_plate_heat_exchanger.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

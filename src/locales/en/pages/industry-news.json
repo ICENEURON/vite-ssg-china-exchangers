@@ -1,0 +1,43 @@
+{
+  "title": "Heat Exchanger Sourcing Guides, Technical Articles, and Manufacturer Updates | HeatEx Direct",
+  "meta": {
+    "description": "Read heat exchanger sourcing guides, technical articles, quote request preparation notes, and Chinese manufacturer updates for industrial buyers.",
+    "keywords": "heat exchanger sourcing guide, heat exchanger technical articles, heat exchanger quote request checklist, China heat exchanger manufacturers, industrial heat exchanger news"
+  },
+  "og": {
+    "title": "Heat Exchanger Sourcing Guides and Technical Articles",
+    "description": "Read heat exchanger sourcing guides, technical articles, quote request preparation notes, and Chinese manufacturer updates for industrial buyers."
+  },
+  "page": {
+    "title": "Industry News",
+    "subtitle": ""
+  },
+  "card": {
+    "read": "Read Article"
+  },
+  "content_types": {
+    "news": "News",
+    "posts": "Technical Article"
+  },
+  "filters": {
+    "company": "Company",
+    "all": "All",
+    "no_results": "No articles match these filters."
+  },
+  "search": {
+    "label": "Search article titles",
+    "title_placeholder": "Search title keywords"
+  },
+  "blog": {
+    "not_found_title": "Page Not Found",
+    "not_found_desc": "The article you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+    "back_to_list": "Back to List",
+    "back_to_catalog": "Back to News",
+    "author": "Author",
+    "read_time": "Read",
+    "article_navigation": "Article navigation",
+    "previous_article": "Previous article",
+    "next_article": "Next article",
+    "related_posts": "Latest Articles"
+  }
+}

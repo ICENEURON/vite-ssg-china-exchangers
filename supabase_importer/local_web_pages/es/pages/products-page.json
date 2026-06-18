@@ -1,0 +1,71 @@
+{
+  "filter_all": "Todas las industrias",
+  "filter_all_manufacturers": "Todos los fabricantes",
+  "no_results": "No se encontraron productos que coincidan con los filtros seleccionados.",
+  "clear_all": "Borrar todo",
+  "filter_by": "Industria",
+  "filter_manufacturer": "Fabricante",
+  "title": "Intercambiadores de calor industriales",
+  "description": "Explore los perfiles de productos de intercambiadores de calor industriales que cubren a los fabricantes chinos y filtre por fabricante e industria para comparar productos de placas, placas soldadas, carcasas y tubos, enfriadores de aire y unidades de intercambio de calor.",
+  "hero": {
+    "title": "Catálogo de productos de intercambiadores de calor industriales",
+    "description": "Explore las categorías de productos de intercambiadores de calor industriales y vea detalles técnicos, aplicaciones, ventajas de productos, información de materiales e información relacionada con el fabricante de cada producto."
+  },
+  "card": {
+    "no_image": "No hay imagen disponible",
+    "explore_details": "Explorar detalles"
+  },
+  "cta": {
+    "title": "¿No estás seguro de qué producto necesitas?",
+    "description": "Envíe parámetros de aplicación estructurados. HeatEx Direct revisa solicitudes completas y dirige solicitudes calificadas a fabricantes adecuados según el ajuste del proyecto."
+  },
+  "detail": {
+    "back_to_manufacturer": "Volver a la página del fabricante",
+    "back_to_manufacturers": "Volver a Fabricantes",
+    "back_to_list": "Volver a Productos",
+    "key_advantages": "Ventajas clave",
+    "product_details": "Detalles del producto",
+    "technical_specifications": "Especificaciones técnicas",
+    "other_products": "Otros productos de este fabricante",
+    "document_downloads": "Descargas de documentos",
+    "download": "Descargar",
+    "applications": "Aplicaciones del producto",
+    "application_advantages": "Ventajas",
+    "application_used_in": "Uso en",
+    "rfq_requirements": {
+      "title": "Preparar una solicitud de cotización de producto",
+      "heading": "Prepare una solicitud más fácil de seguir para {{productName}}",
+      "description": "Para un seguimiento de cotización más claro, comparta condiciones reales, cantidad, estándares, materiales y calendario.",
+      "checklistTitle": "Información que ayuda al seguimiento",
+      "cta": "Empezar solicitud",
+      "serviceCta": "Ver servicio de solicitud",
+      "items": [
+        {
+          "title": "Datos de operación",
+          "body": "Medios, caudal, temperaturas de entrada/salida, presión y carga térmica."
+        },
+        {
+          "title": "Límites mecánicos",
+          "body": "Material, código de diseño, bridas, presión nominal y corrosión."
+        },
+        {
+          "title": "Contexto comercial",
+          "body": "Cantidad, fecha objetivo, destino y etapa del proyecto."
+        },
+        {
+          "title": "Archivos o dudas",
+          "body": "Hojas de datos, planos, fotos o preguntas para el fabricante."
+        }
+      ]
+    }
+  },
+  "categories": {},
+  "meta": {
+    "description": "Explore los perfiles de productos de intercambiadores de calor industriales que cubren a los fabricantes chinos y filtre por fabricante e industria para comparar productos de placas, placas soldadas, carcasas y tubos, enfriadores de aire y unidades de intercambio de calor.",
+    "keywords": "productos de intercambiadores de calor industriales, productos de intercambiadores de calor de placas, intercambiadores de calor de placas soldadas, intercambiadores de calor de carcasa y tubos, intercambiadores de calor enfriados por aire, fabricantes de intercambiadores de calor en China"
+  },
+  "og": {
+    "title": "Intercambiadores de calor industriales",
+    "description": "Explore los perfiles de productos de intercambiadores de calor industriales que cubren a los fabricantes chinos y filtre por fabricante e industria para comparar productos de placas, placas soldadas, carcasas y tubos, enfriadores de aire y unidades de intercambio de calor."
+  }
+}

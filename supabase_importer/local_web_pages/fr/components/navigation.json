@@ -1,0 +1,26 @@
+{
+  "menu": {
+    "home": "Maison",
+    "for_buyers_label": "Acheteurs",
+    "manufacturers": "Fabricants",
+    "products": "Produits",
+    "rfq": "Devis",
+    "for_manufacturers_label": "Fabricants",
+    "profile": "Profil",
+    "content_marketing_services": "Articles",
+    "about": "À propos",
+    "industry-news": "Actualités",
+    "contact": "Contact",
+    "login": "Se connecter",
+    "register": "Registre",
+    "dashboard": "Tableau de bord",
+    "logout": "Déconnexion",
+    "terms": "Termes",
+    "privacy": "Confidentialité",
+    "quote_service": "Service de demande de devis"
+  },
+  "breadcrumb": {
+    "home": "Maison"
+  },
+  "logo": "HeatEx Direct"
+}

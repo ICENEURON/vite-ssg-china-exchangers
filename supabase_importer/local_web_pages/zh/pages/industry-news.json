@@ -1,0 +1,43 @@
+{
+  "title": "换热器采购指南、技术文章与制造商动态 | HeatEx Direct",
+  "meta": {
+    "description": "阅读换热器采购指南、技术文章、询价准备建议和中国制造商动态，帮助工业买家更清晰地准备询价和筛选厂家。",
+    "keywords": "换热器采购指南, 换热器技术文章, 换热器询价清单, 中国换热器制造商, 工业换热器新闻"
+  },
+  "og": {
+    "title": "换热器采购指南与技术文章",
+    "description": "阅读换热器采购指南、技术文章、询价准备建议和中国制造商动态，帮助工业买家更清晰地准备询价和筛选厂家。"
+  },
+  "page": {
+    "title": "行业新闻",
+    "subtitle": ""
+  },
+  "card": {
+    "read": "阅读文章"
+  },
+  "content_types": {
+    "news": "新闻",
+    "posts": "技术文章"
+  },
+  "filters": {
+    "company": "公司",
+    "all": "全部",
+    "no_results": "没有符合筛选条件的文章。"
+  },
+  "search": {
+    "label": "搜索文章标题",
+    "title_placeholder": "搜索标题关键词"
+  },
+  "blog": {
+    "not_found_title": "找不到页面",
+    "not_found_desc": "您正在寻找的文章可能已被移除、更改名称，或是暂时无法使用。",
+    "back_to_list": "返回列表",
+    "back_to_catalog": "返回新闻",
+    "author": "作者",
+    "read_time": "阅读时间",
+    "article_navigation": "文章导航",
+    "previous_article": "上一篇文章",
+    "next_article": "下一篇文章",
+    "related_posts": "最新文章"
+  }
+}

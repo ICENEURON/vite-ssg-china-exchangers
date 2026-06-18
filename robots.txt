@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://vite-ssg-shadcn-starter.com/sitemap.xml

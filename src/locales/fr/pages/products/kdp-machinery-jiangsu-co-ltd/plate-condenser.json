@@ -1,0 +1,65 @@
+{
+  "slug": "plate-condenser",
+  "name": "Condenseur à plaques",
+  "full_description": "Un condenseur à plaques utilise des canaux ondulés pour condenser la vapeur en liquide en transférant la chaleur à de l’eau de refroidissement, de l’eau glacée, du glycol, des boucles assistées par air ou un autre fluide. La surface compacte permet une réponse thermique rapide et une forte efficacité dans les systèmes d’évaporation, de réfrigération, de récupération de solvants, de procédés chimiques, d’auxiliaires d’énergie, de service maritime et d’utilités alimentaires ou pharmaceutiques.",
+  "industries": [
+    "HVAC",
+    "Pétrochimie",
+    "Énergie",
+    "Traitement chimique",
+    "Nourriture et boissons",
+    "Production d'énergie"
+  ],
+  "advantage": [
+    "La grande surface ondulée des plaques soutient des coefficients élevés de transfert en condensation.",
+    "La construction compacte réduit l’emprise d’installation et le volume de frigorigène ou vapeur retenu.",
+    "La réponse thermique rapide aide le système à suivre les charges de vapeur variables.",
+    "Des configurations ouvrables, à joints, semi-soudées ou soudées peuvent être choisies selon les fluides et la maintenance.",
+    "Les matériaux couvrent l’eau de mer, les vapeurs acides, les frigorigènes, les solvants et les services hygiéniques.",
+    "Peut être associé aux évaporateurs à plaques, systèmes MVR, unités frigorifiques et boucles de récupération de chaleur."
+  ],
+  "technical_parameters": {
+    "Fonction": "Condensation de vapeur et récupération de chaleur",
+    "Matériaux": "Acier inoxydable, titane, acier inoxydable duplex et alliages résistants à la corrosion",
+    "Configuration": "Conceptions à joints, semi-soudées, entièrement soudées ou plaques et calandre selon le service",
+    "Côté condensation": "Canaux de plaques configurés pour distribution de vapeur et drainage du condensat",
+    "Applications typiques": "Systèmes d’évaporation, réfrigération à l’ammoniac, récupération de solvants, condenseurs chimiques, service maritime, utilités alimentaires et pharmaceutiques",
+    "Fluides de refroidissement": "Eau de refroidissement, eau glacée, glycol, eau de mer ou fluide de procédé selon le service"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Service de condensation",
+      "content": "Le dimensionnement doit tenir compte de la composition vapeur, courbe de condensation, gaz non condensables, température du refroidissant, perte de charge et drainage du condensat."
+    },
+    {
+      "title": "Choix de configuration",
+      "content": "La vapeur d’eau propre peut utiliser une version à joints; frigorigènes, solvants, vapeurs corrosives ou pression élevée peuvent demander semi-soudé, soudé ou plaques et calandre."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Condenseur à plaques",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. fournit condenseur à plaques pour les applications industrielles d’échange thermique avec sélection des matériaux, pression, température et maintenance par projet."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Condenser image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_1.png"
+    },
+    {
+      "alt_text": "Plate Condenser image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_2.png"
+    },
+    {
+      "alt_text": "Plate Condenser image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_3.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

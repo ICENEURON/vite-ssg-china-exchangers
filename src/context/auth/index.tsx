@@ -2,7 +2,7 @@
 import { createContext, useContext, useEffect, useState } from "react"
 import type { ReactNode } from "react"
 import type { User } from "@supabase/supabase-js"
-import { supabase } from "../../lib/supabase/client"
+import { getSupabaseClient } from "../../lib/supabase/client"
 
 type AuthCtx = {
   user: User | null
@@ -18,14 +18,32 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    supabase.auth.getUser().then(({ data }) => {
-      setUser(data.user ?? null)
-      setLoading(false)
-    })
-    const { data: sub } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user ?? null)
-    })
-    return () => sub.subscription.unsubscribe()
+    let isMounted = true
+    let subscription: { unsubscribe: () => void } | undefined
+
+    getSupabaseClient()
+      .then(async (supabase) => {
+        const { data } = await supabase.auth.getUser()
+        if (!isMounted) return
+
+        setUser(data.user ?? null)
+        setLoading(false)
+
+        const { data: sub } = supabase.auth.onAuthStateChange((_event, session) => {
+          setUser(session?.user ?? null)
+        })
+        subscription = sub.subscription
+        if (!isMounted) subscription.unsubscribe()
+      })
+      .catch((error) => {
+        console.warn("[auth] Supabase auth unavailable", error)
+        if (isMounted) setLoading(false)
+      })
+
+    return () => {
+      isMounted = false
+      subscription?.unsubscribe()
+    }
   }, [])
 
 async function signIn(email: string, password: string) {
@@ -47,11 +65,13 @@ async function signIn(email: string, password: string) {
   }
 
   // 真实的Supabase登录保持不变（生产环境也只通过这里）
+  const supabase = await getSupabaseClient();
   const { error } = await supabase.auth.signInWithPassword({ email, password });
   return { error: error?.message ?? null };
 }
 
   async function signOut() {
+    const supabase = await getSupabaseClient()
     await supabase.auth.signOut()
   }
 

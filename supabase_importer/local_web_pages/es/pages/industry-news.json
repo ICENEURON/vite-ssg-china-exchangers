@@ -1,0 +1,43 @@
+{
+  "title": "Guías de compra de intercambiadores de calor, artículos técnicos y novedades de fabricantes | HeatEx Direct",
+  "meta": {
+    "description": "Lea guías de compra de intercambiadores de calor, artículos técnicos, notas de preparación de solicitudes y novedades de fabricantes chinos para compradores industriales.",
+    "keywords": "guía de compra de intercambiadores de calor, artículos técnicos de intercambiadores de calor, lista de solicitud de cotización de intercambiador de calor, fabricantes chinos de intercambiadores de calor, noticias de intercambiadores de calor industriales"
+  },
+  "og": {
+    "title": "Guías de compra y artículos técnicos sobre intercambiadores de calor",
+    "description": "Lea guías de compra, artículos técnicos, notas de preparación de solicitudes y novedades de fabricantes chinos para preparar mejor cotizaciones y seleccionar fábricas."
+  },
+  "page": {
+    "title": "Noticias de la industria",
+    "subtitle": ""
+  },
+  "card": {
+    "read": "Leer artículo"
+  },
+  "content_types": {
+    "news": "Noticias",
+    "posts": "Artículo técnico"
+  },
+  "filters": {
+    "company": "Compañía",
+    "all": "Todo",
+    "no_results": "Ningún artículo coincide con estos filtros."
+  },
+  "search": {
+    "label": "Buscar títulos de artículos",
+    "title_placeholder": "Palabras clave del título de búsqueda"
+  },
+  "blog": {
+    "not_found_title": "Página no encontrada",
+    "not_found_desc": "Es posible que el artículo que está buscando se haya eliminado, haya cambiado de nombre o no esté disponible temporalmente.",
+    "back_to_list": "Volver a la lista",
+    "back_to_catalog": "Volver a noticias",
+    "author": "Autor",
+    "read_time": "Leer",
+    "article_navigation": "Navegación del artículo",
+    "previous_article": "Artículo anterior",
+    "next_article": "Artículo siguiente",
+    "related_posts": "Últimos artículos"
+  }
+}

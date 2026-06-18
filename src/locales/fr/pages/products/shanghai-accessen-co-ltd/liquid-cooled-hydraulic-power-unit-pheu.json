@@ -1,0 +1,53 @@
+{
+  "slug": "liquid-cooled-hydraulic-power-unit-pheu",
+  "name": "Groupe hydraulique refroidi par liquide PHEU",
+  "full_description": "Le groupe hydraulique refroidi par liquide PHEU est un système de distribution hydraulique primaire personnalisé pour les applications de refroidissement liquide. Accessen intègre des échangeurs de chaleur à plaques, des pompes à liquide de refroidissement, des systèmes de traitement de l'eau, des canalisations et des vannes, ainsi que des systèmes électriques et de contrôle dans un ensemble modulaire conçu pour améliorer l'efficacité thermique et simplifier le fonctionnement des centres de données refroidis par liquide.",
+  "industries": [],
+  "advantage": [
+    "Intégration modulaire préfabriquée",
+    "Mise en service du système Plug-and-Play",
+    "Déploiement rapide",
+    "Conception et fabrication optimisées pour le BIM",
+    "Configuration optimisée pour l'espace",
+    "Construction robuste et résistante"
+  ],
+  "technical_parameters": {
+    "Plage d’altitude": "-30m~2500m",
+    "Alimentation électrique": "380 V~415 VCA/50 ± 1 Hz",
+    "Plage de température de stockage": "-40°C~70°C",
+    "Degré de filtration côté primaire": "200 μm ~ 300 μm",
+    "Humidité relative de fonctionnement": "5% ~ 95%",
+    "Degré de filtration côté secondaire": "100 μm ~ 200 μm",
+    "Plage de température de fonctionnement": "5°C~50°C",
+    "Fluide de refroidissement côté primaire": "Liquides de refroidissement à base d'eau/glycol",
+    "Fluide de refroidissement côté secondaire": "Eau désionisée, glycol, propylène glycol, fluides fluorés"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Qu'est-ce qui est inclus dans le module PHEU?",
+      "content": "Accessen indique que le PHEU intègre des échangeurs de chaleur à plaques, des pompes à liquide de refroidissement, des systèmes de traitement de l'eau, des canalisations, des vannes et des systèmes électriques et de contrôle dans un seul module de distribution hydraulique principal."
+    },
+    {
+      "title": "Comment cela améliore-t-il la livraison des projets?",
+      "content": "Le système utilise des modules préfabriqués, un alignement de gabarit de précision et des canalisations préfabriquées afin que les travaux sur le terrain ne nécessitent que des connexions filetées ou à brides, réduisant ainsi le temps d'installation et de soudage sur site."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Groupe hydraulique refroidi par liquide PHEU",
+    "meta_description": "Unité de puissance hydraulique modulaire refroidie par liquide intégrant des PHE, des pompes et des systèmes de traitement de l'eau pour l'infrastructure de refroidissement liquide des centres de données."
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Liquid-Cooled Hydraulic Power Unit PHEU",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooled_hydraulic_power_unit_pheu.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

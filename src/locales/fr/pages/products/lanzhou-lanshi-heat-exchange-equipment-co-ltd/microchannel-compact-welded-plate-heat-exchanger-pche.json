@@ -1,0 +1,42 @@
+{
+  "slug": "microchannel-compact-welded-plate-heat-exchanger-pche",
+  "name": "Échangeur de chaleur à plaques soudées compactes à microcanaux (PCHE)",
+  "full_description": "La page produit officielle décrit le PCHE comme l'un des nouveaux échangeurs de chaleur les plus efficaces et les plus compacts, offrant une sécurité et une stabilité très élevées. Il est présenté comme un échangeur de chaleur à microcanaux développé pour les systèmes de transfert de chaleur à haut rendement dans les micro et petites turbines à gaz, le GNL, les pompes à chaleur, l'énergie nucléaire, l'énergie hydrogène, la production d'énergie au CO2 supercritique et les applications de stockage d'énergie.",
+  "industries": [
+    "HVAC",
+    "Pétrochimie",
+    "Énergie",
+    "Production d'énergie"
+  ],
+  "advantage": [
+    "Efficacité de transfert de chaleur officiellement déclarée supérieure à 98 %.",
+    "Résistance à la pression officiellement déclarée supérieure à 90 MPa.",
+    "Plage de température de fonctionnement officiellement déclarée de -196 ℃ à 800 ℃.",
+    "Compacité officiellement déclarée jusqu'à 2500 m2/m3."
+  ],
+  "technical_parameters": {
+    "Compacité": "2500 m2/m3",
+    "Plage de température": "-196 ~ 800 ℃",
+    "Résistance à la pression": ">90MPa",
+    "Efficacité du transfert thermique": ">98 %"
+  },
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur à plaques soudées compactes à microcanaux (PCHE)",
+    "meta_description": "Échangeur de chaleur compact à plaques soudées à microcanaux pour un transfert de chaleur à haut rendement dans les systèmes énergétiques avancés."
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Microchannel Compact Welded Plate Heat Exchanger PCHE",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/microchannel_compact_welded_plate_heat_exchanger_pche_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

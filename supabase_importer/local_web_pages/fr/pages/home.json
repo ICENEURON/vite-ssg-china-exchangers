@@ -1,0 +1,151 @@
+{
+  "title": "HeatEx Direct | Plateforme chinoise des fabricants d’échangeurs de chaleur",
+  "meta": {
+    "description": "HeatEx Direct aide les acheteurs industriels internationaux à rechercher des fabricants chinois d’échangeurs de chaleur, comparer les capacités produits et envoyer des demandes structurées pour un acheminement géré vers des fabricants adaptés sous 2 jours ouvrables.",
+    "keywords": "Fabricants d'échangeurs de chaleur en Chine, fournisseurs d'échangeurs de chaleur chinois, fabricants d'échangeurs de chaleur industriels, fabricant d'échangeurs de chaleur à plaques, échangeur de chaleur à plaques soudées, échangeur de chaleur à calandre et à tubes, échangeur de chaleur refroidi par air, demande de devis d'échangeur de chaleur"
+  },
+  "og": {
+    "title": "HeatEx Direct - Recherche sur un fabricant chinois d'échangeurs de chaleur",
+    "description": "Comparez les profils de fabricants, examinez les capacités produits et envoyez une demande vérifiée que HeatEx Direct peut transmettre à 3-5 fabricants adaptés lorsqu’elle provient d’un e-mail professionnel."
+  },
+  "schema": {
+    "organizationDescription": "HeatEx Direct est un service international indépendant de recherche d’approvisionnement axé sur les fabricants chinois d’échangeurs de chaleur. Il aide les acheteurs industriels à comparer les capacités produits, examiner les preuves fournisseurs, lire du contenu technique et envoyer des demandes vérifiées pouvant être transmises à des fabricants adaptés.",
+    "websiteDescription": "Service bilingue de recherche d’approvisionnement pour les acheteurs internationaux comparant fabricants chinois d’échangeurs de chaleur, produits industriels, preuves fournisseurs, contenu technique et acheminement géré des demandes de devis."
+  },
+  "hero": {
+    "eyebrow": "Plateforme chinoise de fabrication d'échangeurs de chaleur",
+    "title": "Trouvez des fabricants chinois d'échangeurs de chaleur avec des informations claires sur l'usine, les produits et les applications.",
+    "subtitle": "HeatEx Direct aide les équipes d'approvisionnement mondiales, les ingénieurs, les entrepreneurs de projet, les distributeurs et les intégrateurs de systèmes à identifier, évaluer et comparer les fabricants chinois d'échangeurs de chaleur avant d'entamer des conversations avec les fournisseurs.",
+    "description": "La plateforme réunit profils de fabricants, catégories de produits, secteurs d’application, preuves d’usine, notes techniques et flux géré de demande de devis. Les demandes complètes et vérifiées depuis un e-mail professionnel peuvent être transmises à 3-5 fabricants adaptés sous 2 jours ouvrables; les demandes depuis un e-mail personnel sont généralement limitées à 2 au maximum.",
+    "paths": [
+      {
+        "title": "Parcourir les fabricants",
+        "body": "Examinez les profils des fabricants, les emplacements des usines, la gamme de produits, les industries desservies, les marchés d'exportation et les preuves disponibles."
+      },
+      {
+        "title": "Explorer les produits",
+        "body": "Affichez les détails du produit, les paramètres techniques, les avantages, les applications, les matériaux et les fabricants associés."
+      },
+      {
+        "title": "Envoyer une demande de devis",
+        "body": "Envoyez une demande structurée pour examen manuel, sélection de fabricants et suivi de devis."
+      }
+    ]
+  },
+  "featuredManufacturers": {
+    "eyebrow": "Fabricants en vedette",
+    "title": "Commencez par des profils de fabricants structurés pour comparer les fournisseurs",
+    "description": "Explorez des profils structurés couvrant l'historique de l'entreprise, la portée du produit, les secteurs d'application, les marchés d'exportation, les preuves d'usine et les informations techniques disponibles.",
+    "cta": "Parcourir tous les fabricants"
+  },
+  "categoryShowcase": {
+    "eyebrow": "Explorez les produits d'échangeurs de chaleur",
+    "title": "Commencez par le type d’équipement dont vous avez besoin",
+    "secondaryCta": "Explorer les produits",
+    "categories": [
+      {
+        "title": "Échangeurs de chaleur à plaques",
+        "body": "Échangeurs de chaleur à plaques avec joints et associés pour les applications HVAC, de transformation des aliments, de systèmes marins, de refroidissement de processus et de récupération de chaleur générale."
+      },
+      {
+        "title": "Échangeurs de chaleur à plaques soudées",
+        "body": "Échangeurs de chaleur à plaques et coques entièrement soudés, à grand espacement et à plaques robustes pour des pressions et des températures plus élevées, des fluides corrosifs ou des fluides difficiles."
+      },
+      {
+        "title": "Échangeurs de chaleur à calandre et tubes",
+        "body": "Échangeurs de chaleur tubulaires et équipements de type récipient sous pression pour les services pétrochimiques, énergétiques, électriques, maritimes et industriels lourds."
+      },
+      {
+        "title": "Équipement d'échange de chaleur côté air",
+        "body": "Refroidisseurs d'air, radiateurs à air, échangeurs de chaleur à tubes à ailettes et systèmes thermiques côté air pour les tâches de refroidissement, de chauffage, de ventilation et de processus industriels."
+      },
+      {
+        "title": "Pièces de rechange et articles de service",
+        "body": "Plaques de remplacement, joints, pièces de maintenance, documentation et composants liés au service pour le support du cycle de vie de l'échangeur de chaleur."
+      }
+    ],
+    "stats": {
+      "manufacturers": "Profils de fabricants chinois",
+      "products": "Pages produits des échangeurs de chaleur",
+      "industries": "Secteurs d'application industrielle"
+    }
+  },
+  "industryNews": {
+    "eyebrow": "Nouvelles de l'industrie",
+    "title": "Lisez les mises à jour de l'entreprise et les articles techniques du secteur des échangeurs de chaleur.",
+    "pillars": [
+      {
+        "title": "Actualités de l'entreprise",
+        "body": "Annonces de l'entreprise, livraisons de projets, lancements de produits, mises à jour d'usine et actualités sur l'exportation des fabricants d'échangeurs de chaleur répertoriés."
+      },
+      {
+        "title": "Articles techniques",
+        "body": "Articles pratiques couvrant les types d’échangeurs de chaleur, les paramètres techniques, les matériaux, les applications, la maintenance et les spécifications."
+      }
+    ]
+  },
+  "highlightedArticles": {
+    "eyebrow": "Dernières nouvelles de l’industrie des échangeurs de chaleur",
+    "title": "Mises à jour récentes du fabricant, notes de produit et articles techniques",
+    "description": "Découvrez les actualités de l'entreprise, les livraisons de projets, les mises à jour de produits, les conseils de maintenance et les histoires d'application des fabricants d'échangeurs de chaleur répertoriés et les sujets techniques associés.",
+    "cta": "Lire l'actualité de l'industrie",
+    "typeLabels": {
+      "news": "Actualités de l'entreprise",
+      "posts": "Article technique"
+    }
+  },
+  "valueProp": {
+    "eyebrow": "Informations et preuves du fournisseur",
+    "title": "Données structurées du fabricant pour une comparaison plus facile",
+    "description": "HeatEx Direct organise les informations sur le fabricant en sections claires et comparables afin que les acheteurs puissent examiner l'historique de l'entreprise, la portée du produit, les détails techniques, les supports, les documents et l'adéquation de l'application avant de contacter les fournisseurs.",
+    "evidence": [
+      {
+        "label": "Contexte de l'entreprise",
+        "body": "Noms légaux des sociétés, emplacements, orientation commerciale, brèves descriptions et contexte du profil pour chaque fabricant répertorié."
+      },
+      {
+        "label": "Emplacement de l'usine",
+        "body": "Emplacements des usines, contexte opérationnel, supports d'installation disponibles et détails de l'emplacement qui aident les acheteurs à comprendre la présence réelle du fabricant."
+      },
+      {
+        "label": "Portée du produit",
+        "body": "Catégories d'échangeurs de chaleur, pages de produits, secteurs d'application et capacités de fabrication associées liées à chaque profil de fournisseur."
+      },
+      {
+        "label": "Détails techniques",
+        "body": "Descriptions des produits, matériaux, pertinence en matière de pression et de température, notes d'application, contexte de charge thermique et informations de conception, le cas échéant."
+      },
+      {
+        "label": "Médias et preuves visuelles",
+        "body": "Images de produits, photos d'usine, certificats, documents, logos de clients et fichiers associés lorsqu'ils sont fournis ou vérifiés."
+      },
+      {
+        "label": "Certificats et documents",
+        "body": "Certificats, documents, documents de qualification et autres éléments de preuve disponibles que les acheteurs peuvent examiner avant une diligence raisonnable plus approfondie des fournisseurs."
+      }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "Obtenir un flux de travail de devis",
+    "title": "Envoyez les exigences pour un suivi fabricant géré",
+    "description": "Un devis utile d’échangeur de chaleur commence par des conditions de service claires. HeatEx Direct examine les demandes complètes et vérifiées, puis les transmet sous 2 jours ouvrables selon le type d’e-mail et l’adéquation du projet.",
+    "steps": [
+      {
+        "title": "Vérifier l'ajustement",
+        "body": "Utilisez les pages des fabricants et des produits pour examiner les capacités des fournisseurs, leur expérience en matière d'application et les preuves disponibles."
+      },
+      {
+        "title": "Soumettre les détails",
+        "body": "Partagez vos conditions de fonctionnement, vos besoins en matériaux, vos notes de projet et d'autres exigences clés via le formulaire Obtenir un devis."
+      },
+      {
+        "title": "Vérifier l'e-mail",
+        "body": "Aucune inscription de compte n’est requise. La vérification par e-mail confirme la demande et détermine si elle suit le niveau e-mail professionnel ou personnel."
+      },
+      {
+        "title": "Recevoir des commentaires",
+        "body": "Les demandes qualifiées avec e-mail professionnel peuvent être partagées avec 3-5 fabricants adaptés. Les demandes avec e-mail personnel sont généralement partagées avec 2 fabricants au maximum."
+      }
+    ]
+  }
+}

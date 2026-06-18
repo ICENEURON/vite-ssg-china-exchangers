@@ -1,0 +1,90 @@
+{
+  "title": "Heat Exchanger Quote Request Service | HeatEx Direct",
+  "meta": {
+    "description": "Submit one structured heat exchanger request, verify a real email, and let HeatEx Direct review the need and help establish quotation follow-up with suitable Chinese manufacturers.",
+    "keywords": "heat exchanger quote request service, heat exchanger quotation, heat exchanger request, China heat exchanger manufacturers, heat exchanger sourcing"
+  },
+  "og": {
+    "title": "Heat Exchanger Quote Request Service",
+    "description": "One request, several suitable manufacturers, and contact details protected first for heat exchanger quotation follow-up."
+  },
+  "hero": {
+    "title": "Heat Exchanger Quote Request Service",
+    "description": "Submit one structured request, verify a real email, and let HeatEx Direct review the project before helping contact suitable manufacturers."
+  },
+  "summary": [
+    {
+      "title": "No repeated emails to different companies",
+      "body": "Put product type, operating conditions, quantity, drawings, and open questions into one request so follow-up is clearer."
+    },
+    {
+      "title": "One request, several suitable factories",
+      "body": "We screen better-matched manufacturers by product type, industry, and project stage."
+    },
+    {
+      "title": "Contact details protected first",
+      "body": "You can choose anonymous inquiry mode. We protect your personal information before contacting factories."
+    }
+  ],
+  "stepsTitle": "The process is simple",
+  "stepsDescription": "Prepare the requirement, verify your email, then HeatEx Direct helps establish quotation follow-up with suitable manufacturers.",
+  "steps": [
+    {
+      "title": "Submit a real requirement",
+      "body": "State product type, operating parameters, materials, quantity, delivery timing, drawings, and any questions that are still uncertain."
+    },
+    {
+      "title": "Verify a real email",
+      "body": "No account is required, but email verification is needed so quotation and technical follow-up can reach a real buyer."
+    },
+    {
+      "title": "Manual review and manufacturer contact",
+      "body": "HeatEx Direct screens suitable manufacturers by product, industry, and project stage, then helps establish quotation follow-up."
+    }
+  ],
+  "cta": {
+    "title": "Start preparing a clear heat exchanger request",
+    "description": "If you have a real project, replacement need, or technical question, submit the information you already know. Clearer context makes quotation follow-up more accurate.",
+    "button": "Start quote request"
+  },
+  "schema": {
+    "name": "Heat exchanger quote request service",
+    "description": "HeatEx Direct helps buyers submit structured heat exchanger requests, verify email, manually review requirements, and establish quotation follow-up with suitable manufacturers.",
+    "serviceType": "Heat exchanger quote request service"
+  },
+  "eyebrow": "Quote request service",
+  "serviceTitle": "What this service is",
+  "serviceDescription": "HeatEx Direct organizes your heat exchanger requirement into a clear request, then helps contact suitable manufacturers based on product type, operating conditions, and project stage.",
+  "routingTitle": "Email and contact range",
+  "routingHeading": "How we arrange manufacturer follow-up",
+  "routingDescription": "A company-domain email and complete information make it easier for manufacturers to judge project authenticity. Personal email requests can also be submitted; we first help contact a smaller number of better-matched manufacturers.",
+  "metrics": [
+    {
+      "label": "Qualified business email request",
+      "value": "3-5",
+      "body": "Can be helped to contact 3-5 suitable manufacturers for quotation follow-up."
+    },
+    {
+      "label": "Personal email",
+      "value": "2",
+      "body": "Usually helped to contact up to 2 suitable manufacturers."
+    },
+    {
+      "label": "Review target",
+      "value": "2d",
+      "body": "Processed within 2 business days after email verification and complete information."
+    }
+  ],
+  "routingTiers": [
+    {
+      "title": "Business email",
+      "value": "3-5",
+      "body": "When submitted from a company-domain email with complete information, we prioritize helping establish quotation follow-up with 3-5 suitable manufacturers."
+    },
+    {
+      "title": "Personal email",
+      "value": "Up to 2",
+      "body": "Qualified requests submitted from a personal email usually start with up to 2 suitable manufacturers."
+    }
+  ]
+}

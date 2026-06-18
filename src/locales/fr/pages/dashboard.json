@@ -1,0 +1,46 @@
+{
+  "title": "Tableau de bord de développement",
+  "meta": {
+    "description": "Votre tableau de bord de développement personnel présentant les composants d'interface utilisateur React, Vite, TailwindCSS et Shadcn en action.",
+    "keywords": "tableau de bord, réagir, vite, tailwindcss, shadcn, développement, composants, interface utilisateur"
+  },
+  "og": {
+    "title": "Tableau de bord de développement - React + Vite + TailwindCSS + Shadcn",
+    "description": "Tableau de bord interactif démontrant la puissance des outils de développement Web modernes."
+  },
+  "welcome": {
+    "title": "Bienvenue sur votre tableau de bord",
+    "subtitle": "Connecté sous le nom {{email}}",
+    "description": "Explorez les capacités de notre pile technologique grâce à ce tableau de bord interactif."
+  },
+  "sections": {
+    "components": {
+      "title": "Vitrine des composants de l'interface utilisateur",
+      "description": "Exemples interactifs de composants de l'interface utilisateur Shadcn"
+    },
+    "performance": {
+      "title": "Mesures de performances",
+      "description": "Indicateurs de performance des applications en temps réel"
+    },
+    "development": {
+      "title": "Outils de développement",
+      "description": "Outils et utilitaires utiles pour le développement"
+    },
+    "theming": {
+      "title": "Configuration du thème",
+      "description": "Personnaliser l'apparence de l'application"
+    }
+  },
+  "stats": {
+    "components": "Plus de 50 composants",
+    "themes": "Modes clair et sombre",
+    "responsive": "Entièrement réactif",
+    "accessible": "Conforme aux WCAG"
+  },
+  "actions": {
+    "sign_out": "se déconnecter",
+    "view_code": "Afficher le code source",
+    "download": "Télécharger le projet",
+    "customize": "Personnaliser le thème"
+  }
+}

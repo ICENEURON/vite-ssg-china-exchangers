@@ -1,0 +1,40 @@
+{
+  "slug": "waste-heat-recovery-special-heat-exchanger",
+  "name": "余热回收专用特种热交换器",
+  "full_description": "官网列出 THT 巨元焊接板式热交换器可用于换热器、空冷器、空气预热器、压缩机级间冷却器、氨冷器、原油与渣油换热器、电厂空冷、板式蒸发空冷、MDEA溶液换热、板式省煤器等。余热回收焊接板式换热器主要应用于工业废水、废气，玉米深加工行业多效蒸发尾气，城市原生污水，以及各种燃料产生烟气等热量回收利用系统。页面强调其密封可靠，可长周期运行，不易泄漏和堵塞，检修清洗方便快捷，检修费用低。",
+  "industries": [
+    "暖通空调",
+    "石油化工",
+    "能源",
+    "化工",
+    "发电/电力"
+  ],
+  "advantage": [
+    "面向工业废水、废气、烟气、污水和蒸发尾气余热回收。",
+    "焊接密封可靠，适合长周期运行。",
+    "设计上强调不易泄漏、不易堵塞。",
+    "检修清洗方便快捷，维护费用低。"
+  ],
+  "technical_parameters": {
+    "典型工况": "工业废水/废气、玉米深加工蒸发尾气、城市原生污水、燃料烟气余热回收"
+  },
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "余热回收专用特种热交换器",
+    "meta_description": "面向工业废水、废气、烟气、原生污水等余热回收系统的焊接板式特种热交换器。"
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Special Heat Exchanger for Waste Heat Recovery",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/waste_heat_recovery_special_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

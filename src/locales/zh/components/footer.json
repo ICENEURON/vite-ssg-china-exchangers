@@ -1,0 +1,33 @@
+{
+  "logo": {
+    "alt": "HeatEx Direct",
+    "title": "HeatEx Direct"
+  },
+  "tagline": "HeatEx Direct 帮助全球工业买家比较中国换热器制造商、提交结构化询价，并在2个工作日内转给合适厂家跟进报价。",
+  "categories": "分类",
+  "resources": "资源",
+  "rfq_label": "获取报价",
+  "links": {
+    "items": {
+      "home": "首页",
+      "manufacturers": "制造商列表",
+      "products": "产品类别",
+      "rfq": "获取报价",
+      "profile": "资料更新",
+      "content-marketing-services": "文章投稿",
+      "industry-news": "行业新闻",
+      "about": "关于我们",
+      "contact": "联系我们",
+      "quote-service": "询价服务"
+    }
+  },
+  "legal": {
+    "copyright": "Copyright© {{year}} HeatEx Direct. 保留所有权利。",
+    "see": "请参阅",
+    "terms": "使用条款",
+    "and": "和",
+    "privacy": "隐私政策",
+    "afterLinks": "。",
+    "entityStatement": "HeatEx Direct 是独立采购信息服务，帮助买家研究中国换热器制造商并提交结构化询价。"
+  }
+}

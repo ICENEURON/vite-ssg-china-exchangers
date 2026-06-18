@@ -1,0 +1,64 @@
+{
+  "slug": "plate-evaporators",
+  "name": "Évaporateurs à plaques",
+  "full_description": "Les évaporateurs à plaques utilisent des canaux ondulés pour transférer la chaleur de la vapeur ou d’un autre fluide chauffant vers un liquide de procédé, vaporiser le solvant et concentrer le produit. Le fort coefficient de transfert, le faible volume de rétention et la structure nettoyable conviennent à l’alimentaire, au lait, aux boissons, à la pharmacie, à la chimie, aux eaux usées et à la cristallisation.",
+  "industries": [
+    "Pétrochimie",
+    "Transformation des aliments",
+    "Traitement chimique",
+    "Nourriture et boissons",
+    "Produits pharmaceutiques"
+  ],
+  "advantage": [
+    "Les plaques ondulées créent une forte turbulence et une évaporation efficace dans un équipement compact.",
+    "Le faible volume de rétention favorise un temps de séjour court pour les matières thermosensibles.",
+    "Les conceptions ouvrables ou nettoyables permettent inspection, détartrage et nettoyage sanitaire.",
+    "La capacité s’adapte par surface de plaques, nombre d’effets, mode de circulation et fluide chauffant.",
+    "Les matériaux couvrent les évaporations alimentaires, pharmaceutiques, chimiques et corrosives.",
+    "Peut être intégré à des systèmes MVR, multi-effets, de condensation et de cristallisation."
+  ],
+  "technical_parameters": {
+    "Nettoyage": "CIP, détartrage et accès d’inspection selon configuration",
+    "Matériaux": "Acier inoxydable, acier inoxydable duplex, titane et alliages",
+    "Fluide chauffant": "Vapeur, eau chaude, huile thermique ou chaleur de procédé selon le service",
+    "Mode de procédé": "Film tombant, film montant, circulation forcée ou configuration multi-effets selon projet",
+    "Surface d’échange": "Canaux de plaques ondulées",
+    "Applications typiques": "Concentration alimentaire, lait, boissons, pharmacie, évaporation chimique, concentration d’eaux usées et cristallisation"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Adéquation au procédé",
+      "content": "Les évaporateurs à plaques conviennent lorsque la concentration ou l’élimination de solvant exige surface compacte, temps de séjour court et nettoyabilité."
+    },
+    {
+      "title": "Intégration système",
+      "content": "Ils peuvent être configurés avec séparation vapeur-liquide, condenseurs, compresseurs MVR, pompes de circulation et cristallisation selon le procédé."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Évaporateurs à plaques",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. fournit évaporateurs à plaques pour les applications industrielles d’échange thermique avec sélection des matériaux, pression, température et maintenance par projet."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Evaporators image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_evaporator_1.png"
+    },
+    {
+      "alt_text": "Plate Evaporators image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_evaporator_2.png"
+    },
+    {
+      "alt_text": "Plate Evaporators image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_evaporator_3.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

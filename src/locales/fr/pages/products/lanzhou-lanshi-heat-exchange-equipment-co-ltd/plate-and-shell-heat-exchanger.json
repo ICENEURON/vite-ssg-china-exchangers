@@ -1,0 +1,42 @@
+{
+  "slug": "plate-and-shell-heat-exchanger",
+  "name": "Échangeur de chaleur à plaques et à calandre",
+  "full_description": "La page produit officielle décrit ce modèle comme un échangeur de chaleur avancé à haut rendement et économe en énergie qui utilise des plaques ondulées comme éléments de transfert de chaleur, composé d'un faisceau de plaques soudées interne et d'une coque externe. Il est présenté pour le reformage catalytique, l'isomérisation du xylène, la dismutation du toluène, la condensation du propane et du propylène, l'échange thermique de solutions d'amines et d'autres procédés liquide-liquide, vapeur-liquide, gaz-liquide et gaz-gaz dans les industries de raffinage du pétrole, de pétrochimie et de traitement du gaz.",
+  "industries": [
+    "Pétrochimie",
+    "Énergie",
+    "Traitement chimique"
+  ],
+  "advantage": [
+    "Combine la compacité et l'efficacité des échangeurs de chaleur à plaques avec la résistance à la pression et à la température côté coque.",
+    "La structure soudée sans joint est présentée pour un usage à haute température et haute pression.",
+    "La page officielle met en évidence un poids inférieur et une taille plus petite que les alternatives à coque et tube."
+  ],
+  "technical_parameters": {
+    "Matériau des plaques": "304, 316L, 321, 254SMO, etc.",
+    "Pression de conception": "≤6,0MPa",
+    "Surface d’assemblage": "≤20000m2",
+    "Épaisseur des plaques": "0,7 ~ 1,2 mm",
+    "Température de conception": "≤580℃",
+    "Différence minimale de température": "1℃"
+  },
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur à plaques et à calandre",
+    "meta_description": "Échangeur à plaques et calandre compact à haut rendement pour les services de raffinerie, de pétrochimie et de traitement du gaz."
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate and Shell Heat Exchanger",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_and_shell_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

@@ -1,18 +1,23 @@
 {
-  "name": "vite-ssg-shadcn-starter",
+  "name": "heatex-direct",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "packageManager": "pnpm@10.10.0",
   "scripts": {
     "dev": "concurrently \"velite dev\" \"vite-react-ssg dev\"",
-    "build": "velite build && vite-react-ssg build",
+    "dev:sync": "npm run sync && npm run dev",
+    "build": "velite build && vite-react-ssg build && node src/scripts/after-build.js",
     "build:spa": "tsc -b && velite build && vite build",
     "lint": "eslint .",
+    "import": "cd supabase_importer && node import.js && node update-manufacturer-scores.js",
+    "sync": "node src/scripts/sync-all.js",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^2.1.7",
     "@radix-ui/react-navigation-menu": "^1.2.14",
-    "@radix-ui/react-portal": "^1.1.9",
+    "@radix-ui/react-separator": "^1.1.7",
     "@radix-ui/react-slot": "^1.2.3",
     "@radix-ui/react-tabs": "^1.1.13",
     "@supabase/supabase-js": "^2.76.1",
@@ -26,7 +31,8 @@
     "react-i18next": "^16.2.3",
     "react-router-dom": "^6.30.1",
     "tailwind-merge": "^3.3.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "vanilla-cookieconsent": "^3.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
@@ -44,7 +50,6 @@
     "globals": "^16.4.0",
     "postcss": "^8.5.6",
     "rehype-pretty-code": "^0.14.1",
-    "shadcn": "^3.5.0",
     "shiki": "^3.17.0",
     "tailwindcss": "^4.1.16",
     "typescript": "~5.9.3",

@@ -1,0 +1,78 @@
+# Security headers
+<IfModule mod_headers.c>
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' blob: data: https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https: http:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' ws: wss: https: http:; worker-src 'self' blob:; child-src 'self' blob: https://www.youtube.com https://www.youtube-nocookie.com; frame-src 'self' blob: https://www.youtube.com https://www.youtube-nocookie.com; media-src 'self' blob: data:; object-src 'none'; base-uri 'self';"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Avoid content negotiation rewriting clean URLs to the wrong resource.
+<IfModule mod_negotiation.c>
+    Options -MultiViews -Indexes
+</IfModule>
+
+DirectorySlash Off
+
+<IfModule mod_mime.c>
+    AddType application/xml .xml
+    AddType text/xsl .xsl
+</IfModule>
+
+# Enable gzip/deflate compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml text/javascript
+    AddOutputFilterByType DEFLATE application/javascript application/x-javascript application/json
+    AddOutputFilterByType DEFLATE application/xml application/xhtml+xml application/rss+xml
+    AddOutputFilterByType DEFLATE image/svg+xml
+    AddOutputFilterByType DEFLATE font/ttf font/otf font/woff font/woff2
+</IfModule>
+
+# Cache control
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    <FilesMatch "\.(js|css|svg|png|jpg|jpeg|gif|webp|woff|woff2|ttf|eot|ico)$">
+        ExpiresDefault "access plus 1 year"
+        <IfModule mod_headers.c>
+            Header set Cache-Control "public, max-age=31536000, immutable"
+        </IfModule>
+    </FilesMatch>
+
+    <FilesMatch "\.(html)$">
+        ExpiresDefault "access plus 0 seconds"
+        <IfModule mod_headers.c>
+            Header set Cache-Control "no-cache, must-revalidate"
+        </IfModule>
+    </FilesMatch>
+</IfModule>
+
+# Custom 404 error page
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+RewriteBase /
+
+# Canonical host: keep one public hostname for crawlers and shared links.
+RewriteCond %{HTTP_HOST} !^__SITE_HOST_REGEX__$ [NC]
+RewriteRule ^ https://__SITE_HOST__%{REQUEST_URI} [R=301,L]
+
+# Canonical clean URLs: redirect non-homepage trailing slashes to no trailing slash.
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+# Serve the prerendered homepage without any external redirect.
+RewriteRule ^$ index.html [L]
+
+# Serve real files directly
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# Map directory-style routes to generated index.html files when present
+RewriteCond %{REQUEST_FILENAME}/index.html -f
+RewriteRule ^(.+?)/?$ $1/index.html [L]
+
+# Map clean URLs to generated .html files
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+
+# Let Apache/LiteSpeed return a native 404 so ErrorDocument renders the custom page.
+RewriteRule ^404\.html$ - [L]

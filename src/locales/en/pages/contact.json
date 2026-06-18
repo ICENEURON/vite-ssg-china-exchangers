@@ -1,0 +1,54 @@
+{
+  "title": "Contact Us | HeatEx Direct",
+  "meta": {
+    "description": "Contact HeatEx Direct for industrial heat exchanger sourcing questions, Chinese manufacturer profile updates, product page corrections, industry content, quote support, and supplier partnerships.",
+    "keywords": "Contact HeatEx Direct, heat exchanger sourcing inquiry, Chinese heat exchanger manufacturer profile update, industrial heat exchanger quote, supplier partnership"
+  },
+  "og": {
+    "title": "Contact HeatEx Direct",
+    "description": "Contact HeatEx Direct about heat exchanger sourcing, manufacturer profiles, product pages, content partnerships, or supplier information corrections."
+  },
+  "hero": {
+    "title_prefix": "Contact ",
+    "title_suffix": "",
+    "description": " helps global buyers review Chinese heat exchanger manufacturers, product information, and supporting materials. Contact us about sourcing enquiries, manufacturer updates, article submissions, or corrections.",
+    "copy_email": "Copy",
+    "email_copied": "Copied"
+  },
+  "paths": {
+    "title": "What Can We Help With?",
+    "description": "Choose the option that best matches your enquiry, whether it is about sourcing, manufacturer information, article submissions, or page corrections.",
+    "items": {
+      "buyer": {
+        "title": "Sourcing Enquiries",
+        "description": "Ask about listed manufacturers, product information, or Chinese heat exchanger suppliers not yet covered on the platform.",
+        "action": "Email the Team"
+      },
+      "supplier": {
+        "title": "Profile Updates",
+        "description": "Update company details, product scope, certificates, images, or other supporting materials.",
+        "action": "Update Information"
+      },
+      "content": {
+        "title": "Article Submissions",
+        "description": "Submit company news, product articles, technical explainers, project stories, or case-study material.",
+        "action": "Submit Article"
+      },
+      "correction": {
+        "title": "Corrections",
+        "description": "Report incorrect information, broken links, language issues, or other website questions.",
+        "action": "Email Support"
+      }
+    }
+  },
+  "cta": {
+    "email_label": "Email Us",
+    "note": "We review messages manually and follow up on sourcing enquiries, profile updates, article submissions, and support requests.",
+    "checklist_title": "Helpful details to include",
+    "checklist": [
+      "Tell us who you are and what you need.",
+      "Include supporting files or links if available.",
+      "Use an email address that can receive replies."
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "name": "KDP Machinery Jiangsu Co., Ltd.",
+  "full_description": [
+    "KDP Machinery Jiangsu Co., Ltd. es un fabricante de equipos de transferencia de calor ubicado en Jiangyin, Jiangsu. Fundada en 2013, la empresa suministra intercambiadores de calor de placas y sistemas de transferencia de calor de proceso para aplicaciones químicas, petroquímicas, energéticas, alimentarias, farmacéuticas, HVAC, refrigeración, marinas y tratamiento industrial de agua.",
+    "Su gama de productos incluye intercambiadores de placas totalmente soldados, intercambiadores de placas semisoldados, intercambiadores de placas con juntas, evaporadores de placas, condensadores de placas, intercambiadores de placas y carcasa, intercambiadores de placas soldadas por brasado, mezcladores vapor-agua, placas, juntas y unidades integradas de intercambio de calor.",
+    "La base de producción admite conformado de placas, soldadura, ensamblaje, pruebas de presión y personalización de proyectos. Sus recursos incluyen grandes prensas hidráulicas, máquinas de conformado y sistemas de soldadura láser para intercambiadores de placas soldados y semisoldados.",
+    "La empresa atiende procesos de evaporación, cristalización, separación de sales, tratamiento de aguas residuales petroquímicas, concentración de aguas residuales industriales, pulido de condensado, tratamiento de agua de aporte de calderas, tratamiento de agua por membranas y recuperación de calor de proceso.",
+    "El suministro internacional se apoya en licencia de exportación, logística por el puerto de Shanghai y términos comerciales como FOB, EXW, CFR y CIF. La selección se basa normalmente en las propiedades del fluido, presión, temperatura, tendencia a ensuciamiento, materiales, acceso de mantenimiento y requisitos de recipientes a presión."
+  ],
+  "advantages": [
+    "Cubre varios formatos de intercambiadores de placas, incluidos equipos con juntas, semisoldados, totalmente soldados, de placas y carcasa, de evaporación y de condensación.",
+    "Permite selección personalizada según compatibilidad de medios, presión, temperatura, resistencia a la corrosión, ensuciamiento y acceso de servicio.",
+    "La capacidad de fabricación incluye conformado de placas, soldadura, ensamblaje y pruebas de presión para proyectos industriales de transferencia de calor.",
+    "Los productos sirven procesos químicos, petroquímicos, de refrigeración, alimentos, farmacéuticos, energía, HVAC, marinos y tratamiento de agua.",
+    "El suministro de exportación puede organizarse por el puerto de Shanghai con términos comerciales internacionales habituales."
+  ],
+  "slug": "kdp-machinery-jiangsu-co-ltd",
+  "website": "https://www.kdpw2008.com/",
+  "video_link": "",
+  "social_media_links": [],
+  "email": [
+    "sales01@kdpw2008.com"
+  ],
+  "phone": [
+    "+8618068277130",
+    "+8618921229130"
+  ],
+  "country_name": "China",
+  "city": "Jiangyin",
+  "address": "No. 198 Qiaoqi Zhongshan Road, Xuxiake Town, Jiangyin City, Wuxi, Jiangsu, China",
+  "established_year": "2013",
+  "factory_area": "38000m2",
+  "employee_count": "145+",
+  "export_markets": [
+    "US",
+    "CA",
+    "BR",
+    "CL",
+    "PL",
+    "RO",
+    "ID",
+    "MY",
+    "VN",
+    "TH",
+    "PH",
+    "ZA",
+    "EG",
+    "AU",
+    "NZ",
+    "SA",
+    "AE",
+    "JP",
+    "KR",
+    "DE",
+    "FR",
+    "GB",
+    "KZ",
+    "IN",
+    "BD",
+    "LK",
+    "TR"
+  ],
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. fabricante de intercambiadores de calor",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. fabrica intercambiadores de placas con juntas, semisoldados, totalmente soldados, de placas y carcasa, evaporadores y condensadores para procesos industriales."
+  },
+  "industries": [
+    "HVAC",
+    "petroquímica",
+    "marina",
+    "Energía",
+    "Procesamiento de alimentos",
+    "Procesamiento químico",
+    "Alimentos y Bebidas",
+    "Productos farmacéuticos",
+    "Generación de energía"
+  ],
+  "certifications": [
+    {
+      "alt_text": "KDP Machinery Jiangsu Co., Ltd. ASME certificate",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/company_certifications/kdp_asme.jpg"
+    }
+  ],
+  "customers": [],
+  "images": [
+    {
+      "alt_text": "KDP Machinery Jiangsu Co., Ltd. factory exterior",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/company_images/kdp_factory_exterior.jpg"
+    }
+  ],
+  "documents": [],
+  "products": [
+    {
+      "slug": "fully-welded-plate-heat-exchanger",
+      "name": "Intercambiador de calor de placas totalmente soldado",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_1.png",
+      "short_description": "Intercambiador de placas soldado sin juntas para fluidos de proceso de alta presión, alta temperatura, corrosivos, peligrosos o de alto valor.",
+      "url": "kdp-machinery-jiangsu-co-ltd/fully-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "semi-welded-plate-heat-exchanger",
+      "name": "Intercambiador de calor de placas semisoldado",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.png",
+      "short_description": "Intercambiador híbrido soldado y con juntas para servicios con un medio agresivo, tóxico, refrigerante o de alta presión y un lado mantenible.",
+      "url": "kdp-machinery-jiangsu-co-ltd/semi-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "gasketed-plate-heat-exchanger",
+      "name": "Intercambiador de calor de placas con juntas (PHE)",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_1.png",
+      "short_description": "Intercambiador de placas y bastidor abrible para transferencia líquido-líquido eficiente, acceso de limpieza y ajuste de capacidad.",
+      "url": "kdp-machinery-jiangsu-co-ltd/gasketed-plate-heat-exchanger"
+    },
+    {
+      "slug": "plate-evaporators",
+      "name": "Evaporadores de placas",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_evaporator_1.png",
+      "short_description": "Equipo compacto de evaporador de placas para concentración, evaporación, eliminación de solventes y procesos termosensibles.",
+      "url": "kdp-machinery-jiangsu-co-ltd/plate-evaporators"
+    },
+    {
+      "slug": "plate-condenser",
+      "name": "Condensador de placas",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_1.png",
+      "short_description": "Condensador compacto de placas para condensación de vapor, refrigerantes, recuperación de solventes y recuperación de calor de proceso.",
+      "url": "kdp-machinery-jiangsu-co-ltd/plate-condenser"
+    },
+    {
+      "slug": "plate-shell-heat-exchanger-pshe",
+      "name": "Intercambiador de calor de placas y carcasa (PSHE)",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_1.png",
+      "short_description": "Haz de placas soldadas de alta eficiencia dentro de una carcasa de presión para alta presión, alta temperatura, vibración, GNL, petróleo y gas, química y servicio marino.",
+      "url": "kdp-machinery-jiangsu-co-ltd/plate-shell-heat-exchanger-pshe"
+    }
+  ]
+}

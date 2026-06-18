@@ -1,0 +1,26 @@
+{
+  "menu": {
+    "home": "Home",
+    "for_buyers_label": "For Buyers",
+    "manufacturers": "Manufacturer List",
+    "products": "Product Categories",
+    "rfq": "Get Quote",
+    "for_manufacturers_label": "For Manufacturers",
+    "profile": "Profile Updates",
+    "content_marketing_services": "Article Submissions",
+    "about": "About Us",
+    "industry-news": "Industry News",
+    "contact": "Contact Us",
+    "login": "Login",
+    "register": "Register",
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "quote_service": "Quote Request Service"
+  },
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "logo": "HeatEx Direct"
+}

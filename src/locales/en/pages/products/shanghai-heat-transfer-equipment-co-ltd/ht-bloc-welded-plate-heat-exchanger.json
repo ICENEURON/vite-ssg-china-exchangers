@@ -1,0 +1,155 @@
+{
+  "slug": "ht-bloc-welded-plate-heat-exchanger",
+  "name": "HT-BLOC Welded Plate Heat Exchanger",
+  "full_description": "Fully welded plate heat exchangers assembled in a removable frame, offering high heat transfer efficiency, compact structure, and ease of maintenance. Ideal for high-temperature and high-pressure applications in the petroleum, chemical, power generation, pharmaceutical, metallurgical, and refrigeration industries.",
+  "industries": [
+    "Petrochemical",
+    "Chemical Processing"
+  ],
+  "advantage": [
+    "Fully Welded: The gasket-free construction enables robust operation in higher pressure and high temperature environments, ensuring leak-resistant performance for critical applications.",
+    "Easy for Cleaning: Accessible heat transfer channels allow for effective removal of deposits and scale through mechanical flushing, chemical cleaning, or ultrasonic cleaning.",
+    "Openable: Bolted connection is designed to facilitate easy access and versatility by enabling all four sides to be openable, allowing for greater flexibility during installation, maintenance, and inspection.",
+    "Small Footprint: Designed to occupy minimal space without compromising on capacity, significantly reducing footprint compared to traditional shell and tube heat exchangers.",
+    "High Efficiency: Innovations in plate geometry and flow dynamics further increase thermal efficiency while reducing energy consumption, aligning with global energy conservation goals.",
+    "Durability: Constructed from high-quality materials and utilizing precision welding techniques, built to withstand harsh operating conditions and ensure long-term reliability."
+  ],
+  "technical_parameters": {
+    "Area": "6.6 ~ 870㎡",
+    "Plate material": "304, 304L, 316L, 254SMO, C-276, Titanium",
+    "Design Pressure": "-0.1 ~ 4.0MPa",
+    "Plate Thickness": "0.8 – 2mm",
+    "Design Temperature": "-40 ~ 400℃"
+  },
+  "video_link": "https://www.youtube.com/watch?v=j61c5dnKP78",
+  "details": [
+    {
+      "title": "What is HT Bloc welded heat exchanger?",
+      "content": "HT-Bloc Welded Plate Heat Exchanger is a type of plate heat exchanger designed for efficient thermal transfer between two fluids. Unlike traditional heat exchangers, HT-Bloc welded PHE is made up of plate pack and frame. Welded block heat exchanger combines the high heat transfer efficiency of plate heat exchangers and the high pressure and temperature resistance of shell and tube heat exchangers."
+    },
+    {
+      "title": "How to assemble HT-Bloc Welded Plate Heat Exchanger?",
+      "content": "The plate pack is formed by welding a certain number of plates, then it is installed into a frame, which is configured by four corner girders, top and bottom plates and four side covers. Fully welded plate heat exchanger utilizes interchangeable components and standardized modules, allowing for easy customization and scalability. This modularity ensures that Compabloc heat exchangers can be tailored to meet specific industrial requirements, enhancing both performance and reliability."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Natural gas desulfurization, decarbonization, and dehydration",
+        "Refinery gas sulfur recovery",
+        "EO/EG units",
+        "Olefin separation amine washing systems"
+      ],
+      "advantages": [
+        "Compared with conventional shell-and-tube exchangers, the welded plate structure provides higher heat-transfer intensity and can reduce footprint for the same duty.",
+        "Compared with gasketed plate exchangers, the welded core reduces gasket aging and leakage risk in amine, solvent, and corrosive service.",
+        "The compact counter-current flow arrangement supports close approach temperatures and efficient heat recovery in continuous chemical units."
+      ],
+      "application": "Lean-rich amine heat exchanger",
+      "description": "HT-BLOC Welded Plate Heat Exchanger is used in amine treating units for olefin separation, where the lean-rich amine exchanger recovers heat between regenerated lean amine and acid-gas-rich amine. It preheats rich amine before regeneration and cools lean amine before absorption, helping reduce reboiler load and stabilize the amine circulation process."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Crude oil heaters and coolers",
+        "Overhead condensers",
+        "Atmospheric and vacuum unit coolers",
+        "Aromatics, catalytic, reforming, and hydrogenation units",
+        "Stripping tower bottom reboilers",
+        "Reforming high-pressure separator oil exchangers"
+      ],
+      "advantages": [
+        "Compared with shell-and-tube reboilers, the welded plate bundle can provide higher heat-transfer efficiency and closer hot-end temperature approach.",
+        "Compared with gasketed exchangers, the all-welded construction reduces leakage risk in high-temperature and high-pressure hydrocarbon service.",
+        "The compact construction helps refinery and petrochemical units save plot space during revamps or capacity upgrades."
+      ],
+      "application": "Tower bottom reboiler",
+      "description": "In reforming, gasoline hydrogenation, and diesel hydrogenation units, HT-BLOC Welded Plate Heat Exchanger can be used as a tower bottom reboiler where precise temperature control, high safety requirements, and deep heat recovery are important. The fully welded plate pack removes gasket exposure in high-temperature and high-pressure service while maintaining strong heat-transfer performance."
+    },
+    {
+      "order": 3,
+      "used_in": [
+        "Marine natural gas cooling",
+        "Seawater-cooled auxiliary systems",
+        "Offshore gas processing",
+        "Shipboard process cooling"
+      ],
+      "advantages": [
+        "Compared with shell-and-tube exchangers, the welded plate design reduces equipment size and weight, which is valuable in shipboard layouts.",
+        "Compared with gasketed exchangers, the welded core is better suited to higher pressure, higher temperature, and restricted-maintenance marine service.",
+        "Corrosion-resistant plate materials support seawater and marine utility cooling applications."
+      ],
+      "application": "Marine natural gas cooler",
+      "description": "HT-BLOC Welded Plate Heat Exchanger can be applied to marine natural gas cooling duties where high pressure resistance, high temperature resistance, compact layout, and seawater corrosion control are required. Titanium, titanium alloy, 254SMO, and C-276 material options help the exchanger work in corrosive marine environments."
+    },
+    {
+      "order": 4,
+      "used_in": [
+        "Industrial wastewater heat recovery",
+        "Chemical wastewater treatment",
+        "Pharmaceutical wastewater treatment",
+        "High-temperature wastewater cooling",
+        "Corrosive wastewater service"
+      ],
+      "advantages": [
+        "Compared with gasketed plate exchangers, the all-welded structure avoids direct gasket contact with corrosive or high-temperature wastewater.",
+        "Compared with conventional exchangers, the plate structure supports higher heat-transfer efficiency and smaller terminal temperature differences.",
+        "Special plate materials such as titanium and 254SMO can be selected for corrosive wastewater duties."
+      ],
+      "application": "Wastewater heat recovery",
+      "description": "When wastewater is too corrosive for rubber gaskets or too hot for gasketed plate heat exchangers, HT-BLOC Welded Plate Heat Exchanger provides an all-welded heat-recovery option. It is suitable for complex industrial wastewater with corrosive components, small terminal temperature differences, and a need for flexible flow arrangement."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "HT-BLOC Welded Plate Heat Exchanger",
+    "meta_description": "Compact welded bloc exchanger for high-pressure industrial duty."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "HT-BLOC Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_1.png"
+    },
+    {
+      "alt_text": "HT-BLOC Welded Plate Heat Exchanger Internal Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_2.png"
+    },
+    {
+      "alt_text": "HT-BLOC Welded Plate Heat Exchanger Installation",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_3.jpg"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "HT-BLOC wastewater treatment heat recovery application",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/ht_bloc_wastewater_treatment_application.jpeg",
+      "file_name": "ht_bloc_wastewater_treatment_application.jpeg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

@@ -1,0 +1,21 @@
+{
+  "accessibility": {
+    "toggle_mobile_menu": "تبديل قائمة الجوال",
+    "toggle_theme": "تبديل الموضوع",
+    "select_language": "اختر اللغة",
+    "close_image_preview": "إغلاق معاينة الصورة",
+    "previous_image": "الصورة السابقة",
+    "next_image": "الصورة التالية",
+    "previous_slide": "الشريحة السابقة",
+    "next_slide": "الشريحة التالية",
+    "pagination": "ترقيم الصفحات",
+    "previous_page": "انتقل إلى الصفحة السابقة",
+    "next_page": "انتقل إلى الصفحة التالية"
+  },
+  "image": {
+    "logo_alt": "شعار HeatEx Direct",
+    "industrial_facility": "منشأة صناعية",
+    "preview_image": "معاينة الصورة",
+    "preview_thumbnail": "معاينة الصورة المصغرة"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "block-heat-exchanger",
+  "name": "Block Heat Exchanger",
+  "full_description": "The official page describes THT’s block heat exchanger as a patented product with independent intellectual property rights, patent number 200520127761.X, belonging to the welded plate heat exchanger category. It uses plates as heat transfer components and combines the advantages of plate heat exchangers and spiral plate heat exchangers. The page states that it follows NB/T47004-2009 and GB150-1998, and can also follow API662 and ASME according to user requirements.",
+  "industries": [
+    "Petrochemical",
+    "Energy",
+    "Chemical Processing",
+    "Pharmaceuticals",
+    "Power Generation"
+  ],
+  "advantage": [
+    "Patented product with independent intellectual property rights.",
+    "Combines high heat transfer efficiency, compact structure, high-temperature resistance, sealing performance, and reliability.",
+    "Automatic welding and weld-image tracking are used to control weld quality.",
+    "Compact block structure can reduce space and construction cost versus detachable plate heat exchangers."
+  ],
+  "technical_parameters": {
+    "Standards": "NB/T47004-2009; GB150-1998; API662 and ASME on request",
+    "Patent No.": "200520127761.X"
+  },
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Block Heat Exchanger",
+    "meta_description": "Patented welded block heat exchanger combining plate heat exchanger efficiency with strong sealing, pressure, and temperature capability."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Block Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/block_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "fully-welded-plate-heat-exchanger",
+  "name": "Fully Welded Plate Heat Exchanger",
+  "full_description": "A fully welded plate heat exchanger uses a permanently welded corrugated plate pack instead of gasketed heat-transfer channels. The structure improves containment for demanding fluids while retaining compact plate heat-transfer performance for petrochemical, refining, chemical, pharmaceutical, power, geothermal, and high-purity process duties.",
+  "industries": [
+    "Petrochemical",
+    "Energy",
+    "Chemical Processing",
+    "Pharmaceuticals",
+    "Power Generation"
+  ],
+  "advantage": [
+    "Gasket-free heat-transfer core reduces external leakage points and gasket replacement work.",
+    "Welded corrugated plate channels deliver high heat-transfer efficiency in a compact footprint.",
+    "Suitable for hazardous, high-value, corrosive, high-pressure, and high-temperature media when matched with proper materials.",
+    "Lower routine maintenance demand supports continuous process lines.",
+    "CIP cleaning and inspection planning can be matched to the fouling behavior of the process fluid.",
+    "Material options support stainless steel, titanium, Hastelloy, and other corrosion-resistant alloys."
+  ],
+  "technical_parameters": {
+    "Materials": "Stainless steel, titanium, Hastelloy, and other corrosion-resistant alloys",
+    "Plate pack": "Permanently welded corrugated plate bundle",
+    "Core sealing": "No gaskets in the heat-transfer core",
+    "Design pressure": "Up to 40 bar; special designs up to 100 bar",
+    "Design temperature": "-50°C to +350°C with suitable materials",
+    "Typical applications": "Petrochemical, refining, chemical, pharmaceutical, power, geothermal, and high-purity duties"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "When to select it",
+      "content": "Select this design when leakage containment, high pressure, high temperature, corrosion resistance, or reduced gasket maintenance matters more than full mechanical access to every channel."
+    },
+    {
+      "title": "Engineering focus",
+      "content": "A project should confirm pressure rating, temperature program, material compatibility, thermal expansion, cleaning method, welding quality requirements, and final hydrostatic testing."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Fully Welded Plate Heat Exchanger",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. supplies fully welded plate heat exchanger for industrial heat-transfer applications with project-specific material, pressure, temperature, and maintenance selection."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_3.png"
+    },
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 4",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_4.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

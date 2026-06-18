@@ -1,0 +1,50 @@
+{
+  "slug": "primary-energy-efficiency-plate-heat-exchanger",
+  "name": "Échangeur de chaleur à plaques à efficacité énergétique primaire",
+  "full_description": "La page officielle du produit indique qu'après la publication du TSG R0010-2019, Règles de test et d'évaluation de l'efficacité énergétique des échangeurs de chaleur, THT Juyuan a fait tester et évaluer huit séries de plaques par le Centre national de surveillance et d'inspection de la qualité des produits d'échange de chaleur et répondre aux exigences d'efficacité énergétique de niveau 1 pour les échangeurs de chaleur à plaques à haut rendement: Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B et P45A-H. La société s'identifie également comme l'une des unités de rédaction de l'échangeur de chaleur à plaques NB/T47004.1-2017.",
+  "industries": [
+    "HVAC",
+    "Pétrochimie",
+    "Énergie",
+    "Transformation des aliments",
+    "Traitement chimique",
+    "Nourriture et boissons",
+    "Produits pharmaceutiques",
+    "Production d'énergie"
+  ],
+  "advantage": [
+    "Huit séries de plaques répertoriées répondent aux exigences d’efficacité énergétique de niveau 1.",
+    "Officiellement connecté au projet de norme d'échangeur de chaleur à plaques NB/T47004.1-2017.",
+    "La page met en évidence la conception des ondulations et les améliorations en matière de fixation/étanchéité des joints pour l'efficacité et la fiabilité du transfert."
+  ],
+  "technical_parameters": {
+    "Norme de référence": "NB/T47004.1-2017",
+    "Pression de conception maximale": "3,2MPa",
+    "Température de conception maximale": "150℃",
+    "Séries de plaques à efficacité énergétique niveau 1": "Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B, P45A-H"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Qu’est-ce qui le rend différent?",
+      "content": "La page officielle présente le produit comme une famille d'échangeurs de chaleur à plaques à efficacité énergétique de niveau 1, soutenue par des tests et des évaluations nationaux et par le rôle de l'entreprise dans la rédaction de normes sur les échangeurs de chaleur à plaques."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur à plaques à efficacité énergétique primaire",
+    "meta_description": "Série d'échangeurs de chaleur à plaques à efficacité énergétique de niveau 1 testées selon les règles chinoises d'évaluation de l'efficacité énergétique des échangeurs de chaleur."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Primary Energy Efficiency Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/primary_energy_efficiency_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "plate-shell-heat-exchanger-pshe",
+  "name": "Échangeur de chaleur à plaques et calandre (PSHE)",
+  "full_description": "Un échangeur à plaques et calandre enferme un faisceau de plaques ondulées soudées dans une calandre sous pression. La conception combine l’efficacité thermique des plaques avec la tenue en pression et la flexibilité des piquages d’une structure à calandre. Il est utilisé pour la liquéfaction et regazéification du GNL, la reliquéfaction du BOG, le pétrole et gaz, les usines chimiques, la récupération de chaleur de réaction à haute température, le maritime, la récupération de chaleur des fumées et d’autres procédés difficiles.",
+  "industries": [
+    "Pétrochimie",
+    "Marin",
+    "Énergie",
+    "Traitement chimique",
+    "Production d'énergie"
+  ],
+  "advantage": [
+    "Le faisceau de plaques soudées offre une forte efficacité thermique en service haute pression.",
+    "La calandre sous pression prend en charge des services au-delà des limites des échangeurs à joints conventionnels.",
+    "La compacité réduit l’emprise dans les installations GNL, pétrole et gaz et chimiques.",
+    "Les plaques ondulées créent turbulence et récupération de chaleur efficace avec de faibles approches de température.",
+    "La calandre et les piquages se conçoivent selon les codes de récipient sous pression, vibrations, contraintes thermiques et méthode de nettoyage.",
+    "Adapté à la récupération de chaleur haute pression, au GNL, au maritime et aux services chimiques sévères."
+  ],
+  "technical_parameters": {
+    "Faisceau de plaques": "Faisceau de plaques ondulées soudées installé dans une calandre sous pression",
+    "Disposition des flux": "Trajets côté plaques et côté calandre avec orientation des piquages propre au projet",
+    "Pression de calandre": "Service haute pression supérieur à 10 MPa lorsqu’il est conçu pour la fonction",
+    "Applications typiques": "Liquéfaction/regazéification du GNL, reliquéfaction du BOG, pétrole et gaz, usines chimiques, maritime, récupération de chaleur des fumées et échange de procédé haute pression",
+    "Service de température": "Peut être appliqué à la récupération de chaleur de produits de réaction à 400°C lorsque matériaux et conception le permettent",
+    "Contrôles de conception": "Code de récipient sous pression, vibrations, contraintes thermiques, charges de piquage, accès d’inspection et méthode de nettoyage"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Pourquoi PSHE",
+      "content": "Le PSHE est choisi lorsque l’efficacité des plaques est nécessaire mais que pression, température, vibrations ou disposition des piquages exigent une calandre sous pression."
+    },
+    {
+      "title": "Vérifications techniques",
+      "content": "Un projet PSHE doit confirmer le code de récipient sous pression, la conception côté calandre, l’inspection du faisceau soudé, la dilatation thermique, les vibrations, les charges de piquage et l’accès de nettoyage ou remplacement."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Échangeur de chaleur à plaques et calandre (PSHE)",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. fournit échangeur de chaleur à plaques et calandre (pshe) pour les applications industrielles d’échange thermique avec sélection des matériaux, pression, température et maintenance par projet."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate-Shell Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Plate-Shell Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Plate-Shell Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_3.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

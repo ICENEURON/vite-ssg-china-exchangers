@@ -1,0 +1,64 @@
+{
+  "slug": "plate-shell-heat-exchanger-pshe",
+  "name": "Intercambiador de calor de placas y carcasa (PSHE)",
+  "full_description": "Un intercambiador de placas y carcasa encierra un haz de placas corrugadas soldadas dentro de una carcasa de presión. El diseño combina la alta eficiencia de transferencia de las placas con la contención de presión y flexibilidad de boquillas de una estructura de carcasa. Se utiliza en licuefacción y regasificación de GNL, relicuefacción de BOG, petróleo y gas, plantas químicas, recuperación de calor de reacción a alta temperatura, servicio marino, recuperación de calor de gases de combustión y otros procesos exigentes.",
+  "industries": [
+    "petroquímica",
+    "marina",
+    "Energía",
+    "Procesamiento químico",
+    "Generación de energía"
+  ],
+  "advantage": [
+    "El haz de placas soldadas ofrece alta eficiencia térmica en servicio de alta presión.",
+    "La carcasa de presión permite servicios por encima de los límites de los intercambiadores con juntas convencionales.",
+    "El tamaño compacto reduce huella en plantas de GNL, petróleo y gas y químicas.",
+    "Las placas corrugadas generan turbulencia y recuperación eficiente con aproximaciones de temperatura estrechas.",
+    "La carcasa y boquillas se diseñan según códigos de recipientes a presión, vibración, estrés térmico y método de limpieza.",
+    "Adecuado para recuperación de calor de proceso de alta presión, GNL, servicio marino y química severa."
+  ],
+  "technical_parameters": {
+    "Haz de placas": "Haz de placas corrugadas soldadas instalado dentro de una carcasa de presión",
+    "Presión de carcasa": "Servicio de alta presión superior a 10 MPa cuando se diseña para la función",
+    "Aplicaciones típicas": "Licuefacción/regasificación de GNL, relicuefacción de BOG, petróleo y gas, plantas químicas, servicio marino, recuperación de calor de gases de combustión e intercambio de proceso de alta presión",
+    "Disposición de flujo": "Rutas de flujo lado placa y lado carcasa con orientación de boquillas específica del proyecto",
+    "Servicio de temperatura": "Puede aplicarse a recuperación de calor de productos de reacción a 400°C cuando materiales y diseño lo permitan",
+    "Comprobaciones de diseño": "Código de recipiente a presión, vibración, estrés térmico, carga de boquillas, acceso de inspección y método de limpieza"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Por qué PSHE",
+      "content": "PSHE se selecciona cuando se necesita eficiencia de placas pero la presión, temperatura, vibración o disposición de boquillas requiere una carcasa de presión."
+    },
+    {
+      "title": "Comprobaciones de ingeniería",
+      "content": "Un proyecto PSHE debe confirmar código de recipiente a presión, diseño lado carcasa, inspección del haz soldado, expansión térmica, vibración, cargas de boquillas y acceso de limpieza o reemplazo."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Intercambiador de calor de placas y carcasa (PSHE)",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. suministra intercambiador de calor de placas y carcasa (pshe) para aplicaciones industriales de transferencia de calor con selección de materiales, presión, temperatura y mantenimiento por proyecto."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate-Shell Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Plate-Shell Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Plate-Shell Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_3.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "liquid-cooling-distribution-unit-acdu",
+  "name": "Unité de distribution à refroidissement liquide ACDU",
+  "full_description": "L'unité de distribution de refroidissement liquide ACDU est conçue pour les systèmes de refroidissement des centres de données qui nécessitent un déploiement indépendant de l'emplacement et un refroidissement naturel sans compresseur. Selon Accessen, la solution réduit le PUE global du système, utilise des commandes intelligentes avec pompage à vitesse variable et modulation du débit hydraulique, et réduit la complexité de l'installation grâce à une préfabrication modulaire.",
+  "industries": [],
+  "advantage": [
+    "Fiabilité et sécurité éprouvées sur le terrain",
+    "Déploiement rapide",
+    "Système de contrôle adaptatif",
+    "Refroidissement liquide à haute efficacité",
+    "Préfabrication modulaire"
+  ],
+  "technical_parameters": {
+    "Plage d’altitude": "-30m~2500m",
+    "Alimentation électrique": "380 V~415 VCA/50 ± 1 Hz",
+    "Degré de filtration primaire": "200 μm ~ 300 μm",
+    "Degré de filtration secondaire": "100 μm ~ 200 μm",
+    "Plage de température de stockage": "-40°C~70°C",
+    "Humidité relative de fonctionnement": "5% ~ 95%",
+    "Plage de température de fonctionnement": "5°C~50°C",
+    "Fluide de refroidissement côté primaire": "Solutions à base d'eau/éthylène glycol",
+    "Fluide de refroidissement côté secondaire": "Eau désionisée/éthylèneglycol/propylèneglycol/fluides fluorés"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "A quoi sert l'ACDU?",
+      "content": "Accessen positionne l'ACDU comme une unité de distribution de refroidissement liquide pour les centres de données, où il prend en charge le refroidissement naturel sans compresseur et contribue à réduire le PUE global dans les systèmes de refroidissement liquide."
+    },
+    {
+      "title": "Comment le déploiement est-il simplifié?",
+      "content": "Le produit utilise une conception modulaire préfabriquée qui minimise la complexité de l'installation sur site et permet une livraison plus rapide du projet."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Unité de distribution à refroidissement liquide ACDU",
+    "meta_description": "Unité de distribution de refroidissement liquide pour centre de données préfabriquée avec contrôle adaptatif, refroidissement naturel et fonctionnalités de déploiement rapide."
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Liquid-Cooling Distribution Unit ACDU",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooling_distribution_unit_acdu.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

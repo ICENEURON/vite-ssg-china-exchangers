@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "slug": "hvac",
+    "name": {
+      "en": "HVAC",
+      "zh": "暖通空调",
+      "ru": "HVAC",
+      "es": "HVAC",
+      "fr": "HVAC",
+      "ar": "HVAC"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 2,
+    "slug": "petrochemical",
+    "name": {
+      "en": "Petrochemical",
+      "zh": "石油化工",
+      "ru": "нефтехимическая",
+      "es": "petroquímica",
+      "fr": "Pétrochimie",
+      "ar": "البتروكيماويات"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 3,
+    "slug": "marine",
+    "name": {
+      "en": "Marine",
+      "zh": "船舶/海工",
+      "ru": "Морской",
+      "es": "marina",
+      "fr": "Marin",
+      "ar": "البحرية"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 4,
+    "slug": "energy",
+    "name": {
+      "en": "Energy",
+      "zh": "能源",
+      "ru": "Энергия",
+      "es": "Energía",
+      "fr": "Énergie",
+      "ar": "الطاقة"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 5,
+    "slug": "food-processing",
+    "name": {
+      "en": "Food Processing",
+      "zh": "食品加工",
+      "ru": "Пищевая промышленность",
+      "es": "Procesamiento de alimentos",
+      "fr": "Transformation des aliments",
+      "ar": "تجهيز الأغذية"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 6,
+    "slug": "chemical-processing",
+    "name": {
+      "en": "Chemical Processing",
+      "zh": "化工",
+      "ru": "Химическая обработка",
+      "es": "Procesamiento químico",
+      "fr": "Traitement chimique",
+      "ar": "المعالجة الكيميائية"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 7,
+    "slug": "food-and-beverage",
+    "name": {
+      "en": "Food and Beverage",
+      "zh": "食品与饮料",
+      "ru": "Еда и напитки",
+      "es": "Alimentos y Bebidas",
+      "fr": "Nourriture et boissons",
+      "ar": "الأطعمة والمشروبات"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 8,
+    "slug": "pharmaceuticals",
+    "name": {
+      "en": "Pharmaceuticals",
+      "zh": "制药",
+      "ru": "Фармацевтика",
+      "es": "Productos farmacéuticos",
+      "fr": "Produits pharmaceutiques",
+      "ar": "المستحضرات الصيدلانية"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 9,
+    "slug": "power-generation",
+    "name": {
+      "en": "Power Generation",
+      "zh": "发电/电力",
+      "ru": "Производство электроэнергии",
+      "es": "Generación de energía",
+      "fr": "Production d'énergie",
+      "ar": "توليد الطاقة"
+    },
+    "is_visible": true
+  }
+]

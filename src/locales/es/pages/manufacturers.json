@@ -1,0 +1,59 @@
+{
+  "filter_all_industries": "Todas las industrias",
+  "no_results": "No se encontraron fabricantes que coincidan con los filtros seleccionados.",
+  "clear_all": "Borrar todo",
+  "filter_industry": "Industria",
+  "title": "Perfiles de fabricantes chinos de intercambiadores de calor | HeatEx Direct",
+  "meta": {
+    "description": "Explore perfiles estructurados de fabricantes chinos de intercambiadores de calor con contexto de empresa, cobertura de productos, aplicaciones, documentos y soporte de enrutamiento de solicitudes.",
+    "keywords": "fabricantes chinos de intercambiadores de calor, fábricas de intercambiadores de calor en China, perfiles de proveedores de intercambiadores de calor, compra industrial de intercambiadores de calor"
+  },
+  "og": {
+    "title": "Perfiles de fabricantes chinos de intercambiadores de calor | HeatEx Direct",
+    "description": "Explore perfiles estructurados de fabricantes chinos de intercambiadores de calor y use el enrutamiento gestionado de solicitudes para seguimiento de cotización."
+  },
+  "hero": {
+    "title": "Fabricantes chinos de intercambiadores de calor",
+    "description": "Explore los fabricantes chinos de intercambiadores de calor que figuran en la lista y revise los perfiles de sus empresas, la cobertura de productos, la experiencia en aplicaciones y los mercados de exportación para identificar proveedores que se ajusten a sus necesidades de abastecimiento."
+  },
+  "card": {
+    "verified": "PERFILADO",
+    "view_profile": "Ver perfil"
+  },
+  "company": {
+    "page_title": "Perfil del fabricante",
+    "meta_description_default": "Perfil del fabricante",
+    "back_to_list": "Volver a Fabricantes",
+    "connect_note": "Comparta especificaciones, cantidad y necesidades del proyecto. HeatEx Direct revisa solicitudes completas y puede dirigir solicitudes con correo empresarial a 3-5 fabricantes adecuados en 2 días hábiles; las solicitudes con correo personal normalmente se dirigen hasta a 2.",
+    "quote_here": "Solicitud de Cotización",
+    "iso_certified": "Certificado ISO",
+    "asme_stamp": "Sello ASME",
+    "business_license": "Lic. de Negocios.",
+    "global_trade": "Comercio mundial",
+    "verified": "Perfilado",
+    "not_available": "N/A",
+    "company_overview": "Descripción general de la empresa",
+    "why_choose_us": "¿Por qué elegirnos?",
+    "industries_served": "Industrias atendidas",
+    "official_website": "Sitio web oficial",
+    "visit_manufacturer": "Visite el sitio web del fabricante",
+    "product_showcase": "Exhibición de productos",
+    "technical_specifications": "Especificaciones técnicas",
+    "factory_gallery": "Galería de fábrica",
+    "factory_certifications": "Certificaciones de fábrica",
+    "trusted_customers": "Con la confianza de los líderes globales",
+    "trusted_customers_desc": "Brindar excelencia a los principales actores de todas las industrias.",
+    "partner_with": "Socio con {{name}}",
+    "partner_desc": "Envíe una solicitud estructurada para revisión manual. Si la solicitud está completa y verificada, HeatEx Direct puede dirigirla a fabricantes adecuados para seguimiento de cotización.",
+    "established": "Est. {{year}}",
+    "factory_area_summary": "Área del sitio {{value}} m²",
+    "employee_count_summary": "Empleados {{value}}",
+    "available_categories": "Categorías de productos disponibles:",
+    "export_markets": "Mercados de exportación",
+    "contact_info": "Información de contacto",
+    "certificate": "Certificado",
+    "follow_us": "Síganos",
+    "document_downloads": "Descargas de documentos",
+    "download": "Descargar"
+  }
+}

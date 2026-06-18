@@ -1,0 +1,64 @@
+{
+  "slug": "gasketed-plate-heat-exchanger",
+  "name": "Intercambiador de calor de placas con juntas (PHE)",
+  "full_description": "Un intercambiador de placas con juntas apila placas metálicas corrugadas en un bastidor atornillado para formar canales alternos de fluido caliente y frío. El bastidor puede abrirse para limpiar placas, reemplazar juntas, inspeccionar y ajustar capacidad añadiendo o retirando placas. Se utiliza habitualmente en HVAC, recuperación de calor agua-agua, alimentos y bebidas, química, farmacéutica, marina y servicios industriales generales.",
+  "industries": [
+    "HVAC",
+    "Procesamiento de alimentos",
+    "Procesamiento químico",
+    "Alimentos y Bebidas",
+    "Productos farmacéuticos"
+  ],
+  "advantage": [
+    "La alta turbulencia en canales corrugados mejora la eficiencia térmica.",
+    "El bastidor abrible permite limpieza mecánica, inspección y sustitución de juntas.",
+    "La capacidad puede ajustarse cambiando el número de placas dentro del límite del bastidor.",
+    "Las placas y juntas se seleccionan para agua, alimentos, químicos y servicios auxiliares.",
+    "La estructura compacta reduce espacio de instalación frente a muchos intercambiadores tubulares.",
+    "Adecuado para líquidos limpios o de ensuciamiento bajo a moderado con mantenimiento planificado."
+  ],
+  "technical_parameters": {
+    "Mantenimiento": "Bastidor abrible para limpieza, inspección y sustitución de juntas",
+    "Tipo de bastidor": "Construcción atornillada de placas y bastidor",
+    "Ajuste de capacidad": "El número de placas puede aumentarse o reducirse dentro de los límites del bastidor",
+    "Materiales de juntas": "NBR, EPDM, FKM/Viton y otros elastómeros según servicio",
+    "Materiales de placas": "Acero inoxidable 316L, titanio y otras aleaciones resistentes a la corrosión",
+    "Aplicaciones típicas": "HVAC, recuperación de calor agua-agua, alimentos y bebidas, química, farmacéutica, marina y utilidades"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Acceso de mantenimiento",
+      "content": "El bastidor atornillado se abre para inspeccionar, limpiar, reemplazar o reconfigurar placas y juntas cuando cambia el servicio."
+    },
+    {
+      "title": "Límite de selección",
+      "content": "Para presión o temperatura muy altas, fluidos agresivos o sucios, pueden ser más adecuados diseños soldados, semisoldados, espirales o tubulares."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Intercambiador de calor de placas con juntas (PHE)",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. suministra intercambiador de calor de placas con juntas (phe) para aplicaciones industriales de transferencia de calor con selección de materiales, presión, temperatura y mantenimiento por proyecto."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_3.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

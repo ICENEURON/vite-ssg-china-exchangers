@@ -1,0 +1,50 @@
+{
+  "slug": "primary-energy-efficiency-plate-heat-exchanger",
+  "name": "一级能效板式热交换器",
+  "full_description": "官网产品页介绍，在 TSG R0010-2019《热交换器能效测试与评价规则》发布后，THT 巨元已有 Y5F、Y10B、P15B(H)、Y15B、S15B-H、P15G-Z、Y20B、P45A-H 共8个板型系列经国家换热产品质量监督检验中心测试评价，达到高效板式热交换器能效标准一级。官网同时说明，THT 巨元是 NB/T47004.1-2017《板式热交换器》国家行业标准起草单位之一。",
+  "industries": [
+    "暖通空调",
+    "石油化工",
+    "能源",
+    "食品加工",
+    "化工",
+    "食品与饮料",
+    "制药",
+    "发电/电力"
+  ],
+  "advantage": [
+    "官网列出8个板型系列达到一级能效要求。",
+    "与 NB/T47004.1-2017《板式热交换器》标准起草工作相关。",
+    "页面强调圆弧波峰设计和矩形卡扣垫片结构，以提升换热效率、固定和密封可靠性。"
+  ],
+  "technical_parameters": {
+    "相关标准": "NB/T47004.1-2017",
+    "最高设计压力": "3.2MPa",
+    "最高设计温度": "150℃",
+    "一级能效板型系列": "Y5F、Y10B、P15B(H)、Y15B、S15B-H、P15G-Z、Y20B、P45A-H"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "产品定位是什么？",
+      "content": "官网将该系列定位为一级能效板式热交换器，核心依据是国家换热产品质量监督检验中心的测试评价，以及企业参与板式热交换器标准起草的背景。"
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "一级能效板式热交换器",
+    "meta_description": "依据中国换热器能效测试评价规则完成测试评价的一级能效板式热交换器系列。"
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Primary Energy Efficiency Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/primary_energy_efficiency_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

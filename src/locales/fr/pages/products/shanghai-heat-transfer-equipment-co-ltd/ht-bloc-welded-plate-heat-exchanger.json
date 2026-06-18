@@ -1,0 +1,155 @@
+{
+  "slug": "ht-bloc-welded-plate-heat-exchanger",
+  "name": "Échangeur de chaleur à plaques soudées HT-BLOC",
+  "full_description": "Échangeurs de chaleur à plaques entièrement soudés assemblés dans un cadre amovible, offrant une efficacité de transfert de chaleur élevée, une structure compacte et une facilité de maintenance. Idéal pour les applications à haute température et haute pression dans les industries pétrolière, chimique, de production d'énergie, pharmaceutique, métallurgique et de réfrigération.",
+  "industries": [
+    "Pétrochimie",
+    "Traitement chimique"
+  ],
+  "advantage": [
+    "Entièrement soudé: la construction sans joint permet un fonctionnement robuste dans des environnements à pression et température élevées, garantissant des performances anti-fuite pour les applications critiques.",
+    "Facile à nettoyer: les canaux de transfert de chaleur accessibles permettent une élimination efficace des dépôts et du tartre grâce à un rinçage mécanique, un nettoyage chimique ou un nettoyage par ultrasons.",
+    "Ouvrable: la connexion boulonnée est conçue pour faciliter l'accès et la polyvalence en permettant aux quatre côtés d'être ouverts, permettant une plus grande flexibilité lors de l'installation, de la maintenance et de l'inspection.",
+    "Faible encombrement: conçu pour occuper un minimum d'espace sans compromettre la capacité, réduisant considérablement l'encombrement par rapport aux échangeurs de chaleur à calandre et à tubes traditionnels.",
+    "Haute efficacité: les innovations dans la géométrie des plaques et la dynamique des flux augmentent encore l'efficacité thermique tout en réduisant la consommation d'énergie, ce qui s'aligne sur les objectifs mondiaux d'économie d'énergie.",
+    "Durabilité: construit à partir de matériaux de haute qualité et utilisant des techniques de soudage de précision, conçu pour résister à des conditions de fonctionnement difficiles et garantir une fiabilité à long terme."
+  ],
+  "technical_parameters": {
+    "Surface": "6,6 ~ 870㎡",
+    "Matériau des plaques": "304, 304L, 316L, 254SMO, C-276, titane",
+    "Pression de conception": "-0,1 ~ 4,0MPa",
+    "Épaisseur des plaques": "0,8 – 2 mm",
+    "Température de conception": "-40 ~ 400 ℃"
+  },
+  "video_link": "https://www.youtube.com/watch?v=j61c5dnKP78",
+  "details": [
+    {
+      "title": "Qu’est-ce que l’échangeur de chaleur soudé HT Bloc?",
+      "content": "L'échangeur de chaleur à plaques soudées HT-Bloc est un type d'échangeur de chaleur à plaques conçu pour un transfert thermique efficace entre deux fluides. Contrairement aux échangeurs de chaleur traditionnels, le PHE soudé HT-Bloc est composé d'un jeu de plaques et d'un cadre. L'échangeur de chaleur à blocs soudés combine l'efficacité de transfert de chaleur élevée des échangeurs de chaleur à plaques et la résistance élevée à la pression et à la température des échangeurs de chaleur à calandre et à tubes."
+    },
+    {
+      "title": "Comment assembler l'échangeur de chaleur à plaques soudées HT-Bloc?",
+      "content": "Le paquet de plaques est formé en soudant un certain nombre de plaques, puis il est installé dans un cadre configuré par quatre poutres d'angle, des plaques supérieure et inférieure et quatre couvercles latéraux. L'échangeur de chaleur à plaques entièrement soudées utilise des composants interchangeables et des modules standardisés, permettant une personnalisation et une évolutivité faciles. Cette modularité garantit que les échangeurs de chaleur Compabloc peuvent être adaptés pour répondre à des exigences industrielles spécifiques, améliorant à la fois les performances et la fiabilité."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Désulfuration, décarbonatation et déshydratation du gaz naturel",
+        "Récupération du soufre des gaz de raffinerie",
+        "Unités EO/EG",
+        "Systèmes de lavage aux amines pour séparation des oléfines"
+      ],
+      "advantages": [
+        "Par rapport aux échangeurs à calandre et tubes, la structure à plaques soudées offre une intensité de transfert thermique plus élevée et peut réduire l’encombrement pour une même charge.",
+        "Par rapport aux échangeurs à plaques avec joints, le noyau soudé réduit le vieillissement des joints et le risque de fuite dans les services amines, solvants et milieux corrosifs.",
+        "La configuration compacte en contre-courant favorise de faibles écarts de température terminale et une récupération de chaleur efficace dans les unités chimiques continues."
+      ],
+      "application": "Échangeur de solution amine pauvre-riche",
+      "description": "L’échangeur de chaleur à plaques soudées HT-BLOC est utilisé dans les unités de traitement aux amines pour la séparation des oléfines. L’échangeur amine pauvre-riche récupère la chaleur entre l’amine pauvre régénérée et l’amine riche chargée en gaz acides. Il préchauffe l’amine riche avant régénération et refroidit l’amine pauvre avant absorption, ce qui réduit la charge du rebouilleur et stabilise la boucle amine."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Réchauffeurs et refroidisseurs de pétrole brut",
+        "Condenseurs de tête",
+        "Refroidisseurs d’unités atmosphériques et sous vide",
+        "Unités aromatiques, catalytiques, reformage et hydrogénation",
+        "Rebouilleurs de fond de colonnes de stripage",
+        "Échangeurs d’huile de séparateur haute pression de reformage"
+      ],
+      "advantages": [
+        "Par rapport aux rebouilleurs à calandre et tubes, le faisceau de plaques soudées offre une meilleure efficacité thermique et un écart de température plus faible côté chaud.",
+        "Par rapport aux échangeurs avec joints, la construction entièrement soudée réduit le risque de fuite dans les services hydrocarbures à haute température et haute pression.",
+        "La construction compacte aide les unités de raffinage et de pétrochimie à économiser de l’espace lors des rénovations ou augmentations de capacité."
+      ],
+      "application": "Rebouilleur de fond de colonne",
+      "description": "Dans les unités de reformage, d’hydrogénation de l’essence et d’hydrogénation du diesel, l’échangeur HT-BLOC peut être utilisé comme rebouilleur de fond de colonne lorsque le contrôle précis de la température, la sécurité et la récupération profonde de chaleur sont essentiels. Le faisceau de plaques entièrement soudé évite l’exposition des joints aux services haute température et haute pression."
+    },
+    {
+      "order": 3,
+      "used_in": [
+        "Refroidissement marin du gaz naturel",
+        "Systèmes auxiliaires refroidis par eau de mer",
+        "Traitement offshore du gaz",
+        "Refroidissement de procédé à bord"
+      ],
+      "advantages": [
+        "Par rapport aux échangeurs à calandre et tubes, la conception à plaques soudées réduit la taille et le poids, un avantage important à bord des navires.",
+        "Par rapport aux échangeurs avec joints, le noyau soudé convient mieux aux services marins haute pression, haute température et à maintenance limitée.",
+        "Les matériaux de plaques résistants à la corrosion conviennent aux applications eau de mer et refroidissement auxiliaire marin."
+      ],
+      "application": "Refroidisseur marin de gaz naturel",
+      "description": "Le HT-BLOC peut être utilisé pour le refroidissement marin du gaz naturel lorsque la résistance à la pression et à la température, la compacité et la maîtrise de la corrosion par l’eau de mer sont nécessaires. Les matériaux tels que titane, alliages de titane, 254SMO et C-276 facilitent l’utilisation en environnement marin corrosif."
+    },
+    {
+      "order": 4,
+      "used_in": [
+        "Récupération de chaleur des eaux usées industrielles",
+        "Traitement des eaux usées chimiques",
+        "Traitement des eaux usées pharmaceutiques",
+        "Refroidissement des eaux usées à haute température",
+        "Service eaux usées corrosives"
+      ],
+      "advantages": [
+        "Par rapport aux échangeurs à plaques avec joints, la structure entièrement soudée évite le contact direct des joints avec des eaux usées corrosives ou très chaudes.",
+        "Par rapport aux équipements conventionnels, la structure à plaques permet une meilleure efficacité thermique et de plus faibles écarts de température terminale.",
+        "Des matériaux spéciaux comme le titane et le 254SMO peuvent être choisis pour les eaux usées corrosives."
+      ],
+      "application": "Récupération de chaleur des eaux usées",
+      "description": "Lorsque les eaux usées sont trop corrosives pour les joints en caoutchouc ou trop chaudes pour les échangeurs à plaques avec joints, le HT-BLOC offre une solution entièrement soudée de récupération de chaleur. Il convient aux eaux usées industrielles complexes contenant des composants corrosifs, avec de faibles écarts de température terminale et une configuration de flux flexible."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur à plaques soudées HT-BLOC",
+    "meta_description": "Échangeur compact à blocs soudés pour usage industriel haute pression."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "HT-BLOC Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_1.png"
+    },
+    {
+      "alt_text": "HT-BLOC Welded Plate Heat Exchanger Internal Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_2.png"
+    },
+    {
+      "alt_text": "HT-BLOC Welded Plate Heat Exchanger Installation",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/ht_bloc_3.jpg"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "HT-BLOC wastewater treatment heat recovery application",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/ht_bloc_wastewater_treatment_application.jpeg",
+      "file_name": "ht_bloc_wastewater_treatment_application.jpeg"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

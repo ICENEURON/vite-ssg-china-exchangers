@@ -1,27 +1,28 @@
-import { useTranslation } from 'react-i18next';
 import { useCallback } from 'react';
+import { useTranslation } from 'react-i18next';
+import { ensureLanguageResource } from '../../i18n/config';
 
 const isBrowser = () => typeof window !== 'undefined';
 
 export function useLanguage() {
   const { i18n } = useTranslation();
 
-  const changeLanguage = useCallback((lang: string) => {
-    // 如果已经是当前语言则避免重复切换
+  const changeLanguage = useCallback(async (lang: string) => {
     if (i18n.language === lang) {
       return;
     }
 
+    await ensureLanguageResource(lang);
     i18n.changeLanguage(lang);
+
     if (isBrowser()) {
       localStorage.setItem('language', lang);
-      // 更新全局状态
       window.__LANGUAGE__ = lang;
     }
   }, [i18n]);
 
   return {
     currentLanguage: i18n.language,
-    changeLanguage
+    changeLanguage,
   };
 }

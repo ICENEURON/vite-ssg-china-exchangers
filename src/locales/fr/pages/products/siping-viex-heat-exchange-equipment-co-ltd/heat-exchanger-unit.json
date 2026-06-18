@@ -1,0 +1,51 @@
+{
+  "slug": "heat-exchanger-unit",
+  "name": "Unité d'échangeur de chaleur",
+  "full_description": "ViEX positionne l'unité d'échangeur de chaleur comme un ensemble de station complet combinant un échangeur de chaleur, une pompe de circulation, une pompe d'appoint et un système de contrôle pour réaliser un échange de chaleur automatique et efficace. La page officielle explique le contrôle de la température, la régulation du débit variable, la régulation combinée de la température et du débit, le contrôle sur site entièrement automatique et le contrôle de communication à distance sans surveillance, et indique que l'unité peut être appliquée aux systèmes de chauffage, de climatisation et d'eau chaude domestique utilisant de la vapeur ou de l'eau chaude à haute température comme source de chaleur.",
+  "industries": [
+    "HVAC",
+    "Énergie"
+  ],
+  "advantage": [
+    "Faible investissement total",
+    "Économise plus de 70 pour cent de la surface au sol",
+    "Conception, fourniture, installation, mise en service et service après-vente intégrés",
+    "Prend en charge le contrôle automatique sur site ou à distance sans surveillance",
+    "Peut être configuré avec des composants de marques internationales"
+  ],
+  "technical_parameters": {
+    "Fluides chauffants": "Vapeur en dessous de 300 ℃; Eau chaude à haute température",
+    "Modes de contrôle": "Contrôle de la température; Régulation de débit variable; Régulation de température et de débit",
+    "Niveaux d’automatisation": "Contrôle de température en boucle unique; Contrôle de terrain entièrement automatique; Contrôle de communication à distance sans surveillance",
+    "Points de service typiques": "130/80℃ à 95/70℃; 115/65℃ à 55/80℃; 7/12℃ à 8/13℃",
+    "Normes référencées sur la page": "CJ/T191-2004; GB/T29466-2012"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Comment l'unité économise-t-elle de l'énergie?",
+      "content": "La description officielle explique que l'unité ajuste le débit du réseau primaire en fonction de la température d'alimentation en eau du réseau secondaire et de la température extérieure, tandis que les pompes à fréquence variable peuvent réguler le débit du réseau secondaire pour obtenir une grande différence de température et un fonctionnement à faible débit."
+    },
+    {
+      "title": "Quels niveaux de configuration sont disponibles?",
+      "content": "ViEX répertorie le contrôle de la température à boucle unique, le contrôle sur site entièrement automatique qui nécessite toujours une inspection régulière et le contrôle de communication à distance sans surveillance avec transmission des signaux de température, de pression, de débit, de vanne, de pompe et de niveau d'eau."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Unité d'échangeur de chaleur | Siping ViEX",
+    "meta_description": "Unité d'échangeur de chaleur intégrée pour les systèmes de chauffage, de climatisation et d'eau chaude sanitaire avec options de contrôle automatique et de communication à distance."
+  },
+  "manufacturer": {
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Heat Exchanger Unit",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/heat_exchanger_unit.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

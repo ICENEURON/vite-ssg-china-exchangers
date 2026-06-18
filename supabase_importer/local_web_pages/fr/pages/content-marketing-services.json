@@ -1,0 +1,131 @@
+{
+  "title": "Soumettre des articles de presse sur l'industrie | HeatEx Direct",
+  "meta": {
+    "description": "Les fabricants chinois d'échangeurs de chaleur peuvent soumettre des articles techniques, des mises à jour de produits, des études de cas et des notes de marché pour révision éditoriale et éventuelle publication dans HeatEx Direct Industry News.",
+    "keywords": "soumission d'articles sur les échangeurs de chaleur, soumission de nouvelles de l'industrie, fabricants chinois d'échangeurs de chaleur, articles techniques, mises à jour de produits, études de cas, HeatEx Direct"
+  },
+  "og": {
+    "title": "Soumettre des articles de presse sur l'industrie | HeatEx Direct",
+    "description": "Soumettez des articles du fabricant, des notes techniques, des études de cas et des mises à jour de produits pour révision éditoriale et publication éventuelle dans HeatEx Direct Industry News."
+  },
+  "hero": {
+    "title": "Soumettre des articles d’actualité sur l’industrie",
+    "description": "<0>HeatEx</0> <1>Direct</1> accepte les articles techniques, les mises à jour de produits, les histoires de projets, les actualités d'usine et les cas d'application des fabricants chinois d'échangeurs de chaleur pour révision éditoriale et publication.",
+    "buttons": {
+      "start_publishing": "Comment soumettre"
+    }
+  },
+  "platform_impact": {
+    "items": {
+      "overview": [
+        {
+          "label": "Publié dans",
+          "value": "Les soumissions approuvées sont publiées dans Industry News."
+        },
+        {
+          "label": "Focus lecteur",
+          "value": "Le contenu est rédigé pour les acheteurs, les ingénieurs, les distributeurs et les équipes d'approvisionnement recherchant des fournisseurs d'échangeurs de chaleur."
+        },
+        {
+          "label": "Règle éditoriale",
+          "value": "Nous préférons les documents clairs, pertinents et vérifiables qui aident les acheteurs à comprendre les produits, les applications ou les capacités du fabricant."
+        }
+      ],
+      "seo": {
+        "title": "Montrez votre expertise",
+        "description": "Industry News aide davantage d'acheteurs à voir vos connaissances techniques, votre expérience produit, vos cas d'application et votre capacité de communication internationale."
+      },
+      "audience": {
+        "title": "Qui le lira",
+        "description": "Vos articles sont rédigés pour les acheteurs, les ingénieurs, les équipes d'approvisionnement, les distributeurs et les propriétaires de projets qui recherchent des informations pratiques sur les échangeurs de chaleur avant de contacter des fournisseurs.",
+        "segments": [
+          "Acheteurs industriels",
+          "Ingénieurs",
+          "Équipes d'approvisionnement",
+          "Distributeurs",
+          "Porteurs de projets"
+        ]
+      },
+      "screening": {
+        "title": "Revue éditoriale",
+        "description": "Chaque soumission est examinée avant publication. Nous pouvons modifier les titres, la structure, la formulation, les traductions, les images et les liens pour les adapter au site."
+      },
+      "verified": {
+        "title": "Augmenter la visibilité de la marque",
+        "description": "Un article publié peut aider davantage d'acheteurs à remarquer votre marque, à comprendre vos points forts et à renforcer la confiance dans vos produits, vos applications et votre expérience de projet.",
+        "badge": "NEWS",
+        "tags": {
+          "visibility": "Nouvelles de l'industrie",
+          "trust": "Revue éditoriale",
+          "expert": "Contexte de l'acheteur"
+        }
+      }
+    }
+  },
+  "guidelines": {
+    "title": "Directives de soumission",
+    "description": "Envoyez des fichiers d'articles modifiables, clairement des médias et du contenu utile pour les acheteurs d'échangeurs de chaleur.",
+    "accepted": {
+      "title": "Ce que nous acceptons",
+      "formats": {
+        "title": "Formats de fichiers d'articles",
+        "types": [
+          ".DOCX",
+          ".DOC"
+        ]
+      },
+      "requirements": {
+        "title": "Fichiers et médias",
+        "items": [
+          "Envoyez le corps de l'article sous forme de fichier Word modifiable.",
+          "Envoyez des images sous forme de fichiers JPG, PNG ou WebP originaux avec des noms de fichiers clairs.",
+          "Incluez le nom de votre entreprise, la personne de contact, votre site Web et tout fabricant ou page de produit associé."
+        ]
+      },
+      "topics": {
+        "title": "Sujets appropriés",
+        "items": [
+          "Articles techniques sur la conception, les matériaux, les applications, la maintenance, les tests ou le dépannage des échangeurs de chaleur",
+          "Mises à jour d'usine, capacité de production, nouvelles séries de produits, certificats, expositions ou références de projets majeurs",
+          "Études de cas d'application, notes sur le marché des échangeurs de chaleur en Chine et tendances du secteur"
+        ]
+      }
+    },
+    "rejected": {
+      "title": "Ce que nous ne pouvons pas utiliser",
+      "formats": {
+        "title": "Fichiers non pris en charge",
+        "description": "Les articles au format PDF uniquement, les captures d'écran ou les liens Google Doc ne sont pas acceptés <0></0> comme soumission principale. Nous avons besoin de fichiers Word modifiables pour la révision, le formatage et la traduction."
+      },
+      "content": {
+        "title": "Contenu que nous évitons",
+        "items": [
+          "Des textes publicitaires purs, des slogans, des classements exagérés ou des affirmations non étayées telles que « Non ». 1' ou 'meilleur en Chine'",
+          "Texte IA générique sans véritables détails techniques, contexte d'usine, données produit, images ou valeur pour l'acheteur",
+          "Actualités de l'entreprise sans rapport, articles de tiers copiés, données clients confidentielles ou contenu non vérifiable"
+        ]
+      }
+    }
+  },
+  "process": {
+    "title": "Comment soumettre",
+    "steps": [
+      {
+        "title": "Préparez votre article",
+        "description": "Envoyez l'article sous forme de fichier.DOCX ou.DOC modifiable, avec des images et des détails sur l'entreprise inclus."
+      },
+      {
+        "title": "Envoyez un e-mail à l'équipe",
+        "description": "Utilisez la ligne d'objet: « [Soumission d'actualités sur l'industrie] – Nom de l'entreprise – Sujet de l'article »."
+      },
+      {
+        "title": "Revue éditoriale",
+        "description": "Nous examinons l'article pour en vérifier la pertinence, la clarté, la qualité du fichier et la valeur pour l'acheteur avant sa publication."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Envoyez-nous votre article",
+    "description": "Envoyez par courrier électronique votre fichier d'article modifiable, les images à l'appui, le nom de l'entreprise et la personne de contact. Nous examinerons si cela convient à Industry News."
+  }
+}

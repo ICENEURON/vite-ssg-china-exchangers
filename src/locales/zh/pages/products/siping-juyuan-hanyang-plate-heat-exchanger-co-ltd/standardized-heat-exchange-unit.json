@@ -1,0 +1,46 @@
+{
+  "slug": "standardized-heat-exchange-unit",
+  "name": "标准化换热机组",
+  "full_description": "官网将标准化换热机组描述为基于专业选型、标准化配置、标准化结构、标准化控制程序、模块化装配生产和出厂检验形成的产品。页面列示 THT 巨元标准与国标对比：板换压降40kPa（国标50kPa）、机组一次侧压降60kPa（国标100kPa）、二次侧压降80kPa（国标100kPa），并强调接管接电后可直接启动、安装快捷、无人值守及能效分析功能。",
+  "industries": [
+    "暖通空调",
+    "能源",
+    "发电/电力"
+  ],
+  "advantage": [
+    "配置、结构和控制程序标准化。",
+    "模块化装配与出厂检验有助于缩短交付并简化安装。",
+    "官网列示的压降指标低于对应国标参考值。",
+    "支持无人值守和能耗分析功能。"
+  ],
+  "technical_parameters": {
+    "控制": "标准化控制程序，含能耗分析功能",
+    "板换压降": "THT 40kPa；国标50kPa",
+    "机组一次侧压降": "THT 60kPa；国标100kPa",
+    "机组二次侧压降": "THT 80kPa；国标100kPa"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "官网如何描述制造交付？",
+      "content": "页面列出标准化、模块化装配生产，以及自动定尺切割、智能焊接、喷砂除锈、静电喷涂、模块装配、压力调试和出厂检验。"
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "标准化换热机组",
+    "meta_description": "采用配置、结构和控制程序标准化设计的换热机组，官网列示其压降指标低于对应国标参考值。"
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Standardized Heat Exchange Unit",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/standardized_heat_exchange_unit_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

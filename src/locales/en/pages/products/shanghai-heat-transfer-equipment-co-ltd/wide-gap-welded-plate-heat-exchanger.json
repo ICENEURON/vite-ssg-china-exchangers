@@ -1,0 +1,226 @@
+{
+  "slug": "wide-gap-welded-plate-heat-exchanger",
+  "name": "Wide Gap Welded Plate Heat Exchanger",
+  "full_description": "Wide Gap Welded Plate Heat Exchanger is available in dimple and studded plate patterns. The plates are welded around the periphery to form media channels, eliminating the rubber gasket sealing structure used in gasketed plate heat exchangers. It is designed for heating or cooling processes involving fluids with large solid particles, fiber suspensions, viscous media, or high-temperature duties in sugar, pulp and paper, metallurgy, ethanol, petrochemical, and related industries. With specially engineered wide gap channels, the exchanger delivers high heat transfer efficiency, low pressure drop, smooth flow without dead zones, and strong anti-clogging performance under demanding operating conditions.",
+  "industries": [
+    "Petrochemical",
+    "Chemical Processing",
+    "Food and Beverage",
+    "Pharmaceuticals"
+  ],
+  "advantage": [
+    "Bionic-Inspired Channel Design: Combines biomimetic concepts with engineering design to maximize energy efficiency in wide gap flow channels.",
+    "Enhanced Turbulence: Local turbulence intensification breaks thermal boundary layers and improves the field synergy angle for higher heat transfer efficiency.",
+    "Anti-Fouling Performance: Higher wall shear stress helps reduce fouling, extend cleaning intervals, and lengthen equipment service life.",
+    "Wide Gap Anti-Clogging Flow: Special channel geometry enables smooth handling of viscous fluids, fiber suspensions, and coarse particles with minimal blockage risk.",
+    "Fully Welded Durability: Gasket-free welded sealing supports reliable operation in higher temperature and pressure applications."
+  ],
+  "technical_parameters": {
+    "Max Area": "2000㎡",
+    "Channel Gap": "8 ~ 30mm",
+    "Plate Pattern": "Dimple, studded flat plate",
+    "Plate Material": "Austenitic stainless steel, Duplex stainless steel, Nickel and nickel alloy, Hastelloy",
+    "Design Pressure": "Vacuum ~ 3.5MPa",
+    "Plate Thickness": "1.0 ~ 2.5mm",
+    "Design Temperature": "<=350℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "What is a wide gap welded plate heat exchanger?",
+      "content": "Wide Gap Welded Plate Heat Exchanger features a fully welded, gasket-free construction with specially designed wide gap channels. It retains the benefits of high heat transfer efficiency and low pressure drop while allowing solid-containing, fibrous, and viscous media to pass smoothly without creating dead zones that can lead to blockage."
+    },
+    {
+      "title": "How is the flow channel constructed?",
+      "content": "Each flow channel is formed by welding plates together. Depending on the plate pattern, one side may be created by spot-welded contact points between dimple plates, dimple and flat plates, or flat plates with welded studs, while the opposite side forms a wider no-contact channel for viscous fluids or media containing coarse particles and fibers."
+    },
+    {
+      "title": "How is it designed and manufactured?",
+      "content": "The product is thermally designed by optimizing plate geometry, channel spacing, multi-pass counterflow arrangement, and pressure drop management for wide gap service. Material selection can include stainless steel, duplex stainless steel, Hastelloy, and other corrosion-resistant alloys, while precision welding and controlled assembly ensure leak resistance, structural integrity, and reliable long-term operation."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Refined liquor cooling",
+        "Agglomeration cooling",
+        "Intermediate sequence cooling",
+        "Bayer process alumina production"
+      ],
+      "advantages": [
+        "Compared with narrow-channel plate exchangers, the wide channel design is better suited to slurry and solid-containing process streams.",
+        "Compared with conventional exchangers, the welded plate structure combines compact layout with efficient heat transfer.",
+        "Vertical and horizontal installation options make it easier to match existing alumina plant layouts."
+      ],
+      "application": "Alumina production cooling",
+      "description": "Wide Gap Welded Plate Heat Exchanger is used in alumina production, especially in heat exchange duties around the decomposition process. The product can be supplied in vertical or horizontal configurations and customized for refined liquor cooling, agglomeration cooling, and intermediate sequence cooling."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Juice heating and cooling",
+        "Clarification process heat exchange",
+        "Evaporation heat recovery",
+        "Crystallization process temperature control"
+      ],
+      "advantages": [
+        "Compared with narrow-channel exchangers, the wide gap structure reduces blockage risk from fibers and suspended solids.",
+        "Compared with shell-and-tube equipment, the plate design can improve thermal efficiency in repeated heating and cooling steps.",
+        "The welded construction is suitable for continuous sugar process lines that require stable operation."
+      ],
+      "application": "Sugar industry",
+      "description": "In cane and beet sugar production, heating and cooling duties appear across juice extraction, clarification, evaporation, and crystallization. Wide Gap Welded Plate Heat Exchanger can handle viscous, alkaline or acidic, and fouling-prone media while improving heat utilization in sugar processing."
+    },
+    {
+      "order": 3,
+      "used_in": [
+        "Fermentation mash heating and cooling",
+        "Distillation feed preheating",
+        "Stillage heat recovery",
+        "Fuel ethanol process heat exchange"
+      ],
+      "advantages": [
+        "Compared with narrow-channel equipment, the wide gap flow path better handles mash, stillage, and other particle-containing process streams.",
+        "Compared with shell-and-tube exchangers, the welded plate design improves heat transfer intensity in a more compact layout.",
+        "Horizontal and vertical configurations support flexible installation in existing ethanol plants."
+      ],
+      "application": "Fuel ethanol production",
+      "description": "Fuel ethanol production uses corn, cassava, or other feedstocks through fermentation and distillation, creating multiple heat exchange points. Wide Gap Welded Plate Heat Exchanger can be arranged horizontally or vertically to fit plant layouts and handle process streams with viscosity, suspended solids, or fouling tendency."
+    },
+    {
+      "order": 4,
+      "used_in": [
+        "Lithium iron phosphate precursor slurry cooling",
+        "Grinding temperature control",
+        "Precipitation and crystallization temperature control",
+        "Battery material heat recovery"
+      ],
+      "advantages": [
+        "Compared with narrow-channel plate exchangers, the wide channel gap handles solid particles in slurry and reduces blockage risk.",
+        "Compared with gasketed designs, the welded construction removes gasket leakage risk in slurry service.",
+        "High heat-transfer efficiency supports precise temperature control during precursor precipitation and crystallization.",
+        "316L, 2205 duplex stainless steel, titanium, and nickel-base alloy options support different corrosion requirements."
+      ],
+      "application": "Lithium iron phosphate pretreatment",
+      "description": "In lithium iron phosphate precursor preparation, grinding, precipitation, crystallization, and heat recovery steps require controlled heating and cooling. Wide Gap Welded Plate Heat Exchanger can remove heat generated during slurry grinding and can also preheat high-viscosity, temperature-sensitive slurry during startup."
+    },
+    {
+      "order": 5,
+      "used_in": [
+        "MDI condensate cooling",
+        "Acetylene carbon black water heat recovery",
+        "Polyolefin feed preheating",
+        "Chemical slurry heating and cooling"
+      ],
+      "advantages": [
+        "Compared with conventional narrow passages, the wide channel reduces blockage in particle-containing and fouling chemical streams.",
+        "The welded structure avoids gasket leakage in demanding process media.",
+        "Integrated distribution design can reduce local wear at slurry or particle-laden inlets."
+      ],
+      "application": "Chemical process applications",
+      "description": "In chemical processes, media vary widely and may contain particles, fibers, high viscosity, or fouling components. Wide Gap Welded Plate Heat Exchanger addresses blockage and high maintenance problems in duties such as MDI condensate cooling, acetylene carbon black water waste heat recovery, and polyolefin feed preheating."
+    },
+    {
+      "order": 6,
+      "used_in": [
+        "Paper industry wastewater",
+        "Textile wastewater",
+        "Food processing wastewater",
+        "Pharmaceutical wastewater",
+        "Solid-containing effluent heat recovery"
+      ],
+      "advantages": [
+        "Compared with ordinary plate channels, the wide passage reduces blockage from fibers and solids.",
+        "Compared with frequent manual cleaning, stable wide-channel operation can reduce maintenance interruptions.",
+        "The welded gasket-free construction supports continuous operation in difficult wastewater duties."
+      ],
+      "application": "Wastewater treatment",
+      "description": "Wastewater from paper, textile, food processing, and pharmaceutical operations often contains fibers, suspended solids, and other components that can block conventional heat exchangers. Wide Gap Welded Plate Heat Exchanger provides stable heat exchange for these wastewater treatment loops and helps reduce efficiency loss and shutdown frequency."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Wide Gap Welded Plate Heat Exchanger",
+    "meta_description": "Wide gap welded plate heat exchanger for viscous, fibrous, and solid-containing fluids with anti-clogging channels and gasket-free construction."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Flow Channel",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_3.jpg"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_4.jpg"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Plate Pattern",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_5.png"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "Wide gap welded plate heat exchanger in alumina production",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_alumina_production_application_1.png",
+      "file_name": "wide_gap_alumina_production_application_1.png"
+    },
+    {
+      "alt_text": "Wide gap exchanger equipment for alumina cooling duty",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_alumina_production_application_2.png",
+      "file_name": "wide_gap_alumina_production_application_2.png"
+    },
+    {
+      "alt_text": "Wide gap welded plate heat exchanger for sugar industry",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_sugar_industry_application.jpeg",
+      "file_name": "wide_gap_sugar_industry_application.jpeg"
+    },
+    {
+      "alt_text": "Wide gap welded plate heat exchanger in fuel ethanol production",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_fuel_ethanol_application_1.png",
+      "file_name": "wide_gap_fuel_ethanol_application_1.png"
+    },
+    {
+      "alt_text": "Fuel ethanol heat exchange installation with wide gap exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_fuel_ethanol_application_2.jpeg",
+      "file_name": "wide_gap_fuel_ethanol_application_2.jpeg"
+    },
+    {
+      "alt_text": "Wide gap welded plate heat exchanger in chemical process service",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_chemical_process_application.png",
+      "file_name": "wide_gap_chemical_process_application.png"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

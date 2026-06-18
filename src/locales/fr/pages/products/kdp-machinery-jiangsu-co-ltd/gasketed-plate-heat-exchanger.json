@@ -1,0 +1,64 @@
+{
+  "slug": "gasketed-plate-heat-exchanger",
+  "name": "Échangeur de chaleur à plaques à joints (PHE)",
+  "full_description": "Un échangeur à plaques à joints empile des plaques métalliques ondulées dans un bâti boulonné pour former des canaux alternés chaud et froid. Le bâti peut être ouvert pour nettoyer les plaques, remplacer les joints, inspecter et ajuster la capacité par ajout ou retrait de plaques. Il est courant en HVAC, récupération de chaleur eau-eau, agroalimentaire, chimie, pharmacie, maritime et utilités industrielles.",
+  "industries": [
+    "HVAC",
+    "Transformation des aliments",
+    "Traitement chimique",
+    "Nourriture et boissons",
+    "Produits pharmaceutiques"
+  ],
+  "advantage": [
+    "La forte turbulence dans les canaux ondulés améliore l’efficacité thermique.",
+    "Le bâti ouvrable permet le nettoyage mécanique, l’inspection et le remplacement des joints.",
+    "La capacité peut être ajustée en changeant le nombre de plaques dans les limites du bâti.",
+    "Les matériaux des plaques et joints se sélectionnent pour l’eau, l’alimentaire, la chimie et les utilités.",
+    "La structure compacte réduit l’espace d’installation par rapport à de nombreux échangeurs tubulaires.",
+    "Adapté aux liquides propres ou à encrassement faible à modéré avec accès de maintenance planifié."
+  ],
+  "technical_parameters": {
+    "Maintenance": "Bâti ouvrable pour nettoyage, inspection et remplacement des joints",
+    "Type de bâti": "Construction à plaques et bâti boulonné",
+    "Matériaux de joints": "NBR, EPDM, FKM/Viton et autres élastomères adaptés au service",
+    "Applications typiques": "HVAC, récupération de chaleur eau-eau, agroalimentaire, chimie, pharmacie, maritime et utilités",
+    "Matériaux de plaques": "Acier inoxydable 316L, titane et autres alliages résistants à la corrosion",
+    "Ajustement de capacité": "Le nombre de plaques peut être augmenté ou réduit dans les limites du bâti"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Accès de maintenance",
+      "content": "Le bâti boulonné s’ouvre pour inspecter, nettoyer, remplacer ou reconfigurer les plaques et joints lorsque le service change."
+    },
+    {
+      "title": "Limite de sélection",
+      "content": "Pour les très hautes pressions, températures élevées, fluides agressifs ou sales, des solutions soudées, semi-soudées, spiralées ou tubulaires peuvent être préférables."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Échangeur de chaleur à plaques à joints (PHE)",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. fournit échangeur de chaleur à plaques à joints (phe) pour les applications industrielles d’échange thermique avec sélection des matériaux, pression, température et maintenance par projet."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Gasketed Plate Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_3.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

@@ -1,0 +1,486 @@
+{
+  "industries": [
+    {
+      "id": "hvac",
+      "label": "HVAC y servicios de construcción"
+    },
+    {
+      "id": "food",
+      "label": "Alimentos, lácteos y bebidas"
+    },
+    {
+      "id": "chemicals",
+      "label": "Productos químicos y petroquímicos"
+    },
+    {
+      "id": "marine",
+      "label": "Marina y transporte"
+    },
+    {
+      "id": "power",
+      "label": "Generación de energía y energía"
+    },
+    {
+      "id": "pharma",
+      "label": "Productos farmacéuticos y biotecnología"
+    },
+    {
+      "id": "pulp",
+      "label": "Pulpa y papel"
+    },
+    {
+      "id": "water",
+      "label": "Tratamiento de aguas y residuos"
+    },
+    {
+      "id": "mining",
+      "label": "Minería y minerales"
+    },
+    {
+      "id": "other",
+      "label": "Otro"
+    }
+  ],
+  "timelines": [
+    {
+      "id": "within_3_months",
+      "label": "Dentro de 3 meses"
+    },
+    {
+      "id": "3_6_months",
+      "label": "3-6 meses"
+    },
+    {
+      "id": "6_12_months",
+      "label": "6-12 meses"
+    },
+    {
+      "id": "other",
+      "label": "Otro"
+    }
+  ],
+  "quantities": [
+    {
+      "id": "1_unit",
+      "label": "1 unidad"
+    },
+    {
+      "id": "2_5_units",
+      "label": "2-5 unidades"
+    },
+    {
+      "id": "6_20_units",
+      "label": "6-20 unidades"
+    },
+    {
+      "id": "20_plus_units",
+      "label": "20+ unidades"
+    },
+    {
+      "id": "other",
+      "label": "Otro"
+    }
+  ],
+  "productTypes": [
+    {
+      "id": "gasketed_phe",
+      "label": "Intercambiador de calor de placas con juntas"
+    },
+    {
+      "id": "brazed_phe",
+      "label": "Intercambiador de calor de placas soldadas por cobre"
+    },
+    {
+      "id": "welded_phe",
+      "label": "Intercambiador de calor de placas soldadas"
+    },
+    {
+      "id": "bloc_welded_phe",
+      "label": "Intercambiador de placas soldadas tipo BLOC / bloque"
+    },
+    {
+      "id": "wide_gap_channel_welded_phe",
+      "label": "Intercambiador de placas soldadas de paso amplio / canal ancho"
+    },
+    {
+      "id": "shell_tube",
+      "label": "Intercambiador de calor de carcasa y tubos"
+    },
+    {
+      "id": "air_cooled",
+      "label": "Intercambiador de calor enfriado por aire"
+    },
+    {
+      "id": "spares",
+      "label": "Repuestos (placas, juntas)"
+    },
+    {
+      "id": "other",
+      "label": "Otro"
+    }
+  ],
+  "fluidTypes": [
+    {
+      "id": "single_liquid",
+      "label": "Líquido monofásico"
+    },
+    {
+      "id": "single_gas",
+      "label": "Gas monofásico"
+    },
+    {
+      "id": "gas_liquid",
+      "label": "gas-liquido"
+    },
+    {
+      "id": "solid_liquid",
+      "label": "Sólido-líquido"
+    }
+  ],
+  "plateMaterials": [
+    {
+      "id": "s30403",
+      "label": "S30403"
+    },
+    {
+      "id": "s30408",
+      "label": "S30408"
+    },
+    {
+      "id": "s31603",
+      "label": "S31603"
+    },
+    {
+      "id": "254smo",
+      "label": "254SMO"
+    },
+    {
+      "id": "904l",
+      "label": "904L"
+    },
+    {
+      "id": "ta1",
+      "label": "TA1"
+    },
+    {
+      "id": "ta9",
+      "label": "TA9"
+    },
+    {
+      "id": "ni",
+      "label": "Ni"
+    },
+    {
+      "id": "c276",
+      "label": "C-276"
+    },
+    {
+      "id": "other",
+      "label": "Otro"
+    }
+  ],
+  "flangeStandards": [
+    {
+      "id": "asme_b16_5_2025",
+      "label": "ASME B 16.5-2025"
+    },
+    {
+      "id": "en1092_1_2024",
+      "label": "EN1092-1-2024"
+    },
+    {
+      "id": "gost_33259_2015",
+      "label": "GOST 33259-2015"
+    },
+    {
+      "id": "other",
+      "label": "Otro"
+    }
+  ],
+  "steps": {
+    "context": "Contexto",
+    "specifications": "Parámetros de diseño",
+    "verification": "Verificación",
+    "submit": "Entregar"
+  },
+  "title": "Solicitud de cotización para intercambiadores de calor - Seguimiento gestionado de fabricantes",
+  "description": "No se necesita registro. Verifique su correo y describa el proyecto real para que fabricantes adecuados puedan responder con mayor precisión.",
+  "navbarTitle": "Solicitud de cotización de intercambiador de calor",
+  "step1": {
+    "title": "1. Contexto del proyecto",
+    "subtitle": "Comparta el contexto del proyecto necesario para evaluar si la solicitud está suficientemente completa para enviarla a fabricantes.",
+    "firstNameLabel": "Nombre de pila",
+    "firstNamePlaceholder": "",
+    "lastNameLabel": "Apellido",
+    "lastNamePlaceholder": "",
+    "companyLabel": "Nombre de empresa",
+    "companyPlaceholder": "",
+    "countryLabel": "País/región de destino",
+    "industryLabel": "Industria / aplicación",
+    "countryPlaceholder": "Seleccionar",
+    "requiredHint": "",
+    "customIndustryPlaceholder": "Por favor especifique su industria...",
+    "quantityLabel": "Cantidad requerida",
+    "customQuantityPlaceholder": "Por favor especifique la cantidad requerida...",
+    "timelineLabel": "Plazo de entrega previsto",
+    "customTimelinePlaceholder": "Por favor especifique sus expectativas de cronograma..."
+  },
+  "step2": {
+    "title": "2. Parámetros de diseño y equipamiento.",
+    "subtitle": "Proporcione los datos de los medios del lado caliente y del lado frío, además de los parámetros clave del equipo.",
+    "unitMetric": "Métrico (°C, m³/h)",
+    "unitImperial": "Imperial (°F, GPM)",
+    "thermalSpecsTitle": "Especificaciones térmicas y de rendimiento",
+    "thermalSpecsSubtitle": "",
+    "equipmentParamsTitle": "Parámetros del equipo",
+    "equipmentParamsSubtitle": "",
+    "hotSide": "lado caliente",
+    "coldSide": "lado frio",
+    "requiredBadge": "Requerido",
+    "requiredHint": "",
+    "singlePhaseSharedBadge": "Monofásico: propiedades de salida copiadas",
+    "autoCopiedLabel": "",
+    "mediaNameLabel": "Nombre del medio",
+    "hotMediaPlaceholder": "",
+    "coldMediaPlaceholder": "",
+    "fluidTypeLabel": "Tipo de fluido",
+    "inletFluidTypeLabel": "Entrada",
+    "outletFluidTypeLabel": "Salida",
+    "fluidTypePlaceholder": "Seleccionar",
+    "massFlowLabel": "Flujo másico (kg/h)",
+    "inletMassFlowLabel": "Entrada",
+    "outletMassFlowLabel": "Salida",
+    "massFlowPlaceholder": "",
+    "volumeFlowLabel": "Caudal volumétrico (m3/h)",
+    "flowRequirementLabel": "",
+    "inletVolumeFlowLabel": "Entrada",
+    "outletVolumeFlowLabel": "Salida",
+    "volumeFlowPlaceholder": "",
+    "gasPhaseFractionLabel": "Fracción de fase gaseosa",
+    "inletGasPhaseFractionLabel": "Entrada",
+    "outletGasPhaseFractionLabel": "Salida",
+    "gasPhaseFractionPlaceholder": "0,15 o 15%",
+    "inletPropertyLabel": "Entrada",
+    "outletPropertyLabel": "Salida",
+    "inletTempLabel": "Temperatura de entrada (°C)",
+    "outletTempLabel": "Temperatura de salida (°C)",
+    "temperatureLabel": "Temperatura (°C)",
+    "densityLabel": "Densidad (kg/m3)",
+    "specificHeatLabel": "Calor específico (kJ/kg·°C)",
+    "conductivityLabel": "Conductividad térmica (W/m·°C)",
+    "viscosityLabel": "Viscosidad dinámica (cp)",
+    "plateMaterialLabel": "Material de la placa",
+    "plateMaterialPlaceholder": "Seleccionar",
+    "customPlateMaterialPlaceholder": "Por favor especifique el material de la placa...",
+    "designCodeLabel": "Código de diseño",
+    "designCodePlaceholder": "GB/T 151, ASME VIII, HG/T20592-2009",
+    "designPressureLabel": "Presión de diseño (MPa)",
+    "testPressureLabel": "Presión de prueba (MPa)",
+    "designTemperatureLabel": "Temperatura de diseño (°C)",
+    "flangeStandardLabel": "Estándar de brida",
+    "flangeStandardPlaceholder": "Seleccionar",
+    "customFlangeStandardLabel": "Otro estándar de brida",
+    "customFlangeStandardPlaceholder": "HG/T20592-2009",
+    "flangeNominalDiameterLabel": "Diámetro nominal de la brida de la boquilla",
+    "flangeNominalDiameterPlaceholder": "DN100",
+    "flangeMaterialLabel": "Material de la brida de la boquilla",
+    "flangeMaterialPlaceholder": "S31603",
+    "flangePressureRatingLabel": "Clasificación de presión de brida",
+    "flangePressureRatingPlaceholder": "PN16, PN63, Clase 150",
+    "flangeTypeSealingFaceLabel": "Tipo de brida/cara de sellado",
+    "flangeTypeSealingFacePlaceholder": "B/RF, WN/RF",
+    "heatLoadLabel": "Carga de calor (kW)",
+    "heatLoadPlaceholder": "1500",
+    "additionalNotesLabel": "Notas adicionales/requisitos personalizados",
+    "additionalNotesPlaceholder": "¿Se requiere algún material específico? ¿Restricciones de dimensiones? ¿Se necesitan certificaciones? (Máximo 500 caracteres)",
+    "requestModeTitle": "Nivel de detalle de la solicitud",
+    "quickModeTitle": "solicitud de cotización rápida",
+    "quickModeDesc": "Úselo cuando conoce la aplicación, pero aún no tiene todos los parámetros de diseño.",
+    "advancedModeTitle": "solicitud de cotización avanzada",
+    "advancedModeDesc": "Úselo cuando ya cuenta con datos de operación, materiales y estándares de conexión.",
+    "basicRequirementTitle": "Requisito básico",
+    "productTypeLabel": "Tipo de producto",
+    "productTypePlaceholder": "Seleccionar",
+    "customProductTypeLabel": "Otro tipo de producto",
+    "customProductTypePlaceholder": "Especifique el tipo de producto...",
+    "quantityPlaceholder": "Seleccionar",
+    "timelinePlaceholder": "Seleccionar",
+    "quickAdditionalNotesPlaceholder": "Describa el servicio, la aplicación, los fluidos, la temperatura objetivo, la disponibilidad de planos, las certificaciones requeridas o cualquier restricción conocida.",
+    "attachmentsTitle": "Adjuntos",
+    "attachmentsDropLabel": "Haga clic para subir o arrastre archivos aquí",
+    "attachmentsHelp": "Imágenes, PDF, Word, Excel y CSV. 50.0 MB cada uno.",
+    "removeAttachmentLabel": "Eliminar archivo",
+    "attachmentErrors": {
+      "tooManyFiles": "Solo se pueden subir {{maxFiles}} archivos.",
+      "fileTooLarge": "{{fileName}} supera {{maxFileSize}}.",
+      "unsupportedFileType": "{{fileName}} no es un tipo de archivo compatible.",
+      "thisFile": "Este archivo"
+    }
+  },
+  "step3": {
+    "accessCodePlaceholder": "Código",
+    "title": "3. Verificación",
+    "subtitle": "Verifique su correo para que HeatEx Direct pueda dirigir una solicitud real y los fabricantes puedan hacer seguimiento.",
+    "verifiedTitle": "¡Correo electrónico ya verificado!",
+    "continueBtn": "Continuar al envío final",
+    "verifySubtitle": "La verificación del correo reduce el spam, confirma una vía de contacto real y permite que fabricantes adecuados den seguimiento después de la revisión.",
+    "emailLabel": "Dirección de correo electrónico",
+    "emailPlaceholder": "Correo electrónico",
+    "freeEmailTitle": "Correo personal detectado.",
+    "freeEmailDesc": "Una solicitud calificada desde un correo personal o gratuito normalmente se envía hasta a 2 fabricantes adecuados.",
+    "businessEmailTitle": "El correo empresarial mejora la confianza de la solicitud.",
+    "businessEmailDesc": "Las solicitudes completas y verificadas desde un correo empresarial son revisadas por HeatEx Direct en un plazo de 2 días hábiles y enviadas a 3-5 fabricantes adecuados para seguimiento de cotización.",
+    "sendBtn": "Enviar código de verificación",
+    "sendingBtn": "Envío...",
+    "codeSentTo": "Código enviado a",
+    "accessCodeLabel": "Código de verificación",
+    "verifyBtn": "Verifique su correo electrónico",
+    "verifyingBtn": "Verificando...",
+    "errors": {
+      "rateLimit": "Por motivos de seguridad, solo puede solicitar esto después de {{seconds}} segundos.",
+      "network": "No se puede comunicar con el servicio de verificación. Verifique su red o vuelva a intentarlo más tarde.",
+      "invalidCode": "Código de verificación no válido o caducado",
+      "sendFailed": "No se pudo enviar el código de verificación. Por favor inténtalo de nuevo.",
+      "verifyFailed": "La verificación falló. Por favor inténtalo de nuevo."
+    },
+    "successTitle": "Correo electrónico verificado!",
+    "successSubtitle": "Procediendo a la confirmación final..."
+  },
+  "step4": {
+    "title": "4. Confirmar y enviar",
+    "subtitle": "Revise los detalles de su solicitud de cotización y elija su configuración de privacidad.",
+    "emailVerifiedTitle": "¡Correo electrónico verificado exitosamente!",
+    "anonymousMode": "Modo anónimo",
+    "publicMode": "Modo público",
+    "anonymousModeDesc": "Las fábricas no pueden ver su correo electrónico directamente. Gestionamos la comunicación.",
+    "publicModeDesc": "Las fábricas pueden ver su información de correo electrónico directamente.",
+    "sourceManufacturerTargetTitle": "Enviar a",
+    "sourceManufacturerTargetEnabledDesc": "Esta solicitud priorizará al fabricante de origen cuando sea relevante, y HeatEx Direct también puede dirigirla a otros fabricantes adecuados según tipo de producto, sector y condiciones de operación.",
+    "sourceManufacturerTargetDisabledDesc": "Esta solicitud no se dirigirá específicamente al fabricante de origen. HeatEx Direct revisará tipo de producto, sector y condiciones de operación para identificar fabricantes adecuados.",
+    "projectContextTitle": "1. Contexto del proyecto",
+    "productSpecsTitle": "2. Parámetros de diseño y equipamiento.",
+    "editBtn": "Editar",
+    "summaryCountry": "País/región",
+    "summaryIndustry": "Industria / aplicación",
+    "summaryGeneralReq": "Parámetros y notas del equipo",
+    "summaryMediaName": "Nombre del medio",
+    "summaryFluidType": "Tipo de fluido",
+    "summaryInletFluidType": "Tipo de fluido de entrada",
+    "summaryOutletFluidType": "Tipo de fluido de salida",
+    "summaryMassFlow": "flujo de masa",
+    "summaryInletMassFlow": "Flujo másico de entrada",
+    "summaryOutletMassFlow": "Flujo másico de salida",
+    "summaryInletVolumeFlow": "Flujo volumétrico de entrada",
+    "summaryOutletVolumeFlow": "Flujo volumétrico de salida",
+    "summaryGasPhaseFraction": "Fracción de fase gaseosa",
+    "summaryInletGasPhaseFraction": "Fracción de fase gaseosa de entrada",
+    "summaryOutletGasPhaseFraction": "Fracción de la fase gaseosa de salida",
+    "summaryDesignPress": "Presión de diseño",
+    "summaryTestPress": "Presión de prueba",
+    "summaryDesignTemp": "Temperatura de diseño",
+    "summaryDesignCode": "Código de diseño",
+    "summaryDensity": "Densidad",
+    "summaryInletDensity": "Densidad de entrada",
+    "summaryOutletDensity": "Densidad de salida",
+    "summarySpecificHeat": "Calor específico",
+    "summaryInletSpecificHeat": "Calor específico de entrada",
+    "summaryOutletSpecificHeat": "Calor específico de salida",
+    "summaryConductivity": "Conductividad térmica",
+    "summaryInletConductivity": "Conductividad térmica de entrada",
+    "summaryOutletConductivity": "Conductividad térmica de salida",
+    "summaryViscosity": "Viscosidad dinámica",
+    "summaryInletViscosity": "Viscosidad dinámica de entrada",
+    "summaryOutletViscosity": "Viscosidad dinámica de salida",
+    "summaryPlateMaterial": "Material de la placa",
+    "summaryFlangeStandard": "Estándar de brida",
+    "summaryInletFlangeNominalDiameter": "Diámetro nominal de la brida de la boquilla de entrada",
+    "summaryOutletFlangeNominalDiameter": "Diámetro nominal de la brida de la boquilla de salida",
+    "summaryFlangeMaterial": "Material de la brida de la boquilla",
+    "summaryFlangePressureRating": "Clasificación de presión de brida",
+    "summaryFlangeTypeSealingFace": "Tipo de brida/cara de sellado",
+    "summaryHeatLoad": "Carga de calor",
+    "summaryNotes": "Notas adicionales",
+    "summaryHotSide": "lado caliente",
+    "summaryColdSide": "lado frio",
+    "summaryInlet": "temperatura de entrada",
+    "summaryOutlet": "Temperatura de salida",
+    "submitBtn": "Obtener cotización",
+    "otherPrefix": "Otro"
+  },
+  "parameterLabels": {
+    "inlet": "Entrada",
+    "outlet": "Salida",
+    "fluidType": "Tipo de fluido",
+    "massFlow": "flujo de masa",
+    "volumeFlow": "Flujo de volumen",
+    "gasPhaseFraction": "Fracción de fase gaseosa",
+    "temperature": "Temperatura",
+    "density": "Densidad",
+    "specificHeat": "Calor específico",
+    "thermalConductivity": "Conductividad térmica",
+    "dynamicViscosity": "Viscosidad dinámica",
+    "hotSide": "lado caliente",
+    "coldSide": "lado frio",
+    "mediaName": "Nombre del medio",
+    "designPressure": "Presión de diseño",
+    "testPressure": "Presión de prueba",
+    "designTemperature": "Temperatura de diseño",
+    "flangeStandard": "Estándar de brida",
+    "flangeNominalDiameter": "Diámetro nominal de la brida de la boquilla",
+    "flangeMaterial": "Material de la brida de la boquilla",
+    "flangePressureRating": "Clasificación de presión de brida",
+    "flangeTypeSealingFace": "Tipo de brida/cara de sellado",
+    "thermal": "Parámetros térmicos y de rendimiento.",
+    "equipment": "Parámetros del equipo",
+    "heatLoad": "Carga de calor",
+    "designCode": "Código de diseño",
+    "plateMaterial": "Material de la placa",
+    "productType": "Tipo de producto",
+    "quantity": "Cantidad requerida",
+    "timeline": "Plazo de entrega esperado"
+  },
+  "success": {
+    "title": "¡Enviado!",
+    "desc": "Su solicitud fue recibida. Si el correo está verificado y la información del proyecto está completa, HeatEx Direct la revisará en un plazo de 2 días hábiles y la dirigirá según el tipo de correo. Si faltan parámetros clave, podemos pedir aclaración primero.",
+    "homeBtn": "Regreso a casa"
+  },
+  "actions": {
+    "back": "Atrás",
+    "continue": "Continuar"
+  },
+  "meta": {
+    "keywords": "Solicitud de cotización de intercambiador de calor, intercambiador de calor solicitud de cotización, cotización de intercambiador de calor de placas, especificaciones de intercambiador de calor industrial, cotización de fabricante de intercambiador de calor"
+  },
+  "og": {
+    "title": "Solicitud de cotización para intercambiadores de calor - Seguimiento gestionado de fabricantes",
+    "description": "Envíe una solicitud estructurada. HeatEx Direct revisa solicitudes completas y verificadas y las dirige en 2 días hábiles: correo empresarial a 3-5 fabricantes adecuados, correo personal hasta 2."
+  },
+  "entry": {
+    "title": "Notas del formulario",
+    "description": "No se necesita registro. Verificamos el correo para poder contactar a un comprador real, revisar la solicitud y enviarla a fabricantes adecuados.",
+    "close": "Cerrar",
+    "reviewOptions": "Notas del formulario",
+    "reopenCta": "Notas del formulario",
+    "primaryCta": "Entrar al formulario",
+    "points": [
+      {
+        "title": "No se necesita registro",
+        "body": "Complete la solicitud directamente."
+      },
+      {
+        "title": "El correo debe verificarse",
+        "body": "Revisamos y enviamos solo después de confirmar el correo de contacto."
+      },
+      {
+        "title": "Los detalles claros ayudan",
+        "body": "Condiciones, especificaciones, cantidad, plazo, planos y dudas abiertas ayudan a la selección."
+      }
+    ]
+  },
+  "spotlight": {
+    "title": "Una solicitud, varios fabricantes",
+    "description": "Deje de repetir correos y evite enviar sus datos de contacto a cada fabricante desde el inicio. HeatEx Direct organiza y revisa su solicitud antes de reenviarla a fabricantes adecuados; sus datos se protegen hasta confirmar los detalles.",
+    "primaryCta": "Empezar solicitud",
+    "serviceCta": "Ver servicio de solicitud"
+  }
+}

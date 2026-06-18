@@ -1,14 +1,26 @@
 {
   "en": {
-    "flag": "us",
-    "name": "English"
+    "name": "English",
+    "countryId": "US"
+  },
+  "fr": {
+    "name": "Fran\u00e7ais",
+    "countryId": "FR"
+  },
+  "es": {
+    "name": "Espa\u00f1ol",
+    "countryId": "ES"
+  },
+  "ar": {
+    "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+    "countryId": "AE"
+  },
+  "ru": {
+    "name": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+    "countryId": "RU"
   },
   "zh": {
-    "flag": "zh",
-    "name": "繁體中文"
-  },
-  "ja": {
-    "flag": "jp",
-    "name": "日本語"
+    "name": "\u4e2d\u6587",
+    "countryId": "CN"
   }
 }

@@ -1,0 +1,64 @@
+{
+  "slug": "plate-shell-heat-exchanger-pshe",
+  "name": "板壳式换热器（PSHE）",
+  "full_description": "板壳式换热器将焊接波纹板束安装在承压壳体内，结合了板式换热器的高传热效率以及壳体结构的承压能力和接管布置灵活性。该设备适用于 LNG 液化与再气化、BOG 再液化、油气、化工装置、高温反应热回收、船舶、烟气余热回收和其他严苛过程工况。",
+  "industries": [
+    "石油化工",
+    "船舶/海工",
+    "能源",
+    "化工",
+    "发电/电力"
+  ],
+  "advantage": [
+    "焊接板束在高压工况下提供高传热效率。",
+    "承压壳体使其适用于超出传统胶垫板换限制的工况。",
+    "紧凑结构有助于减少 LNG、油气和化工装置中的设备占地。",
+    "波纹板片形成湍流，可在较小温差下实现高效热回收。",
+    "壳体和接管布置可围绕压力容器规范、振动、热应力和清洗方式进行工程设计。",
+    "适用于高压过程热回收、LNG、船舶和严苛化工工况。"
+  ],
+  "technical_parameters": {
+    "典型应用": "LNG 液化/再气化、BOG 再液化、油气、化工装置、船舶、烟气余热回收和高压过程换热",
+    "壳体压力": "按工况设计时可用于 10 MPa 以上高压服务",
+    "板束结构": "焊接波纹板束安装在承压壳体内",
+    "流道布置": "板侧和壳侧流道配合项目接管方向设计",
+    "温度服务": "材料和设计允许时，可用于 400°C 反应产物热回收",
+    "设计核对": "压力容器规范、振动、热应力、接管载荷、检查通道和清洗方式"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "为什么选择 PSHE",
+      "content": "当需要板式换热效率，同时工艺压力、温度、振动或接管布置需要承压壳体时，可选择 PSHE。"
+    },
+    {
+      "title": "工程核对",
+      "content": "PSHE 项目应确认压力容器规范、壳侧设计、焊接板束检验、热膨胀、振动、接管载荷以及清洗或更换通道。"
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "江苏金多邦成套机械设备有限公司 板壳式换热器（PSHE）",
+    "meta_description": "江苏金多邦成套机械设备有限公司供应板壳式换热器（PSHE），面向工业换热应用按材料、压力、温度和维护需求进行项目化选型。"
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate-Shell Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Plate-Shell Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Plate-Shell Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_3.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

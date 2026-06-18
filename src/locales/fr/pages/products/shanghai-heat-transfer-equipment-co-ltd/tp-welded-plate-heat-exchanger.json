@@ -1,0 +1,152 @@
+{
+  "slug": "tp-welded-plate-heat-exchanger",
+  "name": "Échangeur de chaleur à plaques soudées TP",
+  "full_description": "Les paquets de plaques sont soudés ensemble par des machines de soudage automatiques avancées et installés à l'intérieur d'une coque qui peut être ouverte pour le nettoyage mécanique des canaux d'écoulement. La configuration unique des canaux empêche la contamination croisée des fluides et les fuites externes. L'échangeur de chaleur à plaques soudées TP combine l'efficacité élevée du transfert de chaleur et la structure compacte des échangeurs de chaleur à plaques avec la résistance aux hautes pressions et aux températures élevées des échangeurs à calandre et à tubes, ce qui en fait un remplacement idéal pour les équipements tubulaires dans les processus de transfert de chaleur spéciaux. Il est largement utilisé dans les industries pétrochimiques, de production d’énergie, de métallurgie, HVAC, alimentaires et pharmaceutiques.",
+  "industries": [
+    "Pétrochimie",
+    "Marin",
+    "Transformation des aliments",
+    "Traitement chimique",
+    "Produits pharmaceutiques"
+  ],
+  "advantage": [
+    "Conception du joint de dilatation: une structure de joint de dilatation unique convient aux tâches présentant de grandes différences de température.",
+    "Transfert de chaleur à contre-courant: la disposition à contre-courant améliore le facteur de correction logarithmique de la différence de température moyenne et améliore les performances thermiques.",
+    "Résistance de la coque ronde: la forme de la coque cylindrique aide à réduire la déformation du soudage et améliore la résistance à la pression et la stabilité structurelle.",
+    "Performances d'écoulement hybride: le côté plaque offre de fortes turbulences et une efficacité de transfert de chaleur élevée, tandis que le côté coque offre une faible résistance à l'écoulement et une forte capacité de charge.",
+    "Sécurité entièrement soudée: la construction entièrement soudée est sûre et fiable pour les applications à haute température, haute pression et avec des fluides dangereux.",
+    "Structure maintenable: le boîtier peut être ouvert pour un nettoyage mécanique, ce qui confère à l'unité une meilleure facilité d'entretien que les alternatives soudées entièrement scellées."
+  ],
+  "technical_parameters": {
+    "Surface maximale": "15 000㎡",
+    "Matériau des plaques": "Acier inoxydable austénitique, Acier inoxydable duplex, 254SMO, Titane et alliage de titane, Nickel et alliage de nickel, Hastelloy",
+    "Pression de conception": "Vide ~ 6,0 MPa",
+    "Épaisseur des plaques": "0,6 ~ 1,5 mm",
+    "Température de conception": "-196 ~ 900 ℃"
+  },
+  "video_link": "https://www.youtube.com/watch?v=S_2LrC6tOMk",
+  "details": [
+    {
+      "title": "Qu'est-ce qu'un échangeur de chaleur à plaques soudées TP?",
+      "content": "L'échangeur de chaleur à plaques soudées TP est un échangeur hybride qui combine les caractéristiques structurelles des échangeurs de chaleur à calandre et à tubes avec la compacité et l'efficacité élevée du transfert de chaleur des échangeurs de chaleur à plaques. Il convient aux tâches de transfert de chaleur liquide-liquide, gaz-gaz et liquide-gaz où l'efficacité thermique et la résistance mécanique sont importantes."
+    },
+    {
+      "title": "Comment l'échangeur de chaleur à plaques soudées TP est-il construit?",
+      "content": "Les composants principaux comprennent un ou plusieurs paquets de plaques soudées, des sections de coque et de cadre de plaques, des boulons de serrage, des connexions d'entrée et de sortie côté chaud et froid, des déflecteurs et des structures de support. Le paquet de plaques est formé par empilement et soudage de plaques ondulées et, selon l'application, les boîtiers côté coque et côté plaque peuvent être soudés ou boulonnés pour une flexibilité d'exploitation et de maintenance."
+    },
+    {
+      "title": "Comment est-il conçu et fabriqué?",
+      "content": "La conception se concentre sur la géométrie optimisée des plaques, l’espacement des plaques, la disposition à contre-courant ou à flux transversal multi-passes et le contrôle des chutes de pression. La sélection de matériaux peut inclure l'acier inoxydable, le titane, l'Hastelloy et d'autres alliages résistants à la corrosion. La fabrication s'appuie sur un soudage de précision et des méthodes d'assemblage robustes pour garantir des connexions sans couture, une intégrité structurelle et des performances fiables dans des conditions de fonctionnement difficiles."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Récupération de chaleur fatale chimique",
+        "Récupération basse et moyenne température",
+        "Préchauffage de flux de procédé",
+        "Projets de rénovation énergétique"
+      ],
+      "advantages": [
+        "Par rapport aux échangeurs à calandre et tubes, les TP soudés peuvent offrir des coefficients de transfert beaucoup plus élevés et un encombrement réduit.",
+        "La structure soudée réduit le risque de fuites liées aux joints dans les milieux dangereux ou haute température.",
+        "La forte surface d’échange par volume soutient les rénovations énergétiques lorsque l’espace est limité."
+      ],
+      "application": "Récupération de chaleur fatale",
+      "description": "Dans les usines chimiques, la récupération de chaleur fatale est un moyen essentiel de réduire la consommation d’énergie. L’échangeur TP convient à la récupération basse et moyenne température lorsque compacité, efficacité thermique et étanchéité soudée sont requises."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Purification d’acide acrylique",
+        "Raffinage de produits esters",
+        "Condensation de tête",
+        "Condensation de solvants",
+        "Systèmes de distillation chimique"
+      ],
+      "advantages": [
+        "Par rapport aux équipements avec joints, l’étanchéité entièrement soudée évite le vieillissement des joints en condensation corrosive.",
+        "Par rapport aux échangeurs conventionnels, les plaques ondulées et la configuration de flux personnalisées renforcent la turbulence et l’efficacité thermique.",
+        "La conception à plaques soudées soutient la stabilité de pression, la résistance à la déformation et aux chocs en fonctionnement chimique continu."
+      ],
+      "application": "Condenseur de tête",
+      "description": "Dans le raffinage de l’acide acrylique et des esters, les condenseurs de tête rencontrent des milieux corrosifs, des fluctuations de température, un fonctionnement continu et de fortes exigences de fiabilité. L’échangeur TP peut utiliser des matériaux de plaques anticorrosion et une étanchéité soudée pour une condensation stable."
+    },
+    {
+      "order": 3,
+      "used_in": [
+        "Refroidissement de gaz résiduaire",
+        "Refroidissement de système de purification",
+        "Récupération de chaleur de gaz résiduaire",
+        "Traitement des gaz chimiques"
+      ],
+      "advantages": [
+        "Par rapport aux échangeurs à calandre et tubes, la structure à plaques soudées réduit l’encombrement tout en maintenant une forte efficacité thermique.",
+        "Par rapport aux équipements avec joints, l’étanchéité soudée réduit le risque de fuite dans les gaz résiduaires dangereux ou corrosifs.",
+        "Le choix des matériaux peut être adapté aux flux gazeux corrosifs ou contaminés."
+      ],
+      "application": "Refroidisseur de gaz résiduaire et de purification",
+      "description": "L’échangeur TP peut servir de refroidisseur de gaz résiduaire ou de purification avant récupération ou traitement aval. Sa construction soudée et ses matériaux anticorrosion conviennent au refroidissement de gaz de procédé lorsque fiabilité, compacité et maîtrise des fuites sont importantes."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur à plaques soudées TP",
+    "meta_description": "Échangeur de chaleur hybride à plaques soudées combinant l'efficacité des plaques avec la durabilité des coques et des tubes pour un service à haute pression et à haute température."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Flow Path",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_3.jpg"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_4.jpg"
+    },
+    {
+      "alt_text": "TP Welded Plate Heat Exchanger Application",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/tp_welded_plate_heat_exchanger_5.png"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "TP welded plate heat exchanger for tail gas cooling",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/tp_tail_gas_cooling_application.png",
+      "file_name": "tp_tail_gas_cooling_application.png"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

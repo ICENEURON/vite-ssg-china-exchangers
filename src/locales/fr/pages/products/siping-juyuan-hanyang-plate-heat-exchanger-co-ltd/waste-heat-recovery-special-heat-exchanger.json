@@ -1,0 +1,40 @@
+{
+  "slug": "waste-heat-recovery-special-heat-exchanger",
+  "name": "Échangeur de chaleur spécial pour la récupération de chaleur résiduelle",
+  "full_description": "La page officielle répertorie les échangeurs de chaleur à plaques soudées THT pour les échangeurs de chaleur, les refroidisseurs d'air, les préchauffeurs d'air, les refroidisseurs intermédiaires de compresseur, les refroidisseurs d'ammoniac, les échangeurs de pétrole brut et d'huile résiduelle, le refroidissement de l'air des centrales électriques, le refroidissement de l'air par évaporation à plaques, l'échange thermique de solution MDEA et les économiseurs à plaques. Il indique que l'échangeur de chaleur à plaques soudées de récupération de chaleur résiduelle est principalement utilisé pour les eaux usées industrielles et les gaz d'échappement, les gaz résiduaires d'évaporation multi-effets dans le traitement en profondeur du maïs, les eaux usées brutes urbaines et la récupération de chaleur des gaz de combustion générés par divers combustibles. La page met l'accent sur une étanchéité fiable, un fonctionnement à long cycle, un faible risque de fuite et de colmatage, un entretien et un nettoyage pratiques et un faible coût de maintenance.",
+  "industries": [
+    "HVAC",
+    "Pétrochimie",
+    "Énergie",
+    "Traitement chimique",
+    "Production d'énergie"
+  ],
+  "advantage": [
+    "Cible les eaux usées industrielles, les gaz d’échappement, les gaz de combustion, les eaux usées et la récupération de chaleur par évaporation des gaz résiduaires.",
+    "Étanchéité soudée fiable pour un fonctionnement à long cycle.",
+    "Conçu pour réduire les risques de fuite et de colmatage.",
+    "Entretien et nettoyage pratiques avec un faible coût de maintenance."
+  ],
+  "technical_parameters": {
+    "Services typiques": "Eaux usées industrielles et gaz d'échappement, gaz résiduaires d'évaporation du traitement en profondeur du maïs, eaux usées brutes urbaines, récupération de chaleur des gaz de combustion des combustibles"
+  },
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur spécial pour la récupération de chaleur résiduelle",
+    "meta_description": "Solution d'échangeur de chaleur à plaques soudées pour les eaux usées industrielles, les gaz d'échappement, les gaz de combustion, les eaux usées et autres systèmes de récupération de chaleur résiduelle."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Special Heat Exchanger for Waste Heat Recovery",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/waste_heat_recovery_special_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

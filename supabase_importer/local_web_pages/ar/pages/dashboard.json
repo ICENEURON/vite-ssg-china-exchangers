@@ -1,0 +1,46 @@
+{
+  "title": "لوحة التطوير",
+  "meta": {
+    "description": "تعرض لوحة معلومات التطوير الشخصي الخاصة بك مكونات React وVite وTailwindCSS وShadcn UI أثناء العمل.",
+    "keywords": "لوحة القيادة، رد الفعل، Vite، Tailwindcss، Shadcn، التطوير، المكونات، واجهة المستخدم"
+  },
+  "og": {
+    "title": "لوحة تحكم التطوير - React + Vite + TailwindCSS + Shadcn",
+    "description": "لوحة تحكم تفاعلية توضح قوة أدوات تطوير الويب الحديثة."
+  },
+  "welcome": {
+    "title": "مرحبًا بك في لوحة المعلومات الخاصة بك",
+    "subtitle": "تم تسجيل الدخول باسم {{email}}",
+    "description": "استكشف قدرات مجموعتنا التكنولوجية من خلال لوحة المعلومات التفاعلية هذه."
+  },
+  "sections": {
+    "components": {
+      "title": "معرض مكونات واجهة المستخدم",
+      "description": "أمثلة تفاعلية لمكونات Shadcn UI"
+    },
+    "performance": {
+      "title": "مقاييس الأداء",
+      "description": "مؤشرات أداء التطبيق في الوقت الحقيقي"
+    },
+    "development": {
+      "title": "أدوات التطوير",
+      "description": "أدوات وأدوات مساعدة مفيدة للتطوير"
+    },
+    "theming": {
+      "title": "تكوين الموضوع",
+      "description": "تخصيص مظهر التطبيق"
+    }
+  },
+  "stats": {
+    "components": "أكثر من 50 مكونًا",
+    "themes": "أوضاع الضوء والظلام",
+    "responsive": "استجابة كاملة",
+    "accessible": "متوافق مع WCAG"
+  },
+  "actions": {
+    "sign_out": "تسجيل الخروج",
+    "view_code": "عرض كود المصدر",
+    "download": "تحميل المشروع",
+    "customize": "تخصيص الموضوع"
+  }
+}

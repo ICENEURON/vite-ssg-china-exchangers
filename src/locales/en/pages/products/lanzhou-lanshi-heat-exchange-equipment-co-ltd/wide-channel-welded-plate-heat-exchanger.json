@@ -1,0 +1,41 @@
+{
+  "slug": "wide-channel-welded-plate-heat-exchanger",
+  "name": "Wide Channel Welded Plate Heat Exchanger",
+  "full_description": "According to the official product page, the plate uses nest ripple or flat plates as heat transfer elements, and the plate bundle is welded between paired plates. It is designed for sugar, paper making, metallurgy, alcohol, chemical, food, and fuel ethanol processes that handle solid particles, fiber suspensions, and viscous fluids, while aiming to reduce deposition and clogging inside the channel.",
+  "industries": [
+    "Food Processing",
+    "Chemical Processing",
+    "Food and Beverage"
+  ],
+  "advantage": [
+    "Designed for media containing solid particles, fiber suspensions, and viscous fluids.",
+    "Wide-gap flow channel is intended to stay smooth and reduce clogging.",
+    "Developed for process heating and cooling in sugar, paper, metallurgy, alcohol, chemical, food, and fuel ethanol service."
+  ],
+  "technical_parameters": {
+    "Assembly Area": "≤3000m2",
+    "Design Pressure": "Vacuum ~ 3.5MPa",
+    "Plate Thickness": "1.0 ~ 2.0mm",
+    "Design Temperature": "≤450℃",
+    "Minimum Temperature Difference": "1℃"
+  },
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Wide Channel Welded Plate Heat Exchanger",
+    "meta_description": "Welded wide-gap plate exchanger for viscous media, fibers, and solid particles."
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Wide Channel Welded Plate Heat Exchanger",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/wide_channel_welded_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

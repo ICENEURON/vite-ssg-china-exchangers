@@ -1,0 +1,36 @@
+{
+  "consentModal": {
+    "title": "Política de cookies",
+    "description": "HeatEx Direct utiliza cookies para operar el sitio web y comprender su uso. Al utilizar este sitio y seleccionar Aceptar términos, aceptas nuestra <a href=\"{{privacyPath}}\">Política de privacidad</a> y nuestros <a href=\"{{termsPath}}\">Términos de uso</a>.",
+    "acceptAllBtn": "Aceptar términos",
+    "acceptNecessaryBtn": "Solo necesarias",
+    "showPreferencesBtn": "Más información",
+    "closeIconLabel": "Cerrar"
+  },
+  "preferencesModal": {
+    "title": "Preferencias de cookies",
+    "acceptAllBtn": "Aceptar todas",
+    "acceptNecessaryBtn": "Solo necesarias",
+    "savePreferencesBtn": "Guardar",
+    "closeIconLabel": "Cerrar",
+    "sections": {
+      "necessary": {
+        "title": "Cookies necesarias",
+        "description": "Requeridas para las funciones principales del sitio y para recordar tu elección de cookies."
+      },
+      "analytics": {
+        "title": "Cookies de analítica",
+        "description": "Nos ayudan a comprender cómo los visitantes utilizan el sitio para mejorar el contenido y la navegación.",
+        "tableHeaders": {
+          "name": "Cookie",
+          "domain": "Dominio",
+          "desc": "Finalidad"
+        },
+        "tableBody": {
+          "name": "_ga, _ga_*",
+          "desc": "Mide el uso del sitio cuando se acepta la analítica."
+        }
+      }
+    }
+  }
+}

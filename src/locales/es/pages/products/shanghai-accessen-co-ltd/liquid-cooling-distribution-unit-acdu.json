@@ -1,0 +1,52 @@
+{
+  "slug": "liquid-cooling-distribution-unit-acdu",
+  "name": "Unidad de distribución de refrigeración líquida ACDU",
+  "full_description": "La unidad de distribución de refrigeración líquida ACDU está diseñada para sistemas de refrigeración de centros de datos que requieren una implementación independiente de la ubicación y refrigeración natural sin compresores. Según Accessen, la solución reduce el PUE general del sistema, utiliza controles inteligentes con bombeo de velocidad variable y modulación del flujo hidráulico, y reduce la complejidad de la instalación mediante la prefabricación modular.",
+  "industries": [],
+  "advantage": [
+    "Fiabilidad y seguridad comprobadas en el campo",
+    "Implementación rápida",
+    "Sistema de control adaptativo",
+    "Refrigeración líquida de alta eficiencia",
+    "Prefabricación Modular"
+  ],
+  "technical_parameters": {
+    "Rango de altitud": "-30m~2500m",
+    "Alimentación eléctrica": "380V~415VCA/50±1Hz",
+    "Grado de filtración primaria": "200μm~300μm",
+    "Humedad relativa de operación": "5%~95%",
+    "Refrigerante del lado primario": "Soluciones a base de agua/etilenglicol",
+    "Grado de filtración secundaria": "100μm~200μm",
+    "Refrigerante del lado secundario": "Agua desionizada/Etilenglicol/Propilenglicol/Fluidos fluorados",
+    "Rango de temperatura de operación": "5°C~50°C",
+    "Rango de temperatura de almacenamiento": "-40°C~70°C"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "¿Para qué se utiliza la ACDU?",
+      "content": "Accessen posiciona la ACDU como una unidad de distribución de refrigeración líquida para centros de datos, donde admite refrigeración natural sin compresor y ayuda a reducir el PUE general en los sistemas de refrigeración líquida."
+    },
+    {
+      "title": "¿Cómo se simplifica la implementación?",
+      "content": "El producto utiliza un diseño modular prefabricado que minimiza la complejidad de la instalación en el sitio y permite una entrega más rápida del proyecto."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Unidad de distribución de refrigeración líquida ACDU",
+    "meta_description": "Unidad de distribución de refrigeración líquida para centro de datos prefabricada con control adaptativo, refrigeración natural y funciones de implementación rápida."
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Liquid-Cooling Distribution Unit ACDU",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooling_distribution_unit_acdu.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

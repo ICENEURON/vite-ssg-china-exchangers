@@ -1,0 +1,71 @@
+{
+  "filter_all": "Tous les secteurs",
+  "filter_all_manufacturers": "Tous les fabricants",
+  "no_results": "Aucun produit trouvé correspondant aux filtres sélectionnés.",
+  "clear_all": "Tout effacer",
+  "filter_by": "Industrie",
+  "filter_manufacturer": "Fabricant",
+  "title": "Échangeurs de chaleur industriels",
+  "description": "Parcourez les profils de produits d'échangeurs de chaleur industriels couvrant les fabricants chinois et filtrez par fabricant et secteur d'activité pour comparer les produits à plaques, à plaques soudées, à calandre et à tubes, de refroidisseurs d'air et d'unités d'échange de chaleur.",
+  "hero": {
+    "title": "Catalogue de produits pour échangeurs de chaleur industriels",
+    "description": "Parcourez les catégories de produits d'échangeurs de chaleur industriels et affichez les détails techniques, les applications, les avantages des produits, les informations sur les matériaux et les informations associées sur le fabricant pour chaque produit."
+  },
+  "card": {
+    "no_image": "Aucune image disponible",
+    "explore_details": "Explorer les détails"
+  },
+  "cta": {
+    "title": "Vous ne savez pas de quel produit vous avez besoin?",
+    "description": "Envoyez des paramètres d’application structurés. HeatEx Direct examine les demandes complètes et transmet les demandes qualifiées à des fabricants adaptés selon l’adéquation du projet."
+  },
+  "detail": {
+    "back_to_manufacturer": "Retour à la page du fabricant",
+    "back_to_manufacturers": "Retour aux fabricants",
+    "back_to_list": "Retour aux produits",
+    "key_advantages": "Avantages clés",
+    "product_details": "Détails du produit",
+    "technical_specifications": "Spécifications techniques",
+    "other_products": "Autres produits de ce fabricant",
+    "document_downloads": "Téléchargements de documents",
+    "download": "Télécharger",
+    "applications": "Applications du produit",
+    "application_advantages": "Avantages",
+    "application_used_in": "Utilisation dans",
+    "rfq_requirements": {
+      "title": "Préparer une demande de devis produit",
+      "heading": "Préparer une demande plus facile à suivre pour {{productName}}",
+      "description": "Pour un suivi de devis plus fluide, indiquez conditions réelles, quantité, normes, matériaux et calendrier.",
+      "checklistTitle": "Informations utiles au suivi",
+      "cta": "Commencer la demande",
+      "serviceCta": "Voir le service de demande",
+      "items": [
+        {
+          "title": "Données d’exploitation",
+          "body": "Fluides, débit, températures entrée/sortie, pression et charge thermique."
+        },
+        {
+          "title": "Limites mécaniques",
+          "body": "Matériau, code de conception, brides, pression nominale et corrosion."
+        },
+        {
+          "title": "Contexte commercial",
+          "body": "Quantité, délai cible, destination et étape du projet."
+        },
+        {
+          "title": "Fichiers ou questions",
+          "body": "Fiches techniques, plans, photos ou points à clarifier."
+        }
+      ]
+    }
+  },
+  "categories": {},
+  "meta": {
+    "description": "Parcourez les profils de produits d'échangeurs de chaleur industriels couvrant les fabricants chinois et filtrez par fabricant et secteur d'activité pour comparer les produits à plaques, à plaques soudées, à calandre et à tubes, de refroidisseurs d'air et d'unités d'échange de chaleur.",
+    "keywords": "produits d'échangeur de chaleur industriels, produits d'échangeur de chaleur à plaques, échangeur de chaleur à plaques soudées, échangeur de chaleur à calandre et à tubes, échangeur de chaleur refroidi par air, fabricants d'échangeurs de chaleur en Chine"
+  },
+  "og": {
+    "title": "Échangeurs de chaleur industriels",
+    "description": "Parcourez les profils de produits d'échangeurs de chaleur industriels couvrant les fabricants chinois et filtrez par fabricant et secteur d'activité pour comparer les produits à plaques, à plaques soudées, à calandre et à tubes, de refroidisseurs d'air et d'unités d'échange de chaleur."
+  }
+}

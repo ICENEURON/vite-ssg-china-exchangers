@@ -1,0 +1,120 @@
+{
+  "slug": "printed-circuit-heat-exchanger",
+  "name": "Intercambiador de calor de circuito impreso",
+  "full_description": "El intercambiador de calor de circuito impreso (PCHE) es un intercambiador de calor de placas soldadas de microcanales de alta eficiencia con una estructura extremadamente compacta. Las placas de metal delgadas se graban químicamente para formar canales de flujo precisos, luego se apilan y se unen por difusión en un núcleo monolítico de transferencia de calor. El núcleo se ensambla y suelda con la carcasa, los cabezales, las boquillas, las bridas y otros componentes para formar un intercambiador completo. PCHE está diseñado para aplicaciones exigentes que requieren alta eficiencia térmica y espacio compacto, incluyendo energía nuclear, marina, petróleo y gas, aeroespacial, generación de energía, GNL, procesamiento de hidrocarburos y nuevos sistemas energéticos.",
+  "industries": [
+    "HVAC",
+    "marina",
+    "Energía"
+  ],
+  "advantage": [
+    "Compacidad: El tamaño del PCHE puede ser de 5 a 10 veces más pequeño que el de los intercambiadores de carcasa y tubos convencionales, lo que lo hace ideal para sistemas con espacio limitado.",
+    "Alta eficiencia: la geometría de microcanal proporciona un rendimiento de transferencia de calor muy alto y puede alcanzar hasta un 98 % de eficiencia térmica general en servicios exigentes.",
+    "Capacidad operativa extrema: la construcción unida por difusión soporta condiciones de servicio severas de hasta 1000 bar y temperaturas de hasta 850 ℃.",
+    "Geometría de flujo personalizada: se pueden diseñar diferentes patrones de canales y corrugaciones para cumplir con los requisitos específicos de caudal, caída de presión y carga térmica.",
+    "Alta integridad estructural: la estructura especializada del producto y la unión por difusión de estado sólido mejoran la resistencia a las fugas y la seguridad operativa en condiciones de alta temperatura y presión.",
+    "Peso ligero y ahorro de espacio: la alta densidad de superficie ofrece una temperatura cercana, menor peso y una excelente utilización del espacio."
+  ],
+  "technical_parameters": {
+    "Ancho de canal": "0,4 ~ 4mm",
+    "Espesor de placa": "0,4 ~ 4mm",
+    "Material de placas": "304, 316L, 2205, TA1 y aleación de titanio, aleación de alta temperatura",
+    "Temperatura de diseño": "-196 ~ 850℃",
+    "Presión máxima de diseño": "1000 barras",
+    "Área de transferencia de calor": "8000㎡"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "¿Qué es un intercambiador de calor de circuito impreso?",
+      "content": "El intercambiador de calor de circuito impreso es un intercambiador de calor de microcanales altamente compacto y eficiente diseñado para condiciones operativas extremas. Utiliza placas metálicas grabadas químicamente y tecnología de unión por difusión para ofrecer un rendimiento de transferencia de calor, resistencia a la presión, resistencia a la corrosión y eficiencia de espacio muy altos en aplicaciones donde los intercambiadores convencionales son demasiado grandes o no pueden soportar el trabajo."
+    },
+    {
+      "title": "¿Cómo se construye el intercambiador de calor de circuito impreso?",
+      "content": "Placas metálicas delgadas, generalmente de acero inoxidable, acero dúplex, titanio o aleaciones de alta temperatura, se recubren y se graban químicamente para crear intrincados patrones de microcanales. Las placas grabadas se apilan en una configuración definida y se unen por difusión a alta temperatura y presión para formar un núcleo monolítico, que luego se ensambla con carcasa, cabezales, boquillas y otros componentes externos para formar el intercambiador final."
+    },
+    {
+      "title": "¿Cómo se diseña y fabrica?",
+      "content": "El diseño PCHE combina análisis termohidráulico, optimización de la geometría de microcanales, ingeniería de materiales y capacidad de fabricación. Después de seleccionar los materiales base y el espesor de la placa, el patrón del canal se transfiere mediante una fotomáscara y se graba químicamente, se limpia, se apila, se une por difusión en un horno de vacío y luego se completa mediante el ensamblaje del cabezal, las pruebas de fugas y la validación del rendimiento térmico."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Descarbonización de gas natural offshore",
+        "Enfriamiento y recuperación de calor de gas rico en CO2",
+        "Módulos de proceso FPSO y plataformas offshore",
+        "Gestión térmica de gas ácido o corrosivo"
+      ],
+      "advantages": [
+        "En comparación con intercambiadores de carcasa y tubos, el núcleo microcanal unido por difusión reduce mucho tamaño y peso en módulos offshore.",
+        "En comparación con equipos con juntas, el núcleo sólido unido elimina el riesgo de fugas de juntas en gas de alta presión.",
+        "La capacidad de alta presión y la selección de materiales resistentes a corrosión soportan gas natural rico en CO2."
+      ],
+      "application": "Descarbonización de gas offshore",
+      "description": "El intercambiador de calor de circuito impreso es adecuado para intercambio térmico compacto y de alta presión en proyectos offshore de descarbonización de gas. Para servicio con gas rico en CO2 y corrosivo, puede diseñarse y fabricarse según ASME, respaldarse con certificación de terceros y configurarse para cumplir requisitos NACE de control de corrosión."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Enfriamiento de hidrógeno",
+        "Enfriamiento de gas de alta presión",
+        "Sistemas de energía de hidrógeno",
+        "Gestión térmica de procesos de celdas de combustible"
+      ],
+      "advantages": [
+        "En comparación con intercambiadores convencionales, el PCHE ofrece alta densidad de área de transferencia para paquetes compactos de hidrógeno.",
+        "El núcleo unido evita superficies de sellado con juntas en servicio de hidrógeno de alta presión.",
+        "La construcción microcanal permite enfriamiento preciso donde el control de temperatura y la huella son críticos."
+      ],
+      "application": "Enfriamiento de hidrógeno",
+      "description": "El intercambiador de circuito impreso es adecuado para enfriamiento de hidrógeno de alta presión y control de temperatura. Sus microcanales grabados químicamente y núcleo unido por difusión ofrecen transferencia térmica compacta, resistencia a presión y construcción resistente a fugas para sistemas de hidrógeno."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Intercambiador de calor de circuito impreso",
+    "meta_description": "Intercambiador de calor de circuito impreso compacto por difusión para aplicaciones de presión y temperatura extremas con alta eficiencia térmica."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Printed Circuit Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_1.jpg"
+    },
+    {
+      "alt_text": "Printed Circuit Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Printed Circuit Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/printed_circuit_heat_exchanger_3.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

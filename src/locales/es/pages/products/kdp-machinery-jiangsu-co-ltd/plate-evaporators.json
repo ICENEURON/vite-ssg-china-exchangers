@@ -1,0 +1,64 @@
+{
+  "slug": "plate-evaporators",
+  "name": "Evaporadores de placas",
+  "full_description": "Los evaporadores de placas usan canales corrugados para transferir calor desde vapor u otro medio de calentamiento a un líquido de proceso, vaporizando solvente y concentrando el producto. El alto coeficiente de transferencia, bajo volumen retenido y estructura limpiable son útiles en alimentos, lácteos, bebidas, farmacéutica, química, aguas residuales y cristalización.",
+  "industries": [
+    "petroquímica",
+    "Procesamiento de alimentos",
+    "Procesamiento químico",
+    "Alimentos y Bebidas",
+    "Productos farmacéuticos"
+  ],
+  "advantage": [
+    "Las placas corrugadas crean alta turbulencia y evaporación eficiente en equipos compactos.",
+    "El bajo volumen retenido favorece tiempos de residencia cortos para materiales termosensibles.",
+    "Los diseños abribles o limpiables permiten inspección, desincrustación y planificación sanitaria.",
+    "La capacidad se adapta mediante área de placas, número de efectos, modo de circulación y medio de calentamiento.",
+    "Las opciones de material cubren evaporación alimentaria, farmacéutica, química y corrosiva.",
+    "Puede integrarse con MVR, evaporación multiefecto, condensación y cristalización."
+  ],
+  "technical_parameters": {
+    "Limpieza": "CIP, desincrustación y acceso de inspección según configuración",
+    "Materiales": "Acero inoxidable, acero inoxidable dúplex, titanio y aleaciones",
+    "Modo de proceso": "Película descendente, película ascendente, circulación forzada o configuración multiefecto según proyecto",
+    "Aplicaciones típicas": "Concentración de alimentos, lácteos, bebidas, farmacéutica, evaporación química, concentración de aguas residuales y cristalización",
+    "Medio de calentamiento": "Vapor, agua caliente, aceite térmico o calor de proceso según servicio",
+    "Superficie de transferencia": "Canales de placas corrugadas"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Ajuste al proceso",
+      "content": "Los evaporadores de placas son útiles cuando la concentración o eliminación de solvente requiere área térmica compacta, corto tiempo de residencia y facilidad de limpieza."
+    },
+    {
+      "title": "Integración del sistema",
+      "content": "Pueden configurarse con separación vapor-líquido, condensadores, compresores MVR, bombas de circulación y equipos de cristalización según el flujo."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Evaporadores de placas",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. suministra evaporadores de placas para aplicaciones industriales de transferencia de calor con selección de materiales, presión, temperatura y mantenimiento por proyecto."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Evaporators image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_evaporator_1.png"
+    },
+    {
+      "alt_text": "Plate Evaporators image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_evaporator_2.png"
+    },
+    {
+      "alt_text": "Plate Evaporators image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_evaporator_3.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

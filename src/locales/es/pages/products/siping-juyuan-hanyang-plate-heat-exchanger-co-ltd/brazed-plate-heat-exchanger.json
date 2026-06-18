@@ -1,0 +1,41 @@
+{
+  "slug": "brazed-plate-heat-exchanger",
+  "name": "Intercambiador de calor de placas soldadas",
+  "full_description": "La página oficial enumera las características del producto del intercambiador de calor de placas soldadas como alta turbulencia y rendimiento de transferencia de calor muy alto, resistencia a alta temperatura y presión, y tamaño pequeño con peso liviano. Explica que el relleno de soldadura se calienta de sólido a líquido, llena los espacios formados por los puntos de soporte de la placa mediante acción humectante y capilar, y forma la conexión entre diferentes materiales después del enfriamiento. La página enumera láminas de soldadura a base de cobre, pasta de soldadura a base de níquel y pasta de soldadura a base de hierro.",
+  "industries": [
+    "HVAC",
+    "Energía",
+    "Procesamiento de alimentos",
+    "Procesamiento químico",
+    "Alimentos y Bebidas",
+    "Productos farmacéuticos"
+  ],
+  "advantage": [
+    "Alta turbulencia y alto rendimiento de transferencia de calor.",
+    "Resistencia a altas temperaturas y presiones.",
+    "Tamaño compacto y peso reducido.",
+    "Múltiples opciones de metal de aportación: materiales de soldadura fuerte a base de cobre, níquel y hierro."
+  ],
+  "technical_parameters": {
+    "Materiales de soldadura fuerte": "Lámina de soldadura a base de cobre; pasta de soldadura a base de níquel; pasta de soldadura a base de hierro"
+  },
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Intercambiador de calor de placas soldadas",
+    "meta_description": "Intercambiador de calor de placas soldadas compacto con transferencia de calor de alta turbulencia, resistencia a altas temperaturas y presiones y bajo peso."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Brazed Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/brazed_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

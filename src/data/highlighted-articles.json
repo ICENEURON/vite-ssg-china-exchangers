@@ -1,0 +1,230 @@
+{
+  "lastUpdated": "2026-06-12",
+  "description": "Automatically generated homepage highlight configuration using the latest news article for each external company. HeatEx Direct articles are excluded. Shanghai Heat Transfer Equipment Co., Ltd. is pinned first.",
+  "items": [
+    {
+      "priority": 1,
+      "companyId": "d8d12a86-4145-4119-84fd-c9e46af5b50c",
+      "companySlug": "shanghai-heat-transfer-equipment-co-ltd",
+      "companyName": {
+        "ar": "Shanghai Heat Transfer Equipment Co., Ltd.",
+        "en": "Shanghai Heat Transfer Equipment Co., Ltd.",
+        "es": "Shanghai Heat Transfer Equipment Co., Ltd.",
+        "fr": "Shanghai Heat Transfer Equipment Co., Ltd.",
+        "ru": "Shanghai Heat Transfer Equipment Co., Ltd.",
+        "zh": "上海板换机械设备有限公司"
+      },
+      "contentType": "news",
+      "articleSlug": "overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully",
+      "permalinks": {
+        "en": "/industry-news/news/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully",
+        "fr": "/fr/industry-news/news/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully",
+        "es": "/es/industry-news/news/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully",
+        "ar": "/ar/industry-news/news/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully",
+        "ru": "/ru/industry-news/news/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully",
+        "zh": "/zh/industry-news/news/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully"
+      },
+      "cover": {
+        "en": "/static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png",
+        "fr": "/static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png",
+        "es": "/static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png",
+        "ar": "/static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png",
+        "ru": "/static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png",
+        "zh": "/static/content_posts_image/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully/cover.png"
+      },
+      "articleTitle": {
+        "en": "Overseas Delivery Again! SHPHE’s Wide-Gap Welded Plate Heat Exchangers Shipped Successfully",
+        "fr": "Livraison à l'étranger à nouveau! Les échangeurs de chaleur à plaques soudées à large espacement",
+        "es": "¡Entrega al extranjero nuevamente! Los intercambiadores de calor de placas soldadas de gran",
+        "ar": "التسليم للخارج مرة أخرى! تم شحن المبادلات الحرارية ذات الألواح الملحومة واسعة الفجوة من SHPHE بنجاح",
+        "ru": "Доставка за границу снова! Успешная поставка широкозазорных сварных пластинчатых теплообменников",
+        "zh": "再次海外发货！上海板换机械设备有限公司宽间隙焊接板式换热器顺利发货"
+      },
+      "shortDescription": {
+        "en": "Recently, SHPHE completed production and shipment of wide-gap welded plate heat exchangers for a leading Australian mining enterprise. As a global powerhouse in the mining and aluminum secto",
+        "fr": "Récemment, SHPHE a achevé la production et l'expédition d'échangeurs de chaleur à plaques soudées à grand écart pour une entreprise minière australienne de premier plan.",
+        "es": "Recientemente, SHPHE completó la producción y el envío de intercambiadores de calor de placas soldadas de gran espacio para una importante empresa minera australiana.",
+        "ar": "في الآونة الأخيرة، أكملت شركة SHPHE إنتاج وشحن المبادلات الحرارية ذات الصفائح الملحومة واسعة الفجوة لشركة تعدين أسترالية رائدة. كقوة عالمية في قطاع التعدين والألمنيوم",
+        "ru": "Недавно компания SHPHE завершила производство и поставку сварных пластинчатых теплообменников с широким зазором для ведущего австралийского горнодобывающего предприятия.",
+        "zh": "近日，上海板换机械设备有限公司为澳大利亚某领先矿业企业完成了宽间隙焊接板式换热器的生产和发货。作为采矿和铝行业的全球巨头，客户对设备性能、质量规格和操作执行严格的标准。"
+      },
+      "date": "2026-05-11",
+      "paths": {
+        "en": "news/shanghai-heat-transfer-equipment-co-ltd/en/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully.md",
+        "fr": "news/shanghai-heat-transfer-equipment-co-ltd/fr/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully.md",
+        "es": "news/shanghai-heat-transfer-equipment-co-ltd/es/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully.md",
+        "ar": "news/shanghai-heat-transfer-equipment-co-ltd/ar/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully.md",
+        "ru": "news/shanghai-heat-transfer-equipment-co-ltd/ru/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully.md",
+        "zh": "news/shanghai-heat-transfer-equipment-co-ltd/zh/overseas-delivery-again-shphes-wide-gap-welded-plate-heat-exchangers-shipped-successfully.md"
+      }
+    },
+    {
+      "priority": 2,
+      "companyId": "749dc7dd-abfc-4ee5-869b-7e8e9d8d953a",
+      "companySlug": "shanghai-accessen-co-ltd",
+      "companyName": {
+        "ar": "Shanghai Accessen Co., Ltd.",
+        "en": "Shanghai Accessen Co., Ltd.",
+        "es": "Shanghai Accessen Co., Ltd.",
+        "fr": "Shanghai Accessen Co., Ltd.",
+        "ru": "Shanghai Accessen Co., Ltd.",
+        "zh": "上海艾克森股份有限公司"
+      },
+      "contentType": "news",
+      "articleSlug": "accessen-prefabricated-cooling-station-dcwf-2026-recap",
+      "permalinks": {
+        "en": "/industry-news/news/accessen-prefabricated-cooling-station-dcwf-2026-recap",
+        "fr": "/fr/industry-news/news/accessen-prefabricated-cooling-station-dcwf-2026-recap",
+        "es": "/es/industry-news/news/accessen-prefabricated-cooling-station-dcwf-2026-recap",
+        "ar": "/ar/industry-news/news/accessen-prefabricated-cooling-station-dcwf-2026-recap",
+        "ru": "/ru/industry-news/news/accessen-prefabricated-cooling-station-dcwf-2026-recap",
+        "zh": "/zh/industry-news/news/accessen-prefabricated-cooling-station-dcwf-2026-recap"
+      },
+      "cover": {
+        "en": "/static/content_posts_image/accessen-prefabricated-cooling-station-dcwf-2026-recap/cover.jpg",
+        "fr": "/static/content_posts_image/accessen-prefabricated-cooling-station-dcwf-2026-recap/cover.jpg",
+        "es": "/static/content_posts_image/accessen-prefabricated-cooling-station-dcwf-2026-recap/cover.jpg",
+        "ar": "/static/content_posts_image/accessen-prefabricated-cooling-station-dcwf-2026-recap/cover.jpg",
+        "ru": "/static/content_posts_image/accessen-prefabricated-cooling-station-dcwf-2026-recap/cover.jpg",
+        "zh": "/static/content_posts_image/accessen-prefabricated-cooling-station-dcwf-2026-recap/cover.jpg"
+      },
+      "articleTitle": {
+        "en": "Accessen's Prefabricated Cooling Station Concludes at DCWF 2026",
+        "fr": "La station de refroidissement préfabriquée de Accessen se termine au DCWF 2026",
+        "es": "La estación de enfriamiento prefabricada de Accessen concluye en DCWF 2026",
+        "ar": "محطة التبريد الجاهزة Accessen تنتهي في DCWF 2026",
+        "ru": "Сборная охлаждающая станция Accessen представлена ​​на DCWF 2026",
+        "zh": "上海艾克森股份有限公司预制化集成冷站亮相 DCWF 2026 并圆满收官"
+      },
+      "shortDescription": {
+        "en": "Shanghai Accessen showcased prefabricated integrated cooling station solutions at Data Centre World Frankfurt 2026.",
+        "fr": "Shanghai Accessen a présenté des solutions de stations de refroidissement intégrées préfabriquées au Data Center World Frankfurt 2026.",
+        "es": "Shanghai Accessen presentó soluciones de estaciones de refrigeración integradas prefabricadas en Data Center World Frankfurt 2026.",
+        "ar": "عرضت شركة Shanghai Accessen حلول محطات التبريد المتكاملة الجاهزة في معرض Data Center World فرانكفورت 2026.",
+        "ru": "Компания Shanghai Accessen продемонстрировала готовые интегрированные решения для охлаждающих станций на выставке Data Center World Frankfurt 2026.",
+        "zh": "上海艾克森股份有限公司在 Data Centre World Frankfurt 2026 展示预制化集成冷站解决方案并圆满收官。"
+      },
+      "date": "2026-05-14",
+      "paths": {
+        "en": "news/shanghai-accessen-co-ltd/en/accessen-prefabricated-cooling-station-dcwf-2026-recap.md",
+        "fr": "news/shanghai-accessen-co-ltd/fr/accessen-prefabricated-cooling-station-dcwf-2026-recap.md",
+        "es": "news/shanghai-accessen-co-ltd/es/accessen-prefabricated-cooling-station-dcwf-2026-recap.md",
+        "ar": "news/shanghai-accessen-co-ltd/ar/accessen-prefabricated-cooling-station-dcwf-2026-recap.md",
+        "ru": "news/shanghai-accessen-co-ltd/ru/accessen-prefabricated-cooling-station-dcwf-2026-recap.md",
+        "zh": "news/shanghai-accessen-co-ltd/zh/accessen-prefabricated-cooling-station-dcwf-2026-recap.md"
+      }
+    },
+    {
+      "priority": 3,
+      "companyId": "4f10feed-3ffc-4eed-b4f4-ef75ab99c14d",
+      "companySlug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd",
+      "companyName": {
+        "ar": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
+        "en": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
+        "es": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
+        "fr": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
+        "ru": "Lanzhou Lanshi Heat Exchange Equipment Co., Ltd.",
+        "zh": "兰州兰石换热设备有限责任公司"
+      },
+      "contentType": "news",
+      "articleSlug": "lanshi-torch-project-plate-heat-exchangers-shipped",
+      "permalinks": {
+        "en": "/industry-news/news/lanshi-torch-project-plate-heat-exchangers-shipped",
+        "fr": "/fr/industry-news/news/lanshi-torch-project-plate-heat-exchangers-shipped",
+        "es": "/es/industry-news/news/lanshi-torch-project-plate-heat-exchangers-shipped",
+        "ar": "/ar/industry-news/news/lanshi-torch-project-plate-heat-exchangers-shipped",
+        "ru": "/ru/industry-news/news/lanshi-torch-project-plate-heat-exchangers-shipped",
+        "zh": "/zh/industry-news/news/lanshi-torch-project-plate-heat-exchangers-shipped"
+      },
+      "cover": {
+        "en": "/static/content_posts_image/lanshi-torch-project-plate-heat-exchangers-shipped/cover.png",
+        "fr": "/static/content_posts_image/lanshi-torch-project-plate-heat-exchangers-shipped/cover.png",
+        "es": "/static/content_posts_image/lanshi-torch-project-plate-heat-exchangers-shipped/cover.png",
+        "ar": "/static/content_posts_image/lanshi-torch-project-plate-heat-exchangers-shipped/cover.png",
+        "ru": "/static/content_posts_image/lanshi-torch-project-plate-heat-exchangers-shipped/cover.png",
+        "zh": "/static/content_posts_image/lanshi-torch-project-plate-heat-exchangers-shipped/cover.png"
+      },
+      "articleTitle": {
+        "en": "Lanzhou Lanshi Heat Exchange Ships 10 Removable Plate Heat Exchangers for the Torch Project",
+        "fr": "Lanzhou Lanshi Heat Exchange expédie 10 échangeurs de chaleur à plaques amovibles pour le projet",
+        "es": "Lanzhou Lanshi Heat Exchange envía 10 intercambiadores de calor de placas extraíbles para el",
+        "ar": "يقوم نظام التبادل الحراري Lanzhou Lanshi بشحن 10 مبادلات حرارية ذات ألواح قابلة للإزالة لمشروع",
+        "ru": "Lanzhou Lanshi Heat Exchanger поставила 10 съемных пластинчатых теплообменников для проекта Torch",
+        "zh": "兰州兰石换热设备有限责任公司10台“火炬工程”项目可拆式板式热交换器顺利完工发运"
+      },
+      "shortDescription": {
+        "en": "Lanzhou Lanshi Heat Exchange Equipment completed factory acceptance and shipment for 10 removable plate heat exchangers used in the Torch Project water-cooling system.",
+        "fr": "L'équipement d'échange de chaleur Lanzhou Lanshi a terminé l'acceptation et l'expédition en usine de 10 échangeurs de chaleur à plaques amovibles utilisés dans le système de refroidissement par...",
+        "es": "El equipo de intercambio de calor Lanzhou Lanshi completó la aceptación en fábrica y el envío de 10 intercambiadores de calor de placas extraíbles utilizados en el sistema de refrigeración por...",
+        "ar": "أكملت معدات التبادل الحراري Lanzhou Lanshi قبول المصنع وشحن 10 مبادلات حرارية قابلة للإزالة تستخدم في نظام تبريد المياه في مشروع Torch.",
+        "ru": "Компания Lanzhou Lanshi Heat Exchange Equipment завершила заводскую приемку и отгрузку 10 съемных пластинчатых теплообменников, используемых в системе водяного охлаждения проекта «Факел».",
+        "zh": "兰州兰石换热设备有限责任公司承制的“火炬工程水冷系统板式热交换器”项目10台可拆式板式热交换器顺利通过出厂验收并发运。"
+      },
+      "date": "2026-04-29",
+      "paths": {
+        "en": "news/lanzhou-lanshi-heat-exchange-equipment-co-ltd/en/lanshi-torch-project-plate-heat-exchangers-shipped.md",
+        "fr": "news/lanzhou-lanshi-heat-exchange-equipment-co-ltd/fr/lanshi-torch-project-plate-heat-exchangers-shipped.md",
+        "es": "news/lanzhou-lanshi-heat-exchange-equipment-co-ltd/es/lanshi-torch-project-plate-heat-exchangers-shipped.md",
+        "ar": "news/lanzhou-lanshi-heat-exchange-equipment-co-ltd/ar/lanshi-torch-project-plate-heat-exchangers-shipped.md",
+        "ru": "news/lanzhou-lanshi-heat-exchange-equipment-co-ltd/ru/lanshi-torch-project-plate-heat-exchangers-shipped.md",
+        "zh": "news/lanzhou-lanshi-heat-exchange-equipment-co-ltd/zh/lanshi-torch-project-plate-heat-exchangers-shipped.md"
+      }
+    },
+    {
+      "priority": 4,
+      "companyId": "5fb41b48-d202-46e1-b819-0de12c1152fa",
+      "companySlug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd",
+      "companyName": {
+        "ar": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
+        "en": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
+        "es": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
+        "fr": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
+        "ru": "Siping Juyuan Hanyang Plate Heat Exchanger Co., Ltd.",
+        "zh": "四平市巨元瀚洋板式换热器有限公司"
+      },
+      "contentType": "news",
+      "articleSlug": "nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization",
+      "permalinks": {
+        "en": "/industry-news/news/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization",
+        "fr": "/fr/industry-news/news/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization",
+        "es": "/es/industry-news/news/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization",
+        "ar": "/ar/industry-news/news/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization",
+        "ru": "/ru/industry-news/news/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization",
+        "zh": "/zh/industry-news/news/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization"
+      },
+      "cover": {
+        "en": "/static/content_posts_image/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization/cover.jpg",
+        "fr": "/static/content_posts_image/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization/cover.jpg",
+        "es": "/static/content_posts_image/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization/cover.jpg",
+        "ar": "/static/content_posts_image/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization/cover.jpg",
+        "ru": "/static/content_posts_image/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization/cover.jpg",
+        "zh": "/static/content_posts_image/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization/cover.jpg"
+      },
+      "articleTitle": {
+        "en": "Siping Juyuan Hanyang Advances Nuclear Deep-Corrugated Titanium Plate Localization",
+        "fr": "Siping Juyuan Hanyang fait progresser la localisation des plaques de titane nucléaires à",
+        "es": "Siping Juyuan Hanyang avanza en la localización de placas nucleares de titanio corrugado profundo",
+        "ar": "تعمل شركة Siping Juyuan Hanyang على تطوير توطين صفائح التيتانيوم النووية العميقة المموجة",
+        "ru": "Siping Juyuan Hanyang продвигает методы локализации титановых пластин с глубокими гофрами",
+        "zh": "四平市巨元瀚洋板式换热器有限公司核电深波纹钛板换热器实现全面国产化"
+      },
+      "shortDescription": {
+        "en": "Siping Juyuan Hanyang joined a project that validated domestic titanium plate use in nuclear-grade plate heat exchangers.",
+        "fr": "Siping Juyuan Hanyang a rejoint un projet qui a validé l'utilisation domestique de plaques de titane dans les échangeurs de chaleur à plaques de qualité nucléaire.",
+        "es": "Siping Juyuan Hanyang se unió a un proyecto que validó el uso doméstico de placas de titanio en intercambiadores de calor de placas de grado nuclear.",
+        "ar": "انضمت Siping Juyuan Hanyang إلى مشروع التحقق من صحة استخدام ألواح التيتانيوم المحلية في المبادلات الحرارية لألواح الدرجة النووية.",
+        "ru": "Siping Juyuan Hanyang присоединился к проекту, который подтвердил использование отечественных титановых пластин в пластинчатых теплообменниках ядерного класса.",
+        "zh": "四平市巨元瀚洋板式换热器有限公司参与的国产钛板核级板式换热器应用研究通过科技成果鉴定，推动核电关键换热材料国产替代。"
+      },
+      "date": "2025-08-01",
+      "paths": {
+        "en": "news/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/en/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization.md",
+        "fr": "news/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/fr/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization.md",
+        "es": "news/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/es/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization.md",
+        "ar": "news/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/ar/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization.md",
+        "ru": "news/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/ru/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization.md",
+        "zh": "news/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/zh/nuclear-deep-corrugated-titanium-plate-heat-exchanger-localization.md"
+      }
+    }
+  ]
+}

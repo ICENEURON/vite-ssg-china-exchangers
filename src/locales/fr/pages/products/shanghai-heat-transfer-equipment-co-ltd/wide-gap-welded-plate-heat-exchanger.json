@@ -1,0 +1,226 @@
+{
+  "slug": "wide-gap-welded-plate-heat-exchanger",
+  "name": "Échangeur de chaleur à plaques soudées à grand écart",
+  "full_description": "L'échangeur de chaleur à plaques soudées à large écart est disponible en modèles de plaques à fossettes et à clous. Les plaques sont soudées autour de la périphérie pour former des canaux média, éliminant ainsi la structure d'étanchéité avec joint en caoutchouc utilisée dans les échangeurs de chaleur à plaques avec joint. Il est conçu pour les processus de chauffage ou de refroidissement impliquant des fluides contenant de grosses particules solides, des suspensions de fibres, des milieux visqueux ou des tâches à haute température dans les industries du sucre, des pâtes et papiers, de la métallurgie, de l'éthanol, de la pétrochimie et des industries connexes. Avec des canaux à large espace spécialement conçus, l'échangeur offre une efficacité de transfert de chaleur élevée, une faible perte de charge, un écoulement fluide sans zones mortes et de fortes performances anti-colmatage dans des conditions de fonctionnement exigeantes.",
+  "industries": [
+    "Pétrochimie",
+    "Traitement chimique",
+    "Nourriture et boissons",
+    "Produits pharmaceutiques"
+  ],
+  "advantage": [
+    "Conception de canaux d'inspiration bionique: combine des concepts biomimétiques avec une conception technique pour maximiser l'efficacité énergétique dans les canaux d'écoulement à large espace.",
+    "Turbulence améliorée: l'intensification de la turbulence locale brise les couches limites thermiques et améliore l'angle de synergie de champ pour une efficacité de transfert de chaleur plus élevée.",
+    "Performance anti-salissure: une contrainte de cisaillement plus élevée des parois aide à réduire l'encrassement, à prolonger les intervalles de nettoyage et à prolonger la durée de vie de l'équipement.",
+    "Débit anti-colmatage à large espace: la géométrie spéciale du canal permet une manipulation fluide des fluides visqueux, des suspensions de fibres et des particules grossières avec un risque de blocage minimal.",
+    "Durabilité entièrement soudée: le joint soudé sans joint permet un fonctionnement fiable dans les applications à température et pression plus élevées."
+  ],
+  "technical_parameters": {
+    "Surface maximale": "2000㎡",
+    "Motif des plaques": "Plaque plate à fossettes et cloutées",
+    "Matériau des plaques": "Acier inoxydable austénitique, Acier inoxydable duplex, Nickel et alliage de nickel, Hastelloy",
+    "Pression de conception": "Vide ~ 3,5 MPa",
+    "Écartement des canaux": "8 ~ 30mm",
+    "Épaisseur des plaques": "1,0 ~ 2,5 mm",
+    "Température de conception": "<=350℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Qu'est-ce qu'un échangeur de chaleur à plaques soudées à grand écart?",
+      "content": "L'échangeur de chaleur à plaques soudées à large écart présente une construction entièrement soudée et sans joint avec des canaux à large écart spécialement conçus. Il conserve les avantages d'une efficacité de transfert de chaleur élevée et d'une faible perte de charge tout en permettant aux supports solides, fibreux et visqueux de passer en douceur sans créer de zones mortes pouvant entraîner un blocage."
+    },
+    {
+      "title": "Comment le canal d’écoulement est-il construit?",
+      "content": "Chaque canal d'écoulement est formé en soudant des plaques ensemble. En fonction du modèle de plaque, un côté peut être créé par des points de contact soudés par points entre des plaques à fossettes, des plaques à fossettes et plates, ou des plaques plates avec des goujons soudés, tandis que le côté opposé forme un canal sans contact plus large pour les fluides visqueux ou les milieux contenant des particules grossières et des fibres."
+    },
+    {
+      "title": "Comment est-il conçu et fabriqué?",
+      "content": "Le produit est conçu thermiquement en optimisant la géométrie des plaques, l'espacement des canaux, la disposition à contre-courant multi-passes et la gestion des chutes de pression pour un service à grand espace. La sélection des matériaux peut inclure l'acier inoxydable, l'acier inoxydable duplex, l'Hastelloy et d'autres alliages résistants à la corrosion, tandis que le soudage de précision et l'assemblage contrôlé garantissent la résistance aux fuites, l'intégrité structurelle et un fonctionnement fiable à long terme."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Refroidissement de liqueur raffinée",
+        "Refroidissement d’agglomération",
+        "Refroidissement intermédiaire",
+        "Production d’alumine par procédé Bayer"
+      ],
+      "advantages": [
+        "Par rapport aux échangeurs à canaux étroits, la conception à large passage convient mieux aux boues et flux contenant des solides.",
+        "Par rapport aux équipements conventionnels, la structure à plaques soudées associe compacité et transfert thermique efficace.",
+        "Les options d’installation verticale et horizontale facilitent l’intégration dans les usines d’alumine existantes."
+      ],
+      "application": "Refroidissement en production d’alumine",
+      "description": "L’échangeur de chaleur à plaques soudées à large passage est utilisé dans la production d’alumine, notamment pour les services thermiques autour du procédé de décomposition. Il peut être fourni en configuration verticale ou horizontale et personnalisé pour le refroidissement de liqueur raffinée, l’agglomération et les étapes intermédiaires."
+    },
+    {
+      "order": 2,
+      "used_in": [
+        "Chauffage et refroidissement du jus",
+        "Échange thermique en clarification",
+        "Récupération de chaleur en évaporation",
+        "Contrôle de température en cristallisation"
+      ],
+      "advantages": [
+        "Par rapport aux échangeurs à canaux étroits, la structure à large passage réduit le risque de colmatage par les fibres et solides en suspension.",
+        "Par rapport aux équipements à calandre et tubes, la conception à plaques peut améliorer l’efficacité thermique dans les étapes répétées de chauffage et de refroidissement.",
+        "La construction soudée convient aux lignes sucrières continues nécessitant un fonctionnement stable."
+      ],
+      "application": "Industrie sucrière",
+      "description": "Dans la production de sucre de canne et de betterave, les besoins de chauffage et de refroidissement apparaissent lors de l’extraction du jus, de la clarification, de l’évaporation et de la cristallisation. L’échangeur soudé à large passage convient aux milieux visqueux, acides ou alcalins et sujets à l’encrassement, améliorant l’utilisation de la chaleur."
+    },
+    {
+      "order": 3,
+      "used_in": [
+        "Chauffage et refroidissement du moût de fermentation",
+        "Préchauffage de l’alimentation de distillation",
+        "Récupération de chaleur de vinasse",
+        "Échange thermique en procédé d’éthanol carburant"
+      ],
+      "advantages": [
+        "Par rapport aux équipements à canaux étroits, le large passage traite mieux les moûts, vinasses et autres flux contenant des particules.",
+        "Par rapport aux échangeurs à calandre et tubes, la conception à plaques soudées améliore l’intensité de transfert dans un agencement plus compact.",
+        "Les configurations horizontale et verticale facilitent l’installation dans les usines d’éthanol existantes."
+      ],
+      "application": "Production d’éthanol carburant",
+      "description": "La production d’éthanol carburant à partir de maïs, manioc ou autres matières premières comprend fermentation et distillation, avec de nombreux points d’échange thermique. L’échangeur soudé à large passage peut être installé horizontalement ou verticalement et traiter des flux visqueux, chargés en solides ou sujets à l’encrassement."
+    },
+    {
+      "order": 4,
+      "used_in": [
+        "Refroidissement de boue de précurseur LFP",
+        "Contrôle de température du broyage",
+        "Contrôle de température de précipitation et cristallisation",
+        "Récupération de chaleur des matériaux de batterie"
+      ],
+      "advantages": [
+        "Par rapport aux échangeurs à canaux étroits, le large passage gère les particules solides dans les boues et réduit le risque de colmatage.",
+        "Par rapport aux conceptions avec joints, la construction soudée élimine le risque de fuite de joints en service boues.",
+        "La forte efficacité thermique permet un contrôle précis de la température lors de la précipitation et cristallisation des précurseurs.",
+        "Les options 316L, acier duplex 2205, titane et alliages à base de nickel couvrent différents besoins de corrosion."
+      ],
+      "application": "Prétraitement du phosphate de fer lithié",
+      "description": "Dans la préparation des précurseurs de phosphate de fer lithié, le broyage, la précipitation, la cristallisation et la récupération de chaleur exigent un chauffage et un refroidissement maîtrisés. L’échangeur soudé à large passage évacue la chaleur générée lors du broyage de boues et peut préchauffer les boues visqueuses sensibles à la température au démarrage."
+    },
+    {
+      "order": 5,
+      "used_in": [
+        "Refroidissement de condensats MDI",
+        "Récupération de chaleur d’eau noire d’acétylène",
+        "Préchauffage de charge polyoléfine",
+        "Chauffage et refroidissement de boues chimiques"
+      ],
+      "advantages": [
+        "Par rapport aux passages étroits conventionnels, le large canal réduit le risque de colmatage dans les flux chimiques contenant des particules ou encrassants.",
+        "La structure soudée évite le risque de fuite de joints dans les milieux de procédé exigeants.",
+        "La conception de distribution en entrée aide à réduire l’usure locale dans les entrées de boues ou milieux chargés en particules."
+      ],
+      "application": "Applications de procédés chimiques",
+      "description": "Dans les procédés chimiques, les milieux sont très variés et peuvent contenir particules, fibres, viscosité élevée ou composants encrassants. L’échangeur soudé à large passage résout les problèmes de colmatage et de maintenance élevée pour le refroidissement de condensats MDI, la récupération de chaleur d’eau noire d’acétylène et le préchauffage de charges polyoléfines."
+    },
+    {
+      "order": 6,
+      "used_in": [
+        "Eaux usées papetières",
+        "Eaux usées textiles",
+        "Eaux usées agroalimentaires",
+        "Eaux usées pharmaceutiques",
+        "Récupération de chaleur d’effluents chargés en solides"
+      ],
+      "advantages": [
+        "Par rapport aux canaux de plaques ordinaires, le large passage réduit les colmatages par fibres et solides.",
+        "Par rapport au nettoyage manuel fréquent, le fonctionnement stable à large passage réduit les interruptions de maintenance.",
+        "La construction soudée sans joint permet un fonctionnement continu dans les eaux usées difficiles."
+      ],
+      "application": "Traitement des eaux usées",
+      "description": "Les eaux usées des industries papier, textile, agroalimentaire et pharmaceutique contiennent souvent fibres, solides en suspension et composants susceptibles de colmater les échangeurs conventionnels. L’échangeur soudé à large passage assure un échange stable dans ces boucles et réduit les pertes d’efficacité et arrêts."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur à plaques soudées à grand écart",
+    "meta_description": "Échangeur de chaleur à plaques soudées à grand espace pour fluides visqueux, fibreux et solides avec canaux anti-colmatage et construction sans joint."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Structure",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Flow Channel",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_3.jpg"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_4.jpg"
+    },
+    {
+      "alt_text": "Wide Gap Welded Plate Heat Exchanger Plate Pattern",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/wide_gap_welded_plate_heat_exchanger_5.png"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "Wide gap welded plate heat exchanger in alumina production",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_alumina_production_application_1.png",
+      "file_name": "wide_gap_alumina_production_application_1.png"
+    },
+    {
+      "alt_text": "Wide gap exchanger equipment for alumina cooling duty",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_alumina_production_application_2.png",
+      "file_name": "wide_gap_alumina_production_application_2.png"
+    },
+    {
+      "alt_text": "Wide gap welded plate heat exchanger for sugar industry",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_sugar_industry_application.jpeg",
+      "file_name": "wide_gap_sugar_industry_application.jpeg"
+    },
+    {
+      "alt_text": "Wide gap welded plate heat exchanger in fuel ethanol production",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_fuel_ethanol_application_1.png",
+      "file_name": "wide_gap_fuel_ethanol_application_1.png"
+    },
+    {
+      "alt_text": "Fuel ethanol heat exchange installation with wide gap exchanger",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_fuel_ethanol_application_2.jpeg",
+      "file_name": "wide_gap_fuel_ethanol_application_2.jpeg"
+    },
+    {
+      "alt_text": "Wide gap welded plate heat exchanger in chemical process service",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/wide_gap_chemical_process_application.png",
+      "file_name": "wide_gap_chemical_process_application.png"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

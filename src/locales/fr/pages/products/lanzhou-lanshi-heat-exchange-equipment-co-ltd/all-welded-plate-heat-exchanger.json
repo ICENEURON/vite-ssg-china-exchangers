@@ -1,0 +1,45 @@
+{
+  "slug": "all-welded-plate-heat-exchanger",
+  "name": "Échangeur de chaleur à plaques entièrement soudées",
+  "full_description": "La page officielle indique que les plaques sont formées par une ligne de production automatique et que les paquets de plaques sont soudés par une machine de soudage automatique dédiée, contrôlée par programme. Tous les faisceaux de plaques sont soudés à l’intérieur de la coque et la plaque de recouvrement peut être ouverte pour un nettoyage mécanique. Le produit se positionne comme une alternative compacte et efficace aux échangeurs de chaleur à calandre pour le chauffage central, la métallurgie, la pétrochimie, la chimie, l'énergie électrique, la médecine, l'alimentation et les services connexes.",
+  "industries": [
+    "HVAC",
+    "Pétrochimie",
+    "Traitement chimique",
+    "Nourriture et boissons",
+    "Produits pharmaceutiques",
+    "Production d'énergie"
+  ],
+  "advantage": [
+    "Les faisceaux de plaques sont entièrement soudés à l’intérieur de la coque.",
+    "La plaque de recouvrement peut être ouverte pour un nettoyage mécanique.",
+    "La structure du canal d'écoulement est destinée à empêcher les fuites de fluide et les croisements de fluides.",
+    "Combine une structure compacte et une efficacité de transfert de chaleur élevée avec une résistance plus élevée à la pression et à la température."
+  ],
+  "technical_parameters": {
+    "Pression de conception": "Vide ~ 6,0 MPa",
+    "Surface d’assemblage": "≤30000m2",
+    "Épaisseur des plaques": "0,5 ~ 1,2 mm",
+    "Température de conception": "-200 ~ 900 ℃",
+    "Différence minimale de température": "1℃"
+  },
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur à plaques entièrement soudées",
+    "meta_description": "Échangeur à plaques entièrement soudées installé à l’intérieur d’une coque pour un usage haute pression et haute température."
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "All-Welded Plate Heat Exchanger",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/all_welded_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

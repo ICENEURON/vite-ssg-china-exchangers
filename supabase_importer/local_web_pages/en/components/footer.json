@@ -1,0 +1,33 @@
+{
+  "logo": {
+    "alt": "HeatEx Direct",
+    "title": "HeatEx Direct"
+  },
+  "tagline": "HeatEx Direct helps global buyers compare Chinese heat exchanger manufacturers and submit structured quote requests for managed routing to suitable manufacturers within 2 business days.",
+  "categories": "Categories",
+  "resources": "Resources",
+  "rfq_label": "Get Quote",
+  "links": {
+    "items": {
+      "home": "Home",
+      "manufacturers": "Manufacturer List",
+      "products": "Product Categories",
+      "rfq": "Get Quote",
+      "profile": "Profile Updates",
+      "content-marketing-services": "Article Submissions",
+      "industry-news": "Industry News",
+      "about": "About Us",
+      "contact": "Contact Us",
+      "quote-service": "Quote request service"
+    }
+  },
+  "legal": {
+    "copyright": "Copyright© {{year}} HeatEx Direct. All Rights Reserved.",
+    "see": "See",
+    "terms": "Terms of Use",
+    "and": "and",
+    "privacy": "Privacy Policy",
+    "afterLinks": ".",
+    "entityStatement": "HeatEx Direct organizes Chinese heat exchanger manufacturer information and reviews complete, verified quote requests for routing to suitable manufacturers according to project fit and email type."
+  }
+}

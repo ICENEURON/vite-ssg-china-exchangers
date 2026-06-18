@@ -1,21 +1,70 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { useCurrentLanguage, addLanguageToPath, getPathWithoutLanguage } from '../../utils/language-routing';
 import type { Language } from '../../utils/language-routing';
 import { languages as languageConfigs } from '../../locales';
 import { Button } from '../ui/button';
 import { Globe, Check } from 'lucide-react';
+import { ensureLanguageResource } from '../../i18n/config';
+import { startNavigationFeedback, stopNavigationFeedback } from '../../utils/navigation-feedback';
 
 export function LanguageToggle() {
+  const { t } = useTranslation("translation");
   const navigate = useNavigate();
   const location = useLocation();
   const currentLanguage = useCurrentLanguage();
   const [isOpen, setIsOpen] = useState(false);
+  const [pendingLanguage, setPendingLanguage] = useState<Language | null>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const openTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const closeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const handleLanguageChange = useCallback((lang: Language) => {
-    // 首先关闭下拉菜单
+  const clearOpenTimer = useCallback(() => {
+    if (openTimerRef.current) {
+      clearTimeout(openTimerRef.current);
+      openTimerRef.current = null;
+    }
+  }, []);
+
+  const clearCloseTimer = useCallback(() => {
+    if (closeTimerRef.current) {
+      clearTimeout(closeTimerRef.current);
+      closeTimerRef.current = null;
+    }
+  }, []);
+
+  const scheduleOpen = useCallback(() => {
+    clearOpenTimer();
+    clearCloseTimer();
+    openTimerRef.current = setTimeout(() => {
+      setIsOpen(true);
+      openTimerRef.current = null;
+    }, 220);
+  }, [clearOpenTimer, clearCloseTimer]);
+
+  const scheduleClose = useCallback(() => {
+    clearOpenTimer();
+    clearCloseTimer();
+    closeTimerRef.current = setTimeout(() => {
+      setIsOpen(false);
+      closeTimerRef.current = null;
+    }, 180);
+  }, [clearOpenTimer, clearCloseTimer]);
+
+  const closeMenu = useCallback(() => {
+    clearOpenTimer();
+    clearCloseTimer();
     setIsOpen(false);
+  }, [clearOpenTimer, clearCloseTimer]);
+
+  const handleLanguageChange = useCallback(async (lang: Language) => {
+    // 首先关闭下拉菜单
+    closeMenu();
+
+    if (lang === currentLanguage) {
+      return;
+    }
 
     // 获取不包含语言前缀的当前路径
     const pathWithoutLanguage = getPathWithoutLanguage(location.pathname);
@@ -24,14 +73,29 @@ export function LanguageToggle() {
     const newPath = addLanguageToPath(pathWithoutLanguage, lang);
 
     // 导航到新路径
-    navigate(newPath);
-  }, [navigate, location.pathname]);
+    setPendingLanguage(lang);
+    startNavigationFeedback();
+
+    try {
+      await ensureLanguageResource(lang);
+      navigate(newPath);
+    } finally {
+      setPendingLanguage(null);
+      stopNavigationFeedback();
+    }
+  }, [navigate, location.pathname, closeMenu, currentLanguage]);
 
   // 点击外部区域时关闭下拉菜单
+  const prefetchLanguage = useCallback((lang: Language) => {
+    if (lang !== currentLanguage) {
+      void ensureLanguageResource(lang);
+    }
+  }, [currentLanguage]);
+
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setIsOpen(false);
+        closeMenu();
       }
     };
 
@@ -39,39 +103,66 @@ export function LanguageToggle() {
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, []);
+  }, [closeMenu]);
+
+  useEffect(() => {
+    return () => {
+      clearOpenTimer();
+      clearCloseTimer();
+    };
+  }, [clearOpenTimer, clearCloseTimer]);
 
   return (
-    <div className="relative" ref={dropdownRef}>
+    <div
+      className="relative"
+      ref={dropdownRef}
+      onMouseEnter={scheduleOpen}
+      onMouseLeave={scheduleClose}
+      onFocus={() => setIsOpen(true)}
+      onKeyDown={(event) => {
+        if (event.key === 'Escape') {
+          closeMenu();
+        }
+      }}
+    >
       <Button
         variant="ghost"
         size="navigation"
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => setIsOpen(true)}
         type="button"
-        aria-label="Select language"
-        className="hover:text-foreground"
+        disabled={pendingLanguage !== null}
+        aria-expanded={isOpen}
+        aria-label={t("ui.accessibility.select_language")}
+        className="text-navbar-foreground hover:text-navbar-foreground hover:bg-accent/40"
       >
-        <Globe className="h-4 w-4" />
+        <Globe className={`h-4 w-4 ${pendingLanguage ? "animate-spin" : ""}`} />
       </Button>
 
       {isOpen && (
-        <div className="absolute right-0 mt-2 p-2 z-50 min-w-[120px] bg-card border border-border shadow flex flex-col gap-2">
-          {Object.entries(languageConfigs).map(([code, { name, flag }]) => (
-            <Button
-              key={code}
-              variant="ghost"
-              size="sm"
-              onClick={() => handleLanguageChange(code as Language)}
-              type="button"
-              className="w-full px-3 py-2 text-left hover:bg-accent/40 hover:text-foreground flex items-center gap-2 text-sm transition-colors h-auto justify-start focus:bg-accent/70 focus:text-foreground rounded-none"
-            >
-              <span>{flag}</span>
-              <span>{name}</span>
-              {currentLanguage === code && (
-                <Check className="h-4 w-4 ml-auto text-red-500" />
-              )}
-            </Button>
-          ))}
+        <div className="absolute right-0 top-full z-50 min-w-[120px] pt-2">
+          <div className="flex flex-col gap-2 border border-border/50 bg-navbar p-2 shadow">
+            {Object.entries(languageConfigs).map(([code, { name }]) => {
+              return (
+                <Button
+                  key={code}
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => handleLanguageChange(code as Language)}
+                  onMouseEnter={() => prefetchLanguage(code as Language)}
+                  onFocus={() => prefetchLanguage(code as Language)}
+                  type="button"
+                  disabled={pendingLanguage !== null}
+                  title={name}
+                  className="w-full px-3 py-2 text-left hover:bg-accent/40 hover:text-navbar-foreground flex items-center gap-2 text-sm transition-colors h-auto justify-start focus:bg-accent/70 focus:text-navbar-foreground rounded-none text-navbar-foreground"
+                >
+                  <span>{name}</span>
+                  {currentLanguage === code && (
+                    <Check className="h-4 w-4 ml-auto text-red-500" />
+                  )}
+                </Button>
+              );
+            })}
+          </div>
         </div>
       )}
     </div>

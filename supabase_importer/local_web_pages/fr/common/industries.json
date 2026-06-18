@@ -1,0 +1,56 @@
+[
+  {
+    "id": 7,
+    "slug": "food-and-beverage",
+    "name": "Nourriture et boissons",
+    "is_visible": true
+  },
+  {
+    "id": 8,
+    "slug": "pharmaceuticals",
+    "name": "Produits pharmaceutiques",
+    "is_visible": true
+  },
+  {
+    "id": 9,
+    "slug": "power-generation",
+    "name": "Production d'énergie",
+    "is_visible": true
+  },
+  {
+    "id": 1,
+    "slug": "hvac",
+    "name": "HVAC",
+    "is_visible": true
+  },
+  {
+    "id": 2,
+    "slug": "petrochemical",
+    "name": "Pétrochimie",
+    "is_visible": true
+  },
+  {
+    "id": 3,
+    "slug": "marine",
+    "name": "Marin",
+    "is_visible": true
+  },
+  {
+    "id": 4,
+    "slug": "energy",
+    "name": "Énergie",
+    "is_visible": true
+  },
+  {
+    "id": 5,
+    "slug": "food-processing",
+    "name": "Transformation des aliments",
+    "is_visible": true
+  },
+  {
+    "id": 6,
+    "slug": "chemical-processing",
+    "name": "Traitement chimique",
+    "is_visible": true
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "slug": "plate-heat-exchanger-unit",
+  "name": "Unité d'échangeur de chaleur à plaques",
+  "full_description": "La page produit officielle présente cette unité comme un ensemble complet d'équipements d'échange thermique intégrant un échangeur thermique à plaques, une pompe à eau, des vannes, des instruments et un système de contrôle. Il peut être configuré avec des capteurs, des contrôleurs, des actionneurs électriques, un contrôle de communication à distance, une mesure du flux thermique, un traitement de l'eau et des accessoires de réservoir d'eau adoucie pour prendre en charge les échanges thermiques vapeur-eau, eau-eau et huile-eau.",
+  "industries": [
+    "HVAC",
+    "Marin",
+    "Énergie"
+  ],
+  "advantage": [
+    "Intègre un échangeur de chaleur à plaques, une pompe, des vannes, des instruments et un système de contrôle dans une seule unité.",
+    "Prend en charge les capteurs configurables, les contrôleurs, les actionneurs électriques et le contrôle de communication à distance.",
+    "Les systèmes optionnels comprennent la mesure de la chaleur, le traitement de l'eau et l'équipement du réservoir d'eau adoucie.",
+    "Les fonctions de contrôle officiellement répertoriées incluent la conversion de fréquence, l'alimentation en température et pression constantes, le démarrage automatique, la protection par verrouillage et l'affichage des données sur site."
+  ],
+  "technical_parameters": {},
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Unité d'échangeur de chaleur à plaques",
+    "meta_description": "Skid d'échange thermique intégré combinant un échangeur thermique à plaques, une pompe, des vannes, des instruments et des commandes."
+  },
+  "manufacturer": {
+    "slug": "lanzhou-lanshi-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Heat Exchanger Unit",
+      "url": "/storage/assets/lanzhou-lanshi-heat-exchange-equipment-co-ltd/product_images/plate_heat_exchanger_unit_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

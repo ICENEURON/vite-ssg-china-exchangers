@@ -1,0 +1,68 @@
+{
+  "slug": "fully-welded-plate-heat-exchanger",
+  "name": "Échangeur de chaleur à plaques entièrement soudées",
+  "full_description": "Un échangeur à plaques entièrement soudées utilise un faisceau permanent de plaques ondulées soudées au lieu de canaux d’échange à joints. Cette structure améliore le confinement des fluides exigeants tout en conservant la performance compacte des plaques pour la pétrochimie, le raffinage, la chimie, la pharmacie, l’énergie, la géothermie et les procédés de haute pureté.",
+  "industries": [
+    "Pétrochimie",
+    "Énergie",
+    "Traitement chimique",
+    "Produits pharmaceutiques",
+    "Production d'énergie"
+  ],
+  "advantage": [
+    "Le cœur sans joints réduit les points de fuite externe et les remplacements de joints.",
+    "Les canaux ondulés soudés offrent une forte efficacité thermique dans une emprise compacte.",
+    "Adapté aux fluides dangereux, de grande valeur, corrosifs, haute pression et haute température avec des matériaux appropriés.",
+    "La faible demande de maintenance courante soutient les lignes de procédé continues.",
+    "Le nettoyage CIP et le plan d’inspection peuvent être adaptés au comportement d’encrassement du fluide.",
+    "Les matériaux peuvent inclure l’acier inoxydable, le titane, l’Hastelloy et d’autres alliages résistants à la corrosion."
+  ],
+  "technical_parameters": {
+    "Matériaux": "Acier inoxydable, titane, Hastelloy et autres alliages résistants à la corrosion",
+    "Faisceau de plaques": "Faisceau permanent de plaques ondulées soudées",
+    "Applications typiques": "Pétrochimie, raffinage, chimie, pharmacie, énergie, géothermie et services haute pureté",
+    "Pression de conception": "Jusqu’à 40 bar; conceptions spéciales jusqu’à 100 bar",
+    "Étanchéité du cœur": "Aucun joint dans le cœur d’échange thermique",
+    "Température de conception": "-50°C à +350°C avec des matériaux adaptés"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Quand le sélectionner",
+      "content": "Choisir cette conception lorsque le confinement des fuites, la haute pression, la haute température, la résistance à la corrosion ou la réduction de maintenance des joints prime sur l’accès mécanique complet à chaque canal."
+    },
+    {
+      "title": "Points d’ingénierie",
+      "content": "Le projet doit confirmer la pression, le programme de température, la compatibilité des matériaux, la dilatation thermique, le nettoyage, les exigences de soudage et l’essai hydrostatique final."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Échangeur de chaleur à plaques entièrement soudées",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. fournit échangeur de chaleur à plaques entièrement soudées pour les applications industrielles d’échange thermique avec sélection des matériaux, pression, température et maintenance par projet."
+  },
+  "manufacturer": {
+    "slug": "kdp-machinery-jiangsu-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 1",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_1.png"
+    },
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 2",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_2.png"
+    },
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 3",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_3.png"
+    },
+    {
+      "alt_text": "Fully Welded Plate Heat Exchanger image 4",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_4.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

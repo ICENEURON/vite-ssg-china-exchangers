@@ -1,0 +1,54 @@
+{
+  "title": "联系我们 | HeatEx Direct",
+  "meta": {
+    "description": "联系 HeatEx Direct：面向全球买家、中国换热器制造商、行业内容合作方和资料更新需求，沟通工业换热器采购信息、厂家资料、产品页面和询价支持。",
+    "keywords": "联系 HeatEx Direct, 换热器采购咨询, 中国换热器制造商资料更新, 工业换热器询价, 供应商合作"
+  },
+  "og": {
+    "title": "联系 HeatEx Direct",
+    "description": "关于换热器采购、厂家资料、产品页面、内容合作或信息纠错，请联系 HeatEx Direct 团队。"
+  },
+  "hero": {
+    "title_prefix": "联系 ",
+    "title_suffix": " 团队",
+    "description": " 帮助全球买家了解和评估中国换热器制造商、产品信息及相关资料。无论是采购咨询、厂家信息更新、文章投稿，还是内容更正，都可以联系我们。",
+    "copy_email": "复制",
+    "email_copied": "已复制"
+  },
+  "paths": {
+    "title": "我们可以如何帮助？",
+    "description": "选择最符合您咨询内容的选项，无论是采购、制造商信息、文章提交还是页面纠错。",
+    "items": {
+      "buyer": {
+        "title": "采购咨询",
+        "description": "咨询已收录制造商、产品信息，或平台尚未覆盖的中国换热器供应商。",
+        "action": "联系团队"
+      },
+      "supplier": {
+        "title": "资料更新",
+        "description": "更新公司详情、产品范围、证书、图片或其他支持材料。",
+        "action": "更新信息"
+      },
+      "content": {
+        "title": "文章提交",
+        "description": "提交公司新闻、产品文章、技术说明、项目故事或案例研究材料。",
+        "action": "提交文章"
+      },
+      "correction": {
+        "title": "纠错",
+        "description": "反馈错误信息、失效链接、语言问题或其他网站相关问题。",
+        "action": "联系支持"
+      }
+    }
+  },
+  "cta": {
+    "email_label": "发送邮件",
+    "note": "我们会人工查看邮件，并跟进采购咨询、资料更新、文章提交和支持请求。",
+    "checklist_title": "建议包含的信息",
+    "checklist": [
+      "说明您的身份和具体需求。",
+      "如有支持文件或链接，请一并提供。",
+      "使用可以成功接收回复的邮箱。"
+    ]
+  }
+}

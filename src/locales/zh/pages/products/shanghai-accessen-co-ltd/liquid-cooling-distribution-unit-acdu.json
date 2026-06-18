@@ -1,0 +1,52 @@
+{
+  "slug": "liquid-cooling-distribution-unit-acdu",
+  "name": "ACDU高效节能液冷分配单元/液冷系统集成",
+  "full_description": "Liquid-Cooling Distribution Unit ACDU 面向数据中心液冷系统应用，支持不受地域限制的部署和全气候无压缩机自然冷却。根据官网介绍，该产品可降低整体系统 PUE，并通过智能控制、变频泵和水力流量调节实现持续自适应运行，同时借助模块化预制设计减少现场安装复杂度。",
+  "industries": [],
+  "advantage": [
+    "经过现场应用验证的可靠性与安全性",
+    "快速部署",
+    "具备自适应控制系统",
+    "高效液冷能力",
+    "模块化预制"
+  ],
+  "technical_parameters": {
+    "电源": "380V~415VAC/50±1Hz",
+    "海拔范围": "-30m~2500m",
+    "存储温度范围": "-40°C~70°C",
+    "运行温度范围": "5°C~50°C",
+    "运行相对湿度": "5%~95%",
+    "一次侧冷却介质": "水 / 乙二醇基冷却液",
+    "一次侧过滤精度": "200μm~300μm",
+    "二次侧冷却介质": "去离子水 / 乙二醇 / 丙二醇 / 含氟流体",
+    "二次侧过滤精度": "100μm~200μm"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "ACDU 主要用于什么场景？",
+      "content": "官网将 ACDU 定位为面向数据中心液冷系统的分配单元，可支持无压缩机自然冷却，并帮助降低整体系统 PUE。"
+    },
+    {
+      "title": "它如何缩短部署周期？",
+      "content": "该产品采用预制化模块设计，可减少现场安装复杂度，从而支持更快的项目交付。"
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "ACDU高效节能液冷分配单元/液冷系统集成",
+    "meta_description": "面向数据中心液冷系统的预制化液冷分配单元，具备自然冷却、自适应控制和快速部署能力。"
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Liquid-Cooling Distribution Unit ACDU",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/liquid_cooling_distribution_unit_acdu.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

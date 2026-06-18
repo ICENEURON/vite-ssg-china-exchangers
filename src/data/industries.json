@@ -1,0 +1,119 @@
+[
+  {
+    "id": 7,
+    "slug": "food-and-beverage",
+    "name": {
+      "ar": "الأطعمة والمشروبات",
+      "en": "Food and Beverage",
+      "es": "Alimentos y Bebidas",
+      "fr": "Nourriture et boissons",
+      "ru": "Еда и напитки",
+      "zh": "食品与饮料"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 8,
+    "slug": "pharmaceuticals",
+    "name": {
+      "ar": "المستحضرات الصيدلانية",
+      "en": "Pharmaceuticals",
+      "es": "Productos farmacéuticos",
+      "fr": "Produits pharmaceutiques",
+      "ru": "Фармацевтика",
+      "zh": "制药"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 9,
+    "slug": "power-generation",
+    "name": {
+      "ar": "توليد الطاقة",
+      "en": "Power Generation",
+      "es": "Generación de energía",
+      "fr": "Production d'énergie",
+      "ru": "Производство электроэнергии",
+      "zh": "发电/电力"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 1,
+    "slug": "hvac",
+    "name": {
+      "ar": "HVAC",
+      "en": "HVAC",
+      "es": "HVAC",
+      "fr": "HVAC",
+      "ru": "HVAC",
+      "zh": "暖通空调"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 2,
+    "slug": "petrochemical",
+    "name": {
+      "ar": "البتروكيماويات",
+      "en": "Petrochemical",
+      "es": "petroquímica",
+      "fr": "Pétrochimie",
+      "ru": "нефтехимическая",
+      "zh": "石油化工"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 3,
+    "slug": "marine",
+    "name": {
+      "ar": "البحرية",
+      "en": "Marine",
+      "es": "marina",
+      "fr": "Marin",
+      "ru": "Морской",
+      "zh": "船舶/海工"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 4,
+    "slug": "energy",
+    "name": {
+      "ar": "الطاقة",
+      "en": "Energy",
+      "es": "Energía",
+      "fr": "Énergie",
+      "ru": "Энергия",
+      "zh": "能源"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 5,
+    "slug": "food-processing",
+    "name": {
+      "ar": "تجهيز الأغذية",
+      "en": "Food Processing",
+      "es": "Procesamiento de alimentos",
+      "fr": "Transformation des aliments",
+      "ru": "Пищевая промышленность",
+      "zh": "食品加工"
+    },
+    "is_visible": true
+  },
+  {
+    "id": 6,
+    "slug": "chemical-processing",
+    "name": {
+      "ar": "المعالجة الكيميائية",
+      "en": "Chemical Processing",
+      "es": "Procesamiento químico",
+      "fr": "Traitement chimique",
+      "ru": "Химическая обработка",
+      "zh": "化工"
+    },
+    "is_visible": true
+  }
+]

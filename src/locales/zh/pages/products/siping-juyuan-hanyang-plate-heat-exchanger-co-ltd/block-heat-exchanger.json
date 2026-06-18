@@ -1,0 +1,41 @@
+{
+  "slug": "block-heat-exchanger",
+  "name": "板框式热交换器",
+  "full_description": "官网将板框式热交换器描述为巨元具有自主知识产权的专利产品（专利号：200520127761.X），属于焊接板式热交换器。该产品以板片作为换热元件，融合板式换热器和螺旋板式换热器的优点。页面说明该系列严格执行 NB/T47004-2009 和 GB150-1998 标准，也可按用户要求执行 API662、ASME 等标准。",
+  "industries": [
+    "石油化工",
+    "能源",
+    "化工",
+    "制药",
+    "发电/电力"
+  ],
+  "advantage": [
+    "具有自主知识产权的专利产品。",
+    "兼具高换热效率、结构紧凑、耐高温、密封性能和安全可靠性。",
+    "采用自动焊接设备及焊接图像自动跟踪控制焊缝质量。",
+    "板框式结构相较可拆式板换更紧凑，可节省空间和建设成本。"
+  ],
+  "technical_parameters": {
+    "专利号": "200520127761.X",
+    "执行标准": "NB/T47004-2009；GB150-1998；可按要求执行 API662、ASME"
+  },
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "板框式热交换器",
+    "meta_description": "融合板式换热效率与焊接密封、耐温耐压能力的专利板框式热交换器。"
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Block Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/block_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

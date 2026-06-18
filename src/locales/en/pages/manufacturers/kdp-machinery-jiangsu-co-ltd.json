@@ -1,0 +1,136 @@
+{
+  "name": "KDP Machinery Jiangsu Co., Ltd.",
+  "full_description": [
+    "KDP Machinery Jiangsu Co., Ltd. is a heat-transfer equipment manufacturer located in Jiangyin, Jiangsu. Established in 2013, the company supplies plate heat exchangers and process heat-transfer systems for chemical, petrochemical, energy, food, pharmaceutical, HVAC, refrigeration, marine, and industrial water-treatment applications.",
+    "Its product range covers fully welded plate heat exchangers, semi-welded plate heat exchangers, gasketed plate heat exchangers, plate evaporators, plate condensers, plate-shell heat exchangers, brazed plate heat exchangers, steam-water mixers, plate heat exchanger plates, gaskets, and integrated heat exchange units.",
+    "The production base supports plate forming, welding, assembly, pressure testing, and project customization. Equipment resources include large hydraulic presses, forming machines, and laser welding systems used for welded and semi-welded plate heat exchanger manufacturing.",
+    "The company serves heat-transfer and water-treatment processes such as evaporation, crystallization, salt separation, petrochemical wastewater treatment, industrial wastewater concentration, condensate polishing, boiler make-up water treatment, membrane water treatment, and process heat recovery.",
+    "International supply is supported through export licensing, Shanghai port logistics, and common trade terms such as FOB, EXW, CFR, and CIF. Product selection is typically based on media properties, pressure, temperature, fouling tendency, materials, maintenance access, and applicable pressure-vessel requirements."
+  ],
+  "advantages": [
+    "Covers multiple plate heat exchanger formats, including gasketed, semi-welded, fully welded, plate-shell, evaporation, and condensation equipment.",
+    "Supports customized selection around media compatibility, pressure, temperature, corrosion resistance, fouling behavior, and service access.",
+    "Manufacturing capability includes plate forming, welding, assembly, and pressure testing for industrial heat-transfer projects.",
+    "Products serve chemical, petrochemical, refrigeration, food, pharmaceutical, energy, HVAC, marine, and water-treatment processes.",
+    "Export supply can be arranged through Shanghai port with common international trade terms."
+  ],
+  "slug": "kdp-machinery-jiangsu-co-ltd",
+  "website": "https://www.kdpw2008.com/",
+  "video_link": "",
+  "social_media_links": [],
+  "email": [
+    "sales01@kdpw2008.com"
+  ],
+  "phone": [
+    "+8618068277130",
+    "+8618921229130"
+  ],
+  "country_name": "China",
+  "city": "Jiangyin",
+  "address": "No. 198 Qiaoqi Zhongshan Road, Xuxiake Town, Jiangyin City, Wuxi, Jiangsu, China",
+  "established_year": "2013",
+  "factory_area": "38000m2",
+  "employee_count": "145+",
+  "export_markets": [
+    "US",
+    "CA",
+    "BR",
+    "CL",
+    "PL",
+    "RO",
+    "ID",
+    "MY",
+    "VN",
+    "TH",
+    "PH",
+    "ZA",
+    "EG",
+    "AU",
+    "NZ",
+    "SA",
+    "AE",
+    "JP",
+    "KR",
+    "DE",
+    "FR",
+    "GB",
+    "KZ",
+    "IN",
+    "BD",
+    "LK",
+    "TR"
+  ],
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. Heat Exchanger Manufacturer",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. manufactures gasketed, semi-welded, fully welded, plate-shell, evaporator, and condenser heat exchanger products for industrial process heat-transfer applications."
+  },
+  "industries": [
+    "HVAC",
+    "Petrochemical",
+    "Marine",
+    "Energy",
+    "Food Processing",
+    "Chemical Processing",
+    "Food and Beverage",
+    "Pharmaceuticals",
+    "Power Generation"
+  ],
+  "certifications": [
+    {
+      "alt_text": "KDP Machinery Jiangsu Co., Ltd. ASME certificate",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/company_certifications/kdp_asme.jpg"
+    }
+  ],
+  "customers": [],
+  "images": [
+    {
+      "alt_text": "KDP Machinery Jiangsu Co., Ltd. factory exterior",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/company_images/kdp_factory_exterior.jpg"
+    }
+  ],
+  "documents": [],
+  "products": [
+    {
+      "slug": "fully-welded-plate-heat-exchanger",
+      "name": "Fully Welded Plate Heat Exchanger",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_1.png",
+      "short_description": "Gasket-free welded plate exchanger for high-pressure, high-temperature, corrosive, hazardous, or high-value process fluids.",
+      "url": "kdp-machinery-jiangsu-co-ltd/fully-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "semi-welded-plate-heat-exchanger",
+      "name": "Semi-Welded Plate Heat Exchanger",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.png",
+      "short_description": "Hybrid welded-and-gasketed plate exchanger for duties with one aggressive, toxic, refrigerant, or high-pressure medium and one serviceable side.",
+      "url": "kdp-machinery-jiangsu-co-ltd/semi-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "gasketed-plate-heat-exchanger",
+      "name": "Gasketed Plate Heat Exchanger (PHE)",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_1.png",
+      "short_description": "Openable plate-and-frame heat exchanger for efficient liquid-to-liquid heat transfer, cleaning access, and capacity adjustment.",
+      "url": "kdp-machinery-jiangsu-co-ltd/gasketed-plate-heat-exchanger"
+    },
+    {
+      "slug": "plate-evaporators",
+      "name": "Plate Evaporators",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_evaporator_1.png",
+      "short_description": "Compact plate evaporator equipment for concentration, evaporation, solvent removal, and heat-sensitive process duties.",
+      "url": "kdp-machinery-jiangsu-co-ltd/plate-evaporators"
+    },
+    {
+      "slug": "plate-condenser",
+      "name": "Plate Condenser",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_1.png",
+      "short_description": "Compact plate condenser for vapor condensation, refrigerant condensation, solvent recovery, and process heat recovery.",
+      "url": "kdp-machinery-jiangsu-co-ltd/plate-condenser"
+    },
+    {
+      "slug": "plate-shell-heat-exchanger-pshe",
+      "name": "Plate-Shell Heat Exchanger (PSHE)",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_1.png",
+      "short_description": "High-efficiency welded plate bundle inside a pressure shell for high-pressure, high-temperature, vibration, LNG, oil and gas, chemical, and marine services.",
+      "url": "kdp-machinery-jiangsu-co-ltd/plate-shell-heat-exchanger-pshe"
+    }
+  ]
+}

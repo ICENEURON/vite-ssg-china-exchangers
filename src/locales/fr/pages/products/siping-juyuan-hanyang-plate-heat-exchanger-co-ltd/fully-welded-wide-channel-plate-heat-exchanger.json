@@ -1,0 +1,41 @@
+{
+  "slug": "fully-welded-wide-channel-plate-heat-exchanger",
+  "name": "Échangeur de chaleur à plaques à canaux larges entièrement soudé",
+  "full_description": "La page officielle indique que l'échangeur de chaleur à plaques à larges canaux entièrement soudé est créé pour les besoins particuliers des clients et est particulièrement adapté aux milieux contenant de grandes quantités de particules solides, de suspensions de fibres et de fluides visqueux dans les processus de métallurgie, de fabrication du papier, de sucre, d'alcool, de génie chimique et de traitement des eaux usées. Le produit utilise de grandes plaques simples, d'une longueur maximale supérieure à 10 000 mm et d'une largeur maximale de 1 200 mm. Les colonnes d'espacement des plaques sont soudées au laser, les soudures longues sont soudées par couture, les soudures des extrémités extérieures utilisent un soudage automatique à l'arc sous argon et chaque paire de plaques reçoit un test d'étanchéité à l'air de 0,6 à 0,7 MPa après le soudage.",
+  "industries": [
+    "Pétrochimie",
+    "Transformation des aliments",
+    "Traitement chimique",
+    "Nourriture et boissons"
+  ],
+  "advantage": [
+    "Conception à canaux larges pour les solides, les fibres et les fluides visqueux.",
+    "La grande taille de plaque unique prend en charge les processus industriels exigeants.",
+    "Le soudage au laser, le soudage continu et le soudage automatique à l'arc sous argon sont utilisés pour différentes positions de soudage.",
+    "Chaque paire de plaques subit un test d'étanchéité à l'air après soudage."
+  ],
+  "technical_parameters": {
+    "Largeur d’une plaque": "1200 mm",
+    "Longueur maximale d’une plaque": ">10 000 mm",
+    "Essai d’étanchéité à l’air": "0,6-0,7MPa après le soudage de chaque paire de plaques"
+  },
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur à plaques à canaux larges entièrement soudé",
+    "meta_description": "Échangeur de chaleur à plaques à canaux larges entièrement soudé pour les applications de particules solides, de suspension de fibres et de fluides visqueux."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Fully Welded Wide Channel Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/fully_welded_wide_channel_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

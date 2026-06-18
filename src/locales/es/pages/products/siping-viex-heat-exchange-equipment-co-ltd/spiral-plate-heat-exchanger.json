@@ -1,0 +1,53 @@
+{
+  "slug": "spiral-plate-heat-exchanger",
+  "name": "Intercambiador de calor de placas en espiral",
+  "full_description": "ViEX se describe a sí mismo como un fabricante nacional profesional de intercambiadores de calor de placas en espiral con esquemas de diseño avanzados, rica experiencia en fabricación, equipos de herramientas avanzados y amplios campos de aplicación. La página oficial enumera intercambiadores de calor de placas en espiral desmontables y no desmontables, brinda opciones de materiales y canales y destaca resultados innovadores como condensadores de benzol crudo, intercambiadores de calor de placas en espiral desmontables de cuatro canales e intercambiadores de calor de placas en espiral desmontables de un lado.",
+  "industries": [
+    "petroquímica",
+    "Procesamiento químico",
+    "Alimentos y Bebidas"
+  ],
+  "advantage": [
+    "Esquema de diseño avanzado y rica experiencia en fabricación.",
+    "Configuraciones desmontables y no desmontables",
+    "Amplia gama de opciones de materiales y tamaños.",
+    "Adecuado para aplicaciones de procesos industriales exigentes",
+    "Incluye exportaciones y referencias de acero, coquización, alcohol y biotecnología."
+  ],
+  "technical_parameters": {
+    "Normas": "JB/T4751-2003; GB150-1998",
+    "Ancho de placa": "Acero al carbono: 500, 630, 750, 1260, 1500, 2000 mm; Acero inoxidable: 610, 750, 1220, 1500, 2000 mm",
+    "Clase de presión": "No desmontable: 4,5 MPa; Desmontable: 1.0MPa",
+    "Material de placas": "Q235B; SUS304; 316; 316L; 321",
+    "Espaciado de canales": "6,0-32,0 mm opcional",
+    "Temperatura máxima de operación": "No desmontable: 400 ℃; Desmontable: 300 ℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "¿Qué resultados innovadores se enumeran?",
+      "content": "La página oficial enumera condensadores de benzol crudo, intercambiadores de calor de placas en espiral desmontables de cuatro canales e intercambiadores de calor de placas en espiral desmontables de un lado como resultados innovadores representativos."
+    },
+    {
+      "title": "¿Qué proyectos de referencia se muestran?",
+      "content": "La página cita entre las referencias típicas la coque Baosteel Meishan, Tangshan Ganglu Steel, el proyecto Usiminas en Brasil, Jiyuan Jinma Coking, Jilin Xintianlong Alcohol, Heilongjiang Xiangyuan Oil Factory y casos relacionados con las exportaciones."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Intercambiador de calor de placas en espiral | Siping ViEX",
+    "meta_description": "Intercambiador de calor de placas en espiral con configuraciones desmontables y no desmontables para aplicaciones de la industria de procesos."
+  },
+  "manufacturer": {
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Spiral Plate Heat Exchanger",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/spiral_plate_heat_exchanger.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

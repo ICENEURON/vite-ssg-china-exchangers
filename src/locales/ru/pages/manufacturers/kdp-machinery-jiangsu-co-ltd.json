@@ -1,0 +1,136 @@
+{
+  "name": "KDP Machinery Jiangsu Co., Ltd.",
+  "full_description": [
+    "KDP Machinery Jiangsu Co., Ltd. — производитель теплообменного оборудования в городе Цзянъинь, провинция Цзянсу. Компания основана в 2013 году и поставляет пластинчатые теплообменники и технологические системы теплообмена для химии, нефтехимии, энергетики, пищевой промышленности, фармацевтики, HVAC, холодильной техники, судостроения и промышленной водоподготовки.",
+    "Ассортимент включает полностью сварные пластинчатые теплообменники, полусварные пластинчатые теплообменники, разборные пластинчатые теплообменники, пластинчатые испарители, пластинчатые конденсаторы, пластинчато-корпусные теплообменники, паяные пластинчатые теплообменники, пароводяные смесители, пластины, прокладки и интегрированные теплообменные установки.",
+    "Производственная база поддерживает формование пластин, сварку, сборку, испытания давлением и проектную кастомизацию. Оборудование включает крупные гидравлические прессы, формовочные машины и лазерные сварочные системы для сварных и полусварных пластинчатых теплообменников.",
+    "Компания работает с процессами испарения, кристаллизации, разделения солей, очистки нефтехимических сточных вод, концентрирования промышленных сточных вод, полировки конденсата, подготовки подпиточной воды котлов, мембранной водоподготовки и рекуперации технологического тепла.",
+    "Международные поставки поддерживаются экспортной лицензией, логистикой через порт Шанхая и торговыми условиями FOB, EXW, CFR и CIF. Подбор оборудования обычно учитывает свойства сред, давление, температуру, склонность к загрязнению, материалы, доступ для обслуживания и требования к сосудам под давлением."
+  ],
+  "advantages": [
+    "Охватывает несколько форматов пластинчатых теплообменников: разборные, полусварные, полностью сварные, пластинчато-корпусные, испарительные и конденсационные решения.",
+    "Поддерживает индивидуальный подбор по совместимости сред, давлению, температуре, коррозионной стойкости, загрязнению и доступу для обслуживания.",
+    "Производственные возможности включают формование пластин, сварку, сборку и испытания давлением для промышленных проектов теплообмена.",
+    "Продукция применяется в химии, нефтехимии, холодильной технике, пищевой промышленности, фармацевтике, энергетике, HVAC, судостроении и водоподготовке.",
+    "Экспортные поставки могут выполняться через порт Шанхая с использованием стандартных международных торговых условий."
+  ],
+  "slug": "kdp-machinery-jiangsu-co-ltd",
+  "website": "https://www.kdpw2008.com/",
+  "video_link": "",
+  "social_media_links": [],
+  "email": [
+    "sales01@kdpw2008.com"
+  ],
+  "phone": [
+    "+8618068277130",
+    "+8618921229130"
+  ],
+  "country_name": "Китай",
+  "city": "Цзянъинь",
+  "address": "No. 198 Qiaoqi Zhongshan Road, Xuxiake Town, Jiangyin City, Wuxi, Jiangsu, China",
+  "established_year": "2013",
+  "factory_area": "38000m2",
+  "employee_count": "145+",
+  "export_markets": [
+    "US",
+    "CA",
+    "BR",
+    "CL",
+    "PL",
+    "RO",
+    "ID",
+    "MY",
+    "VN",
+    "TH",
+    "PH",
+    "ZA",
+    "EG",
+    "AU",
+    "NZ",
+    "SA",
+    "AE",
+    "JP",
+    "KR",
+    "DE",
+    "FR",
+    "GB",
+    "KZ",
+    "IN",
+    "BD",
+    "LK",
+    "TR"
+  ],
+  "seo_data": {
+    "meta_title": "KDP Machinery Jiangsu Co., Ltd. производитель теплообменников",
+    "meta_description": "KDP Machinery Jiangsu Co., Ltd. производит разборные, полусварные, полностью сварные, пластинчато-корпусные, испарительные и конденсационные теплообменники для промышленных процессов."
+  },
+  "industries": [
+    "HVAC",
+    "нефтехимическая",
+    "Морской",
+    "Энергия",
+    "Пищевая промышленность",
+    "Химическая обработка",
+    "Еда и напитки",
+    "Фармацевтика",
+    "Производство электроэнергии"
+  ],
+  "certifications": [
+    {
+      "alt_text": "KDP Machinery Jiangsu Co., Ltd. ASME certificate",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/company_certifications/kdp_asme.jpg"
+    }
+  ],
+  "customers": [],
+  "images": [
+    {
+      "alt_text": "KDP Machinery Jiangsu Co., Ltd. factory exterior",
+      "url": "/storage/assets/kdp-machinery-jiangsu-co-ltd/company_images/kdp_factory_exterior.jpg"
+    }
+  ],
+  "documents": [],
+  "products": [
+    {
+      "slug": "fully-welded-plate-heat-exchanger",
+      "name": "Полностью сварной пластинчатый теплообменник",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/fully_welded_plate_heat_exchanger_1.png",
+      "short_description": "Пластинчатый теплообменник без прокладок для высокого давления, высокой температуры, коррозионных, опасных или ценных технологических сред.",
+      "url": "kdp-machinery-jiangsu-co-ltd/fully-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "semi-welded-plate-heat-exchanger",
+      "name": "Полусварной пластинчатый теплообменник",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/semi_welded_plate_heat_exchanger_1.png",
+      "short_description": "Гибридный сварно-прокладочный пластинчатый теплообменник для задач с одной агрессивной, токсичной, холодильной или высоконапорной средой и одной обслуживаемой стороной.",
+      "url": "kdp-machinery-jiangsu-co-ltd/semi-welded-plate-heat-exchanger"
+    },
+    {
+      "slug": "gasketed-plate-heat-exchanger",
+      "name": "Разборный пластинчатый теплообменник (PHE)",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/gasketed_plate_heat_exchanger_1.png",
+      "short_description": "Разборный пластинчато-рамный теплообменник для эффективной жидкость-жидкость теплопередачи, доступа к очистке и регулирования мощности.",
+      "url": "kdp-machinery-jiangsu-co-ltd/gasketed-plate-heat-exchanger"
+    },
+    {
+      "slug": "plate-evaporators",
+      "name": "Пластинчатые испарители",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_evaporator_1.png",
+      "short_description": "Компактное пластинчатое испарительное оборудование для концентрирования, испарения, удаления растворителя и термочувствительных процессов.",
+      "url": "kdp-machinery-jiangsu-co-ltd/plate-evaporators"
+    },
+    {
+      "slug": "plate-condenser",
+      "name": "Пластинчатый конденсатор",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_condenser_1.png",
+      "short_description": "Компактный пластинчатый конденсатор для конденсации пара, хладагентов, восстановления растворителей и рекуперации технологического тепла.",
+      "url": "kdp-machinery-jiangsu-co-ltd/plate-condenser"
+    },
+    {
+      "slug": "plate-shell-heat-exchanger-pshe",
+      "name": "Пластинчато-корпусный теплообменник (PSHE)",
+      "image": "/storage/assets/kdp-machinery-jiangsu-co-ltd/product_images/plate_shell_heat_exchanger_1.png",
+      "short_description": "Высокоэффективный сварной пакет пластин внутри напорного корпуса для высокого давления, высокой температуры, вибрации, LNG, нефти и газа, химии и морского сервиса.",
+      "url": "kdp-machinery-jiangsu-co-ltd/plate-shell-heat-exchanger-pshe"
+    }
+  ]
+}

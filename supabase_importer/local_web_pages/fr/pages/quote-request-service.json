@@ -1,0 +1,90 @@
+{
+  "title": "Service de demande de devis pour échangeurs de chaleur | HeatEx Direct",
+  "meta": {
+    "description": "Envoyez une demande structurée pour échangeur de chaleur, vérifiez un e-mail réel, puis laissez HeatEx Direct examiner le besoin et aider à lancer le suivi de devis avec des fabricants chinois adaptés.",
+    "keywords": "service de demande de devis échangeur de chaleur, devis échangeur de chaleur, demande échangeur de chaleur, fabricants chinois échangeurs de chaleur, achat échangeur de chaleur"
+  },
+  "og": {
+    "title": "Service de demande de devis pour échangeurs de chaleur",
+    "description": "Une demande, plusieurs fabricants adaptés et coordonnées protégées au départ pour le suivi de devis."
+  },
+  "hero": {
+    "title": "Service de demande de devis pour échangeurs de chaleur",
+    "description": "Envoyez une demande structurée, vérifiez un e-mail réel, puis HeatEx Direct examine le projet avant d’aider à contacter des fabricants adaptés."
+  },
+  "summary": [
+    {
+      "title": "Pas d’e-mails répétés à différentes entreprises",
+      "body": "Regroupez produit, conditions de service, quantité, plans et questions dans une seule demande afin de rendre le suivi plus clair."
+    },
+    {
+      "title": "Une demande, plusieurs usines adaptées",
+      "body": "Nous sélectionnons les fabricants les mieux adaptés selon le type de produit, le secteur et le stade du projet."
+    },
+    {
+      "title": "Coordonnées d’abord protégées",
+      "body": "Vous pouvez choisir une demande anonyme. Nous protégeons vos informations personnelles avant de contacter les usines."
+    }
+  ],
+  "stepsTitle": "Le processus est simple",
+  "stepsDescription": "Préparez le besoin, vérifiez votre e-mail, puis HeatEx Direct aide à lancer le suivi de devis avec des fabricants adaptés.",
+  "steps": [
+    {
+      "title": "Envoyez un besoin réel",
+      "body": "Précisez type de produit, paramètres de service, matériaux, quantité, délai, plans et questions encore incertaines."
+    },
+    {
+      "title": "Vérifiez un e-mail réel",
+      "body": "Aucun compte n’est requis, mais l’e-mail doit être vérifié pour que devis et questions techniques atteignent un acheteur réel."
+    },
+    {
+      "title": "Examen manuel et contact fabricants",
+      "body": "HeatEx Direct sélectionne les fabricants adaptés selon le produit, le secteur et le stade du projet, puis aide à lancer le suivi de devis."
+    }
+  ],
+  "cta": {
+    "title": "Commencez à préparer une demande claire pour échangeur de chaleur",
+    "description": "Si vous avez un projet réel, un besoin de remplacement ou une question technique, envoyez les informations déjà disponibles. Un contexte plus clair rend le suivi de devis plus précis.",
+    "button": "Commencer la demande"
+  },
+  "schema": {
+    "name": "Service de demande de devis pour échangeurs de chaleur",
+    "description": "HeatEx Direct aide les acheteurs à envoyer des demandes structurées pour échangeurs de chaleur, vérifier l’e-mail, examiner manuellement les besoins et lancer le suivi de devis avec des fabricants adaptés.",
+    "serviceType": "Service de demande de devis pour échangeurs de chaleur"
+  },
+  "eyebrow": "Service de demande de devis",
+  "serviceTitle": "Ce qu’est ce service",
+  "serviceDescription": "HeatEx Direct organise votre besoin d’échangeur de chaleur en une demande claire, puis aide à contacter des fabricants adaptés selon le type de produit, les conditions de service et le stade du projet.",
+  "routingTitle": "E-mail et plage de contact",
+  "routingHeading": "Comment nous organisons le suivi fabricant",
+  "routingDescription": "Une adresse avec domaine d’entreprise et des informations complètes aident les fabricants à juger l’authenticité du projet. Les demandes depuis une adresse personnelle peuvent aussi être envoyées; nous aidons d’abord à contacter un nombre plus réduit de fabricants mieux adaptés.",
+  "metrics": [
+    {
+      "label": "Demande qualifiée avec e-mail professionnel",
+      "value": "3-5",
+      "body": "Peut être aidée pour contacter 3-5 fabricants adaptés pour le suivi de devis."
+    },
+    {
+      "label": "E-mail personnel",
+      "value": "2",
+      "body": "Généralement aidée à contacter jusqu’à 2 fabricants adaptés."
+    },
+    {
+      "label": "Objectif d’examen",
+      "value": "2j",
+      "body": "Traitée sous 2 jours ouvrables après vérification de l’e-mail et informations complètes."
+    }
+  ],
+  "routingTiers": [
+    {
+      "title": "E-mail professionnel",
+      "value": "3-5",
+      "body": "Lorsqu’elle est envoyée depuis un domaine d’entreprise avec des informations complètes, nous priorisons l’aide au suivi de devis avec 3-5 fabricants adaptés."
+    },
+    {
+      "title": "E-mail personnel",
+      "value": "Jusqu’à 2",
+      "body": "Les demandes qualifiées envoyées depuis un e-mail personnel commencent généralement avec jusqu’à 2 fabricants adaptés."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "filter_all_industries": "Tous les secteurs",
+  "no_results": "Aucun fabricant trouvé correspondant aux filtres sélectionnés.",
+  "clear_all": "Tout effacer",
+  "filter_industry": "Industrie",
+  "title": "Profils de fabricants chinois d’échangeurs de chaleur | HeatEx Direct",
+  "meta": {
+    "description": "Parcourez des profils structurés de fabricants chinois d’échangeurs de chaleur avec contexte d’entreprise, couverture produits, applications, documents et support d’acheminement des demandes de devis.",
+    "keywords": "fabricants chinois échangeurs de chaleur, usines échangeurs de chaleur Chine, profils fournisseurs échangeurs de chaleur, approvisionnement industriel échangeurs de chaleur"
+  },
+  "og": {
+    "title": "Profils de fabricants chinois d’échangeurs de chaleur | HeatEx Direct",
+    "description": "Parcourez des profils structurés de fabricants chinois d’échangeurs de chaleur et utilisez l’acheminement géré des demandes pour le suivi de devis."
+  },
+  "hero": {
+    "title": "Fabricants chinois d’échangeurs de chaleur",
+    "description": "Parcourez les fabricants chinois d'échangeurs de chaleur répertoriés et examinez leurs profils d'entreprise, leur couverture de produits, leur expérience en matière d'application et leurs marchés d'exportation pour identifier les fournisseurs qui répondent à vos besoins d'approvisionnement."
+  },
+  "card": {
+    "verified": "PROFILÉ",
+    "view_profile": "Voir le profil"
+  },
+  "company": {
+    "page_title": "Profil du fabricant",
+    "meta_description_default": "Profil du fabricant",
+    "back_to_list": "Retour aux fabricants",
+    "connect_note": "Partagez spécifications, quantité et besoins du projet. HeatEx Direct examine les demandes complètes et peut transmettre les demandes avec e-mail professionnel à 3-5 fabricants adaptés sous 2 jours ouvrables; les demandes avec e-mail personnel sont généralement transmises à 2 au maximum.",
+    "quote_here": "Demande de devis",
+    "iso_certified": "Certifié ISO",
+    "asme_stamp": "Timbre ASME",
+    "business_license": "Licence Commerciale.",
+    "global_trade": "Commerce mondial",
+    "verified": "Profilé",
+    "not_available": "N/A",
+    "company_overview": "Présentation de l'entreprise",
+    "why_choose_us": "Pourquoi nous choisir",
+    "industries_served": "Industries desservies",
+    "official_website": "Site officiel",
+    "visit_manufacturer": "Visitez le site Web du fabricant",
+    "product_showcase": "Vitrine de produits",
+    "technical_specifications": "Spécifications techniques",
+    "factory_gallery": "Galerie d'usine",
+    "factory_certifications": "Certifications d'usine",
+    "trusted_customers": "Approuvé par les leaders mondiaux",
+    "trusted_customers_desc": "Offrir l’excellence aux acteurs majeurs de tous les secteurs.",
+    "partner_with": "Associez-vous à {{name}}",
+    "partner_desc": "Envoyez une demande structurée pour examen manuel. Si la demande est complète et vérifiée, HeatEx Direct peut la transmettre à des fabricants adaptés pour le suivi de devis.",
+    "established": "HNE. {{year}}",
+    "factory_area_summary": "Superficie du terrain {{value}} m²",
+    "employee_count_summary": "Employés {{value}}",
+    "available_categories": "Catégories de produits disponibles:",
+    "export_markets": "Marchés d'exportation",
+    "contact_info": "Coordonnées",
+    "certificate": "Certificat",
+    "follow_us": "Suivez-nous",
+    "document_downloads": "Téléchargements de documents",
+    "download": "Télécharger"
+  }
+}

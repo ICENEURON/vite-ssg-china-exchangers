@@ -1,26 +1,10 @@
 (function () {
     // Theme Initialization
     try {
-        const enableThemeToggle = (window.__ENV__ && window.__ENV__.ENABLE_THEME_TOGGLE) !== 'false';
-
-        // If toggle is disabled, ignore localStorage and purely rely on system preference (or default)
-        // If toggle is enabled, use localStorage if available, otherwise system preference
-        let theme;
-        if (enableThemeToggle) {
-            const storedTheme = localStorage.getItem('theme');
-            theme = storedTheme === 'dark' || storedTheme === 'light' ? storedTheme : null;
-        }
-
-        const detectedTheme = theme ||
-            (enableThemeToggle && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-
-        window.__THEME__ = detectedTheme;
-
-        if (detectedTheme === 'dark') {
-            document.documentElement.classList.add('dark');
-        } else {
-            document.documentElement.classList.remove('dark');
-        }
+        // Enforce Light Theme Globally - User Request
+        window.__THEME__ = 'light';
+        document.documentElement.classList.remove('dark');
+        localStorage.removeItem('theme');
     } catch (e) {
         window.__THEME__ = 'light';
         document.documentElement.classList.remove('dark');

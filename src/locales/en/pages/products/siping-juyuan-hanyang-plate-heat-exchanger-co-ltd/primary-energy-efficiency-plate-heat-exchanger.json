@@ -1,0 +1,50 @@
+{
+  "slug": "primary-energy-efficiency-plate-heat-exchanger",
+  "name": "Primary Energy Efficiency Plate Heat Exchanger",
+  "full_description": "The official product page states that after the release of TSG R0010-2019, Heat Exchanger Energy Efficiency Testing and Evaluation Rules, THT Juyuan had eight plate series tested and evaluated by the National Heat Exchange Product Quality Supervision and Inspection Center and meeting Level-1 energy-efficiency requirements for high-efficiency plate heat exchangers: Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B, and P45A-H. The company also identifies itself as one of the drafting units of NB/T47004.1-2017 Plate Heat Exchanger.",
+  "industries": [
+    "HVAC",
+    "Petrochemical",
+    "Energy",
+    "Food Processing",
+    "Chemical Processing",
+    "Food and Beverage",
+    "Pharmaceuticals",
+    "Power Generation"
+  ],
+  "advantage": [
+    "Eight listed plate series meet Level-1 energy-efficiency requirements.",
+    "Officially connected with NB/T47004.1-2017 plate heat exchanger standard drafting.",
+    "The page highlights corrugation design and gasket fixing/sealing improvements for transfer efficiency and reliability."
+  ],
+  "technical_parameters": {
+    "Referenced Standard": "NB/T47004.1-2017",
+    "Maximum Design Pressure": "3.2MPa",
+    "Maximum Design Temperature": "150℃",
+    "Level-1 Energy-Efficiency Plate Series": "Y5F, Y10B, P15B(H), Y15B, S15B-H, P15G-Z, Y20B, P45A-H"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "What makes it different?",
+      "content": "The official page presents the product as a Level-1 energy-efficiency plate heat exchanger family, supported by national testing and evaluation and by the company’s role in plate heat exchanger standard drafting."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Primary Energy Efficiency Plate Heat Exchanger",
+    "meta_description": "Level-1 energy-efficiency plate heat exchanger series tested under China’s heat exchanger energy-efficiency evaluation rules."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Primary Energy Efficiency Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/primary_energy_efficiency_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "plate-air-preheater",
+  "name": "Precalentador de aire de placa",
+  "full_description": "El precalentador de aire de placas es un dispositivo de recuperación de calor que ahorra energía y es respetuoso con el medio ambiente. Las placas planas u corrugadas se sueldan o fijan mecánicamente alrededor de la periferia para formar paquetes de placas, y la unidad completa adopta un diseño de bloque de construcción modular con configuraciones flexibles y una fuerte adaptabilidad estructural. Está diseñado para recuperar el calor residual de los gases de escape industriales y transferirlo al aire de combustión o de proceso entrante, mejorando la eficiencia térmica, reduciendo la demanda de combustible fresco y disminuyendo las emisiones. Con la tecnología patentada Air Film, puede mitigar eficazmente la corrosión del punto de rocío ácido y se usa ampliamente en las industrias de refinación, química, acero, metalurgia y energía.",
+  "industries": [
+    "petroquímica",
+    "marina",
+    "Procesamiento químico",
+    "Alimentos y Bebidas"
+  ],
+  "advantage": [
+    "Alta recuperación de energía: el calor residual se reutiliza eficazmente, lo que reduce la demanda de combustible fresco y mejora la utilización general de la energía.",
+    "Protección contra la corrosión del punto de rocío: la tecnología patentada Air Film ayuda a prevenir la corrosión del punto de rocío ácido causada por las bajas temperaturas locales.",
+    "Diseño modular y flexible: el diseño modular de bloques de construcción mejora la mantenibilidad, la transportabilidad, la capacidad de actualización y la flexibilidad en el ajuste de tamaño.",
+    "Amplia aplicabilidad gas-gas: Adecuado para múltiples tareas de intercambio de calor atmosférico y de gas a gas a baja presión con beneficios ambientales y de ahorro de energía.",
+    "Alto rendimiento térmico: los elementos de transferencia de calor de placa pueden ofrecer de 1 a 3 veces el coeficiente de transferencia de calor de los elementos tubulares y, al mismo tiempo, equilibran la caída de presión a través de una geometría de canal optimizada.",
+    "Seguro y fácil de mantener: los paquetes de placas completamente soldados ofrecen un buen rendimiento de sellado, bajo riesgo de fugas, reducción de la acumulación de cenizas y una limpieza y mantenimiento convenientes, incluidas opciones de limpieza en línea."
+  ],
+  "technical_parameters": {
+    "Área máxima": "40000㎡",
+    "Espesor de placa": "0,6 ~ 2,0 mm",
+    "Material de placas": "304, 316L, 2205, 310S, 904L, Corten-A",
+    "Presión de diseño": "Vacío ~ 0,6 MPa",
+    "Temperatura de diseño": "-20 ~ 800℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "¿Qué es el precalentador de aire de placas?",
+      "content": "El precalentador de aire de placas es un intercambiador de calor de gas a gas que se utiliza para recuperar calor de los gases de escape calientes y transferirlo al aire de combustión o de proceso entrante. Por lo general, opera en disposiciones de contraflujo o flujo cruzado utilizando placas metálicas planas o corrugadas que forman canales de flujo frío y caliente alternos. Al recuperar el calor residual, mejora la eficiencia del sistema, reduce el consumo de combustible y disminuye las emisiones de gases de efecto invernadero."
+    },
+    {
+      "title": "¿Por qué elegir un precalentador de aire de placas?",
+      "content": "En comparación con los precalentadores de aire tubulares convencionales, los precalentadores de aire de placas ofrecen una superficie de transferencia de calor mucho mayor por unidad de volumen, coeficientes de transferencia de calor más altos, estructura compacta, menor peso y gran flexibilidad a través del ensamblaje modular. La tecnología Air Film, los materiales resistentes a la corrosión, la regulación de derivación y la selección de materiales graduados también pueden ayudar a abordar la corrosión del punto de rocío ácido y reducir el costo del ciclo de vida."
+    },
+    {
+      "title": "¿Cómo se diseña y fabrica?",
+      "content": "El producto se basa en unidades modulares de transferencia de calor, como ladrillos X, ladrillos E, ladrillos C y ladrillos S, que simplifican el transporte y el montaje in situ para sistemas grandes. El diseño también considera la selección de materiales, la configuración del flujo de aire, el manejo del estrés térmico y la protección contra la corrosión. Medidas como la compensación térmica, las juntas de expansión, el uso de materiales con bajo CTE, el análisis predictivo y el control de derivación ayudan a garantizar la durabilidad, el rendimiento de la recuperación de calor y la seguridad operativa."
+    }
+  ],
+  "applications": [
+    {
+      "order": 1,
+      "used_in": [
+        "Precalentamiento de aire de combustión de calderas",
+        "Recuperación de calor de hornos y kilns",
+        "Recuperación de calor de gases químicos",
+        "Recuperación de calor en energía y metalurgia"
+      ],
+      "advantages": [
+        "En comparación con precalentadores tubulares, la estructura de placas ofrece mayor área por unidad de volumen y menor peso.",
+        "El montaje modular permite dimensionamiento flexible para diferentes caudales de gas y programas de temperatura.",
+        "Materiales resistentes a corrosión, bypass y diseño de película de aire ayudan a controlar corrosión por punto de rocío."
+      ],
+      "application": "Recuperación de calor de gases de combustión industriales",
+      "description": "El precalentador de aire de placas recupera calor de gases de combustión o escape calientes y lo transfiere al aire de combustión o de proceso entrante. Este intercambio gas-gas mejora eficiencia, reduce consumo de combustible y apoya operación de ahorro energético en calderas, hornos, kilns y plantas de proceso."
+    }
+  ],
+  "seo_data": {
+    "meta_title": "Precalentador de aire de placa",
+    "meta_description": "Precalentador de aire de placas modular para recuperación de calor residual industrial con alta eficiencia térmica y protección contra la corrosión del punto de rocío."
+  },
+  "manufacturer": {
+    "slug": "shanghai-heat-transfer-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Air Preheater",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_1.jpg"
+    },
+    {
+      "alt_text": "Plate Air Preheater Module",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_2.jpg"
+    },
+    {
+      "alt_text": "Plate Air Preheater Installation",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_3.jpg"
+    },
+    {
+      "alt_text": "Plate Air Preheater Detail",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_images/plate_air_preheater_4.JPG"
+    }
+  ],
+  "application_images": [
+    {
+      "alt_text": "Plate air preheater for industrial flue gas waste heat recovery",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_applications/plate_air_preheater_waste_heat_recovery_application.png",
+      "file_name": "plate_air_preheater_waste_heat_recovery_application.png"
+    }
+  ],
+  "certificates": [
+    {
+      "alt_text": "ASME Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/asme.png"
+    },
+    {
+      "alt_text": "BV Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/bv.png"
+    },
+    {
+      "alt_text": "CE Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/ce.png"
+    },
+    {
+      "alt_text": "NBBI Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/nbbi.png"
+    },
+    {
+      "alt_text": "SGS Certificate",
+      "url": "/storage/assets/shanghai-heat-transfer-equipment-co-ltd/product_certifications/sgs.png"
+    }
+  ],
+  "documents": []
+}

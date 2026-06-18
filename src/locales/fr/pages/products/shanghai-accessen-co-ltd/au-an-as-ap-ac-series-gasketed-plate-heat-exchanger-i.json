@@ -1,0 +1,59 @@
+{
+  "slug": "au-an-as-ap-ac-series-gasketed-plate-heat-exchanger-i",
+  "name": "Échangeur de chaleur à plaques avec joints séries AU, AN, AS, AP, AC - I",
+  "full_description": "L'échangeur de chaleur à plaques avec joints des séries AU, AN, AS, AP, AC - I est conçu pour les applications industrielles où une efficacité de transfert de chaleur, une rentabilité, une sécurité, une fiabilité et une facilité de maintenance élevées sont requises. Accessen indique que la série utilise des joints clipsables sans colle et plusieurs modèles de plaques spécialisées pour couvrir une large gamme de capacités, de qualités de fluides et de températures de fonctionnement.",
+  "industries": [
+    "Pétrochimie",
+    "Marin",
+    "Énergie",
+    "Traitement chimique",
+    "Nourriture et boissons",
+    "Produits pharmaceutiques",
+    "Production d'énergie"
+  ],
+  "advantage": [
+    "Zone de distribution de flux améliorée",
+    "Joints d'étanchéité clipsables sans colle",
+    "Combinaisons optimisées de taille de plaque et d'angle",
+    "Plus d'accessoires en option",
+    "Zones d’accumulation d’encrassement réduites",
+    "Forte turbulence pour un transfert de chaleur amélioré",
+    "Coins de plaque autobloquants",
+    "Conception de joint de type toit étanche"
+  ],
+  "technical_parameters": {
+    "Température": "Différence de température minimale: 0,5-1 ℃, résistance à la température maximale: 200 ℃",
+    "Matériau des plaques": "AISI 304, 316, 316L, TI, SMO254...",
+    "Transfert thermique maximal": "80MW",
+    "Pression de conception maximale": "25 bars",
+    "Capacité de traitement maximale": "5000m³/h"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Qu'est-ce qui rend cette série industrielle à joints flexible?",
+      "content": "Accessen met en évidence l'utilisation de plusieurs angles de plaque, profondeurs de rainure et rapports d'aspect au sein de la même taille d'orifice afin que l'échangeur puisse être adapté à différentes tâches industrielles et conditions de fonctionnement."
+    },
+    {
+      "title": "Comment facilite-t-il la maintenance?",
+      "content": "La conception utilise des joints clipsables sans colle, une distribution améliorée du débit et des fonctionnalités d'alignement des coins des plaques pour simplifier l'entretien et contribuer à réduire les temps d'arrêt liés à l'encrassement."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur à plaques avec joints séries AU, AN, AS, AP, AC - I",
+    "meta_description": "Échangeur de chaleur industriel à plaques et joints avec géométrie de plaques configurable, joints sans colle et efficacité de transfert de chaleur élevée pour les applications de processus exigeantes."
+  },
+  "manufacturer": {
+    "slug": "shanghai-accessen-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "AU, AN, AS, AP, AC Series Gasketed Plate Heat Exchanger - I",
+      "url": "/storage/assets/shanghai-accessen-co-ltd/product_images/au_an_as_ap_ac_series_gasketed_plate_heat_exchanger_i.png"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

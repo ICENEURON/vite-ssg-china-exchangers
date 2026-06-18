@@ -1,0 +1,80 @@
+{
+  "title": "Mettez à jour votre profil de fabricant | HeatEx Direct",
+  "meta": {
+    "description": "Mettez à jour le profil d'un fabricant chinois d'échangeurs de chaleur sur HeatEx Direct en envoyant par courrier électronique des informations sur l'entreprise, des détails sur les produits, des fichiers, des certificats, des images et des demandes de correction.",
+    "keywords": "mettre à jour le profil du fabricant, le profil du fournisseur HeatEx Direct, la mise à jour du fabricant chinois de l'échangeur de chaleur, les images du fournisseur, les fichiers de produits"
+  },
+  "og": {
+    "title": "Mettez à jour votre profil de fabricant - HeatEx Direct",
+    "description": "Envoyez des informations mises à jour sur le fabricant, des détails sur le produit, des images, des fichiers et des corrections à HeatEx Direct par e-mail pour examen."
+  },
+  "hero": {
+    "title": "Mettez à jour votre profil de fabricant",
+    "description": "Les fabricants peuvent utiliser les modèles ci-dessous pour soumettre des informations mises à jour sur le fabricant, des détails sur les produits, des images, des certificats, des brochures et d'autres supports. Nous examinons tous les détails et mettons à jour le profil public lorsque les informations sont pertinentes et vérifiables.",
+    "highlights": [
+      "Mises à jour par courrier électronique",
+      "Images et fichiers acceptés",
+      "Modèles de profil disponibles"
+    ],
+    "company_template_cta": "Modèle d'entreprise",
+    "product_template_cta": "Modèle de produit",
+    "panel": {
+      "items": [
+        {
+          "title": "Envoyer du matériel par email",
+          "description": "Incluez le nom de votre entreprise, le lien de profil si disponible, le modèle complété et les fichiers de support."
+        },
+        {
+          "title": "Nous examinons le contenu",
+          "description": "Nous vérifions si les informations sont pertinentes, claires, utilisables et adaptées au profil public."
+        },
+        {
+          "title": "Les mises à jour approuvées sont mises en ligne",
+          "description": "Les mises à jour pertinentes seront ajoutées au profil du fabricant, aux pages produits ou aux sections média après examen."
+        }
+      ]
+    }
+  },
+  "update_scope": {
+    "title": "Ce que vous pouvez mettre à jour",
+    "description": "Nous préférons des informations claires et spécifiques qui aident les acheteurs à comprendre votre entreprise, vos produits, vos documents et votre réelle capacité de fabrication.",
+    "items": [
+      {
+        "title": "Informations sur l'entreprise",
+        "description": "Nom de l'entreprise, emplacement, site Web, année de création, étendue de l'activité, marchés d'exportation, industries principales et coordonnées."
+      },
+      {
+        "title": "Informations sur le produit",
+        "description": "Types d'échangeurs de chaleur, applications, matériaux, plages de pression et de température, séries de produits, normes et modèles disponibles."
+      },
+      {
+        "title": "Documents et certificats",
+        "description": "Brochures, catalogues, fiches techniques, certificats, manuels, références publiques et autres fichiers de produits ou d'entreprise."
+      },
+      {
+        "title": "Images et médias",
+        "description": "Photos de produits, photos d'usine, images d'atelier, images de processus, logos, photos d'exposition et autres médias adaptés à l'affichage public."
+      }
+    ]
+  },
+  "process": {
+    "title": "Comment les profils sont examinés",
+    "description": "Toutes les demandes de mise à jour sont examinées manuellement. Nous pouvons modifier le libellé, demander des éclaircissements ou refuser un contenu incomplet, sans rapport, invérifiable ou trop promotionnel."
+  },
+  "submission": {
+    "contact": {
+      "subject_label": "Sujet suggéré",
+      "subject_description": "Utilisez une ligne d'objet claire avec le nom de votre entreprise afin que nous puissions faire correspondre la mise à jour au bon profil.",
+      "copied": "Copié!"
+    },
+    "required": {
+      "title": "Modèle terminé",
+      "description": "Veuillez envoyer le modèle de mise à jour de profil complété sous forme de pièce jointe à un e-mail."
+    },
+    "media": {
+      "title": "Fichiers joints",
+      "description": "Envoyez des images de produits, des photos d'usine, des certificats, des brochures, des logos et d'autres fichiers de support sous forme de pièces jointes à un e-mail."
+    },
+    "footer_note": "Tous les documents soumis seront examinés manuellement avant toute mise à jour."
+  }
+}

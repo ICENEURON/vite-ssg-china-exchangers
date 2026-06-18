@@ -1,0 +1,41 @@
+{
+  "slug": "brazed-plate-heat-exchanger",
+  "name": "Brazed Plate Heat Exchanger",
+  "full_description": "The official page lists brazed plate heat exchanger product features as high turbulence and very high heat transfer performance, high temperature and pressure resistance, and small size with light weight. It explains that the brazing filler is heated from solid to liquid, fills gaps formed by plate support points through wetting and capillary action, and forms the connection between different materials after cooling. The page lists copper-based solder foil, nickel-based solder paste, and iron-based solder paste.",
+  "industries": [
+    "HVAC",
+    "Energy",
+    "Food Processing",
+    "Chemical Processing",
+    "Food and Beverage",
+    "Pharmaceuticals"
+  ],
+  "advantage": [
+    "High turbulence and high heat-transfer performance.",
+    "High temperature and pressure resistance.",
+    "Compact size and low weight.",
+    "Multiple filler metal options: copper-based, nickel-based, and iron-based brazing materials."
+  ],
+  "technical_parameters": {
+    "Brazing Materials": "Copper-based solder foil; nickel-based solder paste; iron-based solder paste"
+  },
+  "video_link": "",
+  "details": [],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Brazed Plate Heat Exchanger",
+    "meta_description": "Compact brazed plate heat exchanger with high turbulence heat transfer, high temperature and pressure resistance, and low weight."
+  },
+  "manufacturer": {
+    "slug": "siping-juyuan-hanyang-plate-heat-exchanger-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Brazed Plate Heat Exchanger",
+      "url": "/storage/assets/siping-juyuan-hanyang-plate-heat-exchanger-co-ltd/product_images/brazed_plate_heat_exchanger_1.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

@@ -1,0 +1,71 @@
+{
+  "filter_all": "All Industries",
+  "filter_all_manufacturers": "All Manufacturers",
+  "no_results": "No products found matching the selected filters.",
+  "clear_all": "Clear All",
+  "filter_by": "Industry",
+  "filter_manufacturer": "Manufacturer",
+  "title": "Industrial Heat Exchangers",
+  "description": "Browse industrial heat exchanger product profiles covering Chinese manufacturers, and filter by manufacturer and industry to compare plate, welded plate, shell and tube, air cooler, and heat exchange unit products.",
+  "hero": {
+    "title": "Industrial Heat Exchanger Product Catalogue",
+    "description": "Browse industrial heat exchanger product categories and view technical details, applications, product advantages, material information, and related manufacturer information for each product."
+  },
+  "card": {
+    "no_image": "No Image Available",
+    "explore_details": "Explore Details"
+  },
+  "cta": {
+    "title": "Not Sure Which Product You Need?",
+    "description": "Submit structured application parameters. HeatEx Direct reviews complete quote requests and routes qualified requests to suitable manufacturers according to project fit."
+  },
+  "detail": {
+    "back_to_manufacturer": "Back to Manufacturer Page",
+    "back_to_manufacturers": "Back to Manufacturers",
+    "back_to_list": "Back to Products",
+    "key_advantages": "Key Advantages",
+    "product_details": "Product Details",
+    "technical_specifications": "Technical Specifications",
+    "other_products": "Other Products From This Manufacturer",
+    "document_downloads": "Document Downloads",
+    "download": "Download",
+    "applications": "Product Applications",
+    "application_advantages": "Advantages",
+    "application_used_in": "Used In",
+    "rfq_requirements": {
+      "title": "Quote readiness for this product",
+      "heading": "Prepare a request that is easier to follow up for {{productName}}",
+      "description": "For smoother quotation follow-up, share real operating conditions, quantity, standards, materials, and project timing.",
+      "checklistTitle": "Information that helps follow-up",
+      "cta": "Start quote request",
+      "serviceCta": "View quote request service",
+      "items": [
+        {
+          "title": "Operating data",
+          "body": "Media, flow, inlet/outlet temperatures, pressure, and heat load."
+        },
+        {
+          "title": "Mechanical limits",
+          "body": "Material, design code, flange standard, pressure rating, and corrosion concerns."
+        },
+        {
+          "title": "Commercial context",
+          "body": "Quantity, target delivery time, destination, and project stage."
+        },
+        {
+          "title": "Files or uncertainties",
+          "body": "Datasheets, drawings, photos, or questions you want manufacturers to clarify."
+        }
+      ]
+    }
+  },
+  "categories": {},
+  "meta": {
+    "description": "Browse industrial heat exchanger product profiles covering Chinese manufacturers, and filter by manufacturer and industry to compare plate, welded plate, shell and tube, air cooler, and heat exchange unit products.",
+    "keywords": "industrial heat exchanger products, plate heat exchanger products, welded plate heat exchanger, shell and tube heat exchanger, air cooled heat exchanger, China heat exchanger manufacturers"
+  },
+  "og": {
+    "title": "Industrial Heat Exchangers",
+    "description": "Browse industrial heat exchanger product profiles covering Chinese manufacturers, and filter by manufacturer and industry to compare plate, welded plate, shell and tube, air cooler, and heat exchange unit products."
+  }
+}

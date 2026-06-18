@@ -1,0 +1,38 @@
+{
+  "title": "Créez votre compte",
+  "meta": {
+    "description": "Créez un compte HeatEx Direct pour les fonctionnalités protégées des acheteurs et des fournisseurs.",
+    "keywords": "registre, HeatEx Direct, compte acheteur, compte fournisseur, échangeurs de chaleur"
+  },
+  "og": {
+    "title": "S'inscrire - HeatEx Direct",
+    "description": "Créez un compte HeatEx Direct pour les fonctionnalités de sourcing et de collaboration avec les fournisseurs."
+  },
+  "hero": {
+    "title": "Créer un compte HeatEx Direct",
+    "subtitle": "Accédez aux futures demandes de devis, à la gestion des profils et aux fonctionnalités de collaboration avec les fournisseurs."
+  },
+  "form": {
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "confirm_password": "Confirmez le mot de passe",
+    "create_account": "Créer un compte",
+    "creating": "Création d'un compte...",
+    "have_account": "Vous avez déjà un compte?",
+    "signin_link": "Connectez-vous ici"
+  },
+  "benefits": {
+    "title": "L'accès au compte peut prendre en charge",
+    "items": [
+      "Flux de travail des acheteurs protégés",
+      "Visibilité du statut des demandes de devis futures",
+      "Gestion de la mise à jour du profil fournisseur",
+      "Contenu technique et mises à jour du profil",
+      "Futurs outils de collaboration sur les plateformes"
+    ]
+  },
+  "messages": {
+    "success_message": "Compte créé avec succès! Veuillez vérifier votre courrier électronique pour confirmer votre inscription.",
+    "welcome": "Bienvenue sur HeatEx Direct."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "plate-heat-exchanger",
+  "name": "Intercambiador de calor de placas",
+  "full_description": "Los intercambiadores de calor de placas ViEX son intercambiadores de calor de placas desmontables que se utilizan para calentar, enfriar, evaporar, condensar, esterilizar y recuperar calor. La página oficial del producto destaca la alta eficiencia de transferencia de calor, la baja pérdida de resistencia, la estructura compacta, el control de temperatura sensible, el montaje y desmontaje conveniente y la larga vida útil. También afirma que bajo la misma caída de presión, el coeficiente de transferencia de calor puede alcanzar de 3 a 5 veces el de los intercambiadores de calor de carcasa y tubos, la huella puede ser de aproximadamente un tercio y el consumo de metal de aproximadamente dos tercios, con una diferencia de temperatura promedio de tan solo 1 grado Celsius.",
+  "industries": [
+    "HVAC",
+    "petroquímica",
+    "marina",
+    "Energía",
+    "Procesamiento de alimentos",
+    "Procesamiento químico",
+    "Alimentos y Bebidas",
+    "Productos farmacéuticos",
+    "Generación de energía"
+  ],
+  "advantage": [
+    "Alta eficiencia de transferencia de calor",
+    "Baja pérdida de resistencia",
+    "Estructura compacta y tamaño reducido",
+    "Cómodo montaje y desmontaje",
+    "Operación flexible y amplia adaptabilidad a los medios",
+    "La diferencia de temperatura promedio puede ser tan baja como 1 grado Celsius"
+  ],
+  "technical_parameters": {
+    "Serie": "Intercambiadores de calor de placas desmontables serie V",
+    "Normas": "NB/T47004.1-2017; GB16409-1996",
+    "Consumo de metal": "Aproximadamente dos tercios de los intercambiadores de calor de carcasa y tubos",
+    "Huella de instalación": "Aproximadamente un tercio de los intercambiadores de calor de carcasa y tubos",
+    "Coeficiente de transferencia de calor": "Intercambiadores de calor de carcasa y tubos de 3 a 5 veces bajo la misma caída de presión",
+    "Diferencia media mínima de temperatura": "Tan bajo como 1 ℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "¿Dónde se utiliza el producto?",
+      "content": "La página oficial enumera las funciones de calefacción, refrigeración, evaporación, condensación, esterilización y recuperación de calor, y dice que el producto se utiliza ampliamente en las industrias del petróleo, la ingeniería química, la metalurgia, la minería, la energía eléctrica, la energía nuclear, la calefacción central, el transporte marítimo, los productos farmacéuticos, los alimentos, la electrónica, la automoción, los textiles ligeros y la fabricación de papel."
+    },
+    {
+      "title": "¿Qué variantes destaca ViEX?",
+      "content": "ViEX destaca los intercambiadores de calor de placas desmontables para calefacción central, energía nuclear, aire acondicionado y refrigeración, procesamiento de bebidas, metalurgia, petroquímica y tareas de canal ancho extraíbles."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Intercambiador de calor de placas | Siping ViEX",
+    "meta_description": "Intercambiador de calor de placas desmontables serie V para aplicaciones de calefacción, refrigeración, evaporación, condensación, esterilización y recuperación de calor."
+  },
+  "manufacturer": {
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Heat Exchanger",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/plate_heat_exchanger.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

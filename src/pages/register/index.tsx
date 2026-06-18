@@ -1,13 +1,17 @@
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { useLocation, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import { Head } from 'vite-react-ssg'
+import { SeoHead } from "../../components/seo/SeoHead"
 import { Button } from "../../components/ui/button"
-import { supabase } from "../../lib/supabase/client"
+import { getSupabaseClient } from "../../lib/supabase/client"
 
 export default function SignUpPage() {
   const { t } = useTranslation('translation')
   const nav = useNavigate()
+  const location = useLocation()
+  const siteUrl = import.meta.env.VITE_SITE_URL || "https://heatexdirect.com"
+  const siteName = import.meta.env.VITE_SITE_TITLE || "HeatEx Direct"
+  const currentUrl = new URL(location.pathname, siteUrl).href
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [confirmPassword, setConfirmPassword] = useState("")
@@ -27,28 +31,36 @@ export default function SignUpPage() {
       return
     }
 
-    const { data, error } = await supabase.auth.signUp({ email: email.trim(), password })
-    setLoading(false)
-    if (error) {
-      setError(error.message)
-      return
-    }
-    if (data.session) {
-      nav("/dashboard", { replace: true })
-    } else {
-      setInfo(t('pages.register.messages.success_message'))
+    try {
+      const supabase = await getSupabaseClient()
+      const { data, error } = await supabase.auth.signUp({ email: email.trim(), password })
+      setLoading(false)
+      if (error) {
+        setError(error.message)
+        return
+      }
+      if (data.session) {
+        nav("/dashboard", { replace: true })
+      } else {
+        setInfo(t('pages.register.messages.success_message'))
+      }
+    } catch (error) {
+      setLoading(false)
+      setError(error instanceof Error ? error.message : "Unable to sign up")
     }
   }
 
   return (
     <>
-      <Head>
-        <title>{t('pages.register.title')}</title>
-        <meta name="description" content={t('pages.register.meta.description')} />
-        <meta name="keywords" content={t('pages.register.meta.keywords')} />
-        <meta property="og:title" content={t('pages.register.og.title')} />
-        <meta property="og:description" content={t('pages.register.og.description')} />
-      </Head>
+      <SeoHead
+        title={t('pages.register.title')}
+        description={t('pages.register.meta.description')}
+        keywords={t('pages.register.meta.keywords')}
+        canonicalUrl={currentUrl}
+        ogTitle={t('pages.register.og.title')}
+        ogDescription={t('pages.register.og.description')}
+        siteName={siteName}
+      />
 
       <div className="min-h-[60vh] flex items-center justify-center">
         <div className="w-full max-w-5xl space-y-8">
@@ -56,7 +68,7 @@ export default function SignUpPage() {
           {/* Hero */}
           <section className="pt-12 pb-6 px-4">
             <div className="grid mx-auto max-w-5xl text-center gap-6">
-              <h1 className="gradient-text mb-4">{t("pages.register.hero.title")}</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">{t("pages.register.hero.title")}</h1>
               <h4 className="text-xl md:text-2xl text-foreground mb-2">
                 {t("pages.register.hero.subtitle")}
               </h4>
@@ -66,7 +78,7 @@ export default function SignUpPage() {
 
               {/* <div className="m-4 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Button size="lg" asChild>
-                  <a href="/claim-your-profile">{t("pages.home.hero.cta_secondary")}</a>
+                  <a href="/update-your-profile">{t("pages.home.hero.cta_secondary")}</a>
                 </Button>
               </div> */}
             </div>

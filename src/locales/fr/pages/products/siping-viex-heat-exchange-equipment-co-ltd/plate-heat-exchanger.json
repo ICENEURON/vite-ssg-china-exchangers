@@ -1,0 +1,60 @@
+{
+  "slug": "plate-heat-exchanger",
+  "name": "Échangeur de chaleur à plaques",
+  "full_description": "Les échangeurs de chaleur à plaques ViEX sont des échangeurs de chaleur à plaques amovibles utilisés pour le chauffage, le refroidissement, l'évaporation, la condensation, la stérilisation et la récupération de chaleur. La page produit officielle met en évidence une efficacité de transfert de chaleur élevée, une faible perte de résistance, une structure compacte, un contrôle sensible de la température, un montage et un démontage pratiques et une longue durée de vie. Il indique également que sous la même chute de pression, le coefficient de transfert de chaleur peut atteindre 3 à 5 fois celui des échangeurs de chaleur à calandre et tubes, l'empreinte au sol peut être d'environ un tiers et la consommation de métal d'environ deux tiers, avec une différence de température moyenne aussi faible que 1 degré Celsius.",
+  "industries": [
+    "HVAC",
+    "Pétrochimie",
+    "Marin",
+    "Énergie",
+    "Transformation des aliments",
+    "Traitement chimique",
+    "Nourriture et boissons",
+    "Produits pharmaceutiques",
+    "Production d'énergie"
+  ],
+  "advantage": [
+    "Efficacité élevée du transfert de chaleur",
+    "Faible perte de résistance",
+    "Structure compacte et faible encombrement",
+    "Montage et démontage pratiques",
+    "Fonctionnement flexible et grande adaptabilité aux supports",
+    "La différence de température moyenne peut descendre jusqu’à 1 degré Celsius"
+  ],
+  "technical_parameters": {
+    "Normes": "NB/T47004.1-2017; GB16409-1996",
+    "Série": "Échangeurs de chaleur à plaques amovibles série V",
+    "Encombrement": "Environ un tiers des échangeurs de chaleur à calandre et tubes",
+    "Consommation de métal": "Environ deux tiers des échangeurs de chaleur à calandre et tubes",
+    "Coefficient de transfert thermique": "3 à 5 fois les échangeurs de chaleur à calandre et tubes sous la même chute de pression",
+    "Différence moyenne minimale de température": "Aussi bas que 1 ℃"
+  },
+  "video_link": "",
+  "details": [
+    {
+      "title": "Où le produit est-il utilisé?",
+      "content": "La page officielle répertorie les tâches de chauffage, de refroidissement, d'évaporation, de condensation, de stérilisation et de récupération de chaleur, et indique que le produit est largement utilisé dans les industries du pétrole, du génie chimique, de la métallurgie, des mines, de l'énergie électrique, de l'énergie nucléaire, du chauffage central, du transport maritime, des produits pharmaceutiques, de l'alimentation, de l'électronique, de l'automobile, du textile léger et de la fabrication du papier."
+    },
+    {
+      "title": "Quelles variantes ViEX met-il en avant?",
+      "content": "ViEX met en avant les échangeurs de chaleur à plaques amovibles pour le chauffage central, l'énergie nucléaire, la climatisation et la réfrigération, la transformation des boissons, la métallurgie, la pétrochimie et les fonctions amovibles à canaux larges."
+    }
+  ],
+  "applications": null,
+  "seo_data": {
+    "meta_title": "Échangeur de chaleur à plaques | Siping ViEX",
+    "meta_description": "Échangeur de chaleur à plaques amovibles série V pour les applications de chauffage, de refroidissement, d'évaporation, de condensation, de stérilisation et de récupération de chaleur."
+  },
+  "manufacturer": {
+    "slug": "siping-viex-heat-exchange-equipment-co-ltd"
+  },
+  "images": [
+    {
+      "alt_text": "Plate Heat Exchanger",
+      "url": "/storage/assets/siping-viex-heat-exchange-equipment-co-ltd/product_images/plate_heat_exchanger.jpg"
+    }
+  ],
+  "application_images": [],
+  "certificates": [],
+  "documents": []
+}

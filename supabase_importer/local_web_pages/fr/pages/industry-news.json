@@ -1,0 +1,43 @@
+{
+  "title": "Guides d’achat d’échangeurs de chaleur, articles techniques et actualités fabricants | HeatEx Direct",
+  "meta": {
+    "description": "Lisez des guides d’achat d’échangeurs de chaleur, des articles techniques, des notes de préparation de demandes de devis et des actualités de fabricants chinois pour les acheteurs industriels.",
+    "keywords": "guide d’achat échangeur de chaleur, articles techniques échangeur de chaleur, checklist demande de devis échangeur de chaleur, fabricants chinois échangeurs de chaleur, actualités échangeurs de chaleur industriels"
+  },
+  "og": {
+    "title": "Guides d’achat et articles techniques sur les échangeurs de chaleur",
+    "description": "Lisez des guides d’achat, articles techniques, notes de préparation de demandes de devis et actualités de fabricants chinois pour mieux préparer les devis et sélectionner les usines."
+  },
+  "page": {
+    "title": "Nouvelles de l'industrie",
+    "subtitle": ""
+  },
+  "card": {
+    "read": "Lire l'article"
+  },
+  "content_types": {
+    "news": "Nouvelles",
+    "posts": "Article technique"
+  },
+  "filters": {
+    "company": "Entreprise",
+    "all": "Tous",
+    "no_results": "Aucun article ne correspond à ces filtres."
+  },
+  "search": {
+    "label": "Rechercher les titres des articles",
+    "title_placeholder": "Rechercher des mots-clés dans le titre"
+  },
+  "blog": {
+    "not_found_title": "Page introuvable",
+    "not_found_desc": "L'article que vous recherchez a peut-être été supprimé, son nom a été modifié ou est temporairement indisponible.",
+    "back_to_list": "Retour à la liste",
+    "back_to_catalog": "Retour aux actualités",
+    "author": "Auteur",
+    "read_time": "Lire",
+    "article_navigation": "Navigation de l'article",
+    "previous_article": "Article précédent",
+    "next_article": "Article suivant",
+    "related_posts": "Derniers articles"
+  }
+}

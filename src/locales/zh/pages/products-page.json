@@ -1,0 +1,71 @@
+{
+  "filter_all": "所有行业",
+  "filter_all_manufacturers": "所有制造商",
+  "no_results": "没有找到匹配筛选条件的产品。",
+  "clear_all": "清除全部",
+  "filter_by": "行业",
+  "filter_manufacturer": "制造商",
+  "title": "工业换热器",
+  "description": "浏览中国工业换热器产品资料，按制造商与行业筛选，并快速查看板式、焊接板式、管壳式、空冷器及换热机组等产品信息。",
+  "hero": {
+    "title": "工业换热器产品目录",
+    "description": "浏览工业换热器产品分类，并查看每个产品的技术详情、应用领域、产品优势、材料信息和相关制造商信息。"
+  },
+  "card": {
+    "no_image": "无可用图片",
+    "explore_details": "查看详情"
+  },
+  "cta": {
+    "title": "不确定您需要哪种产品？",
+    "description": "提交结构化应用参数。HeatEx Direct 会审核信息完整的询价，并按项目匹配度转给合适制造商跟进报价。"
+  },
+  "detail": {
+    "back_to_manufacturer": "返回制造商页面",
+    "back_to_manufacturers": "返回所有工厂",
+    "back_to_list": "返回所有产品",
+    "key_advantages": "主要优势",
+    "product_details": "产品详情",
+    "technical_specifications": "技术规格",
+    "other_products": "该公司的其他产品",
+    "document_downloads": "文档下载",
+    "download": "下载",
+    "applications": "产品应用",
+    "application_advantages": "优势",
+    "application_used_in": "应用领域",
+    "rfq_requirements": {
+      "title": "准备产品询价",
+      "heading": "为 {{productName}} 准备方便跟进的询价信息",
+      "description": "想让后续报价沟通更顺畅，尽量写清真实工况、数量、标准、材料和项目时间。",
+      "checklistTitle": "这些信息有助于后续跟进",
+      "cta": "开始询价",
+      "serviceCta": "了解询价服务",
+      "items": [
+        {
+          "title": "运行工况",
+          "body": "介质、流量、进出口温度、压力和热负荷。"
+        },
+        {
+          "title": "机械要求",
+          "body": "材料、设计标准、法兰标准、压力等级和腐蚀问题。"
+        },
+        {
+          "title": "采购背景",
+          "body": "数量、目标交期、目的地和项目阶段。"
+        },
+        {
+          "title": "文件或疑问",
+          "body": "数据表、图纸、照片，或希望厂家确认的问题。"
+        }
+      ]
+    }
+  },
+  "categories": {},
+  "meta": {
+    "description": "浏览中国工业换热器产品资料，按制造商与行业筛选，并快速查看板式、焊接板式、管壳式、空冷器及换热机组等产品信息。",
+    "keywords": "工业换热器产品, 板式换热器产品, 焊接板式换热器, 管壳式换热器, 空冷式换热器, 中国换热器制造商"
+  },
+  "og": {
+    "title": "工业换热器",
+    "description": "浏览中国工业换热器产品资料，按制造商与行业筛选，并快速查看板式、焊接板式、管壳式、空冷器及换热机组等产品信息。"
+  }
+}

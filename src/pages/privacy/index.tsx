@@ -1,76 +1,69 @@
-import { Head } from 'vite-react-ssg'
+import { useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { SeoHead } from '../../components/seo/SeoHead'
+
+type LegalSection = {
+  title: string
+  content: string | string[]
+}
+
+function getLegalTitle(title: string) {
+  return title.replace(/^\d+\.\s*/, '')
+}
 
 export default function PrivacyPage() {
   const { t } = useTranslation('translation')
+  const location = useLocation()
+  const siteUrl = import.meta.env.VITE_SITE_URL || "https://heatexdirect.com"
+  const siteName = import.meta.env.VITE_SITE_TITLE || "HeatEx Direct"
+  const currentUrl = new URL(location.pathname, siteUrl).href
+  const sections = Object.values(
+    t('pages.privacy.sections', { returnObjects: true }) as Record<string, LegalSection>
+  )
 
   return (
     <>
-      <Head>
-        <title>{t('pages.privacy.title')}</title>
-        <meta name="description" content={t('pages.privacy.meta.description')} />
-        <meta name="keywords" content={t('pages.privacy.meta.keywords')} />
-      </Head>
-      
-      <section className="py-12 px-4 mx-auto space-y-8">
-        <div className="text-center">
-          <h1 className="text-3xl font-bold">{t('pages.privacy.hero.title')}</h1>
-          <p className="mt-4 text-muted-foreground">
-            {t('pages.privacy.hero.subtitle')}
-          </p>
-        </div>
+      <SeoHead
+        title={t('pages.privacy.title')}
+        description={t('pages.privacy.meta.description')}
+        keywords={t('pages.privacy.meta.keywords')}
+        canonicalUrl={currentUrl}
+        siteName={siteName}
+      />
 
-        <div className="space-y-8">
-          <div>
-            <h3>{t('pages.privacy.sections.introduction.title')}</h3>
-            <p className="text-muted-foreground leading-relaxed">
-              {t('pages.privacy.sections.introduction.content')}
+      <main className="min-h-screen w-full flex flex-col items-center bg-white px-4 py-16">
+        <article className="w-full max-w-4xl">
+          {/* Header */}
+          <header className="mb-12 flex flex-col items-start gap-4 pb-2">
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-foreground">
+              {t('pages.privacy.hero.title')}
+            </h1>
+            <p className="max-w-3xl text-lg leading-8 text-slate-600">
+              {t('pages.privacy.hero.subtitle')}
             </p>
-          </div>
+          </header>
 
-          <div>
-            <h3>{t('pages.privacy.sections.collection.title')}</h3>
-            <p className="text-muted-foreground leading-relaxed">
-              {t('pages.privacy.sections.collection.content')}
-            </p>
-          </div>
+          {/* Content */}
+          <div className="space-y-10">
+            {sections.map((section) => {
+              const paragraphs = Array.isArray(section.content) ? section.content : [section.content]
 
-          <div>
-            <h3>{t('pages.privacy.sections.usage.title')}</h3>
-            <p className="text-muted-foreground leading-relaxed">
-              {t('pages.privacy.sections.usage.content')}
-            </p>
+              return (
+                <section key={section.title} className="scroll-mt-24">
+                  <h4 className="text-lg font-semibold leading-7 text-foreground">{getLegalTitle(section.title)}</h4>
+                  <div className="mt-3 space-y-4">
+                    {paragraphs.map((paragraph, paragraphIndex) => (
+                      <p key={paragraphIndex} className="text-base leading-7 text-slate-600">
+                        {paragraph}
+                      </p>
+                    ))}
+                  </div>
+                </section>
+              )
+            })}
           </div>
-
-          <div>
-            <h3>{t('pages.privacy.sections.sharing.title')}</h3>
-            <p className="text-muted-foreground leading-relaxed">
-              {t('pages.privacy.sections.sharing.content')}
-            </p>
-          </div>
-
-          <div>
-            <h3>{t('pages.privacy.sections.security.title')}</h3>
-            <p className="text-muted-foreground leading-relaxed">
-              {t('pages.privacy.sections.security.content')}
-            </p>
-          </div>
-
-          <div>
-            <h3>{t('pages.privacy.sections.cookies.title')}</h3>
-            <p className="text-muted-foreground leading-relaxed">
-              {t('pages.privacy.sections.cookies.content')}
-            </p>
-          </div>
-
-          <div>
-            <h3>{t('pages.privacy.sections.contact.title')}</h3>
-            <p className="text-muted-foreground leading-relaxed">
-              {t('pages.privacy.sections.contact.content')}
-            </p>
-          </div>
-        </div>
-      </section>
+        </article>
+      </main>
     </>
   )
 }

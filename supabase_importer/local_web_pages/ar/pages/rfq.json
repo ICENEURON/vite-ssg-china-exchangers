@@ -1,0 +1,486 @@
+{
+  "industries": [
+    {
+      "id": "hvac",
+      "label": "HVAC وخدمات البناء"
+    },
+    {
+      "id": "food",
+      "label": "الأغذية والألبان والمشروبات"
+    },
+    {
+      "id": "chemicals",
+      "label": "الكيماويات والبتروكيماويات"
+    },
+    {
+      "id": "marine",
+      "label": "البحرية والنقل"
+    },
+    {
+      "id": "power",
+      "label": "توليد الطاقة والطاقة"
+    },
+    {
+      "id": "pharma",
+      "label": "الأدوية والتكنولوجيا الحيوية"
+    },
+    {
+      "id": "pulp",
+      "label": "اللب والورق"
+    },
+    {
+      "id": "water",
+      "label": "معالجة المياه والنفايات"
+    },
+    {
+      "id": "mining",
+      "label": "التعدين والمعادن"
+    },
+    {
+      "id": "other",
+      "label": "آخر"
+    }
+  ],
+  "timelines": [
+    {
+      "id": "within_3_months",
+      "label": "خلال 3 أشهر"
+    },
+    {
+      "id": "3_6_months",
+      "label": "3-6 أشهر"
+    },
+    {
+      "id": "6_12_months",
+      "label": "6-12 شهرًا"
+    },
+    {
+      "id": "other",
+      "label": "أخرى"
+    }
+  ],
+  "quantities": [
+    {
+      "id": "1_unit",
+      "label": "وحدة واحدة"
+    },
+    {
+      "id": "2_5_units",
+      "label": "2-5 وحدات"
+    },
+    {
+      "id": "6_20_units",
+      "label": "6-20 وحدة"
+    },
+    {
+      "id": "20_plus_units",
+      "label": "20+ وحدة"
+    },
+    {
+      "id": "other",
+      "label": "أخرى"
+    }
+  ],
+  "productTypes": [
+    {
+      "id": "gasketed_phe",
+      "label": "مبادل حراري لوحي بحشيات"
+    },
+    {
+      "id": "brazed_phe",
+      "label": "مبادل حراري لوحي ملحوم بالنحاس"
+    },
+    {
+      "id": "welded_phe",
+      "label": "مبادل حراري لوحي ملحوم"
+    },
+    {
+      "id": "bloc_welded_phe",
+      "label": "مبادل حراري لوحي ملحوم من نوع BLOC / كتلي"
+    },
+    {
+      "id": "wide_gap_channel_welded_phe",
+      "label": "مبادل حراري لوحي ملحوم عريض القناة / عريض الفجوة"
+    },
+    {
+      "id": "shell_tube",
+      "label": "مبادل حراري أنبوبي غلافي"
+    },
+    {
+      "id": "air_cooled",
+      "label": "مبادل حراري مبرد بالهواء"
+    },
+    {
+      "id": "spares",
+      "label": "قطع غيار (ألواح، حشيات)"
+    },
+    {
+      "id": "other",
+      "label": "أخرى"
+    }
+  ],
+  "fluidTypes": [
+    {
+      "id": "single_liquid",
+      "label": "سائل أحادي الطور"
+    },
+    {
+      "id": "single_gas",
+      "label": "غاز أحادي الطور"
+    },
+    {
+      "id": "gas_liquid",
+      "label": "غاز سائل"
+    },
+    {
+      "id": "solid_liquid",
+      "label": "الصلبة والسائلة"
+    }
+  ],
+  "plateMaterials": [
+    {
+      "id": "s30403",
+      "label": "S30403"
+    },
+    {
+      "id": "s30408",
+      "label": "S30408"
+    },
+    {
+      "id": "s31603",
+      "label": "S31603"
+    },
+    {
+      "id": "254smo",
+      "label": "254SMO"
+    },
+    {
+      "id": "904l",
+      "label": "904L"
+    },
+    {
+      "id": "ta1",
+      "label": "TA1"
+    },
+    {
+      "id": "ta9",
+      "label": "TA9"
+    },
+    {
+      "id": "ni",
+      "label": "ني"
+    },
+    {
+      "id": "c276",
+      "label": "C-276"
+    },
+    {
+      "id": "other",
+      "label": "آخر"
+    }
+  ],
+  "flangeStandards": [
+    {
+      "id": "asme_b16_5_2025",
+      "label": "ASME B 16.5-2025"
+    },
+    {
+      "id": "en1092_1_2024",
+      "label": "EN1092-1-2024"
+    },
+    {
+      "id": "gost_33259_2015",
+      "label": "GOST 33259-2015"
+    },
+    {
+      "id": "other",
+      "label": "آخر"
+    }
+  ],
+  "steps": {
+    "context": "سياق",
+    "specifications": "معلمات التصميم",
+    "verification": "تَحَقّق",
+    "submit": "يُقدِّم"
+  },
+  "title": "طلب عرض سعر للمبادل الحراري - متابعة مصنعين بإدارة المنصة",
+  "description": "لا يلزم تسجيل. أكد بريدك واوصف المشروع الحقيقي حتى يستطيع المصنعون المناسبون الرد بدقة أكبر.",
+  "navbarTitle": "طلب عرض سعر لمبادل حراري",
+  "step1": {
+    "title": "1. سياق المشروع",
+    "subtitle": "شارك سياق المشروع المطلوب لتقييم ما إذا كان الطلب كاملا بما يكفي لتوجيهه إلى المصنعين.",
+    "firstNameLabel": "الاسم الأول",
+    "firstNamePlaceholder": "",
+    "lastNameLabel": "اسم العائلة",
+    "lastNamePlaceholder": "",
+    "companyLabel": "اسم الشركة",
+    "companyPlaceholder": "",
+    "countryLabel": "بلد الوجهة / المنطقة",
+    "industryLabel": "الصناعة / التطبيق",
+    "countryPlaceholder": "يختار",
+    "requiredHint": "",
+    "customIndustryPlaceholder": "الرجاء تحديد مجال عملك...",
+    "quantityLabel": "الكمية المطلوبة",
+    "customQuantityPlaceholder": "برجاء تحديد الكمية المطلوبة...",
+    "timelineLabel": "الجدول الزمني المتوقع للتسليم",
+    "customTimelinePlaceholder": "يرجى تحديد توقعات الجدول الزمني الخاص بك..."
+  },
+  "step2": {
+    "title": "2. معلمات التصميم والمعدات",
+    "subtitle": "توفير بيانات الوسائط الساخنة والباردة بالإضافة إلى معلمات المعدات الرئيسية.",
+    "unitMetric": "متري (درجة مئوية، م³/ساعة)",
+    "unitImperial": "الإمبراطوري (درجة فهرنهايت، GPM)",
+    "thermalSpecsTitle": "المواصفات الحرارية والأداء",
+    "thermalSpecsSubtitle": "",
+    "equipmentParamsTitle": "معلمات المعدات",
+    "equipmentParamsSubtitle": "",
+    "hotSide": "الجانب الساخن",
+    "coldSide": "الجانب البارد",
+    "requiredBadge": "مطلوب",
+    "requiredHint": "",
+    "singlePhaseSharedBadge": "مرحلة واحدة: نسخ خصائص المنفذ",
+    "autoCopiedLabel": "",
+    "mediaNameLabel": "اسم الوسائط",
+    "hotMediaPlaceholder": "",
+    "coldMediaPlaceholder": "",
+    "fluidTypeLabel": "نوع السائل",
+    "inletFluidTypeLabel": "مدخل",
+    "outletFluidTypeLabel": "مَنفَذ",
+    "fluidTypePlaceholder": "يختار",
+    "massFlowLabel": "التدفق الشامل (كجم/ساعة)",
+    "inletMassFlowLabel": "مدخل",
+    "outletMassFlowLabel": "مَنفَذ",
+    "massFlowPlaceholder": "",
+    "volumeFlowLabel": "حجم التدفق (م3/ساعة)",
+    "flowRequirementLabel": "",
+    "inletVolumeFlowLabel": "مدخل",
+    "outletVolumeFlowLabel": "مَنفَذ",
+    "volumeFlowPlaceholder": "",
+    "gasPhaseFractionLabel": "جزء المرحلة الغازية",
+    "inletGasPhaseFractionLabel": "مدخل",
+    "outletGasPhaseFractionLabel": "مَنفَذ",
+    "gasPhaseFractionPlaceholder": "0.15 أو 15%",
+    "inletPropertyLabel": "مدخل",
+    "outletPropertyLabel": "مَنفَذ",
+    "inletTempLabel": "درجة حرارة المدخل (درجة مئوية)",
+    "outletTempLabel": "درجة حرارة المخرج (درجة مئوية)",
+    "temperatureLabel": "درجة الحرارة (درجة مئوية)",
+    "densityLabel": "الكثافة (كجم/م3)",
+    "specificHeatLabel": "الحرارة النوعية (كيلو جول/كجم · درجة مئوية)",
+    "conductivityLabel": "الموصلية الحرارية (W/m·°C)",
+    "viscosityLabel": "اللزوجة الديناميكية (CP)",
+    "plateMaterialLabel": "مادة اللوحة",
+    "plateMaterialPlaceholder": "يختار",
+    "customPlateMaterialPlaceholder": "يرجى تحديد مادة اللوحة...",
+    "designCodeLabel": "كود التصميم",
+    "designCodePlaceholder": "GB/T 151، ASME الثامن، HG/T20592-2009",
+    "designPressureLabel": "ضغط التصميم (MPa)",
+    "testPressureLabel": "ضغط الاختبار (MPa)",
+    "designTemperatureLabel": "درجة حرارة التصميم (درجة مئوية)",
+    "flangeStandardLabel": "شفة القياسية",
+    "flangeStandardPlaceholder": "يختار",
+    "customFlangeStandardLabel": "معيار شفة أخرى",
+    "customFlangeStandardPlaceholder": "HG/T20592-2009",
+    "flangeNominalDiameterLabel": "فوهة شفة القطر الاسمي",
+    "flangeNominalDiameterPlaceholder": "DN100",
+    "flangeMaterialLabel": "مادة شفة فوهة",
+    "flangeMaterialPlaceholder": "S31603",
+    "flangePressureRatingLabel": "تصنيف ضغط شفة",
+    "flangePressureRatingPlaceholder": "PN16، PN63، فئة 150",
+    "flangeTypeSealingFaceLabel": "نوع شفة / وجه الختم",
+    "flangeTypeSealingFacePlaceholder": "ب/رف، ون/رف",
+    "heatLoadLabel": "الحمل الحراري (كيلوواط)",
+    "heatLoadPlaceholder": "1500",
+    "additionalNotesLabel": "ملاحظات إضافية/متطلبات مخصصة",
+    "additionalNotesPlaceholder": "هل هناك أي مواد محددة مطلوبة؟ قيود الأبعاد؟ الشهادات اللازمة؟ (الحد الأقصى 500 حرف)",
+    "requestModeTitle": "مستوى تفاصيل الطلب",
+    "quickModeTitle": "طلب عرض سعر سريع",
+    "quickModeDesc": "استخدمه عندما تعرف التطبيق ولكن ليست لديك كل معلمات التصميم بعد.",
+    "advancedModeTitle": "طلب عرض سعر متقدم",
+    "advancedModeDesc": "استخدمه عندما تكون لديك بيانات التشغيل والمواد ومعايير التوصيل بالفعل.",
+    "basicRequirementTitle": "المتطلبات الأساسية",
+    "productTypeLabel": "نوع المنتج",
+    "productTypePlaceholder": "اختر",
+    "customProductTypeLabel": "نوع منتج آخر",
+    "customProductTypePlaceholder": "يرجى تحديد نوع المنتج...",
+    "quantityPlaceholder": "اختر",
+    "timelinePlaceholder": "اختر",
+    "quickAdditionalNotesPlaceholder": "صف الخدمة، والتطبيق، والموائع، ودرجة الحرارة المستهدفة، وتوفر الرسومات، ومتطلبات الشهادات، أو أي قيود معروفة.",
+    "attachmentsTitle": "المرفقات",
+    "attachmentsDropLabel": "انقر للرفع أو اسحب الملفات هنا",
+    "attachmentsHelp": "الصور وملفات PDF وWord وExcel وCSV. 50.0 MB لكل ملف.",
+    "removeAttachmentLabel": "إزالة الملف",
+    "attachmentErrors": {
+      "tooManyFiles": "يمكن تحميل {{maxFiles}} ملفات كحد أقصى.",
+      "fileTooLarge": "{{fileName}} أكبر من {{maxFileSize}}.",
+      "unsupportedFileType": "{{fileName}} ليس نوع ملف مدعومًا.",
+      "thisFile": "هذا الملف"
+    }
+  },
+  "step3": {
+    "accessCodePlaceholder": "شفرة",
+    "title": "3. التحقق",
+    "subtitle": "أكد بريدك حتى تتمكن HeatEx Direct من توجيه طلب حقيقي ويتمكن المصنعون من المتابعة.",
+    "verifiedTitle": "البريد الإلكتروني تم التحقق منه بالفعل!",
+    "continueBtn": "الاستمرار في التقديم النهائي",
+    "verifySubtitle": "يساعد التحقق من البريد على تقليل الطلبات المزعجة، وتأكيد قناة تواصل حقيقية، وتمكين المصنعين المناسبين من المتابعة بعد المراجعة.",
+    "emailLabel": "عنوان البريد الإلكتروني",
+    "emailPlaceholder": "بريد إلكتروني",
+    "freeEmailTitle": "تم اكتشاف بريد إلكتروني شخصي.",
+    "freeEmailDesc": "عادةً ما يتم توجيه الطلب المؤهل من بريد شخصي أو مجاني إلى ما يصل إلى مصنعين مناسبين.",
+    "businessEmailTitle": "البريد الإلكتروني الخاص بالعمل يعزز موثوقية الطلب.",
+    "businessEmailDesc": "تراجع HeatEx Direct الطلبات الكاملة والمؤكدة من بريد عمل خلال يومي عمل وتوجهها إلى 3-5 مصنعين مناسبين لمتابعة عرض السعر.",
+    "sendBtn": "إرسال رمز التحقق",
+    "sendingBtn": "إرسال...",
+    "codeSentTo": "تم إرسال الرمز إلى",
+    "accessCodeLabel": "رمز التحقق",
+    "verifyBtn": "التحقق من البريد الإلكتروني الخاص بك",
+    "verifyingBtn": "جارٍ التحقق...",
+    "errors": {
+      "rateLimit": "ولأغراض أمنية، يمكنك فقط طلب ذلك بعد {{seconds}} ثانية.",
+      "network": "غير قادر على الوصول إلى خدمة التحقق. يرجى التحقق من شبكتك أو المحاولة مرة أخرى لاحقًا.",
+      "invalidCode": "رمز التحقق غير صالح أو منتهي الصلاحية",
+      "sendFailed": "فشل في إرسال رمز التحقق. يرجى المحاولة مرة أخرى.",
+      "verifyFailed": "فشل التحقق. يرجى المحاولة مرة أخرى."
+    },
+    "successTitle": "تم التحقق من البريد الإلكتروني!",
+    "successSubtitle": "ننتقل إلى التأكيد النهائي..."
+  },
+  "step4": {
+    "title": "4. قم بالتأكيد والإرسال",
+    "subtitle": "راجع تفاصيل طلب عرض الأسعار الخاص بك واختر إعدادات الخصوصية الخاصة بك.",
+    "emailVerifiedTitle": "تم التحقق من البريد الإلكتروني بنجاح!",
+    "anonymousMode": "وضع مجهول",
+    "publicMode": "الوضع العام",
+    "anonymousModeDesc": "لا تستطيع المصانع رؤية بريدك الإلكتروني مباشرة. نحن ندير الاتصالات.",
+    "publicModeDesc": "يمكن للمصانع رؤية معلومات بريدك الإلكتروني مباشرة.",
+    "sourceManufacturerTargetTitle": "أرسل إلى",
+    "sourceManufacturerTargetEnabledDesc": "سيعطي هذا الطلب أولوية للمصنع المصدر عند الصلة، ويمكن لـ HeatEx Direct أيضا توجيهه إلى مصنعين مناسبين آخرين حسب نوع المنتج والقطاع وظروف التشغيل.",
+    "sourceManufacturerTargetDisabledDesc": "لن يستهدف هذا الطلب المصنع المصدر تحديدا. ستراجع HeatEx Direct نوع المنتج والقطاع وظروف التشغيل لتحديد المصنعين المناسبين.",
+    "projectContextTitle": "1. سياق المشروع",
+    "productSpecsTitle": "2. معلمات التصميم والمعدات",
+    "editBtn": "يحرر",
+    "summaryCountry": "البلد / المنطقة",
+    "summaryIndustry": "الصناعة / التطبيق",
+    "summaryGeneralReq": "معلمات المعدات والملاحظات",
+    "summaryMediaName": "اسم الوسائط",
+    "summaryFluidType": "نوع السائل",
+    "summaryInletFluidType": "نوع السائل المدخل",
+    "summaryOutletFluidType": "نوع السائل المخرج",
+    "summaryMassFlow": "التدفق الشامل",
+    "summaryInletMassFlow": "مدخل التدفق الشامل",
+    "summaryOutletMassFlow": "مخرج التدفق الشامل",
+    "summaryInletVolumeFlow": "تدفق حجم المدخل",
+    "summaryOutletVolumeFlow": "تدفق حجم المخرج",
+    "summaryGasPhaseFraction": "جزء المرحلة الغازية",
+    "summaryInletGasPhaseFraction": "مدخل جزء مرحلة الغاز",
+    "summaryOutletGasPhaseFraction": "جزء مرحلة الغاز المخرج",
+    "summaryDesignPress": "ضغط التصميم",
+    "summaryTestPress": "ضغط الاختبار",
+    "summaryDesignTemp": "درجة حرارة التصميم",
+    "summaryDesignCode": "كود التصميم",
+    "summaryDensity": "كثافة",
+    "summaryInletDensity": "كثافة المدخل",
+    "summaryOutletDensity": "كثافة المخرج",
+    "summarySpecificHeat": "حرارة محددة",
+    "summaryInletSpecificHeat": "مدخل حرارة محددة",
+    "summaryOutletSpecificHeat": "مخرج حرارة محددة",
+    "summaryConductivity": "الموصلية الحرارية",
+    "summaryInletConductivity": "مدخل الموصلية الحرارية",
+    "summaryOutletConductivity": "منفذ التوصيل الحراري",
+    "summaryViscosity": "اللزوجة الديناميكية",
+    "summaryInletViscosity": "مدخل اللزوجة الديناميكية",
+    "summaryOutletViscosity": "مخرج اللزوجة الديناميكية",
+    "summaryPlateMaterial": "مادة اللوحة",
+    "summaryFlangeStandard": "شفة القياسية",
+    "summaryInletFlangeNominalDiameter": "مدخل فوهة شفة القطر الاسمي",
+    "summaryOutletFlangeNominalDiameter": "قطر فوهة شفة المخرج الاسمي",
+    "summaryFlangeMaterial": "مادة شفة فوهة",
+    "summaryFlangePressureRating": "تصنيف ضغط شفة",
+    "summaryFlangeTypeSealingFace": "نوع شفة / وجه الختم",
+    "summaryHeatLoad": "الحمل الحراري",
+    "summaryNotes": "ملاحظات إضافية",
+    "summaryHotSide": "الجانب الساخن",
+    "summaryColdSide": "الجانب البارد",
+    "summaryInlet": "درجة حرارة المدخل",
+    "summaryOutlet": "درجة حرارة المخرج",
+    "submitBtn": "الحصول على الاقتباس",
+    "otherPrefix": "آخر"
+  },
+  "parameterLabels": {
+    "inlet": "مدخل",
+    "outlet": "مَنفَذ",
+    "fluidType": "نوع السائل",
+    "massFlow": "التدفق الشامل",
+    "volumeFlow": "تدفق الحجم",
+    "gasPhaseFraction": "جزء المرحلة الغازية",
+    "temperature": "درجة حرارة",
+    "density": "كثافة",
+    "specificHeat": "حرارة محددة",
+    "thermalConductivity": "الموصلية الحرارية",
+    "dynamicViscosity": "اللزوجة الديناميكية",
+    "hotSide": "الجانب الساخن",
+    "coldSide": "الجانب البارد",
+    "mediaName": "اسم الوسائط",
+    "designPressure": "ضغط التصميم",
+    "testPressure": "ضغط الاختبار",
+    "designTemperature": "درجة حرارة التصميم",
+    "flangeStandard": "شفة القياسية",
+    "flangeNominalDiameter": "فوهة شفة القطر الاسمي",
+    "flangeMaterial": "مادة شفة فوهة",
+    "flangePressureRating": "تصنيف ضغط شفة",
+    "flangeTypeSealingFace": "نوع شفة / وجه الختم",
+    "thermal": "المعلمات الحرارية والأداء",
+    "equipment": "معلمات المعدات",
+    "heatLoad": "الحمل الحراري",
+    "designCode": "كود التصميم",
+    "plateMaterial": "مادة اللوحة",
+    "productType": "نوع المنتج",
+    "quantity": "الكمية المطلوبة",
+    "timeline": "موعد التسليم المتوقع"
+  },
+  "success": {
+    "title": "مُقَدَّم!",
+    "desc": "تم استلام طلبك. إذا تم تأكيد البريد وكانت معلومات المشروع كاملة، ستراجعه HeatEx Direct خلال يومي عمل وتوجهه حسب نوع البريد. إذا كانت هناك معلمات أساسية ناقصة، فقد نطلب توضيحا أولا.",
+    "homeBtn": "العودة إلى المنزل"
+  },
+  "actions": {
+    "back": "خلف",
+    "continue": "يكمل"
+  },
+  "meta": {
+    "keywords": "طلب عرض أسعار المبادل الحراري، خدمة طلب عرض أسعار المبادل الحراري، عرض أسعار المبادل الحراري اللوحي، مواصفات المبادل الحراري الصناعي، عرض أسعار الشركة المصنعة للمبادل الحراري"
+  },
+  "og": {
+    "title": "طلب عرض سعر للمبادل الحراري - متابعة مصنعين بإدارة المنصة",
+    "description": "أرسل طلبا منظما. تراجع HeatEx Direct الطلبات الكاملة والمؤكدة وتوجهها خلال يومي عمل: طلبات بريد العمل إلى 3-5 مصنعين مناسبين، وطلبات البريد الشخصي حتى مصنعين."
+  },
+  "entry": {
+    "title": "ملاحظات النموذج",
+    "description": "لا حاجة لإنشاء حساب. نتحقق من البريد الإلكتروني للتواصل مع مشترٍ حقيقي ومراجعة الطلب وتوجيهه إلى المصنعين المناسبين.",
+    "close": "إغلاق",
+    "reviewOptions": "ملاحظات النموذج",
+    "reopenCta": "ملاحظات النموذج",
+    "primaryCta": "ادخل إلى النموذج",
+    "points": [
+      {
+        "title": "لا حاجة لإنشاء حساب",
+        "body": "أكمل الطلب مباشرة."
+      },
+      {
+        "title": "يجب تأكيد البريد الإلكتروني",
+        "body": "نراجع ونوجه الطلب فقط بعد تأكيد بريد التواصل."
+      },
+      {
+        "title": "التفاصيل الواضحة تساعد",
+        "body": "ظروف التشغيل والمواصفات والكمية والموعد والرسومات والأسئلة تساعد في المطابقة."
+      }
+    ]
+  },
+  "spotlight": {
+    "title": "طلب واحد، عدة مصنعين",
+    "description": "لا حاجة لتكرار الرسائل أو إرسال بيانات الاتصال لكل مصنع منذ البداية. تنظم HeatEx Direct طلبك وتراجعه قبل إرساله إلى مصنعين مناسبين؛ وتبقى بيانات الاتصال محمية إلى أن يتم تأكيد التفاصيل.",
+    "primaryCta": "ابدأ الطلب",
+    "serviceCta": "عرض خدمة الطلب"
+  }
+}
